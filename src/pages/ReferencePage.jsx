@@ -1,6 +1,8 @@
 import { Link, Navigate, useParams } from 'react-router-dom'
 import { getBook, getSource } from '../data/library.js'
 import { useSourceChapter } from '../hooks/useSourceChapter.js'
+import { useScrollSpy } from '../hooks/useScrollSpy.js'
+import { buildSections } from '../lib/sections.js'
 
 export default function ReferencePage() {
   const { bookSlug, chapterId } = useParams()
@@ -18,45 +20,101 @@ function Reader({ book, chapterId }) {
   const chapter = chapters[index]
   const { status, data, error } = useSourceChapter(book.sourceSlug, chapterId)
 
+  // Regroup the flat heading/paragraph blocks into the numbered sections used
+  // by the written lessons (I Lectio, II Grammatica, III Vocabula, IV Pensa…).
+  const sections = status === 'ready' ? buildSections(data?.blocks, book.sourceSlug, data || chapter || {}) : null
+  const active = useScrollSpy((sections || []).map((s) => s.id))
+
   if (!chapter) return <Navigate to={`/library/${book.slug}`} replace />
 
   const prev = index > 0 ? chapters[index - 1] : null
   const next = index < chapters.length - 1 ? chapters[index + 1] : null
-  const label = chapter.roman || chapter.number
+  const label = chapter.roman || chapter.number || '·'
+  const eyebrow = chapter.number
+    ? book.slug === 'familia-romana'
+      ? `Capitulum ${chapter.roman}`
+      : `Chapter ${chapter.roman}`
+    : source?.title || book.title
 
   return (
-    <article className="reader">
-      <div className="container reader__container">
+    <article className="lesson">
+      <div className="container lesson__container">
         <Link to={`/library/${book.slug}`} className="back-link">
           ← {book.shortTitle}
         </Link>
 
-        <header className="reader__header rise">
-          <p className="eyebrow">{source?.title || book.title}</p>
-          <div className="reader__heading">
-            <span className="reader__numeral" aria-hidden="true">
+        <header className="lesson__header rise">
+          <div className="lesson__heading">
+            <span className="lesson__numeral" aria-hidden="true">
               {label}
             </span>
-            <div className="reader__heading-text">
-              <h1 className="reader__title">{chapter.title || `Chapter ${chapter.number}`}</h1>
-              {chapter.latinTitle && <p className="reader__latin latin">{chapter.latinTitle}</p>}
+            <div className="lesson__heading-text">
+              <p className="eyebrow">{eyebrow}</p>
+              <h1 className="lesson__latin-title latin">{chapter.latinTitle || chapter.title}</h1>
+              {chapter.latinTitle && chapter.title && <p className="lesson__title">{chapter.title}</p>}
             </div>
           </div>
-          <p className="reader__source muted">
-            Full text · {book.author}
-            {book.edition ? ` · ${book.edition}` : ''}
-          </p>
         </header>
 
-        <div className="reader__body">
-          {status === 'loading' && <p className="reader__status muted">Loading the chapter…</p>}
-          {status === 'error' && (
-            <p className="reader__status notice">
-              Could not load this chapter. {error?.message || ''}
-            </p>
-          )}
-          {status === 'ready' &&
-            data?.blocks?.map((block, i) =>
+        {status === 'loading' && <p className="reader__status muted">Loading the chapter…</p>}
+        {status === 'error' && (
+          <p className="reader__status notice">Could not load this chapter. {error?.message || ''}</p>
+        )}
+
+        {status === 'ready' && sections && (
+          <div className="lesson__layout">
+            <aside className="lesson__rail">
+              <div className="lesson__rail-inner">
+                <p className="lesson__rail-title">In this chapter</p>
+                <nav className="lesson__toc" aria-label="On this page">
+                  {sections.map((section) => (
+                    <a key={section.id} href={`#${section.id}`} className={active === section.id ? 'is-active' : ''}>
+                      <span className="lesson__toc-num">{section.num}</span>
+                      <span className="lesson__toc-label">
+                        <span className="lesson__toc-latin latin">{section.latin}</span>
+                        <span className="lesson__toc-sub">{section.english}</span>
+                      </span>
+                    </a>
+                  ))}
+                </nav>
+              </div>
+            </aside>
+
+            <div className="lesson__main">
+              {sections.map((section) => (
+                <section className="lesson__section" id={section.id} key={section.id}>
+                  <div className="lesson__section-head">
+                    <span className="lesson__section-index" aria-hidden="true">
+                      {section.num}
+                    </span>
+                    <div className="lesson__section-heading">
+                      <h2 className="lesson__section-title latin">{section.latin}</h2>
+                      <p className="lesson__section-kicker">{section.english}</p>
+                    </div>
+                  </div>
+
+                  <div className="reference-text">
+                    {section.blocks.map((block, i) =>
+                      block.t === 'h' ? (
+                        <h3 className="reference-text__h" key={i}>
+                          {block.text}
+                        </h3>
+                      ) : (
+                        <p className="reference-text__p" key={i}>
+                          {block.text}
+                        </p>
+                      ),
+                    )}
+                  </div>
+                </section>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {status === 'ready' && !sections && (
+          <div className="reader__body" style={{ marginTop: '2.5rem' }}>
+            {data?.blocks?.map((block, i) =>
               block.t === 'h' ? (
                 <h2 key={i} className="reader__h">
                   {block.text}
@@ -65,24 +123,25 @@ function Reader({ book, chapterId }) {
                 <p key={i}>{block.text}</p>
               ),
             )}
-        </div>
+          </div>
+        )}
 
-        <nav className="reader__nav" aria-label="Chapter navigation">
+        <nav className="lesson__nav" aria-label="Chapter navigation">
           {prev ? (
-            <Link className="reader__nav-link reader__nav-link--prev" to={`/library/${book.slug}/read/${prev.id}`}>
-              <span className="muted">← {prev.roman || prev.number}</span>
+            <Link className="lesson__nav-link lesson__nav-link--prev" to={`/library/${book.slug}/read/${prev.id}`}>
+              <span className="muted">← {prev.roman || prev.number || 'Back'}</span>
               <span>{prev.title}</span>
             </Link>
           ) : (
             <span />
           )}
           {next ? (
-            <Link className="reader__nav-link reader__nav-link--next" to={`/library/${book.slug}/read/${next.id}`}>
-              <span className="muted">{next.roman || next.number} →</span>
+            <Link className="lesson__nav-link lesson__nav-link--next" to={`/library/${book.slug}/read/${next.id}`}>
+              <span className="muted">{next.roman || next.number || 'Next'} →</span>
               <span>{next.title}</span>
             </Link>
           ) : (
-            <Link className="reader__nav-link reader__nav-link--next" to={`/library/${book.slug}`}>
+            <Link className="lesson__nav-link lesson__nav-link--next" to={`/library/${book.slug}`}>
               <span className="muted">Back to →</span>
               <span>{book.shortTitle}</span>
             </Link>
