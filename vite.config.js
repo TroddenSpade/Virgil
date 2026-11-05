@@ -2,9 +2,10 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
-// Deployed to a GitHub project page (https://<user>.github.io/Virgil/), so the
-// production build needs a base of "/Virgil/". Set VITE_BASE to override; local
-// dev and preview default to "/".
+// The site is served from the root of a GitHub Pages custom domain
+// (https://virgil.parsasam.ir/), so the production build uses a base of "/".
+// Set VITE_BASE to override (use "/Virgil/" for a project sub-path); local dev
+// and preview default to "/".
 const base = process.env.VITE_BASE || '/'
 
 // https://vite.dev/config/
