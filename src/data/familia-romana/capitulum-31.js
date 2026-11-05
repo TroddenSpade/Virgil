@@ -1,0 +1,232 @@
+// Capitulum XXXI — Inter Pocula
+// Sources: Ørberg, Lingua Latina per se Illustrata, Pars I: Familia Romana (2nd ed.)
+// Reading text, grammar and exercises adapted and re-typeset for the web.
+
+const chapter = {
+  number: 31,
+  roman: 'XXXI',
+  slug: 'inter-pocula',
+  latinTitle: 'INTER POCVLA',
+  title: 'Between the Cups',
+  tagline:
+    'Talk of the city turns to a runaway slave, the tale of Midas, and the rules of the feast — till Orontes drinks too much and slides under the table.',
+  status: 'complete',
+  overview:
+    'At Iulius’ table the guests talk of news from Rome, and Orontes tells the old Greek tale of King ' +
+    'Midas and his golden touch. The talk turns to Iulius’ runaway slave Medus: what reward to set, ' +
+    'whether a master should be merciful, and how a Roman may punish a faithless slave. Then the cups ' +
+    'are raised, the company sings of love and wine, and Orontes, drunk, slips beneath the table. ' +
+    'Through it all you learn the gerundive (laudandus -a -um) and the gerundive of obligation with ' +
+    'esse and the dative: lingua Latina vobis discenda est.',
+  objectives: [
+    'Read a long prose dialogue set at a Roman dinner-table.',
+    'Form the gerundive from the verb-stem: laudare → laudandus -a -um.',
+    'Express what must be done with the gerundive and esse: omnia menda corrigenda sunt.',
+    'Put the person whose duty it is in the dative: discipulus industrius magistro laudandus est.',
+    'Recognise the impersonal neuter: tacendum est — one must be silent.',
+  ],
+  readings: [
+    {
+      id: 'sermo-convivarum',
+      latinTitle: 'SERMO CONVIVARVM',
+      title: 'Talk at Table',
+      paragraphs: [
+        "Non solum de cibo et potione est sermo convivarum. Iulius hospites suos de rebus urbanis interrogat: 'Quid novi ex urbe? Octo dies iam sunt cum Romae non fui, nec quisquam interim mihi litteras inde misit. Quam ob rem nec ipse praesens nec absens per litteras quidquam cognovi de eo quod nuper Romae factum est.'",
+        "Aemilia: 'Nemo tibi quidquam scribet de rebus urbanis, nisi prius ipse epistulam scripseris.' Orontes: 'Opus non est epistulas exspectare, nam facile aliquid novi per nuntios cognoscere potes. Cur non servum aliquem Romam mittis?' Iulius: 'Servi sunt mali nuntii: saepe falsos rumores nuntiant. Numquam servos meos Romam mitto.'",
+        "Cornelius: 'Quid? Heri quendam servum tuum vidi in via Latina. Faciem recognovi; saepe eum hic vidi.' Iulius a Cornelio quaerit quod nomen ei sit. Cornelius: 'Aliquod nomen Graecum, puto. Midas — nec vero certus sum; semper nomina obliviscor, nam mala memoria mihi est.'",
+        "Orontes: 'Midas est nomen regis, de quo haec tabula narrat: in quadam urbe Asiae olim vivebat rex quidam avarus, nomine Midas, qui nihil magis optabat divitias...' Iulius, qui tabulam audire non vult, Orontem interpellat: 'Non Midas,' inquit, 'sed Medus est nomen servi mei, qui heri...' Orontes vero, minime turbatus, narrare pergit:",
+        'Bacchus deus, qui ob quoddam beneficium regi bene volebat, "Dabo tibi," inquit, "quidquid optaveris." Midas: "Ergo da mihi potestatem quidquid tetigero in aurum mutandi. Hoc solum mihi opto." Bacchus autem, etsi regem avarum munus pessimum optasse censebat, tamen promissum solvit.',
+        "At Aemilia, quae tabulam ignorat, ab Oronte quaerit quid id munus pessimum sit. Cui Orontes: 'Stulte id quaeris,' inquit. 'Midas enim terram, lignum, ferrum manu tangendo in aurum mutare poterat, ac fame et siti moriebatur, cum cibus quoque et potio, simul atque a rege tacta erat, aurum fieret. Postremo rex miser deum oravit ut munus illud infelix revocaret. Bacchus igitur ei suasit ut in quodam flumine lavaretur; cuius fluminis aqua, simul atque corpore regis tacta est, colorem aureum accepit.'",
+        "Iulius: 'Hicine finis tabulae est?' Orontes: 'Huius quidem tabulae finis est, sed aliam tabulam de eodem rege novi. Deus Apollo effecerat ut Midas aures asininas haberet...' Iulius: 'Satis est! Fabulas tuas Graecas audire nolumus. Redeamus ad meum Medum servum, qui heri aufugit aliquantum pecuniae secum auferens.'",
+      ],
+      notes: [
+        { term: 'conviva', gloss: 'a guest at a banquet; sermo convivarum = the guests’ talk.' },
+        { term: 'sermo', gloss: 'talk, conversation — here the after-dinner talk of the guests.' },
+        { term: 'nuntius', gloss: 'a messenger; also a piece of news — mali nuntii, bad messengers.' },
+        { term: 'rumor', gloss: 'a rumour, report; falsi rumores = false rumours.' },
+        { term: 'tabula', gloss: 'a painted panel or picture; here it shows the story of King Midas.' },
+        { term: 'oblivisci', gloss: 'to forget: semper nomina obliviscor, I always forget names.' },
+        { term: 'munus', gloss: 'a gift, a service; munus illud infelix = that unlucky gift.' },
+        { term: 'asininus', gloss: 'of a donkey; aures asininae = donkey’s ears.' },
+      ],
+    },
+    {
+      id: 'servus-fugitivus',
+      latinTitle: 'SERVVS FVGITIVVS',
+      title: 'The Runaway Slave',
+      paragraphs: [
+        "Cornelius: 'Quantum pecuniae abstulit?' Iulius: 'Centum circiter sestertios. Atque ego illi servo praeter ceteros fidebam! Posthac servo Graeco numquam confidam, neque enim fide mea digni sunt: infidi et nequam sunt omnes! In familia mea unum solum servum fidum esse credo.' Hic Aemilia maritum interpellat et 'St, Iuli!' inquit, 'Noli servum praesentem laudare!'",
+        "Iulius Davum conspiciens: 'Sed is servus adest,' inquit, 'nolo eum laudare praesentem. Medus vero plane infidissimus omnium est. Profecto eum verberabo atque omnibus modis cruciabo, si eum invenero priusquam Italiam reliquerit. Nisi pecuniam mihi reddiderit, in cruce figetur!'",
+        "Cornelius: 'Etiam si adhuc Romae latet, difficile erit servum fugitivum in tanta urbe reperire. Romae enim tot servi sunt quot homines liberi.' Aemilia: 'Fortasse Romam abiit ob amorem alicuius puellae. Iuvenis est Medus: quid non faciunt iuvenes amoris causa? Credo eum apud puellam Romanam latere.' Orontes: 'Ergo numquam reperietur, nam verum est quod scripsit Ovidius in libro qui vocatur Ars amandi: Quot caelum stellas, tot habet tua Roma puellas.'",
+        "Iulius: 'Profecto magnum praemium dabo ei qui servum meum fugitivum huc retraxerit.' Cornelius: 'Quantum pecuniae dabis? Certum praemium statuere oportet.' Iulius: 'Tantum quantum ille surripuit.' Orontes: 'Centum tantum sestertios? Sane non magnum praemium promittis!'",
+        "Aemilia autem marito suo suadet ut clemens sit: 'Noli, Iuli, Medum cruciare, si eum inveneris. Clemens esto! Centum sestertii haud magna pecunia est, nec aliud quidquam surripuit Medus.' Iulius: 'An censes eum praemium meruisse quod abstinuit a gemmis tuis? Nimis clementes sunt mulieres, quae tam facile viris nequissimis ignoscunt! At mihi melior est memoria!'",
+        "Aemilia: 'Novistine hoc dictum: Domino severo tot hostes quot servos? Servi enim dominum clementem amant, severum oderunt.' Iulius: 'Servi me metuunt quidem, nec vero oderunt. Neque enim umquam sine causa servum punivi. Sum dominus iustus. Servus dominum iniustum odit, iustum et severum metuit, non odit. Ne servo quidem iniuriam facere oportet, sed necesse est servos infidos aut fugitivos severe punire; nec enim quidquam nisi poena severa eius generis servos a maleficiis deterrere atque in officio tenere potest. Neque quisquam me accusabit si servum meum cruciavero aut interlecero; id enim est ius domini Romani. Servum alienum necare non licet, ut scriptum est in legibus, nec vero ulla lex dominum vetat servum suum improbum interficere.'",
+        "Cornelius: 'Nec ulla lex id permittit. Non idem est permittere ac non vetare. Solo, vir sapiens et iustus, qui Atheniensibus leges scripsit, nullam poenam statuit in parricidas. Num ideo censes civi Atheniensi licuisse patrem suum necare?'",
+        "Iulius: 'Ita sane non censeo. At quamobrem Solo nullam poenam in parricidas statuit? Quia nemo Atheniensis umquam post hominum memoriam patrem suum occiderat, nec ille vir sapientissimus arbitrabatur quemquam postea tam inhumanum scelus facturum esse. At profecto aliud est patrem suum necare, longe aliud servum scelestum capite punire; illud enim turpissimum scelus, hoc supplicium iustum est. Olim ius erat patri familias non modo servos, sed etiam liberos suos interficere. Eius rei exemplum memoratur Titus Manlius Torquatus, qui filium suum coram exercitu necari iussit quia contra imperium patris cum hoste pugnaverat. Sane pater crudelis fuit Manlius, sed illo supplicio ceteri milites deterrebantur ne officium desererent.'",
+        "Aemilia: 'Notum est veteres Romanos etiam erga suos crudeles fuisse, nec vero quisquam hodie exemplum sumit ab illo patre crudelissimo.' Orontes: 'At etiam nunc patri licet infantem suum in montibus exponere.' Aemilia: 'Pater qui infantem exposuit ipse necandus est. Nonne talis pater tibi videtur cruce dignus esse?'",
+        "Iulius: 'Certe pater tam inhumanus severe puniendus est, namque infantes invalidos exponere mos est inhumanus atque crudelis. Alii nunc sunt mores. Verum liberum cruci figere non est mos Romanorum; id supplicium in servos statutum est.' Aemilia: 'Ergo qui infantem suum debilem ad feras exponi iussit, ipse ad bestias mittendus est cum aliis scelestis!'",
+        "Orontes: '...et cum Christianis istis, qui quendam hominem Iudaeum tamquam novum deum adorant, deos Romanos derident. In conviviis suis sanguinem bibere solent, ut rumor est.' Aemilia: 'Non omnes veri sunt rumores qui afferuntur super Christianis.' Fabia: 'Nec omnes infantes expositi pereunt. Alii ab ipsis feris aluntur, alii inveniuntur a pastoribus, qui eos cum liberis suis educant.'",
+      ],
+      notes: [
+        { term: 'servus fugitivus', gloss: 'a runaway slave — one who has fled his master.' },
+        { term: 'fidebam / confidere', gloss: 'I trusted / to trust — both take the dative: illi servo fidebam.' },
+        { term: 'nequam', gloss: 'worthless, good-for-nothing — an adjective that does not change its form.' },
+        { term: 'in cruce figetur', gloss: 'he will be nailed to the cross — the slave’s punishment.' },
+        { term: 'latere', gloss: 'to hide, lurk: adhuc Romae latet, he is still hiding in Rome.' },
+        { term: 'parricida', gloss: 'one who kills a parent, a parricide.' },
+        { term: 'supplicium', gloss: 'punishment, execution; supplicium iustum = a just punishment.' },
+        { term: 'exponere', gloss: 'to expose a new-born child, i.e. to leave it out to die.' },
+      ],
+    },
+    {
+      id: 'inter-pocula',
+      latinTitle: 'INTER POCVLA',
+      title: 'Between the Cups',
+      paragraphs: [
+        "Orontes: 'Sicut Paris, regis Priami filius debilis, qui a servo regis fido in quodam monte prope urbem Troiam expositus...' At Cornelius: 'Opus non est,' inquit, 'vetus exemplum Graecum afferre, cum complures fabulae narrentur de Romanis pueris qui ita servati sunt. Ceterum fabulam male intellexisti, nec enim debilis fuit Paris nec fidus servus Priami; nam rex ei imperaverat ut Paridem interficeret, et quidquid dominus imperavit, servo faciendum est.'",
+        "Orontes: 'Ille servus non puniendus, sed potius laudandus fuit; namque ita Paridem servavit — eum qui postea Helenam, feminam omnium pulcherrimam, a marito Menelao abduxit.' Paula: 'Num tantam iniuriam laudandam esse censes?' Orontes: 'Quod Venus suadet iniuria non est! Sane laudandus est ille iuvenis qui non modo feminam illam pulcherrimam abducere ausus est, sed etiam miles fortissimus fuit qui et multos alios hostes et ipsum Achillem occidit.'",
+        "Hic poculum tollit Orontes et exclamat: 'Vivat fortissimus quisque! Vivant omnes feminae amandae! Gaudeamus atque amemus! Iuvenes sumus ut Paris, non senes ut Priamus, rex Troianorum, aut Nestor, dux Graecorum senex, qui ad nonagesimum annum vixit. Quisquis feminas amat, poculum tollat et bibat mecum! Nunc merum bibendum est!' Cornelius: 'Tacendum est, non bibendum! Iam nimium bibisti. Censeo te plus vini bibisse quam nos omnes, vel potius alterum tantum!'",
+        "Orontes: 'Vos igitur parum bibistis. Numquam nimium huius vini bibere possum. Valeat quisquis vinum amat! Vivat Bacchus, deus vini! Vivamus omnes et bibamus! Pocula funditus exhauriamus!' Paula: 'Iam tace! Satis est. Nonne te pudet ita ab ovo ad mala fabulari? Sane pudendum est!'",
+        "Orontes autem, simul atque poculum suum funditus exhaurit, a Paula ad Aemiliam versus: 'Omnes me amant,' inquit, 'praeter te, Aemilia. Tu tam pulchra es quam Helena...' Aemilia: '...et tu tam rusticus quam Paris, qui inter pastores educatus erat! Numquam mores urbanos disces, rustice! Nimium potavisti, ebrius es. Abstine a me!'",
+        "Orontes iterum poculum tollens haec cantat: 'Quisquis amat valeat! Pereat qui nescit amare! Bis tanto pereat quisquis amare vetat!' Aemilia: 'Nolumus istas nugas audire. Ebrius es!' Orontes negat se esse ebrium atque in lecto surgens aliud carmen super femina falsa et infida cantare incipit, sed priusquam finem facit, sub mensam labitur! Duo servi eum e triclinio auferunt atque in cubiculo ponunt. Tum vestem super eum iam dormientem sternunt.",
+      ],
+      notes: [
+        { term: 'poculum tollere', gloss: 'to raise one’s cup — the gesture that begins a toast.' },
+        { term: 'merum', gloss: 'unmixed wine; nunc merum bibendum est = now we must drink it neat.' },
+        { term: 'amandus -a -um', gloss: 'to be loved — a gerundive: feminae amandae, women to be loved.' },
+        { term: 'laudandus / puniendus', gloss: 'to be praised / to be punished — the gerundive of obligation.' },
+        { term: 'pudet', gloss: 'it shames one: te pudet, you are ashamed; pudendum est, one must be ashamed.' },
+        { term: 'ebrius', gloss: 'drunk; nimium potavisti, ebrius es, you have drunk too much, you are drunk.' },
+        { term: 'ab ovo ad mala', gloss: '“from the egg to the apples” — from the first course to the last.' },
+        { term: 'triclinium', gloss: 'the dining-room; from it servants carry the fainting guest to his bed.' },
+      ],
+    },
+  ],
+  grammar: [
+    {
+      id: 'gerundivum',
+      latinTitle: 'Gerundivum',
+      title: 'The Gerundive',
+      intro:
+        'The gerundive (laudandus -a -um) is a verbal adjective. Joined with esse it tells you what must ' +
+        'or ought to be done, and the person whose duty it is stands in the dative: discipulus industrius ' +
+        'magistro laudandus est — the diligent pupil is to be praised by the master.',
+      paradigms: [
+        {
+          caption: 'laudandus -a -um (singularis)',
+          head: ['Casus', 'Masculinum', 'Femininum', 'Neutrum'],
+          rows: [
+            ['Nominativus', 'laudandus', 'laudanda', 'laudandum'],
+            ['Accusativus', 'laudandum', 'laudandam', 'laudandum'],
+            ['Genitivus', 'laudandi', 'laudandae', 'laudandi'],
+            ['Dativus', 'laudando', 'laudandae', 'laudando'],
+            ['Ablativus', 'laudando', 'laudanda', 'laudando'],
+          ],
+        },
+        {
+          caption: 'laudandus -a -um (pluralis)',
+          head: ['Casus', 'Masculinum', 'Femininum', 'Neutrum'],
+          rows: [
+            ['Nominativus', 'laudandi', 'laudandae', 'laudanda'],
+            ['Accusativus', 'laudandos', 'laudandas', 'laudanda'],
+            ['Genitivus', 'laudandorum', 'laudandarum', 'laudandorum'],
+            ['Dativus', 'laudandis', 'laudandis', 'laudandis'],
+            ['Ablativus', 'laudandis', 'laudandis', 'laudandis'],
+          ],
+        },
+        {
+          caption: 'gerundivum cum esse: obligatio',
+          head: ['Exemplum', 'Significatio'],
+          rows: [
+            ['Discipulus industrius magistro laudandus est.', 'The diligent pupil is to be praised by the master.'],
+            ['Discipulus piger reprehendendus et puniendus est.', 'The lazy pupil is to be scolded and punished.'],
+            ['Lingua Latina vobis discenda est.', 'Latin must be learned by you.'],
+            ['Vocabula diligenter scribenda sunt.', 'The vocabulary must be written down carefully.'],
+            ['Omnia menda corrigenda sunt.', 'All mistakes must be corrected.'],
+            ['Quidquid magister imperavit discipulo faciendum est.', 'Whatever the master has ordered must be done by the pupil.'],
+            ['Oves bene curandae sunt.', 'The sheep must be looked after well.'],
+          ],
+        },
+        {
+          caption: 'gerundivum impersonale: neutrum singulare cum est',
+          head: ['Exemplum', 'Significatio'],
+          rows: [
+            ['Tacendum est.', 'One must be silent.'],
+            ['Nunc merum bibendum est.', 'Now one must drink pure wine.'],
+            ['In periculo desperandum non est.', 'In danger one must not despair.'],
+            ['E malis minimum eligendum est.', 'From evils the least must be chosen.'],
+          ],
+        },
+      ],
+      points: [
+        'The gerundive is built on the present stem with -nd- and the endings of bonus -a -um: lauda- → laudandus, puni- → puniendus, scrib- → scribendus.',
+        'It is a first/second-declension adjective and agrees with its noun in gender, number and case: lingua discenda, menda corrigenda, oves curandae.',
+        'With esse it means “must be …ed” or “is to be …ed”; the person on whom the duty lies is put in the dative: lingua Latina vobis discenda est.',
+        'The neuter singular is used impersonally for a general rule: tacendum est, bibendum est — one must be silent, one must drink.',
+      ],
+    },
+  ],
+  vocabulary: [
+    { latin: 'conviva', english: 'guest at a banquet', pos: 'noun (m.)' },
+    { latin: 'sermo', english: 'talk, conversation', pos: 'noun (m.)' },
+    { latin: 'cibus', english: 'food', pos: 'noun (m.)' },
+    { latin: 'potio', english: 'drink', pos: 'noun (f.)' },
+    { latin: 'nuntius', english: 'messenger; news', pos: 'noun (m.)' },
+    { latin: 'rumor', english: 'rumour, report', pos: 'noun (m.)' },
+    { latin: 'tabula', english: 'picture, painted panel', pos: 'noun (f.)' },
+    { latin: 'munus', english: 'gift, service', pos: 'noun (n.)' },
+    { latin: 'aurum', english: 'gold', pos: 'noun (n.)' },
+    { latin: 'fabula', english: 'story, tale', pos: 'noun (f.)' },
+    { latin: 'crux', english: 'cross', pos: 'noun (f.)' },
+    { latin: 'praemium', english: 'reward', pos: 'noun (n.)' },
+    { latin: 'poena', english: 'punishment, penalty', pos: 'noun (f.)' },
+    { latin: 'officium', english: 'duty', pos: 'noun (n.)' },
+    { latin: 'poculum', english: 'cup', pos: 'noun (n.)' },
+    { latin: 'merum', english: 'pure, unmixed wine', pos: 'noun (n.)' },
+    { latin: 'gerundivum', english: 'gerundive', pos: 'noun (n.)' },
+    { latin: 'avarus', english: 'greedy, miserly', pos: 'adjective' },
+    { latin: 'fidus', english: 'faithful, loyal', pos: 'adjective' },
+    { latin: 'infidus', english: 'faithless', pos: 'adjective' },
+    { latin: 'fugitivus', english: 'runaway, fugitive', pos: 'adjective' },
+    { latin: 'clemens', english: 'merciful, gentle', pos: 'adjective' },
+    { latin: 'severus', english: 'strict, severe', pos: 'adjective' },
+    { latin: 'crudelis', english: 'cruel', pos: 'adjective' },
+    { latin: 'ebrius', english: 'drunk', pos: 'adjective' },
+    { latin: 'rusticus', english: 'rustic, boorish', pos: 'adjective' },
+    { latin: 'mittere', english: 'to send', pos: 'verb' },
+    { latin: 'cognoscere', english: 'to learn, find out', pos: 'verb' },
+    { latin: 'oblivisci', english: 'to forget', pos: 'verb' },
+    { latin: 'tangere', english: 'to touch', pos: 'verb' },
+    { latin: 'mutare', english: 'to change', pos: 'verb' },
+    { latin: 'aufugere', english: 'to run away, escape', pos: 'verb' },
+    { latin: 'auferre', english: 'to carry off, steal', pos: 'verb' },
+    { latin: 'confidere', english: 'to trust (+ dat.)', pos: 'verb' },
+    { latin: 'reddere', english: 'to give back, return', pos: 'verb' },
+    { latin: 'cruciare', english: 'to torture', pos: 'verb' },
+    { latin: 'latere', english: 'to hide, lurk', pos: 'verb' },
+    { latin: 'reperire', english: 'to find, discover', pos: 'verb' },
+    { latin: 'surripere', english: 'to steal', pos: 'verb' },
+    { latin: 'ignoscere', english: 'to forgive (+ dat.)', pos: 'verb' },
+    { latin: 'odisse', english: 'to hate', pos: 'verb' },
+    { latin: 'punire', english: 'to punish', pos: 'verb' },
+    { latin: 'deterrere', english: 'to deter, frighten off', pos: 'verb' },
+    { latin: 'vetare', english: 'to forbid', pos: 'verb' },
+    { latin: 'bibere', english: 'to drink', pos: 'verb' },
+  ],
+  pensa: [
+    {
+      id: 'pensum-a',
+      latinLabel: 'PENSVM A',
+      title: 'Fill in the endings',
+      instruction: 'Complete each word with the correct ending.',
+      type: 'fill',
+      items: [
+        'Merces ad diem solv{{enda}} est. Qui furtum fecit puni{{endus}} est. Quidquid dux imperavit militibus faci{{endum}} est.',
+        'Quid magis opt{{andum}} est quam vita beata? E malis minimum elig{{endum}} est. In periculo desper{{andum}} non est.',
+        "Pater dicit filium puni{{endum}} esse, non laud{{andum}}. Discipulus industrius magistro laud{{andus}} est; discipulus piger reprehend{{endus}} et puni{{endus}} est.",
+      ],
+    },
+  ],
+}
+
+export default chapter
