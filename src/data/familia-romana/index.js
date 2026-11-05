@@ -22,6 +22,10 @@ import capitulum20 from './capitulum-20.js'
 import capitulum21 from './capitulum-21.js'
 import capitulum22 from './capitulum-22.js'
 import capitulum23 from './capitulum-23.js'
+import capitulum24 from './capitulum-24.js'
+import capitulum25 from './capitulum-25.js'
+import capitulum26 from './capitulum-26.js'
+import capitulum27 from './capitulum-27.js'
 
 // Full lesson content, keyed by chapter number.
 const detailed = {
@@ -48,6 +52,10 @@ const detailed = {
   21: capitulum21,
   22: capitulum22,
   23: capitulum23,
+  24: capitulum24,
+  25: capitulum25,
+  26: capitulum26,
+  27: capitulum27,
 }
 
 // Merge the complete table of contents with the chapters that are written up.
