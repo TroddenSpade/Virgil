@@ -170,9 +170,12 @@ def write_book(slug: str, meta: dict) -> dict:
 # --------------------------------------------------------------------------- #
 
 FR_PDF = None
-for p in ROOT.glob("*.pdf"):
-    if "Second Edition" in p.name:
-        FR_PDF = p
+for base in (ROOT / "books", ROOT):
+    for p in base.glob("*.pdf"):
+        if "Familia Romana" in p.name and "Second Edition" in p.name:
+            FR_PDF = p
+            break
+    if FR_PDF:
         break
 
 
@@ -581,18 +584,240 @@ COMPANION_NOISE = [
 
 
 # --------------------------------------------------------------------------- #
+# Goldman & Nyenhuis — Latin via Ovid (2nd ed.)
+# --------------------------------------------------------------------------- #
+
+# (number, roman, display title, first-line token, second-line token)
+LVO_TOC = [
+    (1, "I", "Charta Geographica", "CHARTA GEOGRAPHICA", None),
+    (2, "II", "Europa et Taurus", "EUROPA ET TAURUS", None),
+    (3, "III", "Minerva et Arachne (Part 1)", "MINERVA ET ARACHNE", None),
+    (4, "IV", "Minerva et Arachne (Part 2)", "MINERVA ET ARACHNE", None),
+    (5, "V", "Minerva et Arachne (Part 3)", "MINERVA ET ARACHNE", None),
+    (6, "VI", "Latona et Niobe (Part 1)", "LATONA ET NIOBE", None),
+    (7, "VII", "Latona et Niobe (Part 2)", "LATONA ET NIOBE", None),
+    (8, "VIII", "Pan et Syringa", "PAN ET SYRINGA", None),
+    (9, "IX", "Callisto (Part 1)", "CALLISTO", None),
+    (10, "X", "Callisto (Part 2)", "CALLISTO", None),
+    (11, "XI", "Philemon et Baucis (Pars Prima)", "PHILEMON ET BAUCIS", None),
+    (12, "XII", "Philemon et Baucis (Pars Secunda)", "PHILEMON ET BAUCIS", None),
+    (13, "XIII", "Echo et Narcissus", "ECHO ET NARCISSUS", None),
+    (14, "XIV", "Phoebus et Daphne", "PHOEBUS ET DAPHNE", None),
+    (15, "XV", "Pyramus et Thisbe (Pars Prima)", "PYRAMUS ET THISBE", None),
+    (16, "XVI", "Pyramus et Thisbe (Pars Secunda)", "PYRAMUS ET THISBE", None),
+    (17, "XVII", "Atalanta et Hippomenes (Pars Prima)", "ATALANTA ET HIPPOMENES", None),
+    (18, "XVIII", "Atalanta et Hippomenes (Pars Secunda)", "ATALANTA ET HIPPOMENES", None),
+    (19, "XIX", "Midas et Vis Aurea", "MIDAS ET VIS AUREA", None),
+    (20, "XX", "Midas et Pan", "MIDAS ET PAN", None),
+    (21, "XXI", "Orpheus et Eurydice", "ORPHEUS ET EURYDICE", None),
+    (22, "XXII", "Mors Orphei", "MORS ORPHEI", None),
+    (23, "XXIII", "Iason et Argonautae", "IASON ET ARGONAUTAE", None),
+    (24, "XXIV", "Amor Iasonis", "AMOR IASONIS", None),
+    (25, "XXV", "Labores Iasonis", "LABORES IASONIS", None),
+    (26, "XXVI", "Facta Magica Medeae", "FACTA MAGICA MEDEAE", None),
+    (27, "XXVII", "Theseus Troezene", "THESEUS TROEZENE", None),
+    (28, "XXVIII", "Theseus Athenis", "THESEUS ATHENIS", None),
+    (29, "XXIX", "Theseus Cretae", "THESEUS CRETAE", None),
+    (30, "XXX", "Theseus Rex", "THESEUS REX", None),
+    (31, "XXXI", "Bellum Troianum: Sacrificium Iphigeniae", "BELLUM TROIANUM", "SACRIFICIUM IPHIGENIAE"),
+    (32, "XXXII", "Bellum Troianum: Mors Cygni", "BELLUM TROIANUM", "MORS CYGNI"),
+    (33, "XXXIII", "Bellum Troianum: Aiax et Ulixes", "BELLUM TROIANUM", "AIAX ET ULIXES"),
+    (34, "XXXIV", "Bellum Troianum: Troia Capta", "BELLUM TROIANUM", "TROIA CAPTA"),
+    (35, "XXXV", "Filming the Odyssey", "FILMING THE ODYSSEY", None),
+    (36, "XXXVI", "Aeneas", "AENEAS", None),
+    (37, "XXXVII", "Achaemenides", "ACHAEMENIDES", None),
+    (38, "XXXVIII", "Circe", "CIRCE", None),
+    (39, "XXXIX", "Sibylla Cumaea", "SIBYLLA CUMAEA", None),
+    (40, "XL", "Aeneas in Italia", "AENEAS IN ITALIA", None),
+]
+
+LVO_INTRO_LINE = 62  # the "INTRODUCTION" heading
+
+LVO_BACK = [
+    (16594, "appendix-a", "A", "Appendix A"),
+    (17601, "appendix-b", "B", "Appendix B"),
+    (18339, "latin-english-vocabulary", "L–E", "Latin–English Vocabulary"),
+    (19627, "english-latin-vocabulary", "E–L", "English–Latin Vocabulary"),
+    (20108, "index", "Idx", "Index"),
+]
+
+LVO_SECTION_WORDS = re.compile(
+    r"^(Verba|Structure|Etymology|Sententiae|Dialogue|Macrons|Vocabulary|"
+    r"Exercises|Practice|Reading|Questions|Answers|Derivatives?|Notes?|"
+    r"Translation|Grammar|Review|Drill|Conversation|Word Study|Contents)$",
+    re.I,
+)
+
+# Running heads and page numbers to drop.
+LVO_NOISE = [
+    re.compile(r"^\s*\d{1,3}\s*$"),
+    re.compile(r"^\s*\d{1,3}\s+Latin via Ovid\s*$", re.I),
+    re.compile(r"^\s*Latin via Ovid\s+\d{1,3}\s*$", re.I),
+    re.compile(r"^\s*[IVXLC][IVXLC ]{0,12}\s+[A-Za-z].{0,70}\s\d{1,3}\s*$"),
+    re.compile(r"^\s*Appendix [AB]\s+\d{1,3}\s*$", re.I),
+    re.compile(r"^\s*(Latin|English)[-–—]?[Ll]atin Vocabulary\s+\d{1,3}\s*$"),
+    re.compile(r"^\s*Index\s+\d{1,3}\s*$", re.I),
+    re.compile(r"^\s*/\s+.{0,60}\s\d{1,3}\s*$"),
+]
+
+# Vocabulary entries and translation columns keep a wide internal gap.
+LVO_TABLE = re.compile(r"\S[ \t]{3,}\S")
+
+
+def lvo_letters(s: str) -> str:
+    return re.sub(r"[^A-Za-z]", "", s).upper()
+
+
+def lvo_is_heading(text: str) -> bool:
+    s = text.strip()
+    if LVO_SECTION_WORDS.match(s):
+        return True
+    letters = [c for c in s if c.isalpha()]
+    if len(letters) < 3:
+        return False
+    up = sum(1 for c in letters if c.isupper())
+    return up / len(letters) > 0.8 and len(s) <= 72
+
+
+def lvo_chapter_starts(lines: list[str]) -> list[tuple]:
+    starts: list[tuple] = []
+    cursor = 0
+    for num, roman, title, tok1, tok2 in LVO_TOC:
+        opener = "CHAPTER" + re.sub(r"\s+", "", roman)
+        t1 = lvo_letters(tok1)
+        t2 = lvo_letters(tok2) if tok2 else None
+        found = None
+        # Prefer the explicit "Chapter N" heading; only fall back to the title
+        # line for chapters whose heading the OCR dropped (e.g. XXXII).
+        for i in range(cursor, len(lines)):
+            if lvo_letters(lines[i]) == opener:
+                found = i
+                break
+        if found is None:
+            for i in range(cursor, len(lines)):
+                if lvo_letters(lines[i]) != t1:
+                    continue
+                if t2 is None or (i + 1 < len(lines) and lvo_letters(lines[i + 1]) == t2):
+                    found = i
+                    break
+        if found is None:
+            continue
+        starts.append((found, num, roman, title, tok1, tok2))
+        cursor = found + 1
+    return starts
+
+
+def lvo_strip_heading(lines, start, end, roman, markers) -> int:
+    """Skip the opener / title / subtitle lines so the body starts clean."""
+    i, removed = start, 0
+    opener = "CHAPTER" + re.sub(r"\s+", "", roman)
+    while i < end and removed < 6:
+        s = lines[i].strip()
+        if not s:
+            i += 1
+            continue
+        L = lvo_letters(s)
+        if L == opener or L in markers or re.match(r"^\(?\s*(pars|part)\b", s, re.I):
+            i += 1
+            removed += 1
+            continue
+        break
+    return i
+
+
+def lvo_blocks(body_lines: list[str]) -> list[dict]:
+    blocks: list[dict] = []
+    para: list[str] = []
+    last_indent: int | None = None
+
+    def flush():
+        if para:
+            blocks.append({"t": "p", "text": clean_inline(dehyphenate(" ".join(para)))})
+            para.clear()
+
+    for raw in body_lines:
+        s = raw.rstrip()
+        if not s.strip():
+            flush()
+            last_indent = None
+            continue
+        if any(rx.match(s) for rx in LVO_NOISE):
+            continue
+        text = s.strip()
+        indent = len(s) - len(s.lstrip(" "))
+        if lvo_is_heading(text):
+            flush()
+            blocks.append({"t": "h", "text": clean_inline(text)})
+            last_indent = indent
+            continue
+        if LVO_TABLE.search(text):
+            flush()
+            blocks.append({"t": "p", "text": clean_inline(text)})
+            last_indent = indent
+            continue
+        if not para:
+            para.append(text)
+        elif indent >= 4 and last_indent == 0:
+            flush()
+            para.append(text)
+        else:
+            para.append(text)
+        last_indent = indent
+    flush()
+    return blocks
+
+
+def build_latin_via_ovid() -> dict:
+    lines = read_lines("latin-via-ovid.txt")
+
+    sections: list[dict] = [
+        {
+            "id": "intro", "number": 0, "roman": "Intro", "title": "Introduction",
+            "latinTitle": None, "start": LVO_INTRO_LINE, "markers": {"INTRODUCTION"},
+        }
+    ]
+    for start, num, roman, title, tok1, tok2 in lvo_chapter_starts(lines):
+        lat = re.sub(r"\s+", " ", tok1.upper())
+        if tok2:
+            lat = f"{lat}: {tok2.upper()}"
+        markers = {"CHAPTER" + re.sub(r"\s+", "", roman), lvo_letters(tok1)}
+        if tok2:
+            markers.add(lvo_letters(tok2))
+        sections.append({
+            "id": f"ch-{num:02d}", "number": num, "roman": roman,
+            "title": title, "latinTitle": lat, "start": start, "markers": markers,
+        })
+    for start, sid, roman, title in LVO_BACK:
+        sections.append({
+            "id": sid, "number": None, "roman": roman, "title": title,
+            "latinTitle": None, "start": start, "markers": {lvo_letters(title)},
+        })
+    sections.sort(key=lambda s: s["start"])
+
+    chapters = []
+    for idx, sec in enumerate(sections):
+        end = sections[idx + 1]["start"] if idx + 1 < len(sections) else len(lines)
+        body_start = lvo_strip_heading(lines, sec["start"], end, sec["roman"], sec["markers"])
+        chapters.append({
+            "id": sec["id"], "number": sec["number"], "roman": sec["roman"],
+            "title": sec["title"], "latinTitle": sec["latinTitle"],
+            "blocks": lvo_blocks(lines[body_start:end]),
+        })
+
+    return {
+        "index": {
+            "title": "Latin via Ovid: A First Course",
+            "latinTitle": "LATIN VIA OVID",
+            "author": "Norma Goldman & Jacob E. Nyenhuis",
+        },
+        "chapters": chapters,
+    }
+
+
+# --------------------------------------------------------------------------- #
 
 BUILDERS = {
-    "learn-latin": lambda: build_delimited(
-        "learn-latin", read_lines("learn-latin.txt"), DICKEY_TOC, dickey_head, DICKEY_NOISE,
-        [re.compile(r"^\d+(\.\d+)?\s+[A-Z]")],
-        extra_titles=[
-            "PART I", "PART II", "PART III", "PART IV", "PART V",
-            "Introduction: What Latin Is", "The Pronunciation of Latin",
-            "Preface: What This Textbook Is", "Appendices", "Contents",
-            "Cumulative Vocabulary, Latin to English", "Cumulative Vocabulary, English to Latin",
-        ],
-    ),
+    "familia-romana": build_familia_romana,
     "companion": lambda: build_delimited(
         "companion", read_lines("companion.txt"), COMPANION_TOC, companion_head, COMPANION_NOISE,
         [re.compile(r"^\d+\.\s+[A-Z]"), re.compile(r"^[a-z]\.\s"), re.compile(r"^Lēctiō"),
@@ -604,7 +829,36 @@ BUILDERS = {
             "Lingua Latina as a Two-Semester Course",
         ],
     ),
-    "familia-romana": build_familia_romana,
+    "learn-latin": lambda: build_delimited(
+        "learn-latin", read_lines("learn-latin.txt"), DICKEY_TOC, dickey_head, DICKEY_NOISE,
+        [re.compile(r"^\d+(\.\d+)?\s+[A-Z]")],
+        extra_titles=[
+            "PART I", "PART II", "PART III", "PART IV", "PART V",
+            "Introduction: What Latin Is", "The Pronunciation of Latin",
+            "Preface: What This Textbook Is", "Appendices", "Contents",
+            "Cumulative Vocabulary, Latin to English", "Cumulative Vocabulary, English to Latin",
+        ],
+    ),
+    "latin-via-ovid": build_latin_via_ovid,
+}
+
+
+BOOK_META = {
+    "learn-latin": {
+        "title": "Learn Latin from the Romans",
+        "latinTitle": "DISCERE LATINAM A ROMANIS",
+        "author": "Eleanor Dickey",
+    },
+    "companion": {
+        "title": "A Companion to Familia Romana",
+        "latinTitle": "COMES FAMILIAE ROMANAE",
+        "author": "Jeanne Marie Neumann",
+    },
+    "latin-via-ovid": {
+        "title": "Latin via Ovid: A First Course",
+        "latinTitle": "LATIN VIA OVID",
+        "author": "Norma Goldman & Jacob E. Nyenhuis",
+    },
 }
 
 
@@ -621,11 +875,7 @@ def main():
             slug_final = "familia-romana"
         else:
             meta = {
-                "index": {
-                    "title": "Learn Latin from the Romans" if slug == "learn-latin" else "A Companion to Familia Romana",
-                    "latinTitle": "DISCERE LATINAM A ROMANIS" if slug == "learn-latin" else "COMES FAMILIAE ROMANAE",
-                    "author": "Eleanor Dickey" if slug == "learn-latin" else "Jeanne Marie Neumann",
-                },
+                "index": BOOK_META.get(slug, {"title": slug}),
                 "chapters": [c for c in result["chapters"] if c["blocks"]],
             }
             slug_final = slug

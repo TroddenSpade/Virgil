@@ -976,6 +976,336 @@ export const sources =
         "latinTitle": null
       }
     ]
+  },
+  {
+    "slug": "latin-via-ovid",
+    "title": "Latin via Ovid: A First Course",
+    "latinTitle": "LATIN VIA OVID",
+    "author": "Norma Goldman & Jacob E. Nyenhuis",
+    "chapters": [
+      {
+        "id": "intro",
+        "number": 0,
+        "roman": "Intro",
+        "title": "Introduction",
+        "latinTitle": null
+      },
+      {
+        "id": "ch-01",
+        "number": 1,
+        "roman": "I",
+        "title": "Charta Geographica",
+        "latinTitle": "CHARTA GEOGRAPHICA"
+      },
+      {
+        "id": "ch-02",
+        "number": 2,
+        "roman": "II",
+        "title": "Europa et Taurus",
+        "latinTitle": "EUROPA ET TAURUS"
+      },
+      {
+        "id": "ch-03",
+        "number": 3,
+        "roman": "III",
+        "title": "Minerva et Arachne (Part 1)",
+        "latinTitle": "MINERVA ET ARACHNE"
+      },
+      {
+        "id": "ch-04",
+        "number": 4,
+        "roman": "IV",
+        "title": "Minerva et Arachne (Part 2)",
+        "latinTitle": "MINERVA ET ARACHNE"
+      },
+      {
+        "id": "ch-05",
+        "number": 5,
+        "roman": "V",
+        "title": "Minerva et Arachne (Part 3)",
+        "latinTitle": "MINERVA ET ARACHNE"
+      },
+      {
+        "id": "ch-06",
+        "number": 6,
+        "roman": "VI",
+        "title": "Latona et Niobe (Part 1)",
+        "latinTitle": "LATONA ET NIOBE"
+      },
+      {
+        "id": "ch-07",
+        "number": 7,
+        "roman": "VII",
+        "title": "Latona et Niobe (Part 2)",
+        "latinTitle": "LATONA ET NIOBE"
+      },
+      {
+        "id": "ch-08",
+        "number": 8,
+        "roman": "VIII",
+        "title": "Pan et Syringa",
+        "latinTitle": "PAN ET SYRINGA"
+      },
+      {
+        "id": "ch-09",
+        "number": 9,
+        "roman": "IX",
+        "title": "Callisto (Part 1)",
+        "latinTitle": "CALLISTO"
+      },
+      {
+        "id": "ch-10",
+        "number": 10,
+        "roman": "X",
+        "title": "Callisto (Part 2)",
+        "latinTitle": "CALLISTO"
+      },
+      {
+        "id": "ch-11",
+        "number": 11,
+        "roman": "XI",
+        "title": "Philemon et Baucis (Pars Prima)",
+        "latinTitle": "PHILEMON ET BAUCIS"
+      },
+      {
+        "id": "ch-12",
+        "number": 12,
+        "roman": "XII",
+        "title": "Philemon et Baucis (Pars Secunda)",
+        "latinTitle": "PHILEMON ET BAUCIS"
+      },
+      {
+        "id": "ch-13",
+        "number": 13,
+        "roman": "XIII",
+        "title": "Echo et Narcissus",
+        "latinTitle": "ECHO ET NARCISSUS"
+      },
+      {
+        "id": "ch-14",
+        "number": 14,
+        "roman": "XIV",
+        "title": "Phoebus et Daphne",
+        "latinTitle": "PHOEBUS ET DAPHNE"
+      },
+      {
+        "id": "ch-15",
+        "number": 15,
+        "roman": "XV",
+        "title": "Pyramus et Thisbe (Pars Prima)",
+        "latinTitle": "PYRAMUS ET THISBE"
+      },
+      {
+        "id": "ch-16",
+        "number": 16,
+        "roman": "XVI",
+        "title": "Pyramus et Thisbe (Pars Secunda)",
+        "latinTitle": "PYRAMUS ET THISBE"
+      },
+      {
+        "id": "ch-17",
+        "number": 17,
+        "roman": "XVII",
+        "title": "Atalanta et Hippomenes (Pars Prima)",
+        "latinTitle": "ATALANTA ET HIPPOMENES"
+      },
+      {
+        "id": "ch-18",
+        "number": 18,
+        "roman": "XVIII",
+        "title": "Atalanta et Hippomenes (Pars Secunda)",
+        "latinTitle": "ATALANTA ET HIPPOMENES"
+      },
+      {
+        "id": "ch-19",
+        "number": 19,
+        "roman": "XIX",
+        "title": "Midas et Vis Aurea",
+        "latinTitle": "MIDAS ET VIS AUREA"
+      },
+      {
+        "id": "ch-20",
+        "number": 20,
+        "roman": "XX",
+        "title": "Midas et Pan",
+        "latinTitle": "MIDAS ET PAN"
+      },
+      {
+        "id": "ch-21",
+        "number": 21,
+        "roman": "XXI",
+        "title": "Orpheus et Eurydice",
+        "latinTitle": "ORPHEUS ET EURYDICE"
+      },
+      {
+        "id": "ch-22",
+        "number": 22,
+        "roman": "XXII",
+        "title": "Mors Orphei",
+        "latinTitle": "MORS ORPHEI"
+      },
+      {
+        "id": "ch-23",
+        "number": 23,
+        "roman": "XXIII",
+        "title": "Iason et Argonautae",
+        "latinTitle": "IASON ET ARGONAUTAE"
+      },
+      {
+        "id": "ch-24",
+        "number": 24,
+        "roman": "XXIV",
+        "title": "Amor Iasonis",
+        "latinTitle": "AMOR IASONIS"
+      },
+      {
+        "id": "ch-25",
+        "number": 25,
+        "roman": "XXV",
+        "title": "Labores Iasonis",
+        "latinTitle": "LABORES IASONIS"
+      },
+      {
+        "id": "ch-26",
+        "number": 26,
+        "roman": "XXVI",
+        "title": "Facta Magica Medeae",
+        "latinTitle": "FACTA MAGICA MEDEAE"
+      },
+      {
+        "id": "ch-27",
+        "number": 27,
+        "roman": "XXVII",
+        "title": "Theseus Troezene",
+        "latinTitle": "THESEUS TROEZENE"
+      },
+      {
+        "id": "ch-28",
+        "number": 28,
+        "roman": "XXVIII",
+        "title": "Theseus Athenis",
+        "latinTitle": "THESEUS ATHENIS"
+      },
+      {
+        "id": "ch-29",
+        "number": 29,
+        "roman": "XXIX",
+        "title": "Theseus Cretae",
+        "latinTitle": "THESEUS CRETAE"
+      },
+      {
+        "id": "ch-30",
+        "number": 30,
+        "roman": "XXX",
+        "title": "Theseus Rex",
+        "latinTitle": "THESEUS REX"
+      },
+      {
+        "id": "ch-31",
+        "number": 31,
+        "roman": "XXXI",
+        "title": "Bellum Troianum: Sacrificium Iphigeniae",
+        "latinTitle": "BELLUM TROIANUM: SACRIFICIUM IPHIGENIAE"
+      },
+      {
+        "id": "ch-32",
+        "number": 32,
+        "roman": "XXXII",
+        "title": "Bellum Troianum: Mors Cygni",
+        "latinTitle": "BELLUM TROIANUM: MORS CYGNI"
+      },
+      {
+        "id": "ch-33",
+        "number": 33,
+        "roman": "XXXIII",
+        "title": "Bellum Troianum: Aiax et Ulixes",
+        "latinTitle": "BELLUM TROIANUM: AIAX ET ULIXES"
+      },
+      {
+        "id": "ch-34",
+        "number": 34,
+        "roman": "XXXIV",
+        "title": "Bellum Troianum: Troia Capta",
+        "latinTitle": "BELLUM TROIANUM: TROIA CAPTA"
+      },
+      {
+        "id": "ch-35",
+        "number": 35,
+        "roman": "XXXV",
+        "title": "Filming the Odyssey",
+        "latinTitle": "FILMING THE ODYSSEY"
+      },
+      {
+        "id": "ch-36",
+        "number": 36,
+        "roman": "XXXVI",
+        "title": "Aeneas",
+        "latinTitle": "AENEAS"
+      },
+      {
+        "id": "ch-37",
+        "number": 37,
+        "roman": "XXXVII",
+        "title": "Achaemenides",
+        "latinTitle": "ACHAEMENIDES"
+      },
+      {
+        "id": "ch-38",
+        "number": 38,
+        "roman": "XXXVIII",
+        "title": "Circe",
+        "latinTitle": "CIRCE"
+      },
+      {
+        "id": "ch-39",
+        "number": 39,
+        "roman": "XXXIX",
+        "title": "Sibylla Cumaea",
+        "latinTitle": "SIBYLLA CUMAEA"
+      },
+      {
+        "id": "ch-40",
+        "number": 40,
+        "roman": "XL",
+        "title": "Aeneas in Italia",
+        "latinTitle": "AENEAS IN ITALIA"
+      },
+      {
+        "id": "appendix-a",
+        "number": null,
+        "roman": "A",
+        "title": "Appendix A",
+        "latinTitle": null
+      },
+      {
+        "id": "appendix-b",
+        "number": null,
+        "roman": "B",
+        "title": "Appendix B",
+        "latinTitle": null
+      },
+      {
+        "id": "latin-english-vocabulary",
+        "number": null,
+        "roman": "L–E",
+        "title": "Latin–English Vocabulary",
+        "latinTitle": null
+      },
+      {
+        "id": "english-latin-vocabulary",
+        "number": null,
+        "roman": "E–L",
+        "title": "English–Latin Vocabulary",
+        "latinTitle": null
+      },
+      {
+        "id": "index",
+        "number": null,
+        "roman": "Idx",
+        "title": "Index",
+        "latinTitle": null
+      }
+    ]
   }
 ]
 

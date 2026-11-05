@@ -37,6 +37,7 @@ export const familiaRomanaBook = {
 
 const companionSource = sourceBySlug['companion']
 const learnLatinSource = sourceBySlug['learn-latin']
+const latinViaOvidSource = sourceBySlug['latin-via-ovid']
 
 export const companionBook = {
   id: 'companion',
@@ -98,10 +99,42 @@ export const learnLatinBook = {
   referenceChapters: referenceChapters('learn-latin'),
 }
 
+export const latinViaOvidBook = {
+  id: 'latin-via-ovid',
+  slug: 'latin-via-ovid',
+  title: 'Latin via Ovid: A First Course',
+  latinTitle: 'LATIN VIA OVID',
+  shortTitle: 'Latin via Ovid',
+  author: 'Norma Goldman & Jacob E. Nyenhuis',
+  edition: 'Second Edition',
+  year: 1982,
+  publisher: 'Wayne State University Press',
+  isbn: '978-0-8143-1732-7',
+  level: 'Reading-and-grammar course',
+  language: 'English + Latin',
+  summary:
+    'A first course in forty graded lessons, each built on an adapted story from Ovid’s Metamorphoses — ' +
+    'from the geography of the ancient world all the way to Aeneas in Italy.',
+  description:
+    'A complete introductory course that teaches Latin through the stories of Ovid’s Metamorphoses. ' +
+    'Every chapter pairs an adapted Latin reading with vocabulary (Verba), a grammar presentation ' +
+    '(Structure), etymological notes and exercises. The full text is reproduced here chapter by chapter ' +
+    'as a browsable reference, together with the appendices, vocabularies and index.',
+  status: 'active',
+  kind: 'reference',
+  sourceSlug: 'latin-via-ovid',
+  accent: 'wine',
+  chapterCount: latinViaOvidSource?.chapters.filter((c) => c.number).length ?? 0,
+  readyCount: latinViaOvidSource?.chapters.filter((c) => c.number).length ?? 0,
+  chapters: referenceChapters('latin-via-ovid'),
+  referenceChapters: referenceChapters('latin-via-ovid'),
+}
+
 export const books = [
   familiaRomanaBook,
   companionBook,
   learnLatinBook,
+  latinViaOvidBook,
   {
     id: 'virgils-works',
     slug: 'virgils-works',
