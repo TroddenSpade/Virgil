@@ -2,7 +2,7 @@
 
 **A Latin learning project — from Ørberg's _Familia Romana_ to the works of Virgil.**
 
-🌐 **Live site:** https://troddenspade.github.io/Virgil/
+🌐 **Live site:** https://parsasam.ir/Virgil/ — also reachable at https://troddenspade.github.io/Virgil/
 
 Virgil is an installable web app (PWA) that teaches Latin by reading. It begins with the first
 sentence of Hans H. Ørberg's _Lingua Latina per se Illustrata, Pars I: Familia Romana_ and builds,
