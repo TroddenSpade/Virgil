@@ -49,6 +49,7 @@ export default function Home() {
           <h2>How the project works</h2>
           <div className="feature-grid">
             <article className="feature card">
+              <span className="feature__num" aria-hidden="true">I</span>
               <h3>Read from day one</h3>
               <p>
                 Following Ørberg’s direct method, every word is explained by the words around it, by pictures and
@@ -56,6 +57,7 @@ export default function Home() {
               </p>
             </article>
             <article className="feature card">
+              <span className="feature__num" aria-hidden="true">II</span>
               <h3>Grammar in context</h3>
               <p>
                 Each chapter has a <em>Grammatica Latina</em> section with clear paradigms — singular and plural,
@@ -63,6 +65,7 @@ export default function Home() {
               </p>
             </article>
             <article className="feature card">
+              <span className="feature__num" aria-hidden="true">III</span>
               <h3>Practise, then move on</h3>
               <p>
                 The original exercises (<em>Pensum A, B, C</em>) are here with instant checking and model answers,

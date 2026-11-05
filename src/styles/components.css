@@ -70,11 +70,33 @@
   margin-top: 1.75rem;
 }
 .feature {
+  position: relative;
   padding: 1.5rem 1.5rem 1.25rem;
+  overflow: hidden;
+}
+.feature::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--gold), transparent 75%);
+  opacity: 0.7;
+}
+.feature__num {
+  position: absolute;
+  top: 1.15rem;
+  right: 1.3rem;
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: var(--gold);
+  opacity: 0.85;
 }
 .feature h3 {
   font-size: 1.15rem;
   margin-bottom: 0.5rem;
+  padding-right: 2rem;
 }
 .feature p {
   margin: 0;
@@ -215,6 +237,17 @@
   text-decoration: none;
   color: inherit;
   transition: transform 0.15s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.book-card.is-active {
+  position: relative;
+  overflow: hidden;
+}
+.book-card.is-active::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--wine), var(--gold));
 }
 .book-card.is-active:hover {
   transform: translateY(-3px);
@@ -392,33 +425,40 @@
   padding: 1.75rem 0 3rem;
 }
 .lesson__container {
-  width: min(920px, 100% - 2.5rem);
+  width: min(1180px, 100% - 2.5rem);
   margin-inline: auto;
 }
 .lesson__header {
-  margin: 1.25rem 0 2rem;
+  margin: 1.25rem 0 0;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--line);
 }
 .lesson__heading {
   display: flex;
   align-items: center;
-  gap: 1.25rem;
+  gap: 1.35rem;
 }
 .lesson__numeral {
   flex: none;
-  width: 4.5rem;
-  height: 4.5rem;
+  width: 4.75rem;
+  height: 4.75rem;
   display: grid;
   place-items: center;
   border-radius: 50%;
   background: linear-gradient(150deg, var(--wine), var(--wine-deep));
   color: #f3e6c8;
   font-family: var(--font-display);
-  font-size: 1.9rem;
+  font-size: 2rem;
   font-weight: 700;
-  box-shadow: var(--shadow-sm);
+  box-shadow: var(--shadow);
+  outline: 1px solid color-mix(in srgb, var(--gold) 55%, transparent);
+  outline-offset: 4px;
+}
+.lesson__heading-text {
+  min-width: 0;
 }
 .lesson__latin-title {
-  font-size: clamp(1.5rem, 4vw, 2.3rem);
+  font-size: clamp(1.6rem, 4vw, 2.5rem);
   margin: 0.1em 0 0.05em;
   letter-spacing: 0.04em;
 }
@@ -429,97 +469,195 @@
   margin: 0;
 }
 .lesson__tagline {
-  font-size: 1.15rem;
+  font-size: 1.18rem;
   color: var(--ink-soft);
   font-style: italic;
-  margin: 1rem 0 0;
+  margin: 1.25rem 0 0;
+  max-width: 60ch;
 }
-.lesson__toolbar {
+
+/* Two columns: a sticky chapter rail beside the content */
+.lesson__layout {
+  display: grid;
+  grid-template-columns: 15.5rem minmax(0, 1fr);
+  gap: 3.5rem;
+  align-items: start;
+  margin-top: 2.75rem;
+}
+.lesson__rail {
+  position: sticky;
+  top: calc(var(--header-h) + 1.75rem);
+  align-self: start;
+}
+.lesson__rail-inner {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  margin-top: 1.4rem;
-  padding-top: 1.25rem;
-  border-top: 1px solid var(--line);
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.lesson__rail-title {
+  font-family: var(--font-ui);
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin: 0;
 }
 .lesson__toc {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
+  flex-direction: column;
 }
 .lesson__toc a {
-  font-family: var(--font-ui);
-  font-size: 0.78rem;
+  display: flex;
+  gap: 0.7rem;
+  align-items: baseline;
+  padding: 0.55rem 0.75rem;
   text-decoration: none;
   color: var(--ink-soft);
-  padding: 0.3rem 0.65rem;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: var(--surface);
+  border-left: 2px solid var(--line);
+  transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
 }
 .lesson__toc a:hover {
   color: var(--wine);
-  border-color: var(--gold-soft);
+  border-left-color: var(--gold-soft);
 }
+.lesson__toc a.is-active {
+  color: var(--ink);
+  border-left-color: var(--wine);
+  background: color-mix(in srgb, var(--wine) 6%, transparent);
+}
+.lesson__toc-num {
+  flex: none;
+  width: 1.1rem;
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  color: var(--ink-faint);
+}
+.lesson__toc a.is-active .lesson__toc-num {
+  color: var(--wine);
+}
+.lesson__toc-label {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.lesson__toc-latin {
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+.lesson__toc-sub {
+  font-family: var(--font-ui);
+  font-size: 0.7rem;
+  color: var(--ink-faint);
+}
+
+.lesson__main {
+  min-width: 0;
+}
+
 .lesson__overview {
-  padding: 1.5rem 1.6rem;
-  margin-bottom: 2.5rem;
+  padding: 1.5rem 1.7rem;
+  margin-bottom: 3rem;
   background: var(--surface-2);
+  border: 1px solid var(--line-soft);
+  border-left: 3px solid var(--gold-soft);
+  border-radius: var(--radius);
 }
-.lesson__overview .lesson__section-title {
-  font-size: 1.05rem;
+.lesson__overview .eyebrow {
   margin-bottom: 0.6rem;
 }
+.lesson__overview > p:last-of-type {
+  margin-bottom: 0;
+}
 .objectives {
-  margin: 0.75rem 0 0;
+  margin: 1rem 0 0;
   padding-left: 1.1rem;
   color: var(--ink-soft);
 }
 .objectives li {
   margin-bottom: 0.3rem;
 }
+
 .lesson__section {
-  margin: 3rem 0;
-  scroll-margin-top: calc(var(--header-h) + 1rem);
+  margin: 3.5rem 0;
+  scroll-margin-top: calc(var(--header-h) + 1.5rem);
+}
+
+/* Section divider with a Roman-numeral marker */
+.lesson__section-head {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  margin-bottom: 1.9rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--line);
+}
+.lesson__section-head::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 3.75rem;
+  height: 3px;
+  border-radius: 3px;
+  background: linear-gradient(90deg, var(--wine), var(--gold));
+}
+.lesson__section-index {
+  flex: none;
+  width: 2.6rem;
+  height: 2.6rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--wine);
+  background: color-mix(in srgb, var(--wine) 8%, var(--surface));
+  border: 1px solid color-mix(in srgb, var(--wine) 24%, var(--line));
 }
 .lesson__section-title {
-  font-size: clamp(1.3rem, 3vw, 1.7rem);
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid var(--line);
-  margin-bottom: 1.5rem;
+  font-size: clamp(1.35rem, 3vw, 1.75rem);
+  margin: 0;
 }
-.lesson__section-title .muted {
+.lesson__section-kicker {
   font-family: var(--font-ui);
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 500;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin: 0.2rem 0 0;
 }
+
 .lesson__nav {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
-  margin-top: 3rem;
+  margin-top: 3.5rem;
   padding-top: 1.75rem;
   border-top: 1px solid var(--line);
 }
 .lesson__nav-link {
   display: flex;
   flex-direction: column;
-  gap: 0.2rem;
+  gap: 0.25rem;
   text-decoration: none;
-  padding: 0.85rem 1.1rem;
+  padding: 0.9rem 1.15rem;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--surface);
   max-width: 46%;
-  font-size: 0.95rem;
-  transition: transform 0.13s ease, box-shadow 0.18s ease;
+  font-size: 1rem;
+  transition: transform 0.13s ease, box-shadow 0.18s ease, border-color 0.15s ease;
 }
 .lesson__nav-link:hover {
   transform: translateY(-2px);
-  box-shadow: var(--shadow-sm);
+  box-shadow: var(--shadow);
+  border-color: var(--gold-soft);
 }
 .lesson__nav-link .muted {
   font-family: var(--font-ui);
@@ -530,62 +668,119 @@
   margin-left: auto;
 }
 
+@media (max-width: 980px) {
+  .lesson__layout {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .lesson__rail {
+    position: static;
+  }
+  .lesson__toc {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 0.4rem;
+    padding-bottom: 0.35rem;
+  }
+  .lesson__toc a {
+    flex: none;
+    flex-direction: column;
+    gap: 0.1rem;
+    padding: 0.4rem 0.8rem;
+    border-left: none;
+    border-bottom: 2px solid var(--line);
+    white-space: nowrap;
+  }
+  .lesson__toc a.is-active {
+    border-bottom-color: var(--wine);
+    background: transparent;
+  }
+  .lesson__toc-sub {
+    display: none;
+  }
+}
+
 /* ---------- Reading ---------- */
 
 .readings__bar {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   margin-bottom: 0.9rem;
 }
 .reading {
-  padding: clamp(1.4rem, 3vw, 2.25rem);
-  margin-bottom: 1.5rem;
+  position: relative;
+  padding: clamp(1.6rem, 3.4vw, 2.6rem);
+  margin-bottom: 1.75rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+.reading::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--wine), var(--gold) 70%, transparent);
+  opacity: 0.55;
 }
 .reading__head {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
 }
 .reading__latin-title {
   font-family: var(--font-ui);
-  font-size: 0.72rem;
+  font-size: 0.7rem;
+  font-weight: 600;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--gold);
-  margin: 0 0 0.25rem;
+  margin: 0 0 0.3rem;
 }
 .reading__title {
-  font-size: 1.35rem;
+  font-size: 1.5rem;
   margin: 0;
 }
 .reading__grid.has-notes {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 15rem;
-  gap: 2rem;
+  gap: 2.75rem;
   align-items: start;
 }
 .reading__text p {
-  font-size: 1.18rem;
-  line-height: 1.8;
-  margin-bottom: 1.1rem;
+  font-size: 1.22rem;
+  line-height: 1.85;
+  margin-bottom: 1.15rem;
 }
 .reading__text p:last-child {
   margin-bottom: 0;
 }
+/* A drop cap opens each reading, like a printed book */
+.reading__text > p:first-of-type::first-letter {
+  float: left;
+  font-family: var(--font-display);
+  font-size: 3.5em;
+  line-height: 0.76;
+  font-weight: 700;
+  color: var(--wine);
+  padding: 0.08em 0.12em 0 0;
+}
 .reading__notes {
-  background: var(--surface-2);
-  border: 1px solid var(--line-soft);
-  border-radius: var(--radius-sm);
-  padding: 1rem 1.1rem;
   position: sticky;
-  top: calc(var(--header-h) + 1rem);
+  top: calc(var(--header-h) + 1.75rem);
+  padding-left: 1.15rem;
+  border-left: 2px solid color-mix(in srgb, var(--gold) 45%, transparent);
 }
 .reading__notes-title {
   font-family: var(--font-ui);
-  font-size: 0.68rem;
+  font-size: 0.66rem;
+  font-weight: 600;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--ink-faint);
-  margin: 0 0 0.75rem;
+  margin: 0 0 0.7rem;
 }
 .reading__notes ul {
   list-style: none;
@@ -593,7 +788,7 @@
   padding: 0;
 }
 .reading__notes li {
-  padding: 0.5rem 0;
+  padding: 0.55rem 0;
   border-top: 1px solid var(--line-soft);
 }
 .reading__notes li:first-child {
@@ -604,21 +799,24 @@
   display: block;
   font-weight: 600;
   color: var(--wine);
-  font-size: 0.9rem;
+  font-size: 0.92rem;
 }
 .reading__note-gloss {
   display: block;
-  font-size: 0.88rem;
+  font-size: 0.9rem;
   color: var(--ink-soft);
   line-height: 1.5;
 }
 @media (max-width: 760px) {
   .reading__grid.has-notes {
     grid-template-columns: 1fr;
-    gap: 1.25rem;
+    gap: 1.5rem;
   }
   .reading__notes {
     position: static;
+  }
+  .reading__text > p:first-of-type::first-letter {
+    font-size: 3em;
   }
 }
 

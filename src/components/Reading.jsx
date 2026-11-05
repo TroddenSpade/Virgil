@@ -5,19 +5,20 @@ export default function Reading({ readings }) {
 
   if (!readings?.length) return null
 
+  const hasNotes = readings.some((r) => r.notes?.length)
+
   return (
     <div className="readings">
-      <div className="readings__bar">
-        <span className="muted" style={{ fontFamily: 'var(--font-ui)', fontSize: '0.8rem' }}>
-          Lectio
-        </span>
-        <button type="button" className="btn btn--ghost btn--sm" onClick={() => setShowNotes((v) => !v)}>
-          {showNotes ? 'Hide notes' : 'Show notes'}
-        </button>
-      </div>
+      {hasNotes && (
+        <div className="readings__bar">
+          <button type="button" className="btn btn--ghost btn--sm" onClick={() => setShowNotes((v) => !v)}>
+            {showNotes ? 'Hide marginal notes' : 'Show marginal notes'}
+          </button>
+        </div>
+      )}
 
       {readings.map((reading, index) => (
-        <section key={reading.id || index} className="reading card rise" id={reading.id}>
+        <section key={reading.id || index} className="reading rise" id={reading.id}>
           <header className="reading__head">
             {reading.latinTitle && <p className="reading__latin-title">{reading.latinTitle}</p>}
             <h3 className="reading__title">{reading.title}</h3>
@@ -32,7 +33,7 @@ export default function Reading({ readings }) {
 
             {showNotes && reading.notes?.length > 0 && (
               <aside className="reading__notes" aria-label="Notes">
-                <p className="reading__notes-title">Notes</p>
+                <p className="reading__notes-title">Marginalia</p>
                 <ul>
                   {reading.notes.map((note, i) => (
                     <li key={i}>

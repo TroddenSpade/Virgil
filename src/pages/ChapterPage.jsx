@@ -1,6 +1,7 @@
 import { Link, useParams, Navigate } from 'react-router-dom'
 import { getBook } from '../data/library.js'
 import { useProgress } from '../hooks/useLocalStorage.js'
+import { useScrollSpy } from '../hooks/useScrollSpy.js'
 import Reading from '../components/Reading.jsx'
 import GrammarSection from '../components/GrammarSection.jsx'
 import Vocabulary from '../components/Vocabulary.jsx'
@@ -26,11 +27,13 @@ function Lesson({ book, chapter }) {
   const next = index < ready.length - 1 ? ready[index + 1] : null
 
   const sections = [
-    chapter.readings.length && { id: 'lectio', label: 'Lectio' },
-    chapter.grammar.length && { id: 'grammatica', label: 'Grammatica' },
-    chapter.vocabulary.length && { id: 'vocabula', label: 'Vocabula' },
-    chapter.pensa.length && { id: 'pensa', label: 'Pensa' },
+    chapter.readings.length && { id: 'lectio', label: 'Lectio', sub: 'Reading', num: 'I' },
+    chapter.grammar.length && { id: 'grammatica', label: 'Grammatica', sub: 'Grammar', num: 'II' },
+    chapter.vocabulary.length && { id: 'vocabula', label: 'Vocabula', sub: 'Vocabulary', num: 'III' },
+    chapter.pensa.length && { id: 'pensa', label: 'Pensa', sub: 'Exercises', num: 'IV' },
   ].filter(Boolean)
+
+  const active = useScrollSpy(sections.map((s) => s.id))
 
   return (
     <article className="lesson">
@@ -44,78 +47,84 @@ function Lesson({ book, chapter }) {
             <span className="lesson__numeral" aria-hidden="true">
               {chapter.roman}
             </span>
-            <div>
+            <div className="lesson__heading-text">
               <p className="eyebrow">Capitulum {chapter.roman}</p>
               <h1 className="lesson__latin-title latin">{chapter.latinTitle}</h1>
               <p className="lesson__title">{chapter.title}</p>
             </div>
           </div>
           <p className="lesson__tagline">{chapter.tagline}</p>
-
-          <div className="lesson__toolbar">
-            <button
-              type="button"
-              className={`btn btn--sm ${done ? 'btn--primary' : 'btn--ghost'}`}
-              onClick={() => toggle(chapter.number)}
-              aria-pressed={done}
-            >
-              {done ? '✓ Marked as learned' : 'Mark as learned'}
-            </button>
-            <nav className="lesson__toc" aria-label="On this page">
-              {sections.map((s) => (
-                <a key={s.id} href={`#${s.id}`}>
-                  {s.label}
-                </a>
-              ))}
-            </nav>
-          </div>
         </header>
 
-        <section className="lesson__overview card">
-          <h2 className="lesson__section-title">In this chapter</h2>
-          <p>{chapter.overview}</p>
-          {chapter.objectives?.length > 0 && (
-            <ul className="objectives">
-              {chapter.objectives.map((o, i) => (
-                <li key={i}>{o}</li>
-              ))}
-            </ul>
-          )}
-        </section>
+        <div className="lesson__layout">
+          <aside className="lesson__rail">
+            <div className="lesson__rail-inner">
+              <p className="lesson__rail-title">In this chapter</p>
+              <nav className="lesson__toc" aria-label="On this page">
+                {sections.map((s) => (
+                  <a key={s.id} href={`#${s.id}`} className={active === s.id ? 'is-active' : ''}>
+                    <span className="lesson__toc-num">{s.num}</span>
+                    <span className="lesson__toc-label">
+                      <span className="lesson__toc-latin latin">{s.label}</span>
+                      <span className="lesson__toc-sub">{s.sub}</span>
+                    </span>
+                  </a>
+                ))}
+              </nav>
 
-        {chapter.readings.length > 0 && (
-          <section className="lesson__section" id="lectio">
-            <h2 className="lesson__section-title">Lectio</h2>
-            <Reading readings={chapter.readings} />
-          </section>
-        )}
+              <button
+                type="button"
+                className={`btn btn--sm lesson__done ${done ? 'btn--primary' : 'btn--ghost'}`}
+                onClick={() => toggle(chapter.number)}
+                aria-pressed={done}
+              >
+                {done ? '✓ Marked as learned' : 'Mark as learned'}
+              </button>
+            </div>
+          </aside>
 
-        {chapter.grammar.length > 0 && (
-          <section className="lesson__section" id="grammatica">
-            <h2 className="lesson__section-title">
-              Grammatica Latina <span className="muted">· grammar</span>
-            </h2>
-            <GrammarSection entries={chapter.grammar} />
-          </section>
-        )}
+          <div className="lesson__main">
+            <section className="lesson__overview">
+              <p className="eyebrow">Overview</p>
+              <p>{chapter.overview}</p>
+              {chapter.objectives?.length > 0 && (
+                <ul className="objectives">
+                  {chapter.objectives.map((o, i) => (
+                    <li key={i}>{o}</li>
+                  ))}
+                </ul>
+              )}
+            </section>
 
-        {chapter.vocabulary.length > 0 && (
-          <section className="lesson__section" id="vocabula">
-            <h2 className="lesson__section-title">
-              Vocabula <span className="muted">· vocabulary</span>
-            </h2>
-            <Vocabulary words={chapter.vocabulary} />
-          </section>
-        )}
+            {chapter.readings.length > 0 && (
+              <section className="lesson__section" id="lectio">
+                <SectionHead num="I" latin="Lectio" english="reading" />
+                <Reading readings={chapter.readings} />
+              </section>
+            )}
 
-        {chapter.pensa.length > 0 && (
-          <section className="lesson__section" id="pensa">
-            <h2 className="lesson__section-title">
-              Pensa <span className="muted">· exercises</span>
-            </h2>
-            <Pensum pensa={chapter.pensa} />
-          </section>
-        )}
+            {chapter.grammar.length > 0 && (
+              <section className="lesson__section" id="grammatica">
+                <SectionHead num="II" latin="Grammatica Latina" english="grammar" />
+                <GrammarSection entries={chapter.grammar} />
+              </section>
+            )}
+
+            {chapter.vocabulary.length > 0 && (
+              <section className="lesson__section" id="vocabula">
+                <SectionHead num="III" latin="Vocabula" english="vocabulary" />
+                <Vocabulary words={chapter.vocabulary} />
+              </section>
+            )}
+
+            {chapter.pensa.length > 0 && (
+              <section className="lesson__section" id="pensa">
+                <SectionHead num="IV" latin="Pensa" english="exercises" />
+                <Pensum pensa={chapter.pensa} />
+              </section>
+            )}
+          </div>
+        </div>
 
         <nav className="lesson__nav" aria-label="Chapter navigation">
           {prev ? (
@@ -140,5 +149,19 @@ function Lesson({ book, chapter }) {
         </nav>
       </div>
     </article>
+  )
+}
+
+function SectionHead({ num, latin, english }) {
+  return (
+    <div className="lesson__section-head">
+      <span className="lesson__section-index" aria-hidden="true">
+        {num}
+      </span>
+      <div className="lesson__section-heading">
+        <h2 className="lesson__section-title latin">{latin}</h2>
+        <p className="lesson__section-kicker">{english}</p>
+      </div>
+    </div>
   )
 }
