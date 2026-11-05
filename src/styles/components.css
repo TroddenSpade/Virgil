@@ -1362,3 +1362,207 @@
     margin-left: 0;
   }
 }
+
+/* ---------- PWA update notice (top) ---------- */
+
+.pwa-update {
+  position: fixed;
+  top: 0.75rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 60;
+  width: min(680px, calc(100% - 1.5rem));
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.6rem 0.7rem 0.6rem 0.75rem;
+  background: var(--surface);
+  border: 1px solid var(--gold-soft);
+  border-radius: 999px;
+  box-shadow: var(--shadow);
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  color: var(--ink);
+  animation: pwa-drop 0.34s cubic-bezier(0.22, 1, 0.36, 1);
+}
+@keyframes pwa-drop {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -150%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+.pwa-update__icon {
+  flex: none;
+  width: 2.1rem;
+  height: 2.1rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: linear-gradient(150deg, var(--wine), var(--wine-deep));
+  color: #f3e6c8;
+}
+.pwa-update__text {
+  margin: 0;
+  flex: 1;
+  min-width: 0;
+  line-height: 1.35;
+}
+.pwa-update__text strong {
+  color: var(--wine);
+}
+.pwa-update__action {
+  flex: none;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--surface);
+  background: var(--wine);
+  padding: 0.45rem 1.05rem;
+  border-radius: 999px;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.12s ease, background 0.15s ease;
+}
+.pwa-update__action:hover {
+  background: var(--wine-deep);
+  transform: translateY(-1px);
+}
+.pwa-update__dismiss {
+  flex: none;
+  width: 1.9rem;
+  height: 1.9rem;
+  display: grid;
+  place-items: center;
+  border: none;
+  background: none;
+  color: var(--ink-faint);
+  font-size: 1.3rem;
+  line-height: 1;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.pwa-update__dismiss:hover {
+  background: color-mix(in srgb, var(--gold) 16%, transparent);
+  color: var(--ink);
+}
+
+/* ---------- PWA install prompt (bottom-left) ---------- */
+
+.install-prompt {
+  position: fixed;
+  left: 1rem;
+  bottom: 1rem;
+  z-index: 55;
+  width: min(340px, calc(100% - 2rem));
+  display: flex;
+  gap: 0.85rem;
+  padding: 1rem 1.1rem 1rem 1.1rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  font-family: var(--font-ui);
+  animation: pwa-rise 0.34s cubic-bezier(0.22, 1, 0.36, 1);
+}
+@keyframes pwa-rise {
+  from {
+    opacity: 0;
+    transform: translateY(150%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.install-prompt__mark {
+  flex: none;
+  color: var(--wine);
+  margin-top: 0.1rem;
+}
+.install-prompt__body {
+  min-width: 0;
+}
+.install-prompt__title {
+  margin: 0 0 0.2rem;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  letter-spacing: 0.03em;
+  color: var(--ink);
+}
+.install-prompt__text {
+  margin: 0 0 0.85rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+}
+.install-prompt__actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.install-prompt__install {
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--surface);
+  background: var(--wine);
+  padding: 0.45rem 1.05rem;
+  border-radius: 999px;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.12s ease, background 0.15s ease;
+}
+.install-prompt__install:hover {
+  background: var(--wine-deep);
+  transform: translateY(-1px);
+}
+.install-prompt__later {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--ink-faint);
+  padding: 0.45rem 0.55rem;
+  border-radius: var(--radius-sm);
+  transition: color 0.15s ease;
+}
+.install-prompt__later:hover {
+  color: var(--wine);
+}
+.install-prompt__close {
+  position: absolute;
+  top: 0.45rem;
+  right: 0.5rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  display: grid;
+  place-items: center;
+  border: none;
+  background: none;
+  color: var(--ink-faint);
+  font-size: 1.15rem;
+  line-height: 1;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.install-prompt__close:hover {
+  background: color-mix(in srgb, var(--gold) 16%, transparent);
+  color: var(--ink);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pwa-update,
+  .install-prompt {
+    animation: none;
+  }
+}

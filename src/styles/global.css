@@ -207,28 +207,6 @@ main {
   gap: 0.4rem;
 }
 
-/* PWA install button */
-.install-btn {
-  font-family: var(--font-ui);
-  font-size: 0.82rem;
-  font-weight: 600;
-  color: var(--surface);
-  background: var(--wine);
-  border: none;
-  padding: 0.5rem 0.9rem;
-  border-radius: 999px;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  box-shadow: var(--shadow-sm);
-  transition: transform 0.12s ease, background 0.15s ease;
-}
-.install-btn:hover {
-  background: var(--wine-deep);
-  transform: translateY(-1px);
-}
-
 /* ---------- Footer ---------- */
 
 .site-footer {

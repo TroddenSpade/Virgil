@@ -13,7 +13,13 @@ export default defineConfig({
   plugins: [
     react(),
     VitePWA({
-      registerType: 'autoUpdate',
+      // 'prompt' instead of 'autoUpdate': a new service worker waits until the
+      // user accepts the update, at which point we activate it and reload so the
+      // page is served from the freshly fetched version.
+      registerType: 'prompt',
+      // Registration is handled explicitly by useRegisterSW in PwaUpdatePrompt,
+      // so don't also inject the auto-register script into index.html.
+      injectRegister: null,
       includeAssets: ['favicon.svg', 'icons/apple-touch-icon.png', 'icons/icon-maskable-512.png'],
       manifest: {
         name: 'Virgil — Latin, from Familia Romana to the Aeneid',

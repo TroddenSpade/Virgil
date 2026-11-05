@@ -1,7 +1,6 @@
 import { Link, NavLink } from 'react-router-dom'
 import Logo from './Logo.jsx'
 import ThemeToggle from './ThemeToggle.jsx'
-import InstallButton from './InstallButton.jsx'
 
 export default function Header() {
   return (
@@ -26,9 +25,6 @@ export default function Header() {
             Approach
           </NavLink>
           <ThemeToggle />
-          <span className="hide-sm">
-            <InstallButton />
-          </span>
         </nav>
       </div>
     </header>
