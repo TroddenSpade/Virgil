@@ -1,0 +1,55 @@
+:root {
+  /* Palette — Roman parchment, wine and gold */
+  --parchment: #f4ecd8;
+  --parchment-deep: #ece0c4;
+  --surface: #fbf6ea;
+  --surface-2: #f6efdd;
+  --ink: #2b2118;
+  --ink-soft: #5a4c3c;
+  --ink-faint: #8a7a64;
+  --wine: #7a1f2b;
+  --wine-deep: #5d1620;
+  --wine-soft: #a34a55;
+  --gold: #a9791f;
+  --gold-soft: #c8a24a;
+  --laurel: #4b6b3a;
+  --line: #ddcfae;
+  --line-soft: #e8dfc7;
+  --shadow: 0 1px 2px rgba(43, 33, 24, 0.06), 0 8px 24px rgba(43, 33, 24, 0.08);
+  --shadow-sm: 0 1px 2px rgba(43, 33, 24, 0.08);
+
+  /* Type */
+  --font-display: 'Cinzel', 'Trajan Pro', Georgia, serif;
+  --font-serif: 'EB Garamond', Georgia, 'Times New Roman', serif;
+  --font-ui: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  /* Layout */
+  --measure: 68ch;
+  --radius: 10px;
+  --radius-sm: 6px;
+  --header-h: 64px;
+
+  color-scheme: light;
+}
+
+/* Optional dark ("night study") palette */
+:root[data-theme='dark'] {
+  --parchment: #17130e;
+  --parchment-deep: #1e1913;
+  --surface: #221c15;
+  --surface-2: #2a231a;
+  --ink: #f0e6d2;
+  --ink-soft: #c3b297;
+  --ink-faint: #94836b;
+  --wine: #d98a95;
+  --wine-deep: #b56572;
+  --wine-soft: #8a3d49;
+  --gold: #e2c17a;
+  --gold-soft: #b6934a;
+  --laurel: #8fae7a;
+  --line: #3a3126;
+  --line-soft: #2f2820;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 28px rgba(0, 0, 0, 0.45);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  color-scheme: dark;
+}

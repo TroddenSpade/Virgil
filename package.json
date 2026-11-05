@@ -1,0 +1,27 @@
+{
+  "name": "virgil",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Virgil — a Latin learning project. From Ørberg's Familia Romana to the works of Virgil.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node scripts/postbuild.mjs",
+    "build:pages": "VITE_BASE=/Virgil/ vite build && node scripts/postbuild.mjs",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.2.0",
+    "vite": "^7.3.7",
+    "vite-plugin-pwa": "^2.0.0",
+    "workbox-window": "^7.4.1"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}

@@ -1,0 +1,228 @@
+// Capitulum I — Imperium Romanum
+// Sources: Ørberg, Lingua Latina per se Illustrata, Pars I: Familia Romana (2nd ed.)
+// Reading text, grammar and exercises adapted and re-typeset for the web.
+
+const chapter = {
+  number: 1,
+  roman: 'I',
+  slug: 'imperium-romanum',
+  latinTitle: 'IMPERIVM ROMANVM',
+  title: 'The Roman Empire',
+  tagline: 'Your first Latin words: what things are, and where they are.',
+  status: 'complete',
+  overview:
+    'The very first chapter teaches Latin by reading alone — no word lists to memorise beforehand. ' +
+    'You meet the verb "to be" (est / sunt), the little words that join sentences, and the three great ' +
+    'noun families of Latin (masculine, feminine and neuter) through words for lands, rivers, islands and towns.',
+  objectives: [
+    'Read and understand simple Latin sentences about places.',
+    'Use est (is) and sunt (are).',
+    'Recognise the singular and plural endings -us/-i, -a/-ae and -um/-a.',
+    'Ask questions with -ne, ubi, quid and num.',
+  ],
+  readings: [
+    {
+      id: 'lectio-prima',
+      latinTitle: 'LECTIO PRIMA',
+      title: 'The Empire',
+      paragraphs: [
+        'Roma in Italia est. Italia in Europa est. Graecia in Europa est. Italia et Graecia in Europa sunt. Hispania quoque in Europa est. Hispania et Italia et Graecia in Europa sunt.',
+        'Aegyptus in Europa non est, Aegyptus in Africa est. Gallia non in Africa est, Gallia est in Europa. Syria non est in Europa, sed in Asia. Arabia quoque in Asia est. Syria et Arabia in Asia sunt. Germania non in Asia, sed in Europa est. Britannia quoque in Europa est. Germania et Britannia sunt in Europa.',
+        'Estne Gallia in Europa? Gallia in Europa est. Estne Roma in Gallia? Roma in Gallia non est. Ubi est Roma? Roma est in Italia. Ubi est Italia? Italia in Europa est. Ubi sunt Gallia et Hispania? Gallia et Hispania in Europa sunt.',
+        'Estne Nilus in Europa? Nilus in Europa non est. Ubi est Nilus? Nilus in Africa est. Rhenus ubi est? Rhenus est in Germania. Nilus fluvius est. Rhenus fluvius est.',
+        'Nilus et Rhenus fluvii sunt. Danuvius quoque fluvius est. Rhenus et Danuvius sunt fluvii in Germania. Tiberis fluvius in Italia est.',
+        'Nilus fluvius magnus est. Tiberis non est fluvius magnus, Tiberis fluvius parvus est. Rhenus non est fluvius parvus, sed fluvius magnus. Nilus et Rhenus non fluvii parvi, sed fluvii magni sunt. Danuvius quoque fluvius magnus est.',
+        'Corsica insula est. Corsica et Sardinia et Sicilia insulae sunt. Britannia quoque insula est. Italia insula non est. Sicilia insula magna est. Melita est insula parva. Britannia non insula parva, sed insula magna est. Sicilia et Sardinia non insulae parvae, sed insulae magnae sunt.',
+        'Brundisium oppidum est. Brundisium et Tusculum oppida sunt. Sparta quoque oppidum est. Brundisium est oppidum magnum. Tusculum oppidum parvum est. Delphi quoque oppidum parvum est. Tusculum et Delphi non oppida magna, sed oppida parva sunt.',
+        'Ubi est Sparta? Sparta est in Graecia. Sparta est oppidum Graecum. Sparta et Delphi oppida Graeca sunt. Tusculum non oppidum Graecum, sed oppidum Romanum est. Tusculum et Brundisium sunt oppida Romana. Sardinia insula Romana est. Creta, Rhodus, Naxus, Samos, Chios, Lesbos, Lemnos, Euboea sunt insulae Graecae. In Graecia multae insulae sunt. In Italia et in Graecia sunt multa oppida. In Gallia et in Germania multi sunt fluvii. Suntne multi fluvii et multa oppida in Arabia? In Arabia non multi, sed pauci fluvii sunt et pauca oppida.',
+        'Num Creta oppidum est? Creta oppidum non est! Quid est Creta? Creta insula est. Num Sparta insula est? Sparta non est insula! Quid est Sparta? Sparta oppidum est. Rhenus quid est? Rhenus est magnus fluvius. Num oceanus Atlanticus parvus est? Non parvus, sed magnus est oceanus.',
+        'Ubi est imperium Romanum? Imperium Romanum est in Europa, in Asia, in Africa. Hispania et Syria et Aegyptus provinciae Romanae sunt. Germania non est provincia Romana: Germania in imperio Romano non est. Sed Gallia et Britannia sunt provinciae Romanae. In imperio Romano multae sunt provinciae. Magnum est imperium Romanum!',
+      ],
+      notes: [
+        { term: '-us / -i', gloss: 'Nilus fluvius est; Nilus et Rhenus fluvii sunt.' },
+        { term: 'parvus ↔ magnus', gloss: 'fluvius magnus / parvus; fluvii magni / parvi.' },
+        { term: '-a / -ae', gloss: 'Corsica insula est; Corsica et Sardinia insulae sunt.' },
+        { term: '-um / -a', gloss: 'Brundisium oppidum est; Brundisium et Tusculum oppida sunt.' },
+        { term: 'Graecus -a -um', gloss: 'Sparta oppidum Graecum est.' },
+        { term: 'Romanus -a -um', gloss: 'from Roma — Tusculum oppidum Romanum est.' },
+        { term: 'suntne...?', gloss: 'a question: "are there...?"' },
+        { term: 'pauci ↔ multi', gloss: 'pauci fluvii, multae insulae, multa oppida.' },
+      ],
+    },
+    {
+      id: 'litterae-numeri',
+      latinTitle: 'LITTERAE ET NVMERI',
+      title: 'Letters and Numbers',
+      paragraphs: [
+        'I et II numeri sunt. III quoque numerus est. I, II, III numeri Romani sunt. I et II sunt parvi numeri. CIƆ magnus numerus est.',
+        'A et B litterae sunt. C quoque littera est. A, B, C sunt tres litterae. A est littera prima (I), B littera secunda (II), C littera tertia (III). Γ littera Graeca est. C est littera Latina. C et D litterae Latinae sunt. Γ et Δ sunt litterae Graecae.',
+        'Fluvius et oppidum vocabula Latina sunt. Ubi quoque vocabulum Latinum est. In vocabulo ubi sunt tres litterae. In capitulo primo mille vocabula sunt.',
+        "In vocabulo 'insula' sex litterae et tres syllabae sunt: syllaba prima 'in-', secunda '-su-', tertia '-la'. In vocabulo 'non' sunt tres litterae et una syllaba.",
+        "Quid est III? III numerus Romanus est. Γ quid est? Γ littera Graeca est. Num C littera Graeca est? Non littera Graeca, sed littera Latina est C. Estne B littera prima? B non littera prima, sed secunda est. Quid est 'non'? 'Non' est vocabulum Latinum. 'Non', 'sed', 'magnus', 'numerus' vocabula Latina sunt. 'Vocabulum' quoque vocabulum Latinum est!",
+      ],
+      notes: [
+        { term: 'I, II, III', gloss: 'unus (1), duo (2), tres (3) — Roman numerals.' },
+        { term: 'A = "a"', gloss: 'B = "be", C = "ce" — how letters are named.' },
+        { term: 'ː1 = mille', gloss: 'CIƆ = M = 1000.' },
+        { term: 'syllaba', gloss: 'syllable: in-su-la has three.' },
+      ],
+    },
+  ],
+  grammar: [
+    {
+      id: 'sing-plur',
+      latinTitle: 'Singularis et Pluralis',
+      title: 'Singular and Plural',
+      intro:
+        'Latin nouns change their ending to show whether they mean one thing or many. ' +
+        'The three endings below cover most nouns you will meet in this chapter.',
+      paradigms: [
+        {
+          caption: 'masculine — ending -us (-er)',
+          head: ['', 'Singularis', 'Pluralis'],
+          rows: [
+            ['fluvius', 'fluvius magnus est', 'fluvii magni sunt'],
+            ['numerus', 'numerus parvus est', 'numeri parvi sunt'],
+          ],
+        },
+        {
+          caption: 'feminine — ending -a',
+          head: ['', 'Singularis', 'Pluralis'],
+          rows: [
+            ['insula', 'insula magna est', 'insulae magnae sunt'],
+            ['littera', 'littera Latina est', 'litterae Latinae sunt'],
+          ],
+        },
+        {
+          caption: 'neuter — ending -um',
+          head: ['', 'Singularis', 'Pluralis'],
+          rows: [
+            ['oppidum', 'oppidum magnum est', 'oppida magna sunt'],
+            ['vocabulum', 'vocabulum Latinum est', 'vocabula Latina sunt'],
+          ],
+        },
+      ],
+      points: [
+        'The adjective changes with its noun: fluvius magnus, fluvii magni; insula magna, insulae magnae; oppidum magnum, oppida magna.',
+        'A noun and its adjective always agree in number (and later, in case and gender).',
+      ],
+    },
+    {
+      id: 'est-sunt',
+      latinTitle: 'Est et Sunt',
+      title: 'Is and Are',
+      intro: 'Latin does not need a word for "a" or "the", and the verb "to be" often carries the whole sentence.',
+      paradigms: [
+        {
+          caption: 'the verb esse (to be)',
+          head: ['', 'Singularis', 'Pluralis'],
+          rows: [
+            ['persona I', 'sum — I am', 'sumus — we are'],
+            ['persona II', 'es — you are', 'estis — you are'],
+            ['persona III', 'est — he/she/it is', 'sunt — they are'],
+          ],
+        },
+      ],
+      points: [
+        'est = "is" for one thing; sunt = "are" for more than one.',
+        'Questions are made by adding -ne to the first word: Estne Roma in Italia? — Is Rome in Italy?',
+        'num introduces a question to which the answer is "no": Num Creta oppidum est? — Surely Crete is not a town?',
+      ],
+    },
+  ],
+  vocabulary: [
+    { latin: 'fluvius', english: 'river', pos: 'noun (m.)' },
+    { latin: 'insula', english: 'island', pos: 'noun (f.)' },
+    { latin: 'oppidum', english: 'town', pos: 'noun (n.)' },
+    { latin: 'oceanus', english: 'ocean', pos: 'noun (m.)' },
+    { latin: 'imperium', english: 'empire, command', pos: 'noun (n.)' },
+    { latin: 'provincia', english: 'province', pos: 'noun (f.)' },
+    { latin: 'numerus', english: 'number', pos: 'noun (m.)' },
+    { latin: 'littera', english: 'letter (of the alphabet)', pos: 'noun (f.)' },
+    { latin: 'vocabulum', english: 'word', pos: 'noun (n.)' },
+    { latin: 'capitulum', english: 'chapter', pos: 'noun (n.)' },
+    { latin: 'syllaba', english: 'syllable', pos: 'noun (f.)' },
+    { latin: 'exemplum', english: 'example', pos: 'noun (n.)' },
+    { latin: 'pensum', english: 'exercise, task', pos: 'noun (n.)' },
+    { latin: 'magnus', english: 'big, great, large', pos: 'adjective' },
+    { latin: 'parvus', english: 'small, little', pos: 'adjective' },
+    { latin: 'Graecus', english: 'Greek', pos: 'adjective' },
+    { latin: 'Romanus', english: 'Roman', pos: 'adjective' },
+    { latin: 'Latinus', english: 'Latin', pos: 'adjective' },
+    { latin: 'multi', english: 'many', pos: 'adjective (pl.)' },
+    { latin: 'pauci', english: 'few', pos: 'adjective (pl.)' },
+    { latin: 'unus', english: 'one', pos: 'numeral' },
+    { latin: 'duo', english: 'two', pos: 'numeral' },
+    { latin: 'tres', english: 'three', pos: 'numeral' },
+    { latin: 'sex', english: 'six', pos: 'numeral' },
+    { latin: 'mille', english: 'a thousand', pos: 'numeral' },
+    { latin: 'primus', english: 'first', pos: 'adjective' },
+    { latin: 'secundus', english: 'second', pos: 'adjective' },
+    { latin: 'tertius', english: 'third', pos: 'adjective' },
+    { latin: 'est', english: 'is', pos: 'verb' },
+    { latin: 'sum', english: 'I am', pos: 'verb' },
+    { latin: 'et', english: 'and', pos: 'conjunction' },
+    { latin: 'sed', english: 'but', pos: 'conjunction' },
+    { latin: 'non', english: 'not', pos: 'adverb' },
+    { latin: 'quoque', english: 'also, too', pos: 'adverb' },
+    { latin: 'ne / -ne?', english: '(turns a sentence into a question)', pos: 'particle' },
+    { latin: 'ubi?', english: 'where?', pos: 'adverb' },
+    { latin: 'num?', english: '(introduces a "no" question)', pos: 'particle' },
+    { latin: 'quid?', english: 'what?', pos: 'pronoun' },
+    { latin: 'grammatica', english: 'grammar', pos: 'noun (f.)' },
+    { latin: 'singularis', english: 'singular', pos: 'adjective' },
+    { latin: 'pluralis', english: 'plural', pos: 'adjective' },
+  ],
+  pensa: [
+    {
+      id: 'pensum-a',
+      latinLabel: 'PENSVM A',
+      title: 'Fill in the endings',
+      instruction: 'Complete each word with the missing ending.',
+      type: 'fill',
+      items: [
+        'Nilus fluvi{{us}} est. Nilus et Rhenus fluvi{{i}} sunt. Creta insul{{a}} est. Creta et Rhodus insul{{ae}} sunt. Brundisium oppid{{um}} est. Brundisium et Tusculum oppid{{a}} sunt.',
+        'Rhenus fluvi{{us}} magn{{us}} est. Tiberis est fluvi{{us}} parv{{us}}. Rhenus et Danuvius non fluvi{{i}} parv{{i}}, sed fluvi{{i}} magn{{i}} sunt. Sardinia insul{{a}} magn{{a}} est. Melita insul{{a}} parv{{a}} est. Sardinia et Sicilia non insul{{ae}} parv{{ae}}, sed insul{{ae}} magn{{ae}} sunt. Brundisium non oppid{{um}} parv{{um}}, sed oppid{{um}} magn{{um}} est. Tusculum et Delphi non oppid{{a}} magn{{a}}, sed oppid{{a}} parv{{a}} sunt.',
+        'Creta insul{{a}} Graec{{a}} est. Lesbos et Chios et Naxus sunt insul{{ae}} Graec{{ae}}. In Graecia mult{{ae}} insul{{ae}} sunt. In Gallia sunt mult{{i}} fluvi{{i}}. In Italia mult{{a}} oppid{{a}} sunt. In Arabia sunt pauc{{i}} fluvi{{i}} et pauc{{a}} oppid{{a}}.',
+        'A et B litter{{ae}} Latin{{ae}} sunt. C quoque litter{{a}} Latin{{a}} est. Mult{{i}} et pauc{{i}} vocabul{{a}} Latin{{a}} sunt. Ubi quoque vocabul{{um}} Latin{{um}} est. I et II numer{{i}} Roman{{i}} sunt. III quoque numer{{us}} Roman{{us}} est.',
+      ],
+    },
+    {
+      id: 'pensum-b',
+      latinLabel: 'PENSVM B',
+      title: 'Complete the sentences',
+      instruction: 'Each blank needs the right word or ending.',
+      type: 'fill',
+      items: [
+        'Sicili{{a}} insula est. Italia insula non {{est}}. Rhenus fluvius {{est}}. Brundisium oppidum {{est}}. Sicilia et Sardinia insulae {{magnae}} sunt. Melita insula {{parva}} est. Britannia non insula parva, sed insula {{magna}} est. Brundisium non oppidum parvum, sed oppidum {{magnum}} est.',
+        'Estne Brundisium in Graecia? Brundisium non est in {{Graecia}}, sed in {{Italia}}. Ubi est Sparta? Sparta est in {{Graecia}}: Sparta oppidum {{Graecum}} est. Delphi quoque oppidum {{Graecum}} est. Euboea, Naxus, Lesbos, Chios insulae {{Graecae}} sunt. In Graecia sunt {{multae}} insulae.',
+        "Quid est III? III {{numerus}} est. Quid est A? A {{littera}} est. A, B, C litterae {{Latinae}} sunt. Estne Γ littera Latina? Γ non littera {{Latina}}, sed littera {{Graeca}} est. Insula {{vocabulum}} Latinum est.",
+      ],
+    },
+    {
+      id: 'pensum-c',
+      latinLabel: 'PENSVM C',
+      title: 'Answer in Latin',
+      instruction: 'Answer each question with a full Latin sentence, then reveal the model answer.',
+      type: 'questions',
+      items: [
+        { q: 'Ubi est Roma?', a: 'Roma in Italia est.' },
+        { q: 'Estne Sparta in Italia?', a: 'Sparta in Italia non est, sed in Graecia est.' },
+        { q: 'Ubi est Italia?', a: 'Italia in Europa est.' },
+        { q: 'Ubi sunt Syria et Arabia?', a: 'Syria et Arabia in Asia sunt.' },
+        { q: 'Estne Aegyptus in Asia?', a: 'Aegyptus in Asia non est, sed in Africa est.' },
+        { q: 'Ubi sunt Sparta et Delphi?', a: 'Sparta et Delphi in Graecia sunt.' },
+        { q: 'Ubi est Brundisium?', a: 'Brundisium in Italia est.' },
+        { q: 'Quid est Brundisium?', a: 'Brundisium oppidum est.' },
+        { q: 'Num Creta oppidum est?', a: 'Creta oppidum non est, sed insula est.' },
+        { q: 'Estne Britannia insula parva?', a: 'Britannia non insula parva, sed insula magna est.' },
+        { q: 'Quid est Tiberis?', a: 'Tiberis fluvius est.' },
+        { q: 'Quid est Ω?', a: 'Ω littera Graeca est.' },
+        { q: 'Num Γ littera Latina est?', a: 'Γ littera Latina non est, sed littera Graeca est.' },
+        { q: 'Estne II magnus numerus?', a: 'II non magnus numerus est, sed parvus.' },
+      ],
+    },
+  ],
+}
+
+export default chapter
