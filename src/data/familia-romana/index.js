@@ -2,12 +2,20 @@ import { outline } from './outline.js'
 import capitulum01 from './capitulum-01.js'
 import capitulum02 from './capitulum-02.js'
 import capitulum03 from './capitulum-03.js'
+import capitulum04 from './capitulum-04.js'
+import capitulum05 from './capitulum-05.js'
+import capitulum06 from './capitulum-06.js'
+import capitulum07 from './capitulum-07.js'
 
 // Full lesson content, keyed by chapter number.
 const detailed = {
   1: capitulum01,
   2: capitulum02,
   3: capitulum03,
+  4: capitulum04,
+  5: capitulum05,
+  6: capitulum06,
+  7: capitulum07,
 }
 
 // Merge the complete table of contents with the chapters that are written up.
