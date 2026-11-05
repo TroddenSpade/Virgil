@@ -24,3 +24,10 @@ npm-debug.log*
 
 # Source books (large PDFs — kept locally, not in git)
 *.pdf
+
+# Extracted source text (copyrighted books — kept locally)
+/sources/
+
+# Python bytecode from the extraction scripts
+__pycache__/
+*.pyc

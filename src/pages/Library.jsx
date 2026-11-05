@@ -8,8 +8,9 @@ export default function Library() {
         <p className="eyebrow">Bibliotheca</p>
         <h1>The Library</h1>
         <p className="lead" style={{ maxWidth: '60ch' }}>
-          The whole course, arranged as a shelf of books. The first is open; the rest are on the way. Together they
-          lead from your first Latin sentence to the poetry of Virgil.
+          The whole course, arranged as a shelf of books. Familia Romana is the main course; the Companion and
+          Learn Latin from the Romans are here in full as references. Together they lead from your first Latin
+          sentence to the poetry of Virgil.
         </p>
 
         <div className="book-grid">
@@ -38,7 +39,8 @@ export default function Library() {
                 <p className="book-card__summary">{book.summary}</p>
                 {isActive && (
                   <p className="book-card__cta">
-                    {book.chapterCount} chapters · {book.readyCount} ready{' '}
+                    {book.chapterCount} chapters ·{' '}
+                    {book.kind === 'reference' ? 'full text' : `${book.readyCount} lessons`}{' '}
                     <span aria-hidden="true">→</span>
                   </p>
                 )}
