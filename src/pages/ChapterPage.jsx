@@ -130,7 +130,8 @@ function Lesson({ book, chapter }) {
           {prev ? (
             <Link className="lesson__nav-link lesson__nav-link--prev" to={`/library/${book.slug}/${prev.slug}`}>
               <span className="muted">← Capitulum {prev.roman}</span>
-              <span className="latin">{prev.latinTitle}</span>
+              <span className="latin">{prev.latinTitle || prev.title}</span>
+              {prev.latinTitle && <span className="lesson__nav-gloss">{prev.title}</span>}
             </Link>
           ) : (
             <span />
@@ -138,7 +139,8 @@ function Lesson({ book, chapter }) {
           {next ? (
             <Link className="lesson__nav-link lesson__nav-link--next" to={`/library/${book.slug}/${next.slug}`}>
               <span className="muted">Capitulum {next.roman} →</span>
-              <span className="latin">{next.latinTitle}</span>
+              <span className="latin">{next.latinTitle || next.title}</span>
+              {next.latinTitle && <span className="lesson__nav-gloss">{next.title}</span>}
             </Link>
           ) : (
             <Link className="lesson__nav-link lesson__nav-link--next" to={`/library/${book.slug}`}>

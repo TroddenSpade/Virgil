@@ -130,7 +130,8 @@ function Reader({ book, chapterId }) {
           {prev ? (
             <Link className="lesson__nav-link lesson__nav-link--prev" to={`/library/${book.slug}/read/${prev.id}`}>
               <span className="muted">← {prev.roman || prev.number || 'Back'}</span>
-              <span>{prev.title}</span>
+              <span className="latin">{prev.latinTitle || prev.title}</span>
+              {prev.latinTitle && <span className="lesson__nav-gloss">{prev.title}</span>}
             </Link>
           ) : (
             <span />
@@ -138,7 +139,8 @@ function Reader({ book, chapterId }) {
           {next ? (
             <Link className="lesson__nav-link lesson__nav-link--next" to={`/library/${book.slug}/read/${next.id}`}>
               <span className="muted">{next.roman || next.number || 'Next'} →</span>
-              <span>{next.title}</span>
+              <span className="latin">{next.latinTitle || next.title}</span>
+              {next.latinTitle && <span className="lesson__nav-gloss">{next.title}</span>}
             </Link>
           ) : (
             <Link className="lesson__nav-link lesson__nav-link--next" to={`/library/${book.slug}`}>

@@ -20,8 +20,8 @@ export default function Reading({ readings }) {
       {readings.map((reading, index) => (
         <section key={reading.id || index} className="reading rise" id={reading.id}>
           <header className="reading__head">
-            {reading.latinTitle && <p className="reading__latin-title">{reading.latinTitle}</p>}
-            <h3 className="reading__title">{reading.title}</h3>
+            <h3 className="reading__title latin">{reading.latinTitle || reading.title}</h3>
+            {reading.latinTitle && reading.title && <p className="reading__subtitle">{reading.title}</p>}
           </header>
 
           <div className={`reading__grid ${showNotes && reading.notes?.length ? 'has-notes' : ''}`}>

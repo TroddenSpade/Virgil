@@ -6,8 +6,8 @@ export default function GrammarSection({ entries }) {
       {entries.map((entry) => (
         <section key={entry.id} className="grammar__entry card" id={entry.id}>
           <header className="grammar__head">
-            {entry.latinTitle && <p className="grammar__latin-title latin">{entry.latinTitle}</p>}
-            <h3 className="grammar__title">{entry.title}</h3>
+            <h3 className="grammar__title latin">{entry.latinTitle || entry.title}</h3>
+            {entry.latinTitle && entry.title && <p className="grammar__subtitle">{entry.title}</p>}
           </header>
 
           {entry.intro && <p className="grammar__intro latin">{entry.intro}</p>}

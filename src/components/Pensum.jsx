@@ -49,8 +49,8 @@ function FillExercise({ pensum }) {
   return (
     <section className="pensum card" id={pensum.id}>
       <header className="pensum__head">
-        <p className="pensum__latin-label latin">{pensum.latinLabel}</p>
-        <h3 className="pensum__title">{pensum.title}</h3>
+        <h3 className="pensum__title latin">{pensum.latinLabel || pensum.title}</h3>
+        {pensum.latinLabel && pensum.title && <p className="pensum__subtitle">{pensum.title}</p>}
         {pensum.instruction && <p className="pensum__instruction">{pensum.instruction}</p>}
       </header>
 
@@ -110,8 +110,8 @@ function QuestionExercise({ pensum }) {
   return (
     <section className="pensum card" id={pensum.id}>
       <header className="pensum__head">
-        <p className="pensum__latin-label latin">{pensum.latinLabel}</p>
-        <h3 className="pensum__title">{pensum.title}</h3>
+        <h3 className="pensum__title latin">{pensum.latinLabel || pensum.title}</h3>
+        {pensum.latinLabel && pensum.title && <p className="pensum__subtitle">{pensum.title}</p>}
         {pensum.instruction && <p className="pensum__instruction">{pensum.instruction}</p>}
       </header>
 

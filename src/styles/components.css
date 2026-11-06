@@ -397,16 +397,16 @@
   flex: 1;
 }
 .chapter-card__latin {
-  font-size: 0.78rem;
-  letter-spacing: 0.06em;
-  color: var(--gold);
+  font-size: 1rem;
+  color: var(--ink);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 .chapter-card__title {
-  font-size: 1rem;
-  color: var(--ink);
+  font-size: 0.78rem;
+  letter-spacing: 0.03em;
+  color: var(--ink-faint);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -663,6 +663,11 @@
   font-family: var(--font-ui);
   font-size: 0.72rem;
 }
+.lesson__nav-gloss {
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  color: var(--ink-faint);
+}
 .lesson__nav-link--next {
   text-align: right;
   margin-left: auto;
@@ -730,18 +735,19 @@
 .reading__head {
   margin-bottom: 1.5rem;
 }
-.reading__latin-title {
-  font-family: var(--font-ui), var(--font-latin);
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  color: var(--gold);
-  margin: 0 0 0.3rem;
-}
 .reading__title {
   font-size: 1.5rem;
   margin: 0;
+}
+/* Latin headings keep the book's original name; the English is a small gloss */
+.reading__subtitle,
+.grammar__subtitle,
+.pensum__subtitle {
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  color: var(--ink-faint);
+  margin: 0.15rem 0 0.6rem;
 }
 .reading__grid.has-notes {
   display: grid;
@@ -829,17 +835,9 @@
 .grammar__entry {
   padding: clamp(1.4rem, 3vw, 2rem);
 }
-.grammar__latin-title {
-  font-family: var(--font-ui), var(--font-latin);
-  font-size: 0.72rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--gold);
-  margin: 0 0 0.25rem;
-}
 .grammar__title {
   font-size: 1.3rem;
-  margin: 0 0 0.6rem;
+  margin: 0;
 }
 .grammar__intro {
   color: var(--ink-soft);
@@ -1085,17 +1083,9 @@
 .pensum {
   padding: clamp(1.4rem, 3vw, 2rem);
 }
-.pensum__latin-label {
-  font-family: var(--font-ui), var(--font-latin);
-  font-size: 0.72rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--gold);
-  margin: 0 0 0.25rem;
-}
 .pensum__title {
   font-size: 1.2rem;
-  margin: 0 0 0.4rem;
+  margin: 0;
 }
 .pensum__instruction {
   color: var(--ink-soft);
