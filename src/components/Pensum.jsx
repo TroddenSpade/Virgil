@@ -135,7 +135,7 @@ function QuestionExercise({ pensum }) {
                 {open[i] ? 'Hide answer' : 'Reveal answer'}
               </button>
             </div>
-            {open[i] && <p className="question__answer latin">Respondetur: {item.a}</p>}
+            {open[i] && <p className="question__answer latin">Respondētur: {item.a}</p>}
           </li>
         ))}
       </ol>

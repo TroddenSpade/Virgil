@@ -26,8 +26,8 @@ export default function Vocabulary({ words }) {
   return (
     <div className="vocab card">
       <div className="vocab__bar">
-        <h3 className="vocab__heading">
-          Vocabula <span className="muted">· {words.length} words</span>
+        <h3 className="vocab__heading latin">
+          Vocābula <span className="muted">· {words.length} words</span>
         </h3>
         <div className="vocab__controls">
           <input
