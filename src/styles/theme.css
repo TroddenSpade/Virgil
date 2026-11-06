@@ -21,6 +21,9 @@
   /* Type */
   --font-display: 'Cinzel', 'Trajan Pro', Georgia, serif;
   --font-serif: 'EB Garamond', Georgia, 'Times New Roman', serif;
+  /* Latin running text: Gentium Book Plus is designed for scholarly Latin
+     and carries the full set of macra (ā ē ī ō ū ȳ, capitals included). */
+  --font-latin: 'Gentium Book Plus', 'EB Garamond', Georgia, 'Times New Roman', serif;
   --font-ui: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
 
   /* Layout */

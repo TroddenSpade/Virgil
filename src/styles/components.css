@@ -2,9 +2,9 @@
    Virgil — page & component styles
    ============================================================ */
 
-/* Latin text reads in the serif face with a touch of warmth */
+/* Latin text reads in a scholarly face with full macron coverage */
 .latin {
-  font-family: var(--font-serif);
+  font-family: var(--font-latin);
 }
 .accent {
   color: var(--gold);
@@ -731,7 +731,7 @@
   margin-bottom: 1.5rem;
 }
 .reading__latin-title {
-  font-family: var(--font-ui);
+  font-family: var(--font-ui), var(--font-latin);
   font-size: 0.7rem;
   font-weight: 600;
   letter-spacing: 0.22em;
@@ -830,7 +830,7 @@
   padding: clamp(1.4rem, 3vw, 2rem);
 }
 .grammar__latin-title {
-  font-family: var(--font-ui);
+  font-family: var(--font-ui), var(--font-latin);
   font-size: 0.72rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -1086,7 +1086,7 @@
   padding: clamp(1.4rem, 3vw, 2rem);
 }
 .pensum__latin-label {
-  font-family: var(--font-ui);
+  font-family: var(--font-ui), var(--font-latin);
   font-size: 0.72rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;

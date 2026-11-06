@@ -22,10 +22,14 @@ export function parseBlanks(text) {
 }
 
 // Normalise a learner's answer for tolerant comparison.
+// Macra (and other combining diacritics) are stripped so that answers
+// count whether or not the learner types the long-vowel marks.
 export function normalise(value) {
   return value
     .trim()
     .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
     .replace(/[.,;:!?"'’]/g, '')
     .replace(/\s+/g, ' ')
 }
