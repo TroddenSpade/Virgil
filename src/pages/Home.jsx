@@ -1,11 +1,13 @@
 import { Link } from 'react-router-dom'
-import { books, familiaRomanaBook } from '../data/library.js'
+import { books, familiaRomanaBook, romaAeternaBook } from '../data/library.js'
 import { useProgress } from '../hooks/useLocalStorage.js'
 
 const firstChapter = familiaRomanaBook.chapters[0]
+const firstRomaAeternaChapter = romaAeternaBook.chapters[0]
 
 export default function Home() {
   const { count, percent } = useProgress(familiaRomanaBook.id, familiaRomanaBook.chapterCount)
+  const romaProgress = useProgress(romaAeternaBook.id, romaAeternaBook.chapterCount)
 
   return (
     <>
@@ -33,10 +35,10 @@ export default function Home() {
           </div>
           <ul className="hero__meta rise">
             <li>
-              <strong>{familiaRomanaBook.chapterCount}</strong> chapters
+              <strong>{familiaRomanaBook.chapterCount + romaAeternaBook.chapterCount}</strong> chapters
             </li>
             <li>
-              <strong>{familiaRomanaBook.readyCount}</strong> full lessons ready
+              <strong>{familiaRomanaBook.readyCount + romaAeternaBook.readyCount}</strong> full lessons ready
             </li>
             <li>installable app</li>
           </ul>
@@ -77,7 +79,7 @@ export default function Home() {
       </section>
 
       <section className="section-tight">
-        <div className="container">
+        <div className="container" style={{ display: 'grid', gap: '2rem' }}>
           <div className="book-feature card">
             <div className="book-feature__body">
               <p className="eyebrow">Now available</p>
@@ -103,6 +105,34 @@ export default function Home() {
             </div>
             <div className="book-feature__spine" aria-hidden="true">
               <span className="book-feature__spine-text">FAMILIA ROMANA</span>
+            </div>
+          </div>
+
+          <div className="book-feature card">
+            <div className="book-feature__body">
+              <p className="eyebrow">Now available · Pars II</p>
+              <h2>{romaAeternaBook.title}</h2>
+              <p className="lead latin">{romaAeternaBook.latinTitle}</p>
+              <p>{romaAeternaBook.summary}</p>
+              <div className="book-feature__progress">
+                <div className="progress" role="progressbar" aria-valuenow={romaProgress.percent} aria-valuemin={0} aria-valuemax={100}>
+                  <div className="progress__fill" style={{ width: `${romaProgress.percent}%` }} />
+                </div>
+                <span className="muted" style={{ fontFamily: 'var(--font-ui)', fontSize: '0.8rem' }}>
+                  {romaProgress.count} of {romaAeternaBook.chapterCount} chapters marked as learned
+                </span>
+              </div>
+              <div className="hero__actions">
+                <Link className="btn btn--primary" to={`/library/${romaAeternaBook.slug}`}>
+                  Open the book
+                </Link>
+                <Link className="btn btn--ghost" to={`/library/${romaAeternaBook.slug}/${firstRomaAeternaChapter.slug}`}>
+                  Start Capitulum XXXVI
+                </Link>
+              </div>
+            </div>
+            <div className="book-feature__spine" aria-hidden="true" style={{ background: 'linear-gradient(160deg, var(--gold), #6f4c12)' }}>
+              <span className="book-feature__spine-text">ROMA AETERNA</span>
             </div>
           </div>
         </div>

@@ -31,3 +31,6 @@ npm-debug.log*
 # Python bytecode from the extraction scripts
 __pycache__/
 *.pyc
+
+# Source editions (EPUB/PDF — kept locally)
+*.epub

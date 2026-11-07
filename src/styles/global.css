@@ -390,4 +390,34 @@ main {
   .hide-sm {
     display: none !important;
   }
+  .site-nav {
+    gap: 0.15rem;
+  }
+  .site-nav a,
+  .icon-btn {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.35rem;
+  }
+}
+
+/* Very narrow phones: keep the brand and three nav items on one line. */
+@media (max-width: 380px) {
+  .site-header__inner {
+    gap: 0.4rem;
+  }
+  .brand__name {
+    font-size: 1.1rem;
+    letter-spacing: 0.1em;
+  }
+  .site-nav a,
+  .icon-btn {
+    padding: 0.35rem 0.3rem;
+  }
+}
+
+/* The smallest phones keep the logo but drop the wordmark so the nav fits. */
+@media (max-width: 350px) {
+  .brand__name {
+    display: none;
+  }
 }

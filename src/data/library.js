@@ -1,4 +1,5 @@
 import { book as familiaRomana, chapters as familiaRomanaChapters } from './familia-romana/index.js'
+import { book as romaAeterna, chapters as romaAeternaChapters } from './roma-aeterna/index.js'
 import { sources } from './sources.generated.js'
 
 // Reference sources are the full texts extracted from the source editions.
@@ -33,6 +34,11 @@ export const familiaRomanaBook = {
     referenceId:
       familiaReference?.chapters.find((c) => c.number === chapter.number)?.id || null,
   })),
+}
+
+export const romaAeternaBook = {
+  ...romaAeterna,
+  chapters: romaAeternaChapters,
 }
 
 const companionSource = sourceBySlug['companion']
@@ -132,6 +138,7 @@ export const latinViaOvidBook = {
 
 export const books = [
   familiaRomanaBook,
+  romaAeternaBook,
   companionBook,
   learnLatinBook,
   latinViaOvidBook,

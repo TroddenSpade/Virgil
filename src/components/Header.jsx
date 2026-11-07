@@ -21,6 +21,7 @@ export default function Header() {
             Home
           </NavLink>
           <NavLink to="/library">Library</NavLink>
+          <NavLink to="/dictionary">Dictionary</NavLink>
           <NavLink to="/approach" className="hide-sm">
             Approach
           </NavLink>

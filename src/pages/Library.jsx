@@ -8,9 +8,10 @@ export default function Library() {
         <p className="eyebrow">Bibliotheca</p>
         <h1>The Library</h1>
         <p className="lead" style={{ maxWidth: '60ch' }}>
-          The whole course, arranged as a shelf of books. Familia Romana is the main course; the Companion,
-          Learn Latin from the Romans and Latin via Ovid are here in full as references. Together they lead
-          from your first Latin sentence to the poetry of Virgil.
+          The whole course, arranged as a shelf of books. Familia Romana begins the course and Roma Aeterna
+          carries it on through Aeneas and the Roman Republic; the Companion, Learn Latin from the Romans and
+          Latin via Ovid are here in full as references. Together they lead from your first Latin sentence to
+          the poetry of Virgil.
         </p>
 
         <div className="book-grid">

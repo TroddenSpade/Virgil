@@ -41,10 +41,11 @@ export default function Approach() {
 
         <h2>From the basics to Virgil</h2>
         <p>
-          <em>Familia Romana</em> takes you through all the essential grammar and a working vocabulary. From there the
-          project will add the companion volume, other reading courses, and finally the works of Virgil themselves —
-          the <em>Aeneid</em>, the <em>Eclogues</em> and the <em>Georgics</em> — so that the poetry of Rome can be read
-          as literature, not decoded as a puzzle.
+          <em>Familia Romana</em> takes you through all the essential grammar and a working vocabulary. Its sequel,
+          <em>Roma Aeterna</em>, then reads the Roman story itself — Aeneas, the kings, the Republic — in the words of
+          Vergil, Livy, Cicero and Sallust. From there the project will add the companion volume, other reading courses,
+          and finally the works of Virgil themselves — the <em>Aeneid</em>, the <em>Eclogues</em> and the
+          <em>Georgics</em> — so that the poetry of Rome can be read as literature, not decoded as a puzzle.
         </p>
 
         <div className="divider-deco" aria-hidden="true">

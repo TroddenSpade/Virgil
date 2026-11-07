@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout.jsx'
 import Home from './pages/Home.jsx'
 import Library from './pages/Library.jsx'
+import Dictionary from './pages/Dictionary.jsx'
 import BookPage from './pages/BookPage.jsx'
 import ChapterPage from './pages/ChapterPage.jsx'
 import ReferencePage from './pages/ReferencePage.jsx'
@@ -14,6 +15,7 @@ export default function App() {
       <Route element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="library" element={<Library />} />
+        <Route path="dictionary" element={<Dictionary />} />
         <Route path="library/:bookSlug" element={<BookPage />} />
         <Route path="library/:bookSlug/read/:chapterId" element={<ReferencePage />} />
         <Route path="library/:bookSlug/:chapterSlug" element={<ChapterPage />} />

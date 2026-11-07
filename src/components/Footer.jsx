@@ -9,7 +9,8 @@ export default function Footer() {
           reading project. Text and exercises after H. H. Ørberg, <em>Lingua Latina per se Illustrata</em>.
         </p>
         <p>
-          <Link to="/library">Library</Link> · <Link to="/approach">Approach</Link>
+          <Link to="/library">Library</Link> · <Link to="/dictionary">Dictionary</Link> ·{' '}
+          <Link to="/approach">Approach</Link>
         </p>
       </div>
     </footer>
