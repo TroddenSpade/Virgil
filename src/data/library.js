@@ -44,6 +44,7 @@ export const romaAeternaBook = {
 const companionSource = sourceBySlug['companion']
 const learnLatinSource = sourceBySlug['learn-latin']
 const latinViaOvidSource = sourceBySlug['latin-via-ovid']
+const exercitiaSource = sourceBySlug['exercitia']
 
 export const companionBook = {
   id: 'companion',
@@ -136,9 +137,41 @@ export const latinViaOvidBook = {
   referenceChapters: referenceChapters('latin-via-ovid'),
 }
 
+export const exercitiaBook = {
+  id: 'exercitia-latina',
+  slug: 'exercitia-latina',
+  title: 'Lingua Latina: Exercitia Latina I',
+  latinTitle: 'EXERCITIA LATINA I',
+  shortTitle: 'Exercitia Latina',
+  author: 'Hans H. Ørberg',
+  edition: 'First Edition',
+  year: 2005,
+  publisher: 'Focus Publishing / R. Pullins',
+  isbn: '978-1-58510-212-9',
+  level: 'Exercise book to Familia Romana',
+  language: 'Latin',
+  summary:
+    'The companion exercise book to Familia Romana: extra written drills for every Lēctiō ' +
+    'and every chapter of grammar, to be worked alongside the course.',
+  description:
+    'Exercitia Latina I supplies the additional exercises that sit beside each chapter of ' +
+    'Familia Romana — a Lēctiō prīma, secunda and tertia set with a Lēctiō grammatica, all in ' +
+    'Latin. The complete book is reproduced here capitulum by capitulum, in the Latin face, ' +
+    'with the side-margin vocabulary and paradigm notes gathered at the foot of each chapter.',
+  status: 'active',
+  kind: 'reference',
+  sourceSlug: 'exercitia',
+  accent: 'laurel',
+  chapterCount: exercitiaSource?.chapters.length ?? 0,
+  readyCount: exercitiaSource?.chapters.length ?? 0,
+  chapters: referenceChapters('exercitia'),
+  referenceChapters: referenceChapters('exercitia'),
+}
+
 export const books = [
   familiaRomanaBook,
   romaAeternaBook,
+  exercitiaBook,
   companionBook,
   learnLatinBook,
   latinViaOvidBook,

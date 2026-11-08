@@ -19,6 +19,7 @@ The site is organised as a **library of books**. The two course books are open, 
 | Section | Status | What it is |
 | --- | --- | --- |
 | **Lingua Latina: Pars I — Familia Romana** (Ørberg) | **Open** — 35 of 35 chapters written up | The core course. Each _capitulum_ is a full lesson. |
+| **Lingua Latina: Exercitia Latina I** (Ørberg) | **Open** — 35 of 35 chapters | The exercise book that runs alongside _Familia Romana_. |
 | **Lingua Latina: Pars II — Roma Aeterna** (Ørberg) | **Open** — 21 of 21 chapters written up | The sequel: Aeneas, the kings, and the Roman Republic in the words of the classical authors. |
 | A Companion to Familia Romana (Neumann) | **Open** — full text reference | Grammar, translation help and cultural notes. |
 | Learn Latin from the Romans (Dickey) | **Open** — full text reference | A grammar-based, second track. |
@@ -146,6 +147,29 @@ authoring with:
 ```bash
 python3 scripts/extract-roma-aeterna.py
 ```
+
+### Reference books (OCR pipeline)
+
+The browse-as-is reference books (the Companion, Learn Latin from the Romans, Latin via Ovid and
+Exercitia Latina I) are extracted straight from the source editions. Sources whose PDF text layer
+is missing or mangles the macra (*Exercitia Latina I* is a pure scan; *Latin via Ovid* renders
+`Eurōpa` as `Eurdpa`) are transcribed page by page through a vision model, so every long vowel is
+kept:
+
+```bash
+python3 scripts/ocr-book.py exercitia "books/<Exercitia Latina I>.pdf" --workers 4
+python3 scripts/build-sources.py exercitia      # -> public/sources/exercitia/ + sources.generated.js
+```
+
+`ocr-book.py` renders each page with `pdftoppm`, asks the model to transcribe the main column and
+then the side-margin column separately (marked `===MARGIN===`), and writes one JSON record per
+page to `sources/raw/<slug>.jsonl` (resumable — already-done pages are skipped). The model and
+endpoint are read from the OpenCode config (`provider.*.options`), and can be overridden with
+`OCR_MODEL` / `NINE_ROUTER_KEY` / `NINE_ROUTER_BASE`.
+
+`scripts/build-sources.py` turns that into the site's data: `public/sources/<slug>/*.json` for the
+per-chapter text and `src/data/sources.generated.js` for the table of contents. It merges with the
+existing generated file, so rebuilding one book leaves the others untouched.
 
 ---
 

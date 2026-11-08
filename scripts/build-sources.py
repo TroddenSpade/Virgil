@@ -815,6 +815,291 @@ def build_latin_via_ovid() -> dict:
 
 
 # --------------------------------------------------------------------------- #
+# Ørberg — Exercitia Latina I (scanned; text comes from scripts/ocr-book.py)
+# --------------------------------------------------------------------------- #
+
+EXERCITIA_JSONL = RAW / "exercitia.jsonl"
+EXERCITIA_PAGE_OFFSET = 8  # printed page 1 == PDF page 9
+
+# The version of the site's chapter titles this exercise book belongs to.
+FR_CHAPTER_TITLES = {n: t for n, (_lat, t) in FR_TITLES.items()}
+
+CHAPTER_OPEN = re.compile(r"^CAPITVLVM\s+(.+)$", re.I)
+LECTIO_RE = re.compile(r"^L[ēe]cti[ōo]\b(.*)$", re.I)
+EXERCITIUM_RE = re.compile(r"^Exercitium\s+(\d+)\b(.*)$", re.I)
+ITEM_RE = re.compile(r"^(\d{1,3})\.\s*(.*)$")
+
+
+def ex_normalise(s: str) -> str:
+    s = unicodedata.normalize("NFD", s)
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    return re.sub(r"[^A-Za-z ]", "", s).upper().strip()
+
+
+def ex_ordinal(s: str) -> int | None:
+    key = re.sub(r"\s+", " ", ex_normalise(s)).strip()
+    if key in FR_ORD:
+        return FR_ORD[key]
+    # OCR sometimes drops a letter; fall back to a prefix match
+    for k, v in FR_ORD.items():
+        if k.startswith(key[:6]) and len(key) >= 5:
+            return v
+    return None
+
+
+def ex_is_running_head(s: str) -> bool:
+    t = s.strip()
+    if not t:
+        return False
+    if re.fullmatch(r"\d{1,3}", t):
+        return True
+    if re.fullmatch(r"EXERCITIA\s+LATINA", t, re.I):
+        return True
+    # Running heads repeat "CAP. <roman>" and "EXERCITIA <n>-<n>", in either
+    # order, sometimes with a stray page number ("… / 1"). Recognise them by
+    # removing everything those heads are made of and seeing if nothing is left.
+    if not re.search(r"(CAP\.|EXERCITIA)", t, re.I):
+        return False
+    leftover = re.sub(r"(CAP\.|EXERCITIA)", "", t, flags=re.I)
+    leftover = re.sub(r"\d+", "", leftover)
+    leftover = re.sub(r"[IVXL]", "", leftover, flags=re.I)
+    leftover = re.sub(r"[\s/–—\-.]", "", leftover)
+    return leftover == ""
+
+
+def ex_blocks(lines: list[str]) -> tuple[list[dict], list[str]]:
+    """Parse one chapter's main-column lines into blocks; also return margin lines."""
+    blocks: list[dict] = []
+    margin: list[str] = []
+
+    def push_text(text: str) -> None:
+        """Join a line onto the previous block if it is a wrap, else start a paragraph."""
+        text = clean_inline(text)
+        if not text:
+            return
+        if blocks and blocks[-1]["t"] == "li":
+            blocks[-1]["text"] = clean_inline(blocks[-1]["text"] + " " + text)
+        elif blocks and blocks[-1]["t"] == "p":
+            blocks[-1]["text"] = clean_inline(blocks[-1]["text"] + " " + text)
+        else:
+            blocks.append({"t": "p", "text": text})
+
+    for raw in lines:
+        line = raw.rstrip()
+        if not line.strip():
+            continue
+        if ex_is_running_head(line):
+            continue
+        if CHAPTER_OPEN.match(line.strip()):
+            continue
+        s = line.strip()
+
+        m = LECTIO_RE.match(s)
+        if m:
+            blocks.append({"t": "h", "text": clean_inline("Lēctiō" + m.group(1))})
+            continue
+        m = EXERCITIUM_RE.match(s)
+        if m:
+            blocks.append({"t": "h", "text": f"Exercitium {m.group(1)}"})
+            rest = m.group(2).strip()
+            if rest:
+                push_text(rest)
+            continue
+        m = ITEM_RE.match(s)
+        if m:
+            blocks.append({"t": "li", "n": int(m.group(1)), "text": clean_inline(m.group(2))})
+            continue
+        push_text(s)
+
+    return blocks, margin
+
+
+def ex_toc_starts(toc_lines: list[str]) -> dict[int, int]:
+    """From the INDEX LECTIONVM, map each capitulum number to its printed start page."""
+    starts: dict[int, int] = {}
+    cur: int | None = None
+    for ln in toc_lines:
+        m = re.match(r"^Cap\.\s*([IVXL]+)\b", ln, re.I)
+        if m:
+            cur = roman_to_int(m.group(1).upper())
+            continue
+        if cur is None:
+            continue
+        m = re.search(r"ex\.\s*(\d+)(?:\s*[-–]\s*\d+)?\s+(\d{1,3})\s*$", ln)
+        if m:
+            page = int(m.group(2))
+            if cur not in starts or page < starts[cur]:
+                starts[cur] = page
+    return starts
+
+
+def build_exercitia() -> dict:
+    if not EXERCITIA_JSONL.exists():
+        raise SystemExit(f"missing {EXERCITIA_JSONL} — run scripts/ocr-book.py first")
+
+    pages: dict[int, str] = {}
+    for line in EXERCITIA_JSONL.read_text().splitlines():
+        if line.strip():
+            rec = json.loads(line)
+            pages[rec["page"]] = rec.get("text", "")
+
+    def page_main_margin(n: int) -> tuple[str, str]:
+        text = pages.get(n, "")
+        if "===MARGIN===" in text:
+            main, _, marg = text.partition("===MARGIN===")
+            return main, marg
+        return text, ""
+
+    chapters: list[dict] = []
+
+    def ensure(sid, number, roman, title, latin, blocks, margin):
+        ch = {"id": sid, "number": number, "roman": roman, "title": title,
+              "latinTitle": latin, "blocks": [], "margin": []}
+        chapters.append(ch)
+        ch["blocks"].extend(blocks)
+        ch["margin"].extend(margin)
+        return ch
+
+    # ---- front matter ----------------------------------------------------- #
+    toc_lines: list[str] = []
+    toc_start = None
+    for n in range(1, EXERCITIA_PAGE_OFFSET + 1):
+        if "INDEX LECTIONVM" in pages.get(n, "").upper():
+            toc_start = n
+            break
+    if toc_start is not None:
+        for n in range(toc_start, EXERCITIA_PAGE_OFFSET + 1):
+            main, _ = page_main_margin(n)
+            if not re.search(r"(Cap\.|L[ēe]cti[ōo])", main):
+                break  # the index has ended; anything after is other front matter
+            for ln in main.splitlines():
+                ln = ln.strip()
+                if ln and not re.fullmatch(r"INDEX LECTIONVM", ln, re.I):
+                    toc_lines.append(ln)
+    if toc_lines:
+        blocks = []
+        for ln in toc_lines:
+            if re.match(r"^Cap\.", ln):
+                blocks.append({"t": "h", "text": ln})
+            else:
+                blocks.append({"t": "p", "text": ln})
+        ensure("index-lectionum", None, "Index", "Index Lēctiōnum", "INDEX LECTIONVM", blocks, [])
+
+    notae = []
+    for n in range(1, EXERCITIA_PAGE_OFFSET + 1):
+        main, _ = page_main_margin(n)
+        if re.search(r"^\s*NOTAE\s*$", main, re.M):
+            for ln in main.splitlines():
+                ln = ln.strip()
+                if ln and not re.fullmatch(r"NOTAE", ln):
+                    notae.append(ln)
+    if notae:
+        ensure("notae", None, "Notae", "Abbreviations", "NOTAE",
+               [{"t": "p", "text": t} for t in notae], [])
+
+    # ---- capitula --------------------------------------------------------- #
+    # Chapter boundaries. The authoritative source is the book's own index
+    # (INDEX LECTIONVM), which gives the printed start page of every capitulum;
+    # a "CAPITVLVM …" heading found on the page is used to confirm it when the
+    # OCR read it cleanly.
+    detected: dict[int, int] = {}
+    for n in sorted(pages):
+        main, _ = page_main_margin(n)
+        for ln in main.splitlines():
+            m = CHAPTER_OPEN.match(ln.strip())
+            if m:
+                num = ex_ordinal(m.group(1))
+                if num and num not in detected:
+                    detected[num] = n
+                break
+
+    starts: dict[int, int] = dict(detected)
+    for num, page in ex_toc_starts(toc_lines).items():
+        pdf_page = page + EXERCITIA_PAGE_OFFSET
+        # trust the index unless the heading was found right where it should be
+        if num not in starts or abs(starts[num] - pdf_page) > 2:
+            starts[num] = pdf_page
+
+    nums = sorted(starts)
+    for i, num in enumerate(nums):
+        first = starts[num]
+        if i + 1 < len(nums):
+            last = starts[nums[i + 1]] - 1
+        else:
+            # For the final chapter, run on until the exercise pages stop.
+            last = first
+            for n in range(first + 1, max(pages) + 1):
+                main, _ = page_main_margin(n)
+                if not re.search(r"(Exercitium|L[ēe]cti[ōo]|\d\.\s)", main):
+                    break
+                last = n
+        main_lines: list[str] = []
+        margin: list[str] = []
+        for n in range(first, last + 1):
+            m_main, m_margin = page_main_margin(n)
+            main_lines.extend(m_main.splitlines())
+            for ln in m_margin.splitlines():
+                ln = ln.strip()
+                if not ln or ex_is_running_head(ln):
+                    continue
+                margin.append(ln)
+        blocks, margin2 = ex_blocks(main_lines)
+        margin.extend(margin2)
+        # de-duplicate margin lines, preserving order
+        seen = set()
+        deduped = []
+        for ln in margin:
+            if ln not in seen:
+                seen.add(ln)
+                deduped.append(ln)
+        latin = f"CAPITVLVM {ex_ordinal_inv(num)}"
+        ensure(f"cap-{num:02d}", num, ROMAN[num], FR_CHAPTER_TITLES.get(num, ""), latin,
+               blocks, deduped)
+
+    # ---- back matter: the grammatical index ------------------------------- #
+    idx_start = None
+    for n in sorted(pages):
+        main, _ = page_main_margin(n)
+        if re.search(r"^\s*INDEX GRAMMATICVS\s*$", main, re.M):
+            idx_start = n
+            break
+    if idx_start is not None:
+        idx_blocks: list[dict] = []
+        for n in range(idx_start, max(pages) + 1):
+            main, _ = page_main_margin(n)
+            head = next((l.strip() for l in main.splitlines() if l.strip()), "")
+            if re.match(r"^L[ēe]cti[ōo]\b", head) or "This is the Focus edition" in main:
+                break  # the index ends; what follows is a sample/advert
+            for ln in main.splitlines():
+                ln = ln.strip()
+                if not ln or ex_is_running_head(ln):
+                    continue
+                if re.fullmatch(r"[A-Z]", ln):
+                    idx_blocks.append({"t": "h", "text": ln})
+                else:
+                    idx_blocks.append({"t": "p", "text": ln})
+        if idx_blocks:
+            ensure("index-grammaticus", None, "Index", "Index Grammaticus",
+                   "INDEX GRAMMATICVS", idx_blocks, [])
+
+    return {
+        "index": {
+            "title": "Lingua Latina: Exercitia Latina I",
+            "latinTitle": "LINGVA LATINA PER SE ILLVSTRATA · EXERCITIA LATINA I",
+            "author": "Hans H. Ørberg",
+        },
+        "chapters": [c for c in chapters if c["blocks"]],
+    }
+
+
+def ex_ordinal_inv(num: int) -> str:
+    for k, v in FR_ORD.items():
+        if v == num:
+            return k
+    return str(num)
+
+
+# --------------------------------------------------------------------------- #
 
 BUILDERS = {
     "familia-romana": build_familia_romana,
@@ -840,6 +1125,7 @@ BUILDERS = {
         ],
     ),
     "latin-via-ovid": build_latin_via_ovid,
+    "exercitia": build_exercitia,
 }
 
 
@@ -859,33 +1145,53 @@ BOOK_META = {
         "latinTitle": "LATIN VIA OVID",
         "author": "Norma Goldman & Jacob E. Nyenhuis",
     },
+    "exercitia": {
+        "title": "Lingua Latina: Exercitia Latina I",
+        "latinTitle": "LINGVA LATINA PER SE ILLVSTRATA · EXERCITIA LATINA I",
+        "author": "Hans H. Ørberg",
+    },
 }
+
+
+def load_generated() -> dict[str, dict]:
+    """Read the existing sources.generated.js so a partial rebuild does not drop
+    the entries for books that were not rebuilt in this run."""
+    if not GEN.exists():
+        return {}
+    txt = GEN.read_text(encoding="utf-8")
+    m = re.search(r"export const sources =\s*(\[.*\])\s*\n*export default", txt, re.S)
+    if not m:
+        return {}
+    try:
+        return {s["slug"]: s for s in json.loads(m.group(1))}
+    except (json.JSONDecodeError, KeyError):
+        return {}
 
 
 def main():
     targets = sys.argv[1:] or list(BUILDERS)
-    summary = []
+    existing = load_generated()
+    built: dict[str, dict] = {}
     for slug in targets:
         result = BUILDERS[slug]()
-        if slug == "familia-romana":
-            meta = {
-                "index": result["index"],
-                "chapters": [c for c in result["chapters"] if c["blocks"]],
-            }
-            slug_final = "familia-romana"
-        else:
-            meta = {
-                "index": BOOK_META.get(slug, {"title": slug}),
-                "chapters": [c for c in result["chapters"] if c["blocks"]],
-            }
-            slug_final = slug
-        info = write_book(slug_final, meta)
-        summary.append(info)
-        print(f"{slug_final}: {len(info['chapters'])} chapters -> {OUT / slug_final}")
+        slug_final = "familia-romana" if slug == "familia-romana" else slug
+        meta = {
+            "index": result["index"] if slug == "familia-romana"
+            else BOOK_META.get(slug, {"title": slug}),
+            "chapters": [c for c in result["chapters"] if c["blocks"]],
+        }
+        built[slug_final] = write_book(slug_final, meta)
+        print(f"{slug_final}: {len(built[slug_final]['chapters'])} chapters -> {OUT / slug_final}")
 
-    # write the generated JS metadata module
-    lines = ["// AUTO-GENERATED by scripts/build-sources.py — do not edit by hand.", "export const sources = "]
-    lines.append(json.dumps(summary, ensure_ascii=False, indent=2))
+    # Merge: keep the previously generated entries, replace only what we rebuilt.
+    merged = {**existing, **built}
+    ordered = [merged[s] for s in existing if s in merged] + [
+        merged[s] for s in built if s not in existing
+    ]
+
+    lines = ["// AUTO-GENERATED by scripts/build-sources.py — do not edit by hand.",
+             "export const sources = "]
+    lines.append(json.dumps(ordered, ensure_ascii=False, indent=2))
     lines.append("\n\nexport default sources\n")
     GEN.write_text("\n".join(lines), encoding="utf-8")
     print(f"wrote {GEN}")

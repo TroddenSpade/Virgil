@@ -1306,6 +1306,280 @@ export const sources =
         "latinTitle": null
       }
     ]
+  },
+  {
+    "slug": "exercitia",
+    "title": "Lingua Latina: Exercitia Latina I",
+    "latinTitle": "LINGVA LATINA PER SE ILLVSTRATA · EXERCITIA LATINA I",
+    "author": "Hans H. Ørberg",
+    "chapters": [
+      {
+        "id": "index-lectionum",
+        "number": null,
+        "roman": "Index",
+        "title": "Index Lēctiōnum",
+        "latinTitle": "INDEX LECTIONVM"
+      },
+      {
+        "id": "notae",
+        "number": null,
+        "roman": "Notae",
+        "title": "Abbreviations",
+        "latinTitle": "NOTAE"
+      },
+      {
+        "id": "cap-01",
+        "number": 1,
+        "roman": "I",
+        "title": "The Roman Empire",
+        "latinTitle": "CAPITVLVM PRIMVM"
+      },
+      {
+        "id": "cap-02",
+        "number": 2,
+        "roman": "II",
+        "title": "The Roman Family",
+        "latinTitle": "CAPITVLVM SECVNDVM"
+      },
+      {
+        "id": "cap-03",
+        "number": 3,
+        "roman": "III",
+        "title": "The Naughty Boy",
+        "latinTitle": "CAPITVLVM TERTIVM"
+      },
+      {
+        "id": "cap-04",
+        "number": 4,
+        "roman": "IV",
+        "title": "Master and Slaves",
+        "latinTitle": "CAPITVLVM QVARTVM"
+      },
+      {
+        "id": "cap-05",
+        "number": 5,
+        "roman": "V",
+        "title": "The Villa and the Garden",
+        "latinTitle": "CAPITVLVM QVINTVM"
+      },
+      {
+        "id": "cap-06",
+        "number": 6,
+        "roman": "VI",
+        "title": "The Latin Road",
+        "latinTitle": "CAPITVLVM SEXTVM"
+      },
+      {
+        "id": "cap-07",
+        "number": 7,
+        "roman": "VII",
+        "title": "The Girl and the Rose",
+        "latinTitle": "CAPITVLVM SEPTIMVM"
+      },
+      {
+        "id": "cap-08",
+        "number": 8,
+        "roman": "VIII",
+        "title": "The Roman Tavern",
+        "latinTitle": "CAPITVLVM OCTAVM"
+      },
+      {
+        "id": "cap-09",
+        "number": 9,
+        "roman": "IX",
+        "title": "The Shepherd and the Sheep",
+        "latinTitle": "CAPITVLVM NONVM"
+      },
+      {
+        "id": "cap-10",
+        "number": 10,
+        "roman": "X",
+        "title": "Beasts and Men",
+        "latinTitle": "CAPITVLVM DECIMVM"
+      },
+      {
+        "id": "cap-11",
+        "number": 11,
+        "roman": "XI",
+        "title": "The Human Body",
+        "latinTitle": "CAPITVLVM VNDECIMVM"
+      },
+      {
+        "id": "cap-12",
+        "number": 12,
+        "roman": "XII",
+        "title": "The Roman Soldier",
+        "latinTitle": "CAPITVLVM DVODECIMVM"
+      },
+      {
+        "id": "cap-13",
+        "number": 13,
+        "roman": "XIII",
+        "title": "The Year and the Months",
+        "latinTitle": "CAPITVLVM TERTIVM DECIMVM"
+      },
+      {
+        "id": "cap-14",
+        "number": 14,
+        "roman": "XIV",
+        "title": "A New Day",
+        "latinTitle": "CAPITVLVM QVARTVM DECIMVM"
+      },
+      {
+        "id": "cap-15",
+        "number": 15,
+        "roman": "XV",
+        "title": "The Teacher and the Pupils",
+        "latinTitle": "CAPITVLVM QVINTVM DECIMVM"
+      },
+      {
+        "id": "cap-16",
+        "number": 16,
+        "roman": "XVI",
+        "title": "The Storm",
+        "latinTitle": "CAPITVLVM SEXTVM DECIMVM"
+      },
+      {
+        "id": "cap-17",
+        "number": 17,
+        "roman": "XVII",
+        "title": "Difficult Numbers",
+        "latinTitle": "CAPITVLVM SEPTIMVM DECIMVM"
+      },
+      {
+        "id": "cap-18",
+        "number": 18,
+        "roman": "XVIII",
+        "title": "Latin Letters",
+        "latinTitle": "CAPITVLVM DVODEVICESIMVM"
+      },
+      {
+        "id": "cap-19",
+        "number": 19,
+        "roman": "XIX",
+        "title": "Husband and Wife",
+        "latinTitle": "CAPITVLVM VNDEVICESIMVM"
+      },
+      {
+        "id": "cap-20",
+        "number": 20,
+        "roman": "XX",
+        "title": "Parents",
+        "latinTitle": "CAPITVLVM VICESIMVM"
+      },
+      {
+        "id": "cap-21",
+        "number": 21,
+        "roman": "XXI",
+        "title": "The Pupils’ Fight",
+        "latinTitle": "CAPITVLVM VNVM ET VICESIMVM"
+      },
+      {
+        "id": "cap-22",
+        "number": 22,
+        "roman": "XXII",
+        "title": "Beware of the Dog",
+        "latinTitle": "CAPITVLVM ALTERVM ET VICESIMVM"
+      },
+      {
+        "id": "cap-23",
+        "number": 23,
+        "roman": "XXIII",
+        "title": "The Teacher’s Letter",
+        "latinTitle": "CAPITVLVM VICESIMVM TERTIVM"
+      },
+      {
+        "id": "cap-24",
+        "number": 24,
+        "roman": "XXIV",
+        "title": "The Sick Boy",
+        "latinTitle": "CAPITVLVM VICESIMVM QVARTVM"
+      },
+      {
+        "id": "cap-25",
+        "number": 25,
+        "roman": "XXV",
+        "title": "Theseus and the Minotaur",
+        "latinTitle": "CAPITVLVM VICESIMVM QVINTVM"
+      },
+      {
+        "id": "cap-26",
+        "number": 26,
+        "roman": "XXVI",
+        "title": "Daedalus and Icarus",
+        "latinTitle": "CAPITVLVM VICESIMVM SEXTVM"
+      },
+      {
+        "id": "cap-27",
+        "number": 27,
+        "roman": "XXVII",
+        "title": "Country Matters",
+        "latinTitle": "CAPITVLVM VICESIMVM SEPTIMVM"
+      },
+      {
+        "id": "cap-28",
+        "number": 28,
+        "roman": "XXVIII",
+        "title": "Dangers of the Sea",
+        "latinTitle": "CAPITVLVM DVODETRICESIMVM"
+      },
+      {
+        "id": "cap-29",
+        "number": 29,
+        "roman": "XXIX",
+        "title": "To Sail Is Necessary",
+        "latinTitle": "CAPITVLVM VNDETRICESIMVM"
+      },
+      {
+        "id": "cap-30",
+        "number": 30,
+        "roman": "XXX",
+        "title": "The Dinner Party",
+        "latinTitle": "CAPITVLVM TRICESIMVM"
+      },
+      {
+        "id": "cap-31",
+        "number": 31,
+        "roman": "XXXI",
+        "title": "Between the Cups",
+        "latinTitle": "CAPITVLVM VNVM ET TRICESIMVM"
+      },
+      {
+        "id": "cap-32",
+        "number": 32,
+        "roman": "XXXII",
+        "title": "The Roman Fleet",
+        "latinTitle": "CAPITVLVM ALTERVM ET TRICESIMVM"
+      },
+      {
+        "id": "cap-33",
+        "number": 33,
+        "roman": "XXXIII",
+        "title": "The Roman Army",
+        "latinTitle": "CAPITVLVM TRICESIMVM TERTIVM"
+      },
+      {
+        "id": "cap-34",
+        "number": 34,
+        "roman": "XXXIV",
+        "title": "On the Art of Poetry",
+        "latinTitle": "CAPITVLVM TRICESIMVM QVARTVM"
+      },
+      {
+        "id": "cap-35",
+        "number": 35,
+        "roman": "XXXV",
+        "title": "The Art of Grammar",
+        "latinTitle": "CAPITVLVM TRICESIMVM QVINTVM"
+      },
+      {
+        "id": "index-grammaticus",
+        "number": null,
+        "roman": "Index",
+        "title": "Index Grammaticus",
+        "latinTitle": "INDEX GRAMMATICVS"
+      }
+    ]
   }
 ]
 

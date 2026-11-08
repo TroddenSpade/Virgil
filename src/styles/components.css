@@ -1394,6 +1394,56 @@
 .reference-text__h:first-child {
   margin-top: 0.4rem;
 }
+.reference-text__list {
+  margin: 0 0 1.1rem;
+  padding-left: 2.7rem;
+}
+.reference-text__li {
+  font-size: 1.06rem;
+  line-height: 1.8;
+  margin-bottom: 0.3rem;
+  padding-left: 0.25rem;
+}
+.reference-text__li::marker {
+  font-family: var(--font-ui);
+  font-size: 0.82em;
+  color: var(--ink-muted, var(--muted, #7a6a58));
+}
+
+/* The side-margin column reproduced at the foot of a reference chapter. */
+.reference-margin {
+  margin: 2.5rem 0 0;
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--line-soft);
+  border-radius: 10px;
+  background: var(--surface-soft, transparent);
+  max-width: 74ch;
+}
+.reference-margin__title {
+  font-family: var(--font-display);
+  font-size: 0.82rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 0.6rem;
+}
+.reference-margin__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  columns: 2;
+  column-gap: 2rem;
+}
+.reference-margin__item {
+  font-size: 0.95rem;
+  line-height: 1.55;
+  break-inside: avoid;
+}
+@media (max-width: 640px) {
+  .reference-margin__list {
+    columns: 1;
+  }
+}
 
 /* ---------- PWA update notice (top) ---------- */
 

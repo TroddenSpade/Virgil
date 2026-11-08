@@ -69,6 +69,14 @@ const SOURCE_RULES = {
       { re: /^\s*\d+\.\d+\s+/, kind: 'grammatica' },
     ],
   },
+  exercitia: {
+    defaultKind: 'pensa',
+    demoteHeadings: false,
+    sections: [
+      { re: /^L[ēe]cti[ōo]\s+grammatica/i, kind: 'grammatica' },
+      { re: /^L[ēe]cti[ōo]/i, kind: 'lectio' },
+    ],
+  },
 }
 
 function normalise(s) {

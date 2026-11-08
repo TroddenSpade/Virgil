@@ -13,6 +13,72 @@ export default function ReferencePage() {
   return <Reader book={book} chapterId={chapterId} />
 }
 
+/* Render a chapter's blocks. Numbered items ("li") are gathered into ordered
+   lists so exercises keep their own numbering, exactly as in the book. */
+function BlockList({ blocks }) {
+  if (!Array.isArray(blocks)) return null
+  const out = []
+  let list = null
+  let key = 0
+
+  const flush = () => {
+    if (list && list.items.length) {
+      out.push(
+        <ol className="reference-text__list" start={list.start} key={`l${key++}`}>
+          {list.items.map((text, i) => (
+            <li className="reference-text__li" key={i}>
+              {text}
+            </li>
+          ))}
+        </ol>,
+      )
+    }
+    list = null
+  }
+
+  for (const block of blocks) {
+    if (block.t === 'li') {
+      if (!list) list = { start: block.n ?? 1, items: [] }
+      list.items.push(block.text)
+      continue
+    }
+    flush()
+    if (block.t === 'h') {
+      out.push(
+        <h3 className="reference-text__h" key={`h${key++}`}>
+          {block.text}
+        </h3>,
+      )
+    } else {
+      out.push(
+        <p className="reference-text__p" key={`p${key++}`}>
+          {block.text}
+        </p>,
+      )
+    }
+  }
+  flush()
+  return <>{out}</>
+}
+
+/* The narrow side-margin column the printed book carries on each page
+   (vocabulary and paradigm notes), gathered once per chapter. */
+function MarginNotes({ lines }) {
+  if (!lines?.length) return null
+  return (
+    <aside className="reference-margin">
+      <h3 className="reference-margin__title">Marginalia</h3>
+      <ul className="reference-margin__list">
+        {lines.map((line, i) => (
+          <li className="reference-margin__item latin" key={i}>
+            {line}
+          </li>
+        ))}
+      </ul>
+    </aside>
+  )
+}
+
 function Reader({ book, chapterId }) {
   const source = getSource(book.sourceSlug)
   const chapters = book.referenceChapters
@@ -29,6 +95,8 @@ function Reader({ book, chapterId }) {
 
   const prev = index > 0 ? chapters[index - 1] : null
   const next = index < chapters.length - 1 ? chapters[index + 1] : null
+  // The Exercitia book is entirely Latin; set it in the Latin face.
+  const latinText = book.sourceSlug === 'exercitia' ? ' latin' : ''
   const label = chapter.roman || chapter.number || '·'
   const eyebrow = chapter.number
     ? book.slug === 'familia-romana'
@@ -93,36 +161,20 @@ function Reader({ book, chapterId }) {
                     </div>
                   </div>
 
-                  <div className="reference-text">
-                    {section.blocks.map((block, i) =>
-                      block.t === 'h' ? (
-                        <h3 className="reference-text__h" key={i}>
-                          {block.text}
-                        </h3>
-                      ) : (
-                        <p className="reference-text__p" key={i}>
-                          {block.text}
-                        </p>
-                      ),
-                    )}
+                  <div className={`reference-text${latinText}`}>
+                    <BlockList blocks={section.blocks} />
                   </div>
                 </section>
               ))}
+              <MarginNotes lines={data?.margin} />
             </div>
           </div>
         )}
 
         {status === 'ready' && !sections && (
-          <div className="reader__body" style={{ marginTop: '2.5rem' }}>
-            {data?.blocks?.map((block, i) =>
-              block.t === 'h' ? (
-                <h2 key={i} className="reader__h">
-                  {block.text}
-                </h2>
-              ) : (
-                <p key={i}>{block.text}</p>
-              ),
-            )}
+          <div className={`reader__body reference-text${latinText}`} style={{ marginTop: '2.5rem' }}>
+            <BlockList blocks={data?.blocks} />
+            <MarginNotes lines={data?.margin} />
           </div>
         )}
 
