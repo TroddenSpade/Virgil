@@ -187,8 +187,12 @@ def main() -> None:
     ap.add_argument("--maxtok", type=int, default=8000)
     ap.add_argument("--reasoning-effort", default="low")
     ap.add_argument("--prompt", default=DEFAULT_PROMPT)
+    ap.add_argument("--prompt-file", help="read the prompt from a file (overrides --prompt)")
     ap.add_argument("--force", action="store_true", help="re-OCR pages already done")
     args = ap.parse_args()
+
+    if args.prompt_file:
+        args.prompt = Path(args.prompt_file).read_text(encoding="utf-8").strip()
 
     pdf = Path(args.pdf)
     if not pdf.exists():

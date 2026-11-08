@@ -1,0 +1,17 @@
+Transcribe this page of a Latin textbook exactly as printed, for a faithful
+digital edition.
+
+Rules:
+- Output PLAIN TEXT ONLY. Never use Markdown (no **, no *, no #).
+- Preserve EVERY macron (long-vowel mark): ā ē ī ō ū ȳ and their capitals.
+- Keep the book's own structure: section headings (e.g. "Verba", "Structure",
+  "Etymology", "Sententiae", "Exercises") and the numbers of the exercises
+  and items.
+- Vocabulary lists: keep the Latin word and its English meaning on the same
+  line, separated by a wide gap, exactly as the book sets them.
+- Grammar tables: keep each row on its own line, with the columns separated
+  by wide gaps, so the table survives as text.
+- Where the book leaves a blank to be filled in, write ______ .
+- Keep the original language (Latin or English) and spelling.
+- Do NOT translate, summarise, correct or comment. Output only the transcription.
+- If the page is blank or only an illustration, output exactly: [BLANK]
