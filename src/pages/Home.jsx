@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { books, familiaRomanaBook, romaAeternaBook, latinViaOvidBook } from '../data/library.js'
+import { books, familiaRomanaBook, romaAeternaBook, exercitiaBook, latinViaOvidBook } from '../data/library.js'
 import { useProgress } from '../hooks/useLocalStorage.js'
 
 const firstChapter = familiaRomanaBook.chapters[0]
@@ -41,13 +41,13 @@ export default function Home() {
             <ul className="hero__meta rise">
               <li>
                 <strong>
-                  {familiaRomanaBook.chapterCount + romaAeternaBook.chapterCount + latinViaOvidBook.chapterCount}
+                  {familiaRomanaBook.chapterCount + romaAeternaBook.chapterCount + exercitiaBook.chapterCount + latinViaOvidBook.chapterCount}
                 </strong>{' '}
                 chapters
               </li>
               <li>
                 <strong>
-                  {familiaRomanaBook.readyCount + romaAeternaBook.readyCount + latinViaOvidBook.readyCount}
+                  {familiaRomanaBook.readyCount + romaAeternaBook.readyCount + exercitiaBook.readyCount + latinViaOvidBook.readyCount}
                 </strong>{' '}
                 full lessons ready
               </li>

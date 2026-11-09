@@ -27,11 +27,15 @@ function Lesson({ book, chapter }) {
   const next = index < ready.length - 1 ? ready[index + 1] : null
 
   const sections = [
-    chapter.readings.length && { id: 'lectio', label: 'Lēctiō', sub: 'Reading', num: 'I' },
-    chapter.grammar.length && { id: 'grammatica', label: 'Grammatica Latīna', sub: 'Grammar', num: 'II' },
-    chapter.vocabulary.length && { id: 'vocabula', label: 'Vocābula', sub: 'Vocabulary', num: 'III' },
-    chapter.pensa.length && { id: 'pensa', label: 'Pēnsa', sub: 'Exercises', num: 'IV' },
-  ].filter(Boolean)
+    chapter.readings.length && { id: 'lectio', label: 'Lēctiō', sub: 'Reading' },
+    chapter.grammar.length && { id: 'grammatica', label: 'Grammatica Latīna', sub: 'Grammar' },
+    chapter.vocabulary.length && { id: 'vocabula', label: 'Vocābula', sub: 'Vocabulary' },
+    chapter.pensa.length && { id: 'pensa', label: 'Pēnsa', sub: 'Exercises' },
+  ]
+    .filter(Boolean)
+    .map((section, index) => ({ ...section, num: ['I', 'II', 'III', 'IV'][index] }))
+
+  const sectionNum = (id) => sections.find((section) => section.id === id)?.num
 
   const active = useScrollSpy(sections.map((s) => s.id))
 
@@ -98,28 +102,28 @@ function Lesson({ book, chapter }) {
 
             {chapter.readings.length > 0 && (
               <section className="lesson__section" id="lectio">
-                <SectionHead num="I" latin="Lēctiō" english="reading" />
+                <SectionHead num={sectionNum('lectio')} latin="Lēctiō" english="reading" />
                 <Reading readings={chapter.readings} />
               </section>
             )}
 
             {chapter.grammar.length > 0 && (
               <section className="lesson__section" id="grammatica">
-                <SectionHead num="II" latin="Grammatica Latīna" english="grammar" />
+                <SectionHead num={sectionNum('grammatica')} latin="Grammatica Latīna" english="grammar" />
                 <GrammarSection entries={chapter.grammar} />
               </section>
             )}
 
             {chapter.vocabulary.length > 0 && (
               <section className="lesson__section" id="vocabula">
-                <SectionHead num="III" latin="Vocābula" english="vocabulary" />
+                <SectionHead num={sectionNum('vocabula')} latin="Vocābula" english="vocabulary" />
                 <Vocabulary words={chapter.vocabulary} />
               </section>
             )}
 
             {chapter.pensa.length > 0 && (
               <section className="lesson__section" id="pensa">
-                <SectionHead num="IV" latin="Pēnsa" english="exercises" />
+                <SectionHead num={sectionNum('pensa')} latin="Pēnsa" english="exercises" />
                 <Pensum pensa={chapter.pensa} />
               </section>
             )}

@@ -19,7 +19,7 @@ The site is organised as a **library of books**. The course books are open, toge
 | Section | Status | What it is |
 | --- | --- | --- |
 | **Lingua Latina: Pars I — Familia Romana** (Ørberg) | **Open** — 35 of 35 chapters written up | The core course. Each _capitulum_ is a full lesson. |
-| **Lingua Latina: Exercitia Latina I** (Ørberg) | **Open** — 35 of 35 chapters | The exercise book that runs alongside _Familia Romana_. |
+| **Lingua Latina: Exercitia Latina I** (Ørberg) | **Open** — 35 of 35 exercise chapters written up | The interactive exercise workbook that runs alongside _Familia Romana_. |
 | **Lingua Latina: Pars II — Roma Aeterna** (Ørberg) | **Open** — 21 of 21 chapters written up | The sequel: Aeneas, the kings, and the Roman Republic in the words of the classical authors. |
 | A Companion to Familia Romana (Neumann) | **Open** — full text reference | Grammar, translation help and cultural notes. |
 | Learn Latin from the Romans (Dickey) | **Open** — full text reference | A grammar-based, second track. |
@@ -73,6 +73,7 @@ Actions variables/secrets consumed by `.github/workflows/deploy.yml`).
 | Book | Chapters | Contents |
 | --- | --- | --- |
 | **Familia Romana** | I–XXXV | All thirty-five capitula, each with reading, grammar, vocabulary and three _pensa_. |
+| **Exercitia Latina I** | I–XXXV | All thirty-five exercise chapters, matching the reader chapter by chapter. |
 | **Roma Aeterna** | XXXVI–LVI | All twenty-one capitula, following Aeneas from Troy and Rome from its first kings to the fall of the Republic. |
 | **Latin via Ovid** | I–XL | All forty lessons, from the map of the world through Ovid's _Metamorphoses_ to Aeneas in Italy. |
 
@@ -108,8 +109,8 @@ npm run icons      # python3 scripts/generate-icons.py (requires Pillow)
   display, book body, macron-complete Latin, and a shared interface grotesque
 
 Content is data-driven: each chapter is a module in `src/data/familia-romana/`,
-`src/data/roma-aeterna/` or `src/data/latin-via-ovid/`, so adding a chapter means adding one
-file and listing it in the book's `outline.js`.
+`src/data/exercitia-latina/`, `src/data/roma-aeterna/` or `src/data/latin-via-ovid/`, so adding a
+chapter means adding one file and listing it in the book's `outline.js`.
 
 ```
 src/
@@ -120,6 +121,10 @@ src/
 │  │  ├─ index.js                # book metadata + merges outline with content
 │  │  ├─ outline.js              # the 35 chapter titles (table of contents)
 │  │  └─ capitulum-01..35.js     # full lesson content
+│  ├─ exercitia-latina/          # 35 exercise chapters
+│  │  ├─ index.js
+│  │  ├─ outline.js
+│  │  └─ capitulum-01..35.js
 │  ├─ roma-aeterna/              # Pars II — 21 capitula
 │  │  ├─ index.js
 │  │  ├─ outline.js
@@ -191,6 +196,7 @@ The reading texts, grammar and exercises are adapted from the following course b
 
 - **H. H. Ørberg, _Lingua Latina per se Illustrata: Pars I — Familia Romana_** (2nd ed., Focus Publishing, 2012)
 - **H. H. Ørberg, _Lingua Latina per se Illustrata: Pars II — Roma Aeterna_** (2nd ed., Hackett Publishing)
+- **H. H. Ørberg, _Exercitia Latina I_** (Focus Publishing, 2005)
 - **Norma Goldman & Jacob E. Nyenhuis, _Latin via Ovid: A First Course_** (2nd ed., Wayne State University Press, 1982)
 
 They are re-typeset for the web. The PDFs/EPUBs of the source books are kept locally in `books/`
