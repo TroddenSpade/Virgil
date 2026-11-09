@@ -3,433 +3,786 @@
 // Exercise text adapted for the web.
 
 const chapter = {
-  number: 10,
-  roman: 'X',
-  slug: 'capitulum-10',
-  latinTitle: 'CAPITVLVM DECIMVM',
-  title: 'Beasts and Men',
-  tagline: 'Lions, birds and fish, the infinitive, and a small drama in the garden.',
-  status: 'complete',
-  overview:
-    'This workbook chapter follows the animals of the Latin world and the men who watch them, then turns to ' +
-    'the garden where Quīntus climbs a tree after a nest. Its exercises drill the active and passive infinitive ' +
-    'in all four conjugations, the infinitive after potest, vult, videt and audit, and the third-declension ' +
-    'nouns of the chapter.',
-  objectives: [
-    'Form the active infinitive in all four conjugations.',
-    'Form and recognise the passive infinitive.',
-    'Use an infinitive after verbs of ability, will and perceiving.',
-    'Decline third-declension nouns such as leō, homō, vōx and pēs.',
-    'Read and answer questions about the beasts and the garden story.',
+  "number": 10,
+  "roman": "X",
+  "slug": "capitulum-10",
+  "latinTitle": "CAPITVLVM DECIMVM",
+  "title": "Beasts and Men",
+  "tagline": "Lions, birds and fish, the infinitive, and a small drama in the garden.",
+  "status": "complete",
+  "overview": "This workbook chapter follows the animals of the Latin world and the men who watch them, then turns to the garden where Quīntus climbs a tree after a nest. Its exercises drill the active and passive infinitive in all four conjugations, the infinitive after potest, vult, videt and audit, and the third-declension nouns of the chapter.",
+  "objectives": [
+    "Form the active infinitive in all four conjugations.",
+    "Form and recognise the passive infinitive.",
+    "Use an infinitive after verbs of ability, will and perceiving.",
+    "Decline third-declension nouns such as leō, homō, vōx and pēs.",
+    "Read and answer questions about the beasts and the garden story."
   ],
-  readings: [],
-  grammar: [
+  "readings": [],
+  "grammar": [
     {
-      id: 'infinitivus-activus',
-      latinTitle: 'Īnfīnītīvus Āctīvī',
-      title: 'The Active Infinitive',
-      intro:
-        'The infinitive is the name of the verb — the form that means “to ...”. It ends in -re and is used ' +
-        'after verbs such as potest, vult, videt and audit.',
-      paradigms: [
+      "id": "infinitivus-activus",
+      "latinTitle": "Īnfīnītīvus Āctīvī",
+      "title": "The Active Infinitive",
+      "intro": "The infinitive is the name of the verb — the form that means “to ...”. It ends in -re and is used after verbs such as potest, vult, videt and audit.",
+      "paradigms": [
         {
-          caption: 'the four conjugations',
-          head: ['Coniugātiō', 'Īnfīnītīvus', 'Exemplum'],
-          rows: [
-            ['I', '-āre', 'volāre, natāre, ambulāre, portāre'],
-            ['II', '-ēre', 'vidēre, movēre, habēre, tenēre'],
-            ['III', '-ere', 'pōnere, currere, vīvere, lūdere, cadere'],
-            ['IV', '-īre', 'audīre, venīre, aperīre, reperīre'],
-            ['irregularia', 'esse, posse, velle', 'to be, to be able, to want'],
+          "caption": "the four conjugations",
+          "head": [
+            "Coniugātiō",
+            "Īnfīnītīvus",
+            "Exemplum"
           ],
-        },
+          "rows": [
+            [
+              "I",
+              "-āre",
+              "volāre, natāre, ambulāre, portāre"
+            ],
+            [
+              "II",
+              "-ēre",
+              "vidēre, movēre, habēre, tenēre"
+            ],
+            [
+              "III",
+              "-ere",
+              "pōnere, currere, vīvere, lūdere, cadere"
+            ],
+            [
+              "IV",
+              "-īre",
+              "audīre, venīre, aperīre, reperīre"
+            ],
+            [
+              "irregularia",
+              "esse, posse, velle",
+              "to be, to be able, to want"
+            ]
+          ]
+        }
       ],
-      points: [
-        'The vowel before -re shows the conjugation: -ā-re, -ē-re, -e-re, -ī-re.',
-        'The infinitive does not change with the subject: canis volāre nōn potest; hominēs volāre nōn possunt.',
-        'Potest and possunt take an active infinitive: avēs volāre possunt.',
-        'Videt and audit take an accusative and an infinitive: Mārcus Quīntum cadere videt.',
-      ],
+      "points": [
+        "The vowel before -re shows the conjugation: -ā-re, -ē-re, -e-re, -ī-re.",
+        "The infinitive does not change with the subject: canis volāre nōn potest; hominēs volāre nōn possunt.",
+        "Potest and possunt take an active infinitive: avēs volāre possunt.",
+        "Videt and audit take an accusative and an infinitive: Mārcus Quīntum cadere videt."
+      ]
     },
     {
-      id: 'infinitivus-passivus',
-      latinTitle: 'Īnfīnītīvus Passīvī',
-      title: 'The Passive Infinitive',
-      intro:
-        'The passive infinitive means “to be (done)”: portārī “to be carried”, vidērī “to be seen”. It is made ' +
-        'from the active infinitive.',
-      paradigms: [
+      "id": "infinitivus-passivus",
+      "latinTitle": "Īnfīnītīvus Passīvī",
+      "title": "The Passive Infinitive",
+      "intro": "The passive infinitive means “to be (done)”: portārī “to be carried”, vidērī “to be seen”. It is made from the active infinitive.",
+      "paradigms": [
         {
-          caption: 'āctīvum ↔ passīvum',
-          head: ['Coniugātiō', 'Āctīvum', 'Passīvum'],
-          rows: [
-            ['I', 'portāre', 'portārī'],
-            ['II', 'vidēre', 'vidērī'],
-            ['III', 'pōnere', 'pōnī'],
-            ['IV', 'audīre', 'audīrī'],
+          "caption": "āctīvum ↔ passīvum",
+          "head": [
+            "Coniugātiō",
+            "Āctīvum",
+            "Passīvum"
           ],
-        },
+          "rows": [
+            [
+              "I",
+              "portāre",
+              "portārī"
+            ],
+            [
+              "II",
+              "vidēre",
+              "vidērī"
+            ],
+            [
+              "III",
+              "pōnere",
+              "pōnī"
+            ],
+            [
+              "IV",
+              "audīre",
+              "audīrī"
+            ]
+          ]
+        }
       ],
-      points: [
-        'The first conjugation changes -āre to -ārī: portāre → portārī.',
-        'The second conjugation changes -ēre to -ērī: vidēre → vidērī.',
-        'The third conjugation changes -ere to -ī: pōnere → pōnī.',
-        'The fourth conjugation changes -īre to -īrī: audīre → audīrī.',
-        'The agent of a passive infinitive takes ab / ā with the ablative: Deī ab hominibus vidērī nōn possunt.',
-      ],
+      "points": [
+        "The first conjugation changes -āre to -ārī: portāre → portārī.",
+        "The second conjugation changes -ēre to -ērī: vidēre → vidērī.",
+        "The third conjugation changes -ere to -ī: pōnere → pōnī.",
+        "The fourth conjugation changes -īre to -īrī: audīre → audīrī.",
+        "The agent of a passive infinitive takes ab / ā with the ablative: Deī ab hominibus vidērī nōn possunt."
+      ]
     },
     {
-      id: 'declinatio-tertia',
-      latinTitle: 'Dēclīnātiō Tertia',
-      title: 'The Third Declension',
-      intro:
-        'Third-declension nouns are recognised by the genitive singular in -is. The nominative varies, but the ' +
-        'other cases follow one set of endings.',
-      paradigms: [
+      "id": "declinatio-tertia",
+      "latinTitle": "Dēclīnātiō Tertia",
+      "title": "The Third Declension",
+      "intro": "Third-declension nouns are recognised by the genitive singular in -is. The nominative varies, but the other cases follow one set of endings.",
+      "paradigms": [
         {
-          caption: 'leō (m.) — lion',
-          head: ['Cāsus', 'Singulāris', 'Plūrālis'],
-          rows: [
-            ['Nōminātīvus', 'leō', 'leōnēs'],
-            ['Accūsātīvus', 'leōnem', 'leōnēs'],
-            ['Genetīvus', 'leōnis', 'leōnum'],
-            ['Datīvus', 'leōnī', 'leōnibus'],
-            ['Ablātīvus', 'leōne', 'leōnibus'],
+          "caption": "leō (m.) — lion",
+          "head": [
+            "Cāsus",
+            "Singulāris",
+            "Plūrālis"
           ],
+          "rows": [
+            [
+              "Nōminātīvus",
+              "leō",
+              "leōnēs"
+            ],
+            [
+              "Accūsātīvus",
+              "leōnem",
+              "leōnēs"
+            ],
+            [
+              "Genetīvus",
+              "leōnis",
+              "leōnum"
+            ],
+            [
+              "Datīvus",
+              "leōnī",
+              "leōnibus"
+            ],
+            [
+              "Ablātīvus",
+              "leōne",
+              "leōnibus"
+            ]
+          ]
         },
         {
-          caption: 'homō (m.) — man',
-          head: ['Cāsus', 'Singulāris', 'Plūrālis'],
-          rows: [
-            ['Nōminātīvus', 'homō', 'hominēs'],
-            ['Accūsātīvus', 'hominem', 'hominēs'],
-            ['Genetīvus', 'hominis', 'hominum'],
-            ['Datīvus', 'hominī', 'hominibus'],
-            ['Ablātīvus', 'homine', 'hominibus'],
+          "caption": "homō (m.) — man",
+          "head": [
+            "Cāsus",
+            "Singulāris",
+            "Plūrālis"
           ],
+          "rows": [
+            [
+              "Nōminātīvus",
+              "homō",
+              "hominēs"
+            ],
+            [
+              "Accūsātīvus",
+              "hominem",
+              "hominēs"
+            ],
+            [
+              "Genetīvus",
+              "hominis",
+              "hominum"
+            ],
+            [
+              "Datīvus",
+              "hominī",
+              "hominibus"
+            ],
+            [
+              "Ablātīvus",
+              "homine",
+              "hominibus"
+            ]
+          ]
         },
         {
-          caption: 'vōx (f.) — voice',
-          head: ['Cāsus', 'Singulāris', 'Plūrālis'],
-          rows: [
-            ['Nōminātīvus', 'vōx', 'vōcēs'],
-            ['Accūsātīvus', 'vōcem', 'vōcēs'],
-            ['Genetīvus', 'vōcis', 'vōcum'],
-            ['Datīvus', 'vōcī', 'vōcibus'],
-            ['Ablātīvus', 'vōce', 'vōcibus'],
+          "caption": "vōx (f.) — voice",
+          "head": [
+            "Cāsus",
+            "Singulāris",
+            "Plūrālis"
           ],
-        },
+          "rows": [
+            [
+              "Nōminātīvus",
+              "vōx",
+              "vōcēs"
+            ],
+            [
+              "Accūsātīvus",
+              "vōcem",
+              "vōcēs"
+            ],
+            [
+              "Genetīvus",
+              "vōcis",
+              "vōcum"
+            ],
+            [
+              "Datīvus",
+              "vōcī",
+              "vōcibus"
+            ],
+            [
+              "Ablātīvus",
+              "vōce",
+              "vōcibus"
+            ]
+          ]
+        }
       ],
-      points: [
-        'The genitive singular in -is marks the third declension; the stem is leōn-, homin-, vōc-.',
-        'The endings are -em, -is, -ī, -e in the singular and -ēs, -um, -ibus in the plural.',
-        'The nominative singular does not show the gender: homō and leō are masculine, vōx is feminine.',
-        'avis and piscis decline like ovis; mercātor like pāstor.',
-      ],
-    },
+      "points": [
+        "The genitive singular in -is marks the third declension; the stem is leōn-, homin-, vōc-.",
+        "The endings are -em, -is, -ī, -e in the singular and -ēs, -um, -ibus in the plural.",
+        "The nominative singular does not show the gender: homō and leō are masculine, vōx is feminine.",
+        "avis and piscis decline like ovis; mercātor like pāstor."
+      ]
+    }
   ],
-  vocabulary: [
-    { latin: 'bēstia', english: 'beast, animal', pos: 'noun (f.)' },
-    { latin: 'fera', english: 'wild beast', pos: 'noun (f.)' },
-    { latin: 'leō', english: 'lion', pos: 'noun (m.)' },
-    { latin: 'lupus', english: 'wolf', pos: 'noun (m.)' },
-    { latin: 'canis', english: 'dog', pos: 'noun (m.)' },
-    { latin: 'ovis', english: 'sheep', pos: 'noun (f.)' },
-    { latin: 'avis', english: 'bird', pos: 'noun (f.)' },
-    { latin: 'piscis', english: 'fish', pos: 'noun (m.)' },
-    { latin: 'aquila', english: 'eagle', pos: 'noun (f.)' },
-    { latin: 'āla', english: 'wing', pos: 'noun (f.)' },
-    { latin: 'pēs', english: 'foot', pos: 'noun (m.)' },
-    { latin: 'cauda', english: 'tail', pos: 'noun (f.)' },
-    { latin: 'homō', english: 'man, human being', pos: 'noun (m.)' },
-    { latin: 'mercātor', english: 'merchant', pos: 'noun (m.)' },
-    { latin: 'deus', english: 'god', pos: 'noun (m.)' },
-    { latin: 'nīdus', english: 'nest', pos: 'noun (m.)' },
-    { latin: 'ōvum', english: 'egg', pos: 'noun (n.)' },
-    { latin: 'pullus', english: 'chick', pos: 'noun (m.)' },
-    { latin: 'rāmus', english: 'branch', pos: 'noun (m.)' },
-    { latin: 'vōx', english: 'voice', pos: 'noun (f.)' },
-    { latin: 'anima', english: 'breath, spirit', pos: 'noun (f.)' },
-    { latin: 'animal', english: 'animal', pos: 'noun (n.)' },
-    { latin: 'flūmen', english: 'river', pos: 'noun (n.)' },
-    { latin: 'mare', english: 'sea', pos: 'noun (n.)' },
-    { latin: 'ferus', english: 'wild', pos: 'adjective' },
-    { latin: 'mortuus', english: 'dead', pos: 'adjective' },
-    { latin: 'vīvus', english: 'alive', pos: 'adjective' },
-    { latin: 'crassus', english: 'fat, thick', pos: 'adjective' },
-    { latin: 'tenuis', english: 'thin, slender', pos: 'adjective' },
-    { latin: 'potest', english: 'can, is able', pos: 'verb' },
-    { latin: 'vult', english: 'wants, wishes', pos: 'verb' },
-    { latin: 'volat', english: 'flies', pos: 'verb' },
-    { latin: 'natat', english: 'swims', pos: 'verb' },
-    { latin: 'spīrat', english: 'breathes', pos: 'verb' },
-    { latin: 'vīvit', english: 'lives', pos: 'verb' },
-    { latin: 'capit', english: 'catches, takes', pos: 'verb' },
-    { latin: 'ēdit', english: 'eats', pos: 'verb' },
-    { latin: 'parit', english: 'gives birth to, lays', pos: 'verb' },
-    { latin: 'ascendit', english: 'climbs, goes up', pos: 'verb' },
-    { latin: 'cadit', english: 'falls', pos: 'verb' },
+  "vocabulary": [
+    {
+      "latin": "bēstia",
+      "english": "beast, animal",
+      "pos": "noun (f.)"
+    },
+    {
+      "latin": "fera",
+      "english": "wild beast",
+      "pos": "noun (f.)"
+    },
+    {
+      "latin": "leō",
+      "english": "lion",
+      "pos": "noun (m.)"
+    },
+    {
+      "latin": "lupus",
+      "english": "wolf",
+      "pos": "noun (m.)"
+    },
+    {
+      "latin": "canis",
+      "english": "dog",
+      "pos": "noun (m.)"
+    },
+    {
+      "latin": "ovis",
+      "english": "sheep",
+      "pos": "noun (f.)"
+    },
+    {
+      "latin": "avis",
+      "english": "bird",
+      "pos": "noun (f.)"
+    },
+    {
+      "latin": "piscis",
+      "english": "fish",
+      "pos": "noun (m.)"
+    },
+    {
+      "latin": "aquila",
+      "english": "eagle",
+      "pos": "noun (f.)"
+    },
+    {
+      "latin": "āla",
+      "english": "wing",
+      "pos": "noun (f.)"
+    },
+    {
+      "latin": "pēs",
+      "english": "foot",
+      "pos": "noun (m.)"
+    },
+    {
+      "latin": "cauda",
+      "english": "tail",
+      "pos": "noun (f.)"
+    },
+    {
+      "latin": "homō",
+      "english": "man, human being",
+      "pos": "noun (m.)"
+    },
+    {
+      "latin": "mercātor",
+      "english": "merchant",
+      "pos": "noun (m.)"
+    },
+    {
+      "latin": "deus",
+      "english": "god",
+      "pos": "noun (m.)"
+    },
+    {
+      "latin": "nīdus",
+      "english": "nest",
+      "pos": "noun (m.)"
+    },
+    {
+      "latin": "ōvum",
+      "english": "egg",
+      "pos": "noun (n.)"
+    },
+    {
+      "latin": "pullus",
+      "english": "chick",
+      "pos": "noun (m.)"
+    },
+    {
+      "latin": "rāmus",
+      "english": "branch",
+      "pos": "noun (m.)"
+    },
+    {
+      "latin": "vōx",
+      "english": "voice",
+      "pos": "noun (f.)"
+    },
+    {
+      "latin": "anima",
+      "english": "breath, spirit",
+      "pos": "noun (f.)"
+    },
+    {
+      "latin": "animal",
+      "english": "animal",
+      "pos": "noun (n.)"
+    },
+    {
+      "latin": "flūmen",
+      "english": "river",
+      "pos": "noun (n.)"
+    },
+    {
+      "latin": "mare",
+      "english": "sea",
+      "pos": "noun (n.)"
+    },
+    {
+      "latin": "ferus",
+      "english": "wild",
+      "pos": "adjective"
+    },
+    {
+      "latin": "mortuus",
+      "english": "dead",
+      "pos": "adjective"
+    },
+    {
+      "latin": "vīvus",
+      "english": "alive",
+      "pos": "adjective"
+    },
+    {
+      "latin": "crassus",
+      "english": "fat, thick",
+      "pos": "adjective"
+    },
+    {
+      "latin": "tenuis",
+      "english": "thin, slender",
+      "pos": "adjective"
+    },
+    {
+      "latin": "potest",
+      "english": "can, is able",
+      "pos": "verb"
+    },
+    {
+      "latin": "vult",
+      "english": "wants, wishes",
+      "pos": "verb"
+    },
+    {
+      "latin": "volat",
+      "english": "flies",
+      "pos": "verb"
+    },
+    {
+      "latin": "natat",
+      "english": "swims",
+      "pos": "verb"
+    },
+    {
+      "latin": "spīrat",
+      "english": "breathes",
+      "pos": "verb"
+    },
+    {
+      "latin": "vīvit",
+      "english": "lives",
+      "pos": "verb"
+    },
+    {
+      "latin": "capit",
+      "english": "catches, takes",
+      "pos": "verb"
+    },
+    {
+      "latin": "ēdit",
+      "english": "eats",
+      "pos": "verb"
+    },
+    {
+      "latin": "parit",
+      "english": "gives birth to, lays",
+      "pos": "verb"
+    },
+    {
+      "latin": "ascendit",
+      "english": "climbs, goes up",
+      "pos": "verb"
+    },
+    {
+      "latin": "cadit",
+      "english": "falls",
+      "pos": "verb"
+    }
   ],
-  pensa: [
+  "pensa": [
     {
-      id: 'exercitium-11',
-      latinLabel: 'EXERCITIUM 11',
-      title: 'Exercise 11',
-      instruction: 'Decline pāstor and ovis in the third declension and name each form.',
-      type: 'fill',
-      items: [
-        'Nōm. pāstor pāstōr{{ēs}} ov{{is}} ov{{ēs}}',
-        'Acc. pāstōr{{em}} pāstōr{{ēs}} ov{{em}} ov{{ēs}}',
-        'Gen. pāstōr{{is}} pāstōr{{um}} ov{{is}} ov{{ium}}',
-        'Dat. pāstōr{{ī}} pāstōr{{ibus}} ov{{ī}} ov{{ibus}}',
-        'Abl. pāstōr{{e}} pāstōr{{ibus}} ov{{e}} ov{{ibus}}',
-        'Pāstor {{nōminātīvus}} singulāris est.',
-        'Pāstōre et ove {{ablātīvus}} {{singulāris}} est.',
-        'Pāstōrem et ovem {{accūsātīvus}} {{singulāris}} est.',
-        'Pāstōrēs et ovēs {{nōminātīvus}} aut {{accūsātīvus}} plūrālis est.',
-        'Pāstōrī et ovī {{datīvus}} {{singulāris}} est.',
-        'Pāstōribus et ovibus {{datīvus}} aut {{ablātīvus}} plūrālis est.',
-        'Pāstōris {{genetīvus}} {{singulāris}} est.',
-        'Ovis {{genetīvus}} aut {{nōminātīvus}} singulāris est.',
-        'Pāstōrum et ovium {{genetīvus}} {{plūrālis}} est.',
-      ],
+      "id": "exercitium-1",
+      "latinLabel": "EXERCITIUM 1",
+      "title": "Exercise 1",
+      "instruction": "Complete the sentences from the first reading with the missing words.",
+      "type": "fill",
+      "items": [
+        "Lupus et canis et ovis {{bēstiae}} sunt.",
+        "Virī et fēminae {{hominēs}} sunt.",
+        "Lupus est bēstia {{fera}}; etiam {{aquila}} bēstia fera est.",
+        "In Āfricā sunt multī leōnēs et aliae {{ferae}} [= bēstiae ferae].",
+        "{{Piscēs}} sunt bēstiae quae in aquā {{natant}}.",
+        "{{Avēs}} sunt bēstiae quae in āere {{volant}}.",
+        "{{Aquila}} est magna avis fera quae parvās avēs {{capit}} et {{ēdit}}.",
+        "Avis quae volat ālās {{movet}}; piscis quī natat {{caudam}} movet.",
+        "Homō quī ambulat {{pedēs}} movet.",
+        "{{Cum}} homō ambulat, pedēs moventur.",
+        "Cum avis in {{āere}} volat, {{ālae}} moventur.",
+        "Avis ālās habet, itaque avis volāre {{potest}}.",
+        "Leō volāre nōn potest, {{quod}} [= quia] ālās nōn habet.",
+        "Hominēs, quī pedēs habent, ambulāre {{possunt}}.",
+        "Quī ambulat vestīgia in terrā {{facit}}.",
+        "Nōn sōlum equus, sed etiam {{asinus}} hominem vehere potest.",
+        "Mercurius est {{deus}} mercātōrum et {{nūntius}} deōrum.",
+        "{{Mercātor}} est homō quī emit et vēndit."
+      ]
     },
     {
-      id: 'exercitium-1',
-      latinLabel: 'EXERCITIUM 1',
-      title: 'Exercise 1',
-      instruction: 'Complete the sentences from the first reading with the missing words.',
-      type: 'fill',
-      items: [
-        'Lupus et canis et ovis {{bēstiae}} sunt.',
-        'Virī et fēminae {{hominēs}} sunt.',
-        'Lupus est bēstia {{fera}}; etiam {{aquila}} bēstia fera est.',
-        'In Āfricā sunt multī leōnēs et aliae {{ferae}} [= bēstiae ferae].',
-        '{{Piscēs}} sunt bēstiae quae in aquā {{natant}}.',
-        '{{Avēs}} sunt bēstiae quae in āere {{volant}}.',
-        '{{Aquila}} est magna avis fera quae parvās avēs {{capit}} et {{ēdit}}.',
-        'Avis quae volat ālās {{movet}}; piscis quī natat {{caudam}} movet.',
-        'Homō quī ambulat {{pedēs}} movet.',
-        '{{Cum}} homō ambulat, pedēs moventur.',
-        'Cum avis in {{āere}} volat, {{ālae}} moventur.',
-        'Avis ālās habet, itaque avis volāre {{potest}}.',
-        'Leō volāre nōn potest, {{quod}} [= quia] ālās nōn habet.',
-        'Hominēs, quī pedēs habent, ambulāre {{possunt}}.',
-        'Quī ambulat vestīgia in terrā {{facit}}.',
-        'Nōn sōlum equus, sed etiam {{asinus}} hominem vehere potest.',
-        'Mercurius est {{deus}} mercātōrum et {{nūntius}} deōrum.',
-        '{{Mercātor}} est homō quī emit et vēndit.',
-      ],
+      "id": "exercitium-2",
+      "latinLabel": "EXERCITIUM 2",
+      "title": "Exercise 2",
+      "instruction": "Answer each question in a complete Latin sentence, then reveal the model answer.",
+      "type": "questions",
+      "items": [
+        {
+          "q": "Quid est leō?",
+          "a": "Leō est bēstia fera."
+        },
+        {
+          "q": "Quid bēstiae ferae edunt?",
+          "a": "Bēstiae ferae aliās bēstiās edunt."
+        },
+        {
+          "q": "Cūr leōnēs ab hominibus timentur?",
+          "a": "Leōnēs ab hominibus timentur, quia hominēs edunt."
+        },
+        {
+          "q": "Quae bēstiae in aquā natant?",
+          "a": "Piscēs in aquā natant."
+        },
+        {
+          "q": "Quae bēstiae volant?",
+          "a": "Avēs volant."
+        },
+        {
+          "q": "Quid movētur cum avis volat?",
+          "a": "Cum avis volat, ālae moventur."
+        },
+        {
+          "q": "Quot pedēs habet homō?",
+          "a": "Homō duōs pedēs habet."
+        },
+        {
+          "q": "Equus quot pedēs habet?",
+          "a": "Equus quattuor pedēs habet."
+        },
+        {
+          "q": "Cūr equus volāre nōn potest?",
+          "a": "Equus volāre nōn potest, quia ālās nōn habet."
+        },
+        {
+          "q": "Cūr piscēs ambulāre nōn possunt?",
+          "a": "Piscēs ambulāre nōn possunt, quia pedēs nōn habent."
+        },
+        {
+          "q": "Hominēsne natāre possunt?",
+          "a": "Ita; aliī hominēs natāre possunt, aliī nōn possunt."
+        },
+        {
+          "q": "Quis est Mercurius?",
+          "a": "Mercurius deus mercātōrum et nūntius deōrum est."
+        },
+        {
+          "q": "In pedibus et in petasō Mercuriī quid est?",
+          "a": "In pedibus et in petasō Mercuriī ālae sunt."
+        },
+        {
+          "q": "Quōrum deus est Mercurius?",
+          "a": "Mercurius deus mercātōrum est."
+        },
+        {
+          "q": "Quid est mercātor?",
+          "a": "Mercātor est homō quī emit et vēndit."
+        }
+      ]
     },
     {
-      id: 'exercitium-2',
-      latinLabel: 'EXERCITIUM 2',
-      title: 'Exercise 2',
-      instruction: 'Answer each question in a complete Latin sentence, then reveal the model answer.',
-      type: 'questions',
-      items: [
-        { q: 'Quid est leō?', a: 'Leō est bēstia fera.' },
-        { q: 'Quid bēstiae ferae edunt?', a: 'Bēstiae ferae aliās bēstiās edunt.' },
-        { q: 'Cūr leōnēs ab hominibus timentur?', a: 'Leōnēs ab hominibus timentur, quia hominēs edunt.' },
-        { q: 'Quae bēstiae in aquā natant?', a: 'Piscēs in aquā natant.' },
-        { q: 'Quae bēstiae volant?', a: 'Avēs volant.' },
-        { q: 'Quid movētur cum avis volat?', a: 'Cum avis volat, ālae moventur.' },
-        { q: 'Quot pedēs habet homō?', a: 'Homō duōs pedēs habet.' },
-        { q: 'Equus quot pedēs habet?', a: 'Equus quattuor pedēs habet.' },
-        { q: 'Cūr equus volāre nōn potest?', a: 'Equus volāre nōn potest, quia ālās nōn habet.' },
-        { q: 'Cūr piscēs ambulāre nōn possunt?', a: 'Piscēs ambulāre nōn possunt, quia pedēs nōn habent.' },
-        { q: 'Hominēsne natāre possunt?', a: 'Ita; aliī hominēs natāre possunt, aliī nōn possunt.' },
-        { q: 'Quis est Mercurius?', a: 'Mercurius deus mercātōrum et nūntius deōrum est.' },
-        { q: 'In pedibus et in petasō Mercuriī quid est?', a: 'In pedibus et in petasō Mercuriī ālae sunt.' },
-        { q: 'Quōrum deus est Mercurius?', a: 'Mercurius deus mercātōrum est.' },
-        { q: 'Quid est mercātor?', a: 'Mercātor est homō quī emit et vēndit.' },
-      ],
+      "id": "exercitium-3",
+      "latinLabel": "EXERCITIUM 3",
+      "title": "Exercise 3",
+      "instruction": "Complete each word with the correct case ending.",
+      "type": "fill",
+      "items": [
+        "In Āfricā sunt multī leō{{nēs}}.",
+        "In Āfricā magnus numerus leō{{num}} est.",
+        "Multī hom{{inēs}} Rōmae habitant.",
+        "Rōmae habitat magnus numerus hom{{inum}}.",
+        "Leō nōn est amīcus hom{{inum}}, neque homō amīcus leō{{nis}} est.",
+        "Homō leō{{nem}} timet, et hom{{inem}} timet leō.",
+        "Leō ab hom{{ine}} timētur, et homō timētur ā leō{{ne}}.",
+        "Leō{{nēs}} timentur ab hom{{inibus}}, et hom{{inēs}} ā leō{{nibus}} timentur."
+      ]
     },
     {
-      id: 'exercitium-3',
-      latinLabel: 'EXERCITIUM 3',
-      title: 'Exercise 3',
-      instruction: 'Complete each word with the correct case ending.',
-      type: 'fill',
-      items: [
-        'In Āfricā sunt multī leō{{nēs}}.',
-        'In Āfricā magnus numerus leō{{num}} est.',
-        'Multī hom{{inēs}} Rōmae habitant.',
-        'Rōmae habitat magnus numerus hom{{inum}}.',
-        'Leō nōn est amīcus hom{{inum}}, neque homō amīcus leō{{nis}} est.',
-        'Homō leō{{nem}} timet, et hom{{inem}} timet leō.',
-        'Leō ab hom{{ine}} timētur, et homō timētur ā leō{{ne}}.',
-        'Leō{{nēs}} timentur ab hom{{inibus}}, et hom{{inēs}} ā leō{{nibus}} timentur.',
-      ],
+      "id": "exercitium-4",
+      "latinLabel": "EXERCITIUM 4",
+      "title": "Exercise 4",
+      "instruction": "Complete each verb with the correct active infinitive.",
+      "type": "fill",
+      "items": [
+        "Avēs vol{{āre}} possunt; piscēs nat{{āre}} possunt.",
+        "Equus ambul{{āre}} et curr{{ere}} potest.",
+        "Ovēs lupum aud{{īre}} possunt, neque eum vid{{ēre}} possunt.",
+        "Iūlia centum numer{{āre}} nōn potest.",
+        "Homō mortuus sē mov{{ēre}} nōn potest.",
+        "Sub aquā homō nōn potest spīr{{āre}}.",
+        "Sine animā nēmō potest vīv{{ere}}.",
+        "Animam dūc{{ere}} necesse est hominī.",
+        "Necesse nōn est gemmās hab{{ēre}}.",
+        "Quī gemmās vēndit pecūniam fac{{ere}} potest."
+      ]
     },
     {
-      id: 'exercitium-4',
-      latinLabel: 'EXERCITIUM 4',
-      title: 'Exercise 4',
-      instruction: 'Complete each verb with the correct active infinitive.',
-      type: 'fill',
-      items: [
-        'Avēs vol{{āre}} possunt; piscēs nat{{āre}} possunt.',
-        'Equus ambul{{āre}} et curr{{ere}} potest.',
-        'Ovēs lupum aud{{īre}} possunt, neque eum vid{{ēre}} possunt.',
-        'Iūlia centum numer{{āre}} nōn potest.',
-        'Homō mortuus sē mov{{ēre}} nōn potest.',
-        'Sub aquā homō nōn potest spīr{{āre}}.',
-        'Sine animā nēmō potest vīv{{ere}}.',
-        'Animam dūc{{ere}} necesse est hominī.',
-        'Necesse nōn est gemmās hab{{ēre}}.',
-        'Quī gemmās vēndit pecūniam fac{{ere}} potest.',
-      ],
+      "id": "exercitium-5",
+      "latinLabel": "EXERCITIUM 5",
+      "title": "Exercise 5",
+      "instruction": "Complete each verb in the active or passive infinitive.",
+      "type": "fill",
+      "items": [
+        "Iūlia magnum saccum port{{āre}} nōn potest.",
+        "Magnus saccus ā parvā puellā port{{ārī}} nōn potest.",
+        "Hominēs deōs neque vid{{ēre}} neque aud{{īre}} possunt.",
+        "Deī neque vid{{ērī}} neque aud{{īrī}} possunt ab hominibus.",
+        "Nēmō piscēs numer{{āre}} potest: piscēs numer{{ārī}} nōn possunt.",
+        "Quī pecūniam habet cibum em{{ere}} potest.",
+        "Sine pecūniā cibus em{{ī}} nōn potest.",
+        "Mārcus et Quīntus nōn possunt lectīcam veh{{ere}}.",
+        "Ā parvīs puerīs lectīca veh{{ī}} nōn potest.",
+        "Canis ōstium neque aper{{īre}} neque claud{{ere}} potest.",
+        "Ōstium ā cane neque aper{{īrī}} neque claud{{ī}} potest."
+      ]
     },
     {
-      id: 'exercitium-5',
-      latinLabel: 'EXERCITIUM 5',
-      title: 'Exercise 5',
-      instruction: 'Complete each verb in the active or passive infinitive.',
-      type: 'fill',
-      items: [
-        'Iūlia magnum saccum port{{āre}} nōn potest.',
-        'Magnus saccus ā parvā puellā port{{ārī}} nōn potest.',
-        'Hominēs deōs neque vid{{ēre}} neque aud{{īre}} possunt.',
-        'Deī neque vid{{ērī}} neque aud{{īrī}} possunt ab hominibus.',
-        'Nēmō piscēs numer{{āre}} potest: piscēs numer{{ārī}} nōn possunt.',
-        'Quī pecūniam habet cibum em{{ere}} potest.',
-        'Sine pecūniā cibus em{{ī}} nōn potest.',
-        'Mārcus et Quīntus nōn possunt lectīcam veh{{ere}}.',
-        'Ā parvīs puerīs lectīca veh{{ī}} nōn potest.',
-        'Canis ōstium neque aper{{īre}} neque claud{{ere}} potest.',
-        'Ōstium ā cane neque aper{{īrī}} neque claud{{ī}} potest.',
-      ],
+      "id": "exercitium-6",
+      "latinLabel": "EXERCITIUM 6",
+      "title": "Exercise 6",
+      "instruction": "Complete the sentences from the second reading with the missing words.",
+      "type": "fill",
+      "items": [
+        "Magnum {{flūmen}} est Nīlus.",
+        "Ōceanus Atlanticus magnum {{mare}} est.",
+        "Piscēs nōn in terrā, sed in aquā {{vīvunt}}.",
+        "Cum homō {{spīrat}}, anima in {{pulmōnēs}} intrat et rūrsus exit.",
+        "{{Anima}} est āēr quī in pulmōnēs dūcitur.",
+        "Quī spīrat {{vīvus}} est, quī nōn spīrat est {{mortuus}}.",
+        "Sine animā et cibō {{nēmō}} vīvere potest.",
+        "Spīrāre et esse hominibus {{necesse}} est.",
+        "Hominēs et bēstiae {{animālia}} sunt.",
+        "Avēs in arboribus {{nīdōs}} faciunt.",
+        "Nīdī sunt inter {{rāmōs}} et {{folia}} arborum.",
+        "In nīdīs sunt {{ōva}} aut pullī.",
+        "Avēs ōva {{pariunt}}, ex quibus {{pullī}} exeunt.",
+        "Ovis nōn ōva, sed pullōs vīvōs {{parit}}.",
+        "Fēminae quae pecūniam facere {{volunt}} ōrnāmenta sua vēndunt."
+      ]
     },
     {
-      id: 'exercitium-6',
-      latinLabel: 'EXERCITIUM 6',
-      title: 'Exercise 6',
-      instruction: 'Complete the sentences from the second reading with the missing words.',
-      type: 'fill',
-      items: [
-        'Magnum {{flūmen}} est Nīlus.',
-        'Ōceanus Atlanticus magnum {{mare}} est.',
-        'Piscēs nōn in terrā, sed in aquā {{vīvunt}}.',
-        'Cum homō {{spīrat}}, anima in {{pulmōnēs}} intrat et rūrsus exit.',
-        '{{Anima}} est āēr quī in pulmōnēs dūcitur.',
-        'Quī spīrat {{vīvus}} est, quī nōn spīrat est {{mortuus}}.',
-        'Sine animā et cibō {{nēmō}} vīvere potest.',
-        'Spīrāre et esse hominibus {{necesse}} est.',
-        'Hominēs et bēstiae {{animālia}} sunt.',
-        'Avēs in arboribus {{nīdōs}} faciunt.',
-        'Nīdī sunt inter {{rāmōs}} et {{folia}} arborum.',
-        'In nīdīs sunt {{ōva}} aut pullī.',
-        'Avēs ōva {{pariunt}}, ex quibus {{pullī}} exeunt.',
-        'Ovis nōn ōva, sed pullōs vīvōs {{parit}}.',
-        'Fēminae quae pecūniam facere {{volunt}} ōrnāmenta sua vēndunt.',
-      ],
+      "id": "exercitium-7",
+      "latinLabel": "EXERCITIUM 7",
+      "title": "Exercise 7",
+      "instruction": "Complete each word with the correct third-declension ending.",
+      "type": "fill",
+      "items": [
+        "Nīlus magn{{um}} flūm{{en}} est.",
+        "Nīlus et Rhēnus magn{{a}} flūm{{ina}} sunt.",
+        "Mārcus et Quīntus in parvō flūm{{ine}} natant.",
+        "Puerī in aquā flūm{{inis}} natant.",
+        "Parva flūm{{ina}} magnō flūm{{inī}} aquam dant.",
+        "Ōceanus magn{{um}} mar{{e}} est.",
+        "Inter Eurōpam et Āfricam mult{{a}} mar{{ia}} sunt.",
+        "In Ōceanō et in cēterīs mar{{ibus}} multī sunt piscēs.",
+        "In flūm{{inibus}} quoque magnus numerus piscium est.",
+        "Nēmō piscēs mar{{ium}} et flūm{{inum}} numerāre potest.",
+        "Piscēs sunt animāl{{ia}} quae vīvunt in mar{{ī}}.",
+        "Leō est animal qu{{od}} in terrā vīvit.",
+        "Magnus numerus animāl{{ium}} in terrā vīvunt.",
+        "Parv{{a}} animāl{{ia}} ā magnīs animāl{{ibus}} eduntur."
+      ]
     },
     {
-      id: 'exercitium-7',
-      latinLabel: 'EXERCITIUM 7',
-      title: 'Exercise 7',
-      instruction: 'Complete each word with the correct third-declension ending.',
-      type: 'fill',
-      items: [
-        'Nīlus magn{{um}} flūm{{en}} est.',
-        'Nīlus et Rhēnus magn{{a}} flūm{{ina}} sunt.',
-        'Mārcus et Quīntus in parvō flūm{{ine}} natant.',
-        'Puerī in aquā flūm{{inis}} natant.',
-        'Parva flūm{{ina}} magnō flūm{{inī}} aquam dant.',
-        'Ōceanus magn{{um}} mar{{e}} est.',
-        'Inter Eurōpam et Āfricam mult{{a}} mar{{ia}} sunt.',
-        'In Ōceanō et in cēterīs mar{{ibus}} multī sunt piscēs.',
-        'In flūm{{inibus}} quoque magnus numerus piscium est.',
-        'Nēmō piscēs mar{{ium}} et flūm{{inum}} numerāre potest.',
-        'Piscēs sunt animāl{{ia}} quae vīvunt in mar{{ī}}.',
-        'Leō est animal qu{{od}} in terrā vīvit.',
-        'Magnus numerus animāl{{ium}} in terrā vīvunt.',
-        'Parv{{a}} animāl{{ia}} ā magnīs animāl{{ibus}} eduntur.',
-      ],
+      "id": "exercitium-8",
+      "latinLabel": "EXERCITIUM 8",
+      "title": "Exercise 8",
+      "instruction": "Complete the sentences from the third reading with the missing words.",
+      "type": "fill",
+      "items": [
+        "Iūlia cum puerīs lūdere {{vult}}, neque iī cum puellā {{lūdere}} volunt.",
+        "Puerī Iūliam {{canere}} [= cantāre] audiunt.",
+        "Iūlia {{vōcem}} pulchram habet: {{vōx}} Iūliae pulchra est.",
+        "Avēs {{perterritae}} sunt neque canunt; puerī {{enim}} [= nam puerī] nīdōs quaerunt.",
+        "Avēs perterritae inter folia arborum sē {{occultant}}.",
+        "Quīntus in arborem {{ascendit}}; Mārcus eum aspicit neque ipse in arborem ascendere {{audet}}.",
+        "Nōn {{crassus}}, sed tenuis est rāmus quō nīdus {{sustinētur}}.",
+        "Rāmus {{tenuis}} puerum crassum sustinēre nōn potest.",
+        "Quīntus ad terram {{cadit}}.",
+        "Puer spīrat; {{vīvus}} vīvit, nam quī spīrat mortuus {{esse}} nōn potest.",
+        "Pater fīlium in vīllam portat et in {{lectō}} pōnit."
+      ]
     },
     {
-      id: 'exercitium-8',
-      latinLabel: 'EXERCITIUM 8',
-      title: 'Exercise 8',
-      instruction: 'Complete the sentences from the third reading with the missing words.',
-      type: 'fill',
-      items: [
-        'Iūlia cum puerīs lūdere {{vult}}, neque iī cum puellā {{lūdere}} volunt.',
-        'Puerī Iūliam {{canere}} [= cantāre] audiunt.',
-        'Iūlia {{vōcem}} pulchram habet: {{vōx}} Iūliae pulchra est.',
-        'Avēs {{perterritae}} sunt neque canunt; puerī {{enim}} [= nam puerī] nīdōs quaerunt.',
-        'Avēs perterritae inter folia arborum sē {{occultant}}.',
-        'Quīntus in arborem {{ascendit}}; Mārcus eum aspicit neque ipse in arborem ascendere {{audet}}.',
-        'Nōn {{crassus}}, sed tenuis est rāmus quō nīdus {{sustinētur}}.',
-        'Rāmus {{tenuis}} puerum crassum sustinēre nōn potest.',
-        'Quīntus ad terram {{cadit}}.',
-        'Puer spīrat; {{vīvus}} vīvit, nam quī spīrat mortuus {{esse}} nōn potest.',
-        'Pater fīlium in vīllam portat et in {{lectō}} pōnit.',
-      ],
+      "id": "exercitium-9",
+      "latinLabel": "EXERCITIUM 9",
+      "title": "Exercise 9",
+      "instruction": "Complete the sentences with the accusative and infinitive construction.",
+      "type": "fill",
+      "items": [
+        "Iūlia canit. Puerī Iūli{{am}} can{{ere}} audiunt.",
+        "Iūlia ā Mārcō pulsātur. Quīntus Iūli{{am}} ā Mārcō puls{{ārī}} videt.",
+        "Iūlia plōrat et Mārcus rīdet. Quīntus Iūli{{am}} plōr{{āre}} et Mārc{{um}} rīd{{ēre}} audit.",
+        "Aemilia venit. Puerī Aemili{{am}} ven{{īre}} vident.",
+        "Aemilia īrāta est. Mārcus Aemili{{am}} īrāt{{am}} es{{se}} videt.",
+        "Pullī mortuī sunt. Iūlia pull{{ōs}} mortu{{ōs}} es{{se}} videt.",
+        "Dāvus ā Iūliō interrogātur et ā Mēdō accūsātur. Aemilia Dāv{{um}} ā Iūliō interrog{{ārī}} et ā Mēdō accūs{{ārī}} audit.",
+        "Mēdus ā Iūliō vocātur neque venit. Aemilia Mēd{{um}} ā Iūliō voc{{ārī}} audit neque e{{um}} ven{{īre}} videt."
+      ]
     },
     {
-      id: 'exercitium-9',
-      latinLabel: 'EXERCITIUM 9',
-      title: 'Exercise 9',
-      instruction: 'Complete the sentences with the accusative and infinitive construction.',
-      type: 'fill',
-      items: [
-        'Iūlia canit. Puerī Iūli{{am}} can{{ere}} audiunt.',
-        'Iūlia ā Mārcō pulsātur. Quīntus Iūli{{am}} ā Mārcō puls{{ārī}} videt.',
-        'Iūlia plōrat et Mārcus rīdet. Quīntus Iūli{{am}} plōr{{āre}} et Mārc{{um}} rīd{{ēre}} audit.',
-        'Aemilia venit. Puerī Aemili{{am}} ven{{īre}} vident.',
-        'Aemilia īrāta est. Mārcus Aemili{{am}} īrāt{{am}} es{{se}} videt.',
-        'Pullī mortuī sunt. Iūlia pull{{ōs}} mortu{{ōs}} es{{se}} videt.',
-        'Dāvus ā Iūliō interrogātur et ā Mēdō accūsātur. Aemilia Dāv{{um}} ā Iūliō interrog{{ārī}} et ā Mēdō accūs{{ārī}} audit.',
-        'Mēdus ā Iūliō vocātur neque venit. Aemilia Mēd{{um}} ā Iūliō voc{{ārī}} audit neque e{{um}} ven{{īre}} videt.',
-      ],
+      "id": "exercitium-10",
+      "latinLabel": "EXERCITIUM 10",
+      "title": "Exercise 10",
+      "instruction": "Answer each question about the garden story in a complete Latin sentence.",
+      "type": "questions",
+      "items": [
+        {
+          "q": "Quid puerī in hortō agunt?",
+          "a": "Puerī nīdōs in arboribus quaerunt."
+        },
+        {
+          "q": "Quid agit Iūlia?",
+          "a": "Iūlia pilā cum cane suā lūdit et canit."
+        },
+        {
+          "q": "Cūr avēs hortī nōn canunt?",
+          "a": "Avēs nōn canunt, quia aquilam timent et sē occultant."
+        },
+        {
+          "q": "Cūr Mārcus Quīntum vocat?",
+          "a": "Mārcus Quīntum vocat, quia nīdum in arbore reperit."
+        },
+        {
+          "q": "Mārcusne in arborem ascendit?",
+          "a": "Nōn; Mārcus in arborem ascendere nōn audet."
+        },
+        {
+          "q": "Quid est in nīdō ad quem Quīntus ascendit?",
+          "a": "In nīdō quattuor pullī sunt."
+        },
+        {
+          "q": "Cūr rāmus tenuis Quīntum sustinēre nōn potest?",
+          "a": "Rāmus tenuis Quīntum sustinēre nōn potest, quia puer crassus est."
+        },
+        {
+          "q": "Quid Mārcus perterritus videt?",
+          "a": "Mārcus Quīntum cum rāmō et nīdō ad terram cadere videt."
+        },
+        {
+          "q": "Estne mortuus Quīntus?",
+          "a": "Nōn; Quīntus vīvus est, nam spīrat."
+        },
+        {
+          "q": "Pullīne mortuī sunt?",
+          "a": "Ita; pullī mortuī sunt."
+        },
+        {
+          "q": "Quid facit Mārcus?",
+          "a": "Mārcus perterritus ad vīllam currit et patrem vocat."
+        },
+        {
+          "q": "Quō pater currit et quid videt?",
+          "a": "Pater ad Quīntum currit et eum oculōs aperīre videt."
+        },
+        {
+          "q": "Quō pater fīlium suum portat?",
+          "a": "Pater fīlium in vīllam portat et in lectō pōnit."
+        },
+        {
+          "q": "Quid videt Aemilia?",
+          "a": "Aemilia Quīntum ā Iūliō portārī videt."
+        }
+      ]
     },
     {
-      id: 'exercitium-10',
-      latinLabel: 'EXERCITIUM 10',
-      title: 'Exercise 10',
-      instruction: 'Answer each question about the garden story in a complete Latin sentence.',
-      type: 'questions',
-      items: [
-        { q: 'Quid puerī in hortō agunt?', a: 'Puerī nīdōs in arboribus quaerunt.' },
-        { q: 'Quid agit Iūlia?', a: 'Iūlia pilā cum cane suā lūdit et canit.' },
-        { q: 'Cūr avēs hortī nōn canunt?', a: 'Avēs nōn canunt, quia aquilam timent et sē occultant.' },
-        { q: 'Cūr Mārcus Quīntum vocat?', a: 'Mārcus Quīntum vocat, quia nīdum in arbore reperit.' },
-        { q: 'Mārcusne in arborem ascendit?', a: 'Nōn; Mārcus in arborem ascendere nōn audet.' },
-        { q: 'Quid est in nīdō ad quem Quīntus ascendit?', a: 'In nīdō quattuor pullī sunt.' },
-        { q: 'Cūr rāmus tenuis Quīntum sustinēre nōn potest?', a: 'Rāmus tenuis Quīntum sustinēre nōn potest, quia puer crassus est.' },
-        { q: 'Quid Mārcus perterritus videt?', a: 'Mārcus Quīntum cum rāmō et nīdō ad terram cadere videt.' },
-        { q: 'Estne mortuus Quīntus?', a: 'Nōn; Quīntus vīvus est, nam spīrat.' },
-        { q: 'Pullīne mortuī sunt?', a: 'Ita; pullī mortuī sunt.' },
-        { q: 'Quid facit Mārcus?', a: 'Mārcus perterritus ad vīllam currit et patrem vocat.' },
-        { q: 'Quō pater currit et quid videt?', a: 'Pater ad Quīntum currit et eum oculōs aperīre videt.' },
-        { q: 'Quō pater fīlium suum portat?', a: 'Pater fīlium in vīllam portat et in lectō pōnit.' },
-        { q: 'Quid videt Aemilia?', a: 'Aemilia Quīntum ā Iūliō portārī videt.' },
-      ],
+      "id": "exercitium-11",
+      "latinLabel": "EXERCITIUM 11",
+      "title": "Exercise 11",
+      "instruction": "Decline pāstor and ovis in the third declension and name each form.",
+      "type": "fill",
+      "items": [
+        "Nōm. pāstor pāstōr{{ēs}} ov{{is}} ov{{ēs}}",
+        "Acc. pāstōr{{em}} pāstōr{{ēs}} ov{{em}} ov{{ēs}}",
+        "Gen. pāstōr{{is}} pāstōr{{um}} ov{{is}} ov{{ium}}",
+        "Dat. pāstōr{{ī}} pāstōr{{ibus}} ov{{ī}} ov{{ibus}}",
+        "Abl. pāstōr{{e}} pāstōr{{ibus}} ov{{e}} ov{{ibus}}",
+        "Pāstor {{nōminātīvus}} singulāris est.",
+        "Pāstōre et ove {{ablātīvus}} {{singulāris}} est.",
+        "Pāstōrem et ovem {{accūsātīvus}} {{singulāris}} est.",
+        "Pāstōrēs et ovēs {{nōminātīvus}} aut {{accūsātīvus}} plūrālis est.",
+        "Pāstōrī et ovī {{datīvus}} {{singulāris}} est.",
+        "Pāstōribus et ovibus {{datīvus}} aut {{ablātīvus}} plūrālis est.",
+        "Pāstōris {{genetīvus}} {{singulāris}} est.",
+        "Ovis {{genetīvus}} aut {{nōminātīvus}} singulāris est.",
+        "Pāstōrum et ovium {{genetīvus}} {{plūrālis}} est."
+      ]
     },
     {
-      id: 'exercitium-12',
-      latinLabel: 'EXERCITIUM 12',
-      title: 'Exercise 12',
-      instruction: 'Distinguish the imperative from the infinitive and complete the active and passive forms.',
-      type: 'fill',
-      items: [
-        'Vocā imperātīvus est. Vocāre est {{īnfīnītīvus}}.',
-        'Vidēre, pōnere, audīre nōn imperātīvus, sed {{īnfīnītīvus}} est.',
-        'Imperātīvus: intrā. Īnfīnītīvus: intr{{āre}}.',
-        'Imperātīvus: tacē. Īnfīnītīvus: tac{{ēre}}.',
-        'Imperātīvus: discēde. Īnfīnītīvus: discēd{{ere}}.',
-        'Imperātīvus: venī. Īnfīnītīvus: ven{{īre}}.',
-        'Vocāre est īnfīnītīvus āctīvī. Vocārī {{īnfīnītīvus}} passīvī est.',
-        'Vidērī, pōnī, audīrī nōn īnfīnītīvus āctīvī, sed {{īnfīnītīvus}} {{passīvī}} est.',
-        'Īnfīnītīvus: āctīvum voc{{āre}}, passīvum voc{{ārī}}.',
-        'Īnfīnītīvus: āctīvum vid{{ēre}}, passīvum vid{{ērī}}.',
-        'Īnfīnītīvus: āctīvum pōn{{ere}}, passīvum pōn{{ī}}.',
-        'Īnfīnītīvus: āctīvum aud{{īre}}, passīvum aud{{īrī}}.',
-      ],
-    },
-  ],
+      "id": "exercitium-12",
+      "latinLabel": "EXERCITIUM 12",
+      "title": "Exercise 12",
+      "instruction": "Distinguish the imperative from the infinitive and complete the active and passive forms.",
+      "type": "fill",
+      "items": [
+        "Vocā imperātīvus est. Vocāre est {{īnfīnītīvus}}.",
+        "Vidēre, pōnere, audīre nōn imperātīvus, sed {{īnfīnītīvus}} est.",
+        "Imperātīvus: intrā. Īnfīnītīvus: intr{{āre}}.",
+        "Imperātīvus: tacē. Īnfīnītīvus: tac{{ēre}}.",
+        "Imperātīvus: discēde. Īnfīnītīvus: discēd{{ere}}.",
+        "Imperātīvus: venī. Īnfīnītīvus: ven{{īre}}.",
+        "Vocāre est īnfīnītīvus āctīvī. Vocārī {{īnfīnītīvus}} passīvī est.",
+        "Vidērī, pōnī, audīrī nōn īnfīnītīvus āctīvī, sed {{īnfīnītīvus}} {{passīvī}} est.",
+        "Īnfīnītīvus: āctīvum voc{{āre}}, passīvum voc{{ārī}}.",
+        "Īnfīnītīvus: āctīvum vid{{ēre}}, passīvum vid{{ērī}}.",
+        "Īnfīnītīvus: āctīvum pōn{{ere}}, passīvum pōn{{ī}}.",
+        "Īnfīnītīvus: āctīvum aud{{īre}}, passīvum aud{{īrī}}."
+      ]
+    }
+  ]
 }
 
 export default chapter

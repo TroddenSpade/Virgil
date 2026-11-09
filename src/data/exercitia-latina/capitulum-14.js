@@ -3,431 +3,892 @@
 // Exercise text adapted for the web.
 
 const chapter = {
-  number: 14,
-  roman: 'XIV',
-  slug: 'capitulum-14',
-  latinTitle: 'CAPITVLVM QVARTVM DECIMVM',
-  title: 'A New Day',
-  tagline: 'A Roman morning from the crowing cockerel to the schoolboy\u2019s departure — drilled with participles and the fifth declension.',
-  status: 'complete',
-  overview:
-    'The fourteenth workbook chapter follows one Roman morning: Quīntus lies awake in pain, the cockerel crows, ' +
-    'Dāvus wakes and washes Mārcus, dresses him, and the boy sets off for school. The exercises drill the ' +
-    'present participle (vigilāns, dormiēns, clāmāns), the fifth declension (diēs, rēs), the pronouns ' +
-    'uter, alter, uterque and neuter, and the vocabulary of washing, dressing and the schoolroom.',
-  objectives: [
-    'Form and decline the present participle in -āns, -ēns and -iēns.',
-    'Use the participle as an adjective agreeing with its noun.',
-    'Decline fifth-declension nouns such as diēs and rēs.',
-    'Distinguish uter, alter, uterque and neuter.',
-    'Describe the Roman morning: surgere, lavāre, induere, vestīre, poscere.',
+  "number": 14,
+  "roman": "XIV",
+  "slug": "capitulum-14",
+  "latinTitle": "CAPITVLVM QVARTVM DECIMVM",
+  "title": "A New Day",
+  "tagline": "A Roman morning from the crowing cockerel to the schoolboy’s departure — drilled with participles and the fifth declension.",
+  "status": "complete",
+  "overview": "The fourteenth workbook chapter follows one Roman morning: Quīntus lies awake in pain, the cockerel crows, Dāvus wakes and washes Mārcus, dresses him, and the boy sets off for school. The exercises drill the present participle (vigilāns, dormiēns, clāmāns), the fifth declension (diēs, rēs), the pronouns uter, alter, uterque and neuter, and the vocabulary of washing, dressing and the schoolroom.",
+  "objectives": [
+    "Form and decline the present participle in -āns, -ēns and -iēns.",
+    "Use the participle as an adjective agreeing with its noun.",
+    "Decline fifth-declension nouns such as diēs and rēs.",
+    "Distinguish uter, alter, uterque and neuter.",
+    "Describe the Roman morning: surgere, lavāre, induere, vestīre, poscere."
   ],
-  readings: [],
-  grammar: [
+  "readings": [],
+  "grammar": [
     {
-      id: 'declinatio-quinta',
-      latinTitle: 'Dēclīnātiō Quīnta',
-      title: 'The Fifth Declension: diēs, rēs',
-      intro:
-        'Fifth-declension nouns have the genitive and dative singular in -ēī and the ablative singular in -ē. ' +
-        'diēs is masculine, rēs feminine; most others are feminine.',
-      paradigms: [
+      "id": "declinatio-quinta",
+      "latinTitle": "Dēclīnātiō Quīnta",
+      "title": "The Fifth Declension: diēs, rēs",
+      "intro": "Fifth-declension nouns have the genitive and dative singular in -ēī and the ablative singular in -ē. diēs is masculine, rēs feminine; most others are feminine.",
+      "paradigms": [
         {
-          caption: 'diēs, -ēī (m.) — day',
-          head: ['Cāsus', 'Singulāris', 'Plūrālis'],
-          rows: [
-            ['Nōminātīvus', 'diēs', 'diēs'],
-            ['Accūsātīvus', 'diem', 'diēs'],
-            ['Genetīvus', 'diēī', 'diērum'],
-            ['Datīvus', 'diēī', 'diēbus'],
-            ['Ablātīvus', 'diē', 'diēbus'],
+          "caption": "diēs, -ēī (m.) — day",
+          "head": [
+            "Cāsus",
+            "Singulāris",
+            "Plūrālis"
           ],
+          "rows": [
+            [
+              "Nōminātīvus",
+              "diēs",
+              "diēs"
+            ],
+            [
+              "Accūsātīvus",
+              "diem",
+              "diēs"
+            ],
+            [
+              "Genetīvus",
+              "diēī",
+              "diērum"
+            ],
+            [
+              "Datīvus",
+              "diēī",
+              "diēbus"
+            ],
+            [
+              "Ablātīvus",
+              "diē",
+              "diēbus"
+            ]
+          ]
         },
         {
-          caption: 'rēs, reī (f.) — thing, matter',
-          head: ['Cāsus', 'Singulāris', 'Plūrālis'],
-          rows: [
-            ['Nōminātīvus', 'rēs', 'rēs'],
-            ['Accūsātīvus', 'rem', 'rēs'],
-            ['Genetīvus', 'reī', 'rērum'],
-            ['Datīvus', 'reī', 'rēbus'],
-            ['Ablātīvus', 'rē', 'rēbus'],
+          "caption": "rēs, reī (f.) — thing, matter",
+          "head": [
+            "Cāsus",
+            "Singulāris",
+            "Plūrālis"
           ],
-        },
+          "rows": [
+            [
+              "Nōminātīvus",
+              "rēs",
+              "rēs"
+            ],
+            [
+              "Accūsātīvus",
+              "rem",
+              "rēs"
+            ],
+            [
+              "Genetīvus",
+              "reī",
+              "rērum"
+            ],
+            [
+              "Datīvus",
+              "reī",
+              "rēbus"
+            ],
+            [
+              "Ablātīvus",
+              "rē",
+              "rēbus"
+            ]
+          ]
+        }
       ],
-      points: [
-        'The stem is die- or re-; the genitive and dative singular add -ī (diēī, reī).',
-        'diēs is masculine, but rēs, faciēs and glaciēs are feminine.',
-        'The ablative of time uses the bare ablative: diē septimō, hōrā prīmā, mēnse Iūniō.',
-      ],
+      "points": [
+        "The stem is die- or re-; the genitive and dative singular add -ī (diēī, reī).",
+        "diēs is masculine, but rēs, faciēs and glaciēs are feminine.",
+        "The ablative of time uses the bare ablative: diē septimō, hōrā prīmā, mēnse Iūniō."
+      ]
     },
     {
-      id: 'participium-praesentis',
-      latinTitle: 'Participium Praesentis',
-      title: 'The Present Participle',
-      intro:
-        'The present participle turns a verb into an adjective: vigilāre gives vigilāns, dormīre gives dormiēns. ' +
-        'It declines like a third-declension adjective with genitive -antis or -entis.',
-      paradigms: [
+      "id": "participium-praesentis",
+      "latinTitle": "Participium Praesentis",
+      "title": "The Present Participle",
+      "intro": "The present participle turns a verb into an adjective: vigilāre gives vigilāns, dormīre gives dormiēns. It declines like a third-declension adjective with genitive -antis or -entis.",
+      "paradigms": [
         {
-          caption: 'vigilāns, vigilantis — watching, awake',
-          head: ['Cāsus', 'Masc./Fēm.', 'Neutrum'],
-          rows: [
-            ['Nōminātīvus', 'vigilāns', 'vigilāns'],
-            ['Accūsātīvus', 'vigilantem', 'vigilāns'],
-            ['Genetīvus', 'vigilantis', 'vigilantis'],
-            ['Datīvus', 'vigilantī', 'vigilantī'],
-            ['Ablātīvus', 'vigilante', 'vigilante'],
-            ['Nōm. pl.', 'vigilantēs', 'vigilantia'],
-            ['Acc. pl.', 'vigilantēs', 'vigilantia'],
-            ['Gen. pl.', 'vigilantium', 'vigilantium'],
+          "caption": "vigilāns, vigilantis — watching, awake",
+          "head": [
+            "Cāsus",
+            "Masc./Fēm.",
+            "Neutrum"
           ],
+          "rows": [
+            [
+              "Nōminātīvus",
+              "vigilāns",
+              "vigilāns"
+            ],
+            [
+              "Accūsātīvus",
+              "vigilantem",
+              "vigilāns"
+            ],
+            [
+              "Genetīvus",
+              "vigilantis",
+              "vigilantis"
+            ],
+            [
+              "Datīvus",
+              "vigilantī",
+              "vigilantī"
+            ],
+            [
+              "Ablātīvus",
+              "vigilante",
+              "vigilante"
+            ],
+            [
+              "Nōm. pl.",
+              "vigilantēs",
+              "vigilantia"
+            ],
+            [
+              "Acc. pl.",
+              "vigilantēs",
+              "vigilantia"
+            ],
+            [
+              "Gen. pl.",
+              "vigilantium",
+              "vigilantium"
+            ]
+          ]
         },
         {
-          caption: 'forming the participle',
-          head: ['Verbum', 'Participium', 'Genetīvus'],
-          rows: [
-            ['vigilāre', 'vigilāns', 'vigilantis'],
-            ['clāmāre', 'clāmāns', 'clāmantis'],
-            ['iacēre', 'iacēns', 'iacentis'],
-            ['canere', 'canēns', 'canentis'],
-            ['dormīre', 'dormiēns', 'dormientis'],
+          "caption": "forming the participle",
+          "head": [
+            "Verbum",
+            "Participium",
+            "Genetīvus"
           ],
-        },
+          "rows": [
+            [
+              "vigilāre",
+              "vigilāns",
+              "vigilantis"
+            ],
+            [
+              "clāmāre",
+              "clāmāns",
+              "clāmantis"
+            ],
+            [
+              "iacēre",
+              "iacēns",
+              "iacentis"
+            ],
+            [
+              "canere",
+              "canēns",
+              "canentis"
+            ],
+            [
+              "dormīre",
+              "dormiēns",
+              "dormientis"
+            ]
+          ]
+        }
       ],
-      points: [
-        'First conjugation has -āns, -antis; the other conjugations have -ēns, -entis.',
-        'The participle agrees with its noun: puer vigilāns, puerō dormiente, gallum canentem.',
-        'It may replace a relative clause: puer vigilāns = puer quī vigilat.',
-      ],
+      "points": [
+        "First conjugation has -āns, -antis; the other conjugations have -ēns, -entis.",
+        "The participle agrees with its noun: puer vigilāns, puerō dormiente, gallum canentem.",
+        "It may replace a relative clause: puer vigilāns = puer quī vigilat."
+      ]
     },
     {
-      id: 'uter-alter-uterque',
-      latinTitle: 'Uter, Alter, Uterque, Neuter',
-      title: 'The Pronouns of Two',
-      intro:
-        'These pronouns speak of two things: uter asks “which of the two?”, alter means “the one / the other”, ' +
-        'uterque “each of the two”, neuter “neither of the two”.',
-      paradigms: [
+      "id": "uter-alter-uterque",
+      "latinTitle": "Uter, Alter, Uterque, Neuter",
+      "title": "The Pronouns of Two",
+      "intro": "These pronouns speak of two things: uter asks “which of the two?”, alter means “the one / the other”, uterque “each of the two”, neuter “neither of the two”.",
+      "paradigms": [
         {
-          caption: 'uter, utra, utrum? — which of the two?',
-          head: ['', 'Masculīnum', 'Fēminīnum', 'Neutrum'],
-          rows: [
-            ['Nōminātīvus', 'uter', 'utra', 'utrum'],
-            ['Accūsātīvus', 'utrum', 'utram', 'utrum'],
-            ['Genetīvus', 'utrīus', 'utrīus', 'utrīus'],
-            ['Datīvus', 'utrī', 'utrī', 'utrī'],
+          "caption": "uter, utra, utrum? — which of the two?",
+          "head": [
+            "",
+            "Masculīnum",
+            "Fēminīnum",
+            "Neutrum"
           ],
+          "rows": [
+            [
+              "Nōminātīvus",
+              "uter",
+              "utra",
+              "utrum"
+            ],
+            [
+              "Accūsātīvus",
+              "utrum",
+              "utram",
+              "utrum"
+            ],
+            [
+              "Genetīvus",
+              "utrīus",
+              "utrīus",
+              "utrīus"
+            ],
+            [
+              "Datīvus",
+              "utrī",
+              "utrī",
+              "utrī"
+            ]
+          ]
         },
         {
-          caption: 'the pair',
-          head: ['Pronōmen', 'Significātiō'],
-          rows: [
-            ['uter ... an ...?', 'which of the two ...?'],
-            ['alter ... alter ...', 'the one ... the other ...'],
-            ['uterque ...', 'each of the two, both ...'],
-            ['neuter ...', 'neither of the two ...'],
+          "caption": "the pair",
+          "head": [
+            "Pronōmen",
+            "Significātiō"
           ],
-        },
+          "rows": [
+            [
+              "uter ... an ...?",
+              "which of the two ...?"
+            ],
+            [
+              "alter ... alter ...",
+              "the one ... the other ..."
+            ],
+            [
+              "uterque ...",
+              "each of the two, both ..."
+            ],
+            [
+              "neuter ...",
+              "neither of the two ..."
+            ]
+          ]
+        }
       ],
-      points: [
-        'uter is used for masculine nouns, utra for feminine, utrum for neuter: Uter puer? Utra fēmina? Utrum flūmen?',
-        'alter and uterque decline like adjectives: altera fēmina, utrumque flūmen.',
-        'In a question with two alternatives, use an: Uter puer dormit, Mārcusne an Quīntus?',
-      ],
-    },
+      "points": [
+        "uter is used for masculine nouns, utra for feminine, utrum for neuter: Uter puer? Utra fēmina? Utrum flūmen?",
+        "alter and uterque decline like adjectives: altera fēmina, utrumque flūmen.",
+        "In a question with two alternatives, use an: Uter puer dormit, Mārcusne an Quīntus?"
+      ]
+    }
   ],
-  vocabulary: [
-    { latin: 'diēs, -ēī', english: 'day', pos: 'noun m.' },
-    { latin: 'rēs, reī', english: 'thing, matter', pos: 'noun f.' },
-    { latin: 'gallus, -ī', english: 'cockerel, rooster', pos: 'noun m.' },
-    { latin: 'tunica, -ae', english: 'tunic', pos: 'noun f.' },
-    { latin: 'toga, -ae', english: 'toga', pos: 'noun f.' },
-    { latin: 'calceus, -ī', english: 'shoe', pos: 'noun m.' },
-    { latin: 'mālum, -ī', english: 'apple', pos: 'noun n.' },
-    { latin: 'liber, librī', english: 'book', pos: 'noun m.' },
-    { latin: 'tabula, -ae', english: 'writing tablet', pos: 'noun f.' },
-    { latin: 'stilus, -ī', english: 'stylus, pen', pos: 'noun m.' },
-    { latin: 'rēgula, -ae', english: 'ruler', pos: 'noun f.' },
-    { latin: 'quiētus, -a, -um', english: 'quiet, still', pos: 'adjective' },
-    { latin: 'obscūrus, -a, -um', english: 'dark', pos: 'adjective' },
-    { latin: 'frīgidus, -a, -um', english: 'cold', pos: 'adjective' },
-    { latin: 'apertus, -a, -um', english: 'open', pos: 'adjective' },
-    { latin: 'clausus, -a, -um', english: 'closed', pos: 'adjective' },
-    { latin: 'nūdus, -a, -um', english: 'naked, bare', pos: 'adjective' },
-    { latin: 'pūrus, -a, -um', english: 'clean', pos: 'adjective' },
-    { latin: 'sordidus, -a, -um', english: 'dirty', pos: 'adjective' },
-    { latin: 'togātus, -a, -um', english: 'wearing the toga', pos: 'adjective' },
-    { latin: 'dexter, dextra, dextrum', english: 'right (hand)', pos: 'adjective' },
-    { latin: 'sinister, sinistra, sinistrum', english: 'left (hand)', pos: 'adjective' },
-    { latin: 'uter, utra, utrum', english: 'which of the two?', pos: 'pronoun' },
-    { latin: 'alter, altera, alterum', english: 'the one, the other', pos: 'pronoun' },
-    { latin: 'uterque, utraque, utrumque', english: 'each of the two, both', pos: 'pronoun' },
-    { latin: 'neuter, neutra, neutrum', english: 'neither of the two', pos: 'pronoun' },
-    { latin: 'vigilat', english: 'is awake, keeps watch', pos: 'verb' },
-    { latin: 'cubat', english: 'lies, is lying down', pos: 'verb' },
-    { latin: 'surgit', english: 'rises, gets up', pos: 'verb' },
-    { latin: 'excitat', english: 'wakes, rouses', pos: 'verb' },
-    { latin: 'lavat', english: 'washes', pos: 'verb' },
-    { latin: 'mergit', english: 'plunges, dips', pos: 'verb' },
-    { latin: 'induit', english: 'puts on', pos: 'verb' },
-    { latin: 'vestit', english: 'dresses (someone)', pos: 'verb' },
-    { latin: 'poscit', english: 'asks for, demands', pos: 'verb' },
-    { latin: 'solet', english: 'is accustomed to', pos: 'verb' },
-    { latin: 'frīget', english: 'is cold', pos: 'verb' },
-    { latin: 'hodiē', english: 'today', pos: 'adverb' },
-    { latin: 'adhūc', english: 'still, up to now', pos: 'adverb' },
-    { latin: 'deinde', english: 'then, next', pos: 'adverb' },
+  "vocabulary": [
+    {
+      "latin": "diēs, -ēī",
+      "english": "day",
+      "pos": "noun m."
+    },
+    {
+      "latin": "rēs, reī",
+      "english": "thing, matter",
+      "pos": "noun f."
+    },
+    {
+      "latin": "gallus, -ī",
+      "english": "cockerel, rooster",
+      "pos": "noun m."
+    },
+    {
+      "latin": "tunica, -ae",
+      "english": "tunic",
+      "pos": "noun f."
+    },
+    {
+      "latin": "toga, -ae",
+      "english": "toga",
+      "pos": "noun f."
+    },
+    {
+      "latin": "calceus, -ī",
+      "english": "shoe",
+      "pos": "noun m."
+    },
+    {
+      "latin": "mālum, -ī",
+      "english": "apple",
+      "pos": "noun n."
+    },
+    {
+      "latin": "liber, librī",
+      "english": "book",
+      "pos": "noun m."
+    },
+    {
+      "latin": "tabula, -ae",
+      "english": "writing tablet",
+      "pos": "noun f."
+    },
+    {
+      "latin": "stilus, -ī",
+      "english": "stylus, pen",
+      "pos": "noun m."
+    },
+    {
+      "latin": "rēgula, -ae",
+      "english": "ruler",
+      "pos": "noun f."
+    },
+    {
+      "latin": "quiētus, -a, -um",
+      "english": "quiet, still",
+      "pos": "adjective"
+    },
+    {
+      "latin": "obscūrus, -a, -um",
+      "english": "dark",
+      "pos": "adjective"
+    },
+    {
+      "latin": "frīgidus, -a, -um",
+      "english": "cold",
+      "pos": "adjective"
+    },
+    {
+      "latin": "apertus, -a, -um",
+      "english": "open",
+      "pos": "adjective"
+    },
+    {
+      "latin": "clausus, -a, -um",
+      "english": "closed",
+      "pos": "adjective"
+    },
+    {
+      "latin": "nūdus, -a, -um",
+      "english": "naked, bare",
+      "pos": "adjective"
+    },
+    {
+      "latin": "pūrus, -a, -um",
+      "english": "clean",
+      "pos": "adjective"
+    },
+    {
+      "latin": "sordidus, -a, -um",
+      "english": "dirty",
+      "pos": "adjective"
+    },
+    {
+      "latin": "togātus, -a, -um",
+      "english": "wearing the toga",
+      "pos": "adjective"
+    },
+    {
+      "latin": "dexter, dextra, dextrum",
+      "english": "right (hand)",
+      "pos": "adjective"
+    },
+    {
+      "latin": "sinister, sinistra, sinistrum",
+      "english": "left (hand)",
+      "pos": "adjective"
+    },
+    {
+      "latin": "uter, utra, utrum",
+      "english": "which of the two?",
+      "pos": "pronoun"
+    },
+    {
+      "latin": "alter, altera, alterum",
+      "english": "the one, the other",
+      "pos": "pronoun"
+    },
+    {
+      "latin": "uterque, utraque, utrumque",
+      "english": "each of the two, both",
+      "pos": "pronoun"
+    },
+    {
+      "latin": "neuter, neutra, neutrum",
+      "english": "neither of the two",
+      "pos": "pronoun"
+    },
+    {
+      "latin": "vigilat",
+      "english": "is awake, keeps watch",
+      "pos": "verb"
+    },
+    {
+      "latin": "cubat",
+      "english": "lies, is lying down",
+      "pos": "verb"
+    },
+    {
+      "latin": "surgit",
+      "english": "rises, gets up",
+      "pos": "verb"
+    },
+    {
+      "latin": "excitat",
+      "english": "wakes, rouses",
+      "pos": "verb"
+    },
+    {
+      "latin": "lavat",
+      "english": "washes",
+      "pos": "verb"
+    },
+    {
+      "latin": "mergit",
+      "english": "plunges, dips",
+      "pos": "verb"
+    },
+    {
+      "latin": "induit",
+      "english": "puts on",
+      "pos": "verb"
+    },
+    {
+      "latin": "vestit",
+      "english": "dresses (someone)",
+      "pos": "verb"
+    },
+    {
+      "latin": "poscit",
+      "english": "asks for, demands",
+      "pos": "verb"
+    },
+    {
+      "latin": "solet",
+      "english": "is accustomed to",
+      "pos": "verb"
+    },
+    {
+      "latin": "frīget",
+      "english": "is cold",
+      "pos": "verb"
+    },
+    {
+      "latin": "hodiē",
+      "english": "today",
+      "pos": "adverb"
+    },
+    {
+      "latin": "adhūc",
+      "english": "still, up to now",
+      "pos": "adverb"
+    },
+    {
+      "latin": "deinde",
+      "english": "then, next",
+      "pos": "adverb"
+    }
   ],
-  pensa: [
+  "pensa": [
     {
-      id: 'exercitium-12',
-      latinLabel: 'EXERCITIUM 12',
-      title: 'Exercise 12',
-      instruction: 'Complete the fifth-declension paradigm of diēs and name each form.',
-      type: 'fill',
-      items: [
-        'Nōm. di{{ēs}} di{{ēs}}',
-        'Acc. di{{em}} di{{ēs}}',
-        'Gen. di{{ēī}} di{{ērum}}',
-        'Dat. di{{ēī}} di{{ēbus}}',
-        'Abl. di{{ē}} di{{ēbus}}',
-        'Diē est {{ablātīvus}} singulāris.',
-        'Diēbus {{datīvus}} aut {{ablātīvus}} plūrālis est.',
-        'Diēī est {{genetīvus}} aut {{datīvus}} singulāris.',
-        'Diem {{accūsātīvus}} {{singulāris}} est.',
-        'Diērum {{genetīvus}} {{plūrālis}} est.',
-        'Diēs est {{nōminātīvus}} singulāris aut {{nōminātīvus}} aut {{accūsātīvus}} plūrālis.',
-      ],
+      "id": "exercitium-1",
+      "latinLabel": "EXERCITIUM 1",
+      "title": "Exercise 1",
+      "instruction": "Complete the sentences with uter, alter, uterque or neuter.",
+      "type": "fill",
+      "items": [
+        "Duo puerī in hortum eunt, {{alter}} puer ambulat, {{alter}} currit.",
+        "{{Uter}} ē duōbus puerīs currit? Quīntus currit. {{Uter}} ambulat? Mārcus ambulat.",
+        "Iūlius: \"Curre, Mārce!\" Iam {{uterque}} puer currit, et Mārcus et Quīntus; {{neuter}} puer ambulat, nec Mārcus nec Quīntus.",
+        "Aemilia et Lȳdia sunt duae fēminae: {{altera}} fēmina Rōmāna est, {{altera}} Graeca.",
+        "{{Utra}} ē duābus fēminīs est Graeca? Lȳdia est Graeca.",
+        "{{Utraque}} fēmina pulchra est, et Aemilia et Lȳdia; {{neutra}} fēmina foeda est, nec Aemilia nec Lȳdia.",
+        "Nīlus et Rhēnus sunt duo flūmina: {{alterum}} flūmen in Āfricā est, {{alterum}} in Eurōpā.",
+        "{{Utrum}} ē duōbus flūminibus in Āfricā est, Nīlusne an Rhēnus? Nīlus in Āfricā est.",
+        "{{Utrumque}} flūmen magnum est, et Nīlus et Rhēnus; {{neutrum}} flūmen parvum est, nec Nīlus nec Rhēnus."
+      ]
     },
     {
-      id: 'exercitium-13',
-      latinLabel: 'EXERCITIUM 13',
-      title: 'Exercise 13',
-      instruction: 'Complete the three degrees of the adjectives altus and brevis.',
-      type: 'fill',
-      items: [
-        'Brev|is -e positīvus est; brevior -ius {{comparātīvus}} est; brevissim|us -a -um est {{superlātīvus}}.',
-        'Pos. alt{{us}} alt{{a}} alt{{um}}',
-        'Comp. alt{{ior}} alt{{ior}} alt{{ius}}',
-        'Sup. alt{{issimus}} alt{{issima}} alt{{issimum}}',
-        'Pos. brev{{is}} brev{{is}} brev{{e}}',
-        'Comp. brev{{ior}} brev{{ior}} brev{{ius}}',
-        'Sup. brev{{issimus}} brev{{issima}} brev{{issimum}}',
-      ],
+      "id": "exercitium-2",
+      "latinLabel": "EXERCITIUM 2",
+      "title": "Exercise 2",
+      "instruction": "Complete the sentences about the morning.",
+      "type": "fill",
+      "items": [
+        "Uterque puer in lectō {{cubat}} [= iacet].",
+        "Uter puer dormit, Mārcusne {{an}} Quīntus?",
+        "Mārcus dormit, sed Quīntus {{vigilat}}.",
+        "Mārcus nōn aegrōtat, sed {{valet}}.",
+        "Āēr frīgidus per fenestram {{apertam}} intrat.",
+        "Fenestra Quīntī nōn aperta, sed {{clausa}} est.",
+        "Puer vigilāns {{gallum}} canere audit: \"Cucurrū!\"",
+        "Dāvus: \"{{Quōmodo}} pēs tuus sē habet {{hodiē}} [= hōc diē]?\"",
+        "Quīntus: \"Pēs male sē {{habet}}. Dā {{mihi}} aquam, Dāve!\" Dāvus eī aquam dat."
+      ]
     },
     {
-      id: 'exercitium-1',
-      latinLabel: 'EXERCITIUM 1',
-      title: 'Exercise 1',
-      instruction: 'Complete the sentences with uter, alter, uterque or neuter.',
-      type: 'fill',
-      items: [
-        'Duo puerī in hortum eunt, {{alter}} puer ambulat, {{alter}} currit.',
-        '{{Uter}} ē duōbus puerīs currit? Quīntus currit. {{Uter}} ambulat? Mārcus ambulat.',
-        'Iūlius: "Curre, Mārce!" Iam {{uterque}} puer currit, et Mārcus et Quīntus; {{neuter}} puer ambulat, nec Mārcus nec Quīntus.',
-        'Aemilia et Lȳdia sunt duae fēminae: {{altera}} fēmina Rōmāna est, {{altera}} Graeca.',
-        '{{Utra}} ē duābus fēminīs est Graeca? Lȳdia est Graeca.',
-        '{{Utraque}} fēmina pulchra est, et Aemilia et Lȳdia; {{neutra}} fēmina foeda est, nec Aemilia nec Lȳdia.',
-        'Nīlus et Rhēnus sunt duo flūmina: {{alterum}} flūmen in Āfricā est, {{alterum}} in Eurōpā.',
-        '{{Utrum}} ē duōbus flūminibus in Āfricā est, Nīlusne an Rhēnus? Nīlus in Āfricā est.',
-        '{{Utrumque}} flūmen magnum est, et Nīlus et Rhēnus; {{neutrum}} flūmen parvum est, nec Nīlus nec Rhēnus.',
-      ],
+      "id": "exercitium-3",
+      "latinLabel": "EXERCITIUM 3",
+      "title": "Exercise 3",
+      "instruction": "Answer each question in Latin.",
+      "type": "questions",
+      "items": [
+        {
+          "q": "Cūr Mārcus quiētus in lectō suō cubat?",
+          "a": "Mārcus quiētus in lectō suō cubat, quia bene dormit."
+        },
+        {
+          "q": "Cūr alter puer vigilat nec dormīre potest?",
+          "a": "Alter puer vigilat, quia caput et pēs eī dolent."
+        },
+        {
+          "q": "Uter ē duōbus puerīs aegrōtat?",
+          "a": "Quīntus aegrōtat, Mārcus valet."
+        },
+        {
+          "q": "Pēsne sōlum dolet Quīntō?",
+          "a": "Nōn sōlum pēs, sed etiam caput et bracchium Quīntō dolet."
+        },
+        {
+          "q": "Suntne magna cubicula puerōrum?",
+          "a": "Cubicula puerōrum nōn magna, sed parva sunt."
+        },
+        {
+          "q": "Uter puer fenestrā apertā dormit?",
+          "a": "Mārcus fenestrā apertā dormit."
+        },
+        {
+          "q": "Quid per fenestram apertam intrat?",
+          "a": "Āēr frīgidus per fenestram apertam intrat."
+        },
+        {
+          "q": "Cūr fenestra Quīntī clausa est?",
+          "a": "Fenestra Quīntī clausa est, quia aeger est."
+        },
+        {
+          "q": "Quid audit Quīntus?",
+          "a": "Quīntus gallum canentem audit."
+        },
+        {
+          "q": "Cūr Mārcus gallum nōn audit?",
+          "a": "Mārcus gallum nōn audit, quia dormit."
+        },
+        {
+          "q": "Quid gallus canēns salūtat?",
+          "a": "Gallus canēns novum diem salūtat."
+        },
+        {
+          "q": "Quem vocat Quīntus?",
+          "a": "Quīntus Dāvum vocat."
+        },
+        {
+          "q": "Quōmodo sē habet pēs Quīntī hodiē?",
+          "a": "Pēs Quīntī male sē habet hodiē."
+        },
+        {
+          "q": "Cūr Quīntus noctem longam esse putat?",
+          "a": "Quīntus noctem longam esse putat, quia vigilat et caput pēsque eī dolent."
+        },
+        {
+          "q": "Quid Dāvus puerō aegrō dat?",
+          "a": "Dāvus puerō aegrō aquam in pōculō dat."
+        }
+      ]
     },
     {
-      id: 'exercitium-2',
-      latinLabel: 'EXERCITIUM 2',
-      title: 'Exercise 2',
-      instruction: 'Complete the sentences about the morning.',
-      type: 'fill',
-      items: [
-        'Uterque puer in lectō {{cubat}} [= iacet].',
-        'Uter puer dormit, Mārcusne {{an}} Quīntus?',
-        'Mārcus dormit, sed Quīntus {{vigilat}}.',
-        'Mārcus nōn aegrōtat, sed {{valet}}.',
-        'Āēr frīgidus per fenestram {{apertam}} intrat.',
-        'Fenestra Quīntī nōn aperta, sed {{clausa}} est.',
-        'Puer vigilāns {{gallum}} canere audit: "Cucurrū!"',
-        'Dāvus: "{{Quōmodo}} pēs tuus sē habet {{hodiē}} [= hōc diē]?"',
-        'Quīntus: "Pēs male sē {{habet}}. Dā {{mihi}} aquam, Dāve!" Dāvus eī aquam dat.',
-      ],
+      "id": "exercitium-4",
+      "latinLabel": "EXERCITIUM 4",
+      "title": "Exercise 4",
+      "instruction": "Complete the present participles, as in the example.",
+      "type": "fill",
+      "items": [
+        "Puella plōr{{āns}} [= quae plōrat]; puellae plōr{{antēs}} [= quae plōrant].",
+        "Puer rīd{{ēns}} [= quī rīdet]; puerī rīd{{entēs}} [= quī rīdent].",
+        "Cor palpit{{āns}} [= quod palpitāt]; corda palpit{{antia}} [= quae palpitant].",
+        "Equus curr{{ēns}} [= quī currit]; equī curr{{entēs}} [= quī currunt].",
+        "Pāstor dorm{{iēns}} [= quī dormit]; pāstōrēs dorm{{ientēs}} [= quī dormiunt].",
+        "Ovis err{{āns}} [= quae errat]; ovēs err{{antēs}} [= quae errant].",
+        "Canis lātr{{āns}} [= quī lātrat]; canēs lātr{{antēs}} [= quī lātrant].",
+        "Animal vol{{āns}} [= quod volat]; animālia vol{{antia}} [= quae volant].",
+        "Stēlla lūc{{ēns}} [= quae lūcet]; stēllae lūc{{entēs}} [= quae lūcent]."
+      ]
     },
     {
-      id: 'exercitium-3',
-      latinLabel: 'EXERCITIUM 3',
-      title: 'Exercise 3',
-      instruction: 'Answer each question in Latin.',
-      type: 'questions',
-      items: [
-        { q: 'Cūr Mārcus quiētus in lectō suō cubat?', a: 'Mārcus quiētus in lectō suō cubat, quia bene dormit.' },
-        { q: 'Cūr alter puer vigilat nec dormīre potest?', a: 'Alter puer vigilat, quia caput et pēs eī dolent.' },
-        { q: 'Uter ē duōbus puerīs aegrōtat?', a: 'Quīntus aegrōtat, Mārcus valet.' },
-        { q: 'Pēsne sōlum dolet Quīntō?', a: 'Nōn sōlum pēs, sed etiam caput et bracchium Quīntō dolet.' },
-        { q: 'Suntne magna cubicula puerōrum?', a: 'Cubicula puerōrum nōn magna, sed parva sunt.' },
-        { q: 'Uter puer fenestrā apertā dormit?', a: 'Mārcus fenestrā apertā dormit.' },
-        { q: 'Quid per fenestram apertam intrat?', a: 'Āēr frīgidus per fenestram apertam intrat.' },
-        { q: 'Cūr fenestra Quīntī clausa est?', a: 'Fenestra Quīntī clausa est, quia aeger est.' },
-        { q: 'Quid audit Quīntus?', a: 'Quīntus gallum canentem audit.' },
-        { q: 'Cūr Mārcus gallum nōn audit?', a: 'Mārcus gallum nōn audit, quia dormit.' },
-        { q: 'Quid gallus canēns salūtat?', a: 'Gallus canēns novum diem salūtat.' },
-        { q: 'Quem vocat Quīntus?', a: 'Quīntus Dāvum vocat.' },
-        { q: 'Quōmodo sē habet pēs Quīntī hodiē?', a: 'Pēs Quīntī male sē habet hodiē.' },
-        { q: 'Cūr Quīntus noctem longam esse putat?', a: 'Quīntus noctem longam esse putat, quia vigilat et caput pēsque eī dolent.' },
-        { q: 'Quid Dāvus puerō aegrō dat?', a: 'Dāvus puerō aegrō aquam in pōculō dat.' },
-      ],
+      "id": "exercitium-5",
+      "latinLabel": "EXERCITIUM 5",
+      "title": "Exercise 5",
+      "instruction": "Complete the narrative of Mārcus getting up and dressing.",
+      "type": "fill",
+      "items": [
+        "Iam hōra prīma est, sed Mārcus {{adhūc}} dormit.",
+        "Servus clāmāns puerum dormientem {{excitat}}.",
+        "Mārcus ē lectō {{surgit}} ac servum aquam {{afferre}} iubet.",
+        "Servus eī aquam {{affert}} et Mārcus manūs {{lavat}}.",
+        "Iam manūs eius nōn {{sordidae}}, sed {{pūrae}} sunt.",
+        "Mārcus prīmum manūs, {{deinde}} faciem lavat.",
+        "Dāvus eum caput tōtum in aquam {{mergere}} iubet.",
+        "{{Māne}} [= hōrā prīmā] puer manūs et faciem aquā frīgidā lavat.",
+        "Quīntus, quī ante Mārcum surgere {{solet}}, hodiē nōn surgit, quod pēs et caput eī dolet.",
+        "\"Mihi quoque caput dolet\" {{inquit}} Mārcus, et Dāvus \"{{Tibi}} caput nōn dolet!\" inquit.",
+        "Mārcus {{frīget}}, quia āēr frīgidus est et corpus eius {{nūdum}} est.",
+        "Tunica et toga sunt {{vestīmenta}} Mārcī.",
+        "Mārcus vestīmenta sua ā servō {{poscit}}: \"Dā mihi {{tunicam}} et {{togam}}, Dāve! {{Vestī}} mē!\"",
+        "Mārcus {{induit}} tunicam, deinde togam {{induit}}."
+      ]
     },
     {
-      id: 'exercitium-4',
-      latinLabel: 'EXERCITIUM 4',
-      title: 'Exercise 4',
-      instruction: 'Complete the present participles, as in the example.',
-      type: 'fill',
-      items: [
-        'Puella plōr{{āns}} [= quae plōrat]; puellae plōr{{antēs}} [= quae plōrant].',
-        'Puer rīd{{ēns}} [= quī rīdet]; puerī rīd{{entēs}} [= quī rīdent].',
-        'Cor palpit{{āns}} [= quod palpitāt]; corda palpit{{antia}} [= quae palpitant].',
-        'Equus curr{{ēns}} [= quī currit]; equī curr{{entēs}} [= quī currunt].',
-        'Pāstor dorm{{iēns}} [= quī dormit]; pāstōrēs dorm{{ientēs}} [= quī dormiunt].',
-        'Ovis err{{āns}} [= quae errat]; ovēs err{{antēs}} [= quae errant].',
-        'Canis lātr{{āns}} [= quī lātrat]; canēs lātr{{antēs}} [= quī lātrant].',
-        'Animal vol{{āns}} [= quod volat]; animālia vol{{antia}} [= quae volant].',
-        'Stēlla lūc{{ēns}} [= quae lūcet]; stēllae lūc{{entēs}} [= quae lūcent].',
-      ],
+      "id": "exercitium-6",
+      "latinLabel": "EXERCITIUM 6",
+      "title": "Exercise 6",
+      "instruction": "Answer each question in Latin.",
+      "type": "questions",
+      "items": [
+        {
+          "q": "Quō it Dāvus Quīntum relinquēns?",
+          "a": "Dāvus Quīntum relinquēns cubiculum Mārcī intrat."
+        },
+        {
+          "q": "Vigilatne Mārcus?",
+          "a": "Mārcus nōn vigilat, sed dormit."
+        },
+        {
+          "q": "Quōmodo Dāvus puerum excitat?",
+          "a": "Dāvus in aurem puerī dormientis magnā vōce clāmat: 'Mārce! Manē est!'"
+        },
+        {
+          "q": "Quid Mārcus Dāvum afferre iubet?",
+          "a": "Mārcus Dāvum aquam ad manūs afferre iubet."
+        },
+        {
+          "q": "Estne calida aqua quam Dāvus affert?",
+          "a": "Aqua quam Dāvus affert nōn calida, sed frīgida est."
+        },
+        {
+          "q": "Quid Mārcus prīmum lavat?",
+          "a": "Mārcus prīmum manūs lavat."
+        },
+        {
+          "q": "Tōtumne corpus lavat Mārcus?",
+          "a": "Mārcus nōn tōtum corpus, sed manūs et caput lavat."
+        },
+        {
+          "q": "Estne frīgida aqua quā Rōmānī post merīdiem lavantur?",
+          "a": "Rōmānī post merīdiem aquā calidā lavantur."
+        },
+        {
+          "q": "Cūr nōn surgit Quīntus?",
+          "a": "Quīntus nōn surgit, quod pēs et caput eī dolet."
+        },
+        {
+          "q": "Doletne caput Mārcō?",
+          "a": "Mārcō caput nōn dolet; Dāvus dīcit caput eī nōn dolēre."
+        },
+        {
+          "q": "Cūr Mārcus frīget?",
+          "a": "Mārcus frīget, quod corpus eius nūdum est et āēr frīgidus per fenestram apertam intrat."
+        },
+        {
+          "q": "Quid Mārcus ā Dāvō poscit?",
+          "a": "Mārcus ā Dāvō tunicam et togam poscit, deinde calceōs."
+        },
+        {
+          "q": "Quae sunt vestīmenta Mārcī?",
+          "a": "Tunica et toga sunt vestīmenta Mārcī."
+        },
+        {
+          "q": "Num Dāvus Mārcum vestit?",
+          "a": "Dāvus Mārcum nōn vestit: necesse est puerum ipsum sē vestīre."
+        }
+      ]
     },
     {
-      id: 'exercitium-5',
-      latinLabel: 'EXERCITIUM 5',
-      title: 'Exercise 5',
-      instruction: 'Complete the narrative of Mārcus getting up and dressing.',
-      type: 'fill',
-      items: [
-        'Iam hōra prīma est, sed Mārcus {{adhūc}} dormit.',
-        'Servus clāmāns puerum dormientem {{excitat}}.',
-        'Mārcus ē lectō {{surgit}} ac servum aquam {{afferre}} iubet.',
-        'Servus eī aquam {{affert}} et Mārcus manūs {{lavat}}.',
-        'Iam manūs eius nōn {{sordidae}}, sed {{pūrae}} sunt.',
-        'Mārcus prīmum manūs, {{deinde}} faciem lavat.',
-        'Dāvus eum caput tōtum in aquam {{mergere}} iubet.',
-        '{{Māne}} [= hōrā prīmā] puer manūs et faciem aquā frīgidā lavat.',
-        'Quīntus, quī ante Mārcum surgere {{solet}}, hodiē nōn surgit, quod pēs et caput eī dolet.',
-        '"Mihi quoque caput dolet" {{inquit}} Mārcus, et Dāvus "{{Tibi}} caput nōn dolet!" inquit.',
-        'Mārcus {{frīget}}, quia āēr frīgidus est et corpus eius {{nūdum}} est.',
-        'Tunica et toga sunt {{vestīmenta}} Mārcī.',
-        'Mārcus vestīmenta sua ā servō {{poscit}}: "Dā mihi {{tunicam}} et {{togam}}, Dāve! {{Vestī}} mē!"',
-        'Mārcus {{induit}} tunicam, deinde togam {{induit}}.',
-      ],
+      "id": "exercitium-7",
+      "latinLabel": "EXERCITIUM 7",
+      "title": "Exercise 7",
+      "instruction": "Complete the present participles in each case.",
+      "type": "fill",
+      "items": [
+        "Ancilla can{{it}} et rīd{{et}} ā puellā dormi{{ente}} nōn auditur.",
+        "Puella dormi{{ēns}} ancillam can{{entem}} et rīd{{entem}} nōn audit, sed servum clām{{antem}} audit.",
+        "Servus clām{{āns}} puellam dormi{{entem}} excitat.",
+        "Puella dormi{{ēns}} nōn ab ancillā can{{ente}} et rīd{{ente}}, sed ā servō clām{{ante}} excitātur.",
+        "Puella vōcem ancillae can{{entis}} et rīd{{entis}} nōn audit, sed vōcem servī clām{{antis}} audit.",
+        "Ancillae can{{entēs}} et rīd{{entēs}} ā puellīs dormi{{entibus}} nōn audiuntur.",
+        "Puellae dormi{{entēs}} ancillās can{{entēs}} et rīd{{entēs}} nōn audiunt, sed servōs clām{{antēs}} audiunt.",
+        "Servī clām{{antēs}} puellās dormi{{entēs}} excitant.",
+        "Puellae dormi{{entēs}} nōn ab ancillīs can{{entibus}} et rīd{{entibus}}, sed ā servīs clām{{antibus}} excitantur.",
+        "Puellae vōcēs ancillārum can{{entium}} et rīd{{entium}} nōn audiunt, sed vōcēs servōrum clām{{antium}} audiunt.",
+        "Dāvus nōn puerō val{{entī}}, sed puerō aegrōt{{antī}} aquam dat.",
+        "Servus dominō imper{{antī}} pāret. Servī dominīs imper{{antibus}} pārent.",
+        "Quīntus nec crūs dol{{ēns}} nec bracchium dol{{ēns}} movet.",
+        "Puer aegrōt{{āns}} membra dol{{entia}} nōn movet.",
+        "Avēs animālia vol{{antia}} sunt; ovis nōn est animal vol{{āns}}."
+      ]
     },
     {
-      id: 'exercitium-6',
-      latinLabel: 'EXERCITIUM 6',
-      title: 'Exercise 6',
-      instruction: 'Answer each question in Latin.',
-      type: 'questions',
-      items: [
-        { q: 'Quō it Dāvus Quīntum relinquēns?', a: 'Dāvus Quīntum relinquēns cubiculum Mārcī intrat.' },
-        { q: 'Vigilatne Mārcus?', a: 'Mārcus nōn vigilat, sed dormit.' },
-        { q: 'Quōmodo Dāvus puerum excitat?', a: "Dāvus in aurem puerī dormientis magnā vōce clāmat: 'Mārce! Manē est!'" },
-        { q: 'Quid Mārcus Dāvum afferre iubet?', a: 'Mārcus Dāvum aquam ad manūs afferre iubet.' },
-        { q: 'Estne calida aqua quam Dāvus affert?', a: 'Aqua quam Dāvus affert nōn calida, sed frīgida est.' },
-        { q: 'Quid Mārcus prīmum lavat?', a: 'Mārcus prīmum manūs lavat.' },
-        { q: 'Tōtumne corpus lavat Mārcus?', a: 'Mārcus nōn tōtum corpus, sed manūs et caput lavat.' },
-        { q: 'Estne frīgida aqua quā Rōmānī post merīdiem lavantur?', a: 'Rōmānī post merīdiem aquā calidā lavantur.' },
-        { q: 'Cūr nōn surgit Quīntus?', a: 'Quīntus nōn surgit, quod pēs et caput eī dolet.' },
-        { q: 'Doletne caput Mārcō?', a: 'Mārcō caput nōn dolet; Dāvus dīcit caput eī nōn dolēre.' },
-        { q: 'Cūr Mārcus frīget?', a: 'Mārcus frīget, quod corpus eius nūdum est et āēr frīgidus per fenestram apertam intrat.' },
-        { q: 'Quid Mārcus ā Dāvō poscit?', a: 'Mārcus ā Dāvō tunicam et togam poscit, deinde calceōs.' },
-        { q: 'Quae sunt vestīmenta Mārcī?', a: 'Tunica et toga sunt vestīmenta Mārcī.' },
-        { q: 'Num Dāvus Mārcum vestit?', a: 'Dāvus Mārcum nōn vestit: necesse est puerum ipsum sē vestīre.' },
-      ],
+      "id": "exercitium-8",
+      "latinLabel": "EXERCITIUM 8",
+      "title": "Exercise 8",
+      "instruction": "Complete the sentences about dress and school things.",
+      "type": "fill",
+      "items": [
+        "Virī Rōmānī togam {{gerunt}}.",
+        "Mīles gladium gerit manū {{dextrā}}, scūtum manū {{sinistrā}}.",
+        "Vir {{togātus}} [= togam gerēns] militāre nōn potest.",
+        "Mārcus, cui pedēs frīgent, {{calceōs}} induit.",
+        "Dāvus puerum {{sēcum}} venīre iubet: \"Venī mē{{cum}}!\"",
+        "In ātriō {{parentēs}} liberōs suōs exspectant.",
+        "Quīntus, quī ante Mārcum {{surgere}} solet, hodiē {{surgere}} nōn potest.",
+        "Dāvus Mārcō librum et {{tabulam}} et {{stilum}} et {{rēgulam}} affert.",
+        "Iūlius: \"Hodiē Mēdus {{tēcum}} īre nōn potest, Mārce.\"",
+        "Mēdus librum et tabulam et cēterās {{rēs}} Mārcī ferre solet.",
+        "Mārcus ipse nihil ferre solet {{praeter}} mālum.",
+        "Fīlius discēdēns \"{{Valē}}, pater!\" inquit."
+      ]
     },
     {
-      id: 'exercitium-7',
-      latinLabel: 'EXERCITIUM 7',
-      title: 'Exercise 7',
-      instruction: 'Complete the present participles in each case.',
-      type: 'fill',
-      items: [
-        'Ancilla can{{it}} et rīd{{et}} ā puellā dormi{{ente}} nōn auditur.',
-        'Puella dormi{{ēns}} ancillam can{{entem}} et rīd{{entem}} nōn audit, sed servum clām{{antem}} audit.',
-        'Servus clām{{āns}} puellam dormi{{entem}} excitat.',
-        'Puella dormi{{ēns}} nōn ab ancillā can{{ente}} et rīd{{ente}}, sed ā servō clām{{ante}} excitātur.',
-        'Puella vōcem ancillae can{{entis}} et rīd{{entis}} nōn audit, sed vōcem servī clām{{antis}} audit.',
-        'Ancillae can{{entēs}} et rīd{{entēs}} ā puellīs dormi{{entibus}} nōn audiuntur.',
-        'Puellae dormi{{entēs}} ancillās can{{entēs}} et rīd{{entēs}} nōn audiunt, sed servōs clām{{antēs}} audiunt.',
-        'Servī clām{{antēs}} puellās dormi{{entēs}} excitant.',
-        'Puellae dormi{{entēs}} nōn ab ancillīs can{{entibus}} et rīd{{entibus}}, sed ā servīs clām{{antibus}} excitantur.',
-        'Puellae vōcēs ancillārum can{{entium}} et rīd{{entium}} nōn audiunt, sed vōcēs servōrum clām{{antium}} audiunt.',
-        'Dāvus nōn puerō val{{entī}}, sed puerō aegrōt{{antī}} aquam dat.',
-        'Servus dominō imper{{antī}} pāret. Servī dominīs imper{{antibus}} pārent.',
-        'Quīntus nec crūs dol{{ēns}} nec bracchium dol{{ēns}} movet.',
-        'Puer aegrōt{{āns}} membra dol{{entia}} nōn movet.',
-        'Avēs animālia vol{{antia}} sunt; ovis nōn est animal vol{{āns}}.',
-      ],
+      "id": "exercitium-9",
+      "latinLabel": "EXERCITIUM 9",
+      "title": "Exercise 9",
+      "instruction": "Complete the forms of rēs in each case.",
+      "type": "fill",
+      "items": [
+        "Sine pecūniā nūlla r{{ēs}} [= nihil] emī potest.",
+        "Mēdus Lȳdiae r{{em}} pulchram emit.",
+        "Pretium eius r{{eī}} est centum sēstertiī.",
+        "Eī r{{eī}} nōmen est 'ānulus gemmātus'.",
+        "Eā r{{ē}} ōrnātur digitus.",
+        "In tabernīs Rōmānīs multae r{{ēs}} emī possunt.",
+        "Quī magnam pecūniam habet multās r{{ēs}} emere potest.",
+        "Magnus est numerus eārum r{{ērum}} quae Rōmae emī possunt.",
+        "Vīlla Iūliī multīs r{{ēbus}} pulchrīs ōrnātur."
+      ]
     },
     {
-      id: 'exercitium-8',
-      latinLabel: 'EXERCITIUM 8',
-      title: 'Exercise 8',
-      instruction: 'Complete the sentences about dress and school things.',
-      type: 'fill',
-      items: [
-        'Virī Rōmānī togam {{gerunt}}.',
-        'Mīles gladium gerit manū {{dextrā}}, scūtum manū {{sinistrā}}.',
-        'Vir {{togātus}} [= togam gerēns] militāre nōn potest.',
-        'Mārcus, cui pedēs frīgent, {{calceōs}} induit.',
-        'Dāvus puerum {{sēcum}} venīre iubet: "Venī mē{{cum}}!"',
-        'In ātriō {{parentēs}} liberōs suōs exspectant.',
-        'Quīntus, quī ante Mārcum {{surgere}} solet, hodiē {{surgere}} nōn potest.',
-        'Dāvus Mārcō librum et {{tabulam}} et {{stilum}} et {{rēgulam}} affert.',
-        'Iūlius: "Hodiē Mēdus {{tēcum}} īre nōn potest, Mārce."',
-        'Mēdus librum et tabulam et cēterās {{rēs}} Mārcī ferre solet.',
-        'Mārcus ipse nihil ferre solet {{praeter}} mālum.',
-        'Fīlius discēdēns "{{Valē}}, pater!" inquit.',
-      ],
+      "id": "exercitium-10",
+      "latinLabel": "EXERCITIUM 10",
+      "title": "Exercise 10",
+      "instruction": "Answer each question in Latin.",
+      "type": "questions",
+      "items": [
+        {
+          "q": "Quid est toga?",
+          "a": "Toga est vestīmentum album quod virī et puerī Rōmānī gerunt."
+        },
+        {
+          "q": "Utrum bracchium virō togātō nūdum est?",
+          "a": "Bracchium dextrum virō togātō nūdum est."
+        },
+        {
+          "q": "Cūr mīles Rōmānus togam nōn gerit?",
+          "a": "Mīles Rōmānus togam nōn gerit, quia nēmō togātus gladiō et scūtō pugnāre potest."
+        },
+        {
+          "q": "Quid mīles manū sinistrā gerit?",
+          "a": "Mīles scūtum manū sinistrā gerit."
+        },
+        {
+          "q": "Cūr Mārcus calceōs poscit?",
+          "a": "Mārcus calceōs poscit, quia pedēs eī frīgent."
+        },
+        {
+          "q": "Quō eunt Dāvus et Mārcus?",
+          "a": "Dāvus et Mārcus in ātrium eunt."
+        },
+        {
+          "q": "Quī sunt in ātriō?",
+          "a": "Parentēs in ātriō sunt."
+        },
+        {
+          "q": "Quid est ante parentēs?",
+          "a": "Ante parentēs in parvā mēnsā pānis et mala sunt."
+        },
+        {
+          "q": "Quō it Aemilia?",
+          "a": "Aemilia ad fīlium aegrōtantem abit."
+        },
+        {
+          "q": "Quid māter fīliō aegrōtantī dat?",
+          "a": "Māter fīliō aegrōtantī pānem et mālum dat."
+        },
+        {
+          "q": "Quid pater dat fīliō valentī?",
+          "a": "Pater fīliō valentī pānem et mālum dat."
+        },
+        {
+          "q": "Quās rēs Mārcus sēcum fert?",
+          "a": "Mārcus mālum, librum, tabulam, stilum rēgulamque sēcum fert."
+        },
+        {
+          "q": "Quis cum puerīs īre solet?",
+          "a": "Mēdus cum puerīs īre solet."
+        },
+        {
+          "q": "Quid dīcit puer discēdēns?",
+          "a": "Puer discēdēns \"Valē, pater!\" inquit."
+        },
+        {
+          "q": "Quid pater respondet?",
+          "a": "Pater respondet: \"Valē, Mārce! Bene ambulā!\""
+        }
+      ]
     },
     {
-      id: 'exercitium-9',
-      latinLabel: 'EXERCITIUM 9',
-      title: 'Exercise 9',
-      instruction: 'Complete the forms of rēs in each case.',
-      type: 'fill',
-      items: [
-        'Sine pecūniā nūlla r{{ēs}} [= nihil] emī potest.',
-        'Mēdus Lȳdiae r{{em}} pulchram emit.',
-        'Pretium eius r{{eī}} est centum sēstertiī.',
-        'Eī r{{eī}} nōmen est \'ānulus gemmātus\'.',
-        'Eā r{{ē}} ōrnātur digitus.',
-        'In tabernīs Rōmānīs multae r{{ēs}} emī possunt.',
-        'Quī magnam pecūniam habet multās r{{ēs}} emere potest.',
-        'Magnus est numerus eārum r{{ērum}} quae Rōmae emī possunt.',
-        'Vīlla Iūliī multīs r{{ēbus}} pulchrīs ōrnātur.',
-      ],
+      "id": "exercitium-11",
+      "latinLabel": "EXERCITIUM 11",
+      "title": "Exercise 11",
+      "instruction": "Complete the participles and their paradigm.",
+      "type": "fill",
+      "items": [
+        "Vocā|re īnfīnītīvus est. Vocā|ns est {{participium}}.",
+        "Vidē|ns, pōn|ēns, audi|ēns {{participia}} sunt.",
+        "Īnfīnītīvus volāre, participium vol{{āns}}.",
+        "Īnfīnītīvus sedēre, participium sed{{ēns}}.",
+        "Participium dūcēns, īnfīnītīvus dūc{{ere}}.",
+        "Participium veniēns, īnfīnītīvus ven{{īre}}.",
+        "Participium faciēns, īnfīnītīvus fac{{ere}}; item participium capiēns, iaciēns, fugiēns, pariēns, accipiēns, aspiciēns, īnfīnītīvus cap{{ere}}, iac{{ere}}, fug{{ere}}, par{{ere}}, accip{{ere}}, aspic{{ere}}.",
+        "Nōm. volāns vol{{āns}} vol{{antēs}} vol{{antia}}",
+        "Acc. vol{{antem}} vol{{āns}} vol{{antēs}} vol{{antia}}",
+        "Gen. vol{{antis}} vol{{antis}} vol{{antium}} vol{{antium}}",
+        "Dat. vol{{antī}} vol{{antī}} vol{{antibus}} vol{{antibus}}",
+        "Abl. vol{{ante}}/vol{{antī}} vol{{ante}}/vol{{antī}} vol{{antibus}} vol{{antibus}}",
+        "Nōm. canēns can{{ēns}} can{{entēs}} can{{entia}}",
+        "Acc. can{{entem}} can{{ēns}} can{{entēs}} can{{entia}}",
+        "Gen. can{{entis}} can{{entis}} can{{entium}} can{{entium}}",
+        "Dat. can{{entī}} can{{entī}} can{{entibus}} can{{entibus}}",
+        "Abl. can{{ente}}/can{{entī}} can{{ente}}/can{{entī}} can{{entibus}} can{{entibus}}",
+        "Masculīnum et fēminīnum: volāns, canēns est {{nōminātīvus}} singulāris, volantem, canentem {{accūsātīvus}} {{singulāris}}, volantēs, canentēs {{nōminātīvus}} aut {{accūsātīvus}} plūrālis.",
+        "Neutrum: volāns, canēns {{nōminātīvus}} aut {{accūsātīvus}} singulāris est, volantia, canentia {{nōminātīvus}} aut {{accūsātīvus}} plūrālis.",
+        "Volante, canente {{ablātīvus}} {{singulāris}} est.",
+        "Volantī {{datīvus}} aut {{ablātīvus}} singulāris est, volantibus {{datīvus}} aut {{ablātīvus}} {{plūrālis}}.",
+        "Volantis, canentis est {{genetīvus}} {{singulāris}}, volantium, canentium {{genetīvus}} plūrālis."
+      ]
     },
     {
-      id: 'exercitium-10',
-      latinLabel: 'EXERCITIUM 10',
-      title: 'Exercise 10',
-      instruction: 'Answer each question in Latin.',
-      type: 'questions',
-      items: [
-        { q: 'Quid est toga?', a: 'Toga est vestīmentum album quod virī et puerī Rōmānī gerunt.' },
-        { q: 'Utrum bracchium virō togātō nūdum est?', a: 'Bracchium dextrum virō togātō nūdum est.' },
-        { q: 'Cūr mīles Rōmānus togam nōn gerit?', a: 'Mīles Rōmānus togam nōn gerit, quia nēmō togātus gladiō et scūtō pugnāre potest.' },
-        { q: 'Quid mīles manū sinistrā gerit?', a: 'Mīles scūtum manū sinistrā gerit.' },
-        { q: 'Cūr Mārcus calceōs poscit?', a: 'Mārcus calceōs poscit, quia pedēs eī frīgent.' },
-        { q: 'Quō eunt Dāvus et Mārcus?', a: 'Dāvus et Mārcus in ātrium eunt.' },
-        { q: 'Quī sunt in ātriō?', a: 'Parentēs in ātriō sunt.' },
-        { q: 'Quid est ante parentēs?', a: 'Ante parentēs in parvā mēnsā pānis et mala sunt.' },
-        { q: 'Quō it Aemilia?', a: 'Aemilia ad fīlium aegrōtantem abit.' },
-        { q: 'Quid māter fīliō aegrōtantī dat?', a: 'Māter fīliō aegrōtantī pānem et mālum dat.' },
-        { q: 'Quid pater dat fīliō valentī?', a: 'Pater fīliō valentī pānem et mālum dat.' },
-        { q: 'Quās rēs Mārcus sēcum fert?', a: 'Mārcus mālum, librum, tabulam, stilum rēgulamque sēcum fert.' },
-        { q: 'Quis cum puerīs īre solet?', a: 'Mēdus cum puerīs īre solet.' },
-        { q: 'Quid dīcit puer discēdēns?', a: 'Puer discēdēns "Valē, pater!" inquit.' },
-        { q: 'Quid pater respondet?', a: 'Pater respondet: "Valē, Mārce! Bene ambulā!"' },
-      ],
+      "id": "exercitium-12",
+      "latinLabel": "EXERCITIUM 12",
+      "title": "Exercise 12",
+      "instruction": "Complete the fifth-declension paradigm of diēs and name each form.",
+      "type": "fill",
+      "items": [
+        "Nōm. di{{ēs}} di{{ēs}}",
+        "Acc. di{{em}} di{{ēs}}",
+        "Gen. di{{ēī}} di{{ērum}}",
+        "Dat. di{{ēī}} di{{ēbus}}",
+        "Abl. di{{ē}} di{{ēbus}}",
+        "Diē est {{ablātīvus}} singulāris.",
+        "Diēbus {{datīvus}} aut {{ablātīvus}} plūrālis est.",
+        "Diēī est {{genetīvus}} aut {{datīvus}} singulāris.",
+        "Diem {{accūsātīvus}} {{singulāris}} est.",
+        "Diērum {{genetīvus}} {{plūrālis}} est.",
+        "Diēs est {{nōminātīvus}} singulāris aut {{nōminātīvus}} aut {{accūsātīvus}} plūrālis."
+      ]
     },
-  ],
+    {
+      "id": "exercitium-13",
+      "latinLabel": "EXERCITIUM 13",
+      "title": "Exercise 13",
+      "instruction": "Complete the three degrees of the adjectives altus and brevis.",
+      "type": "fill",
+      "items": [
+        "Brev|is -e positīvus est; brevior -ius {{comparātīvus}} est; brevissim|us -a -um est {{superlātīvus}}.",
+        "Pos. alt{{us}} alt{{a}} alt{{um}}",
+        "Comp. alt{{ior}} alt{{ior}} alt{{ius}}",
+        "Sup. alt{{issimus}} alt{{issima}} alt{{issimum}}",
+        "Pos. brev{{is}} brev{{is}} brev{{e}}",
+        "Comp. brev{{ior}} brev{{ior}} brev{{ius}}",
+        "Sup. brev{{issimus}} brev{{issima}} brev{{issimum}}"
+      ]
+    }
+  ]
 }
 
 export default chapter
