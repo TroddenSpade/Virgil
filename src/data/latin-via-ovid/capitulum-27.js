@@ -1,0 +1,360 @@
+// Capitulum XXVII — THESEVS TROEZENE
+// Source: Goldman & Nyenhuis, Latin via Ovid: A First Course (2nd ed., 1982)
+// Reading text, vocabulary, grammar and exercises adapted for the web.
+
+const chapter = {
+  number: 27,
+  roman: 'XXVII',
+  slug: 'theseus-troezene',
+  latinTitle: 'THESEVS TROEZENE',
+  title: 'Theseus at Troezen',
+  tagline: 'Theseus lifts his father\'s stone, takes the sword and sandals, and clears the Isthmus of robbers.',
+  status: 'complete',
+  overview:
+    'Theseus grows up at Troezen, the son of Aegeus and Aethra and, as the poets say, of Neptune himself. When he is strong enough he lifts the stone beneath which his father hid a sword and sandals, and instead of taking the safe sea route to Athens he travels by land through the Isthmus, overcoming the robbers Sinis, Sciron and Procrustes. The grammar reviews the subjunctive, introduces the indirect question and the sequence of tenses, and explains utor with the ablative and the locative case.',
+  objectives: [
+    'Read the story of Theseus\'s boyhood and his journey from Troezen to Athens.',
+    'Review the synopsis of the subjunctive in all four conjugations.',
+    'Recognise and form indirect questions after verbs of knowing, asking and telling.',
+    'Apply the rules of primary and secondary sequence of tenses.',
+    'Use the locative case and the accusative of place to which with names of cities.',
+  ],
+  readings: [
+    {
+      id: 'theseus-troezene',
+      latinTitle: 'THESEVS TROEZENE',
+      title: 'Theseus at Troezen',
+      paragraphs: [
+        'Thēseus erat fīlius Aegeī, rēgis Athēniēnsium. Aethra, fīlia rēgis Troezēniī, erat māter eī. Ille quoque prōlēs Neptūnī fuisse trāditur; quam ob rem Thēseus appellātus est Neptūnius hērōs, et deum maris semper colēbat. Troezēne igitur aetātem puerīlem in rēgiā mātris avīque Pittheī ēgit; nam pater eius Athēnās redierat. Aegeus autem discēdēns Troezēne sub magnum saxum soleās et gladium suum cēlāverat et Aethrae imperāverat ut Thēseum iuvenem ad sē Athēnās mitteret. "Ubi puer tam validus crēscit ut saxum removēre possit, mitte eum ad mē ut sē patrī dēmōnstret." Ubi tempus aderat, Aethra prōlem ad saxum dūxit. Iuvenis rogāvit cūr Aethra hūc dūceret. Tum māter fābulam dē Aegeō exposuit. Quamquam erat labor difficillimus, Thēseus saxō remōtō soleās et gladium cēpit. Gladiō indūtus, Thēseus sē parāvit ut Athēnās proficīscerētur.',
+        'Avus Pittheus, valdē cōnātus eī persuādēre ut iter per mare faceret, eī nāvem offerēbat; Thēseus autem, cupiēns similem Herculis cognātī sē facere, per isthmum īre cōnstituit ut populōs perīculō līberāret; nam scīvit illam regiōnem esse plēnam mōnstrōrum et latrōnum.',
+        'Prīmō diē Thēseus prōlem clāviferentem Vulcānī superāvit; posteā clāvam illīus semper portābat, memoriam prīmae victōriae. Deinde ille occīdit Sinem magnīs vīribus male ūsum, quī tam validus erat ut pīnūs ad terram curvāre posset. Arboribus solūtīs corpora hominum lātē per āera iaciēbat. Eum Thēseus eōdem modō necāvit.',
+        'Sequēns viam secundum ōram, Thēseus vēnit ad montēs altōs. Nam scīvit in quō locō Scīrōn latrō habitāret et in quō saxō sedēret. Hic latrō peregrīnātōribus imperāvit ut pedēs lavārent; sed cum hī sē inclīnābant ut ita facerent, ille eōs in mare ictū pedis dēmīsit. In marī ingēns turtur illōs dēvorābat. Thēseus autem pedēs Scīrōnis lavāre recūsāvit. Quem ē saxō sublātum in mare iēcit. Prope Eleusīnam hērōs suem feram interfēcit ut agricola in illō locō nunc sēcūrus rūrī agrōs suōs arāre posset.',
+        'Aliī tyrannī et latrōnēs ā Thēseō superātī sunt, in quibus erat Procrustēs quī incolās prope Athēnās terrēbat. Trāditum est eum habuisse lectum ferreum in quō omnēs peregrīnātōrēs pōnēbat. Sī quis hospes longior erat, aut caput aut pedēs secābat. Sī quis minor erat, Procrustēs eum tendēbat ut lectō aptāret. Aegīdēs Procrusten in eōdem lectō necāvit.',
+        'Multī poētae nārrant quōmodo Thēseus aliōs latrōnēs mōnstraque superāverit et in quibus regiōnibus populī vōta pūblica fortissimō hērōī suscipiant. Factus erat hērōs, fīlius idōneus rēgī Athēniēnsium.',
+      ],
+      notes: [
+        { term: 'Neptūnius hērōs', gloss: 'the Neptunian hero, the son of Neptune; Aethra was also said to have borne Theseus to the sea god.' },
+        { term: 'Troezēne', gloss: 'locative: "at Troezen", with no preposition.' },
+        { term: 'clāviferēns, -entis', gloss: 'club-bearing, from clāva and ferēns; the monster Periphetes, son of Vulcan.' },
+        { term: 'magnīs vīribus male ūsus', gloss: 'using his great strength evilly; ūtor takes the ablative.' },
+        { term: 'Sinis', gloss: 'the Pinebender, a robber who bent pine trees to tear travellers apart.' },
+        { term: 'sequēns', gloss: 'present participle of the deponent sequor: "following".' },
+        { term: 'Scīrōn', gloss: 'a robber who made travellers wash his feet and kicked them into the sea.' },
+        { term: 'ictus pedis', gloss: 'a kick, a blow with the foot.' },
+        { term: 'Aegīdēs, -ae', gloss: 'son of Aegeus, i.e. Theseus.' },
+        { term: 'Procrustēs', gloss: 'the Stretcher, who fitted his guests to an iron bed.' },
+        { term: 'vōta pūblica suscipere', gloss: 'to undertake public vows or offerings on someone\'s behalf.' },
+        { term: 'Athēnās', gloss: 'accusative of place to which: "to Athens", without a preposition.' },
+      ],
+    },
+  ],
+  grammar: [
+    {
+      id: 'synopsis-subjunctive',
+      latinTitle: 'SYNOPSIS CONIŪNCTĪVĪ',
+      title: 'Synopsis of the Subjunctive',
+      intro:
+        'The subjunctive is easiest to learn as a single synopsis in the third person singular. The imperfect is the infinitive plus personal endings; the present shows the characteristic vowels of each conjugation; the perfect and pluperfect are built on the perfect stem.',
+      paradigms: [
+        {
+          caption: 'active subjunctive, third person singular',
+          head: ['', 'I', 'II', 'III', 'III-iō', 'IV'],
+          rows: [
+            ['Present', 'amet', 'moneat', 'dūcat', 'capiat', 'audiat'],
+            ['Imperfect', 'amāret', 'monēret', 'dūceret', 'caperet', 'audīret'],
+            ['Perfect', 'amāverit', 'monuerit', 'dūxerit', 'cēperit', 'audīverit'],
+            ['Pluperfect', 'amāvisset', 'monuisset', 'dūxisset', 'cēpisset', 'audīvisset'],
+          ],
+        },
+        {
+          caption: 'passive subjunctive, third person singular',
+          head: ['', 'I', 'II', 'III', 'III-iō', 'IV'],
+          rows: [
+            ['Present', 'amētur', 'moneātur', 'dūcātur', 'capiātur', 'audiātur'],
+            ['Imperfect', 'amārētur', 'monērētur', 'dūcerētur', 'caperētur', 'audīrētur'],
+            ['Perfect', 'amātus sit', 'monitus sit', 'ductus sit', 'captus sit', 'audītus sit'],
+            ['Pluperfect', 'amātus esset', 'monitus esset', 'ductus esset', 'captus esset', 'audītus esset'],
+          ],
+        },
+      ],
+      points: [
+        'First conjugation reverses its characteristic vowel: amat → amet; ducit → dūcat.',
+        'Second conjugation keeps both vowels: monet → moneat.',
+        'Third-iō and fourth add i before the ending: capit → capiat; audit → audiat.',
+        'There is no future or future perfect subjunctive: the mood expresses what is potential, hypothetical or wished for.',
+      ],
+    },
+    {
+      id: 'indirect-question',
+      latinTitle: 'INTERROGĀTIŌ OBLĪQUA',
+      title: 'The Indirect Question',
+      intro:
+        'An indirect question depends on a verb of telling, knowing, not knowing, asking or wondering. It is introduced by an interrogative word — quis, quid, cūr, quam ob rem, quōmodo, ubi — and its verb stands in the subjunctive.',
+      paradigms: [
+        {
+          caption: 'direct and indirect questions',
+          head: ['Direct question', 'Indirect question'],
+          rows: [
+            ['Quis es?', 'Scit quis sīs. — He knows who you are.'],
+            ['Cūr venīs?', 'Rogant cūr veniās. — They ask why you are coming.'],
+            ['Cūr mē hūc dūxistī?', 'Thēseus Aethram rogāvit cūr ea sē hūc dūxisset.'],
+            ['Quōmodo mōnstra superāvit?', 'Multī poētae nārrāvērunt quōmodo Thēseus mōnstra superāret.'],
+          ],
+        },
+      ],
+      points: [
+        'The interrogative word keeps its usual meaning, but the verb changes to the subjunctive.',
+        'The tense of the subjunctive follows the sequence of tenses (next section).',
+        'An indirect question is a noun clause: it fills the place of an object after verbs of knowing, saying or asking.',
+        'Do not confuse an indirect question with a relative clause; the interrogative word introduces a question, not a description.',
+      ],
+    },
+    {
+      id: 'sequence-of-tenses',
+      latinTitle: 'CŌNSECŪTIŌ TEMPORUM',
+      title: 'Sequence of Tenses',
+      intro:
+        'The tense of a subjunctive verb in a subordinate clause depends on the tense of the main verb. Primary sequence follows a present or future main verb; secondary sequence follows a past main verb.',
+      paradigms: [
+        {
+          caption: 'primary sequence',
+          head: ['Main verb', 'Subordinate subjunctive'],
+          rows: [
+            ['Present or future', 'present — same time as the main verb'],
+            ['Present or future', 'perfect — time before the main verb'],
+          ],
+        },
+        {
+          caption: 'secondary sequence',
+          head: ['Main verb', 'Subordinate subjunctive'],
+          rows: [
+            ['Imperfect, perfect or pluperfect', 'imperfect — same time as the main verb'],
+            ['Imperfect, perfect or pluperfect', 'pluperfect — time before the main verb'],
+          ],
+        },
+        {
+          caption: 'examples',
+          head: ['Latin', 'English'],
+          rows: [
+            ['Rogat (rogābit) cūr veniās.', 'He asks (will ask) why you are coming.'],
+            ['Rogat (rogābit) cūr vēneris.', 'He asks (will ask) why you came.'],
+            ['Rogābat (rogāvit, rogāverat) cūr venīrēs.', 'He asked (has asked, had asked) why you came.'],
+            ['Rogābat (rogāvit, rogāverat) cūr vēnissēs.', 'He asked why you had come.'],
+          ],
+        },
+      ],
+      points: [
+        'The perfect with "have" and the future perfect are generally treated as primary tenses.',
+        'The rule holds for most subordinate clauses with an introductory indicative verb.',
+        'A past main verb does not always require a past subjunctive: the sense of the clause decides whether the action is simultaneous or prior.',
+      ],
+    },
+    {
+      id: 'utor-ablative',
+      latinTitle: 'ŪTOR CUM ABLĀTĪVŌ',
+      title: 'Utor with the Ablative',
+      intro:
+        'Several deponent verbs govern the ablative case for their direct object. The logic is clearest with ūtor, "to use", understood as "to make use of". Fungor (perform) and vescor (feed on) follow the same pattern.',
+      paradigms: [
+        {
+          caption: 'verbs with the ablative',
+          head: ['Latin', 'English'],
+          rows: [
+            ['ūtor, ūtī, ūsus sum', 'use, make use of'],
+            ['fungor, fungī, fūnctus sum', 'perform, discharge'],
+            ['vescor, vescī', 'feed on'],
+          ],
+        },
+      ],
+      points: [
+        'Sinis magnīs vīribus male ūsus est. — Sinis made bad use of his great strength.',
+        'The perfect participle of a deponent verb is translated actively: ūsus, "having used".',
+        'Do not use the accusative with these verbs, even though English uses a direct object.',
+      ],
+    },
+    {
+      id: 'locative',
+      latinTitle: 'CĀSUS LOCĀTĪVUS',
+      title: 'The Locative Case',
+      intro:
+        'Place where is normally expressed by in with the ablative. With names of cities and small islands no preposition is used: Latin employs the locative case, which exists only in the singular of the first and second declensions and in both numbers of the third.',
+      paradigms: [
+        {
+          caption: 'place where — locative',
+          head: ['Latin', 'English'],
+          rows: [
+            ['Rōmae', 'at Rome'],
+            ['Athēnīs', 'at Athens'],
+            ['Corinthī', 'at Corinth'],
+            ['Thēbīs', 'at Thebes'],
+            ['Carthāginī / Carthāgine', 'at Carthage'],
+            ['Troezēni / Troezēne', 'at Troezen'],
+            ['domī', 'at home'],
+            ['rūrī', 'in the country'],
+          ],
+        },
+        {
+          caption: 'place to which — accusative without a preposition',
+          head: ['Latin', 'English'],
+          rows: [
+            ['Rōmam', 'to Rome'],
+            ['Athēnās', 'to Athens'],
+            ['Thēbās', 'to Thebes'],
+            ['domum', 'home(ward)'],
+            ['rūs', 'to the country'],
+          ],
+        },
+      ],
+      points: [
+        'First and second declension locatives look like the genitive singular: Rōmae, Corinthī.',
+        'Third declension locatives look like the dative or ablative: Carthāginī / Carthāgine.',
+        'Plural names of cities use the ablative plural as locative: Athēnīs, Thēbīs.',
+        'With regions and countries use in + ablative: in Atticā, in Crētā.',
+        'Place to which with cities, small islands, domum and rūs uses the accusative without a preposition.',
+      ],
+    },
+  ],
+  vocabulary: [
+    { latin: 'Aegēus, -eī', english: 'Aegeus, king of Athens', pos: 'noun m.' },
+    { latin: 'Aegīdēs, -ae', english: 'son of Aegeus, Theseus', pos: 'noun m.' },
+    { latin: 'Aethra, -ae', english: 'Aethra, princess of Troezen', pos: 'noun f.' },
+    { latin: 'clāva, -ae', english: 'club', pos: 'noun f.' },
+    { latin: 'hospes, -itis', english: 'host; guest', pos: 'noun c.' },
+    { latin: 'ictus, -ūs', english: 'blow, stroke, kick', pos: 'noun m.' },
+    { latin: 'isthmus, -ī', english: 'isthmus, especially the Isthmus of Corinth', pos: 'noun m.' },
+    { latin: 'latrō, -ōnis', english: 'robber, brigand', pos: 'noun m.' },
+    { latin: 'lectus, -ī', english: 'bed, couch', pos: 'noun m.' },
+    { latin: 'Neptūnus, -ī', english: 'Neptune, god of the sea', pos: 'noun m.' },
+    { latin: 'ōra, -ae', english: 'shore, sea shore', pos: 'noun f.' },
+    { latin: 'peregrīnātor, -ōris', english: 'stranger, traveller', pos: 'noun m.' },
+    { latin: 'pīnus, -ūs', english: 'pine tree', pos: 'noun f.' },
+    { latin: 'prōlēs, -is', english: 'offspring, son', pos: 'noun f.' },
+    { latin: 'regiō, -ōnis', english: 'region, land', pos: 'noun f.' },
+    { latin: 'rūs, rūris', english: 'the country', pos: 'noun n.' },
+    { latin: 'solea, -ae', english: 'shoe, sandal', pos: 'noun f.' },
+    { latin: 'sūs, suis', english: 'pig, sow, boar', pos: 'noun c.' },
+    { latin: 'Thēseus, -eī', english: 'Theseus, son of Aegeus', pos: 'noun m.' },
+    { latin: 'Troezēn, -ēnis', english: 'Troezen, a city in Argolis', pos: 'noun f.' },
+    { latin: 'tyrannus, -ī', english: 'tyrant', pos: 'noun m.' },
+    { latin: 'vōtum, -ī', english: 'prayer, offering, vow', pos: 'noun n.' },
+    { latin: 'aptō (1)', english: 'fit to, adapt to (+ dat.)', pos: 'verb' },
+    { latin: 'curvō (1)', english: 'curve, bend, arch', pos: 'verb' },
+    { latin: 'dēmittō, -ere, -mīsī, -missum', english: 'send away, send down', pos: 'verb' },
+    { latin: 'discēdō, -ere, -cessī, -cessum', english: 'depart, go away', pos: 'verb' },
+    { latin: 'occīdō, -ere, occīdī, occīsum', english: 'kill', pos: 'verb' },
+    { latin: 'offerō, offerre, obtulī, oblātum', english: 'offer, present', pos: 'verb' },
+    { latin: 'proficīscor, -ī, -fectus sum', english: 'set out, depart', pos: 'verb' },
+    { latin: 'recūsō (1)', english: 'refuse', pos: 'verb' },
+    { latin: 'suscipiō, -ere, -cēpī, -ceptum', english: 'undertake, take up, offer', pos: 'verb' },
+    { latin: 'terreō, -ēre, -uī, -itum', english: 'terrify, frighten', pos: 'verb' },
+    { latin: 'tollō, -ere, sustulī, sublātum', english: 'raise, lift up', pos: 'verb' },
+    { latin: 'ūtor, ūtī, ūsus sum', english: 'use, make use of (+ abl.)', pos: 'verb' },
+    { latin: 'ferreus, -a, -um', english: 'iron, made of iron', pos: 'adj.' },
+    { latin: 'pūblicus, -a, -um', english: 'public', pos: 'adj.' },
+    { latin: 'sēcūrus, -a, -um', english: 'secure, free from care', pos: 'adj.' },
+    { latin: 'similis, -e', english: 'like, similar (+ gen. or dat.)', pos: 'adj.' },
+    { latin: 'quam ob rem', english: 'for this reason', pos: 'phrase' },
+    { latin: 'secundum (+ acc.)', english: 'after; by, along', pos: 'prep.' },
+  ],
+  pensa: [
+    {
+      id: 'pensum-a',
+      latinLabel: 'PĒNSVM A',
+      title: 'Respondēte Latīnē',
+      instruction: 'Answer each question in a complete Latin sentence, then compare the model answer.',
+      type: 'questions',
+      items: [
+        { q: 'Quis erat pater Thēseō?', a: 'Aegeus, rēx Athēniēnsium, pater Thēseō erat.' },
+        { q: 'Quis erat māter eī?', a: 'Aethra, fīlia rēgis Troezēniī, māter eī erat.' },
+        { q: 'Quis quoque trādēbātur fuisse pater eī?', a: 'Neptūnus quoque pater eius fuisse trādēbātur.' },
+        { q: 'Ubi Thēseus crēscēbat?', a: 'Troezēne crēscēbat.' },
+        { q: 'In quō locō Aegeus soleās et gladium cēlāvit?', a: 'Sub magnō saxō ea cēlāvit.' },
+        { q: 'Quid dēbēbat Thēseus facere ut soleās et gladium caperet?', a: 'Saxum removēre dēbēbat.' },
+        { q: 'Cūr Thēseus iter per isthmum facere cupiēbat?', a: 'Ut populōs perīculō līberāret.' },
+        { q: 'Quōmodo necāvit Thēseus Sinem?', a: 'Eōdem modō quō Sinis hominēs necāverat: arboribus solūtīs.' },
+        { q: 'Quōmodo Procrustēs peregrīnātōrēs cūrābat?', a: 'Eōs in lectō ferreō pōnēbat et ad lectum aptābat.' },
+        { q: 'Ad quam urbem Thēseus proficīscēbātur?', a: 'Athēnās proficīscēbātur.' },
+      ],
+    },
+    {
+      id: 'pensum-b',
+      latinLabel: 'PĒNSVM B',
+      title: 'Indirect Questions and Place',
+      instruction: 'Complete each indirect question with the subjunctive, and each place expression with the correct locative or accusative.',
+      type: 'fill',
+      items: [
+        'Scīvī quis {{esset}} pater Thēseō.',
+        'Scīvī quis {{esset}} māter eī.',
+        'Scīvī quis quoque {{trāditus esset}} pater eī.',
+        'Scīvī ubi Thēseus {{crēsceret}}.',
+        'Scīvī in quō locō Aegeus soleās et gladium {{cēlāvisset}}.',
+        'Scīvī quid Thēseus facere {{dēbēret}} ut soleās et gladium caperet.',
+        'Scīvī cūr Thēseus iter per isthmum facere {{cuperet}}.',
+        'Scīvī quōmodo Thēseus Sinem {{necāvisset}}.',
+        'Scīvī quōmodo Procrustēs peregrīnātōrēs {{cūrāret}}.',
+        'Scīvī ad quam urbem Thēseus {{proficīscerētur}}.',
+        'to Athens: {{Athēnās}} ībam.',
+        'at Athens: {{Athēnīs}} habitābam.',
+        'home (going): {{domum}} ībam.',
+        'in Attica: in {{Atticā}} habitābam.',
+        'to Rome: {{Rōmam}} ībam.',
+        'at home: {{domī}} habitābam.',
+        'in the country: {{rūrī}} habitābam.',
+        'at Troezen: {{Troezēne}} habitābam.',
+        'at Rome: {{Rōmae}} habitābam.',
+        'at Thebes: {{Thēbīs}} habitābam.',
+      ],
+    },
+    {
+      id: 'pensum-c',
+      latinLabel: 'PĒNSVM C',
+      title: 'In Latīnum Convertere',
+      instruction: 'Translate each English sentence into Latin, then compare the model translation.',
+      type: 'questions',
+      items: [
+        {
+          q: 'Aegeus, king of Athens, was the father of Theseus, and Aethra, daughter of Pittheus, was his mother.',
+          a: 'Aegeus, rēx Athēnōrum, pater Thēseī erat, et Aethra, fīlia Pittheī, māter eī erat.',
+        },
+        {
+          q: 'Neptune also is said by many poets to have been his father.',
+          a: 'Neptūnus quoque ā multīs poētīs pater eius fuisse trāditur.',
+        },
+        {
+          q: 'Theseus grew up in Troezen, but when he was a strong young man he removed the stone which covered the sandals and sword of his father and set out for Athens.',
+          a: 'Thēseus Troezēne crēvit, sed ubi iuvenis validus erat, saxum quod soleās et gladium patris tegēbat remōvit et Athēnās profectus est.',
+        },
+        {
+          q: 'Theseus wanted to free the people of Corinth from monsters and tyrants.',
+          a: 'Thēseus populōs Corinthī ā mōnstrīs et tyrannīs līberāre volēbat.',
+        },
+        {
+          q: 'Sinis used his great strength to bend pine trees to the ground.',
+          a: 'Sinis magnīs vīribus ūsus est ut pīnūs ad terram curvāret.',
+        },
+        {
+          q: 'Sciron killed travellers who had to bend over to wash his feet.',
+          a: 'Scīrōn peregrīnātōrēs quī sē inclīnābant ut pedēs lavārent necāvit.',
+        },
+        {
+          q: 'Procrustes stretched his guests to fit his bed.',
+          a: 'Procrustēs hospitēs tendēbat ut lectō aptāret.',
+        },
+        {
+          q: 'Even today poets tell how Theseus freed the isthmus from danger.',
+          a: 'Etiam hodiē poētae nārrant quōmodo Thēseus isthmum perīculō līberāverit.',
+        },
+        {
+          q: 'Theseus asked his mother why she had led him to the rock.',
+          a: 'Thēseus mātrem rogāvit cūr ea sē ad saxum dūxisset.',
+        },
+        {
+          q: 'Aegeus will ask Theseus how he came to Athens.',
+          a: 'Aegeus Thēseum rogābit quōmodo Athēnās vēnerit.',
+        },
+      ],
+    },
+  ],
+}
+
+export default chapter

@@ -2,11 +2,13 @@
 // The output is a generated ES module loaded only by the Dictionary page.
 import { chapters as familia } from '../src/data/familia-romana/index.js'
 import { chapters as roma } from '../src/data/roma-aeterna/index.js'
+import { chapters as ovid } from '../src/data/latin-via-ovid/index.js'
 import { writeFileSync } from 'node:fs'
 
 const BOOKS = [
   { book: 'Familia Romana', bookSlug: 'familia-romana', chapters: familia },
   { book: 'Roma Aeterna', bookSlug: 'roma-aeterna', chapters: roma },
+  { book: 'Latin via Ovid', bookSlug: 'latin-via-ovid', chapters: ovid },
 ]
 
 const MACRA = /[āēīōūȳĀĒĪŌŪȲ]/

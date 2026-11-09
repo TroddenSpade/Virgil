@@ -14,7 +14,7 @@ chapter by chapter, toward the poetry of the _Aeneid_.
 
 ## What is in here
 
-The site is organised as a **library of books**. The two course books are open, together with three reference texts; Virgil's own works are the goal still on the roadmap.
+The site is organised as a **library of books**. The course books are open, together with the reference texts; Virgil's own works are the goal still on the roadmap.
 
 | Section | Status | What it is |
 | --- | --- | --- |
@@ -23,7 +23,7 @@ The site is organised as a **library of books**. The two course books are open, 
 | **Lingua Latina: Pars II — Roma Aeterna** (Ørberg) | **Open** — 21 of 21 chapters written up | The sequel: Aeneas, the kings, and the Roman Republic in the words of the classical authors. |
 | A Companion to Familia Romana (Neumann) | **Open** — full text reference | Grammar, translation help and cultural notes. |
 | Learn Latin from the Romans (Dickey) | **Open** — full text reference | A grammar-based, second track. |
-| Latin via Ovid (Goldman & Nyenhuis) | **Open** — full text reference | A reading course built on Ovid's _Metamorphoses_. |
+| **Latin via Ovid: A First Course** (Goldman & Nyenhuis) | **Open** — 40 of 40 lessons written up | A reading course built on Ovid's _Metamorphoses_, with Verba, Structure, exercises and etymology. |
 | **The Works of Virgil** | Planned — **the goal** | The _Aeneid_, _Eclogues_ and _Georgics_ in the original. |
 
 ### Every chapter is a self-contained lesson
@@ -74,6 +74,7 @@ Actions variables/secrets consumed by `.github/workflows/deploy.yml`).
 | --- | --- | --- |
 | **Familia Romana** | I–XXXV | All thirty-five capitula, each with reading, grammar, vocabulary and three _pensa_. |
 | **Roma Aeterna** | XXXVI–LVI | All twenty-one capitula, following Aeneas from Troy and Rome from its first kings to the fall of the Republic. |
+| **Latin via Ovid** | I–XL | All forty lessons, from the map of the world through Ovid's _Metamorphoses_ to Aeneas in Italy. |
 
 ---
 
@@ -106,9 +107,9 @@ npm run icons      # python3 scripts/generate-icons.py (requires Pillow)
 - **Cinzel + EB Garamond + Gentium Book Plus + Space Grotesk** — inscriptional
   display, book body, macron-complete Latin, and a shared interface grotesque
 
-Content is data-driven: each chapter is a module in `src/data/familia-romana/` or
-`src/data/roma-aeterna/`, so adding a chapter means adding one file and listing it in the
-book's `outline.js`.
+Content is data-driven: each chapter is a module in `src/data/familia-romana/`,
+`src/data/roma-aeterna/` or `src/data/latin-via-ovid/`, so adding a chapter means adding one
+file and listing it in the book's `outline.js`.
 
 ```
 src/
@@ -119,10 +120,14 @@ src/
 │  │  ├─ index.js                # book metadata + merges outline with content
 │  │  ├─ outline.js              # the 35 chapter titles (table of contents)
 │  │  └─ capitulum-01..35.js     # full lesson content
-│  └─ roma-aeterna/              # Pars II — 21 capitula
+│  ├─ roma-aeterna/              # Pars II — 21 capitula
+│  │  ├─ index.js
+│  │  ├─ outline.js
+│  │  └─ capitulum-36..56.js
+│  └─ latin-via-ovid/            # 40 lessons
 │     ├─ index.js
 │     ├─ outline.js
-│     └─ capitulum-36..56.js
+│     └─ capitulum-01..40.js
 ├─ components/                   # Reading, GrammarSection, Vocabulary, Pensum, …
 ├─ pages/                        # Home, Library, BookPage, ChapterPage, Approach
 └─ hooks/                        # localStorage progress + PWA install prompt
@@ -182,11 +187,11 @@ This writes the PWA icons, the Apple touch icon, the favicons and the SVG medall
 
 ## Notes on sources
 
-The reading texts, grammar and exercises are adapted from **H. H. Ørberg, _Lingua Latina per se
-Illustrata_**:
+The reading texts, grammar and exercises are adapted from the following course books:
 
-- **_Pars I: Familia Romana_** (2nd ed., Focus Publishing, 2012)
-- **_Pars II: Roma Aeterna_** (2nd ed., Hackett Publishing)
+- **H. H. Ørberg, _Lingua Latina per se Illustrata: Pars I — Familia Romana_** (2nd ed., Focus Publishing, 2012)
+- **H. H. Ørberg, _Lingua Latina per se Illustrata: Pars II — Roma Aeterna_** (2nd ed., Hackett Publishing)
+- **Norma Goldman & Jacob E. Nyenhuis, _Latin via Ovid: A First Course_** (2nd ed., Wayne State University Press, 1982)
 
 They are re-typeset for the web. The PDFs/EPUBs of the source books are kept locally in `books/`
 and are **not** tracked in git. The OCR text layer of the Roma Aeterna EPUB can be extracted for
@@ -194,6 +199,7 @@ authoring with:
 
 ```bash
 python3 scripts/extract-roma-aeterna.py
+python3 scripts/extract-latin-via-ovid.py   # dumps the Latin via Ovid reference blocks
 ```
 
 ### Reference books (OCR pipeline)

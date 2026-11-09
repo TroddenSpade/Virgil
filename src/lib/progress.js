@@ -1,11 +1,11 @@
 // The local-first progress document and the small helpers that turn it into
 // something the profile page can read. The same shape is stored in Supabase.
 
-import { familiaRomanaBook, romaAeternaBook } from '../data/library.js'
+import { familiaRomanaBook, romaAeternaBook, latinViaOvidBook } from '../data/library.js'
 
 export const PROGRESS_VERSION = 1
 
-export const TRACKED_BOOKS = [familiaRomanaBook, romaAeternaBook].map((book) => ({
+export const TRACKED_BOOKS = [familiaRomanaBook, romaAeternaBook, latinViaOvidBook].map((book) => ({
   id: book.id,
   title: book.title,
   shortTitle: book.shortTitle,

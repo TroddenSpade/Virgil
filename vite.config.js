@@ -55,6 +55,9 @@ export default defineConfig({
         ],
       },
       workbox: {
+        // The authored course bundle and the generated dictionary chunk now
+        // exceed Workbox's 2 MB default; keep them in the offline precache.
+        maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
         globPatterns: ['**/*.{js,css,html,svg,png,woff2}'],
         runtimeCaching: [
           {

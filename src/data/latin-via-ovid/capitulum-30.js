@@ -1,0 +1,363 @@
+// Capitulum XXX — THESEVS REX
+// Source: Goldman & Nyenhuis, Latin via Ovid: A First Course (2nd ed., 1982)
+// Reading text, vocabulary, grammar and exercises adapted for the web.
+
+const chapter = {
+  number: 30,
+  roman: 'XXX',
+  slug: 'theseus-rex',
+  latinTitle: 'THESEVS REX',
+  title: 'Theseus King',
+  tagline: 'Theseus becomes king of Athens, the friend of Oedipus and Hercules, and the tamer of the Amazons.',
+  status: 'complete',
+  overview:
+    'Theseus returns to Athens without raising the white sail, and Aegeus throws himself into the sea. Theseus becomes king, gives Athens good laws, and extends his help to Calydon, to the seven against Thebes, to Oedipus and to Hercules; with Hercules he campaigns against the Amazons and brings Hippolyta home. The Interim Reading tells Ovid\'s story of Pluto and Proserpina. The grammar covers volō, nōlō and mālō, the noun clause of desire, subjunctive by attraction, verbs of fearing, inverted cum, and the accusative of extent of time.',
+  objectives: [
+    'Read how Theseus became king and how he helped the cities and heroes of Greece.',
+    'Conjugate volō, nōlō and mālō in the indicative and subjunctive.',
+    'Recognise and form noun clauses of desire after verbs of asking, ordering and persuading.',
+    'Understand subjunctive by attraction and the subjunctive after verbs of fearing.',
+    'Use the accusative of place to which and of extent of time.',
+  ],
+  readings: [
+    {
+      id: 'theseus-rex',
+      latinTitle: 'THESEVS REX',
+      title: 'Theseus King',
+      paragraphs: [
+        'Cum Thēseus ad Graeciam redīret, aut commōtus cōgitātiōne laetitiae patris aut rēgis oblītus nāvem vēlō albō nōn ōrnāvit; Aegeus, quī vēlum ātrum ex arce vīdit, sē in mare iēcit et mortuus est. Mare nōminābātur Aegaeum, huius rēgis causā et exitūs maestī.',
+        'Ita Thēseus factus est rēx, Aegeō mortuō, et sapiēns dux per multōs annōs populō Athēniēnsī auspicium fēlīx et iūra iūsta dedit. Tum Athēnae habēbantur domus lībertātis, urbs prīma tōtīus orbis. Nōn iam Athēnae ad Crētam tribūtum lāmentābile mittere dēbēbant. Templa flōribus corōnantur; populus Minervam cum Iove dīsque aliīs honorat, quōrum templa sanguine, vōtō, mūneribus datīs tūribusque decorat.',
+        'Nōmen Thēseī per urbēs Graecās sparsum erat et cēterī populī opem huius in magnīs perīculīs implōrāvērunt. Supplex Calydōn, urbs vīcīna, auxilium huius petīvit, quamquam Meleagrum fortem ducem habēbat. Causa petendī erat ingēns sūs, quod mōnstrum agrōs et pastōrēs et canēs et vēnātōrēs Calydōnis vāstāverat. Populus effūgit nec sē esse salvum putāvit dōnec in moenibus urbis esset. Hunc suem Calydōn Thēseum ōrāvit ut necāret et terrōrem fīnīret. Vīcit hērōs suem multīs cum comitibus, inter quōs erant Iāsōn et Pīrithous et virgō vēnātrīx Atalanta et hērōs Calydōnius, Meleager ipse.',
+        'Aliī Aegīdem rogāvērunt ut auxilium daret, imprīmīs septem prīncipēs quī bellum contrā Thēbānōs gessērunt, quōrum rēx Creōn eōs vetuerat corpora interfectorum humāre. Victī Thēseum implōrāvērunt ut Thēbānōs cōgeret nē hanc rem facerent. Nōn sōlum ille opem fert, sed etiam sapiēns vetuit mīlitēs suōs urbem captam vāstāre; mortuīs sepultīs pācem in terrā tōtā fēcit.',
+        'Oedipum quoque fugientem in exsiliō recēpit, cum hic miser nunc caecus cum fīliābus duābus errābat. Herculī amīcitiam Thēseus fert postquam ille furēns coniugem et līberōs necāverat et posteā in sānitātem mentis revēnerat. Aegīdēs semper Herculem mīrātus etiam post tantum factum malum eī persuāsit nē sē necāret. Hercule comite, Thēseus trāditur in terrā Amāzonum bellum gessisse. Cum Athēnās redīret, Hippolytam rēgīnam eārum sēcum rettulit, quae maximē amāta fīlium Hippolytum peperit. Haec autem īnfēlīx pugnāns iuxtā Thēseum in proeliō necāta est.',
+      ],
+      notes: [
+        { term: 'vēlum album / ātrum', gloss: 'the white or black sail; Theseus forgets the signal that would tell Aegeus he is alive.' },
+        { term: 'ex arce', gloss: 'from the citadel; Aegeus watches from the height of Athens.' },
+        { term: 'Aegaeum', gloss: 'the Aegean Sea, named from Aegeus.' },
+        { term: 'auspicium fēlīx', gloss: 'a favorable omen or guidance; the good rule of a king.' },
+        { term: 'domus lībertātis', gloss: 'the home of liberty; Athens as the refuge of the oppressed.' },
+        { term: 'tribūtum lāmentābile', gloss: 'the lamentable tribute of seven youths and seven maidens sent to Crete.' },
+        { term: 'supplex Calydōn', gloss: 'Calydon as a suppliant city, begging Theseus for help.' },
+        { term: 'Calydōnius', gloss: 'of Calydon; Meleager, prince of Calydon.' },
+        { term: 'Creōn', gloss: 'king of Thebes, who forbade the burial of the fallen Argives.' },
+        { term: 'vetuerat… humāre', gloss: 'had forbidden them to bury; vetō + infinitive.' },
+        { term: 'Oedipus', gloss: 'the blind exiled king of Thebes, wandering with his two daughters.' },
+        { term: 'Hippolyta', gloss: 'queen of the Amazons, mother of Hippolytus by Theseus.' },
+      ],
+    },
+    {
+      id: 'pluto-et-proserpina',
+      latinTitle: 'PLŪTŌ ET PROSERPINA',
+      title: 'Pluto and Proserpina',
+      paragraphs: [
+        'Prīma Cerēs terram arātrō dīmōvit, prīma frūgēs alimentaque mītia terrīs dedit, prīma lēgēs dedit; omnia sunt dōna Cereris. Carmen dē Cerere canendum mihi est. Utinam modo dīcere possim carmina dīgna deā! Certē dea carmine dīgna est. Vāsta īnsula Sicilia in corpore gigantis Typhōēī iacet premitque eum quī saepe pugnat et surgere temptat. Ingēns Aetna pectora et caput premit; resupīnus flammās cinerēsque ex ōre vomit, dum aliī montēs aliās partēs corporis premunt. Saepe vī magnā surgere et magnōs montēs corpore dēvolvere temptat. Deinde tellūs tremit et ipse rēx, Plūtō, terret nē, terrā fissā, lūx in rēgnum tenebrōsum perveniat et trepidantēs umbrās terreat.',
+        'Hanc rem metuēns, Plūtō curru ātrōrum equōrum ē tenebrōsō rēgnō exierat ut terrās Siciliānās inspiceret. Dum rēx maestus īnsulam explōrat, Venus in monte suō sedēns hunc videt. Dea nātum volucrem vocāns dīxit: "Cape illa tēla, Cupīdō, quibus omnēs superās, et mitte celerēs sagittās tuās in pectus deī. Tū superōs ipsumque Iovem et deum maris rēgnās. Cūr Plūtō potentiam tuam vītat? In terrā et in caelō vīrēs amōris minuuntur. Nōnne vidēs Minervam et Diānam et omnēs nymphās mē fugitāre? Fīlia quoque Cereris virgō erit, sī patiēmur. At tū, prō mē et prō tuō rēgnō, iunge deam patruō." Dīxit Venus; ille pharetram aperuit et dē mīlle sagittīs ūnam acūtissimam in arcū posuit. Flexilem arcum curvāvit inque cor sagittā acūtā Plūtōnem percussit.',
+        'Haud procul lacus est ubi carmina cycnōrum audiuntur. Silva aquās frondibus suīs corōnat; perpetuum vēr est. Quō dum Proserpina lūdit carpitque aut violās aut candida līlia impletque tunicam flōribus, paene simul ā Plūtōne vīsa amātaque rapta est. Ita est potentia amōris. Dea territa et mātrem et comitēs (sed mātrem saepius) ōre maestō clāmat, et quod vestīmentum laniātur, collēctī flōrēs, tunicā remissā, cecidērunt. Tanta simplicitās eī adfuit, haec iactūra virginēum dolōrem mōvit.',
+        'Raptor currus per lacum stāgnaque agit et equōs hortātur, nōmine quemque vocandō. In mediō stāgnō nympha Cyānē, ā cuius nōmine stāgnum dictum est, celeberrima inter nymphās Siciliānās exstitit recōgnōvitque deam. "Nec longius ībitis," inquit. "Nōn potes gener Cereris invītae. Proserpina roganda, nōn rapienda fuit. Anāpis mē dīlēxit; exōrāta tamen nec, ut haec, exterrita nūpsī." Dīxit et in partēs dīversās bracchia tendēns obstitit. Plūtō autem īram nōn tenuit et scēptrō stāgnum percussit. Terra viam apertam in Tartarum fēcit et currum mediō crātēre recēpit.',
+        'At Cyānē dolēns et deam raptam et iūra fontis suī contempta mente tācitā vulnus gerit et omnis in lacrimās convertitur. In ipsās aquās, quārum fuerat nympha, Cyānē mūtātur. Mollīrī membra vidērēs: ossa et caeruleī crīnēs digitīque et crura et pedēs liquēscunt; post haec umerī et tergum et pectus in gelidās undās abeunt; dēnique prō sanguine vīvō subit aqua clāra; nihil restat quod tangere possēs.',
+        'Intereā fīlia Cereris ā mātre territa omnibus terrīs quaesīta est. Aurōra et Hesperus illam quaerentem vīdit. Illa duābus manibus pīnūs flammiferās ab Aetnā tulit; sine requiēte errābat per terrās fīliam ab occāsū sōlis ad ortūs quaerēns. Quās per terrās et quās undās dea errāverit, longa mora est dīcere. Siciliam dēnique repetit; dum quaerit, vēnit ad Cyānēn; quamquam nympha in aquās mūtāta nārrāre omnia dēsīderābat, tamen et ōs et lingua dīcere nōn aderant. Tamen signa dedit: tunicam nōtam Proserpinae in summīs undīs natantem. Tum dea capillōs laniāvit et pectora palmīs suīs percussit. Nescit adhūc ubi sit fīlia. Tum omnēs terrās accūsat et eās ingrātās vocat nec frūgum mūnere dīgnās. Ante aliās terrās maximē damnavit Siciliam, in quā tunicam et vestīgia fīliae invēnit. Vāstāvit agrōs et herbās et animālia et bovēs. Avidae volucrēs sēmina legunt.',
+        'Tum nympha Arethūsa caput ex undīs tulit et comās ā fronte ad aurēs remōvit atque ait: "Ō māter fīliae raptae et frūgum, siste immēnsōs labōrēs tuōs. Terra invīta nihil meruit nec dīgna tantīs poenīs est. Servā hās terrās. Dum sub terrīs Stygiō flūmine fluō, tua Proserpina oculīs meīs vīsa est. Illa quidem trīstis neque etiam adhūc interrita, sed tamen est rēgīna maxima rēgnī obscūrī, tamen uxor rēgis īnfernī."',
+        'Māter haec verba audiēns similis saxī fuit, dea pulsa est īrā et dolōre. Curribus in ōrās aetheriās exit: ibi ante Iovem capillīs passīs stetit. "Prō meā fīliā vēnī supplex tibi, Iuppiter," inquit, "et prō fīliā tuā; sī nūlla grātia mātris est tibi, nāta patrem moveat. En fīlia diū quaesīta tandem inventa est, sī vocās invenīre eam certius āmittere, aut sī eam invenīre vocās, scīre ubi sit. Plūtō eam reddat. Ferēmus quod rapta est, sī modo eam reddet. Neque tua fīlia est dīgna praedōne coniuge."',
+        'Iuppiter respondit: "Nāta tua est cūra commūnis mihi tēcum, sed sī modo nōmina vēra rēbus dare placet, nōn iniūria est hoc factum, sed amor. Neque ille erit nōbīs gener pudōrī, sī tū modo, dea, velīs. Sī cētera dēsint, quantum est frātrem Iovis esse! Sed sī tanta cupīdō discidiī est tibi, repetet Proserpina caelum, tamen lēge certā, sī nūllōs cibōs illīc ōre tetigit."',
+        'Dīxerat, at Cererī certum est ēdūcere nātam; nōn ita fāta sinunt, quoniam Proserpina ēderat. Dum in hortīs cultīs errat, pōmum poenīceum dē arbore curvā carpserat et in ōre suō septem grāna presserat. At Iuppiter medius frātris suī et sorōris maestae annum ex aequō dividit; nunc dea commūnis duōrum rēgnōrum sex mēnsēs cum mātre, sex mēnsēs cum coniuge agit. Faciēs et ōris et mentis vertitur dum fīlia cum mātre est. Proserpina, quae maesta Plūtōnī vidēbātur, nunc laeta est, ut sōl quī nūbibus obscūrīs ante tēctus fuit, nunc ē nūbibus exit et terrae lūcem dat.',
+      ],
+      notes: [
+        { term: 'Cerēs, Cereris', gloss: 'Ceres, goddess of grain and of the harvest.' },
+        { term: 'Typhōēus, -eī', gloss: 'the giant buried beneath Sicily and Mount Etna.' },
+        { term: 'patruus, -ī', gloss: 'paternal uncle; Pluto is the brother of Jupiter, hence the uncle of Proserpina.' },
+        { term: 'pharetra, -ae', gloss: 'quiver.' },
+        { term: 'Cyānē, -ēs', gloss: 'a Sicilian nymph whose pool was famous; she tries to stop Pluto.' },
+        { term: 'Anāpis', gloss: 'a river god who loved Cyane.' },
+        { term: 'gener, generī', gloss: 'son-in-law; Cyane says Pluto cannot be the son-in-law of an unwilling Ceres.' },
+        { term: 'Tartarus, -ī', gloss: 'the underworld, the realm of the dead.' },
+        { term: 'crātēr, -ēris', gloss: 'a great bowl; here the crater of a volcano.' },
+        { term: 'liquēscō, -ere', gloss: 'become liquid, melt.' },
+        { term: 'Aurōra; Hesperus', gloss: 'Dawn and the Evening Star, the witnesses who saw Proserpina searching.' },
+        { term: 'pīnus flammiferās', gloss: 'flame-bearing pine torches, carried by Ceres in her search.' },
+      ],
+    },
+  ],
+  grammar: [
+    {
+      id: 'volo-nolo-malo',
+      latinTitle: 'VOLŌ, NŌLŌ, MĀLŌ',
+      title: 'The Irregular Verbs volō, nōlō and mālō',
+      intro:
+        'The verbs volō (wish), nōlō (not wish) and mālō (prefer) are irregular in the present indicative and in the present subjunctive, but regular in the imperfect, future and perfect systems.',
+      paradigms: [
+        {
+          caption: 'present indicative',
+          head: ['', 'volō', 'nōlō', 'mālō'],
+          rows: [
+            ['1 sg.', 'volō', 'nōlō', 'mālō'],
+            ['2 sg.', 'vīs', 'nōn vīs', 'māvīs'],
+            ['3 sg.', 'vult', 'nōn vult', 'māvult'],
+            ['1 pl.', 'volumus', 'nōlumus', 'mālumus'],
+            ['2 pl.', 'vultis', 'nōn vultis', 'māvultis'],
+            ['3 pl.', 'volunt', 'nōlunt', 'mālunt'],
+          ],
+        },
+        {
+          caption: 'present subjunctive',
+          head: ['', 'volō', 'nōlō', 'mālō'],
+          rows: [
+            ['1 sg.', 'velim', 'nōlim', 'mālim'],
+            ['2 sg.', 'velīs', 'nōlīs', 'mālīs'],
+            ['3 sg.', 'velit', 'nōlit', 'mālit'],
+            ['1 pl.', 'velīmus', 'nōlīmus', 'mālīmus'],
+            ['2 pl.', 'velītis', 'nōlītis', 'mālītis'],
+            ['3 pl.', 'velint', 'nōlint', 'mālint'],
+          ],
+        },
+        {
+          caption: 'other forms',
+          head: ['Form', 'volō', 'nōlō', 'mālō'],
+          rows: [
+            ['Imperfect', 'volēbam', 'nōlēbam', 'mālēbam'],
+            ['Future', 'volam, volēs, volet…', 'nōlam, nōlēs, nōlet…', 'mālam, mālēs, mālet…'],
+            ['Imperfect subj.', 'vellem', 'nōllem', 'māllem'],
+            ['Present participle', 'volēns', 'nōlēns', '—'],
+            ['Imperative', '—', 'nōlī, nōlīte', '—'],
+          ],
+        },
+      ],
+      points: [
+        'Nōlī + infinitive expresses a negative command: Nōlī in perīculum īre. — Do not go into danger.',
+        'Nōlīte is the plural: Nōlīte in perīculum īre. — Do not go into danger (to more than one person).',
+        'Mālō is a contraction of magis volō, "I wish more", hence "I prefer".',
+        'The perfect system is regular: voluī, nōluī, māluī.',
+      ],
+    },
+    {
+      id: 'noun-clause-desire',
+      latinTitle: 'CLĀUSULA NŌMINĀLIS OPTĀTĪVA',
+      title: 'The Noun Clause of Desire',
+      intro:
+        'A verb of asking, begging, requesting, ordering or persuading may be followed by ut or nē and the subjunctive. This noun clause expresses what is desired or commanded, and is closely related to a purpose clause.',
+      paradigms: [
+        {
+          caption: 'verbs of asking and ordering',
+          head: ['Construction', 'Verbs'],
+          rows: [
+            ['+ accusative', 'ōrō, rogō, hortor, moneō'],
+            ['+ ablative', 'petō (ā aliquō), quaerō (ab aliquō)'],
+            ['+ dative', 'imperō, persuādeō'],
+          ],
+        },
+        {
+          caption: 'examples',
+          head: ['Latin', 'English'],
+          rows: [
+            ['Rēx Herculī imperāvit ut leōnem necāret.', 'The king ordered Hercules to kill the lion.'],
+            ['Māter ab eō petīvit ut cavēret.', 'The mother begged him to take care.'],
+            ['Populus Thēseum ōrāvit ut auxilium ferret.', 'The people begged Theseus to bring aid.'],
+            ['Thēseus Herculī persuāsit nē sē necāret.', 'Theseus persuaded Hercules not to kill himself.'],
+            ['Equum hortātus est nē verteret.', 'He urged the horse not to turn.'],
+          ],
+        },
+      ],
+      points: [
+        'Ut introduces a positive command or request; nē introduces a negative one.',
+        'The verb of the noun clause is in the subjunctive and follows the sequence of tenses.',
+        'With imperō and persuādeō the person commanded stands in the dative; with ōrō and rogō, in the accusative; with petō and quaerō, in the ablative with ā or ab.',
+        'Do not translate ut as "that" only: here it means "to" or "that … should".',
+      ],
+    },
+    {
+      id: 'attraction-and-fearing',
+      latinTitle: 'ATTRACTIŌ ET VERBA TIMENDĪ',
+      title: 'Subjunctive by Attraction; Verbs of Fearing',
+      intro:
+        'A subordinate clause that stands inside another dependent subjunctive clause is often attracted into the subjunctive, even where the simple rule would require the indicative. Verbs of fearing take the subjunctive with ut and nē in the reverse of their usual sense.',
+      paradigms: [
+        {
+          caption: 'subjunctive by attraction',
+          head: ['Simple clause', 'Attracted clause'],
+          rows: [
+            ['Corpora eōrum quī in bellō mortuī erant…', 'Thēseus Thēbānīs persuāsit ut corpora eōrum quī in bellō mortuī essent humārent.'],
+          ],
+        },
+        {
+          caption: 'verbs of fearing',
+          head: ['Latin', 'English'],
+          rows: [
+            ['Metuō nē veniat.', 'I fear that he may come.'],
+            ['Metuō ut veniat.', 'I fear that he may not come.'],
+            ['Populus metuit nē animī aeternum errārent.', 'The people feared that the souls would wander forever.'],
+          ],
+        },
+      ],
+      points: [
+        'Attraction occurs because the inner clause is felt to share the unreality of the surrounding subjunctive.',
+        'The rule of attraction applies especially to relative clauses inside indirect commands and indirect statements.',
+        'After metuō and vereor, nē means "that" (positive fear), while ut means "that … not".',
+        'Translate the fear clause into natural English rather than word for word.',
+      ],
+    },
+    {
+      id: 'inverted-cum',
+      latinTitle: 'CUM INVERSVM',
+      title: 'The Inverted Cum Clause',
+      intro:
+        'Cum with the indicative may make subordinate an idea that in English would be the main clause. The emphasis is reversed: the Latin main clause carries what English treats as the circumstance, and the cum clause carries the event.',
+      paradigms: [
+        {
+          caption: 'inverted cum',
+          head: ['Latin', 'English'],
+          rows: [
+            ['Vix Thēseus rēx factus erat cum bellum incēpit.', 'Scarcely had Theseus become king when war began.'],
+            ['Nōndum carmen Hymenis incēperat cum virgō adest cum aliīs puellīs.', 'The song of Hymen had not yet begun when the maiden stood present with the other girls.'],
+          ],
+        },
+      ],
+      points: [
+        'Words such as vix (hardly, scarcely) or nōndum (not yet) usually introduce the main clause.',
+        'The cum clause states the event that interrupts or completes the main action.',
+        'English reverses the structure: "Scarcely had … when …".',
+      ],
+    },
+    {
+      id: 'accusative-place-time',
+      latinTitle: 'ACCŪSĀTĪVUS LOCĪ ET TEMPORIS',
+      title: 'Accusative of Place and Extent of Time',
+      intro:
+        'The accusative without a preposition expresses place to which with names of cities, towns, small islands, domum and rūs. It also expresses extent of time, the period during which an action lasts.',
+      paradigms: [
+        {
+          caption: 'place to which',
+          head: ['Latin', 'English'],
+          rows: [
+            ['Caesar Brundisium vēnit.', 'Caesar came to Brundisium.'],
+            ['Cicerō domum revēnit.', 'Cicero returned home.'],
+            ['Crās rūs ībō.', 'Tomorrow I shall go to the country.'],
+          ],
+        },
+        {
+          caption: 'extent of time',
+          head: ['Latin', 'English'],
+          rows: [
+            ['Graecī multōs annōs bellum contrā Trōiānōs gessērunt.', 'The Greeks waged war against the Trojans for many years.'],
+            ['Thēseus multōs annōs rēgnāvit.', 'Theseus reigned for many years.'],
+          ],
+        },
+      ],
+      points: [
+        'Place to which with ordinary nouns uses ad or in + accusative; cities, small islands, domum and rūs omit the preposition.',
+        'Extent of time answers "how long?" and uses the accusative without a preposition.',
+        'Do not confuse extent of time with time when, which uses the ablative: eō annō — "in that year".',
+      ],
+    },
+  ],
+  vocabulary: [
+    { latin: 'Amāzōn, -onis', english: 'Amazon, a female warrior', pos: 'noun f.' },
+    { latin: 'arx, arcis', english: 'citadel', pos: 'noun f.' },
+    { latin: 'auspicium, -iī', english: 'guidance, divination; auspices', pos: 'noun n.' },
+    { latin: 'Calydōn, -ōnis', english: 'Calydon, a city in Greece', pos: 'noun f.' },
+    { latin: 'canis, -is, -um', english: 'dog', pos: 'noun c.' },
+    { latin: 'cōgitātiō, -ōnis', english: 'thought, reflection', pos: 'noun f.' },
+    { latin: 'exsilium, -iī', english: 'exile', pos: 'noun n.' },
+    { latin: 'furor, -ōris', english: 'madness, insanity', pos: 'noun m.' },
+    { latin: 'Hippolyta, -ae', english: 'Hippolyta, queen of the Amazons', pos: 'noun f.' },
+    { latin: 'Hippolytus, -ī', english: 'Hippolytus, son of Theseus', pos: 'noun m.' },
+    { latin: 'iūs, iūris', english: 'law, right, justice', pos: 'noun n.' },
+    { latin: 'laetitia, -ae', english: 'joy, gladness', pos: 'noun f.' },
+    { latin: 'lībertās, -tātis', english: 'liberty, freedom', pos: 'noun f.' },
+    { latin: 'Meleager, -grī', english: 'Meleager, prince of Calydon', pos: 'noun m.' },
+    { latin: 'moenia, -ium', english: 'city walls, ramparts', pos: 'noun n. pl.' },
+    { latin: 'Oedipus, -ī', english: 'Oedipus, king of Thebes', pos: 'noun m.' },
+    { latin: 'pāstor, -ōris', english: 'shepherd', pos: 'noun m.' },
+    { latin: 'Pīrithous, -ī', english: 'Pirithous, friend of Theseus', pos: 'noun m.' },
+    { latin: 'princeps, -cipis', english: 'chief, leader, prince', pos: 'noun m.' },
+    { latin: 'proelium, -iī', english: 'battle', pos: 'noun n.' },
+    { latin: 'sānitās, -tātis', english: 'sanity, health', pos: 'noun f.' },
+    { latin: 'cōgō, -ere, coēgī, coāctum', english: 'force, compel, gather', pos: 'verb' },
+    { latin: 'commoveō, -ēre, -mōvī, -mōtum', english: 'shake, move, disturb', pos: 'verb' },
+    { latin: 'habeō, -ēre, -uī, -itum', english: 'have, hold; passive: be held, be regarded', pos: 'verb' },
+    { latin: 'implōrō (1)', english: 'implore, beg for', pos: 'verb' },
+    { latin: 'mālō, mālle, māluī', english: 'prefer', pos: 'verb' },
+    { latin: 'nōlō, nōlle, nōluī', english: 'not wish, be unwilling', pos: 'verb' },
+    { latin: 'oblīvīscor, -ī, oblītus sum', english: 'forget (+ gen.)', pos: 'verb' },
+    { latin: 'pariō, -ere, peperī, partum', english: 'give birth to', pos: 'verb' },
+    { latin: 'vetō, -āre, vetuī, vetitum', english: 'forbid, prohibit', pos: 'verb' },
+    { latin: 'volō, velle, voluī', english: 'wish, want', pos: 'verb' },
+    { latin: 'lāmentābilis, -e', english: 'deplorable, lamentable', pos: 'adj.' },
+    { latin: 'sapiēns, -ientis', english: 'wise', pos: 'adj.' },
+    { latin: 'sepultus, -a, -um', english: 'buried', pos: 'adj.' },
+    { latin: 'Thēbānus, -a, -um', english: 'Theban', pos: 'adj.' },
+    { latin: 'īnfēlīx, -īcis', english: 'unhappy, unfortunate', pos: 'adj.' },
+    { latin: 'contrā (+ acc.)', english: 'against', pos: 'prep.' },
+    { latin: 'imprīmīs', english: 'especially, among the first', pos: 'adv.' },
+    { latin: 'iuxtā (+ acc.)', english: 'beside, next to', pos: 'prep.' },
+    { latin: 'nōn iam', english: 'no longer', pos: 'phrase' },
+  ],
+  pensa: [
+    {
+      id: 'pensum-a',
+      latinLabel: 'PĒNSVM A',
+      title: 'Quaestiōnēs',
+      instruction: 'Answer each question in a complete Latin sentence, then compare the model answer.',
+      type: 'questions',
+      items: [
+        { q: 'Cūr Thēseus rēx fīēbat?', a: 'Quia Aegeus mortuus erat et Thēseus fīlius eius erat.' },
+        { q: 'Qualia iūra populō Thēseus dedit?', a: 'Iūra iūsta populō dedit.' },
+        { q: 'Cūr cīvēs Calydōnis opem ā Thēseō petīvērunt?', a: 'Quia ingēns sūs agrōs et hominēs vāstāverat.' },
+        { q: 'Cūr septem prīncipēs contrā Thēbās ā Thēseō petīvērunt ut opem sibi daret?', a: 'Quia Creōn eōs mortuōs humāre vetuerat.' },
+        { q: 'Quem fugientem recēpit Thēseus?', a: 'Oedipum fugientem recēpit.' },
+        { q: 'Quibuscum errābat Oedipus?', a: 'Cum fīliābus duābus errābat.' },
+        { q: 'Quōs necāvit Hercules furēns?', a: 'Coniugem et līberōs suōs necāvit.' },
+        { q: 'In quō bellō Hippolyta victa est ā Thēseō?', a: 'In bellō contrā Amāzonēs victa est.' },
+        { q: 'Quid est nōmen fīliō Hippolytae?', a: 'Hippolytus est nōmen fīliō.' },
+        { q: 'Quōmodo Hippolyta necāta est?', a: 'Pugnāns iuxtā Thēseum in proeliō necāta est.' },
+      ],
+    },
+    {
+      id: 'pensum-b',
+      latinLabel: 'PĒNSVM B',
+      title: 'Noun Clauses of Desire',
+      instruction: 'Rewrite each statement after Rēx imperāvit ut…, using the correct case for the person commanded and the subjunctive for the command.',
+      type: 'fill',
+      items: [
+        'Populus mortuōs suōs humāvit. → Rēx imperāvit populō ut mortuōs suōs {{humāret}}.',
+        'Cīvēs vītās bonās agēbant. → Rēx imperāvit cīvibus ut vītās bonās {{agerent}}.',
+        'Oedipus Thēbīs excēdēbat. → Rēx imperāvit Oedipō ut Thēbīs {{excēderet}}.',
+        'Hercules poenās prō furōre dabat. → Rēx imperāvit Herculī ut poenās prō furōre {{daret}}.',
+        'Pīrithous Hippodamiam in mātrimōnium dūcēbat. → Rēx imperāvit Pīrithoō ut Hippodamiam in mātrimōnium {{dūceret}}.',
+        'Hercules sē nōn necāvit. → Rēx imperāvit Herculī nē sē {{necāret}}.',
+        'Oedipus in exsiliō errābat. → Rēx imperāvit Oedipō ut in exsiliō {{errāret}}.',
+        'Septem prīncipēs contrā Thēbās domum ībant. → Rēx imperāvit septem prīncipibus ut contrā Thēbās domum {{īrent}}.',
+      ],
+    },
+    {
+      id: 'pensum-c',
+      latinLabel: 'PĒNSVM C',
+      title: 'In Latīnum Convertere',
+      instruction: 'Translate each English sentence into Latin, then compare the model translation.',
+      type: 'questions',
+      items: [
+        {
+          q: 'Since Aegeus was dead, his son Theseus became king.',
+          a: 'Cum Aegeus mortuus esset, fīlius eius Thēseus rēx factus est.',
+        },
+        {
+          q: 'Theseus gave good laws to the citizens of Athens and he persuaded them to live in peace.',
+          a: 'Thēseus cīvibus Athēniēnsibus lēgēs bonās dedit et eīs persuāsit ut in pāce vīverent.',
+        },
+        {
+          q: 'The seven against Thebes persuaded him to give them aid in their war.',
+          a: 'Septem contrā Thēbās Thēseum ōrāvērunt ut sibi auxilium in bellō daret.',
+        },
+        {
+          q: 'Theseus conquered the Amazons and persuaded one of them to return to Athens as his bride.',
+          a: 'Thēseus Amāzonēs vīcit et ūnī eārum persuāsit ut Athēnās coniūnx redīret.',
+        },
+        {
+          q: 'Theseus knew that the Amazons, who were very brave, did not want their queen to go away.',
+          a: 'Thēseus scīvit Amāzonēs, quae fortissimae erant, nōlle rēgīnam suam discēdere.',
+        },
+      ],
+    },
+  ],
+}
+
+export default chapter
