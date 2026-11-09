@@ -218,7 +218,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Like {i}quot,{/i} the interrogative that asks the number (“how many?”), and {i}tot,{/i} the demonstrative that refers to the number (“so many”), most Latin cardinals are"
+          "text": "Like {i}quot,{/i} the interrogative that asks the number (“how many?”), and {i}tot,{/i} the demonstrative that refers to the number (“so many”), most Latin cardinals are {b}indeclinable{/b}."
         },
         {
           "t": "p",
@@ -349,7 +349,8 @@ const chapter = {
               "200th {i}ducentēsimus, -a, -um{/i}"
             ],
             [
-              "40th {i}quadrāgēsimus, -a, -um {/i} 300th {i}trecentēsimus{/i}"
+              "40th {i}quadrāgēsimus, -a, -um {/i}",
+              "300th {i}trecentēsimus{/i}"
             ],
             [
               "50th {i}quīnquāgēsimus,{/i} etc.",
@@ -371,7 +372,7 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "Ordinals end in: 20th–90th, 100th–1,000th {i}-ēsim{/i}|{i}us{/i}"
+          "text": "Ordinals end in: 20th–90th, 100th–1,000th {i}-ēsim{/i}|{i}us{/i} A summary is given on page 308 in Lingua Latina."
         },
         {
           "t": "h",
@@ -379,7 +380,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The forms {i}rēctē, prāvē, stultē, {/i}and{i} aequē{/i} are formed from the adjectives {i}rēctus, {/i} {i}prāvus, stultus, {/i}and{i} aequus{/i}; this formation will be dealt with in the next chapter."
+          "text": "The forms {i}rēctē, prāvē, stultē, {/i} and{i} aequē{/i} are formed from the adjectives {i}rēctus, {/i} {i}prāvus, stultus, {/i} and{i} aequus{/i}; this formation will be dealt with in the next chapter."
         }
       ],
       "id": "lectio-prima"
@@ -597,7 +598,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The verb {i}oportēre{/i} occurs only in the 3rd person singular, like {i}licet {/i}and {i}convenit{/i} (Cap. XV):"
+          "text": "The verb {i}oportēre{/i} occurs only in the 3rd person singular, like {i}licet {/i} and {i}convenit{/i} (Cap. XV):"
         },
         {
           "t": "p",
@@ -631,6 +632,8 @@ const chapter = {
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocabula Disposita/Ordinata",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "2nd",

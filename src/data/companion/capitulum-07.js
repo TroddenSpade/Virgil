@@ -119,7 +119,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Puella sē in speculō videt et sē interrogat{/i}. The girl sees herself in the mirror and asks herself. (ll.8–9) {i}Puella Syram in speculō videt et eam interrogat.{/i} The girl sees Syra in the mirror and asks her (Syra). {i}Iūlia Syram post sē in speculō videt, i.e. post Iūliam.{/i} (l.15) {b}When to use what:{/b}"
+          "text": "{i}Puella sē in speculō videt et sē interrogat{/i}. The girl sees herself in the mirror and asks herself. (ll.8–9) {i}Puella Syram in speculō videt et eam interrogat.{/i} The girl sees Syra in the mirror and asks her (Syra). {i}Iūlia Syram post sē in speculō videt, i.e. post Iūliam.{/i} (l.15)"
+        },
+        {
+          "t": "h",
+          "text": "When to use what:"
         },
         {
           "t": "p",
@@ -140,22 +144,18 @@ const chapter = {
           "marker": "•",
           "ordered": false,
           "text": "use the personal pronoun eum/eam/eōs/eās: him/her/them"
-        }
-      ],
-      "id": "lectio-prima"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+        },
         {
-          "t": "p",
-          "text": "{i}Sē {/i}is a pronoun and takes the place of a noun that refers back to the (3rd person) subject of the sentence."
+          "t": "h",
+          "text": "{i}Recēnsiō: sē vs. suus, ‑a, ‑um {/i}"
         },
         {
           "t": "p",
-          "text": "{i}Iūlia Syram post sē in speculō videt. {/i}(l.15) = {i}Iūlia Syram post Iūliam in {/i} {i}speculō videt.{/i} {i}Suus, -a, -um {/i}is a possessive adjective and modifies a noun that belongs to the (3rd person) subject of the sentence. {i}Aemilia virum suum amat. {/i}(l.4) = {i}Aemilia virum Aemiliae amat.{/i}"
+          "text": "{i}Sē {/i} is a pronoun and takes the place of a noun that refers back to the (3rd person) subject of the sentence."
+        },
+        {
+          "t": "p",
+          "text": "{i}Iūlia Syram post sē in speculō videt. {/i} (l.15) = {i}Iūlia Syram post Iūliam in {/i} {i}speculō videt.{/i} {i}Suus, -a, -um {/i} is a possessive adjective and modifies a noun that belongs to the (3rd person) subject of the sentence. {i}Aemilia virum suum amat. {/i} (l.4) = {i}Aemilia virum Aemiliae amat.{/i}"
         },
         {
           "t": "h",
@@ -171,7 +171,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "In the first sentence, {i}in{/i} takes the ablative ({i}vīllā{/i}){i},{/i} as we have seen often; in the second, it is followed by the accusative ({i}vīllam{/i}){i}.{/i} The examples show that {i}in{/i} takes the accusative when there is motion into a place. Therefore we read: {i}Syra in cubiculum intrat. {/i}(l.14) {i}“Venī in hortum, Iūlia!”{/i} (l.17)"
+          "text": "In the first sentence, {i}in{/i} takes the ablative ({i}vīllā{/i}){i},{/i} as we have seen often; in the second, it is followed by the accusative ({i}vīllam{/i}){i}.{/i} The examples show that {i}in{/i} takes the accusative when there is motion into a place. Therefore we read: {i}Syra in cubiculum intrat. {/i} (l.14) {i}“Venī in hortum, Iūlia!”{/i} (l.17)"
         },
         {
           "t": "p",
@@ -230,7 +230,7 @@ const chapter = {
           "text": "{i}Este bonī{/i} (be good!)"
         }
       ],
-      "id": "recensio"
+      "id": "lectio-prima"
     },
     {
       "latin": "Lēctiō Altera",
@@ -271,31 +271,31 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "ē/ex vīllā (before a consonant, use either ē or ex)"
+          "text": "ē/ex vīllā  (before a consonant, use either ē or ex)"
         },
         {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "ex ātriō (before a vowel, use only ex)"
+          "text": "ex ātriō  (before a vowel, use only ex)"
         },
         {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "ex hortō (before an “h,” use only ex)"
+          "text": "ex hortō  (before an “h,” use only ex)"
         },
         {
           "t": "h",
           "text": "{i}Dative Case (cāsus datīvus){/i}"
         },
         {
-          "t": "p",
-          "text": "{b}I. Nouns{/b}"
+          "t": "h",
+          "text": "I. Nouns"
         },
         {
           "t": "p",
-          "text": "When we are told that Julius gives something to a member of the family, the name of this person ends in {i}-ō {/i}({i}Mārcō, Quīntō, Syrō, Lēandrō{/i}) or in {i}-ae {/i}({i}Aemiliae, Iūliae, Syrae, Dēliae{/i}){i}.{/i} This form, ending in {i}-ō{/i} in the masculine (and neuter) and in {i}-ae{/i} in the feminine, is called dative (Latin {i}datīvus{/i}, from {i}dat{/i}, “gives”):"
+          "text": "When we are told that Julius gives something to a member of the family, the name of this person ends in {i}-ō {/i} ({i}Mārcō, Quīntō, Syrō, Lēandrō{/i}) or in {i}-ae {/i} ({i}Aemiliae, Iūliae, Syrae, Dēliae{/i}){i}.{/i} This form, ending in {i}-ō{/i} in the masculine (and neuter) and in {i}-ae{/i} in the feminine, is called dative (Latin {i}datīvus{/i}, from {i}dat{/i}, “gives”):"
         },
         {
           "t": "p",
@@ -325,8 +325,8 @@ const chapter = {
           ]
         },
         {
-          "t": "p",
-          "text": "{b}Summary of 1st and 2nd Declension Endings{/b}"
+          "t": "h",
+          "text": "Summary of 1st and 2nd Declension Endings"
         },
         {
           "t": "table",
@@ -337,7 +337,8 @@ const chapter = {
               "n. sing. n. pl."
             ],
             [
-              "nom. {i}-us{/i}",
+              "nom.",
+              "{i}-us{/i}",
               "{i}-ī{/i}",
               "{i}-a{/i}",
               "{i}-ae{/i}",
@@ -396,7 +397,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Iūlius eī {/i}(:{i} Quīntō{/i}/{i}Iūliae{/i}){i} mālum dat.{/i}"
+          "text": "{i}Iūlius eī {/i} (:{i} Quīntō{/i}/{i}Iūliae{/i}){i} mālum dat.{/i}"
         },
         {
           "t": "p",
@@ -404,7 +405,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Iūlius iīs {/i}(:{i} servīs{/i}/{i}ancillīs{/i}){i} māla dat.{/i} The forms are the same for all three genders. {i}Summary of is, ea, id and Reflexive Pronoun sē{/i}"
+          "text": "{i}Iūlius iīs {/i} (:{i} servīs{/i}/{i}ancillīs{/i}){i} māla dat.{/i} The forms are the same for all three genders. {i}Summary of is, ea, id and Reflexive Pronoun sē{/i}"
         },
         {
           "t": "table",
@@ -424,7 +425,8 @@ const chapter = {
               "pronoun"
             ],
             [
-              "nom. {i}i{/i}|{i}s{/i}",
+              "nom.",
+              "{i}i{/i}|{i}s{/i}",
               "{i}e{/i}|{i}a{/i}",
               "{i}i{/i}|{i}d{/i}",
               "{i}i{/i}|{i}ī{/i}",
@@ -441,7 +443,8 @@ const chapter = {
             ],
             [
               "gen.",
-              "{i}e{/i}|{i}ius e{/i}|{i}ius e{/i}|{i}ius e{/i}|{i}ōrum e{/i}|{i}ārum e{/i}|{i}ōrum {/i} (Cap. X)"
+              "{i}e{/i}|{i}ius e{/i}|{i}ius e{/i}|{i}ius e{/i}|{i}ōrum e{/i}|{i}ārum e{/i}|{i}ōrum {/i}",
+              "(Cap. X)"
             ],
             [
               "dat.",
@@ -507,7 +510,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Quid inest in saccīs?{/i} (l.39) {i}Iūlius ad vīllam advenit.{/i} (l.30) {i}Iūlia ē cubiculō exit. {/i}(ll.82–83) {b}compounds{/b} with prepositions: {i}ad-, ab-, ex-, in-{/i}"
+          "text": "{i}Quid inest in saccīs?{/i} (l.39) {i}Iūlius ad vīllam advenit.{/i} (l.30) {i}Iūlia ē cubiculō exit. {/i} (ll.82–83) {b}compounds{/b} with prepositions: {i}ad-, ab-, ex-, in-{/i}"
         }
       ],
       "id": "lectio-altera"
@@ -523,11 +526,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The dative (sing.) of the interrogative and relative pronoun is {i}cui {/i}(see ll.101– 104):"
+          "text": "The dative (sing.) of the interrogative and relative pronoun is {i}cui {/i} (see ll.101– 104):"
         },
         {
           "t": "p",
-          "text": "{i}Cui Iūlius mālum dat? {/i}(l.101) {i}Puer{/i}/{i}puella cui Iūlius mālum dat est fīlius{/i}/{i}fīlia eius.{/i} (ll.101–102)"
+          "text": "{i}Cui Iūlius mālum dat? {/i} (l.101) {i}Puer{/i}/{i}puella cui Iūlius mālum dat est fīlius{/i}/{i}fīlia eius.{/i} (ll.101–102)"
         },
         {
           "t": "p",
@@ -570,15 +573,11 @@ const chapter = {
         {
           "t": "p",
           "text": "also” {i}et…et{/i} {i}neque…neque{/i} {i}nōn sōlum…sed etiam{/i}"
-        }
-      ],
-      "id": "lectio-tertia"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō: Interrogative Words{/i}"
+        },
         {
           "t": "table",
           "rows": [
@@ -621,7 +620,7 @@ const chapter = {
           ]
         }
       ],
-      "id": "recensio-2"
+      "id": "lectio-tertia"
     },
     {
       "latin": "Studia Rōmāna",
@@ -634,12 +633,14 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The amount of education girls received varied greatly. For some girls, education consisted of learning the domestic duties involved in managing a household. Others were clearly well educated and even wrote poetry. Although we have poems remaining only from two women poets (both named Sulpicia), the poets Propertius, Tibullus, and Catullus (all first century BC) refer to women in their poetry as {i}docta{/i} (learned), a word that suggests they wrote verse. A famous portrait from Pompeii shows a young woman holding a stylus and a tabula, pondering her next words. Clearly her family wanted to publicize her education. Young girls from prominent families participated in festivals, particularly in the chorus (Catullus 34, “Hymn to Diana”; Horace, {i}Carmen Saeculāre{/i}). There were priesthoods open to women, most exalted of which were the six Vestal Virgins; a daughter of a patrician father could become one of the two young girls (aged six to ten) who became apprentices to the service of Vesta. Just as Vesta protected the home (see Cap. IV) she was also the guardian of Rome’s sacred fire. Her parents’ aspirations for Julia are to be a wife and mother. The age of marriage varied, and while some girls were married very young, not all were. A law that Roman girls could not be married before the age of twelve tells us just how young! A girl required a dowry ({i}dōs{/i}), money that a family gave to her husband or his family when they were married. If the couple were divorced or if the wife died, the dowry had to be returned. Girls were expected to be chaste and {i}mōrigera{/i} (compliant to her father and later to her husband). The Younger Pliny ({i}Plīnius Secundus, {/i}first century AD) gives us a portrait of ideal young womanhood in a letter he wrote about the death of the young daughter of a friend ({i}Epist{/i}. 5.16). She was only thirteen and about to be married. Pliny praises her effusively as a bright young woman, an eager reader with a joyful and lovable personality. She combined the virtues of all ages in one: the wisdom of an old woman ({i}anīlis prūdentia{/i}), the seriousness of character of a married woman ({i}gravitās mātrōnālis{/i}), the charm of a young girl and virginal modesty ({i}suāvitās puellāris cum virginālī verēcundiā{/i}). She bore her illness with restraint ({i}temperantia{/i}), patient endurance ({i}patientia{/i}), and self-possession ({i}cōnstantia{/i}). Pliny’s letter is not an isolated example. When his daughter Tullia died in childbirth, Cicero was distraught and wrote many letters trying to come to terms with his feelings. During the time of our narrative, letters between the emperor Marcus Aurelius (AD 121–180) and his friend {i}Mārcus Cornēlius {/i} {i}Frontō{/i} (c. AD 95–c. 166) contain many references to their love of their children, girls as well as boys. We know from inscriptions (particularly epitaphs), from images on tomb markers as well as from literary representations, that girls were much loved. Salutations and valedictions in Latin: in this chapter, you learned to say “hello” to one person ({i}salvē{/i}) and to more than one ({i}salvēte{/i}). Romans even today say, “Salve!” as an informal greeting. You can also say, {i}Quid novī est? {/i}or just {i}Quid novī{/i}?, which means, “What’s new?” When leaving, you can say, {i}Valē{/i} or {i}Valēte{/i} (“Be well! Fare well!,” Cap. XIV)."
+          "text": "The amount of education girls received varied greatly. For some girls, education consisted of learning the domestic duties involved in managing a household. Others were clearly well educated and even wrote poetry. Although we have poems remaining only from two women poets (both named Sulpicia), the poets Propertius, Tibullus, and Catullus (all first century BC) refer to women in their poetry as {i}docta{/i} (learned), a word that suggests they wrote verse. A famous portrait from Pompeii shows a young woman holding a stylus and a tabula, pondering her next words. Clearly her family wanted to publicize her education. Young girls from prominent families participated in festivals, particularly in the chorus (Catullus 34, “Hymn to Diana”; Horace, {i}Carmen Saeculāre{/i}). There were priesthoods open to women, most exalted of which were the six Vestal Virgins; a daughter of a patrician father could become one of the two young girls (aged six to ten) who became apprentices to the service of Vesta. Just as Vesta protected the home (see Cap. IV) she was also the guardian of Rome’s sacred fire. Her parents’ aspirations for Julia are to be a wife and mother. The age of marriage varied, and while some girls were married very young, not all were. A law that Roman girls could not be married before the age of twelve tells us just how young! A girl required a dowry ({i}dōs{/i}), money that a family gave to her husband or his family when they were married. If the couple were divorced or if the wife died, the dowry had to be returned. Girls were expected to be chaste and {i}mōrigera{/i} (compliant to her father and later to her husband). The Younger Pliny ({i}Plīnius Secundus, {/i} first century AD) gives us a portrait of ideal young womanhood in a letter he wrote about the death of the young daughter of a friend ({i}Epist{/i}. 5.16). She was only thirteen and about to be married. Pliny praises her effusively as a bright young woman, an eager reader with a joyful and lovable personality. She combined the virtues of all ages in one: the wisdom of an old woman ({i}anīlis prūdentia{/i}), the seriousness of character of a married woman ({i}gravitās mātrōnālis{/i}), the charm of a young girl and virginal modesty ({i}suāvitās puellāris cum virginālī verēcundiā{/i}). She bore her illness with restraint ({i}temperantia{/i}), patient endurance ({i}patientia{/i}), and self-possession ({i}cōnstantia{/i}). Pliny’s letter is not an isolated example. When his daughter Tullia died in childbirth, Cicero was distraught and wrote many letters trying to come to terms with his feelings. During the time of our narrative, letters between the emperor Marcus Aurelius (AD 121–180) and his friend {i}Mārcus Cornēlius {/i} {i}Frontō{/i} (c. AD 95–c. 166) contain many references to their love of their children, girls as well as boys. We know from inscriptions (particularly epitaphs), from images on tomb markers as well as from literary representations, that girls were much loved. Salutations and valedictions in Latin: in this chapter, you learned to say “hello” to one person ({i}salvē{/i}) and to more than one ({i}salvēte{/i}). Romans even today say, “Salve!” as an informal greeting. You can also say, {i}Quid novī est? {/i} or just {i}Quid novī{/i}?, which means, “What’s new?” When leaving, you can say, {i}Valē{/i} or {i}Valēte{/i} (“Be well! Fare well!,” Cap. XIV)."
         }
       ],
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",

@@ -110,7 +110,7 @@ const chapter = {
           "rows": [
             [
               "10",
-              "{i}dēnī, -ae, -a {/i}(l.2)"
+              "{i}dēnī, -ae, -a {/i} (l.2)"
             ],
             [
               "4",
@@ -122,7 +122,7 @@ const chapter = {
             ],
             [
               "6",
-              "{i}sēnī, -ae, -a {/i}(l.3)"
+              "{i}sēnī, -ae, -a {/i} (l.3)"
             ]
           ]
         },
@@ -144,7 +144,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "When distributive numbers are used with nouns that are {i}plūrālia tantum{/i}, {i}ūnī, -ae, -a{/i} and {i}trīnī, -ae, -a {/i}are used instead of {i}singulī, -ae, -a{/i} and {i}ternī, -ae, {/i} {i}-a{/i}, e.g.: {i}ūnae litterae{/i} (= {i}ūna epistula{/i}) {i}trīnae litterae{/i} (= {i}trēs epistulae{/i})"
+          "text": "When distributive numbers are used with nouns that are {i}plūrālia tantum{/i}, {i}ūnī, -ae, -a{/i} and {i}trīnī, -ae, -a {/i} are used instead of {i}singulī, -ae, -a{/i} and {i}ternī, -ae, {/i} {i}-a{/i}, e.g.: {i}ūnae litterae{/i} (= {i}ūna epistula{/i}) {i}trīnae litterae{/i} (= {i}trēs epistulae{/i})"
         },
         {
           "t": "p",
@@ -297,7 +297,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Sī mihi tantum esset ōtiī quantum est tibi, in epistulīs scrībendīs nōn {/i} {i}minus dīligēns essem quam tū. {/i}(ll.93–95)"
+          "text": "{i}Sī mihi tantum esset ōtiī quantum est tibi, in epistulīs scrībendīs nōn {/i} {i}minus dīligēns essem quam tū. {/i} (ll.93–95)"
         },
         {
           "t": "h",
@@ -318,7 +318,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "(Cap. XXVI, l.108) {i}cupidus patriam videndī{/i} {i}cupidus patriae videndae {/i}(l.80)"
+          "text": "(Cap. XXVI, l.108) {i}cupidus patriam videndī{/i} {i}cupidus patriae videndae {/i} (l.80)"
         },
         {
           "t": "table",
@@ -473,7 +473,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Just as the perfect subjunctive signifies completed action in a subordinate clause after a present or future tense verb, the pluperfect subjunctive signifies completed action after a past tense main verb. {b}Sequence of Tense {/b}"
+          "text": "Just as the perfect subjunctive signifies completed action in a subordinate clause after a present or future tense verb, the pluperfect subjunctive signifies completed action after a past tense main verb."
+        },
+        {
+          "t": "h",
+          "text": "Sequence of Tense"
         },
         {
           "t": "table",
@@ -510,7 +514,7 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "cum-clauses (where cum + pluperf. subj. = postquam + perf. ind.) {i}Quī cum arma cēpissent et vāllum ascendissent{/i} (= {i}postquam…{/i} {i}cēpērunt{/i}/{i}ascendērunt{/i}),{i} prīmō mīrābantur quamobrem mediā nocte {/i} {i}ē somnō excitātī essent… {/i}(ll.109–111) {i}Cum complūrēs hōrās ita fortissimē ā nostrīs…pugnātum esset{/i}. (ll.119–121)"
+          "text": "cum-clauses (where cum + pluperf. subj. = postquam + perf. ind.) {i}Quī cum arma cēpissent et vāllum ascendissent{/i} (= {i}postquam…{/i} {i}cēpērunt{/i}/{i}ascendērunt{/i}),{i} prīmō mīrābantur quamobrem mediā nocte {/i} {i}ē somnō excitātī essent… {/i} (ll.109–111) {i}Cum complūrēs hōrās ita fortissimē ā nostrīs…pugnātum esset{/i}. (ll.119–121)"
         },
         {
           "t": "li",
@@ -670,22 +674,18 @@ const chapter = {
         {
           "t": "p",
           "text": "▷ {i}fer{/i}|{i}tō, fer{/i}|{i}tōte{/i} from {i}ferre{/i}"
-        }
-      ],
-      "id": "lectio-tertia"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "{b}I. Summary of Conditions {/b}"
         },
         {
-          "t": "p",
-          "text": "{b}With the indicative{/b}"
+          "t": "h",
+          "text": "{i}Recēnsiō{/i}"
+        },
+        {
+          "t": "h",
+          "text": "I. Summary of Conditions"
+        },
+        {
+          "t": "h",
+          "text": "With the indicative"
         },
         {
           "t": "li",
@@ -708,7 +708,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "father. (cf. ll.181–182) {i}Sī aeger est, in lūdum īre nōn potest. {/i}(cf. Cap. XV, l.83)"
+          "text": "father. (cf. ll.181–182) {i}Sī aeger est, in lūdum īre nōn potest. {/i} (cf. Cap. XV, l.83)"
         },
         {
           "t": "li",
@@ -734,7 +734,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Nōnne laetus eris, sī fīliolam habēbis? {/i}(cf. Cap. XX, ll.153–154) {i}Profectō eum verberābō atque omnibus modīs cruciābō, sī eum invēnerō {/i} {i}priusquam Italiam relīquerit. {/i}(Cap. XXXI, ll.63–65)"
+          "text": "{i}Nōnne laetus eris, sī fīliolam habēbis? {/i} (cf. Cap. XX, ll.153–154) {i}Profectō eum verberābō atque omnibus modīs cruciābō, sī eum invēnerō {/i} {i}priusquam Italiam relīquerit. {/i} (Cap. XXXI, ll.63–65)"
         },
         {
           "t": "li",
@@ -757,7 +757,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "listened to your father. {i}Sī quid prāvē feceram, dominus imperābat ut ego ab aliīs servīs {/i} {i}tenērer et verberārer. {/i}(cf. Cap. XXVIII, ll.160–161) {b}With the subjunctive{/b}"
+          "text": "listened to your father. {i}Sī quid prāvē feceram, dominus imperābat ut ego ab aliīs servīs {/i} {i}tenērer et verberārer. {/i} (cf. Cap. XXVIII, ll.160–161)"
+        },
+        {
+          "t": "h",
+          "text": "With the subjunctive"
         },
         {
           "t": "li",
@@ -988,7 +992,7 @@ const chapter = {
           "text": "(Repeated action: “whenever”: indicative [usually])"
         }
       ],
-      "id": "recensio"
+      "id": "lectio-tertia"
     },
     {
       "latin": "Studia Rōmāna",
@@ -1007,6 +1011,8 @@ const chapter = {
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",
@@ -1210,7 +1216,7 @@ const chapter = {
     },
     {
       "group": "‑ere (3)",
-      "latin": "(prōcurrō) prōcurrere, prōcucurrisse orprocurrisse, prōcursum",
+      "latin": "(prōcurrō) prōcurrere, prōcucurrisse or procurrisse, prōcursum",
       "english": "run forward, charge"
     },
     {
@@ -1396,11 +1402,11 @@ const chapter = {
     },
     {
       "n": 2,
-      "text": "Although not used so in this book, citrā can also be used as an adverb."
+      "text": "Although not used so in this book, citrā  can also be used as an adverb."
     },
     {
       "n": 3,
-      "text": "Although not used so in this book, secundum can also be used as an adverb."
+      "text": "Although not used so in this book, secundum  can also be used as an adverb."
     }
   ]
 }

@@ -141,7 +141,7 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "5th declension nouns have stems in ē, which is kept before all endings, except for those noted below. Most 5th declension nouns have {i}-iēs{/i} in the nominative, like: {i}diēs{/i} {i}merīdiēs{/i} {i}faciēs{/i} {i}glaciēs {/i}"
+          "text": "5th declension nouns have stems in ē,  which is kept before all endings, except for those noted below. Most 5th declension nouns have {i}-iēs{/i} in the nominative, like: {i}diēs{/i} {i}merīdiēs{/i} {i}faciēs{/i} {i}glaciēs {/i}"
         },
         {
           "t": "li",
@@ -199,15 +199,11 @@ const chapter = {
               "{i}di{/i}|{i}ēbus{/i}"
             ]
           ]
-        }
-      ],
-      "id": "lectio-prima"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō{/i}{i}:{/i} Declensions"
+        },
         {
           "t": "p",
           "text": "You have now learned all five declensions. The classification is based on the (original) final stem-vowel:"
@@ -220,7 +216,7 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "the “u” in the ending of these nouns was originally an “o” {i}equus < equ{/i}|{i}os{/i} {i}ōvum < ōv{/i}|{i}om{/i}, gen. sing. {i}-ī {/i}({i}<-oi{/i})"
+          "text": "the “u” in the ending of these nouns was originally an “o” {i}equus < equ{/i}|{i}os{/i} {i}ōvum < ōv{/i}|{i}om{/i}, gen. sing. {i}-ī {/i} ({i}<-oi{/i})"
         },
         {
           "t": "p",
@@ -244,7 +240,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The names of the months are {b}adjectives{/b}: {i}mēnsis Iānuārius{/i}, etc., but they are often used alone without {i}mēnsis {/i}and come to be felt as masculine nouns (with {i}mēnsis{/i} understood){i}. {/i}"
+          "text": "The names of the months are {b}adjectives{/b}: {i}mēnsis Iānuārius{/i}, etc., but they are often used alone without {i}mēnsis {/i} and come to be felt as masculine nouns (with {i}mēnsis{/i} understood){i}. {/i}"
         },
         {
           "t": "li",
@@ -289,7 +285,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Tempore antīquō Mārtius mēnsis prīmus erat. {/i}(ll.17–19) {i}Nocte sōl nōn lūcet.{/i} (l.46) {i}Vēre campī novā herbā operiuntur.{/i} (l.92) {i}“Quandō sōl altissimus est?”{/i} {i}“Hōrā sextā vel merīdiē.”{/i} (ll.107–108) Time {b}how long{/b} (duration) is expressed by the accusative: {i}centum annōs vīvere{/i} (ll.10–11)"
+          "text": "{i}Tempore antīquō Mārtius mēnsis prīmus erat. {/i} (ll.17–19) {i}Nocte sōl nōn lūcet.{/i} (l.46) {i}Vēre campī novā herbā operiuntur.{/i} (l.92) {i}“Quandō sōl altissimus est?”{/i} {i}“Hōrā sextā vel merīdiē.”{/i} (ll.107–108) Time {b}how long{/b} (duration) is expressed by the accusative: {i}centum annōs vīvere{/i} (ll.10–11)"
         },
         {
           "t": "h",
@@ -378,7 +374,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "5 {i}Notā Bene: {/i}½: {i}dīmidia{/i} {i}pars.{/i}"
+          "text": "5 {i}Notā Bene: {/i} ½: {i}dīmidia{/i} {i}pars.{/i}"
         },
         {
           "t": "h",
@@ -390,7 +386,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Tunc {/i}({i}= illō tempore{/i}){i} Mārtius mēnsis prīmus erat.{/i} {i}Nunc {/i}({i}= hōc tempore{/i}){i} Mārtius mēnsis tertius est.{/i} {i}Erat{/i},{i} erant{/i} is called the {b}imperfect tense{/b}, or {i}preterite{/i}, while {i}est{/i},{i} sunt{/i} is the {b}present tense{/b} (“tense” comes from Latin {i}tempus {/i}and refers to the relative {i}time{/i} of the verb). The past tense of other verbs comes later (Cap. XIX)."
+          "text": "{i}Tunc {/i} ({i}= illō tempore{/i}){i} Mārtius mēnsis prīmus erat.{/i} {i}Nunc {/i} ({i}= hōc tempore{/i}){i} Mārtius mēnsis tertius est.{/i} {i}Erat{/i},{i} erant{/i} is called the {b}imperfect tense{/b}, or {i}preterite{/i}, while {i}est{/i},{i} sunt{/i} is the {b}present tense{/b} (“tense” comes from Latin {i}tempus {/i} and refers to the relative {i}time{/i} of the verb). The past tense of other verbs comes later (Cap. XIX)."
         },
         {
           "t": "h",
@@ -406,7 +402,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Brevis breve {/i}({b}positive degree{/b})"
+          "text": "{i}Brevis breve {/i} ({b}positive degree{/b})"
         },
         {
           "t": "li",
@@ -422,7 +418,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Brevior brevius {/i}({b}comparative degree{/b} of {i}brevis{/i})"
+          "text": "{i}Brevior brevius {/i} ({b}comparative degree{/b} of {i}brevis{/i})"
         },
         {
           "t": "li",
@@ -462,7 +458,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Quam {/i}(= how) {i}longus {/i}(positive degree){i} est mēnsis November? {/i} {i}November trīgintā diēs longus est. December ūnum et trīgintā diēs {/i} {i}habet. {/i} {i}Iānuārius tam longus est quam {/i}(= as…as){i} December, sed Februārius {/i} {i}brevior {/i}(comparative degree) {i}est{/i}:{i} duodētrīgintā aut ūndētrīgintā diēs {/i} {i}tantum habet. {/i} {i}Februārius brevior {/i}(comparative degree){i} est quam {/i}(= than){i} cēterī {/i} {i}ūndecim mēnsēs{/i}:{i} is mēnsis annī brevissimus {/i}(superlative degree){i} est.{/i}"
+          "text": "{i}Quam {/i} (= how) {i}longus {/i} (positive degree){i} est mēnsis November? {/i} {i}November trīgintā diēs longus est. December ūnum et trīgintā diēs {/i} {i}habet. {/i} {i}Iānuārius tam longus est quam {/i} (= as…as){i} December, sed Februārius {/i} {i}brevior {/i} (comparative degree) {i}est{/i}:{i} duodētrīgintā aut ūndētrīgintā diēs {/i} {i}tantum habet. {/i} {i}Februārius brevior {/i} (comparative degree){i} est quam {/i} (= than){i} cēterī {/i} {i}ūndecim mēnsēs{/i}:{i} is mēnsis annī brevissimus {/i} (superlative degree){i} est.{/i}"
         },
         {
           "t": "h",
@@ -474,10 +470,10 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}duodecim mēnsēs vel trecentōs sexāgintā quīnque diēs{/i} (l.7) {i}centum annī vel saeculum{/i} (l.9) {i}hōra sexta vel merīdiēs{/i} (l.43) {i}Vel{/i} is distinct from {i}aut{/i}, which is put between mutually exclusive alternatives. February can have {i}either {/i}28 or 29 days: {i}Februārius brevior est{/i}: {i}duodētrīgintā{/i} {i}aut{/i} {i}ūndētrīgintā{/i} {i}diēs.{/i} (l.28)"
+          "text": "{i}duodecim mēnsēs vel trecentōs sexāgintā quīnque diēs{/i} (l.7) {i}centum annī vel saeculum{/i} (l.9) {i}hōra sexta vel merīdiēs{/i} (l.43) {i}Vel{/i} is distinct from {i}aut{/i}, which is put between mutually exclusive alternatives. February can have {i}either {/i} 28 or 29 days: {i}Februārius brevior est{/i}: {i}duodētrīgintā{/i} {i}aut{/i} {i}ūndētrīgintā{/i} {i}diēs.{/i} (l.28)"
         }
       ],
-      "id": "recensio"
+      "id": "lectio-prima"
     },
     {
       "latin": "Lēctiō Altera",
@@ -511,7 +507,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "reckoning) In March, May, July, and October (the four months that originally had 31 days): {i}īdūs{/i} was the 15th {i}nōnae{/i} was consequently the 7th The following mnemonic may help: In March, July, October, May The IDES fall on the fifteenth day, The NONES the seventh; all besides Have two days less for Nones and Ides. To these names ({i}kalendae{/i}, {i}īdūs, {/i}and {i}nōnae{/i}) the names of the months are added as adjectives. Thus:"
+          "text": "reckoning) In March, May, July, and October (the four months that originally had 31 days): {i}īdūs{/i} was the 15th {i}nōnae{/i} was consequently the 7th The following mnemonic may help: In March, July, October, May The IDES fall on the fifteenth day, The NONES the seventh; all besides Have two days less for Nones and Ides. To these names ({i}kalendae{/i}, {i}īdūs, {/i} and {i}nōnae{/i}) the names of the months are added as adjectives. Thus:"
         },
         {
           "t": "table",
@@ -585,7 +581,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Lūna {/i}‘{i}nova{/i}’{i} esse dīcitur.{/i} (l.52, “is said to be…”) Compare the same thought using the active verb ({i}dīcunt{/i}) with the accusative and infinitive construction you learned in Cap. XI: ({i}Hominēs{/i}) {i}lūnam {/i}‘{i}novam{/i}’{i} esse dīcunt{/i}. When used with a predicate nominative, {i}dīcitur {/i}is closer in meaning to “is called.” {i}Diēs prīmus mēnsis Iānuāriī dīcitur {/i}‘{i}kalendae Iānuāriae.{/i}’ (ll.56–57) {i}Item {/i}‘{i}īdūs{/i} {i}Februāriae{/i}’{i} dīcitur diēs tertius decimus mēnsis Februāriī.{/i} (ll.64–65) {i}Diēs octāvus ante kalendās Iānuāriās, quī dīcitur ‘ante diem octāvum {/i} {i}kalendās Iānuāriās,’ est diēs annī brevissimus.{/i} (ll.72–74)"
+          "text": "{i}Lūna {/i} ‘{i}nova{/i}’{i} esse dīcitur.{/i} (l.52, “is said to be…”) Compare the same thought using the active verb ({i}dīcunt{/i}) with the accusative and infinitive construction you learned in Cap. XI: ({i}Hominēs{/i}) {i}lūnam {/i} ‘{i}novam{/i}’{i} esse dīcunt{/i}. When used with a predicate nominative, {i}dīcitur {/i} is closer in meaning to “is called.” {i}Diēs prīmus mēnsis Iānuāriī dīcitur {/i} ‘{i}kalendae Iānuāriae.{/i}’ (ll.56–57) {i}Item {/i} ‘{i}īdūs{/i} {i}Februāriae{/i}’{i} dīcitur diēs tertius decimus mēnsis Februāriī.{/i} (ll.64–65) {i}Diēs octāvus ante kalendās Iānuāriās, quī dīcitur ‘ante diem octāvum {/i} {i}kalendās Iānuāriās,’ est diēs annī brevissimus.{/i} (ll.72–74)"
         }
       ],
       "id": "lectio-altera"
@@ -606,15 +602,11 @@ const chapter = {
         {
           "t": "p",
           "text": "{i}Aemilia puerum dormīre velle putat.{/i} (l.140)"
-        }
-      ],
-      "id": "lectio-tertia"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō: Expressions of Time and Space: Ablative and Accusative{/i}"
+        },
         {
           "t": "p",
           "text": "The ablative represents a point in space or time:"
@@ -645,14 +637,14 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "Time: How long? {i}November trīgintā diēs longus est. {/i}(ll.25–26) {i}Mārtius ūnum et trīgintā diēs longus est.{/i} (ll.30–31)"
+          "text": "Time: How long? {i}November trīgintā diēs longus est. {/i} (ll.25–26) {i}Mārtius ūnum et trīgintā diēs longus est.{/i} (ll.30–31)"
         },
         {
           "t": "p",
           "text": "In both cases, the {b}accusative{/b} expresses movement through space/time from point A to point B, unlike the {b}ablative{/b}, which expresses a specific point in space/time."
         }
       ],
-      "id": "recensio-2"
+      "id": "lectio-tertia"
     },
     {
       "latin": "Studia Rōmāna",
@@ -665,12 +657,14 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The ancients had long known the length of the solar year, but calendars did not strictly follow the natural year until Julius Caesar, in 45 BC, made his reforms law. Before the Julian calendar, the Romans had to periodically insert days into the year in order to “catch up” to the solar calendar. These intercalendary days (or months!) could be a nuisance. Cicero, while governing the province of Cilicia and eager to return to the political scene at Rome, begs his friends to vote against inserting more days into his term of office. The Romans had two ways of referring to years. Rome was ruled by kings from the founding of the city in 753 BC up to 510 BC, when it became a republic. One way of marking the years was to refer to the number of years {i}from the founding of the city{/i} (in Latin: {i}ab urbe conditā{/i}, abbreviated AUC). More commonly, the years were named by the two leaders of the republic, the {i}cōnsulēs{/i} (after 510 BC); their names appear in the ablative (in a construction you will learn in Caps. XIV and XVI). In the year 70 BC, for example, {i}Gnaius {/i} {i}Pompēius{/i} (Pompey the Great) and {i}Mārcus Crassus{/i} were consuls, and the year was marked: {i}Cn. Pompēiō M. Crassō cōnsulibus, {/i}“when Gnaeus Pompey and Marcus Crassus were the consuls.” It was not until 153 BC, however, that January 1st became the start of the consular year (that is, the date when the consuls took office). Our strict notions of time and dates are a relatively recent phenomenon—the marking of precise time was not as important to the Romans. The illustration at the beginning of the chapter gives you the twelve astrological signs familiar to us today—and familiar to the Greeks and Romans 2,000 years ago. Astrology was adopted by the Greeks from the Babylonians and the Egyptians in the third century BC and from the Greeks was taken up by the Romans. Cicero translated from Greek to Latin a poem about celestial phenomena by Aratus, in which he tells us that the Greeks call the swath of sky divided into the twelve familiar divisions {i}Zōdiacus{/i} and the Romans the {i}orbis {/i} {i}signifer.{/i}{{2}} The emperor Augustus is said to have had his horoscope ({i}hōroscopus{/i}) published as a sign of his destined power. In the first century AD, Manilius wrote {i}Astronomica{/i}, a long poem in Latin about astrology, and in the second century, the Egyptian polymath Ptolemy and the lesser-known {i}Vettius Valēns{/i} wrote books on astrology. In the illustration on p. 96, you can see a sundial ({i}hōrologium{/i}), an ancient clock. The sundial has twelve divisions, not twenty-four, because it works only during the day. At night, the movement of the heavenly bodies could be consulted and, for use inside, the ancients could use a water clock, in which water poured into a vessel from one on a higher level. Since the days are longer or shorter depending on the time of the year, time in antiquity was flexible. The first hour began with sunrise. You might also have noticed the absence of a word for our “week.” The concept of the week, found in the East (where it was important for astrology), seems to have shown up in Rome under the emperor Augustus, but it did not come into common use until the third century AD, after the time of our narrative. The word for it is {i}septimāna {/i} (Latin) and {i}hebdomas{/i} (from the Greek). The Romans had other ways of marking the progression of the months. In addition to the Kalends ({i}Kalendae{/i}), Ides ({i}Īdūs{/i}) and Nones ({i}Nōnae{/i}), every ninth day was a market day, called {i}Nūndinae{/i} (<{i}novem{/i}+{i}dies{/i}). The chart on page 312 of your text lays out the Roman calendar. In this chapter, you also meet two gods of the Roman state: {i}Iānus{/i} and {i}Mārs{/i}. Roman religion existed on several levels: the state, the neighborhood, the family, and the individual. It is also a mixture of native Italian elements and imports from Greece and elsewhere. Janus is a native Italic deity depicted with two heads facing in different directions. The name {i}Iānus{/i} means passageway (and in Cap. XV you will learn the word {i}iānua{/i}, which, like {i}ōstium{/i}, means “door”). Janus is the god of passageways and thus is associated with beginnings (making January an appropriate name for the first month of the year). The doors of the temple of Janus in the Forum were closed in times of peace and open in times of war. Mars, the god of war, is associated with the Greek god of war Ares. As in the illustration in the margin of your text, Mars is shown in battle array. After Iuppiter, Mars is the chief god of the Romans. The Romans credited Mars with fathering Romulus, the founder of Rome, and his brother Remus."
+          "text": "The ancients had long known the length of the solar year, but calendars did not strictly follow the natural year until Julius Caesar, in 45 BC, made his reforms law. Before the Julian calendar, the Romans had to periodically insert days into the year in order to “catch up” to the solar calendar. These intercalendary days (or months!) could be a nuisance. Cicero, while governing the province of Cilicia and eager to return to the political scene at Rome, begs his friends to vote against inserting more days into his term of office. The Romans had two ways of referring to years. Rome was ruled by kings from the founding of the city in 753 BC up to 510 BC, when it became a republic. One way of marking the years was to refer to the number of years {i}from the founding of the city{/i} (in Latin: {i}ab urbe conditā{/i}, abbreviated AUC). More commonly, the years were named by the two leaders of the republic, the {i}cōnsulēs{/i} (after 510 BC); their names appear in the ablative (in a construction you will learn in Caps. XIV and XVI). In the year 70 BC, for example, {i}Gnaius {/i} {i}Pompēius{/i} (Pompey the Great) and {i}Mārcus Crassus{/i} were consuls, and the year was marked: {i}Cn. Pompēiō M. Crassō cōnsulibus, {/i} “when Gnaeus Pompey and Marcus Crassus were the consuls.” It was not until 153 BC, however, that January 1st became the start of the consular year (that is, the date when the consuls took office). Our strict notions of time and dates are a relatively recent phenomenon—the marking of precise time was not as important to the Romans. The illustration at the beginning of the chapter gives you the twelve astrological signs familiar to us today—and familiar to the Greeks and Romans 2,000 years ago. Astrology was adopted by the Greeks from the Babylonians and the Egyptians in the third century BC and from the Greeks was taken up by the Romans. Cicero translated from Greek to Latin a poem about celestial phenomena by Aratus, in which he tells us that the Greeks call the swath of sky divided into the twelve familiar divisions {i}Zōdiacus{/i} and the Romans the {i}orbis {/i} {i}signifer.{/i}{{2}} The emperor Augustus is said to have had his horoscope ({i}hōroscopus{/i}) published as a sign of his destined power. In the first century AD, Manilius wrote {i}Astronomica{/i}, a long poem in Latin about astrology, and in the second century, the Egyptian polymath Ptolemy and the lesser-known {i}Vettius Valēns{/i} wrote books on astrology. In the illustration on p. 96, you can see a sundial ({i}hōrologium{/i}), an ancient clock. The sundial has twelve divisions, not twenty-four, because it works only during the day. At night, the movement of the heavenly bodies could be consulted and, for use inside, the ancients could use a water clock, in which water poured into a vessel from one on a higher level. Since the days are longer or shorter depending on the time of the year, time in antiquity was flexible. The first hour began with sunrise. You might also have noticed the absence of a word for our “week.” The concept of the week, found in the East (where it was important for astrology), seems to have shown up in Rome under the emperor Augustus, but it did not come into common use until the third century AD, after the time of our narrative. The word for it is {i}septimāna {/i} (Latin) and {i}hebdomas{/i} (from the Greek). The Romans had other ways of marking the progression of the months. In addition to the Kalends ({i}Kalendae{/i}), Ides ({i}Īdūs{/i}) and Nones ({i}Nōnae{/i}), every ninth day was a market day, called {i}Nūndinae{/i} (<{i}novem{/i}+{i}dies{/i}). The chart on page 312 of your text lays out the Roman calendar. In this chapter, you also meet two gods of the Roman state: {i}Iānus{/i} and {i}Mārs{/i}. Roman religion existed on several levels: the state, the neighborhood, the family, and the individual. It is also a mixture of native Italian elements and imports from Greece and elsewhere. Janus is a native Italic deity depicted with two heads facing in different directions. The name {i}Iānus{/i} means passageway (and in Cap. XV you will learn the word {i}iānua{/i}, which, like {i}ōstium{/i}, means “door”). Janus is the god of passageways and thus is associated with beginnings (making January an appropriate name for the first month of the year). The doors of the temple of Janus in the Forum were closed in times of peace and open in times of war. Mars, the god of war, is associated with the Greek god of war Ares. As in the illustration in the margin of your text, Mars is shown in battle array. After Iuppiter, Mars is the chief god of the Romans. The Romans credited Mars with fathering Romulus, the founder of Rome, and his brother Remus."
         }
       ],
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",

@@ -141,7 +141,7 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "without in to denote location (“where”): ▷ {i}Ōstia sita est eō locō quō Tiberis in mare īnferum īnfluit. {/i}(ll.15–16) {i}eō locō {/i}= {i}in eō locō{/i} (location)"
+          "text": "without in to denote location (“where”): ▷ {i}Ōstia sita est eō locō quō Tiberis in mare īnferum īnfluit. {/i} (ll.15–16) {i}eō locō {/i} = {i}in eō locō{/i} (location)"
         },
         {
           "t": "li",
@@ -163,7 +163,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "In Section I, we met{i} opperīrī {/i}(={i} exspectāre{/i}) a passive form with active meaning:"
+          "text": "In Section I, we met{i} opperīrī {/i} (={i} exspectāre{/i}) a passive form with active meaning:"
         },
         {
           "t": "p",
@@ -257,7 +257,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "In this chapter, we learn more about this construction. In the {i}marginalia{/i} of Section I, you read that: {i}marī turbidō = dum mare turbidum est{/i} (l.36) {i}ventō secundō = dum ventus secundus est {/i}(l.38) These are more examples of the ablative used as an adverbial phrase. Such an adverbial phrase, grammatically independent of the rest of the sentence, is called an {b}ablative absolute{/b} (Latin {i}ablātīvus absolūtus,{/i} “set free,” therefore independent). It represents the circumstances occurring around an action. In each of the following, the ablative gives further information about the verb. We find the ablative absolute with adjectives: {i}Ventō secundō nāvēs ē portū ēgrediuntur{/i}. (ll.38–39) The ablative {i}ventō secundō{/i} tells us under what circumstances the ships put out (“with a fair wind,” “when the wind is favorable”). {i}Nautae nec marī turbidō nec marī tranquillō nāvigāre volunt.{/i} (ll.36–37) The sailors are unwilling to sail “when the sea is rough,” “when the sea is calm.” {i}plēnīs vēlīs…vehuntur. {/i}(ll.39–40) They travel “with full sails.” {i}pedibus nūdīs{/i} (Cap. XIV, l.85)"
+          "text": "In this chapter, we learn more about this construction. In the {i}marginalia{/i} of Section I, you read that: {i}marī turbidō = dum mare turbidum est{/i} (l.36) {i}ventō secundō = dum ventus secundus est {/i} (l.38) These are more examples of the ablative used as an adverbial phrase. Such an adverbial phrase, grammatically independent of the rest of the sentence, is called an {b}ablative absolute{/b} (Latin {i}ablātīvus absolūtus,{/i} “set free,” therefore independent). It represents the circumstances occurring around an action. In each of the following, the ablative gives further information about the verb. We find the ablative absolute with adjectives: {i}Ventō secundō nāvēs ē portū ēgrediuntur{/i}. (ll.38–39) The ablative {i}ventō secundō{/i} tells us under what circumstances the ships put out (“with a fair wind,” “when the wind is favorable”). {i}Nautae nec marī turbidō nec marī tranquillō nāvigāre volunt.{/i} (ll.36–37) The sailors are unwilling to sail “when the sea is rough,” “when the sea is calm.” {i}plēnīs vēlīs…vehuntur. {/i} (ll.39–40) They travel “with full sails.” {i}pedibus nūdīs{/i} (Cap. XIV, l.85)"
         },
         {
           "t": "p",
@@ -285,7 +285,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "In the verb {i}īre {/i}(and its compounds), the 1st person {i}eō{/i} and 3rd person {i}eunt{/i} are irregular, e.g.:"
+          "text": "In the verb {i}īre {/i} (and its compounds), the 1st person {i}eō{/i} and 3rd person {i}eunt{/i} are irregular, e.g.:"
         },
         {
           "t": "p",
@@ -334,7 +334,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}In flūminibus et in maribus magnus numerus piscium est.{/i} (Cap. X, 11.41–42) {i}Ergō mīlle passūs sunt quīnque mīlia pedum.{/i} (Cap. XII, ll.96–97) {i}In castrīs Aemiliī sex mīlia mīlitum habitant.{/i} (Cap. XII, ll.97–98) These genitives give the {b}whole{/b} of which the noun is a {b}part{/b}; they are called {b}partitive genitives{/b} (or genitives of the whole). This chapter begins with the {b}partitive genitive{/b} of the relative pronoun: {i}Italia inter duo maria interest, quōrum alterum “mare Superum” {/i} {i}appellātur{/i};{i} quōrum {/i}(={i} ē quibus{/i}: “of which one…the other”) cf. {i}nēmō eōrum{/i} (= {i}ex iīs{/i}, Cap. XVII, l.12)."
+          "text": "{i}In flūminibus et in maribus magnus numerus piscium est.{/i} (Cap. X, 11.41–42) {i}Ergō mīlle passūs sunt quīnque mīlia pedum.{/i} (Cap. XII, ll.96–97) {i}In castrīs Aemiliī sex mīlia mīlitum habitant.{/i} (Cap. XII, ll.97–98) These genitives give the {b}whole{/b} of which the noun is a {b}part{/b}; they are called {b}partitive genitives{/b} (or genitives of the whole). This chapter begins with the {b}partitive genitive{/b} of the relative pronoun: {i}Italia inter duo maria interest, quōrum alterum “mare Superum” {/i} {i}appellātur{/i};{i} quōrum {/i} (={i} ē quibus{/i}: “of which one…the other”) cf. {i}nēmō eōrum{/i} (= {i}ex iīs{/i}, Cap. XVII, l.12)."
         },
         {
           "t": "p",
@@ -350,7 +350,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Nāvis paulō levior fit, simul vērō flūctūs multō altiōrēs fīunt{/i} (ll.123– 124): “a little,” “a lot” The same forms are used with {i}ante{/i} and {i}post{/i} (as adverbs) to state the time difference: {i}paulō ante {/i}(l.148) {i}paulō post{/i} (l.91) cf. the ablative in {i}annō post{/i} (Cap. XIX, l.83) {i}decem annīs ante{/i} (Cap. XIX, l.123)"
+          "text": "{i}Nāvis paulō levior fit, simul vērō flūctūs multō altiōrēs fīunt{/i} (ll.123– 124): “a little,” “a lot” The same forms are used with {i}ante{/i} and {i}post{/i} (as adverbs) to state the time difference: {i}paulō ante {/i} (l.148) {i}paulō post{/i} (l.91) cf. the ablative in {i}annō post{/i} (Cap. XIX, l.83) {i}decem annīs ante{/i} (Cap. XIX, l.123)"
         }
       ],
       "id": "lectio-altera"
@@ -412,6 +412,8 @@ const chapter = {
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",

@@ -122,8 +122,8 @@ const chapter = {
           "text": "Ablative"
         },
         {
-          "t": "p",
-          "text": "{b}of Description{/b}"
+          "t": "h",
+          "text": "of Description"
         },
         {
           "t": "p",
@@ -135,11 +135,15 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "(cf. genitive of description, Cap. XIX) {b}of Separation{/b}"
+          "text": "(cf. genitive of description, Cap. XIX)"
+        },
+        {
+          "t": "h",
+          "text": "of Separation"
         },
         {
           "t": "p",
-          "text": "We saw the ablative of separation with {i}carēre{/i} in Cap. XX, and with {i}pellere {/i}and {i}prohibēre{/i} in Cap. XXVII. With {i}līberāre{/i} and with {i}opus esse{/i} as well we find the ablative of separation without a preposition:"
+          "text": "We saw the ablative of separation with {i}carēre{/i} in Cap. XX, and with {i}pellere {/i} and {i}prohibēre{/i} in Cap. XXVII. With {i}līberāre{/i} and with {i}opus esse{/i} as well we find the ablative of separation without a preposition:"
         },
         {
           "t": "p",
@@ -196,7 +200,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Nōn facile est amōris antīquī oblīvīscī.{/i} (Cap. XXV, l.128) {i}Numquam beneficiī oblītus sum. {/i}(l.26) Its opposites, {i}reminīscī{/i} and {i}meminisse{/i}, meaning “to remember,” also can take a genitive as an object: {i}Nec vērō quidquam difficilius esse vidētur quam beneficiōrum {/i} {i}meminisse{/i}. (ll.125–126) {i}Eius temporis reminīscor.{/i} (ll.155–156)"
+          "text": "{i}Nōn facile est amōris antīquī oblīvīscī.{/i} (Cap. XXV, l.128) {i}Numquam beneficiī oblītus sum. {/i} (l.26) Its opposites, {i}reminīscī{/i} and {i}meminisse{/i}, meaning “to remember,” also can take a genitive as an object: {i}Nec vērō quidquam difficilius esse vidētur quam beneficiōrum {/i} {i}meminisse{/i}. (ll.125–126) {i}Eius temporis reminīscor.{/i} (ll.155–156)"
         },
         {
           "t": "p",
@@ -204,7 +208,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Reminīscī{/i} and{i} meminisse{/i} will take an accusative when they mean “remember” in the literal sense of “retain in memory” but the genitive when they mean “be mindful of,” just as {i}oblīvīscī {/i}takes the accusative when “forget” means “remove from memory” (mostly used of things) and the genitive when it means “disregard.” {i}Note: meminisse{/i} is a defective verb which, like {i}ōdisse{/i} (Cap. XXXI){i},{/i} has no present stem: the perfect form {i}meminī{/i} (“I remember”) is the opposite of {i}oblītus sum{/i} (“I have forgotten”)."
+          "text": "{i}Reminīscī{/i} and{i} meminisse{/i} will take an accusative when they mean “remember” in the literal sense of “retain in memory” but the genitive when they mean “be mindful of,” just as {i}oblīvīscī {/i} takes the accusative when “forget” means “remove from memory” (mostly used of things) and the genitive when it means “disregard.” {i}Note: meminisse{/i} is a defective verb which, like {i}ōdisse{/i} (Cap. XXXI){i},{/i} has no present stem: the perfect form {i}meminī{/i} (“I remember”) is the opposite of {i}oblītus sum{/i} (“I have forgotten”)."
         },
         {
           "t": "h",
@@ -277,7 +281,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Notā Bene: {/i}The perfect subjunctive looks like the future perfect indicative {b}except{/b} for the 1st person singular {i}~erim{/i} (where the future perfect has {i}~erō{/i})."
+          "text": "{i}Notā Bene: {/i} The perfect subjunctive looks like the future perfect indicative {b}except{/b} for the 1st person singular {i}~erim{/i} (where the future perfect has {i}~erō{/i})."
         },
         {
           "t": "p",
@@ -299,15 +303,11 @@ const chapter = {
               "participle stem + present subjunctive of {i}esse{/i}"
             ]
           ]
-        }
-      ],
-      "id": "lectio-altera"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō: Ferre {/i}"
+        },
         {
           "t": "p",
           "text": "For review, compare the present, imperfect, and perfect subjunctives of {i}ferō, {/i} {i}ferre, tulisse, lātum:{/i}"
@@ -436,7 +436,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The perfect subjunctive represents completed action in a subjunctive subordinate clause when the main verb is present or future. {b}Sequence of Tense {/b}"
+          "text": "The perfect subjunctive represents completed action in a subjunctive subordinate clause when the main verb is present or future."
+        },
+        {
+          "t": "h",
+          "text": "Sequence of Tense"
         },
         {
           "t": "table",
@@ -519,7 +523,7 @@ const chapter = {
           "text": "{i}decem mīlia sēstertium{/i} (ll.91, cf. l.170)"
         }
       ],
-      "id": "recensio"
+      "id": "lectio-altera"
     },
     {
       "latin": "Lēctiō Tertia",
@@ -566,13 +570,13 @@ const chapter = {
               "(ll.182–182)"
             ],
             [
-              "{i}Utinam salvī in Graeciam perveniant! {/i}(l.223)"
+              "{i}Utinam salvī in Graeciam perveniant! {/i} (l.223)"
             ]
           ]
         },
         {
           "t": "p",
-          "text": "{i}Utinam{/i} can be left untranslated in English (“may I see my country”) or be translated by “I wish that” or similar. The optative subjunctive to express a wish that something {i}not {/i}happen uses {i}nē{/i} to negate the clause, e.g.: {i}Utinam nē pīrātae mē occīdant!{/i} (ll.179–180)"
+          "text": "{i}Utinam{/i} can be left untranslated in English (“may I see my country”) or be translated by “I wish that” or similar. The optative subjunctive to express a wish that something {i}not {/i} happen uses {i}nē{/i} to negate the clause, e.g.: {i}Utinam nē pīrātae mē occīdant!{/i} (ll.179–180)"
         },
         {
           "t": "h",
@@ -614,7 +618,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "If you separate the two clauses, you can see how the sentences work: {i}Timeō {/i}(I am afraid) {i}nē pīrātae mē occīdant{/i} (may the pirates not kill me!) becomes: I fear that the pirates may kill me. {i}Timeō {/i}(I am afraid) {i}ut ille veniat {/i}(may he come!) becomes: I fear he may not come."
+          "text": "If you separate the two clauses, you can see how the sentences work: {i}Timeō {/i} (I am afraid) {i}nē pīrātae mē occīdant{/i} (may the pirates not kill me!) becomes: I fear that the pirates may kill me. {i}Timeō {/i} (I am afraid) {i}ut ille veniat {/i} (may he come!) becomes: I fear he may not come."
         },
         {
           "t": "h",
@@ -662,16 +666,12 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "something Recall, however, that {i}quis{/i},{i} quid{/i} is used (without {i}ali{/i}-) as an indefinite pronoun after {i}sī{/i}, {i}nisī{/i}, {i}num{/i}, and {i}nē {/i}(Cap. XXII): {i}Nihil cuiquam nārrāvī dē eā rē, nē quis mē glōriōsum exīstimāret.{/i} (ll.135–136) {i}Vērum hōc ānulō sī quis servārī potest,{/i} {i}nōn ego, sed amīca mea {/i} {i}servanda est.{/i} (ll.180–181)"
-        }
-      ],
-      "id": "lectio-tertia"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+          "text": "something Recall, however, that {i}quis{/i},{i} quid{/i} is used (without {i}ali{/i}-) as an indefinite pronoun after {i}sī{/i}, {i}nisī{/i}, {i}num{/i}, and {i}nē {/i} (Cap. XXII): {i}Nihil cuiquam nārrāvī dē eā rē, nē quis mē glōriōsum exīstimāret.{/i} (ll.135–136) {i}Vērum hōc ānulō sī quis servārī potest,{/i} {i}nōn ego, sed amīca mea {/i} {i}servanda est.{/i} (ll.180–181)"
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō: “Qu” words {/i}"
+        },
         {
           "t": "table",
           "rows": [
@@ -826,7 +826,7 @@ const chapter = {
           "text": "{i}adj.{/i})"
         }
       ],
-      "id": "recensio-2"
+      "id": "lectio-tertia"
     },
     {
       "latin": "Studia Rōmāna",
@@ -835,11 +835,11 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "The story of Caesar and the pirates (ll.6–9), related more fully by the {i}gubernātor{/i} (ll.166–177) is told by Plutarch (first–second century), in his biography of Caesar. Piracy (robbery on the sea) was an inveterate problem. According to Thucydides (fifth-century BC Athenian historian), King Minos of Crete (Cap. XXV, l.44) was the first person to establish a navy; he then established colonies around the island, gained control of the waters, and stopped piracy. Rome did not become powerful at sea until the Punic Wars (third century BC). As mentioned briefly in the notes to Cap. XXIX, the Roman navy had made great strides toward policing the seas and keeping them safe from pirates: Pompey in 67 BC (ll.16–41) was granted special military power ({i}māius imperium{/i}) to combat the pirates. Augustus set up permanent naval stations at {i}Mīsēnum{/i} and {i}Ravenna{/i} ({i}Mīsēnum {/i}is on the point west of {i}Puteolī{/i} on the map on p. 40 of your text; {i}Ravenna{/i} is just north of {i}Arīminum{/i} on the same map). Under the empire, control of the coastline around the Mediterranean facilitated safe seas."
+          "text": "The story of Caesar and the pirates (ll.6–9), related more fully by the {i}gubernātor{/i} (ll.166–177) is told by Plutarch (first–second century), in his biography of Caesar. Piracy (robbery on the sea) was an inveterate problem. According to Thucydides (fifth-century BC Athenian historian), King Minos of Crete (Cap. XXV, l.44) was the first person to establish a navy; he then established colonies around the island, gained control of the waters, and stopped piracy. Rome did not become powerful at sea until the Punic Wars (third century BC). As mentioned briefly in the notes to Cap. XXIX, the Roman navy had made great strides toward policing the seas and keeping them safe from pirates: Pompey in 67 BC (ll.16–41) was granted special military power ({i}māius imperium{/i}) to combat the pirates. Augustus set up permanent naval stations at {i}Mīsēnum{/i} and {i}Ravenna{/i} ({i}Mīsēnum {/i} is on the point west of {i}Puteolī{/i} on the map on p. 40 of your text; {i}Ravenna{/i} is just north of {i}Arīminum{/i} on the same map). Under the empire, control of the coastline around the Mediterranean facilitated safe seas."
         },
         {
           "t": "p",
-          "text": "Medus, as a runaway slave, a {i}fugitīvus, {/i}has a lot to worry about. Should he be caught, it would be up to Julius to decide what to do with him—he could indeed, as he had threatened, have him crucified or, as Medus worries, thrown to beasts. We know both from what the Romans wrote and from artifacts that slaves ran away with some frequency. Archaeologists have found shackles, chains, and slave collars that mark the wearer as a slave, with inscriptions with variations of “hold on to me” ({i}tenē mē{/i}…{i}tenē mē quia fugiō et revocā mē {/i} {i}in…{/i})—the same kind of collars that Romans put on their dogs. Instructions are often included for returning the slave. A runaway slave was a thief (he did not belong to himself but to his master). Someone who finds a runaway slave and does not return him is also a thief and a criminal. During the empire, the Romans employed slave catchers ({i}fugitīvāriī{/i}) to help them retrieve their property. During the republic, slave-owners had to rely on their network of friends. We have a {i}commercium epistulārum{/i} (a correspondence of letters) between Cicero and his friends about a runaway slave named Dionysius (an {i}anagnostēs{/i}: a slave who read aloud to the master and his guests, so educated with a good voice and therefore expensive, cf. Cap. XVIII). Cicero writes to his friend Publius Sulpicius Rufus, proconsul in Illyria, for help in recovering his Dionysius, who was in charge of Cicero’s (very valuable) library; he stole many valuable books and, knowing he would not get away with it, ran away. Spotted in Illyria by several of Cicero’s friends, Dionysius claimed he had been set free by Cicero. (For a {i}fugitīvus{/i} to claim to be {i}līber{/i}, according to Justinian’s Digest of Roman Law, was an even more serious offense, {i}Dig{/i}est 11.4.2.). Cicero pleads with Sulpicius to do all he can to have Dionysius returned—a small matter, he says, but his grief at losing the books is great ({i}Ad Fam{/i}. 13.77). At this point, you can read most of it as well! What you can’t yet read is translated in parentheses: {i}Praetereā ā tē petō in māiōrem modum prō nostrā amicitiā et prō {/i} {i}tuō perpetuō {/i}(everlasting{i}) in mē studiō ut in hāc rē etiam ēlabōrēs {/i} ({i}= labōrēs): Dionȳsius, servus meus, quī meam bibliothēcen{/i}{{3}} {i}multōrum nummōrum tractāvit (= cūrāvit), cum multōs librōs {/i} {i}surripuisset {/i}(had stolen){i} nec sē impūnē {/i}(without punishment) {i}lāturum putāret, aufūgit. Is est in prōvinciā tuā. Eum et M. Bolānus, {/i} {i}familiāris {/i}(friend){i} meus, et multī aliī Narōnae {/i}(at Narona){i} vīdērunt, {/i} {i}sed cum sē ā mē manū missum esse dīceret, crēdidērunt. Hunc tū sī {/i} {i}mihi rēstituendum {/i}(will be restored){i} cūrāris {/i}(you will take care that){i}, {/i} {i}nōn possum dīcere quam mihi grātum futūrum sit. Rēs ipsa parva {/i} {i}sed animī meī dolor magnus est. Ubi sit et quid fierī possit Bolānus {/i} {i}te docēbit. Ego, sī hominem per tē reciperārō {/i}(will have regained){i}, {/i} {i}summō mē ā tē beneficiō affectum arbitrābor.{/i}"
+          "text": "Medus, as a runaway slave, a {i}fugitīvus, {/i} has a lot to worry about. Should he be caught, it would be up to Julius to decide what to do with him—he could indeed, as he had threatened, have him crucified or, as Medus worries, thrown to beasts. We know both from what the Romans wrote and from artifacts that slaves ran away with some frequency. Archaeologists have found shackles, chains, and slave collars that mark the wearer as a slave, with inscriptions with variations of “hold on to me” ({i}tenē mē{/i}…{i}tenē mē quia fugiō et revocā mē {/i} {i}in…{/i})—the same kind of collars that Romans put on their dogs. Instructions are often included for returning the slave. A runaway slave was a thief (he did not belong to himself but to his master). Someone who finds a runaway slave and does not return him is also a thief and a criminal. During the empire, the Romans employed slave catchers ({i}fugitīvāriī{/i}) to help them retrieve their property. During the republic, slave-owners had to rely on their network of friends. We have a {i}commercium epistulārum{/i} (a correspondence of letters) between Cicero and his friends about a runaway slave named Dionysius (an {i}anagnostēs{/i}: a slave who read aloud to the master and his guests, so educated with a good voice and therefore expensive, cf. Cap. XVIII). Cicero writes to his friend Publius Sulpicius Rufus, proconsul in Illyria, for help in recovering his Dionysius, who was in charge of Cicero’s (very valuable) library; he stole many valuable books and, knowing he would not get away with it, ran away. Spotted in Illyria by several of Cicero’s friends, Dionysius claimed he had been set free by Cicero. (For a {i}fugitīvus{/i} to claim to be {i}līber{/i}, according to Justinian’s Digest of Roman Law, was an even more serious offense, {i}Dig{/i}est 11.4.2.). Cicero pleads with Sulpicius to do all he can to have Dionysius returned—a small matter, he says, but his grief at losing the books is great ({i}Ad Fam{/i}. 13.77). At this point, you can read most of it as well! What you can’t yet read is translated in parentheses: {i}Praetereā ā tē petō in māiōrem modum prō nostrā amicitiā et prō {/i} {i}tuō perpetuō {/i} (everlasting{i}) in mē studiō ut in hāc rē etiam ēlabōrēs {/i} ({i}= labōrēs): Dionȳsius, servus meus, quī meam bibliothēcen{/i}{{3}} {i}multōrum nummōrum tractāvit (= cūrāvit), cum multōs librōs {/i} {i}surripuisset {/i} (had stolen){i} nec sē impūnē {/i} (without punishment) {i}lāturum putāret, aufūgit. Is est in prōvinciā tuā. Eum et M. Bolānus, {/i} {i}familiāris {/i} (friend){i} meus, et multī aliī Narōnae {/i} (at Narona){i} vīdērunt, {/i} {i}sed cum sē ā mē manū missum esse dīceret, crēdidērunt. Hunc tū sī {/i} {i}mihi rēstituendum {/i} (will be restored){i} cūrāris {/i} (you will take care that){i}, {/i} {i}nōn possum dīcere quam mihi grātum futūrum sit. Rēs ipsa parva {/i} {i}sed animī meī dolor magnus est. Ubi sit et quid fierī possit Bolānus {/i} {i}te docēbit. Ego, sī hominem per tē reciperārō {/i} (will have regained){i}, {/i} {i}summō mē ā tē beneficiō affectum arbitrābor.{/i}"
         },
         {
           "t": "p",
@@ -849,6 +849,8 @@ const chapter = {
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",
@@ -1027,7 +1029,7 @@ const chapter = {
     },
     {
       "group": "‑ere (3)",
-      "latin": "(reminīscor) reminīscī (+ gen. or acc.)",
+      "latin": "(reminīscor) reminīscī (+ {i}gen{/i}. or {i}acc{/i}.)",
       "english": "call to mind, recollect"
     },
     {
@@ -1178,11 +1180,11 @@ const chapter = {
     },
     {
       "n": 2,
-      "text": "Haud sciō an is an idiom meaning “I think x is probably the case” (the same is true of nesciō an and"
+      "text": "Haud sciō an is an idiom meaning “I think x is probably the case” (the same is true of nesciō an and {i}dubitō{/i} {i}an{/i})."
     },
     {
       "n": 3,
-      "text": "Bibliothēcen: Greek βιβλιοθήκη, Latin bibliothēcam."
+      "text": "Bibliothēcen: Greek βιβλιοθήκη,  Latin bibliothēcam."
     }
   ]
 }

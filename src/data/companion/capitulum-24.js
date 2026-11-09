@@ -118,7 +118,7 @@ const chapter = {
             ],
             [
               "{i}certō{/i} (l.59)",
-              "{i}prīmō {/i}(l.100, “at first”){{1}}"
+              "{i}prīmō {/i} (l.100, “at first”){{1}}"
             ],
             [
               "{i}postrēmō{/i} (l.78)"
@@ -237,7 +237,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The {b}imperative{/b} of deponent verbs ending in {i}-re {/i}is treated in the next chapter, but note the following examples of the imperative: {i}Cōnsōlāre mē, Syra!{/i} (l.40) {i}loquere mēcum{/i}! (l.41) {i}immō laetāre{/i} (l.44)"
+          "text": "The {b}imperative{/b} of deponent verbs ending in {i}-re {/i} is treated in the next chapter, but note the following examples of the imperative: {i}Cōnsōlāre mē, Syra!{/i} (l.40) {i}loquere mēcum{/i}! (l.41) {i}immō laetāre{/i} (l.44)"
         }
       ],
       "id": "lectio-prima"
@@ -332,7 +332,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "({i}cadō{/i}) {i}cadere, cecidisse, cāsum{/i} ({i}cognōscō{/i}) {i}cognōscere, cognōvisse, cognitum{/i} ({i}cōnor{/i}) {i}cōnārī, cōnātum{/i} ({i}dō{/i}) {i}dare, dedisse, datum{/i} ({i}eō{/i}) {i}īre, īvisse {/i}(or {i}iisse{/i}),{i} itum{/i} ({i}fateor{/i}) {i}fatērī, fassum{/i} ({i}frangō{/i}) {i}frangere, frēgisse, frāctum{/i} ({i}lavō{/i}) {i}lavāre, lāvisse, lautum{/i} (or {i}lavātum{/i}) ({i}loquor{/i}) {i}loquī, locūtum{/i} ({i}lūdō{/i}) {i}lūdere, lūsisse{/i} ({i}mentior{/i}) {i}mentīrī, mentītum{/i} ({i}mordeō{/i}) {i}mordēre, momordisse, morsum{/i} ({i}nōscō{/i}) {i}nōscere, nōvisse, nōtum{/i} ({i}percutiō{/i}) {i}percutere, percussisse, percussum{/i} ({i}reprehendō{/i}) {i}reprehendere, reprehendisse, reprehēnsum{/i} ({i}vereor{/i}) {i}verērī, veritum{/i} ({i}videō{/i}) {i}vidēre, vīdisse, vīsum{/i} ({i}volō{/i}) {i}velle, voluisse{/i}"
+          "text": "({i}cadō{/i}) {i}cadere, cecidisse, cāsum{/i} ({i}cognōscō{/i}) {i}cognōscere, cognōvisse, cognitum{/i} ({i}cōnor{/i}) {i}cōnārī, cōnātum{/i} ({i}dō{/i}) {i}dare, dedisse, datum{/i} ({i}eō{/i}) {i}īre, īvisse {/i} (or {i}iisse{/i}),{i} itum{/i} ({i}fateor{/i}) {i}fatērī, fassum{/i} ({i}frangō{/i}) {i}frangere, frēgisse, frāctum{/i} ({i}lavō{/i}) {i}lavāre, lāvisse, lautum{/i} (or {i}lavātum{/i}) ({i}loquor{/i}) {i}loquī, locūtum{/i} ({i}lūdō{/i}) {i}lūdere, lūsisse{/i} ({i}mentior{/i}) {i}mentīrī, mentītum{/i} ({i}mordeō{/i}) {i}mordēre, momordisse, morsum{/i} ({i}nōscō{/i}) {i}nōscere, nōvisse, nōtum{/i} ({i}percutiō{/i}) {i}percutere, percussisse, percussum{/i} ({i}reprehendō{/i}) {i}reprehendere, reprehendisse, reprehēnsum{/i} ({i}vereor{/i}) {i}verērī, veritum{/i} ({i}videō{/i}) {i}vidēre, vīdisse, vīsum{/i} ({i}volō{/i}) {i}velle, voluisse{/i}"
         },
         {
           "t": "h",
@@ -376,7 +376,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "English would have used the perfect of “break” in both clauses: “I’m amazed that you {b}did not break{/b} your leg. You {b}could{/b} easily {b}have broken{/b} a bone.” In English, in other words, we would use a subjunctive (could/might have broken). {i}Posse{/i}, however, works differently. To express what could have happened in the past, but didn’t, Latin uses a past indicative tense of the verb {i}posse{/i} with a present infinitive. {b}Hyperbaton{/b}"
+          "text": "English would have used the perfect of “break” in both clauses: “I’m amazed that you {b}did not break{/b} your leg. You {b}could{/b} easily {b}have broken{/b} a bone.” In English, in other words, we would use a subjunctive (could/might have broken). {i}Posse{/i}, however, works differently. To express what could have happened in the past, but didn’t, Latin uses a past indicative tense of the verb {i}posse{/i} with a present infinitive."
+        },
+        {
+          "t": "h",
+          "text": "Hyperbaton"
         },
         {
           "t": "p",
@@ -389,15 +393,11 @@ const chapter = {
         {
           "t": "p",
           "text": "Marcus throws emphasis on the word {i}māter{/i} by putting it first. Making the word order reflect the emphasis of thought is called {b}hyperbaton{/b} and is an important feature of Latin style."
-        }
-      ],
-      "id": "lectio-altera"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō: The Verbal System (thus far){/i}"
+        },
         {
           "t": "p",
           "text": "Verbs have:"
@@ -524,11 +524,15 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "speak Latin, I did try {i}Latīnē loquī cōnātus{/i}/{i}a eram, {/i} I had tried to speak Latin, but"
+          "text": "speak Latin, I did try"
         },
         {
           "t": "table",
           "rows": [
+            [
+              "{i}Latīnē loquī cōnātus{/i}/{i}a eram, {/i}",
+              "I had tried to speak Latin, but"
+            ],
             [
               "{i}sed nōn potuī{/i}.",
               "I could not."
@@ -714,7 +718,7 @@ const chapter = {
           ]
         }
       ],
-      "id": "recensio"
+      "id": "lectio-altera"
     },
     {
       "latin": "Studia Rōmāna",
@@ -727,12 +731,14 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Breakfast was a very light meal and seems to have been optional. The breaking of the night fast was often the {i}prandium{/i}, a simple meal taken late morning or noontime. That breakfast ({i}ientāculum{/i}) was originally called {i}prandicula{/i}, or little {i}prandium{/i} ({i}prandicula antīquī dīcēbant, quae nunc ientācula{/i}{{3}}), suggests the {i}prandium {/i}was often the first meal of the day. The poet Horace (65–8 BC), writing about his moderate (and therefore virtuous) habits, claims he rises late and, after a variety of activities, has his first (around midday) meal: “After eating sparingly—as much as keeps me from enduring the day on an empty stomach, I relax at home” ({i}prānsus nōn avidē, quantum interpellet inānī{/i}/{i}ventre diem dūrāre, domesticus ōtior{/i}, {i}Sat{/i}. 1.6.127–28). That’s fine for Horace, but Martial tells us that early-rising schoolboys grabbed something on their way: “Get up! The baker is already selling breakfast to boys/and the crested birds of daylight are everywhere singing” ({i}Surgite: iam vendit puerīs ientācula pistor{/i}/ {i}Cristātaeque sonant undique lūcis avēs, {/i}14.223). These meals were simple and probably consisted of bread and vegetables. (The number of bakeries—with and without milling equipment—in Pompeii shows the importance of bread.) A. Cornelius Celsus (first century AD), who wrote an encyclopedia of medicine ({i}dē Medicīnā{/i}), sensibly remarks that food intake depends on one’s age, activity, and the time of year. He suggests one meal a day in winter (if one must eat {i}prandium{/i}, skip the meat and wine!) and in summer, one should include the {i}prandium {/i}({i}Aestāte vērō et potiōne et cibō saepius corpus eget; ideō prandēre {/i} {i}quoque commodum est{/i}, I.3). The main meal of the day was called the {i}cēna. {/i}Generally, the Romans talk about three courses to the {i}cēna{/i}: {i}gustātiō{/i} (appetizer), {i}cēna {/i}(the main course){i}, {/i} {i}secunda mēnsa{/i} (dessert). Again, the poet Horace claims that, at the end of the day, “I go home back home to a bowl of leaks and chickpeas and flatbread” ({i}inde domum mē ad porrī et ciceris referō laganīque catīnum{/i}, {i}Sat.{/i} 1.6.114–115). At the other end of the spectrum are the satiric meals, such as a dinner at Trimalchio’s house (in Petronius’s first-century AD {i}Satyricon{/i}), which consisted of an absurd number, amount, and variety of foodstuffs. The Romans seem to have eaten a good deal of pork. Fish was a prized delicacy (the fish swimming in the fishponds mentioned in Cap. XI were dinner as well as pets). Two poems of Horace satirizing effete and pretentious “foodies” ({i}Satires{/i} 2.4 and 2.8) and the survival of a Roman cookery book named after the first-century AD gourmand Apicius (but actually written in the fourth century AD) are some of the many testimonies to the Roman infatuation with {i}ars culīnāria. {/i}A staple of Roman cookery was {i}garum{/i}, a sauce produced by fermenting fish with salt out in the sun for several months. {i}Garum{/i} is also called {i}liquāmen{/i}, a word which means a liquid mixture, but comes to be synonymous with the famous (and lucrative) sauce. {i}Aulus Umbricius Scaurus{/i} made so much money producing and selling his {i}garum{/i} that he put a mosaic depicting a jar of his fish sauce in the atrium of his house. {i}Garum{/i}, like wine, came in various qualities and was traded all over the Mediterranean. From time to time, the Romans—mostly in vain—enacted sumptuary laws that tried to curtail extravagance in general and at meals in particular."
+          "text": "Breakfast was a very light meal and seems to have been optional. The breaking of the night fast was often the {i}prandium{/i}, a simple meal taken late morning or noontime. That breakfast ({i}ientāculum{/i}) was originally called {i}prandicula{/i}, or little {i}prandium{/i} ({i}prandicula antīquī dīcēbant, quae nunc ientācula{/i}{{3}}), suggests the {i}prandium {/i} was often the first meal of the day. The poet Horace (65–8 BC), writing about his moderate (and therefore virtuous) habits, claims he rises late and, after a variety of activities, has his first (around midday) meal: “After eating sparingly—as much as keeps me from enduring the day on an empty stomach, I relax at home” ({i}prānsus nōn avidē, quantum interpellet inānī{/i}/{i}ventre diem dūrāre, domesticus ōtior{/i}, {i}Sat{/i}. 1.6.127–28). That’s fine for Horace, but Martial tells us that early-rising schoolboys grabbed something on their way: “Get up! The baker is already selling breakfast to boys/and the crested birds of daylight are everywhere singing” ({i}Surgite: iam vendit puerīs ientācula pistor{/i}/ {i}Cristātaeque sonant undique lūcis avēs, {/i} 14.223). These meals were simple and probably consisted of bread and vegetables. (The number of bakeries—with and without milling equipment—in Pompeii shows the importance of bread.) A. Cornelius Celsus (first century AD), who wrote an encyclopedia of medicine ({i}dē Medicīnā{/i}), sensibly remarks that food intake depends on one’s age, activity, and the time of year. He suggests one meal a day in winter (if one must eat {i}prandium{/i}, skip the meat and wine!) and in summer, one should include the {i}prandium {/i} ({i}Aestāte vērō et potiōne et cibō saepius corpus eget; ideō prandēre {/i} {i}quoque commodum est{/i}, I.3). The main meal of the day was called the {i}cēna. {/i} Generally, the Romans talk about three courses to the {i}cēna{/i}: {i}gustātiō{/i} (appetizer), {i}cēna {/i} (the main course){i}, {/i} {i}secunda mēnsa{/i} (dessert). Again, the poet Horace claims that, at the end of the day, “I go home back home to a bowl of leaks and chickpeas and flatbread” ({i}inde domum mē ad porrī et ciceris referō laganīque catīnum{/i}, {i}Sat.{/i} 1.6.114–115). At the other end of the spectrum are the satiric meals, such as a dinner at Trimalchio’s house (in Petronius’s first-century AD {i}Satyricon{/i}), which consisted of an absurd number, amount, and variety of foodstuffs. The Romans seem to have eaten a good deal of pork. Fish was a prized delicacy (the fish swimming in the fishponds mentioned in Cap. XI were dinner as well as pets). Two poems of Horace satirizing effete and pretentious “foodies” ({i}Satires{/i} 2.4 and 2.8) and the survival of a Roman cookery book named after the first-century AD gourmand Apicius (but actually written in the fourth century AD) are some of the many testimonies to the Roman infatuation with {i}ars culīnāria. {/i} A staple of Roman cookery was {i}garum{/i}, a sauce produced by fermenting fish with salt out in the sun for several months. {i}Garum{/i} is also called {i}liquāmen{/i}, a word which means a liquid mixture, but comes to be synonymous with the famous (and lucrative) sauce. {i}Aulus Umbricius Scaurus{/i} made so much money producing and selling his {i}garum{/i} that he put a mosaic depicting a jar of his fish sauce in the atrium of his house. {i}Garum{/i}, like wine, came in various qualities and was traded all over the Mediterranean. From time to time, the Romans—mostly in vain—enacted sumptuary laws that tried to curtail extravagance in general and at meals in particular."
         }
       ],
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "2nd",
@@ -773,6 +779,11 @@ const chapter = {
       "group": "‑āre (1)",
       "latin": "(ignōrō) ignōrāre, ignōrāvisse,  ignōrātum",
       "english": "not to know, be ignorant of"
+    },
+    {
+      "group": "‑āre (1)",
+      "latin": "(mīror) mīrārī, mīrātum",
+      "english": "wonder at"
     },
     {
       "group": "‑ēre (2)",

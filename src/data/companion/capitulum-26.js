@@ -95,7 +95,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Ibi nāvis mea parāta est ad nāvigandum.{/i} (ll.93–94) {i}Parāta sum ad fugiendum.{/i} (l.97) The words {i}nāvigandum {/i}and{i} fugiendum{/i} are gerunds. The {b}gerund{/b}:"
+          "text": "{i}Ibi nāvis mea parāta est ad nāvigandum.{/i} (ll.93–94) {i}Parāta sum ad fugiendum.{/i} (l.97) The words {i}nāvigandum {/i} and{i} fugiendum{/i} are gerunds. The {b}gerund{/b}:"
         },
         {
           "t": "li",
@@ -145,11 +145,12 @@ const chapter = {
               "for recounting (stories). (ll.10–11)"
             ],
             [
-              "{i}Haud longum tempus nōbīs {/i} There is not much time left to us"
+              "{i}Haud longum tempus nōbīs {/i}",
+              "There is not much time left to us"
             ],
             [
               "{i}reliquum est ad vīvendum{/i}.",
-              "for living{i}. {/i}(l.28)"
+              "for living{i}. {/i} (l.28)"
             ],
             [
               "{i}ūna via nōbīs patet ad {/i}",
@@ -200,11 +201,15 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "(= {i}tempus est dormīre{/i}) ▷ or as an objective genitive with the adjectives {i}cupidus{/i} and {i}studiōsus{/i}: {i}cupidus audiendī studiōsus {/i} desirous of hearing (ll.17–18,"
+          "text": "(= {i}tempus est dormīre{/i}) ▷ or as an objective genitive with the adjectives {i}cupidus{/i} and {i}studiōsus{/i}:"
         },
         {
           "t": "table",
           "rows": [
+            [
+              "{i}cupidus audiendī studiōsus {/i}",
+              "desirous of hearing (ll.17–18,"
+            ],
             [
               "{i}volandī {/i}",
               "cf. l.108) eager for flying (l.43)"
@@ -285,15 +290,15 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "As well as among 3rd declension adjectives (as you learned in Cap. XIII): {i}September,{/i} (gen.){i} Septembris{/i} {i}Octōber, {/i}(gen.) {i}Octōbris{/i} {i}November, {/i}(gen.) {i}Novembris{/i} {i}December,{/i} (gen.) {i}Decembris{/i}"
+          "text": "As well as among 3rd declension adjectives (as you learned in Cap. XIII): {i}September,{/i} (gen.){i} Septembris{/i} {i}Octōber, {/i} (gen.) {i}Octōbris{/i} {i}November, {/i} (gen.) {i}Novembris{/i} {i}December,{/i} (gen.) {i}Decembris{/i}"
         },
         {
           "t": "p",
-          "text": "The following are examples of 3rd declension adjectives in {i}-er{/i} that have three endings in the nominative ({i}-er, {/i}({i}e{/i}){i}ris, {/i}({i}e{/i}){i}re{/i}): {i}celer, celer{/i}|{i}is, celer{/i}|{i}e{/i} {i}ācer, ācr{/i}|{i}is, ācr{/i}|{i}e{/i}"
+          "text": "The following are examples of 3rd declension adjectives in {i}-er{/i} that have three endings in the nominative ({i}-er, {/i} ({i}e{/i}){i}ris, {/i} ({i}e{/i}){i}re{/i}): {i}celer, celer{/i}|{i}is, celer{/i}|{i}e{/i} {i}ācer, ācr{/i}|{i}is, ācr{/i}|{i}e{/i}"
         },
         {
           "t": "p",
-          "text": "{i}Notā Bene: {/i}Look to the feminine and neuter nominative singulars to see whether an adjective in {i}-er{/i} has the {i}e{/i} (like {i}celer, celeris{/i}) or lacks it (like {i}ācer, {/i} {i}ācris{/i})."
+          "text": "{i}Notā Bene: {/i} Look to the feminine and neuter nominative singulars to see whether an adjective in {i}-er{/i} has the {i}e{/i} (like {i}celer, celeris{/i}) or lacks it (like {i}ācer, {/i} {i}ācris{/i})."
         },
         {
           "t": "p",
@@ -313,7 +318,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "In Cap. III, you learned that Latin uses the conjunction {i}neque {/i}to express “and not, but not” (instead of {i}et nōn{/i} and {i}sed nōn{/i}). Similarly, in Cap. XIX, we found {i}neque ūllus{/i} for “and no one,” {b}not{/b} {i}“et nūllus{/i}.” This chapter adds two more such negations:"
+          "text": "In Cap. III, you learned that Latin uses the conjunction {i}neque {/i} to express “and not, but not” (instead of {i}et nōn{/i} and {i}sed nōn{/i}). Similarly, in Cap. XIX, we found {i}neque ūllus{/i} for “and no one,” {b}not{/b} {i}“et nūllus{/i}.” This chapter adds two more such negations:"
         },
         {
           "t": "li",
@@ -328,8 +333,8 @@ const chapter = {
           "text": "Similarly, et is avoided before numquam by using neque umquam (Cap. XXIII, l.26, “and never”)."
         },
         {
-          "t": "p",
-          "text": "{b}Summary{/b}"
+          "t": "h",
+          "text": "Summary"
         },
         {
           "t": "table",
@@ -451,7 +456,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Daedalus in labyrinthō inclūsus errābat. {/i}(l.19) {i}Nēmō nōs volantēs persequī poterit.{/i} (l.42) {i}Tum puerum ōsculātus, “Parātī sumus ad volandum,” inquit. {/i} (ll.75–76) {i}Haec verba locūtus Daedalus cum fīliō sūrsum ē labyrinthō ēvolāvit. {/i} (ll.83–84) {i}Aliquī pāstor, quī forte suspiciēns eōs tamquam magnās avēs volantēs {/i} {i}vīdit.{/i} (ll.85–86) {i}novā lībertāte dēlectātī{/i} (l.89) {i}Īcarus{/i} {i}dēspiciēns multitūdinem īnsulārum mīrātus est. {/i}(ll.90–91) {i}dēspiciēbat mīrāns{/i} (l.106) {i}Sōlem in caelō serēnō lūcentem suspexit.{/i} (ll.107–108) {i}Puer territus, lacertōs nūdōs quatiēns, in mare cecidit. {/i}(ll.115–116) {i}lībertātem quaerēns mortem invēnit. {/i}(l.122) {i}quī currum patris regere cōnātus item dē summō caelō cecidit{/i} (ll.127–128) {i}Hīs verbīs puerō monitō {/i}(l.141) {i}Neque Quīntus eam abeuntem revocat. {/i}(l.142)"
+          "text": "{i}Daedalus in labyrinthō inclūsus errābat. {/i} (l.19) {i}Nēmō nōs volantēs persequī poterit.{/i} (l.42) {i}Tum puerum ōsculātus, “Parātī sumus ad volandum,” inquit. {/i} (ll.75–76) {i}Haec verba locūtus Daedalus cum fīliō sūrsum ē labyrinthō ēvolāvit. {/i} (ll.83–84) {i}Aliquī pāstor, quī forte suspiciēns eōs tamquam magnās avēs volantēs {/i} {i}vīdit.{/i} (ll.85–86) {i}novā lībertāte dēlectātī{/i} (l.89) {i}Īcarus{/i} {i}dēspiciēns multitūdinem īnsulārum mīrātus est. {/i} (ll.90–91) {i}dēspiciēbat mīrāns{/i} (l.106) {i}Sōlem in caelō serēnō lūcentem suspexit.{/i} (ll.107–108) {i}Puer territus, lacertōs nūdōs quatiēns, in mare cecidit. {/i} (ll.115–116) {i}lībertātem quaerēns mortem invēnit. {/i} (l.122) {i}quī currum patris regere cōnātus item dē summō caelō cecidit{/i} (ll.127–128) {i}Hīs verbīs puerō monitō {/i} (l.141) {i}Neque Quīntus eam abeuntem revocat. {/i} (l.142)"
         }
       ],
       "id": "lectio-tertia"
@@ -471,7 +476,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}āēr{/i}, Cap. X; {i}vacuus{/i}, Cap. IV; {i}pinna = penna{/i}; {i}perrumpere < per{/i} + {i}rumpere{/i} (Cap. XXII); {i}Acheron, Acherontis{/i}, m.: a river in the underworld; {i}Acheronta{/i} is accusative; {i}Herculeus, -a, -um{/i}: of Hercules; {i}labor, -ōris{/i}, m.: labor, work (Cap. XXVII); {i}mortālis, -e{/i}: mortal (Cap. XXVIII); {i}arduus, -a, -um{/i}: diffi cult (Cap. XXXIII); {i}stultitia, -ae{/i} < {i}stultus, -a, -um{/i} (Cap. XI); {i}patī, passum{/i}: Cap. XXIV; {i}scelus, sceleris{/i}, n.: crime, wickedness (Cap. XXXI); {i}īrācundus, -a, -um{/i} = prone to anger (cf. {i}irātus, {/i}Cap. III); {i}fulmen, fulminis, {/i}n.: lightning bolt (cf. Cap. XVI {i}fulgur{/i}: flash of lightning); {i}ponere {/i}= {i}dēponere{/i}: put down, set aside. {b}Notes{/b} {i}Expertus{/i}: understand {i}est{/i} {i}Nil arduī{/i}: cf Cap. XVI: Partitive genitive with {i}paulum, multum; nīl{/i} = {i}nihil{/i}"
+          "text": "{i}āēr{/i}, Cap. X; {i}vacuus{/i}, Cap. IV; {i}pinna = penna{/i}; {i}perrumpere < per{/i} + {i}rumpere{/i} (Cap. XXII); {i}Acheron, Acherontis{/i}, m.: a river in the underworld; {i}Acheronta{/i} is accusative; {i}Herculeus, -a, -um{/i}: of Hercules; {i}labor, -ōris{/i}, m.: labor, work (Cap. XXVII); {i}mortālis, -e{/i}: mortal (Cap. XXVIII); {i}arduus, -a, -um{/i}: diffi cult (Cap. XXXIII); {i}stultitia, -ae{/i} < {i}stultus, -a, -um{/i} (Cap. XI); {i}patī, passum{/i}: Cap. XXIV; {i}scelus, sceleris{/i}, n.: crime, wickedness (Cap. XXXI); {i}īrācundus, -a, -um{/i} = prone to anger (cf. {i}irātus, {/i} Cap. III); {i}fulmen, fulminis, {/i} n.: lightning bolt (cf. Cap. XVI {i}fulgur{/i}: flash of lightning); {i}ponere {/i} = {i}dēponere{/i}: put down, set aside. {b}Notes{/b} {i}Expertus{/i}: understand {i}est{/i} {i}Nil arduī{/i}: cf Cap. XVI: Partitive genitive with {i}paulum, multum; nīl{/i} = {i}nihil{/i}"
         },
         {
           "t": "p",
@@ -479,12 +484,14 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Iūppiter {/i} {i}Iovem {/i} {i}Iovis {/i} {i}Iovi {/i} {i}Iove{/i} Quintus says the story of Icarus delights him more than the one about the son of the sun god (ll.125–129 and 25.6–7). He refers to {i}Phaëthōn{/i}, the son of Helios (the sun god) and a mortal woman, {i}Clymenē{/i}. Helios promised to give Phaethon whatever he wanted. Phaethon wanted, as it were, the keys to the chariot of the sun, even though driving the four horses across the sky was far beyond his strength and experience. When the boy began driving erratically, bringing the sun now too close to, now too far from the earth, Juppiter had no choice but to strike the boy from the sky. Cicero ({i}dē Officiīs {/i}3.94) uses the story of Phaethon as an example of promises that should not be kept because they are harmful to the recipient. He ends with {i}quantō melius fuerat in hōc promissum patris nōn esse servātum{/i}: “how much better it would have been in this case had the promise of the father not been kept!”"
+          "text": "{i}Iūppiter {/i} {i}Iovem {/i} {i}Iovis {/i} {i}Iovi {/i} {i}Iove{/i} Quintus says the story of Icarus delights him more than the one about the son of the sun god (ll.125–129 and 25.6–7). He refers to {i}Phaëthōn{/i}, the son of Helios (the sun god) and a mortal woman, {i}Clymenē{/i}. Helios promised to give Phaethon whatever he wanted. Phaethon wanted, as it were, the keys to the chariot of the sun, even though driving the four horses across the sky was far beyond his strength and experience. When the boy began driving erratically, bringing the sun now too close to, now too far from the earth, Juppiter had no choice but to strike the boy from the sky. Cicero ({i}dē Officiīs {/i} 3.94) uses the story of Phaethon as an example of promises that should not be kept because they are harmful to the recipient. He ends with {i}quantō melius fuerat in hōc promissum patris nōn esse servātum{/i}: “how much better it would have been in this case had the promise of the father not been kept!”"
         }
       ],
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",

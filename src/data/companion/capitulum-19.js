@@ -88,7 +88,7 @@ const chapter = {
               "depth": 1
             },
             {
-              "text": "f. dignus (Ablative of Respect)",
+              "text": "f. dignus  (Ablative of Respect)",
               "depth": 1
             },
             {
@@ -107,11 +107,11 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "Undisturbed by their noisy children, Julius and Aemilia are walking up and down in the beautiful peristyle, which is adorned with statues of gods and goddesses. Romans could take the choice of sculptural decoration very seriously. Letters written by Cicero in the first century BC demonstrate both his zeal to acquire appropriate ornamentation for his several country estates and his annoyance when his agents picked out statues that didn’t project the right image: “Really, why a statue of Mars for me, a proponent of peace?” ({i}Epistulae {/i} {i}ad Familiārēs{/i}, VII.23:{i} Martis vērō signum quō mihi pācis auctōrī{/i}?). Great numbers of statues were imported from Greece; Cicero thanks his friend Atticus for sending a number of statues (which he has not yet even seen, since they were delivered to one of his estates) and details his plans for distributing them among his {i}villae {/i}({i}Epistulae ad Atticum{/i}, I.4)."
+          "text": "Undisturbed by their noisy children, Julius and Aemilia are walking up and down in the beautiful peristyle, which is adorned with statues of gods and goddesses. Romans could take the choice of sculptural decoration very seriously. Letters written by Cicero in the first century BC demonstrate both his zeal to acquire appropriate ornamentation for his several country estates and his annoyance when his agents picked out statues that didn’t project the right image: “Really, why a statue of Mars for me, a proponent of peace?” ({i}Epistulae {/i} {i}ad Familiārēs{/i}, VII.23:{i} Martis vērō signum quō mihi pācis auctōrī{/i}?). Great numbers of statues were imported from Greece; Cicero thanks his friend Atticus for sending a number of statues (which he has not yet even seen, since they were delivered to one of his estates) and details his plans for distributing them among his {i}villae {/i} ({i}Epistulae ad Atticum{/i}, I.4)."
         },
         {
           "t": "p",
-          "text": "Among the names of the gods, notice the name of the supreme god {i}Iūppiter {/i} {i}Iov{/i}|{i}is{/i}; the stem is {i}Iov{/i}- (meaning “sky”), and the long nominative form is due to the addition of {i}pater{/i} weakened to {i}-piter.{/i} The Roman gods were identified with the Greek, e.g., {i}Iūppiter{/i}{{1}} with {i}Zeus{/i}, his wife {i}Iūnō {/i}with {i}Hēra{/i},{i} Venus {/i}with {i}Aphrodītē{/i}, the goddess of love; {i}Aphrodītē’s {/i}son {i}Erōs {/i}became {i}Cupīdō {/i}(“desire”)."
+          "text": "Among the names of the gods, notice the name of the supreme god {i}Iūppiter {/i} {i}Iov{/i}|{i}is{/i}; the stem is {i}Iov{/i}- (meaning “sky”), and the long nominative form is due to the addition of {i}pater{/i} weakened to {i}-piter.{/i} The Roman gods were identified with the Greek, e.g., {i}Iūppiter{/i}{{1}} with {i}Zeus{/i}, his wife {i}Iūnō {/i} with {i}Hēra{/i},{i} Venus {/i} with {i}Aphrodītē{/i}, the goddess of love; {i}Aphrodītē’s {/i} son {i}Erōs {/i} became {i}Cupīdō {/i} (“desire”)."
         }
       ],
       "id": "topic"
@@ -127,7 +127,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Iūppiter{/i} has the honorific titles {i}Optimus Māximus,{/i} which are the superlatives of {i}bonus{/i} and {i}magnus.{/i} The comparison of these adjectives and their opposites {i}malus{/i} and {i}parvus{/i} is quite irregular. So is the comparison of {i}multī{/i}: comp. {i}plūrēs,{/i} sup. {i}plūrimī. {/i}Look at these examples:"
+          "text": "{i}Iūppiter{/i} has the honorific titles {i}Optimus Māximus,{/i} which are the superlatives of {i}bonus{/i} and {i}magnus.{/i} The comparison of these adjectives and their opposites {i}malus{/i} and {i}parvus{/i} is quite irregular. So is the comparison of {i}multī{/i}: comp. {i}plūrēs,{/i} sup. {i}plūrimī. {/i} Look at these examples:"
         },
         {
           "t": "p",
@@ -135,7 +135,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}bonus {/i}(ll.25–30):"
+          "text": "{i}bonus {/i} (ll.25–30):"
         },
         {
           "t": "p",
@@ -143,11 +143,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}magnus {/i}and {i}parvus {/i}(ll.35–37): {i}Quīntus māior est quam Iūlia et minor quam Mārcus.{/i} {i}Māximus līberōrum est Mārcus, minima est Iūlia.{/i}"
+          "text": "{i}magnus {/i} and {i}parvus {/i} (ll.35–37): {i}Quīntus māior est quam Iūlia et minor quam Mārcus.{/i} {i}Māximus līberōrum est Mārcus, minima est Iūlia.{/i}"
         },
         {
           "t": "p",
-          "text": "{i}multī {/i}(ll.52, 54): {i}Rōmae plūrēs hominēs habitant quam in ūllā aliā urbe imperiī Rōmānī. {/i} {i}Urbs Rōma plūrimōs hominēs et plūrimās domōs habet.{/i}"
+          "text": "{i}multī {/i} (ll.52, 54): {i}Rōmae plūrēs hominēs habitant quam in ūllā aliā urbe imperiī Rōmānī. {/i} {i}Urbs Rōma plūrimōs hominēs et plūrimās domōs habet.{/i}"
         },
         {
           "t": "table",
@@ -197,7 +197,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}“mea optima uxor”{/i} (l.90): “my excellent wife” {i}vir pessimus{/i} (l.110) {i}“mī optime vir” {/i}(l.94) {i}Tunc miserrima eram {/i}(l.107) {i}virgō pauperrima {/i}(l.128)"
+          "text": "{i}“mea optima uxor”{/i} (l.90): “my excellent wife” {i}vir pessimus{/i} (l.110) {i}“mī optime vir” {/i} (l.94) {i}Tunc miserrima eram {/i} (l.107) {i}virgō pauperrima {/i} (l.128)"
         },
         {
           "t": "h",
@@ -217,7 +217,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Iūlius et Aemilia sunt parentēs trium līberōrum{/i}:{i} duōrum fīliōrum et {/i} {i}ūnīus fīliae. {/i}(ll.31–32)"
+          "text": "{i}Iūlius et Aemilia sunt parentēs trium līberōrum{/i}:{i} duōrum fīliōrum et {/i} {i}ūnīus fīliae. {/i} (ll.31–32)"
         },
         {
           "t": "p",
@@ -283,7 +283,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Ūnus, -a, -um {/i}is one of a small group of pronouns and adjectives whose genitive singulars end in {i}-īus {/i} and dative singulars in {i}ī{/i}. You meet some more of these in this chapter:"
+          "text": "{i}Ūnus, -a, -um {/i} is one of a small group of pronouns and adjectives whose genitive singulars end in {i}-īus {/i} and dative singulars in {i}ī{/i}. You meet some more of these in this chapter:"
         },
         {
           "t": "table",
@@ -314,23 +314,23 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "neque ūlla dea pēior uxor est quam Venus. (l.14)"
+          "text": "neque ūlla dea pēior uxor est quam Venus.  (l.14)"
         },
         {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "Iūlius…uxōrem suam neque ūllam aliam fēminam amat. (ll.24–25)"
+          "text": "Iūlius…uxōrem suam neque ūllam aliam fēminam amat.  (ll.24–25)"
         },
         {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "Aemilia…marītum suum neque ūllum alium virum amat. (ll.26–27)"
+          "text": "Aemilia…marītum suum neque ūllum alium virum amat.  (ll.26–27)"
         },
         {
           "t": "p",
-          "text": "So, we find {i}ūllus {/i}only with a negative."
+          "text": "So, we find {i}ūllus {/i} only with a negative."
         },
         {
           "t": "h",
@@ -350,7 +350,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The last example ({i}Adulēscēns vīgintī duōrum annōrum erat{/i}) has {i}erat,{/i} not {i}est,{/i} because this was ten years ago (he is no longer {i}adulēscēns{/i}). {i}Est {/i}describes the present, {i}erat{/i} the past. Compare the two sentences:"
+          "text": "The last example ({i}Adulēscēns vīgintī duōrum annōrum erat{/i}) has {i}erat,{/i} not {i}est,{/i} because this was ten years ago (he is no longer {i}adulēscēns{/i}). {i}Est {/i} describes the present, {i}erat{/i} the past. Compare the two sentences:"
         },
         {
           "t": "table",
@@ -366,11 +366,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The form {i}amā{/i}|{i}bat{/i} is the {b}past tense{/b} or {b}preterite{/b} (Latin {i}tempus praeteritum{/i}) of the verb {i}amā{/i}|{i}re,{/i} as distinct from {i}ama{/i}|{i}t,{/i} which is the {b}present tense{/b} (Latin {i}tempus praesēns{/i}). The preterite or past tense occurring in this chapter is called the {b}imperfect{/b} (Latin {i}praeteritum imperfectum,{/i} “incompleted past”). The {b}imperfect{/b} denotes a past state of things or an action going on (not completed) or repeated in the past. In each of the following examples, the action goes on over a period of time: {i}ūlius et Aemilia Rōmae habitābant{/i}: used to live; were living {i}Iūlius cotīdiē epistulās ad Aemiliam scrībēbat{/i}: used to write (l.76) {i}Iūlius male dormiēbat{/i}: was sleeping (l.69) {i}Tunc ego tē amābam, tū mē nōn amābās{/i}. (l.98) {i}Neque epistulās, quās cotīdiē tibi scrībēbam, legēbās. {/i}(ll.101–102) The imperfect is formed by inserting {i}-bā-{/i} (1st and 2nd conjugations) or {i}-ēbā-{/i} (3rd and 4th conjugations) between the stem and the person endings: in the active {i}-m, -mus{/i} (1st pers.), {i}-s, -tis{/i} (2nd pers.), and {i}-t, -nt{/i} (3rd pers.). In Section II of your reading, you will find that the passive is formed the same way, with the passive endings: {i}-r, -mur{/i} (1st pers.), {i}-ris, -minī{/i} (2nd pers.), and {i}-tur, -ntur{/i} (3rd pers.). {i}Notā Bene: {/i}The 1st person ends in {i}-m{/i} and {i}-r{/i} (not {i}-ō{/i} and {i}-or{/i}) and that {i}ā{/i} is shortened before {i}-m{/i},{i} -r{/i},{i} -t{/i},{i} -nt{/i}, and {i}-ntur{/i} ({i}amā{/i}|{i}ba{/i}|{i}m{/i},{i} amā{/i}|{i}ba{/i}|{i}r{/i}, etc.)."
+          "text": "The form {i}amā{/i}|{i}bat{/i} is the {b}past tense{/b} or {b}preterite{/b} (Latin {i}tempus praeteritum{/i}) of the verb {i}amā{/i}|{i}re,{/i} as distinct from {i}ama{/i}|{i}t,{/i} which is the {b}present tense{/b} (Latin {i}tempus praesēns{/i}). The preterite or past tense occurring in this chapter is called the {b}imperfect{/b} (Latin {i}praeteritum imperfectum,{/i} “incompleted past”). The {b}imperfect{/b} denotes a past state of things or an action going on (not completed) or repeated in the past. In each of the following examples, the action goes on over a period of time: {i}ūlius et Aemilia Rōmae habitābant{/i}: used to live; were living {i}Iūlius cotīdiē epistulās ad Aemiliam scrībēbat{/i}: used to write (l.76) {i}Iūlius male dormiēbat{/i}: was sleeping (l.69) {i}Tunc ego tē amābam, tū mē nōn amābās{/i}. (l.98) {i}Neque epistulās, quās cotīdiē tibi scrībēbam, legēbās. {/i} (ll.101–102) The imperfect is formed by inserting {i}-bā-{/i} (1st and 2nd conjugations) or {i}-ēbā-{/i} (3rd and 4th conjugations) between the stem and the person endings: in the active {i}-m, -mus{/i} (1st pers.), {i}-s, -tis{/i} (2nd pers.), and {i}-t, -nt{/i} (3rd pers.). In Section II of your reading, you will find that the passive is formed the same way, with the passive endings: {i}-r, -mur{/i} (1st pers.), {i}-ris, -minī{/i} (2nd pers.), and {i}-tur, -ntur{/i} (3rd pers.). {i}Notā Bene: {/i} The 1st person ends in {i}-m{/i} and {i}-r{/i} (not {i}-ō{/i} and {i}-or{/i}) and that {i}ā{/i} is shortened before {i}-m{/i},{i} -r{/i},{i} -t{/i},{i} -nt{/i}, and {i}-ntur{/i} ({i}amā{/i}|{i}ba{/i}|{i}m{/i},{i} amā{/i}|{i}ba{/i}|{i}r{/i}, etc.)."
         },
         {
           "t": "p",
-          "text": "1st Conjugation ({i}āre{/i}): stem + {i}bā {/i}+ personal endings: {i}Iūlius ambulat {/i}→{i} Iūlius ambulābat {/i} {i}Signa stant {/i}→{i} Signa stābant{/i} 2nd Conjugation ({i}ēre{/i}): stem + {i}bā{/i} + personal endings: {i}Tēctum columnīs altīs sustinētur {/i}→{i} tēctum columnīs altīs {/i} {i}sustinēbātur. {/i} {i}Habēsne librum tuum? {/i}→{i} Habēbāsne librum tuum?{/i} 3rd and 4th Conjugation ({i}ere{/i}/{i}īre{/i}): stem + {i}ēbā {/i}+ personal endings:"
+          "text": "1st Conjugation ({i}āre{/i}): stem + {i}bā {/i} + personal endings: {i}Iūlius ambulat {/i} →{i} Iūlius ambulābat {/i} {i}Signa stant {/i} →{i} Signa stābant{/i} 2nd Conjugation ({i}ēre{/i}): stem + {i}bā{/i} + personal endings: {i}Tēctum columnīs altīs sustinētur {/i} →{i} tēctum columnīs altīs {/i} {i}sustinēbātur. {/i} {i}Habēsne librum tuum? {/i} →{i} Habēbāsne librum tuum?{/i} 3rd and 4th Conjugation ({i}ere{/i}/{i}īre{/i}): stem + {i}ēbā {/i} + personal endings:"
         },
         {
           "t": "p",
@@ -378,7 +378,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Vowel-stem: {i}Aemilia flōrēs ā Iūliō accipit{/i} → {i}Aemilia flōrēs ā Iūliō accipiēbat.{/i} {i}Nihil faciō {/i}→{i} Nihil faciēbam{/i}. 4th Conjugation: {i}Dormītisne? {/i}→ {i}Dormiēbātisne? {/i} {i}Saepe Rōmānī conveniunt {/i}→{i} Saepe Rōmānī conveniēbant.{/i}"
+          "text": "Vowel-stem: {i}Aemilia flōrēs ā Iūliō accipit{/i} → {i}Aemilia flōrēs ā Iūliō accipiēbat.{/i} {i}Nihil faciō {/i} →{i} Nihil faciēbam{/i}. 4th Conjugation: {i}Dormītisne? {/i} → {i}Dormiēbātisne? {/i} {i}Saepe Rōmānī conveniunt {/i} →{i} Saepe Rōmānī conveniēbant.{/i}"
         },
         {
           "t": "p",
@@ -446,7 +446,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Compounds of {i}esse,{/i} e.g., {i}ab-esse{/i}, including {i}posse, {/i}show the same forms: {i}ab-era{/i}|{i}m, ab-erā{/i}|{i}s{/i}, etc."
+          "text": "Compounds of {i}esse,{/i} e.g., {i}ab-esse{/i}, including {i}posse, {/i} show the same forms: {i}ab-era{/i}|{i}m, ab-erā{/i}|{i}s{/i}, etc. {i}pot-era{/i}|{i}m, pot-erā{/i}|{i}s,{/i} etc."
         },
         {
           "t": "h",
@@ -536,11 +536,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Iūlius {/i}→{i} Iūlī{/i} {i}Cornēlius {/i}→{i} Cornēlī{/i} {i}Lūcius {/i}→{i} Lūcī{/i}"
+          "text": "{i}Iūlius {/i} →{i} Iūlī{/i} {i}Cornēlius {/i} →{i} Cornēlī{/i} {i}Lūcius {/i} →{i} Lūcī{/i}"
         },
         {
           "t": "p",
-          "text": "The vocative of {i}meus{/i} is {i}mī {/i}and of {i}fīlius{/i} is {i}fīlī{/i}:"
+          "text": "The vocative of {i}meus{/i} is {i}mī {/i} and of {i}fīlius{/i} is {i}fīlī{/i}:"
         },
         {
           "t": "p",
@@ -568,7 +568,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "I. Apposition {i}in urbe Rōmā{/i}: in the city of Rome ({i}Rōma {/i}in apposition to {i}urbs{/i}) {i}Rōmae{/i}: at/in Rome (locative) II. {i}Ante{/i}/{i}Post{/i} {i}ante decem annōs{/i}: {i}ante{/i} the preposition + the accusative"
+          "text": "I. Apposition {i}in urbe Rōmā{/i}: in the city of Rome ({i}Rōma {/i} in apposition to {i}urbs{/i}) {i}Rōmae{/i}: at/in Rome (locative) II. {i}Ante{/i}/{i}Post{/i} {i}ante decem annōs{/i}: {i}ante{/i} the preposition + the accusative"
         },
         {
           "t": "p",
@@ -609,16 +609,18 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "Both Aemilia and Julius describe themselves as {i}miser {/i}({i}Ergō lūlius miser erat et {/i} {i}nocte male dormiēbat … Itaque ea quoque misera erat, {/i}l.69 and l.73). In Latin love poetry, {i}miser{/i} is the standard word to describe someone suffering in love. In the image on page 148, we see Julius and Aemilia with their right hands joined—the iconography in art for the bond between husband and wife (the {i}iūnctiō{/i}{{2}}{i} dextrārum,{/i} joining of right hands). There were different ways to be married in Rome. To be married {i}cum manū{/i} (literally: “with the hand”) meant that a woman passed from the jurisdiction of her father’s household to that of her husband (or of her husband’s father, if he were still alive and the {i}paterfamilias{/i}). Instead of being her father’s daughter, she became as if the daughter of her new family ({i}in locō fīliae{/i}). If a woman were married {i}sine manū{/i} (“without the hand”), she remained under her father’s jurisdiction even though married. Aemilia’s marriage to Julius would most likely have been {i}sine manū{/i}; {i}manus {/i} marriage became a rarity by our time period. The goal of marriage was the birth and rearing of children; {i}mātrimōnium…hinc līberōrum prōcreātiō hinc {/i} {i}ēducātiō{/i}.{{3}}"
+          "text": "Both Aemilia and Julius describe themselves as {i}miser {/i} ({i}Ergō lūlius miser erat et {/i} {i}nocte male dormiēbat … Itaque ea quoque misera erat, {/i} l.69 and l.73). In Latin love poetry, {i}miser{/i} is the standard word to describe someone suffering in love. In the image on page 148, we see Julius and Aemilia with their right hands joined—the iconography in art for the bond between husband and wife (the {i}iūnctiō{/i}{{2}}{i} dextrārum,{/i} joining of right hands). There were different ways to be married in Rome. To be married {i}cum manū{/i} (literally: “with the hand”) meant that a woman passed from the jurisdiction of her father’s household to that of her husband (or of her husband’s father, if he were still alive and the {i}paterfamilias{/i}). Instead of being her father’s daughter, she became as if the daughter of her new family ({i}in locō fīliae{/i}). If a woman were married {i}sine manū{/i} (“without the hand”), she remained under her father’s jurisdiction even though married. Aemilia’s marriage to Julius would most likely have been {i}sine manū{/i}; {i}manus {/i} marriage became a rarity by our time period. The goal of marriage was the birth and rearing of children; {i}mātrimōnium…hinc līberōrum prōcreātiō hinc {/i} {i}ēducātiō{/i}.{{3}}"
         },
         {
           "t": "p",
-          "text": "The perisyle of the villa, adorned with statuary, demonstrates the wealth and culture of the {i}dominus{/i}. {i}Cupīdō Amor{/i} is the Latin translation of the Greek personification of love {i}Erōs{/i} (Ἔρως); in Roman culture, he is primarily a literary and artistic motif (hence the statue of Cupid in the peristyle). {i}Venus,{/i} however, is a different story. She is not only the wife of Vulcan and mother of Cupid, the paramour of Mars and the goddess of love and beauty, but she is a powerful goddess as well. She is {i}Venus Genetrix{/i}, goddess of fertility and the ancestral goddess of the Romans (because she was the mother of Aeneas). There were several temples and festivals dedicated to Venus at Rome. Venus’s husband, {i}Vulcānus{/i} (also {i}Volcānus{/i}) is an ancient Roman god of devastating fire (as opposed to {i}Vesta{/i}, the goddess of the life-sustaining hearthfire, whose priestesses—the Vestals—guarded the state-protecting shrine of Vesta in the Roman Forum). Vulcan became associated with the Greek god Hephaistus (and Vesta with the Greek Hestia); he is the god of forge, depicted as burly and lame, and a bit of a trickster. {i}Jūnō {/i}who, like Venus, was an ancient Italic goddess, was Juppiter’s wife and, appropriately, the goddess of marriage. Her husband, Juppiter, was (as your text tells you) a terrible husband prone to falling in love with other women. This kind of immorality among the gods was one of the reasons the Greek philosopher Plato wanted to exclude them from the ideal state. {i}Jūppiter{/i}, as a sky god, regulated the weather; once he became associated with the Greek Zeus, he became the most powerful of all gods, hence {i}Jūppiter {/i} {i}Optimus Māximus{/i}: Juppiter the Best and Greatest. At Rome, Juppiter had a temple called the {i}Capitōlium{/i} on a hill overlooking the Roman Forum (l.50); hence the hill is called the {i}Mōns Capitōlīnus{/i}. {i}Minerva{/i} and {i}Iūnō{/i} also had shrines in the Capitolium. {i}Minerva{/i} was an Italic goddess of crafts, who became associated with the Greek Pallas Athena, the daughter of Zeus, also goddess of crafts (and war and wisdom!). Towns often imitated Rome by building their own {i}Capitōlium{/i}, with the same triad of Juppiter, Juno, and Minerva."
+          "text": "The perisyle of the villa, adorned with statuary, demonstrates the wealth and culture of the {i}dominus{/i}. {i}Cupīdō Amor{/i} is the Latin translation of the Greek personification of love {i}Erōs{/i} (Ἔρως); in Roman culture, he is primarily a literary and artistic motif (hence the statue of Cupid in the peristyle). {i}Venus,{/i} however, is a different story. She is not only the wife of Vulcan and mother of Cupid, the paramour of Mars and the goddess of love and beauty, but she is a powerful goddess as well. She is {i}Venus Genetrix{/i}, goddess of fertility and the ancestral goddess of the Romans (because she was the mother of Aeneas). There were several temples and festivals dedicated to Venus at Rome. Venus’s husband, {i}Vulcānus{/i} (also {i}Volcānus{/i}) is an ancient Roman god of devastating fire (as opposed to {i}Vesta{/i}, the goddess of the life-sustaining hearthfire, whose priestesses—the Vestals—guarded the state-protecting shrine of Vesta in the Roman Forum). Vulcan became associated with the Greek god Hephaistus (and Vesta with the Greek Hestia); he is the god of forge, depicted as burly and lame, and a bit of a trickster. {i}Jūnō {/i} who, like Venus, was an ancient Italic goddess, was Juppiter’s wife and, appropriately, the goddess of marriage. Her husband, Juppiter, was (as your text tells you) a terrible husband prone to falling in love with other women. This kind of immorality among the gods was one of the reasons the Greek philosopher Plato wanted to exclude them from the ideal state. {i}Jūppiter{/i}, as a sky god, regulated the weather; once he became associated with the Greek Zeus, he became the most powerful of all gods, hence {i}Jūppiter {/i} {i}Optimus Māximus{/i}: Juppiter the Best and Greatest. At Rome, Juppiter had a temple called the {i}Capitōlium{/i} on a hill overlooking the Roman Forum (l.50); hence the hill is called the {i}Mōns Capitōlīnus{/i}. {i}Minerva{/i} and {i}Iūnō{/i} also had shrines in the Capitolium. {i}Minerva{/i} was an Italic goddess of crafts, who became associated with the Greek Pallas Athena, the daughter of Zeus, also goddess of crafts (and war and wisdom!). Towns often imitated Rome by building their own {i}Capitōlium{/i}, with the same triad of Juppiter, Juno, and Minerva."
         }
       ],
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",
@@ -883,7 +885,7 @@ const chapter = {
     },
     {
       "n": 2,
-      "text": "Iūnctiō is from iungere, Cap. XVIII."
+      "text": "Iūnctiō  is from iungere,  Cap. XVIII."
     },
     {
       "n": 3,

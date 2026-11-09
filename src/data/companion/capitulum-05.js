@@ -183,7 +183,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}ab, cum, ex, in, sine {/i}+ {i}-ō, -ā{/i}, {i}-īs{/i} ablative m./n. f."
+          "text": "{i}ab, cum, ex, in, sine {/i} + {i}-ō, -ā{/i}, {i}-īs{/i} ablative m./n. f."
         },
         {
           "t": "table",
@@ -218,7 +218,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Notā Bene: pulcher, pulchra, pulchrum{/i}, like {i}liber, librī{/i}, has an {i}e {/i}only in the nominative singular. Like nouns ending in –{i}er{/i}, the stem of an adjective ending in –{i}er {/i}can be determined from the genitive singular; the feminine singular will also tell you if the adjective keeps the {i}e{/i}: {i}pulchra{/i}."
+          "text": "{i}Notā Bene: pulcher, pulchra, pulchrum{/i}, like {i}liber, librī{/i}, has an {i}e {/i} only in the nominative singular. Like nouns ending in –{i}er{/i}, the stem of an adjective ending in –{i}er {/i} can be determined from the genitive singular; the feminine singular will also tell you if the adjective keeps the {i}e{/i}: {i}pulchra{/i}."
         },
         {
           "t": "h",
@@ -320,11 +320,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Mārcus et Quīntus Iūliam vocant.{/i} {i}Puerī rīdent.{/i} {i}Multī servī in ūnō cubiculō dormiunt. {/i}(l.40)"
+          "text": "{i}Mārcus et Quīntus Iūliam vocant.{/i} {i}Puerī rīdent.{/i} {i}Multī servī in ūnō cubiculō dormiunt. {/i} (l.40)"
         },
         {
           "t": "p",
-          "text": "{i}Notā Bene: {/i}In the consonant-verbs (3rd conjugation), a short vowel is inserted before the plural endings of the indicative:"
+          "text": "{i}Notā Bene: {/i} In the consonant-verbs (3rd conjugation), a short vowel is inserted before the plural endings of the indicative:"
         },
         {
           "t": "li",
@@ -352,15 +352,15 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{b}Imperative: {/b}when two or more people are ordered to do something, the plural form of the imperative ending in {i}-te{/i} is used:"
+          "text": "{b}Imperative: {/b} when two or more people are ordered to do something, the plural form of the imperative ending in {i}-te{/i} is used:"
         },
         {
           "t": "p",
-          "text": "{i}Mārce et Quīnte! Iūliam vocāte! {/i}(l.51) {i}Audīte!{/i} (l.67) {i}Tacēte, puerī! {/i}(l.72)"
+          "text": "{i}Mārce et Quīnte! Iūliam vocāte! {/i} (l.51) {i}Audīte!{/i} (l.67) {i}Tacēte, puerī! {/i} (l.72)"
         },
         {
           "t": "p",
-          "text": "{i}Notā Bene: {/i}As in the indicative, in the imperative plural of the consonantverbs (3rd conjugation), a short vowel is inserted before the ending:"
+          "text": "{i}Notā Bene: {/i} As in the indicative, in the imperative plural of the consonantverbs (3rd conjugation), a short vowel is inserted before the ending:"
         },
         {
           "t": "li",
@@ -465,29 +465,25 @@ const chapter = {
         {
           "t": "p",
           "text": "{i}age! agite!{/i} + imp."
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō: Prepositions with the Ablative{/i}"
+        },
+        {
+          "t": "p",
+          "text": "{i}in{/i} {i}Iūlius in magnā vīllā habitat. {/i} (l.1) {i}Vīlla Iūliī in magnō hortō est.{/i} (l.12) {i}In hortīs sunt rosae et līlia. {/i} (l.13) {i}ex{/i} {i}Discēdite ex peristȳlō. {/i} (l.73) {i}Puerī aquam sūmunt ex impluviō.{/i} (l.83)"
+        },
+        {
+          "t": "p",
+          "text": "{i}ab{/i} {i}Puerī Iūliam audiunt, neque iī ab Aemiliā discēdunt.{/i} (l.56) {i}Iūlia plōrat et cum ūnā rosā ab iīs discēdit. {/i} (l.71) {i}cum{/i} {i}Iūlius in vīllā suā habitat cum magnā familiā. {/i} (l.9) {i}Pater et māter habitant cum Mārcō et Quīntō et Iūliā.{/i} (ll.9–10) {i}In Italiā sunt multae vīllae cum magnīs hortīs.{/i} (ll.12–13)"
+        },
+        {
+          "t": "p",
+          "text": "{i}sine {/i} {i}Aemilia sine virō suō Iūliō in vīllā est.{/i} (ll.44–45) {i}In oppidō Tūsculō est sine Aemīliā.{/i} (ll.45–46) {i}Puella sine rosīs pulchra nōn est. {/i} (ll.63–64)"
         }
       ],
       "id": "lectio-altera"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "{i}in{/i} {i}Iūlius in magnā vīllā habitat. {/i}(l.1) {i}Vīlla Iūliī in magnō hortō est.{/i} (l.12) {i}In hortīs sunt rosae et līlia. {/i}(l.13) {i}ex{/i} {i}Discēdite ex peristȳlō. {/i}(l.73) {i}Puerī aquam sūmunt ex impluviō.{/i} (l.83)"
-        },
-        {
-          "t": "p",
-          "text": "{i}ab{/i} {i}Puerī Iūliam audiunt, neque iī ab Aemiliā discēdunt.{/i} (l.56) {i}Iūlia plōrat et cum ūnā rosā ab iīs discēdit. {/i}(l.71) {i}cum{/i} {i}Iūlius in vīllā suā habitat cum magnā familiā. {/i}(l.9) {i}Pater et māter habitant cum Mārcō et Quīntō et Iūliā.{/i} (ll.9–10) {i}In Italiā sunt multae vīllae cum magnīs hortīs.{/i} (ll.12–13)"
-        },
-        {
-          "t": "p",
-          "text": "{i}sine {/i} {i}Aemilia sine virō suō Iūliō in vīllā est.{/i} (ll.44–45) {i}In oppidō Tūsculō est sine Aemīliā.{/i} (ll.45–46) {i}Puella sine rosīs pulchra nōn est. {/i}(ll.63–64)"
-        }
-      ],
-      "id": "recensio"
     },
     {
       "latin": "Studia Rōmāna",
@@ -500,12 +496,14 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The entranceway to a Roman house was called the {i}vestibulum{/i}. The visitor would pass through this area into the {i}ātrium{/i}. The {i}ātrium{/i} usually had an opening in the roof called a {i}compluvium{/i}, through which rainwater could fall into the {i}impluvium{/i}—a small pool—below. The {i}ātrium{/i} is the most public space in the house and it was here that visitors would be welcomed. Tall doors often flanked the room, two on each side, enclosing small rooms and the third set (in the photograph on p. 33, this third set has curtains rather than doors) leading to the {i}ālae{/i}, or “wings” (the same word is used for birds’ wings, as you will learn in Cap. X); these are open alcoves. At the far end of the {i}ātrium{/i}, opposite the entrance and across the {i}impluvium{/i}, is the {i}tablīnum{/i}, or record-room, of the house (the word {i}tablīnum{/i} is related to {i}tabula,{/i} the word you met in Cap. I that can mean both “writings” as well as “writing tablet”). In some houses—as it appears from the illustration in your book—the {i}tablīnum{/i} had a large opening onto the {i}peristȳlum{/i} and/or {i}hortus{/i}. Just as the word {i}peristȳlum{/i} comes from Greek (meaning “surrounded by columns”), the peristyle was a Greek architectural feature before it was a Roman one. Originally, the Roman house consisted of the {i}ātrium {/i}and the rooms surrounding it with the garden ({i}hortus{/i}) in back. The covered walkway created by the colonnade in the peristyle provided shade. At the far end of the peristyle in the diagram, you can see a dining room, called {i}trīclīnium{/i} in Latin. You will read about the {i}trīclīnium{/i} and dinner parties in Caps. XXX–XXXI. Where was the kitchen ({i}culīna{/i}, Cap. XXX)? Originally, cooking was done in the {i}ātrium{/i} with portable braziers. Not every house seems to have had a permanent kitchen. But where we do find kitchens, they are off the peristyle and are simple affairs. Your text tells you that {i}Vīlla duo ōstia et multās fenestrās habet {/i}(l.26). Our evidence for windows is slight, but Pliny the Younger ({i}Gāius Plīnius Caecilius Secundus{/i}), a Roman who lived a little before our narrative (around AD 62–113), includes several mentions of windows in his description of his seaside villa. While Roman houses in towns had either a private façade broken only by the door or an attached shop front (as you will see in Cap. VIII), they did not have windows looking out onto the street. It is most likely that windows were more common in the private parts of houses and when they provided a view. Rooms often had their own internal “view” in the guise of elaborate wall paintings. These ranged from original artworks by skilled craftsmen to less expensive scenes produced by workshops. Mosaics often covered the floor; these, like wall paintings, also ranged from the simple to the exquisite, like the Alexander mosaic in the House of the Faun in Pompeii. There are other words for “house” besides {i}vīlla.{/i} A {i}casa{/i} is a small country cottage; a house is also called a {i}domus{/i} (Cap. XIX) or, as a building, {i}aedificium{/i} (Cap. XXV)."
+          "text": "The entranceway to a Roman house was called the {i}vestibulum{/i}. The visitor would pass through this area into the {i}ātrium{/i}. The {i}ātrium{/i} usually had an opening in the roof called a {i}compluvium{/i}, through which rainwater could fall into the {i}impluvium{/i}—a small pool—below. The {i}ātrium{/i} is the most public space in the house and it was here that visitors would be welcomed. Tall doors often flanked the room, two on each side, enclosing small rooms and the third set (in the photograph on p. 33, this third set has curtains rather than doors) leading to the {i}ālae{/i}, or “wings” (the same word is used for birds’ wings, as you will learn in Cap. X); these are open alcoves. At the far end of the {i}ātrium{/i}, opposite the entrance and across the {i}impluvium{/i}, is the {i}tablīnum{/i}, or record-room, of the house (the word {i}tablīnum{/i} is related to {i}tabula,{/i} the word you met in Cap. I that can mean both “writings” as well as “writing tablet”). In some houses—as it appears from the illustration in your book—the {i}tablīnum{/i} had a large opening onto the {i}peristȳlum{/i} and/or {i}hortus{/i}. Just as the word {i}peristȳlum{/i} comes from Greek (meaning “surrounded by columns”), the peristyle was a Greek architectural feature before it was a Roman one. Originally, the Roman house consisted of the {i}ātrium {/i} and the rooms surrounding it with the garden ({i}hortus{/i}) in back. The covered walkway created by the colonnade in the peristyle provided shade. At the far end of the peristyle in the diagram, you can see a dining room, called {i}trīclīnium{/i} in Latin. You will read about the {i}trīclīnium{/i} and dinner parties in Caps. XXX–XXXI. Where was the kitchen ({i}culīna{/i}, Cap. XXX)? Originally, cooking was done in the {i}ātrium{/i} with portable braziers. Not every house seems to have had a permanent kitchen. But where we do find kitchens, they are off the peristyle and are simple affairs. Your text tells you that {i}Vīlla duo ōstia et multās fenestrās habet {/i} (l.26). Our evidence for windows is slight, but Pliny the Younger ({i}Gāius Plīnius Caecilius Secundus{/i}), a Roman who lived a little before our narrative (around AD 62–113), includes several mentions of windows in his description of his seaside villa. While Roman houses in towns had either a private façade broken only by the door or an attached shop front (as you will see in Cap. VIII), they did not have windows looking out onto the street. It is most likely that windows were more common in the private parts of houses and when they provided a view. Rooms often had their own internal “view” in the guise of elaborate wall paintings. These ranged from original artworks by skilled craftsmen to less expensive scenes produced by workshops. Mosaics often covered the floor; these, like wall paintings, also ranged from the simple to the exquisite, like the Alexander mosaic in the House of the Faun in Pompeii. There are other words for “house” besides {i}vīlla.{/i} A {i}casa{/i} is a small country cottage; a house is also called a {i}domus{/i} (Cap. XIX) or, as a building, {i}aedificium{/i} (Cap. XXV)."
         }
       ],
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",

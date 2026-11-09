@@ -159,7 +159,7 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "The -s ending also produces the loss of d in pēs (note also the short vowel of the stem): gen. {i}ped{/i}|{i}is.{/i}"
+          "text": "The -s ending also produces the loss of d in pēs  (note also the short vowel of the stem): gen. {i}ped{/i}|{i}is.{/i}"
         },
         {
           "t": "p",
@@ -195,7 +195,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Cum avis volat, ālae moventur.{/i} When a bird flies, (its) wings move (are being moved). (l.15) It is easy to distinguish between {i}cum{/i} preposition and {i}cum{/i} conjunction. Look at the following sentences: {i}Iūlius in vīllā suā habitat cum magnā familiā. {/i}(Cap. V, l.9) {i}Aemilia cum Mārcō, Quīntō Iūliāque in peristȳlō est{/i}. (Cap. V, l.47) {i}Etiam līnea cum margarītīs ōrnāmentum est.{/i} (Cap. VIII, ll.8–9) {i}Cum{/i} {i}homō ambulat, pedēs moventur{/i}. (Cap. X, l.15) {i}Cum piscis natat, cauda movētur.{/i} (Cap. X, ll.15–16) {i}Quod{/i}"
+          "text": "{i}Cum avis volat, ālae moventur.{/i} When a bird flies, (its) wings move (are being moved). (l.15) It is easy to distinguish between {i}cum{/i} preposition and {i}cum{/i} conjunction. Look at the following sentences: {i}Iūlius in vīllā suā habitat cum magnā familiā. {/i} (Cap. V, l.9) {i}Aemilia cum Mārcō, Quīntō Iūliāque in peristȳlō est{/i}. (Cap. V, l.47) {i}Etiam līnea cum margarītīs ōrnāmentum est.{/i} (Cap. VIII, ll.8–9) {i}Cum{/i} {i}homō ambulat, pedēs moventur{/i}. (Cap. X, l.15) {i}Cum piscis natat, cauda movētur.{/i} (Cap. X, ll.15–16) {i}Quod{/i}"
         },
         {
           "t": "p",
@@ -215,11 +215,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "It is easy to distinguish between {i}quod{/i} pronoun, {i}quod{/i} interrogative adjective,"
+          "text": "It is easy to distinguish between {i}quod{/i} pronoun, {i}quod{/i} interrogative adjective, and {i}quod{/i} conjunction. Look at the following sentences:"
         },
         {
           "t": "p",
-          "text": "{i}Iūlius ambulat ad ōstium, quod ab ōstiāriō aperītur. {/i}(Cap. VII, l.33) {i}Lȳdia ōrnāmentum{/i} {i}pulchrum in collō habet. Quod ōrnāmentum? {/i} (Cap. VIII, ll.30–31) {i}Ōrnāmentum quod Lydia habet est līnea margarītārum.{/i} (Cap. VIII, ll.31–32) {i}Hominēs volāre nōn possunt, quod ālās nōn habent.{/i} (Cap. X, ll.23–25) {i}Neque avēs neque nīdī avium ab aquilā reperīrī possunt, quod rāmīs {/i} {i}et foliīs occultantur.{/i} (Cap. X, ll.89–91) {i}Potest/possunt {/i}"
+          "text": "{i}Iūlius ambulat ad ōstium, quod ab ōstiāriō aperītur. {/i} (Cap. VII, l.33) {i}Lȳdia ōrnāmentum{/i} {i}pulchrum in collō habet. Quod ōrnāmentum? {/i} (Cap. VIII, ll.30–31) {i}Ōrnāmentum quod Lydia habet est līnea margarītārum.{/i} (Cap. VIII, ll.31–32) {i}Hominēs volāre nōn possunt, quod ālās nōn habent.{/i} (Cap. X, ll.23–25) {i}Neque avēs neque nīdī avium ab aquilā reperīrī possunt, quod rāmīs {/i} {i}et foliīs occultantur.{/i} (Cap. X, ll.89–91) {i}Potest/possunt {/i}"
         },
         {
           "t": "p",
@@ -251,7 +251,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "From now on, the infinitive will be the form of new verbs shown in the margin of Lingua Latina and in the vocabulary of this book, so that you can always tell to which of the four conjugations the verb belongs: 1. {i}-āre{/i}; 2. {i}-ēre{/i}; 3. {i}-ĕre{/i}; 4. {i}-īre. {/i}Third conjugation verbs (-ĕre) are separated into consonant and {i}i{/i}-stem in the vocabulary of this book but not in the margins of Lingua Latina."
+          "text": "From now on, the infinitive will be the form of new verbs shown in the margin of Lingua Latina and in the vocabulary of this book, so that you can always tell to which of the four conjugations the verb belongs: 1. {i}-āre{/i}; 2. {i}-ēre{/i}; 3. {i}-ĕre{/i}; 4. {i}-īre. {/i} Third conjugation verbs (-ĕre) are separated into consonant and {i}i{/i}-stem in the vocabulary of this book but not in the margins of Lingua Latina."
         }
       ],
       "id": "lectio-prima"
@@ -267,11 +267,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The infinitive ending -{i}ere{/i} developed from an earlier ending ({i}-{/i}se). That earlier intervocalic {i}-s-{/i}, i.e., an {i}-s-{/i} between vowels, was changed to {i}-r-{/i}, so {i}-se{/i} became {i}-re{/i} after a vowel (e.g., {i}amāre {/i}<{i} amā{/i}|{i}se{/i}). The ending {i}-se {/i}was kept only in the following infinitives, because it was added directly to the stems {i}es-{/i} and {i}ed{/i}:"
+          "text": "The infinitive ending -{i}ere{/i} developed from an earlier ending ({i}-{/i}se). That earlier intervocalic {i}-s-{/i}, i.e., an {i}-s-{/i} between vowels, was changed to {i}-r-{/i}, so {i}-se{/i} became {i}-re{/i} after a vowel (e.g., {i}amāre {/i} <{i} amā{/i}|{i}se{/i}). The ending {i}-se {/i} was kept only in the following infinitives, because it was added directly to the stems {i}es-{/i} and {i}ed{/i}:"
         },
         {
           "t": "p",
-          "text": "{i}esse{/i} ({i}est sunt{/i}) {i}ēsse{/i} ({i}ēst edunt{/i}, with assimilation {i}ds > ss{/i}) {i}posse {/i}({i}potest possunt{/i}, Cap. XI)"
+          "text": "{i}esse{/i} ({i}est sunt{/i}) {i}ēsse{/i} ({i}ēst edunt{/i}, with assimilation {i}ds > ss{/i}) {i}posse {/i} ({i}potest possunt{/i}, Cap. XI)"
         },
         {
           "t": "p",
@@ -279,7 +279,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Quī spīrat mortuus esse nōn potest{/i}. (ll.108–109) {i}Mārcus et Iūlia Quīntum vīvum esse vident. {/i}(l.122) {i}Ēsse quoque hominī necesse est. {/i}(l.59) …{i}nēmō enim gemmās ēsse potest. {/i}(l.64) {i}Gemmae edī nōn possunt. {/i}(l.64) ({i}Notā Bene:{/i} The passive infinitive {i}edī{/i} of {i}ēsse{/i} is explained in the next section)"
+          "text": "{i}Quī spīrat mortuus esse nōn potest{/i}. (ll.108–109) {i}Mārcus et Iūlia Quīntum vīvum esse vident. {/i} (l.122) {i}Ēsse quoque hominī necesse est. {/i} (l.59) …{i}nēmō enim gemmās ēsse potest. {/i} (l.64) {i}Gemmae edī nōn possunt. {/i} (l.64) ({i}Notā Bene:{/i} The passive infinitive {i}edī{/i} of {i}ēsse{/i} is explained in the next section)"
         },
         {
           "t": "p",
@@ -287,7 +287,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}es{/i}|{i}se {/i} {i}ēs{/i}|{i}se{/i} (< {i}ed{/i}|{i}se{/i}); passive {i}edī {/i} {i}pos{/i}/{i}se {/i}(<{i}pot{/i}|{i}se{/i})"
+          "text": "{i}es{/i}|{i}se {/i} {i}ēs{/i}|{i}se{/i} (< {i}ed{/i}|{i}se{/i}); passive {i}edī {/i} {i}pos{/i}/{i}se {/i} (<{i}pot{/i}|{i}se{/i})"
         },
         {
           "t": "h",
@@ -299,7 +299,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}numerā{/i}|{i}rī{/i} (l.45) {i}vidē{/i}|{i}rī {/i}(l.39) {i}audī{/i}|{i}rī {/i}(l.39) Consonant-verbs have only {i}-ī{/i}, e.g.:"
+          "text": "{i}numerā{/i}|{i}rī{/i} (l.45) {i}vidē{/i}|{i}rī {/i} (l.39) {i}audī{/i}|{i}rī {/i} (l.39) Consonant-verbs have only {i}-ī{/i}, e.g.:"
         },
         {
           "t": "p",
@@ -317,7 +317,7 @@ const chapter = {
               "passive"
             ],
             [
-              "{i}āre {/i}→ {i}ārī{/i}:{i} vocā{/i}|{i}re{/i}",
+              "{i}āre {/i} → {i}ārī{/i}:{i} vocā{/i}|{i}re{/i}",
               "{i}vocā{/i}|{i}rī{/i}"
             ],
             [
@@ -388,7 +388,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "In addition to {i}potest{/i}/{i}possunt {/i}and {i}necesse est{/i}, an infinitive also occurs after:"
+          "text": "In addition to {i}potest{/i}/{i}possunt {/i} and {i}necesse est{/i}, an infinitive also occurs after:"
         },
         {
           "t": "table",
@@ -413,7 +413,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Notā Bene: {/i}The form {i}vult{/i} (he/she wants) lacks a thematic vowel; the verb is irregular."
+          "text": "{i}Notā Bene: {/i} The form {i}vult{/i} (he/she wants) lacks a thematic vowel; the verb is irregular."
         },
         {
           "t": "h",
@@ -437,7 +437,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Notā Bene: {/i}The word “that” is optional in English translation and is supplied; there is no Latin equivalent to “that” in any of the sentences above."
+          "text": "{i}Notā Bene: {/i} The word “that” is optional in English translation and is supplied; there is no Latin equivalent to “that” in any of the sentences above."
         },
         {
           "t": "h",
@@ -449,7 +449,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}magnā vōce clāmat{/i} (l.112) {i}“leō” dēclīnātur hōc modō… {/i}(l.169)"
+          "text": "{i}magnā vōce clāmat{/i} (l.112) {i}“leō” dēclīnātur hōc modō… {/i} (l.169)"
         },
         {
           "t": "h",
@@ -477,7 +477,7 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "…is enim nūntius deōrum est (l.30)"
+          "text": "…is enim nūntius deōrum est  (l.30)"
         },
         {
           "t": "li",
@@ -495,7 +495,7 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "Dogs were valued as guardians of flock (as we saw in the previous chapter) and home, as pets and as hunters. Dogs were important for hunting, a sport Romans loved—there were even hunts ({i}vēnātiōnēs{/i}) staged in the Circus Maximus and the {i}Amphitheātrum Flāviānum {/i}(also called the {i}Colosseum{/i}, as it was built next to a colossal statue of the first-century AD emperor Nero). Romans saw the hunt as a way for men to display their manliness. Horace called it the “customary work for Roman men, useful for reputation, life and limbs” ({i}Epist.{/i} 1.18.49–50: {i}Rōmānīs sollemne virīs opus, ūtile fāmae{/i}/{i}vītaeque et membrīs{/i}). {i}Grattius{/i}, a contemporary of Ovid (first century BC–first century AD), wrote the {i}Cynēgetica{/i} (τὰ κυνηγετικά) a didactic poem (see below) on hunting dogs, only a small portion of which (540 lines of dacytlic hexameter) survives."
+          "text": "Dogs were valued as guardians of flock (as we saw in the previous chapter) and home, as pets and as hunters. Dogs were important for hunting, a sport Romans loved—there were even hunts ({i}vēnātiōnēs{/i}) staged in the Circus Maximus and the {i}Amphitheātrum Flāviānum {/i} (also called the {i}Colosseum{/i}, as it was built next to a colossal statue of the first-century AD emperor Nero). Romans saw the hunt as a way for men to display their manliness. Horace called it the “customary work for Roman men, useful for reputation, life and limbs” ({i}Epist.{/i} 1.18.49–50: {i}Rōmānīs sollemne virīs opus, ūtile fāmae{/i}/{i}vītaeque et membrīs{/i}). {i}Grattius{/i}, a contemporary of Ovid (first century BC–first century AD), wrote the {i}Cynēgetica{/i} (τὰ κυνηγετικά) a didactic poem (see below) on hunting dogs, only a small portion of which (540 lines of dacytlic hexameter) survives."
         },
         {
           "t": "p",
@@ -509,6 +509,8 @@ const chapter = {
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",

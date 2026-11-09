@@ -135,7 +135,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Often a sentence is understood only when seen together with other sentences. In the sentence {i}Hispānia quoque in Eurōpā est{/i} (ll{i}.{/i}2–3), you will not understand {i}quoque{/i} until you read in context: {i}Italia et Graecia in Eurōpā sunt. Hispānia {/i} {i}quoque in Eurōpā est.{/i} (The two preceding sentences might have been {i}Italia in {/i} {i}Eurōpā est {/i}or{i} Graecia quoque in Eurōpā est.{/i}) If you are still in doubt, just go on reading till the word recurs: {i}Syria nōn est in Eurōpā, sed in Asiā. Arabia quoque{/i} {i}in Asiā est{/i} (l.7). Now you will certainly understand {i}quoque{/i}—and in the meantime, you have learned the word {i}sed{/i} almost without noticing it."
+          "text": "Often a sentence is understood only when seen together with other sentences. In the sentence {i}Hispānia quoque in Eurōpā est{/i} (ll{i}.{/i}2–3), you will not understand {i}quoque{/i} until you read in context: {i}Italia et Graecia in Eurōpā sunt. Hispānia {/i} {i}quoque in Eurōpā est.{/i} (The two preceding sentences might have been {i}Italia in {/i} {i}Eurōpā est {/i} or{i} Graecia quoque in Eurōpā est.{/i}) If you are still in doubt, just go on reading till the word recurs: {i}Syria nōn est in Eurōpā, sed in Asiā. Arabia quoque{/i} {i}in Asiā est{/i} (l.7). Now you will certainly understand {i}quoque{/i}—and in the meantime, you have learned the word {i}sed{/i} almost without noticing it."
         },
         {
           "t": "h",
@@ -240,7 +240,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Note: The endings of the adjectives depend on the nouns that they qualify; so it is {i}prōvincia magna {/i}but {i}imperium magnum{/i}."
+          "text": "Note: The endings of the adjectives depend on the nouns that they qualify; so it is {i}prōvincia magna {/i} but {i}imperium magnum{/i}."
         },
         {
           "t": "h",
@@ -248,7 +248,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The question {i}Num Crēta oppidum est?{/i} (l{i}.{/i}49) must, of course, be answered in the negative: {i}Crēta oppidum nōn est. Num{/i} is an interrogative (i.e., asking) particle, like {i}-ne,{/i} but a question beginning with {i}num{/i} implies a negative answer. The next question is {i}Quid est Crēta?{/i} Here, again, only the answer, {i}Crēta īnsula {/i} {i}est, {/i}makes the meaning of the question quite plain."
+          "text": "The question {i}Num Crēta oppidum est?{/i} (l{i}.{/i}49) must, of course, be answered in the negative: {i}Crēta oppidum nōn est. Num{/i} is an interrogative (i.e., asking) particle, like {i}-ne,{/i} but a question beginning with {i}num{/i} implies a negative answer. The next question is {i}Quid est Crēta?{/i} Here, again, only the answer, {i}Crēta īnsula {/i} {i}est, {/i} makes the meaning of the question quite plain."
         },
         {
           "t": "p",
@@ -265,7 +265,20 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "so I’m asking.) {i}Num Crēta oppidum est? {/i} Crete isn’t a town, is it? (I suspect Crete is not a town and expect you to answer “no.”) Remember the other interrogatives in this chapter:"
+          "text": "so I’m asking.)"
+        },
+        {
+          "t": "table",
+          "rows": [
+            [
+              "{i}Num Crēta oppidum est? {/i}",
+              "Crete isn’t a town, is it? (I suspect Crete"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "is not a town and expect you to answer “no.”) Remember the other interrogatives in this chapter:"
         },
         {
           "t": "table",
@@ -290,7 +303,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}in imperiō Rōmānō {/i}(l.58){i} in capitulō prīmō {/i}(l.73) {i}in vocābulō {/i}(l.72)"
+          "text": "{i}in imperiō Rōmānō {/i} (l.58){i} in capitulō prīmō {/i} (l.73) {i}in vocābulō {/i} (l.72) You will learn more about these forms in {i}-ā{/i} and {i}-ō{/i} in Cap. V."
         }
       ],
       "id": "lectio-altera"
@@ -325,15 +338,11 @@ const chapter = {
         {
           "t": "p",
           "text": "Latin is a concise language. It can often express in a few words what requires several words in other languages. One of the reasons is that Latin has fewer particles (small, uninflected words) than most modern languages; Latin also has nothing corresponding to the English articles “a” and “the,” as in “a river,” “the river,” etc."
-        }
-      ],
-      "id": "lectio-tertia"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō (Review){/i}"
+        },
         {
           "t": "p",
           "text": "Remember:"
@@ -397,7 +406,7 @@ const chapter = {
           "text": "Indeclinable: word whose endings do not change (mīlle)"
         }
       ],
-      "id": "recensio"
+      "id": "lectio-tertia"
     },
     {
       "latin": "Studia Rōmāna",
@@ -416,6 +425,8 @@ const chapter = {
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "Nōmina (Nouns)",
@@ -590,7 +601,12 @@ const chapter = {
     {
       "group": "Praepositiōnēs (Prepositions)",
       "latin": "in",
-      "english": "({i}prp. + abl.{/i}) in, on, at (prp. + acc.) into, to, against"
+      "english": "({i}prp. + abl.{/i}) in, on, at"
+    },
+    {
+      "group": "Praepositiōnēs (Prepositions)",
+      "latin": "({i}prp. + acc.{/i})",
+      "english": "into, to, against"
     },
     {
       "group": "Coniūnctiōnēs (Conjunctions)",
@@ -610,7 +626,7 @@ const chapter = {
     {
       "group": "Vocābula Interrogātīva (Interrogative words)",
       "latin": "-ne?",
-      "english": "{i}enclitic added to the emphatic word at {/i} the beginning of a question the answer to which may be either “yes” or “no.” It can be used in both direct and indirect questions (Cap. XIX)."
+      "english": "{i}enclitic added to the emphatic word at {/i} {i}the beginning of a question the answer {/i} {i}to which may be either “{/i}yes{i}” or “{/i}no{i}.” It {/i} {i}can be used in both direct and indirect {/i} {i}questions{/i} (Cap. XIX){i}.{/i}"
     },
     {
       "group": "Vocābula Interrogātīva (Interrogative words)",

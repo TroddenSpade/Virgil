@@ -30,7 +30,11 @@ function chapterSections(chapter) {
         sub: section.english || '',
         num: ROMAN[index] || String(index + 1),
       })),
-      chapter.vocabulary?.length && { id: 'vocabula', label: 'Vocābula', sub: 'Vocabulary' },
+      chapter.vocabulary?.length && {
+        id: 'vocabula',
+        label: chapter.vocabularyTitle || 'Vocābula',
+        sub: 'Vocabulary',
+      },
       chapter.notes?.length && { id: 'notae', label: 'Nōtae', sub: 'Notes' },
     ].filter(Boolean)
   }
@@ -152,8 +156,12 @@ function Lesson({ book, chapter }) {
 
                 {chapter.vocabulary?.length > 0 && (
                   <section className="lesson__section" id="vocabula">
-                    <SectionHead num={sectionNum('vocabula')} latin="Vocābula" english="vocabulary" />
-                    <CompanionVocabulary words={chapter.vocabulary} />
+                    <SectionHead
+                      num={sectionNum('vocabula')}
+                      latin={chapter.vocabularyTitle || 'Vocābula'}
+                      english="vocabulary"
+                    />
+                    <CompanionVocabulary words={chapter.vocabulary} notes={chapter.vocabularyNotes} />
                   </section>
                 )}
 
@@ -182,7 +190,11 @@ function Lesson({ book, chapter }) {
 
                 {chapter.vocabulary?.length > 0 && (
                   <section className="lesson__section" id="vocabula">
-                    <SectionHead num={sectionNum('vocabula')} latin="Vocābula" english="vocabulary" />
+                    <SectionHead
+                      num={sectionNum('vocabula')}
+                      latin={chapter.vocabularyTitle || 'Vocābula'}
+                      english="vocabulary"
+                    />
                     <Vocabulary words={chapter.vocabulary} />
                   </section>
                 )}

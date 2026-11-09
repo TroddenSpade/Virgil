@@ -19,7 +19,11 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "Lingua Latina Per Se Illustrata offers a smooth and efficient path to acquisition of the language and immerses the student from the first in a true experience of Latin. Instead of reading discrete, even random, sentences chosen to illustrate the grammatical principles under consideration, Lingua Latina offers considerable practice in both grammar and a rich vocabulary in an engaging context of well-written Latin. The impetus of this book, therefore, arose not from any flaw in Ørberg’s method, but rather from the differing needs of students and classrooms. Different students learn differently; learning environments also differ: {i}Alii {/i} {i}aliis viis Romam perveniunt{/i}. At my own institution, students signing up for Latin commit to a two-term introductory experience, followed by a term of reading ancient texts. Reading {i}Familia Romana{/i} in a two-semester course in introductory Latin, meeting three times a week for two 13- or 14-week semesters, becomes a Herculean task. Lingua Latina, however, and its results proved too good to abandon. There seems to me no better guide than Lingua Latina for students who want to learn Latin {i}through Latin{/i}. Students clamored for us to keep the text, but make it suit their needs. We use the {i}Companion{/i} to strike a balance between a purely inductive method and the study of grammatical rules and paradigms. But it can also serve as an ancillary guide for the natural (inductive) method of language acquisition. Lingua Latina can be used to teach students Latin as early as age eight, yet the story engages adult readers as well. Although introductory language courses at the college level do not always have the same luxury of gradual acquisition, the Ørberg text can be highly effective for university students. This book, therefore, is designed for different audiences: university students, instructors of home-scholars, and independent learners whose learning style appreciates such a guide: it is for all students of Ørberg’s Lingua Latina Per Se Illustrata (LLPSI) who want a touchstone to assess their understanding of the text and the language. Home-schooling parents and instructors of students learning outside of the traditional classroom, especially those with little or no Latin training, can use this book as a companion to Lingua Latina for their own preparation. The instructor will be the best judge of where and when it is a useful guide. For the most part, students should gradually learn the whole of Latin grammar by working out grammatical rules from their own observation as they begin to read actual Latin in the text, while their instructors can feel more confident in their grasp of the material and can use the added examples from {i}Familia {/i} {i}Romana{/i} to review and reinforce concepts or answer questions their charges present. The goal is to confirm the Latin and the structures that are learned in the inductive method, facilitating the process of language acquisition. As is clear from the very useful listserve for LLPSI (https://groups.google.com/forum/#!forum/llpsi), instructors at elementary and high schools lead their charges through the text at the pace appropriate to their students and the learning environment. Explanations of morphology and syntax appear according to their introduction in the course of the chapter: Section I, II, or III, making the {i}Companion{/i} practical regardless of the pace of an individual course. How does this book fit into the Lingua Latīna series? What does it replace? This book replaces the {i}Latine Disco{/i}, the {i}Grammatica Latina{/i}, and the {i}Latin–English Vocabulary{/i}. It does not replace the {i}Exercitia. {/i} What are the primary features of this book? The book provides a running {b}grammatical commentary{/b} on the narrative of Lingua Latina{i}. {/i}It differs from the {i}Latine Disco {/i}in scope and aim. {i}Latine Disco {/i}provides clear and concise information that students need in order to acquire an understanding of Latin at their own pace. This book builds from Ørberg’s original {i}Latine Disco{/i}; the presentation and formatting have been altered and more explication and examples are offered. To the degree possible, the {b}commentary corresponds to {/b} {b}the reading sections {/b}within each chapter, enabling students to view just the grammar for each section. Important and challenging structures are illustrated with several {b}examples{/b} from the story. As the grammatical concepts build, they are collected and reviewed in {i}periodic recensiones{/i}, facilitating an overview of the language and enabling students to know where to look for the places in the story where, e.g., they learned about accusative and infinitive construction. Beginning with {b}Res Grammaticae{/b} {b}Novae{/b}, a synopsis, in categories, of the material covered in the chapter, further facilitates an overview. The end of each chapter presents vocabulary divided by parts of speech; a full vocabulary can be found at the back of the book. In addition, {b}vocabulary review{/b} is enhanced by an appendix listing the vocabulary according to chapter but without meanings; students can quiz themselves on their grasp of vocabulary outside the context of the story. Since Ørberg’s own mastery of the language shows through in his ability to write lucid, idiomatic Latin, student attention, where appropriate, is directed to {i}points of style{/i} that highlight the way the language works syntactically or idiomatically. Finally, this edition includes a grammatical index."
+            "text": "Lingua Latina Per Se Illustrata offers a smooth and efficient path to acquisition of the language and immerses the student from the first in a true experience of Latin. Instead of reading discrete, even random, sentences chosen to illustrate the grammatical principles under consideration, Lingua Latina offers considerable practice in both grammar and a rich vocabulary in an engaging context of well-written Latin. The impetus of this book, therefore, arose not from any flaw in Ørberg’s method, but rather from the differing needs of students and classrooms. Different students learn differently; learning environments also differ: {i}Alii {/i} {i}aliis viis Romam perveniunt{/i}. At my own institution, students signing up for Latin commit to a two-term introductory experience, followed by a term of reading ancient texts. Reading {i}Familia Romana{/i} in a two-semester course in introductory Latin, meeting three times a week for two 13- or 14-week semesters, becomes a Herculean task. Lingua Latina, however, and its results proved too good to abandon. There seems to me no better guide than Lingua Latina for students who want to learn Latin {i}through Latin{/i}. Students clamored for us to keep the text, but make it suit their needs. We use the {i}Companion{/i} to strike a balance between a purely inductive method and the study of gram-"
+          },
+          {
+            "t": "p",
+            "text": "vii matical rules and paradigms. But it can also serve as an ancillary guide for the natural (inductive) method of language acquisition. Lingua Latina can be used to teach students Latin as early as age eight, yet the story engages adult readers as well. Although introductory language courses at the college level do not always have the same luxury of gradual acquisition, the Ørberg text can be highly effective for university students. This book, therefore, is designed for different audiences: university students, instructors of home-scholars, and independent learners whose learning style appreciates such a guide: it is for all students of Ørberg’s Lingua Latina Per Se Illustrata (LLPSI) who want a touchstone to assess their understanding of the text and the language. Home-schooling parents and instructors of students learning outside of the traditional classroom, especially those with little or no Latin training, can use this book as a companion to Lingua Latina for their own preparation. The instructor will be the best judge of where and when it is a useful guide. For the most part, students should gradually learn the whole of Latin grammar by working out grammatical rules from their own observation as they begin to read actual Latin in the text, while their instructors can feel more confident in their grasp of the material and can use the added examples from {i}Familia {/i} {i}Romana{/i} to review and reinforce concepts or answer questions their charges present. The goal is to confirm the Latin and the structures that are learned in the inductive method, facilitating the process of language acquisition. As is clear from the very useful listserve for LLPSI (https://groups.google.com/forum/#!forum/llpsi), instructors at elementary and high schools lead their charges through the text at the pace appropriate to their students and the learning environment. Explanations of morphology and syntax appear according to their introduction in the course of the chapter: Section I, II, or III, making the {i}Companion{/i} practical regardless of the pace of an individual course. How does this book fit into the Lingua Latīna series? What does it replace? This book replaces the {i}Latine Disco{/i}, the {i}Grammatica Latina{/i}, and the {i}Latin–English Vocabulary{/i}. It does not replace the {i}Exercitia. {/i} What are the primary features of this book? The book provides a running {b}grammatical commentary{/b} on the narrative of Lingua Latina{i}. {/i} It differs from the {i}Latine Disco {/i} in scope and aim. {i}Latine Disco {/i} provides clear and concise information that students need in order to acquire an understanding of Latin at their own pace. This book builds from Ørberg’s original {i}Latine Disco{/i}; the presentation and formatting have been altered and more explication and examples are offered. To the degree possible, the {b}commentary corresponds to {/b} {b}the reading sections {/b} within each chapter, enabling students to view just the grammar for each section. Important and challenging structures are illustrated with several {b}examples{/b} from the story. As the grammatical concepts build, they are collected and reviewed in {i}periodic recensiones{/i}, facilitating an overview of the language and enabling students to know where to look for the places in the story where, e.g., they learned about accusative and infinitive construction. Beginning with {b}Res Grammaticae{/b} {b}Novae{/b}, a synopsis, in categories, of the material covered in the chapter, further facilitates an overview. The end of each chapter presents vocabulary divided by parts of speech; a full vocabulary can be found at the back of the book. In addition, {b}vocabulary review{/b} is enhanced by an appendix listing the vocabulary according to chapter but without meanings; students can quiz themselves on their grasp of vocabulary outside the context of the story. Since Ørberg’s own mastery of the language shows through in his ability to write lucid, idiomatic Latin, student attention, where appropriate, is directed to {i}points of style{/i} that highlight the way the language works syntactically or idiomatically. Finally, this edition includes a grammatical index."
           }
         ],
         "id": "sec-1"
@@ -115,7 +119,11 @@ export const extras = [
         "blocks": [
           {
             "t": "p",
-            "text": "What follows is a brief explanation of how we have adapted {i}Familia Romana {/i} to our introductory sequence at Davidson College. The constraints of two semesters propel the course forward quickly, with usually two class days devoted to each chapter. This pace makes “catch-up” cramming difficult, if not impossible. Therefore, the relative weight of each facet of evaluation reflects the philosophy of the course:"
+            "text": "What follows is a brief explanation of how we have adapted {i}Familia Romana {/i} to our introductory sequence at Davidson College. The constraints of two semesters propel the course forward quickly, with usually two class days devoted to each chapter. This pace makes “catch-up” cramming difficult, if not impos-"
+          },
+          {
+            "t": "p",
+            "text": "xi sible. Therefore, the relative weight of each facet of evaluation reflects the philosophy of the course:"
           },
           {
             "t": "p",
@@ -222,6 +230,44 @@ export const extras = [
             "marker": "•",
             "ordered": false,
             "text": "Homework: read Companion and Familia Romana narrative; study for quiz."
+          },
+          {
+            "t": "p",
+            "text": "Day 2:"
+          },
+          {
+            "t": "li",
+            "marker": "•",
+            "ordered": false,
+            "text": "Quiz on new vocabulary."
+          },
+          {
+            "t": "li",
+            "marker": "•",
+            "ordered": false,
+            "text": "Questions about the reading? (Have them marked by line number with notes.)"
+          },
+          {
+            "t": "li",
+            "marker": "•",
+            "ordered": false,
+            "text": "Warm-up with Pensum A."
+          },
+          {
+            "t": "li",
+            "marker": "•",
+            "ordered": false,
+            "text": "“Conversational” Latin: Ask questions about the reading and their lives. Have students illustrate a scene or act it out. Have them pantomime verbs. Follow with other activities in Latin."
+          },
+          {
+            "t": "li",
+            "marker": "•",
+            "ordered": false,
+            "text": "Homework: carefully chosen Exercitia."
+          },
+          {
+            "t": "p",
+            "text": "Both approaches are intense, but students enjoy and profit from the course."
           }
         ],
         "id": "sec-3"
@@ -248,6 +294,10 @@ export const extras = [
           {
             "t": "p",
             "text": "The value of the marginalia and the images in the {i}Familia Romana{/i} text cannot be overemphasized! The marginalia mark out new things you will learn, and help you to understand the Latin quickly and visually. The illustrations will be valuable clues to what the Latin itself is saying. Try {i}not{/i} to translate into English as you read. Instead, keep images in your mind and work as much as you can in Latin. Only by increasing your stamina for reading and thinking within the Latin language will you gain proficiency in understanding. {i}Do not write English in your book!{/i} {i}Do not write out translations {/i} {i}of the text as you read{/i}: make yourself confront the text anew each time you read it. Only then will you become familiar with the language. A note on translations: You will find that translations accompany only a few of the illustrative sentences in this book. These translations demonstrate how a particular construction works in the English language in order to help you understand how Latin works, not to encourage translation into English. Remember, the goal is Latin! The more actively you engage, the more you will learn. Quiz yourself by going back into earlier chapters and randomly picking a word. Do you know what that word means without reading it in context? If not, reread the surrounding sentences and see whether context prods your memory. If not, look the word up. Do you recognize its case (if appropriate)? Could you reconstruct the nominative from that case? If the word is a verb, recount to yourself all you know about it (the amount you will know will depend on how far into the course you have proceeded). Try to write short synopses of the reading in Latin. Read out loud. Send a classmate a text or email in Latin! The more you engage different senses, the faster you will learn and the more you will retain."
+          },
+          {
+            "t": "p",
+            "text": "xv"
           }
         ],
         "id": "sec-1"
@@ -283,7 +333,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "The Latin alphabet can be most simply divided into vowels and consonants. That broad division has subdivisions as well. The Latin alphabet has twentythree letters; it lacks the English {i}w{/i}; {i}y{/i} and {i}z {/i}were Greek imports, as were {i}ch, ph, th{/i}."
+            "text": "The Latin alphabet can be most simply divided into vowels and consonants. That broad division has subdivisions as well. The Latin alphabet has twentythree letters; it lacks the English {i}w{/i}; {i}y{/i} and {i}z {/i} were Greek imports, as were {i}ch, ph, th{/i}."
           },
           {
             "t": "h",
@@ -317,7 +367,7 @@ export const extras = [
             "t": "li",
             "marker": "•",
             "ordered": false,
-            "text": "i ▷ short: {i}i {/i}as in “f{i}i{/i}t”: {i}in, nimis{/i}{{1}} ▷ long: {i}ī{/i} as {i}ee{/i} in “f{i}ee{/i}t”: {i}hīc, līberī{/i}"
+            "text": "i ▷ short: {i}i {/i} as in “f{i}i{/i}t”: {i}in, nimis{/i}{{1}} ▷ long: {i}ī{/i} as {i}ee{/i} in “f{i}ee{/i}t”: {i}hīc, līberī{/i}"
           },
           {
             "t": "li",
@@ -336,6 +386,10 @@ export const extras = [
             "marker": "•",
             "ordered": false,
             "text": "y (represents the Greek upsilon) ▷ short: y as French u in “lune”: Syria ▷ long: ȳ as French u in “pur”: Lȳdia"
+          },
+          {
+            "t": "p",
+            "text": "1. The sound as in f{i}i{/i}t, h{i}i{/i}t does not occur in the modern Romance languages, suggesting that short {i}i {/i} had more of an {i}ee{/i} sound, but held for a shorter time."
           },
           {
             "t": "li",
@@ -391,7 +445,7 @@ export const extras = [
             "t": "li",
             "marker": "•",
             "ordered": false,
-            "text": "u/v: The word for slave shows you the other glide in Latin. The word for slave is {i}servus{/i}, in the plural, it’s {i}servi. {/i}The {i}v{/i} and {i}u{/i} are actually the same letter and work the same way as “i” and “j.” In some Latin texts, you will find {i}servus{/i} written as {i}seruus{/i}; this text distinguishes {i}u {/i} and {i}v. {/i}Sound: Before a consonant, {i}u{/i} represents the vowel sound “u” and before a vowel, the consonant sound “w.”"
+            "text": "u/v: The word for slave shows you the other glide in Latin. The word for slave is {i}servus{/i}, in the plural, it’s {i}servi. {/i} The {i}v{/i} and {i}u{/i} are actually the same letter and work the same way as “i” and “j.” In some Latin texts, you will find {i}servus{/i} written as {i}seruus{/i}; this text distinguishes {i}u {/i} and {i}v. {/i} Sound: Before a consonant, {i}u{/i} represents the vowel sound “u” and before a vowel, the consonant sound “w.”"
           },
           {
             "t": "h",
@@ -417,7 +471,7 @@ export const extras = [
             "t": "li",
             "marker": "•",
             "ordered": false,
-            "text": "c is always hard as in “cat” (= k, without aspiration): canis, centum, {i}circus, nec{/i} ▷ {i}ch, {/i}as {i}k {/i}with aspiration: {i}pulcher{/i}"
+            "text": "c is always hard as in “cat” (= k, without aspiration): canis, centum, {i}circus, nec{/i} ▷ {i}ch, {/i} as {i}k {/i} with aspiration: {i}pulcher{/i}"
           },
           {
             "t": "li",
@@ -513,7 +567,7 @@ export const extras = [
             "t": "li",
             "marker": "•",
             "ordered": false,
-            "text": "t is always hard (not like t in nation)"
+            "text": "t  is always hard (not like t  in nation)"
           },
           {
             "t": "li",
@@ -547,7 +601,7 @@ export const extras = [
             "t": "li",
             "marker": "•",
             "ordered": false,
-            "text": "Like English: d, f, l, m, and n (initial and medial){{2}}, p, qu, z"
+            "text": "Like English: d, f, l, m, and n  (initial and medial){{2}}, p, qu, z"
           },
           {
             "t": "li",
@@ -565,7 +619,7 @@ export const extras = [
             "t": "li",
             "marker": "•",
             "ordered": false,
-            "text": "Softer than English: h, final m, n"
+            "text": "Softer than English: h,  final m, n"
           },
           {
             "t": "li",
@@ -581,7 +635,15 @@ export const extras = [
             "t": "li",
             "marker": "1.",
             "ordered": true,
-            "text": "Syllables: a. A word has as many syllables as it has vowels and/or diphthongs: i. {i}Est, nōn, sunt{/i} ii. {i}Rō ma, Nī lus, quo que{/i} iii. {i}Flu vi us, op pi dum, īn su la{/i} iv. {i}Brun di si um, Hi spā ni a{/i}{{3}} b. Note that in the examples above: i. A consonant goes with the following vowel: {i}Rō ma{/i} ii. Two consonants are divided:{i} op pi dum{/i} c. Some consonants stay together: ~{i} ch, ph, th, qu{/i} ~{i} l{/i} or {i}r{/i} preceded by {i}b, d, g, p, t, c,{/i} and {i}f{/i}"
+            "text": "Syllables: a. A word has as many syllables as it has vowels and/or diphthongs: i. {i}Est, nōn, sunt{/i} ii. {i}Rō ma, Nī lus, quo que{/i} iii. {i}Flu vi us, op pi dum, īn su la{/i} iv. {i}Brun di si um, Hi spā ni a{/i}{{3}} b. Note that in the examples above: i. A consonant goes with the following vowel: {i}Rō ma{/i} ii. Two consonants are divided:{i} op pi dum{/i}"
+          },
+          {
+            "t": "p",
+            "text": "2. I.e., beginning a word (initial) and in the middle of a word (medial). 3. If a combination of letters could be used to begin a word (like the {i}sp{/i} in {i}hi spa ni a{/i}), those letters are kept together and go with the following vowel."
+          },
+          {
+            "t": "p",
+            "text": "c. Some consonants stay together: ~{i} ch, ph, th, qu{/i} ~{i} l{/i} or {i}r{/i} preceded by {i}b, d, g, p, t, c,{/i} and {i}f{/i}"
           },
           {
             "t": "li",
@@ -659,7 +721,7 @@ export const extras = [
             "t": "li",
             "marker": "5.",
             "ordered": true,
-            "text": "matches (agrees) with its noun in gender, number, and case {i}Exempla Latīna{/i}: {i}magnus {/i}({i}fluvius){/i} {i}parva (īnsula){/i} {i}parvum (oppidum){/i}"
+            "text": "matches (agrees) with its noun in gender, number, and case {i}Exempla Latīna{/i}: {i}magnus {/i} ({i}fluvius){/i} {i}parva (īnsula){/i} {i}parvum (oppidum){/i}"
           },
           {
             "t": "p",
@@ -691,7 +753,7 @@ export const extras = [
             "t": "li",
             "marker": "2.",
             "ordered": true,
-            "text": "properties: a. person: 1st (I/we), 2nd (you), 3rd (he, she, it/they) b. number: singular, plural c. tense: time frame of the verb: i. present (continuing action in the present){{4}} ii. imperfect (continuing action in the past) iii. future (projected action) iv. perfect (completed action) v. pluperfect (action completed before another completed action) vi. future perfect (action to be completed before a projected action) d. voice: i. active (subject is the agent of the verb) ii. passive (subject is the recipient of the action of the verb) e. mood: expresses the speaker’s attitude to the verb i. indicative (states a fact, asks a question) ii. infinitive (the unbounded, “to” form of the verb){{5}} iii. imperative (gives a command) iv. subjunctive (various uses) {i}Exempla Latīna{/i}: {i}est, sunt{/i} {i}pulsat{/i} [Cap. III] {i}cantat {/i}[Cap. III]"
+            "text": "properties: a. person: 1st (I/we), 2nd (you), 3rd (he, she, it/they) b. number: singular, plural c. tense: time frame of the verb: i. present (continuing action in the present){{4}} ii. imperfect (continuing action in the past) iii. future (projected action) iv. perfect (completed action) v. pluperfect (action completed before another completed action) vi. future perfect (action to be completed before a projected action) d. voice: i. active (subject is the agent of the verb) ii. passive (subject is the recipient of the action of the verb) e. mood: expresses the speaker’s attitude to the verb i. indicative (states a fact, asks a question) ii. infinitive (the unbounded, “to” form of the verb){{5}} iii. imperative (gives a command) iv. subjunctive (various uses) {i}Exempla Latīna{/i}: {i}est, sunt{/i} {i}pulsat{/i} [Cap. III] {i}cantat {/i} [Cap. III]"
           },
           {
             "t": "p",
@@ -713,7 +775,7 @@ export const extras = [
             "t": "li",
             "marker": "3.",
             "ordered": true,
-            "text": "like an adjective, a participle has a. gender b. number c. case {i}Exempla Latīna{/i}: {i}dormiēns {/i}({i}puer{/i}) {i}canentem {/i}({i}gallum{/i}) {i}stantem {/i}({i}servum{/i})"
+            "text": "like an adjective, a participle has a. gender b. number c. case {i}Exempla Latīna{/i}: {i}dormiēns {/i} ({i}puer{/i}) {i}canentem {/i} ({i}gallum{/i}) {i}stantem {/i} ({i}servum{/i})"
           },
           {
             "t": "p",
@@ -723,17 +785,21 @@ export const extras = [
             "t": "li",
             "marker": "1.",
             "ordered": true,
-            "text": "qualifies a a. verb b. adjective c. another adverb {i}Exempla Latīna{/i}: {i}bene{/i} {i}nōn{/i} {i}ubi {/i}(interrogative adverb) {i}num{/i} (interrogative adverb)"
+            "text": "qualifies a a. verb b. adjective c. another adverb"
           },
           {
             "t": "p",
-            "text": "{b}Preposition{/b} [Cap. I]:"
+            "text": "4. The present shows continuing action in the present (I am walking), simple present (I walk), emphatic present (I do walk). 5. The infinitive, like the supine (not included here), is a verbal noun."
+          },
+          {
+            "t": "p",
+            "text": "{i}Exempla Latīna{/i}: {i}bene{/i} {i}nōn{/i} {i}ubi {/i} (interrogative adverb) {i}num{/i} (interrogative adverb) {b}Preposition{/b} [Cap. I]:"
           },
           {
             "t": "li",
             "marker": "1.",
             "ordered": true,
-            "text": "determines the relationship between two nouns {i}Exempla Latīna{/i}: {i}in {/i}({i}Italiā{/i}) {i}sine {/i}({i}rōsīs{/i}) [Cap. V] {i}cum {/i}({i}Aemiliā{/i}) [Cap. V]"
+            "text": "determines the relationship between two nouns {i}Exempla Latīna{/i}: {i}in {/i} ({i}Italiā{/i}) {i}sine {/i} ({i}rōsīs{/i}) [Cap. V] {i}cum {/i} ({i}Aemiliā{/i}) [Cap. V]"
           },
           {
             "t": "p",
@@ -763,7 +829,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "Julia is singing. Who is singing? Julia (subject) {i}Exempla Latīna:{/i} {i}Rōma in Italiā est.{/i} {i}Iūlia cantat {/i}[Cap. III]{i}.{/i} {b}Predicate{/b}: the verb and its modifier(s). To find the verb in a sentence, look for the word that denotes an action or state of being."
+            "text": "Julia is singing. Who is singing? Julia (subject) {i}Exempla Latīna:{/i} {i}Rōma in Italiā est.{/i} {i}Iūlia cantat {/i} [Cap. III]{i}.{/i} {b}Predicate{/b}: the verb and its modifier(s). To find the verb in a sentence, look for the word that denotes an action or state of being."
           },
           {
             "t": "li",
@@ -812,6 +878,30 @@ export const extras = [
           {
             "t": "p",
             "text": "{b}Transitive verb{/b}: a verb which is completed by a direct object."
+          },
+          {
+            "t": "p",
+            "text": "{i}Exempla Latīna:{/i}"
+          },
+          {
+            "t": "p",
+            "text": "{i}Mārcus nōn videt Quīntum {/i} [Cap. III]{i}.{/i} {i}Mārcus puellam pulsat {/i} [Cap. III]{i}.{/i} {b}Intransitive verb{/b}: a verb that is not completed by a direct object (which is in the accusative case) or that stands alone (e.g., “I stand,” “I sit”). In both examples below, the dative case completes the verb, which is intransitive. {i}Exempla Latīna:{/i} {i}Pater dormit {/i} [Cap. III]{i}.{/i} {i}Pater venit {/i} [Cap. III]{i}.{/i} {b}Direct object{/b}: a word in the accusative case that receives the action of the verb. {i}Exempla Latīna:{/i}"
+          },
+          {
+            "t": "p",
+            "text": "{i}Mārcus nōn videt Quīntum {/i} [Cap. III]{i}.{/i} {i}Mārcus puellam pulsat {/i} [Cap. III]{i}.{/i} {b}Indirect object{/b}: a word in the dative case that tells “to or for whom” the action of the verb is performed. {i}Exempla Latīna:{/i}"
+          },
+          {
+            "t": "p",
+            "text": "{i}Pater fīliō suō magnum mālum dat {/i} [Cap. VII]{i}.{/i} {i}Dominus servīs māla et pira dat {/i} [Cap. VII]{i}.{/i}"
+          },
+          {
+            "t": "p",
+            "text": "{i}Notā Bene:{/i}{{6}} Some verbs which are transitive in English are intransitive in Latin."
+          },
+          {
+            "t": "p",
+            "text": "6. {i}Notā Bene{/i} means “note well” or “take note—this is important!”"
           }
         ],
         "id": "sec-2"
@@ -843,31 +933,31 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "• {b}Noun{/b} (or {b}substantive{/b}){i}, {/i}e.g. {i}Mārcus, Rōma, puer, {/i}",
+                "• {b}Noun{/b} (or {b}substantive{/b}){i}, {/i} e.g. {i}Mārcus, Rōma, puer, {/i}",
                 "nouns (substantives)"
               ],
               [
-                "{i}oppidum leō, aqua, color, pugna, mors, {/i}etc.",
+                "{i}oppidum leō, aqua, color, pugna, mors, {/i} etc.",
                 "adjectives"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "pronouns • {b}Adjective{/b}, e.g. {i}Rōmānus, bonus, pulcher, brevis, {/i}etc. verbs • {b}Pronoun{/b}, e.g. {i}tū, nōs, is, hic, ille, quis, quī, nēmō, {/i}etc. adverbs"
+            "text": "pronouns • {b}Adjective{/b}, e.g. {i}Rōmānus, bonus, pulcher, brevis, {/i} etc. verbs • {b}Pronoun{/b}, e.g. {i}tū, nōs, is, hic, ille, quis, quī, nēmō, {/i} etc. adverbs"
           },
           {
             "t": "table",
             "rows": [
               [
-                "• {b}Verb{/b}, e.g. {i}amāre, habēre, venīre, emere, īre, esse, {/i}etc.",
+                "• {b}Verb{/b}, e.g. {i}amāre, habēre, venīre, emere, īre, esse, {/i} etc.",
                 "conjunctions"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "prepositions • {b}Adverb{/b}, e.g. {i}bene, rēctē, fortiter, ita, nōn, hīc, {/i}etc. interjections • {b}Conjunction{/b}, e.g. {i}et, neque, sed, aut, quia, dum, sī, ut,{/i} etc. • {b}Preposition{/b}, e.g. {i}in, ab, ad, post, inter, sine, dē, {/i}etc. • {b}Interjection{/b}, e.g. {i}ō, ei, heu, heus, ecce, {/i}etc. • {b}Numerals{/b} are nouns and adjectives which denote numerals numbers, e.g. {i}trēs, tertius, ternī.{/i}"
+            "text": "prepositions • {b}Adverb{/b}, e.g. {i}bene, rēctē, fortiter, ita, nōn, hīc, {/i} etc. interjections • {b}Conjunction{/b}, e.g. {i}et, neque, sed, aut, quia, dum, sī, ut,{/i} etc. • {b}Preposition{/b}, e.g. {i}in, ab, ad, post, inter, sine, dē, {/i} etc. • {b}Interjection{/b}, e.g. {i}ō, ei, heu, heus, ecce, {/i} etc. • {b}Numerals{/b} are nouns and adjectives which denote numerals numbers, e.g. {i}trēs, tertius, ternī.{/i}"
           },
           {
             "t": "table",
@@ -887,18 +977,18 @@ export const extras = [
             "text": "NOUNS"
           },
           {
-            "t": "p",
-            "text": "{b}Gender, number, case{/b}"
+            "t": "h",
+            "text": "Gender, number, case"
           },
           {
             "t": "p",
-            "text": "genders: masc., m. There are three {b}genders: masculine{/b}, e.g. {i}servus, {/i}{b}feminine{/b}, fem., f. e.g. {i}ancilla, {/i}and {b}neuter{/b}, e.g. {i}oppidum.{/i} neut., n. There are two {b}numbers: singular{/b}, e.g. {i}servus, {/i}and {b}plural{/b},"
+            "text": "genders: masc., m. There are three {b}genders: masculine{/b}, e.g. {i}servus, {/i} {b}feminine{/b}, fem., f. e.g. {i}ancilla, {/i} and {b}neuter{/b}, e.g. {i}oppidum.{/i} neut., n. There are two {b}numbers: singular{/b}, e.g. {i}servus, {/i} and {b}plural{/b},"
           },
           {
             "t": "table",
             "rows": [
               [
-                "e.g. {i}servī. {/i}Nouns which have no singular are called {b}plūrālia {/b}",
+                "e.g. {i}servī. {/i} Nouns which have no singular are called {b}plūrālia {/b}",
                 "numbers: sing. pl."
               ]
             ]
@@ -918,27 +1008,27 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "acc. gen. There are six {b}cases: nominative{/b}, e.g. {i}servus, {/i}{b}accusative{/b}, e.g. dat."
+            "text": "acc. gen. There are six {b}cases: nominative{/b}, e.g. {i}servus, {/i} {b}accusative{/b}, e.g. dat."
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}servum, {/i}{b}geni tive{/b}, e.g. {i}servī, {/i}{b}dative{/b}, e.g. {i}servō,{/i} {b}ablative{/b}, e.g.",
+                "{i}servum, {/i} {b}geni tive{/b}, e.g. {i}servī, {/i} {b}dative{/b}, e.g. {i}servō,{/i} {b}ablative{/b}, e.g.",
                 "abl."
               ]
             ]
           },
           {
             "t": "p",
-            "text": "voc. ({i}ā{/i}){i} servō, {/i}and {b}vocative{/b}, e.g. {i}serve.{/i} {b}Stem and ending{/b} The {b}stem{/b} is the main part of a word, e.g. {i}serv-, ancill-, {/i}"
+            "text": "voc. ({i}ā{/i}){i} servō, {/i} and {b}vocative{/b}, e.g. {i}serve.{/i} {b}Stem and ending{/b} The {b}stem{/b} is the main part of a word, e.g. {i}serv-, ancill-, {/i} stems: {i}serv-, ancill-,{/i}"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i} oppid-, magn-, brev-, {/i}to which various inflectional {b}endings{/b}",
-                "{i}oppid-, {/i}etc."
+                "{i} oppid-, magn-, brev-, {/i} to which various inflectional {b}endings{/b}",
+                "{i}oppid-, {/i} etc."
               ],
               [
                 "are added, e.g. {i}-um, -ī, -am, -ae, -ō, -ēs, -ibus{/i}."
@@ -966,11 +1056,11 @@ export const extras = [
             "rows": [
               [
                 "declension (decl.)",
-                "{b}1st declension{/b}: gen. sing. {i}-ae, {/i}e.g. {i}īnsul{/i}|{i}a -ae.{/i}"
+                "{b}1st declension{/b}: gen. sing. {i}-ae, {/i} e.g. {i}īnsul{/i}|{i}a -ae.{/i}"
               ],
               [
                 "1st decl.: gen. {i}-ae{/i}",
-                "{b}2nd declension{/b}{b}:{/b} gen. sing. {i}-ī, {/i}e.g. {i}serv{/i}|{i}us -ī, oppid{/i}|{i}um -ī.{/i}"
+                "{b}2nd declension{/b}{b}:{/b} gen. sing. {i}-ī, {/i} e.g. {i}serv{/i}|{i}us -ī, oppid{/i}|{i}um -ī.{/i}"
               ],
               [
                 "2nd decl.: gen. {i}-ī{/i}"
@@ -979,14 +1069,14 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "{b}3rd declension{/b}: gen. sing. {i}-is, {/i}e.g. {i}sōl sōl|is, urb{/i}|{i}s -is.{/i} 3rd decl.: gen. {i}-is{/i}"
+            "text": "{b}3rd declension{/b}: gen. sing. {i}-is, {/i} e.g. {i}sōl sōl|is, urb{/i}|{i}s -is.{/i} 3rd decl.: gen. {i}-is{/i}"
           },
           {
             "t": "table",
             "rows": [
               [
                 "4th decl.: gen. {i}-ūs{/i}",
-                "{b}4th declension{/b}: gen. sing. {i}-ūs, {/i}e.g. {i}man{/i}|{i}us -ūs.{/i}"
+                "{b}4th declension{/b}: gen. sing. {i}-ūs, {/i} e.g. {i}man{/i}|{i}us -ūs.{/i}"
               ],
               [
                 "5th decl.: gen. {i}-ēī/-eī{/i}"
@@ -995,7 +1085,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "{b}5th declension{/b}: gen. sing. {i}-ēī/-eī, {/i}e.g. {i}di{/i}|{i}ēs -ēī, r{/i}|{i}ēs -eī.{/i} {b}First Declension {/b} Genitive: sing. {i}-ae, {/i}pl. {i}-ārum. {/i} Example: {i}īnsul|a{/i} {i}-ae {/i}f."
+            "text": "{b}5th declension{/b}: gen. sing. {i}-ēī/-eī, {/i} e.g. {i}di{/i}|{i}ēs -ēī, r{/i}|{i}ēs -eī.{/i} {b}First Declension {/b} Genitive: sing. {i}-ae, {/i} pl. {i}-ārum. {/i} Example: {i}īnsul|a{/i} {i}-ae {/i} f."
           },
           {
             "t": "table",
@@ -1040,7 +1130,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "Masculine (male persons): {i}nauta, agricola, aurīga, pīrāta, {/i} {i}poēta, {/i}etc. {b}Second Declension{/b} Genitive: sing. {i}-ī, {/i}pl. {i}-ōrum.{/i}"
+            "text": "Masculine (male persons): {i}nauta, agricola, aurīga, pīrāta, {/i} {i}poēta, {/i} etc. {b}Second Declension{/b} Genitive: sing. {i}-ī, {/i} pl. {i}-ōrum.{/i}"
           },
           {
             "t": "li",
@@ -1050,7 +1140,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "Examples: {i}equ|us{/i} {i}-ī, liber{/i} {i}libr{/i}|{i}ī, puer{/i} {i}puer{/i}|{i}ī.{/i}"
+            "text": "Examples: {i}equ|us{/i} {i}-ī, {/i} {i}liber{/i} {i}libr{/i}|{i}ī, {/i} {i}puer{/i} {i}puer{/i}|{i}ī.{/i}"
           },
           {
             "t": "table",
@@ -1117,7 +1207,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "A few are feminine, e.g. {i}hum{/i}|{i}us -ī, papyr{/i}|{i}us -ī, Aegypt{/i}|{i}us -ī, {/i} {i}Rhod{/i}|{i}us -ī.{/i} Nom. sing. {i}-ius, {/i}voc. {i}-ī{/i}:{i} Iūlius, Iūlī! fīlius, fīlī!{/i}"
+            "text": "A few are feminine, e.g. {i}hum{/i}|{i}us -ī, papyr{/i}|{i}us -ī, Aegypt{/i}|{i}us -ī, {/i} {i}Rhod{/i}|{i}us -ī.{/i} Nom. sing. {i}-ius, {/i} voc. {i}-ī{/i}:{i} Iūlius, Iūlī! fīlius, fīlī!{/i}"
           },
           {
             "t": "li",
@@ -1173,6 +1263,15 @@ export const extras = [
             "t": "table",
             "rows": [
               [
+                "{i}-ō{/i}",
+                "{i}-īs{/i}"
+              ]
+            ]
+          },
+          {
+            "t": "table",
+            "rows": [
+              [
                 "abl. {i}verb|ō{/i}",
                 "{i}verb|īs{/i}"
               ]
@@ -1180,7 +1279,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "{b}Third Declension{/b} Genitive: sing. {i}-is, {/i}pl. {i}-um / -ium.{/i} [A] Genitive plural: {i}-um.{/i} 1. Masculine and feminine. Examples: {i}sōl{/i} {i}sōl{/i}|{i}is {/i}m., {i}leō{/i} {i}leōn{/i}|{i}is {/i}m., {i}vōx{/i} {i}vōc{/i}|{i}is {/i}f."
+            "text": "{b}Third Declension{/b} Genitive: sing. {i}-is, {/i} pl. {i}-um / -ium.{/i} [A] Genitive plural: {i}-um.{/i} 1. Masculine and feminine. Examples: {i}sōl{/i} {i}sōl{/i}|{i}is {/i} m., {i}leō{/i} {i}leōn{/i}|{i}is {/i} m., {i}vōx{/i} {i}vōc{/i}|{i}is {/i} f."
           },
           {
             "t": "table",
@@ -1228,38 +1327,38 @@ export const extras = [
                 "{i}-ibus{/i}"
               ],
               [
-                "[1] Nom. {i}-er, {/i}gen. {i}-r{/i}|{i}is{/i}:{i} pater patr{/i}|{i}is {/i}m., {i}māter mātr{/i}|{i}is {/i}f.",
+                "[1] Nom. {i}-er, {/i} gen. {i}-r{/i}|{i}is{/i}:{i} pater patr{/i}|{i}is {/i} m., {i}māter mātr{/i}|{i}is {/i} f.",
                 "{i}-er -r|is{/i}"
               ],
               [
-                "[2] Nom. {i}-or, {/i}gen. {i}-ōr{/i}|{i}is{/i}:{i} pāstor -ōr{/i}|{i}is {/i}m.",
+                "[2] Nom. {i}-or, {/i} gen. {i}-ōr{/i}|{i}is{/i}:{i} pāstor -ōr{/i}|{i}is {/i} m.",
                 "{i}-or -ōr|is{/i}"
               ],
               [
-                "[3] Nom. {i}-ōs, {/i}gen. {i}-ōr{/i}|{i}is{/i}:{i} flōs flōr|is {/i}m.",
+                "[3] Nom. {i}-ōs, {/i} gen. {i}-ōr{/i}|{i}is{/i}:{i} flōs flōr|is {/i} m.",
                 "{i}-ōs -ōr|is{/i}"
               ],
               [
-                "[4] Nom. {i}-ō, {/i}gen. {i}-in{/i}|{i}is{/i}:{i} virgō -in{/i}|{i}is {/i}f., {i}homō -in{/i}|{i}is {/i}m.",
+                "[4] Nom. {i}-ō, {/i} gen. {i}-in{/i}|{i}is{/i}:{i} virgō -in{/i}|{i}is {/i} f., {i}homō -in{/i}|{i}is {/i} m.",
                 "{i}-ō -in|is{/i}"
               ],
               [
-                "[5] Nom. {i}-x, {/i}gen. {i}-g{/i}|{i}is{/i}:{i} lēx lēg|is {/i}f.,{i} rēx rēg{/i}|{i}is {/i}m.",
+                "[5] Nom. {i}-x, {/i} gen. {i}-g{/i}|{i}is{/i}:{i} lēx lēg|is {/i} f.,{i} rēx rēg{/i}|{i}is {/i} m.",
                 "{i}-x -g|is{/i}"
               ],
               [
-                "[6] Nom. {i}-ex, {/i}gen. {i}-ic{/i}|{i}is{/i}:{i} index -ic{/i}|{i}is {/i}m.",
+                "[6] Nom. {i}-ex, {/i} gen. {i}-ic{/i}|{i}is{/i}:{i} index -ic{/i}|{i}is {/i} m.",
                 "{i}-ex -ic|is-s -t|is{/i}"
               ],
               [
-                "[7] Nom. {i}-s, {/i}gen. {i}-t{/i}|{i}is{/i}:{i} aetās -āt{/i}|{i}is {/i}f., {i}mīles -it{/i}|{i}is {/i}m.",
+                "[7] Nom. {i}-s, {/i} gen. {i}-t{/i}|{i}is{/i}:{i} aetās -āt{/i}|{i}is {/i} f., {i}mīles -it{/i}|{i}is {/i} m.",
                 "{i}-s -d|is{/i}"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "[8] Nom. {i}-s, {/i}gen. {i}-d{/i}|{i}is{/i}:{i} laus laud{/i}|{i}is {/i}f., {i}pēs ped{/i}|{i}is {/i}m. [9] Irregular nouns: {i}sanguis -in{/i}|{i}is {/i}m.; {i}coniūnx -iug|is {/i}m./f.; {i}senex sen{/i}|{i}is {/i}m.; {i}bōs bov{/i}|{i}is {/i}m./f., pl. {i}bov{/i}|{i}ēs boum, {/i}dat./abl. {i}bōbus/būbus.{/i} 2. Neuter Examples: {i}ōs{/i} {i}ōr{/i}|{i}is, corpus{/i} {i}corpor{/i}|{i}is, opus -er|is,{/i} {i}nōmen{/i} {i}nōmin{/i}|{i}is.{/i}"
+            "text": "[8] Nom. {i}-s, {/i} gen. {i}-d{/i}|{i}is{/i}:{i} laus laud{/i}|{i}is {/i} f., {i}pēs ped{/i}|{i}is {/i} m. [9] Irregular nouns: {i}sanguis -in{/i}|{i}is {/i} m.; {i}coniūnx -iug|is {/i} m./f.; {i}senex sen{/i}|{i}is {/i} m.; {i}bōs bov{/i}|{i}is {/i} m./f., pl. {i}bov{/i}|{i}ēs boum, {/i} dat./abl. {i}bōbus/būbus.{/i} 2. Neuter Examples: {i}ōs{/i} {i}ōr{/i}|{i}is, {/i} {i}corpus{/i} {i}corpor{/i}|{i}is, {/i} {i}opus -er|is,{/i} {i}nōmen{/i} {i}nōmin{/i}|{i}is.{/i}"
           },
           {
             "t": "table",
@@ -1341,13 +1440,13 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "Irregular nouns: {i}cor cord{/i}|{i}is{/i};{i} caput capit{/i}|{i}is{/i};{i} lac lact{/i}|{i}is{/i};{i} os oss{/i}|{i}is {/i} (gen. pl. {i}-ium{/i});{i} mel mell{/i}|{i}is{/i};{i} iter itiner{/i}|{i}is{/i};{i} vās vās{/i}|{i}is, {/i}pl. {i}vās{/i}|{i}a {/i}"
+            "text": "Irregular nouns: {i}cor cord{/i}|{i}is{/i};{i} caput capit{/i}|{i}is{/i};{i} lac lact{/i}|{i}is{/i};{i} os oss{/i}|{i}is {/i} (gen. pl. {i}-ium{/i});{i} mel mell{/i}|{i}is{/i};{i} iter itiner{/i}|{i}is{/i};{i} vās vās{/i}|{i}is, {/i} pl. {i}vās{/i}|{i}a {/i}"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}-ōrum {/i}(2nd decl.); {i}thema -at{/i}|{i}is.{/i}",
+                "{i}-ōrum {/i} (2nd decl.); {i}thema -at{/i}|{i}is.{/i}",
                 "{i}-ma -mat|is{/i}"
               ]
             ]
@@ -1364,7 +1463,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "Examples: {i}nāv|is{/i} {i}-is {/i}f., {i}urb|s{/i} {i}-is {/i}f., {i}mōns{/i} {i}mont{/i}|{i}is {/i}m."
+            "text": "Examples: {i}nāv|is{/i} {i}-is {/i} f., {i}urb|s{/i} {i}-is {/i} f., {i}mōns{/i} {i}mont{/i}|{i}is {/i} m."
           },
           {
             "t": "table",
@@ -1415,22 +1514,22 @@ export const extras = [
                 "abl. {i}nāv|e nāv|ibus urb|e urb|ibus mont|e mont|ibus{/i}"
               ],
               [
-                "{i}-is, {/i}acc. {i}-im, {/i}abl. {i}-ī{/i}",
-                "[1] Nom. {i}-is, {/i}acc. {i}-im {/i}(pl. {i}-īs{/i}){i}, {/i}abl. {i}-ī{/i}:{i} pupp|is -is {/i}f.{i}, Tiber|is -is {/i}m."
+                "{i}-is, {/i} acc. {i}-im, {/i} abl. {i}-ī{/i}",
+                "[1] Nom. {i}-is, {/i} acc. {i}-im {/i} (pl. {i}-īs{/i}){i}, {/i} abl. {i}-ī{/i}:{i} pupp|is -is {/i} f.{i}, Tiber|is -is {/i} m."
               ],
               [
                 "{i}-ēs -is{/i}",
-                "[2] Nom. {i}-ēs, {/i}gen. {i}-is{/i}:{i} nūb{/i}|{i}ēs -is {/i}f."
+                "[2] Nom. {i}-ēs, {/i} gen. {i}-is{/i}:{i} nūb{/i}|{i}ēs -is {/i} f."
               ],
               [
                 "{i}-x -c{/i}|{i}is{/i}",
-                "[3] Nom. {i}-x, {/i}gen. {i}-c{/i}|{i}is{/i}:{i} falx falc{/i}|{i}is {/i}f."
+                "[3] Nom. {i}-x, {/i} gen. {i}-c{/i}|{i}is{/i}:{i} falx falc{/i}|{i}is {/i} f."
               ]
             ]
           },
           {
             "t": "p",
-            "text": "[4] Irregular nouns: {i}nox noct{/i}|{i}is {/i}f.; {i}nix niv{/i}|{i}is {/i}f.; {i}carō carn{/i}|{i}is {/i}f.; {i}as ass{/i}|{i}is {/i}m.; {i}vīs, {/i}acc. {i}vim, {/i}abl. {i}vī, {/i}pl. {i}vīr{/i}|{i}ēs -ium {/i}f."
+            "text": "[4] Irregular nouns: {i}nox noct{/i}|{i}is {/i} f.; {i}nix niv{/i}|{i}is {/i} f.; {i}carō carn{/i}|{i}is {/i} f.; {i}as ass{/i}|{i}is {/i} m.; {i}vīs, {/i} acc. {i}vim, {/i} abl. {i}vī, {/i} pl. {i}vīr{/i}|{i}ēs -ium {/i} f."
           },
           {
             "t": "li",
@@ -1440,7 +1539,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "Examples: {i}mar|e{/i} {i}-is, animal{/i} {i}-āl{/i}|{i}is.{/i}"
+            "text": "Examples: {i}mar|e{/i} {i}-is, {/i} {i}animal{/i} {i}-āl{/i}|{i}is.{/i}"
           },
           {
             "t": "table",
@@ -1523,7 +1622,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "{b}Fourth Declension {/b} Genitive: sing. {i}-ūs, {/i}pl. {i}-uum.{/i} Examples: {i}port|us{/i} {i}-ūs {/i}m., {i}corn|ū{/i} {i}-ūs {/i}n."
+            "text": "{b}Fourth Declension {/b} Genitive: sing. {i}-ūs, {/i} pl. {i}-uum.{/i} Examples: {i}port|us{/i} {i}-ūs {/i} m., {i}corn|ū{/i} {i}-ūs {/i} n."
           },
           {
             "t": "table",
@@ -1629,7 +1728,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "{i}dom{/i}|{i}us -ūs {/i}f., abl. {i}-ō, {/i}pl. {i}dom{/i}|{i}ūs -ōrum {/i}({i}-uum{/i}){i}, {/i}acc. {i}-ōs.{/i} {b}Fifth Declension {/b} Genitive: sing. {i}-ēī/-eī, {/i}pl. {i}-ērum. {/i} Examples: {i}di|ēs{/i} {i}-ēī {/i}m. (f.), {i}rēs reī {/i}f."
+            "text": "{i}dom{/i}|{i}us -ūs {/i} f., abl. {i}-ō, {/i} pl. {i}dom{/i}|{i}ūs -ōrum {/i} ({i}-uum{/i}){i}, {/i} acc. {i}-ōs.{/i} {b}Fifth Declension {/b} Genitive: sing. {i}-ēī/-eī, {/i} pl. {i}-ērum. {/i} Examples: {i}di|ēs{/i} {i}-ēī {/i} m. (f.), {i}rēs reī {/i} f."
           },
           {
             "t": "table",
@@ -1659,19 +1758,61 @@ export const extras = [
                 "{i}di|ēs{/i}",
                 "{i}rem{/i}",
                 "{i}rēs{/i}"
-              ],
+              ]
+            ]
+          },
+          {
+            "t": "table",
+            "rows": [
+              [
+                "{i}-em{/i}",
+                "{i}-ēs{/i}"
+              ]
+            ]
+          },
+          {
+            "t": "table",
+            "rows": [
               [
                 "gen. {i}di|ēī{/i}",
                 "{i}di|ērum{/i}",
                 "{i}reī{/i}",
                 "{i}rērum{/i}"
-              ],
+              ]
+            ]
+          },
+          {
+            "t": "table",
+            "rows": [
+              [
+                "{i}-ēī/-eī{/i}",
+                "{i}-ērum{/i}"
+              ]
+            ]
+          },
+          {
+            "t": "table",
+            "rows": [
               [
                 "dat. {i}di|ēī{/i}",
                 "{i}di|ēbus{/i}",
                 "{i}reī{/i}",
                 "{i}rēbus{/i}"
-              ],
+              ]
+            ]
+          },
+          {
+            "t": "table",
+            "rows": [
+              [
+                "{i}-ēī/-eī{/i}",
+                "{i}-ēbus{/i}"
+              ]
+            ]
+          },
+          {
+            "t": "table",
+            "rows": [
               [
                 "abl. {i}di|ē{/i}",
                 "{i}di|ēbus{/i}",
@@ -1681,12 +1822,21 @@ export const extras = [
             ]
           },
           {
+            "t": "table",
+            "rows": [
+              [
+                "{i}-ē{/i}",
+                "{i}-ēbus{/i}"
+              ]
+            ]
+          },
+          {
             "t": "h",
             "text": "ADJECTIVES"
           },
           {
-            "t": "p",
-            "text": "{b}First and Second Declensions{/b}"
+            "t": "h",
+            "text": "First and Second Declensions"
           },
           {
             "t": "p",
@@ -1753,7 +1903,7 @@ export const extras = [
                 "{i}-a{/i}"
               ],
               [
-                "Examples: {i}niger{/i}{i} -gr|a -gr|um, {/i}{i}līber{/i}{i} -er|a -er|um.{/i}",
+                "Examples: {i}niger{/i}{i} -gr|a -gr|um, {/i} {i}līber{/i}{i} -er|a -er|um.{/i}",
                 "{i}-ōs{/i}",
                 "{i}-ās{/i}",
                 "{i}-a{/i}"
@@ -1794,7 +1944,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "etc. (as above, but voc. = nom. {i}-er{/i}) [B] Genitive singular {i}-īus.{/i} Example: {i}sōl|us{/i} {i}-a -um, {/i}gen. {i}-īus, {/i}dat. {i}-ī.{/i}"
+            "text": "etc. (as above, but voc. = nom. {i}-er{/i}) [B] Genitive singular {i}-īus.{/i} Example: {i}sōl|us{/i} {i}-a -um, {/i} gen. {i}-īus, {/i} dat. {i}-ī.{/i}"
           },
           {
             "t": "table",
@@ -1848,7 +1998,7 @@ export const extras = [
                 "{b}Third Declension{/b}"
               ],
               [
-                "[A] Genitive plural {i}-ium {/i}(abl. sing. {i}-ī{/i}){i}.{/i}"
+                "[A] Genitive plural {i}-ium {/i} (abl. sing. {i}-ī{/i}){i}.{/i}"
               ],
               [
                 "Example: {i}brev|is{/i} {i}-e.{/i}"
@@ -1962,7 +2112,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "Examples: {i}ācer ācr|is ācr|e, celer{/i} {i}-er|is -er|e.{/i}"
+            "text": "Examples: {i}ācer ācr|is ācr|e, {/i} {i}celer{/i} {i}-er|is -er|e.{/i}"
           },
           {
             "t": "table",
@@ -2009,7 +2159,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "etc. (as above) etc. (as above) Examples: {i}fēlīx, {/i}gen. {i}-īc{/i}|{i}is{/i}; {i}ingēns, {/i}gen. {i}-ent{/i}|{i}is {/i}(-x < -c|s, -ns < -nt|s)"
+            "text": "etc. (as above) etc. (as above) Examples: {i}fēlīx, {/i} gen. {i}-īc{/i}|{i}is{/i}; {i}ingēns, {/i} gen. {i}-ent{/i}|{i}is {/i} (-x < -c|s, -ns < -nt|s)"
           },
           {
             "t": "table",
@@ -2028,12 +2178,40 @@ export const extras = [
                 "{i}fēlīx{/i}",
                 "{i}ingēns{/i}",
                 "{i}ingēns{/i}"
-              ],
+              ]
+            ]
+          },
+          {
+            "t": "table",
+            "rows": [
+              [
+                "{i}-s{/i}",
+                "{i}-s{/i}"
+              ]
+            ]
+          },
+          {
+            "t": "table",
+            "rows": [
               [
                 "acc. {i}fēlīc{/i}|{i}em{/i}",
                 "{i}fēlīx{/i}",
                 "{i}ingent{/i}|{i}em ingēns{/i}"
-              ],
+              ]
+            ]
+          },
+          {
+            "t": "table",
+            "rows": [
+              [
+                "{i}-em{/i}",
+                "{i}-s{/i}"
+              ]
+            ]
+          },
+          {
+            "t": "table",
+            "rows": [
               [
                 "gen. {i}felīc{/i}|{i}is{/i}",
                 "{i}fēlīc{/i}|{i}is{/i}",
@@ -2043,12 +2221,21 @@ export const extras = [
             ]
           },
           {
+            "t": "table",
+            "rows": [
+              [
+                "{i}-is{/i}",
+                "{i}-is{/i}"
+              ]
+            ]
+          },
+          {
             "t": "p",
             "text": "etc. (as above) etc. (as above)"
           },
           {
             "t": "p",
-            "text": "[B] Genitive plural {i}-um {/i}(abl. sing. {i}-e{/i}). Examples: {i}prior{/i} {i}prius, {/i}gen. {i}priōr{/i}|{i}is{/i}; {i}vetus, {/i}gen. {i}veter{/i}|{i}is.{/i}"
+            "text": "[B] Genitive plural {i}-um {/i} (abl. sing. {i}-e{/i}). Examples: {i}prior{/i} {i}prius, {/i} gen. {i}priōr{/i}|{i}is{/i}; {i}vetus, {/i} gen. {i}veter{/i}|{i}is.{/i}"
           },
           {
             "t": "table",
@@ -2140,7 +2327,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "So {i}pauper {/i}(m./f.), gen. {i}-er{/i}|{i}is{/i};{i} dīves, {/i}gen. {i}dīvit{/i}|{i}is.{/i} {b}Comparison{/b}"
+            "text": "So {i}pauper {/i} (m./f.), gen. {i}-er{/i}|{i}is{/i};{i} dīves, {/i} gen. {i}dīvit{/i}|{i}is.{/i} {b}Comparison{/b}"
           },
           {
             "t": "table",
@@ -2151,7 +2338,7 @@ export const extras = [
               ],
               [
                 "positive (pos.)",
-                "e.g. {i}longior, {/i}and {b}superlative{/b}, e.g. {i}longissimus. {/i}"
+                "e.g. {i}longior, {/i} and {b}superlative{/b}, e.g. {i}longissimus. {/i}"
               ],
               [
                 "comparative (comp.)"
@@ -2160,13 +2347,13 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "The comparative ends in {i}-ior {/i}and is declined like {i}prior{/i}. The superlative (sup.) superlative ends in {i}-issim{/i}|{i}us {/i}({i}-im{/i}|{i}us{/i}) and is declined like {i}bon{/i}|{i}us.{/i} [A] Superlative {i}-issim{/i}|{i}us.{/i}"
+            "text": "The comparative ends in {i}-ior {/i} and is declined like {i}prior{/i}. The superlative (sup.) superlative ends in {i}-issim{/i}|{i}us {/i} ({i}-im{/i}|{i}us{/i}) and is declined like {i}bon{/i}|{i}us.{/i} [A] Superlative {i}-issim{/i}|{i}us.{/i}"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}-us -a -um / -{/i}({i}i{/i}){i}s {/i}({i}-e{/i})",
+                "{i}-us -a -um / -{/i}({i}i{/i}){i}s {/i} ({i}-e{/i})",
                 "pos.",
                 "{i}long{/i}|{i}us -a -um{/i}",
                 "{i}brev{/i}|{i}is -e{/i}",
@@ -2312,21 +2499,21 @@ export const extras = [
                 "{i}-ē {/i}"
               ],
               [
-                "{i}rēct{/i}|{i}us {/i}> {i}rēct{/i}|{i}ē.{/i}"
+                "{i}rēct{/i}|{i}us {/i} > {i}rēct{/i}|{i}ē.{/i}"
               ],
               [
-                "Adjectives of the 3rd declension form adverbs in {i}-iter, {/i}e.g.",
+                "Adjectives of the 3rd declension form adverbs in {i}-iter, {/i} e.g.",
                 "{i}-iter{/i}"
               ],
               [
                 "{i}fort{/i}|{i}is > fort{/i}|{i}iter.{/i}"
               ],
               [
-                "The comparative of the adverbs ends in {i}-ius {/i}(= neuter of the",
+                "The comparative of the adverbs ends in {i}-ius {/i} (= neuter of the",
                 "{i}-ius{/i}"
               ],
               [
-                "adjective), e.g. {i}rēct{/i}|{i}ius, {/i}the superlative ends in {i}-issimē {/i}({i}-imē{/i}){i}, {/i}",
+                "adjective), e.g. {i}rēct{/i}|{i}ius, {/i} the superlative ends in {i}-issimē {/i} ({i}-imē{/i}){i}, {/i}",
                 "{i}-issimē{/i}"
               ],
               [
@@ -2379,7 +2566,7 @@ export const extras = [
                 "{i}fēlīcissimē{/i}"
               ],
               [
-                "Nom. sing. {i}-ns, {/i}adverb {i}-nter{/i}:{i} prūdēns -ent{/i}|{i}is, {/i}adv. {i}prūdenter.{/i}",
+                "Nom. sing. {i}-ns, {/i} adverb {i}-nter{/i}:{i} prūdēns -ent{/i}|{i}is, {/i} adv. {i}prūdenter.{/i}",
                 "-{i}nter{/i} (< -{i}ntiter{/i})"
               ],
               [
@@ -2390,13 +2577,13 @@ export const extras = [
                 "{i}-ō {/i}"
               ],
               [
-                "{i}postrēmō {/i}(adjec tives: {i}cert{/i}|{i}us, fals{/i}|{i}us, necessāri{/i}|{i}us, {/i}etc.)."
+                "{i}postrēmō {/i} (adjec tives: {i}cert{/i}|{i}us, fals{/i}|{i}us, necessāri{/i}|{i}us, {/i} etc.)."
               ],
               [
-                "Irregular adverbs: {i}bene {/i}< {i}bon{/i}|{i}us, male {/i}<{i} mal{/i}|{i}us, valdē {/i}<"
+                "Irregular adverbs: {i}bene {/i} < {i}bon{/i}|{i}us, male {/i} <{i} mal{/i}|{i}us, valdē {/i} <"
               ],
               [
-                "{i}valid{/i}|{i}us, facile {/i}<{i} facil{/i}|{i}is, difficulter {/i}< {i}difficil{/i}|{i}is, audācter {/i}<"
+                "{i}valid{/i}|{i}us, facile {/i} <{i} facil{/i}|{i}is, difficulter {/i} < {i}difficil{/i}|{i}is, audācter {/i} <"
               ],
               [
                 "{i}audāx.{/i}"
@@ -2419,7 +2606,7 @@ export const extras = [
                 "I 1",
                 "{i}ūn{/i}|{i}us -a -um{/i}",
                 "{i}prīm{/i}|{i}us -a -um{/i}",
-                "{i}singul{/i}|{i}ī -ae -a {/i}({i}ūn|ī{/i})"
+                "{i}singul{/i}|{i}ī -ae -a {/i} ({i}ūn|ī{/i})"
               ],
               [
                 "II 2",
@@ -2431,7 +2618,7 @@ export const extras = [
                 "III 3",
                 "{i}tr{/i}|{i}ēs -ia{/i}",
                 "{i}terti{/i}|{i}us{/i}",
-                "{i}tern{/i}|{i}ī {/i}({i}trīn|ī{/i})"
+                "{i}tern{/i}|{i}ī {/i} ({i}trīn|ī{/i})"
               ],
               [
                 "IV 4",
@@ -2658,7 +2845,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "[1] {i}ūn{/i}|{i}us -a -um {/i}is declined like {i}sōl{/i}|{i}us{/i}: gen. {i}-īus, {/i}dat. {i}-ī.{/i} [2] {i}du{/i}|{i}o -ae -o {/i}and {i}tr{/i}|{i}ēs -ia{/i}:"
+            "text": "[1] {i}ūn{/i}|{i}us -a -um {/i} is declined like {i}sōl{/i}|{i}us{/i}: gen. {i}-īus, {/i} dat. {i}-ī.{/i} [2] {i}du{/i}|{i}o -ae -o {/i} and {i}tr{/i}|{i}ēs -ia{/i}:"
           },
           {
             "t": "table",
@@ -2702,7 +2889,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "[3] {i}mīl{/i}|{i}ia -ium {/i}(n. pl.) is declined like {i}mar{/i}|{i}ia {/i}(3rd decl.). Numeral adverbs"
+            "text": "[3] {i}mīl{/i}|{i}ia -ium {/i} (n. pl.) is declined like {i}mar{/i}|{i}ia {/i} (3rd decl.). Numeral adverbs"
           },
           {
             "t": "table",
@@ -2739,8 +2926,8 @@ export const extras = [
             "text": "PRONOUNS"
           },
           {
-            "t": "p",
-            "text": "{b}Personal Pronouns {/b}"
+            "t": "h",
+            "text": "Personal Pronouns"
           },
           {
             "t": "p",
@@ -2870,8 +3057,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}Possessive Pronouns {/b}"
+            "t": "h",
+            "text": "Possessive Pronouns"
           },
           {
             "t": "table",
@@ -2896,14 +3083,14 @@ export const extras = [
               ],
               [
                 "3rd pers.",
-                "{i}su{/i}|{i}us -a -um {/i}(reflexive)",
+                "{i}su{/i}|{i}us -a -um {/i} (reflexive)",
                 "{i}is ea id{/i})"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}me{/i}|{i}us, {/i}voc. sing. {i}mī.{/i} {b}Demonstrative Pronouns {/b}"
+            "text": "{i}me{/i}|{i}us, {/i} voc. sing. {i}mī.{/i} {b}Demonstrative Pronouns {/b}"
           },
           {
             "t": "table",
@@ -2998,7 +3185,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "[3] {i}ist{/i}|{i}e -a -ud {/i}is declined like {i}ill{/i}|{i}e -a -ud.{/i} [4] {i}ips{/i}|{i}e -a -um {/i}is declined like {i}ill{/i}|{i}e {/i}except neut. sing. {i}ips{/i}|{i}um.{/i} [5] {i}is ea id, {/i}demonstrative and personal: see above. [6] {i}ī-dem ea-dem idem {/i}(< {i}is ea id {/i}+ {i}-dem{/i}):"
+            "text": "[3] {i}ist{/i}|{i}e -a -ud {/i} is declined like {i}ill{/i}|{i}e -a -ud.{/i} [4] {i}ips{/i}|{i}e -a -um {/i} is declined like {i}ill{/i}|{i}e {/i} except neut. sing. {i}ips{/i}|{i}um.{/i} [5] {i}is ea id, {/i} demonstrative and personal: see above. [6] {i}ī-dem ea-dem idem {/i} (< {i}is ea id {/i} + {i}-dem{/i}):"
           },
           {
             "t": "table",
@@ -3019,7 +3206,16 @@ export const extras = [
                 "{i}eadem idem{/i}",
                 "{i}iīdem{/i}",
                 "{i}eaedem eadem{/i}"
-              ],
+              ]
+            ]
+          },
+          {
+            "t": "p",
+            "text": "{i}īdem < is-dem{/i}"
+          },
+          {
+            "t": "table",
+            "rows": [
               [
                 "acc. {i}eundem eandem idem{/i}",
                 "{i}eōsdem eāsdem eadem{/i}"
@@ -3028,7 +3224,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "gen. {i}eiusdem eiusdem eiusdem eōrundem eārundemeōrundem{/i}"
+            "text": "{i}-n-dem < -m-dem{/i} gen. {i}eiusdem eiusdem eiusdem eōrundem eārundemeōrundem{/i}"
           },
           {
             "t": "table",
@@ -3050,7 +3246,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "{b}Interrogative Pronouns {/b} [1] {i}quis quae quid {/i}(subst.); {i}quī/quis… quae… quod… {/i}(adj.)."
+            "text": "{b}Interrogative Pronouns {/b} [1] {i}quis quae quid {/i} (subst.); {i}quī/quis… quae… quod… {/i} (adj.)."
           },
           {
             "t": "table",
@@ -3099,7 +3295,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "[2] {i}uter utr{/i}|{i}a utr{/i}|{i}um,{/i} gen. {i}utr{/i}|{i}īus, {/i}dat. {i}utr{/i}|{i}ī {/i}(like {i}sōl{/i}|{i}us, {/i}but nom. m. sing. {i}uter{/i}). Relative Pronoun [1] {i}quī quae quod{/i}"
+            "text": "[2] {i}uter utr{/i}|{i}a utr{/i}|{i}um,{/i} gen. {i}utr{/i}|{i}īus, {/i} dat. {i}utr{/i}|{i}ī {/i} (like {i}sōl{/i}|{i}us, {/i} but nom. m. sing. {i}uter{/i}). Relative Pronoun [1] {i}quī quae quod{/i}"
           },
           {
             "t": "table",
@@ -3155,7 +3351,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "[2] {i}quī- quae- quod-cumque {/i}(indefinite relative) = {i}quis-quis {/i} {i}quid-quid/quic-quid {/i}(indecl. subst.). Indefinite Pronouns [1] {i}nēmō, {/i}acc. {i}nēmin{/i}|{i}em, {/i}dat. {i}nēmin{/i}|{i}ī.{/i} {i}nēmō < ne- + homō{/i}"
+            "text": "[2] {i}quī- quae- quod-cumque {/i} (indefinite relative) = {i}quis-quis {/i} {i}quid-quid/quic-quid {/i} (indecl. subst.). Indefinite Pronouns [1] {i}nēmō, {/i} acc. {i}nēmin{/i}|{i}em, {/i} dat. {i}nēmin{/i}|{i}ī.{/i} {i}nēmō < ne- + homō{/i}"
           },
           {
             "t": "table",
@@ -3168,14 +3364,14 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "[3] {i}ūll{/i}|{i}us -a -um {/i}and {i}nūll{/i}|{i}us -a -um {/i}are declined like {i}sōl{/i}|{i}us.{/i} [4] {i}neuter -tr{/i}|{i}a -tr{/i}|{i}um {/i}and {i}uter-que utr{/i}|{i}a-que utr{/i}|{i}um-que {/i}are {i}neuter < ne- + uter{/i} declined like {i}uter{/i}: gen. {i}neutr{/i}|{i}īus, utr{/i}|{i}īus-que.{/i} [5] {i}alter -er{/i}|{i}a -er{/i}|{i}um, {/i}gen. {i}-er{/i}|{i}īus, {/i}dat. {i}-er{/i}|{i}ī.{/i} [6] {i}ali{/i}|{i}us -a -ud, {/i}dat. {i}ali{/i}|{i}ī {/i}(gen. {i}alter{/i}|{i}īus{/i}). The following pronouns are declined like {i}quis/quī{/i}:"
+            "text": "[3] {i}ūll{/i}|{i}us -a -um {/i} and {i}nūll{/i}|{i}us -a -um {/i} are declined like {i}sōl{/i}|{i}us.{/i} [4] {i}neuter -tr{/i}|{i}a -tr{/i}|{i}um {/i} and {i}uter-que utr{/i}|{i}a-que utr{/i}|{i}um-que {/i} are {i}neuter < ne- + uter{/i} declined like {i}uter{/i}: gen. {i}neutr{/i}|{i}īus, utr{/i}|{i}īus-que.{/i} [5] {i}alter -er{/i}|{i}a -er{/i}|{i}um, {/i} gen. {i}-er{/i}|{i}īus, {/i} dat. {i}-er{/i}|{i}ī.{/i} [6] {i}ali{/i}|{i}us -a -ud, {/i} dat. {i}ali{/i}|{i}ī {/i} (gen. {i}alter{/i}|{i}īus{/i}). The following pronouns are declined like {i}quis/quī{/i}:"
           },
           {
             "t": "table",
             "rows": [
               [
                 "n. pl. ({i}ali{/i}-){i}qua{/i}",
-                "[7] {i}ali-quis/-quī -qua -quid/-quod {/i}and ({i}sī, nisi, nē, num{/i})"
+                "[7] {i}ali-quis/-quī -qua -quid/-quod {/i} and ({i}sī, nisi, nē, num{/i})"
               ]
             ]
           },
@@ -3188,21 +3384,21 @@ export const extras = [
             "rows": [
               [
                 "{i}-n-dam < -m-dam{/i}",
-                "[9] {i}quī-dam quae-dam quid-dam/quod-dam, {/i}acc. sing. m."
+                "[9] {i}quī-dam quae-dam quid-dam/quod-dam, {/i} acc. sing. m."
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}quen-dam, {/i}f. {i}quan-dam, {/i}gen. pl. m./n. {i}quōrun-dam, {/i}f. {i}quārun-dam.{/i} [10] {i}quis-que quae-que quid-que/quod-que.{/i} [11] {i}quī- quae- quid-/quod-vīs {/i}= {i}quī- quae- quid-/quod-libet.{/i}"
+            "text": "{i}quen-dam, {/i} f. {i}quan-dam, {/i} gen. pl. m./n. {i}quōrun-dam, {/i} f. {i}quārun-dam.{/i} [10] {i}quis-que quae-que quid-que/quod-que.{/i} [11] {i}quī- quae- quid-/quod-vīs {/i} = {i}quī- quae- quid-/quod-libet.{/i}"
           },
           {
             "t": "h",
             "text": "VERBS"
           },
           {
-            "t": "p",
-            "text": "{b}Voice and Mood{/b}"
+            "t": "h",
+            "text": "Voice and Mood"
           },
           {
             "t": "table",
@@ -3212,7 +3408,7 @@ export const extras = [
                 "voice: act."
               ],
               [
-                "e.g. {i}amātur. {/i}Verbs which have no active voice (except par-",
+                "e.g. {i}amātur. {/i} Verbs which have no active voice (except par-",
                 "pass."
               ],
               [
@@ -3222,7 +3418,7 @@ export const extras = [
                 "verbs."
               ],
               [
-                "The {b}moods{/b} of the verb are: {b}infinitive{/b}, e.g. {i}amāre, {/i}{b}impera‑{/b}",
+                "The {b}moods{/b} of the verb are: {b}infinitive{/b}, e.g. {i}amāre, {/i} {b}impera‑{/b}",
                 "mood: inf. ind."
               ],
               [
@@ -3236,25 +3432,25 @@ export const extras = [
                 "{b}Tense, Number, Person{/b}"
               ],
               [
-                "The {b}tenses{/b} of the verb are: {b}present{/b}, e.g. {i}amat, {/i}{b}future{/b}, e.g.",
+                "The {b}tenses{/b} of the verb are: {b}present{/b}, e.g. {i}amat, {/i} {b}future{/b}, e.g.",
                 "tense:",
                 "pres. perf."
               ],
               [
-                "{i}amābit,{/i} {b}imper fect{/b}, e.g. {i}amābat, {/i}{b}perfect{/b}, e.g. {i}amāvit, {/i}{b}pluper‑{/b}",
+                "{i}amābit,{/i} {b}imper fect{/b}, e.g. {i}amābat, {/i} {b}perfect{/b}, e.g. {i}amāvit, {/i} {b}pluper‑{/b}",
                 "imperf."
               ]
             ]
           },
           {
             "t": "p",
-            "text": "pluperf. {b}fect{/b}, e.g. {i}amāverat, {/i}and {b}future per fect{/b}, e.g. {i}amāverit.{/i} fut. fut. perf."
+            "text": "pluperf. {b}fect{/b}, e.g. {i}amāverat, {/i} and {b}future per fect{/b}, e.g. {i}amāverit.{/i} fut. fut. perf."
           },
           {
             "t": "table",
             "rows": [
               [
-                "The {b}numbers{/b} of the verb are: {b}singular{/b}, e.g. {i}amat, {/i}and {b}plural{/b},",
+                "The {b}numbers{/b} of the verb are: {b}singular{/b}, e.g. {i}amat, {/i} and {b}plural{/b},",
                 "number: sing."
               ],
               [
@@ -3262,19 +3458,19 @@ export const extras = [
                 "pl."
               ],
               [
-                "The {b}persons{/b} of the verb are: {b}1st person{/b}, e.g. {i}amō, {/i}{b}2nd per‑{/b}"
+                "The {b}persons{/b} of the verb are: {b}1st person{/b}, e.g. {i}amō, {/i} {b}2nd per‑{/b}"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "person: 1 {b}son{/b}, e.g. {i}amās, {/i}and {b}3rd person{/b}, e.g. {i}amat. {/i}Verbs which have 2"
+            "text": "person: 1 {b}son{/b}, e.g. {i}amās, {/i} and {b}3rd person{/b}, e.g. {i}amat. {/i} Verbs which have 2"
           },
           {
             "t": "table",
             "rows": [
               [
-                "no 1st and 2nd persons, e.g. {i}licēre {/i}and{i} pudēre,{/i} are called",
+                "no 1st and 2nd persons, e.g. {i}licēre {/i} and{i} pudēre,{/i} are called",
                 "{{3}}"
               ],
               [
@@ -3296,19 +3492,19 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "[1] {b}1st conjugation{/b}: inf. {i}-āre, -ārī {/i}e.g. {i}amāre, cōnārī.{/i}",
+                "[1] {b}1st conjugation{/b}: inf. {i}-āre, -ārī {/i} e.g. {i}amāre, cōnārī.{/i}",
                 "[1] -{i}āre/-ārī{/i}"
               ],
               [
-                "[2] {b}2nd conjugation{/b}: inf. {i}-ēre, -ērī {/i}e.g. {i}monēre, verērī.{/i}",
+                "[2] {b}2nd conjugation{/b}: inf. {i}-ēre, -ērī {/i} e.g. {i}monēre, verērī.{/i}",
                 "[2] -{i}ēre/-ērī{/i}"
               ],
               [
-                "[3] {b}3rd conjugation{/b}: inf. {i}-ere, -ī {/i}e.g.{i} legere, ūtī.{/i}",
+                "[3] {b}3rd conjugation{/b}: inf. {i}-ere, -ī {/i} e.g.{i} legere, ūtī.{/i}",
                 "[3] -{i}ere/-ī{/i}"
               ],
               [
-                "[4] {b}4th conjugation{/b}: inf. {i}-īre, -īrī {/i}e.g. {i}audīre, partīrī.{/i}",
+                "[4] {b}4th conjugation{/b}: inf. {i}-īre, -īrī {/i} e.g. {i}audīre, partīrī.{/i}",
                 "[4] -{i}īre/-īrī{/i}"
               ],
               [
@@ -3382,19 +3578,38 @@ export const extras = [
               [
                 "pers. 1 ∼{i}ī{/i}",
                 "∼{i}imus{/i}"
-              ],
+              ]
+            ]
+          },
+          {
+            "t": "table",
+            "rows": [
               [
-                "pers. 2 ∼{i}istī{/i} ∼{i}istis{/i}"
-              ],
-              [
-                "pers. 3 ∼{i}it{/i}",
-                "∼{i}ērunt {/i}(∼{i}ēre{/i})"
+                "{i}-ō{/i} {i}-imus -or{/i}",
+                "{i}-imur{/i}"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{b}Conjugation{/b} [A] {b}Active{/b} Infinitive present"
+            "text": "pers. 2 ∼{i}istī{/i} ∼{i}istis{/i}"
+          },
+          {
+            "t": "p",
+            "text": "{i}-is{/i} {i}-itis{/i} {i}-eris{/i} {i}-iminī{/i}"
+          },
+          {
+            "t": "table",
+            "rows": [
+              [
+                "pers. 3 ∼{i}it{/i}",
+                "∼{i}ērunt {/i} (∼{i}ēre{/i})"
+              ]
+            ]
+          },
+          {
+            "t": "p",
+            "text": "{i}-it{/i} {i}-unt{/i} {i}-itur{/i} {i}-untur{/i} {b}Conjugation{/b} [A] {b}Active{/b} Infinitive present"
           },
           {
             "t": "table",
@@ -3724,7 +3939,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "{b}Subjunctive{/b}"
+            "text": "{i}~eri|nt{/i} {b}Subjunctive{/b}"
           },
           {
             "t": "table",
@@ -3925,7 +4140,8 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "pl. {i}amā{/i}|{i}te{/i}",
+                "pl.",
+                "{i}amā{/i}|{i}te{/i}",
                 "{i}monē{/i}|{i}te{/i}",
                 "{i}leg{/i}|{i}ite{/i}",
                 "{i}audī{/i}|{i}te{/i}"
@@ -3955,7 +4171,8 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "pl. {i}amā{/i}|{i}tōte{/i}",
+                "pl.",
+                "{i}amā{/i}|{i}tōte{/i}",
                 "{i}monē{/i}|{i}tōte{/i}",
                 "{i}leg{/i}|{i}itōte{/i}",
                 "{i}audī{/i}|{i}tōte{/i}"
@@ -4015,8 +4232,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}Supine{/b}"
+            "t": "h",
+            "text": "Supine"
           },
           {
             "t": "p",
@@ -4051,8 +4268,21 @@ export const extras = [
             ]
           },
           {
+            "t": "table",
+            "rows": [
+              [
+                "[1, 2]",
+                "[3, 4]"
+              ]
+            ]
+          },
+          {
+            "t": "h",
+            "text": "Gerund"
+          },
+          {
             "t": "p",
-            "text": "{b}Gerund{/b} acc. {i}ama{/i}|{i}nd{/i}|{i}um mone{/i}|{i}nd{/i}|{i}um leg{/i}|{i}end{/i}|{i}um audi{/i}|{i}end{/i}|{i}um{/i}"
+            "text": "{i}–nd|um –end|um{/i} acc. {i}ama{/i}|{i}nd{/i}|{i}um mone{/i}|{i}nd{/i}|{i}um leg{/i}|{i}end{/i}|{i}um audi{/i}|{i}end{/i}|{i}um{/i} {i}–nd|ī –end|ī{/i}"
           },
           {
             "t": "table",
@@ -4062,7 +4292,16 @@ export const extras = [
                 "{i}mone{/i}|{i}nd{/i}|{i}ī{/i}",
                 "{i}leg{/i}|{i}end{/i}|{i}ī{/i}",
                 "{i}audi{/i}|{i}end{/i}|{i}ī{/i}"
-              ],
+              ]
+            ]
+          },
+          {
+            "t": "p",
+            "text": "{i}–nd|ō –end|ō{/i}"
+          },
+          {
+            "t": "table",
+            "rows": [
               [
                 "abl. {i}ama{/i}|{i}nd{/i}|{i}ō{/i}",
                 "{i}mone{/i}|{i}nd{/i}|{i}ō{/i}",
@@ -4135,8 +4374,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}Indicative{/b}"
+            "t": "h",
+            "text": "Indicative"
           },
           {
             "t": "table",
@@ -4741,7 +4980,16 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "pl.1 {i}amā{/i}|{i}rē{/i}|{i}mur monē{/i}|{i}rē{/i}|{i}mur leg{/i}|{i}erē{/i}|{i}mur audī{/i}|{i}rē{/i}|{i}mur{/i} {i}–rē|mur {/i} {i}–erē|mur{/i}"
+            "text": "pl.1 {i}amā{/i}|{i}rē{/i}|{i}mur monē{/i}|{i}rē{/i}|{i}mur leg{/i}|{i}erē{/i}|{i}mur audī{/i}|{i}rē{/i}|{i}mur{/i}"
+          },
+          {
+            "t": "table",
+            "rows": [
+              [
+                "{i}–rē|mur {/i}",
+                "{i}–erē|mur{/i}"
+              ]
+            ]
           },
           {
             "t": "table",
@@ -4756,8 +5004,17 @@ export const extras = [
             ]
           },
           {
+            "t": "table",
+            "rows": [
+              [
+                "{i}–re|ntur {/i}",
+                "{i}–ere|ntur{/i}"
+              ]
+            ]
+          },
+          {
             "t": "p",
-            "text": "{i}–re|ntur {/i} {i}–ere|ntur{/i} Perfect"
+            "text": "Perfect"
           },
           {
             "t": "table",
@@ -4908,8 +5165,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}Gerundive{/b}"
+            "t": "h",
+            "text": "Gerundive"
           },
           {
             "t": "table",
@@ -4921,8 +5178,19 @@ export const extras = [
             ]
           },
           {
+            "t": "table",
+            "rows": [
+              [
+                "{i}ama{/i}|{i}nd{/i}|{i}us {/i}",
+                "{i}mone{/i}|{i}nd{/i}|{i}us {/i}",
+                "{i}leg{/i}|{i}end{/i}|{i}us {/i}",
+                "{i}audi{/i}|{i}end{/i}|{i}us {/i}"
+              ]
+            ]
+          },
+          {
             "t": "p",
-            "text": "{i}ama{/i}|{i}nd{/i}|{i}us {/i} {i}mone{/i}|{i}nd{/i}|{i}us {/i} {i}leg{/i}|{i}end{/i}|{i}us {/i} {i}audi{/i}|{i}end{/i}|{i}us {/i} {i}–nd|us -a –end|us -a{/i}"
+            "text": "{i}–nd|us -a –end|us -a{/i}"
           },
           {
             "t": "table",
@@ -5030,8 +5298,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}Subjunctive{/b}"
+            "t": "h",
+            "text": "Subjunctive"
           },
           {
             "t": "table",
@@ -5065,8 +5333,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}Imperative{/b}"
+            "t": "h",
+            "text": "Imperative"
           },
           {
             "t": "table",
@@ -5149,15 +5417,16 @@ export const extras = [
                 "{b}Gerund{/b}"
               ],
               [
-                "{i}–nd|um {/i} {i}–end|um{/i}",
+                "{i}–nd|um {/i}",
+                "{i}–end|um{/i}",
                 "{i}cōna{/i}|{i}nd{/i}|{i}um{/i}",
                 "{i}vere{/i}|{i}nd{/i}|{i}um ūt{/i}|{i}end{/i}|{i}um parti{/i}|{i}end{/i}|{i}um{/i}"
               ]
             ]
           },
           {
-            "t": "p",
-            "text": "{b}Gerundive{/b}"
+            "t": "h",
+            "text": "Gerundive"
           },
           {
             "t": "table",
@@ -5191,7 +5460,7 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "{i}i > e {/i}before{i} r{/i}",
+                "{i}i > e {/i} before{i} r{/i}",
                 "present",
                 "{i}cape|re{/i}",
                 "{i}cap|ī{/i}",
@@ -5440,8 +5709,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}Imperative{/b}"
+            "t": "h",
+            "text": "Imperative"
           },
           {
             "t": "table",
@@ -5479,7 +5748,7 @@ export const extras = [
                 "{b}Irregular verbs I: present stem{/b}"
               ],
               [
-                "1. Infinitive {i}es|se {/i}(stem {i}es-, er-, s-{/i})"
+                "1. Infinitive {i}es|se {/i} (stem {i}es-, er-, s-{/i})"
               ]
             ]
           },
@@ -5816,7 +6085,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "{i}nōl|ī -īte + {/i}inf."
+            "text": "{i}nōl|ī -īte + {/i} inf."
           },
           {
             "t": "table",
@@ -5963,7 +6232,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "6. Infinitive: active {i}fer|re, {/i}passive {i}fer|rī{/i} Indicative"
+            "text": "6. Infinitive: active {i}fer|re, {/i} passive {i}fer|rī{/i} Indicative"
           },
           {
             "t": "table",
@@ -6083,14 +6352,14 @@ export const extras = [
                 "{i}ed{/i}|{i}ō{/i}",
                 "{i}ed{/i}|{i}ēba{/i}|{i}m{/i}",
                 "{i}ed{/i}|{i}a{/i}|{i}m{/i}",
-                "{i}ed{/i}|{i}i{/i}|{i}m {/i}({i}-a{/i}|{i}m{/i})",
+                "{i}ed{/i}|{i}i{/i}|{i}m {/i} ({i}-a{/i}|{i}m{/i})",
                 "{i}ēs{/i}|{i}se{/i}|{i}m{/i}"
               ],
               [
                 "{i}ēs{/i}",
                 "{i}ed{/i}|{i}ēbā{/i}|{i}s{/i}",
                 "{i}ed{/i}|{i}ē{/i}|{i}s{/i}",
-                "{i}ed{/i}|{i}ī{/i}|{i}s {/i}({i}-ā{/i}|{i}s{/i})",
+                "{i}ed{/i}|{i}ī{/i}|{i}s {/i} ({i}-ā{/i}|{i}s{/i})",
                 "{i}ēs{/i}|{i}sē{/i}|{i}s{/i}",
                 "pass. ind. pres. 3rd pers."
               ],
@@ -6098,24 +6367,24 @@ export const extras = [
                 "{i}ēs{/i}|{i}t{/i}",
                 "{i}ed{/i}|{i}ēba{/i}|{i}t{/i}",
                 "{i}ed{/i}|{i}e{/i}|{i}t{/i}",
-                "{i}ed{/i}|{i}i{/i}|{i}t {/i}({i}-a{/i}|{i}t{/i})",
+                "{i}ed{/i}|{i}i{/i}|{i}t {/i} ({i}-a{/i}|{i}t{/i})",
                 "{i}ēs{/i}|{i}se{/i}|{i}t{/i}",
                 "{i}ēs|tur ed|untur{/i}"
               ],
               [
-                "{i}ed{/i}|i{i}mus ed{/i}|{i}ēbā{/i}|{i}mus ed{/i}|{i}ē{/i}|{i}mus ed{/i}|{i}ī{/i}|{i}mus {/i}({i}-ā{/i}|{i}mus{/i}) {i}ēs{/i}|{i}sē{/i}|{i}mus{/i}"
+                "{i}ed{/i}|i{i}mus ed{/i}|{i}ēbā{/i}|{i}mus ed{/i}|{i}ē{/i}|{i}mus ed{/i}|{i}ī{/i}|{i}mus {/i} ({i}-ā{/i}|{i}mus{/i}) {i}ēs{/i}|{i}sē{/i}|{i}mus{/i}"
               ],
               [
                 "{i}ēs{/i}|{i}tis{/i}",
                 "{i}ed{/i}|{i}ēbā{/i}|{i}tis{/i}",
                 "{i}ed{/i}|{i}ē{/i}|{i}tis{/i}",
-                "{i}ed{/i}|{i}ī{/i}|{i}tis {/i}({i}-ā{/i}|{i}tis{/i})",
+                "{i}ed{/i}|{i}ī{/i}|{i}tis {/i} ({i}-ā{/i}|{i}tis{/i})",
                 "{i}ēs{/i}|{i}sē{/i}|{i}tis{/i}"
               ],
               [
                 "{i}ed{/i}|u{i}nt ed{/i}|{i}ēba{/i}|{i}nt{/i}",
                 "{i}ed{/i}|{i}e{/i}|{i}nt{/i}",
-                "{i}ed{/i}|{i}i{/i}|{i}nt {/i}({i}-a{/i}|{i}nt{/i})",
+                "{i}ed{/i}|{i}i{/i}|{i}nt {/i} ({i}-a{/i}|{i}nt{/i})",
                 "{i}ēs{/i}|{i}se{/i}|{i}nt{/i}"
               ],
               [
@@ -6137,10 +6406,10 @@ export const extras = [
                 "8. Infinitive {i}da|re{/i}"
               ],
               [
-                "Present stem {i}da- {/i}(short {i}a{/i}): {i}da{/i}|{i}re, da{/i}|{i}mus, da{/i}|{i}ba{/i}|{i}m, da{/i}|{i}b|ō, {/i}"
+                "Present stem {i}da- {/i} (short {i}a{/i}): {i}da{/i}|{i}re, da{/i}|{i}mus, da{/i}|{i}ba{/i}|{i}m, da{/i}|{i}b|ō, {/i}"
               ],
               [
-                "{i}da{/i}|{i}re{/i}|{i}m, {/i}etc., except {i}dā {/i}(imp.), {i}dā{/i}|{i}s {/i}(ind. pres. 2 sing.), {i}dā{/i}|{i}ns {/i}"
+                "{i}da{/i}|{i}re{/i}|{i}m, {/i} etc., except {i}dā {/i} (imp.), {i}dā{/i}|{i}s {/i} (ind. pres. 2 sing.), {i}dā{/i}|{i}ns {/i}"
               ],
               [
                 "(pres. part.)."
@@ -6200,7 +6469,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "{i}memin{/i}|{i}isse {/i}(imperative: {i}memen{/i}|{i}tō -tōte{/i}) {i}ōd{/i}|{i}isse{/i} {b}Irregular verbs II: perfect and supine stems {/b} {b}First conjugation{/b}"
+            "text": "{i}memin{/i}|{i}isse {/i} (imperative: {i}memen{/i}|{i}tō -tōte{/i}) {i}ōd{/i}|{i}isse{/i} {b}Irregular verbs II: perfect and supine stems {/b} {b}First conjugation{/b}"
           },
           {
             "t": "table",
@@ -6277,8 +6546,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}Second conjugation {/b}"
+            "t": "h",
+            "text": "Second conjugation"
           },
           {
             "t": "li",
@@ -6582,7 +6851,16 @@ export const extras = [
               ],
               [
                 "76. {i}trah{/i}|{i}ere trāx{/i}|{i}isse tract{/i}|{i}um{/i}"
-              ],
+              ]
+            ]
+          },
+          {
+            "t": "p",
+            "text": "{i}con- dē- re-trahere{/i}"
+          },
+          {
+            "t": "table",
+            "rows": [
               [
                 "77. {i}veh{/i}|{i}ere vēx{/i}|{i}isse vect{/i}|{i}um{/i}",
                 "{i}ad- in-vehere{/i}"
@@ -6596,17 +6874,12 @@ export const extras = [
               ],
               [
                 "80. {i}vīv{/i}|{i}ere vīx{/i}|{i}isse {/i}"
-              ],
-              [
-                "81. {i}sūm{/i}|{i}ere sūmps{/i}|{i}isse sūmpt{/i}|{i}um{/i}"
-              ],
-              [
-                "82. {i}prōm{/i}|{i}ere prōmps{/i}|{i}isse prōmpt{/i}|{i}um{/i}"
-              ],
-              [
-                "83. {i}dēm{/i}|{i}ere dēmps{/i}|{i}isse dēmpt{/i}|{i}um{/i}"
               ]
             ]
+          },
+          {
+            "t": "p",
+            "text": "part. fut. {i}vīct|ūr|us{/i} 81. {i}sūm{/i}|{i}ere sūmps{/i}|{i}isse sūmpt{/i}|{i}um{/i} {i}cōn-sūmere{/i} 82. {i}prōm{/i}|{i}ere prōmps{/i}|{i}isse prōmpt{/i}|{i}um{/i} 83. {i}dēm{/i}|{i}ere dēmps{/i}|{i}isse dēmpt{/i}|{i}um{/i}"
           },
           {
             "t": "li",
@@ -6878,6 +7151,10 @@ export const extras = [
             "text": "ac-cid|ere -cid|isse"
           },
           {
+            "t": "p",
+            "text": "{i}oc-cidere{/i}"
+          },
+          {
             "t": "li",
             "marker": "128.",
             "ordered": true,
@@ -7063,8 +7340,8 @@ export const extras = [
             "text": "oblīvīsc|ī oblīt|um esse"
           },
           {
-            "t": "p",
-            "text": "{b}Fourth conjugation {/b}"
+            "t": "h",
+            "text": "Fourth conjugation"
           },
           {
             "t": "li",
@@ -7154,8 +7431,8 @@ export const extras = [
             "text": "{i}pres. stem orī-/ori-{/i}"
           },
           {
-            "t": "p",
-            "text": "{b}Irregular verbs III {/b}"
+            "t": "h",
+            "text": "Irregular verbs III"
           },
           {
             "t": "table",
@@ -7246,390 +7523,390 @@ export const extras = [
               [
                 "{b}A{/b}",
                 "{i}capere{/i} 47",
-                "{i}dēpōnere {/i}116",
-                "{i}favēre {/i}19"
+                "{i}dēpōnere {/i} 116",
+                "{i}favēre {/i} 19"
               ],
               [
-                "{i}abdūcere {/i}61",
-                "{i}carpere {/i}59",
-                "{i}dērīdēre {/i}28",
-                "{i}ferre {/i}165"
+                "{i}abdūcere {/i} 61",
+                "{i}carpere {/i} 59",
+                "{i}dērīdēre {/i} 28",
+                "{i}ferre {/i} 165"
               ],
               [
-                "{i}abesse {/i}204",
-                "{i}cavēre {/i}18",
-                "{i}dēscendere {/i}145",
-                "{i}fīdere {/i}173"
+                "{i}abesse {/i} 204",
+                "{i}cavēre {/i} 18",
+                "{i}dēscendere {/i} 145",
+                "{i}fīdere {/i} 173"
               ],
               [
-                "{i}abicere {/i}52",
-                "{i}cēdere {/i}88",
-                "{i}dēserere {/i}119",
-                "{i}fierī {/i}208"
+                "{i}abicere {/i} 52",
+                "{i}cēdere {/i} 88",
+                "{i}dēserere {/i} 119",
+                "{i}fierī {/i} 208"
               ],
               [
-                "{i}abīre {/i}196",
-                "{i}cēnsēre {/i}14",
-                "{i}dēsilīre {/i}190",
-                "{i}fīgere {/i}86"
+                "{i}abīre {/i} 196",
+                "{i}cēnsēre {/i} 14",
+                "{i}dēsilīre {/i} 190",
+                "{i}fīgere {/i} 86"
               ],
               [
-                "{i}abstinēre {/i}13",
-                "{i}cernere {/i}106",
-                "{i}dēsinere {/i}115",
-                "{i}flectere {/i}87"
+                "{i}abstinēre {/i} 13",
+                "{i}cernere {/i} 106",
+                "{i}dēsinere {/i} 115",
+                "{i}flectere {/i} 87"
               ],
               [
                 "{i}accēdere{/i} 88",
-                "{i}cingere {/i}73",
-                "{i}dēsistere {/i}140",
-                "{i}flēre {/i}16"
+                "{i}cingere {/i} 73",
+                "{i}dēsistere {/i} 140",
+                "{i}flēre {/i} 16"
               ],
               [
-                "{i}accendere {/i}146",
+                "{i}accendere {/i} 146",
                 "{i}circumdare{/i} 9",
-                "{i}dēspicere {/i}64",
-                "{i}fluere {/i}79"
+                "{i}dēspicere {/i} 64",
+                "{i}fluere {/i} 79"
               ],
               [
-                "{i}accidere {/i}127",
-                "{i}circumsilīre {/i}190",
-                "{i}dētergēre {/i}30",
-                "{i}frangere {/i}58"
+                "{i}accidere {/i} 127",
+                "{i}circumsilīre {/i} 190",
+                "{i}dētergēre {/i} 30",
+                "{i}frangere {/i} 58"
               ],
               [
-                "{i}accipere {/i}48",
-                "{i}claudere {/i}89",
-                "{i}dētrahere {/i}76",
-                "{i}fremere {/i}123"
+                "{i}accipere {/i} 48",
+                "{i}claudere {/i} 89",
+                "{i}dētrahere {/i} 76",
+                "{i}fremere {/i} 123"
               ],
               [
-                "{i}accubāre {/i}1",
-                "{i}cōgere {/i}46",
-                "{i}dīcere {/i}60",
-                "{i}fugere {/i}53"
+                "{i}accubāre {/i} 1",
+                "{i}cōgere {/i} 46",
+                "{i}dīcere {/i} 60",
+                "{i}fugere {/i} 53"
               ],
               [
-                "{i}accumbere {/i}124",
-                "{i}cognōscere {/i}161",
-                "{i}dīligere {/i}70",
-                "{i}fundere {/i}55"
+                "{i}accumbere {/i} 124",
+                "{i}cognōscere {/i} 161",
+                "{i}dīligere {/i} 70",
+                "{i}fundere {/i} 55"
               ],
               [
-                "{i}accurrere {/i}131",
-                "{i}colere {/i}118",
-                "{i}dīmittere {/i}96"
+                "{i}accurrere {/i} 131",
+                "{i}colere {/i} 118",
+                "{i}dīmittere {/i} 96"
               ]
             ]
           },
           {
-            "t": "p",
-            "text": "{b}G{/b}"
+            "t": "h",
+            "text": "G"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}addere {/i}137",
-                "{i}colloquī {/i}175",
-                "{i}discēdere {/i}88"
+                "{i}addere {/i} 137",
+                "{i}colloquī {/i} 175",
+                "{i}discēdere {/i} 88"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}gaudēre {/i}38"
+            "text": "{i}gaudēre {/i} 38"
           },
           {
             "t": "table",
             "rows": [
               [
                 "{i}adesse{/i} 205",
-                "{i}complectī {/i}182",
-                "{i}discere {/i}164"
+                "{i}complectī {/i} 182",
+                "{i}discere {/i} 164"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}gerere {/i}84"
+            "text": "{i}gerere {/i} 84"
           },
           {
             "t": "table",
             "rows": [
               [
                 "{i}adicere{/i} 52",
-                "{i}complēre {/i}17",
-                "{i}disiungere {/i}74"
+                "{i}complēre {/i} 17",
+                "{i}disiungere {/i} 74"
               ]
             ]
           },
           {
-            "t": "p",
-            "text": "{b}H{/b}"
+            "t": "h",
+            "text": "H"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}adīre {/i}196",
-                "{i}cōnficere {/i}50",
-                "{i}dissuādēre {/i}29"
+                "{i}adīre {/i} 196",
+                "{i}cōnficere {/i} 50",
+                "{i}dissuādēre {/i} 29"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}haurīre {/i}191"
+            "text": "{i}haurīre {/i} 191"
           },
           {
             "t": "table",
             "rows": [
               [
                 "{i}adiungere{/i} 74",
-                "{i}cōnfīdere {/i}173",
-                "{i}dīvidere {/i}91"
+                "{i}cōnfīdere {/i} 173",
+                "{i}dīvidere {/i} 91"
               ],
               [
                 "{i}adiuvāre{/i} 5",
-                "{i}cōnfitērī {/i}35",
-                "{i}docēre {/i}10",
+                "{i}cōnfitērī {/i} 35",
+                "{i}docēre {/i} 10",
                 "{b}I{/b}"
               ],
               [
                 "{i}admittere{/i} 96",
-                "{i}coniungere {/i}74",
-                "{i}dūcere {/i}61",
+                "{i}coniungere {/i} 74",
+                "{i}dūcere {/i} 61",
                 "{i}iacere{/i} 51"
               ],
               [
                 "{i}advehere{/i} 77",
-                "{i}cōnscendere {/i}145",
-                "{i}ignōscere {/i}160"
+                "{i}cōnscendere {/i} 145",
+                "{i}ignōscere {/i} 160"
               ]
             ]
           },
           {
-            "t": "p",
-            "text": "{b}E{/b}"
+            "t": "h",
+            "text": "E"
           },
           {
             "t": "table",
             "rows": [
               [
                 "{i}advenīre{/i} 194",
-                "{i}cōnsequī {/i}176",
-                "{i}implēre {/i}17"
+                "{i}cōnsequī {/i} 176",
+                "{i}implēre {/i} 17"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}ēdūcere {/i}61"
+            "text": "{i}ēdūcere {/i} 61"
           },
           {
             "t": "table",
             "rows": [
               [
                 "{i}afferre{/i} 166",
-                "{i}cōnsīdere {/i}43",
-                "{i}implicāre {/i}3"
+                "{i}cōnsīdere {/i} 43",
+                "{i}implicāre {/i} 3"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}efferre {/i}168"
+            "text": "{i}efferre {/i} 168"
           },
           {
             "t": "table",
             "rows": [
               [
                 "{i}afficere{/i} 50",
-                "{i}cōnsistere {/i}140",
-                "{i}impōnere {/i}116"
+                "{i}cōnsistere {/i} 140",
+                "{i}impōnere {/i} 116"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}efficere {/i}50"
+            "text": "{i}efficere {/i} 50"
           },
           {
             "t": "table",
             "rows": [
               [
                 "{i}agere{/i} 45",
-                "{i}cōnspicere {/i}64",
-                "{i}imprimere {/i}103"
+                "{i}cōnspicere {/i} 64",
+                "{i}imprimere {/i} 103"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}effugere {/i}53"
+            "text": "{i}effugere {/i} 53"
           },
           {
             "t": "table",
             "rows": [
               [
                 "{i}alere{/i} 117",
-                "{i}cōnstāre {/i}8",
-                "{i}incipere {/i}172"
+                "{i}cōnstāre {/i} 8",
+                "{i}incipere {/i} 172"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}effundere {/i}55"
+            "text": "{i}effundere {/i} 55"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}allicere {/i}65",
+                "{i}allicere {/i} 65",
                 "{i}cōnstituere{/i} 151",
-                "{i}inclūdere {/i}90"
+                "{i}inclūdere {/i} 90"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}ēgredī {/i}180"
+            "text": "{i}ēgredī {/i} 180"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}āmittere {/i}96",
-                "{i}cōnsūmere {/i}81",
-                "{i}incolere {/i}118"
+                "{i}āmittere {/i} 96",
+                "{i}cōnsūmere {/i} 81",
+                "{i}incolere {/i} 118"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}ēicere {/i}52"
+            "text": "{i}ēicere {/i} 52"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}aperīre {/i}187",
+                "{i}aperīre {/i} 187",
                 "{i}contemnere{/i} 104",
-                "{i}induere {/i}152"
+                "{i}induere {/i} 152"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}ēlīdere {/i}94"
+            "text": "{i}ēlīdere {/i} 94"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}appōnere {/i}116",
+                "{i}appōnere {/i} 116",
                 "{i}continēre{/i} 13",
-                "{i}īnflectere {/i}87"
+                "{i}īnflectere {/i} 87"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}ēligere {/i}40"
+            "text": "{i}ēligere {/i} 40"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}apprehendere {/i}144",
+                "{i}apprehendere {/i} 144",
                 "{i}contrahere{/i} 76",
-                "{i}īnfluere {/i}79"
+                "{i}īnfluere {/i} 79"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}emere {/i}41"
+            "text": "{i}emere {/i} 41"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}arcessere {/i}108",
-                "{i}convenīre {/i}194",
-                "{i}īnscrībere {/i}62"
+                "{i}arcessere {/i} 108",
+                "{i}convenīre {/i} 194",
+                "{i}īnscrībere {/i} 62"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}ēripere {/i}121"
+            "text": "{i}ēripere {/i} 121"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}ascendere {/i}145",
-                "{i}convertere {/i}148",
-                "{i}īnstruere {/i}78"
+                "{i}ascendere {/i} 145",
+                "{i}convertere {/i} 148",
+                "{i}īnstruere {/i} 78"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}ērubēscere {/i}158"
+            "text": "{i}ērubēscere {/i} 158"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}aspergere {/i}101",
-                "{i}coquere {/i}75",
-                "{i}intellegere {/i}71"
+                "{i}aspergere {/i} 101",
+                "{i}coquere {/i} 75",
+                "{i}intellegere {/i} 71"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}ērumpere {/i}57"
+            "text": "{i}ērumpere {/i} 57"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}aspicere {/i}64",
-                "{i}corrigere {/i}67",
-                "{i}interesse {/i}202"
+                "{i}aspicere {/i} 64",
+                "{i}corrigere {/i} 67",
+                "{i}interesse {/i} 202"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}esse {/i}202"
+            "text": "{i}esse {/i} 202"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}audēre {/i}37",
-                "{i}crēdere {/i}138",
-                "{i}interficere {/i}50"
+                "{i}audēre {/i} 37",
+                "{i}crēdere {/i} 138",
+                "{i}interficere {/i} 50"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}ēsse {/i}44"
+            "text": "{i}ēsse {/i} 44"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}auferre {/i}167",
-                "{i}crēscere {/i}157",
-                "{i}invehere {/i}77"
+                "{i}auferre {/i} 167",
+                "{i}crēscere {/i} 157",
+                "{i}invehere {/i} 77"
               ]
             ]
           },
@@ -7641,43 +7918,43 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "{i}aufugere {/i}53",
+                "{i}aufugere {/i} 53",
                 "{i}cubāre{/i} 1",
-                "{i}invenīre {/i}194"
+                "{i}invenīre {/i} 194"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}excurrere {/i}131"
+            "text": "{i}excurrere {/i} 131"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}augēre {/i}24",
-                "{i}cupere {/i}109",
-                "{i}invidēre {/i}23"
+                "{i}augēre {/i} 24",
+                "{i}cupere {/i} 109",
+                "{i}invidēre {/i} 23"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}exhaurīre {/i}191"
+            "text": "{i}exhaurīre {/i} 191"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}āvertere {/i}148",
-                "{i}currere {/i}130",
-                "{i}īre {/i}196"
+                "{i}āvertere {/i} 148",
+                "{i}currere {/i} 130",
+                "{i}īre {/i} 196"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}exīre {/i}196 {i}iubēre {/i}27"
+            "text": "{i}exīre {/i} 196 {i}iubēre {/i} 27"
           },
           {
             "t": "table",
@@ -7685,33 +7962,42 @@ export const extras = [
               [
                 "{b}B{/b}",
                 "{b}D{/b}",
-                "{i}explēre {/i}17"
+                "{i}explēre {/i} 17"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}iungere {/i}74"
+            "text": "{i}iungere {/i} 74"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}bibere {/i}142",
-                "{i}dare {/i}9",
-                "{i}expōnere {/i}116"
+                "{i}bibere {/i} 142",
+                "{i}dare {/i} 9",
+                "{i}expōnere {/i} 116"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}iuvāre {/i}5 {i}dēesse {/i}206"
+            "text": "{i}iuvāre {/i} 5 {i}dēesse {/i} 206"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}dēfendere {/i}143",
+                "{b}C{/b}",
+                "{b}F{/b}"
+              ]
+            ]
+          },
+          {
+            "t": "table",
+            "rows": [
+              [
+                "{i}dēfendere {/i} 143",
                 "{b}L{/b}"
               ]
             ]
@@ -7720,8 +8006,8 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "{i}cadere {/i}126",
-                "{i}facere {/i}49"
+                "{i}cadere {/i} 126",
+                "{i}facere {/i} 49"
               ]
             ]
           },
@@ -7729,8 +8015,8 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "{i}dēlēre {/i}15",
-                "{i}lābī {/i}183"
+                "{i}dēlēre {/i} 15",
+                "{i}lābī {/i} 183"
               ]
             ]
           },
@@ -7738,8 +8024,8 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "{i}caedere {/i}128",
-                "{i}fallere {/i}136"
+                "{i}caedere {/i} 128",
+                "{i}fallere {/i} 136"
               ]
             ]
           },
@@ -7747,8 +8033,8 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "{i}dēmere {/i}83",
-                "{i}laedere {/i}93"
+                "{i}dēmere {/i} 83",
+                "{i}laedere {/i} 93"
               ]
             ]
           },
@@ -7756,44 +8042,44 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "{i}canere {/i}135",
-                "{i}fatērī {/i}34"
+                "{i}canere {/i} 135",
+                "{i}fatērī {/i} 34"
               ],
               [
-                "{i}lavāre {/i}6",
-                "{i}percurrere {/i}131",
+                "{i}lavāre {/i} 6",
+                "{i}percurrere {/i} 131",
                 "{b}R{/b}",
-                "{i}solvere {/i}154"
+                "{i}solvere {/i} 154"
               ],
               [
-                "{i}legere {/i}39",
-                "{i}percutere {/i}98",
-                "{i}rapere {/i}120",
-                "{i}spargere {/i}100"
+                "{i}legere {/i} 39",
+                "{i}percutere {/i} 98",
+                "{i}rapere {/i} 120",
+                "{i}spargere {/i} 100"
               ],
               [
-                "{i}loquī {/i}175",
-                "{i}perdere {/i}137",
-                "{i}recēdere {/i}88",
-                "{i}stāre {/i}7"
+                "{i}loquī {/i} 175",
+                "{i}perdere {/i} 137",
+                "{i}recēdere {/i} 88",
+                "{i}stāre {/i} 7"
               ],
               [
-                "{i}lūcēre {/i}25",
-                "{i}perferre {/i}165",
-                "{i}recipere {/i}48",
-                "{i}statuere {/i}150"
+                "{i}lūcēre {/i} 25",
+                "{i}perferre {/i} 165",
+                "{i}recipere {/i} 48",
+                "{i}statuere {/i} 150"
               ],
               [
-                "{i}lūdere {/i}92",
-                "{i}perficere {/i}50",
-                "{i}recumbere {/i}124",
-                "{i}sternere {/i}105"
+                "{i}lūdere {/i} 92",
+                "{i}perficere {/i} 50",
+                "{i}recumbere {/i} 124",
+                "{i}sternere {/i} 105"
               ],
               [
-                "{i}lūgēre {/i}26",
-                "{i}pergere {/i}68",
-                "{i}reddere {/i}137",
-                "{i}suādēre {/i}29"
+                "{i}lūgēre {/i} 26",
+                "{i}pergere {/i} 68",
+                "{i}reddere {/i} 137",
+                "{i}suādēre {/i} 29"
               ]
             ]
           },
@@ -7801,120 +8087,120 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "{i}perīre {/i}196",
-                "{i}redimere {/i}42",
-                "{i}subīre {/i}196"
+                "{i}perīre {/i} 196",
+                "{i}redimere {/i} 42",
+                "{i}subīre {/i} 196"
               ]
             ]
           },
           {
-            "t": "p",
-            "text": "{b}M{/b}"
+            "t": "h",
+            "text": "M"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}permittere {/i}96",
-                "{i}redīre {/i}196",
-                "{i}submergere {/i}99"
-              ]
-            ]
-          },
-          {
-            "t": "p",
-            "text": "{i}mālle {/i}201"
-          },
-          {
-            "t": "table",
-            "rows": [
-              [
-                "{i}permovēre {/i}20",
-                "{i}redūcere {/i}61",
-                "{i}sūmere {/i}81"
+                "{i}permittere {/i} 96",
+                "{i}redīre {/i} 196",
+                "{i}submergere {/i} 99"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}manēre {/i}31"
+            "text": "{i}mālle {/i} 201"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}persequī {/i}176",
-                "{i}referre {/i}170",
-                "{i}superesse {/i}202"
+                "{i}permovēre {/i} 20",
+                "{i}redūcere {/i} 61",
+                "{i}sūmere {/i} 81"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}mergere {/i}99"
+            "text": "{i}manēre {/i} 31"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}persuādēre {/i}29",
-                "{i}regere {/i}66",
-                "{i}surgere {/i}69"
+                "{i}persequī {/i} 176",
+                "{i}referre {/i} 170",
+                "{i}superesse {/i} 202"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}metuere {/i}153"
+            "text": "{i}mergere {/i} 99"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}pervenīre {/i}194",
-                "{i}relinquere {/i}56",
-                "{i}surripere {/i}121"
+                "{i}persuādēre {/i} 29",
+                "{i}regere {/i} 66",
+                "{i}surgere {/i} 69"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}minuere {/i}149"
+            "text": "{i}metuere {/i} 153"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}petere {/i}111",
-                "{i}remanēre {/i}31",
-                "{i}suspicere {/i}64"
+                "{i}pervenīre {/i} 194",
+                "{i}relinquere {/i} 56",
+                "{i}surripere {/i} 121"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}miscēre {/i}11"
+            "text": "{i}minuere {/i} 149"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}plaudere {/i}95",
-                "{i}remittere {/i}96",
-                "{i}sustinēre {/i}13"
+                "{i}petere {/i} 111",
+                "{i}remanēre {/i} 31",
+                "{i}suspicere {/i} 64"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}mittere {/i}96"
+            "text": "{i}miscēre {/i} 11"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}pōnere {/i}116",
-                "{i}removēre {/i}20"
+                "{i}plaudere {/i} 95",
+                "{i}remittere {/i} 96",
+                "{i}sustinēre {/i} 13"
+              ]
+            ]
+          },
+          {
+            "t": "p",
+            "text": "{i}mittere {/i} 96"
+          },
+          {
+            "t": "table",
+            "rows": [
+              [
+                "{i}pōnere {/i} 116",
+                "{i}removēre {/i} 20"
               ]
             ]
           },
@@ -7922,7 +8208,7 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "{i}mordēre {/i}33",
+                "{i}mordēre {/i} 33",
                 "{b}T{/b}"
               ]
             ]
@@ -7931,8 +8217,8 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "{i}poscere {/i}163",
-                "{i}reperīre {/i}195"
+                "{i}poscere {/i} 163",
+                "{i}reperīre {/i} 195"
               ]
             ]
           },
@@ -7940,8 +8226,8 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "{i}morī {/i}178",
-                "{i}tangere {/i}125"
+                "{i}morī {/i} 178",
+                "{i}tangere {/i} 125"
               ]
             ]
           },
@@ -7949,7 +8235,7 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "{i}posse {/i}203",
+                "{i}posse {/i} 203",
                 "{i}repōnere{/i} 116"
               ]
             ]
@@ -7958,8 +8244,8 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "{i}movēre {/i}20",
-                "{i}tenēre {/i}12"
+                "{i}movēre {/i} 20",
+                "{i}tenēre {/i} 12"
               ]
             ]
           },
@@ -7967,21 +8253,21 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "{i}possidēre {/i}22",
+                "{i}possidēre {/i} 22",
                 "{i}reprehendere{/i} 144"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}tergēre {/i}30 {b}N{/b}"
+            "text": "{i}tergēre {/i} 30 {b}N{/b}"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}praeesse {/i}202",
-                "{i}requiēscere {/i}156"
+                "{i}praeesse {/i} 202",
+                "{i}requiēscere {/i} 156"
               ]
             ]
           },
@@ -7989,8 +8275,8 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "{i}nāscī {/i}184",
-                "{i}tollere {/i}171"
+                "{i}nāscī {/i} 184",
+                "{i}tollere {/i} 171"
               ]
             ]
           },
@@ -7998,52 +8284,21 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "{i}praeferre {/i}165",
-                "{i}requīrere {/i}113"
-              ]
-            ]
-          },
-          {
-            "t": "p",
-            "text": "{i}trādere {/i}137 {i}neglegere {/i}72"
-          },
-          {
-            "t": "table",
-            "rows": [
-              [
-                "{i}praepōnere {/i}116",
-                "{i}resistere {/i}140"
-              ]
-            ]
-          },
-          {
-            "t": "table",
-            "rows": [
-              [
-                "{i}nōlle {/i}200",
-                "{i}trahere {/i}76"
-              ]
-            ]
-          },
-          {
-            "t": "table",
-            "rows": [
-              [
-                "{i}praestāre {/i}8",
-                "{i}respondēre {/i}32"
+                "{i}praeferre {/i} 165",
+                "{i}requīrere {/i} 113"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}trānsferre {/i}165 {i}nōscere {/i}159"
+            "text": "{i}trādere {/i} 137 {i}neglegere {/i} 72"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}prehendere {/i}144",
-                "{i}retinēre {/i}13"
+                "{i}praepōnere {/i} 116",
+                "{i}resistere {/i} 140"
               ]
             ]
           },
@@ -8051,8 +8306,8 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "{i}nūbere {/i}63",
-                "{i}trānsīre {/i}196"
+                "{i}nōlle {/i} 200",
+                "{i}trahere {/i} 76"
               ]
             ]
           },
@@ -8060,25 +8315,56 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "{i}premere {/i}102",
-                "{i}retrahere {/i}76"
+                "{i}praestāre {/i} 8",
+                "{i}respondēre {/i} 32"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}tremere {/i}122"
+            "text": "{i}trānsferre {/i} 165 {i}nōscere {/i} 159"
+          },
+          {
+            "t": "table",
+            "rows": [
+              [
+                "{i}prehendere {/i} 144",
+                "{i}retinēre {/i} 13"
+              ]
+            ]
+          },
+          {
+            "t": "table",
+            "rows": [
+              [
+                "{i}nūbere {/i} 63",
+                "{i}trānsīre {/i} 196"
+              ]
+            ]
+          },
+          {
+            "t": "table",
+            "rows": [
+              [
+                "{i}premere {/i} 102",
+                "{i}retrahere {/i} 76"
+              ]
+            ]
+          },
+          {
+            "t": "p",
+            "text": "{i}tremere {/i} 122"
           },
           {
             "t": "table",
             "rows": [
               [
                 "{b}O{/b}",
-                "{i}prōcēdere {/i}88",
-                "{i}revenīre {/i}194"
+                "{i}prōcēdere {/i} 88",
+                "{i}revenīre {/i} 194"
               ],
               [
-                "{i}oblīvīscī {/i}186",
+                "{i}oblīvīscī {/i} 186",
                 "{b}U{/b}"
               ]
             ]
@@ -8087,8 +8373,8 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "{i}prōcurrere {/i}131",
-                "{i}revertī {/i}174"
+                "{i}prōcurrere {/i} 131",
+                "{i}revertī {/i} 174"
               ]
             ]
           },
@@ -8096,8 +8382,8 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "{i}occidere {/i}127",
-                "{i}ūrere {/i}85"
+                "{i}occidere {/i} 127",
+                "{i}ūrere {/i} 85"
               ]
             ]
           },
@@ -8105,110 +8391,110 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "{i}prōdesse {/i}207",
-                "{i}rīdēre {/i}28"
+                "{i}prōdesse {/i} 207",
+                "{i}rīdēre {/i} 28"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}ūtī {/i}181"
+            "text": "{i}ūtī {/i} 181"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}occīdere {/i}129",
-                "{i}prōferre {/i}165",
-                "{i}rumpere {/i}57"
+                "{i}occīdere {/i} 129",
+                "{i}prōferre {/i} 165",
+                "{i}rumpere {/i} 57"
               ],
               [
-                "{i}occurrere {/i}131",
-                "{i}proficīscī {/i}185",
+                "{i}occurrere {/i} 131",
+                "{i}proficīscī {/i} 185",
                 "{b}V{/b}"
               ]
             ]
           },
           {
-            "t": "p",
-            "text": "{b}S{/b}"
+            "t": "h",
+            "text": "S"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}offerre {/i}169",
-                "{i}prōgredī {/i}180",
-                "{i}vehere {/i}77"
+                "{i}offerre {/i} 169",
+                "{i}prōgredī {/i} 180",
+                "{i}vehere {/i} 77"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}salīre {/i}189"
+            "text": "{i}salīre {/i} 189"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}operīre {/i}188",
-                "{i}prōicere {/i}52",
-                "{i}velle {/i}199"
+                "{i}operīre {/i} 188",
+                "{i}prōicere {/i} 52",
+                "{i}velle {/i} 199"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}sapere {/i}110"
+            "text": "{i}sapere {/i} 110"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}opperīrī {/i}197",
-                "{i}prōmere {/i}82",
-                "{i}vēndere {/i}139"
+                "{i}opperīrī {/i} 197",
+                "{i}prōmere {/i} 82",
+                "{i}vēndere {/i} 139"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}scindere {/i}141"
+            "text": "{i}scindere {/i} 141"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}orīrī {/i}198",
-                "{i}prōmittere {/i}96",
-                "{i}venīre {/i}194"
+                "{i}orīrī {/i} 198",
+                "{i}prōmittere {/i} 96",
+                "{i}venīre {/i} 194"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}scrībere {/i}62"
+            "text": "{i}scrībere {/i} 62"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}ostendere {/i}147",
-                "{i}prōsilīre {/i}190",
-                "{i}vertere {/i}148"
+                "{i}ostendere {/i} 147",
+                "{i}prōsilīre {/i} 190",
+                "{i}vertere {/i} 148"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}secāre {/i}4"
+            "text": "{i}secāre {/i} 4"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}prōspicere {/i}64",
-                "{i}vetāre {/i}2"
+                "{i}prōspicere {/i} 64",
+                "{i}vetāre {/i} 2"
               ]
             ]
           },
@@ -8217,11 +8503,11 @@ export const extras = [
             "rows": [
               [
                 "{b}P{/b}",
-                "{i}sedēre {/i}21"
+                "{i}sedēre {/i} 21"
               ],
               [
-                "{i}parcere {/i}134",
-                "{i}vidēre {/i}23"
+                "{i}parcere {/i} 134",
+                "{i}vidēre {/i} 23"
               ]
             ]
           },
@@ -8230,25 +8516,25 @@ export const extras = [
             "rows": [
               [
                 "{b}Q{/b}",
-                "{i}sentīre {/i}193"
+                "{i}sentīre {/i} 193"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}vincere {/i}54"
+            "text": "{i}vincere {/i} 54"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}parere {/i}132",
-                "{i}quaerere {/i}112",
-                "{i}sequī {/i}176"
+                "{i}parere {/i} 132",
+                "{i}quaerere {/i} 112",
+                "{i}sequī {/i} 176"
               ],
               [
-                "{i}pāscere {/i}162",
-                "{i}vincīre {/i}192"
+                "{i}pāscere {/i} 162",
+                "{i}vincīre {/i} 192"
               ]
             ]
           },
@@ -8256,26 +8542,26 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "{i}quatere {/i}97",
-                "{i}serere {/i}107"
+                "{i}quatere {/i} 97",
+                "{i}serere {/i} 107"
               ]
             ]
           },
           {
             "t": "p",
-            "text": "{i}vīvere {/i}80"
+            "text": "{i}vīvere {/i} 80"
           },
           {
             "t": "table",
             "rows": [
               [
-                "{i}patī {/i}179",
-                "{i}querī {/i}177",
-                "{i}sinere {/i}114"
+                "{i}patī {/i} 179",
+                "{i}querī {/i} 177",
+                "{i}sinere {/i} 114"
               ],
               [
-                "{i}pellere {/i}133",
-                "{i}volvere {/i}155"
+                "{i}pellere {/i} 133",
+                "{i}volvere {/i} 155"
               ]
             ]
           },
@@ -8283,8 +8569,8 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "{i}quiēscere {/i}156",
-                "{i}solēre {/i}36"
+                "{i}quiēscere {/i} 156",
+                "{i}solēre {/i} 36"
               ]
             ]
           }
@@ -8302,7 +8588,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "{b}1st Declension{/b} Gen. sing. {i}-ae, {/i}pl. {i}-ārum{/i} Feminine"
+            "text": "{b}1st Declension{/b} Gen. sing. {i}-ae, {/i} pl. {i}-ārum{/i} Feminine"
           },
           {
             "t": "table",
@@ -8508,10 +8794,10 @@ export const extras = [
                 "{b}2nd Declension{/b}"
               ],
               [
-                "Gen. sing. -{i}ī, {/i}pl. -{i}ōrum{/i}"
+                "Gen. sing. -{i}ī, {/i} pl. -{i}ōrum{/i}"
               ],
               [
-                "1. Nom. sing. {i}-us {/i}({i}-r{/i})"
+                "1. Nom. sing. {i}-us {/i} ({i}-r{/i})"
               ],
               [
                 "Masculīne"
@@ -8659,7 +8945,7 @@ export const extras = [
                 "{i}Rhodus{/i}"
               ],
               [
-                "2. Nom. sing. {i}-um, {/i}plur {i}-a{/i}"
+                "2. Nom. sing. {i}-um, {/i} plur {i}-a{/i}"
               ],
               [
                 "Neuter"
@@ -9089,6 +9375,10 @@ export const extras = [
                 "(pl. )"
               ],
               [
+                "{i}verbera -um{/i}",
+                "{i}viscera -um{/i}"
+              ],
+              [
                 "2. Gen. pl. {i}-ium{/i}"
               ],
               [
@@ -9213,7 +9503,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "{b}4th Declension{/b} Gen. sing. {i}-ūs, {/i}pl. {i}-uum {/i} Masculine"
+            "text": "{b}4th Declension{/b} Gen. sing. {i}-ūs, {/i} pl. {i}-uum {/i} Masculine"
           },
           {
             "t": "table",
@@ -9279,7 +9569,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "{b}5th Declension{/b} Gen. sing. {i}-ēī/-eī {/i}(pl. {i}-ērum{/i}) Feminine"
+            "text": "{b}5th Declension{/b} Gen. sing. {i}-ēī/-eī {/i} (pl. {i}-ērum{/i}) Feminine"
           },
           {
             "t": "table",
@@ -9314,7 +9604,7 @@ export const extras = [
         "blocks": [
           {
             "t": "p",
-            "text": "{b}1st/2nd Declension{/b} Nom. sing. m. {i}-us, {/i}f.{i} -a, {/i}n.{i} -um{/i}"
+            "text": "{b}1st/2nd Declension{/b} Nom. sing. m. {i}-us, {/i} f.{i} -a, {/i} n.{i} -um{/i}"
           },
           {
             "t": "table",
@@ -9692,7 +9982,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "Nom. sing. m./f. {i}-is, {/i}n.{i} -e{/i}"
+            "text": "Nom. sing. m./f. {i}-is, {/i} n.{i} -e{/i}"
           },
           {
             "t": "table",
@@ -9746,7 +10036,7 @@ export const extras = [
                 "{i}vīlis{/i}"
               ],
               [
-                "Nom. sing. m./f./n. {i}-ns, {/i}gen. {i}-ntis{/i}"
+                "Nom. sing. m./f./n. {i}-ns, {/i} gen. {i}-ntis{/i}"
               ],
               [
                 "{i}absēns{/i}",
@@ -9764,7 +10054,7 @@ export const extras = [
                 "{i}clēmēns{/i}",
                 "{i}frequēns{/i}",
                 "{i}patiēns{/i}",
-                "{i}-ns {/i}part."
+                "{i}-ns {/i} part."
               ],
               [
                 "{i}cōnstāns{/i}",
@@ -9773,7 +10063,7 @@ export const extras = [
                 "pres."
               ],
               [
-                "Nom. sing. m./f./n. {i}-x, {/i}gen. {i}-cis{/i}"
+                "Nom. sing. m./f./n. {i}-x, {/i} gen. {i}-cis{/i}"
               ],
               [
                 "{i}audāx{/i}",
@@ -9786,7 +10076,7 @@ export const extras = [
                 "{i}vēlōx{/i}"
               ],
               [
-                "Nom. sing. m. {i}-er, {/i}f. {i}-{/i}({i}e{/i}){i}ris, {/i}n. {i}-{/i}({i}e{/i}){i}re{/i}"
+                "Nom. sing. m. {i}-er, {/i} f. {i}-{/i}({i}e{/i}){i}ris, {/i} n. {i}-{/i}({i}e{/i}){i}re{/i}"
               ],
               [
                 "{i}ācer ācris{/i}",
@@ -9814,7 +10104,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "Inf. pres. act. {i}-āre, {/i}pass. {i}-ārī{/i}"
+            "text": "Inf. pres. act. {i}-āre, {/i} pass. {i}-ārī{/i}"
           },
           {
             "t": "table",
@@ -10071,7 +10361,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "Inf. pres. act. {i}-ēre, {/i}pass. {i}-ērī{/i}"
+            "text": "Inf. pres. act. {i}-ēre, {/i} pass. {i}-ērī{/i}"
           },
           {
             "t": "table",
@@ -10204,7 +10494,7 @@ export const extras = [
           },
           {
             "t": "p",
-            "text": "Inf. pres. act. {i}-ere, {/i}pass. {i}-ī{/i} 1. Ind. pres. pers. 1 sing. {i}-ō, -or{/i}"
+            "text": "Inf. pres. act. {i}-ere, {/i} pass. {i}-ī{/i} 1. Ind. pres. pers. 1 sing. {i}-ō, -or{/i}"
           },
           {
             "t": "table",
@@ -10488,6 +10778,141 @@ export const extras = [
                 "{i}fruī{/i}",
                 "{i}oblīvīscī{/i}",
                 "{i}reminīscī{/i}"
+              ],
+              [
+                "2. Ind. pres. pers. 1 sing. {i}-iō, -ior{/i}"
+              ],
+              [
+                "{i}abicere{/i}",
+                "{i}cōnspicere{/i}",
+                "{i}iacere{/i}",
+                "{i}rapere{/i}"
+              ],
+              [
+                "{i}accipere{/i}",
+                "{i}cupere{/i}",
+                "{i}incipere{/i}",
+                "{i}recipere{/i}"
+              ],
+              [
+                "{i}adicere{/i}",
+                "{i}dēspicere{/i}",
+                "{i}interficere{/i}",
+                "{i}sapere{/i}"
+              ],
+              [
+                "{i}afficere{/i}",
+                "{i}efficere{/i}",
+                "{i}parere{/i}",
+                "{i}surripere{/i}"
+              ],
+              [
+                "{i}allicere{/i}",
+                "{i}effugere{/i}",
+                "{i}percutere{/i}",
+                "{i}suscipere{/i}"
+              ],
+              [
+                "{i}aspicere{/i}",
+                "{i}ēicere{/i}",
+                "{i}perficere{/i}",
+                "{i}suspicere{/i}"
+              ],
+              [
+                "{i}aufugere{/i}",
+                "{i}ēripere{/i}",
+                "{i}prōicere{/i}"
+              ],
+              [
+                "{i}capere{/i}",
+                "{i}facere{/i}",
+                "{i}prōspicere{/i}"
+              ],
+              [
+                "{i}cōnficere{/i}",
+                "{i}fugere{/i}",
+                "{i}quatere{/i}"
+              ],
+              [
+                "Deponent verbs"
+              ],
+              [
+                "{i}ēgredī{/i}",
+                "{i}morī{/i}",
+                "{i}patī{/i}",
+                "{i}prōgredī{/i}"
+              ]
+            ]
+          },
+          {
+            "t": "h",
+            "text": "4th Conjugation"
+          },
+          {
+            "t": "p",
+            "text": "Inf. pres. act. {i}-īre, {/i} pass. {i}-īrī{/i}"
+          },
+          {
+            "t": "table",
+            "rows": [
+              [
+                "{i}advenīre{/i}",
+                "{i}exaudīre{/i}",
+                "{i}oboedīre{/i}",
+                "{i}scīre{/i}"
+              ],
+              [
+                "{i}aperīre{/i}",
+                "{i}exhaurīre{/i}",
+                "{i}operīre{/i}",
+                "{i}sentīre{/i}"
+              ],
+              [
+                "{i}audīre{/i}",
+                "{i}fīnīre{/i}",
+                "{i}pervenīre{/i}",
+                "{i}servīre{/i}"
+              ],
+              [
+                "{i}circumsilīre{/i}",
+                "{i}haurīre{/i}",
+                "{i}prōsilīre{/i}",
+                "{i}vāgīre{/i}"
+              ],
+              [
+                "{i}convenīre{/i}",
+                "{i}invenīre{/i}",
+                "{i}pūnīre{/i}",
+                "{i}venīre{/i}"
+              ],
+              [
+                "{i}cūstōdīre{/i}",
+                "{i}mollīre{/i}",
+                "{i}reperīre{/i}",
+                "{i}vestīre{/i}"
+              ],
+              [
+                "{i}dēsilīre{/i}",
+                "{i}mūnīre{/i}",
+                "{i}revenīre{/i}",
+                "{i}vincīre{/i}"
+              ],
+              [
+                "{i}dormīre{/i}",
+                "{i}nescīre{/i}",
+                "{i}salīre{/i}"
+              ],
+              [
+                "Deponent vebs"
+              ],
+              [
+                "{i}largīrī{/i}",
+                "{i}opperīrī{/i}",
+                "{i}mentīrī{/i}",
+                "{i}orīrī{/i}"
+              ],
+              [
+                "{i}partīrī{/i}"
               ]
             ]
           }
@@ -10689,8 +11114,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}adiectīva{/b}"
+            "t": "h",
+            "text": "adiectīva"
           },
           {
             "t": "table",
@@ -10897,8 +11322,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}verba{/b}"
+            "t": "h",
+            "text": "verba"
           },
           {
             "t": "table",
@@ -10936,8 +11361,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}praepositiō{/b}"
+            "t": "h",
+            "text": "praepositiō"
           },
           {
             "t": "table",
@@ -10962,8 +11387,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}coniunctiōnes{/b}"
+            "t": "h",
+            "text": "coniunctiōnes"
           },
           {
             "t": "table",
@@ -11062,8 +11487,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}IV. Dominus et Servi{/b}"
+            "t": "h",
+            "text": "IV. Dominus et Servi"
           },
           {
             "t": "table",
@@ -11075,8 +11500,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}nōmina{/b}"
+            "t": "h",
+            "text": "nōmina"
           },
           {
             "t": "table",
@@ -11153,8 +11578,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}verba grammatica{/b}"
+            "t": "h",
+            "text": "verba grammatica"
           },
           {
             "t": "table",
@@ -11192,8 +11617,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}adiectīva{/b}"
+            "t": "h",
+            "text": "adiectīva"
           },
           {
             "t": "table",
@@ -11531,8 +11956,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}IX. Pastor et Oves{/b}"
+            "t": "h",
+            "text": "IX. Pastor et Oves"
           },
           {
             "t": "table",
@@ -11544,8 +11969,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}nōmina{/b}"
+            "t": "h",
+            "text": "nōmina"
           },
           {
             "t": "table",
@@ -11609,8 +12034,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}alia{/b}"
+            "t": "h",
+            "text": "alia"
           },
           {
             "t": "table",
@@ -11969,8 +12394,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}XI. Corpus Humanum{/b}"
+            "t": "h",
+            "text": "XI. Corpus Humanum"
           },
           {
             "t": "table",
@@ -11982,8 +12407,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}nōmina{/b}"
+            "t": "h",
+            "text": "nōmina"
           },
           {
             "t": "table",
@@ -12194,8 +12619,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}coniunctiō{/b}"
+            "t": "h",
+            "text": "coniunctiō"
           },
           {
             "t": "table",
@@ -12235,8 +12660,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}XIII. Annus et Menses{/b}"
+            "t": "h",
+            "text": "XIII. Annus et Menses"
           },
           {
             "t": "table",
@@ -12248,8 +12673,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}nōmina{/b}"
+            "t": "h",
+            "text": "nōmina"
           },
           {
             "t": "table",
@@ -12499,8 +12924,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}praepositiō{/b}"
+            "t": "h",
+            "text": "praepositiō"
           },
           {
             "t": "table",
@@ -12525,8 +12950,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}coniunctiō{/b}"
+            "t": "h",
+            "text": "coniunctiō"
           },
           {
             "t": "table",
@@ -12551,8 +12976,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}interrogatīva{/b}"
+            "t": "h",
+            "text": "interrogatīva"
           },
           {
             "t": "table",
@@ -12577,8 +13002,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}alia{/b}"
+            "t": "h",
+            "text": "alia"
           },
           {
             "t": "table",
@@ -12857,8 +13282,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}XVI. Tempestas{/b}"
+            "t": "h",
+            "text": "XVI. Tempestas"
           },
           {
             "t": "table",
@@ -12870,8 +13295,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}nōmina{/b}"
+            "t": "h",
+            "text": "nōmina"
           },
           {
             "t": "table",
@@ -13121,8 +13546,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}adverbia{/b}"
+            "t": "h",
+            "text": "adverbia"
           },
           {
             "t": "table",
@@ -13258,8 +13683,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}XVIII. Litterae Latinae{/b}"
+            "t": "h",
+            "text": "XVIII. Litterae Latinae"
           },
           {
             "t": "table",
@@ -13271,8 +13696,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}nōmina{/b}"
+            "t": "h",
+            "text": "nōmina"
           },
           {
             "t": "table",
@@ -13379,8 +13804,8 @@ export const extras = [
             "text": "māteria"
           },
           {
-            "t": "p",
-            "text": "{b}adverbia{/b}"
+            "t": "h",
+            "text": "adverbia"
           },
           {
             "t": "table",
@@ -13638,8 +14063,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}XXII. Cave Canem{/b}"
+            "t": "h",
+            "text": "XXII. Cave Canem"
           },
           {
             "t": "table",
@@ -13651,8 +14076,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}nōmina{/b}"
+            "t": "h",
+            "text": "nōmina"
           },
           {
             "t": "table",
@@ -14296,8 +14721,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}XXIV. Puer Aegrōtus{/b}"
+            "t": "h",
+            "text": "XXIV. Puer Aegrōtus"
           },
           {
             "t": "table",
@@ -14309,8 +14734,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}nōmina{/b}"
+            "t": "h",
+            "text": "nōmina"
           },
           {
             "t": "table",
@@ -14400,8 +14825,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}verba grammatica{/b}"
+            "t": "h",
+            "text": "verba grammatica"
           },
           {
             "t": "table",
@@ -14426,8 +14851,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}adiectīva{/b}"
+            "t": "h",
+            "text": "adiectīva"
           },
           {
             "t": "table",
@@ -14517,8 +14942,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}verba{/b}"
+            "t": "h",
+            "text": "verba"
           },
           {
             "t": "table",
@@ -14660,8 +15085,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}coniunctiōnes{/b}"
+            "t": "h",
+            "text": "coniunctiōnes"
           },
           {
             "t": "table",
@@ -14686,8 +15111,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}praepositiōnes{/b}"
+            "t": "h",
+            "text": "praepositiōnes"
           },
           {
             "t": "table",
@@ -14712,8 +15137,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}adverbia{/b}"
+            "t": "h",
+            "text": "adverbia"
           },
           {
             "t": "table",
@@ -14861,8 +15286,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}Minotaur{/b}"
+            "t": "h",
+            "text": "Minotaur"
           },
           {
             "t": "table",
@@ -14874,8 +15299,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}nōmina{/b}"
+            "t": "h",
+            "text": "nōmina"
           },
           {
             "t": "table",
@@ -14917,8 +15342,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}coniunctiōnes{/b}"
+            "t": "h",
+            "text": "coniunctiōnes"
           },
           {
             "t": "table",
@@ -15015,8 +15440,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}XXVII. Rēs Rūsticae{/b}"
+            "t": "h",
+            "text": "XXVII. Rēs Rūsticae"
           },
           {
             "t": "table",
@@ -15028,8 +15453,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}nōmina{/b}"
+            "t": "h",
+            "text": "nōmina"
           },
           {
             "t": "table",
@@ -15474,8 +15899,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}coniunctiōnēs{/b}"
+            "t": "h",
+            "text": "coniunctiōnēs"
           },
           {
             "t": "table",
@@ -15500,8 +15925,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}adverbia{/b}"
+            "t": "h",
+            "text": "adverbia"
           },
           {
             "t": "table",
@@ -15710,8 +16135,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}XXX. Convīvium{/b}"
+            "t": "h",
+            "text": "XXX. Convīvium"
           },
           {
             "t": "table",
@@ -15723,8 +16148,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}nōmina{/b}"
+            "t": "h",
+            "text": "nōmina"
           },
           {
             "t": "table",
@@ -16159,8 +16584,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}XXXII. Classis Rōmāna{/b}"
+            "t": "h",
+            "text": "XXXII. Classis Rōmāna"
           },
           {
             "t": "table",
@@ -16172,8 +16597,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}nōmina{/b}"
+            "t": "h",
+            "text": "nōmina"
           },
           {
             "t": "table",
@@ -16436,8 +16861,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}adiectīva{/b}"
+            "t": "h",
+            "text": "adiectīva"
           },
           {
             "t": "table",
@@ -16680,8 +17105,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}XXXIV. De Arte Poēticā{/b}"
+            "t": "h",
+            "text": "XXXIV. De Arte Poēticā"
           },
           {
             "t": "table",
@@ -16693,8 +17118,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}nōmina{/b}"
+            "t": "h",
+            "text": "nōmina"
           },
           {
             "t": "table",
@@ -17148,8 +17573,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}verba grammatica{/b}"
+            "t": "h",
+            "text": "verba grammatica"
           },
           {
             "t": "table",
@@ -17213,8 +17638,8 @@ export const extras = [
             ]
           },
           {
-            "t": "p",
-            "text": "{b}praepositiōnēs{/b}"
+            "t": "h",
+            "text": "praepositiōnēs"
           },
           {
             "t": "table",
@@ -17601,7 +18026,8 @@ export const extras = [
                 "{b}beneficium{/b} -ī {i}n{/i} benefit,"
               ],
               [
-                "{b}animal{/b} -ālis {i}n{/i} animal, living {b}a-spicere{/b} look at, look",
+                "{b}animal{/b} -ālis {i}n{/i} animal, living",
+                "{b}a-spicere{/b} look at, look",
                 "favor"
               ],
               [
@@ -17705,7 +18131,8 @@ export const extras = [
               ],
               [
                 "{b}ap-prehendere{/b} seize",
-                "{b}aureus{/b} -a -um gold-, {i}m{/i} gold {b}caedēs{/b} -is {i}f{/i} killing,"
+                "{b}aureus{/b} -a -um gold-, {i}m{/i} gold",
+                "{b}caedēs{/b} -is {i}f{/i} killing,"
               ],
               [
                 "{b}ap-propinquāre{/b}",
@@ -18132,7 +18559,8 @@ export const extras = [
               ],
               [
                 "{b}citrā{/b} {i}prp{/i} +{i}acc{/i} on this side of",
-                "{b}coniūnx{/b} -iugis {i}m/f{/i} consort, {b}cornū{/b} -ūs {i}n{/i} horn"
+                "{b}coniūnx{/b} -iugis {i}m/f{/i} consort,",
+                "{b}cornū{/b} -ūs {i}n{/i} horn"
               ],
               [
                 "{b}cīvis{/b} -is {i}m{/i}/{i}f{/i} citizen,",
@@ -18398,7 +18826,8 @@ export const extras = [
               ],
               [
                 "{b}dēbēre{/b} owe, be obliged",
-                "{b}dexter{/b} -tra -trum right, {i}f{/i} the uxōrem dūcere marry"
+                "{b}dexter{/b} -tra -trum right, {i}f{/i} the",
+                "uxōrem dūcere marry"
               ],
               [
                 "{b}dēbilis{/b} -e weak",
@@ -18511,7 +18940,7 @@ export const extras = [
               ],
               [
                 "{b}ēducāre {/b} bring up",
-                "{b}ex/ē{/b} {i}prp {/i}+{i}abl{/i} out of, from,",
+                "{b}ex/ē{/b} {i}prp {/i} +{i}abl{/i} out of, from,",
                 "{b}familia{/b} -ae {i}f{/i} domestic staff,"
               ],
               [
@@ -19048,7 +19477,8 @@ export const extras = [
               ],
               [
                 "+{i}dat{/i} forgive",
-                "{b}in-dignus{/b} -a -um unworthy, {b}integer{/b} -gra -grum"
+                "{b}in-dignus{/b} -a -um unworthy,",
+                "{b}integer{/b} -gra -grum"
               ],
               [
                 "{b}ignōtus{/b} -a -um unknown",
@@ -19825,7 +20255,8 @@ export const extras = [
                 "{b}nōn{/b} not"
               ],
               [
-                "{b}nōnae{/b} -ārum {i}f pl{/i} 5th/7th (of {b}oc-cidere{/b} -disse fall, sink,",
+                "{b}nōnae{/b} -ārum {i}f pl{/i} 5th/7th (of",
+                "{b}oc-cidere{/b} -disse fall, sink,",
                 "{b}ōsculum{/b} -ī {i}n{/i} kiss"
               ],
               [
@@ -19893,7 +20324,8 @@ export const extras = [
                 "{b}paen-īnsula{/b} -ae {i}f{/i} peninsula"
               ],
               [
-                "{b}nōscere{/b} nōvisse get to know, {b}octōgintā{/b} eighty",
+                "{b}nōscere{/b} nōvisse get to know,",
+                "{b}octōgintā{/b} eighty",
                 "{b}pāgina{/b} -ae {i}f{/i} page"
               ],
               [
@@ -20569,7 +21001,8 @@ export const extras = [
                 "{b}quoniam{/b} as, since"
               ],
               [
-                "{b}prūdēns{/b} -entis {i}adi{/i} prudent, {b}quater{/b} four times",
+                "{b}prūdēns{/b} -entis {i}adi{/i} prudent,",
+                "{b}quater{/b} four times",
                 "{b}quoque{/b} also, too"
               ],
               [
@@ -20702,7 +21135,8 @@ export const extras = [
                 "{b}scelestus{/b} -a -um criminal,"
               ],
               [
-                "{b}red-imere{/b} -ēmisse -ēmptum {b}rigāre{/b} irrigate",
+                "{b}red-imere{/b} -ēmisse -ēmptum",
+                "{b}rigāre{/b} irrigate",
                 "wicked"
               ],
               [
@@ -20787,7 +21221,8 @@ export const extras = [
               ],
               [
                 "left",
-                "{b}rūsticus{/b} -a -um rural, rustic, {b}semel{/b} once"
+                "{b}rūsticus{/b} -a -um rural, rustic,",
+                "{b}semel{/b} once"
               ],
               [
                 "{b}re-manēre{/b} remain, stay",
@@ -20889,7 +21324,8 @@ export const extras = [
                 "{b}serēnus{/b} -a -um clear,"
               ],
               [
-                "{b}re-sistere{/b} -stitisse +{i}dat{/i} halt, {b}salvēre iubēre{/b} greet",
+                "{b}re-sistere{/b} -stitisse +{i}dat{/i} halt,",
+                "{b}salvēre iubēre{/b} greet",
                 "cloudless"
               ],
               [
@@ -21282,7 +21718,7 @@ export const extras = [
               ],
               [
                 "{b}terribilis{/b} -e terrible",
-                "{b}turbidus {/b}-a -um agitated,",
+                "{b}turbidus {/b} -a -um agitated,",
                 "{b}ūva{/b} -ae {i}f{/i} grape"
               ],
               [
@@ -21672,7 +22108,7 @@ export const extras = [
                 "{i}adi{/i}{b} adjective{/b}"
               ],
               [
-                "{b}adverbium -ī {/b}{i}n{/i}",
+                "{b}adverbium -ī {/b} {i}n{/i}",
                 "{i}adv{/i}{b} adverb{/b}"
               ],
               [
@@ -21680,11 +22116,11 @@ export const extras = [
                 "{b}appellative{/b}"
               ],
               [
-                "{b}cāsus -ūs {/b}{i}m{/i}",
+                "{b}cāsus -ūs {/b} {i}m{/i}",
                 "{b} case{/b}"
               ],
               [
-                "{b}comparātiō -ōnis {/b}{i}f{/i}",
+                "{b}comparātiō -ōnis {/b} {i}f{/i}",
                 "{b} comparison{/b}"
               ],
               [
@@ -21692,11 +22128,11 @@ export const extras = [
                 "{i}comp{/i}{b} comparative{/b}"
               ],
               [
-                "{b}coniugātiō -ōnis {/b}{i}f{/i}",
+                "{b}coniugātiō -ōnis {/b} {i}f{/i}",
                 "{b}conjugation{/b}"
               ],
               [
-                "{b}coniūnctiō -ōnis {/b}{i}f{/i}",
+                "{b}coniūnctiō -ōnis {/b} {i}f{/i}",
                 "{i}coni{/i}{b} conjunction{/b}"
               ],
               [
@@ -21708,7 +22144,7 @@ export const extras = [
                 "{i}dat{/i}{b} dative{/b}"
               ],
               [
-                "{b}dēclīnātiō -ōnis {/b}{i}f{/i}",
+                "{b}dēclīnātiō -ōnis {/b} {i}f{/i}",
                 "{i}dēcl{/i}{b} declension{/b}"
               ],
               [
@@ -21745,7 +22181,7 @@ export const extras = [
                 "{b}gender/voice{/b}"
               ],
               [
-                "{b}gerundium -ī {/b}{i}n{/i}{b} gerundīvum -ī {/b}{i}n{/i}",
+                "{b}gerundium -ī {/b} {i}n{/i}{b} gerundīvum -ī {/b} {i}n{/i}",
                 "{b}gerund/gerundive{/b}"
               ],
               [
@@ -21774,7 +22210,7 @@ export const extras = [
                 "{i}īnf{/i}{b} infinitive{/b}"
               ],
               [
-                "{b}interiectiō -ōnis {/b}{i}f{/i}",
+                "{b}interiectiō -ōnis {/b} {i}f{/i}",
                 "{b}interjection{/b}"
               ],
               [
@@ -21810,7 +22246,7 @@ export const extras = [
                 "{b}part of speech{/b}"
               ],
               [
-                "{b}participium -ī {/b}{i}n{/i}",
+                "{b}participium -ī {/b} {i}n{/i}",
                 "{i}part{/i}{b} participle{/b}"
               ],
               [
@@ -21822,7 +22258,7 @@ export const extras = [
                 "{i}perf{/i}{b} perfect{/b}"
               ],
               [
-                "{b}persōna -ae {/b}{i}f{/i}",
+                "{b}persōna -ae {/b} {i}f{/i}",
                 "{i}pers{/i}{b} person{/b}"
               ],
               [
@@ -21846,7 +22282,7 @@ export const extras = [
                 "{b}possessive{/b}"
               ],
               [
-                "{b}praepositiō -ōnis {/b}{i}f{/i}",
+                "{b}praepositiō -ōnis {/b} {i}f{/i}",
                 "{i}prp, praep{/i}{b} preposition{/b}"
               ],
               [
@@ -21859,7 +22295,7 @@ export const extras = [
                 "{b}preterite, past tense{/b}"
               ],
               [
-                "{b}prōnōmen -inis {/b}{i}n{/i}",
+                "{b}prōnōmen -inis {/b} {i}n{/i}",
                 "{i}prōn{/i}{b} pronoun{/b}"
               ],
               [
@@ -21947,7 +22383,7 @@ export const extras = [
               ],
               [
                 "of degree of difference, 142, 171",
-                "{i}nūllus, ūllus, tōtus, solus, {/i}167"
+                "{i}nūllus, ūllus, tōtus, solus, {/i} 167"
               ],
               [
                 "of description, 297",
@@ -22087,7 +22523,7 @@ export const extras = [
               ],
               [
                 "cardinal directions, 138. See also {i}locus{/i}",
-                "{i}facere/fierī, {/i}143"
+                "{i}facere/fierī, {/i} 143"
               ],
               [
                 "{i}cognōmen{/i}. See {i}tria nōmina{/i}",
@@ -22107,7 +22543,7 @@ export const extras = [
               ],
               [
                 "summary of adjective comparison, 218",
-                "{i}fruī, {/i}279"
+                "{i}fruī, {/i} 279"
               ],
               [
                 "conditions"
@@ -22153,7 +22589,7 @@ export const extras = [
                 "{i}tium{/i}, 300; with superlatives, 167"
               ],
               [
-                "{i}talis/qualis {/i}(Cap. XVIII)",
+                "{i}talis/qualis {/i} (Cap. XVIII)",
                 "gerund, 237"
               ],
               [
@@ -22286,7 +22722,7 @@ export const extras = [
                 "neuter, xxi, 10"
               ],
               [
-                "{i}necesse est {/i}+ the inf. and dat. of",
+                "{i}necesse est {/i} + the inf. and dat. of",
                 "{i}nōlle{/i}, 177, 263, 308. See also {i}velle{/i}"
               ],
               [
@@ -22303,7 +22739,7 @@ export const extras = [
               ],
               [
                 "tenses of:",
-                "{i}nostrum/nostri {/i}vs{i}. vestrum/vestri, {/i}272"
+                "{i}nostrum/nostri {/i} vs{i}. vestrum/vestri, {/i} 272"
               ],
               [
                 "—future: active, 209; passive, 209;",
@@ -22420,7 +22856,7 @@ export const extras = [
             "t": "table",
             "rows": [
               [
-                "{i}mālle, {/i}263, 308. See also {i}velle{/i}",
+                "{i}mālle, {/i} 263, 308. See also {i}velle{/i}",
                 "{i}absolūtus{/i}), 140, 200"
               ],
               [
@@ -22452,12 +22888,12 @@ export const extras = [
                 "indefinite relative, 288"
               ],
               [
-                "vs{i}. {/i}supine, 197",
+                "vs{i}. {/i} supine, 197",
                 "interrogative, 21,"
               ],
               [
                 "parts of speech, xxi",
-                "{i}nūllus, ūllus, tōtus, solus, {/i}167"
+                "{i}nūllus, ūllus, tōtus, solus, {/i} 167"
               ],
               [
                 "perfect. {i}See{/i} verbs",
@@ -22465,7 +22901,7 @@ export const extras = [
               ],
               [
                 "place constructions, 45, 229",
-                "possessive: adjective vs{i}. {/i}pronoun,"
+                "possessive: adjective vs{i}. {/i} pronoun,"
               ],
               [
                 "pluperfect. {i}See{/i} verbs",
@@ -22477,7 +22913,7 @@ export const extras = [
               ],
               [
                 "{i}alius…alius, cauda movet{/i}/{i}movētur{/i},",
-                "relative, 21; {i}quī {/i}= {i}is quī{/i}, 59, 231"
+                "relative, 21; {i}quī {/i} = {i}is quī{/i}, 59, 231"
               ],
               [
                 "84",
@@ -22522,7 +22958,7 @@ export const extras = [
               ],
               [
                 "idiom {i}suum ciuque{/i}, 158",
-                "with {i}tam, {/i}44"
+                "with {i}tam, {/i} 44"
               ],
               [
                 "idioms, 171",
@@ -22680,7 +23116,7 @@ export const extras = [
               ],
               [
                 "optative, 291, 301, 311",
-                "impersonal: {i}convenit, {/i}133; {i}decet{/i}, 181;"
+                "impersonal: {i}convenit, {/i} 133; {i}decet{/i}, 181;"
               ],
               [
                 "pluperfect in subordinate clauses,",
@@ -22688,7 +23124,7 @@ export const extras = [
               ],
               [
                 "239",
-                "151; {i}opus est, {/i}171; with ablative,"
+                "151; {i}opus est, {/i} 171; with ablative,"
               ],
               [
                 "prohibitions, 300",
@@ -22735,7 +23171,7 @@ export const extras = [
                 "subjunctive, 307"
               ],
               [
-                "—present, 248; {i}esse{/i}, 253; {i}īre, {/i}203;",
+                "—present, 248; {i}esse{/i}, 253; {i}īre, {/i} 203;",
                 "principal parts, or the three verbal"
               ],
               [
@@ -22804,7 +23240,7 @@ export const extras = [
                 "passive, 142, 148; reduplicated"
               ],
               [
-                "{i}tantum {/i}(adv.), 62",
+                "{i}tantum {/i} (adv.), 62",
                 "perfects, 166; root perfects, 166;"
               ],
               [
@@ -22824,7 +23260,7 @@ export const extras = [
                 "252"
               ],
               [
-                "{i}bene/male, {/i}231; {i}mālle, {/i}263, 308;",
+                "{i}bene/male, {/i} 231; {i}mālle, {/i} 263, 308;",
                 "{i}verba postulandi{/i}, (indirect commands),"
               ],
               [

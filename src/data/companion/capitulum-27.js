@@ -168,7 +168,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Instead of the regular plural {i}locī{/i} of {i}locus{/i}, you often find the neuter form {i}loca, {/i} {i}-ōrum{/i} (l.30), which is usual in the concrete sense (places, localities); {i}locī {/i}is used for passages in books, topics, and points of argument."
+          "text": "Instead of the regular plural {i}locī{/i} of {i}locus{/i}, you often find the neuter form {i}loca, {/i} {i}-ōrum{/i} (l.30), which is usual in the concrete sense (places, localities); {i}locī {/i} is used for passages in books, topics, and points of argument."
         },
         {
           "t": "p",
@@ -394,7 +394,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Remember: {i}ut {/i}is also a comparative conjunction, meaning “like” or “as,” and is followed:"
+          "text": "Remember: {i}ut {/i} is also a comparative conjunction, meaning “like” or “as,” and is followed:"
         },
         {
           "t": "li",
@@ -406,7 +406,7 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "by a noun adjective: {i}Oculī lupī in umbrā lūcent ut gemmae et dentēs ut margarītae.{/i} (Cap. IX, ll.72–73) {i}Puer quiētus super lectum iacet ut mortuus.{/i} (Cap. XI, ll.103–104) {i}Gallia autem prōvincia Rōmāna est, ut Hispānia, Syria, Aegyptus.{/i} (Cap. XII, ll.63–64) {i}ut saxa…vorāginēs…praedōnēs {/i}(Cap. XXVIII, ll.131–132)"
+          "text": "by a noun adjective: {i}Oculī lupī in umbrā lūcent ut gemmae et dentēs ut margarītae.{/i} (Cap. IX, ll.72–73) {i}Puer quiētus super lectum iacet ut mortuus.{/i} (Cap. XI, ll.103–104) {i}Gallia autem prōvincia Rōmāna est, ut Hispānia, Syria, Aegyptus.{/i} (Cap. XII, ll.63–64) {i}ut saxa…vorāginēs…praedōnēs {/i} (Cap. XXVIII, ll.131–132)"
         },
         {
           "t": "h",
@@ -426,7 +426,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The prepositions {i}prae{/i} and {i}prō{/i} take the ablative; the basic meaning of both is “before,” from which other meanings are derived ({i}prae {/i}ll.63, 83;{i} prō {/i}ll.71, 72):"
+          "text": "The prepositions {i}prae{/i} and {i}prō{/i} take the ablative; the basic meaning of both is “before,” from which other meanings are derived ({i}prae {/i} ll.63, 83;{i} prō {/i} ll.71, 72):"
         },
         {
           "t": "p",
@@ -462,7 +462,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Parum temporis habeō ad opus rūsticum. {/i}(ll.98–99) {i}Imber brevis quem hodiē habuimus frūmentō prōfuit quidem, sed {/i} {i}parum fuit. {/i}(ll.130–131)"
+          "text": "{i}Parum temporis habeō ad opus rūsticum. {/i} (ll.98–99) {i}Imber brevis quem hodiē habuimus frūmentō prōfuit quidem, sed {/i} {i}parum fuit. {/i} (ll.130–131)"
         }
       ],
       "id": "lectio-altera"
@@ -478,7 +478,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Verba cūrandī {/i}(verbs that show an effort to get something done) can be used to give commands as well:"
+          "text": "{i}Verba cūrandī {/i} (verbs that show an effort to get something done) can be used to give commands as well:"
         },
         {
           "t": "table",
@@ -637,21 +637,23 @@ const chapter = {
           "text": "Vergil wrote a four-book didactic epic (see Cap. X) on farming, called the {i}Geōrgica{/i} (Γεωργικά, {i}Concerning Farming{/i}) after his bucolic poems (see Cap. IX) and before his more famous {i}Aenēis{/i} ({i}Aeneid{/i}). In the beginning of Book II, he praises the life of farmers, beginning with (II.458–460): {i}Ō fortūnātōs nimium, sua sī bona nōrint, {/i} {i}agricolās! quibus ipsa procul discordibus armīs {/i} {i}fundit humō facilem uictum iustissima tellūs.{/i}"
         },
         {
-          "t": "p",
-          "text": "{b}Vocabulary{/b}"
+          "t": "h",
+          "text": "Vocabulary"
         },
         {
           "t": "p",
-          "text": "{i}nimium {/i}= {i}nimis{/i} {i}nōrint {/i}= {i}noverint{/i} (condition about which you will learn in {i}Rōma {/i} {i}Aeterna{/i}): “if they would come to know their good fortune” {i}discors {/i}(genitive:{i} discordis{/i}): discordant, harsh {i}fundere{/i}: pour, pour out {i}victus, ūs{/i}: sustenance, nourishment (do not confuse with {i}victum{/i} from {i}vincere{/i})"
+          "text": "{i}nimium {/i} = {i}nimis{/i} {i}nōrint {/i} = {i}noverint{/i} (condition about which you will learn in {i}Rōma {/i} {i}Aeterna{/i}): “if they would come to know their good fortune” {i}discors {/i} (genitive:{i} discordis{/i}): discordant, harsh {i}fundere{/i}: pour, pour out {i}victus, ūs{/i}: sustenance, nourishment (do not confuse with {i}victum{/i} from {i}vincere{/i})"
         },
         {
           "t": "p",
-          "text": "Of course, the situation was not so idyllic for the {i}colōnī{/i}, as we see in this chapter. A {i}colōnus{/i} is a tenant farmer who signs a lease with the landowner (Julius). Sometimes, the tenant farmers paid the owner for the right to farm; sometimes, they remunerated the owner by giving him part of the produce. {i}Colōnī, {/i}as the one in our chapter, can wind up in debt to the farmer and be driven from the farm. This chapter highlights three important aspects of Roman culture: {i}officium{/i} (duty, responsibility: from {i}opus {/i}+ {i}facere{/i}: a labor or duty which one performs), {i}ōtium{/i} (leisure time, freedom from responsibility), and {i}negōtium{/i} (literally: the lack of {i}ōtium{/i}; business, employment). We have already seen the idea of {i}officium {/i}in Cap. XX, when Aemilia declares of her coming baby, (l.83–84): “{i}Māter {/i} {i}ipsa eum cūrāre et alere dēbet—hoc est mātris officium!{/i}” Julius’s inspection of his estate is part of what he sees as his {i}officium{/i} (Cap. XX, l.96–97: {i}Meum officium est pecūniam facere ac magnam familiam alere{/i}). A Roman active in city life (as Julius is with his frequent trips to Rome, Cap. XX) would see his {i}praedium{/i} not only as the backbone of his finances, but also as an opportunity for {i}ōtium{/i}, away from the pressures of city life. At his estate, a {i}paterfamilās{/i} has the {i}ōtium{/i} after lunch to nap, take a stroll, and bathe ({i}prīmum quiēscit, tum ambulat, dēnique lavātur, {/i}ll.1–2). But he also must check his farm. In this he also follows Cato’s advice: When the master has come to the villa, when he has greeted the household god, let him take a tour of the farm on the same day, if he can; if not the same day, then the day after.{{5}} His farm would have been managed by a combination of slaves and tenant farmers, freemen who pay Julius rent (ll.70–73). Julius behaves himself exactly as Columella teaches: he is stern but not unreasonable with his farmhands (although we might consider beating the shepherd less than reasonable). Cato’s advice to greet the household god ({i}larem familiārem salūtāre{/i}) refers to the protective spirit who guarded the place. You read about the {i}lar familiāris{/i} in the notes to Cap. IV."
+          "text": "Of course, the situation was not so idyllic for the {i}colōnī{/i}, as we see in this chapter. A {i}colōnus{/i} is a tenant farmer who signs a lease with the landowner (Julius). Sometimes, the tenant farmers paid the owner for the right to farm; sometimes, they remunerated the owner by giving him part of the produce. {i}Colōnī, {/i} as the one in our chapter, can wind up in debt to the farmer and be driven from the farm. This chapter highlights three important aspects of Roman culture: {i}officium{/i} (duty, responsibility: from {i}opus {/i} + {i}facere{/i}: a labor or duty which one performs), {i}ōtium{/i} (leisure time, freedom from responsibility), and {i}negōtium{/i} (literally: the lack of {i}ōtium{/i}; business, employment). We have already seen the idea of {i}officium {/i} in Cap. XX, when Aemilia declares of her coming baby, (l.83–84): “{i}Māter {/i} {i}ipsa eum cūrāre et alere dēbet—hoc est mātris officium!{/i}” Julius’s inspection of his estate is part of what he sees as his {i}officium{/i} (Cap. XX, l.96–97: {i}Meum officium est pecūniam facere ac magnam familiam alere{/i}). A Roman active in city life (as Julius is with his frequent trips to Rome, Cap. XX) would see his {i}praedium{/i} not only as the backbone of his finances, but also as an opportunity for {i}ōtium{/i}, away from the pressures of city life. At his estate, a {i}paterfamilās{/i} has the {i}ōtium{/i} after lunch to nap, take a stroll, and bathe ({i}prīmum quiēscit, tum ambulat, dēnique lavātur, {/i} ll.1–2). But he also must check his farm. In this he also follows Cato’s advice: When the master has come to the villa, when he has greeted the household god, let him take a tour of the farm on the same day, if he can; if not the same day, then the day after.{{5}} His farm would have been managed by a combination of slaves and tenant farmers, freemen who pay Julius rent (ll.70–73). Julius behaves himself exactly as Columella teaches: he is stern but not unreasonable with his farmhands (although we might consider beating the shepherd less than reasonable). Cato’s advice to greet the household god ({i}larem familiārem salūtāre{/i}) refers to the protective spirit who guarded the place. You read about the {i}lar familiāris{/i} in the notes to Cap. IV."
         }
       ],
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",
@@ -1026,7 +1028,7 @@ const chapter = {
     {
       "group": "Coniūnctiōnēs",
       "latin": "-ve",
-      "english": "or (=vel)"
+      "english": "or (={i}vel{/i})"
     },
     {
       "group": "Praepositiōnēs",

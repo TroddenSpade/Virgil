@@ -95,11 +95,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "By studying the landscape above the chapter, you will learn a great many new Latin nouns. In the words {i}campus, herba, rīvus, umbra, silva,{/i} and {i}caelum{/i}, you see the familiar endings {i}-us, -a{/i}, and {i}-um. {/i}The remaining words, {i}collis, pāstor, {/i} {i}canis, mōns, sōl{/i}, etc., have quite different endings, not only in the nominative, but also in the other cases."
+          "text": "By studying the landscape above the chapter, you will learn a great many new Latin nouns. In the words {i}campus, herba, rīvus, umbra, silva,{/i} and {i}caelum{/i}, you see the familiar endings {i}-us, -a{/i}, and {i}-um. {/i} The remaining words, {i}collis, pāstor, {/i} {i}canis, mōns, sōl{/i}, etc., have quite different endings, not only in the nominative, but also in the other cases."
         },
         {
           "t": "p",
-          "text": "Words {b}declined{/b} (i.e., inflected) in this way are said to belong to the {b}3rd {/b} {b}declension{/b} (Latin {i}dēclīnātiō tertia{/i}), whereas the {b}1st declension{/b} ({i}dēclīnātiō {/i} {i}prīma{/i}) comprises words in {i}-a{/i} (like {i}fēmina{/i}), and the {b}2nd declension{/b} ({i}dēclīnātiō {/i} {i}secunda{/i}) words in {i}-us{/i} and {i}-um{/i} (like {i}servus {/i}and{i} oppidum{/i}). In the Grammatica Latina section of Lingua Latina, you will find examples of these three declensions. Take advantage of this opportunity to review the case-forms of {i}īnsula{/i} (1st declension) and {i}servus{/i} and {i}verbum{/i} (2nd declension), and then study the new 3rd declension (examples: {i}pāstor{/i} and {i}ovis{/i}). The nominative singular of 3rd declension nouns varies. In this chapter, you meet 3rd declension nouns whose {b}nominative{/b} singular have either:"
+          "text": "Words {b}declined{/b} (i.e., inflected) in this way are said to belong to the {b}3rd {/b} {b}declension{/b} (Latin {i}dēclīnātiō tertia{/i}), whereas the {b}1st declension{/b} ({i}dēclīnātiō {/i} {i}prīma{/i}) comprises words in {i}-a{/i} (like {i}fēmina{/i}), and the {b}2nd declension{/b} ({i}dēclīnātiō {/i} {i}secunda{/i}) words in {i}-us{/i} and {i}-um{/i} (like {i}servus {/i} and{i} oppidum{/i}). In the Grammatica Latina section of Lingua Latina, you will find examples of these three declensions. Take advantage of this opportunity to review the case-forms of {i}īnsula{/i} (1st declension) and {i}servus{/i} and {i}verbum{/i} (2nd declension), and then study the new 3rd declension (examples: {i}pāstor{/i} and {i}ovis{/i}). The nominative singular of 3rd declension nouns varies. In this chapter, you meet 3rd declension nouns whose {b}nominative{/b} singular have either:"
         },
         {
           "t": "li",
@@ -132,11 +132,11 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "or end in just -s {i}mōns dēn{/i}s ▷ This final {i}-s{/i} causes changes in the stem, which can be seen in the genitive singular, e.g.: ° When the stem (genitive singular) of{i} mōns {/i}and{i} dēns {/i}ends in {i}-t {/i} {i}(mont|is, dent|is){/i} ° When -s is added to a stem ending in {i}-t, {/i}the{i} -t {/i}drops and the vowel lengthens {i}(mont|s {/i}and{i} dent|s → mōns, dēns){/i}"
+          "text": "or end in just -s {i}mōns dēn{/i}s ▷ This final {i}-s{/i} causes changes in the stem, which can be seen in the genitive singular, e.g.: ° When the stem (genitive singular) of{i} mōns {/i} and{i} dēns {/i} ends in {i}-t {/i} {i}(mont|is, dent|is){/i} ° When -s is added to a stem ending in {i}-t, {/i} the{i} -t {/i} drops and the vowel lengthens {i}(mont|s {/i} and{i} dent|s → mōns, dēns){/i}"
         },
         {
           "t": "p",
-          "text": "We can see from the example of {i}mōns{/i} and {i}dēns{/i} that the nominative of a 3rd declension word might look quite different from the rest of the cases. The {b}endings {/b}of the other cases, however, are regular:"
+          "text": "We can see from the example of {i}mōns{/i} and {i}dēns{/i} that the nominative of a 3rd declension word might look quite different from the rest of the cases. The {b}endings {/b} of the other cases, however, are regular:"
         },
         {
           "t": "li",
@@ -189,7 +189,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Notā Bene: {/i}There are two possible endings to the genitive plural ({i}-um{/i} and-{i}ium{/i}) because there are two different kinds of 3rd declension nouns: {b}consonant-stems{/b} (ending in -{i}um{/i} in the genitive plural) and {b}i-stems{/b} (ending in -{i}ium{/i} in the genitive plural). The two types differ only in the genitive plural."
+          "text": "{i}Notā Bene: {/i} There are two possible endings to the genitive plural ({i}-um{/i} and-{i}ium{/i}) because there are two different kinds of 3rd declension nouns: {b}consonant-stems{/b} (ending in -{i}um{/i} in the genitive plural) and {b}i-stems{/b} (ending in -{i}ium{/i} in the genitive plural). The two types differ only in the genitive plural."
         },
         {
           "t": "p",
@@ -209,7 +209,7 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "m./f. nouns of two syllables ending in -is, -es: ▷ {i}nūbēs, nūbis {/i}(gen.pl: {i}nūbium{/i}) ▷ {i}ovis, ovis{/i} (gen.pl.: {i}ovium{/i}) ▷ {i}canis, canis{/i} is an exception to this rule; the gen.pl. is {i}canum{/i}"
+          "text": "m./f. nouns of two syllables ending in -is, -es: ▷ {i}nūbēs, nūbis {/i} (gen.pl: {i}nūbium{/i}) ▷ {i}ovis, ovis{/i} (gen.pl.: {i}ovium{/i}) ▷ {i}canis, canis{/i} is an exception to this rule; the gen.pl. is {i}canum{/i}"
         },
         {
           "t": "p",
@@ -219,7 +219,7 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "nouns in -ns: ▷ {i}mōns, montis {/i}(gen.pl.: {i}montium{/i}) ▷ {i}dēns, dentis{/i} (gen.pl.: {i}dentium{/i})"
+          "text": "nouns in -ns: ▷ {i}mōns, montis {/i} (gen.pl.: {i}montium{/i}) ▷ {i}dēns, dentis{/i} (gen.pl.: {i}dentium{/i})"
         },
         {
           "t": "p",
@@ -281,7 +281,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Also note the short imperative {i}dūc!{/i} of the consonant-verb {i}dūcit, dūcunt. {/i}The original form, {i}dūce{/i}, is found in early poets."
+          "text": "Also note the short imperative {i}dūc!{/i} of the consonant-verb {i}dūcit, dūcunt. {/i} The original form, {i}dūce{/i}, is found in early poets."
         },
         {
           "t": "table",
@@ -315,7 +315,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Sōl in caelō est suprā campum. {/i}(l.25) {i}Caelum est suprā terram.{/i} (l.26) {i}Sub arbore autem umbra est. {/i}(l.30) {i}Sub arboribus sōl nōn lūcet. {/i}(l.52) {b}Summary of Declension Endings: 1st, 2nd, 3rd {/b}"
+          "text": "{i}Sōl in caelō est suprā campum. {/i} (l.25) {i}Caelum est suprā terram.{/i} (l.26) {i}Sub arbore autem umbra est. {/i} (l.30) {i}Sub arboribus sōl nōn lūcet. {/i} (l.52)"
+        },
+        {
+          "t": "h",
+          "text": "Summary of Declension Endings: 1st, 2nd, 3rd"
         },
         {
           "t": "table",
@@ -449,7 +453,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Oculī lupī in umbrā lūcent ut gemmae et dentēs ut margarītae {/i}(l.72–73)"
+          "text": "{i}Oculī lupī in umbrā lūcent ut gemmae et dentēs ut margarītae {/i} (l.72–73)"
         },
         {
           "t": "h",
@@ -544,15 +548,11 @@ const chapter = {
         {
           "t": "p",
           "text": "The meaning of verbs can be modified or clarified when they are augmented by {b}prefixes{/b}. The final consonant of the prefix sometimes undergoes a sound change because of the initial consonant of the simple verb with which it is joined. So, for example, when {i}ad{/i} and {i}in{/i} enter into compounds with {i}currit{/i} and {i}pōnit,{/i} they change to {i}ac-{/i} and {i}im-{/i}:{i} ac-currit, im-pōnit.{/i} Such a change, which makes one consonant more similar to another ({i}m{/i} is a labial consonant like {i}p{/i}), is called {b}assimilation{/b} (from Latin {i}similis{/i}, “similar,” “like”)."
-        }
-      ],
-      "id": "lectio-altera"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō: Grammatical Terms{/i}"
+        },
         {
           "t": "p",
           "text": "{i}Case (cāsus):{/i} The various forms a noun/adjective/pronoun takes depending"
@@ -562,7 +562,7 @@ const chapter = {
           "text": "on its function in a sentence are called cases. The cases are nominative, accusative, genitive, dative, ablative, and vocative. {i}Declension (dēclīnātiō):{/i} a family of nouns/adjectives is called a declension. You have learned the first three of five declensions of nouns. {i}Decline (dēclīnāre):{/i} When we recite the paradigm of a noun, adjective, or pronoun by giving each of the cases, we are said to decline the word. {i}Temporal conjunction (coniūnctiō temporālis):{/i} a temporal conjunction joins two clauses in a sentence by showing the time relation between them, that is, whether the action in one clause happens before, after, or at the same time as the other. {b}Independent clause:{/b} A group of words with a subject (expressed or implied) and verb expressing a complete thought is called an independent clause (“The shepherd sleeps”). {b}Dependent clause:{/b} A group of words with a subject (expressed or implied) and verb that does not express a complete thought is called a dependent clause (“While the shepherd sleeps…”). {b}Assimilation:{/b} When a prefix is added to a verb, the initial consonant of the verb may cause the final consonant of the prefix to adapt in sound to its neighbor; that is to say, it undergoes assimilation."
         }
       ],
-      "id": "recensio"
+      "id": "lectio-altera"
     },
     {
       "latin": "Studia Rōmāna",
@@ -581,6 +581,8 @@ const chapter = {
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",

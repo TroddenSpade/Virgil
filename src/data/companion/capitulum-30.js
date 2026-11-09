@@ -99,7 +99,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Ego numquam īnstrūmentō rūsticō ūsus sum. {/i}(l.38) {i}ōtiō fruor{/i} (l.23) {i}Orontēs…vītā rūsticā nōn fruitur{/i} (l.35) {i}cotīdiē bonō vīnō fruor{/i} (l.5{i}9{/i})"
+          "text": "{i}Ego numquam īnstrūmentō rūsticō ūsus sum. {/i} (l.38) {i}ōtiō fruor{/i} (l.23) {i}Orontēs…vītā rūsticā nōn fruitur{/i} (l.35) {i}cotīdiē bonō vīnō fruor{/i} (l.5{i}9{/i})"
         },
         {
           "t": "h",
@@ -111,7 +111,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}cōnstāns -ant{/i}|{i}is {/i}→{i} cōnstanter{/i} (contraction of {i}cōnstantiter{/i}) {i}prūdēns -ent{/i}|{i}is{/i} →{i} prūdenter{/i} {i}dīligēns -ent{/i}|{i}is{/i} →{i} dīligenter{/i} {i}patiēns -entis{/i} →{i} patienter {/i}"
+          "text": "{i}cōnstāns -ant{/i}|{i}is {/i} →{i} cōnstanter{/i} (contraction of {i}cōnstantiter{/i}) {i}prūdēns -ent{/i}|{i}is{/i} →{i} prūdenter{/i} {i}dīligēns -ent{/i}|{i}is{/i} →{i} dīligenter{/i} {i}patiēns -entis{/i} →{i} patienter {/i}"
         },
         {
           "t": "p",
@@ -119,7 +119,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}dīligenter cūrō ut colōnī agrōs meōs bene colant. {/i}(ll.33–34) {i}Prūdenter facis.{/i} (l.35) {i}Patienter exspectā, dum servī lectōs sternunt.{/i} (l.82; cf. Cap. XXXIII, l.120)"
+          "text": "{i}dīligenter cūrō ut colōnī agrōs meōs bene colant. {/i} (ll.33–34) {i}Prūdenter facis.{/i} (l.35) {i}Patienter exspectā, dum servī lectōs sternunt.{/i} (l.82; cf. Cap. XXXIII, l.120)"
         }
       ],
       "id": "lectio-prima"
@@ -145,7 +145,8 @@ const chapter = {
               "Dinner guests usually recline"
             ],
             [
-              "{i}bīnī aut ternī convīvae accubāre {/i} on individual couches in ones"
+              "{i}bīnī aut ternī convīvae accubāre {/i}",
+              "on individual couches in ones"
             ],
             [
               "{i}solent{/i}.",
@@ -181,7 +182,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "To indicate that an action will not be completed until some point in the future, the {b}future{/b} {b}perfect{/b} is used (Latin {i}futūrum perfectum{/i}){i}, {/i}e.g.:"
+          "text": "To indicate that an action will not be completed until some point in the future, the {b}future{/b} {b}perfect{/b} is used (Latin {i}futūrum perfectum{/i}){i}, {/i} e.g.:"
         },
         {
           "t": "p",
@@ -306,7 +307,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Wine was not often drunk undiluted ({i}merum{/i}); it was customary to mix ({i}miscēre{/i}) one’s wine with water. The verb {i}miscēre {/i}(to mix) can be completed by an accusative and ablative or dative and accusative. The Latin expression is either:"
+          "text": "Wine was not often drunk undiluted ({i}merum{/i}); it was customary to mix ({i}miscēre{/i}) one’s wine with water. The verb {i}miscēre {/i} (to mix) can be completed by an accusative and ablative or dative and accusative. The Latin expression is either:"
         },
         {
           "t": "p",
@@ -316,7 +317,7 @@ const chapter = {
           "t": "table",
           "rows": [
             [
-              "{i}vīnum aquā {/i}({i}cum aquā{/i}){i} miscēre{/i}",
+              "{i}vīnum aquā {/i} ({i}cum aquā{/i}){i} miscēre{/i}",
               "mix wine with water (l.115)"
             ]
           ]
@@ -354,15 +355,11 @@ const chapter = {
         {
           "t": "p",
           "text": "(l.109–110)"
-        }
-      ],
-      "id": "lectio-tertia"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+        },
+        {
+          "t": "h",
+          "text": "Recēnsiō: Cum"
+        },
         {
           "t": "p",
           "text": "{i}Cum referring to the future: Indicative{/i}"
@@ -404,7 +401,7 @@ const chapter = {
           "text": "{i}Gubernātor, cum omnēs attentōs videat, hanc fābulam nārrat.{/i} (Cap. XXIX, ll.76–77) {i}Ibi homō territus, cum iam vītam dēspērāret, id ūnum ōrāvit ut sibi {/i} {i}licēret vestem ōrnātam induere et fidēs capere et ante mortem carmen {/i} {i}canere.{/i} (Cap. XXIX, ll.187–188) {i}Ānulum abiēcit, cum sēsē nimis fēlīcem esse cēnsēret.{/i} (Cap. XXIX, ll.156–157) {i}Polycratēs, cum ānulum suum recognōsceret, māximā laetitiā affectus {/i} {i}est{/i}. (Cap. XXIX, ll.171–172) {i}Midās enim, quamquam terram, lignum, ferrum manū tangendō {/i} {i}in aurum mūtāre poterat, fame et sitī moriēbātur, cum cibus quoque {/i} {i}et pōtiō, simul atque ā rēge tācta erat, aurum fieret{/i}. (Cap. XXXI, ll.38–42) {i}Opus nōn est vetus exemplum Graecum afferre, cum complūres fābulae {/i} {i}nārrentur puerīs quī ita servātī sunt{/i}. (Cap. XXXI, ll.154–156)"
         }
       ],
-      "id": "recensio"
+      "id": "lectio-tertia"
     },
     {
       "latin": "Studia Rōmāna",
@@ -417,12 +414,14 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Introduced from Greece via Greek Southern Italy, baths were an important feature of Roman life. Private baths in the home are called {i}balneum,{/i}{{2}} (in the republican period, they were also called {i}lavātrīna{/i}, shortened to {i}lātrīna{/i}). There were also public baths (mostly privately owned) called {i}balneae{/i} and, in the imperial period, enormous public baths called {i}thermae{/i}. The Augustan period architect Vitruvius tells us the various rooms for a bath, although archaeological remains show a great deal of variation: the hot room ({i}caldārium, {/i}also spelled {i}calidārium{/i}), the warm room ({i}tepidārium{/i}), the sweating room ({i}sūdātōrium, {/i} {i}lacōnicum{/i}), a room with a cold bath ({i}frīgidārium{/i}), as well as a changing room ({i}apodȳtērium{/i}). The natural starting place is the {i}apodȳtērium{/i}; from there, one visited rooms of increasing warmth and finished in the {i}frīgidārium.{/i} While baths were ideally placed in a part of the house that would receive the most warmth, they were also kept warm by the use of hypocausts ({i}hypocaustum{/i}): flooring raised on short brick pillars through which the heat of an external furnace could flow. Julius entertains his friend Cornelius (familiar to you from Cap. VI) and his wife Fabia, along with Orontes and his wife Paula. Orontes, a freedman ({i}lībertīnus{/i}), is reminiscent of the freedmen at Trimalchio’s dinner party in the first century AD novel written by Petronius, {i}Satyricon,{/i} and of various Greek freedmen in the satires of Juvenal (first–second century AD). Orontes exhibits the stereotypes of literature and illustrates Roman ambivalence toward the Greeks. The {i}triclinium{/i} consists of three couches that can hold three diners each. The diners would recline facing a central communal table. Wealthy houses might have more than one {i}triclinium{/i}. Generally, the way the mosaic floors and (often elaborate) wall paintings are arranged identifies a room as a {i}triclinium{/i} and shows where the couches and table were set up. Of the three couches shown in the photo at the beginning of the chapter, the slave is kneeling on what is called the {i}lectus īmus{/i}, or lowest couch (the order of the couches is shown in the illustration in the margin). This is usually the couch where the host sits, although in our chapter, Julius and Aemilia are sitting on the middle couch, the {i}lectus medius{/i}, usually reserved for the guest of honor. The host would sit in the highest position (always on the right side of the couch as you face it) on the {i}lectus īmus{/i} (called {i}summus in īmō{/i}), and the guest of honor would sit on the lowest position (to the far left of the couch) on the {i}lectus medius {/i}(called {i}īmus in {/i} {i}mediō{/i})—that is, next to the host. The {i}cēna{/i} (lines 100–103) consists of the three courses described in Cap. XXIV, beginning with eggs for the appetizer ({i}gustātiō{/i}), moving on to fish and pork for the {i}cēna{/i} proper, and ending with nuts and fruit for the {i}secundae mēnsae{/i}. The poet Horace describes a full dinner as {i}ab ōvō ad māla{/i} ({i}Sat{/i}. 1.3.6)—so Julius’s dinner is typical (as you will see in the next chapter, ll.185– 186:{i} Nōnne tē pudet ita ab ōvō ūsque ad māla fābulārī{/i}?). Wine was an important component of the {i}cēna{/i} and indeed of Roman culture. There were inexpensive everyday wines and aged, expensive wines that Pliny in his {i}Historia {/i} {i}Nātūrālis{/i} calls {i}vīnum nōbile{/i}. Pliny would agree with Julius that {i}Falernum…{/i} {i}vīnum Italiae optimum habētur{/i} (l.123). Pliny writes, {i}Nec ūllī nunc vīnō māior {/i} {i}auctōritās; sōlō vīnōrum flamma accenditur{/i} (14.8.62) “no wine today has a greater reputation; a flame can be kindled from it alone.” That is, Falernian wine was the only one with a high enough alcohol content to be flammable. The next best wines, according to Pliny, come from the area around Julius’s farm, the Alban region close to Rome. Cornelius (ll.126–127) is clearly being polite in preferring Julius’s Alban wine to Falernum."
+          "text": "Introduced from Greece via Greek Southern Italy, baths were an important feature of Roman life. Private baths in the home are called {i}balneum,{/i}{{2}} (in the republican period, they were also called {i}lavātrīna{/i}, shortened to {i}lātrīna{/i}). There were also public baths (mostly privately owned) called {i}balneae{/i} and, in the imperial period, enormous public baths called {i}thermae{/i}. The Augustan period architect Vitruvius tells us the various rooms for a bath, although archaeological remains show a great deal of variation: the hot room ({i}caldārium, {/i} also spelled {i}calidārium{/i}), the warm room ({i}tepidārium{/i}), the sweating room ({i}sūdātōrium, {/i} {i}lacōnicum{/i}), a room with a cold bath ({i}frīgidārium{/i}), as well as a changing room ({i}apodȳtērium{/i}). The natural starting place is the {i}apodȳtērium{/i}; from there, one visited rooms of increasing warmth and finished in the {i}frīgidārium.{/i} While baths were ideally placed in a part of the house that would receive the most warmth, they were also kept warm by the use of hypocausts ({i}hypocaustum{/i}): flooring raised on short brick pillars through which the heat of an external furnace could flow. Julius entertains his friend Cornelius (familiar to you from Cap. VI) and his wife Fabia, along with Orontes and his wife Paula. Orontes, a freedman ({i}lībertīnus{/i}), is reminiscent of the freedmen at Trimalchio’s dinner party in the first century AD novel written by Petronius, {i}Satyricon,{/i} and of various Greek freedmen in the satires of Juvenal (first–second century AD). Orontes exhibits the stereotypes of literature and illustrates Roman ambivalence toward the Greeks. The {i}triclinium{/i} consists of three couches that can hold three diners each. The diners would recline facing a central communal table. Wealthy houses might have more than one {i}triclinium{/i}. Generally, the way the mosaic floors and (often elaborate) wall paintings are arranged identifies a room as a {i}triclinium{/i} and shows where the couches and table were set up. Of the three couches shown in the photo at the beginning of the chapter, the slave is kneeling on what is called the {i}lectus īmus{/i}, or lowest couch (the order of the couches is shown in the illustration in the margin). This is usually the couch where the host sits, although in our chapter, Julius and Aemilia are sitting on the middle couch, the {i}lectus medius{/i}, usually reserved for the guest of honor. The host would sit in the highest position (always on the right side of the couch as you face it) on the {i}lectus īmus{/i} (called {i}summus in īmō{/i}), and the guest of honor would sit on the lowest position (to the far left of the couch) on the {i}lectus medius {/i} (called {i}īmus in {/i} {i}mediō{/i})—that is, next to the host. The {i}cēna{/i} (lines 100–103) consists of the three courses described in Cap. XXIV, beginning with eggs for the appetizer ({i}gustātiō{/i}), moving on to fish and pork for the {i}cēna{/i} proper, and ending with nuts and fruit for the {i}secundae mēnsae{/i}. The poet Horace describes a full dinner as {i}ab ōvō ad māla{/i} ({i}Sat{/i}. 1.3.6)—so Julius’s dinner is typical (as you will see in the next chapter, ll.185– 186:{i} Nōnne tē pudet ita ab ōvō ūsque ad māla fābulārī{/i}?). Wine was an important component of the {i}cēna{/i} and indeed of Roman culture. There were inexpensive everyday wines and aged, expensive wines that Pliny in his {i}Historia {/i} {i}Nātūrālis{/i} calls {i}vīnum nōbile{/i}. Pliny would agree with Julius that {i}Falernum…{/i} {i}vīnum Italiae optimum habētur{/i} (l.123). Pliny writes, {i}Nec ūllī nunc vīnō māior {/i} {i}auctōritās; sōlō vīnōrum flamma accenditur{/i} (14.8.62) “no wine today has a greater reputation; a flame can be kindled from it alone.” That is, Falernian wine was the only one with a high enough alcohol content to be flammable. The next best wines, according to Pliny, come from the area around Julius’s farm, the Alban region close to Rome. Cornelius (ll.126–127) is clearly being polite in preferring Julius’s Alban wine to Falernum."
         }
       ],
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",
@@ -591,13 +590,8 @@ const chapter = {
     },
     {
       "group": "‑ēre (2)",
-      "latin": "(placeō) placēre, placuisse,",
+      "latin": "(placeō) placēre, placuisse,  placitum ({i}intr. + dat.{/i})",
       "english": "please"
-    },
-    {
-      "group": "‑ēre (2)",
-      "latin": "placitum",
-      "english": "({i}intr. + dat.{/i})"
     },
     {
       "group": "‑ēre (2)",
@@ -666,13 +660,18 @@ const chapter = {
     },
     {
       "group": "Irregular",
-      "latin": "(praesum) praeesse, praefuisse (intr. + dat.)",
+      "latin": "(praesum) praeesse, praefuisse ({i}intr. + dat{/i}.)",
       "english": "be in charge over"
     },
     {
       "group": "Irregular",
-      "latin": "(perferō) perferre, pertulisse, perlātum prōlātum",
-      "english": "carry through (prōferō) prōferre, prōtulisse, bring forward"
+      "latin": "(perferō) perferre, pertulisse, perlātum",
+      "english": "carry through"
+    },
+    {
+      "group": "Irregular",
+      "latin": "(prōferō) prōferre, prōtulisse, prōlātum",
+      "english": "bring forward"
     },
     {
       "group": "1st/2nd (‑us/er, ‑a, ‑um)",

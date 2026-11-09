@@ -95,7 +95,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Several of the new words in this chapter are verbs. A verb (Latin {i}verbum{/i}) is a word that expresses an action or a state: that someone does something or that something exists or takes place. The first Latin verb you come across is {i}cantat{/i} in the opening sentence: {i}Iūlia cantat.{/i} Other verbs are {i}pulsat, plōrat, rīdet, {/i} {i}videt, vocat, venit{/i}, etc. They all end in {i}-t{/i}—like {i}est,{/i} which is also a verb—and mostly come at the end of the sentence. {b}Verbs{/b}"
+          "text": "Several of the new words in this chapter are verbs. A verb (Latin {i}verbum{/i}) is a word that expresses an action or a state: that someone does something or that something exists or takes place. The first Latin verb you come across is {i}cantat{/i} in the opening sentence: {i}Iūlia cantat.{/i} Other verbs are {i}pulsat, plōrat, rīdet, {/i} {i}videt, vocat, venit{/i}, etc. They all end in {i}-t{/i}—like {i}est,{/i} which is also a verb—and mostly come at the end of the sentence."
+        },
+        {
+          "t": "h",
+          "text": "Verbs"
         },
         {
           "t": "table",
@@ -130,18 +134,18 @@ const chapter = {
           "t": "table",
           "rows": [
             [
-              "{i}Iūlia plōrat. {/i}(l.9)",
-              "{i}Aemilia venit. {/i}(l.21)"
+              "{i}Iūlia plōrat. {/i} (l.9)",
+              "{i}Aemilia venit. {/i} (l.21)"
             ],
             [
-              "{i}Mārcus rīdet. {/i}(l.10)",
-              "{i}Pater dormit. {/i}(l.37)"
+              "{i}Mārcus rīdet. {/i} (l.10)",
+              "{i}Pater dormit. {/i} (l.37)"
             ]
           ]
         },
         {
           "t": "p",
-          "text": "But it is not always as simple as this. Take, for instance, the sentence that is illustrated by the little drawing in the margin: {i}Mārcus Iūliam pulsat{/i} (l.8). Here, we are told not only who performs the action, but also at whom the action is aimed. The same pattern is seen in the following sentences, also illustrated by pictures: {i}Quīntus Mārcum videt. {/i}(l.11){i} Mārcus Quīntum pulsat. {/i}(l.14) {i}Quīntus Mārcum pulsat. {/i}(l.13){i} Iūlia Aemiliam vocat. {/i}(l.19) {b}Subject:{/b} The person who performs the action is called the subject of the verb. The subject has the ending -{i}us{/i}, -{i}a {/i}(or -{i}um{/i} for neuter nouns){i};{/i} these forms are called nominative (Latin {i}nōminātīvus{/i}). {b}Object:{/b} The person toward whom (or the object toward which) the action is directed, the object, takes the ending {i}-um{/i} or {i}-am.{/i} The forms {i}-um{/i} and {i}-am{/i} are called accusative (Latin {i}accūsātīvus{/i}). In other words: {i}Iūlia{/i} is changed to {i}Iūliam{/i} when we are told that Marcus hits her, just as {i}Mārcus{/i} becomes {i}Mārcum{/i} when he is the victim. In similar circumstances, {i}puella{/i} changes to {i}puellam,{/i} and {i}puer{/i} to {i}puerum,{/i} and qualifying adjectives get the same ending: {i}Mārcus parvam puellam pulsat. {/i}(l.59) {i}Iūlius puerum improbum verberat. {/i}(l.64) {b}subject object verb{/b} {i}Mārcus Iūliam pulsat{/i}"
+          "text": "But it is not always as simple as this. Take, for instance, the sentence that is illustrated by the little drawing in the margin: {i}Mārcus Iūliam pulsat{/i} (l.8). Here, we are told not only who performs the action, but also at whom the action is aimed. The same pattern is seen in the following sentences, also illustrated by pictures: {i}Quīntus Mārcum videt. {/i} (l.11){i} Mārcus Quīntum pulsat. {/i} (l.14) {i}Quīntus Mārcum pulsat. {/i} (l.13){i} Iūlia Aemiliam vocat. {/i} (l.19) {b}Subject:{/b} The person who performs the action is called the subject of the verb. The subject has the ending -{i}us{/i}, -{i}a {/i} (or -{i}um{/i} for neuter nouns){i};{/i} these forms are called nominative (Latin {i}nōminātīvus{/i}). {b}Object:{/b} The person toward whom (or the object toward which) the action is directed, the object, takes the ending {i}-um{/i} or {i}-am.{/i} The forms {i}-um{/i} and {i}-am{/i} are called accusative (Latin {i}accūsātīvus{/i}). In other words: {i}Iūlia{/i} is changed to {i}Iūliam{/i} when we are told that Marcus hits her, just as {i}Mārcus{/i} becomes {i}Mārcum{/i} when he is the victim. In similar circumstances, {i}puella{/i} changes to {i}puellam,{/i} and {i}puer{/i} to {i}puerum,{/i} and qualifying adjectives get the same ending: {i}Mārcus parvam puellam pulsat. {/i} (l.59) {i}Iūlius puerum improbum verberat. {/i} (l.64) {b}subject object verb{/b} {i}Mārcus Iūliam pulsat{/i}"
         },
         {
           "t": "table",
@@ -190,7 +194,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Notā Bene: {/i}You need to pay attention to whether a word is transitive in Latin—which will not always be the same as its English equivalent!"
+          "text": "{i}Notā Bene: {/i} You need to pay attention to whether a word is transitive in Latin—which will not always be the same as its English equivalent!"
         }
       ],
       "id": "lectio-prima"
@@ -210,7 +214,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Iūlia plōrat quia Mārcus eam pulsat.{/i} (ll.27–28) {i}Cūr Iūlius Quīntum nōn audit? Iūlius eum nōn audit, quia dormit.{/i} (ll.42–43) On page 20, you will notice the marginal note “{i}eam{/i}: {i}Iūliam{/i}” means that here, {i}eam{/i} stands for {i}Iūliam{/i}. A word of this kind, which takes the place of a name or noun, is called a pronoun (Latin {i}prōnōmen,{/i} from {i}prō{/i} “instead of” and {i}nōmen{/i} “name” or “noun”). Corresponding to {i}eum{/i} (him) and {i}eam {/i}(her), the pronoun {i}mē{/i} is used when a person is speaking about himself or herself, and {i}tē{/i} is used about the person spoken to (in English, “me” and “you”): {i}Aemilia{/i}:{i} “Quis mē vocat?” {/i}"
+          "text": "{i}Iūlia plōrat quia Mārcus eam pulsat.{/i} (ll.27–28) {i}Cūr Iūlius Quīntum nōn audit? Iūlius eum nōn audit, quia dormit.{/i} (ll.42–43) On page 20, you will notice the marginal note “{i}eam{/i}: {i}Iūliam{/i}” means that here, {i}eam{/i} stands for {i}Iūliam{/i}. A word of this kind, which takes the place of a name or noun, is called a pronoun (Latin {i}prōnōmen,{/i} from {i}prō{/i} “instead of” and {i}nōmen{/i} “name” or “noun”). Corresponding to {i}eum{/i} (him) and {i}eam {/i} (her), the pronoun {i}mē{/i} is used when a person is speaking about himself or herself, and {i}tē{/i} is used about the person spoken to (in English, “me” and “you”): {i}Aemilia{/i}:{i} “Quis mē vocat?” {/i}"
         },
         {
           "t": "p",
@@ -265,7 +269,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Cūr Iūlia plōrat? Iūlia plōrat, quia Mārcus eam pulsat. {/i}(ll.26–28) {i}Cūr Mārcus Iūliam pulsat? Quia Iūlia cantat.{/i} (ll.30–31)"
+          "text": "{i}Cūr Iūlia plōrat? Iūlia plōrat, quia Mārcus eam pulsat. {/i} (ll.26–28) {i}Cūr Mārcus Iūliam pulsat? Quia Iūlia cantat.{/i} (ll.30–31)"
         },
         {
           "t": "p",
@@ -277,7 +281,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The conjunctions {i}et{/i} and {i}sed{/i} are not usually combined with a negation; instead of {i}et nōn{/i} and {i}sed nōn{/i}, the conjunction {i}neque {/i}({i}ne-que{/i}) is used, i.e., {i}-que{/i} attached to the original negation {i}nē{/i} (= {i}nōn{/i}):"
+          "text": "The conjunctions {i}et{/i} and {i}sed{/i} are not usually combined with a negation; instead of {i}et nōn{/i} and {i}sed nōn{/i}, the conjunction {i}neque {/i} ({i}ne-que{/i}) is used, i.e., {i}-que{/i} attached to the original negation {i}nē{/i} (= {i}nōn{/i}):"
         },
         {
           "t": "table",
@@ -306,15 +310,15 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "In the sentence {i}Puer quī parvam puellam pulsat improbus est{/i} (l.63), {i}quī{/i} refers to {i}puer{/i} and is called a relative pronoun. The relative pronoun connects (“relates”) a subordinate clause to a main clause. The relative pronoun refers to a word in the main clause called an {b}antecedent{/b}. The pronoun will agree with its antecedent in gender and number, but its case will be determined by the subordinate clause. In the preceding example, {i}quī {/i}is masculine singular to agree with its antecedent {i}puer{/i} and nominative because it is the subject of {i}pulsat{/i} in its own clause."
+          "text": "In the sentence {i}Puer quī parvam puellam pulsat improbus est{/i} (l.63), {i}quī{/i} refers to {i}puer{/i} and is called a relative pronoun. The relative pronoun connects (“relates”) a subordinate clause to a main clause. The relative pronoun refers to a word in the main clause called an {b}antecedent{/b}. The pronoun will agree with its antecedent in gender and number, but its case will be determined by the subordinate clause. In the preceding example, {i}quī {/i} is masculine singular to agree with its antecedent {i}puer{/i} and nominative because it is the subject of {i}pulsat{/i} in its own clause."
         },
         {
           "t": "p",
-          "text": "More examples: {i}Puer quī rīdet est Mārcus. {/i}(l.70) {i}Puella quae plōrat est Jūlia.{/i} (l.71) As a relative pronoun {i}quem{/i} is used in the masculine and {i}quam{/i} in the feminine when it represents the verb’s object in its own clause: {i}Puer quem{/i} {i}Aemilia verberat est Mārcus. {/i}(ll.75–76) {i}Puella quam Mārcus pulsat est Iūlia.{/i} (ll.72–73) The examples show that {i}quī{/i} and {i}quem{/i} (m.) refer to a masculine noun, and {i}quae{/i} and {i}quam{/i} (f.) to a feminine noun."
+          "text": "More examples: {i}Puer quī rīdet est Mārcus. {/i} (l.70) {i}Puella quae plōrat est Jūlia.{/i} (l.71) As a relative pronoun {i}quem{/i} is used in the masculine and {i}quam{/i} in the feminine when it represents the verb’s object in its own clause: {i}Puer quem{/i} {i}Aemilia verberat est Mārcus. {/i} (ll.75–76) {i}Puella quam Mārcus pulsat est Iūlia.{/i} (ll.72–73) The examples show that {i}quī{/i} and {i}quem{/i} (m.) refer to a masculine noun, and {i}quae{/i} and {i}quam{/i} (f.) to a feminine noun."
         },
         {
           "t": "p",
-          "text": "In Cap. IV (l.75) you will meet {i}quod{/i}, which refers to a neuter noun: {i}baculum, quod in mēnsā est{/i} At the end of the chapter (p. 23), you find sentences with both the {b}interrogative {/b}and the {b}relative{/b} pronoun, e.g.:{{1}}"
+          "text": "In Cap. IV (l.75) you will meet {i}quod{/i}, which refers to a neuter noun: {i}baculum, quod in mēnsā est{/i} At the end of the chapter (p. 23), you find sentences with both the {b}interrogative {/b} and the {b}relative{/b} pronoun, e.g.:{{1}}"
         },
         {
           "t": "table",
@@ -368,7 +372,7 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "(from Cap. III) Iūlius eum audit. Iam nōn dormit pater. (l.48) {i}Pater, quī eum audit, iam nōn dormit. {/i}Father, who hears him, is no longer sleeping."
+          "text": "(from Cap. III) Iūlius eum audit. Iam nōn dormit pater. (l.48) {i}Pater, quī eum audit, iam nōn dormit. {/i} Father, who hears him, is no longer sleeping."
         },
         {
           "t": "p",
@@ -419,15 +423,11 @@ const chapter = {
               "{i}quem{/i}"
             ]
           ]
-        }
-      ],
-      "id": "lectio-tertia"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō: Qu‑ words{/i}"
+        },
         {
           "t": "table",
           "rows": [
@@ -459,10 +459,10 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "function; each of these alterations is called a “case” (Latin {i}cāsus{/i}). {b}Subject:{/b} The person (or thing) that performs the action of the verb is called the subject, represented in Latin by the nominative case. {b}Object:{/b} The person (or thing) that completes the meaning of the verb is called the direct object, represented in Latin by the accusative case. {b}Conjugation:{/b} The ending of a verb’s stem (-{i}ā, -ē, -ī, -ĭ, {/i}or consonant) determines the group (conjugation) to which it belongs. {b}Transitive:{/b} A verb is transitive if an accusative direct object completes its meaning. {b}Intransitive: {/b}A verb is intransitive if its meaning is complete without an accusative direct object. {b}Implied Subject:{/b} If the subject is not directly stated, but needs to be supplied from the ending of the verb, it is called an implied subject. {b}Pronoun:{/b} A pronoun takes the place of a noun. {b}Lexical Entry:{/b} The way a word is presented in a lexicon (dictionary), for example {i}mamma, -ae{/i}, f. The vocabulary entry for verbs and some other words will change in the first part of this book as you learn more morphology (forms of words). For now, verbs are listed as 3rd person singular. Cap. X adds the present infinitive. The actual lexical entry for verbs begins with the 1st person singular, which you will first meet in Cap. XV."
+          "text": "function; each of these alterations is called a “case” (Latin {i}cāsus{/i}). {b}Subject:{/b} The person (or thing) that performs the action of the verb is called the subject, represented in Latin by the nominative case. {b}Object:{/b} The person (or thing) that completes the meaning of the verb is called the direct object, represented in Latin by the accusative case. {b}Conjugation:{/b} The ending of a verb’s stem (-{i}ā, -ē, -ī, -ĭ, {/i} or consonant) determines the group (conjugation) to which it belongs. {b}Transitive:{/b} A verb is transitive if an accusative direct object completes its meaning. {b}Intransitive: {/b} A verb is intransitive if its meaning is complete without an accusative direct object. {b}Implied Subject:{/b} If the subject is not directly stated, but needs to be supplied from the ending of the verb, it is called an implied subject. {b}Pronoun:{/b} A pronoun takes the place of a noun. {b}Lexical Entry:{/b} The way a word is presented in a lexicon (dictionary), for example {i}mamma, -ae{/i}, f. The vocabulary entry for verbs and some other words will change in the first part of this book as you learn more morphology (forms of words). For now, verbs are listed as 3rd person singular. Cap. X adds the present infinitive. The actual lexical entry for verbs begins with the 1st person singular, which you will first meet in Cap. XV."
         }
       ],
-      "id": "recensio"
+      "id": "lectio-tertia"
     },
     {
       "latin": "Studia Rōmāna",
@@ -471,11 +471,11 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "In the second scene, we see Julius sleeping on a {i}lectus{/i}, a Roman bed. While it looks pretty uncomfortable, such sleeping couches were common in the ancient world (other images on pp. 74, 78, 187). By our standards, Roman furniture could be sparse. The three most common pieces were the table ({i}mēnsa{/i}), chair ({i}sella{/i}), and couch ({i}lectus{/i}). Storage places in the form of cupboards ({i}armārium{/i}) and chests ({i}arca{/i}) were also important. Containers for books (scrolls) went by various names: the {i}capsa {/i}(also in diminutive form: {i}capsula{/i}) was a cylinder that can often be seen at the foot of a statue of one who wants to mark himself as learned. The {i}scrīnium{/i} was a portable chest for holding books and papers. The {i}cista{/i} (also in diminutive form: {i}cistula{/i}) was a woven basket used for holding various things, including books; a particular usage for the {i}cista {/i}was to hold the sacred implements at a religious festival. Oil lamps ({i}lucernae{/i}) were ubiquitous. They could be carried in the hand and placed on a lamp-stand ({i}lychnūchus{/i}, λυχνοῦχος)."
+          "text": "In the second scene, we see Julius sleeping on a {i}lectus{/i}, a Roman bed. While it looks pretty uncomfortable, such sleeping couches were common in the ancient world (other images on pp. 74, 78, 187). By our standards, Roman furniture could be sparse. The three most common pieces were the table ({i}mēnsa{/i}), chair ({i}sella{/i}), and couch ({i}lectus{/i}). Storage places in the form of cupboards ({i}armārium{/i}) and chests ({i}arca{/i}) were also important. Containers for books (scrolls) went by various names: the {i}capsa {/i} (also in diminutive form: {i}capsula{/i}) was a cylinder that can often be seen at the foot of a statue of one who wants to mark himself as learned. The {i}scrīnium{/i} was a portable chest for holding books and papers. The {i}cista{/i} (also in diminutive form: {i}cistula{/i}) was a woven basket used for holding various things, including books; a particular usage for the {i}cista {/i} was to hold the sacred implements at a religious festival. Oil lamps ({i}lucernae{/i}) were ubiquitous. They could be carried in the hand and placed on a lamp-stand ({i}lychnūchus{/i}, λυχνοῦχος)."
         },
         {
           "t": "p",
-          "text": "Furniture—especially tables, of which the Romans were particularly fond—could be a sign of wealth. The beginning of Cap. IV (p. 26) shows Julius sitting at a table that rests on ornately carved legs. Pliny the Elder (first century AD) writes about the Roman mania for tables ({i}mēnsārum insānia{/i}) made of citrus (cedar) wood ({i}arbor cītrī{/i}, {i}Historia Nātūrālis{/i}, 13.29); elsewhere, he writes of table legs being made of ivory (12.3). You will see at the end of our story that Julius can afford to adorn his dining room with expensive linens for the dining couches (Cap. XXX). Romans sometimes brought their own napkin ({i}mappa{/i}) or hand towel ({i}mantēle{/i}) to dinner parties. Catullus (first century BC) complained in the first century BC that someone stole a napkin from him while dining out, which was both expensive and a gift from a friend (Poem 12). The complaint continues to the time period of our narrative. Martial (first century AD) writes about a recent diner, “No one had brought his napkin ({i}mappa{/i}) since thefts were feared: Hermogenes stole the cloth ({i}mantēle{/i}) from the table” (Book 12.28: {i}attulerat mappam nēmō, dum fūrta timentur: {/i}/{i} mantēle ā mēnsā {/i} {i}surpuit Hermogenes{/i}). Julius sits on a low stool (p. 22: {i}scamnum{/i}), but the Romans had a variety of chairs ({i}sellae{/i})—including the high-backed chairs that we see in Cap. XIV (p. 110). In the third scene, as father punishes his son, the sound is represented by {i}tuxtax{/i} (ll.64, 65), a word meant to imitate the sound of being beaten. Corporal punishment for children was common. Some other colorful Latin expressions:"
+          "text": "Furniture—especially tables, of which the Romans were particularly fond—could be a sign of wealth. The beginning of Cap. IV (p. 26) shows Julius sitting at a table that rests on ornately carved legs. Pliny the Elder (first century AD) writes about the Roman mania for tables ({i}mēnsārum insānia{/i}) made of citrus (cedar) wood ({i}arbor cītrī{/i}, {i}Historia Nātūrālis{/i}, 13.29); elsewhere, he writes of table legs being made of ivory (12.3). You will see at the end of our story that Julius can afford to adorn his dining room with expensive linens for the dining couches (Cap. XXX). Romans sometimes brought their own napkin ({i}mappa{/i}) or hand towel ({i}mantēle{/i}) to dinner parties. Catullus (first century BC) complained in the first century BC that someone stole a napkin from him while dining out, which was both expensive and a gift from a friend (Poem 12). The complaint continues to the time period of our narrative. Martial (first century AD) writes about a recent diner, “No one had brought his napkin ({i}mappa{/i}) since thefts were feared: Hermogenes stole the cloth ({i}mantēle{/i}) from the table” (Book 12.28: {i}attulerat mappam nēmō, dum fūrta timentur: {/i} /{i} mantēle ā mēnsā {/i} {i}surpuit Hermogenes{/i}). Julius sits on a low stool (p. 22: {i}scamnum{/i}), but the Romans had a variety of chairs ({i}sellae{/i})—including the high-backed chairs that we see in Cap. XIV (p. 110). In the third scene, as father punishes his son, the sound is represented by {i}tuxtax{/i} (ll.64, 65), a word meant to imitate the sound of being beaten. Corporal punishment for children was common. Some other colorful Latin expressions:"
         },
         {
           "t": "li",
@@ -509,6 +509,8 @@ const chapter = {
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",
@@ -691,7 +693,12 @@ const chapter = {
       "english": "oh!"
     }
   ],
-  "notes": []
+  "notes": [
+    {
+      "n": 1,
+      "text": "See the explanation (p. xv) of when—and why—sentences will be translated."
+    }
+  ]
 }
 
 export default chapter

@@ -48,7 +48,7 @@ const chapter = {
               "depth": 1
             },
             {
-              "text": "c. pudēre (impersonal)",
+              "text": "c. pudēre  (impersonal)",
               "depth": 1
             },
             {
@@ -77,10 +77,14 @@ const chapter = {
       "id": "topic"
     },
     {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
+      "latin": "Lēctiō Prīma",
+      "english": "Section I",
+      "kind": "commentary",
       "blocks": [
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō: Participles (Sections I and II){/i}"
+        },
         {
           "t": "p",
           "text": "The first two readings in this chapter offer a good review of the participles and infinitives you have learned thus far:"
@@ -137,10 +141,10 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Ecce epistula quam illinc ad tē tulit. {/i}(ll.3–4) {i}Tantum sciō epistulam Tūsculō missam et ā tabellāriō ad tē lātam esse. {/i} (ll.8–9)"
+          "text": "{i}Ecce epistula quam illinc ad tē tulit. {/i} (ll.3–4) {i}Tantum sciō epistulam Tūsculō missam et ā tabellāriō ad tē lātam esse. {/i} (ll.8–9)"
         }
       ],
-      "id": "recensio"
+      "id": "lectio-prima"
     },
     {
       "latin": "Lēctiō Altera",
@@ -218,7 +222,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Julius has to answer the letter. So, after putting Marcus in his place, he says, {i}“Iam epistulam scrīptūrus sum.” {/i}(l.125) He could have said, {i}“Iam epistulam {/i} {i}scrībam,”{/i} using the ordinary future tense of {i}scrībere{/i} ({i}scrībam{/i}), for {i}scrīptūrus {/i} {i}sum{/i} is merely an extended form (or periphrasis{{2}}) of the future, which serves to express what someone intends to do or is on the point of doing; it is composed of the present of {i}esse{/i} and {i}scrīptūrus,{/i} which is the {b}future participle{/b} (Latin {i}participium futūrī{/i}) of {i}scrībere.{/i}"
+          "text": "Julius has to answer the letter. So, after putting Marcus in his place, he says, {i}“Iam epistulam scrīptūrus sum.” {/i} (l.125) He could have said, {i}“Iam epistulam {/i} {i}scrībam,”{/i} using the ordinary future tense of {i}scrībere{/i} ({i}scrībam{/i}), for {i}scrīptūrus {/i} {i}sum{/i} is merely an extended form (or periphrasis{{2}}) of the future, which serves to express what someone intends to do or is on the point of doing; it is composed of the present of {i}esse{/i} and {i}scrīptūrus,{/i} which is the {b}future participle{/b} (Latin {i}participium futūrī{/i}) of {i}scrībere.{/i}"
         },
         {
           "t": "p",
@@ -228,7 +232,7 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "is formed by adding ≈ūr|us, -a, -um to the participle/supine stem, e.g.: {i}pugnāt{/i}|{i}ūr{/i}|{i}us {/i}from {i}pugnāre{/i} {i}pārit{/i}|{i}ūr{/i}|{i}us {/i}from {i}pārēre{/i} {i}dormīt{/i}|{i}ūr{/i}|{i}us {/i}from{i} dormīre{/i}"
+          "text": "is formed by adding ≈ūr|us, -a, -um to the participle/supine stem, e.g.: {i}pugnāt{/i}|{i}ūr{/i}|{i}us {/i} from {i}pugnāre{/i} {i}pārit{/i}|{i}ūr{/i}|{i}us {/i} from {i}pārēre{/i} {i}dormīt{/i}|{i}ūr{/i}|{i}us {/i} from{i} dormīre{/i}"
         },
         {
           "t": "li",
@@ -314,7 +318,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}“Epistulam scrīptūrus sum.”{/i} (l.125) {i}Iūlius dīcit, “sē epistulam scrīptūrum esse.” {/i}(ll.125–126)"
+          "text": "{i}“Epistulam scrīptūrus sum.”{/i} (l.125) {i}Iūlius dīcit, “sē epistulam scrīptūrum esse.” {/i} (ll.125–126)"
         },
         {
           "t": "p",
@@ -391,7 +395,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The {b}future passive infinitive{/b} is comprised of the supine and the present passive infinitive to the verb to go ({i}īrī{/i}). This form never changes: it is always the supine + {i}īrī. {/i}For example:"
+          "text": "The {b}future passive infinitive{/b} is comprised of the supine and the present passive infinitive to the verb to go ({i}īrī{/i}). This form never changes: it is always the supine + {i}īrī. {/i} For example:"
         },
         {
           "t": "table",
@@ -420,11 +424,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Notā Bene: {/i}The supine does not change, regardless of the subject:"
+          "text": "{i}Notā Bene: {/i} The supine does not change, regardless of the subject:"
         },
         {
           "t": "p",
-          "text": "{i}Dīc eī, “respōnsum meum crās ā Mārcō trāditum īrī.” {/i}(ll.132–133) {i}Dīc eī, “epistulam meam crās ā Mārcō trāditum īrī.” {/i}"
+          "text": "{i}Dīc eī, “respōnsum meum crās ā Mārcō trāditum īrī.” {/i} (ll.132–133) {i}Dīc eī, “epistulam meam crās ā Mārcō trāditum īrī.” {/i}"
         },
         {
           "t": "h",
@@ -473,15 +477,11 @@ const chapter = {
           "marker": "•",
           "ordered": false,
           "text": "is relatively rare in Latin"
-        }
-      ],
-      "id": "lectio-tertia"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō: Summary of Infinitives and Participles{/i}"
+        },
         {
           "t": "p",
           "text": "Now you have all the infinitives:"
@@ -650,13 +650,13 @@ const chapter = {
           "rows": [
             [
               "Past",
-              "See {i}notā bene, {/i}note 1 below -{i}tus, -ta, -tum{/i}"
+              "See {i}notā bene, {/i} note 1 below -{i}tus, -ta, -tum{/i}"
             ]
           ]
         },
         {
           "t": "p",
-          "text": "See {i}notā bene, {/i}note 2 below"
+          "text": "See {i}notā bene, {/i} note 2 below"
         },
         {
           "t": "table",
@@ -685,7 +685,7 @@ const chapter = {
           "t": "li",
           "marker": "2.",
           "ordered": true,
-          "text": "The -tus, -ta, -tum of the perfect passive participle can undergo changes in verbs that end in certain consonants. For example, the verb {i}claudere{/i} has {i}clausus, -a, -um{/i}, which comes from {i}claudtus, -a, {/i} {i}-um{/i}"
+          "text": "The -tus, -ta, -tum  of the perfect passive participle can undergo changes in verbs that end in certain consonants. For example, the verb {i}claudere{/i} has {i}clausus, -a, -um{/i}, which comes from {i}claudtus, -a, {/i} {i}-um{/i}"
         },
         {
           "t": "h",
@@ -693,7 +693,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The present participle of {i}īre{/i} looks regular enough: {i}i{/i}|{i}ēns,{/i} but the declension is irregular: acc. {i}eunt{/i}|{i}em,{/i} gen. {i}eunt{/i}|{i}is,{/i} etc. So also compounds, e.g., {i}red-īre,{/i} part. {i}red-iēns, -eunt{/i}|{i}is.{/i} Examples in ll.106–107. {b}Present Participle {/b}"
+          "text": "The present participle of {i}īre{/i} looks regular enough: {i}i{/i}|{i}ēns,{/i} but the declension is irregular: acc. {i}eunt{/i}|{i}em,{/i} gen. {i}eunt{/i}|{i}is,{/i} etc. So also compounds, e.g., {i}red-īre,{/i} part. {i}red-iēns, -eunt{/i}|{i}is.{/i} Examples in ll.106–107."
+        },
+        {
+          "t": "h",
+          "text": "Present Participle"
         },
         {
           "t": "table",
@@ -759,15 +763,11 @@ const chapter = {
               "{i}euntibus{/i}"
             ]
           ]
-        }
-      ],
-      "id": "recensio-2"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō: Forms of the Perfect Stem{/i}"
+        },
         {
           "t": "p",
           "text": "In Cap. XXI, you learned that in addition to adding {i}u{/i}/{i}v{/i} to the stem (with or without the stem vowel: {i}amāvisse{/i}/{i}habuisse{/i}), or {i}s{/i} (e.g., {i}dīcere, dīxisse < dīcsisse{/i}), perfects are formed from the root of the verb or from the reduplicated root."
@@ -790,7 +790,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{b}Reduplicated Perfects: {/b}A perfect stem is called reduplicated when it repeats the initial consonant of the verb, as in the verb {i}dare{/i}. {i}Dare{/i} is an unusual looking verb because the stem is basically {i}d{/i}. In the perfect tense, the stem repeats the {i}d{/i}, separated from the original {i}d{/i} of the root by another vowel ({i}d {/i}+ {i}e {/i}+ {i}d{/i}) and adds the endings: {i}dare dedisse{/i}. {i}Trā-dere{/i} (= {i}trāns + dare{/i}) and {i}per-dere{/i} (= {i}per{/i} + {i}dare{/i}) are compounds of {i}dare,{/i} which explains the perfect {i}trā-didisse{/i} and {i}per-didisse{/i}. {i}perdere, perdidī, perditum {/i} {i}trādere, trādidī, trāditum{/i}"
+          "text": "{b}Reduplicated Perfects: {/b} A perfect stem is called reduplicated when it repeats the initial consonant of the verb, as in the verb {i}dare{/i}. {i}Dare{/i} is an unusual looking verb because the stem is basically {i}d{/i}. In the perfect tense, the stem repeats the {i}d{/i}, separated from the original {i}d{/i} of the root by another vowel ({i}d {/i} + {i}e {/i} + {i}d{/i}) and adds the endings: {i}dare dedisse{/i}. {i}Trā-dere{/i} (= {i}trāns + dare{/i}) and {i}per-dere{/i} (= {i}per{/i} + {i}dare{/i}) are compounds of {i}dare,{/i} which explains the perfect {i}trā-didisse{/i} and {i}per-didisse{/i}. {i}perdere, perdidī, perditum {/i} {i}trādere, trādidī, trāditum{/i}"
         },
         {
           "t": "h",
@@ -803,15 +803,11 @@ const chapter = {
         {
           "t": "p",
           "text": "({i}afferō{/i} < {i}ad + ferō{/i}) {i}afferre, attulisse, allātum{/i} ({i}dēbeō{/i}) {i}dēbēre, dēbuisse, dēbitum{/i} ({i}dūcō{/i}) {i}dūcere, dūxisse, ductum{/i} ({i}faciō{/i}) {i}facere, fēcisse, factum{/i} ({i}ferō{/i}) {i}ferre, tulisse, lātum{/i} ({i}fugiō{/i}) {i}fugere, fūgisse{/i} ({i}inclūdō{/i} < {i}in + claudō{/i}) {i}inclūdere, inclūsisse, inclūsum{/i} ({i}legō{/i}) {i}legere, lēgisse, lēctum{/i} ({i}mereō{/i}) {i}merēre, meruisse, meritum{/i} ({i}mittō{/i}) {i}mittere, mīsisse, missum{/i} ({i}ostendō{/i}) {i}ostendere, ostendisse{/i} ({i}perdō{/i}) {i}perdere, perdidisse, perditum{/i} ({i}trādō{/i}) {i}trādere, trādidisse, trāditum{/i}"
-        }
-      ],
-      "id": "recensio-3"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō: Impersonal Verbs{/i}"
+        },
         {
           "t": "table",
           "rows": [
@@ -838,7 +834,7 @@ const chapter = {
           ]
         }
       ],
-      "id": "recensio-4"
+      "id": "lectio-tertia"
     },
     {
       "latin": "Studia Rōmāna",
@@ -863,7 +859,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The younger Seneca (55 BC–AD 39), in a letter (14) to his young friend Lucilius, wrote, “Our ancestors had a custom, preserved up to my time, to add these words to the beginning of a letter: {i}‘sī valēs bene est, ego valeō,’{/i} We say— correctly—‘{i}si philosophāris, bene est.{/i}’ For this is precisely what it means to be well”{{3}} ({i}philosophārī{/i}: to apply oneself to philosophy). Diodorus’s closing, {i}Scrībēbam Tusculī kalendīs lūniīs, {/i}demonstrates another common letter convention, giving the place and date of composition. Diodorus uses the imperfect because he is writing from the perspective of the reader. This is called the epistolary imperfect. When Julius is handed the letter, he immediately recognizes Diodorus’s seal ({i}obsignāre{/i}: seal a letter). Both tablets and papyrus scolls could be sealed; the seal not only identified the sender, but kept the letter private. During the tumultuous late republic, Cicero joked in a letter that he was afraid to write of political matters lest the papyrus itself betray him ({i}Ad Att.{/i} 2.20): “I will write to you briefly about affairs of state; for at this point, I’m anxious that the very paper I write on might betray us. And so, in the future, if I have more that I must write about, I will conceal it with allegories.”{{4}} Cicero often wrote his letters to his friends himself, without the services of his secretary. On one occasion, he explained to Atticus that the different handwriting was a clear sign of how busy he was: he had his {i}librārius {/i}write the letter while he dictated ({i}Ad Att.{/i} 4.16: {i}Occupātiōnum meārum vel hoc signum {/i} {i}erit quod epistula librārī manū est{/i}). On another occasion, he reveals the mystery of the nearly illegible handwriting in a letter he had written to his brother Quintus ({i}Ad Quīntum Fratrem{/i}, 2.15): “No, I wasn’t busy, upset or angry—just careless. It’s my habit to assume that whatever pen I pick up is a good one.” He opens the letter with a nice representation of what one did to prepare to write a letter. His reed pen ({i}calamō{/i}) and ink ({i}ātrāmentō{/i}) were prepared ({i}temperātō{/i}— this time, he bothered to check the point of the pen!), and the papyrus had been smoothed with a file made of a tooth ({i}chartā dentātā{/i}):"
+          "text": "The younger Seneca (55 BC–AD 39), in a letter (14) to his young friend Lucilius, wrote, “Our ancestors had a custom, preserved up to my time, to add these words to the beginning of a letter: {i}‘sī valēs bene est, ego valeō,’{/i} We say— correctly—‘{i}si philosophāris, bene est.{/i}’ For this is precisely what it means to be well”{{3}} ({i}philosophārī{/i}: to apply oneself to philosophy). Diodorus’s closing, {i}Scrībēbam Tusculī kalendīs lūniīs, {/i} demonstrates another common letter convention, giving the place and date of composition. Diodorus uses the imperfect because he is writing from the perspective of the reader. This is called the epistolary imperfect. When Julius is handed the letter, he immediately recognizes Diodorus’s seal ({i}obsignāre{/i}: seal a letter). Both tablets and papyrus scolls could be sealed; the seal not only identified the sender, but kept the letter private. During the tumultuous late republic, Cicero joked in a letter that he was afraid to write of political matters lest the papyrus itself betray him ({i}Ad Att.{/i} 2.20): “I will write to you briefly about affairs of state; for at this point, I’m anxious that the very paper I write on might betray us. And so, in the future, if I have more that I must write about, I will conceal it with allegories.”{{4}} Cicero often wrote his letters to his friends himself, without the services of his secretary. On one occasion, he explained to Atticus that the different handwriting was a clear sign of how busy he was: he had his {i}librārius {/i} write the letter while he dictated ({i}Ad Att.{/i} 4.16: {i}Occupātiōnum meārum vel hoc signum {/i} {i}erit quod epistula librārī manū est{/i}). On another occasion, he reveals the mystery of the nearly illegible handwriting in a letter he had written to his brother Quintus ({i}Ad Quīntum Fratrem{/i}, 2.15): “No, I wasn’t busy, upset or angry—just careless. It’s my habit to assume that whatever pen I pick up is a good one.” He opens the letter with a nice representation of what one did to prepare to write a letter. His reed pen ({i}calamō{/i}) and ink ({i}ātrāmentō{/i}) were prepared ({i}temperātō{/i}— this time, he bothered to check the point of the pen!), and the papyrus had been smoothed with a file made of a tooth ({i}chartā dentātā{/i}):"
         },
         {
           "t": "p",
@@ -873,6 +869,8 @@ const chapter = {
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",
@@ -986,8 +984,13 @@ const chapter = {
     },
     {
       "group": "‑ere (3)",
-      "latin": "(īnscrībō) īnscrībere, īnscrīpsisse, īnscrīptum perditum",
-      "english": "inscribe (perdō) perdere, perdidisse, lose"
+      "latin": "(īnscrībō) īnscrībere, īnscrīpsisse, īnscrīptum",
+      "english": "inscribe"
+    },
+    {
+      "group": "‑ere (3)",
+      "latin": "(perdō) perdere, perdidisse,  perditum",
+      "english": "lose"
     },
     {
       "group": "‑ere (3)",

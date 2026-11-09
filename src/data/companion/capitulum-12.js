@@ -139,7 +139,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "In the verb {i}fer{/i}|{i}re,{/i} the infinitive ending {i}-re{/i} is added directly to the consonant-stem{i}. {/i}The endings {i}-t{/i} and {i}-tur{/i} are also added directly to the stem:"
+          "text": "In the verb {i}fer{/i}|{i}re,{/i} the infinitive ending {i}-re{/i} is added directly to the consonant-stem{i}. {/i} The endings {i}-t{/i} and {i}-tur{/i} are also added directly to the stem:"
         },
         {
           "t": "p",
@@ -163,15 +163,15 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "E.g.: {i}Mīles est vir quī scūtum et gladium et pīlum fert. {/i}(ll.33–34)"
+          "text": "E.g.: {i}Mīles est vir quī scūtum et gladium et pīlum fert. {/i} (ll.33–34)"
         },
         {
           "t": "p",
-          "text": "{i}Aemilius pīlum tantum fert.{/i} (l.42) {i}Gladius eius brevis et levis est—brevior et levior quam is quī ab {/i} {i}equite fertur. {/i}(ll.56–57)"
+          "text": "{i}Aemilius pīlum tantum fert.{/i} (l.42) {i}Gladius eius brevis et levis est—brevior et levior quam is quī ab {/i} {i}equite fertur. {/i} (ll.56–57)"
         },
         {
           "t": "p",
-          "text": "{i}Gladiī…ā Germānīs feruntur.{/i} (ll.57–58) {i}Hispānī et Gallī…et alia arma et arcūs sagittāsque ferunt. {/i}(ll.90–91)"
+          "text": "{i}Gladiī…ā Germānīs feruntur.{/i} (ll.57–58) {i}Hispānī et Gallī…et alia arma et arcūs sagittāsque ferunt. {/i} (ll.90–91)"
         },
         {
           "t": "h",
@@ -179,11 +179,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Like {i}fer!, {/i}a few other verbs lost the original “e” ending of the infinitive and are monosyllables:{{1}}"
+          "text": "Like {i}fer!, {/i} a few other verbs lost the original “e” ending of the infinitive and are monosyllables:{{1}}"
         },
         {
           "t": "p",
-          "text": "{i}es!{/i} of {i}esse{/i} (pl. {i}es{/i}|{i}te!{/i}) {i}dūc!{/i} of {i}dūcere{/i} (pl. {i}dūc{/i}|{i}ite!{/i}) {i}dīc!{/i} of {i}dīcere {/i}(pl. {i}dīc{/i}|{i}ite!{/i}) {i}fac!{/i} of {i}facere {/i}(pl. {i}faci{/i}|{i}te!—facere{/i} is an {i}i{/i}-stem: {i}faci{/i}|{i}unt{/i})"
+          "text": "{i}es!{/i} of {i}esse{/i} (pl. {i}es{/i}|{i}te!{/i}) {i}dūc!{/i} of {i}dūcere{/i} (pl. {i}dūc{/i}|{i}ite!{/i}) {i}dīc!{/i} of {i}dīcere {/i} (pl. {i}dīc{/i}|{i}ite!{/i}) {i}fac!{/i} of {i}facere {/i} (pl. {i}faci{/i}|{i}te!—facere{/i} is an {i}i{/i}-stem: {i}faci{/i}|{i}unt{/i})"
         },
         {
           "t": "h",
@@ -295,7 +295,7 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "-ī in the abl. sing."
+          "text": "-ī  in the abl. sing."
         },
         {
           "t": "li",
@@ -496,7 +496,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Notā Bene: {/i}Verbs that are transitive in English are not always transitive in Latin. It can be helpful to memorize intransitive verbs with a dative pronoun ({i}eī{/i}) to help you remember that they do not take an accusative direct object, e.g.:"
+          "text": "{i}Notā Bene: {/i} Verbs that are transitive in English are not always transitive in Latin. It can be helpful to memorize intransitive verbs with a dative pronoun ({i}eī{/i}) to help you remember that they do not take an accusative direct object, e.g.:"
         },
         {
           "t": "p",
@@ -607,12 +607,12 @@ const chapter = {
             [
               "nom.",
               "{i}-ior{/i} ({i}-ius{/i})",
-              "{i}-iōrēs {/i}({i}-iōra{/i})"
+              "{i}-iōrēs {/i} ({i}-iōra{/i})"
             ],
             [
               "acc.",
-              "{i}-iōrem {/i}({i}-ius{/i})",
-              "{i}-iōrēs {/i}({i}-iōra{/i})"
+              "{i}-iōrem {/i} ({i}-ius{/i})",
+              "{i}-iōrēs {/i} ({i}-iōra{/i})"
             ],
             [
               "gen.",
@@ -686,7 +686,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Notā Bene: {/i}Instead of the characteristic{i} i{/i}, you will find {i}e{/i}:"
+          "text": "{i}Notā Bene: {/i} Instead of the characteristic{i} i{/i}, you will find {i}e{/i}:"
         },
         {
           "t": "li",
@@ -706,7 +706,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Here, you read about the equipment of a Roman soldier and the layout of a Roman army camp: {i}castra.{/i} This noun is neuter {b}plural{/b}, called {i}plūrāle tantum{/i} (“plural only,” cf. “barracks,” “entrails,” “arms”). Other {i}plūrāle tantum {/i}nouns:"
+          "text": "Here, you read about the equipment of a Roman soldier and the layout of a Roman army camp: {i}castra.{/i} This noun is neuter {b}plural{/b}, called {i}plūrāle tantum{/i} (“plural only,” cf. “barracks,” “entrails,” “arms”). Other {i}plūrāle tantum {/i} nouns:"
         },
         {
           "t": "table",
@@ -728,17 +728,17 @@ const chapter = {
           "t": "table",
           "rows": [
             [
-              "{i}castra sunt {/i}(l.94)",
+              "{i}castra sunt {/i} (l.94)",
               "{i}in castrīs{/i} (l.97)"
             ],
             [
-              "{i}vāllum castrōrum {/i}(l.101)"
+              "{i}vāllum castrōrum {/i} (l.101)"
             ]
           ]
         },
         {
           "t": "p",
-          "text": "{i}Notā Bene: Plūrāle tantum {/i}nouns take plural verbs."
+          "text": "{i}Notā Bene: Plūrāle tantum {/i} nouns take plural verbs."
         },
         {
           "t": "h",
@@ -766,7 +766,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}mīlle passūs {/i}(adjective agrees with {i}passūs{/i}) {i}duo mīlia passuum {/i}(noun + genitive) {i}sex mīlia mīlitum{/i} {i}Ūnus passus est quīnque pedēs, ergō mīlle passūs sunt quīnque mīlia {/i} {i}pedum. {/i}(ll.96–97)"
+          "text": "{i}mīlle passūs {/i} (adjective agrees with {i}passūs{/i}) {i}duo mīlia passuum {/i} (noun + genitive) {i}sex mīlia mīlitum{/i} {i}Ūnus passus est quīnque pedēs, ergō mīlle passūs sunt quīnque mīlia {/i} {i}pedum. {/i} (ll.96–97)"
         },
         {
           "t": "p",
@@ -803,16 +803,24 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "empire. (l.93) {i}Prope decem pedēs altum est, {/i} It is almost ten feet high and {i}et duo mīlia passuum longum.{/i} two miles long. (ll.102–103)"
-        }
-      ],
-      "id": "lectio-tertia"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+          "text": "empire. (l.93)"
+        },
+        {
+          "t": "table",
+          "rows": [
+            [
+              "{i}Prope decem pedēs altum est, {/i}",
+              "It is almost ten feet high and"
+            ],
+            [
+              "{i}et duo mīlia passuum longum.{/i} two miles long. (ll.102–103)"
+            ]
+          ]
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō: 3rd Declension Ablative Singular in {/i} {i}-ī {/i} and  {i}-e{/i}"
+        },
         {
           "t": "p",
           "text": "Ends in {i}-e{/i}"
@@ -843,7 +851,7 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "neuter i-stem nouns {i}mare{/i} (n.), abl.: {i}marī{/i}"
+          "text": "neuter i-stem  nouns {i}mare{/i} (n.), abl.: {i}marī{/i}"
         },
         {
           "t": "li",
@@ -852,7 +860,7 @@ const chapter = {
           "text": "positive adjectives of all genders {i}brevis, breve{/i}, abl.: {i}brevī{/i} {i}gravis, grave{/i}, abl.: {i}gravī{/i}"
         }
       ],
-      "id": "recensio"
+      "id": "lectio-tertia"
     },
     {
       "latin": "Studia Rōmāna",
@@ -865,7 +873,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Roman men often had three names, called the {i}tria nōmina{/i}. {i}Iūlius{/i} is a {i}nōmen{/i}, or family name: male members of this family are called {i}Iūlius{/i} and female members {i}Iūlia.{/i} Besides the family name ending in {i}–ius{/i}, Roman men have a first or personal name, the {i}praenōmen{/i}, and a surname, the {i}cognōmen{/i}, which is common to a branch of the family. The {i}cognōmen{/i} is often descriptive of the founder of the family, e.g., {i}Longus, Pulcher, Crassus{/i};{i} Paulus{/i} means “small” and {i}Balbus {/i} “stammering.” Sometimes, the {i}cognōmen{/i} is added to a particular person’s name as an honorific or particular marker, for example, {i}Pūblius {/i} {i}Cornēlius Scīpiō{/i}, the victorious general of the Second Punic War, received the honorific {i}Africānus{/i} and was then known as {i}Scīpiō Africānus{/i}. Cicero’s good friend {i}Titus Pompōnius Atticus{/i} received his {i}cognōmen{/i} as a result of his long residence in Athens. Sons adopted into other families would add their father’s name, with the suffix {i}ānus{/i} to their new family name. For example, {i}Pūblius {/i} {i}Cornēlius Scīpiō{/i}, who did not have a son, adopted one of the sons of {i}Lūcius {/i} {i}Aemilius Paulus{/i}; that son’s name became {i}Pūblius Cornēlius Scīpiō Aemiliānus{/i}. Families with more than one daughter distinguished them with {i}māior {/i}(“older,” Cap. XIX) or {i}minor {/i}(“younger,” Cap. XIX), by numbers ({i}prīma, secunda, tertia{/i}), or by diminutives (just as {i}sacculus{/i}, Cap. IV, is the diminutive of {i}saccus{/i}, Cap. VI) like {i}Līvilla, {/i}“little {i}Līvia{/i}.”"
+          "text": "Roman men often had three names, called the {i}tria nōmina{/i}. {i}Iūlius{/i} is a {i}nōmen{/i}, or family name: male members of this family are called {i}Iūlius{/i} and female members {i}Iūlia.{/i} Besides the family name ending in {i}–ius{/i}, Roman men have a first or personal name, the {i}praenōmen{/i}, and a surname, the {i}cognōmen{/i}, which is common to a branch of the family. The {i}cognōmen{/i} is often descriptive of the founder of the family, e.g., {i}Longus, Pulcher, Crassus{/i};{i} Paulus{/i} means “small” and {i}Balbus {/i} “stammering.” Sometimes, the {i}cognōmen{/i} is added to a particular person’s name as an honorific or particular marker, for example, {i}Pūblius {/i} {i}Cornēlius Scīpiō{/i}, the victorious general of the Second Punic War, received the honorific {i}Africānus{/i} and was then known as {i}Scīpiō Africānus{/i}. Cicero’s good friend {i}Titus Pompōnius Atticus{/i} received his {i}cognōmen{/i} as a result of his long residence in Athens. Sons adopted into other families would add their father’s name, with the suffix {i}ānus{/i} to their new family name. For example, {i}Pūblius {/i} {i}Cornēlius Scīpiō{/i}, who did not have a son, adopted one of the sons of {i}Lūcius {/i} {i}Aemilius Paulus{/i}; that son’s name became {i}Pūblius Cornēlius Scīpiō Aemiliānus{/i}. Families with more than one daughter distinguished them with {i}māior {/i} (“older,” Cap. XIX) or {i}minor {/i} (“younger,” Cap. XIX), by numbers ({i}prīma, secunda, tertia{/i}), or by diminutives (just as {i}sacculus{/i}, Cap. IV, is the diminutive of {i}saccus{/i}, Cap. VI) like {i}Līvilla, {/i} “little {i}Līvia{/i}.”"
         },
         {
           "t": "p",
@@ -916,16 +924,22 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Why are Gāius and Gnaeus abbreviated with a C and why does Kaesō begin with K instead of C? These spellings reflect an early period of the Latin alphabet, when the “g” sound was represented by “c” and “k” had not yet been replaced by “c.” {b}The Roman Soldier {/b}"
+          "text": "Why are Gāius and Gnaeus abbreviated with a C and why does Kaesō begin with K instead of C? These spellings reflect an early period of the Latin alphabet, when the “g” sound was represented by “c” and “k” had not yet been replaced by “c.”"
+        },
+        {
+          "t": "h",
+          "text": "The Roman Soldier"
         },
         {
           "t": "p",
-          "text": "As you can see from the illustration on page 89, the {i}castra Rōmāna {/i}was a model of organization. It had two main roads connecting four gates; the {i}via {/i} {i}praetōria {/i}led from the main gate to the {i}principia{/i}, an open space in the camp in front of the general’s quarters ({i}praetōrium{/i}); the {i}via prīncipālis{/i} ran in front of the {i}prīncipia{/i} to the other gates. At the end of Cap. XXXIII, you will find more information on the Roman soldier."
+          "text": "As you can see from the illustration on page 89, the {i}castra Rōmāna {/i} was a model of organization. It had two main roads connecting four gates; the {i}via {/i} {i}praetōria {/i} led from the main gate to the {i}principia{/i}, an open space in the camp in front of the general’s quarters ({i}praetōrium{/i}); the {i}via prīncipālis{/i} ran in front of the {i}prīncipia{/i} to the other gates. At the end of Cap. XXXIII, you will find more information on the Roman soldier."
         }
       ],
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",
@@ -1226,7 +1240,7 @@ const chapter = {
   "notes": [
     {
       "n": 1,
-      "text": "When these imperatives are found in compound verbs e.g., abdūc (“lead away!”) the accent remains"
+      "text": "When these imperatives are found in compound verbs e.g., abdūc (“lead away!”) the accent remains on the ultima, a verbal reminiscence of the form was {i}abdūce{/i}."
     },
     {
       "n": 2,

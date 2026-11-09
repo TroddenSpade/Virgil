@@ -2309,3 +2309,20 @@
   color: var(--gold, #a9812f);
   padding-top: 0.15rem;
 }
+
+/* Notes printed inside a chapter's vocabulary section. */
+.cv__notes {
+  margin: 0 0 0.5rem;
+  padding: 0.8rem 1rem;
+  border-left: 3px solid var(--gold, #a9812f);
+  background: var(--surface-soft, transparent);
+}
+.cv__note {
+  font-family: var(--font-serif);
+  font-size: 0.98rem;
+  line-height: 1.7;
+  margin: 0 0 0.5rem;
+}
+.cv__note:last-child {
+  margin-bottom: 0;
+}

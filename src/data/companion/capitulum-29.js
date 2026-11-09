@@ -64,7 +64,7 @@ const chapter = {
               "depth": 1
             },
             {
-              "text": "c. Partitive Genitive: Nostrum and Vestrum",
+              "text": "c. Partitive Genitive: Nostrum  and Vestrum",
               "depth": 1
             },
             {
@@ -103,7 +103,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Quid faciam? {/i} What am I to do? What can I do? {i}Quid spērem? {/i} What am I to hope for? What can I hope for? In this kind of deliberative question, when you ask irresolutely what to do, the verb is usually in the subjunctive. Deliberative questions expect to get a directive as an answer, either in the form of the imperative or the subjunctive, or no answer at all (that is, they are questions asked in desperation with no hope of an answer). Further Examples: {i}Quōmodo uxōrem et līberōs alam? {/i}(l.23) {i}Gubernātor perterritus exclāmat, “Ō dī bonī! Quid faciāmus?”{/i} (ll.198– 199) {i}Sed quōmodo vīvāmus sine pecūniā? Quōmodo cibum et vestem emam {/i} {i}īnfantibus meīs? {/i}(ll.51–52) {i}Quid ergō faciam? Ipse dē nāve saliam, an in eādem nāve maneam {/i} {i}vōbīscum?{/i} (ll.56–57)"
+          "text": "{i}Quid faciam? {/i} What am I to do? What can I do? {i}Quid spērem? {/i} What am I to hope for? What can I hope for? In this kind of deliberative question, when you ask irresolutely what to do, the verb is usually in the subjunctive. Deliberative questions expect to get a directive as an answer, either in the form of the imperative or the subjunctive, or no answer at all (that is, they are questions asked in desperation with no hope of an answer). Further Examples: {i}Quōmodo uxōrem et līberōs alam? {/i} (l.23) {i}Gubernātor perterritus exclāmat, “Ō dī bonī! Quid faciāmus?”{/i} (ll.198– 199) {i}Sed quōmodo vīvāmus sine pecūniā? Quōmodo cibum et vestem emam {/i} {i}īnfantibus meīs? {/i} (ll.51–52) {i}Quid ergō faciam? Ipse dē nāve saliam, an in eādem nāve maneam {/i} {i}vōbīscum?{/i} (ll.56–57)"
         },
         {
           "t": "h",
@@ -131,7 +131,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "You first learned the conjunction {i}cum {/i}in Cap. X. Depending on the force of the conjunction, {i}cum {/i}is used with a verb either in the indicative (as you have met many times) or the subjunctive."
+          "text": "You first learned the conjunction {i}cum {/i} in Cap. X. Depending on the force of the conjunction, {i}cum {/i} is used with a verb either in the indicative (as you have met many times) or the subjunctive."
         },
         {
           "t": "p",
@@ -141,13 +141,13 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "in temporal clauses, meaning “when.” We met this use of cum in Cap. X: {i}Cum avis volat, ālae moventur.{/i} (Cap. X, l.15) {i}Cum syllabae iunguntur, vocābula fīunt. {/i}(Cap. XVIII, l.29) {i}Cum vocābula coniunguntur, sententiae fīunt{/i}. (Cap. XVIII, ll.29–30)"
+          "text": "in temporal clauses, meaning “when.” We met this use of cum  in Cap. X: {i}Cum avis volat, ālae moventur.{/i} (Cap. X, l.15) {i}Cum syllabae iunguntur, vocābula fīunt. {/i} (Cap. XVIII, l.29) {i}Cum vocābula coniunguntur, sententiae fīunt{/i}. (Cap. XVIII, ll.29–30)"
         },
         {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "in clauses describing something that happens usually or repeatedly,{{2}} e.g.: {i}Semper gaudeō cum dē līberīs meīs cōgitō. {/i}(l.47) {i}Tū numquam mē salūtābās, cum mē vidēbās.{/i} (Cap. XIX, ll.99–100)"
+          "text": "in clauses describing something that happens usually or repeatedly,{{2}} e.g.: {i}Semper gaudeō cum dē līberīs meīs cōgitō. {/i} (l.47) {i}Tū numquam mē salūtābās, cum mē vidēbās.{/i} (Cap. XIX, ll.99–100)"
         },
         {
           "t": "p",
@@ -157,7 +157,7 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "when cum means “since,” “because,” or “as,” the subjunctive can be present tense (with a present main verb) or imperfect (with a past tense main verb): {i}Gubernātor, cum omnēs attentōs videat, hanc fābulam nārrat. {/i}(ll.76– 77) {i}Cum iam vītam dēspērāret, id ūnum ōrāvit.{/i} (ll.88–89) {i}Ānulum abiēcit, cum sēsē nimis fēlīcem esse cēnsēret{/i}. (ll.156–157) {i}Polycratēs, cum ānulum suum recognōsceret, māximā laetitiā affectus {/i} {i}est.{/i} (ll.171–172)"
+          "text": "when cum means “since,” “because,” or “as,” the subjunctive can be present tense (with a present main verb) or imperfect (with a past tense main verb): {i}Gubernātor, cum omnēs attentōs videat, hanc fābulam nārrat. {/i} (ll.76– 77) {i}Cum iam vītam dēspērāret, id ūnum ōrāvit.{/i} (ll.88–89) {i}Ānulum abiēcit, cum sēsē nimis fēlīcem esse cēnsēret{/i}. (ll.156–157) {i}Polycratēs, cum ānulum suum recognōsceret, māximā laetitiā affectus {/i} {i}est.{/i} (ll.171–172)"
         },
         {
           "t": "li",
@@ -205,7 +205,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Notā Bene: {/i}You will find {i}dubitāre{/i} with{i} an{/i} more frequently than with {i}num{/i}, as you can see in this sentence from the Younger Pliny ({i}Gāius Plīnius Secundus{/i}):"
+          "text": "{i}Notā Bene: {/i} You will find {i}dubitāre{/i} with{i} an{/i} more frequently than with {i}num{/i}, as you can see in this sentence from the Younger Pliny ({i}Gāius Plīnius Secundus{/i}):"
         },
         {
           "t": "p",
@@ -213,7 +213,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Consider the implied levels of questions in (ll.105–106): “{i}Ubi est Arīōn{/i} {i}et quid facit{/i}?” (direct question) {i}Scītisne ubi sit Arīōn et quid faciat? {/i}(indirect question) {i}Rēx eōs interrogat “num sciant ubi sit Arīōn et quid faciat?”{/i} (indirect, present main verb) {i}Rēx eōs interrogāvit “num scīrent ubi esset Arīōn et quid faceret?”{/i} (indirect, past main verb) {i}Notā Bene: {/i}Sometimes the reported question is deliberative (see above); context will make this clear: {i}Vir ita perturbātus est ut sē interroget, utrum in mare saliat an in nāve {/i} {i}remaneat. {/i}(ll.57–59) = a result clause introducing an indirect deliberative question; what he originally asked himself was: “Should I leap into the sea or remain on the boat,” and this becomes: “The man is so distressed that he asks himself whether he should leap into the sea or remain on the boat.” {i}Mēdus rubēns nescit quid respondeat.{/i} (Cap. XXVIII, l.184): “Medus, blushing, does not know what he should respond.” Medus originally asks himself, “what should I respond?”"
+          "text": "Consider the implied levels of questions in (ll.105–106): “{i}Ubi est Arīōn{/i} {i}et quid facit{/i}?” (direct question) {i}Scītisne ubi sit Arīōn et quid faciat? {/i} (indirect question) {i}Rēx eōs interrogat “num sciant ubi sit Arīōn et quid faciat?”{/i} (indirect, present main verb) {i}Rēx eōs interrogāvit “num scīrent ubi esset Arīōn et quid faceret?”{/i} (indirect, past main verb) {i}Notā Bene: {/i} Sometimes the reported question is deliberative (see above); context will make this clear: {i}Vir ita perturbātus est ut sē interroget, utrum in mare saliat an in nāve {/i} {i}remaneat. {/i} (ll.57–59) = a result clause introducing an indirect deliberative question; what he originally asked himself was: “Should I leap into the sea or remain on the boat,” and this becomes: “The man is so distressed that he asks himself whether he should leap into the sea or remain on the boat.” {i}Mēdus rubēns nescit quid respondeat.{/i} (Cap. XXVIII, l.184): “Medus, blushing, does not know what he should respond.” Medus originally asks himself, “what should I respond?”"
         },
         {
           "t": "h",
@@ -225,11 +225,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Vir ita perturbātus est ut sē interroget… {/i}(ll.57–58) {i}Arīōn tam pulchrē fidibus canēbat ut alter Orpheus appellārētur.{/i} (ll.66–67) {i}An tam ignārus es ut etiam Orpheus tibi ignōtus sit{/i}? (ll.67–68) {i}Is fidicen nōbilissimus fuit quī tam pulchrē canēbat ut bēstiae ferae, {/i} {i}nātūram suam oblītae, accēderent. {/i}(ll.70–72) {i}Nautae precibus eius ita permōtī sunt ut manūs quidem ab eō {/i} {i}abstinērent.{/i} (ll.86–87) {i}Tanta erat potestās eius, tanta glōria tantaeque dīvitiae, ut nōn sōlum {/i} {i}aliī tyrannī, sed etiam dī immortālēs eī invidērent. {/i}(ll.158–160) {i}Piscem cēpit quī tam fōrmōsus erat ut piscātor eum nōn vēnderet.{/i} (ll.167–168)"
+          "text": "{i}Vir ita perturbātus est ut sē interroget… {/i} (ll.57–58) {i}Arīōn tam pulchrē fidibus canēbat ut alter Orpheus appellārētur.{/i} (ll.66–67) {i}An tam ignārus es ut etiam Orpheus tibi ignōtus sit{/i}? (ll.67–68) {i}Is fidicen nōbilissimus fuit quī tam pulchrē canēbat ut bēstiae ferae, {/i} {i}nātūram suam oblītae, accēderent. {/i} (ll.70–72) {i}Nautae precibus eius ita permōtī sunt ut manūs quidem ab eō {/i} {i}abstinērent.{/i} (ll.86–87) {i}Tanta erat potestās eius, tanta glōria tantaeque dīvitiae, ut nōn sōlum {/i} {i}aliī tyrannī, sed etiam dī immortālēs eī invidērent. {/i} (ll.158–160) {i}Piscem cēpit quī tam fōrmōsus erat ut piscātor eum nōn vēnderet.{/i} (ll.167–168)"
         },
         {
-          "t": "p",
-          "text": "{b}Words that signal result clauses {/b}"
+          "t": "h",
+          "text": "Words that signal result clauses"
         },
         {
           "t": "table",
@@ -363,7 +363,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}aliquid pecūliī {/i}(l.135) {i}nihil malī{/i} (l.157) {i}quid novī?{/i} (Cap. XXXI, ll.2–3) The partitive genitive of {i}nōs, vōs{/i} is {i}nostrum, vestrum{/i}: {i}nēmō nostrum{/i}/{i}vestrum{/i} (ll.39, 42–43)"
+          "text": "{i}aliquid pecūliī {/i} (l.135) {i}nihil malī{/i} (l.157) {i}quid novī?{/i} (Cap. XXXI, ll.2–3) The partitive genitive of {i}nōs, vōs{/i} is {i}nostrum, vestrum{/i}: {i}nēmō nostrum{/i}/{i}vestrum{/i} (ll.39, 42–43)"
         },
         {
           "t": "h",
@@ -388,16 +388,12 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The forms {i}nostrum {/i}and {i}vestrum{/i}, as you learned in the previous section, are partitive. It is helpful to distinguish the two by memorizing a phrase. A good one is the partitive phrase Cicero often uses when addressing his audience: {i}quis vestrum?{/i} (who of you?)"
-        }
-      ],
-      "id": "lectio-tertia"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+          "text": "The forms {i}nostrum {/i} and {i}vestrum{/i}, as you learned in the previous section, are partitive. It is helpful to distinguish the two by memorizing a phrase. A good one is the partitive phrase Cicero often uses when addressing his audience: {i}quis vestrum?{/i} (who of you?)"
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō: Personal Pronouns {/i}"
+        },
         {
           "t": "table",
           "rows": [
@@ -510,26 +506,22 @@ const chapter = {
         {
           "t": "p",
           "text": "Similarly, in compounds, {i}iacere{/i} becomes {i}-iicere,{/i} but the spelling {i}ii{/i} is avoided by writing {i}-icere,{/i} e.g.: {i}ab-, ad-, ē-, prō-icere{/i}"
-        }
-      ],
-      "id": "recensio"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+        },
         {
-          "t": "p",
-          "text": "{b}Indicative {/b}"
+          "t": "h",
+          "text": "{i}Recēnsiō: Indicative/Subjunctive{/i}"
+        },
+        {
+          "t": "h",
+          "text": "Indicative"
         },
         {
           "t": "p",
-          "text": "{i}Ut Orpheus cantū suō ferās ad sē alliciēbat, ita{/i}{{3}}{i} tunc Arīōn canendō {/i} {i}piscēs allēxit ad nāvem. {/i}(ll.93–95) {i}Subitō mercātor ē dīvitissimō pauperrimus factus est. {/i}(ll.17–18) {i}Ita spērābat sē magnum lucrum factūrum esse. {/i}(l.15) {i}Laetitia vestra mē nōn afficit. {/i}(l.45) {i}Nec quisquam nostrum trīstitiā tuā afficitur. {/i}(ll.46–47) {i}Quisnam est Arīōn? Nē nōmen quidem mihi nōtum est. {/i}(ll.63–64) {i}Mercātōrēs mercēs suās magnī aestimant, vītam nautārum parvī {/i} {i}aestimant! {/i}(ll.6–7) {i}Nōnne līberōs plūris aestimās quam mercēs istās? {/i}(ll.26–27) {i}Sī fūrtum fēcī, tuā causā id fecī. {/i}(l.139) {i}Nāvis autem vēlīs sōlīs nōn tam vēlōciter vehitur quam ante {/i} {i}tempestātem, nam vēla ventō rapidō scissa sunt. {/i}(ll.191–193) {i}“Per deōs immortālēs!” inquit gubernātor, cum prīmum nāvem {/i} {i}appropinquantem prōspexit. “Illa nāvis vēlōx nōs persequitur.” {/i} (ll.187–189)"
+          "text": "{i}Ut Orpheus cantū suō ferās ad sē alliciēbat, ita{/i}{{3}}{i} tunc Arīōn canendō {/i} {i}piscēs allēxit ad nāvem. {/i} (ll.93–95) {i}Subitō mercātor ē dīvitissimō pauperrimus factus est. {/i} (ll.17–18) {i}Ita spērābat sē magnum lucrum factūrum esse. {/i} (l.15) {i}Laetitia vestra mē nōn afficit. {/i} (l.45) {i}Nec quisquam nostrum trīstitiā tuā afficitur. {/i} (ll.46–47) {i}Quisnam est Arīōn? Nē nōmen quidem mihi nōtum est. {/i} (ll.63–64) {i}Mercātōrēs mercēs suās magnī aestimant, vītam nautārum parvī {/i} {i}aestimant! {/i} (ll.6–7) {i}Nōnne līberōs plūris aestimās quam mercēs istās? {/i} (ll.26–27) {i}Sī fūrtum fēcī, tuā causā id fecī. {/i} (l.139) {i}Nāvis autem vēlīs sōlīs nōn tam vēlōciter vehitur quam ante {/i} {i}tempestātem, nam vēla ventō rapidō scissa sunt. {/i} (ll.191–193) {i}“Per deōs immortālēs!” inquit gubernātor, cum prīmum nāvem {/i} {i}appropinquantem prōspexit. “Illa nāvis vēlōx nōs persequitur.” {/i} (ll.187–189)"
         },
         {
-          "t": "p",
-          "text": "{b}Subjunctive{/b}"
+          "t": "h",
+          "text": "Subjunctive"
         },
         {
           "t": "p",
@@ -537,7 +529,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Is laetus Ōstiā profectus est cum mercibus pretiōsīs quās omnī pecūniā {/i} {i}suā in Italiā ēmerat eō cōnsiliō ut eās māiōre pretiō in Graeciā {/i} {i}vēnderet. {/i}(ll.12–15) {i}Eō enim cōnsiliō nummōs surripuī ut dōnum pretiōsum tibi emerem. {/i} (ll.139–141) {i}Rēctē dīcis{/i}:{i} meae mercēs ēiectae sunt, ut nāvis tua salva esset! {/i} (ll.34–35) {i}Mercēs iēcimus ut nōs omnēs salvī essēmus. {/i}(ll.36–37) {i}Orpheus etiam ad Īnferōs dēscendit ut uxōrem suam mortuam {/i} {i}inde redūceret.... Sed perge nārrāre dē Arīone. {/i}(ll.73–75)"
+          "text": "{i}Is laetus Ōstiā profectus est cum mercibus pretiōsīs quās omnī pecūniā {/i} {i}suā in Italiā ēmerat eō cōnsiliō ut eās māiōre pretiō in Graeciā {/i} {i}vēnderet. {/i} (ll.12–15) {i}Eō enim cōnsiliō nummōs surripuī ut dōnum pretiōsum tibi emerem. {/i} (ll.139–141) {i}Rēctē dīcis{/i}:{i} meae mercēs ēiectae sunt, ut nāvis tua salva esset! {/i} (ll.34–35) {i}Mercēs iēcimus ut nōs omnēs salvī essēmus. {/i} (ll.36–37) {i}Orpheus etiam ad Īnferōs dēscendit ut uxōrem suam mortuam {/i} {i}inde redūceret.... Sed perge nārrāre dē Arīone. {/i} (ll.73–75)"
         },
         {
           "t": "p",
@@ -545,10 +537,10 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Nōlī tū mē cōnsōlārī quī ipse imperāvistī ut mercēs meae iacerentur!{/i} (ll.30–32) {i}Quid iuvat deōs precārī ut rēs āmissae tibi reddantur? Frūstrā hoc {/i} {i}precāris. {/i}(ll.54–55) {i}Sed tamen imperāvērunt ut statim in mare dēsilīret! {/i}(ll.87–88) {i}At nōlīte mē monēre ut laetus sim, postquam omnia mihi ēripuistis! {/i} (ll.43–45) {i}Hāc fābulā monēmur ut semper bonō animō sīmus nēve umquam {/i} {i}dē salūte dēspērēmus. Dum anima est, spēs est. {/i}(ll.122–124) {i}Ille vērō, cōnsiliō eōrum cognitō, pecūniam cēteraque sua nautīs dedit, {/i} {i}hoc sōlum ōrāns ut sibi ipsī parcerent. {/i}(ll.81–8{i}3{/i}) {i}Itaque gubernātor imperat ut nāvis rēmīs agātur.{/i} (l.193)"
+          "text": "{i}Nōlī tū mē cōnsōlārī quī ipse imperāvistī ut mercēs meae iacerentur!{/i} (ll.30–32) {i}Quid iuvat deōs precārī ut rēs āmissae tibi reddantur? Frūstrā hoc {/i} {i}precāris. {/i} (ll.54–55) {i}Sed tamen imperāvērunt ut statim in mare dēsilīret! {/i} (ll.87–88) {i}At nōlīte mē monēre ut laetus sim, postquam omnia mihi ēripuistis! {/i} (ll.43–45) {i}Hāc fābulā monēmur ut semper bonō animō sīmus nēve umquam {/i} {i}dē salūte dēspērēmus. Dum anima est, spēs est. {/i} (ll.122–124) {i}Ille vērō, cōnsiliō eōrum cognitō, pecūniam cēteraque sua nautīs dedit, {/i} {i}hoc sōlum ōrāns ut sibi ipsī parcerent. {/i} (ll.81–8{i}3{/i}) {i}Itaque gubernātor imperat ut nāvis rēmīs agātur.{/i} (l.193)"
         }
       ],
-      "id": "recensio-2"
+      "id": "lectio-tertia"
     },
     {
       "latin": "Studia Rōmāna",
@@ -561,12 +553,14 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "In both this and the previous chapter, the helmsman expresses his fear of pirates. Piracy had been one of the many dangers of sea travel during the republican period (and thus Pompey the Great was given extraordinary military powers to rid the seas of pirates in 67 BC, about which you will read in Cap. XXXII). During the empire, attacks by pirates would be countered by the Roman navy, and sea travel was a good deal safer (although not completely safe). Although large-scale piracy had ceased to exist, it lived on in the popular imagination. More dangerous was the sea itself and shipwreck was not unknown. The {i}iactūra {/i}of goods was a common practice when shipwreck threatened: the chance of staying afloat was increased by lightening the load. This real danger posed grounds for the following ethical discussion reported in Cicero’s {i}dē {/i} {i}Officiīs {/i}(Cicero is reporting a discussion led by Hecaton, a prominent Stoic philosopher from Rhodes of the first century BC): Question: “If one is forced to make a {i}iactūra{/i} at sea, which should one throw overboard? An expensive horse or a cheap slave?” Response: financial considerations lead in one direction, humane sensibility in the opposite. “What if a foolish man has grabbed a board floating from the shipwreck—will the philosopher grab it away if he can?” No, because it would be wrong. “What about the owner of the ship? Will he grab the plank—it belongs to him.” Not at all, not any more than he would toss a passenger overboard because the boat was his. Until they arrive at the ship’s destination, the boat belongs not to the owner, but to the passengers (3.23.89–90). In this chapter, you also read two well-known Greek stories: about the poet Arion and the tyrant Polycrates. The fifth century Greek historian Herodotus writes about both. The famous seventh–century BC Greek lyre-player Arion (Herodotus 1.23–24) was sailing from southern Italy back to Corinth in Greece when he was thrown overboard and rescued by a dolphin. Herodotus (3.40–43) also records the story of Polycrates (the tyrant of Samos in the sixth century BC) who, on the advice of his friend Amasis, the king of Egypt, threw away his signet ring, a valuable emerald set in gold. This last story reflects a common theme that the gods are displeased by too much good fortune; by throwing away the ring, Polycrates hopes to restore the balance of human fortune. That he is unsuccessful signals the magnitude of his ultimate downfall (Polycrates was eventually killed in a way Herodotus finds too horrible to reveal, and when dead, his corpse was crucified for all to see). Pliny the Elder in his {i}Natural History{/i} (37.2) claims that the gem in Polycrates’ ring was on display, set in a golden horn, in the temple of Concord, given to the temple as a gift from Augustus’ wife Livia. The {i}gubernātor{/i}’s words (124–124) “{i}Dum anima est, spēs est{/i}” echo Cicero ({i}Ad Atticum{/i} 9.10) {i}ut aegrōtō, dum anima est, spēs esse dīcitur{/i}."
+          "text": "In both this and the previous chapter, the helmsman expresses his fear of pirates. Piracy had been one of the many dangers of sea travel during the republican period (and thus Pompey the Great was given extraordinary military powers to rid the seas of pirates in 67 BC, about which you will read in Cap. XXXII). During the empire, attacks by pirates would be countered by the Roman navy, and sea travel was a good deal safer (although not completely safe). Although large-scale piracy had ceased to exist, it lived on in the popular imagination. More dangerous was the sea itself and shipwreck was not unknown. The {i}iactūra {/i} of goods was a common practice when shipwreck threatened: the chance of staying afloat was increased by lightening the load. This real danger posed grounds for the following ethical discussion reported in Cicero’s {i}dē {/i} {i}Officiīs {/i} (Cicero is reporting a discussion led by Hecaton, a prominent Stoic philosopher from Rhodes of the first century BC): Question: “If one is forced to make a {i}iactūra{/i} at sea, which should one throw overboard? An expensive horse or a cheap slave?” Response: financial considerations lead in one direction, humane sensibility in the opposite. “What if a foolish man has grabbed a board floating from the shipwreck—will the philosopher grab it away if he can?” No, because it would be wrong. “What about the owner of the ship? Will he grab the plank—it belongs to him.” Not at all, not any more than he would toss a passenger overboard because the boat was his. Until they arrive at the ship’s destination, the boat belongs not to the owner, but to the passengers (3.23.89–90). In this chapter, you also read two well-known Greek stories: about the poet Arion and the tyrant Polycrates. The fifth century Greek historian Herodotus writes about both. The famous seventh–century BC Greek lyre-player Arion (Herodotus 1.23–24) was sailing from southern Italy back to Corinth in Greece when he was thrown overboard and rescued by a dolphin. Herodotus (3.40–43) also records the story of Polycrates (the tyrant of Samos in the sixth century BC) who, on the advice of his friend Amasis, the king of Egypt, threw away his signet ring, a valuable emerald set in gold. This last story reflects a common theme that the gods are displeased by too much good fortune; by throwing away the ring, Polycrates hopes to restore the balance of human fortune. That he is unsuccessful signals the magnitude of his ultimate downfall (Polycrates was eventually killed in a way Herodotus finds too horrible to reveal, and when dead, his corpse was crucified for all to see). Pliny the Elder in his {i}Natural History{/i} (37.2) claims that the gem in Polycrates’ ring was on display, set in a golden horn, in the temple of Concord, given to the temple as a gift from Augustus’ wife Livia. The {i}gubernātor{/i}’s words (124–124) “{i}Dum anima est, spēs est{/i}” echo Cicero ({i}Ad Atticum{/i} 9.10) {i}ut aegrōtō, dum anima est, spēs esse dīcitur{/i}."
         }
       ],
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",
@@ -705,13 +699,8 @@ const chapter = {
     },
     {
       "group": "‑āre (1)",
-      "latin": "(appropinquō) appropinquāre,",
+      "latin": "(appropinquō) appropinquāre,  -āvisse  ({i}intr. + dat.{/i})",
       "english": "approach"
-    },
-    {
-      "group": "‑āre (1)",
-      "latin": "-āvisse",
-      "english": "({i}intr. + dat.{/i})"
     },
     {
       "group": "‑āre (1)",
@@ -745,7 +734,7 @@ const chapter = {
     },
     {
       "group": "‑ēre (2)",
-      "latin": "(appāreō) appārēre, appāruisse (intr. + dat.)",
+      "latin": "(appāreō) appārēre, appāruisse ({i}intr. + dat.{/i})",
       "english": "appear"
     },
     {
@@ -760,7 +749,7 @@ const chapter = {
     },
     {
       "group": "‑ēre (2)",
-      "latin": "(invideō) invidēre, invīdisse  (intr. + dat.)",
+      "latin": "(invideō) invidēre, invīdisse  ({i}intr. + dat.{/i})",
       "english": "envy, grudge"
     },
     {
@@ -780,7 +769,7 @@ const chapter = {
     },
     {
       "group": "‑ēre (2)",
-      "latin": "(suādeō) suādēre, suāsisse  (intr. + dat.)",
+      "latin": "(suādeō) suādēre, suāsisse  ({i}intr. + dat.{/i})",
       "english": "advise"
     },
     {
@@ -825,12 +814,12 @@ const chapter = {
     },
     {
       "group": "‑ere (3)",
-      "latin": "(parcō) parcere, pepercisse (intr. + dat.)",
+      "latin": "(parcō) parcere, pepercisse ({i}intr. + dat.{/i})",
       "english": "spare"
     },
     {
       "group": "‑ere (3)",
-      "latin": "(permittō) permittere, permīsisse (intr. + dat.)",
+      "latin": "(permittō) permittere, permīsisse ({i}intr. + dat.{/i})",
       "english": "allow, permit"
     },
     {

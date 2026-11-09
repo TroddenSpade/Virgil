@@ -137,7 +137,7 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "When phonetics dictate, we find s instead of t: ▷ {i}dt{/i}/{i}tt {/i}→{i} s{/i} (usually {i}ss{/i} after a short vowel and {i}s{/i} after a long vowel) {i}claudere {/i}→{i} clausum{/i} ▷ {i}gt {/i}→ {i}ct{/i} {i}augēre {/i}→{i} auctum{/i}"
+          "text": "When phonetics dictate, we find s  instead of t: ▷ {i}dt{/i}/{i}tt {/i} →{i} s{/i} (usually {i}ss{/i} after a short vowel and {i}s{/i} after a long vowel) {i}claudere {/i} →{i} clausum{/i} ▷ {i}gt {/i} → {i}ct{/i} {i}augēre {/i} →{i} auctum{/i}"
         },
         {
           "t": "li",
@@ -152,8 +152,8 @@ const chapter = {
           "text": "There are several other irregularities, especially in 3rd conjugation verbs, where the addition of {i}t{/i} may cause changes by assimilation, e.g.: {i}scrīb-{/i}:{i} scrīpt-{/i} ({i}p{/i} is voiceless like {i}t{/i}) {i}claud-{/i}:{i} claus-{/i} ({i}dt > tt > ss >s{/i})"
         },
         {
-          "t": "p",
-          "text": "{b}Supine {/b}"
+          "t": "h",
+          "text": "Supine"
         },
         {
           "t": "p",
@@ -243,7 +243,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "In addition to the accusative expressing purpose with verbs of motion, the supine is found in the ablative. The {b}ablative supine{/b} is a rare form used to modify certain adjectives, particularly {i}facilis{/i} and {i}difficilis. {/i}The ablative shows the respect in which the adjectives apply (cf. the ablative of respect in Caps. XI and XIX)."
+          "text": "In addition to the accusative expressing purpose with verbs of motion, the supine is found in the ablative. The {b}ablative supine{/b} is a rare form used to modify certain adjectives, particularly {i}facilis{/i} and {i}difficilis. {/i} The ablative shows the respect in which the adjectives apply (cf. the ablative of respect in Caps. XI and XIX)."
         },
         {
           "t": "p",
@@ -251,7 +251,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Nōmen meum nōn est facile dictū. {/i}(l.43) = {i}Nōn est facile meum nōmen {/i} {i}dīcere.{/i} {i}Vōx tua difficilis est audītū.{/i} (l.46) = {i}Difficile est vōcem tuam audīre.{/i} {i}Id facilius est dictū quam factū.{/i} (l.81) = {i}Facilius est dīcere quam {/i} {i}facere.{/i}"
+          "text": "{i}Nōmen meum nōn est facile dictū. {/i} (l.43) = {i}Nōn est facile meum nōmen {/i} {i}dīcere.{/i} {i}Vōx tua difficilis est audītū.{/i} (l.46) = {i}Difficile est vōcem tuam audīre.{/i} {i}Id facilius est dictū quam factū.{/i} (l.81) = {i}Facilius est dīcere quam {/i} {i}facere.{/i}"
         },
         {
           "t": "h",
@@ -418,13 +418,13 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "After {i}sī, nisi {/i}(Cap. XV), {i}num, {/i} and {i}nē,{/i} the indefinite pronoun {i}aliquis, aliquid{/i} (someone, something) is shortened to {i}quis quid{/i}. In the following examples, the pronouns {i}quis, quid{/i} are not interrogative, but {b}indefinite{/b} (= {i}aliquis{/i}):"
+          "text": "After {i}sī, nisi {/i} (Cap. XV), {i}num, {/i} and {i}nē,{/i} the indefinite pronoun {i}aliquis, aliquid{/i} (someone, something) is shortened to {i}quis quid{/i}. In the following examples, the pronouns {i}quis, quid{/i} are not interrogative, but {b}indefinite{/b} (= {i}aliquis{/i}):"
         },
         {
           "t": "table",
           "rows": [
             [
-              "{i}Sī quis vīllam intrāre vult {/i}(l.7)",
+              "{i}Sī quis vīllam intrāre vult {/i} (l.7)",
               "“if anyone”"
             ],
             [
@@ -453,15 +453,11 @@ const chapter = {
               "Surely no one wants to enter?"
             ]
           ]
-        }
-      ],
-      "id": "lectio-prima"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō: Declension of Quis, Quid {/i}"
+        },
         {
           "t": "table",
           "rows": [
@@ -500,7 +496,7 @@ const chapter = {
           ]
         }
       ],
-      "id": "recensio"
+      "id": "lectio-prima"
     },
     {
       "latin": "Lēctiō Altera",
@@ -550,15 +546,11 @@ const chapter = {
               "{i}istīs{/i}"
             ]
           ]
-        }
-      ],
-      "id": "lectio-altera"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō{/i}"
+        },
         {
           "t": "p",
           "text": "Review the following pronouns/demonstrative adjectives"
@@ -590,7 +582,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Because of relative nearness of the demonstratives to the speaker (i.e., {i}hic {/i} → her by me, {i}ipse {/i}→ there by you and {i}ille {/i}→ there by him), they are sometimes called demonstratives of the 1st ({i}hic, haec, hoc{/i}), 2nd ({i}ipse, ipsa, ipsum{/i}) and 3rd ({i}ille, illa, illud{/i}) persons."
+          "text": "Because of relative nearness of the demonstratives to the speaker (i.e., {i}hic {/i} → her by me, {i}ipse {/i} → there by you and {i}ille {/i} → there by him), they are sometimes called demonstratives of the 1st ({i}hic, haec, hoc{/i}), 2nd ({i}ipse, ipsa, ipsum{/i}) and 3rd ({i}ille, illa, illud{/i}) persons."
         },
         {
           "t": "h",
@@ -711,7 +703,7 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "forīs: place where (cf. ibi, hīc, illīc) {i}Tandem iānitor forēs aperit et Tlēpolemum forīs in imbre stantem {/i} {i}videt {/i}(ll.56–57)"
+          "text": "forīs: place where (cf. ibi, hīc, illīc) {i}Tandem iānitor forēs aperit et Tlēpolemum forīs in imbre stantem {/i} {i}videt {/i} (ll.56–57)"
         },
         {
           "t": "p",
@@ -726,15 +718,11 @@ const chapter = {
         {
           "t": "p",
           "text": "{i}Prius vincī canem et sine mē intrāre! Nōlī iterum mē forās in {/i} {i}imbrem pellere!{/i} (l.115) {i}“Non ego,” inquit, “sed hic canis tē forās pepulit.”{/i} (ll.116–117)"
-        }
-      ],
-      "id": "recensio-2"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō: Ferre{/i}"
+        },
         {
           "t": "p",
           "text": "In this chapter we meet the full conjugation of the irregular verb {i}ferre{/i} (ll.105ff{i}.{/i}). As you can see from the paradigm below, only the present tense of {i}ferre{/i} is irregular: it lacks a vowel before the personal ending in the 2nd and 3rd persons singular ({i}fers, fert{/i}), and in the 2nd person plural ({i}fertis{/i}). In the other tenses, it is completely regular:"
@@ -768,7 +756,7 @@ const chapter = {
           ]
         }
       ],
-      "id": "recensio-3"
+      "id": "lectio-altera"
     },
     {
       "latin": "Studia Rōmāna",
@@ -785,7 +773,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Ut illud Nāsīcae, quī cum ad poētam Ennium vēnisset{/i} (when he had come), {i}eīque ab ostiō quaerentī Ennium ancilla dīxisset {/i}(the female slave had said) {i}domī nōn esse. Nāsīca sēnsit illam dominī iussū dīxisse {/i} {i}et illum intus esse; paucīs post diēbus cum ad Nāsīcam vēnisset {/i}(when he had come),{i} Ennius et eum ad iānuam quaereret{/i} (and was asking for){i}, {/i} {i}exclāmat Nāsīca domī non esse. Tum Ennius, “Quid? Ego nōn cognoscō {/i} {i}vōcem,” inquit “tuam?” Hic Nāsīca, “Homō es impudēns: ego cum tē {/i} {i}quaererem {/i}(when I asked for you) {i}ancillae tuae crēdidī tē domī nōn esse, {/i} {i}tū mihi nōn crēdis ipsī?”{/i}"
+          "text": "{i}Ut illud Nāsīcae, quī cum ad poētam Ennium vēnisset{/i} (when he had come), {i}eīque ab ostiō quaerentī Ennium ancilla dīxisset {/i} (the female slave had said) {i}domī nōn esse. Nāsīca sēnsit illam dominī iussū dīxisse {/i} {i}et illum intus esse; paucīs post diēbus cum ad Nāsīcam vēnisset {/i} (when he had come),{i} Ennius et eum ad iānuam quaereret{/i} (and was asking for){i}, {/i} {i}exclāmat Nāsīca domī non esse. Tum Ennius, “Quid? Ego nōn cognoscō {/i} {i}vōcem,” inquit “tuam?” Hic Nāsīca, “Homō es impudēns: ego cum tē {/i} {i}quaererem {/i} (when I asked for you) {i}ancillae tuae crēdidī tē domī nōn esse, {/i} {i}tū mihi nōn crēdis ipsī?”{/i}"
         },
         {
           "t": "p",
@@ -799,6 +787,8 @@ const chapter = {
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",
@@ -907,13 +897,23 @@ const chapter = {
     },
     {
       "group": "‑ere (3)",
-      "latin": "(accēdō) accēdere, accessisse,  accessum admissum",
-      "english": "approach (admittō) admittere, admīsisse, let in (cēdō) cēdere, cēssisse, yield"
+      "latin": "(accēdō) accēdere, accessisse,  accessum",
+      "english": "approach"
     },
     {
       "group": "‑ere (3)",
-      "latin": "cessum  fremitum",
-      "english": "({i}intr. + dat.{/i}) (fremō) fremere, fremuisse, growl"
+      "latin": "(admittō) admittere, admīsisse,  admissum",
+      "english": "let in"
+    },
+    {
+      "group": "‑ere (3)",
+      "latin": "(cēdō) cēdere, cēssisse,  cessum  ({i}intr. + dat.{/i})",
+      "english": "yield"
+    },
+    {
+      "group": "‑ere (3)",
+      "latin": "(fremō) fremere, fremuisse,  fremitum",
+      "english": "growl"
     },
     {
       "group": "‑ere (3)",
@@ -937,7 +937,7 @@ const chapter = {
     },
     {
       "group": "‑ere (3)",
-      "latin": "(resistō) resistere, restitisse (intr. + dat.)",
+      "latin": "(resistō) resistere, restitisse ({i}intr. + dat.{/i})",
       "english": "resist"
     },
     {

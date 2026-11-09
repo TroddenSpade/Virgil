@@ -123,7 +123,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{b}Syllabic Quantity: {/b}The decisive factor in Latin verse structure is the length or {b}quantity{/b} of the syllables. Syllables ending in a short vowel ({i}a, e, i, o, u, y{/i}) are short and are to be pronounced twice as quickly as long syllables, i.e., syllables ending in a long vowel ({i}ā, ē, ī, ō, ū, ȳ{/i}), a diphthong ({i}ae, oe, au, eu, ui{/i}), or a consonant. In other words: a syllable is short if it ends in a short vowel; all other syllables are long. A long syllable is marked [—] and a short syllable [∪]. {b}Syllabic Division: {/b}For the division into syllables, each {b}verse{/b} ({i}versus,{/i} “line”) is treated like one long word:"
+          "text": "{b}Syllabic Quantity: {/b} The decisive factor in Latin verse structure is the length or {b}quantity{/b} of the syllables. Syllables ending in a short vowel ({i}a, e, i, o, u, y{/i}) are short and are to be pronounced twice as quickly as long syllables, i.e., syllables ending in a long vowel ({i}ā, ē, ī, ō, ū, ȳ{/i}), a diphthong ({i}ae, oe, au, eu, ui{/i}), or a consonant. In other words: a syllable is short if it ends in a short vowel; all other syllables are long. A long syllable is marked [—] and a short syllable [∪]. {b}Syllabic Division: {/b} For the division into syllables, each {b}verse{/b} ({i}versus,{/i} “line”) is treated like one long word:"
         },
         {
           "t": "li",
@@ -139,7 +139,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{b}Metric Feet: {/b}Each verse can be divided into a certain number of feet (Latin {i}pedēs{/i}) composed of two or three syllables. The commonest feet are:"
+          "text": "{b}Metric Feet: {/b} Each verse can be divided into a certain number of feet (Latin {i}pedēs{/i}) composed of two or three syllables. The commonest feet are:"
         },
         {
           "t": "li",
@@ -167,15 +167,15 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{b}Hexameter: {/b}The favorite verse with Latin poets is the {b}hexameter{/b}, which consists of six feet, the first four of which are dactyls or spondees—the 5th, however, is almost always a dactyl, and the 6th a spondee (or trochee). The last syllable “counts” as long, regardless of its actual length, which is indicated below by an asterisk (*) in the final position:"
+          "text": "{b}Hexameter: {/b} The favorite verse with Latin poets is the {b}hexameter{/b}, which consists of six feet, the first four of which are dactyls or spondees—the 5th, however, is almost always a dactyl, and the 6th a spondee (or trochee). The last syllable “counts” as long, regardless of its actual length, which is indicated below by an asterisk (*) in the final position:"
         },
         {
           "t": "p",
-          "text": "— ∪∪| — ∪∪| — ∪∪| — ∪∪| — ∪∪| — * {b}Pentameter: {/b}The hexameter often alternates with the slightly shorter {b}pentameter{/b}, which can be divided into two halves of 2½ feet, each conforming to the beginning of the hexameter (but there are no spondees in the second half):"
+          "text": "— ∪∪| — ∪∪| — ∪∪| — ∪∪| — ∪∪| — * {b}Pentameter: {/b} The hexameter often alternates with the slightly shorter {b}pentameter{/b}, which can be divided into two halves of 2½ feet, each conforming to the beginning of the hexameter (but there are no spondees in the second half):"
         },
         {
           "t": "p",
-          "text": "— ∪∪| — ∪∪| — || — ∪∪| — ∪∪| — {b}Elegiac Couplet: {/b}The pentameter never stands alone, but always comes after a hexameter (in the text the pentameters are indented). Such a couplet, consisting of a hexameter and a pentameter, is called an {b}elegiac couplet{/b} because it was used in {b}elegies{/b}, i.e., poems expressing personal sentiments, mainly love poems. {b}Hendecasyllables: {/b} Catullus frequently uses the {b}hendecasyllable{/b} (Latin {i}versus hendecasyllabus,{/i} “eleven-syllable verse”), which consists of these eleven syllables:"
+          "text": "— ∪∪| — ∪∪| — || — ∪∪| — ∪∪| — {b}Elegiac Couplet: {/b} The pentameter never stands alone, but always comes after a hexameter (in the text the pentameters are indented). Such a couplet, consisting of a hexameter and a pentameter, is called an {b}elegiac couplet{/b} because it was used in {b}elegies{/b}, i.e., poems expressing personal sentiments, mainly love poems. {b}Hendecasyllables: {/b} Catullus frequently uses the {b}hendecasyllable{/b} (Latin {i}versus hendecasyllabus,{/i} “eleven-syllable verse”), which consists of these eleven syllables:"
         },
         {
           "t": "p",
@@ -292,7 +292,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}favēre {/i}(l.40) {i}nūbere {/i}(l.126) {i}plaudere{/i} (l.217)"
+          "text": "{i}favēre {/i} (l.40) {i}nūbere {/i} (l.126) {i}plaudere{/i} (l.217)"
         },
         {
           "t": "p",
@@ -314,7 +314,7 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "A double i (ii, iī) is apt to be contracted into one long ī, as you have seen in the form {i}dī{/i} for {i}diī.{/i}"
+          "text": "A double i  (ii, iī) is apt to be contracted into one long ī, as you have seen in the form {i}dī{/i} for {i}diī.{/i}"
         },
         {
           "t": "li",
@@ -326,11 +326,11 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "You also find sapīstī for sapiistī (l.190)—the latter form being a contraction of {i}sapīvistī{/i}; the final {i}v{/i} of the perfect stem tends to disappear, so that: {i}-īvisse{/i} becomes {i}-iisse{/i}/{i}-īsse{/i} {i}-āvisse {/i}becomes {i}-āsse{/i} {i}-āvistī {/i}becomes{i} -āstī{/i} (Cap. XXVIII, l.106) {i}nōvisse {/i}becomes{i} nōsse{/i} {i}nōverat {/i}becomes{i} nōrat{/i}"
+          "text": "You also find sapīstī for sapiistī (l.190)—the latter form being a contraction of {i}sapīvistī{/i}; the final {i}v{/i} of the perfect stem tends to disappear, so that: {i}-īvisse{/i} becomes {i}-iisse{/i}/{i}-īsse{/i} {i}-āvisse {/i} becomes {i}-āsse{/i} {i}-āvistī {/i} becomes{i} -āstī{/i} (Cap. XXVIII, l.106) {i}nōvisse {/i} becomes{i} nōsse{/i} {i}nōverat {/i} becomes{i} nōrat{/i}"
         },
         {
           "t": "p",
-          "text": "This last form, the pluperfect of {i}nōscere,{/i} comes to mean “knew,” e.g.: {i}Ovidius ingenium mulierum tam bene nōverat quam ipsae mulierēs.{/i} (ll.54–55) {i}suamque nōrat ipsam {/i}(:{i} dominam{/i}){i} tam bene quam puella mātrem{/i} (ll.93–94)"
+          "text": "This last form, the pluperfect of {i}nōscere,{/i} comes to mean “knew,” e.g.: {i}Ovidius ingenium mulierum tam bene nōverat quam ipsae mulierēs.{/i} (ll.54–55) {i}suamque nōrat ipsam {/i} (:{i} dominam{/i}){i} tam bene quam puella mātrem{/i} (ll.93–94)"
         }
       ],
       "id": "topic-9"
@@ -388,6 +388,8 @@ const chapter = {
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",
@@ -607,7 +609,7 @@ const chapter = {
     {
       "group": "Grammatica",
       "latin": "versiculus, -ī",
-      "english": "a little line of verse ({i}diminuitive{/i} of versus, -ūs)"
+      "english": "a little line of verse ({i}diminuitive{/i} of {b}versus, -ūs{/b})"
     },
     {
       "group": "‑āre (1)",
@@ -691,13 +693,8 @@ const chapter = {
     },
     {
       "group": "‑ere (3)",
-      "latin": "(plaudō) plaudere, plausisse,",
+      "latin": "(plaudō) plaudere, plausisse, plausum  ({i}+ dat.{/i})",
       "english": "clap, applaud"
-    },
-    {
-      "group": "‑ere (3)",
-      "latin": "plausum",
-      "english": "({i}+ dat.{/i})"
     },
     {
       "group": "‑ere (3)",

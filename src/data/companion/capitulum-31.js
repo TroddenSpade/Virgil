@@ -189,7 +189,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Super {/i}usually takes the accusative (“above”); but when used instead of {i}dē{/i} in the sense “about,” “concerning,” {i}super{/i} takes the ablative:"
+          "text": "{i}Super {/i} usually takes the accusative (“above”); but when used instead of {i}dē{/i} in the sense “about,” “concerning,” {i}super{/i} takes the ablative:"
         },
         {
           "t": "p",
@@ -209,7 +209,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "In Cap. XXVI, you learned about the {b}gerund{/b} (Latin {i}gerundium{/i}), a {b}verbal {/b} {b}noun{/b} with forms in the accusative, genitive, dative, and ablative of the neuter singular; it is active in meaning. The {b}gerundive{/b} (Latin {i}gerundīvum{/i}) is a {b}verbal {/b} {b}adjective{/b}. Orontes’s {i}“Vīvant omnēs fēminae amandae!” {/i}(ll.172–173) offers an example of the gerundive, which:"
+          "text": "In Cap. XXVI, you learned about the {b}gerund{/b} (Latin {i}gerundium{/i}), a {b}verbal {/b} {b}noun{/b} with forms in the accusative, genitive, dative, and ablative of the neuter singular; it is active in meaning. The {b}gerundive{/b} (Latin {i}gerundīvum{/i}) is a {b}verbal {/b} {b}adjective{/b}. Orontes’s {i}“Vīvant omnēs fēminae amandae!” {/i} (ll.172–173) offers an example of the gerundive, which:"
         },
         {
           "t": "li",
@@ -362,7 +362,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "love! (l.173) {i}Vīvāmus omnēs et bibāmus. {/i}(ll.183–184) {i}Pōcula funditus exhauriāmus. {/i}(l.184)"
+          "text": "love! (l.173) {i}Vīvāmus omnēs et bibāmus. {/i} (ll.183–184) {i}Pōcula funditus exhauriāmus. {/i} (l.184)"
         },
         {
           "t": "table",
@@ -487,6 +487,8 @@ const chapter = {
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",
@@ -625,13 +627,8 @@ const chapter = {
     },
     {
       "group": "‑ere (3)",
-      "latin": "(cōnfīdō) cōnfīdere,",
+      "latin": "(cōnfīdō) cōnfīdere,  cōnfīsum ({i}+ dat.{/i})",
       "english": "trust"
-    },
-    {
-      "group": "‑ere (3)",
-      "latin": "cōnfīsum",
-      "english": "({i}+ dat.{/i})"
     },
     {
       "group": "‑ere (3)",
@@ -640,13 +637,8 @@ const chapter = {
     },
     {
       "group": "‑ere (3)",
-      "latin": "(ignōscō) ignōscere, ignōvisse",
+      "latin": "(ignōscō) ignōscere, ignōvisse ignōtum ({i}+ dat.{/i})",
       "english": ", forgive"
-    },
-    {
-      "group": "‑ere (3)",
-      "latin": "ignōtum",
-      "english": "({i}+ dat.{/i})"
     },
     {
       "group": "‑ere (3)",
@@ -815,8 +807,8 @@ const chapter = {
     },
     {
       "group": "Praepositiōnēs",
-      "latin": "cōram",
-      "english": "({i}prp. + abl.{/i})in the presence of, face to face (with) (also adv.)"
+      "latin": "cōram (also{i} adv.{/i})",
+      "english": "({i}prp. + abl.{/i})in the presence of, face to face (with)"
     },
     {
       "group": "Praepositiōnēs",

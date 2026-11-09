@@ -98,8 +98,8 @@ const chapter = {
           "text": "in the consonant-verbs a short -i- is inserted before the -t: pōn|it, {i}sūm{/i}|{i}it, discēd{/i}|{i}it.{/i}"
         },
         {
-          "t": "p",
-          "text": "{b}Conjugations{/b}"
+          "t": "h",
+          "text": "Conjugations"
         },
         {
           "t": "table",
@@ -141,24 +141,24 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The form of the verb used to give orders is called the {b}imperative{/b} (Latin {i}imperātīvus{/i}, from {i}imperat, {/i}“he, she, it orders”). When giving an order to one person, the Latin imperative consists of the shortest form of the verb called the {b}stem{/b}, without any ending, e.g., {i}vocā! tacē! venī!{/i}, or a short {i}-e{/i} is added when the stem ends in a consonant, as in {i}pōne!{/i} (the stem is {i}pōn-{/i}). Examples:"
+          "text": "The form of the verb used to give orders is called the {b}imperative{/b} (Latin {i}imperātīvus{/i}, from {i}imperat, {/i} “he, she, it orders”). When giving an order to one person, the Latin imperative consists of the shortest form of the verb called the {b}stem{/b}, without any ending, e.g., {i}vocā! tacē! venī!{/i}, or a short {i}-e{/i} is added when the stem ends in a consonant, as in {i}pōne!{/i} (the stem is {i}pōn-{/i}). Examples:"
         },
         {
           "t": "table",
           "rows": [
             [
-              "{i}Dāvum vocā! {/i}(l.24)",
-              "{i}Tacē, serve! {/i}(l.37)"
+              "{i}Dāvum vocā! {/i} (l.24)",
+              "{i}Tacē, serve! {/i} (l.37)"
             ],
             [
-              "{i}Venī! {/i}(l.27)",
-              "{i}Sacculum tuum in mēnsā pōne! {/i}(l.60)"
+              "{i}Venī! {/i} (l.27)",
+              "{i}Sacculum tuum in mēnsā pōne! {/i} (l.60)"
             ]
           ]
         },
         {
-          "t": "p",
-          "text": "{b}Imperative{/b}"
+          "t": "h",
+          "text": "Imperative"
         },
         {
           "t": "p",
@@ -199,7 +199,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}In sacculō eius {/i}(:{i} Iūliī{/i}){i} est pecūnia.{/i} (l.1)"
+          "text": "{i}In sacculō eius {/i} (:{i} Iūliī{/i}){i} est pecūnia.{/i} (l.1)"
         },
         {
           "t": "h",
@@ -239,7 +239,7 @@ const chapter = {
           "rows": [
             [
               "{i}Dāvus sacculum eius sūmit. {/i}",
-              "Davus takes{i} his {/i}(someone else’s) bag."
+              "Davus takes{i} his {/i} (someone else’s) bag."
             ]
           ]
         },
@@ -275,15 +275,11 @@ const chapter = {
           "marker": "•",
           "ordered": false,
           "text": "referring to something that does not belong to the grammatical subject of the clause, the {b}pronoun{/b} {i}eius{/i} is used:{i} Servus eius abest.{/i}"
-        }
-      ],
-      "id": "lectio-prima"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō: Possessive Adjectives and Possessive Pronouns{/i}"
+        },
         {
           "t": "p",
           "text": "Compare the following examples:"
@@ -293,11 +289,11 @@ const chapter = {
           "rows": [
             [
               "{i}Ubi est sacculus tuus? {/i}",
-              "Where is {i}your {/i}bag? (l.58)"
+              "Where is {i}your {/i} bag? (l.58)"
             ],
             [
               "{i}Ecce sacculus meus. {/i}",
-              "Here is{i} my {/i}bag. (l.59)"
+              "Here is{i} my {/i} bag. (l.59)"
             ],
             [
               "{i}Sūme sacculum tuum. {/i}",
@@ -311,7 +307,16 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "bag. {i}Dāvus sacculum suum sūmit. {/i} Davus takes {i}his own{/i} bag. (l.74)"
+          "text": "bag."
+        },
+        {
+          "t": "table",
+          "rows": [
+            [
+              "{i}Dāvus sacculum suum sūmit. {/i}",
+              "Davus takes {i}his own{/i} bag. (l.74)"
+            ]
+          ]
         },
         {
           "t": "h",
@@ -319,7 +324,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "When one person uses another’s name as a form of address, he or she uses the vocative case, the case of “calling” (Latin {i}vocātīvus,{/i} from {i}vocat{/i}){i}. {/i}We have already seen the characters in our story addressing each other in Cap. III:"
+          "text": "When one person uses another’s name as a form of address, he or she uses the vocative case, the case of “calling” (Latin {i}vocātīvus,{/i} from {i}vocat{/i}){i}. {/i} We have already seen the characters in our story addressing each other in Cap. III:"
         },
         {
           "t": "p",
@@ -348,7 +353,7 @@ const chapter = {
             [
               "{i}dominus{/i} (nom.)",
               "→",
-              "{i}domine {/i}(voc.)"
+              "{i}domine {/i} (voc.)"
             ],
             [
               "{i}servus{/i} (nom.)",
@@ -391,7 +396,7 @@ const chapter = {
           ]
         }
       ],
-      "id": "recensio"
+      "id": "lectio-prima"
     },
     {
       "latin": "Lēctiō Altera",
@@ -456,16 +461,12 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Dāvus bonus servus est. Is nōn habet pecūniam meam. {/i}(ll.81–82) {i}Mēdus nōn venit, quia is habet pecūniam tuam. {/i}(ll.92–93) {i}Iūlius īrātus est—is nōn rīdet!{/i} (l.94)"
-        }
-      ],
-      "id": "lectio-tertia"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+          "text": "{i}Dāvus bonus servus est. Is nōn habet pecūniam meam. {/i} (ll.81–82) {i}Mēdus nōn venit, quia is habet pecūniam tuam. {/i} (ll.92–93) {i}Iūlius īrātus est—is nōn rīdet!{/i} (l.94)"
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō: Grammatical Terms{/i}"
+        },
         {
           "t": "p",
           "text": "{b}Stem: {/b} the form of the verb without its endings {b}Conjugation:{/b} one of the four groups of verbs: {i}Coniugātiō{/i} {b}Mood:{/b} the name given to the category of expression of the verb (e.g., makes a"
@@ -475,7 +476,7 @@ const chapter = {
           "text": "statement; gives an order): {i}Modus{/i} {b}Indicative:{/b} the mood of the verb that asks a question or makes a statement: {i}Indicātīvus{/i} {b}Imperative:{/b} the mood of the verb that gives an order:{i} Imperātīvus{/i} {b}Nominative:{/b} the case of the subject:{i} Nōminātīvus{/i} {b}Accusative:{/b} the case of the direct object: {i}Accūsātīvus{/i} {b}Genitive:{/b} the case of possession: {i}Genetīvus{/i} {b}Vocative:{/b} the case of calling, or address: {i}Vocātīvus{/i}"
         }
       ],
-      "id": "recensio-2"
+      "id": "lectio-tertia"
     },
     {
       "latin": "Studia Rōmāna",
@@ -484,7 +485,7 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "The {i}familia{/i} consists of the master ({i}dominus{/i}), his wife ({i}domina{/i}), their children ({i}līberī{/i}, the “free people”), and the slaves ({i}servī{/i} and {i}ancillae{/i}). The {i}familia{/i} had a shared religious cult: the {i}lar familiāris{/i} (or plural: {i}larēs familiārēs{/i}) whose shrine was called a {i}larārium{/i} (located usually in the {i}ātrium{/i}, but sometimes also found in the kitchen or peristyle—an inner courtyard lined with rows of columns). {i}Larēs{/i} are depicted as male dancers, mid-dance (as can be seen from their billowing tunics), carrying a drinking horn or a bowl. They often flank an image of a man with his toga over his head (the garb of someone acting in a priestly function and preparing to perform a sacrifice); this image represents the {i}genius{/i} (spirit) of the {i}dominus {/i}of the home. There is also often a snake depicted below the {i}larēs{/i} and the {i}dominus{/i}. The {i}larēs {/i}belonged to and protected the place, and thus united all who lived in that place. In addition to the {i}larēs{/i} for the homestead (the {i}larēs{/i} {i}familiārēs{/i}), there were also {i}larēs {/i}for the crossroads in the neighborhood (the gods of the crossroads, honored at the festival of the {i}Compitālia{/i}) and of the town in general ({i}larēs pūblicī{/i})—that is, of nearly every place that was marked as a specific location (as are the home, the crossroads, etc.)."
+          "text": "The {i}familia{/i} consists of the master ({i}dominus{/i}), his wife ({i}domina{/i}), their children ({i}līberī{/i}, the “free people”), and the slaves ({i}servī{/i} and {i}ancillae{/i}). The {i}familia{/i} had a shared religious cult: the {i}lar familiāris{/i} (or plural: {i}larēs familiārēs{/i}) whose shrine was called a {i}larārium{/i} (located usually in the {i}ātrium{/i}, but sometimes also found in the kitchen or peristyle—an inner courtyard lined with rows of columns). {i}Larēs{/i} are depicted as male dancers, mid-dance (as can be seen from their billowing tunics), carrying a drinking horn or a bowl. They often flank an image of a man with his toga over his head (the garb of someone acting in a priestly function and preparing to perform a sacrifice); this image represents the {i}genius{/i} (spirit) of the {i}dominus {/i} of the home. There is also often a snake depicted below the {i}larēs{/i} and the {i}dominus{/i}. The {i}larēs {/i} belonged to and protected the place, and thus united all who lived in that place. In addition to the {i}larēs{/i} for the homestead (the {i}larēs{/i} {i}familiārēs{/i}), there were also {i}larēs {/i} for the crossroads in the neighborhood (the gods of the crossroads, honored at the festival of the {i}Compitālia{/i}) and of the town in general ({i}larēs pūblicī{/i})—that is, of nearly every place that was marked as a specific location (as are the home, the crossroads, etc.)."
         },
         {
           "t": "p",
@@ -494,6 +495,8 @@ const chapter = {
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",

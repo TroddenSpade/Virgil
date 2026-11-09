@@ -2,7 +2,7 @@ import { Inline } from './Commentary.jsx'
 
 /* The chapter vocabulary exactly as the Companion prints it: grouped lists
    (Nōmina, Verba, Adiectīva, Numerī, Adverbia, Praepositiōnēs, Coniūnctiōnēs). */
-export default function CompanionVocabulary({ words }) {
+export default function CompanionVocabulary({ words, notes }) {
   if (!words?.length) return null
 
   const groups = []
@@ -18,6 +18,15 @@ export default function CompanionVocabulary({ words }) {
 
   return (
     <div className="cv">
+      {notes?.length > 0 && (
+        <div className="cv__notes">
+          {notes.map((note, i) => (
+            <p className="cv__note" key={i}>
+              <Inline text={note} />
+            </p>
+          ))}
+        </div>
+      )}
       {groups.map((group) => (
         <section className="cv__group" key={group.name}>
           <h3 className="cv__group-title latin">

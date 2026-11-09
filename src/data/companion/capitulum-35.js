@@ -52,7 +52,7 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "(genus) fēminīnum (masculīnum, neutrum, commūne)"
+          "text": "(genus) fēminīnum  (masculīnum, neutrum, commūne)"
         },
         {
           "t": "p",
@@ -62,6 +62,8 @@ const chapter = {
       "id": "ars-grammatica"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",

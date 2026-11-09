@@ -135,7 +135,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Singular: {i}-ī{/i} (m./n.) and {i}-ae{/i} (f.) {i}Iūlius est pater Mārcī et Quīntī et Iūliae.{/i} {i}Titulus capitulī secundī est “Familia Rōmāna.” {/i}(ll.87–88) Plural: {i}-ōrum{/i} (m./n.) and {i}-ārum{/i} (f.) {i}Iūlius est dominus multōrum servōrum et multārum ancillārum.{/i} {i}In Graeciā et in Italiā magnus numerus oppidōrum est. {/i}(l.56) To express the idea of the genitive, English uses the word “of ” or an apostrophe: {i}māter Iūliae {/i}= “Julia{i}’s{/i} mother” or “the mother {i}of{/i} Julia.” genitive: “of,” “-’s” m./n. f."
+          "text": "Singular: {i}-ī{/i} (m./n.) and {i}-ae{/i} (f.) {i}Iūlius est pater Mārcī et Quīntī et Iūliae.{/i} {i}Titulus capitulī secundī est “Familia Rōmāna.” {/i} (ll.87–88) Plural: {i}-ōrum{/i} (m./n.) and {i}-ārum{/i} (f.) {i}Iūlius est dominus multōrum servōrum et multārum ancillārum.{/i} {i}In Graeciā et in Italiā magnus numerus oppidōrum est. {/i} (l.56) To express the idea of the genitive, English uses the word “of ” or an apostrophe: {i}māter Iūliae {/i} = “Julia{i}’s{/i} mother” or “the mother {i}of{/i} Julia.” genitive: “of,” “-’s” m./n. f."
         },
         {
           "t": "table",
@@ -164,7 +164,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Instead of {i}et{/i}, you often find the conjunction {i}-que{/i} attached after the second word. {i}-que{/i} is called an enclitic because it “leans on” (from the Greek ἐγκλίνω) the word in front of it and cannot stand on its own. The mark “-” in front of it signals an enclitic. Both {i}et{/i} and -{i}que{/i} mean “and”: {i}Dēlia Mēdusque{/i} = {i}Dēlia et Mēdus. {/i}(l.9) {i}fīliī fīliaeque{/i} = {i}fīliī et fīliae.{/i} (l.22)"
+          "text": "Instead of {i}et{/i}, you often find the conjunction {i}-que{/i} attached after the second word. {i}-que{/i} is called an enclitic because it “leans on” (from the Greek ἐγκλίνω) the word in front of it and cannot stand on its own. The mark “-” in front of it signals an enclitic. Both {i}et{/i} and -{i}que{/i} mean “and”: {i}Dēlia Mēdusque{/i} = {i}Dēlia et Mēdus. {/i} (l.9) {i}fīliī fīliaeque{/i} = {i}fīliī et fīliae.{/i} (l.22)"
         },
         {
           "t": "h",
@@ -187,11 +187,11 @@ const chapter = {
           "rows": [
             [
               "{i}Quis est Mārcus? {/i}",
-              "masculine{i} quis {/i}(plural{i} quī{/i})"
+              "masculine{i} quis {/i} (plural{i} quī{/i})"
             ],
             [
               "{i}Quae est Iūlia? {/i}",
-              "feminine{i} quae {/i}(plural{i} quae{/i}){{1}}"
+              "feminine{i} quae {/i} (plural{i} quae{/i}){{1}}"
             ]
           ]
         },
@@ -214,7 +214,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Cuius servus est Dāvus? Dāvus servus Iūliī est. {/i}(l.35)"
+          "text": "{i}Cuius servus est Dāvus? Dāvus servus Iūliī est. {/i} (l.35)"
         },
         {
           "t": "table",
@@ -273,7 +273,7 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "the feminine of duo is duae (duae fīliae) and the neuter duo"
+          "text": "the feminine of duo is duae  (duae fīliae) and the neuter duo"
         },
         {
           "t": "li",
@@ -320,7 +320,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Numerus līberōrum est trēs. {/i}(ll.43–44)"
+          "text": "{i}Numerus līberōrum est trēs. {/i} (ll.43–44)"
         },
         {
           "t": "p",
@@ -344,7 +344,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Cēterī fluviī Āfricae parvī sunt. {/i}(l.59) The adjective {i}cēterī, -ae, -a,{/i} “the others,” recurs several times; thus, the enumeration of the first three of the thirty-five {i}capitula{/i} is concluded with {i}cētera{/i}: {i}In Linguā Latinā sunt multae pāginae et multa capitula{/i}:{i} capitulum {/i} {i}prīmum, secundum, tertium, cētera. {/i}(l.86)"
+          "text": "{i}Cēterī fluviī Āfricae parvī sunt. {/i} (l.59) The adjective {i}cēterī, -ae, -a,{/i} “the others,” recurs several times; thus, the enumeration of the first three of the thirty-five {i}capitula{/i} is concluded with {i}cētera{/i}: {i}In Linguā Latinā sunt multae pāginae et multa capitula{/i}:{i} capitulum {/i} {i}prīmum, secundum, tertium, cētera. {/i} (l.86)"
         },
         {
           "t": "p",
@@ -432,22 +432,22 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Notice the form of an ancient book: a scroll with the text written in columns. The Latin word for such a scroll is {i}liber. Liber, {/i}like{i} puer{/i} (also in this chapter), ends in {i}-er{/i} instead of in {i}-us{/i}. Notice that some nouns (like {i}puer{/i}) keep an{i} e{/i} throughout, while others (like {i}liber{/i}) have {i}e{/i} only in the nominative (and vocative, the form used when directly addressing someone).{{2}} The plural of {i}liber{/i} is {i}librī, {/i}while the plural of {i}puer{/i} is {i}puerī.{/i} These nouns are always masculine{i}.{/i}"
+          "text": "Notice the form of an ancient book: a scroll with the text written in columns. The Latin word for such a scroll is {i}liber. Liber, {/i} like{i} puer{/i} (also in this chapter), ends in {i}-er{/i} instead of in {i}-us{/i}. Notice that some nouns (like {i}puer{/i}) keep an{i} e{/i} throughout, while others (like {i}liber{/i}) have {i}e{/i} only in the nominative (and vocative, the form used when directly addressing someone).{{2}} The plural of {i}liber{/i} is {i}librī, {/i} while the plural of {i}puer{/i} is {i}puerī.{/i} These nouns are always masculine{i}.{/i}"
         },
         {
           "t": "p",
-          "text": "{i}Notā Bene: {/i}Look to the genitive to determine what happens to the {i}e{/i}:"
+          "text": "{i}Notā Bene: {/i} Look to the genitive to determine what happens to the {i}e{/i}:"
         },
         {
           "t": "table",
           "rows": [
             [
               "{i}puer, puerī {/i}",
-              "(there will be an {i}e {/i}throughout)"
+              "(there will be an {i}e {/i} throughout)"
             ],
             [
               "{i}liber, librī {/i}",
-              "(the {i}e {/i}is found only in the nominative)"
+              "(the {i}e {/i} is found only in the nominative)"
             ]
           ]
         },
@@ -467,15 +467,11 @@ const chapter = {
               "{i}puerī{/i}"
             ]
           ]
-        }
-      ],
-      "id": "lectio-tertia"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō: Grammatical Terms{/i}"
+        },
         {
           "t": "p",
           "text": "{b}Decline:{/b} Nouns, adjectives, and pronouns change endings, depending on"
@@ -485,7 +481,7 @@ const chapter = {
           "text": "their use in the sentence; that is, they are said to decline. {b}Declensions:{/b} Nouns, adjectives, and pronouns are grouped according to their characteristic vowel into families, called declensions. The vowel -{i}a{/i} characterizes the first declension (e.g., {i}puella, domina{/i}), while -{i}o{/i}/{i}u{/i} marks the second declension (e.g., {i}servus, imperium{/i}). {b}Enclitic:{/b} An enclitic is a word that cannot stand on its own; it attaches itself to the word it follows. {b}Gender:{/b} Nouns, adjectives, and pronouns fall into three categories called genders: masculine, feminine, and neuter. {b}Indeclinable:{/b} A word is called indeclinable if it never changes endings."
         }
       ],
-      "id": "recensio"
+      "id": "lectio-tertia"
     },
     {
       "latin": "Studia Rōmāna",
@@ -498,12 +494,14 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Both Marcus and Quintus wear a toga with a purple stripe (the {i}toga praetexta{/i}, or bordered toga), the normal ceremonial dress of free-born male children (and also of magistrates!) until around the age of fifteen or sixteen, when they assumed the {i}toga virīlis{/i} (the toga of manhood, from {i}vir{/i}) like their father. Young girls also wore the {i}toga praetexta{/i} when they were dressed formally, although Julia is shown here with a plain toga over her long tunic. Over her tunic, Aemilia wears the {i}palla{/i}, a long, wide, and cloak-like garment. The tunic of both girls and adult women reached to the foot. Over her tunic but under the {i}palla, {/i}Aemilia is probably wearing a {i}stola{/i}, a long, sleeveless garment that signifies her status as a {i}mātrōna{/i}, a married woman. Clothing was made of wool at home by the {i}māterfamilias{/i} and her {i}ancillae{/i}. In Livy, (59 BC–AD 17) we find Lucretia, a paragon of Roman womanhood, in the atrium spinning wool with her {i}ancillae{/i} by lamplight).{{3}} Suetonius’s (c. AD 75–160) biography of the emperor Augustus tells us that the women in his household learned to spin and weave, despite the family’s great wealth and power ({i}Aug{/i}. 64). The republican period epitaph of a woman named Claudia records, among her accomplishments as the {i}māterfamilias{/i}, “She looked after the house; she did the wool-working” ({i}domum servāvit. Lānam fēcit{/i}). Children also wore protective amulets around their necks. Boys wore the {i}bulla{/i} (which was round) and girls the {i}lūnula{/i} (“little moon” and moon shaped). When boys assumed the {i}toga virīlis{/i}, they dedicated the {i}bulla{/i} to the household gods known as the{i} Larēs{/i}. Before their marriage, girls also dedicated the {i}toga {/i} {i}praetexta{/i}, their toys, and the {i}lūnula{/i} to the {i}Larēs{/i}. The {i}Larēs{/i} represented the spirits of deified dead ancestors; you will learn more about them in Cap. IV. Footwear included {i}soleae{/i} (sandals) and {i}calceī{/i} (shoes); {i}soleae{/i} covered only part of the foot, and were worn indoors and at meals, while the {i}calceus{/i} (Cap. XIV, p. 106) covered the whole foot and was a sturdier shoe. We see the slaves, both men and women, wearing short, belted tunics."
+          "text": "Both Marcus and Quintus wear a toga with a purple stripe (the {i}toga praetexta{/i}, or bordered toga), the normal ceremonial dress of free-born male children (and also of magistrates!) until around the age of fifteen or sixteen, when they assumed the {i}toga virīlis{/i} (the toga of manhood, from {i}vir{/i}) like their father. Young girls also wore the {i}toga praetexta{/i} when they were dressed formally, although Julia is shown here with a plain toga over her long tunic. Over her tunic, Aemilia wears the {i}palla{/i}, a long, wide, and cloak-like garment. The tunic of both girls and adult women reached to the foot. Over her tunic but under the {i}palla, {/i} Aemilia is probably wearing a {i}stola{/i}, a long, sleeveless garment that signifies her status as a {i}mātrōna{/i}, a married woman. Clothing was made of wool at home by the {i}māterfamilias{/i} and her {i}ancillae{/i}. In Livy, (59 BC–AD 17) we find Lucretia, a paragon of Roman womanhood, in the atrium spinning wool with her {i}ancillae{/i} by lamplight).{{3}} Suetonius’s (c. AD 75–160) biography of the emperor Augustus tells us that the women in his household learned to spin and weave, despite the family’s great wealth and power ({i}Aug{/i}. 64). The republican period epitaph of a woman named Claudia records, among her accomplishments as the {i}māterfamilias{/i}, “She looked after the house; she did the wool-working” ({i}domum servāvit. Lānam fēcit{/i}). Children also wore protective amulets around their necks. Boys wore the {i}bulla{/i} (which was round) and girls the {i}lūnula{/i} (“little moon” and moon shaped). When boys assumed the {i}toga virīlis{/i}, they dedicated the {i}bulla{/i} to the household gods known as the{i} Larēs{/i}. Before their marriage, girls also dedicated the {i}toga {/i} {i}praetexta{/i}, their toys, and the {i}lūnula{/i} to the {i}Larēs{/i}. The {i}Larēs{/i} represented the spirits of deified dead ancestors; you will learn more about them in Cap. IV. Footwear included {i}soleae{/i} (sandals) and {i}calceī{/i} (shoes); {i}soleae{/i} covered only part of the foot, and were worn indoors and at meals, while the {i}calceus{/i} (Cap. XIV, p. 106) covered the whole foot and was a sturdier shoe. We see the slaves, both men and women, wearing short, belted tunics."
         }
       ],
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st declension",
@@ -673,10 +671,23 @@ const chapter = {
     {
       "group": "Coniūnctiōnēs",
       "latin": "-que",
-      "english": "and {i}enclitic added to the second word {/i} of a pair of words in order to link them together"
+      "english": "and {i}enclitic added to the second word {/i} {i}of a pair of words in order to link them {/i} {i}together{/i}"
     }
   ],
-  "notes": []
+  "notes": [
+    {
+      "n": 1,
+      "text": "Latin, in fact, tended to use quis for both masculine and feminine nominative singular."
+    },
+    {
+      "n": 2,
+      "text": "Vocative, Cap. IV."
+    },
+    {
+      "n": 3,
+      "text": "Ab urbe conditā, 1.57. Lūcrētiam…nocte sērā dēditam lānae inter lūcūbrantēs ancillās in mediō {i}aedium sedentem inveniunt{/i}."
+    }
+  ]
 }
 
 export default chapter

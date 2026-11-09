@@ -95,19 +95,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "In Cap. V, you met some common {b}prepositions{/b} that take the ablative (see"
-        }
-      ],
-      "id": "lectio-prima"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "e.g.:"
+          "text": "In Cap. V, you met some common {b}prepositions{/b} that take the ablative (see {i}Recēnsiō{/i} at the end of Cap. V). Most other prepositions take the {b}accusative{/b}, e.g.:"
         },
         {
           "t": "table",
@@ -129,7 +117,8 @@ const chapter = {
             ],
             [
               "{i}circum{/i}",
-              "{i}Circum Rōmam est mūrus {/i} Around Rome is an ancient"
+              "{i}Circum Rōmam est mūrus {/i}",
+              "Around Rome is an ancient"
             ],
             [
               "{i} antīquus. {/i}",
@@ -284,10 +273,10 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Tiberis fluvius nōn tam longus est quam fluvius Padus. (l.13){/i} {i}Circum oppidum Tūsculum mūrus nōn tam longus est quam circum {/i} {i}Saccī quōs Syrus et Lēander portant magnī sunt, sed saccus quem Syrus {/i} {i}portat nōn tam magnus est quam saccus{/i} {i}Lēandri. {/i}(ll.27–29)"
+          "text": "{i}Tiberis fluvius nōn tam longus est quam fluvius Padus. (l.13){/i} {i}Circum oppidum Tūsculum mūrus nōn tam longus est quam circum {/i} {i}Rōmam. (ll.16–17){/i} {i}Saccī quōs Syrus et Lēander portant magnī sunt, sed saccus quem Syrus {/i} {i}portat nōn tam magnus est quam saccus{/i} {i}Lēandri. {/i} (ll.27–29)"
         }
       ],
-      "id": "recensio"
+      "id": "lectio-prima"
     },
     {
       "latin": "Lēctiō Altera",
@@ -304,7 +293,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Motion {b}to{/b} or {b}from{/b} a town mentioned by name is expressed by the name of the town in the accusative or ablative, respectively, {b}without a preposition{/b}. In Latin, therefore, we speak of traveling {i}Rōmā—Brundisium {/i}(from Rome to Brundisium), or, if going in the opposite direction, {i}Brundisiō—Rōmam {/i}(from Brundisium to Rome){i}. {/i}"
+          "text": "Motion {b}to{/b} or {b}from{/b} a town mentioned by name is expressed by the name of the town in the accusative or ablative, respectively, {b}without a preposition{/b}. In Latin, therefore, we speak of traveling {i}Rōmā—Brundisium {/i} (from Rome to Brundisium), or, if going in the opposite direction, {i}Brundisiō—Rōmam {/i} (from Brundisium to Rome){i}. {/i}"
         },
         {
           "t": "p",
@@ -337,11 +326,15 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Is nōn Tūsculō, sed Rōmā venit. {/i}(ll.53–54) Otherwise, prepositions are used: {i}Iūlius ab oppidō ad vīllam suam it. {/i}(l.20)"
+          "text": "{i}Is nōn Tūsculō, sed Rōmā venit. {/i} (ll.53–54) Otherwise, prepositions are used: {i}Iūlius ab oppidō ad vīllam suam it. {/i} (l.20)"
         },
         {
           "t": "p",
-          "text": "{i}Dominus et servī ab oppidō ad vīllam eunt. {/i}(ll.20–21) {b}II. Locative Case (place in which) {/b}"
+          "text": "{i}Dominus et servī ab oppidō ad vīllam eunt. {/i} (ll.20–21)"
+        },
+        {
+          "t": "h",
+          "text": "II. Locative Case (place in which)"
         },
         {
           "t": "p",
@@ -353,7 +346,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Cornēlius Tūsculī habitat. {/i}(l.59) {i}Mēdus Rōmae est. {/i}(l.47) Instead of “{i}in{/i},” the name takes the ending {i}-ī{/i} or {i}-ae{/i} according to whether the nominative ends in {i}-um{/i}/{i}-us{/i} or {i}-a.{/i} This form is called locative (Latin {i}locātīvus{/i}, from {i}locus{/i}, “place”):"
+          "text": "{i}Cornēlius Tūsculī habitat. {/i} (l.59) {i}Mēdus Rōmae est. {/i} (l.47) Instead of “{i}in{/i},” the name takes the ending {i}-ī{/i} or {i}-ae{/i} according to whether the nominative ends in {i}-um{/i}/{i}-us{/i} or {i}-a.{/i} This form is called locative (Latin {i}locātīvus{/i}, from {i}locus{/i}, “place”):"
         },
         {
           "t": "table",
@@ -543,7 +536,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "In the second sentence, Marcus is no longer the grammatical subject, but he is still the actor, or {b}agent{/b}, of the verb. In the passive voice, the name of the person by whom the action is performed, the {b}agent{/b}, is in the ablative preceded by {i}ab{/i} or {i}ā {/i}({i}ā Mārcō{/i}){i}.{/i} This construction is called the {b}ablative of personal {/b} {b}agent{/b}, that is, when the agent is a person, not a thing or an animal:"
+          "text": "In the second sentence, Marcus is no longer the grammatical subject, but he is still the actor, or {b}agent{/b}, of the verb. In the passive voice, the name of the person by whom the action is performed, the {b}agent{/b}, is in the ablative preceded by {i}ab{/i} or {i}ā {/i} ({i}ā Mārcō{/i}){i}.{/i} This construction is called the {b}ablative of personal {/b} {b}agent{/b}, that is, when the agent is a person, not a thing or an animal:"
         },
         {
           "t": "p",
@@ -564,7 +557,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "(ll.65–66) {i}Dominus ā servō malō timētur.{/i} (ll.73–74) {i}Verba Mēdī ā Lydiā laetā audiuntur. {/i}(l.95)"
+          "text": "(ll.65–66) {i}Dominus ā servō malō timētur.{/i} (ll.73–74) {i}Verba Mēdī ā Lydiā laetā audiuntur. {/i} (l.95)"
         },
         {
           "t": "p",
@@ -613,6 +606,8 @@ const chapter = {
       "id": "lectio-altera"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",

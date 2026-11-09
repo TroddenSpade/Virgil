@@ -36,7 +36,7 @@ const chapter = {
               "depth": 1
             },
             {
-              "text": "ii. iubēre (continued)",
+              "text": "ii. iubēre  (continued)",
               "depth": 1
             },
             {
@@ -84,7 +84,7 @@ const chapter = {
               "depth": 0
             },
             {
-              "text": "a. quī = et is",
+              "text": "a. quī  = et is",
               "depth": 1
             },
             {
@@ -139,7 +139,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Notā Bene: {/i}The accent on {i}illīc{/i} is on the ultima ({i}illíc{/i}): see Cap. VII."
+          "text": "{i}Notā Bene: {/i} The accent on {i}illīc{/i} is on the ultima ({i}illíc{/i}): see Cap. VII."
         },
         {
           "t": "p",
@@ -147,7 +147,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Notā Bene: Illinc {/i}and {i}illūc, {/i}like {i}illīc,{/i} are pronounced with the accent on the ultima."
+          "text": "{i}Notā Bene: Illinc {/i} and {i}illūc, {/i} like {i}illīc,{/i} are pronounced with the accent on the ultima."
         },
         {
           "t": "h",
@@ -199,16 +199,29 @@ const chapter = {
           "text": "Locative (continued)"
         },
         {
-          "t": "p",
-          "text": "{b}Small islands: {/b}"
+          "t": "h",
+          "text": "Small islands:"
         },
         {
           "t": "p",
-          "text": "You have learned (Caps. VI, XIX) that for the names of cities and towns, and the nouns {i}domus, rus, {/i}and {i}humus{/i}, place where, place to which, and place from which are expressed by the plain ablative ({i}unde{/i}, from where), accusative ({i}quō{/i}, to where), and locative ({i}ubi{/i}, where) without prepositions. This rule applies also to the names of small islands, of which Naxos ({i}Naxus{/i}) is an example:"
+          "text": "You have learned (Caps. VI, XIX) that for the names of cities and towns, and the nouns {i}domus, rus, {/i} and {i}humus{/i}, place where, place to which, and place from which are expressed by the plain ablative ({i}unde{/i}, from where), accusative ({i}quō{/i}, to where), and locative ({i}ubi{/i}, where) without prepositions. This rule applies also to the names of small islands, of which Naxos ({i}Naxus{/i}) is an example:"
         },
         {
           "t": "p",
-          "text": "acc. {i}Naxum = ad īnsulam Naxum{/i} (l.99) abl. {i}Naxō{/i} = {i}ab{/i}/{i}ex īnsulā Naxō{/i} (l.100) loc. {i}Nāxī = in īnsulā Naxō{/i} (l.132)"
+          "text": "acc. {i}Naxum = ad īnsulam Naxum{/i} (l.99)"
+        },
+        {
+          "t": "table",
+          "rows": [
+            [
+              "abl.",
+              "{i}Naxō{/i} = {i}ab{/i}/{i}ex īnsulā Naxō{/i} (l.100)"
+            ],
+            [
+              "loc.",
+              "{i}Nāxī = in īnsulā Naxō{/i} (l.132)"
+            ]
+          ]
         },
         {
           "t": "p",
@@ -219,8 +232,8 @@ const chapter = {
           "text": "{i}Naxō in Crētām{/i} {i}ē Crētā Athēnās{/i}"
         },
         {
-          "t": "p",
-          "text": "{b}Plural nouns {/b}"
+          "t": "h",
+          "text": "Plural nouns"
         },
         {
           "t": "p",
@@ -269,7 +282,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Mārcus perterritus ad vīllam currit et magnā vōce clāmat. {/i}(“with a great voice,” “loudly”) (Cap. X, ll.111–112) {i}Notā Bene: {/i}The preposition {i}cum{/i} in the {i}ablātīvus modī{/i} is optional if the noun is modified by an adjective ({i}magnā cum glōriā, magnā vōce, hōc modō{/i}). If there is no adjective, {i}cum{/i} must be used (e.g., {i}cum glōriā{/i})."
+          "text": "{i}Mārcus perterritus ad vīllam currit et magnā vōce clāmat. {/i} (“with a great voice,” “loudly”) (Cap. X, ll.111–112) {i}Notā Bene: {/i} The preposition {i}cum{/i} in the {i}ablātīvus modī{/i} is optional if the noun is modified by an adjective ({i}magnā cum glōriā, magnā vōce, hōc modō{/i}). If there is no adjective, {i}cum{/i} must be used (e.g., {i}cum glōriā{/i})."
         },
         {
           "t": "h",
@@ -281,11 +294,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}mortem timēre{/i} {i}patriam amāre{/i} Nouns and adjectives (including participles used as adjectives) that are derived from verbs, e.g., {i}timor{/i} (from {i}timēre{/i}) and {i}amor {/i}(from {i}amāre{/i}){i},{/i} can be combined with a {b}genitive{/b} to denote what is the object of that verb (e.g., fear or love of something/someone). {i}timor mortis{/i} fear of death (l.77) {i}amor patriae{/i} love of country (l.86) Such a genitive is called an {b}objective genitive{/b}. Other examples are:"
+          "text": "{i}mortem timēre{/i} {i}patriam amāre{/i} Nouns and adjectives (including participles used as adjectives) that are derived from verbs, e.g., {i}timor{/i} (from {i}timēre{/i}) and {i}amor {/i} (from {i}amāre{/i}){i},{/i} can be combined with a {b}genitive{/b} to denote what is the object of that verb (e.g., fear or love of something/someone). {i}timor mortis{/i} fear of death (l.77) {i}amor patriae{/i} love of country (l.86) Such a genitive is called an {b}objective genitive{/b}. Other examples are:"
         },
         {
           "t": "p",
-          "text": "{i}timor mōnstrōrum{/i} (ll.21–22): {i}timor < timēre{/i} {i}expugnātiō urbis {/i}(ll.45–46): {i}expugnātiō < expugnāre{/i} {i}cupiditās pecūniae{/i} (ll.122–123): {i}cupiditās < cupere{/i} {i}cupidus aurī atque sanguinis {/i}(ll.44–47) = {i}quī cupit aurum atque {/i} {i}sanguinem {/i} {i}patriae{/i} {i}amāns{/i} (l.51) = {i}quī patriam amat{/i}"
+          "text": "{i}timor mōnstrōrum{/i} (ll.21–22): {i}timor < timēre{/i} {i}expugnātiō urbis {/i} (ll.45–46): {i}expugnātiō < expugnāre{/i} {i}cupiditās pecūniae{/i} (ll.122–123): {i}cupiditās < cupere{/i} {i}cupidus aurī atque sanguinis {/i} (ll.44–47) = {i}quī cupit aurum atque {/i} {i}sanguinem {/i} {i}patriae{/i} {i}amāns{/i} (l.51) = {i}quī patriam amat{/i}"
         },
         {
           "t": "h",
@@ -297,7 +310,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "An active infinitive expresses what a person is to do: {i}Medicus Quīntum linguam ostendere iubet.{/i} (Cap. XI, ll.69–70) A passive infinitive expresses what is to be done to a person, like {i}dūcī{/i} in: [{i}Rēx{/i}]{i} eum {/i}({i}ā mīlitibus{/i}){i} in labyrinthum dūcī iussit{/i}: “ordered him to be taken into the labyrinth” (l.59)"
+          "text": "An active infinitive expresses what a person is to do: {i}Medicus Quīntum linguam ostendere iubet.{/i} (Cap. XI, ll.69–70) A passive infinitive expresses what is to be done to a person, like {i}dūcī{/i} in: [{i}Rēx{/i}]{i} eum {/i} ({i}ā mīlitibus{/i}){i} in labyrinthum dūcī iussit{/i}: “ordered him to be taken into the labyrinth” (l.59)"
         },
         {
           "t": "h",
@@ -337,7 +350,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Thēseus Athēnīs vīvēbat. Quī{/i} (= “and he”){i} nūper Athēnās vēnerat.{/i} (ll.51–52) {i}Labyrinthus ā Daedalō, virō Athēniēnsī, aedificātus erat. Quī iam {/i} {i}antequam ex urbe Athēnīs in Crētam vēnit, complūrēs rēs mīrābilēs {/i} {i}fēcerat.{/i} (l.34) {i}Mīnōs{/i} {i}autem fīliam virginem habēbat, cui nōmen erat Ariadna. Quae{/i} (“and she”){i} cum prīmum Thēseum cōnspexit, eum amāre coepit {/i} {i}cōnstituitque eum servāre. {/i}(ll.60–62) {i}Thēseus rēx Athēniēnsium factus est. Quī multōs annōs Athēnās magnā {/i} {i}cum glōriā rēxit.{/i} (ll.141–143)"
+          "text": "{i}Thēseus Athēnīs vīvēbat. Quī{/i} (= “and he”){i} nūper Athēnās vēnerat.{/i} (ll.51–52) {i}Labyrinthus ā Daedalō, virō Athēniēnsī, aedificātus erat. Quī iam {/i} {i}antequam ex urbe Athēnīs in Crētam vēnit, complūrēs rēs mīrābilēs {/i} {i}fēcerat.{/i} (l.34) {i}Mīnōs{/i} {i}autem fīliam virginem habēbat, cui nōmen erat Ariadna. Quae{/i} (“and she”){i} cum prīmum Thēseum cōnspexit, eum amāre coepit {/i} {i}cōnstituitque eum servāre. {/i} (ll.60–62) {i}Thēseus rēx Athēniēnsium factus est. Quī multōs annōs Athēnās magnā {/i} {i}cum glōriā rēxit.{/i} (ll.141–143)"
         },
         {
           "t": "p",
@@ -417,7 +430,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "When {i}oblīvīscī {/i}means “disregard,” “don’t be mindful of,” it takes a genitive:"
+          "text": "When {i}oblīvīscī {/i} means “disregard,” “don’t be mindful of,” it takes a genitive:"
         },
         {
           "t": "p",
@@ -430,15 +443,11 @@ const chapter = {
         {
           "t": "p",
           "text": "The forms {i}nāvigandum{/i} and {i}fugiendum{/i} (ll.94, 97) will be taken up in Cap. XXVI."
-        }
-      ],
-      "id": "lectio-tertia"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō: Adverbs of Place {/i}"
+        },
         {
           "t": "table",
           "rows": [
@@ -487,8 +496,8 @@ const chapter = {
           ]
         },
         {
-          "t": "p",
-          "text": "{b}More adverbs{/b}"
+          "t": "h",
+          "text": "More adverbs"
         },
         {
           "t": "table",
@@ -508,7 +517,7 @@ const chapter = {
           ]
         }
       ],
-      "id": "recensio"
+      "id": "lectio-tertia"
     },
     {
       "latin": "Studia Rōmāna",
@@ -534,6 +543,10 @@ const chapter = {
       ],
       "id": "studia-romana"
     }
+  ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [
+    "{i}Notā Bene: {/i} Not all verbs have all principal parts (e.g., {i}maerēre{/i} and {i}patēre{/i} exist only in the present system)."
   ],
   "vocabulary": [
     {
@@ -650,11 +663,6 @@ const chapter = {
       "group": "4th",
       "latin": "exitus, -ūs",
       "english": "({i}m.{/i}) way out, end"
-    },
-    {
-      "group": "Verba",
-      "latin": "Notā Bene: Not all verbs have all principal parts (e.g., exist only in the present system).",
-      "english": "maerēre and patēre"
     },
     {
       "group": "‑āre (1)",
@@ -819,11 +827,11 @@ const chapter = {
     },
     {
       "n": 2,
-      "text": "Epist. 2.1.156: Graecia capta ferum victōrem cēpit et artīs/intulit āgrestī Latiō."
+      "text": "Epist.  2.1.156: Graecia capta ferum victōrem cēpit et artīs/intulit āgrestī Latiō."
     },
     {
       "n": 3,
-      "text": "Lēthaeus, -a, -um: belonging to Lēthē, the river from which the dead drink and thereby forget the past; {i}abrumpere {/i}= {i}ab{/i} + {i}rumpere{/i} (Cap. XXII); {i}vinculum{/i} ={i} catēnam{/i} (Cap. XXII)."
+      "text": "Lēthaeus, -a, -um: belonging to Lēthē, the river from which the dead drink and thereby forget the past; {i}abrumpere {/i} = {i}ab{/i} + {i}rumpere{/i} (Cap. XXII); {i}vinculum{/i} ={i} catēnam{/i} (Cap. XXII)."
     }
   ]
 }

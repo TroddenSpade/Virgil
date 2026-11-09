@@ -36,7 +36,7 @@ const chapter = {
               "depth": 0
             },
             {
-              "text": "a. domus (continued)",
+              "text": "a. domus  (continued)",
               "depth": 1
             },
             {
@@ -91,7 +91,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Notā Bene: {/i}Remember the sequence {i}-bō, -bi, -bu{/i} (plus the change of {i}i {/i}to {i}e{/i} before {i}r{/i})."
+          "text": "{i}Notā Bene: {/i} Remember the sequence {i}-bō, -bi, -bu{/i} (plus the change of {i}i {/i} to {i}e{/i} before {i}r{/i})."
         },
         {
           "t": "table",
@@ -104,7 +104,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "a. 1st pers. sing. {i}-a{/i} + active ending {i}m{/i} as in the imperfect, e.g.: {i}dīc{/i}|{i}a{/i}|{i}m, capi{/i}|{i}a{/i}|{i}m, audi{/i}|{i}a{/i}|{i}m{/i} {i}dīc{/i}|{i}a{/i}|{i}r, capi{/i}|{i}a{/i}|{i}r, audi{/i}|{i}a{/i}|{i}r{/i} b. Otherwise{i} -ēdīc{/i}|{i}ē{/i}|{i}s{/i}, {i}capi{/i}|{i}ē{/i}|{i}s, audi{/i}|{i}ē{/i}|{i}s{/i} {i}dīc{/i}|{i}ē{/i}|{i}ris{/i}, {i}capi{/i}|{i}ē{/i}|{i}ris, audi{/i}|{i}ē{/i}|{i}ris{/i} c. But{i} -ē-{/i} is {b}shortened{/b} to {i}-e- {/i}before {i}-t, -nt, -ntur{/i}: {i}dīc{/i}|{i}e{/i}|{i}t{/i} {i}dīc{/i}|{i}e{/i}|{i}nt{/i} {i}dīc{/i}|{i}e{/i}|{i}ntur{/i} {b}future {/b}"
+          "text": "a. 1st pers. sing. {i}-a{/i} + active ending {i}m{/i} as in the imperfect, e.g.: {i}dīc{/i}|{i}a{/i}|{i}m, capi{/i}|{i}a{/i}|{i}m, audi{/i}|{i}a{/i}|{i}m{/i} {i}dīc{/i}|{i}a{/i}|{i}r, capi{/i}|{i}a{/i}|{i}r, audi{/i}|{i}a{/i}|{i}r{/i} b. Otherwise{i} -ēdīc{/i}|{i}ē{/i}|{i}s{/i}, {i}capi{/i}|{i}ē{/i}|{i}s, audi{/i}|{i}ē{/i}|{i}s{/i} {i}dīc{/i}|{i}ē{/i}|{i}ris{/i}, {i}capi{/i}|{i}ē{/i}|{i}ris, audi{/i}|{i}ē{/i}|{i}ris{/i} c. But{i} -ē-{/i} is {b}shortened{/b} to {i}-e- {/i} before {i}-t, -nt, -ntur{/i}: {i}dīc{/i}|{i}e{/i}|{i}t{/i} {i}dīc{/i}|{i}e{/i}|{i}nt{/i} {i}dīc{/i}|{i}e{/i}|{i}ntur{/i} {b}future {/b}"
         },
         {
           "t": "p",
@@ -249,7 +249,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Num parvulam fīliam minus amābis quam fīlium? {/i}(ll.57–58) {i}Nēminem magis amābō quam parvulam fīliam.{/i} (l.59) {i}Iam fīliōs tuōs magis amās quam tuam Iūliam fīliolam.{/i} (l.61–62)"
+          "text": "{i}Num parvulam fīliam minus amābis quam fīlium? {/i} (ll.57–58) {i}Nēminem magis amābō quam parvulam fīliam.{/i} (l.59) {i}Iam fīliōs tuōs magis amās quam tuam Iūliam fīliolam.{/i} (l.61–62)"
         },
         {
           "t": "h",
@@ -261,7 +261,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Ego alteram fīliam habēre volō, plūrēs quam duōs fīliōs nōlō!{/i}: want{i}…{/i}do not want (ll.54–55) {i}Cūr tū fīlium habēre vīs, Iūlī? {/i}(l.56) {i}Vōs virī fīliōs modo habēre vultis.{/i} (ll.63–64) {i}Nōs virī etiam fīliās habēre volumus.{/i} (ll.72–73) {i}Iūlia dīcit “sē patre suō carēre nōlle.” {/i}(ll.140–141)"
+          "text": "{i}Ego alteram fīliam habēre volō, plūrēs quam duōs fīliōs nōlō!{/i}: want{i}…{/i}do not want (ll.54–55) {i}Cūr tū fīlium habēre vīs, Iūlī? {/i} (l.56) {i}Vōs virī fīliōs modo habēre vultis.{/i} (ll.63–64) {i}Nōs virī etiam fīliās habēre volumus.{/i} (ll.72–73) {i}Iūlia dīcit “sē patre suō carēre nōlle.” {/i} (ll.140–141)"
         },
         {
           "t": "p",
@@ -293,7 +293,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The {b}imperative{/b} {i}nōlī, nōlīte{/i} is used with an infinitive to express a prohibition (“don’t…!”), e.g.: {i}Nōlī abīre!{/i} (l.69) {i}Nōlī dīcere “tatam” et “mammam.” {/i}(l.157) {i}Nōlīte mē “Iūliolam” vocāre! Id nōmen mē nōn decet. {/i}(ll.160–161)"
+          "text": "The {b}imperative{/b} {i}nōlī, nōlīte{/i} is used with an infinitive to express a prohibition (“don’t…!”), e.g.: {i}Nōlī abīre!{/i} (l.69) {i}Nōlī dīcere “tatam” et “mammam.” {/i} (l.157) {i}Nōlīte mē “Iūliolam” vocāre! Id nōmen mē nōn decet. {/i} (ll.160–161)"
         }
       ],
       "id": "lectio-altera"
@@ -309,7 +309,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "In Cap. VI, you learned that names of cities and towns express place with the accusative (to which), ablative (from which), and locative (at which). {i}Domus {/i} follows the same rule: the accusative and ablative of {i}domus {/i}({i}domum{/i} and {i}domō{/i}) are used without a preposition to express motion to or from one’s home, e.g.:"
+          "text": "In Cap. VI, you learned that names of cities and towns express place with the accusative (to which), ablative (from which), and locative (at which). {i}Domus {/i} follows the same rule: the accusative and ablative of {i}domus {/i} ({i}domum{/i} and {i}domō{/i}) are used without a preposition to express motion to or from one’s home, e.g.:"
         },
         {
           "t": "p",
@@ -349,11 +349,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The ablative expressing “place from which” in {i}domō{/i} and {i}Tūsculō {/i}is the {b}ablative of separation{/b}; the verb {i}carēre{/i} (“be without,” “lack”) is completed by an ablative of separation (and not an accusative), e.g.:"
+          "text": "The ablative expressing “place from which” in {i}domō{/i} and {i}Tūsculō {/i} is the {b}ablative of separation{/b}; the verb {i}carēre{/i} (“be without,” “lack”) is completed by an ablative of separation (and not an accusative), e.g.:"
         },
         {
           "t": "p",
-          "text": "{i}Īnfāns neque somnō neque cibō carēre potest{/i}.: {i}somnō…cibō carēre ={/i} {i}sine{/i} + abl.: {i}sine somnō et cibō esse{/i} (ll.5–6) {i}Iūlia dīcit “sē patre suō carēre nōlle.” {/i}(l.141)"
+          "text": "{i}Īnfāns neque somnō neque cibō carēre potest{/i}.: {i}somnō…cibō carēre ={/i} {i}sine{/i} + abl.: {i}sine somnō et cibō esse{/i} (ll.5–6) {i}Iūlia dīcit “sē patre suō carēre nōlle.” {/i} (l.141)"
         },
         {
           "t": "h",
@@ -365,20 +365,12 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Necesse est mihi crās rūrsus ā vōbīs discēdere. {/i}(ll.129–130) {i}Nōlī ā nōbīs discēdere! {/i}(l.136) You will see the dative (also {i}nōbīs{/i} and {i}vōbīs) {/i}in the reading in the next chapter: {i}Prīmum magister nōbīs aliquid recitāvit. {/i}(Cap. XXI, l.91) {i}Tabellam vōbīs ostendam. {/i}(Cap. XXI, l.109)"
+          "text": "{i}Necesse est mihi crās rūrsus ā vōbīs discēdere. {/i} (ll.129–130) {i}Nōlī ā nōbīs discēdere! {/i} (l.136) You will see the dative (also {i}nōbīs{/i} and {i}vōbīs) {/i} in the reading in the next chapter: {i}Prīmum magister nōbīs aliquid recitāvit. {/i} (Cap. XXI, l.91) {i}Tabellam vōbīs ostendam. {/i} (Cap. XXI, l.109)"
         },
         {
           "t": "p",
-          "text": "You will learn the genitive of the personal pronouns in Cap. XXIX."
-        }
-      ],
-      "id": "lectio-tertia"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+          "text": "You will learn the genitive of the personal pronouns in Cap. XXIX. {i}Recēnsiō: personal pronouns {/i}"
+        },
         {
           "t": "table",
           "rows": [
@@ -415,15 +407,11 @@ const chapter = {
               "{i}vōbīs{/i}"
             ]
           ]
-        }
-      ],
-      "id": "recensio"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō{/i}"
+        },
         {
           "t": "li",
           "marker": "1.",
@@ -560,7 +548,7 @@ const chapter = {
           ]
         }
       ],
-      "id": "recensio-2"
+      "id": "lectio-tertia"
     },
     {
       "latin": "Studia Rōmāna",
@@ -579,6 +567,8 @@ const chapter = {
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",
@@ -828,7 +818,7 @@ const chapter = {
     },
     {
       "n": 2,
-      "text": "Terence Andria 473: Iūna Lūcīna, fer opem, servā mē! cries a woman in childbirth."
+      "text": "Terence Andria  473: Iūna Lūcīna, fer opem, servā mē! cries a woman in childbirth."
     },
     {
       "n": 3,

@@ -129,7 +129,8 @@ const chapter = {
               "n."
             ],
             [
-              "nom. {i}īdem{/i}",
+              "nom.",
+              "{i}īdem{/i}",
               "{i}eadem{/i}",
               "{i}idem{/i}",
               "{i}iīdem{/i}",
@@ -173,7 +174,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Numerus syllabārum et vōcālium īdem est.{/i} (l.21) {i}in eādem syllabā{/i} (l.26) {i}Vocābulum prīmum utrīusque sententiae idem est, sed hoc idem {/i} {i}vocābulum duās rēs variās significat.{/i} (ll.32–33) {i}Item varia vocābula eandem rem vel eundem hominem significāre {/i} {i}possunt. {/i}(ll.33–35) {i}Discipulī eandem sententiam nōn eōdem modō, sed variīs modīs {/i} {i}scrībunt.{/i} (ll.56–58)"
+          "text": "{i}Numerus syllabārum et vōcālium īdem est.{/i} (l.21) {i}in eādem syllabā{/i} (l.26) {i}Vocābulum prīmum utrīusque sententiae idem est, sed hoc idem {/i} {i}vocābulum duās rēs variās significat.{/i} (ll.32–33) {i}Item varia vocābula eandem rem vel eundem hominem significāre {/i} {i}possunt. {/i} (ll.33–35) {i}Discipulī eandem sententiam nōn eōdem modō, sed variīs modīs {/i} {i}scrībunt.{/i} (ll.56–58)"
         },
         {
           "t": "h",
@@ -233,7 +234,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Quisque discipulus in tabulā suā scrībit eās sententiās quās magister eī {/i} {i}dictat{/i}. (ll.49–50) {i}Quisque puer stilum et rēgulam prōmit et dūcit līneam rēctam in tabulā {/i} {i}suā. {/i}(ll.55–56) {i}Discipulus quamque litteram cuiusque vocābulī sīc legit.{/i} (ll.41–42) {i}Ita quodque vocābulum cuiusque sententiae ā discipulō legitur.{/i} (ll.43– 44) {i}Quaeque syllaba vōcālem habet.{/i} (l.20)"
+          "text": "{i}Quisque discipulus in tabulā suā scrībit eās sententiās quās magister eī {/i} {i}dictat{/i}. (ll.49–50) {i}Quisque puer stilum et rēgulam prōmit et dūcit līneam rēctam in tabulā {/i} {i}suā. {/i} (ll.55–56) {i}Discipulus quamque litteram cuiusque vocābulī sīc legit.{/i} (ll.41–42) {i}Ita quodque vocābulum cuiusque sententiae ā discipulō legitur.{/i} (ll.43– 44) {i}Quaeque syllaba vōcālem habet.{/i} (l.20)"
         },
         {
           "t": "h",
@@ -262,7 +263,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Notā Bene: {/i}Compounds of {i}facere{/i} ending in {i}-ficere,{/i} e.g., {i}ef-ficere,{/i} can be used in the passive:"
+          "text": "{i}Notā Bene: {/i} Compounds of {i}facere{/i} ending in {i}-ficere,{/i} e.g., {i}ef-ficere,{/i} can be used in the passive:"
         },
         {
           "t": "p",
@@ -390,7 +391,7 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "Adjectives qualify nouns. ▷ The adjective answers the question: {i}quālis? {/i} ° In the sentence,{i} Puer stultus est, stultus {/i}is an adjective qualifying the noun{i} puer (Quālis est puer?).{/i}"
+          "text": "Adjectives qualify nouns. ▷ The adjective answers the question: {i}quālis? {/i} ° In the sentence,{i} Puer stultus est, stultus {/i} is an adjective qualifying the noun{i} puer (Quālis est puer?).{/i}"
         },
         {
           "t": "li",
@@ -422,7 +423,8 @@ const chapter = {
               "beautiful. (l.73)"
             ],
             [
-              "{i}Litterae vestrae aequē foedae {/i} Your letters are equally ugly."
+              "{i}Litterae vestrae aequē foedae {/i}",
+              "Your letters are equally ugly."
             ],
             [
               "{i}sunt.{/i}",
@@ -436,7 +438,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}stult{/i}|{i}us -a -um {/i}→{i} stultē{/i} {i}rēct{/i}|{i}us -a -um {/i}→{i} rēctē{/i} {i}pulcher -chr{/i}|{i}a -chr{/i}|{i}um {/i}→{i} pulchrē{/i}"
+          "text": "{i}stult{/i}|{i}us -a -um {/i} →{i} stultē{/i} {i}rēct{/i}|{i}us -a -um {/i} →{i} rēctē{/i} {i}pulcher -chr{/i}|{i}a -chr{/i}|{i}um {/i} →{i} pulchrē{/i}"
         },
         {
           "t": "p",
@@ -444,7 +446,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}fort{/i}|{i}is -e {/i}→{i} fortiter{/i} {i}brev{/i}|{i}is -e {/i}→{i} breviter{/i} {i}turp{/i}|{i}is -e {/i}→ {i}turpiter{/i}"
+          "text": "{i}fort{/i}|{i}is -e {/i} →{i} fortiter{/i} {i}brev{/i}|{i}is -e {/i} →{i} breviter{/i} {i}turp{/i}|{i}is -e {/i} → {i}turpiter{/i}"
         },
         {
           "t": "p",
@@ -482,7 +484,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The {b}superlative of the adverb{/b} ending in {i}-issimē {/i}({i}-errimē{/i}) is formed from the superlative of the adjective:"
+          "text": "The {b}superlative of the adverb{/b} ending in {i}-issimē {/i} ({i}-errimē{/i}) is formed from the superlative of the adjective:"
         },
         {
           "t": "table",
@@ -518,18 +520,14 @@ const chapter = {
         {
           "t": "p",
           "text": "beautifully!"
-        }
-      ],
-      "id": "lectio-altera"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+        },
         {
-          "t": "p",
-          "text": "{b}Adjectives {/b}"
+          "t": "h",
+          "text": "{i}Recēnsiō{/i}{i}: {/i} Comparison of Adjectives and Adverbs"
+        },
+        {
+          "t": "h",
+          "text": "Adjectives"
         },
         {
           "t": "table",
@@ -575,8 +573,8 @@ const chapter = {
           ]
         },
         {
-          "t": "p",
-          "text": "{b}Adverbs {/b}"
+          "t": "h",
+          "text": "Adverbs"
         },
         {
           "t": "table",
@@ -618,7 +616,7 @@ const chapter = {
           "text": "*more rare: {i}faciliter{/i}"
         }
       ],
-      "id": "recensio"
+      "id": "lectio-altera"
     },
     {
       "latin": "Lēctiō Tertia",
@@ -656,7 +654,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Mārcus deciēs H scribit{/i}:{i} H H H H H H H H H H{/i} (l.119) {i}Quotiēs Mārcus V scribit? Quater tantum V scrībit. {/i}(ll.122–123) {i}Quotiēs?{/i} {i}Semel. {/i}(ll.133–134) {i}Mārcus ter rēctē et bis prāvē scrībit.{/i} (ll.125–126)"
+          "text": "{i}Mārcus deciēs H scribit{/i}:{i} H H H H H H H H H H{/i} (l.119) {i}Quotiēs Mārcus V scribit? Quater tantum V scrībit. {/i} (ll.122–123) {i}Quotiēs?{/i} {i}Semel. {/i} (ll.133–134) {i}Mārcus ter rēctē et bis prāvē scrībit.{/i} (ll.125–126)"
         }
       ],
       "id": "lectio-tertia"
@@ -682,6 +680,8 @@ const chapter = {
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",

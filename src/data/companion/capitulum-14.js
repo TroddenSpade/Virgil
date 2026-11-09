@@ -56,7 +56,7 @@ const chapter = {
               "depth": 1
             },
             {
-              "text": "b. Numbers duo, duae, duo (ablative)",
+              "text": "b. Numbers duo, duae, duo  (ablative)",
               "depth": 1
             },
             {
@@ -64,7 +64,7 @@ const chapter = {
               "depth": 1
             },
             {
-              "text": "5. Pronouns: mihi, mē, tibi, tē (dative/ablative)",
+              "text": "5. Pronouns: mihi, mē, tibi, tē  (dative/ablative)",
               "depth": 0
             },
             {
@@ -175,7 +175,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Uterque {/i}is singular and followed by a singular verb."
+          "text": "{i}Uterque {/i} is singular and followed by a singular verb."
         },
         {
           "t": "h",
@@ -215,7 +215,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Bracchium quoque dolet Quīntō. {/i}(l.4) {i}Multīs barbarīs magna pars corporis nūda est. {/i}(ll.76–77)"
+          "text": "{i}Bracchium quoque dolet Quīntō. {/i} (l.4) {i}Multīs barbarīs magna pars corporis nūda est. {/i} (ll.76–77)"
         },
         {
           "t": "h",
@@ -282,7 +282,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}puer dormiēns = puer quī dormit {/i}(ll.22–23) {i}puer vigilāns = puer quī vigilat{/i} (l.23)"
+          "text": "{i}puer dormiēns = puer quī dormit {/i} (ll.22–23) {i}puer vigilāns = puer quī vigilat{/i} (l.23)"
         },
         {
           "t": "p",
@@ -310,11 +310,15 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "has an ablative singular in -ī only when used only as an adjective, with no verbal force: {i}ibi nocte silentī Ariadnam {/i} He left Ariadne sleeping there"
+          "text": "has an ablative singular in -ī only when used only as an adjective, with no verbal force:"
         },
         {
           "t": "table",
           "rows": [
+            [
+              "{i}ibi nocte silentī Ariadnam {/i}",
+              "He left Ariadne sleeping there"
+            ],
             [
               "{i}dormientem relīquit.{/i}",
               "during the silent night. (Cap. XXV,"
@@ -323,7 +327,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "ll.99–100) {i}Silentī {/i}is the ablative of the present participle of {i}silēre{/i}. Here, it is being used only as an adjective describing the night and has no verbal force. {b}Participle {/b}"
+          "text": "ll.99–100) {i}Silentī {/i} is the ablative of the present participle of {i}silēre{/i}. Here, it is being used only as an adjective describing the night and has no verbal force."
+        },
+        {
+          "t": "h",
+          "text": "Participle"
         },
         {
           "t": "table",
@@ -432,7 +440,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}“Hōra prīma est,” inquit Dāvus, “Surge ē lectō!”{/i} (l.40) {i}Servus Mārcō aquam affert et “Ecce aqua,” inquit.{/i} (l.44) It is a {b}defective{/b} verb: only {i}inquit{/i},{i} inquiunt{/i} and a few other forms of the indicative occur. Neither {i}inquit {/i}nor {i}inquiunt{/i} is used to begin accusative + infinitive constructions."
+          "text": "{i}“Hōra prīma est,” inquit Dāvus, “Surge ē lectō!”{/i} (l.40) {i}Servus Mārcō aquam affert et “Ecce aqua,” inquit.{/i} (l.44) It is a {b}defective{/b} verb: only {i}inquit{/i},{i} inquiunt{/i} and a few other forms of the indicative occur. Neither {i}inquit {/i} nor {i}inquiunt{/i} is used to begin accusative + infinitive constructions."
         }
       ],
       "id": "lectio-altera"
@@ -460,7 +468,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Davus asks Quintus, {i}Quōmodo sē habet pēs tuus hodiē?{/i} (ll.25–26) (“How is your foot today?”). Quintus answers, “{i}Pēs male sē habet{/i}” (l.27). {i}Sē habēre {/i}+ adverb = to be (in a certain state) and is a regular way of asking how, as we say in English, “someone is doing.”"
+          "text": "Davus asks Quintus, {i}Quōmodo sē habet pēs tuus hodiē?{/i} (ll.25–26) (“How is your foot today?”). Quintus answers, “{i}Pēs male sē habet{/i}” (l.27). {i}Sē habēre {/i} + adverb = to be (in a certain state) and is a regular way of asking how, as we say in English, “someone is doing.”"
         }
       ],
       "id": "lectio-tertia"
@@ -482,6 +490,8 @@ const chapter = {
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",

@@ -83,7 +83,7 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "The illustration at the start of the chapter is a drawing of an ancient relief sculpture of a schoolroom. Rome had no public school system. Parents who could afford it sent their young children to an elementary school, {i}lūdus,{/i} or had them educated at home by a tutor, often a slave{i}.{/i} Quintilian (see notes at end of Cap. XIV) writes about the advantages and disadvantages of each, but sees the natural competition and sociability of the schoolroom as a productive atmosphere for learning. The {i}lūdus {/i}was run as a private enterprise by a {i}lūdī magister{/i}, who taught the children reading, writing and arithmetic."
+          "text": "The illustration at the start of the chapter is a drawing of an ancient relief sculpture of a schoolroom. Rome had no public school system. Parents who could afford it sent their young children to an elementary school, {i}lūdus,{/i} or had them educated at home by a tutor, often a slave{i}.{/i} Quintilian (see notes at end of Cap. XIV) writes about the advantages and disadvantages of each, but sees the natural competition and sociability of the schoolroom as a productive atmosphere for learning. The {i}lūdus {/i} was run as a private enterprise by a {i}lūdī magister{/i}, who taught the children reading, writing and arithmetic."
         },
         {
           "t": "p",
@@ -209,7 +209,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Mārcus {/i}({i}ad Sextum et Titum{/i}):{i} “Vōs iānuam nōn pulsātis cum ad lūdum {/i} {i}venītis, nec magistrum salūtātis cum eum vidētis. Audītisne id quod {/i} {i}dīcō?”{/i} {i}Tum Sextus et Titus: “Id quod dīcis,” inquiunt, “vērum nōn est{/i}:{i} nōs {/i} {i}iānuam pulsāmus cum ad lūdum venīmus, et magistrum salūtāmus {/i} {i}cum eum vidēmus. Nōnne vērum dīcimus, magister?”{/i}"
+          "text": "{i}Mārcus {/i} ({i}ad Sextum et Titum{/i}):{i} “Vōs iānuam nōn pulsātis cum ad lūdum {/i} {i}venītis, nec magistrum salūtātis cum eum vidētis. Audītisne id quod {/i} {i}dīcō?”{/i} {i}Tum Sextus et Titus: “Id quod dīcis,” inquiunt, “vērum nōn est{/i}:{i} nōs {/i} {i}iānuam pulsāmus cum ad lūdum venīmus, et magistrum salūtāmus {/i} {i}cum eum vidēmus. Nōnne vērum dīcimus, magister?”{/i}"
         },
         {
           "t": "p",
@@ -231,7 +231,7 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "the 3rd, as you know, in -nt (pulsa|nt, vide|nt, dīc|unt veni|unt)"
+          "text": "the 3rd, as you know, in -nt  (pulsa|nt, vide|nt, dīc|unt veni|unt)"
         },
         {
           "t": "p",
@@ -376,19 +376,19 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "before -ō: ▷ {i}ā{/i} combines with -{i}ō{/i}: {i}puls{/i}|{i}ō {/i}(stem {i}pulsā{/i}) ▷ {i}ē{/i} and {i}ī{/i} shorten:{i} habe{/i}|{i}ō, veni{/i}|{i}ō{/i} (stems{i} habē-, venī-{/i})"
+          "text": "before -ō: ▷ {i}ā{/i} combines with -{i}ō{/i}: {i}puls{/i}|{i}ō {/i} (stem {i}pulsā{/i}) ▷ {i}ē{/i} and {i}ī{/i} shorten:{i} habe{/i}|{i}ō, veni{/i}|{i}ō{/i} (stems{i} habē-, venī-{/i})"
         },
         {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "in 3rd conjugation consonant-stems: ▷ a short {i}i{/i} is inserted before: {i}-s{/i}:{i} dīc{/i}|{i}is {/i}(stem {i}dīc-{/i}) {i}-mus{/i}:{i} dīc{/i}|{i}imus {/i} {i}-tis{/i}:{i} dīc{/i}|{i}itis{/i} {i}-t{/i}:{i} dīc{/i}|{i}it {/i} ▷ before {i}nt{/i} we find a short {i}u{/i}: {i}-nt{/i}:{i} dīc{/i}|{i}unt{/i}"
+          "text": "in 3rd conjugation consonant-stems: ▷ a short {i}i{/i} is inserted before: {i}-s{/i}:{i} dīc{/i}|{i}is {/i} (stem {i}dīc-{/i}) {i}-mus{/i}:{i} dīc{/i}|{i}imus {/i} {i}-tis{/i}:{i} dīc{/i}|{i}itis{/i} {i}-t{/i}:{i} dīc{/i}|{i}it {/i} ▷ before {i}nt{/i} we find a short {i}u{/i}: {i}-nt{/i}:{i} dīc{/i}|{i}unt{/i}"
         },
         {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "in 3rd conjugation i-stems, a short i appears before the endings: ▷ {i}ō{/i}:{i} faci{/i}|{i}ō {/i}(stem {i}faci-{/i}) ▷ {i}-unt{/i}:{i} faci{/i}|{i}unt{/i} ▷ Other verbs of this kind that you have met are {i}accipere, aspicere, {/i} {i}capere, fugere, iacere, incipere, {/i}and {i}parere.{/i}"
+          "text": "in 3rd conjugation i-stems, a short i appears before the endings: ▷ {i}ō{/i}:{i} faci{/i}|{i}ō {/i} (stem {i}faci-{/i}) ▷ {i}-unt{/i}:{i} faci{/i}|{i}unt{/i} ▷ Other verbs of this kind that you have met are {i}accipere, aspicere, {/i} {i}capere, fugere, iacere, incipere, {/i} and {i}parere.{/i}"
         },
         {
           "t": "table",
@@ -456,11 +456,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Much of the time, changing direct speech to indirect speech is pretty straightforward. When someone reports his or her own words in the accusative and infinitive construction (indirect speech), the subject accusative is the reflexive {i}sē. {/i}This is best learned by studying several examples. We have already read an example in Cap. XIV:"
+          "text": "Much of the time, changing direct speech to indirect speech is pretty straightforward. When someone reports his or her own words in the accusative and infinitive construction (indirect speech), the subject accusative is the reflexive {i}sē. {/i} This is best learned by studying several examples. We have already read an example in Cap. XIV:"
         },
         {
           "t": "p",
-          "text": "{i}Dāvus…eum sēcum venīre iubet{/i}:{i} “Venī mēcum!”{/i}: Davus orders him (Marcus) to come with him (Davus): “Come with me!” (Cap. XIV, l.87) {i}Quīntus{/i}:{i} “{/i}({i}Ego{/i}){i} aeger sum”{/i} is reported by Marcus: {i}Quīntus dīcit “sē {/i} {i}aegrum esse.” {/i}Quintus says that he is sick. (l.82) {i}Mārcus{/i}:{i} “Ego eius librum habeō{/i}” becomes {i}Mārcus dīcit “sē eius {/i} {i}librum habēre{/i}.” {i}Mārcus{/i}:{i} “Ego,” inquit, “nōn dormiō”{/i} becomes {i}Mārcus dīcit “sē nōn {/i} {i}dormīre{/i}.” {i}Sextus et Titus{/i}:{i} “Neque nōs dormīmus,” inquiunt. “Vigilāmus et omnia {/i} {i}verba tua audīmus”{/i} becomes {i}Sextus et Titus dīcunt “sē nōn dormīre{/i}; {i}sē vigilāre et omnia verba eius audīre{/i}.”"
+          "text": "{i}Dāvus…eum sēcum venīre iubet{/i}:{i} “Venī mēcum!”{/i}: Davus orders him (Marcus) to come with him (Davus): “Come with me!” (Cap. XIV, l.87) {i}Quīntus{/i}:{i} “{/i}({i}Ego{/i}){i} aeger sum”{/i} is reported by Marcus: {i}Quīntus dīcit “sē {/i} {i}aegrum esse.” {/i} Quintus says that he is sick. (l.82) {i}Mārcus{/i}:{i} “Ego eius librum habeō{/i}” becomes {i}Mārcus dīcit “sē eius {/i} {i}librum habēre{/i}.” {i}Mārcus{/i}:{i} “Ego,” inquit, “nōn dormiō”{/i} becomes {i}Mārcus dīcit “sē nōn {/i} {i}dormīre{/i}.” {i}Sextus et Titus{/i}:{i} “Neque nōs dormīmus,” inquiunt. “Vigilāmus et omnia {/i} {i}verba tua audīmus”{/i} becomes {i}Sextus et Titus dīcunt “sē nōn dormīre{/i}; {i}sē vigilāre et omnia verba eius audīre{/i}.”"
         },
         {
           "t": "h",
@@ -597,16 +597,12 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Necesse est discipulīs aperīre librōs {/i}(it is necessary for the students to open [their] books)."
-        }
-      ],
-      "id": "lectio-tertia"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+          "text": "{i}Necesse est discipulīs aperīre librōs {/i} (it is necessary for the students to open [their] books)."
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō{/i}{i}:{/i}{i} Pronouns vs. Possessive Adjectives{/i}"
+        },
         {
           "t": "p",
           "text": "In this chapter, you learned more forms of the personal pronoun. In Caps. II, IV, V, and XI, you learned the possessive adjective. Review the following forms:"
@@ -703,7 +699,7 @@ const chapter = {
           ]
         }
       ],
-      "id": "recensio"
+      "id": "lectio-tertia"
     },
     {
       "latin": "Studia Rōmāna",
@@ -722,6 +718,8 @@ const chapter = {
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",
@@ -925,7 +923,7 @@ const chapter = {
     },
     {
       "n": 3,
-      "text": "The first principal part will show you whether a 3rd conjugation verb is a consonant or i-stem; they"
+      "text": "The first principal part will show you whether a 3rd conjugation verb is a consonant or i-stem; they will, therefore, no longer be separated out."
     }
   ]
 }

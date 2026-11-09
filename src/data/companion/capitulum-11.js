@@ -64,7 +64,7 @@ const chapter = {
               "depth": 0
             },
             {
-              "text": "4. Conjunctions atque/neque (ac/nec)",
+              "text": "4. Conjunctions atque/neque  (ac/nec)",
               "depth": 0
             }
           ]
@@ -163,7 +163,7 @@ const chapter = {
         },
         {
           "t": "h",
-          "text": "3rd Declension {i}i{/i}-Stem Nouns"
+          "text": "3rd Declension  {i}i{/i}-Stem Nouns"
         },
         {
           "t": "p",
@@ -201,7 +201,8 @@ const chapter = {
               "pl."
             ],
             [
-              "nom. {i}mar{/i}|{i}e{/i}",
+              "nom.",
+              "{i}mar{/i}|{i}e{/i}",
               "{i}mar{/i}|{i}ia{/i}",
               "{i}animal{/i}",
               "{i}animāl{/i}|{i}ia{/i}"
@@ -363,31 +364,31 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "verbs of perception (e.g., vidēre, audīre, and sentīre) {i}Medicus puerum dormīre videt. {/i}(l.59) {i}Cor eius palpitāre sentit.{/i} (l.112)"
+          "text": "verbs of perception (e.g., vidēre, audīre, and sentīre) {i}Medicus puerum dormīre videt. {/i} (l.59) {i}Cor eius palpitāre sentit.{/i} (l.112)"
         },
         {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "verbs of speaking (e.g., dīcere) and thinking (e.g., putāre) {i}Medicus ‘puerum dormīre’ dīcit. {/i}(ll.63–64) {i}Syra eum mortuum esse putat.{/i} (l.108)"
+          "text": "verbs of speaking (e.g., dīcere) and thinking (e.g., putāre) {i}Medicus ‘puerum dormīre’ dīcit. {/i} (ll.63–64) {i}Syra eum mortuum esse putat.{/i} (l.108)"
         },
         {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "iubēre {i}Dominus {/i}‘{i}servum venīre{/i}’{i} iubet. {/i} {i}Medicus Quīntum {/i}‘{i}ōs aperīre atque linguam ostendere{/i}’{i} iubet.{/i} (ll.69–70)"
+          "text": "iubēre {i}Dominus {/i} ‘{i}servum venīre{/i}’{i} iubet. {/i} {i}Medicus Quīntum {/i} ‘{i}ōs aperīre atque linguam ostendere{/i}’{i} iubet.{/i} (ll.69–70)"
         },
         {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "gaudēre (and with other verbs expressing mood) {i}Syra Quīntum vīvere gaudet{/i} (= {i}Syra gaudet quod Quīntus vīvit{/i}) (l.118)"
+          "text": "gaudēre  (and with other verbs expressing mood) {i}Syra Quīntum vīvere gaudet{/i} (= {i}Syra gaudet quod Quīntus vīvit{/i}) (l.118)"
         },
         {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "necesse est (and other impersonal expressions) {i}Necesse est puerum dormīre. {/i}(l.128)"
+          "text": "necesse est (and other impersonal expressions) {i}Necesse est puerum dormīre. {/i} (l.128)"
         },
         {
           "t": "p",
@@ -451,7 +452,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Nec, {/i}the shortened form of {i}neque{/i}, is used before consonants as well as vowels:"
+          "text": "{i}Nec, {/i} the shortened form of {i}neque{/i}, is used before consonants as well as vowels:"
         },
         {
           "t": "p",
@@ -467,7 +468,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}dē arbore {/i}(ll.53–54) {i}dē bracchiō{/i} (l.99)"
+          "text": "{i}dē arbore {/i} (ll.53–54) {i}dē bracchiō{/i} (l.99)"
         },
         {
           "t": "h",
@@ -479,7 +480,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Nec modo pede, sed etiam capite aeger est. {/i}(l.55) Quintus is sick “in his foot” and “in his head.”"
+          "text": "{i}Nec modo pede, sed etiam capite aeger est. {/i} (l.55) Quintus is sick “in his foot” and “in his head.”"
         }
       ],
       "id": "lectio-altera"
@@ -507,7 +508,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "In Cap. II, you learned the possessive adjectives {i}meus, -a, -um {/i}and {i}tuus, -a, {/i} {i}-um{/i}, and in Cap. IV, the reflexive possessive {i}suus, -a, -um. {/i}Here, we see the plural possessive adjectives {i}noster, -tra, -trum{/i} (English “our”):"
+          "text": "In Cap. II, you learned the possessive adjectives {i}meus, -a, -um {/i} and {i}tuus, -a, {/i} {i}-um{/i}, and in Cap. IV, the reflexive possessive {i}suus, -a, -um. {/i} Here, we see the plural possessive adjectives {i}noster, -tra, -trum{/i} (English “our”):"
         },
         {
           "t": "p",
@@ -533,6 +534,8 @@ const chapter = {
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",
@@ -834,6 +837,10 @@ const chapter = {
     {
       "n": 1,
       "text": "The genitive plural occurs only once in extant texts and in the form marum, not marium."
+    },
+    {
+      "n": 2,
+      "text": "The neuter accusative singular will be the same as the nominative."
     }
   ]
 }

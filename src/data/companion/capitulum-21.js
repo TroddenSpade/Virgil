@@ -166,7 +166,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Sextus Mārcum pulsat{/i}/{i}pulsābit{/i}/{i}pulsābat.{/i} {i}Mārcus ā Sextō pulsātur{/i}/{i}pulsābitur{/i}/{i}pulsābātur.{/i} The active and passive of the {b}perfect tense{/b}, however, are based on different stems. The passive voice is formed from the {b}perfect passive participle{/b} in combination with the present of {i}esse{/i} ({i}sum, es, est,{/i} etc.). Since the participle is a verbal adjective, the ending of the participle agrees with the subject in gender, number, and case, e.g.: {i}Mārcus ā Sextō pulsātus est. {/i}(l.11) {i}Sextus…pulsātus est.{/i} (ll.14–15) {i}Iūlia ā Mārcō pulsāta est. {/i} {i}Puerī laudātī sunt.{/i} {i}Litterae ā Sextō scrīptae sunt.{/i}"
+          "text": "{i}Sextus Mārcum pulsat{/i}/{i}pulsābit{/i}/{i}pulsābat.{/i} {i}Mārcus ā Sextō pulsātur{/i}/{i}pulsābitur{/i}/{i}pulsābātur.{/i} The active and passive of the {b}perfect tense{/b}, however, are based on different stems. The passive voice is formed from the {b}perfect passive participle{/b} in combination with the present of {i}esse{/i} ({i}sum, es, est,{/i} etc.). Since the participle is a verbal adjective, the ending of the participle agrees with the subject in gender, number, and case, e.g.: {i}Mārcus ā Sextō pulsātus est. {/i} (l.11) {i}Sextus…pulsātus est.{/i} (ll.14–15) {i}Iūlia ā Mārcō pulsāta est. {/i} {i}Puerī laudātī sunt.{/i} {i}Litterae ā Sextō scrīptae sunt.{/i}"
         },
         {
           "t": "h",
@@ -270,7 +270,7 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "2nd person are -istī (sing.) and -istis (pl.)"
+          "text": "2nd person are -istī  (sing.) and -istis  (pl.)"
         },
         {
           "t": "p",
@@ -278,7 +278,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Ego illum pulsāvī! {/i}(l.40) {i}Tūne sōlus Sextum pulsāvistī? {/i}(l.41) {i}Ego et Titus eum pulsāvimus.{/i} (l.42) {i}Vōs duo ūnum pulsāvistis?{/i} (l.43)"
+          "text": "{i}Ego illum pulsāvī! {/i} (l.40) {i}Tūne sōlus Sextum pulsāvistī? {/i} (l.41) {i}Ego et Titus eum pulsāvimus.{/i} (l.42) {i}Vōs duo ūnum pulsāvistis?{/i} (l.43)"
         },
         {
           "t": "p",
@@ -371,7 +371,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Aliquis pedibus sordidīs in solō mundō ambulāvit. {/i}(ll.65–66) {i}Prīmum magister nōbīs aliquid recitāvit. {/i}(ll.91–92)"
+          "text": "{i}Aliquis pedibus sordidīs in solō mundō ambulāvit. {/i} (ll.65–66) {i}Prīmum magister nōbīs aliquid recitāvit. {/i} (ll.91–92)"
         }
       ],
       "id": "lectio-altera"
@@ -403,7 +403,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}In lūdōne quoque bonus puer fuistī? {/i}(ll.82–83) {i}Profectō bonus puer fuī. {/i}(l.84) {i}Mārcus dīcit, sē bonum puerum fuisse.{/i} (l.85) {i}Malī discipulī fuistis! {/i}(ll.104–105) {i}Certē malī discipulī fuimus. {/i}(l.106)"
+          "text": "{i}In lūdōne quoque bonus puer fuistī? {/i} (ll.82–83) {i}Profectō bonus puer fuī. {/i} (l.84) {i}Mārcus dīcit, sē bonum puerum fuisse.{/i} (l.85) {i}Malī discipulī fuistis! {/i} (ll.104–105) {i}Certē malī discipulī fuimus. {/i} (l.106)"
         },
         {
           "t": "h",
@@ -415,7 +415,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Medicus “puerum dormīre” dīcit = “Puer,” medicus inquit, “dormit.”{/i} {i}Dormī{/i}|{i}re{/i} is called the {b}present infinitive{/b} (Latin {i}īnfīnītīvus praesentis{/i}) and corresponds to the present tense {i}dormi{/i}|{i}t. {/i}Compare lines 96–97 in this chapter:"
+          "text": "{i}Medicus “puerum dormīre” dīcit = “Puer,” medicus inquit, “dormit.”{/i} {i}Dormī{/i}|{i}re{/i} is called the {b}present infinitive{/b} (Latin {i}īnfīnītīvus praesentis{/i}) and corresponds to the present tense {i}dormi{/i}|{i}t. {/i} Compare lines 96–97 in this chapter:"
         },
         {
           "t": "p",
@@ -431,13 +431,13 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "iacu|isse: Nōn dīcit, “eum humī iacuisse.” (ll.73–74)"
+          "text": "iacu|isse: Nōn dīcit, “eum humī iacuisse.”  (ll.73–74)"
         },
         {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "fu|isse: Mārcus dīcit, “sē bonum puerum fuisse.” (l.85)"
+          "text": "fu|isse: Mārcus dīcit, “sē bonum puerum fuisse.”  (l.85)"
         },
         {
           "t": "p",
@@ -568,15 +568,15 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Mihi crēde!{/i} (l.119) {i}Mārcō nōn crēdit. {/i}(l.140) {i}Cūr nōn crēdis fīliō tuō{/i}? (l.146)"
+          "text": "{i}Mihi crēde!{/i} (l.119) {i}Mārcō nōn crēdit. {/i} (l.140) {i}Cūr nōn crēdis fīliō tuō{/i}? (l.146)"
         },
         {
           "t": "h",
           "text": "Summary of Perfect"
         },
         {
-          "t": "p",
-          "text": "{b}Perfect Active {/b}"
+          "t": "h",
+          "text": "Perfect Active"
         },
         {
           "t": "table",
@@ -654,12 +654,12 @@ const chapter = {
           ]
         },
         {
-          "t": "p",
-          "text": "{b}Perfect Passive{/b}"
+          "t": "h",
+          "text": "Perfect Passive"
         },
         {
-          "t": "p",
-          "text": "{b}personal endings{/b}"
+          "t": "h",
+          "text": "personal endings"
         },
         {
           "t": "p",
@@ -779,13 +779,13 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "root perfect (see also Cap. XXIII): ▷ the vowel of the root is lengthened; sometimes the vowel changes ({i}fac {/i}→{i} fēc{/i}) ▷ the root is “reduplicated” by repeating the initial consonant of the verb, followed by a vowel (see also Cap. XXIII) ° usually {i}e{/i}: {i}fallere {/i}→{i} fefellisse{/i} ° sometimes the root vowel: e.g., {i}mordēre, momordisse{/i} (Cap. XXII) ° Sometimes, perfect and present stem appear identical: {i}ostendere {/i}→ {i}ostendisse{/i}"
+          "text": "root perfect (see also Cap. XXIII): ▷ the vowel of the root is lengthened; sometimes the vowel changes ({i}fac {/i} →{i} fēc{/i}) ▷ the root is “reduplicated” by repeating the initial consonant of the verb, followed by a vowel (see also Cap. XXIII) ° usually {i}e{/i}: {i}fallere {/i} →{i} fefellisse{/i} ° sometimes the root vowel: e.g., {i}mordēre, momordisse{/i} (Cap. XXII) ° Sometimes, perfect and present stem appear identical: {i}ostendere {/i} → {i}ostendisse{/i}"
         },
         {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "Some verbs have a perfect stem that cannot be easily understood just by the rules above: ▷ verbs formed from a lost or imaginary stem ({i}petere {/i}→{i} petīvī{/i}, as if from {i}petīre{/i}) ▷ verbs that have features peculiar to the present stem ° e.g., {i}scindere {/i}→{i} scidisse{/i} has a “nasal infix”{{2}} only in the present system ° inchoative verbs{{3}} with -{i}scō{/i} lose the -{i}scō {/i}in the perfect system ({i}cognōscere {/i}→{i} cognōvisse{/i})"
+          "text": "Some verbs have a perfect stem that cannot be easily understood just by the rules above: ▷ verbs formed from a lost or imaginary stem ({i}petere {/i} →{i} petīvī{/i}, as if from {i}petīre{/i}) ▷ verbs that have features peculiar to the present stem ° e.g., {i}scindere {/i} →{i} scidisse{/i} has a “nasal infix”{{2}} only in the present system ° inchoative verbs{{3}} with -{i}scō{/i} lose the -{i}scō {/i} in the perfect system ({i}cognōscere {/i} →{i} cognōvisse{/i})"
         },
         {
           "t": "li",
@@ -803,16 +803,18 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "Marcus and Sextus should not have been fighting—they should also not have been walking home on their own, but would have been accompanied by their {i}paedagōgī{/i} as chaperones, part of whose job was to ensure safe (and streetbrawling-free!) travel between home and school. Children enjoyed many games while not in school. From infancy, there were toys: rattles for babies ({i}crepundia{/i}), pull-toys for toddlers and small children, and dolls ({i}pūpae{/i}) for girls. In a famous simile, Vergil describes boys intently spinning tops through empty {i}ātria{/i} (see Cap. V for the {i}ātrium{/i}): “as sometimes, a top flying under the force of the hurled lash, a top which boys, intent on their game, send round in a circle through the empty atrium.”{{4}} Horace ({i}Satires{/i} 2.3.247–48) talks about building houses ({i}aedificāre casās{/i}: “sand-castles”?), hitching mice to small carts ({i}plostellō adiungere mūrīs{/i}), riding a stick-horse ({i}equitāre in harundine{/i}), playing a game called {i}pār impār {/i}(“odds and evens”), in which one player holds a number of small things—coins, nuts, etc.—in his hand and the other player has to guess whether it is an odd or even number. A player could also use small bones (knucklebones, {i}astragalī{/i} Greek or {i}tālī{/i} Latin) for {i}pār impār {/i}as well as for other dice games (a version of our “jacks,” for example). Reversible game boards ({i}tabulae lūsōriae{/i}) have been found with a board for {i}lūdus {/i} {i}lātrunculōrum{/i} ({i}lātrunculus{/i} means “robber” but also “pawn”—this seems to be a sort of chess game) on one side and on the other, {i}duodecim scrīpta{/i} (or {i}lūdus {/i} {i}duodecim scrīptōrum{/i}, a kind of backgammon) played with {i}calculī{/i}, or small stones, as game pieces."
+          "text": "Marcus and Sextus should not have been fighting—they should also not have been walking home on their own, but would have been accompanied by their {i}paedagōgī{/i} as chaperones, part of whose job was to ensure safe (and streetbrawling-free!) travel between home and school. Children enjoyed many games while not in school. From infancy, there were toys: rattles for babies ({i}crepundia{/i}), pull-toys for toddlers and small children, and dolls ({i}pūpae{/i}) for girls. In a famous simile, Vergil describes boys intently spinning tops through empty {i}ātria{/i} (see Cap. V for the {i}ātrium{/i}): “as sometimes, a top flying under the force of the hurled lash, a top which boys, intent on their game, send round in a circle through the empty atrium.”{{4}} Horace ({i}Satires{/i} 2.3.247–48) talks about building houses ({i}aedificāre casās{/i}: “sand-castles”?), hitching mice to small carts ({i}plostellō adiungere mūrīs{/i}), riding a stick-horse ({i}equitāre in harundine{/i}), playing a game called {i}pār impār {/i} (“odds and evens”), in which one player holds a number of small things—coins, nuts, etc.—in his hand and the other player has to guess whether it is an odd or even number. A player could also use small bones (knucklebones, {i}astragalī{/i} Greek or {i}tālī{/i} Latin) for {i}pār impār {/i} as well as for other dice games (a version of our “jacks,” for example). Reversible game boards ({i}tabulae lūsōriae{/i}) have been found with a board for {i}lūdus {/i} {i}lātrunculōrum{/i} ({i}lātrunculus{/i} means “robber” but also “pawn”—this seems to be a sort of chess game) on one side and on the other, {i}duodecim scrīpta{/i} (or {i}lūdus {/i} {i}duodecim scrīptōrum{/i}, a kind of backgammon) played with {i}calculī{/i}, or small stones, as game pieces."
         },
         {
           "t": "p",
-          "text": "Although the Latin word is unattested, Roman children surely played hide-and-go-seek (Greek children called it ἀποδιδρασκίνδα). Ball games ({i}pīlae{/i}) were popular with adults as well as children. The game {i}trigōn{/i} (τρίγων, triangle, also called {i}pīla trigōnālis{/i}: a kind of handball played by three people standing in a triangle shape) was very popular and often played in the baths. Pliny’s villa at Laurentium included a ball court in the baths to accommodate players (called a {i}sphaeristērium{/i} after the Greek word for ball, {i}sphaera, {/i}σφαῖρα). Horace ({i}Satires{/i} 1.6.126) says he played {i}trigōn{/i} on the Campus Martius, a popular venue for games (as well as for military exercises). Playing at war seems to have been popular as well. In a letter ({i}Epistles{/i} 1.18.60–64), Horace advises his ambitious young addressee, Lollius, not to turn up his nose at the enthusiasms of his influential friends (like hunting, a popular sport) so that he can write poetry instead. Lollius himself has played at mock battles on his father’s estate, reenacting the (naval) Battle of Actium (31 BC), apparently on a lake with small boats, with slaves as soldiers.{{5}} It will come as no surprise to learn that Roman society placed a very high value on good faith ({i}bona fidēs{/i}, (Cap. XXXI). In a useful, if false, etymology, Cicero identifies {i}fidēs{/i} with {i}fierī{/i} (Cap. XVI): “{i}Fidēs” enim nōmen ipsum mihi {/i} {i}vidētur habēre cum fit quod dīcitur{/i} ({i}dē Rē Pūblicā{/i} 4.7). Julius and Aemilia should not have to be wary of their son’s sincerity. Marcus violates the foundations of propriety when he lies to his parents. In{i} dē Officiīs{/i}, a book on proper values or duties addressed to his son Marcus (who was studying philosophy in Athens), that continued to be widely read until relatively recently, Cicero examines honorable conduct ({i}honestum{/i}, Book I), advantageous behavior ({i}ūtile,{/i} Book II), and the conflict between the two (Book III). Beyond all the quarels of philosophers, he says, the old, simple proverb holds true: a good person is one with whom you can {i}in tenebrīs micāre{/i}. {i}Micāre{/i} is to flash up a number of fingers while another person simultaneously guesses the number; like “rock, paper, scissors,” it is both a game and a way of making a decision. A character in the {i}Satyricon{/i}, Petronius’s first-century AD comic novel, includes the same proverb as proof of solid character: someone “upright, dependable, a friend to a friend, a guy with whom you could flash fingers in the dark” ({i}rēctus…certus, {/i} {i}amīcus amīcō, cum quō audacter possēs {/i}[= you could] {i}in tenebrīs micāre{/i}, 44.8)."
+          "text": "Although the Latin word is unattested, Roman children surely played hide-and-go-seek (Greek children called it ἀποδιδρασκίνδα). Ball games ({i}pīlae{/i}) were popular with adults as well as children. The game {i}trigōn{/i} (τρίγων, triangle, also called {i}pīla trigōnālis{/i}: a kind of handball played by three people standing in a triangle shape) was very popular and often played in the baths. Pliny’s villa at Laurentium included a ball court in the baths to accommodate players (called a {i}sphaeristērium{/i} after the Greek word for ball, {i}sphaera, {/i} σφαῖρα). Horace ({i}Satires{/i} 1.6.126) says he played {i}trigōn{/i} on the Campus Martius, a popular venue for games (as well as for military exercises). Playing at war seems to have been popular as well. In a letter ({i}Epistles{/i} 1.18.60–64), Horace advises his ambitious young addressee, Lollius, not to turn up his nose at the enthusiasms of his influential friends (like hunting, a popular sport) so that he can write poetry instead. Lollius himself has played at mock battles on his father’s estate, reenacting the (naval) Battle of Actium (31 BC), apparently on a lake with small boats, with slaves as soldiers.{{5}} It will come as no surprise to learn that Roman society placed a very high value on good faith ({i}bona fidēs{/i}, (Cap. XXXI). In a useful, if false, etymology, Cicero identifies {i}fidēs{/i} with {i}fierī{/i} (Cap. XVI): “{i}Fidēs” enim nōmen ipsum mihi {/i} {i}vidētur habēre cum fit quod dīcitur{/i} ({i}dē Rē Pūblicā{/i} 4.7). Julius and Aemilia should not have to be wary of their son’s sincerity. Marcus violates the foundations of propriety when he lies to his parents. In{i} dē Officiīs{/i}, a book on proper values or duties addressed to his son Marcus (who was studying philosophy in Athens), that continued to be widely read until relatively recently, Cicero examines honorable conduct ({i}honestum{/i}, Book I), advantageous behavior ({i}ūtile,{/i} Book II), and the conflict between the two (Book III). Beyond all the quarels of philosophers, he says, the old, simple proverb holds true: a good person is one with whom you can {i}in tenebrīs micāre{/i}. {i}Micāre{/i} is to flash up a number of fingers while another person simultaneously guesses the number; like “rock, paper, scissors,” it is both a game and a way of making a decision. A character in the {i}Satyricon{/i}, Petronius’s first-century AD comic novel, includes the same proverb as proof of solid character: someone “upright, dependable, a friend to a friend, a guy with whom you could flash fingers in the dark” ({i}rēctus…certus, {/i} {i}amīcus amīcō, cum quō audacter possēs {/i} [= you could] {i}in tenebrīs micāre{/i}, 44.8)."
         }
       ],
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",
@@ -871,7 +873,7 @@ const chapter = {
     },
     {
       "group": "3rd",
-      "latin": "sordēs, sordis often pl. sordēs, -ium",
+      "latin": "sordēs, sordis {i}often pl. {/i} sordēs, -ium",
       "english": "({i}f.{/i}) dirt"
     },
     {
@@ -921,13 +923,8 @@ const chapter = {
     },
     {
       "group": "‑ere (3)",
-      "latin": "(crēdō) crēdere, -didisse,",
+      "latin": "(crēdō) crēdere, -didisse,  -ditum ({i}intr. + dat.{/i})",
       "english": "believe, trust, entrust"
-    },
-    {
-      "group": "‑ere (3)",
-      "latin": "-ditum",
-      "english": "({i}intr. + dat.{/i})"
     },
     {
       "group": "‑ere (3)",

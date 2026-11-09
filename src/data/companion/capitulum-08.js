@@ -125,19 +125,19 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "the interrogative pronoun: quis, quae, quid (introduced in Cap. II)"
+          "text": "the interrogative pronoun: quis, quae, quid  (introduced in Cap. II)"
         },
         {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "the relative pronoun: quī, quae, quod (introduced in Cap. III)"
+          "text": "the relative pronoun: quī, quae, quod  (introduced in Cap. III)"
         },
         {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "the demonstrative pronouns {i}is, ea, id {/i}(introduced in Cap. III) {i}hic, haec, hoc{/i} (introduced in Cap. VII) {i}ille, illa, illud{/i}"
+          "text": "the demonstrative pronouns {i}is, ea, id {/i} (introduced in Cap. III) {i}hic, haec, hoc{/i} (introduced in Cap. VII) {i}ille, illa, illud{/i}"
         },
         {
           "t": "h",
@@ -149,7 +149,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Quī tabernam habet, tabernārius est{/i} = {i}is quī…{/i} Whoever has a shop is a shopkeeper. (ll.3–4) {i}Quī magnam pecūniam habent ōrnāmenta emunt {/i}={i} Iī quī…{/i} Those who have a lot of money buy jewelry. (ll.16–17) {i}Quae nūllam aut parvam pecūniam habent ōrnāmenta aspiciunt {/i} {i}tantum, nōn emunt. {/i}(ll.14–15) {i}Pecūniōsus est quī magnam pecūniam habet.{/i} (l.35)"
+          "text": "{i}Quī tabernam habet, tabernārius est{/i} = {i}is quī…{/i} Whoever has a shop is a shopkeeper. (ll.3–4) {i}Quī magnam pecūniam habent ōrnāmenta emunt {/i} ={i} Iī quī…{/i} Those who have a lot of money buy jewelry. (ll.16–17) {i}Quae nūllam aut parvam pecūniam habent ōrnāmenta aspiciunt {/i} {i}tantum, nōn emunt. {/i} (ll.14–15) {i}Pecūniōsus est quī magnam pecūniam habet.{/i} (l.35)"
         },
         {
           "t": "p",
@@ -165,7 +165,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}haec taberna? {/i}(l.2) {i}in hāc viā{/i} (l.11) {i}ad hanc tabernam {/i}(l.16)"
+          "text": "{i}haec taberna? {/i} (l.2) {i}in hāc viā{/i} (l.11) {i}ad hanc tabernam {/i} (l.16)"
         },
         {
           "t": "h",
@@ -231,13 +231,13 @@ const chapter = {
               "{i}Quī vir et quae fēmina?{/i} (l.26)"
             ],
             [
-              "{i}Quod ōrnāmentum? {/i}(ll.30–31)"
+              "{i}Quod ōrnāmentum? {/i} (ll.30–31)"
             ]
           ]
         },
         {
           "t": "p",
-          "text": "{i}Notā Bene: {/i}The interrogative pronoun looks the same as the interrogative adjective (and relative pronoun) {i}except{/i} in the nominative masculine and neuter singular:"
+          "text": "{i}Notā Bene: {/i} The interrogative pronoun looks the same as the interrogative adjective (and relative pronoun) {i}except{/i} in the nominative masculine and neuter singular:"
         },
         {
           "t": "table",
@@ -251,15 +251,11 @@ const chapter = {
               "nominative m./n. singular interrogative adjective"
             ]
           ]
-        }
-      ],
-      "id": "lectio-prima"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō: Interrogative Pronoun vs. Interrogative Adjective{/i}"
+        },
         {
           "t": "table",
           "rows": [
@@ -344,7 +340,7 @@ const chapter = {
           "text": "You will learn more about i-stem verbs in Cap. XII. When you have learned all the forms of the verb, it will be easy to distinguish the consonant and i-stems of the 3rd conjugation. Until then, they will be listed separately in the vocabulary."
         }
       ],
-      "id": "recensio"
+      "id": "lectio-prima"
     },
     {
       "latin": "Lēctiō Altera",
@@ -363,16 +359,16 @@ const chapter = {
           "t": "table",
           "rows": [
             [
-              "{i}hae margarītae {/i}(l.49)",
-              "{i}hic ānulus {/i}(l.69)"
+              "{i}hae margarītae {/i} (l.49)",
+              "{i}hic ānulus {/i} (l.69)"
             ],
             [
-              "{i}hī ānulī {/i}(l.53)",
-              "{i}hunc ānulum {/i}(l.76)"
+              "{i}hī ānulī {/i} (l.53)",
+              "{i}hunc ānulum {/i} (l.76)"
             ],
             [
-              "{i}in hīs ānulīs {/i}(l.55)",
-              "{i}huius (ānulī) {/i}(l.75)"
+              "{i}in hīs ānulīs {/i} (l.55)",
+              "{i}huius (ānulī) {/i} (l.75)"
             ]
           ]
         },
@@ -384,12 +380,12 @@ const chapter = {
           "t": "table",
           "rows": [
             [
-              "{i}illam tabernam {/i}(l.41)",
-              "{i}illum (ānulum) {/i}(l.76)"
+              "{i}illam tabernam {/i} (l.41)",
+              "{i}illum (ānulum) {/i} (l.76)"
             ],
             [
-              "{i}illa ōrnāmenta {/i}(l.42)",
-              "{i}illīus ānulī {/i}(l.75)"
+              "{i}illa ōrnāmenta {/i} (l.42)",
+              "{i}illīus ānulī {/i} (l.75)"
             ],
             [
               "{i}ille ānulus{/i} (l.70)"
@@ -398,7 +394,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Like {i}hic, haec, hoc {/i}and {i}ille, -a, -ud{/i}, most pronouns have the endings {i}-īus{/i} in the genitive and {i}-ī{/i} in the dative in all three genders (but the {i}i{/i} is short or consonantal in {i}eius, cuius, huius, cui, huic{/i}). The neuter ending {i}-ud{/i} in {i}illud {/i}is also found in {i}alius, -a, -ud{/i} (l.33) and is like the {i}-od{/i} in {i}quod.{/i} See the paradigms for {i}hic haec hoc, ille illa illud, {/i}and {i}is ea id{/i} in the {i}recēnsiō{/i} at the end of the chapter."
+          "text": "Like {i}hic, haec, hoc {/i} and {i}ille, -a, -ud{/i}, most pronouns have the endings {i}-īus{/i} in the genitive and {i}-ī{/i} in the dative in all three genders (but the {i}i{/i} is short or consonantal in {i}eius, cuius, huius, cui, huic{/i}). The neuter ending {i}-ud{/i} in {i}illud {/i} is also found in {i}alius, -a, -ud{/i} (l.33) and is like the {i}-od{/i} in {i}quod.{/i} See the paradigms for {i}hic haec hoc, ille illa illud, {/i} and {i}is ea id{/i} in the {i}recēnsiō{/i} at the end of the chapter."
         },
         {
           "t": "h",
@@ -409,12 +405,12 @@ const chapter = {
           "text": "In Cap. VI, you learned the correlatives {i}tam…quam{/i} (as…as). When talking about size, the adjectives {i}tantus{/i} and {i}quantus{/i} are used (instead of {i}tam magnus{/i} and {i}quam magnus{/i}). So, {i}tantus…quantus{/i} stands for {i}tam magnus quam{/i}. {i}Tantus{/i}…{i}quantus{/i} (“as big as”) are correlative adjectives, as {i}tam…quam{/i} are correlative adverbs (l.75){i}.{/i} As adjectives, they agree with the nouns they modify; as correlatives, they respond to one another:"
         },
         {
-          "t": "p",
-          "text": "{i}Digitus quārtus nōn tantus est {/i} The fourth finger is not as big as"
-        },
-        {
           "t": "table",
           "rows": [
+            [
+              "{i}Digitus quārtus nōn tantus est {/i}",
+              "The fourth finger is not as big as"
+            ],
             [
               "{i}quantus digitus medius{/i}.",
               "the middle finger. (ll.126–128)"
@@ -494,15 +490,11 @@ const chapter = {
               "ornaments are! (ll.41–42)"
             ]
           ]
-        }
-      ],
-      "id": "lectio-altera"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō: Quam{/i}"
+        },
         {
           "t": "li",
           "marker": "•",
@@ -624,12 +616,12 @@ const chapter = {
           "text": "Latin is not English. While we all know this, it presents one of the biggest obstacles to understanding the language, especially if you try to put a Latin thought into English! The use of {i}convenit{/i} in the following examples illustrates important principles to bear in mind. Consider the following two sentences:"
         },
         {
-          "t": "p",
-          "text": "{i}Tanta gemma ad tam parvum {/i} Such a big gem does not suit"
-        },
-        {
           "t": "table",
           "rows": [
+            [
+              "{i}Tanta gemma ad tam parvum {/i}",
+              "Such a big gem does not suit"
+            ],
             [
               "{i}ānulum nōn convenit{/i}.",
               "such a small ring. (l.81)"
@@ -662,10 +654,10 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "You will find that you can often understand the Latin more fluently if you {i}don’t {/i}translate, but understand the concept behind the vocabulary and apply that concept to its context. When moving between the two languages, remember to be flexible in your vocabulary and to let go of the expectation that other languages “should” act like English."
+          "text": "You will find that you can often understand the Latin more fluently if you {i}don’t {/i} translate, but understand the concept behind the vocabulary and apply that concept to its context. When moving between the two languages, remember to be flexible in your vocabulary and to let go of the expectation that other languages “should” act like English."
         }
       ],
-      "id": "recensio-2"
+      "id": "lectio-altera"
     },
     {
       "latin": "Lēctiō Tertia",
@@ -702,7 +694,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Notā Bene: {/i}As you can see, with a few exceptions, their declension is already familiar to you. The stem of {i}hic, haec, hoc{/i} is just {i}h-,{/i} cf. the plural {i}hī hae, {/i} {i}hōs hās, hōrum hārum, hīs,{/i} but in the singular (and in n. pl. nom./acc.), a -{i}c{/i} is added. Again, full paradigms are below in the {i}recensiō{/i} and in the Grammatica Latina in Lingua Latina."
+          "text": "{i}Notā Bene: {/i} As you can see, with a few exceptions, their declension is already familiar to you. The stem of {i}hic, haec, hoc{/i} is just {i}h-,{/i} cf. the plural {i}hī hae, {/i} {i}hōs hās, hōrum hārum, hīs,{/i} but in the singular (and in n. pl. nom./acc.), a -{i}c{/i} is added. Again, full paradigms are below in the {i}recensiō{/i} and in the Grammatica Latina in Lingua Latina."
         },
         {
           "t": "p",
@@ -763,15 +755,11 @@ const chapter = {
         {
           "t": "p",
           "text": "(ll.103–104)"
-        }
-      ],
-      "id": "lectio-tertia"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō: Pronouns {/i}"
+        },
         {
           "t": "p",
           "text": "{b}Personal{/b}: takes the place of a noun"
@@ -917,7 +905,8 @@ const chapter = {
           "t": "table",
           "rows": [
             [
-              "[2] nom. {i}ill{/i}|{i}e{/i}",
+              "[2] nom.",
+              "{i}ill{/i}|{i}e{/i}",
               "{i}ill{/i}|{i}a{/i}",
               "{i}ill{/i}|{i}ud{/i}",
               "{i}ill{/i}|{i}ī{/i}",
@@ -1087,7 +1076,7 @@ const chapter = {
           ]
         }
       ],
-      "id": "recensio-3"
+      "id": "lectio-tertia"
     },
     {
       "latin": "Studia Rōmāna",
@@ -1100,12 +1089,14 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Some shops sold prepared food and drinks over counters accessible both from the street and from the inside (which often had eating areas as well). The counters can be equipped with large built-in jars for storing foodstuffs or jars of wine ({i}dōlia, ōrum{/i}). Behind the counter, there are often built-in shelves. We find a variety of names for food shops: {i}thermopōlium{/i} (a Greek word, “cook shop,” found in the comic writer Plautus), {i}taberna, popīna, caupōna{/i} (which was an inn that offered food){i}.{/i} There were also a lot of bakeries ({i}pistrīnae{/i}), often where they not only baked bread, but milled flour as well. Just as at a home, painted {i}larāria{/i} adorn many walls. We also see the couple walking on a kind of sidewalk, called {i}crepīdinēs {/i} after {i}crepida {/i}(from the Greek word for a sandal, the same as the Latin {i}solea{/i}). These raised projections helped keep pedestrians away from the traffic (and filth!) of the streets. Another boon to pedestrians were raised stepping-stones that made a kind of ancient crosswalk. In this way, pedestrians were protected from the water that overflowed from the many fountains that provided water to the citizens (only the wealthy had running water in their homes), as well as from the refuse of daily life that found its way into the gutters."
+          "text": "Some shops sold prepared food and drinks over counters accessible both from the street and from the inside (which often had eating areas as well). The counters can be equipped with large built-in jars for storing foodstuffs or jars of wine ({i}dōlia, ōrum{/i}). Behind the counter, there are often built-in shelves. We find a variety of names for food shops: {i}thermopōlium{/i} (a Greek word, “cook shop,” found in the comic writer Plautus), {i}taberna, popīna, caupōna{/i} (which was an inn that offered food){i}.{/i} There were also a lot of bakeries ({i}pistrīnae{/i}), often where they not only baked bread, but milled flour as well. Just as at a home, painted {i}larāria{/i} adorn many walls. We also see the couple walking on a kind of sidewalk, called {i}crepīdinēs {/i} after {i}crepida {/i} (from the Greek word for a sandal, the same as the Latin {i}solea{/i}). These raised projections helped keep pedestrians away from the traffic (and filth!) of the streets. Another boon to pedestrians were raised stepping-stones that made a kind of ancient crosswalk. In this way, pedestrians were protected from the water that overflowed from the many fountains that provided water to the citizens (only the wealthy had running water in their homes), as well as from the refuse of daily life that found its way into the gutters."
         }
       ],
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",

@@ -91,11 +91,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Quī{/i} {i}medicus verbīs sōlīs potest facere ut hominēs caecī videant, surdī {/i} {i}audiant, mūtī loquantur, claudī ambulent? {/i}(ll.30–32)"
+          "text": "{i}Quī{/i} {i}medicus verbīs sōlīs potest facere ut hominēs caecī videant, surdī {/i} {i}audiant, mūtī loquantur, claudī ambulent? {/i} (ll.30–32)"
         },
         {
           "t": "p",
-          "text": "Compare what happens to the verb in the subjunctive clause when the main verb is in the past: {i}In Iūdaeā Iēsūs nōn sōlum faciēbat ut caecī vidērent, surdī audīrent, {/i} {i}mūtī loquerentur, vērum etiam verbīs efficiēbat ut mortuī surgerent et {/i} {i}ambulārent. {/i}(ll.34–37)"
+          "text": "Compare what happens to the verb in the subjunctive clause when the main verb is in the past: {i}In Iūdaeā Iēsūs nōn sōlum faciēbat ut caecī vidērent, surdī audīrent, {/i} {i}mūtī loquerentur, vērum etiam verbīs efficiēbat ut mortuī surgerent et {/i} {i}ambulārent. {/i} (ll.34–37)"
         },
         {
           "t": "p",
@@ -111,7 +111,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "1st, 2nd, and 4th conjugations insert {i}-rē-{/i}/{i}-re {/i}between the present stem and the personal endings, e.g.:{{1}} {i}ambulā{/i}|{i}re{/i}|{i}m vidē{/i}|{i}re{/i}|{i}m audī{/i}|{i}re{/i}|{i}m {/i} {i}ambulā{/i}|{i}rē{/i}|{i}s vidē{/i}|{i}rē{/i}|{i}s audī{/i}|{i}rē{/i}|{i}s{/i} {i}ambulā{/i}|{i}re{/i}|{i}t vidē{/i}|{i}re{/i}|{i}t audī{/i}|{i}re{/i}|{i}t{/i} {i}ambulā{/i}|{i}rē{/i}|{i}mus vidē{/i}|{i}rē{/i}|{i}mus audī{/i}|{i}rē{/i}|{i}mus{/i} {i}ambulā{/i}|{i}rē{/i}|{i}tis vidē{/i}|{i}rē{/i}|{i}tis audī{/i}|{i}rē{/i}|{i}tis{/i} {i}ambulā{/i}|{i}re{/i}|{i}nt vidē{/i}|{i}re{/i}|{i}nt audī{/i}|{i}re{/i}|{i}nt{/i} 3rd conjugation inserts {i}-erē-{/i}/{i}-ere {/i}between the present stem and the personal endings:"
+          "text": "1st, 2nd, and 4th conjugations insert {i}-rē-{/i}/{i}-re {/i} between the present stem and the personal endings, e.g.:{{1}} {i}ambulā{/i}|{i}re{/i}|{i}m vidē{/i}|{i}re{/i}|{i}m audī{/i}|{i}re{/i}|{i}m {/i} {i}ambulā{/i}|{i}rē{/i}|{i}s vidē{/i}|{i}rē{/i}|{i}s audī{/i}|{i}rē{/i}|{i}s{/i} {i}ambulā{/i}|{i}re{/i}|{i}t vidē{/i}|{i}re{/i}|{i}t audī{/i}|{i}re{/i}|{i}t{/i} {i}ambulā{/i}|{i}rē{/i}|{i}mus vidē{/i}|{i}rē{/i}|{i}mus audī{/i}|{i}rē{/i}|{i}mus{/i} {i}ambulā{/i}|{i}rē{/i}|{i}tis vidē{/i}|{i}rē{/i}|{i}tis audī{/i}|{i}rē{/i}|{i}tis{/i} {i}ambulā{/i}|{i}re{/i}|{i}nt vidē{/i}|{i}re{/i}|{i}nt audī{/i}|{i}re{/i}|{i}nt{/i} 3rd conjugation inserts {i}-erē-{/i}/{i}-ere {/i} between the present stem and the personal endings:"
         },
         {
           "t": "table",
@@ -143,8 +143,8 @@ const chapter = {
           ]
         },
         {
-          "t": "p",
-          "text": "{b}Summary of Imperfect Subjunctive Endings{/b}"
+          "t": "h",
+          "text": "Summary of Imperfect Subjunctive Endings"
         },
         {
           "t": "p",
@@ -249,7 +249,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Compare the sentences: {i}Magister mē monet {/i}(/{i}monēbit{/i}) ut{i} taceam et audiam.{/i} {i}Magister mē monēbat {/i}(/{i}monuit{/i}/{i}monuerat{/i}){i} ut tacērem et audīrem.{/i} {b}Sequence of Tense {/b}"
+          "text": "Compare the sentences: {i}Magister mē monet {/i} (/{i}monēbit{/i}) ut{i} taceam et audiam.{/i} {i}Magister mē monēbat {/i} (/{i}monuit{/i}/{i}monuerat{/i}){i} ut tacērem et audīrem.{/i} {b}Sequence of Tense {/b}"
         },
         {
           "t": "table",
@@ -359,7 +359,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Dāvus eum sēcum venīre iubet.{/i}: i.e., {i}eī imperat ut sēcum {/i}({i}cum Dāvō{/i}) {i}veniat {/i}(Cap. XIV, l.86–87) {i}Pāstor dominum ōrat nē sē verberet.{/i}: i.e., {i}nē pastōrem{/i} {i}verberet{/i} (Cap. XXVII, ll.158–159) {i}Mēdus eam rogat ut aliquid sibi legat.{/i}: i.e., {i}ut Mēdō{/i} {i}legat{/i} (ll.56–57) [{i}Iaīrus{/i}] {i}Iēsum rogāvit ut fīliam suam mortuam suscitāret.{/i} (l.65–66)"
+          "text": "{i}Dāvus eum sēcum venīre iubet.{/i}: i.e., {i}eī imperat ut sēcum {/i} ({i}cum Dāvō{/i}) {i}veniat {/i} (Cap. XIV, l.86–87) {i}Pāstor dominum ōrat nē sē verberet.{/i}: i.e., {i}nē pastōrem{/i} {i}verberet{/i} (Cap. XXVII, ll.158–159) {i}Mēdus eam rogat ut aliquid sibi legat.{/i}: i.e., {i}ut Mēdō{/i} {i}legat{/i} (ll.56–57) [{i}Iaīrus{/i}] {i}Iēsum rogāvit ut fīliam suam mortuam suscitāret.{/i} (l.65–66)"
         }
       ],
       "id": "lectio-altera"
@@ -420,11 +420,11 @@ const chapter = {
           "t": "li",
           "marker": "•",
           "ordered": false,
-          "text": "verba postulandī, which take an ut-clause in the subjunctive."
+          "text": "verba postulandī,  which take an ut-clause in the subjunctive."
         },
         {
           "t": "p",
-          "text": "Some verbs can have both functions, e.g., {i}persuādēre{/i} in these two examples: {i}Mihi nēmō persuādēbit hominem super mare ambulāre posse.{/i}: no one will persuade/convince me that… (ll.110–111) {i}Mēdus mihi persuāsit ut sēcum venīrem.{/i}: Medus persuaded me to… (ll.174–175) In both senses, {i}persuādēre{/i} takes the dative (intransitive, like {i}oboedīre, {/i} {i}impendēre, servīre,{/i} {i}prōdesse, {/i}and {i}nocēre{/i})."
+          "text": "Some verbs can have both functions, e.g., {i}persuādēre{/i} in these two examples: {i}Mihi nēmō persuādēbit hominem super mare ambulāre posse.{/i}: no one will persuade/convince me that… (ll.110–111) {i}Mēdus mihi persuāsit ut sēcum venīrem.{/i}: Medus persuaded me to… (ll.174–175) In both senses, {i}persuādēre{/i} takes the dative (intransitive, like {i}oboedīre, {/i} {i}impendēre, servīre,{/i} {i}prōdesse, {/i} and {i}nocēre{/i})."
         },
         {
           "t": "h",
@@ -452,7 +452,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "In addition to {i}velle {/i}(Caps. X, XIII), {i}nōlle {/i}(= {i}nōn velle,{/i} Cap. XX), this chapter presents {i}mālle{/i} ({i}magis velle{/i}), to “want more,” or “prefer.” {i}Mālle{/i} is often followed by {i}quam{/i}:"
+          "text": "In addition to {i}velle {/i} (Caps. X, XIII), {i}nōlle {/i} (= {i}nōn velle,{/i} Cap. XX), this chapter presents {i}mālle{/i} ({i}magis velle{/i}), to “want more,” or “prefer.” {i}Mālle{/i} is often followed by {i}quam{/i}:"
         },
         {
           "t": "p",
@@ -495,38 +495,34 @@ const chapter = {
               "{i}mālunt{/i}"
             ]
           ]
-        }
-      ],
-      "id": "lectio-tertia"
-    },
-    {
-      "latin": "Recēnsiō",
-      "english": "Review",
-      "kind": "review",
-      "blocks": [
+        },
+        {
+          "t": "h",
+          "text": "{i}Recēnsiō: Subordinate Subjunctive Clauses{/i}"
+        },
         {
           "t": "p",
           "text": "{i}Verba postulandī et cūrandī{/i} + {i}ut{/i}/{i}nē{/i} subjunctive:"
         },
         {
           "t": "p",
-          "text": "{i}Quī medicus verbīs sōlīs potest facere ut hominēs caecī videant, surdī {/i} {i}audiant, mūtī loquantur, claudī ambulent? {/i}(ll.30–32)"
+          "text": "{i}Quī medicus verbīs sōlīs potest facere ut hominēs caecī videant, surdī {/i} {i}audiant, mūtī loquantur, claudī ambulent? {/i} (ll.30–32)"
         },
         {
           "t": "p",
-          "text": "{i}In Iūdaeā Iēsūs nōn sōlum faciēbat ut caecī vidērent, surdī audīrent, {/i} {i}mūtī loquerentur, vērum etiam verbīs efficiēbat ut mortuī surgerent {/i} {i}et ambulārent. {/i}(ll.34–37) {i}Ille cūrāvit ut nōs ē tempestāte servārēmur nēve mergerēmur—vel potius {/i} {i}nōs ipsī quī mercēs ēiēcimus. {/i}(ll.127–129)"
+          "text": "{i}In Iūdaeā Iēsūs nōn sōlum faciēbat ut caecī vidērent, surdī audīrent, {/i} {i}mūtī loquerentur, vērum etiam verbīs efficiēbat ut mortuī surgerent {/i} {i}et ambulārent. {/i} (ll.34–37) {i}Ille cūrāvit ut nōs ē tempestāte servārēmur nēve mergerēmur—vel potius {/i} {i}nōs ipsī quī mercēs ēiēcimus. {/i} (ll.127–129)"
         },
         {
           "t": "p",
-          "text": "{i}Cūrābō ut omnia perīcula vītēmus ac salvī in Graeciam eāmus. {/i}(ll.145– 146) {i}“Legam tibi,” inquit, “dē virō claudō cui Iēsūs imperāvit ut surgeret et {/i} {i}tolleret lectum suum et domum ambulāret.” {/i}(ll.58–60) {i}Modo dīxistī, “Chrīstum etiam mortuīs imperāvisse ut surgerent et {/i} {i}ambulārent.” {/i}(ll.61–62) {i}In Italiā dominō sevērō serviēbam quī ā mē postulābat ut opus sordidum {/i} {i}facerem nec mihi pecūlium dabat. {/i}(ll.158–160)"
+          "text": "{i}Cūrābō ut omnia perīcula vītēmus ac salvī in Graeciam eāmus. {/i} (ll.145– 146) {i}“Legam tibi,” inquit, “dē virō claudō cui Iēsūs imperāvit ut surgeret et {/i} {i}tolleret lectum suum et domum ambulāret.” {/i} (ll.58–60) {i}Modo dīxistī, “Chrīstum etiam mortuīs imperāvisse ut surgerent et {/i} {i}ambulārent.” {/i} (ll.61–62) {i}In Italiā dominō sevērō serviēbam quī ā mē postulābat ut opus sordidum {/i} {i}facerem nec mihi pecūlium dabat. {/i} (ll.158–160)"
         },
         {
           "t": "p",
-          "text": "{i}Sī quid prāvē fēceram, dominus imperābat ut ego ab aliīs servīs tenērer {/i} {i}et verberārer. {/i}(ll.160–161) {i}Multīs prōmissīs eī persuāsī ut mēcum ex Italiā proficīscerētur, Lydia {/i} {i}enim Rōmae vīvere māvult quam in Graeciā. {/i}(ll.163–165) {i}Certē nōn laetō animō Rōmā profecta sum, et difficile fuit mihi {/i} {i}persuādēre ut amīcās meās Rōmānās dēsererem. {/i}(ll.172–174) {i}Num dominus ille sevērus, quī tibi imperābat ut opus sordidum facerēs, {/i} {i}tantum pecūlium tibi dabat prō opere sordidō? {/i}(ll.181–183) Reflexive {i}sē, sibi, suus{/i} in indirect command:"
+          "text": "{i}Sī quid prāvē fēceram, dominus imperābat ut ego ab aliīs servīs tenērer {/i} {i}et verberārer. {/i} (ll.160–161) {i}Multīs prōmissīs eī persuāsī ut mēcum ex Italiā proficīscerētur, Lydia {/i} {i}enim Rōmae vīvere māvult quam in Graeciā. {/i} (ll.163–165) {i}Certē nōn laetō animō Rōmā profecta sum, et difficile fuit mihi {/i} {i}persuādēre ut amīcās meās Rōmānās dēsererem. {/i} (ll.172–174) {i}Num dominus ille sevērus, quī tibi imperābat ut opus sordidum facerēs, {/i} {i}tantum pecūlium tibi dabat prō opere sordidō? {/i} (ll.181–183) Reflexive {i}sē, sibi, suus{/i} in indirect command:"
         },
         {
           "t": "p",
-          "text": "{i}Mēdus, quī legere nōn didicit, Lydiae librum reddit eamque rogat ut {/i} {i}aliquid sibi legat. {/i}(ll.56–57) {i}Audī igitur quod scrīptum est dē Iaīrō, prīncipe quōdam Iūdaeōrum, {/i} {i}quī Iēsum rogāvit ut fīliam suam mortuam suscitāret. {/i}(ll.64–66) {i}Nec prōmissīs sōlīs Mēdus mihi persuāsit ut sēcum venīrem, sed etiam {/i} {i}dōnō pulcherrimō. {/i}(ll.174–175)"
+          "text": "{i}Mēdus, quī legere nōn didicit, Lydiae librum reddit eamque rogat ut {/i} {i}aliquid sibi legat. {/i} (ll.56–57) {i}Audī igitur quod scrīptum est dē Iaīrō, prīncipe quōdam Iūdaeōrum, {/i} {i}quī Iēsum rogāvit ut fīliam suam mortuam suscitāret. {/i} (ll.64–66) {i}Nec prōmissīs sōlīs Mēdus mihi persuāsit ut sēcum venīrem, sed etiam {/i} {i}dōnō pulcherrimō. {/i} (ll.174–175)"
         },
         {
           "t": "p",
@@ -534,11 +530,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Praedōnēs maritimī quī nāvēs persequuntur, ut mercēs et pecūniam {/i} {i}rapiant nautāsque occīdant. {/i}(ll.132–134)"
+          "text": "{i}Praedōnēs maritimī quī nāvēs persequuntur, ut mercēs et pecūniam {/i} {i}rapiant nautāsque occīdant. {/i} (ll.132–134)"
         },
         {
           "t": "p",
-          "text": "{i}Ōstiā igitur hanc nāvem cōnscendimus, ut in Graeciam nāvigārēmus. {/i} (ll.165–167) {i}Sed herī ē vīllā fūgī, ut verbera vītārem, atque ut amīcam meam {/i} {i}vidērem ac semper cum eā essem. {/i}(ll.161–163)"
+          "text": "{i}Ōstiā igitur hanc nāvem cōnscendimus, ut in Graeciam nāvigārēmus. {/i} (ll.165–167) {i}Sed herī ē vīllā fūgī, ut verbera vītārem, atque ut amīcam meam {/i} {i}vidērem ac semper cum eā essem. {/i} (ll.161–163)"
         },
         {
           "t": "p",
@@ -546,7 +542,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "{i}Tanta ūnīus deī potestās nōn est. Nam trēs diī, Neptūnus, Iūppiter, {/i} {i}Plūtō, mundum ūniversum ita inter sē dīvīsērunt, ut Iūppiter rēx {/i} {i}caelī esset, rēx maris esset Neptūnus, Plūtō autem rēgnāret apud {/i} {i}Īnferōs, ubi animae mortuōrum velut umbrae versārī dīcuntur. {/i} (ll.85–89) {i}Num quis tam stultus est ut ista vēra esse crēdat? {/i}(ll.90–91) {i}Num tū tam stultus es ut haec crēdās? {/i}(ll.109–110)"
+          "text": "{i}Tanta ūnīus deī potestās nōn est. Nam trēs diī, Neptūnus, Iūppiter, {/i} {i}Plūtō, mundum ūniversum ita inter sē dīvīsērunt, ut Iūppiter rēx {/i} {i}caelī esset, rēx maris esset Neptūnus, Plūtō autem rēgnāret apud {/i} {i}Īnferōs, ubi animae mortuōrum velut umbrae versārī dīcuntur. {/i} (ll.85–89) {i}Num quis tam stultus est ut ista vēra esse crēdat? {/i} (ll.90–91) {i}Num tū tam stultus es ut haec crēdās? {/i} (ll.109–110)"
         },
         {
           "t": "h",
@@ -561,7 +557,7 @@ const chapter = {
           "text": "{i}Mihi nēmō persuādēbit hominem super mare ambulāre posse! {/i} (ll.110–111) {i}Nōnne id tibi persuāsit eum habēre potestātem maris et ventōrum? {/i} (ll.115–116)"
         }
       ],
-      "id": "recensio"
+      "id": "lectio-tertia"
     },
     {
       "latin": "Studia Rōmāna",
@@ -580,6 +576,8 @@ const chapter = {
       "id": "studia-romana"
     }
   ],
+  "vocabularyTitle": "Vocābula Disposita/Ōrdināta",
+  "vocabularyNotes": [],
   "vocabulary": [
     {
       "group": "1st",
@@ -699,7 +697,12 @@ const chapter = {
     {
       "group": "‑āre (1)",
       "latin": "(rogō) rogāre, rogāvisse, rogātum",
-      "english": "ask (salvō) salvāre, salvāvisse, salvātum make safe"
+      "english": "ask"
+    },
+    {
+      "group": "‑āre (1)",
+      "latin": "(salvō) salvāre, salvāvisse, salvātum",
+      "english": "make safe"
     },
     {
       "group": "‑āre (1)",
@@ -733,23 +736,13 @@ const chapter = {
     },
     {
       "group": "‑ēre (2)",
-      "latin": "(impendeō) impendēre,",
+      "latin": "(impendeō) impendēre,  impendisse  ({i}intr. + dat.{/i})",
       "english": "threaten"
     },
     {
       "group": "‑ēre (2)",
-      "latin": "impendisse",
-      "english": "({i}intr. + dat.{/i})"
-    },
-    {
-      "group": "‑ēre (2)",
-      "latin": "(persuādeō) persuādēre,",
+      "latin": "(persuādeō) persuādēre,  persuāsisse  ({i}intr. + dat.{/i})",
       "english": "persuade, convince"
-    },
-    {
-      "group": "‑ēre (2)",
-      "latin": "persuāsisse",
-      "english": "({i}intr. + dat.{/i})"
     },
     {
       "group": "‑ere (3)",
@@ -788,13 +781,8 @@ const chapter = {
     },
     {
       "group": "‑īre (4)",
-      "latin": "(oboediō) oboedīre, -īvisse/",
+      "latin": "(oboediō) oboedīre, -īvisse/ iisse ({i}+ dat.{/i})",
       "english": "obey"
-    },
-    {
-      "group": "‑īre (4)",
-      "latin": "iisse",
-      "english": "({i}+ dat.{/i})"
     },
     {
       "group": "‑īre (4)",
@@ -808,13 +796,8 @@ const chapter = {
     },
     {
       "group": "‑īre (4)",
-      "latin": "(serviō) servīre, -īvisse/iisse,",
+      "latin": "(serviō) servīre, -īvisse/iisse,  -ītum  ({i}+ dat.{/i})",
       "english": "be a slave to, serve"
-    },
-    {
-      "group": "‑īre (4)",
-      "latin": "-ītum",
-      "english": "({i}+ dat.{/i})"
     },
     {
       "group": "Irregular",
