@@ -23,6 +23,9 @@ export default function Header() {
           <NavLink to="/approach" className="hide-sm">
             Approach
           </NavLink>
+          <NavLink to="/profile" className="hide-sm">
+            Profile
+          </NavLink>
           <ThemeToggle />
         </nav>
       </div>

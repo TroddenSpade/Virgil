@@ -34,3 +34,8 @@ __pycache__/
 
 # Source editions (EPUB/PDF — kept locally)
 *.epub
+
+# Local environment
+.env
+.env.*
+!.env.example

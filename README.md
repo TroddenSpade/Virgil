@@ -47,6 +47,27 @@ which it appears, and examples drawn from the readings. The data is generated wi
 node scripts/build-dictionary.mjs   # writes src/data/dictionary.generated.js
 ```
 
+### Profile and cross-device progress
+
+The **My Profile** page at `/profile` is local-first. Progress always lives in this browser; sign in
+with an email link to keep a copy in Supabase and load it on another device. Only learned chapters
+travel — theme and install preferences stay on the device.
+
+To enable sync in a deployment:
+
+1. Create a Supabase project.
+2. Run [`supabase/schema.sql`](supabase/schema.sql) in the Supabase SQL editor. It creates
+   `public.virgil_progress` with row-level security so each user can only reach their own row.
+3. Copy `.env.example` to `.env.local` and set `VITE_SUPABASE_URL` and
+   `VITE_SUPABASE_ANON_KEY` from **Project Settings → API**. Use the project root URL, not the
+   `/rest/v1/` endpoint. Never use the `service_role` key in a Vite app.
+4. In **Authentication → URL Configuration**, set the site URL and add the redirect URL
+   `https://virgil.parsasam.ir/profile` (and `http://localhost:5173/profile` for local testing).
+5. Rebuild. Without the two environment variables the app stays fully usable in local-only mode.
+
+The same two variables must be available to the GitHub Pages build (for example as repository
+Actions variables/secrets consumed by `.github/workflows/deploy.yml`).
+
 ### Completed lessons
 
 | Book | Chapters | Contents |

@@ -17,6 +17,7 @@ export default function Footer() {
           <p className="site-footer__label">Index</p>
           <Link to="/library">Library</Link>
           <Link to="/dictionary">Dictionary</Link>
+          <Link to="/profile">Profile</Link>
           <Link to="/approach">Approach</Link>
         </nav>
 
