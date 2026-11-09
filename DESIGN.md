@@ -129,7 +129,10 @@ an engraved portrait of Virgil inside a bronze ring, with the inscription
   warm silhouette at 32px.
 - **Furniture:** a cream hairline, a bronze band and a dark outer hairline around
   the portrait; a 72-tick beaded border; `P · VERGILIVS · MARO` set on an arc in
-  Cinzel; `MANTVA` and two bronze diamonds at the foot.
+  Cinzel; `MANTVA` and two bronze diamonds at the foot. The portrait and the
+  inscription live in separate bands — the ring's top sits at 0.185 of the coin,
+  the inscription between 0.377 and 0.417 — so the face is never covered by the
+  lettering.
 - **Outputs:** `public/icons/icon-192.png`, `icon-512.png`,
   `icon-maskable-512.png`, `apple-touch-icon.png`, `favicon-64.png`, and
   `virgil-medallion.svg` (a light SVG wrapper with an embedded raster copy for the

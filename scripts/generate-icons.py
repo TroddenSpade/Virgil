@@ -29,7 +29,7 @@ CREAM = (241, 229, 200)
 
 # The crop is tuned to the Vatican bust: head and shoulders, face in the
 # upper-middle of the coin. (The source is 960 x 1412.)
-CROP = (140, 20, 760, 640)
+CROP = (60, 0, 940, 880)
 
 
 def duotone(image, contrast=1.08):
@@ -97,9 +97,10 @@ def make(size, maskable=False):
     img = Image.blend(img, noise, 0.010)
     draw = ImageDraw.Draw(img)
 
-    # Engraved portrait
+    # Engraved portrait. The ring is deliberately kept below the inscription:
+    # text band 0.377–0.417 of the coin, portrait ring at 0.320 (top 0.185).
     bust = Image.open(SRC).convert("RGB").crop(CROP)
-    d = int(S * 0.700)
+    d = int(S * 0.640)
     bust = duotone(bust.resize((d, d), Image.LANCZOS)).filter(
         ImageFilter.GaussianBlur(S * 0.0015)
     )
@@ -108,15 +109,15 @@ def make(size, maskable=False):
     pad = int(d * 0.012)
     md.ellipse([pad, pad, d - pad, d - pad], fill=255)
     mask = mask.filter(ImageFilter.GaussianBlur(S * 0.006))
-    pcx, pcy = S // 2, int(S * 0.455)
+    pcx, pcy = S // 2, int(S * 0.505)
     img.paste(bust, (pcx - d // 2, pcy - d // 2), mask)
     draw = ImageDraw.Draw(img)
 
     # Portrait rings: cream hairline, bronze band, dark outer hairline
     for ratio, colour, width in [
-        (0.352, CREAM + (90,), 0.002),
-        (0.360, BRONZE, 0.006),
-        (0.372, BRONZE_DIM, 0.002),
+        (0.312, CREAM + (90,), 0.002),
+        (0.320, BRONZE, 0.006),
+        (0.330, BRONZE_DIM, 0.002),
     ]:
         r = int(S * ratio)
         draw.ellipse(
@@ -154,12 +155,12 @@ def make(size, maskable=False):
         )
 
     # Inscription
-    font = ImageFont.truetype(FONT_PATH, int(S * 0.047))
+    font = ImageFont.truetype(FONT_PATH, int(S * 0.040))
     arc_text(
         draw,
         "P · VERGILIVS · MARO",
         (S / 2, S / 2),
-        S * 0.401,
+        S * 0.397,
         font,
         BRONZE,
         -152,
@@ -168,12 +169,12 @@ def make(size, maskable=False):
     )
 
     # Bottom legend
-    small = ImageFont.truetype(FONT_PATH, int(S * 0.029))
+    small = ImageFont.truetype(FONT_PATH, int(S * 0.028))
     label = "MANTVA"
     tw = draw.textlength(label, font=small)
-    draw.text((S / 2 - tw / 2, S * 0.910), label, font=small, fill=CREAM + (215,))
+    draw.text((S / 2 - tw / 2, S * 0.915), label, font=small, fill=CREAM + (215,))
     for x in (S / 2 - tw / 2 - S * 0.034, S / 2 + tw / 2 + S * 0.034):
-        draw.regular_polygon((x, S * 0.926, S * 0.006), 4, rotation=0, fill=BRONZE + (210,))
+        draw.regular_polygon((x, S * 0.931, S * 0.006), 4, rotation=0, fill=BRONZE + (210,))
 
     if maskable:
         inner = img.resize((int(S * 0.82), int(S * 0.82)), Image.LANCZOS)
