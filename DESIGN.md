@@ -118,7 +118,7 @@ direct. Motion is a single 10px rise on first paint, disabled by
 
 The old mark was a laurel wreath with a letter V. The new mark is a **Roman coin**:
 an engraved portrait of Virgil inside a bronze ring, with the inscription
-`P · VERGILIVS · MARO` around the top and `MANTVA` at the foot.
+`PVBLIVS · VERGILIVS · MARO` around the top and `MANTVA` at the foot.
 
 - **Source portrait:** the Vatican bust of Virgil, a public-domain photograph from
   Wikimedia Commons (`File:Publius Vergilius Maro.jpg`). The source is kept in
@@ -128,7 +128,7 @@ an engraved portrait of Virgil inside a bronze ring, with the inscription
   vignetted into a deep patina field. The face stays legible at 512px and becomes a
   warm silhouette at 32px.
 - **Furniture:** a cream hairline, a bronze band and a dark outer hairline around
-  the portrait; a 72-tick beaded border; `P · VERGILIVS · MARO` set on an arc in
+  the portrait; a 72-tick beaded border; `PVBLIVS · VERGILIVS · MARO` set on an arc in
   Cinzel; `MANTVA` — the Roman spelling of Mantua, Virgil's birthplace, with V for U — and two bronze diamonds at the foot. The portrait and the
   inscription live in separate bands — the ring's top sits at 0.163 of the coin,
   the inscription between 0.377 and 0.417 — so the face is never covered by the
@@ -143,7 +143,7 @@ an engraved portrait of Virgil inside a bronze ring, with the inscription
 
 The header uses the medallion at 40px beside the wordmark **VIRGIL**; the hero uses
 the 512px version inside a bronze registration ring. The wordmark's second line,
-`P·VERGILIVS·MARO`, is the poet's name in the Roman manner.
+`PVBLIVS·VERGILIVS·MARO`, is the poet's name in the Roman manner.
 
 ---
 

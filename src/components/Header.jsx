@@ -10,7 +10,7 @@ export default function Header() {
           <Logo size={40} className="brand__mark" />
           <span className="brand__text">
             <span className="brand__name">VIRGIL</span>
-            <span className="brand__tag">P·VERGILIVS·MARO</span>
+            <span className="brand__tag">PVBLIVS·VERGILIVS·MARO</span>
           </span>
         </Link>
 

@@ -59,7 +59,7 @@ export default function Home() {
               />
             </div>
             <figcaption>
-              <span className="hero__portrait-name">P·VERGILIVS·MARO</span>
+              <span className="hero__portrait-name">PVBLIVS·VERGILIVS·MARO</span>
               <span className="hero__portrait-dates">70–19 BC · Mantua</span>
             </figcaption>
           </figure>

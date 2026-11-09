@@ -2,7 +2,7 @@
 """Generate the Virgil app icons from the public-domain Vatican bust.
 
 The medallion is a Roman coin: an engraved duotone portrait of Virgil in a
-bronze ring, with the inscription P · VERGILIVS · MARO. It is rasterised with
+bronze ring, with the inscription PVBLIVS · VERGILIVS · MARO. It is rasterised with
 Pillow and also wrapped in an SVG (with an embedded PNG) for the favicon and
 the header mark.
 
@@ -155,16 +155,16 @@ def make(size, maskable=False):
         )
 
     # Inscription
-    font = ImageFont.truetype(FONT_PATH, int(S * 0.040))
+    font = ImageFont.truetype(FONT_PATH, int(S * 0.039))
     arc_text(
         draw,
-        "P · VERGILIVS · MARO",
+        "PVBLIVS · VERGILIVS · MARO",
         (S / 2, S / 2),
         S * 0.397,
         font,
         BRONZE,
-        -152,
-        -28,
+        -158,
+        -22,
         tracking=S * 0.004,
     )
 

@@ -1,7 +1,7 @@
 # Cinzel (icon inscription)
 
 `Cinzel-600.ttf` is used by `scripts/generate-icons.py` to set the inscription
-`P · VERGILIVS · MARO` and the legend `MANTVA` on the app icons. The site itself
+`PVBLIVS · VERGILIVS · MARO` and the legend `MANTVA` on the app icons. The site itself
 loads Cinzel from Google Fonts.
 
 - **Family:** Cinzel, weight 600

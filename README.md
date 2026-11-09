@@ -67,7 +67,7 @@ lettering of Roman inscriptions. See [DESIGN.md](DESIGN.md) for the research, th
 palette, the type system and the mark.
 
 The mark is a Roman coin: an engraved, bronze-duotone portrait of Virgil from the
-public-domain Vatican bust, inside a beaded ring inscribed `P · VERGILIVS · MARO`.
+public-domain Vatican bust, inside a beaded ring inscribed `PVBLIVS · VERGILIVS · MARO`.
 The source photograph is in [`public/art/`](public/art/), and the icons are
 generated from it:
 
