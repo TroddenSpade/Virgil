@@ -10,8 +10,9 @@ export default function Library() {
         <p className="lead" style={{ maxWidth: '60ch' }}>
           The whole course, arranged as a shelf of books. Familia Romana begins the course and Roma Aeterna
           carries it on through Aeneas and the Roman Republic, with the Exercitia Latina beside them; the
-          Companion, Learn Latin from the Romans and Latin via Ovid are here in full as references. Together
-          they lead from your first Latin sentence to the poetry of Virgil.
+          Companion offers a chapter-by-chapter commentary on Familia Romana, while Learn Latin from the
+          Romans and Latin via Ovid are here in full. Together they lead from your first Latin sentence to
+          the poetry of Virgil.
         </p>
 
         <div className="book-grid">
@@ -41,7 +42,7 @@ export default function Library() {
                 {isActive && (
                   <p className="book-card__cta">
                     {book.chapterCount} chapters ·{' '}
-                    {book.kind === 'reference' ? 'full text' : `${book.readyCount} lessons`}{' '}
+                    {book.kind === 'reference' ? 'full text' : book.kind === 'commentary' ? `${book.readyCount} chapters` : `${book.readyCount} lessons`}{' '}
                     <span aria-hidden="true">→</span>
                   </p>
                 )}

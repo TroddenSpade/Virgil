@@ -2,6 +2,7 @@ import { book as familiaRomana, chapters as familiaRomanaChapters } from './fami
 import { book as romaAeterna, chapters as romaAeternaChapters } from './roma-aeterna/index.js'
 import { book as exercitiaLatina, chapters as exercitiaLatinaChapters } from './exercitia-latina/index.js'
 import { book as latinViaOvid, chapters as latinViaOvidChapters } from './latin-via-ovid/index.js'
+import { book as companion, chapters as companionChapters } from './companion/index.js'
 import { sources } from './sources.generated.js'
 
 // Reference sources are the full texts extracted from the source editions.
@@ -49,33 +50,10 @@ const latinViaOvidSource = sourceBySlug['latin-via-ovid']
 const exercitiaSource = sourceBySlug['exercitia']
 
 export const companionBook = {
-  id: 'companion',
-  slug: 'companion-to-familia-romana',
-  title: 'A Companion to Familia Romana',
-  latinTitle: 'COMES FAMILIAE ROMANAE',
-  shortTitle: 'Companion',
-  author: 'Jeanne Marie Neumann',
-  edition: 'Second Edition',
-  year: 2016,
-  publisher: 'Focus / Hackett Publishing',
-  isbn: '978-1-58510-809-1',
-  level: 'Companion reference',
-  language: 'English + Latin',
-  summary:
-    'Running alongside Familia Romana: fuller grammar explanations, cultural notes and ' +
-    'translation help for every chapter — the ideal reference when a lesson needs unpacking.',
-  description:
-    'Based on Ørberg’s Latine Disco, this Companion walks through every chapter of Familia Romana ' +
-    'with fuller explanations of the grammar, notes on points of style and culture, and vocabulary. ' +
-    'Here the complete text is reproduced chapter by chapter as a browsable reference.',
-  status: 'active',
-  kind: 'reference',
+  ...companion,
   sourceSlug: 'companion',
-  accent: 'gold',
-  chapterCount: companionSource?.chapters.length ?? 0,
-  readyCount: companionSource?.chapters.length ?? 0,
-  chapters: referenceChapters('companion'),
   referenceChapters: referenceChapters('companion'),
+  chapters: companionChapters,
 }
 
 export const learnLatinBook = {

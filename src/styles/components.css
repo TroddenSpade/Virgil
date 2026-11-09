@@ -2142,3 +2142,170 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* ---------- A Companion to Familia Romana ---------- */
+
+.commentary {
+  max-width: 74ch;
+}
+.commentary__p {
+  font-family: var(--font-serif);
+  font-size: 1.06rem;
+  line-height: 1.82;
+  margin: 0 0 1rem;
+}
+.commentary__heading {
+  font-family: var(--font-display);
+  font-size: 1.12rem;
+  letter-spacing: 0.02em;
+  margin: 2rem 0 0.75rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--line-soft);
+}
+.commentary__heading:first-child {
+  margin-top: 0.4rem;
+}
+.commentary__list {
+  margin: 0 0 1.1rem;
+  padding-left: 1.4rem;
+}
+.commentary__li {
+  font-family: var(--font-serif);
+  font-size: 1.04rem;
+  line-height: 1.78;
+  margin-bottom: 0.35rem;
+}
+.commentary__li::marker {
+  font-family: var(--font-ui);
+  font-size: 0.82em;
+  color: var(--muted);
+}
+.commentary__marker {
+  display: inline-block;
+  min-width: 1.6rem;
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+.commentary__outline {
+  list-style: none;
+  margin: 0 0 1.5rem;
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--line-soft);
+  border-radius: 10px;
+  background: var(--surface-soft, transparent);
+}
+.commentary__outline-item {
+  display: flex;
+  gap: 0.6rem;
+  font-family: var(--font-ui);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  padding: 0.18rem 0;
+  color: var(--ink-soft);
+}
+.commentary__outline-item.is-sub {
+  padding-left: 1.4rem;
+  font-size: 0.86rem;
+  color: var(--muted);
+}
+.commentary__outline-marker {
+  color: var(--gold, #a9812f);
+  font-size: 0.7em;
+  line-height: 1.9;
+}
+.commentary__table-wrap {
+  margin: 0 0 1.3rem;
+  overflow-x: auto;
+}
+.commentary__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-serif);
+  font-size: 0.98rem;
+}
+.commentary__cell {
+  padding: 0.32rem 0.65rem 0.32rem 0;
+  vertical-align: top;
+  line-height: 1.6;
+  border-bottom: 1px solid var(--line-soft);
+}
+.commentary__cell--latin {
+  width: 38%;
+  font-family: var(--font-latin);
+  color: var(--ink);
+}
+.commentary__note-ref {
+  font-family: var(--font-ui);
+  font-size: 0.68em;
+  color: var(--gold, #a9812f);
+  margin-left: 0.08rem;
+}
+
+/* Chapter vocabulary, grouped as the Companion prints it. */
+.cv {
+  display: grid;
+  gap: 1.6rem;
+  max-width: 74ch;
+}
+.cv__group-title {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  letter-spacing: 0.06em;
+  margin: 0 0 0.5rem;
+  color: var(--ink);
+}
+.cv__list {
+  margin: 0;
+  display: grid;
+  gap: 0;
+}
+.cv__row {
+  display: grid;
+  grid-template-columns: minmax(10rem, 1fr) minmax(12rem, 1.5fr);
+  gap: 1rem;
+  padding: 0.38rem 0;
+  border-bottom: 1px dotted var(--line-soft);
+  align-items: baseline;
+}
+.cv__latin {
+  font-family: var(--font-latin);
+  font-size: 1.02rem;
+  color: var(--ink);
+}
+.cv__english {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 0.98rem;
+  color: var(--ink-soft);
+}
+@media (max-width: 560px) {
+  .cv__row {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+  }
+}
+
+/* The book's footnotes, gathered at the chapter's end. */
+.cv-notes {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 74ch;
+}
+.cv-notes__item {
+  display: grid;
+  grid-template-columns: 1.8rem 1fr;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--line-soft);
+  font-family: var(--font-serif);
+  font-size: 0.98rem;
+  line-height: 1.7;
+}
+.cv-notes__num {
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  color: var(--gold, #a9812f);
+  padding-top: 0.15rem;
+}

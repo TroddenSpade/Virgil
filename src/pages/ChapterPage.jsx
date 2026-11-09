@@ -6,6 +6,10 @@ import Reading from '../components/Reading.jsx'
 import GrammarSection from '../components/GrammarSection.jsx'
 import Vocabulary from '../components/Vocabulary.jsx'
 import Pensum from '../components/Pensum.jsx'
+import CommentarySection, { Inline } from '../components/Commentary.jsx'
+import CompanionVocabulary, { CompanionNotes } from '../components/CompanionVocabulary.jsx'
+
+const ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII']
 
 export default function ChapterPage() {
   const { bookSlug, chapterSlug } = useParams()
@@ -17,6 +21,44 @@ export default function ChapterPage() {
   return <Lesson book={book} chapter={chapter} />
 }
 
+function chapterSections(chapter) {
+  if (chapter.sections?.length) {
+    return [
+      ...chapter.sections.map((section, index) => ({
+        id: section.id,
+        label: section.latin,
+        sub: section.english || '',
+        num: ROMAN[index] || String(index + 1),
+      })),
+      chapter.vocabulary?.length && { id: 'vocabula', label: 'Vocābula', sub: 'Vocabulary' },
+      chapter.notes?.length && { id: 'notae', label: 'Nōtae', sub: 'Notes' },
+    ].filter(Boolean)
+  }
+
+  return [
+    chapter.readings?.length && { id: 'lectio', label: 'Lēctiō', sub: 'Reading' },
+    chapter.grammar?.length && { id: 'grammatica', label: 'Grammatica Latīna', sub: 'Grammar' },
+    chapter.vocabulary?.length && { id: 'vocabula', label: 'Vocābula', sub: 'Vocabulary' },
+    chapter.pensa?.length && { id: 'pensa', label: 'Pēnsa', sub: 'Exercises' },
+  ]
+    .filter(Boolean)
+    .map((section, index) => ({ ...section, num: ROMAN[index] || String(index + 1) }))
+}
+
+function SectionHead({ num, latin, english }) {
+  return (
+    <div className="lesson__section-head">
+      <span className="lesson__section-index" aria-hidden="true">
+        {num}
+      </span>
+      <div className="lesson__section-heading">
+        <h2 className="lesson__section-title latin"><Inline text={latin} /></h2>
+        <p className="lesson__section-kicker">{english}</p>
+      </div>
+    </div>
+  )
+}
+
 function Lesson({ book, chapter }) {
   const { isDone, toggle } = useProgress(book.id, book.chapterCount)
   const done = isDone(chapter.number)
@@ -26,15 +68,8 @@ function Lesson({ book, chapter }) {
   const prev = index > 0 ? ready[index - 1] : null
   const next = index < ready.length - 1 ? ready[index + 1] : null
 
-  const sections = [
-    chapter.readings.length && { id: 'lectio', label: 'Lēctiō', sub: 'Reading' },
-    chapter.grammar.length && { id: 'grammatica', label: 'Grammatica Latīna', sub: 'Grammar' },
-    chapter.vocabulary.length && { id: 'vocabula', label: 'Vocābula', sub: 'Vocabulary' },
-    chapter.pensa.length && { id: 'pensa', label: 'Pēnsa', sub: 'Exercises' },
-  ]
-    .filter(Boolean)
-    .map((section, index) => ({ ...section, num: ['I', 'II', 'III', 'IV'][index] }))
-
+  const isCommentary = Boolean(chapter.sections?.length)
+  const sections = chapterSections(chapter)
   const sectionNum = (id) => sections.find((section) => section.id === id)?.num
 
   const active = useScrollSpy(sections.map((s) => s.id))
@@ -52,12 +87,12 @@ function Lesson({ book, chapter }) {
               {chapter.roman}
             </span>
             <div className="lesson__heading-text">
-              <p className="eyebrow">Capitulum {chapter.roman}</p>
+              <p className="eyebrow">{book.kind === 'commentary' ? 'Chapter' : 'Capitulum'} {chapter.roman}</p>
               <h1 className="lesson__latin-title latin">{chapter.latinTitle}</h1>
               <p className="lesson__title">{chapter.title}</p>
             </div>
           </div>
-          <p className="lesson__tagline">{chapter.tagline}</p>
+          {chapter.tagline && <p className="lesson__tagline">{chapter.tagline}</p>}
         </header>
 
         <div className="lesson__layout">
@@ -69,7 +104,7 @@ function Lesson({ book, chapter }) {
                   <a key={s.id} href={`#${s.id}`} className={active === s.id ? 'is-active' : ''}>
                     <span className="lesson__toc-num">{s.num}</span>
                     <span className="lesson__toc-label">
-                      <span className="lesson__toc-latin latin">{s.label}</span>
+                      <span className="lesson__toc-latin latin"><Inline text={s.label} /></span>
                       <span className="lesson__toc-sub">{s.sub}</span>
                     </span>
                   </a>
@@ -88,44 +123,77 @@ function Lesson({ book, chapter }) {
           </aside>
 
           <div className="lesson__main">
-            <section className="lesson__overview">
-              <p className="eyebrow">Overview</p>
-              <p>{chapter.overview}</p>
-              {chapter.objectives?.length > 0 && (
-                <ul className="objectives">
-                  {chapter.objectives.map((o, i) => (
-                    <li key={i}>{o}</li>
-                  ))}
-                </ul>
-              )}
-            </section>
-
-            {chapter.readings.length > 0 && (
-              <section className="lesson__section" id="lectio">
-                <SectionHead num={sectionNum('lectio')} latin="Lēctiō" english="reading" />
-                <Reading readings={chapter.readings} />
+            {chapter.overview && (
+              <section className="lesson__overview">
+                <p className="eyebrow">Overview</p>
+                <p>{chapter.overview}</p>
+                {chapter.objectives?.length > 0 && (
+                  <ul className="objectives">
+                    {chapter.objectives.map((o, i) => (
+                      <li key={i}>{o}</li>
+                    ))}
+                  </ul>
+                )}
               </section>
             )}
 
-            {chapter.grammar.length > 0 && (
-              <section className="lesson__section" id="grammatica">
-                <SectionHead num={sectionNum('grammatica')} latin="Grammatica Latīna" english="grammar" />
-                <GrammarSection entries={chapter.grammar} />
-              </section>
-            )}
+            {isCommentary ? (
+              <>
+                {chapter.sections.map((section) => (
+                  <section className="lesson__section" id={section.id} key={section.id}>
+                    <SectionHead
+                      num={sectionNum(section.id)}
+                      latin={section.latin}
+                      english={section.english}
+                    />
+                    <CommentarySection blocks={section.blocks} />
+                  </section>
+                ))}
 
-            {chapter.vocabulary.length > 0 && (
-              <section className="lesson__section" id="vocabula">
-                <SectionHead num={sectionNum('vocabula')} latin="Vocābula" english="vocabulary" />
-                <Vocabulary words={chapter.vocabulary} />
-              </section>
-            )}
+                {chapter.vocabulary?.length > 0 && (
+                  <section className="lesson__section" id="vocabula">
+                    <SectionHead num={sectionNum('vocabula')} latin="Vocābula" english="vocabulary" />
+                    <CompanionVocabulary words={chapter.vocabulary} />
+                  </section>
+                )}
 
-            {chapter.pensa.length > 0 && (
-              <section className="lesson__section" id="pensa">
-                <SectionHead num={sectionNum('pensa')} latin="Pēnsa" english="exercises" />
-                <Pensum pensa={chapter.pensa} />
-              </section>
+                {chapter.notes?.length > 0 && (
+                  <section className="lesson__section" id="notae">
+                    <SectionHead num={sectionNum('notae')} latin="Nōtae" english="notes" />
+                    <CompanionNotes notes={chapter.notes} />
+                  </section>
+                )}
+              </>
+            ) : (
+              <>
+                {chapter.readings?.length > 0 && (
+                  <section className="lesson__section" id="lectio">
+                    <SectionHead num={sectionNum('lectio')} latin="Lēctiō" english="reading" />
+                    <Reading readings={chapter.readings} />
+                  </section>
+                )}
+
+                {chapter.grammar?.length > 0 && (
+                  <section className="lesson__section" id="grammatica">
+                    <SectionHead num={sectionNum('grammatica')} latin="Grammatica Latīna" english="grammar" />
+                    <GrammarSection entries={chapter.grammar} />
+                  </section>
+                )}
+
+                {chapter.vocabulary?.length > 0 && (
+                  <section className="lesson__section" id="vocabula">
+                    <SectionHead num={sectionNum('vocabula')} latin="Vocābula" english="vocabulary" />
+                    <Vocabulary words={chapter.vocabulary} />
+                  </section>
+                )}
+
+                {chapter.pensa?.length > 0 && (
+                  <section className="lesson__section" id="pensa">
+                    <SectionHead num={sectionNum('pensa')} latin="Pēnsa" english="exercises" />
+                    <Pensum pensa={chapter.pensa} />
+                  </section>
+                )}
+              </>
             )}
           </div>
         </div>
@@ -155,19 +223,5 @@ function Lesson({ book, chapter }) {
         </nav>
       </div>
     </article>
-  )
-}
-
-function SectionHead({ num, latin, english }) {
-  return (
-    <div className="lesson__section-head">
-      <span className="lesson__section-index" aria-hidden="true">
-        {num}
-      </span>
-      <div className="lesson__section-heading">
-        <h2 className="lesson__section-title latin">{latin}</h2>
-        <p className="lesson__section-kicker">{english}</p>
-      </div>
-    </div>
   )
 }

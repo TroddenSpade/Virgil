@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { books, familiaRomanaBook, romaAeternaBook, exercitiaBook, latinViaOvidBook } from '../data/library.js'
+import { books, familiaRomanaBook, romaAeternaBook, exercitiaBook, latinViaOvidBook, companionBook } from '../data/library.js'
 import { useProgress } from '../hooks/useLocalStorage.js'
 
 const firstChapter = familiaRomanaBook.chapters[0]
@@ -8,6 +8,7 @@ const firstRomaAeternaChapter = romaAeternaBook.chapters[0]
 export default function Home() {
   const { count, percent } = useProgress(familiaRomanaBook.id, familiaRomanaBook.chapterCount)
   const romaProgress = useProgress(romaAeternaBook.id, romaAeternaBook.chapterCount)
+  const companionProgress = useProgress(companionBook.id, companionBook.chapterCount)
 
   return (
     <>
@@ -41,13 +42,13 @@ export default function Home() {
             <ul className="hero__meta rise">
               <li>
                 <strong>
-                  {familiaRomanaBook.chapterCount + romaAeternaBook.chapterCount + exercitiaBook.chapterCount + latinViaOvidBook.chapterCount}
+                  {familiaRomanaBook.chapterCount + romaAeternaBook.chapterCount + exercitiaBook.chapterCount + latinViaOvidBook.chapterCount + companionBook.chapterCount}
                 </strong>{' '}
                 chapters
               </li>
               <li>
                 <strong>
-                  {familiaRomanaBook.readyCount + romaAeternaBook.readyCount + exercitiaBook.readyCount + latinViaOvidBook.readyCount}
+                  {familiaRomanaBook.readyCount + romaAeternaBook.readyCount + exercitiaBook.readyCount + latinViaOvidBook.readyCount + companionBook.readyCount}
                 </strong>{' '}
                 full lessons ready
               </li>
@@ -132,6 +133,34 @@ export default function Home() {
             </div>
             <div className="book-feature__spine" aria-hidden="true">
               <span className="book-feature__spine-text">FAMILIA ROMANA</span>
+            </div>
+          </div>
+
+          <div className="book-feature card">
+            <div className="book-feature__body">
+              <p className="eyebrow">Now available · Companion</p>
+              <h2>{companionBook.title}</h2>
+              <p className="lead latin">{companionBook.latinTitle}</p>
+              <p>{companionBook.summary}</p>
+              <div className="book-feature__progress">
+                <div className="progress" role="progressbar" aria-valuenow={companionProgress.percent} aria-valuemin={0} aria-valuemax={100}>
+                  <div className="progress__fill" style={{ width: `${companionProgress.percent}%` }} />
+                </div>
+                <span className="muted" style={{ fontFamily: 'var(--font-ui)', fontSize: '0.8rem' }}>
+                  {companionProgress.count} of {companionBook.chapterCount} chapters marked as learned
+                </span>
+              </div>
+              <div className="hero__actions">
+                <Link className="btn btn--primary" to={`/library/${companionBook.slug}`}>
+                  Open the Companion
+                </Link>
+                <Link className="btn btn--ghost" to={`/library/${companionBook.slug}/${companionBook.chapters[0].slug}`}>
+                  Start Chapter I
+                </Link>
+              </div>
+            </div>
+            <div className="book-feature__spine" aria-hidden="true" style={{ background: 'linear-gradient(160deg, #7a5a1f, #3c2a0c)' }}>
+              <span className="book-feature__spine-text">COMES</span>
             </div>
           </div>
 

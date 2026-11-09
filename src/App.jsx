@@ -6,6 +6,7 @@ import Dictionary from './pages/Dictionary.jsx'
 import Profile from './pages/Profile.jsx'
 import BookPage from './pages/BookPage.jsx'
 import ChapterPage from './pages/ChapterPage.jsx'
+import ExtraPage from './pages/ExtraPage.jsx'
 import ReferencePage from './pages/ReferencePage.jsx'
 import Approach from './pages/Approach.jsx'
 import NotFound from './pages/NotFound.jsx'
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="profile" element={<Profile />} />
         <Route path="library/:bookSlug" element={<BookPage />} />
         <Route path="library/:bookSlug/read/:chapterId" element={<ReferencePage />} />
+        <Route path="library/:bookSlug/extra/:extraSlug" element={<ExtraPage />} />
         <Route path="library/:bookSlug/:chapterSlug" element={<ChapterPage />} />
         <Route path="approach" element={<Approach />} />
         <Route path="*" element={<NotFound />} />

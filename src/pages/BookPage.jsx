@@ -2,6 +2,8 @@ import { Link, useParams, Navigate } from 'react-router-dom'
 import { getBook } from '../data/library.js'
 import { useProgress } from '../hooks/useLocalStorage.js'
 
+const EXTRA_NUMERALS = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII']
+
 export default function BookPage() {
   const { bookSlug } = useParams()
   const book = getBook(bookSlug)
@@ -122,10 +124,13 @@ function ActiveBook({ book }) {
 
         <hr className="rule" />
 
-        <h2 className="section-heading">Capitula</h2>
+        <h2 className="section-heading">{book.kind === 'commentary' ? 'Commentary' : 'Capitula'}</h2>
         <p className="muted" style={{ marginTop: '-0.75rem', marginBottom: '1.5rem' }}>
-          Lessons marked <span className="tag tag--laurel">lesson</span> are fully written up; the rest open the
-          original Latin text.
+          {book.kind === 'commentary'
+            ? 'Each chapter follows the book’s own sections: Rēs Grammaticae Novae, the Lēctiōnēs, Recēnsiō, Studia Rōmāna, and the chapter vocabulary.'
+            : 'Lessons marked '}
+          {book.kind !== 'commentary' && <span className="tag tag--laurel">lesson</span>}
+          {book.kind !== 'commentary' && ' are fully written up; the rest open the original Latin text.'}
         </p>
         <div className="chapter-grid">
           {book.chapters.map((chapter) => {
@@ -190,6 +195,35 @@ function ActiveBook({ book }) {
             )
           })}
         </div>
+
+        {book.extras?.length > 0 && (
+          <>
+            <hr className="rule" />
+            <h2 className="section-heading">Front matter &amp; reference</h2>
+            <div className="chapter-grid">
+              {book.extras.map((extra, extraIndex) => (
+                <Link
+                  key={extra.id}
+                  to={`/library/${book.slug}/extra/${extra.slug}`}
+                  className="chapter-card card is-ready"
+                >
+                  <span className="chapter-card__num" aria-hidden="true">
+                    {EXTRA_NUMERALS[extraIndex] || '·'}
+                  </span>
+                  <span className="chapter-card__body">
+                    <span className="chapter-card__latin latin">{extra.latinTitle}</span>
+                    <span className="chapter-card__title">{extra.title}</span>
+                  </span>
+                  <span className="chapter-card__status">
+                    <span className="chapter-card__arrow" aria-hidden="true">
+                      →
+                    </span>
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </>
+        )}
       </div>
     </section>
   )
