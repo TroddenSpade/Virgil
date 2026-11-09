@@ -79,7 +79,7 @@ function Lesson({ book, chapter }) {
   const active = useScrollSpy(sections.map((s) => s.id))
 
   return (
-    <article className="lesson">
+    <article className={`lesson${isCommentary ? ' lesson--commentary' : ''}`}>
       <div className="container lesson__container">
         <Link to={`/library/${book.slug}`} className="back-link">
           ← {book.shortTitle}

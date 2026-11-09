@@ -19,7 +19,7 @@ export default function BookPage() {
 /* A book whose full text is reproduced as a browsable reference. */
 function ReferenceBook({ book }) {
   return (
-    <section className="section">
+    <section className={`section${book.kind === 'commentary' ? ' book-page--commentary' : ''}`}>
       <div className="container">
         <Link to="/library" className="back-link">
           ← Library
@@ -82,7 +82,7 @@ function ActiveBook({ book }) {
   const { isDone, count, percent } = useProgress(book.id, book.chapterCount)
 
   return (
-    <section className="section">
+    <section className={`section${book.kind === 'commentary' ? ' book-page--commentary' : ''}`}>
       <div className="container">
         <Link to="/library" className="back-link">
           ← Library
@@ -120,12 +120,23 @@ function ActiveBook({ book }) {
               {percent}% complete
             </span>
           </div>
+
+          {book.kind === 'commentary' && (
+            <div className="book-hero__actions">
+              <Link className="btn btn--primary" to={`/library/${book.slug}/${book.chapters[0].slug}`}>
+                Begin Chapter I →
+              </Link>
+              <a className="btn btn--ghost" href="#commentary">
+                Browse the commentary
+              </a>
+            </div>
+          )}
         </header>
 
         <hr className="rule" />
 
-        <h2 className="section-heading">{book.kind === 'commentary' ? 'Commentary' : 'Capitula'}</h2>
-        <p className="muted" style={{ marginTop: '-0.75rem', marginBottom: '1.5rem' }}>
+        <h2 id="commentary" className="section-heading">{book.kind === 'commentary' ? 'Commentary' : 'Capitula'}</h2>
+        <p className="book-page__note muted" style={{ marginTop: '-0.75rem', marginBottom: '1.5rem' }}>
           {book.kind === 'commentary'
             ? 'Each chapter follows the book’s own sections: Rēs Grammaticae Novae, the Lēctiōnēs, Recēnsiō, Studia Rōmāna, and the chapter vocabulary.'
             : 'Lessons marked '}

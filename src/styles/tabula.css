@@ -914,3 +914,248 @@
     margin-top: 0.6rem;
   }
 }
+
+/* ============================================================
+   COMPANION · the commentary as a printed page
+   ============================================================ */
+
+/* The book page: a title leaf, then a two/three-column table of contents. */
+.book-page--commentary .book-hero {
+  position: relative;
+  margin-top: 1.4rem;
+  padding: clamp(2rem, 5vw, 3.4rem);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 3px var(--surface), inset 0 0 0 4px var(--line-soft), var(--shadow-sm);
+  overflow: hidden;
+}
+.book-page--commentary .book-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--bronze), var(--patina) 55%, transparent);
+  opacity: 0.8;
+  z-index: 2;
+}
+.book-page--commentary .book-hero::after {
+  content: 'COMES';
+  position: absolute;
+  right: clamp(0.5rem, 4vw, 3rem);
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--font-display);
+  font-size: clamp(4rem, 9vw, 7.5rem);
+  letter-spacing: 0.08em;
+  color: var(--bronze);
+  opacity: 0.055;
+  pointer-events: none;
+  z-index: 0;
+}
+.book-page--commentary .book-hero > * {
+  position: relative;
+  z-index: 1;
+}
+.book-page--commentary .book-hero__title {
+  max-width: 22ch;
+  font-size: clamp(2.1rem, 5vw, 3.25rem);
+}
+.book-page--commentary .book-hero .lead {
+  max-width: 62ch;
+}
+.book-page--commentary .book-hero__stats {
+  gap: 0;
+  margin: 1.6rem 0 1.15rem;
+}
+.book-page--commentary .book-hero__stats div {
+  min-width: 0;
+  padding: 0 1.25rem 0 0;
+  margin-right: 1.25rem;
+  border: none;
+  border-right: 1px solid var(--line-soft);
+  background: transparent;
+  box-shadow: none;
+}
+.book-page--commentary .book-hero__stats div:last-child {
+  margin-right: 0;
+  padding-right: 0;
+  border-right: none;
+}
+.book-page--commentary .book-hero__stats strong {
+  font-size: 1.65rem;
+  color: var(--patina);
+}
+.book-page--commentary .book-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin: 1.4rem 0 0;
+}
+.book-page--commentary .book-hero__progress {
+  max-width: 34rem;
+}
+.book-page--commentary .book-page__note {
+  max-width: 68ch;
+  margin-top: -0.5rem !important;
+  padding: 0.8rem 1rem;
+  border-left: 3px solid var(--bronze);
+  background: var(--surface-2);
+  font-family: var(--font-serif);
+  font-size: 0.98rem;
+  line-height: 1.65;
+  color: var(--ink-soft);
+}
+.book-page--commentary #commentary {
+  scroll-margin-top: calc(var(--header-h) + 1rem);
+}
+.book-page--commentary .chapter-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.7rem;
+}
+.book-page--commentary .chapter-card {
+  position: relative;
+  overflow: hidden;
+  padding: 1rem 1.15rem;
+  background: var(--surface);
+}
+.book-page--commentary .chapter-card::before {
+  content: '';
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 2px;
+  background: linear-gradient(var(--bronze), transparent);
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+.book-page--commentary .chapter-card:hover::before {
+  opacity: 1;
+}
+.book-page--commentary .chapter-card__num {
+  min-width: 3rem;
+  height: 3rem;
+  border-radius: 2px;
+  font-size: 1.05rem;
+}
+.book-page--commentary .chapter-card__latin {
+  font-family: var(--font-display);
+  font-size: 1.02rem;
+  letter-spacing: 0.03em;
+}
+.book-page--commentary .chapter-card__title {
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+}
+@media (max-width: 1000px) {
+  .book-page--commentary .chapter-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 680px) {
+  .book-page--commentary .chapter-grid {
+    grid-template-columns: 1fr;
+  }
+  .book-page--commentary .book-hero__stats div {
+    margin-right: 0.85rem;
+    padding-right: 0.85rem;
+  }
+}
+
+/* The chapter page: each commentary section becomes a leaf of the codex. */
+.lesson--commentary .commentary,
+.lesson--commentary .cv,
+.lesson--commentary .cv-notes {
+  position: relative;
+  max-width: none;
+  padding: clamp(1.5rem, 3.2vw, 2.5rem);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 3px var(--surface), inset 0 0 0 4px var(--line-soft), var(--shadow-sm);
+  overflow: hidden;
+}
+.lesson--commentary .commentary::before,
+.lesson--commentary .cv::before,
+.lesson--commentary .cv-notes::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--bronze), var(--patina) 55%, transparent);
+  opacity: 0.75;
+  z-index: 2;
+}
+.lesson--commentary .commentary__p,
+.lesson--commentary .commentary__heading,
+.lesson--commentary .commentary__list,
+.lesson--commentary .commentary__table-wrap,
+.lesson--commentary .commentary__outline,
+.lesson--commentary .cv__group,
+.lesson--commentary .cv-notes__item {
+  max-width: 68ch;
+  margin-inline: auto;
+}
+.lesson--commentary .commentary__p {
+  font-family: var(--font-serif);
+  font-size: 1.18rem;
+  line-height: 1.86;
+}
+.lesson--commentary .commentary > .commentary__p:first-of-type::first-letter {
+  float: left;
+  font-family: var(--font-display);
+  font-size: 2.35em;
+  line-height: 0.8;
+  color: var(--oxblood);
+  padding: 0.08em 0.11em 0 0;
+}
+.lesson--commentary .commentary__heading {
+  font-family: var(--font-latin);
+  font-size: 1.32rem;
+  letter-spacing: 0;
+  border-bottom-color: var(--line-soft);
+}
+.lesson--commentary .commentary__list {
+  font-size: 1.04rem;
+}
+.lesson--commentary .commentary__li {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+.lesson--commentary .commentary__outline {
+  padding: 1rem 1.15rem;
+  background: var(--surface-2);
+  border: 1px solid var(--line-soft);
+  border-radius: 2px;
+}
+.lesson--commentary .commentary__table-wrap {
+  max-width: 100%;
+}
+.lesson--commentary .commentary__table {
+  font-family: var(--font-serif);
+  font-size: 1.02rem;
+}
+.lesson--commentary .commentary__cell {
+  padding: 0.36rem 0.7rem 0.36rem 0;
+}
+.lesson--commentary .cv {
+  display: grid;
+  gap: 1.5rem;
+}
+.lesson--commentary .cv__group {
+  width: 100%;
+}
+.lesson--commentary .cv-notes {
+  display: block;
+}
+.lesson--commentary .cv-notes__item {
+  width: 100%;
+}
+.lesson--commentary .lesson__section-head {
+  margin-bottom: 1.25rem;
+}
+@media (max-width: 560px) {
+  .lesson--commentary .commentary > .commentary__p:first-of-type::first-letter {
+    font-size: 2em;
+  }
+}
