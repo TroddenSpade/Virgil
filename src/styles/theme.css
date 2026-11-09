@@ -1,58 +1,120 @@
-:root {
-  /* Palette — Roman parchment, wine and gold */
-  --parchment: #f4ecd8;
-  --parchment-deep: #ece0c4;
-  --surface: #fbf6ea;
-  --surface-2: #f6efdd;
-  --ink: #2b2118;
-  --ink-soft: #5a4c3c;
-  --ink-faint: #8a7a64;
-  --wine: #7a1f2b;
-  --wine-deep: #5d1620;
-  --wine-soft: #a34a55;
-  --gold: #a9791f;
-  --gold-soft: #c8a24a;
-  --laurel: #4b6b3a;
-  --line: #ddcfae;
-  --line-soft: #e8dfc7;
-  --shadow: 0 1px 2px rgba(43, 33, 24, 0.06), 0 8px 24px rgba(43, 33, 24, 0.08);
-  --shadow-sm: 0 1px 2px rgba(43, 33, 24, 0.08);
+/* ============================================================
+   VIRGIL · TABULA
+   A design system for the Latin reading project.
 
-  /* Type */
-  --font-display: 'Cinzel', 'Trajan Pro', Georgia, serif;
+   The family resemblance to Rhetoric and Cadence is deliberate:
+   warm paper, near-black ink, an editorial serif, a grotesque for
+   the interface, hairline rules and flat, printed shadows. Virgil's
+   own branch is the *tabula*: aged papyrus, verdigris bronze,
+   oxblood, and the lettering of Roman inscriptions.
+   ============================================================ */
+
+:root {
+  /* Paper & ink */
+  --paper: #ece3d0;
+  --paper-deep: #e1d5ba;
+  --surface: #f8f2e3;
+  --surface-2: #f1e8d5;
+  --surface-3: #e7dcc3;
+  --ink: #19160f;
+  --ink-soft: #4b4434;
+  --ink-faint: #6c6350;
+
+  /* The metal: oxidized bronze is the primary accent */
+  --patina: #2d5a4a;
+  --patina-deep: #1b3b30;
+  --patina-soft: #719b87;
+  --oxblood: #7b302a;
+  --oxblood-deep: #5b211d;
+  --oxblood-soft: #a9645b;
+  --bronze: #7c5d2a;
+  --bronze-soft: #c8a86c;
+  --bronze-deep: #6f5328;
+  --terracotta: #b05b35;
+  --laurel: #4a6b3f;
+
+  /* Rules, surfaces, states */
+  --line: #cbbda1;
+  --line-soft: #ddd2b9;
+  --line-strong: #b3a586;
+  --on-accent: #faf4e6;
+  --footer-bg: #1b3b30;
+  --footer-ink: #f3ead8;
+  --footer-muted: rgba(243, 234, 216, 0.64);
+  --footer-line: rgba(243, 234, 216, 0.18);
+  --highlight: rgba(45, 90, 74, 0.18);
+  --shadow: 0 1px 0 rgba(25, 22, 15, 0.05), 0 20px 44px -30px rgba(25, 22, 15, 0.6);
+  --shadow-sm: 0 1px 0 rgba(25, 22, 15, 0.08);
+  --shadow-lift: 3px 3px 0 var(--line);
+  --shadow-lift-strong: 3px 3px 0 var(--ink);
+
+  /* A double hairline, the frame of a carved tablet */
+  --frame: inset 0 0 0 3px var(--surface), inset 0 0 0 4px var(--line-soft);
+
+  /* Type: inscriptional capitals, a book face, scholarly Latin, and
+     the same grotesque the other two sites use. */
+  --font-display: 'Cinzel', 'Trajan Pro', Georgia, 'Times New Roman', serif;
   --font-serif: 'EB Garamond', Georgia, 'Times New Roman', serif;
-  /* Latin running text: Gentium Book Plus is designed for scholarly Latin
-     and carries the full set of macra (ā ē ī ō ū ȳ, capitals included). */
   --font-latin: 'Gentium Book Plus', 'EB Garamond', Georgia, 'Times New Roman', serif;
-  --font-ui: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-ui: 'Space Grotesk', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
 
   /* Layout */
   --measure: 68ch;
-  --radius: 10px;
-  --radius-sm: 6px;
-  --header-h: 64px;
+  --radius: 3px;
+  --radius-sm: 2px;
+  --radius-lg: 5px;
+  --header-h: 74px;
 
   color-scheme: light;
+
+  /* Old names kept so the legacy component sheet keeps working; they now
+     resolve to the Tabula palette. */
+  --parchment: var(--paper);
+  --parchment-deep: var(--paper-deep);
+  --wine: var(--oxblood);
+  --wine-deep: var(--oxblood-deep);
+  --wine-soft: var(--oxblood-soft);
+  --gold: var(--bronze);
+  --gold-soft: var(--bronze-soft);
 }
 
-/* Optional dark ("night study") palette */
+/* Night study: green-black, lamp-lit bronze, pale patina. */
 :root[data-theme='dark'] {
-  --parchment: #17130e;
-  --parchment-deep: #1e1913;
-  --surface: #221c15;
-  --surface-2: #2a231a;
-  --ink: #f0e6d2;
-  --ink-soft: #c3b297;
-  --ink-faint: #94836b;
-  --wine: #d98a95;
-  --wine-deep: #b56572;
-  --wine-soft: #8a3d49;
-  --gold: #e2c17a;
-  --gold-soft: #b6934a;
-  --laurel: #8fae7a;
-  --line: #3a3126;
-  --line-soft: #2f2820;
-  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 28px rgba(0, 0, 0, 0.45);
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --paper: #0e1411;
+  --paper-deep: #0a0f0c;
+  --surface: #151d18;
+  --surface-2: #1a241e;
+  --surface-3: #202c25;
+  --ink: #ede3ce;
+  --ink-soft: #c7bda8;
+  --ink-faint: #938b78;
+
+  --patina: #96c3ad;
+  --patina-deep: #c3dfcf;
+  --patina-soft: #4e7563;
+  --oxblood: #df9a8b;
+  --oxblood-deep: #f0b6a8;
+  --oxblood-soft: #8a4b42;
+  --bronze: #d4b478;
+  --bronze-soft: #9c7c45;
+  --bronze-deep: #f0d59d;
+  --terracotta: #e08a63;
+  --laurel: #9dbe8a;
+
+  --line: #35433a;
+  --line-soft: #28342d;
+  --line-strong: #3f5045;
+  --on-accent: #0c120f;
+  --footer-bg: #070c09;
+  --footer-ink: #ede3ce;
+  --footer-muted: rgba(237, 227, 206, 0.62);
+  --footer-line: rgba(237, 227, 206, 0.16);
+  --highlight: rgba(150, 195, 173, 0.22);
+  --shadow: 0 1px 0 rgba(0, 0, 0, 0.35), 0 22px 48px -30px rgba(0, 0, 0, 0.85);
+  --shadow-sm: 0 1px 0 rgba(0, 0, 0, 0.4);
+  --shadow-lift: 3px 3px 0 #050806;
+  --shadow-lift-strong: 3px 3px 0 var(--patina);
+  --frame: inset 0 0 0 3px var(--surface), inset 0 0 0 4px var(--line);
+
   color-scheme: dark;
 }

@@ -7,12 +7,10 @@ export default function Header() {
     <header className="site-header">
       <div className="container site-header__inner">
         <Link to="/" className="brand" aria-label="Virgil — home">
-          <span style={{ color: 'var(--wine)' }}>
-            <Logo size={34} />
-          </span>
-          <span>
+          <Logo size={40} className="brand__mark" />
+          <span className="brand__text">
             <span className="brand__name">VIRGIL</span>
-            <span className="brand__tag">Latina per se</span>
+            <span className="brand__tag">P·VERGILIVS·MARO</span>
           </span>
         </Link>
 

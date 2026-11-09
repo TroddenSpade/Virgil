@@ -13,35 +13,56 @@ export default function Home() {
     <>
       <section className="hero">
         <div className="container hero__inner">
-          <p className="eyebrow rise">Latina per se illustrata</p>
-          <h1 className="hero__title rise">
-            Learn Latin,
-            <br />
-            and arrive at <span className="accent">Virgil</span>.
-          </h1>
-          <p className="hero__lead lead rise">
-            Virgil is a Latin reading project. You begin with the first sentence of Ørberg’s{' '}
-            <em>Familia Romana</em> — <span className="latin">Roma in Italia est</span> — and, chapter by chapter,
-            read your way toward the poetry of the <em>Aeneid</em>. No translation. No memorising word lists before
-            you read. Just Latin, understood from the very first page.
-          </p>
-          <div className="hero__actions rise">
-            <Link className="btn btn--primary" to={`/library/${familiaRomanaBook.slug}/${firstChapter.slug}`}>
-              Begin Capitulum I →
-            </Link>
-            <Link className="btn btn--ghost" to="/library">
-              Browse the library
-            </Link>
+          <div className="hero__copy">
+            <p className="hero__inscription rise">
+              <span>Lingua Latina</span>
+              <span aria-hidden="true">·</span>
+              <span>per se illustrata</span>
+            </p>
+            <h1 className="hero__title rise">
+              Learn Latin,
+              <br />
+              and arrive at <em>Virgil</em>.
+            </h1>
+            <p className="hero__lead lead rise">
+              Virgil is a Latin reading project. You begin with the first sentence of Ørberg’s{' '}
+              <em>Familia Romana</em> — <span className="latin">Roma in Italia est</span> — and, chapter by chapter,
+              read your way toward the poetry of the <em>Aeneid</em>. No translation. No memorising word lists before
+              you read. Just Latin, understood from the very first page.
+            </p>
+            <div className="hero__actions rise">
+              <Link className="btn btn--primary" to={`/library/${familiaRomanaBook.slug}/${firstChapter.slug}`}>
+                Begin Capitulum I →
+              </Link>
+              <Link className="btn btn--ghost" to="/library">
+                Browse the library
+              </Link>
+            </div>
+            <ul className="hero__meta rise">
+              <li>
+                <strong>{familiaRomanaBook.chapterCount + romaAeternaBook.chapterCount}</strong> chapters
+              </li>
+              <li>
+                <strong>{familiaRomanaBook.readyCount + romaAeternaBook.readyCount}</strong> full lessons ready
+              </li>
+              <li>installable app</li>
+            </ul>
           </div>
-          <ul className="hero__meta rise">
-            <li>
-              <strong>{familiaRomanaBook.chapterCount + romaAeternaBook.chapterCount}</strong> chapters
-            </li>
-            <li>
-              <strong>{familiaRomanaBook.readyCount + romaAeternaBook.readyCount}</strong> full lessons ready
-            </li>
-            <li>installable app</li>
-          </ul>
+
+          <figure className="hero__portrait rise">
+            <div className="hero__portrait-frame">
+              <img
+                src={`${import.meta.env.BASE_URL}icons/icon-512.png`}
+                alt="Engraved medallion portrait of the poet Virgil"
+                width="512"
+                height="512"
+              />
+            </div>
+            <figcaption>
+              <span className="hero__portrait-name">P·VERGILIVS·MARO</span>
+              <span className="hero__portrait-dates">70–19 BC · Mantua</span>
+            </figcaption>
+          </figure>
         </div>
       </section>
 
@@ -161,6 +182,15 @@ export default function Home() {
               </li>
             ))}
           </ol>
+        </div>
+      </section>
+
+      <section className="section-tight">
+        <div className="container">
+          <blockquote className="motto">
+            <p className="motto__latin latin">Arma virumque canō, Troiae quī prīmus ab ōrīs</p>
+            <footer className="motto__source">Vergil, Aeneid I.1</footer>
+          </blockquote>
         </div>
       </section>
     </>

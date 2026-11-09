@@ -56,11 +56,34 @@ node scripts/build-dictionary.mjs   # writes src/data/dictionary.generated.js
 
 ---
 
+## Design
+
+Virgil is the third site in a small family, alongside
+**[Rhetoric](https://rhetoric.parsasam.ir)** (a warm-paper writing studio) and
+**[Cadence](https://cadence.parsasam.ir)** (a dark music-theory trainer). They share
+warm paper, near-black ink, an editorial serif and Space Grotesk for the interface.
+Virgil's own branch is **Tabula**: aged papyrus, verdigris bronze, oxblood, and the
+lettering of Roman inscriptions. See [DESIGN.md](DESIGN.md) for the research, the
+palette, the type system and the mark.
+
+The mark is a Roman coin: an engraved, bronze-duotone portrait of Virgil from the
+public-domain Vatican bust, inside a beaded ring inscribed `P · VERGILIVS · MARO`.
+The source photograph is in [`public/art/`](public/art/), and the icons are
+generated from it:
+
+```bash
+npm run icons      # python3 scripts/generate-icons.py (requires Pillow)
+```
+
+---
+
 ## Tech
 
 - **React 19 + Vite 7**
 - **React Router 7**
 - **vite-plugin-pwa** — installable PWA with an offline-capable service worker
+- **Cinzel + EB Garamond + Gentium Book Plus + Space Grotesk** — inscriptional
+  display, book body, macron-complete Latin, and a shared interface grotesque
 
 Content is data-driven: each chapter is a module in `src/data/familia-romana/` or
 `src/data/roma-aeterna/`, so adding a chapter means adding one file and listing it in the
@@ -126,9 +149,13 @@ npm run build:pages   # sets VITE_BASE=/ and writes dist/404.html + dist/.nojeky
 
 ### Regenerating icons
 
+The medallion icons are built from the public-domain Vatican bust in `public/art/`:
+
 ```bash
-python3 scripts/generate-icons.py   # requires Pillow
+npm run icons        # python3 scripts/generate-icons.py (requires Pillow)
 ```
+
+This writes the PWA icons, the Apple touch icon, the favicons and the SVG medallion.
 
 ---
 

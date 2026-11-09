@@ -1,17 +1,39 @@
 import { Link } from 'react-router-dom'
+import Logo from './Logo.jsx'
 
 export default function Footer() {
   return (
     <footer className="site-footer">
-      <div className="container">
-        <p>
-          <strong style={{ fontFamily: 'var(--font-display)', letterSpacing: '0.08em' }}>VIRGIL</strong> — a Latin
-          reading project. Text and exercises after H. H. Ørberg, <em>Lingua Latina per se Illustrata</em>.
-        </p>
-        <p>
-          <Link to="/library">Library</Link> · <Link to="/dictionary">Dictionary</Link> ·{' '}
+      <div className="container site-footer__inner">
+        <div className="site-footer__brand">
+          <Logo size={46} />
+          <div>
+            <p className="site-footer__name">VIRGIL</p>
+            <p className="site-footer__tag">Lingua Latina per se illustrata</p>
+          </div>
+        </div>
+
+        <nav className="site-footer__nav" aria-label="Footer">
+          <p className="site-footer__label">Index</p>
+          <Link to="/library">Library</Link>
+          <Link to="/dictionary">Dictionary</Link>
           <Link to="/approach">Approach</Link>
-        </p>
+        </nav>
+
+        <div className="site-footer__family">
+          <p className="site-footer__label">Ex eādem officīnā</p>
+          <a href="https://rhetoric.parsasam.ir">
+            Rhetoric <span aria-hidden="true">↗</span>
+          </a>
+          <a href="https://cadence.parsasam.ir">
+            Cadence <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+
+      <div className="container site-footer__fine">
+        <p>Text and exercises after H. H. Ørberg, Lingua Latina per se Illustrata.</p>
+        <p className="latin">Arma virumque canō…</p>
       </div>
     </footer>
   )

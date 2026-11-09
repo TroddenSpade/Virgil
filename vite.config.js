@@ -21,15 +21,15 @@ export default defineConfig({
       // Registration is handled explicitly by useRegisterSW in PwaUpdatePrompt,
       // so don't also inject the auto-register script into index.html.
       injectRegister: null,
-      includeAssets: ['favicon.svg', 'icons/apple-touch-icon.png', 'icons/icon-maskable-512.png'],
+      includeAssets: ['favicon.svg', 'icons/favicon-64.png', 'icons/apple-touch-icon.png', 'icons/icon-maskable-512.png'],
       manifest: {
         name: 'Virgil — Latin, from Familia Romana to the Aeneid',
         short_name: 'Virgil',
         description:
           'A Latin learning project. Begin with Lingua Latina: Familia Romana and read your way toward the works of Virgil.',
         lang: 'en',
-        theme_color: '#7a1f2b',
-        background_color: '#f4ecd8',
+        theme_color: '#1b3b30',
+        background_color: '#ece3d0',
         display: 'standalone',
         orientation: 'portrait-primary',
         scope: base,

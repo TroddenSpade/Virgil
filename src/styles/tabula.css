@@ -1,0 +1,916 @@
+/* ============================================================
+   VIRGIL · TABULA
+   The visual layer: inscription, bronze, papyrus, carved frames.
+   Loaded after components.css so these are the final decisions.
+   ============================================================ */
+
+/* ---------- Home · hero as a dedicatory inscription ---------- */
+
+.hero {
+  position: relative;
+  padding: clamp(3.5rem, 8vw, 6.5rem) 0 clamp(3rem, 6vw, 5rem);
+  border-bottom: 1px solid var(--line-strong);
+  overflow: hidden;
+}
+
+/* Concentric guide-lines, like the compass marks on a coin die. */
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-radial-gradient(
+    circle at 82% 44%,
+    transparent 0 26px,
+    color-mix(in srgb, var(--bronze) 10%, transparent) 26px 27px
+  );
+  -webkit-mask-image: radial-gradient(circle at 82% 44%, #000 0 290px, transparent 330px);
+  mask-image: radial-gradient(circle at 82% 44%, #000 0 290px, transparent 330px);
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    620px 340px at 84% 28%,
+    color-mix(in srgb, var(--patina) 10%, transparent),
+    transparent 70%
+  );
+  pointer-events: none;
+}
+
+.hero__inner {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: clamp(2.5rem, 6vw, 5rem);
+  align-items: center;
+  max-width: none;
+}
+
+.hero__copy {
+  max-width: 48rem;
+}
+
+.hero__inscription {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 0 0 1.5rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--line);
+  font-family: var(--font-ui);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--bronze);
+}
+
+.hero__title {
+  font-size: clamp(2.5rem, 5.5vw, 4.4rem);
+  line-height: 0.96;
+  margin-bottom: 0.4em;
+}
+.hero__title em {
+  font-size: 1.08em;
+  color: var(--oxblood);
+}
+
+.hero__lead {
+  max-width: 53ch;
+  margin-bottom: 1.7rem;
+  font-size: 1.18rem;
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin: 0;
+}
+
+.hero__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 1.8rem;
+  list-style: none;
+  padding: 1.15rem 0 0;
+  margin: 2rem 0 0;
+  border-top: 1px solid var(--line);
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  color: var(--ink-faint);
+}
+.hero__meta li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+}
+.hero__meta strong {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--ink);
+}
+
+/* The portrait seal */
+.hero__portrait {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.1rem;
+}
+
+.hero__portrait-frame {
+  position: relative;
+  width: min(300px, 100%);
+  aspect-ratio: 1;
+  padding: 9px;
+  border-radius: 50%;
+  border: 1px solid var(--line-strong);
+  background: var(--surface);
+  box-shadow:
+    0 0 0 6px var(--paper),
+    0 0 0 7px var(--line),
+    0 24px 44px -28px rgba(25, 22, 15, 0.75);
+}
+
+/* Four bronze registration marks, as on a printer's plate. */
+.hero__portrait-frame::after {
+  content: '';
+  position: absolute;
+  inset: -7px;
+  border-radius: 50%;
+  background:
+    linear-gradient(var(--bronze), var(--bronze)) center top / 1px 9px no-repeat,
+    linear-gradient(var(--bronze), var(--bronze)) center bottom / 1px 9px no-repeat,
+    linear-gradient(var(--bronze), var(--bronze)) left center / 9px 1px no-repeat,
+    linear-gradient(var(--bronze), var(--bronze)) right center / 9px 1px no-repeat;
+  pointer-events: none;
+}
+
+.hero__portrait-frame img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.hero__portrait figcaption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  text-align: center;
+}
+.hero__portrait-name {
+  font-family: var(--font-ui);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.24em;
+  color: var(--bronze);
+}
+.hero__portrait-dates {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--ink-faint);
+}
+
+@media (max-width: 900px) {
+  .hero__inner {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .hero__portrait {
+    justify-self: center;
+  }
+  .hero__portrait-frame {
+    width: min(240px, 64vw);
+  }
+}
+
+/* ---------- Feature plates ---------- */
+
+.feature-grid {
+  gap: 1.1rem;
+  margin-top: 1.75rem;
+}
+
+.feature {
+  padding: 1.6rem 1.5rem 1.4rem;
+  border-radius: 2px;
+  box-shadow: var(--frame);
+}
+.feature::before {
+  display: none;
+}
+
+.feature__num {
+  position: static;
+  display: inline-grid;
+  place-items: center;
+  width: 2.35rem;
+  height: 2.35rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--bronze);
+  border-radius: 2px;
+  background: var(--surface-2);
+  color: var(--oxblood);
+  font-family: var(--font-display);
+  font-size: 0.86rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  box-shadow: inset 0 0 0 2px var(--surface-2), inset 0 0 0 3px var(--line-soft);
+}
+
+.feature h3 {
+  padding-right: 0;
+  font-size: 1.14rem;
+}
+.feature p {
+  font-size: 0.97rem;
+  color: var(--ink-soft);
+}
+
+/* ---------- Book features (home) ---------- */
+
+.book-feature {
+  grid-template-columns: 1fr 132px;
+  border-radius: 2px;
+  box-shadow: var(--frame);
+}
+.book-feature__body {
+  padding: clamp(1.6rem, 4vw, 2.6rem);
+}
+.book-feature__body .latin {
+  color: var(--bronze);
+  letter-spacing: 0.09em;
+  font-size: 0.92rem;
+}
+.book-feature__spine {
+  background: linear-gradient(160deg, var(--patina), var(--patina-deep));
+}
+.book-feature__spine::before {
+  left: 12px;
+  background: color-mix(in srgb, var(--bronze) 55%, transparent);
+}
+.book-feature__spine-text {
+  color: color-mix(in srgb, var(--paper) 94%, white);
+  font-size: 0.86rem;
+  letter-spacing: 0.34em;
+}
+
+/* ---------- Roadmap: a row of milestone stones ---------- */
+
+.roadmap__item::before {
+  background: var(--line);
+}
+.roadmap__dot {
+  width: 10px;
+  height: 10px;
+  top: 7px;
+  left: 1px;
+  border-radius: 1px;
+  border: 1px solid var(--bronze);
+  background: var(--surface);
+  transform: rotate(45deg);
+}
+.roadmap__item.is-active .roadmap__dot {
+  border-color: var(--patina);
+  background: var(--patina);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--patina) 14%, transparent);
+}
+.roadmap__title {
+  font-size: 1.2rem;
+}
+.roadmap__meta {
+  letter-spacing: 0.05em;
+}
+
+/* ---------- Library shelf ---------- */
+
+.book-grid {
+  gap: 1.1rem;
+}
+.book-card {
+  padding: 1.55rem;
+  border-radius: 2px;
+  box-shadow: var(--frame);
+  transition: transform 0.14s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+.book-card.is-active::before {
+  height: 4px;
+  background: linear-gradient(90deg, var(--patina), var(--bronze));
+}
+.book-card.is-active:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow-lift);
+  border-color: var(--line-strong);
+}
+.book-card__level {
+  letter-spacing: 0.14em;
+}
+.book-card__title {
+  font-size: 1.34rem;
+}
+.book-card__latin {
+  color: var(--bronze);
+  letter-spacing: 0.07em;
+}
+.book-card__cta {
+  color: var(--patina);
+  font-size: 0.68rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+.book-card.is-active.accent-gold::before {
+  background: linear-gradient(90deg, var(--bronze), var(--bronze-soft));
+}
+.book-card.is-active.accent-laurel::before {
+  background: linear-gradient(90deg, var(--patina), var(--patina-soft));
+}
+.book-card.is-active.accent-wine::before {
+  background: linear-gradient(90deg, var(--oxblood), var(--terracotta));
+}
+
+/* ---------- Book page ---------- */
+
+.book-hero {
+  margin-top: 1.4rem;
+  padding-bottom: 1.6rem;
+  border-bottom: 1px solid var(--line);
+}
+.book-hero__stats {
+  gap: 0.9rem;
+  margin: 1.5rem 0 1.4rem;
+}
+.book-hero__stats div {
+  min-width: 8.4rem;
+  padding: 0.8rem 1.1rem;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  background: var(--surface);
+  box-shadow: inset 0 0 0 2px var(--surface), inset 0 0 0 3px var(--line-soft);
+}
+.book-hero__stats strong {
+  font-size: 2rem;
+  color: var(--patina);
+}
+.book-hero__stats span {
+  letter-spacing: 0.12em;
+}
+.section-heading {
+  padding-bottom: 0.55rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.chapter-grid {
+  gap: 0.65rem;
+}
+.chapter-card {
+  border-radius: 2px;
+  box-shadow: var(--shadow-sm);
+}
+.chapter-card.is-ready:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow-lift);
+  border-color: var(--line-strong);
+}
+.chapter-card.is-done {
+  border-color: color-mix(in srgb, var(--patina) 38%, var(--line));
+  background: color-mix(in srgb, var(--patina) 5%, var(--surface));
+}
+.chapter-card__num {
+  border-radius: 2px;
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+  color: var(--oxblood);
+  box-shadow: inset 0 0 0 2px var(--surface-2), inset 0 0 0 3px var(--line-soft);
+}
+.chapter-card.is-done .chapter-card__num {
+  color: var(--patina);
+  border-color: color-mix(in srgb, var(--patina) 40%, var(--line));
+}
+.chapter-card__arrow {
+  color: var(--bronze);
+}
+
+/* ---------- Lesson: a chapter cut into the tablet ---------- */
+
+.lesson__header {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--line);
+}
+.lesson__numeral {
+  border-radius: 2px;
+  background: linear-gradient(160deg, var(--patina), var(--patina-deep));
+  color: var(--on-accent);
+  font-family: var(--font-display);
+  box-shadow: inset 0 0 0 3px var(--patina-deep), inset 0 0 0 4px color-mix(in srgb, var(--bronze) 65%, transparent);
+  outline: 1px solid var(--bronze);
+  outline-offset: 3px;
+}
+.lesson__latin-title {
+  font-family: var(--font-latin);
+  letter-spacing: 0.015em;
+}
+.lesson__title {
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--bronze);
+  margin-top: 0.4rem;
+}
+.lesson__tagline {
+  color: var(--ink-soft);
+  font-size: 1.14rem;
+}
+
+.lesson__overview {
+  border-radius: 2px;
+  border: 1px solid var(--line-soft);
+  border-left: 3px solid var(--bronze);
+  background: var(--surface-2);
+  box-shadow: inset 0 0 0 2px var(--surface-2), inset 0 0 0 3px var(--line-soft);
+}
+
+.lesson__rail-title {
+  color: var(--bronze);
+  letter-spacing: 0.22em;
+}
+.lesson__toc a {
+  border-left: 2px solid var(--line);
+}
+.lesson__toc a:hover {
+  border-left-color: var(--bronze);
+  color: var(--patina);
+}
+.lesson__toc a.is-active {
+  border-left-color: var(--patina);
+  background: color-mix(in srgb, var(--patina) 6%, transparent);
+}
+.lesson__toc-num {
+  color: var(--bronze);
+}
+.lesson__toc a.is-active .lesson__toc-num {
+  color: var(--patina);
+}
+
+.lesson__section-head {
+  border-bottom: 1px solid var(--line);
+}
+.lesson__section-head::after {
+  background: linear-gradient(90deg, var(--patina), var(--bronze));
+}
+.lesson__section-index {
+  border-radius: 2px;
+  color: var(--oxblood);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  box-shadow: inset 0 0 0 2px var(--surface), inset 0 0 0 3px var(--line-soft);
+}
+.lesson__section-kicker {
+  color: var(--bronze);
+  letter-spacing: 0.2em;
+}
+
+.lesson__nav-link {
+  border-radius: 2px;
+  box-shadow: var(--shadow-sm);
+}
+.lesson__nav-link:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow-lift);
+  border-color: var(--line-strong);
+}
+
+/* ---------- Reading: the page of the codex ---------- */
+
+.reading {
+  border-radius: 2px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  box-shadow: inset 0 0 0 3px var(--surface), inset 0 0 0 4px var(--line-soft), var(--shadow-sm);
+}
+.reading::before {
+  height: 3px;
+  background: linear-gradient(90deg, var(--bronze), var(--patina) 55%, transparent);
+  opacity: 0.75;
+}
+.reading__title {
+  font-family: var(--font-latin);
+}
+.reading__subtitle,
+.grammar__subtitle,
+.pensum__subtitle {
+  color: var(--bronze);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  font-size: 0.68rem;
+}
+.reading__text p {
+  font-size: 1.24rem;
+  line-height: 1.9;
+}
+.reading__text > p:first-of-type::first-letter {
+  font-family: var(--font-display);
+  color: var(--oxblood);
+}
+.reading__notes {
+  border-left: 2px solid color-mix(in srgb, var(--bronze) 48%, transparent);
+}
+.reading__notes-title {
+  color: var(--bronze);
+  letter-spacing: 0.22em;
+}
+.reading__note-term {
+  color: var(--oxblood);
+}
+.reading__note-gloss {
+  font-family: var(--font-latin);
+}
+
+/* ---------- Grammar: the paradigm tables ---------- */
+
+.grammar__entry {
+  border-radius: 2px;
+  box-shadow: var(--frame);
+}
+.paradigm__caption {
+  color: var(--bronze);
+  letter-spacing: 0.12em;
+}
+.paradigm th {
+  border-bottom: 2px solid var(--ink);
+  color: var(--bronze);
+  letter-spacing: 0.09em;
+}
+.paradigm tbody tr:nth-child(odd) {
+  background: color-mix(in srgb, var(--bronze) 5%, transparent);
+}
+.paradigm__label {
+  color: var(--oxblood);
+}
+.grammar__points li::marker,
+.approach-list li::marker {
+  color: var(--bronze);
+}
+
+/* ---------- Vocabulary & flashcards ---------- */
+
+.vocab {
+  border-radius: 2px;
+  box-shadow: var(--frame);
+}
+.vocab__search {
+  border-radius: 2px;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+}
+.vocab__search:focus {
+  outline: 2px solid var(--patina);
+  outline-offset: 1px;
+}
+.segmented {
+  border-radius: 2px;
+  background: var(--surface-2);
+}
+.segmented button {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+.segmented button.is-active {
+  background: var(--patina);
+  color: var(--on-accent);
+}
+.vocab__list {
+  border-top: 1px solid var(--line);
+}
+.vocab__item {
+  padding: 0.62rem 0.35rem;
+  border-bottom: 1px solid var(--line-soft);
+}
+.vocab__item:hover {
+  background: color-mix(in srgb, var(--bronze) 5%, transparent);
+}
+.vocab__latin {
+  font-family: var(--font-latin);
+  font-size: 1.08rem;
+}
+.vocab__pos {
+  color: var(--bronze);
+}
+
+.flashcard {
+  border-radius: 2px;
+  background: var(--surface-2);
+  box-shadow: var(--frame);
+}
+.flashcard:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow-lift);
+}
+.flashcard__front {
+  font-family: var(--font-latin);
+  font-size: 2.1rem;
+}
+.flashcard__english {
+  font-family: var(--font-serif);
+}
+.flashcard__pos,
+.flashcard__hint {
+  color: var(--bronze);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+/* ---------- Pensa ---------- */
+
+.pensum {
+  border-radius: 2px;
+  box-shadow: var(--frame);
+}
+.pensum__title {
+  font-family: var(--font-latin);
+}
+.blank-input {
+  border-bottom: 1.5px solid var(--bronze);
+}
+.blank-input:focus {
+  border-bottom-color: var(--patina);
+  background: color-mix(in srgb, var(--patina) 7%, transparent);
+}
+.blank-input.is-correct {
+  border-bottom-color: var(--patina);
+  color: var(--patina);
+  background: color-mix(in srgb, var(--patina) 8%, transparent);
+}
+.blank-input.is-wrong {
+  border-bottom-color: var(--oxblood);
+  color: var(--oxblood);
+  background: color-mix(in srgb, var(--oxblood) 8%, transparent);
+}
+.pensum__actions {
+  border-top: 1px solid var(--line-soft);
+}
+.question::before {
+  border-radius: 2px;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  color: var(--bronze);
+  font-family: var(--font-display);
+}
+.question__input {
+  border-radius: 2px;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+}
+.question__answer {
+  border-radius: 0;
+  border-left: 3px solid var(--patina);
+  background: color-mix(in srgb, var(--patina) 7%, transparent);
+}
+
+/* ---------- Approach & reference reader ---------- */
+
+.prose h2 {
+  margin-top: 2.4rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid var(--line);
+}
+.reader__numeral {
+  border-radius: 2px;
+  background: linear-gradient(160deg, var(--patina), var(--patina-deep));
+  color: var(--on-accent);
+  box-shadow: inset 0 0 0 3px var(--patina-deep), inset 0 0 0 4px color-mix(in srgb, var(--bronze) 65%, transparent);
+}
+.reader__title,
+.reference-text__h,
+.reader__h {
+  font-family: var(--font-display);
+}
+.reference-text__h,
+.reader__h {
+  border-bottom: 1px solid var(--line-soft);
+}
+.reference-text__li::marker {
+  color: var(--bronze);
+}
+.reference-margin {
+  border-radius: 2px;
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+  box-shadow: inset 0 0 0 2px var(--surface-2), inset 0 0 0 3px var(--line-soft);
+}
+.reference-margin__title {
+  color: var(--bronze);
+}
+
+/* ---------- Dictionary ---------- */
+
+.dictionary-controls {
+  border-radius: 2px;
+  box-shadow: var(--frame);
+}
+.dictionary-search input,
+.dictionary-select select {
+  border-radius: 2px;
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+}
+.dictionary-search input:focus,
+.dictionary-select select:focus {
+  outline: 2px solid var(--patina);
+  outline-offset: 1px;
+}
+.dictionary-letters button {
+  border-radius: 2px;
+  font-family: var(--font-ui);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  background: var(--surface);
+}
+.dictionary-letters button:hover {
+  color: var(--patina);
+  border-color: var(--bronze);
+}
+.dictionary-letters button.is-active {
+  background: var(--patina);
+  border-color: var(--patina);
+  color: var(--on-accent);
+}
+.dict-entry {
+  border-radius: 2px;
+  box-shadow: var(--frame);
+}
+.dict-entry__latin {
+  font-family: var(--font-latin);
+  font-size: 1.3rem;
+}
+.dict-entry__pos {
+  border-radius: 2px;
+  color: var(--bronze);
+  border-color: color-mix(in srgb, var(--bronze) 32%, var(--line));
+  letter-spacing: 0.08em;
+}
+.dict-example {
+  border-left: 2px solid color-mix(in srgb, var(--bronze) 48%, transparent);
+}
+.dict-example__latin {
+  font-family: var(--font-latin);
+}
+
+/* ---------- PWA notices ---------- */
+
+.pwa-update {
+  border-radius: 2px;
+  border: 1px solid var(--line-strong);
+  box-shadow: var(--shadow-lift);
+  background: var(--surface);
+}
+.pwa-update__icon {
+  border-radius: 1px;
+  background: var(--patina);
+  color: var(--on-accent);
+}
+.pwa-update__text strong {
+  color: var(--patina);
+}
+.pwa-update__action {
+  border-radius: 2px;
+  background: var(--patina);
+  color: var(--on-accent);
+}
+.pwa-update__action:hover {
+  background: var(--patina-deep);
+}
+.install-prompt {
+  border-radius: 2px;
+  border: 1px solid var(--line-strong);
+  box-shadow: var(--shadow-lift);
+}
+.install-prompt__title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+.install-prompt__install {
+  border-radius: 2px;
+  background: var(--patina);
+  color: var(--on-accent);
+}
+.install-prompt__install:hover {
+  background: var(--patina-deep);
+}
+.install-prompt__mark img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--bronze) 55%, transparent);
+}
+
+/* ---------- The closing motto ---------- */
+
+.motto {
+  margin: 0;
+  padding: clamp(2rem, 4vw, 3.2rem) clamp(1rem, 4vw, 3rem);
+  text-align: center;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background:
+    radial-gradient(520px 220px at 50% 0%, color-mix(in srgb, var(--bronze) 8%, transparent), transparent 72%),
+    color-mix(in srgb, var(--surface) 55%, transparent);
+}
+.motto__latin {
+  max-width: 32ch;
+  margin: 0 auto 1rem;
+  font-family: var(--font-latin);
+  font-style: italic;
+  font-size: clamp(1.35rem, 3vw, 2.05rem);
+  line-height: 1.45;
+  color: var(--ink);
+}
+.motto__source {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-family: var(--font-ui);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--bronze);
+}
+.motto__source::before,
+.motto__source::after {
+  content: '';
+  width: 1.5rem;
+  height: 1px;
+  background: var(--bronze);
+  opacity: 0.6;
+}
+
+/* ---------- Small screens ---------- */
+
+@media (max-width: 900px) {
+  .hero::before {
+    opacity: 0.4;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero {
+    padding-top: 2.8rem;
+  }
+  .hero__title {
+    font-size: clamp(2.35rem, 11vw, 3.4rem);
+  }
+  .hero__lead {
+    font-size: 1.08rem;
+  }
+  .hero__meta {
+    gap: 0.45rem 1.2rem;
+  }
+  .hero__meta strong {
+    font-size: 1.1rem;
+  }
+  .lesson__numeral {
+    min-width: 3.9rem;
+    height: 3.9rem;
+    padding: 0 0.8rem;
+    font-size: 1.5rem;
+  }
+  .book-hero__stats div {
+    min-width: 7.2rem;
+    padding: 0.7rem 0.85rem;
+  }
+  .book-hero__stats strong {
+    font-size: 1.6rem;
+  }
+  .motto__latin {
+    max-width: 24ch;
+  }
+}
+
+@media (max-width: 420px) {
+  .site-footer__fine {
+    display: block;
+  }
+  .site-footer__fine .latin {
+    margin-top: 0.6rem;
+  }
+}
