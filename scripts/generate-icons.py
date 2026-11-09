@@ -98,9 +98,9 @@ def make(size, maskable=False):
     draw = ImageDraw.Draw(img)
 
     # Engraved portrait. The ring is deliberately kept below the inscription:
-    # text band 0.377–0.417 of the coin, portrait ring at 0.320 (top 0.185).
+    # text band 0.377–0.417 of the coin, portrait ring at 0.342 (top 0.163).
     bust = Image.open(SRC).convert("RGB").crop(CROP)
-    d = int(S * 0.640)
+    d = int(S * 0.684)
     bust = duotone(bust.resize((d, d), Image.LANCZOS)).filter(
         ImageFilter.GaussianBlur(S * 0.0015)
     )
@@ -115,9 +115,9 @@ def make(size, maskable=False):
 
     # Portrait rings: cream hairline, bronze band, dark outer hairline
     for ratio, colour, width in [
-        (0.312, CREAM + (90,), 0.002),
-        (0.320, BRONZE, 0.006),
-        (0.330, BRONZE_DIM, 0.002),
+        (0.334, CREAM + (90,), 0.002),
+        (0.342, BRONZE, 0.006),
+        (0.352, BRONZE_DIM, 0.002),
     ]:
         r = int(S * ratio)
         draw.ellipse(
@@ -172,9 +172,9 @@ def make(size, maskable=False):
     small = ImageFont.truetype(FONT_PATH, int(S * 0.028))
     label = "MANTVA"
     tw = draw.textlength(label, font=small)
-    draw.text((S / 2 - tw / 2, S * 0.915), label, font=small, fill=CREAM + (215,))
+    draw.text((S / 2 - tw / 2, S * 0.895), label, font=small, fill=CREAM + (215,))
     for x in (S / 2 - tw / 2 - S * 0.034, S / 2 + tw / 2 + S * 0.034):
-        draw.regular_polygon((x, S * 0.931, S * 0.006), 4, rotation=0, fill=BRONZE + (210,))
+        draw.regular_polygon((x, S * 0.911, S * 0.006), 4, rotation=0, fill=BRONZE + (210,))
 
     if maskable:
         inner = img.resize((int(S * 0.82), int(S * 0.82)), Image.LANCZOS)
