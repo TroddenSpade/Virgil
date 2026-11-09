@@ -1449,10 +1449,12 @@
 
 .pwa-update {
   position: fixed;
-  top: 0.75rem;
+  /* Sit below the sticky header, and stay under it while the drop-in
+     animation plays so the notice emerges from beneath the header. */
+  top: calc(var(--header-h) + 0.6rem);
   left: 50%;
   transform: translateX(-50%);
-  z-index: 60;
+  z-index: 39;
   width: min(680px, calc(100% - 1.5rem));
   display: flex;
   align-items: center;
