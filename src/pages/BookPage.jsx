@@ -104,7 +104,7 @@ function ActiveBook({ book }) {
             </div>
             <div>
               <strong>{book.readyCount}</strong>
-              <span>full lessons</span>
+              <span>{book.kind === 'commentary' ? 'chapters written' : 'full lessons'}</span>
             </div>
             <div>
               <strong>{count}</strong>
