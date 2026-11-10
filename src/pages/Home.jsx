@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { books, familiaRomanaBook, romaAeternaBook, exercitiaBook, latinViaOvidBook, companionBook, colloquiaBook } from '../data/library.js'
+import { books, familiaRomanaBook, romaAeternaBook, exercitiaBook, latinViaOvidBook, companionBook, colloquiaBook, fabulaeBook } from '../data/library.js'
 import { useProgress } from '../hooks/useLocalStorage.js'
 
 const firstChapter = familiaRomanaBook.chapters[0]
@@ -10,6 +10,7 @@ export default function Home() {
   const romaProgress = useProgress(romaAeternaBook.id, romaAeternaBook.chapterCount)
   const companionProgress = useProgress(companionBook.id, companionBook.chapterCount)
   const colloquiaProgress = useProgress(colloquiaBook.id, colloquiaBook.chapterCount)
+  const fabulaeProgress = useProgress(fabulaeBook.id, fabulaeBook.chapterCount)
 
   return (
     <>
@@ -43,13 +44,13 @@ export default function Home() {
             <ul className="hero__meta rise">
               <li>
                 <strong>
-                  {familiaRomanaBook.chapterCount + romaAeternaBook.chapterCount + exercitiaBook.chapterCount + latinViaOvidBook.chapterCount + companionBook.chapterCount + colloquiaBook.chapterCount}
+                  {familiaRomanaBook.chapterCount + romaAeternaBook.chapterCount + exercitiaBook.chapterCount + latinViaOvidBook.chapterCount + companionBook.chapterCount + colloquiaBook.chapterCount + fabulaeBook.chapterCount}
                 </strong>{' '}
-                chapters &amp; colloquia
+                chapters, colloquia &amp; fables
               </li>
               <li>
                 <strong>
-                  {familiaRomanaBook.readyCount + romaAeternaBook.readyCount + exercitiaBook.readyCount + latinViaOvidBook.readyCount + companionBook.readyCount + colloquiaBook.readyCount}
+                  {familiaRomanaBook.readyCount + romaAeternaBook.readyCount + exercitiaBook.readyCount + latinViaOvidBook.readyCount + companionBook.readyCount + colloquiaBook.readyCount + fabulaeBook.readyCount}
                 </strong>{' '}
                 texts ready
               </li>
@@ -190,6 +191,35 @@ export default function Home() {
             </div>
             <div className="book-feature__spine" aria-hidden="true" style={{ background: 'linear-gradient(160deg, var(--laurel), #2f4a28)' }}>
               <span className="book-feature__spine-text">COLLOQVIA</span>
+            </div>
+          </div>
+
+
+          <div className="book-feature card">
+            <div className="book-feature__body">
+              <p className="eyebrow">Now available · Fables</p>
+              <h2>{fabulaeBook.title}</h2>
+              <p className="lead latin">{fabulaeBook.latinTitle}</p>
+              <p>{fabulaeBook.summary}</p>
+              <div className="book-feature__progress">
+                <div className="progress" role="progressbar" aria-valuenow={fabulaeProgress.percent} aria-valuemin={0} aria-valuemax={100}>
+                  <div className="progress__fill" style={{ width: `${fabulaeProgress.percent}%` }} />
+                </div>
+                <span className="muted" style={{ fontFamily: 'var(--font-ui)', fontSize: '0.8rem' }}>
+                  {fabulaeProgress.count} of {fabulaeBook.chapterCount} capitula marked as learned · {fabulaeBook.readingCount} fables
+                </span>
+              </div>
+              <div className="hero__actions">
+                <Link className="btn btn--primary" to={`/library/${fabulaeBook.slug}`}>
+                  Open the fables
+                </Link>
+                <Link className="btn btn--ghost" to={`/library/${fabulaeBook.slug}/${fabulaeBook.chapters[0].slug}`}>
+                  Start Capitulum XXVI
+                </Link>
+              </div>
+            </div>
+            <div className="book-feature__spine" aria-hidden="true" style={{ background: 'linear-gradient(160deg, #6d5a2a, #2f2a17)' }}>
+              <span className="book-feature__spine-text">FABVLAE SYRAE</span>
             </div>
           </div>
 

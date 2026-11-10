@@ -21,7 +21,7 @@ export default function ChapterPage() {
   return <Lesson book={book} chapter={chapter} />
 }
 
-function chapterSections(chapter) {
+function chapterSections(chapter, book) {
   if (chapter.sections?.length) {
     return [
       ...chapter.sections.map((section, index) => ({
@@ -40,7 +40,7 @@ function chapterSections(chapter) {
   }
 
   return [
-    chapter.readings?.length && { id: 'lectio', label: 'Lēctiō', sub: 'Reading' },
+    chapter.readings?.length && { id: 'lectio', label: book?.readingLabel || 'Lēctiō', sub: 'Reading' },
     chapter.grammar?.length && { id: 'grammatica', label: 'Grammatica Latīna', sub: 'Grammar' },
     chapter.vocabulary?.length && { id: 'vocabula', label: 'Vocābula', sub: 'Vocabulary' },
     chapter.pensa?.length && { id: 'pensa', label: 'Pēnsa', sub: 'Exercises' },
@@ -74,8 +74,8 @@ function Lesson({ book, chapter }) {
 
   const isCommentary = Boolean(chapter.sections?.length)
   const isReader = book.kind === 'reader'
-  const unit = isReader ? 'Colloquium' : 'Capitulum'
-  const sections = chapterSections(chapter)
+  const unit = book.unit || (isReader ? 'Colloquium' : 'Capitulum')
+  const sections = chapterSections(chapter, book)
   const sectionNum = (id) => sections.find((section) => section.id === id)?.num
 
   const active = useScrollSpy(sections.map((s) => s.id))
@@ -93,7 +93,7 @@ function Lesson({ book, chapter }) {
               {chapter.roman}
             </span>
             <div className="lesson__heading-text">
-              <p className="eyebrow">{book.kind === 'commentary' ? 'Chapter' : isReader ? 'Colloquium' : 'Capitulum'} {chapter.roman}</p>
+              <p className="eyebrow">{book.kind === 'commentary' ? 'Chapter' : unit} {chapter.roman}</p>
               <h1 className="lesson__latin-title latin">{chapter.latinTitle}</h1>
               <p className="lesson__title">{chapter.title}</p>
             </div>
@@ -178,7 +178,11 @@ function Lesson({ book, chapter }) {
               <>
                 {chapter.readings?.length > 0 && (
                   <section className="lesson__section" id="lectio">
-                    <SectionHead num={sectionNum('lectio')} latin="Lēctiō" english="reading" />
+                    <SectionHead
+                      num={sectionNum('lectio')}
+                      latin={sections.find((section) => section.id === 'lectio')?.label || 'Lēctiō'}
+                      english="reading"
+                    />
                     <Reading readings={chapter.readings} />
                   </section>
                 )}

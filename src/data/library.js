@@ -4,6 +4,7 @@ import { book as exercitiaLatina, chapters as exercitiaLatinaChapters } from './
 import { book as latinViaOvid, chapters as latinViaOvidChapters } from './latin-via-ovid/index.js'
 import { book as companion, chapters as companionChapters } from './companion/index.js'
 import { book as colloquia, chapters as colloquiaChapters } from './colloquia-personarum/index.js'
+import { book as fabulae, chapters as fabulaeChapters } from './fabulae-syrae/index.js'
 import { sources } from './sources.generated.js'
 
 // Reference sources are the full texts extracted from the source editions.
@@ -60,6 +61,11 @@ export const companionBook = {
 export const colloquiaBook = {
   ...colloquia,
   chapters: colloquiaChapters,
+}
+
+export const fabulaeBook = {
+  ...fabulae,
+  chapters: fabulaeChapters,
 }
 
 export const learnLatinBook = {
@@ -119,6 +125,7 @@ export const books = [
   romaAeternaBook,
   exercitiaBook,
   colloquiaBook,
+  fabulaeBook,
   companionBook,
   learnLatinBook,
   latinViaOvidBook,
