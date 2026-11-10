@@ -1,0 +1,31 @@
+// Caesar, De Bello Gallico VII, LXXX
+// Latin text after J. L. Whiteley (Bristol Classical Press, 2001).
+
+const chapter = {
+  "number": 80,
+  "roman": "LXXX",
+  "slug": "sectio-lxxx",
+  "latinTitle": "CAPUT LXXX",
+  "title": "Caput LXXX",
+  "tagline": "Caesar omni exercitu",
+  "status": "complete",
+  "complete": true,
+  "readings": [
+    {
+      "id": "sectio-lxxx",
+      "latinTitle": "CAPUT LXXX",
+      "title": "",
+      "paragraphs": [
+        "Caesar, omni exercitu ad utramque partem munitionum disposito, ut, si usus veniat, suum quisque locum teneat et noverit, equitatum ex castris educi et proelium committi iubet. Erat ex omnibus castris, quae summum undique iugum tenebant, despectus, atque omnes milites intenti pugnae proventum exspectabant. Galli inter equites raros sagittarios expeditosque levis armaturae interiecerant, qui suis cedentibus auxilio succurrerent et nostrorum equitum impetus sustinerent.",
+        "Ab his complures de improviso vulnerati proelio excedebant. Cum suos pugna superiores esse Galli confiderent et nostros multitudine premi viderent, ex omnibus partibus et ei qui munitionibus continebantur et hi qui ad auxilium convenerant clamore et ululatu suorum animos confirmabant. Quod in conspectu omnium res gerebatur neque recte ac turpiter factum celari poterat, utrosque et laudis cupiditas et timor ignominiae ad virtutem excitabat.",
+        "Cum a meridie prope ad solis occasum dubia victoria pugnaretur, Germani una in parte confertis turmis in hostes impetum fecerunt eosque propulerunt; quibus in fugam coniectis, sagittarii circumventi interfectique sunt. Item ex reliquis partibus nostri cedentes usque in castra insecuti sui colligendi facultatem non dederunt. At ei qui ab Alesia processerant maesti prope victoria desperata se in oppidum receperunt."
+      ],
+      "notes": []
+    }
+  ],
+  "grammar": [],
+  "vocabulary": [],
+  "pensa": []
+}
+
+export default chapter

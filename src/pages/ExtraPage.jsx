@@ -41,7 +41,7 @@ function Reader({ book, extra, index, extras }) {
   const next = index < extras.length - 1 ? extras[index + 1] : null
 
   return (
-    <article className={`lesson${book.kind === 'reader' ? ' lesson--latin' : ''}`}>
+    <article className={`lesson${book.kind === 'reader' || book.kind === 'workbook' ? ' lesson--latin' : ''}`}>
       <div className="container lesson__container">
         <Link to={`/library/${book.slug}`} className="back-link">
           ← {book.shortTitle}

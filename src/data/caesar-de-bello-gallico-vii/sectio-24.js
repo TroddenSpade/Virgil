@@ -1,0 +1,30 @@
+// Caesar, De Bello Gallico VII, XXIV
+// Latin text after J. L. Whiteley (Bristol Classical Press, 2001).
+
+const chapter = {
+  "number": 24,
+  "roman": "XXIV",
+  "slug": "sectio-xxiv",
+  "latinTitle": "CAPUT XXIV",
+  "title": "Caput XXIV",
+  "tagline": "His tot rebus",
+  "status": "complete",
+  "complete": true,
+  "readings": [
+    {
+      "id": "sectio-xxiv",
+      "latinTitle": "CAPUT XXIV",
+      "title": "",
+      "paragraphs": [
+        "His tot rebus impedita oppugnatione milites, cum toto tempore frigore et assiduis imbribus tardarentur, tamen continenti labore omnia haec superaverunt et diebus XXV aggerem latum pedes CCCXXX, altum pedes LXXX exstruxerunt. Cum is murum hostium paene contingeret et Caesar ad opus consuetudine excubaret militesque hortaretur ne quod omnino tempus ab opere intermitteretur, paulo ante tertiam vigiliam est animadversum fumare aggerem, quem cuniculo hostes succenderant; eodemque tempore toto muro clamore sublato, duabus portis ab utroque latere turrium eruptio fiebat.",
+        "Alii faces atque aridam materiem de muro in aggerem eminus iaciebant, picem reliquasque res quibus ignis excitari potest fundebant, ut quo primum curreretur aut cui rei ferretur auxilium vix ratio iniri posset. Tamen, quod instituto Caesaris semper duae legiones pro castris excubabant pluresque partitis temporibus erant in opere, celeriter factum est ut alii eruptionibus resisterent, alii turres reducerent aggeremque interscinderent, omnis vero ex castris multitudo ad restinguendum concurreret."
+      ],
+      "notes": []
+    }
+  ],
+  "grammar": [],
+  "vocabulary": [],
+  "pensa": []
+}
+
+export default chapter

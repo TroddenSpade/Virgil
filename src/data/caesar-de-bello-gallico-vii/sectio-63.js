@@ -1,0 +1,30 @@
+// Caesar, De Bello Gallico VII, LXIII
+// Latin text after J. L. Whiteley (Bristol Classical Press, 2001).
+
+const chapter = {
+  "number": 63,
+  "roman": "LXIII",
+  "slug": "sectio-lxiii",
+  "latinTitle": "CAPUT LXIII",
+  "title": "Caput LXIII",
+  "tagline": "Defectione Aeduorum cognita",
+  "status": "complete",
+  "complete": true,
+  "readings": [
+    {
+      "id": "sectio-lxiii",
+      "latinTitle": "CAPUT LXIII",
+      "title": "",
+      "paragraphs": [
+        "Defectione Aeduorum cognita bellum augetur. Legationes in omnes partes circummittuntur; quantum gratia, auctoritate, pecunia valent ad sollicitandas civitates nituntur; nacti obsides quos Caesar apud eos deposuerat, horum supplicio dubitantes territant. Petunt a Vercingetorige Aedui ut ad se veniat rationesque belli gerendi communicet. Re impetrata contendunt ut ipsis summa imperi tradatur et re in controversiam deducta totius Galliae concilium Bibracte indicitur.",
+        "Eodem conveniunt undique frequentes. Multitudinis suffragiis res permittitur; ad unum omnes Vercingetorigem probant imperatorem. Ab hoc concilio Remi, Lingones, Treveri afuerunt; illi, quod amicitiam Romanorum sequebantur; Treveri, quod aberant longius et ab Germanis premebantur, quae fuit causa quare toto abessent bello et neutris auxilia mitterent. Magno dolore Aedui ferunt se deiectos principatu, queruntur fortunae commutationem et Caesaris indulgentiam in se requirunt; neque tamen suscepto bello suum consilium ab reliquis separare audent. Inviti summae spei adulescentes Eporedorix et Viridomarus Vercingetorigi parent."
+      ],
+      "notes": []
+    }
+  ],
+  "grammar": [],
+  "vocabulary": [],
+  "pensa": []
+}
+
+export default chapter

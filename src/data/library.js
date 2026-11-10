@@ -5,6 +5,10 @@ import { book as latinViaOvid, chapters as latinViaOvidChapters } from './latin-
 import { book as companion, chapters as companionChapters } from './companion/index.js'
 import { book as colloquia, chapters as colloquiaChapters } from './colloquia-personarum/index.js'
 import { book as fabulae, chapters as fabulaeChapters } from './fabulae-syrae/index.js'
+import { book as epitome, chapters as epitomeChapters } from './epitome-historiae-sacrae/index.js'
+import { book as caesar, chapters as caesarChapters } from './caesar-de-bello-gallico-vii/index.js'
+import { book as exercitiaII, chapters as exercitiaIIChapters } from './exercitia-latina-ii/index.js'
+import { book as sermones, chapters as sermonesChapters } from './sermones-romani/index.js'
 import { sources } from './sources.generated.js'
 
 // Reference sources are the full texts extracted from the source editions.
@@ -68,6 +72,30 @@ export const fabulaeBook = {
   chapters: fabulaeChapters,
 }
 
+export const epitomeBook = {
+  ...epitome,
+  chapters: epitomeChapters,
+}
+
+
+export const caesarBook = {
+  ...caesar,
+  chapters: caesarChapters,
+}
+
+
+export const exercitiaIIBook = {
+  ...exercitiaII,
+  chapters: exercitiaIIChapters,
+}
+
+
+export const sermonesBook = {
+  ...sermones,
+  chapters: sermonesChapters,
+}
+
+
 export const learnLatinBook = {
   id: 'learn-latin',
   slug: 'learn-latin-from-the-romans',
@@ -126,6 +154,10 @@ export const books = [
   exercitiaBook,
   colloquiaBook,
   fabulaeBook,
+  sermonesBook,
+  epitomeBook,
+  exercitiaIIBook,
+  caesarBook,
   companionBook,
   learnLatinBook,
   latinViaOvidBook,

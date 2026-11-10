@@ -1,0 +1,34 @@
+// Caesar, De Bello Gallico VII, LXXVII
+// Latin text after J. L. Whiteley (Bristol Classical Press, 2001).
+
+const chapter = {
+  "number": 77,
+  "roman": "LXXVII",
+  "slug": "sectio-lxxvii",
+  "latinTitle": "CAPUT LXXVII",
+  "title": "Caput LXXVII",
+  "tagline": "At ei qui",
+  "status": "complete",
+  "complete": true,
+  "readings": [
+    {
+      "id": "sectio-lxxvii",
+      "latinTitle": "CAPUT LXXVII",
+      "title": "",
+      "paragraphs": [
+        "At ei qui Alesiae obsidebantur, praeterita die qua auxilia suorum exspectaverant, consumpto omni frumento, inscii quid in Aeduis gereretur, concilio coacto de exitu suarum fortunarum consultabant. Ac variis dictis sententiis, quarum pars deditionem, pars, dum vires suppeterent, eruptionem censebat, non praetereunda oratio Critognati videtur propter eius singularem et nefariam crudelitatem. Hic, summo in Arvernis ortus loco et magnae habitus auctoritatis, 'nihil', inquit, 'de eorum sententia dicturus sum, qui turpissimam servitutem deditionis nomine appellant, neque hos habendos civium loco neque ad concilium adhibendos censeo.",
+        "Cum his mihi res sit qui eruptionem probant; quorum in consilio omnium vestrum consensu pristinae residere virtutis memoria videtur. Animi est ista mollitia, non virtus, paulisper inopiam ferre non posse. Qui se ultro morti offerant facilius reperiuntur quam qui dolorem patienter ferant. Atque ego hanc sententiam probarem (tantum apud me dignitas potest), si nullam praeterquam vitae nostrae iacturam fieri viderem; sed in consilio capiendo omnem Galliam respiciamus, quam ad nostrum auxilium concitavimus.",
+        "Quid hominum milibus LXXX uno loco interfectis propinquis consanguineisque nostris animi fore existimatis, si paene in ipsis cadaveribus proelio decertare cogentur? Nolite hos vestro auxilio exspoliare, qui vestrae salutis causa suum periculum neglexerunt, nec stultitia ac temeritate vestra aut animi imbecillitate omnem Galliam prosternere et perpetuae servituti subicere. An, quod ad diem non venerunt, de eorum fide constantiaque dubitatis?",
+        "Quid ergo? Romanos in illis ulterioribus munitionibus animine causa cotidie exerceri putatis? Si illorum nuntiis confirmari non potestis omni aditu praesepto, his utimini testibus appropinquare eorum adventum; cuiusrei timore exterriti diem noctemque in opere versantur. Quid ergo mei consili est? Facere, quod nostri maiores nequaquam pari bello Cimbrorum Teutonumque fecerunt; qui in oppida compulsi ac simili inopia subacti eorum corporibus qui aetate ad bellum inutiles videbantur vitam toleraverunt neque se hostibus tradiderunt.",
+        "Cuius rei si exemplum non haberemus, tamen libertatis causa institui et posteris prodi pulcherrimum iudicarem. Nam quid illi simile bello fuit? Depopulata Gallia Cimbri magnaque inlata calamitate finibus quidem nostris aliquando excesserunt atque alias terras petierunt; iura, leges, agros, libertatem nobis reliquerunt. Romani vero quid petunt aliud aut quid volunt, nisi invidia adducti, quos fama nobiles potentesque bello cognoverunt, horum in agris civitatibusque considere atque his aeternam iniungere servitutem?",
+        "Neque enim ulla alia condicione bella gesserunt. Quod si ea quae in longinquis nationibus geruntur ignoratis, respicite finitimam Galliam, quae in provinciam redacta, iure et legibus commutatis, securibus subiecta perpetua premitur servitute.'"
+      ],
+      "notes": []
+    }
+  ],
+  "grammar": [],
+  "vocabulary": [],
+  "pensa": []
+}
+
+export default chapter

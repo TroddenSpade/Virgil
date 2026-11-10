@@ -1,16 +1,17 @@
 // The local-first progress document and the small helpers that turn it into
 // something the profile page can read. The same shape is stored in Supabase.
 
-import { familiaRomanaBook, romaAeternaBook, exercitiaBook, latinViaOvidBook, companionBook, colloquiaBook, fabulaeBook } from '../data/library.js'
+import { familiaRomanaBook, romaAeternaBook, exercitiaBook, latinViaOvidBook, companionBook, colloquiaBook, fabulaeBook, sermonesBook, exercitiaIIBook, caesarBook, epitomeBook } from '../data/library.js'
 
 export const PROGRESS_VERSION = 1
 
-export const TRACKED_BOOKS = [familiaRomanaBook, romaAeternaBook, exercitiaBook, latinViaOvidBook, companionBook, colloquiaBook, fabulaeBook].map((book) => ({
+export const TRACKED_BOOKS = [familiaRomanaBook, romaAeternaBook, exercitiaBook, latinViaOvidBook, companionBook, colloquiaBook, fabulaeBook, sermonesBook, exercitiaIIBook, caesarBook, epitomeBook].map((book) => ({
   id: book.id,
   title: book.title,
   shortTitle: book.shortTitle,
   slug: book.slug,
   chapterCount: book.chapterCount,
+  numbers: book.chapters.map((chapter) => chapter.number),
 }))
 
 export const progressKey = (bookId) => `virgil:progress:${bookId}`
@@ -19,12 +20,12 @@ function isObject(value) {
   return Boolean(value) && typeof value === 'object' && !Array.isArray(value)
 }
 
-function normalizeNumbers(value, max) {
+function normalizeNumbers(value, allowed) {
   if (!Array.isArray(value)) return []
   const seen = new Set()
   for (const item of value) {
     const number = Number(item)
-    if (Number.isInteger(number) && number >= 1 && number <= max) seen.add(number)
+    if (Number.isInteger(number) && allowed.has(number)) seen.add(number)
   }
   return [...seen].sort((a, b) => a - b)
 }
@@ -48,7 +49,7 @@ export function normalizeProgress(value) {
   const books = isObject(source.books) ? source.books : source
   const normalized = {}
   for (const book of TRACKED_BOOKS) {
-    normalized[book.id] = normalizeNumbers(books[book.id], book.chapterCount)
+    normalized[book.id] = normalizeNumbers(books[book.id], new Set(book.numbers))
   }
   return { version: PROGRESS_VERSION, books: normalized }
 }

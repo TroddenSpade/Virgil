@@ -1,0 +1,30 @@
+// Caesar, De Bello Gallico VII, LVIII
+// Latin text after J. L. Whiteley (Bristol Classical Press, 2001).
+
+const chapter = {
+  "number": 58,
+  "roman": "LVIII",
+  "slug": "sectio-lviii",
+  "latinTitle": "CAPUT LVIII",
+  "title": "Caput LVIII",
+  "tagline": "Labienus primo vineas",
+  "status": "complete",
+  "complete": true,
+  "readings": [
+    {
+      "id": "sectio-lviii",
+      "latinTitle": "CAPUT LVIII",
+      "title": "",
+      "paragraphs": [
+        "Labienus primo vineas agere, cratibus atque aggere paludem explere atque iter munire conabatur. Postquam id difficilius fieri animadvertit, silentio e castris tertia vigilia egressus eodem quo venerat itinere Metiosedum pervenit. Id est oppidum Senonum, in insula Sequanae positum, ut paulo ante de Lutetia diximus. Deprensis navibus circiter quinquaginta celeriterque coniunctis atque eo militibus iniectis et rei novitate perterritis oppidanis, quorum magna pars erat ad bellum evocata, sine contentione oppido potitur.",
+        "Refecto ponte, quem superioribus diebus hostes resciderant, exercitum traducit et secundo flumine ad Lutetiam iter facere coepit. Hostes, re cognita ab eis qui Metiosedo fugerant, Lutetiam incendi pontesque eius oppidi rescindi iubent; ipsi profecti a palude ad ripas Sequanae e regione Lutetiae contra Labieni castra considunt."
+      ],
+      "notes": []
+    }
+  ],
+  "grammar": [],
+  "vocabulary": [],
+  "pensa": []
+}
+
+export default chapter

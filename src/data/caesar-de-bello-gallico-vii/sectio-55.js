@@ -1,0 +1,30 @@
+// Caesar, De Bello Gallico VII, LV
+// Latin text after J. L. Whiteley (Bristol Classical Press, 2001).
+
+const chapter = {
+  "number": 55,
+  "roman": "LV",
+  "slug": "sectio-lv",
+  "latinTitle": "CAPUT LV",
+  "title": "Caput LV",
+  "tagline": "Noviodunum erat oppidum",
+  "status": "complete",
+  "complete": true,
+  "readings": [
+    {
+      "id": "sectio-lv",
+      "latinTitle": "CAPUT LV",
+      "title": "",
+      "paragraphs": [
+        "Noviodunum erat oppidum Aeduorum ad ripas Ligeris opportuno loco positum. Huc Caesar omnes obsides Galliae, frumentum, pecuniam publicam, suorum atque exercitus impedimentorum magnam partem contulerat; huc magnum numerum equorum huius belli causa in Italia atque Hispania coemptum miserat. Eo cum Eporedorix Viridomarusque venissent et de statu civitatis cognovissent, Litaviccum Bibracte ab Aeduis receptum, quod est oppidum apud eos maximae auctoritatis, Convictolitavem magistratum magnamque partem senatus ad eum convenisse, legatos ad Vercingetorigem de pace et amicitia concilianda publice missos, non praetermittendum tantum commodum existimaverunt.",
+        "Itaque interfectis Novioduni custodibus quique eo negotiandi causa convenerant, pecuniam atque equos inter se partiti sunt; obsides civitatum Bibracte ad magistratum deducendos curaverunt; oppidum, quod a se teneri non posse iudicabant, ne cui esset usui Romanis, incenderunt; frumenti quod subito potuerunt navibus avexerunt, reliquum flumine atque incendio corruperunt. Ipsi ex finitimis regionibus copias cogere, praesidia custodiasque ad ripas Ligeris disponere equitatumque omnibus locis iniciendi timoris causa ostentare coeperunt, si ab re frumentaria Romanos excludere aut adductos inopia ex provincia expellere possent Quam ad spem multum eos adiuvabat quod Liger ex nivibus creverat, ut omnino vado non posse transiri videretur."
+      ],
+      "notes": []
+    }
+  ],
+  "grammar": [],
+  "vocabulary": [],
+  "pensa": []
+}
+
+export default chapter

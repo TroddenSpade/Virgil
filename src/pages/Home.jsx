@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { books, familiaRomanaBook, romaAeternaBook, exercitiaBook, latinViaOvidBook, companionBook, colloquiaBook, fabulaeBook } from '../data/library.js'
+import { books, familiaRomanaBook, romaAeternaBook, exercitiaBook, latinViaOvidBook, companionBook, colloquiaBook, fabulaeBook, sermonesBook, exercitiaIIBook, caesarBook, epitomeBook } from '../data/library.js'
 import { useProgress } from '../hooks/useLocalStorage.js'
 
 const firstChapter = familiaRomanaBook.chapters[0]
@@ -44,13 +44,13 @@ export default function Home() {
             <ul className="hero__meta rise">
               <li>
                 <strong>
-                  {familiaRomanaBook.chapterCount + romaAeternaBook.chapterCount + exercitiaBook.chapterCount + latinViaOvidBook.chapterCount + companionBook.chapterCount + colloquiaBook.chapterCount + fabulaeBook.chapterCount}
+                  {familiaRomanaBook.chapterCount + romaAeternaBook.chapterCount + exercitiaBook.chapterCount + latinViaOvidBook.chapterCount + companionBook.chapterCount + colloquiaBook.chapterCount + fabulaeBook.chapterCount + sermonesBook.chapterCount + exercitiaIIBook.chapterCount + caesarBook.chapterCount + epitomeBook.chapterCount}
                 </strong>{' '}
-                chapters, colloquia &amp; fables
+                chapters, readings &amp; fables
               </li>
               <li>
                 <strong>
-                  {familiaRomanaBook.readyCount + romaAeternaBook.readyCount + exercitiaBook.readyCount + latinViaOvidBook.readyCount + companionBook.readyCount + colloquiaBook.readyCount + fabulaeBook.readyCount}
+                  {familiaRomanaBook.readyCount + romaAeternaBook.readyCount + exercitiaBook.readyCount + latinViaOvidBook.readyCount + companionBook.readyCount + colloquiaBook.readyCount + fabulaeBook.readyCount + sermonesBook.readyCount + exercitiaIIBook.readyCount + caesarBook.readyCount + epitomeBook.readyCount}
                 </strong>{' '}
                 texts ready
               </li>

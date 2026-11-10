@@ -9,10 +9,11 @@ export default function Library() {
         <h1>The Library</h1>
         <p className="lead" style={{ maxWidth: '60ch' }}>
           The whole course, arranged as a shelf of books. Familia Romana begins the course and Roma Aeterna
-          carries it on through Aeneas and the Roman Republic, with the Exercitia Latina, the Colloquia Personarum and the Fabulae Syrae beside them; the
-          Companion offers a chapter-by-chapter commentary on Familia Romana, while Learn Latin from the
-          Romans and Latin via Ovid are here in full. Together they lead from your first Latin sentence to
-          the poetry of Virgil.
+          carries it on through Aeneas and the Roman Republic, with the Exercitia Latina, the Colloquia Personarum,
+          the Fabulae Syrae, the Sermones Romani and the Epitome Historiae Sacrae beside them; the Companion offers
+          a chapter-by-chapter commentary on Familia Romana, while Learn Latin from the Romans, Latin via Ovid,
+          Exercitia Latina II and Caesar’s seventh book of the Gallic War are here in full. Together they lead from
+          your first Latin sentence to the poetry of Virgil.
         </p>
 
         <div className="book-grid">
@@ -50,7 +51,11 @@ export default function Library() {
                           ? book.readingCount
                             ? `${book.readingCount} ${book.readingUnitPlural || 'colloquia'}`
                             : `${book.readyCount} ${book.readingUnitPlural || 'colloquia'}`
-                          : `${book.readyCount} lessons`}{' '}
+                          : book.kind === 'workbook'
+                            ? book.readingCount
+                              ? `${book.readingCount} ${book.readingUnitPlural || 'exercises'}`
+                              : `${book.readyCount} capitula`
+                            : `${book.readyCount} lessons`}{' '}
                     <span aria-hidden="true">→</span>
                   </p>
                 )}

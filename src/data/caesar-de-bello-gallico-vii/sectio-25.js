@@ -1,0 +1,30 @@
+// Caesar, De Bello Gallico VII, XXV
+// Latin text after J. L. Whiteley (Bristol Classical Press, 2001).
+
+const chapter = {
+  "number": 25,
+  "roman": "XXV",
+  "slug": "sectio-xxv",
+  "latinTitle": "CAPUT XXV",
+  "title": "Caput XXV",
+  "tagline": "Cum in omnibus",
+  "status": "complete",
+  "complete": true,
+  "readings": [
+    {
+      "id": "sectio-xxv",
+      "latinTitle": "CAPUT XXV",
+      "title": "",
+      "paragraphs": [
+        "Cum in omnibus locis, consumpta iam reliqua parte noctis, pugnaretur semperque hostibus spes victoriae redintegraretur, eo magis quod deustos pluteos turrium videbant nec facile adire apertos ad auxiliandum animadvertebant, semperque ipsi recentes defessis succederent omnemque Galliae salutem in illo vestigio temporis positam arbitrarentur, accidit inspectantibus nobis quod dignum memoria visum praetereundum non existimavimus. Quidam ante portam oppidi Gallus per manus sebi ac picis traditas glaebas in ignem e regione turris proiciebat; scorpione ab latere dextro traiectus exanimatusque concidit.",
+        "Hunc ex proximis unus iacentem transgressus eodem illo munere fungebatur; eadem ratione ictu scorpionis exanimato alteri successit tertius et tertio quartus; nec prius ille est a propugnatoribus vacuus relictus locus quam restincto aggere atque omni ex parte summotis hostibus finis est pugandi factus."
+      ],
+      "notes": []
+    }
+  ],
+  "grammar": [],
+  "vocabulary": [],
+  "pensa": []
+}
+
+export default chapter
