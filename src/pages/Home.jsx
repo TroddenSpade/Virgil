@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { books, familiaRomanaBook, romaAeternaBook, exercitiaBook, latinViaOvidBook, companionBook } from '../data/library.js'
+import { books, familiaRomanaBook, romaAeternaBook, exercitiaBook, latinViaOvidBook, companionBook, colloquiaBook } from '../data/library.js'
 import { useProgress } from '../hooks/useLocalStorage.js'
 
 const firstChapter = familiaRomanaBook.chapters[0]
@@ -9,6 +9,7 @@ export default function Home() {
   const { count, percent } = useProgress(familiaRomanaBook.id, familiaRomanaBook.chapterCount)
   const romaProgress = useProgress(romaAeternaBook.id, romaAeternaBook.chapterCount)
   const companionProgress = useProgress(companionBook.id, companionBook.chapterCount)
+  const colloquiaProgress = useProgress(colloquiaBook.id, colloquiaBook.chapterCount)
 
   return (
     <>
@@ -42,15 +43,15 @@ export default function Home() {
             <ul className="hero__meta rise">
               <li>
                 <strong>
-                  {familiaRomanaBook.chapterCount + romaAeternaBook.chapterCount + exercitiaBook.chapterCount + latinViaOvidBook.chapterCount + companionBook.chapterCount}
+                  {familiaRomanaBook.chapterCount + romaAeternaBook.chapterCount + exercitiaBook.chapterCount + latinViaOvidBook.chapterCount + companionBook.chapterCount + colloquiaBook.chapterCount}
                 </strong>{' '}
-                chapters
+                chapters &amp; colloquia
               </li>
               <li>
                 <strong>
-                  {familiaRomanaBook.readyCount + romaAeternaBook.readyCount + exercitiaBook.readyCount + latinViaOvidBook.readyCount + companionBook.readyCount}
+                  {familiaRomanaBook.readyCount + romaAeternaBook.readyCount + exercitiaBook.readyCount + latinViaOvidBook.readyCount + companionBook.readyCount + colloquiaBook.readyCount}
                 </strong>{' '}
-                full lessons ready
+                texts ready
               </li>
               <li>installable app</li>
             </ul>
@@ -161,6 +162,34 @@ export default function Home() {
             </div>
             <div className="book-feature__spine" aria-hidden="true" style={{ background: 'linear-gradient(160deg, #7a5a1f, #3c2a0c)' }}>
               <span className="book-feature__spine-text">COMES</span>
+            </div>
+          </div>
+
+          <div className="book-feature card">
+            <div className="book-feature__body">
+              <p className="eyebrow">Now available · Reader</p>
+              <h2>{colloquiaBook.title}</h2>
+              <p className="lead latin">{colloquiaBook.latinTitle}</p>
+              <p>{colloquiaBook.summary}</p>
+              <div className="book-feature__progress">
+                <div className="progress" role="progressbar" aria-valuenow={colloquiaProgress.percent} aria-valuemin={0} aria-valuemax={100}>
+                  <div className="progress__fill" style={{ width: `${colloquiaProgress.percent}%` }} />
+                </div>
+                <span className="muted" style={{ fontFamily: 'var(--font-ui)', fontSize: '0.8rem' }}>
+                  {colloquiaProgress.count} of {colloquiaBook.chapterCount} colloquia marked as learned
+                </span>
+              </div>
+              <div className="hero__actions">
+                <Link className="btn btn--primary" to={`/library/${colloquiaBook.slug}`}>
+                  Open the reader
+                </Link>
+                <Link className="btn btn--ghost" to={`/library/${colloquiaBook.slug}/${colloquiaBook.chapters[0].slug}`}>
+                  Start Colloquium I
+                </Link>
+              </div>
+            </div>
+            <div className="book-feature__spine" aria-hidden="true" style={{ background: 'linear-gradient(160deg, var(--laurel), #2f4a28)' }}>
+              <span className="book-feature__spine-text">COLLOQVIA</span>
             </div>
           </div>
 

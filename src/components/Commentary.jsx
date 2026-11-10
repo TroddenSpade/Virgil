@@ -120,6 +120,12 @@ export default function CommentarySection({ blocks }) {
       )
     } else if (block.t === 'table') {
       out.push(<Table rows={block.rows} key={`t${key++}`} />)
+    } else if (block.t === 'pre') {
+      out.push(
+        <pre className="commentary__pre" key={`pre${key++}`}>
+          {block.text}
+        </pre>,
+      )
     } else {
       out.push(
         <p className="commentary__p" key={`p${key++}`}>

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Inline } from './Commentary.jsx'
 
 export default function Reading({ readings }) {
   const [showNotes, setShowNotes] = useState(true)
@@ -19,15 +20,24 @@ export default function Reading({ readings }) {
 
       {readings.map((reading, index) => (
         <section key={reading.id || index} className="reading rise" id={reading.id}>
-          <header className="reading__head">
-            <h3 className="reading__title latin">{reading.latinTitle || reading.title}</h3>
-            {reading.latinTitle && reading.title && <p className="reading__subtitle">{reading.title}</p>}
-          </header>
+          {!reading.hideHead && (reading.latinTitle || reading.title) && (
+            <header className="reading__head">
+              <h3 className="reading__title latin">{reading.latinTitle || reading.title}</h3>
+              {reading.latinTitle && reading.title && <p className="reading__subtitle">{reading.title}</p>}
+            </header>
+          )}
 
           <div className={`reading__grid ${showNotes && reading.notes?.length ? 'has-notes' : ''}`}>
             <div className="reading__text latin">
+              {reading.personae && (
+                <div className="reading__personae">
+                  <Inline text={reading.personae} />
+                </div>
+              )}
               {reading.paragraphs.map((p, i) => (
-                <p key={i}>{p}</p>
+                <p key={i}>
+                  <Inline text={p} />
+                </p>
               ))}
             </div>
 
@@ -37,8 +47,12 @@ export default function Reading({ readings }) {
                 <ul>
                   {reading.notes.map((note, i) => (
                     <li key={i}>
-                      <span className="reading__note-term latin">{note.term}</span>
-                      <span className="reading__note-gloss latin">{note.gloss}</span>
+                      <span className="reading__note-term latin">
+                        <Inline text={note.term} />
+                      </span>
+                      <span className="reading__note-gloss latin">
+                        <Inline text={note.gloss} />
+                      </span>
                     </li>
                   ))}
                 </ul>

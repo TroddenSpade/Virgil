@@ -73,6 +73,8 @@ function Lesson({ book, chapter }) {
   const next = index < ready.length - 1 ? ready[index + 1] : null
 
   const isCommentary = Boolean(chapter.sections?.length)
+  const isReader = book.kind === 'reader'
+  const unit = isReader ? 'Colloquium' : 'Capitulum'
   const sections = chapterSections(chapter)
   const sectionNum = (id) => sections.find((section) => section.id === id)?.num
 
@@ -91,7 +93,7 @@ function Lesson({ book, chapter }) {
               {chapter.roman}
             </span>
             <div className="lesson__heading-text">
-              <p className="eyebrow">{book.kind === 'commentary' ? 'Chapter' : 'Capitulum'} {chapter.roman}</p>
+              <p className="eyebrow">{book.kind === 'commentary' ? 'Chapter' : isReader ? 'Colloquium' : 'Capitulum'} {chapter.roman}</p>
               <h1 className="lesson__latin-title latin">{chapter.latinTitle}</h1>
               <p className="lesson__title">{chapter.title}</p>
             </div>
@@ -213,7 +215,7 @@ function Lesson({ book, chapter }) {
         <nav className="lesson__nav" aria-label="Chapter navigation">
           {prev ? (
             <Link className="lesson__nav-link lesson__nav-link--prev" to={`/library/${book.slug}/${prev.slug}`}>
-              <span className="muted">← Capitulum {prev.roman}</span>
+              <span className="muted">← {unit} {prev.roman}</span>
               <span className="latin">{prev.latinTitle || prev.title}</span>
               {prev.latinTitle && <span className="lesson__nav-gloss">{prev.title}</span>}
             </Link>
@@ -222,7 +224,7 @@ function Lesson({ book, chapter }) {
           )}
           {next ? (
             <Link className="lesson__nav-link lesson__nav-link--next" to={`/library/${book.slug}/${next.slug}`}>
-              <span className="muted">Capitulum {next.roman} →</span>
+              <span className="muted">{unit} {next.roman} →</span>
               <span className="latin">{next.latinTitle || next.title}</span>
               {next.latinTitle && <span className="lesson__nav-gloss">{next.title}</span>}
             </Link>

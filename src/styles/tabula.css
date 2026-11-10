@@ -1220,3 +1220,46 @@ main > .section:first-child {
 main > .lesson:first-child {
   padding-top: 1rem;
 }
+
+/* The speakers of a colloquium, set above the dialogue. */
+.reading__personae {
+  font-family: var(--font-latin);
+  font-style: italic;
+  font-size: 0.98rem;
+  color: var(--ink-soft);
+  margin: 0 0 1.35rem;
+  padding-bottom: 0.55rem;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+/* Reference appendices set wholly in Latin. */
+.lesson--latin .commentary {
+  max-width: none;
+}
+.lesson--latin .commentary__p,
+.lesson--latin .commentary__li,
+.lesson--latin .commentary__cell {
+  font-family: var(--font-latin);
+}
+.commentary__pre {
+  margin: 0 0 1.2rem;
+  max-width: 100%;
+  padding: 1rem;
+  background: var(--surface-2);
+  border: 1px solid var(--line-soft);
+  border-radius: 2px;
+  font-family: var(--font-latin);
+  font-size: 0.92rem;
+  line-height: 1.55;
+  white-space: pre;
+  overflow-x: auto;
+}
+
+.lesson--latin .commentary__p {
+  max-width: 68ch;
+  margin-inline: auto;
+}
+.lesson--latin .commentary__pre,
+.lesson--latin .commentary__table-wrap {
+  max-width: 100%;
+}

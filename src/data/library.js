@@ -3,6 +3,7 @@ import { book as romaAeterna, chapters as romaAeternaChapters } from './roma-aet
 import { book as exercitiaLatina, chapters as exercitiaLatinaChapters } from './exercitia-latina/index.js'
 import { book as latinViaOvid, chapters as latinViaOvidChapters } from './latin-via-ovid/index.js'
 import { book as companion, chapters as companionChapters } from './companion/index.js'
+import { book as colloquia, chapters as colloquiaChapters } from './colloquia-personarum/index.js'
 import { sources } from './sources.generated.js'
 
 // Reference sources are the full texts extracted from the source editions.
@@ -54,6 +55,11 @@ export const companionBook = {
   sourceSlug: 'companion',
   referenceChapters: referenceChapters('companion'),
   chapters: companionChapters,
+}
+
+export const colloquiaBook = {
+  ...colloquia,
+  chapters: colloquiaChapters,
 }
 
 export const learnLatinBook = {
@@ -112,6 +118,7 @@ export const books = [
   familiaRomanaBook,
   romaAeternaBook,
   exercitiaBook,
+  colloquiaBook,
   companionBook,
   learnLatinBook,
   latinViaOvidBook,

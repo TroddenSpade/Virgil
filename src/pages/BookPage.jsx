@@ -122,11 +122,17 @@ function ActiveBook({ book }) {
           <div className="book-hero__stats">
             <div>
               <strong>{book.chapterCount}</strong>
-              <span>chapters</span>
+              <span>{book.kind === 'reader' ? 'colloquia' : 'chapters'}</span>
             </div>
             <div>
               <strong>{book.readyCount}</strong>
-              <span>{book.kind === 'commentary' ? 'chapters written' : 'full lessons'}</span>
+              <span>
+                {book.kind === 'commentary'
+                  ? 'chapters written'
+                  : book.kind === 'reader'
+                    ? 'colloquia written'
+                    : 'full lessons'}
+              </span>
             </div>
             <div>
               <strong>{count}</strong>
@@ -147,9 +153,11 @@ function ActiveBook({ book }) {
             <Link className="btn btn--primary" to={`/library/${book.slug}/${first.slug}`}>
               {book.kind === 'commentary'
                 ? 'Begin Chapter I'
-                : book.id === 'familia-romana' || book.id === 'roma-aeterna'
-                  ? `Start Capitulum ${first.roman}`
-                  : 'Start Chapter I'} →
+                : book.kind === 'reader'
+                  ? `Start Colloquium ${first.roman}`
+                  : book.id === 'familia-romana' || book.id === 'roma-aeterna'
+                    ? `Start Capitulum ${first.roman}`
+                    : 'Start Chapter I'} →
             </Link>
             {book.kind === 'commentary' && (
               <a className="btn btn--ghost" href="#commentary">
@@ -163,13 +171,20 @@ function ActiveBook({ book }) {
 
         <hr className="rule" />
 
-        <h2 id="commentary" className="section-heading">{book.kind === 'commentary' ? 'Commentary' : 'Capitula'}</h2>
+        <h2
+          id={book.kind === 'reader' ? 'colloquia' : 'commentary'}
+          className="section-heading"
+        >
+          {book.kind === 'commentary' ? 'Commentary' : book.kind === 'reader' ? 'Colloquia' : 'Capitula'}
+        </h2>
         <p className="book-page__note muted" style={{ marginTop: '-0.75rem', marginBottom: '1.5rem' }}>
           {book.kind === 'commentary'
             ? 'Each chapter follows the book’s own sections: Rēs Grammaticae Novae, the Lēctiōnēs, Recēnsiō, Studia Rōmāna, and the chapter vocabulary.'
-            : 'Lessons marked '}
-          {book.kind !== 'commentary' && <span className="tag tag--laurel">lesson</span>}
-          {book.kind !== 'commentary' && ' are fully written up; the rest open the original Latin text.'}
+            : book.kind === 'reader'
+              ? 'Twenty-four short Latin dialogues, one after each chapter of Familia Romana, with the book’s own marginalia.'
+              : 'Lessons marked '}
+          {book.kind !== 'commentary' && book.kind !== 'reader' && <span className="tag tag--laurel">lesson</span>}
+          {book.kind !== 'commentary' && book.kind !== 'reader' && ' are fully written up; the rest open the original Latin text.'}
         </p>
         <div className="chapter-grid">
           {book.chapters.map((chapter) => {
