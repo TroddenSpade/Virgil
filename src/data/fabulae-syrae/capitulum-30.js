@@ -462,6 +462,12 @@ const chapter = {
       ]
     }
   ],
+  "plates": [
+    "Polyphemus in celso saxo tibiis ferocem amorem suum canit; Galatea vero ab Acide pastore amatur.",
+    "Navis qua Ceyx vehitur, toto mari tempestate turbato, huc illuc iactatur.",
+    "Iuppiter, forma aquilae indutus, Ganymedem in Olympum vehit.",
+    "Somnium, forma Ceycis indutum, Alcyones cubiculum intrat."
+  ],
   "grammar": [],
   "vocabulary": [],
   "pensa": []

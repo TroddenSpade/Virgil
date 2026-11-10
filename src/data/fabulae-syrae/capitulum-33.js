@@ -496,6 +496,9 @@ const chapter = {
       ]
     }
   ],
+  "plates": [
+    "Perseus de caelo in monstrum impetum facit, ut Andromedam ad saxum vinctam servet."
+  ],
   "grammar": [],
   "vocabulary": [],
   "pensa": []

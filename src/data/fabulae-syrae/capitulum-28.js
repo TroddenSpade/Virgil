@@ -549,6 +549,9 @@ const chapter = {
       ]
     }
   ],
+  "plates": [
+    "Dum Atalanta malum capiendi causa consistit, Hippomenes ad metam currit."
+  ],
   "grammar": [],
   "vocabulary": [],
   "pensa": []

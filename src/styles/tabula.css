@@ -1232,6 +1232,25 @@ main > .lesson:first-child {
   border-bottom: 1px solid var(--line-soft);
 }
 
+/* Captions of the printed illustration plates. */
+.plates {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.8rem;
+  max-width: 62ch;
+}
+.plates li {
+  font-family: var(--font-latin);
+  font-style: italic;
+  font-size: 1.02rem;
+  line-height: 1.65;
+  color: var(--ink-soft);
+  padding-left: 1rem;
+  border-left: 2px solid color-mix(in srgb, var(--bronze) 40%, transparent);
+}
+
 /* Reference appendices set wholly in Latin. */
 .lesson--latin .commentary {
   max-width: none;

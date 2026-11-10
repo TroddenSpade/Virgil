@@ -447,6 +447,10 @@ const chapter = {
       ]
     }
   ],
+  "plates": [
+    "Latona et agricolae in magnas ranas conversi.",
+    "Apollo, mortua Coronide, albas corvi pennas in nigras convertit."
+  ],
   "grammar": [],
   "vocabulary": [],
   "pensa": []

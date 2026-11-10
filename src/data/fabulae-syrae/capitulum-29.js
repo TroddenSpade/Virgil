@@ -610,6 +610,11 @@ const chapter = {
       ]
     }
   ],
+  "plates": [
+    "Pluto Proserpinam rapit, quae matrem clamans vocat.",
+    "Diana e caelo nubem in Arethusam immittit, qua eam occultat.",
+    "Apollo et Diana Niobes liberos sagittis interficiunt."
+  ],
   "grammar": [],
   "vocabulary": [],
   "pensa": []

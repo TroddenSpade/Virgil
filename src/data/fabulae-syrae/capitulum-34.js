@@ -1766,6 +1766,11 @@ const chapter = {
       ]
     }
   ],
+  "plates": [
+    "Hyacinthus, disci ictu percussus, in manibus Apollinis e vulnere moritur.",
+    "Phaethon Solis, patris sui, domum ingressus, rogat ut sibi currus regendus tradatur.",
+    "Actaeon in luco nymphas conspicit, Dianam lavantem."
+  ],
   "grammar": [],
   "vocabulary": [],
   "pensa": []

@@ -5,6 +5,7 @@ const problems = []
 const stats = {
   chapters: 0,
   readings: 0,
+  plates: 0,
   paragraphs: 0,
   notes: 0,
   words: 0,
@@ -34,6 +35,11 @@ for (const chapter of chapters) {
   if (!chapter.latinTitle || !chapter.slug) problems.push(`chapter ${chapter.number}: missing title/slug`)
   if (chapter.readings?.length !== 5) {
     problems.push(`chapter ${chapter.roman}: expected 5 fables, found ${chapter.readings?.length || 0}`)
+  }
+  for (const plate of chapter.plates || []) {
+    stats.plates += 1
+    checkText(`chapter ${chapter.roman}/plate`, plate)
+    if (!plate.trim()) problems.push(`chapter ${chapter.roman}: empty plate caption`)
   }
   for (const reading of chapter.readings || []) {
     stats.readings += 1

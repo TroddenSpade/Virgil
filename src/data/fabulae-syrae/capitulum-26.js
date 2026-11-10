@@ -342,6 +342,9 @@ const chapter = {
       ]
     }
   ],
+  "plates": [
+    "Europa tauro vehitur."
+  ],
   "grammar": [],
   "vocabulary": [],
   "pensa": []

@@ -41,6 +41,7 @@ function chapterSections(chapter, book) {
 
   return [
     chapter.readings?.length && { id: 'lectio', label: book?.readingLabel || 'Lēctiō', sub: 'Reading' },
+    chapter.plates?.length && { id: 'tabulae', label: 'Tabvlae', sub: 'Illustration captions' },
     chapter.grammar?.length && { id: 'grammatica', label: 'Grammatica Latīna', sub: 'Grammar' },
     chapter.vocabulary?.length && { id: 'vocabula', label: 'Vocābula', sub: 'Vocabulary' },
     chapter.pensa?.length && { id: 'pensa', label: 'Pēnsa', sub: 'Exercises' },
@@ -184,6 +185,23 @@ function Lesson({ book, chapter }) {
                       english="reading"
                     />
                     <Reading readings={chapter.readings} />
+                  </section>
+                )}
+
+                {chapter.plates?.length > 0 && (
+                  <section className="lesson__section" id="tabulae">
+                    <SectionHead
+                      num={sectionNum('tabulae')}
+                      latin="Tabvlae"
+                      english="illustration captions"
+                    />
+                    <ul className="plates">
+                      {chapter.plates.map((plate, i) => (
+                        <li key={i} className="latin">
+                          <Inline text={plate} />
+                        </li>
+                      ))}
+                    </ul>
                   </section>
                 )}
 

@@ -487,6 +487,9 @@ const chapter = {
       ]
     }
   ],
+  "plates": [
+    "Deucalion et Pyrrha, capitibus opertis, lapides post se iaciunt, e quibus viri et feminae nascuntur."
+  ],
   "grammar": [],
   "vocabulary": [],
   "pensa": []

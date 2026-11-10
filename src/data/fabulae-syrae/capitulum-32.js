@@ -598,6 +598,10 @@ const chapter = {
       ]
     }
   ],
+  "plates": [
+    "Minerva Arachnen in araneam mutat.",
+    "Apollo persequitur Daphnen, quae a Peneo patre in laurum mutatur."
+  ],
   "grammar": [],
   "vocabulary": [],
   "pensa": []
