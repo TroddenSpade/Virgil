@@ -1,5 +1,5 @@
 import { Link, useParams, Navigate } from 'react-router-dom'
-import { getBook } from '../data/library.js'
+import { books, getBook } from '../data/library.js'
 import { useProgress } from '../hooks/useLocalStorage.js'
 
 const EXTRA_NUMERALS = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII']
@@ -19,7 +19,7 @@ export default function BookPage() {
 /* A book whose full text is reproduced as a browsable reference. */
 function ReferenceBook({ book }) {
   return (
-    <section className={`section${book.kind === 'commentary' ? ' book-page--commentary' : ''}`}>
+    <section className="section">
       <div className="container">
         <Link to="/library" className="back-link">
           ← Library
@@ -78,11 +78,33 @@ function ReferenceBook({ book }) {
   )
 }
 
-function ActiveBook({ book }) {
-  const { isDone, count, percent } = useProgress(book.id, book.chapterCount)
+function BookSwitcher({ current }) {
+  const others = books.filter(
+    (book) => book.status === 'active' && book.kind !== 'reference' && book.id !== current.id,
+  )
+  if (!others.length) return null
 
   return (
-    <section className={`section${book.kind === 'commentary' ? ' book-page--commentary' : ''}`}>
+    <nav className="book-switcher" aria-label="Other books">
+      <span className="book-switcher__label">Other books</span>
+      <div className="book-switcher__links">
+        {others.map((book) => (
+          <Link key={book.id} to={`/library/${book.slug}`} className="book-switcher__link">
+            <span>{book.shortTitle}</span>
+            <span className="book-switcher__count">{book.chapterCount}</span>
+          </Link>
+        ))}
+      </div>
+    </nav>
+  )
+}
+
+function ActiveBook({ book }) {
+  const { isDone, count, percent } = useProgress(book.id, book.chapterCount)
+  const first = book.chapters[0]
+
+  return (
+    <section className={`section book-page--framed${book.kind === 'commentary' ? ' book-page--commentary' : ''}`}>
       <div className="container">
         <Link to="/library" className="back-link">
           ← Library
@@ -121,16 +143,22 @@ function ActiveBook({ book }) {
             </span>
           </div>
 
-          {book.kind === 'commentary' && (
-            <div className="book-hero__actions">
-              <Link className="btn btn--primary" to={`/library/${book.slug}/${book.chapters[0].slug}`}>
-                Begin Chapter I →
-              </Link>
+          <div className="book-hero__actions">
+            <Link className="btn btn--primary" to={`/library/${book.slug}/${first.slug}`}>
+              {book.kind === 'commentary'
+                ? 'Begin Chapter I'
+                : book.id === 'familia-romana' || book.id === 'roma-aeterna'
+                  ? `Start Capitulum ${first.roman}`
+                  : 'Start Chapter I'} →
+            </Link>
+            {book.kind === 'commentary' && (
               <a className="btn btn--ghost" href="#commentary">
                 Browse the commentary
               </a>
-            </div>
-          )}
+            )}
+          </div>
+
+          <BookSwitcher current={book} />
         </header>
 
         <hr className="rule" />

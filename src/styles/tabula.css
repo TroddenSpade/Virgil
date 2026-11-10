@@ -920,7 +920,7 @@
    ============================================================ */
 
 /* The book page: a title leaf, then a two/three-column table of contents. */
-.book-page--commentary .book-hero {
+.book-page--framed .book-hero {
   position: relative;
   margin-top: 1.4rem;
   padding: clamp(2rem, 5vw, 3.4rem);
@@ -930,7 +930,7 @@
   box-shadow: inset 0 0 0 3px var(--surface), inset 0 0 0 4px var(--line-soft), var(--shadow-sm);
   overflow: hidden;
 }
-.book-page--commentary .book-hero::before {
+.book-page--framed .book-hero::before {
   content: '';
   position: absolute;
   inset: 0 0 auto 0;
@@ -953,7 +953,7 @@
   pointer-events: none;
   z-index: 0;
 }
-.book-page--commentary .book-hero > * {
+.book-page--framed .book-hero > * {
   position: relative;
   z-index: 1;
 }
@@ -961,14 +961,14 @@
   max-width: 22ch;
   font-size: clamp(2.1rem, 5vw, 3.25rem);
 }
-.book-page--commentary .book-hero .lead {
+.book-page--framed .book-hero .lead {
   max-width: 62ch;
 }
-.book-page--commentary .book-hero__stats {
+.book-page--framed .book-hero__stats {
   gap: 0;
   margin: 1.6rem 0 1.15rem;
 }
-.book-page--commentary .book-hero__stats div {
+.book-page--framed .book-hero__stats div {
   min-width: 0;
   padding: 0 1.25rem 0 0;
   margin-right: 1.25rem;
@@ -977,25 +977,25 @@
   background: transparent;
   box-shadow: none;
 }
-.book-page--commentary .book-hero__stats div:last-child {
+.book-page--framed .book-hero__stats div:last-child {
   margin-right: 0;
   padding-right: 0;
   border-right: none;
 }
-.book-page--commentary .book-hero__stats strong {
+.book-page--framed .book-hero__stats strong {
   font-size: 1.65rem;
   color: var(--patina);
 }
-.book-page--commentary .book-hero__actions {
+.book-page--framed .book-hero__actions {
   display: flex;
   flex-wrap: wrap;
   gap: 0.7rem;
   margin: 1.4rem 0 0;
 }
-.book-page--commentary .book-hero__progress {
+.book-page--framed .book-hero__progress {
   max-width: 34rem;
 }
-.book-page--commentary .book-page__note {
+.book-page--framed .book-page__note {
   max-width: 68ch;
   margin-top: -0.5rem !important;
   padding: 0.8rem 1rem;
@@ -1006,7 +1006,7 @@
   line-height: 1.65;
   color: var(--ink-soft);
 }
-.book-page--commentary #commentary {
+.book-page--framed #commentary {
   scroll-margin-top: calc(var(--header-h) + 1rem);
 }
 .book-page--commentary .chapter-grid {
@@ -1055,7 +1055,7 @@
   .book-page--commentary .chapter-grid {
     grid-template-columns: 1fr;
   }
-  .book-page--commentary .book-hero__stats div {
+  .book-page--framed .book-hero__stats div {
     margin-right: 0.85rem;
     padding-right: 0.85rem;
   }
@@ -1158,4 +1158,57 @@
   .lesson--commentary .commentary > .commentary__p:first-of-type::first-letter {
     font-size: 2em;
   }
+}
+
+/* A small shelf of the other course books, inside the title leaf. */
+.book-switcher {
+  margin-top: 1.35rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--line-soft);
+}
+.book-switcher__label {
+  display: block;
+  font-family: var(--font-ui);
+  font-size: 0.64rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--bronze);
+}
+.book-switcher__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.55rem;
+}
+.book-switcher__link {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  padding: 0.42rem 0.65rem;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  background: var(--surface-2);
+  box-shadow: var(--shadow-sm);
+  text-decoration: none;
+  color: var(--ink-soft);
+  font-family: var(--font-ui);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: transform 0.13s ease, border-color 0.15s ease, color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+.book-switcher__link:hover {
+  transform: translate(-1px, -1px);
+  border-color: var(--bronze);
+  color: var(--ink);
+  box-shadow: var(--shadow-lift);
+}
+.book-switcher__count {
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  letter-spacing: 0;
+  color: var(--bronze);
 }
