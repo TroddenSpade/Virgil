@@ -1212,3 +1212,11 @@
   letter-spacing: 0;
   color: var(--bronze);
 }
+
+/* Every page except the home hero starts closer to the header. */
+main > .section:first-child {
+  padding-top: 2rem;
+}
+main > .lesson:first-child {
+  padding-top: 1rem;
+}
