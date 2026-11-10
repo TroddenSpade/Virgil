@@ -14,25 +14,25 @@ const chapter = {
   "readings": [
     {
       "id": "polyphemus-et-galatea",
-      "latinTitle": "1. Polyphemus et Galatea",
+      "latinTitle": "1. Polyphēmus et Galatēa",
       "title": "",
       "paragraphs": [
-        "Polyphemus fuit Cyclops qui olim in insula Sicilia habitabat ibique vita rustica fruebatur (Cyclops est monstrum homine altius atque fortius, quod vero unum oculum in media fronte habet). Ibi Galatea, nympharum omnium pulcherrima, quae una cum sororibus Siciliae undas incolebat, ab Acide pastore amabatur.",
-        "Quodam die Polyphemus primum illam vidit, quae, ut pulchros flores carperet, campum petebat, ubi Cyclopis oves pascebantur et herba fruebantur: tum statim Polyphemus quid esset amor sensit. Ceterarum igitur rerum oblitus, ita omnia, praeter Galateam, neglegebat, ut pecora saepe domum nullo ducente reverterentur.",
-        "Ut vero amoris dolorem, quo animus eius afficiebatur, levaret, nonnumquam in celsum saxum ascendebat, unde, mare prospiciens, tibiis usus hoc modo canebat: “O formosa Galatea, caseo candidior, agno suavior, uva matura dulcior, cur me amantem contemnis, si diligenter te curo? Propter amōrem, quem in animo sentio, iam multi dies sunt, cum cibum non sumpsi; at equidem cibo et aqua carere, famem et sitim perferre facilius possum quam paulisper sine te vivere. Parce mihi, ō pulcherrima Nympharum! Patienter enim cotidie exspecto dum te tandem in campis ambulantem aspicere liceat; dubito tamen an tibi appropinquare possim: nam semper fugis, cum primum me cernis aut inter nos aspicimus: neque equidem aequo animo hoc ferre possum. At ego scio qua de causa me fugias: tibi neque capilli neque barba mea placent, etsi capilli et barba virum decent: num tu pulchram sine frondibus arborem, pulchram sine pennis avem, pulchram sine lana ovem umquam vidisti? Neque tam foedus sum: nuper me in aquā vidi, et mihi vultus meus valde placuit. Praeterea dives sum et multa possideo. Prō domō antrum aestate frigidum, hieme vero calidum habeo. Venias igitur ad antrum meum! Si in illud intraveris, etiam si inexspectata veneris, semper bene te recipiam et multōs cibōs apponam: mihi est enim magna cōpia lactis atque casei, quibus aestate et hieme fruor, nam multae ovēs multaeque caprae in meis vallibus errant. Si forte earum numerum rogaveris, respondere nōn potero, nam sōlum pauperes homines pecora numerant. Sunt mihi etiam uvae auro similes, nuces atque varia genera malōrum, meile multō dulciora. Si tibi haec omnia placuerint et plura volueris, omnia quae mihi sunt habebis. Tantum liceat tecum versari! Non ante requiescam quam mea uxor fueris, Galatea.” His verbis Galateae persuadēre conabatur nē sē timēret.",
-        "Quodam vēro diē per silvāsās et vallēs errābat, cum forte Galatēam et Acin simul ambulantēs vidit. Maxima voce clamavit Cyclōps: clamore percussi montēs tremuērunt; Galatēa perterrita sē in maris aquās mersit; Acis vēro, miserō fugere cōnātus, “Orō tē” clāmāvit, “Galatēa, ut auxilium mihi feras!”; at Polyphemus, pastori illi invidens et iratus (ut Cyclōpem decēbat!), ē monte magnum saxum sumpsit quod in eum prōiēcit; Acis, saxō percussus, humi iacuit: ē saxō vero, quō eius corpus operiebatur, ruber cruor effundebatur. At Nymphae precibus factum est ut cruor fluminis colorem sumeret: aqua prō cruore fluere coepit, et Acis ipse in flumen versus est."
+        "Polyphēmus fuit Cyclōps quī ōlim in īnsulā Sicilia habitābat ibique vīta rūstica fruēbātur (Cyclōps est mōnstrum homine altius atque fortius, quod vērō ūnum oculum in mediā fronte habet). Ibi Galatēa, nymphārum omnium pulcherrima, quae ūna cum sorōribus Siciliae undās incolēbat, ab Ācide pāstōre amābātur.",
+        "Quōdam diē Polyphēmus prīmum illam vīdit, quae, ut pulchrōs flōrēs carperet, campum petēbat, ubi Cyclōpis ovēs pāscēbantur et herbā fruēbantur: tum statim Polyphēmus quid esset amor sēnsit. Cēterārum igitur rērum oblītus, ita omnia, praeter Galatēam, neglegēbat, ut pecora saepe domum nūllō dūcente reverterentur.",
+        "Ut vērō amōris dolōrem, quō animus eius afficiēbātur, levāret, nōnnumquam in celsum saxum ascendēbat, unde, mare prōspiciēns, tībiīs ūsus hōc modō canēbat: “Ō fōrmōsa Galatēa, cāseō candidior, agnō suāvior, ūva mātūra dulcior, cūr mē amantem contemnis, sī dīligenter tē cūrō? Propter amōrem, quem in animō sentiō, iam multī diēs sunt, cum cibum nōn sūmpsī; at equidem cibō et aquā carēre, famem et sitim perferre facilius possum quam paulisper sine tē vīvere. Parce mihi, ō pulcherrima Nymphārum! Patienter enim cotīdiē exspectō dum tē tandem in campīs ambulantem aspicere liceat; dubitō tamen an tibi appropinquāre possim: nam semper fugis, cum prīmum mē cernis aut inter nōs aspicimus: neque equidem aequō animō hoc ferre possum. At ego sciō quā dē causā mē fugiās: tibi neque capillī neque barbā meā placent, etsī capillī et barba virum decent: num tū pulchram sine frondibus arborem, pulchram sine pennīs avem, pulchram sine lānā ovem umquam vīdistī? Neque tam foedus sum: nūper mē in aquā vīdī, et mihi vultus meus valdē placuit. Praetereā dīves sum et multa possideō. Prō domō antrum aestāte frīgidum, hieme vērō calidum habeō. Veniās igitur ad antrum meum! Sī in illud intrāverīs, etiam sī inexspectāta vēnerīs, semper bene tē recipiam et multōs cibōs appōnam: mihi est enim magna cōpia lactis atque cāseī, quibus aestāte et hieme fruor, nam multae ovēs multaeque caprae in meīs vallibus errant. Sī forte eārum numerum rogāverīs, respondēre nōn poterō, nam sōlum pauperēs hominēs pecora numerant. Sunt mihi etiam ūvae aurō similēs, nucēs atque varia genera malōrum, meile multō dulciōra. Sī tibi haec omnia placuerint et plūra voluerīs, omnia quae mihi sunt habēbis. Tantum liceat tēcum versārī! Nōn ante requiēscam quam mea uxor fuerīs, Galatēa.” Hīs verbīs Galatēae persuadēre cōnābātur nē sē timēret.",
+        "Quōdam vēro diē per silvāsās et vallēs errābat, cum forte Galatēam et Acin simul ambulantēs vīdit. Maxima vōce clāmāvit Cyclōps: clāmōre percussī montēs tremuērunt; Galatēa perterrita sē in maris aquās mersit; Ācis vēro, miserō fugere cōnātus, “Orō tē” clāmāvit, “Galatēa, ut auxilium mihi ferās!”; at Polyphēmus, pāstōrī illī invidēns et īrātus (ut Cyclōpem decēbat!), ē monte magnum saxum sūmpsit quod in eum prōiēcit; Ācis, saxō percussus, humī iacuit: ē saxō vērō, quō eius corpus operiēbātur, ruber cruor effundēbātur. At Nymphae precibus factum est ut cruor flūminis colōrem sūmeret: aqua prō cruōre fluere coepit, et Ācis ipse in flūmen versus est."
       ],
       "notes": [
         {
-          "term": "Polyphemus -T m",
+          "term": "Polyphēmus -T m",
           "gloss": ""
         },
         {
-          "term": "Galatea -ae f",
+          "term": "Galatēa -ae f",
           "gloss": ""
         },
         {
-          "term": "Cyclops -elopis m",
+          "term": "Cyclōps -elopis m",
           "gloss": ""
         },
         {
@@ -40,7 +40,7 @@ const chapter = {
           "gloss": "deae minores silvarum et fluminum"
         },
         {
-          "term": "Acis -idis (acc Gr Acin) m",
+          "term": "Ācis -idis (acc Gr Acin) m",
           "gloss": ""
         },
         {
@@ -52,7 +52,7 @@ const chapter = {
           "gloss": "minuere, leviorem facere"
         },
         {
-          "term": "caseus -T m",
+          "term": "cāseus -T m",
           "gloss": ""
         },
         {
@@ -68,7 +68,7 @@ const chapter = {
           "gloss": "usque ad tempus quo"
         },
         {
-          "term": "barba -ae f",
+          "term": "barbā -ae f",
           "gloss": ""
         },
         {
@@ -98,14 +98,14 @@ const chapter = {
       "latinTitle": "2. Glaucus",
       "title": "",
       "paragraphs": [
-        "Piscator quidam, nomine Glaucus, olim Anthedonem, insulam Graecam, incolebat. Quodam die, postquam multos pisces reti ceperat, e mari reversus, ita neglegenter prope oram maritimam ambulabat, ut per ignota loca erraret, ubi neque ullae oves umquam herbam ederant neque ulla apis mei e floribus fecerat neque agricolae, falce usi, frumentum messuerant.",
-        "Consistens demum in herba consedit ut rete piscibus completum siccaret atque pisces captos numeraret. “Cum ad oppidum reversus ero” secum ipse laetus aiebat, “hos pisces vendam et magnam pecuniam ex iis faciam.” Diligenter igitur curabat ut pisces ex reti extracti in terra ponerentur.",
-        "At cum primum pisces herbam tetigerunt, aliquid in exspectatum factum est: pisces enim, quos iam pridem mortuos esse oportuit, ut paulo ante in mari, sic tunc in terra moveri coeperunt; dein, piscatore spectante, totus piscium grex, postquam ad vitam rediit, in maris undas celeriter fugit.",
-        "Diu miratus, Glaucus rei causam quaesivit. Tandem haec sibi dixit: “Utrum deus an herba hoc fecit? Quid in hac herba inest? Si ego eam sumpsero atque gustavero, quid mihi, quid corpori meo fiet? Hanc capiamus atque captam gustemus.”",
-        "Haec locutus e terra herbam manu carpsit atque dentibus momordit. Sed cum primum herbam gustavit, cor in pectore palpitare sensit; animus eius alterius naturae amore rapiebatur.",
-        "Glauco tunc subito non iam valles et montes placuerunt, sed per undas et mare iter facere ibique vitam agere iucundum visum est. Remanere igitur non potuit; suae naturae obiitus terram valere iussit: “Vale, terra!” dixit, et sine mora corpus in maris undas mersit.",
-        "In mari a ceteris deis receptus est, qui statim Oceanum et Tethyn rogaverunt ut auferrent Glauco omnia mortalia eumque deum immortalem facerent. Oceanus igitur et Tethys eum aqua totius maris omniumque fluminum laverunt, ut animum purum facerent corpusque mutarent. Tunc eius animus nihil iam sensit, neque quidquam postea meminisse potuit.",
-        "Postquam vero ad se rediit, alium se vidit corpore toto: tum enim animadvertit viridem se gerere barbam, viridem et longum habere capillum, magnosque sibi esse umeros et caerulea bracchia; praeterea crura in piscis caudam erant mutata. Nam inter ceteros maris deos, deus ipse factus erat."
+        "Piscātor quīdam, nōmine Glaucus, ōlim Anthēdonem, īnsulam Graecam, incolēbat. Quōdam diē, postquam multōs piscēs rētī cēperat, ē marī reversus, ita neglegenter prope ōram maritimam ambulābat, ut per ignōta loca errāret, ubi neque ūllae ovēs umquam herbam ēderant neque ūlla apis meī ē flōribus fēcerat neque agricolae, falce ūsī, frūmentum messuerant.",
+        "Cōnsistēns dēmum in herbā cōnsēdit ut rēte piscibus complētum siccāret atque piscēs captōs numerāret. “Cum ad oppidum reversus erō” sēcum ipse laetus aiēbat, “hōs piscēs vēndam et magnam pecūniam ex iīs faciam.” Dīligenter igitur cūrābat ut piscēs ex rētī extractī in terrā pōnerentur.",
+        "At cum prīmum piscēs herbam tetigērunt, aliquid in exspectātum factum est: piscēs enim, quōs iam prīdem mortuōs esse oportuit, ut paulō ante in marī, sīc tunc in terrā movērī coepērunt; dein, piscātōre spectante, tōtus piscium grex, postquam ad vītam rediit, in maris undās celeriter fūgit.",
+        "Diū mīrātus, Glaucus reī causam quaesīvit. Tandem haec sibi dīxit: “Utrum deus an herba hoc fēcit? Quid in hāc herba inest? Sī ego eam sūmpserō atque gustāverō, quid mihi, quid corporī meō fīet? Hanc capiāmus atque captam gustēmus.”",
+        "Haec locūtus ē terrā herbam manū carpsit atque dentibus momordit. Sed cum prīmum herbam gustāvit, cor in pectore palpitāre sēnsit; animus eius alterīus nātūrae amōre rapiēbātur.",
+        "Glaucō tunc subitō nōn iam vallēs et montēs placuērunt, sed per undās et mare iter facere ibique vītam agere iūcundum vīsum est. Remanēre igitur nōn potuit; suae nātūrae obiitus terram valēre iussit: “Valē, terra!” dīxit, et sine morā corpus in maris undās mersit.",
+        "In marī ā cēterīs deīs receptus est, quī statim Ōceanum et Tēthyn rogāvērunt ut auferrent Glaucō omnia mortālia eumque deum immortālem facerent. Ōceanus igitur et Tēthys eum aquā tōtīus maris omniumque flūminum lāvērunt, ut animum pūrum facerent corpusque mūtārent. Tunc eius animus nihil iam sēnsit, neque quidquam posteā meminisse potuit.",
+        "Postquam vērō ad sē rediit, alium sē vīdit corpore tōtō: tum enim animadvertit viridem sē gerere barbam, viridem et longum habēre capillum, magnōsque sibi esse umerōs et caerulea bracchia; praetereā crūra in piscīs caudam erant mūtātā. Nam inter cēterōs maris deōs, deus ipse factus erat."
       ],
       "notes": [
         {
@@ -125,7 +125,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "siccare",
+          "term": "siccāre",
           "gloss": "siccum facere"
         },
         {
@@ -137,7 +137,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "unda -ae f= parvus fluctus",
+          "term": "undā -ae f= parvus fluctus",
           "gloss": ""
         },
         {
@@ -149,15 +149,15 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "re-cipere -cepisse -ceptum",
+          "term": "rē-cipere -cepisse -ceptum",
           "gloss": ""
         },
         {
-          "term": "Oceanus -T m",
+          "term": "Ōceanus -T m",
           "gloss": "deus oceanT"
         },
         {
-          "term": "Tethys -yos, acc Gr -yn",
+          "term": "Tēthys -yos, acc Gr -yn",
           "gloss": "dea maris, uxor"
         },
         {
@@ -169,7 +169,7 @@ const chapter = {
           "gloss": "omnes res mortales"
         },
         {
-          "term": "lavare lavisse",
+          "term": "lavāre lavisse",
           "gloss": ""
         },
         {
@@ -189,22 +189,22 @@ const chapter = {
           "gloss": "mare/caeli serem colore"
         },
         {
-          "term": "Navis qua",
+          "term": "Nāvis qua",
           "gloss": ""
         }
       ]
     },
     {
       "id": "ceyx-et-alcyone",
-      "latinTitle": "3. Ceyx et Alcyone",
+      "latinTitle": "3. Cēyx et Alcyonē",
       "title": "",
       "paragraphs": [
-        "Fuerunt olim duo coniuges: viro Ceyx, uxori vero Alcyone nomen fuit. Nemo iis laetior erat in tota Graecia, nam alter alterum valde amabat.",
-        "Quodam die Cēyx templum Apollinis Delphis situm vi sere constituit, ut deum consuleret. Alcyone autem, cum primum hoc novit, acerbo dolore affecta, lacrimas per genas effudit tōtōque vultu palluit et, postquam ter frustra prae tristitiāā cōnāta est loqui, tum demum “Heu, me miseram!” inquit, “Non iam me amās, ō Cēyx? Num ita molesta sum tibi, ut abire malis quam mēcum manēre? Praeterea multa genera periculorum navigantibus impendent: si navis saxis occurrerit, frangētur; si voragini, mergētur; si tempestas orta erit, magni fluctus navem aqua implebunt... Nullum mare tutum est a periculis! Neque requiescere potero, antequam in patriam salvus reversus eris. Sinas me tecum ire! Si necesse fuerit mori, simul moriamur!”",
-        "Ceyx autem nec uxorem secum ire sivit nec eius verbis a navigando deterritus est, sed iussit eam bono animo esse et patienter exspectare, dum ipse aberat. Etiam promisit se brevi ex itinere reversurum esse.",
-        "Cum igitur in portu gubernatorem, qui navi praeerat, ‘navem profecturam’ nuntiantem audiret, tum dēmum uxōrem valēre iussit et, osculō datō, nānāvem paratam conscendit.",
-        "Coniunx vēro, gubernatore imperante ut nāvis rēmis agerētur, prōtinus perturbata ad terram cecidit et lacrimavit. Iam singuli nautae singulōs rēmōs sursum deorsum movēbant et nāvis ē portu proficiscēbatur. Alcyonē tamen non surrēxit, sed oculis umentibus maritum quaerēbat, qui in celsa puppi stans manum agitabat. Deinde nāvis longius ā terrā recessit et coniuges non iam inter sē aspicere poterant; Alcyonē vēro, in litore manēns, primum nāvem, tum mālum, dēnique vēla spectāvit. Postrēmo, ubi nē vēla quidem vidit, maesta domum rediit et lectō incubuit, neque vēro quiescere potuit: nam ipse lectus vacuus maritum abesse monēbat: Alcyonē misera iterum iterumque super lectum sē convertēbat, neque tamen ullo modo dormire poterat. Interim, cum nautae ventō secundō uterentur, gubernator omnia vela ventis dari iussit. Tum, cum omnes gauderent quod mari tranquillo fruēbantur, ventus inexspectatus flare coepit brevique caelum nubibus atris opertum est. Continuo fluctus aucti sunt et, una cum tonitru et fulguribus, magna tempestas orta est. Itaque gubernator clamans vela contrahi iussit, sed ob strepitum nautae audire non poterant. Dum alii alio currunt, omnes dubitabant utrum e tempestate servari possent an de salute desperare deberent. Fluctus tam alti surgebant ut atras nubes tangere viderentur. Toto mari tempestate turbato, navis huc illuc iactabatur et fluctibus operiebatur. Repente aquarum impetu navis est fracta et omnēs, qui eā vehebantur, in aquam ceciderunt. Alii ligna fracta tenebant, alii bracchia agitabant. Cēyx autem dē suā Alcyone cogitans: “Vale, Alcyone! Vale!” tristi vōce clamabat. Postremo altissimo fluctu mersus est nec iam sursum ex imo mari emersit.",
-        "Cum haec ex caelo spectaret, Iūnō, deorum regina, Īridem, suam nuntiam variis coloribus exornatam, vocavit et ei imperavit ut somnium ad Alcyonem mitteret, quo coniugis mors nuntiaretur. Iris igitur, velocissima ad Somni speluncam volavit (Somnus enim est deus cui somnia oboediunt). Ibi caligo nebulis miscetur, nec ullus sonus silentia rumpit: omnia, muta, quiescunt. Postquam verba Iūnōnis nuntiavit, Iris protinus abiit, nam diutius vapores, quibus tota spelunca complebatur, perferre non potuit. Itaque Somnus unum ex mille somniis elegit, quod ad Alcyonem misit. Somnium igitur, forma Ceycis indutum, Alcyones cubiculum intrans super eius lectum stetit et “O, miserrima coniunx!” inquit, “Ceyx sum, quem vivum valde amabas neque vivum iterum videbis. Numquam domum revertar, ut ipsa timebas, nam navis saevissima tempestate fracta in imo mari iacet. Vale, dīlēctissima coniunx!” Cum primum Alcyone hoc audivit, cor in Imo pectore contrahi sensit et statim e somno excitata est. Deinde e lecto sur rexit et ad litus iit, ubi lacrimas effundens clamavit: “O Ceyx! Cur tecum me non tulisti? Cum te caream, nunc vitam parvi existimo!” Dum alia tristissima verba dicit et plangit, undas aliquid apportare vidit. Tum mari appropinquavit et (ō, miseram!) corpus Ceycis invenit. “Sic in patriam reverteris, amarissime vir!” clamavit et se in mare proiecit. Tantus erat Alcyones erga maritum amor, ut di immortales ambos coniuges in aves mutarent, quae hieme septem dies, quibus ventus in mari cessat, etiam nunc nidis incubare solent."
+        "Fuērunt ōlim duo coniugēs: virō Cēyx, uxōrī vērō Alcyonē nōmen fuit. Nēmō iīs laetior erat in tōtā Graeciā, nam alter alterum valdē amābat.",
+        "Quōdam diē Cēyx templum Apollinis Delphis situm vī sērē cōnstituit, ut deum cōnsuleret. Alcyonē autem, cum prīmum hoc nōvit, acerbō dolōre affectā, lacrimās per genās effūdit tōtōque vultū palluit et, postquam ter frūstrā prae tristitiāā cōnāta est loquī, tum dēmum “Heu, mē miseram!” inquit, “Nōn iam mē amās, ō Cēyx? Num ita molesta sum tibi, ut abīre mālīs quam mēcum manēre? Praetereā multa genera perīculōrum nāvigantibus impendent: sī nāvīs saxīs occurrerit, frangētur; sī vorāginī, mergētur; sī tempestās orta erit, magnī flūctūs nāvem aquā implēbunt... Nūllum mare tūtum est ā perīculīs! Neque requiēscere poterō, antequam in patriam salvus reversus eris. Sinās mē tēcum īre! Sī necesse fuerit morī, simul moriāmur!”",
+        "Cēyx autem nec uxōrem sēcum īre sīvit nec eius verbīs ā nāvigandō dēterritus est, sed iussit eam bonō animō esse et patienter exspectāre, dum ipse aberat. Etiam prōmīsit sē brevī ex itinere reversūrum esse.",
+        "Cum igitur in portū gubernātōrem, quī nāvī praeerat, ‘nāvem profectūram’ nūntiantem audīret, tum dēmum uxōrem valēre iussit et, osculō datō, nānāvem parātam cōnscendit.",
+        "Coniūnx vēro, gubernātōre imperante ut nāvis rēmis agerētur, prōtinus perturbāta ad terram cecidit et lacrimāvit. Iam singulī nautae singulōs rēmōs sūrsum deorsum movēbant et nāvis ē portū proficiscēbatur. Alcyonē tamen nōn surrēxit, sed oculīs ūmentibus marītum quaerēbat, quī in celsā puppī stāns manum agitābat. Deinde nāvis longius ā terrā recessit et coniugēs nōn iam inter sē aspicere poterant; Alcyonē vēro, in lītore manēns, prīmum nāvem, tum mālum, dēnique vēla spectāvit. Postrēmo, ubi nē vēla quidem vīdit, maesta domum rediit et lectō incubuit, neque vēro quiēscere potuit: nam ipse lectus vacuus marītum abesse monēbat: Alcyonē misera iterum iterumque super lectum sē convertēbat, neque tamen ūllō modō dormīre poterat. Interim, cum nautae ventō secundō ūterentur, gubernātor omnia vēla ventīs darī iussit. Tum, cum omnēs gaudērent quod marī tranquillō fruēbantur, ventus inexspectātus flāre coepit brevīque caelum nūbibus ātrīs opertum est. Continuō flūctūs auctī sunt et, ūna cum tonitrū et fulguribus, magna tempestās orta est. Itaque gubernātor clāmāns vēla contrahī iussit, sed ob strepitum nautae audīre nōn poterant. Dum aliī aliō currunt, omnēs dubitābant utrum ē tempestāte servārī possent an dē salūte dēspērāre dēbērent. Flūctūs tam altī surgēbant ut ātrās nūbēs tangere vidērentur. Tōtō marī tempestāte turbātō, nāvis hūc illūc iactābātur et flūctibus operiēbātur. Repente aquārum impetū nāvis est frācta et omnēs, quī eā vehēbantur, in aquam cecidērunt. Aliī ligna frācta tenēbant, aliī bracchia agitābant. Cēyx autem dē suā Alcyonē cōgitāns: “Valē, Alcyonē! Valē!” trīstī vōce clāmābat. Postrēmō altissimō flūctū mersus est nec iam sūrsum ex īmō marī ēmersit.",
+        "Cum haec ex caelō spectāret, Iūnō, deōrum rēgīna, Īridem, suam nūntiam variīs colōribus exōrnātam, vocāvit et eī imperāvit ut somnium ad Alcyonēm mitteret, quō coniugis mors nūntiārētur. Īris igitur, vēlōcissima ad Somnī spēluncam volāvit (Somnus enim est deus cui somnia oboediunt). Ibi cālīgō nebulīs miscētur, nec ūllus sonus silentia rumpit: omnia, mūta, quiēscunt. Postquam verba Iūnōnis nūntiāvit, Īris prōtinus abiit, nam diūtius vapōrēs, quibus tōta spēlunca complēbātur, perferre nōn potuit. Itaque Somnus ūnum ex mīlle somniīs ēlēgit, quod ad Alcyonēm mīsit. Somnium igitur, fōrma Cēycis indūtum, Alcyonēs cubiculum intrāns super eius lectum stetit et “Ō, miserrima coniūnx!” inquit, “Cēyx sum, quem vīvum valdē amābās neque vīvum iterum vidēbis. Numquam domum revertar, ut ipsa timēbās, nam nāvis saevissima tempestāte frāctā in īmō marī iacet. Valē, dīlēctissima coniūnx!” Cum prīmum Alcyonē hoc audīvit, cor in Īmō pectore contrahī sēnsit et statim ē somnō excitāta est. Deinde ē lectō sur rēxit et ad lītus iit, ubi lacrimās effundēns clāmāvit: “Ō Cēyx! Cūr tēcum mē nōn tulistī? Cum tē caream, nunc vītam parvī exīstimō!” Dum alia trīstissima verba dīcit et plangit, undās aliquid apportāre vīdit. Tum marī appropinquāvit et (ō, miseram!) corpus Cēycis invēnit. “Sīc in patriam reverterīs, amārissimē vir!” clāmāvit et sē in mare prōiēcit. Tantus erat Alcyonēs ergā marītum amor, ut dī immortālēs ambōs coniugēs in avēs mūtārent, quae hieme septem diēs, quibus ventus in marī cessat, etiam nunc nīdīs incubāre solent."
       ],
       "notes": [
         {
@@ -212,11 +212,11 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "Alcyone -ēs f",
+          "term": "Alcyonē -ēs f",
           "gloss": ""
         },
         {
-          "term": "Apollo -inis m",
+          "term": "Apollō -inis m",
           "gloss": "deus lucis et artis canendi"
         },
         {
@@ -240,15 +240,15 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "alio adv=in/ad alium locum |aiffaii6(",
+          "term": "aliō adv=in/ad alium locum |aiffaii6(",
           "gloss": "aliqui ad aliquem locum), aliialio currunt _ _"
         },
         {
-          "term": "e-mergere -mersisse",
+          "term": "ē-mergere -mersisse",
           "gloss": "exire (ex aqua)"
         },
         {
-          "term": "Iris -idis f nuntius m, nuntia -ae f",
+          "term": "Īris -idis f nuntius m, nuntia -ae f",
           "gloss": ""
         },
         {
@@ -260,7 +260,7 @@ const chapter = {
           "gloss": "quod in somno videtur"
         },
         {
-          "term": "spelunca -ae f caligo -inis f= obscura nubes nebula -ae f= nubes quae terram operit",
+          "term": "spēlunca -ae f caligo -inis f= obscura nubes nebula -ae f= nubes quae terram operit",
           "gloss": ""
         },
         {
@@ -284,7 +284,7 @@ const chapter = {
           "gloss": "tristiae causa pectus pulsare)"
         },
         {
-          "term": "pro-icere -iecisse -iectum",
+          "term": "prō-icere -iecisse -iectum",
           "gloss": ""
         },
         {
@@ -299,21 +299,21 @@ const chapter = {
     },
     {
       "id": "horatius-cocles",
-      "latinTitle": "4. Horatius Cocles",
+      "latinTitle": "4. Horātius Cocles",
       "title": "",
       "paragraphs": [
-        "Roma non fuit semper magnum imperium neque tot provincias habuit. Antequam principes imperium tenerent, Roma libera res publica fuit et antequam res publica esset, regnum fuit, cui septem reges praefuerunt. Ultimus autem rex, nomine Tarquinius, qui non Romanus sed Tuscus erat, gloriosus, severissimus et tam nequam fuit ut ‘Superbus’ appellaretur. Romani tamen hunc tyrannum diu perferre non potuerunt; itaque Tarquinius, multorum criminum accusatus, ex urbe expulsus est.",
-        "In Tusciam autem reversus Porsennae, Tuscorum regi et amico suo, suasit ut bellum adversus Romanos pararet; qui, verbis auditis fronteque contracta, ita respondit: “Equidem exercitum reverti non ante iubebo quam Romam expugnavero!” Milites igitur Tusci per agros Romanos a Porsenna ducebantur. Singuli pedites gladium, scutum et pilum acutum ferēbant, et sic armātī fortiter oppida oppugnabant. Rōmānī autem, inexspectato bellō perterriti, ex agris in Urbem fugiēbant ut vitam servarent. Postquam bellum in Urbem nuntiatum est, Rōmānī exercitum paraverunt ut Urbs, quae mūris et flūmine iam satis defensa eīs videbatur, etiam armis defenderetur; via tamen hostibus patebat, nam pons super flumen positus erat, per quem facile Rōmam intrare poterant.",
-        "Brevī hostes urbi appropinquaverunt; milites vērō Rōmānī ad flūmen accurrerunt ut eōs in fugam verterent. Magna autem hostium copia erat: singuli Rōmānī contrā bīnōs aut temōs hostēs pugnāre dēbēbant. Itaque numēro hostium deterritī in Urbem recēdēbant. Onus tamen ex omnibus militibus non fugit, sed manēns magna voce clāmābat: “Quō ītis, Rōmānī? Ex animis vestris timōrem expellatis! Cum hostis pontem trānsierit, non extrā Urbem, sed in Urbis vils cīvēs nostrōs dēfendere oportēbit. Nisi pontem dēstrūxerimus, domus et templa tuta non erunt. Impetum hostium diutius sustineāmus! Equidem non ante recēdām quam pōns lapsus erit.” Hic fortissimus miles Horātius appellabatur, cognomen vērō eius ‘Cocles’ erat, nam alterō oculō carēbat. Cum ille in mediō ponte sōlus clāmāret et gladium valdē quateret, hostēs stupuērunt et repente pugnāre dēsiērunt. Militem tam audācem mīrābantur et paulum metuēbant: ita ferōx et fortis Horātius Codes eīs vidēbātur. Deinde duo aliī ex Rōmānīs, quōs fugae pudēbat, accessērunt ut ūnā cum Horātiō pugnārent. Tum dēmum hostēs in eōs primum impetum fecērunt, sed singuli Rōmānī multos Tūscōs interficere potuērunt. Hostēs, cum sē ā tribus Rōmānīs priōre impetū superāri vidērent, sagittās prōtulērunt quās arcubus in Rōmānōs iēcērunt.",
-        "Tum Horātius cēterōs recēdere iussit et clāmāns imperāvit ut pōns ignī darētur; dein “Pater Tiberis” inquit, “in tuās undās recipe mē salvum.” Cum primum hoc dīxit, in flūmen prōtinus dēsiluit, dum multa tēla ab hostibus iacta ex alto cadunt. Sīc ūnus vir fortiter Rōmam dēfendit, quī semper ā Rōmānīs propter magnam virtūtem memorābitur."
+        "Rōma nōn fuit semper magnum imperium neque tot prōvinciās habuit. Antequam prīncipēs imperium tenērent, Rōma lībera rēs pūblica fuit et antequam rēs pūblica esset, rēgnum fuit, cui septem rēgēs praefuērunt. Ultimus autem rēx, nōmine Tarquinius, quī nōn Rōmānus sed Tuscus erat, glōriōsus, sevērissimus et tam nēquam fuit ut ‘Superbus’ appellārētur. Rōmānī tamen hunc tyrannum diū perferre nōn potuērunt; itaque Tarquinius, multōrum crīminum accūsātus, ex urbe expulsus est.",
+        "In Tusciam autem reversus Porsennae, Tuscōrum rēgī et amīcō suō, suāsit ut bellum adversus Rōmānōs parāret; quī, verbīs audītīs fronteque contractā, ita respondit: “Equidem exercitum revertī nōn ante iubēbō quam Rōmam expugnāverō!” Mīlitēs igitur Tuscī per agrōs Rōmānōs ā Porsennā dūcēbantur. Singulī peditēs gladium, scūtum et pīlum acūtum ferēbant, et sīc armātī fortiter oppida oppugnābant. Rōmānī autem, inexspectātō bellō perterritī, ex agrīs in Urbem fugiēbant ut vītam servārent. Postquam bellum in Urbem nūntiātum est, Rōmānī exercitum parāvērunt ut Urbs, quae mūris et flūmine iam satis dēfēnsa eīs vidēbātur, etiam armīs dēfenderētur; via tamen hostibus patēbat, nam pōns super flūmen positus erat, per quem facile Rōmam intrāre poterant.",
+        "Brevī hostēs urbī appropinquāvērunt; mīlitēs vērō Rōmānī ad flūmen accurrērunt ut eōs in fugam verterent. Magna autem hostium cōpia erat: singulī Rōmānī contrā bīnōs aut temōs hostēs pugnāre dēbēbant. Itaque numēro hostium deterritī in Urbem recēdēbant. Onus tamen ex omnibus mīlitibus nōn fugit, sed manēns magnā vōce clāmābat: “Quō ītis, Rōmānī? Ex animīs vestrīs timōrem expellātis! Cum hostis pontem trānsierit, nōn extrā Urbem, sed in Urbīs vils cīvēs nostrōs dēfendere oportēbit. Nisi pontem dēstrūxerimus, domus et templa tūta nōn erunt. Impetum hostium diūtius sustineāmus! Equidem nōn ante recēdām quam pōns lāpsus erit.” Hic fortissimus mīles Horātius appellābātur, cognōmen vērō eius ‘Cocles’ erat, nam alterō oculō carēbat. Cum ille in mediō ponte sōlus clāmāret et gladium valdē quateret, hostēs stupuērunt et repente pugnāre dēsiērunt. Mīlitem tam audācem mīrābantur et paulum metuēbant: ita ferōx et fortis Horātius Codēs eīs vidēbātur. Deinde duo aliī ex Rōmānīs, quōs fugae pudēbat, accessērunt ut ūnā cum Horātiō pugnārent. Tum dēmum hostēs in eōs prīmum impetum fecērunt, sed singulī Rōmānī multōs Tūscōs interficere potuērunt. Hostēs, cum sē ā tribus Rōmānīs priōre impetū superāri vidērent, sagittās prōtulērunt quās arcubus in Rōmānōs iēcērunt.",
+        "Tum Horātius cēterōs recēdere iussit et clāmāns imperāvit ut pōns ignī darētur; dein “Pater Tiberis” inquit, “in tuās undās recipe mē salvum.” Cum prīmum hoc dīxit, in flūmen prōtinus dēsiluit, dum multa tēla ab hostibus iacta ex altō cadunt. Sīc ūnus vir fortiter Rōmam dēfendit, quī semper ā Rōmānīs propter magnam virtūtem memorābitur."
       ],
       "notes": [
         {
-          "term": "Horatius -T m",
+          "term": "Horātius -T m",
           "gloss": ""
         },
         {
-          "term": "codes -itis",
+          "term": "codēs -itis",
           "gloss": "altero oculo carens"
         },
         {
@@ -321,11 +321,11 @@ const chapter = {
           "gloss": "populus"
         },
         {
-          "term": "res publica",
+          "term": "rēs publica",
           "gloss": "rēs omnium civium"
         },
         {
-          "term": "regnum -T n",
+          "term": "rēgnum -T n",
           "gloss": "regis imperium"
         },
         {
@@ -361,7 +361,7 @@ const chapter = {
           "gloss": "Rōmam"
         },
         {
-          "term": "defendere -fendisse -fensum pōns -ontis m",
+          "term": "dēfendere -fendisse -fensum pōns -ontis m",
           "gloss": ""
         },
         {
@@ -377,7 +377,7 @@ const chapter = {
           "gloss": "vincere arcus, dat/abl arcubus"
         },
         {
-          "term": "unda -ae f= parvus fluctus",
+          "term": "undā -ae f= parvus fluctus",
           "gloss": ""
         },
         {
@@ -396,23 +396,23 @@ const chapter = {
     },
     {
       "id": "ganymedes",
-      "latinTitle": "5. Ganymedes",
+      "latinTitle": "5. Ganymēdēs",
       "title": "",
       "paragraphs": [
-        "Fuit olim in urbe Troia puer pulcherrimus, nomine Ganymedes, nobilissimis parentibus natus, qui tamen pastoris opus facere solebat. Cotidie igitur sub urbe in campis et in silvis, quamquam filius Troianorum regis erat, cum ovibus errabat. Oves eius nihil edebant, praeter optimum pabulum, quod in monte Ida inveniebatur. Itaque Ganymedes, mane ex urbe egressus, loca, in quibus oves herba pascebantur, celeriter petebat.",
-        "In alto monte, cum gregem custodiret, ut inter pastores fieri solet, pulchra carmina, etsi rustica, tibiis canere incipiebat. Tam pulchre canebat Ganymedes ut pecus paene magis carminibus quam cibo delectaretur: oves enim, pabulum oblitae, ad eum accedebant, ut eum canentem audirent.",
-        "Quodam die, eum in umbra cuiusdam arboris sedentem atque tibiis canentem conspexit Iuppiter, deorum pater, qui, eius amore statim captus, sine mora adulescentulum in Olympum arcessere voluit ut apud se ceterosque deos habitaret. Itaque, forma aquilae indutus, de summo Olympo descendit et trans montes et valles, flumina mariaque, vento celerius advolavit. Pulchrum erat aquilam illam alas sursum deorsum moventem et ab infimo in summum aera ascendentem intueri, Cum primum ad Asiam pervenit, in magnum orbem circum Idam, Ganymedem quaerens, volavit. Quem, cum primum vidit, his verbis salvere iussit: “Salve” inquit, “pulcherrime puer. Ego sum Iuppiter, qui te oratum venio ut, relictis mortalium rebus, ad deorum immortalium domos mecum ascendas, ubi beata vita frueris mihique vinum in pocula fundes. Gaudebo, si mecum venire volueris.” Cui Ganymedes “Eamus,” respondit, “si hoc tibi, summe Iuppiter, placet. Equidem id, quod mihi suades, magnum bonum esse censeo. Gaudebo ego quoque et iucundam vitam agam inter deos, si tecum venero.”",
-        "Cum primum hoc audivit, Iuppiter “Ergo,” inquit, “quoniam tam cupidus es mecum veniendi, Olympum petamus: te statim illuc veham.” et puerum apprehensum portavit, cavens tamen ne candidis Ganymedis membris unguibus noceret; neque diū, quamquam iter satis longum erat, Iuppiter domo āfuit, sed celerrime, ut Trōiam pervenerat, ita inde, ab imis ad summa ascendens, rursus evolavit, domumque recta via iterum petivit.",
-        "Ganymedes autem, dum in aere vehitur, nova volandi potestate delectatus et conspectus pulchritudinem miratus, studiosus omnia aspiciendi, Iovem rogavit ut altius in caelum sē levaret. Tunc deorum pater, qui adulescentulo parēre volebat, in summum caelum ascendit, unde Ganymedes despiciens magnas Asiae, Europae atque Africae partes cernere potuit; quibus visis maxime gaudebat.",
-        "Cum dēmum Iuppiter domum cum puero reversus est, ei ministri opus dedit, ut semper in triclinio, inter deorum convivia, vinum aquae mixtum sibi hospitibusque suis in pocula funderet."
+        "Fuit ōlim in urbe Trōiā puer pulcherrimus, nōmine Ganymēdēs, nōbilissimīs parentibus nātus, quī tamen pāstōris opus facere solēbat. Cotīdiē igitur sub urbe in campīs et in silvīs, quamquam fīlius Troiānōrum rēgis erat, cum ovibus errābat. Ovēs eius nihil ēdēbant, praeter optimum pābulum, quod in monte Īda inveniēbātur. Itaque Ganymēdēs, manē ex urbe ēgressus, loca, in quibus ovēs herbā pāscēbantur, celeriter petēbat.",
+        "In altō monte, cum gregem cūstōdīret, ut inter pāstōrēs fierī solet, pulchra carmina, etsī rūstica, tībiīs canere incipiēbat. Tam pulchrē canēbat Ganymēdēs ut pecus paene magis carminibus quam cibō dēlectārētur: ovēs enim, pābulum oblītae, ad eum accēdēbant, ut eum canentem audīrent.",
+        "Quōdam diē, eum in umbrā cuiusdam arboris sedentem atque tībiīs canentem cōnspexit Iuppiter, deōrum pater, quī, eius amōre statim captus, sine morā adulēscentulum in Olympum arcessere voluit ut apud sē cēterōsque deōs habitāret. Itaque, fōrma aquilae indūtūs, dē summō Olympō dēscendit et trāns montēs et vallēs, flūmina mariaque, ventō celerius advolāvit. Pulchrum erat aquilam illam ālās sūrsum deorsum moventem et ab īnfimō in summum aera ascendentem intuērī, Cum prīmum ad Asiam pervēnit, in magnum orbem circum Īdam, Ganymēdem quaerēns, volāvit. Quem, cum prīmum vīdit, hīs verbīs salvēre iussit: “Salve” inquit, “pulcherrimē puer. Ego sum Iuppiter, quī tē ōrātum veniō ut, relictīs mortālium rēbus, ad deōrum immortālium domōs mēcum ascendās, ubi beātā vītā frueris mihique vīnum in pōcula fundēs. Gaudēbō, sī mēcum venīre voluerīs.” Cui Ganymēdēs “Eāmus,” respondit, “sī hoc tibi, summē Iuppiter, placet. Equidem id, quod mihi suādēs, magnum bonum esse cēnseō. Gaudēbō ego quoque et iūcundam vītam agam inter deōs, sī tēcum vēnerō.”",
+        "Cum prīmum hoc audīvit, Iuppiter “Ergō,” inquit, “quoniam tam cupidus es mēcum veniendī, Olympum petāmus: tē statim illūc veham.” et puerum apprehēnsum portāvit, cavēns tamen nē candidīs Ganymēdīs membrīs unguibus nocēret; neque diū, quamquam iter satis longum erat, Iuppiter domō āfuit, sed celerrimē, ut Trōiam pervēnerat, ita inde, ab īmīs ad summā ascendēns, rūrsus ēvolāvit, domumque rēcta via iterum petīvit.",
+        "Ganymēdēs autem, dum in aere vehitur, novā volandī potestāte dēlectātus et cōnspectus pulchritūdinem mīrātus, studiōsus omnia aspiciendī, Iovem rogāvit ut altius in caelum sē levāret. Tunc deōrum pater, quī adulēscentulō parēre volēbat, in summum caelum ascendit, unde Ganymēdēs dēspiciēns magnās Asiae, Eurōpae atque Āfricae partēs cernere potuit; quibus vīsīs maximē gaudēbat.",
+        "Cum dēmum Iuppiter domum cum puerō reversus est, eī ministrī opus dēdit, ut semper in trīclīniō, inter deōrum convīvia, vīnum aquae mixtum sibi hospitibusque suīs in pōcula funderet."
       ],
       "notes": [
         {
-          "term": "Ganymedes -is m",
+          "term": "Ganymēdēs -is m",
           "gloss": ""
         },
         {
-          "term": "e nobilissimis parentibus",
+          "term": "ē nobilissimis parentibus",
           "gloss": ""
         },
         {
@@ -420,11 +420,11 @@ const chapter = {
           "gloss": "apud urbem"
         },
         {
-          "term": "Troiani -orum mpl",
+          "term": "Troiānī -orum mpl",
           "gloss": "qui in urbe Troia habi tant"
         },
         {
-          "term": "Ida -ae f= mons apud Troiam",
+          "term": "Īda -ae f= mons apud Troiam",
           "gloss": ""
         },
         {
@@ -448,11 +448,11 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "mortales -ium mpl",
+          "term": "mortālēs -ium mpl",
           "gloss": "homines"
         },
         {
-          "term": "vitam agere",
+          "term": "vītam agere",
           "gloss": "vivere"
         },
         {
@@ -463,10 +463,10 @@ const chapter = {
     }
   ],
   "plates": [
-    "Polyphemus in celso saxo tibiis ferocem amorem suum canit; Galatea vero ab Acide pastore amatur.",
-    "Navis qua Ceyx vehitur, toto mari tempestate turbato, huc illuc iactatur.",
-    "Iuppiter, forma aquilae indutus, Ganymedem in Olympum vehit.",
-    "Somnium, forma Ceycis indutum, Alcyones cubiculum intrat."
+    "Polyphēmus in celsō saxō tībiīs ferōcem amōrem suum canit; Galatēa vērō ab Ācide pāstōre amātur.",
+    "Nāvis quā Cēyx vehitur, tōtō marī tempestāte turbātō, hūc illūc iactātur.",
+    "Iuppiter, fōrma aquilae indūtūs, Ganymēdem in Olympum vehit.",
+    "Somnium, fōrma Cēycis indūtum, Alcyonēs cubiculum intrat."
   ],
   "grammar": [],
   "vocabulary": [],

@@ -17,17 +17,17 @@ const chapter = {
       "latinTitle": "1. Andromeda",
       "title": "",
       "paragraphs": [
-        "Fuit Andromeda pulcherrima virgo, filia Cassiopeae et Cephei, qui in Asia regnabant. A prima aetate tam formosa fuit puella, ut omnes eius pulchritudinem admirarentur. Cum vero ad sextum et decimum annum Andromeda pervenisset, eius mater, interrogata quid de tam pulchra filia sentiret, sine mora respondit se certo scire ne Nereidas quidem tanta pulchritudine ornatas esse. “Utinam” inquit “hic adessent illae maris nymphae! Tunc enim omnes videretis meam Andromedam iis multo pulchriorem esse!”",
-        "Eius verba, ventis flantibus vecta, usque ad Nereidum aures allata sunt; quae, cum haec audivissent, iratae ob mortalis feminae superbiam, statim ad Neptunum cucurrerunt, qui primo mirabatur cur tam turbatae esse viderentur: cum vero illae verba, quae Cassiopea fecerat, ei narravissent, Neptunus, qui eam severe punire constituit, e medio Oceano novum nec umquam antea visum monstrum evocavit, ut incolas eius regionis, in qua Andromedae parentes regnabant, voraret eorumque agros vastaret.",
-        "Saevissima igitur illa bestia tantam civium caedem fecit, ut Cepheus rex, ne totus populus periret, Neptuni templum adiverit deumque multis precibus oraverit ut illud malum a se suisque civibus averteret. Preces audivit Neptunus, neque tamen consilium mutavit, cum superbiam reginae per illud monstrum punire vellet.",
-        "Cum igitur Cepheus interrogavisset quid facere posset, ut cives suos tanto periculo liberaret, deus statim ei dixit Andromedam filiam bestiae offerendam esse. “Quod si feceris” inquit terribili voce Neptunus, “ferum monstrum, quod ad vastandos agrōs hominesque vorandos misi, ā tua regione abibit et iterum in mare, unde venit, redibit.”",
-        "Rēx, tali respōnso audito, maerens ad uxorem rediit eique narravit quid deus dixisset. Quae, cum eius verba audivisset, multis lacrimis effusis, marito persuadere conata est, nē dei imperata faceret; ille vero, cum cupidus populi sui servandi esset, quamquam valde filiam suam amabat, quod deus postulabat faciendum esse constituit. lussit igitur Andromedam ad maris litus adduci, atque catenis ferreis ad saxum vinciri. Māter plōrāns ad Cepheum “Quomodo” clamabat, “hoc facere potuisti, mi vir?” Qui, inter lacrimas, quas ipse quoque copiose effundebat, “Quaeris a me, ō uxor,” inquit, “cur tam saevus fuerim, ut filiam ad certam mortem miserim. Nisi autem hoc fecissem, illa bestia nemini nostrum pepercisset atque omnes agros nostros vastavisset. Regis officium est servare cives suōs.”",
-        "Forte vēro Perseus in illius regionis ora errabat; qui, cum pulcherrimam illam virginem ad dura saxa vinctam conspexisset, primum deae cuiusdam signum eam esse credidit; deinde vēro, cum ventum capillos leviter movere atque ex oculis lacrimas effundi vidisset, valde stupuit atque ad puellam, cuius tanta pulchritudine captus erat, accessit talia verba dicens: “Ō formosissima virgo, tu istis catenis mihi indigna esse videris: dic mihi quid sit tibi nōmen et qua in regiōne versemur; mihi quoque narra cur haec vincula geras.”",
-        "Primo siluit illa, nec cum virō ausa est loqui; vultum etiam manibus operuisset, nisi vincta esset. Pudebat enim oculōsque replevit lacrimis; deinde, cum Perseus etiam atque etiam interrogaret, nē videretur nōlle casus suos fateri, quod nōmen illi terrae esset dixit, neque occultavit quomodo ipsa vocaretur. Tum narravit quid māter superbe affirmavisset, quid vēro, ut eam puniret, imperavisset Neptunus. At, nondum memoratis omnibus rēbus, horrendus sonus ē maris fluctibus auditus est. Ingens bēstia, cum ē mediō mari emersisset, celerrime ad litus veniebat. Clamavit virgo: maerebat pater, et mater paene amens adstabat; neuter tamen auxilium ullum ferre poterat, sed tantum lacrimas illo tempore dignas effundebant, nec se a vincto filiae corpore movebant.",
-        "Perseus vero “Non est nunc tempus lacrimandi:” inquit, “opem nunc ferre necesse est, ne virgo a monstro vorētur!” Oraverunt igitur parentes “Tu, qui es fortissimus, fer auxilium puellae nostrae in summo periculo versanti! Si eius vitam servaveris, eam tibi uxorem dabimus!”.",
-        "Gerebat in pedibus Perseus calceos alis ornatos, ita ut, sicut Mercurius, volare posset. Cum ergo terram pedibus pulsavisset, sursum in aere usque ad nubes volavit; inde vero, tamquam aquila de caelo celerrime descendens, in monstri tergum impetum fecit, gladiumque suum in dextrum ferae umerum infixit. Quae, cum graviter vulneratam se esse sensisset, primum se in aquas mersit; deinde ex fluctibus surrexit, horrenda visu; tum Perseum iterum iterumque mordere conabatur, at ille, huc illuc velocissime volans, eius impetus facile vitabat; denique maxima cum vi saevam bestiam etiam atque etiam in compluribus corporis partibus ense vulneravit, donec illa, multo sanguine effuso, ex vulneribus mortua est.",
-        "Gaudent Andromedae parentes, laetantur cives, Perseumque victorem salutant: “Nisi tu auxilio nobis venisses” inquit Cepheus, “certe filia mea horrenda morte periisset. Ecce, eam uxorem accipe: dii vos tueantur!”",
-        "Perseus, cum ad saxum, ad quod erat vincta Andromeda, accessisset, pulcherrimam virginem, adhuc metu affectam, catenis solvit ac multis verbis consolatus est; postea eam, quae beatam se esse arbitrabatur cum tam fortis et pulchri viri uxor facta esset, secum duxit."
+        "Fuit Andromeda pulcherrima virgō, fīlia Cassiopēae et Cēpheī, quī in Asiā rēgnābant. Ā prīmā aetāte tam fōrmōsa fuit puella, ut omnēs eius pulchritūdinem admīrārentur. Cum vērō ad sextum et decimum annum Andromeda pervēnisset, eius māter, interrogāta quid dē tam pulchra fīlia sentīret, sine morā respondit sē certō scīre nē Nereidās quidem tantā pulchritūdine ōrnātās esse. “Utinam” inquit “hīc adessent illae maris nymphae! Tunc enim omnēs vidērētis meam Andromedam iīs multō pulchriōrem esse!”",
+        "Eius verba, ventīs flantibus vectā, usque ad Nēreidum aurēs allāta sunt; quae, cum haec audīvissent, īrātae ob mortālīs fēminae superbiam, statim ad Neptūnum cucurrērunt, quī prīmō mīrābātur cūr tam turbātae esse vidērentur: cum vērō illae verba, quae Cassiopēa fēcerat, eī nārrāvissent, Neptūnus, quī eam sevērē pūnīre cōnstituit, ē mediō Ōceanō novum nec umquam anteā vīsum mōnstrum ēvocāvit, ut incolās eius regiōnis, in quā Andromedae parentēs rēgnābant, vorāret eōrumque agrōs vastāret.",
+        "Saevissima igitur illa bēstia tantam cīvium caedem fēcit, ut Cēphēus rēx, nē tōtus populus perīret, Neptūnī templum adīverit deumque multīs precibus ōrāverit ut illud malum ā sē suīsque cīvibus āverteret. Precēs audīvit Neptūnus, neque tamen cōnsilium mūtāvit, cum superbiam rēgīnae per illud mōnstrum pūnīre vellet.",
+        "Cum igitur Cēpheus interrogāvisset quid facere posset, ut cīvēs suōs tantō perīculō līberāret, deus statim eī dīxit Andromedam fīliam bēstiae offerendam esse. “Quod sī fēcerīs” inquit terribilī vōce Neptūnus, “ferum mōnstrum, quod ad vastandōs agrōs hominēsque vorandōs mīsī, ā tuā regiōne abībit et iterum in mare, unde venit, redībit.”",
+        "Rēx, tālī respōnso audītō, maerēns ad uxōrem rediit eīque nārrāvit quid deus dīxisset. Quae, cum eius verba audīvisset, multīs lacrimīs effūsīs, marītō persuādēre cōnāta est, nē deī imperāta faceret; ille vērō, cum cupidus populī suī servandī esset, quamquam valdē fīliam suam amābat, quod deus postulābat faciendum esse cōnstituit. lussit igitur Andromedam ad maris lītus addūcī, atque catēnīs ferreīs ad saxum vincīrī. Māter plōrāns ad Cēpheum “Quōmodo” clāmābat, “hoc facere potuistī, mī vir?” Quī, inter lacrimās, quās ipse quoque cōpiōsē effundēbat, “Quaeris ā mē, ō uxor,” inquit, “cūr tam saevus fuerim, ut fīliam ad certam mortem mīserim. Nisi autem hoc fēcissem, illa bēstia nēminī nostrum pepercisset atque omnēs agrōs nostrōs vastāvisset. Rēgis officium est servāre cīvēs suōs.”",
+        "Forte vēro Persēus in illīus regiōnis ōra errābat; quī, cum pulcherrimam illam virginem ad dūra saxa vīnctam cōnspexisset, prīmum deae cuiusdam signum eam esse crēdidit; deinde vēro, cum ventum capillōs leviter movēre atque ex oculīs lacrimās effundī vīdisset, valdē stupuit atque ad puellam, cuius tantā pulchritūdine captus erat, accessit tālia verba dīcēns: “Ō fōrmōsissima virgō, tū istīs catēnīs mihi indigna esse vidēris: dīc mihi quid sit tibi nōmen et qua in regiōne versēmur; mihi quoque nārrā cūr haec vincula gerās.”",
+        "Prīmō siluit illa, nec cum virō ausa est loquī; vultum etiam manibus operuisset, nisi vīncta esset. Pudēbat enim oculōsque replēvit lacrimīs; deinde, cum Persēus etiam atque etiam interrogāret, nē vidērētur nōlle cāsūs suōs fatērī, quod nōmen illī terrae esset dīxit, neque occultāvit quōmodo ipsa vocārētur. Tum nārrāvit quid māter superbē affirmāvisset, quid vēro, ut eam pūnīret, imperāvisset Neptūnus. At, nōndum memorātis omnibus rēbus, horrendus sonus ē maris flūctibus audītus est. Ingēns bēstia, cum ē mediō marī ēmersisset, celerrimē ad lītus veniēbat. Clāmāvit virgō: maerēbat pater, et māter paene āmēns adstābat; neuter tamen auxilium ūllum ferre poterat, sed tantum lacrimās illō tempore dignās effundēbant, nec sē ā vīnctō fīliae corpore movēbant.",
+        "Perseus vērō “Nōn est nunc tempus lacrimandī:” inquit, “opem nunc ferre necesse est, nē virgō ā mōnstrō vorētur!” Ōrāvērunt igitur parentēs “Tū, quī es fortissimus, fer auxilium puellae nostrae in summō perīculō versantī! Sī eius vītam servāverīs, eam tibi uxōrem dabimus!”.",
+        "Gerēbat in pedibus Persēus calceōs ālīs ōrnātōs, ita ut, sīcut Mercurius, volāre posset. Cum ergō terram pedibus pulsāvisset, sūrsum in aere usque ad nūbēs volāvit; inde vērō, tamquam aquila dē caelō celerrimē dēscendēns, in mōnstrī tergum impetum fēcit, gladiumque suum in dextrum ferae umerum īnfīxit. Quae, cum graviter vulnerātam sē esse sēnsisset, prīmum sē in aquās mersit; deinde ex flūctibus surrēxit, horrenda vīsū; tum Persēum iterum iterumque mordēre cōnābātur, at ille, hūc illūc vēlōcissimē volāns, eius impetus facile vītābat; dēnique maxima cum vī saevam bēstiam etiam atque etiam in complūribus corporis partibus ēnse vulnerāvit, dōnec illa, multō sanguine effūsō, ex vulneribus mortua est.",
+        "Gaudent Andromedae parentēs, laetantur cīvēs, Persēumque victōrem salūtant: “Nīsī tū auxiliō nōbīs vēnissēs” inquit Cēpheus, “certē fīlia mea horrendā morte periisset. Ecce, eam uxōrem accipe: dīī vōs tueantur!”",
+        "Perseus, cum ad saxum, ad quod erat vīncta Andromeda, accessisset, pulcherrimam virginem, adhūc metū affectam, catēnīs solvit ac multīs verbīs cōnsōlātus est; posteā eam, quae beātam sē esse arbitrābātur cum tam fortis et pulchrī virī uxor facta esset, sēcum dūxit."
       ],
       "notes": [
         {
@@ -39,7 +39,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "Cepheus-Tzn| a prima aetate sua",
+          "term": "Cēpheus-Tzn| a prima aetate sua",
           "gloss": "a tempore quo parva puella erat"
         },
         {
@@ -55,7 +55,7 @@ const chapter = {
           "gloss": "superbus currere cucurrisse"
         },
         {
-          "term": "e-vocare",
+          "term": "ē-vocare",
           "gloss": ""
         },
         {
@@ -63,7 +63,7 @@ const chapter = {
           "gloss": "(fruges agrorum) perdere"
         },
         {
-          "term": "regina -ae 5= regis coniunx, femina regnans",
+          "term": "rēgīna -ae 5= regis coniunx, femina regnans",
           "gloss": ""
         },
         {
@@ -71,7 +71,7 @@ const chapter = {
           "gloss": "quod imperatur"
         },
         {
-          "term": "ad-ducere <-* ab-ducere",
+          "term": "ad-dūcere <-* ab-ducere",
           "gloss": ""
         },
         {
@@ -83,7 +83,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "Perseus -T m",
+          "term": "Persēus -T m",
           "gloss": ""
         },
         {
@@ -95,19 +95,19 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "re-plere -evisse -etum",
+          "term": "rē-plere -evisse -etum",
           "gloss": "implere"
         },
         {
-          "term": "casus -us m",
+          "term": "cāsūs -us m",
           "gloss": "id quod accidit"
         },
         {
-          "term": "e-mergere",
+          "term": "ē-mergere",
           "gloss": "exire (ex aqua)"
         },
         {
-          "term": "a-mens -entis",
+          "term": "ā-mēns -entis",
           "gloss": "cui mens abest"
         },
         {
@@ -130,24 +130,24 @@ const chapter = {
     },
     {
       "id": "bellerophon",
-      "latinTitle": "2. Bellerophon",
+      "latinTitle": "2. Bellerophōn",
       "title": "",
       "paragraphs": [
-        "Bellerophon fuit vir audax et fortis, qui in Graecia habitabat; rex autem, qui ei invidebat eumque interficere constituerat, ad regiam eum vocavit et “omnium virorum,” inquit, “qui in urbe habitant, validissimus mihi videris esse. Chimaeram igitur, saevissimum illud animal quod campos nostros infestat, pete et armis tuis occide!” Bellerophon igitur, cum haec audivisset, tristis et maestus a regia ad Polydum, callidum virum, abiit, ut eius consilium peteret. Qui quidem, re audita, ei suasit ut ad deae Minervae templum nocte silenti iret, ibique prope deae signum dormiret. Bellerophon, postquam gratias Polydo egit, sole occidente domo exiit, ut Minervae templum peteret; quo cum ingressus esset, ad signum accessit, sub quo recumbens dormivit.",
-        "In somnis vero dea Minerva ei dormienti apparuit, quae “O Bellerophon” inquit, “ecce: aureum frenum tibi do; quaere igitur Pegasum, equum qui alas habet et volare potest tamquam magna quaedam avis.” Haec cum dixisset, abiit.",
-        "Mane Bellerophon, cum oculos aperuisset, aureum illud frenum, quod in somnis dea ei dederat, conspexit; quo sumpto, e templo exiit, ut Pegasum, equum illum alatum, quaereret. Diu autem frustra in silvis, collibus, campis et agris erravit, neque equum illum invenire potuit; tandem vero, cum fontem petivisset, quem silvae cingebant, inter densas arbores se occultavit ibique mansit sperans Pegasum ad illum fontem, ut biberet, venturum esse.",
-        "Postquam diu ita exspectavit, Pegasus in caelo apparuit, equus magnus et pulcher, qui ut aquila in orbem supra fontem volabat; cum autem de caelo descendisset, ad fontem appropinquavit, unde frigidam aquam bibit; cum igitur bibisset, in campo errabat ut herbam carptam esset. Subito vero Bellerophon e silvis proximis excurrens, impetu in Pegasum facto, cuius capiti aureum frenum inseruit, in equi tergum ascendit; cum autem ibi consedisset, Pegasus e terra evolavit atque “Quid vis” inquit, “domine?” Cui Bellerophon respondit se Chimaeram, saevissimum animal, interficere velle.",
-        "Postquam diu Pegasus volavit, tandem Bellerophon, qui eius dorso insidebat, ex alto aere despiciens, Chimaeram, monstrum horrendum (cui duo erant capita, quorum alterum leonis, alterum vero capri; cauda autem draconis), conspexit, quod crudelissimum videbatur esse flammasque ex ore exspirabat. Nullo tamen metu turbatus, Bellerophon, fortissimus adulescens, acutam sagittam e pharetra sua sumptam misit, qua ferocissimum illud animal traiecit. Quamquam vero, postquam primam emisit, multis aliis sagittis Chimaeram vulneravit, Bellerophon eam interficere non poterat; longam igitur hastam, cuius in extrema parte plumbum addiderat, magna vi in bestiae os iniecit; cum vero ignis calore, qui ex ore emittebatur, plumbum mollitum esset, horrenda illa fera, ustis visceribus, inter maximos dolores mortua est et humi iacuit.",
-        "Cum igitur Bellerophon saevum illud animal mortuum vidisset, ad regem redire constituit, ut ei Chimaeram necatam esse nuntiaret. Pegasus ergo, trans mare tamquam magna avis volans, dominum in dorso suo sedentem ad regiam reduxit. Quo cum pervenisset, Bellerophon regem adiit et “O rex,” inquit, “Chimaera, quam tu necari iusseras, mortua est. Ego vero, qui hac nece me fortissimum virum esse monstravi, filiam tuam in matrimonium nunc ducere volo.” Rex igitur, cum vidisset se tanto viro resistere non posse, filiam suam formosissimam in matrimonium dedit.",
-        "Cum autem pulcherrimam uxorem, amplum regnum magnasque divitias haberet, mox Bellerophon tam superbus factus est, ut inter deos immortales vivere vellet. Ascendit igitur in equum et “O Pegase,” inquit, “ad summum Olympum vola: ibi enim, inter deos beatos, habitare cupio.” Pegasus, cum haec domini verba audivisset, statim sursum e regia evolavit. Cum vero Iuppiter de nubibus despiciens eos ad montem Olympum appropinquantes videret, iratus propter Bellerophontis superbiam, muscam de caelo misit, quae in equo considens eum momordit. Pegasus igitur, cum muscae morsum sensisset, ob dolorem se ita concussit ut dominum de caelo ad terram deiecerit. Bellerophon autem, quamquam ex alto loco cecidit, non mortuus est, sed, claudus et caecus factus, reliquam vitam misere egit. Sic eius superbia punita est."
+        "Bellerophōn fuit vir audāx et fortis, quī in Graeciā habitābat; rēx autem, quī eī invidēbat eumque interficere cōnstituerat, ad rēgiam eum vocāvit et “omnium virōrum,” inquit, “quī in urbe habitant, validissimus mihi vidēris esse. Chimaeram igitur, saevissimum illud animal quod campōs nostrōs īnfestat, pete et armīs tuīs occīde!” Bellerophōn igitur, cum haec audīvisset, trīstis et maestus ā rēgiā ad Polydum, callidum virum, abiit, ut eius cōnsilium peteret. Quī quidem, rē audīta, eī suāsit ut ad deae Minervae templum nocte silentī īret, ibique prope deae signum dormīret. Bellerophōn, postquam grātiās Polydō ēgit, sōlē occidente domō exiit, ut Minervae templum peteret; quō cum ingressus esset, ad signum accessit, sub quō recumbēns dormīvit.",
+        "In somnīs vērō deā Minerva eī dormientī appāruit, quae “Ō Bellerophōn” inquit, “ecce: aureum frēnum tibi dō; quaere igitur Pēgasum, equum quī ālās habet et volāre potest tamquam magna quaedam avis.” Haec cum dīxisset, abiit.",
+        "Manē Bellerophōn, cum oculōs aperuisset, aureum illud frēnum, quod in somnīs dea eī dederat, cōnspexit; quō sūmptō, ē templō exiit, ut Pēgasum, equum illum ālātum, quaereret. Diū autem frūstrā in silvīs, collibus, campīs et agrīs errāvit, neque equum illum invenīre potuit; tandem vērō, cum fontem petīvisset, quem silvae cingēbant, inter dēnsās arborēs sē occultāvit ibique mānsit spērāns Pēgasum ad illum fontem, ut biberet, ventūrum esse.",
+        "Postquam diū ita exspectāvit, Pēgasus in caelō appāruit, equus magnus et pulcher, quī ut aquila in orbem suprā fontem volābat; cum autem dē caelō dēscendisset, ad fontem appropinquāvit, unde frīgidam aquam bibit; cum igitur bibisset, in campō errābat ut herbam carptam esset. Subitō vērō Bellerophōn ē silvīs proximīs excurrēns, impetū in Pēgasum factō, cuius capitī aureum frēnum īnseruit, in equī tergum ascendit; cum autem ibi cōnsēdisset, Pēgasus ē terrā ēvolāvit atque “Quid vīs” inquit, “domine?” Cui Bellerophōn respondit sē Chimaeram, saevissimum animal, interficere velle.",
+        "Postquam diū Pēgasus volāvit, tandem Bellerophōn, quī eius dorsō īnsīdēbat, ex altō āere dēspiciēns, Chimaeram, mōnstrum horrendum (cui duo erant capita, quōrum alterum leōnis, alterum vērō caprī; cauda autem dracōnis), cōnspexit, quod crūdēlissimum vidēbātur esse flammāsque ex ōre exspīrābat. Nūllō tamen metū turbātus, Bellerophōn, fortissimus adulēscēns, acūtam sagittam ē pharetrā suā sūmptam mīsit, quā ferōcissimum illud animal trāiēcit. Quamquam vērō, postquam prīmam ēmīsit, multīs aliīs sagittīs Chimaeram vulnerāvit, Bellerophōn eam interficere nōn poterat; longam igitur hastam, cuius in extrēmā parte plumbum addiderat, magnā vī in bēstiae os iniēcit; cum vērō ignis calōre, quī ex ōre ēmittēbātur, plumbum mollītum esset, horrenda illa fera, ustīs vīsceribus, inter maximōs dolōrēs mortua est et humī iacuit.",
+        "Cum igitur Bellerophōn saevum illud animal mortuum vīdisset, ad rēgem redīre cōnstituit, ut eī Chimaeram necātam esse nūntiāret. Pēgasus ergō, trāns mare tamquam magna avis volāns, dominum in dorsō suō sedentem ad rēgiam redūxit. Quō cum pervēnisset, Bellerophōn rēgem adiit et “Ō rēx,” inquit, “Chimaera, quam tū necārī iusserās, mortua est. Ego vērō, quī hāc nece mē fortissimum virum esse mōnstrāvī, fīliam tuam in mātrimōnium nunc dūcere volō.” Rēx igitur, cum vīdisset sē tantō virō resistere nōn posse, fīliam suam fōrmōsissimam in mātrimōnium dedit.",
+        "Cum autem pulcherrimam uxōrem, amplum rēgnum magnāsque dīvitiās habēret, mox Bellerophōn tam superbus factus est, ut inter deōs immortālēs vīvere vellet. Ascendit igitur in equum et “Ō Pēgase,” inquit, “ad summum Olympum volā: ibi enim, inter deōs beātōs, habitāre cupiō.” Pēgasus, cum haec dominī verba audīvisset, statim sūrsum ē rēgiā ēvolāvit. Cum vērō Iuppiter dē nūbibus dēspiciēns eōs ad montem Olympum appropinquantēs vidēret, īrātus propter Bellerophontīs superbiam, muscam dē caelō mīsit, quae in equō cōnsīdēns eum momordit. Pēgasus igitur, cum muscae morsum sēnsisset, ob dolōrem sē ita concussit ut dominum dē caelō ad terram dēiēcerit. Bellerophōn autem, quamquam ex altō locō cecidit, nōn mortuus est, sed, claudus et caecus factus, reliquam vītam miserē ēgit. Sīc eius superbia pūnīta est."
       ],
       "notes": [
         {
-          "term": "Bellerophon -ontis m",
+          "term": "Bellerophōn -ontis m",
           "gloss": ""
         },
         {
-          "term": "regia -ae f= domus regis",
+          "term": "rēgiā -ae f= domus regis",
           "gloss": ""
         },
         {
@@ -175,11 +175,11 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "Pegasus -T m",
+          "term": "Pēgasus -T m",
           "gloss": ""
         },
         {
-          "term": "quo",
+          "term": "quō",
           "gloss": "freno"
         },
         {
@@ -187,7 +187,7 @@ const chapter = {
           "gloss": "quT alas gerit"
         },
         {
-          "term": "fons fontis m",
+          "term": "fōns fontis m",
           "gloss": "aqua e terra erumpens (v. pag."
         },
         {
@@ -199,7 +199,7 @@ const chapter = {
           "gloss": "ut herbam carperet et esset"
         },
         {
-          "term": "Inserere -seruisse -sertum + dat= ponere in",
+          "term": "Īnserere -seruisse -sertum + dat= ponere in",
           "gloss": ""
         },
         {
@@ -207,7 +207,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "ex-spirare pharetra -ae f (v. pag. 81)",
+          "term": "ex-spīrāre pharetra -ae f (v. pag. 81)",
           "gloss": ""
         },
         {
@@ -215,7 +215,7 @@ const chapter = {
           "gloss": "per medium corpus percutere"
         },
         {
-          "term": "e-mittere",
+          "term": "ē-mittere",
           "gloss": ""
         },
         {
@@ -227,11 +227,11 @@ const chapter = {
           "gloss": "iacere in"
         },
         {
-          "term": "iacēre -cuisse",
+          "term": "iacere -cuisse",
           "gloss": ""
         },
         {
-          "term": "matrimonium -ii n",
+          "term": "mātrimōnium -ii n",
           "gloss": "coniugum vita commu"
         },
         {
@@ -243,7 +243,7 @@ const chapter = {
           "gloss": "magnus et latus"
         },
         {
-          "term": "regnum -T n",
+          "term": "rēgnum -T n",
           "gloss": "regis imperium"
         },
         {
@@ -263,27 +263,27 @@ const chapter = {
           "gloss": "quatere"
         },
         {
-          "term": "de-icere -iecisse -iectum",
+          "term": "dē-icere -iecisse -iectum",
           "gloss": "de + iacere cadere cecidisse"
         },
         {
-          "term": "vitam agere",
+          "term": "vītam agere",
           "gloss": "vivere"
         }
       ]
     },
     {
       "id": "gaius-mucius-scaevola",
-      "latinTitle": "3. Gaius Mucius Scaevola",
+      "latinTitle": "3. Gāius Mūcius Scaevola",
       "title": "",
       "paragraphs": [
-        "Porsenna fuit rex Etruscorum, qui magnō militum numero urbem Romam oppugnavit. Romam, cum parati essent ad urbem defendendam, fortissime primum hostium impetum sustinuerunt; postea vēro, cum Porsennae milites numero longe superiores essent, necesse fuit Romanis intra urbis moenia manere.",
-        "Porsenna igitur, cum, impetum etiam atque etiam in muros facere conatus, urbem expugnare non potuisset, castra in campo extra moenia posuit: exspectare enim constituerat donec Romani tandem, omni cibo consumpto, legatos mitterent pacem petitum.",
-        "Ante lucem vero Gaius Mucius, adulescens nobilis, cui indignum esse videbatur populum Romanum ab Etruscis in urbe inclusum teneri, cum mortem gloriosam pro patria non timeret, maximum periculum adire constituit, et in hostium castra eo consilio occulte se contulit, ut regem Porsennam sua manu interficeret.",
-        "Cum igitur, portas castrorum, quamquam a militibus armatis custodiebantur, transire potuisset, per magnam hostium turbam ad regis tabernaculum progressus est, neque quisquam Etruscorum eum vestimentis indutum Romanum esse cognovit.",
-        "Itaque, cum ad tabernaculum accessisset, per rimam aspiciens, duos viros intus sedentes vidit, quorum alter scribebat altero recitante. Mucius ergo, gladio e vagina educto, in tabernaculum ingressus, in virum scribentem impetum fecit, qui, cum purpureis vestimentis esset indutus, rex ei esse videbatur, et clamans “Ita te, Porsenna, occido!”, eum gladio percussit.",
-        "Cum vero ille ex gravissimo vulnere mortuus esset, alter, qui ex sella, in qua sedebat, surrexerat, clamavit: “Ego * Porsenna sum! Tu nunc, scelestissime, qui scribam meum pro me interfecisti, ad mortem duceris!” simulque imperavit militibus suis ut Mucium prehenderent. Qui quidem, cum ad regem tractus esset “Romanus sum” inquit “civis; Gaium Mucium me vocant. Hostis hostem occidere volui; nec animus minus paratus est ad mortem quam fuit ad caedem: et facere et pati fortia Romanum est. Quod ego perficere non potui, alii iuvenes Romani facient.” Rex igitur, iratus et periculo territus, minatus est se eum ignibus cruciaturum esse, nisi confessus esset quae consilia Romani cepissent; tum Mucius, cum aram prope se stantem vidisset, dextram in ignem, qui ibi ardebat, imponens “Ecce tibi,” inquit, “ut intellegas quam vile corpus sit iis qui magnam gloriam vident!”; neque manum retraxit, sed quasi nihil sentiret, totam exussit.  Rex vero, fortissimum iuvenis animum miratus, cum eum amoveri ab ara iussisset, “Abi!” inquit, “tu, qui tam audacem te ostendis! Utinam pro mea patria ista virtus staret! Nunc iure belli liberum te hinc dimitto.”",
-        "Romani, Mucii virtutem valde laudantes, ei ‘Scaevolae’ cognomen a clade dextrae manus dederunt eique agrum prope urbem donaverunt. Porsenna autem Roma abiit et in Etruriam rediit. “Tam validos” inquit “viros vincere non possum.”"
+        "Porsenna fuit rēx Etrūscōrum, quī magnō mīlitum numerō urbem Rōmam oppugnāvit. Rōmam, cum parātī essent ad urbem dēfendendam, fortissimē prīmum hostium impetum sustinuērunt; posteā vēro, cum Porsennae mīlitēs numerō longē superiōrēs essent, necesse fuit Rōmānīs intrā urbīs moenia manēre.",
+        "Porsenna igitur, cum, impetum etiam atque etiam in mūrōs facere cōnātus, urbem expugnāre nōn potuisset, castra in campō extrā moenia posuit: exspectāre enim cōnstituerat dōnec Rōmānī tandem, omnī cibō cōnsūmptō, lēgātōs mitterent pācem petītum.",
+        "Ante lūcem vērō Gāius Mūcius, adulēscēns nōbilis, cui indignum esse vidēbātur populum Rōmānum ab Etrūscīs in urbe inclūsum tenērī, cum mortem glōriōsam prō patriā nōn timēret, maximum perīculum adīre cōnstituit, et in hostium castra eō cōnsiliō occultē sē contulit, ut rēgem Porsennam suā manū interficeret.",
+        "Cum igitur, portās castrōrum, quamquam ā mīlitibus armātīs cūstōdiēbantur, trānsīre potuisset, per magnam hostium turbam ad rēgis tabernāculum prōgressus est, neque quisquam Etrūscōrum eum vestīmentīs indūtum Rōmānum esse cognōvit.",
+        "Itaque, cum ad tabernāculum accessisset, per rīmam aspiciēns, duōs virōs intus sedentēs vīdit, quōrum alter scrībēbat alterō recitante. Mūcius ergō, gladiō ē vāgīnā ēductō, in tabernāculum ingressus, in virum scrībentem impetum fēcit, quī, cum purpureīs vestīmentīs esset indūtus, rēx eī esse vidēbātur, et clāmāns “Ita tē, Porsenna, occīdō!”, eum gladiō percussit.",
+        "Cum vērō ille ex gravissimō vulnere mortuus esset, alter, quī ex sellā, in quā sedēbat, surrēxerat, clāmāvit: “Ego * Porsenna sum! Tū nunc, scelestissimē, quī scrībam meum prō mē interfēcistī, ad mortem dūceris!” simulque imperāvit mīlitibus suīs ut Mūcium prehenderent. Quī quidem, cum ad rēgem tractus esset “Rōmānus sum” inquit “cīvīs; Gāium Mūcium mē vocant. Hostis hostem occīdere voluī; nec animus minus parātus est ad mortem quam fuit ad caedem: et facere et patī fortia Rōmānum est. Quod ego perficere nōn potuī, aliī iuvenēs Rōmānī facient.” Rēx igitur, īrātus et perīculō territus, minātus est sē eum ignibus cruciātūrum esse, nisi cōnfessus esset quae cōnsilia Rōmānī cēpissent; tum Mūcius, cum āram prope sē stantem vīdisset, dextram in ignem, quī ibi ārdēbat, impōnēns “Ecce tibi,” inquit, “ut intellegās quam vīle corpus sit iīs quī magnam glōriam vident!”; neque manum retrāxit, sed quasi nihil sentīret, tōtam exussit.  Rēx vērō, fortissimum iuvenis animum mīrātus, cum eum āmovērī ab ārā iussisset, “Abī!” inquit, “tū, quī tam audācem tē ostendis! Utinam prō meā patriā ista virtūs stāret! Nunc iūre bellī līberum tē hinc dīmittō.”",
+        "Rōmānī, Mūciī virtūtem valdē laudantēs, eī ‘Scaevolae’ cognōmen ā clāde dextrae manūs dedērunt eīque agrum prope urbem dōnāvērunt. Porsenna autem Rōma abiit et in Etrūriam rediit. “Tam validōs” inquit “virōs vincere nōn possum.”"
       ],
       "notes": [
         {
@@ -303,19 +303,19 @@ const chapter = {
           "gloss": "Tuscia (v. pag. 60)"
         },
         {
-          "term": "sustinere -tinuisse -tentum",
+          "term": "sustinēre -tinuisse -tentum",
           "gloss": ""
         },
         {
-          "term": "occulte",
+          "term": "occultē",
           "gloss": "aperte"
         },
         {
-          "term": "se cbn-ferre (in locum)",
+          "term": "sē cbn-ferre (in locum)",
           "gloss": "Ire"
         },
         {
-          "term": "vagina -ae f",
+          "term": "vāgīnā -ae f",
           "gloss": ""
         },
         {
@@ -331,11 +331,11 @@ const chapter = {
           "gloss": "servus doctus cuius officium est scribere"
         },
         {
-          "term": "consilium capere",
+          "term": "cōnsilium capere",
           "gloss": "constituere"
         },
         {
-          "term": "ara-ae f(v. pag. 19)",
+          "term": "ārā-ae f(v. pag. 19)",
           "gloss": ""
         },
         {
@@ -343,28 +343,28 @@ const chapter = {
           "gloss": "un"
         },
         {
-          "term": "a-movere",
+          "term": "ā-movēre",
           "gloss": ""
         },
         {
-          "term": "a clade",
+          "term": "ā clade",
           "gloss": "a iactura"
         }
       ]
     },
     {
       "id": "laomedon-et-hesione",
-      "latinTitle": "4. Laomedon et Hesione",
+      "latinTitle": "4. Lāomedōn et Hesiōne",
       "title": "",
       "paragraphs": [
-        "Cum Apollō per Asiae terras erraret, vidit Laomedonta regem prima moenia Troiae, locō ad urbem statuendam idōneo, magnō cum labōre aedificare conantem. Opus erat ingens, neque parvas divitias poscere videbatur. Apollō igitur, cum regem in opere perficiendo adiuvāre vellet, una cum Neptuno mortalem formam induit; tum dei, cum ad regem adiissent, se in muris aedificandis auxilium lāturōs esse dixerunt; postulaverunt vero ut Laomedon idoneam operis mercēdem daret.",
-        "Ille, cum eorum auxilio frui vellet, se magnam auri copiam daturum esse promisit, atque eos hortatus est, ut opus quam celerrime possent conficerent, quamquam, cum ignoraret eos deos esse, dubitabat an duo homines tanta moenia aedificare possent. Attamen, cum di soli mansissent, Apollo, lyra sua canens, effecit ut saxa ipsa per se moverentur ad muros aedificandos; Neptunus vero eadem saxa, vicini maris fluctibus tergendo, quasi aurum lucentia fecit.",
-        "Cum vero Apollo et Neptunus opus magnifice perfecissent, a Laomedonte petiverunt ut pecuniam, quam pollicitus erat, daret; at tyrannus ille superbus, etsi stupuit cum pulcherrima et validissima moenia tam brevi tempore aedificata esse vidisset, negavit se tantum pretium soluturum esse, eosque indignis verbis reprehensos dimisit. Cum tālem iniūriam passi essent, dī, irati, Lāomedonta sevērissime punire constituerunt: Neptunus igitur, ut poena regem afficeret, cum fluctus tridente percussisset, ex mari ferocissimum monstrum, quod omnia vorabat, excitavit; Apollo vero, cum in collem urbi impendentem ascendisset, arcū suo aureo sagittas iaciēns, efficiebat ut plurimi Troiani aegrotarent atque horrenda morte perirent.",
-        "Vātēs, ā rēge interrogatus quid facere posset, ut civēs suos tantis malis liberaret, eum hortatus est ut monstro illi saevissimo Hesionam filiam offerret. “Utinam posses” inquit, “ō rēx, alio modo ab urbe deorum invidiam avertere; tibi tamen nulla alia restat via. Tanta enim iam incolarum caedes facta est, ut meminisse horream. Necesse igitur est tuam filiam exponere.”",
-        "Rēx, cum nūllō alio modo deorum iram minuere se posse videret, quamquam maximo dolore afficiebatur, virginem catenis vinctam in maris litore exponi iussit ut ā mōnstrō illo marino voraretur. Cives maerentes ita animo permovebantur, ut vix lacrimas tenere possent.",
-        "Hercules autem, qui forte prope Troiam errabat, cum miseram puellam in ora vinctam vidisset, ei appropinquavit, ut auxilium ferret. Laomedon igitur, cum Herculem conspexisset, his verbis eum allocutus est: “Duos magnificos equos, quos Iuppiter mihi donavit, tibi dabō, si filiam a tam horrenda morte servaveris”.",
-        "Diu in litore apud virginem Hercules exspectavit iamque dubitare coeperat num vātēs vērum dixisset, cum subito, paulo ante lucem, ē medio mari ēmergēns, monstrum ingēns in puellam impetum fecit. Herculēs tamen, cum paratus esset ad eam dēfendendam, illum impetum facilē sustinuit, ac post brevem cruentamque pugnam ferocem illam bēstiam necavit.",
-        "Cum vēro, mōnstrō interfecto, a Laomedonte praemium promissum petivisset, eum quoque rēx fallere conatus est, atque alios equos minus pretiosos prō iis, quōs promiserat, ei dare volēbat. Herculēs igitur, iratus, duodēviginti cum navibus militum plēnis Troiam oppugnavit et, Laomedonte necātō, Hēsionam Telamōni, amicō suo, uxōrem dedit."
+        "Cum Apollō per Asiae terrās errāret, vīdit Lāomedonta rēgem prīma moenia Troiae, locō ad urbem statuendam idōneo, magnō cum labōre aedificāre cōnantem. Opus erat ingēns, neque parvās dīvitiās poscere vidēbātur. Apollō igitur, cum rēgem in opere perficiendō adiuvāre vellet, ūna cum Neptūnō mortālem fōrmam induit; tum deī, cum ad rēgem adiissent, sē in mūrīs aedificandīs auxilium lāturōs esse dīxērunt; postulāvērunt vērō ut Lāomedōn idōneam operis mercēdem daret.",
+        "Ille, cum eōrum auxiliō fruī vellet, sē magnam aurī cōpiam datūrum esse prōmīsit, atque eōs hortātus est, ut opus quam celerrimē possent cōnficerent, quamquam, cum ignōrāret eōs deōs esse, dubitābat an duo hominēs tanta moenia aedificāre possent. Attamen, cum dī sōlī mānsissent, Apollō, lyrā suā canēns, effēcit ut saxa ipsa per sē movērentur ad mūrōs aedificandōs; Neptūnus vērō eadem saxa, vīcīnī maris flūctibus tergendō, quasi aurum lūcentia fēcit.",
+        "Cum vērō Apollō et Neptūnus opus magnificē perfēcissent, ā Lāomedonte petīvērunt ut pecūniam, quam pollicitus erat, daret; at tyrannus ille superbus, etsī stupuit cum pulcherrima et validissima moenia tam brevī tempore aedificāta esse vīdisset, negāvit sē tantum pretium solūtūrum esse, eōsque indignīs verbīs reprehēnsōs dīmīsit. Cum tālem iniūriam passī essent, dī, īrātī, Lāomedonta sevērissime pūnīre cōnstituērunt: Neptūnus igitur, ut poena rēgem afficeret, cum flūctus tridente percussisset, ex marī ferōcissimum mōnstrum, quod omnia vorābat, excitāvit; Apollō vērō, cum in collem urbī impendentem ascendisset, arcū suō aureō sagittās iaciēns, efficiēbat ut plūrimī Troiānī aegrōtārent atque horrenda morte perīrent.",
+        "Vātēs, ā rēge interrogātus quid facere posset, ut civēs suōs tantīs malīs līberāret, eum hortātus est ut mōnstrō illī saevissimō Hēsionam fīliam offerret. “Utinam possēs” inquit, “ō rēx, aliō modō ab urbe deōrum invidiam āvertere; tibi tamen nūlla alia restat via. Tanta enim iam incolārum caedēs facta est, ut meminisse horream. Necesse igitur est tuam fīliam expōnere.”",
+        "Rēx, cum nūllō aliō modō deōrum īram minuere sē posse vidēret, quamquam maximō dolōre afficiēbātur, virginem catēnīs vīnctam in maris lītore expōnī iussit ut ā mōnstrō illō marīnō vorārētur. Cīvēs maerentēs ita animō permovēbantur, ut vix lacrimās tenēre possent.",
+        "Herculēs autem, quī forte prope Troiam errābat, cum miseram puellam in ōrā vīnctam vīdisset, eī appropinquāvit, ut auxilium ferret. Lāomedōn igitur, cum Herculem cōnspexisset, hīs verbīs eum allocūtus est: “Duōs magnificōs equōs, quōs Iuppiter mihi dōnāvit, tibi dabō, sī fīliam ā tam horrendā morte servāverīs”.",
+        "Diū in lītore apud virginem Herculēs exspectāvit iamque dubitāre coeperat num vātēs vērum dīxisset, cum subitō, paulō ante lūcem, ē mediō marī ēmergēns, mōnstrum ingēns in puellam impetum fēcit. Herculēs tamen, cum parātus esset ad eam dēfendendam, illum impetum facilē sustinuit, ac post brevem cruentamque pugnam ferōcem illam bēstiam necāvit.",
+        "Cum vēro, mōnstrō interfectō, ā Lāomedonte praemium prōmissum petīvisset, eum quoque rēx fallere cōnātus est, atque aliōs equōs minus pretiōsōs prō iīs, quōs prōmīserat, eī dare volēbat. Herculēs igitur, īrātus, duodēviginti cum nāvibus mīlitum plēnis Troiam oppugnāvit et, Lāomedonte necātō, Hēsionam Telamōni, amicō suō, uxōrem dedit."
       ],
       "notes": [
         {
@@ -384,7 +384,7 @@ const chapter = {
           "gloss": "tamen manere mansisse"
         },
         {
-          "term": "lyra -ae f",
+          "term": "lyrā -ae f",
           "gloss": "fides"
         },
         {
@@ -404,11 +404,11 @@ const chapter = {
           "gloss": "supra stare"
         },
         {
-          "term": "vates -is m/f",
+          "term": "vātēs -is m/f",
           "gloss": "homo quT, deorum auxilio, res futuras dicit antequam ipsae fiant"
         },
         {
-          "term": "re-stare",
+          "term": "rē-stare",
           "gloss": "reliquus esse, superesse"
         },
         {
@@ -416,11 +416,11 @@ const chapter = {
           "gloss": "mare"
         },
         {
-          "term": "Hercules -is m (v. pag. 14)",
+          "term": "Herculēs -is m (v. pag. 14)",
           "gloss": ""
         },
         {
-          "term": "sustinere -tinuisse -tentum",
+          "term": "sustinēre -tinuisse -tentum",
           "gloss": ""
         },
         {
@@ -431,18 +431,18 @@ const chapter = {
     },
     {
       "id": "adonis",
-      "latinTitle": "5. Adonis",
+      "latinTitle": "5. Adōnis",
       "title": "",
       "paragraphs": [
-        "Venus, amoris dea, pulcherrimum puerum mortalem amabat, cui nomen Adonis erat. Cum vero iuvenis ille fortissimus per silvāsas et arduos montes errare atque feras, quae ibi latebant, persequi soleret, Venus, quae timebat ne bestiae saevae ei aliquo modo nocerent, etiam atque etiam monebat ne in lupos, leonēs, ursos aut apros impetum faceret, qui omnium periculosissimi esse videbantur.",
-        "Cum autem ōlim dea summum Olympum curru suō petivisset atque Adonem solum in silva reliquisset, puer, qui apri vestigia in terra conspexerat, Veneris verba oblitus, canes suos hortatus est, ut ferocem illam bestiam quam celerrime sequerentur: erat enim cupidissimus illius ferae capiendae. Canes, huc et illuc currentes, vestigia sequebantur ad bestiam inveniendam; tandem aprum inventum ex dumis, in quibus se occultaverat, expulerunt; qui, cum ex latibulo suo excurrisset atque fugere vellet, ab Adone, qui paratus erat ad eum transfigendum, hasta percussus cecidit.",
-        "Protinus autem saevus aper, quamquam graviter vulneratus erat, hastam dentibus prehensam ex vulnere extraxit, atque in puerum, qui locum tutum quaerebat, ferocissime impetum fecit et totos dentes in eius crus fixit, ex quo ingens sanguinis copia effusa est. Adonis, gravissime vulneratus, ad terram cecidit viribus amissis.",
-        "Cum Venus, quae de alto Olympo tunc descendebat, eius clamores audivisset, ita permota est, ut vento celerius trans montes amnesque per aera volaret, mirabili curru vecta, quem candidi olores trahebant; cum vero puerum inter arbores humi iacentem atque in sub sanguine morientem vidisset, magno animi dolore affecta, protinus de curru sub desiluit, atque multis cum lacrimis capillum et vestem flens scindebat et percutiebat manibus pectus: ita maerebat dea, cum puerum quem ante omnes amabat horrenda morte pereuntem videret. “O mi amatissime Adoni,” clamacum videat Adonem morientem, magnō animī dolōre afficiēbātur inter lacrimas, “utinam me audivisses! Utinam bestias feras cavisses! Si meis verbis paruisses, non tam indigne mortuus esses in manibus meis ex hoc gravissimo vulnere! Quid faciam nunc? Quomodo me consolari possim?”",
-        "Haec verba locuta, cruorem, qui circa formosissimum pueri corpus sparsus erat, manu tetigit: et ecce: cruor in rubrum et pulcherrimum florem sine mora mutatus est, qui adhuc, ad pueri illius memoriam servandam, campos colore sanguinis ornat."
+        "Venus, amōris deā, pulcherrimum puerum mortālem amābat, cui nōmen Adōnis erat. Cum vērō iuvenis ille fortissimus per silvāsas et arduōs montēs errāre atque ferās, quae ibi latēbant, persequī solēret, Venus, quae timēbat nē bēstiae saevae eī aliquō modo nocērent, etiam atque etiam monēbat nē in lupōs, leonēs, ursōs aut aprōs impetum faceret, quī omnium perīculōsissimī esse vidēbantur.",
+        "Cum autem ōlim dea summum Olympum currū suō petīvisset atque Adōnem sōlum in silvā relīquisset, puer, quī aprī vestīgia in terrā cōnspexerat, Veneris verba oblītus, canēs suōs hortātus est, ut ferōcem illam bēstiam quam celerrimē sequerentur: erat enim cupidissimus illīus ferae capiendae. Canēs, hūc et illūc currentēs, vestīgia sequēbantur ad bēstiam inveniendam; tandem aprum inventum ex dūmīs, in quibus sē occultāverat, expulērunt; quī, cum ex latibulō suō excurrisset atque fugere vellet, ab Adōne, quī parātus erat ad eum trānsfīgendum, hastā percussus cecidit.",
+        "Prōtinus autem saevus aper, quamquam graviter vulnerātus erat, hastam dentibus prehēnsam ex vulnere extrāxit, atque in puerum, quī locum tūtum quaerēbat, ferōcissimē impetum fēcit et tōtōs dentēs in eius crūs fīxit, ex quō ingēns sanguinis cōpia effūsa est. Adōnis, gravissimē vulnerātus, ad terram cecidit vīribus āmissīs.",
+        "Cum Venus, quae dē altō Olympō tunc dēscendēbat, eius clāmōrēs audīvisset, ita permōta est, ut ventō celerius trāns montēs amnēsque per āera volāret, mīrābilī currū vecta, quem candidī olōrēs trahēbant; cum vērō puerum inter arborēs humī iacentem atque in sub sanguine morientem vīdisset, magnō animī dolōre affectā, prōtinus dē currū sub dēsiluit, atque multīs cum lacrimīs capillum et vestem flēns scindēbat et percutiēbat manibus pectus: ita maerēbat dea, cum puerum quem ante omnēs amābat horrendā morte pereuntem vidēret. “Ō mī amātissimē Adōnī,” clamacum videat Adōnem morientem, magnō animī dolōre afficiēbātur inter lacrimās, “utinam mē audīvissēs! Utinam bēstiās ferās cāvissēs! Sī meīs verbīs pāruissēs, nōn tam indignē mortuus essēs in manibus meīs ex hōc gravissimō vulnere! Quid faciam nunc? Quōmodo mē cōnsōlārī possim?”",
+        "Haec verba locūta, cruōrem, quī circā fōrmōsissimum puerī corpus sparsus erat, manū tetigit: et ecce: cruor in rubrum et pulcherrimum flōrem sine morā mūtātus est, quī adhūc, ad puerī illīus memoriam servandam, campōs colōre sanguinis ōrnat."
       ],
       "notes": [
         {
-          "term": "Adonis -is m",
+          "term": "Adōnis -is m",
           "gloss": ""
         },
         {
@@ -470,7 +470,7 @@ const chapter = {
           "gloss": "locus in quo aliquis"
         },
         {
-          "term": "se occultat",
+          "term": "sē occultat",
           "gloss": "ex-currere -risse dumus"
         },
         {
@@ -482,11 +482,11 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "olor-oris m",
+          "term": "olor-ōrīs m",
           "gloss": ""
         },
         {
-          "term": "Adoni voc",
+          "term": "Adōnī voc",
           "gloss": ""
         },
         {
@@ -497,7 +497,7 @@ const chapter = {
     }
   ],
   "plates": [
-    "Perseus de caelo in monstrum impetum facit, ut Andromedam ad saxum vinctam servet."
+    "Perseus dē caelō in mōnstrum impetum facit, ut Andromedam ad saxum vīnctam servet."
   ],
   "grammar": [],
   "vocabulary": [],

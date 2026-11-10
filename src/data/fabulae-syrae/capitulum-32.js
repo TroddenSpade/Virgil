@@ -14,20 +14,20 @@ const chapter = {
   "readings": [
     {
       "id": "daphne",
-      "latinTitle": "1. Daphne",
+      "latinTitle": "1. Daphnē",
       "title": "",
       "paragraphs": [
-        "Daphne, filia Penei, qui deus cuiusdam fluminis erat, primus amor fuit Apollinis; qui tamen, etiam si puellae cupiditate fere consumebatur, ab ea ut amaretur efficere non poterat: namque puella eum oderat atque fugiebat. Quomodo id acciderit, nobis narrat Ovidius poeta.",
-        "Postquam Apollo, qui deus arcu validissimus est, Pythonem, anguem ingentem et tam terribilem, ut etiam dii eum metuerent, mille sagittis eius corpus percutiens devicit, ob magnam victoriam valde gaudebat atque gloriosus per vias ibat. Dum vero sic superbe se gerit, Cupidinem, parvulum deum, arcum amoris flectentem conspexit. Clamavit igitur ad eum ridens: “Non tibi, parve puer, fortia arma conveniunt: umeros meos ista decent, qui nuperrime solus Pythonem serpentem interfeci. Quid opus est tibi arcu? Apud matrem maneas! Ne laudes meas cupiveris, neve posthac talibus armis usus sis!”",
-        "Tunc Cupido, fronte contractā: “Nōn impune,” inquit, “hoc mihi dicis. Ecce: cūrābō ut scias quam fortis sit meus arcus!” Ac statim sagittam acūtam e pharetra cepit, quā superbum Apollinis pectus transfixit. Neque Cupidinis sagitta est similis iis, quibus homines mortales utuntur, sed vim habet mirābilem: nam tanta est illius sagittae vis, ut, si quis ea vulneratus sit, continuo saevo amore afficiatur.",
-        "Ecce vēro, Daphne prima Apollini amōre flagranti occurrit, pulcherrima nympha quae, cum ferās in silvis perse quendo et occidendo atque libera per campos currendo gauderet dominamque Dianam virginem haberet, numquam virum ullum cognoverat neque amaverat.",
-        "Vidit nympham etiam Cupido, qui, quoniam Apollinem ob eius superbiam severissime punire constituerat, alteram sagittam, cuius vis non excitat, immo amorem pellit, e pha retra eductam in puellam iecit. Itaque, percusso corde utriusque, nympha odio affecta fugiebat, Apollo vero eam amore excitatus persequebatur. Currebat hic; sed illa tam celeris erat, ut paene volaret. Cum capere puellam frustra conaretur, sic deus saepius clamavit: “O, mi amor, cor meum, sola mea spes! Ne me fugeris! Respice, ō, respice tantum! Vide: non pastor quidam, sed ipse te sequitur Apollo!” At Daphne non constitit: immo, celerius currens ac timens ne deus se consequeretur, talia verba secum dicebat: “Utinam ne iste deus me fugientem capiat! Quis me adiuvet? Quo fugiam? Quid faciam? Utinam salva in locum perveniam ubi extra periculum sim!”",
-        "Mox vero vires omnes eam deseruerunt. Tremebat iam toto corpore, pallebat vultus, odio erat affectum miserum cor, neque iam tenuis spes animum tenebat. Tunc, cum suis solis viribus e tanto periculo effugere non iam posse censeret, patrem, deum fluminis, quod prope fluebat, precata est, ut se adiuvaret: “O pater, oro te ut me adiuves! Aut terram aperi, aut me in aliam formam muta! Auxilium a te peto!” Vix preces dixerat, cum subito membra constiterunt et corpus cortice operiri coeptum est. Capilli in frondes, bracchia in ramos mutata sunt, veloces denique pedes radices egerunt. Frustra nunc Apollo Daphnes corpus complectebatur durum ac frigidum, in eius arboris formam mutatum, quae ‘laurus’ appellatur.",
-        "Exclamavit deus, dolore maximo permotus, et: “Nescis, o puella carissima,” inquit, “qualem deum fugeris: at quoniam coniunx mea esse non potes, arbor eris mea. Capillos, fides, pharetramque mihi semper ornabis.” Itaque ex illo tempore laurus Apollini sacra fuit."
+        "Daphnē, fīlia Pēnēī, quī deus cuiusdam flūminis erat, prīmus amor fuit Apollinis; quī tamen, etiam sī puellae cupiditāte ferē cōnsūmēbātur, ab eā ut amārētur efficere nōn poterat: namque puella eum ōderat atque fugiēbat. Quōmodo id acciderit, nōbīs nārrat Ovidius poēta.",
+        "Postquam Apollō, quī deus arcū validissimus est, Pȳthōnem, anguem ingentem et tam terribilem, ut etiam dīī eum metuerent, mīlle sagittīs eius corpus percutiēns dēvīcit, ob magnam victōriam valdē gaudēbat atque glōriōsus per viās ībat. Dum vērō sīc superbē sē gerit, Cupīdinem, parvulum deum, arcum amōris flectentem cōnspexit. Clāmāvit igitur ad eum rīdēns: “Nōn tibi, parvē puer, fortia arma conveniunt: umerōs meōs ista decent, quī nūperrimē sōlus Pȳthōnem serpentem interfēcī. Quid opus est tibi arcū? Apud mātrem maneās! Nē laudēs meās cupīverīs, nēve posthāc tālibus armīs ūsus sīs!”",
+        "Tunc Cupīdō, fronte contractā: “Nōn impūne,” inquit, “hoc mihi dīcis. Ecce: cūrābō ut sciās quam fortis sit meus arcus!” Ac statim sagittam acūtam ē pharetrā cēpit, quā superbum Apollinis pectus trānsfīxit. Neque Cupīdinis sagitta est similis iīs, quibus hominēs mortālēs ūtuntur, sed vim habet mirābilem: nam tanta est illīus sagittae vīs, ut, sī quis eā vulnerātus sit, continuō saevō amōre afficiātur.",
+        "Ecce vēro, Daphnē prīma Apollinī amōre flagrantī occurrit, pulcherrima nympha quae, cum ferās in silvīs persē quendō et occīdendō atque lībera per campōs currendō gaudēret dominamque Diānam virginem habēret, numquam virum ūllum cognōverat neque amāverat.",
+        "Vīdit nympham etiam Cupīdō, quī, quoniam Apollinem ob eius superbiam sevērissimē pūnīre cōnstituerat, alteram sagittam, cuius vīs nōn excitat, immō amōrem pellit, ē phā rētrā ēductam in puellam iēcit. Itaque, percussō corde utriusque, nympha odiō affectā fugiēbat, Apollō vērō eam amōre excitātus persequēbātur. Currēbat hīc; sed illa tam celerīs erat, ut paene volāret. Cum capere puellam frūstrā cōnārētur, sīc deus saepius clāmāvit: “Ō, mī amor, cor meum, sōla mea spēs! Nē mē fūgerīs! Respice, ō, respice tantum! Vidē: nōn pāstor quīdam, sed ipse tē sequitur Apollō!” At Daphnē nōn cōnstitit: immō, celerius currēns ac timēns nē deus sē cōnsequerētur, tālia verba sēcum dīcēbat: “Utinam nē iste deus mē fugientem capiat! Quis mē adiuvet? Quō fugiam? Quid faciam? Utinam salva in locum perveniam ubi extrā perīculum sim!”",
+        "Mox vērō vīrēs omnēs eam dēseruērunt. Tremēbat iam tōtō corpore, pallēbat vultūs, odiō erat affectum miserum cor, neque iam tenuis spēs animum tenēbat. Tunc, cum suīs sōlis vīribus ē tantō perīculō effugere nōn iam posse cēnsēret, patrem, deum flūminis, quod prope fluēbat, precāta est, ut sē adiuvāret: “Ō pater, ōrō tē ut mē adiuvēs! Aut terram aperī, aut mē in aliam fōrmam mūtā! Auxilium ā tē petō!” Vix precēs dīxerat, cum subitō membra cōnstitērunt et corpus cortice operīrī coeptum est. Capillī in frondēs, bracchia in rāmōs mūtāta sunt, vēlōcēs dēnique pedēs rādīcēs ēgerunt. Frūstrā nunc Apollō Daphnēs corpus complectēbātur dūrum ac frīgidum, in eius arboris fōrmam mūtātum, quae ‘laurus’ appellātur.",
+        "Exclāmāvit deus, dolōre maximō permōtus, et: “Nescīs, ō puella cārissima,” inquit, “quālem deum fūgerīs: at quoniam coniūnx mea esse nōn potes, arbor eris mea. Capillōs, fidēs, pharetramque mihi semper ōrnābis.” Itaque ex illō tempore laurus Apollinī sacra fuit."
       ],
       "notes": [
         {
-          "term": "Daphne -es f",
+          "term": "Daphnē -es f",
           "gloss": ""
         },
         {
@@ -35,7 +35,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "non poterat efficere ut amaretur ab eā",
+          "term": "nōn poterat efficere ut amaretur ab eā",
           "gloss": ""
         },
         {
@@ -43,7 +43,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "de-vincere",
+          "term": "dē-vincere",
           "gloss": "plane vincere"
         },
         {
@@ -67,7 +67,7 @@ const chapter = {
           "gloss": "nymphae sunt deae minores quae silvas, montes, flumina incolunt"
         },
         {
-          "term": "Diana -ae f—dea Iovis filia, Apollinis soror",
+          "term": "Diāna -ae f—dea Iovis filia, Apollinis soror",
           "gloss": ""
         },
         {
@@ -75,11 +75,11 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "re-spicere w prospicere",
+          "term": "rē-spicere w prospicere",
           "gloss": ""
         },
         {
-          "term": "consistere -stitisse",
+          "term": "cōnsistere -stitisse",
           "gloss": ""
         },
         {
@@ -87,7 +87,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "operiri coeptum est",
+          "term": "operīrī coeptum est",
           "gloss": "operiri coepit frons -ndis f- arboris folia radix -Teis f"
         },
         {
@@ -98,18 +98,18 @@ const chapter = {
     },
     {
       "id": "arachne",
-      "latinTitle": "2. Arachne",
+      "latinTitle": "2. Arachnē",
       "title": "",
       "paragraphs": [
-        "Arachne femina fuit, quae arte suā nobilissima erat: saepe enim nymphae ipsae silvas et fluminis aquas relinquēbant, ut mirabilia opera ab eā confecta aspicerent. Omnes de lectabantur cum eam acu vestes pingentem spectarent, eamque uno ōre laudabant dicentes ‘Minervam ipsam eius fuisse magistram’. Tanta vero erat Arachnes superbia, ut, vim deae contemnens, ‘ā sē Minerva facile arte vinci posse’ dicere auderet.",
-        "Minerva igitur, postquam talia audivit, sordida veste induta, canos sibi ipsa fecit capillos et baculo invalida membra ita sustinebat, ut plane anui similis esset. Quae, Arachnes domum ingressa, eam salvere iussit et “Ne consilium meum contempseris, ō Arachne:” inquit, “ego enim sum anus, et iam saepe vidi quomodo dei superbos homines puniverint. Veniam igitur a dea pete propter verba tua temeraria: illa veniam dabit.” Cui vero Arachne, irata: “Non opus mihi est consiliis tuis, ō stulta anus!” inquit, fronte contracta, “Bene scio quid dixerim, et in meā sententia maneō: cūr non ipsa Minerva huc venit, ut me ipsa reprehenderet? Novi quae sit causa: timet ne arte a me vincatur!”",
-        "Dum talia dicit, dea subito anus formam a se removit, et se claram et armis lucentem ostendit: nymphae, quae ibi aderant, perterritae fugerunt timentes ne ipsae a dea irata poena afficerentur. At Arachne nihil timuit: “Videamus” inquit, “utra nostrum melior sit: tu illam vestem, ego hanc acu pingamus; tu ipsa senties opera mea multo meliora et pulchriora tuis esse: nisi forte times ne mecum te compares!” Minerva vero “Imprudenter facis” ait, “quod cum dea certare vis, neque scio quae superbia tibi suaserit ut hoc faceres: poenam tui sceleris senties! Utinam posthac deos vereri discas!”",
-        "Sine mora inter se certare coeperunt: Minerva deorum res gestas acu pinxit: praeter ceteras ante oculos apparebat Iovis regis imago, apud quem Minerva Neptunum stantem fecit, qui tridentem manu gerebat; deinde se ipsam, indutam clipeo et acutam hastam gestantem, multosque alios deos pmxit. Diligenter tandem curavit ut extremas vestis oras gauderet dominamque Dianam virginem haberet, numquam virum ullum cognoverat neque amaverat.",
-        "Vidit nympham etiam Cupido, qui, quoniam Apollinem ob eius superbiam severissime punire constituerat, alteram sagittam, cuius vis non excitat, immo amorem pellit, e pha retra eductam in puellam iecit. Itaque, percusso corde utriusque, nympha odio affecta fugiebat, Apollo vero eam amore excitatus persequebatur. Currebat hic; sed illa tam celeris erat, ut paene volaret. Cum capere puellam frustra conaretur, sic deus saepius clamavit: “O, mi amor, cor meum, sola mea spes! Ne me fugeris! Respice, ō, respice tantum! Vide: non pastor quidam, sed ipse te sequitur Apollo!” At Daphne non constitit: immo, celerius currens ac timens ne deus se consequeretur, talia verba secum dicebat: “Utinam ne iste deus me fugientem capiat! Quis me adiuvet? Quo fugiam? Quid faciam? Utinam salva in locum perveniam ubi extra periculum sim!”",
-        "Mox vero vires omnes eam deseruerunt. Tremebat iam toto corpore, pallebat vultus, odio erat affectum miserum cor, neque iam tenuis spes animum tenebat. Tunc, cum suis solis viribus e tanto periculo effugere non iam posse censeret, patrem, deum fluminis, quod prope fluebat, precata est, ut se adiuvaret: “O pater, oro te ut me adiuves! Aut terram aperi, aut me in aliam formam muta! Auxilium a te peto!” Vix preces dixerat, cum subito membra constiterunt et corpus cortice operiri coeptum est. Capilli in frondes, bracchia in ramos mutata sunt, veloces denique pedes radices egerunt. Frustra nunc Apollo Daphnes corpus complectebatur durum ac frigidum, in eius arboris formam mutatum, quae ‘laurus’ appellatur. Exclamavit deus, dolore maximo permotus, et: “Nescis, puella carissima,” inquit, “qualem deum fugeris: at quoniam coniUnx mea esse non potes, arbor eris mea. Capillos, fides, pharetramque mihi semper ornabis.” Itaque ex illo tempore laurus Apollini sacra fuit. olearum foliis ornaret. Arachne vero primum imaginibus illustrat quomodo Europa apud maris litus tauro erepta sit: verus taurus, verae maris undae esse videbantur. Europa ipsa e dorso tauri in mari natantis terras spectans relictas atque suas amicas, quae in litore manserant, invocans et ab iis auxilium petens cernitur: diceres vocem eius audiri posse. Deinde multas alias fabulas pinxit; tum Phoebum, et Bacchum; denique extremam vestis partem pulcherrimis floribus ornavit.",
-        "Operibus perfectis, Minerva ipsa, quae laborem ab Arachne factum mirabatur, valde dubitavit an vestis, quam ipsa confecerat, pulchrior esset quam vestis ab Arachne tanta arte picta: plane enim intellegebatur Arachnen melius opus fecisse pulchriōrēsque imaginēs pinxisse.",
-        "Tunc Arachne: “Nonne meministi” inquit, “quid modo dixerim? Tam certa sum me pentissimam artis pingendi esse, ut nōn timeam nē vincar ā tē, quamquam dea es! Ne tamen desperaveris! Etsi tam pulchre vestem pinxi, ut omnibus meam artem meliorem tua esse demonstraverim, tamen tu quoque satis bonum opus confecisti.”",
-        "Cum praeterea omnes nymphae, quae opera spectatum convenerant, Arachnes opus admirarentur atque laudarent, Minerva tam valde illi feminae invidere coepit, ut iram retinere non iam posset: iratissima igitur ter quaterque eius frontem percussit. Quam iniuriam cum Arachne aequo animo pati non posset, primum lacrimans in locum fugit, quo neminem se consequi posse putabat; deinde laqueo mortem sibi ipsa conscivit. At Minerva eam inventam et in vitam reductam herbae cuiusdam suco aspersit; quo factum est ut totum eius corpus parvum fieret; in utroque latere octo gracilia crūra appāruerunt; ex ventre verō iam ab illo tempore stāmen emittit: aranea enim facta, ut anteā, etiam nunc telas texit."
+        "Arachnē fēmina fuit, quae arte suā nōbilissima erat: saepe enim nymphae ipsae silvās et flūminis aquās relinquēbant, ut mīrābilia opera ab eā cōnfecta aspicerent. Omnēs dē lēctābantur cum eam acū vestēs pingentem spectārent, eamque ūnō ōre laudābant dīcentēs ‘Minervam ipsam eius fuisse magistram’. Tanta vērō erat Arachnēs superbia, ut, vim deae contemnēns, ‘ā sē Minerva facile arte vincī posse’ dīcere audēret.",
+        "Minerva igitur, postquam tālia audīvit, sordidā veste indūta, cānōs sibi ipsa fēcit capillōs et baculō invalida membra ita sustinēbat, ut plānē anuī similis esset. Quae, Arachnēs domum ingressa, eam salvēre iussit et “Nē cōnsilium meum contempserīs, ō Arachnē:” inquit, “ego enim sum ānus, et iam saepe vīdī quōmodo deī superbōs hominēs pūnīverint. Veniam igitur ā deā pete propter verba tua temerāria: illa veniam dabit.” Cui vērō Arachnē, īrāta: “Nōn opus mihi est cōnsiliīs tuīs, ō stulta anus!” inquit, fronte contractā, “Bene sciō quid dīxerim, et in meā sententiā maneō: cūr nōn ipsa Minerva hūc venit, ut mē ipsa reprehenderet? Novī quae sit causā: timet nē artē ā mē vincātur!”",
+        "Dum tālia dīcit, dea subitō ānus fōrmam ā sē remōvit, et sē clāram et armīs lūcentem ostendit: nymphae, quae ibi aderant, perterritae fūgērunt timentēs nē ipsae ā deā īrāta poenā afficerentur. At Arachnē nihil timuit: “Videāmus” inquit, “utra nostrum melior sit: tū illam vestem, ego hanc acū pingāmus; tū ipsa sentiēs opera mea multō meliōra et pulchriōra tuīs esse: nisi forte timēs nē mēcum tē compārēs!” Minerva vērō “Imprūdenter facis” ait, “quod cum deā certāre vīs, neque sciō quae superbia tibi suāserit ut hoc facerēs: poenam tuī sceleris sentiēs! Utinam posthāc deōs verērī discās!”",
+        "Sine morā inter sē certāre coepērunt: Minerva deōrum rēs gestās acū pīnxit: praeter cēterās ante oculōs appārēbat Iovis rēgis imāgō, apud quem Minerva Neptūnum stantem fēcit, quī tridentem manū gerēbat; deinde sē ipsam, indūtam clipeō et acūtam hastam gestantem, multōsque aliōs deōs pmxit. Dīligenter tandem cūrāvit ut extrēmās vestīs ōrās gaudēret dominamque Diānam virginem habēret, numquam virum ūllum cognōverat neque amāverat.",
+        "Vīdit nympham etiam Cupīdō, quī, quoniam Apollinem ob eius superbiam sevērissimē pūnīre cōnstituerat, alteram sagittam, cuius vīs nōn excitat, immō amōrem pellit, ē phā rētrā ēductam in puellam iēcit. Itaque, percussō corde utriusque, nympha odiō affectā fugiēbat, Apollō vērō eam amōre excitātus persequēbātur. Currēbat hīc; sed illa tam celerīs erat, ut paene volāret. Cum capere puellam frūstrā cōnārētur, sīc deus saepius clāmāvit: “Ō, mī amor, cor meum, sōla mea spēs! Nē mē fūgerīs! Respice, ō, respice tantum! Vidē: nōn pāstor quīdam, sed ipse tē sequitur Apollō!” At Daphnē nōn cōnstitit: immō, celerius currēns ac timēns nē deus sē cōnsequerētur, tālia verba sēcum dīcēbat: “Utinam nē iste deus mē fugientem capiat! Quis mē adiuvet? Quō fugiam? Quid faciam? Utinam salva in locum perveniam ubi extrā perīculum sim!”",
+        "Mox vērō vīrēs omnēs eam dēseruērunt. Tremēbat iam tōtō corpore, pallēbat vultūs, odiō erat affectum miserum cor, neque iam tenuis spēs animum tenēbat. Tunc, cum suīs sōlis vīribus ē tantō perīculō effugere nōn iam posse cēnsēret, patrem, deum flūminis, quod prope fluēbat, precāta est, ut sē adiuvāret: “Ō pater, ōrō tē ut mē adiuvēs! Aut terram aperī, aut mē in aliam fōrmam mūtā! Auxilium ā tē petō!” Vix precēs dīxerat, cum subitō membra cōnstitērunt et corpus cortice operīrī coeptum est. Capillī in frondēs, bracchia in rāmōs mūtāta sunt, vēlōcēs dēnique pedēs rādīcēs ēgerunt. Frūstrā nunc Apollō Daphnēs corpus complectēbātur dūrum ac frīgidum, in eius arboris fōrmam mūtātum, quae ‘laurus’ appellātur. Exclāmāvit deus, dolōre maximō permōtus, et: “Nescīs, puella cārissima,” inquit, “quālem deum fūgerīs: at quoniam coniŪnx mea esse nōn potes, arbor eris mea. Capillōs, fidēs, pharetramque mihi semper ōrnābis.” Itaque ex illō tempore laurus Apollinī sacra fuit. oleārum foliīs ōrnāret. Arachnē vērō prīmum imāginibus illūstrat quōmodo Eurōpa apud maris lītus taurō ērepta sit: vērus taurus, vērae maris undae esse vidēbantur. Eurōpa ipsa ē dorsō taurī in marī natantīs terrās spectāns relictās atque suās amīcās, quae in lītore mānserant, invocāns et ab iīs auxilium petēns cernitur: dīcerēs vōcem eius audīrī posse. Deinde multās aliās fābulās pīnxit; tum Phoebum, et Bacchum; dēnique extrēmam vestis partem pulcherrimīs flōribus ōrnāvit.",
+        "Operibus perfectīs, Minervā ipsa, quae labōrem ab Arachnē factum mīrābātur, valdē dubitāvit an vestis, quam ipsa cōnfēcerat, pulchrior esset quam vestis ab Arachnē tantā arte picta: plānē enim intellegēbātur Arachnēn melius opus fēcisse pulchriōrēsque imaginēs pīnxisse.",
+        "Tunc Arachnē: “Nōnne meministī” inquit, “quid modo dīxerim? Tam certa sum mē pentissimam artis pingendī esse, ut nōn timeam nē vincar ā tē, quamquam dea es! Nē tamen dēspērāverīs! Etsī tam pulchrē vestem pīnxī, ut omnibus meam artem meliōrem tua esse dēmōnstrāverim, tamen tū quoque satis bonum opus cōnfēcistī.”",
+        "Cum praetereā omnēs nymphae, quae opera spectātum convēnerant, Arachnēs opus admīrārentur atque laudārent, Minerva tam valdē illī fēminae invidēre coepit, ut īram retinēre nōn iam posset: īrātissima igitur ter quaterque eius frontem percussit. Quam iniūriam cum Arachnē aequō animō patī nōn posset, prīmum lacrimāns in locum fūgit, quō nēminem sē cōnsequī posse putābat; deinde laqueō mortem sibi ipsa cōnscīvit. At Minerva eam inventam et in vītam reductam herbae cuiusdam sūcō aspersit; quō factum est ut tōtum eius corpus parvum fieret; in utrōque latere octo gracilia crūra appāruerunt; ex ventre verō iam ab illō tempore stāmen ēmittit: arānea enim facta, ut anteā, etiam nunc tēlās tēxit."
       ],
       "notes": [
         {
@@ -169,7 +169,7 @@ const chapter = {
           "gloss": "extra vestis ora"
         },
         {
-          "term": "Diana -ae f- dea Iovis filia, Apollinis soror",
+          "term": "Diāna -ae f- dea Iovis filia, Apollinis soror",
           "gloss": ""
         },
         {
@@ -177,11 +177,11 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "re-spicere <-* prospicere",
+          "term": "rē-spicere <-* prospicere",
           "gloss": ""
         },
         {
-          "term": "consistere -stitisse",
+          "term": "cōnsistere -stitisse",
           "gloss": ""
         },
         {
@@ -189,11 +189,11 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "operiri coeptum est",
+          "term": "operīrī coeptum est",
           "gloss": "operiri coepit frons -ndis f- arboris folia radix -icis f"
         },
         {
-          "term": "radices agere",
+          "term": "rādīcēs agere",
           "gloss": "radices in terra figere"
         },
         {
@@ -205,7 +205,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "Europa -ae f",
+          "term": "Eurōpa -ae f",
           "gloss": "puella quam Iuppiter, tauri forma indutus, rapuit"
         },
         {
@@ -253,11 +253,11 @@ const chapter = {
           "gloss": "in corpore humano sanguis, in"
         },
         {
-          "term": "herbis sucus inest",
+          "term": "herbīs sucus inest",
           "gloss": "aspergere -sisse -sum"
         },
         {
-          "term": "stamen -inis n",
+          "term": "stāmen -inis n",
           "gloss": "tenue filum | e-mittere aranea -ae f tela -ae f"
         },
         {
@@ -268,18 +268,18 @@ const chapter = {
     },
     {
       "id": "io",
-      "latinTitle": "3. Io",
+      "latinTitle": "3. Iō",
       "title": "",
       "paragraphs": [
-        "Fuit olim in montibus Graeciae vallis amoena ubi arbores floribus et herbae umbram dabant ac flumen Tnachus per silvāsas camposque fluebat. Huius fluvii deus filiam habebat cui nomen Io dederat; ea virgo valde iuvenis et formosa non modo in ripa fluminis, verum etiam in umbra arborum, quae prope erant, saepe ludebat et sole gaudebat, quo campi illustrabantur. Silvam vero ipsam ingredi numquam ausa erat, metuens ne ferae se caperent neve ab iis voraretur.",
-        "At quodam die Iuppiter, rex deorum atque hominum, postquam hanc puellam aspexit, tanto eius amore captus est, ut ei occurrere et cum ea solus colloqui constitueret. Cum igitur sol in caelo altissimus esset et Io calorem vix pateretur, de caelo ad fluvium Iuppiter descendit et puellae apparuit. Tum ad eam his verbis locutus est: “Dum calidus est aer” inquit “et sōl altissimus in mediō est caelō, silvam pete: noli feras timere! Ego tē in nemore defendam! Nē me fugeris, pulcherrima Io!” Fugere enim conabatur neque tamen discedere poterat, nam Iuppiter eam retinuit.",
-        "Itaque cotldiē, cum sōl altissimus erat, silvas petēbant in quibus Iuppiter puellae fabulas narrabat atque lō ipsa canēbat. lunō autem, regina deorum atque hominum, postquam hoc animadvertit neque maritum in caelō repperit, ad terram dēscendit. Nec tantum Irata erat, sed etiam puellam ipsam oderat. Itaque Iuppiter, nē puella ā limōne inventa puniretur, eam in formosam et niveam vaccam mutavit.",
-        "At Iūnō, quae consilium eius intellēxerat, hanc vaccam a maritō poposcit, qui, ut amorem suum cēlāret, nihil aliud facere nisi eam uxōri donare poterat. lūnō tamen adhuc verēns nē dōnum nuper acceptum ā maritō surriperētur, hanc vaccam Argo, pastōri et servō suo ēgregiō, custodiendam dedit. Is enim centum oculos in capite habēbat neque umquam, dormiens, omnes claudebat: illam igitur miseram die nocteque spectabat. Io itaque foliis arborum pascebatur, herbam amaram edebat, aquam ex rivis bibebat, nocte humi cubans dormiebat. Nonnumquam ad pastorem manus extendere atque eum orare volebat, at nulla bracchia habebat. Cum igitur clamare conaretur, mugiebat atque voce sua ipsa terrebatur. Aliquando cum Argo accessit ad ripas in quibus ludere solebat. Quo ubi primum pervenit, se ipsam in aqua tamquam in speculo Videns valde horruit.",
-        "Ibi, postquam patrem tristem sororesque conspexit eosque secuta est, a patre herbam accepit et dextram eius, dum ipsa lacrimat, osculata est. Deinde litteris, quas pede in terra scripsit, fabulam suam narravit. Tum pater: “Me miserum!” exclamavit, “Nunc scio te non esse mortuam; nunc scio cur tu in hanc formam mutata sis. Te vero adiuvare non possum! Utinam ne pastor ille te abducat! Utinam Iuppiter ipse te adiuvet!” Nec plura dicere ei licuit, nam Argus puellam in alium locum abduxit et ipse in summo monte, unde cunctam terram videre poterat, consedit: imperium enim Junonis bene meminerat, ideoque semper valde curabat ne quis vaccam raperet.",
-        "Tum Iuppiter, qui puellae numquam oblitus erat, Mercurium arcessivit: “Nemo” inquit, “hominum tanta audacia est ut eam vi liberet. Neque hoc, donec Argus vivit, fieri poterit. Te igitur rogo, fili mi, ut eum occidas! Tum spero K*\" Io liberatum iri.”",
-        "Mercurius statim alas, petasum, virgam sumpsit; at cum primum in terram venit, vestes pastoris induit et aliquot capellas virga per agros egit. Tum Argus postquam vidit aliquem capellas agentem, eum ad saxum suum invitavit. Ibi quamquam diu, nocte iam appropinquante, loquebantur, Argus tamen nondum omnes oculos claudebat. Itaque Mercurius ei longam fabulam voce tam suavi narrare coepit ut demum Argus obdormiverit. Cum igitur deus narrare desiit, virga sua somnum ei auxit, atque Argi caput gladio secuit.",
-        "Hoc cum primum Iūnō cognovit, oculos Argi in cauda et in pennis pavonis, avis suae, posuit, ubi adhuc videri possunt, Vaccam autem, quam Iūnō causam mortis Argi esse putavit, per omnes terras egit.",
-        "Tandem Io fessa ad Nilum pervenit, ubi in ripa fluminis oculos ad stellas sustulit atque oravit ut finis malorum iam esset. Nec Iūnō preces eius contempsit, sed eam hac servitute liberavit ac formam humanam, quam antea habuerat, pulcherrimae puellae reddidit. Quam postea Aegyptii haud procul a fluvio inventam sibi ipsi reginam elegerunt, eique post mortem statuam ingentem et magnificam in templo posuerunt."
+        "Fuit ōlim in montibus Graeciae vāllīs amoena ubi arborēs flōribus et herbae umbram dabant ac flūmen Tnachus per silvāsas campōsque fluēbat. Huius fluviī deus fīliam habēbat cui nōmen Iō dederat; ea virgō valdē iuvenis et fōrmōsa nōn modo in rīpā flūminis, vērum etiam in umbrā arborum, quae prope erant, saepe lūdēbat et sōle gaudēbat, quō campī illūstrābantur. Silvam vērō ipsam ingredī numquam ausa erat, metuēns nē ferae sē caperent nēve ab iīs vorārētur.",
+        "At quōdam diē Iuppiter, rēx deōrum atque hominum, postquam hanc puellam aspexit, tantō eius amōre captus est, ut eī occurrere et cum eā sōlus colloquī cōnstitueret. Cum igitur sōl in caelō altissimus esset et Iō calōrem vix paterētur, dē caelō ad fluvium Iuppiter dēscendit et puellae appāruit. Tum ad eam hīs verbīs locūtus est: “Dum calidus est āēr” inquit “et sōl altissimus in mediō est caelō, silvam pete: nōlī ferās timēre! Ego tē in nemore dēfendam! Nē mē fūgerīs, pulcherrima Iō!” Fugere enim cōnābātur neque tamen discēdere poterat, nam Iuppiter eam retinuit.",
+        "Itaque cotldiē, cum sōl altissimus erat, silvās petēbant in quibus Iuppiter puellae fābulās nārrābat atque lō ipsā canēbat. lunō autem, rēgīna deōrum atque hominum, postquam hoc animadvertit neque marītum in caelō repperit, ad terram dēscendit. Nec tantum Īrāta erat, sed etiam puellam ipsam ōderat. Itaque Iuppiter, nē puella ā limōne inventa pūnīrētur, eam in fōrmōsam et niveam vaccam mūtāvit.",
+        "At Iūnō, quae cōnsilium eius intellēxerat, hanc vaccam ā maritō poposcit, quī, ut amōrem suum cēlāret, nihil aliud facere nisi eam uxōri dōnāre poterat. lūnō tamen adhūc verēns nē dōnum nūper acceptum ā maritō surriperētur, hanc vaccam Argō, pastōri et servō suō ēgregiō, cūstōdiendam dedit. Is enim centum oculōs in capite habēbat neque umquam, dormiēns, omnēs claudēbat: illam igitur miseram diē nocteque spectābat. Iō itaque foliīs arborum pāscēbātur, herbam amāram edēbat, aquam ex rīvīs bibēbat, nocte humī cubāns dormiēbat. Nōnnumquam ad pāstōrem manūs extendere atque eum ōrāre volēbat, at nūlla bracchia habēbat. Cum igitur clāmāre cōnārētur, mūgiēbat atque vōce suā ipsa terrēbātur. Aliquandō cum Argō accessit ad rīpās in quibus lūdere solēbat. Quō ubi prīmum pervēnit, sē ipsam in aquā tamquam in speculō Vidēns valdē horruit.",
+        "Ibi, postquam patrem trīstem sorōrēsque cōnspexit eōsque secūta est, ā patre herbam accēpit et dextram eius, dum ipsa lacrimat, ōsculāta est. Deinde litterīs, quās pede in terrā scrīpsit, fābulam suam nārrāvit. Tum pater: “Mē miserum!” exclāmāvit, “Nunc sciō tē nōn esse mortuam; nunc sciō cūr tū in hanc fōrmam mūtātā sīs. Tē vērō adiuvāre nōn possum! Utinam nē pāstor ille tē abdūcat! Utinam Iuppiter ipse tē adiuvet!” Nec plūra dīcere eī licuit, nam Argus puellam in alium locum abdūxit et ipse in summō monte, unde cūnctam terram vidēre poterat, cōnsēdit: imperium enim Jūnōnis bene meminerat, ideōque semper valdē cūrābat nē quis vaccam raperet.",
+        "Tum Iuppiter, quī puellae numquam oblītus erat, Mercurium arcessīvit: “Nēmō” inquit, “hominum tanta audācia est ut eam vī līberet. Neque hoc, dōnec Argus vīvit, fierī poterit. Tē igitur rogō, fīlī mī, ut eum occīdās! Tum spērō K*\" Iō līberātum īrī.”",
+        "Mercurius statim ālās, petasum, virgam sūmpsit; at cum prīmum in terram venit, vestēs pāstōris induit et aliquot capellās virgā per agrōs ēgit. Tum Argus postquam vīdit aliquem capellās agentem, eum ad saxum suum invītāvit. Ibi quamquam diū, nocte iam appropinquante, loquēbantur, Argus tamen nōndum omnēs oculōs claudēbat. Itaque Mercurius eī longam fābulam vōce tam suāvī nārrāre coepit ut dēmum Argus obdormīverit. Cum igitur deus nārrāre dēsiit, virgā suā somnum eī auxit, atque Argī caput gladiō secuit.",
+        "Hoc cum prīmum Iūnō cognōvit, oculōs Argī in caudā et in pennīs pāvōnis, avis suae, posuit, ubi adhūc vidērī possunt, Vaccam autem, quam Iūnō causam mortis Argī esse putāvit, per omnēs terrās ēgit.",
+        "Tandem Iō fessa ad Nīlum pervēnit, ubi in rīpā flūminis oculōs ad stēllās sustulit atque ōrāvit ut fīnis malōrum iam esset. Nec Iūnō precēs eius contempsit, sed eam hāc servitūte līberāvit ac fōrmam hūmānam, quam anteā habuerat, pulcherrimae puellae reddidit. Quam posteā Aegyptiī haud procul ā fluviō inventam sibi ipsī rēgīnam ēlēgērunt, eīque post mortem statuam ingentem et magnificam in templō posuērunt."
       ],
       "notes": [
         {
@@ -291,7 +291,7 @@ const chapter = {
           "gloss": "Graeciae fluvius"
         },
         {
-          "term": "ripa -ae f",
+          "term": "rīpā -ae f",
           "gloss": "litus fluminis"
         },
         {
@@ -303,7 +303,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "retinere -tinuisse -tentum",
+          "term": "retinēre -tinuisse -tentum",
           "gloss": ""
         },
         {
@@ -323,7 +323,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "custodiendam",
+          "term": "cūstōdiendam",
           "gloss": "ut eam custodiret"
         },
         {
@@ -335,7 +335,7 @@ const chapter = {
           "gloss": "‘mu’ facere (ut bos)"
         },
         {
-          "term": "horrere -uisse",
+          "term": "horrēre -uisse",
           "gloss": ""
         },
         {
@@ -359,7 +359,7 @@ const chapter = {
           "gloss": "iucundus, qui delectat"
         },
         {
-          "term": "ob-dormire",
+          "term": "ob-dormīre",
           "gloss": "incipere dormire augere -xisse -ctum"
         },
         {
@@ -382,17 +382,17 @@ const chapter = {
     },
     {
       "id": "baucis-et-philemon",
-      "latinTitle": "4. Baucis et Philemon",
+      "latinTitle": "4. Baucis et Philēmōn",
       "title": "",
       "paragraphs": [
-        "Iuppiter, deorum et hominum rēx, et Mercurius, filius eius, ōlim in formam hominum sē mutaverunt et ad terram descenderunt ut mōrēs hominum viderent. Aliquando igitur velut pauperes vestiti urbem magnam intraverunt ubi multae tabernae mercatoriae, multa templa, ingens amphitheatrum erant. Illic sperabant sē homines bonos inventuros esse. Itaque singulas domos ubi divites habitabant adibant, cibum rogabant, ab incolis urbis quaerebant num apud eōs aliquantum requiescere possent. At nēmō illorum, etsi omnes magnas divitias habebant, bono animo erat, immō nonnulli iis minabantur atque eōs celeriter abire iubēbant.",
-        "Ō, superbam et Infestam pauperibus urbem! Eius incolae tantum opes suas tuebantur atque copiam nummum amicitiae praeferebant, pauperes vērō contemnebant. Timebant tantum ne quis opes suas surriperet nēve ipsi pecuniam suam amitterent. Ita haud rārō fiebat ut di verba pessima audirent atque ā liminibus in vias pellerentur. Nam dīvitēs dicebant: “Abite et nolite reverti! Nullus vobis apud nos est locus! Ne iterum iānuam huius domūs pulsaveritis!”",
-        "Iuppiter et Mercurius, talia passi, iam vix credebant ūllōs esse homines bonos in orbe terrarum. Vespeiī autem parvam casam conspexerunt. “Utinam” inquit Mercurius, “illic homines bonō animō, non nimia audacia habitent! Utinam nē nos in viam pellant!” His verbis dictis iānuam pulsāvērunt casae, in quā Baucis cum Philēmone habitabat. HI quamquam senēs et pauperiōrēs, tamen felīciōrēs et meliōrēs erant hominēs quam cēterī cīvēs.",
-        "Ubi sonum audiverunt, Philēmōn iānuam aperuit, advenās intrāre et considere iussit. Deinde statim ignem suscitāvit quem foliis et cortice siccō nūtnvit nē hospitēs fngora sentirent; ipsi enim ne ligna quidem habebant atque domus frigida erat. Tum Philemon holera ex horto allata in culina paravit et coxit. Postremo veterem lectum vilibus vestimentis operuit: nec enim alia pretiosiora aut cariora habebant. Postquam di accubuerunt, anus mensam apposuit. Ibi in vasis primum holera et olivas et caseum et panem, deinde pruna et nuces et mala et uvas et poculum lactis plenum hospitibus obtulerunt. In media mensa vero favum cum meile apium posuerunt.",
-        "Hospites ederunt et biberunt nec tamen umquam lactis copia in poculo minuebatur. Caseus etiam maior, mei dulcius, uvae maiores, rubriores, dulciores erant quam antea. Baucis haec animadvertit et seni nuntiavit. Ille protinus stupens “Advenae” parva voce inquit, “mortales non sunt! Fortasse meliorem et dulciorem cibum cupiunt! Nostrum anserem occidemus et coctum apponemus.”",
-        "Senex igitur domo in hortum exiit ut anserem necaret. Anser autem celerior erat quam senex qui ob aetatem iam nimis tardus factus erat. Itaque etsi senex omnibus viribus anserem capere conabatur, tamen consequi non poterat. Qui demum per ianuam apertam domum intravit atque ad deos ipsos confugit. Di autem senem, qui cultrum dextra tenebat, anserem necare vetuerunt. Deinde alter e duobus haec verba addidit: “Di sumus, vestram casam relinquite et nobiscum ad summum collem venite!”",
-        "Tum Baucis et Philemon, baculis sumptis, taciti dis paruerunt et profecti sunt. Tandem ad summum collem pervenerunt. Tunc eos di rursus ad casam prospicere iusserunt. At illic senes nullas alias domos praeter suam casam viderunt quae sola in latere collis stabat; nam omnia cetera palude erant submersa. Itaque spectantes maerebant quod omnes incolae urbis perierant. Interea di domum eorum in templum mutaverunt cuius tectum auratum, ianua gemmis ornata, columnae candidae erant. Tum Iuppiter, “Nolite” inquit “propter cives improbos lacrimare. Nolite eorum reminisci. Quis enim ignorat quam superbi fuerint? Quis nescit quanta mala pauperes apud eos passi sint? Baucis et Philēmōn, quorum casa in templum est mutata, lavis sacerdotes fiunt Dicite igitur, si quid habere velitis, et ego vobis libenter dabo.” At illi timide “Sacerdotes” responderunt “tui templi esse velimus, dum vivemus, tum etiam eodem die mori, quoniam neuter nostrum solus vivere potest. Nulla alia re nobis opus est.”",
-        "Libenter rex deorum atque hominum hoc, quod postulabant, iis dedit. Multos igitur annos Philemon et Baucis sacerdotes templi Iovis fuerunt, et tandem eodem die di eos in arbores mutaverunt. Eorum inter ramos etiamnunc incolae illius loci florum serta ponere solent."
+        "Iuppiter, deōrum et hominum rēx, et Mercurius, fīlius eius, ōlim in fōrmam hominum sē mūtāvērunt et ad terram dēscendērunt ut mōrēs hominum vidērent. Aliquandō igitur velut pauperēs vestītī urbem magnam intrāvērunt ubi multae tabernae mercātōriae, multa templa, ingēns amphitheātrum erant. Illīc spērābant sē hominēs bonōs inventūrōs esse. Itaque singulās domōs ubi dīvitēs habitābant adībant, cibum rogābant, ab incolīs urbis quaerēbant num apud eōs aliquantum requiēscere possent. At nēmō illōrum, etsī omnēs magnās dīvitiās habēbant, bonō animō erat, immō nōnnūllī iīs minābantur atque eōs celeriter abīre iubēbant.",
+        "Ō, superbam et Īnfēstam pauperibus urbem! Eius incolae tantum opēs suās tuēbantur atque cōpiam nummum amīcitiae praeferēbant, pauperēs vērō contemnēbant. Timēbant tantum nē quis opēs suās surriperet nēve ipsī pecūniam suam āmitterent. Ita haud rārō fīēbat ut dī verba pessima audīrent atque ā līminibus in viās pellerentur. Nam dīvitēs dīcēbant: “Ābīte et nōlīte revertī! Nūllus vōbīs apud nōs est locus! Nē iterum iānuam huius domūs pulsāveritis!”",
+        "Iuppiter et Mercurius, tālia passī, iam vix crēdēbant ūllōs esse hominēs bonōs in orbe terrārum. Vespeiī autem parvam casam cōnspexērunt. “Utinam” inquit Mercurius, “illīc hominēs bonō animō, nōn nimiā audāciā habitent! Utinam nē nōs in viam pellant!” Hīs verbīs dictīs iānuam pulsāvērunt casae, in quā Baucis cum Philēmone habitābat. HĪ quamquam senēs et pauperiōrēs, tamen felīciōrēs et meliōrēs erant hominēs quam cēterī cīvēs.",
+        "Ubi sonum audīvērunt, Philēmōn iānuam aperuit, advenās intrāre et cōnsīdere iussit. Deinde statim ignem suscitāvit quem foliīs et cortice siccō nūtnvit nē hospitēs fngora sentīrent; ipsī enim nē ligna quidem habēbant atque domus frīgida erat. Tum Philēmōn holera ex hortō allāta in culīnā parāvit et coxit. Postrēmō veterem lectum vīlibus vestīmentīs operuit: nec enim alia pretiōsiōra aut cāriōra habēbant. Postquam dī accubuērunt, ānus mēnsam apposuit. Ibi in vāsīs prīmum holera et olīvās et cāseum et pānem, deinde prūna et nucēs et mala et ūvās et pōculum lactis plēnum hospitibus obtulērunt. In mediā mēnsā vērō favum cum meile apium posuērunt.",
+        "Hospitēs ēdērunt et bibērunt nec tamen umquam lactis cōpia in pōculō minuēbātur. Cāseus etiam maior, meī dulcius, ūvae maiōrēs, rubriōrēs, dulciōrēs erant quam anteā. Baucis haec animadvertit et senī nūntiāvit. Ille prōtinus stupēns “Advenae” parvā vōce inquit, “mortālēs nōn sunt! Fortasse meliōrem et dulciōrem cibum cupiunt! Nostrum ānserem occīdēmus et coctum appōnēmus.”",
+        "Senex igitur domō in hortum exiit ut ānserem necāret. Ānser autem celerior erat quam senex quī ob aetātem iam nimis tardus factus erat. Itaque etsī senex omnibus vīribus ānserem capere cōnābātur, tamen cōnsequī nōn poterat. Quī dēmum per iānuam apertam domum intrāvit atque ad deōs ipsōs cōnfūgit. Dī autem senem, quī cultrum dextrā tenēbat, ānserem necāre vetuērunt. Deinde alter ē duōbus haec verba addidit: “Dī sumus, vestram casam relinquite et nōbīscum ad summum collem venīte!”",
+        "Tum Baucis et Philēmōn, bāculīs sūmptīs, tacitī dīs pāruērunt et profectī sunt. Tandem ad summum collem pervēnērunt. Tunc eōs dī rūrsus ad casam prōspicere iussērunt. At illīc senēs nūllās aliās domōs praeter suam casam vīdērunt quae sola in latere collis stābat; nam omnia cētera palūde erant submersa. Itaque spectantēs maerēbant quod omnēs incolae urbis perierant. Intereā dī domum eōrum in templum mūtāvērunt cuius tēctum aurātum, iānua gemmīs ōrnāta, columnae candidae erant. Tum Iuppiter, “Nōlīte” inquit “propter cīvēs improbōs lacrimāre. Nōlīte eōrum reminīscī. Quis enim ignōrat quam superbī fuerint? Quis nescit quanta mala pauperēs apud eōs passī sint? Baucis et Philēmōn, quōrum casa in templum est mūtāta, lavis sacerdōtēs fīunt Dīcite igitur, sī quid habēre vēlitis, et ego vōbīs libenter dabō.” At illī timidē “Sacerdōtēs” respondērunt “tuī templī esse velimus, dum vīvēmus, tum etiam eōdem diē morī, quoniam neuter nostrum sōlus vīvere potest. Nūlla alia rē nōbīs opus est.”",
+        "Libenter rēx deōrum atque hominum hoc, quod postulābant, iīs dedit. Multōs igitur annōs Philemon et Baucis sacerdōtēs templī Iovis fuērunt, et tandem eōdem diē dī eōs in arborēs mūtāvērunt. Eōrum inter rāmōs etiamnunc incolae illīus locī flōrum serta pōnere solent."
       ],
       "notes": [
         {
@@ -400,7 +400,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "Philemon -onis m",
+          "term": "Philēmōn -onis m",
           "gloss": "maritus Baucidis"
         },
         {
@@ -408,7 +408,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "opes -um fpl",
+          "term": "opēs -um fpl",
           "gloss": "divitiae"
         },
         {
@@ -416,7 +416,7 @@ const chapter = {
           "gloss": "nummorum"
         },
         {
-          "term": "casa -ae f",
+          "term": "casā -ae f",
           "gloss": "parva domus pauper (v. pāg. 17)"
         },
         {
@@ -436,7 +436,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "anus -us f",
+          "term": "ānus -us f",
           "gloss": "femina vetus"
         },
         {
@@ -444,11 +444,11 @@ const chapter = {
           "gloss": "caseus -T m (v. pag. 53) prunum -T n"
         },
         {
-          "term": "aetas -ātis f= anni quos aliquis vixit",
+          "term": "aetās -ātis f= anni quos aliquis vixit",
           "gloss": ""
         },
         {
-          "term": "qui",
+          "term": "quī",
           "gloss": "anser"
         },
         {
@@ -460,7 +460,7 @@ const chapter = {
           "gloss": "summa pars collis"
         },
         {
-          "term": "parēre -uisse",
+          "term": "pārēre -uisse",
           "gloss": ""
         },
         {
@@ -487,24 +487,24 @@ const chapter = {
     },
     {
       "id": "callisto-et-arcas",
-      "latinTitle": "5. Callisto et Arcas",
+      "latinTitle": "5. Callistō et Arcas",
       "title": "",
       "paragraphs": [
-        "Callisto optima omnium feminarum in Arcadia habitantium fuit, Arcasque, eius filius, pulcherrimus omnium puerorum esse videbatur. Tanta erat eius feminae vis, ut cum puellae, quae in illa regione vita rustica fruebantur, in silvis huc et illuc currerent, celerrima Callisto semper esset easque omnes facile superaret; cum vero cantaret, vox eius tam dulcis erat, ut bestiae quoque ferae, cantu eius allectae, ad audiendum accederent; cum autem cum aliis puellis flores carperet, pulcherrimum quemque carpebat; cum lanam facerent, illa vestes egregias praeter ceteras perficiebat; cum tandem feroces bestias persequerentur, semper Callisto maximum et ferocissimum animal consecuta capere et occidere solebat.",
-        "Omnes igitur Callisto summis laudibus afficiebant eiusque vires tam multum admirabantur ut de ea eiusque factis omnes homines fabularentur, atque uno ore optarent ut praemia fortitudinis ac probitatis a deis acciperet. Quod tamen initium fuit adversae fortunae.",
-        "Cum enim tales rumores et laudes ad aures Iūnōnis, reginae deorum, pervenerunt, ea tanta invidia affecta est ut, simul atque haec audivit, Callistum puniendam esse statuerit, Iūnō enim eam, quam tot laudibus superbam factam esse censebat, minime laudandam esse putavit, immo severam poenam in eam statuendam esse credidit, etiam quia Iovem, maritum suum, illius puellae amore captum esse animadverterat. Irata igitur sēcum ipsa dicebat: “Ignorō quae ista femina sit et quid usque ad hunc diem fecerit, neque eius nōmen anteā umquam audiveram; at curābō ut eius fama deleatur, neu mihi, deorum reginae, nocere iam audeat!”",
-        "Nesciebat autem quō supplicio eam afficeret. Haud scimus an capite eam punire voluerit: seu tamen eam necare nimis clemens consilium existimavit, seu iure timuit nē Iuppiter Callisto tueretur, tam prudentius quam crudelius consilium ut eam cruciaret constituit: Callisto in ursam mutandam censuit.",
-        "Ex alto igitur Olvmoo in Arcadiam eo consilio descendit, ut Callisto, quae tunc in silvis errabat, occurreret. Cum primum vero puella Iūnōnem in silva ambulantem vidit, eam, quam mortalem feminam esse credebat, ut mos est, salvere iussit; Iūnō vero pro verbis dulcibus acerba dicta reddens, puellae imperavit ut taceret neu tanta audacia coram dea loqueretur: “Heus tu,” inquit, “improba mortalis: ne mihi vilia feceris verba!”",
-        "Cui Callisto, talia dicta mirata, respondens, “Quam tibi iniuriam tam gravem equidem feci” stupens rogavit, “ut me tam valde oderis? Utinam ne me, quae, cum ignorarem te deam esse, nihil aliud feci nisi te humane salutavi, punire velis!” Io vis vero uxor: “O superba puella,” ait, “tua nequam audacia haud grata mihi est! Ne quidquam dixeris, sed desine loqui!” Tum vultu severo intuens, Callisto minabatur se eius superbiam punituram esse.",
-        "Callisto, his verbis auditis, genua flexit, sed cum prae metu deam precibus orare ut sibi ignosceret non posset, muta ac multis cum lacrimis flevit. Demum Iūnō, ubi primum eam perterritam esse vidit ac toto corpore tremere animadvertit, dextram sustulit ut eam hasta percuteret: Callisto vero tanto timore affecta est, ut ad terram ceciderit ibique iacuerit. Simul atque igitur Iūnōnis hasta tacta est, primum eius bracchia in crura mutata sunt, deinde digiti in ursae ungues converti coepti sunt, denique totum corpus nigrum colorem duxit. “Ne oblita sis,” inquit dea “laudem et victoriam perpetuam deis tantum convenire.” Quibus verbis dictis, sursum in caelum rediit. Ex eō tempore Callisto, quae formam et vultum ursae habebat, maestissime circum domum suam errabat filium carissimum, quem conspicere non poterat, ubique quaerens. Nocte vero in silvis humi cubabat. Cum vero timeret ne alia animalia sibi nocerent, numquam eis appropinquabat, nec sine māximō dolore eius temporis reminiscebatur, cum in silvis sine metu bestias persequebatur. Sic circiter quindecim annos sola vixit.",
-        "Olim autem Arcas, qui interea iuvenis fortissimus factus erat, cum in silva erraret ut feras persequeretur, eam, quam ursam esse putavit, forte inter arbores vagantem conspexit. Callisto vero, quae statim eum cognovit, ad eum cucurrit ut filium, quem valde amabat, post tot annos tandem complecteretur. Arcas autem oculos ursae in sē fixos timuit, et veritus ne bestia in sē impetum faceret, eō unde venerat fugit. At cum videret ursam sē persequi, sagittam ē pharetra prompsit arcumque sustulit.",
-        "Iuppiter autem inexspectatus de caelo descendens, sagittam ē manibus eius abstulit et matrem filiumque in stellas clarissimas mutavit, quas in caelo inter alias posuit: hoc modo eōs adversis rēbus, quibus premēbantur, liberavit, elsque quasi secundam fortunam reddidit.",
-        "Postquam lūnō haec animadvertit, ad Neptunum, deum Oceani, Ivit. “Iuppiter,” inquit, “mulieri eiusque filio, quos ipsa contemno et odi, loca in caelis dōnāvit. Ō Neptune, hoc ūnum tē ōrō: nē eōs in rēgnum tuum recēperis! Semper eōs ā mari prōhibeas!”",
-        "lūnō dēmum Neptūnō persuadēre potuit ut eōs hāc poenā afficeret; itaque illae stēllae ē quibus Ursa Māior et Ursa Minor constant, in alto caelō etiamnunc semper manent neque umquam Oceano submersae ē conspectu hominum Arcas sagittam in ursam missurus est, at Iuppiter eum et matrem in stellas mutat"
+        "Callistō optima omnium fēminārum in Arcadiā habitantium fuit, Arcasque, eius fīlius, pulcherrimus omnium puerōrum esse vidēbātur. Tanta erat eius fēminae vīs, ut cum puellae, quae in illā regiōne vītā rūstica fruēbantur, in silvīs hūc et illūc currerent, celerrima Callistō semper esset eāsque omnēs facile superāret; cum vērō cantāret, vōx eius tam dulcis erat, ut bēstiae quoque ferae, cantū eius allēctae, ad audiendum accēderent; cum autem cum aliīs puellīs flōrēs carperet, pulcherrimum quemque carpēbat; cum lānam facerent, illa vestēs ēgregiās praeter cēterās perficiēbat; cum tandem ferōcēs bēstiās persequerentur, semper Callistō maximum et ferōcissimum animal cōnsecūta capere et occīdere solēbat.",
+        "Omnēs igitur Callistō summīs laudibus afficiēbant eiusque vīrēs tam multum admīrābantur ut dē ea eiusque factīs omnēs hominēs fābulārentur, atque ūnō ōre optārent ut praemia fortitūdinis ac probitātis ā deīs acciperet. Quod tamen initium fuit adversae fortūnae.",
+        "Cum enim tālēs rūmōrēs et laudēs ad aurēs Iūnōnis, rēgīnae deōrum, pervēnērunt, ea tanta invidia affecta est ut, simul atque haec audīvit, Callistum pūniendam esse statuerit, Iūnō enim eam, quam tot laudibus superbam factam esse cēnsēbat, minimē laudandam esse putāvit, immō sevēram poenam in eam statuendam esse crēdidit, etiam quia Iovem, marītum suum, illīus puellae amōre captum esse animadverterat. Īrāta igitur sēcum ipsa dīcēbat: “Ignorō quae ista fēmina sit et quid usque ad hunc diem fēcerit, neque eius nōmen anteā umquam audīveram; at curābō ut eius fāma dēleātur, neu mihi, deōrum rēgīnae, nocēre iam audeat!”",
+        "Nesciēbat autem quō suppliciō eam afficeret. Haud scīmus an capite eam pūnīre voluerit: seu tamen eam necāre nimis clēmēns cōnsilium exīstimāvit, seu iūre timuit nē Iuppiter Callistō tuērētur, tam prūdentius quam crūdēlius cōnsilium ut eam cruciāret cōnstituit: Callistō in ursam mūtandam cēnsuit.",
+        "Ex altō igitur Olvmōō in Arcadiam eō cōnsiliō dēscendit, ut Callistō, quae tunc in silvīs errābat, occurreret. Cum prīmum vērō puella Iūnōnem in silvā ambulantem vīdit, eam, quam mortālem fēminam esse crēdēbat, ut mōs est, salvēre iussit; Iūnō vērō prō verbīs dulcibus acerba dicta reddēns, puellae imperāvit ut tacēret neu tanta audācia cōram deā loquerētur: “Heus tū,” inquit, “improba mortālīs: nē mihi vīlia fēcerīs verba!”",
+        "Cui Callistō, tālia dicta mīrāta, respondēns, “Quam tibi iniūriam tam gravem equidem fēcī” stupēns rogāvit, “ut mē tam valdē ōderīs? Utinam nē mē, quae, cum ignōrārem tē deam esse, nihil aliud fēcī nisi tē hūmānē salūtāvī, pūnīre velīs!” Iō vīs vērō uxor: “Ō superba puella,” ait, “tua nēquam audācia haud grāta mihi est! Nē quidquam dīxerīs, sed dēsine loquī!” Tum vultū sevērō intuēns, Callistō minābātur sē eius superbiam pūnītūram esse.",
+        "Callistō, hīs verbīs audītīs, genua flexit, sed cum prae metū deam precibus ōrāre ut sibi ignōsceret nōn posset, mūtā ac multīs cum lacrimīs flēvit. Dēmum Iūnō, ubi prīmum eam perterritam esse vīdit ac tōtō corpore tremere animadvertit, dextram sustulit ut eam hasta percuteret: Callistō vērō tantō timōre affecta est, ut ad terram cecīderit ibique iacuerit. Simul atque igitur Iūnōnis hasta tācta est, prīmum eius bracchia in crūra mūtāta sunt, deinde digitī in ursae unguēs convertī coeptī sunt, dēnique tōtum corpus nigrum colōrem dūxit. “Nē oblīta sīs,” inquit dea “laudem et victōriam perpetuam deīs tantum convenīre.” Quibus verbīs dictīs, sūrsum in caelum rediit. Ex eō tempore Callistō, quae fōrmam et vultum ursae habēbat, maestissimē circum domum suam errābat fīlium cārissimum, quem cōnspicere nōn poterat, ubīque quaerēns. Nocte vērō in silvīs humī cubābat. Cum vērō timēret nē alia animālia sibi nocērent, numquam eīs appropinquābat, nec sine māximō dolōre eius temporis reminīscēbātur, cum in silvīs sine metū bēstiās persequēbātur. Sīc circiter quīndecim annōs sola vīxit.",
+        "Ōlim autem Arcas, quī intereā iuvenis fortissimus factus erat, cum in silvā errāret ut ferās persequerētur, eam, quam ursam esse putāvit, forte inter arborēs vagantem cōnspexit. Callistō vērō, quae statim eum cognōvit, ad eum cucurrit ut fīlium, quem valdē amābat, post tot annōs tandem complecterētur. Arcās autem oculōs ursae in sē fīxōs timuit, et veritus nē bēstia in sē impetum faceret, eō unde vēnerat fugit. At cum vidēret ursam sē persequī, sagittam ē pharetrā prōmpsit arcumque sustulit.",
+        "Iuppiter autem inexspectātus dē caelō dēscendēns, sagittam ē manibus eius abstulit et mātrem fīliumque in stēllās clārissimās mūtāvit, quās in caelō inter aliās posuit: hoc modo eōs adversīs rēbus, quibus premēbantur, līberāvit, elsque quasi secundam fortūnam reddidit.",
+        "Postquam lūnō haec animadvertit, ad Neptūnum, deum Ōceanī, Īvit. “Iuppiter,” inquit, “mulierī eiusque fīliō, quōs ipsa contemnō et ōdī, loca in caelīs dōnāvit. Ō Neptūne, hoc ūnum tē ōrō: nē eōs in rēgnum tuum recēperis! Semper eōs ā marī prōhibeas!”",
+        "lūnō dēmum Neptūnō persuadēre potuit ut eōs hāc poenā afficeret; itaque illae stēllae ē quibus Ursa Māior et Ursa Minor cōnstant, in altō caelō etiamnunc semper manent neque umquam Ōceanō submersae ē cōnspectū hominum Arcas sagittam in ursam missūrus est, at Iuppiter eum et mātrem in stēllās mūtat"
       ],
       "notes": [
         {
-          "term": "Callisto -us (acc/dat/abl -6) f",
+          "term": "Callistō -us (acc/dat/abl -6) f",
           "gloss": ""
         },
         {
@@ -512,7 +512,7 @@ const chapter = {
           "gloss": "filius Callistus et Idvis"
         },
         {
-          "term": "Arcadia -ae f= Graeciae regio",
+          "term": "Arcadiā -ae f= Graeciae regio",
           "gloss": ""
         },
         {
@@ -528,7 +528,7 @@ const chapter = {
           "gloss": "probus"
         },
         {
-          "term": "regina -ae f= regis coniūnx",
+          "term": "rēgīna -ae f= regis coniūnx",
           "gloss": ""
         },
         {
@@ -536,7 +536,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "timere -uisse",
+          "term": "timēre -uisse",
           "gloss": ""
         },
         {
@@ -560,11 +560,11 @@ const chapter = {
           "gloss": "unguis -is m (v. pag. 63)"
         },
         {
-          "term": "converti coepti sunt",
+          "term": "convertī coepti sunt",
           "gloss": "converti coeperunt"
         },
         {
-          "term": "duxit",
+          "term": "dūxit",
           "gloss": "sumpsit"
         },
         {
@@ -576,7 +576,7 @@ const chapter = {
           "gloss": "errare currere cucurrisse"
         },
         {
-          "term": "vereri -itum esse pharetra -ae f(v. pag. 81)",
+          "term": "verērī -itum esse pharetra -ae f(v. pag. 81)",
           "gloss": ""
         },
         {
@@ -599,8 +599,8 @@ const chapter = {
     }
   ],
   "plates": [
-    "Minerva Arachnen in araneam mutat.",
-    "Apollo persequitur Daphnen, quae a Peneo patre in laurum mutatur."
+    "Minerva Arachnēn in arāneam mūtat.",
+    "Apollō persequitur Daphnēn, quae ā Pēnēō patre in laurum mūtātur."
   ],
   "grammar": [],
   "vocabulary": [],

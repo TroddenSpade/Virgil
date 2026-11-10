@@ -14,21 +14,21 @@ const chapter = {
   "readings": [
     {
       "id": "deucalion-et-pyrrha",
-      "latinTitle": "1. Deucalion et Pyrrha",
+      "latinTitle": "1. Deucaliōn et Pyrrha",
       "title": "",
       "paragraphs": [
-        "Antiquissimis temporibus homines tam scelesti facti erant, ut, infidi et falsi, omnis generis iniūriās facerent, neque quidquam magis optarent quam aurum et divitias, quarum cupidissimi esse videbantur. Cum sibi deos verendos esse negarent eōsque contemnerent, manus non abstinebant ab auro quod in templis servabatur, et tam nequam atque ini usti erant ut alii crudelissimi erga liberos essent, alii patres suos ipsi necarent; nam neque patres amabant liberos, neque liberi patres: alii alios oderant. Neque eōs scelerum pudebat suorum.",
-        "Cum primum vero Iuppiter per Mercurium, deorum nuntium, talia scelera cognovit, tantas hominum iniūriās sevē rissime puniendas esse putavit. Totum igitur humanum genus fluctibus perdere statuit. “Perdendum est” inquit, “mortale genus! Pereant homines, cum tam scelesti sint! Puniantur quam celerrime omnes!”",
-        "Mercurius vero, qui duos homines probos et iustos esse noverat, Iovī suasit ut clemens esset iisque parceret. Iuppiter igitur postquam Deucalionem eiusque uxorem, Pyrrham nomine, quos Mercurius praeter ceteros servandos esse censebat, in rate quadam posuit, ventos omnes liberavit, nubibusque atris totum caelum operuit; deinde ingentes imbres de caelo misit, et aquas totius orbis ita auxit, ut omnes terrae mergerentur: omnia mare erant, et litora quoque mari deerant. Etiam flumina per apertos campos celerrime fluentia sēcum arbores et pecora et homines ipsāsque villas rapiebant et abducebant. Fluctus operiebant omnia; ipsa tecta altissimarum domuum et summae montium partes sub aquis latebant: ubi modo oves herbam carpebant, ibi nunc pisces natabant.",
-        "Cum vēro omnes ceteri altissimis in fluctibus perirent, unus Deucalion, qui multis cum lacrimis homines undis mersos perire videbat neque eōs ullō modo iuvāre poterat, rate vectus cum uxōre sua servatus est.",
-        "Post multos vēro diēs, postquam iam omnes mortui erant et Iuppiter suam iram dēposuerat, Deucalion et Pyrrha, aquis recēdentibus, ad summum montem Parnassum pervēnērunt, qui mōns altissimus est. Coniugēs igitur, qui sōli ex tot milibus hominum superfuerant, ē rate in terram dēscendērunt. At cum Deucalion totum orbem vidēret animalibus vacuum et terras hominibus omnibus carēre, inter lacrimas sic ad uxorem locutus est: “O soror, ō coniūnx: nōs duo tantum superfuimus; cēteri omnēs fluctibus mersi sunt. Nunc genus mortale in nobis duobus solis restat. Sic voluit Iuppiter.”",
-        "Uterque flēbat et auxilium a deis poscēbat. Ad Themidis templum igitur, quod in monte situm erat, iērunt; quō cum primum pervēnērunt, humi prōcumbentēs, ita precati sunt: “Ōrāmus tē, ō Themi, ut nostris precibus movearis: auxilium nobis feras et dicas quomodo iterum terras hominibus implēre possimus et efficere ut genus mortale rursus nascatur.”",
-        "Dea, his precibus mōta, ita respondit: “Discēdite ā templo; vestibus capita vestra operite et cingula solvite: deinde post terga iacite ossa magnae matris!” At Pyrrha id, quod dea imperabat, facere nōlēbat: “Ignosce mihi, dearum optima: ego tamen dubitō an id facere audeam, quod iubēs; nōlo enim, iactātis ossibus, matrem mortuam iniuria afficere!”",
-        "Quoniam vēro ex interiore templi parte eadem verba iterum iterumque repetēbantur, Deucalion uxōri suasit ut deae sibique ipsi confideret: “Nōli timēre” inquit, “amatissima coniunx: confidendum a nobis est deae verbis; neque enim umquam dea suādēbit ut scelera faciamus. Magna mater terra est; et arbitror lapidēs in corpore terrae ‘ossa’ ā dea nominari: lapidēs igitur iubet nōs post terga nostra iacere! Id faciendum est nobis! Faciamus, quod dea imperat!” Discedunt; capita vestibus operiunt, cingula tunicarum solvunt et post sē lapides iaciunt. Lapides (mirabile dictu!) ut cera molliuntur; postquam vero molles fiunt, formam accipere incipiunt. Pars, quae in illTs umida fuit, in corporum membra est conversa; quod durum erat in ossa mutatum est; quae lapidum venae fuerunt, suum nomen retinuerunt, et corporum venae factae sunt. Brevi deorum potestate factum est ut lapides, quos Deucalion iēcerat, virorum faciem sumerent; ex iis vero, qui ā Pyrrha iaciēbantur, feminae nascerentur."
+        "Antīquissimīs temporibus hominēs tam scelestī factī erant, ut, īnfīdī et falsī, omnis generis iniūriās facerent, neque quidquam magis optārent quam aurum et dīvitiās, quārum cupidissimī esse vidēbantur. Cum sibi deōs verendōs esse negārent eōsque contemnerent, manūs nōn abstinēbant ab aurō quod in templīs servābātur, et tam nēquam atque inī ustī erant ut aliī crūdēlissimī ergā līberōs essent, aliī patrēs suōs ipsī necārent; nam neque patrēs amābant līberōs, neque līberī patrēs: aliī aliōs ōderant. Neque eōs scelerum pudēbat suōrum.",
+        "Cum prīmum vērō Iuppiter per Mercurium, deōrum nūntium, tālia scelera cognōvit, tantās hominum iniūriās sevē rissime pūniendās esse putāvit. Tōtum igitur hūmānum genus flūctibus perdere statuit. “Perdendum est” inquit, “mortāle genus! Pereant hominēs, cum tam scelestī sint! Pūniantur quam celerrimē omnēs!”",
+        "Mercurius vērō, quī duōs hominēs probōs et iūstōs esse nōverat, Iovī suāsit ut clēmēns esset iīsque parceret. Iuppiter igitur postquam Deucaliōnem eiusque uxōrem, Pyrrham nōmine, quōs Mercurius praeter cēterōs servandōs esse cēnsēbat, in rate quādam posuit, ventōs omnēs līberāvit, nūbibusque ātrīs tōtum caelum operuit; deinde ingentēs imbrēs dē caelō mīsit, et aquās tōtīus orbis ita auxit, ut omnēs terrae mergerentur: omnia mare erant, et lītora quoque marī dēerant. Etiam flūmina per apertōs campōs celerrimē fluentia sēcum arborēs et pecora et hominēs ipsāsque vīllās rapiēbant et abdūcēbant. Flūctūs operiēbant omnia; ipsa tēcta altissimārum domuum et summae montium partēs sub aquīs latēbant: ubi modo ovēs herbam carpēbant, ibi nunc piscēs natābant.",
+        "Cum vēro omnēs cēterī altissimīs in flūctibus perīrent, ūnus Deucaliōn, quī multīs cum lacrimīs hominēs undīs mersōs perīre vidēbat neque eōs ullō modō iuvāre poterat, rate vectus cum uxōre suā servātus est.",
+        "Post multōs vēro diēs, postquam iam omnēs mortuī erant et Iuppiter suam īram dēposuerat, Deucaliōn et Pyrrha, aquīs recēdentibus, ad summum montem Parnassum pervēnērunt, quī mōns altissimus est. Coniugēs igitur, quī sōli ex tot mīlibus hominum superfuerant, ē rate in terram dēscendērunt. At cum Deucaliōn tōtum orbem vidēret animālibus vacuum et terrās hominibus omnibus carēre, inter lacrimās sīc ad uxōrem locūtus est: “Ō soror, ō coniūnx: nōs duo tantum superfuimus; cēteri omnēs flūctibus mersī sunt. Nunc genus mortāle in nōbīs duōbus solīs restat. Sīc voluit Iuppiter.”",
+        "Uterque flēbat et auxilium ā deīs poscēbat. Ad Themidis templum igitur, quod in monte situm erat, iērunt; quō cum prīmum pervēnērunt, humī prōcumbentēs, ita precātī sunt: “Ōrāmus tē, ō Themī, ut nostrīs precibus moveāris: auxilium nōbīs ferās et dicās quōmodo iterum terrās hominibus implēre possīmus et efficere ut genus mortāle rūrsus nāscātur.”",
+        "Dea, hīs precibus mōta, ita respondit: “Discēdite ā templō; vestibus capita vestra operīte et cingula solvite: deinde post terga iacitē ossa magnae mātris!” At Pyrrha id, quod dea imperābat, facere nōlēbat: “Ignōsce mihi, deārum optima: ego tamen dubitō an id facere audeam, quod iubēs; nōlo enim, iactātis ossibus, mātrem mortuam iniūria afficere!”",
+        "Quoniam vēro ex interiōre templī parte eadem verba iterum iterumque repetēbantur, Deucaliōn uxōri suāsit ut deae sibique ipsī cōnfīderet: “Nōli timēre” inquit, “amātissima coniūnx: cōnfīdendum ā nōbīs est deae verbīs; neque enim umquam dea suādēbit ut scelera faciāmus. Magna māter terra est; et arbitror lapidēs in corpore terrae ‘ossa’ ā deā nōminārī: lapidēs igitur iubet nōs post terga nostra iacere! Id faciendum est nōbīs! Faciāmus, quod dea imperat!” Discēdunt; capita vestibus operiunt, cingula tunicārum solvunt et post sē lapidēs iaciunt. Lapidēs (mīrābile dictū!) ut cēra molliuntur; postquam vērō mollēs fīunt, fōrmam accipere incipiunt. Pars, quae in illTs ūmida fuit, in corporum membra est conversā; quod dūrum erat in ossa mūtātum est; quae lapidum vēnae fuērunt, suum nōmen retinuērunt, et corporum vēnae factae sunt. Brevī deōrum potestāte factum est ut lapidēs, quōs Deucaliōn iēcerat, virōrum faciem sūmerent; ex iīs vērō, quī ā Pyrrhā iaciēbantur, fēminae nāscerentur."
       ],
       "notes": [
         {
-          "term": "Deucalion -ōnis m",
+          "term": "Deucaliōn -ōnis m",
           "gloss": ""
         },
         {
@@ -68,7 +68,7 @@ const chapter = {
           "gloss": "reliquus esse"
         },
         {
-          "term": "re-stare",
+          "term": "rē-stare",
           "gloss": "reliquus esse"
         },
         {
@@ -88,7 +88,7 @@ const chapter = {
           "gloss": "intra"
         },
         {
-          "term": "confidendum ā nōbis est",
+          "term": "cōnfīdendum ā nōbis est",
           "gloss": "nōs confidere oportet"
         },
         {
@@ -103,24 +103,24 @@ const chapter = {
     },
     {
       "id": "prometheus",
-      "latinTitle": "2. Prometheus",
+      "latinTitle": "2. Promētheus",
       "title": "",
       "paragraphs": [
-        "Prometheus fuit filius Titani, nomine Iapeti, et Nymphae, quae Clymene appellabatur. Postquam dei omnia cetera animalia in mundo posuerant et etiam homines ex terra umida et molli igni mixta confece rant, Epimetheo, Promethei fratri, imperaverunt ut singulis animalibus munera daret. Epimetheus igitur aliis celeritatem dedit, qua velocissime currentes a bestiis feris se persequentibus fugere possent; aliis vero ungues et dentes, quibus et impetum in alias bestias facerent et se ipsa defenderent; aliis denique pilos multos, quibus totum corpus tegerent et facilius frigora paterentur.",
-        "Cum tamen Epimetheus parum prudens esset, omnia munera ceteris animalibus tradidit, homini vero nihil reliquit. Quid ergo homines facerent? Nudi, inermes, miseri in silvis et in campis errabant, neque quidquam habebant quo a feris aut a tempestatibus se tuerentur. Aut igitur frigore moriebantur, aut a ferocibus bestiis occidebantur.",
-        "Prometheus vero, qui hominibus bene volebat, aliquo beneficio eos afficiendos esse statuit. Cum igitur cogitaret quomodo eos adiuvare posset, et in summa Olympi montis parte, ubi dei domos suas habent, ambularet, subito currum Solis conspexit, quem nemo custodiebat. Clarissime lucebat flammis, et igneos radios in omnes partes emittebat. Tum Prometheus, postquam caute circum se aspexit num quis veniret, currui appropinquavit, ut inde ignis scintillam sumeret, quam hominibus dōnāret. Dum vero ad currum accedit, ferulam in horto vidit, quam eo consilio carpsit, ut in ea ignem latentem ad homines portaret.",
-        "Ex Olympo igitur descendit Prometheus ferulam manu gerens, qua ignis scintilla continebatur. Postquam in campīs pervenit, homines vidit huc et illuc errantes atque trementes; quibus arcessitis: “Nolite iam timere quidquam, homines!” inquit, “Munus enim in hac ferula vobis affero, quo et frigus et feras repellere poteritis. Posthac nihil iam vobis timendum erit.” Quibus verbis coram hominibus dictis, ex ferula scintillam extraxit; qua statim magnum ignem accendit.",
-        "Primum homines, re nova perterriti, fugere volebant; Prometheus vero eos retinuit atque monstravit quam utile illud munus eis esset: “Igne corpora vestra nuda et frigentia calefacere poteritis; ferocissimae quoque bestiae ab igne fugient, neque in vos impetum facere audebunt; praeterea igne vobis etiam ferrum mollire et arma conficere licebit. Ignis erit instrumentum omnium artium, quas vos continuo docebo!” Homines igitur, qui circa Prometheum erant, statim didicerunt quomodo ignem servarent eoque ad artes varias uterentur; deinde, per nuntios, etiam alii ea, quae Prometheus docuerat, cognoverunt atque ipsi in campis ignes accendere coeperunt.",
-        "Iuppiter tamen de summo Olympo despiciens, postquam illos ignes in terra vidit, Mercurium, deorum nuntium, in terras ubi homines vivebant misit, ut cognosceret quid fieret: “Mercuri, fili mi” inquit, “vola ad ea loca ubi homines vivunt, et vide quis eos ignem servare doceat! Si enim didicerint etiam quomodo igne uti possint, tam superbi fient, ut ne deos quidem vereantur!”",
-        "Sic dixerat Iuppiter. Mercurius vero continuo, sine mora, patris imperio paruit: induit calceos suos aureos et ālis ornatōs, quibus ventō celerius volare potest sive super mare sive super terram, et, virgam manu gerens, ad campos, in quibus ignes ab hominibus accensos viderat, volando pervenit. Cum autem nube cinctus se occultaret, nemo eum cernere poterat; ipse vero, praesens, omnia videbat.",
-        "Postquam igitur Prometheum conspexit, qui non solum ignem inter homines dividebat, sed etiam eos artes varias atque mirabiles docebat, continuo ad Iovem rediit, ut ei quid fieret nuntiaret. Cum coram eo esset, Prometheum ex Olympo aufugisse secum aliquantum ignis auferentem nuntiavit.",
-        "Iuppiter igitur, postquam haec audivit: “O scelestum Prometheum!” clamavit, “Atque ego illi praeter ceteros fidebam! Posthac nec Titanis nec homini ulli confidam: neque enim fide mea digni sunt: Infidi et nequam sunt omnes! Profecto Prometheum omnibus modis cruciabo, cum primum eum cepero! In montis saxo figetur! Tibi magnum praemium dabo, mi Mercuri, si eum huc retraxeris; in eum vero severissimam poenam statuam!”",
-        "Frustra Minerva, artium dea, cum Prometheum valde diligeret, Iovī, quem clamantem audiverat, suadere conata est, ut clemens esset: Iuppiter autem exclamavit: “Quam facile, Minerva, nequissimo illi Titani filio ignoscis! Ego vero gravissimo supplicio eum afficiendum censeo, ut omnes ceten qui in terris et in Olympo vivunt deterreantur ne talia turpissima scelera posthac faciant! Profecto Prometheus puniendus est! Veniat huc Vulcanus! Arcessite eum!” Vulcanus, deorum faber, cum Iovem Iratum et tali modo clamantem audiret, statim accurrit.",
-        "Mercurius interea celerrime ad terras volavit ut Prometheum fallacibus verbis ac promissis in Olympum retraheret. Postquam vero coram deis fuit, Iuppiter hanc severissimam gravissimamque poenam in eum statuit: ut in monte Caucaso catena ferrea vinciretur; praeterea ut aquila cotidie eius iecur interdiu voraret, quod nocte iterum nasceretur, ne supplicium umquam finem haberet. Post multa milia annorum tamen, cum Hercules per eas regiones errando transiret, sagitta ex arcu emissa, aquilam interfecit et Prometheum, qui ei beneficium fecerat, ex tanto supplicio tandem liberavit."
+        "Promētheus fuit fīlius Tītānī, nōmine Īapetī, et Nymphae, quae Clymenē appellābātur. Postquam deī omnia cētera animālia in mundō posuerant et etiam hominēs ex terrā ūmidā et mollī ignī mixta cōnfēcerant, Epimētheō, Promēthēī frātrī, imperāvērunt ut singulīs animālibus mūnera daret. Epimētheus igitur aliīs celeritātem dedit, quā vēlōcissimē currentēs ā bēstiīs ferīs sē persequentibus fugere possent; aliīs vērō unguēs et dentēs, quibus et impetum in aliās bēstiās facerent et sē ipsa dēfenderent; aliīs dēnique pilōs multōs, quibus tōtum corpus tegerent et facilius frīgora paterentur.",
+        "Cum tamen Epimētheus parum prūdēns esset, omnia mūnera cēterīs animālibus trādidit, hominī vērō nihil relīquit. Quid ergō hominēs facerent? Nūdī, inermēs, miserī in silvīs et in campīs errābant, neque quidquam habēbant quō ā ferīs aut ā tempestātibus sē tuērentur. Aut igitur frīgore moriēbantur, aut ā ferōcibus bēstiīs occīdēbantur.",
+        "Promētheus vērō, quī hominibus bene volēbat, aliquō beneficiō eōs afficiendōs esse statuit. Cum igitur cōgitāret quōmodo eōs adiuvāre posset, et in summā Olympī montis parte, ubi deī domōs suās habent, ambulāret, subitō currum Sōlis cōnspexit, quem nēmō cūstōdiēbat. Clārissimē lūcēbat flammīs, et igneōs radiōs in omnēs partēs ēmittēbat. Tum Promētheus, postquam cautē circum sē aspexit num quis venīret, curruī appropinquāvit, ut inde ignis scintillam sūmeret, quam hominibus dōnāret. Dum vērō ad currum accēdit, ferulam in hortō vīdit, quam eō cōnsiliō carpsit, ut in eā ignem latentem ad hominēs portāret.",
+        "Ex Olympō igitur dēscendit Promētheus ferulam manū gerēns, quā ignis scintilla continēbātur. Postquam in campīs pervēnit, hominēs vīdit hūc et illūc errantēs atque trementēs; quibus arcessītis: “Nōlīte iam timēre quidquam, hominēs!” inquit, “Mūnus enim in hāc ferulā vōbīs afferō, quō et frīgus et ferās repellere poteritis. Posthāc nihil iam vōbīs timendum erit.” Quibus verbīs cōram hominibus dictīs, ex ferulā scintillam extrāxit; quā statim magnum ignem accendit.",
+        "Prīmum hominēs, rē novā perterritī, fugere volēbant; Promētheus vērō eōs retinuit atque mōnstrāvit quam ūtile illud mūnus eīs esset: “Igne corpora vestra nūda et frīgentia calefacere poteritis; ferōcissimae quoque bēstiae ab igne fugient, neque in vōs impetum facere audēbunt; praetereā igne vōbīs etiam ferrum mollīre et arma cōnficere licēbit. Ignis erit īnstrūmentum omnium artium, quās vōs continuō docēbō!” Hominēs igitur, quī circā Promēthēum erant, statim didicērunt quōmodo ignem servārent eōque ad artēs variās ūterentur; deinde, per nūntiōs, etiam aliī ea, quae Promētheus docuerat, cognōvērunt atque ipsī in campīs ignēs accendere coepērunt.",
+        "Iuppiter tamen dē summō Olympō dēspiciēns, postquam illōs ignēs in terrā vīdit, Mercurium, deōrum nūntium, in terrās ubi hominēs vīvēbant mīsit, ut cognōsceret quid fieret: “Mercurī, fīlī mī” inquit, “volā ad ea loca ubi hominēs vīvunt, et vidē quis eōs ignem servāre doceat! Sī enim didicerint etiam quōmodo igne ūtī possint, tam superbī fīent, ut nē deōs quidem vereantur!”",
+        "Sīc dīxerat Iuppiter. Mercurius vērō continuō, sine morā, patris imperiō pāruit: induit calceōs suōs aureōs et ālis ornatōs, quibus ventō celerius volāre potest sīve super mare sīve super terram, et, virgam manū gerēns, ad campōs, in quibus ignēs ab hominibus accēnsōs vīderat, volandō pervēnit. Cum autem nūbe cīnctus sē occultāret, nēmō eum cernere poterat; ipse vērō, praesēns, omnia vidēbat.",
+        "Postquam igitur Promēthēum cōnspexit, quī nōn sōlum ignem inter hominēs dīvidēbat, sed etiam eōs artēs variās atque mīrābilēs docēbat, continuō ad Iovem rediit, ut eī quid fieret nūntiāret. Cum cōram eō esset, Promēthēum ex Olympō aufūgisse sēcum aliquantum ignis auferentem nūntiāvit.",
+        "Iuppiter igitur, postquam haec audīvit: “Ō scelestum Promēthēum!” clāmāvit, “Atque ego illī praeter cēterōs fīdēbam! Posthāc nec Tītānis nec hominī ūllī cōnfīdam: neque enim fide meā dignī sunt: Īnfīdī et nēquam sunt omnēs! Profectō Promēthēum omnibus modīs cruciābō, cum prīmum eum cēperō! In montis saxō fīgētur! Tibi magnum praemium dabō, mī Mercurī, sī eum hūc retrāxerīs; in eum vērō sevērissimam poenam statuam!”",
+        "Frūstrā Minerva, artium deā, cum Promēthēum valdē dīligeret, Iovī, quem clāmantem audīverat, suādēre cōnāta est, ut clēmēns esset: Iuppiter autem exclāmāvit: “Quam facile, Minerva, nēquissimō illī Tītānī fīliō ignōscis! Ego vērō gravissimō suppliciō eum afficiendum cēnseō, ut omnēs cēten quī in terrīs et in Olympō vīvunt dēterreantur nē tālia turpissima scelera posthāc faciant! Profectō Promētheus pūniendus est! Veniat hūc Vulcānus! Arcessītē eum!” Vulcānus, deōrum faber, cum Iovem Īrātum et tālī modō clāmantem audīret, statim accurrit.",
+        "Mercurius intereā celerrimē ad terrās volāvit ut Promēthēum fallācibus verbīs ac prōmissīs in Olympum retraheret. Postquam vērō cōram deīs fuit, Iuppiter hanc sevērissimam gravissimamque poenam in eum statuit: ut in monte Caucasō catēnā ferreā vincīrētur; praetereā ut aquila cotīdiē eius iecur interdiū vorāret, quod nocte iterum nāscerētur, nē supplicium umquam fīnem habēret. Post multa mīlia annōrum tamen, cum Herculēs per eās regiōnēs errandō trānsīret, sagitta ex arcū ēmissa, aquilam interfēcit et Promēthēum, quī eī beneficium fēcerat, ex tantō suppliciō tandem līberāvit."
       ],
       "notes": [
         {
-          "term": "Prometheus -T m",
+          "term": "Promētheus -T m",
           "gloss": ""
         },
         {
@@ -136,7 +136,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "Epimetheus -T m",
+          "term": "Epimētheus -T m",
           "gloss": ""
         },
         {
@@ -152,7 +152,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "tueri—tutum facere, defendere",
+          "term": "tueri—tūtum facere, defendere",
           "gloss": ""
         },
         {
@@ -180,7 +180,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "ferula -ae f",
+          "term": "ferulā -ae f",
           "gloss": ""
         },
         {
@@ -192,7 +192,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "Prometheus ignem re-pellere accendit",
+          "term": "Promētheus ignem re-pellere accendit",
           "gloss": ""
         },
         {
@@ -216,7 +216,7 @@ const chapter = {
           "gloss": "qui alios parvi aestimat"
         },
         {
-          "term": "parēre -uisse",
+          "term": "pārēre -uisse",
           "gloss": ""
         },
         {
@@ -232,15 +232,15 @@ const chapter = {
           "gloss": "mons Asiae"
         },
         {
-          "term": "inter-diu <-> nocte",
+          "term": "inter-diū <-> nocte",
           "gloss": ""
         },
         {
-          "term": "Hercules -is m",
+          "term": "Herculēs -is m",
           "gloss": "Iovis filius fortissimus (v. pag. 14)"
         },
         {
-          "term": "trans-Tre",
+          "term": "trāns-Tre",
           "gloss": ""
         }
       ]
@@ -250,14 +250,14 @@ const chapter = {
       "latinTitle": "3. Centauromachia",
       "title": "",
       "paragraphs": [
-        "Centauri mira monstra fuerunt, quibus vultus, pectora et bracchia hominum erant, cetera vero corporis membra equina; naturam vero ferocem et saevam habebant.",
-        "Olim Pirithous, Lapitharum rex, cum Hippodamen, formosissimam virginem, uxorem ducere vellet, ideo convi convīvium parāverat, ad quod etiam feros Centauros una cum ceteris per nuntios vocavit. Servi domum totam multis pulchrisque floribus exornaverant, vestibus pretiosis omnes lectos straverant, in mensas vasa argentea, in quibus cibos optimos apponebant, et pocula aurea, in quae fundebant dulcissimum vinum, imposuerant. Tibicines et fidicines tam iucunda carmina canebant, ut omnes hospites valde delectarentur. “Sane laudandi sunt” dicebant inter se, “et servi, qui tam bene omnia ad convivium paraverunt, et hi fidicines tibicinesque, qui tam pulchre canunt, ut valde animos nostros delectent. Sed ubi est uxor Pirithoi?”",
-        "Cum haec dicerent, Hippodame, pulcherrima virgo, tina cum aliis feminis et matronis triclinium intravit. Omnes Pirithoum ‘felicem’ illā coniuge dicebant. Pirithous vero: “Cibos et vinum, amici” ait, “sine mora a ministris postulate: ii enim dabunt vobis quidquid optaveritis! Gaudeamus, neque quisquam maereat! Quisquis de hōc laetō convivio gaudet, poculum tollat et bibat mecurn! Nunc bibendum et gaudendum est!”",
-        "Diti igitur omnes laeti ab ōvō iisque ad mala fabulabantur optimos cibos gustantes et vinum, quod ministri in pocula fundebant, magnō cum gaudio pōtantēs.",
-        "At subito Centauri, plūrima meri pocula funditus exhauserant, multō vino ebrii, mensas humi prōiecērunt et tōtum convivium turbare coeperunt. Quidam eōrum, nōmine Eurytus, qui māmaximē ēbrius erat, Hippodamen rapuit; alii ra puerunt quas poterant; puellarum mātrōnārumque clamōribus tōta domus replebatur: “Heus, tu, monstrum!” clamabant, “Abstine maniis ā me!” “Ō viri, auxilium ferte!” Omnēs igitur vin, cum haec indigna scelera fierī viderent, statim ē lectis surrēxērunt. Theseus, fortissimus iuvenis, ad Eurytus conversus: “Quae stultitia tē,” inquit, “sceleste, capit, qui Pirithoo ita nocere cōnāris? Tē hoc turpissimum scelus sine poena facere non sinam!”",
-        "Thēseō autem loquentl nihil Eurytus respondit, (neque quidquam dicere poterat, ut verbis sē dēfenderet!) sed iniūriae iniūriam addidit et saevis pugnis eius os ac nobile pectus pulsavit. Tunc Thēseus “Profecto tū,” inquit, “qui non modo feminam illam pulcherrimam abducere ausus es, sed etiam mē nunc verberas, capite puniendus es!”",
-        "Haec verba locutus, signum magnum et grave, quod tricllnium ornabat, sustulit et in Centauri os misit. Ille, sanguinem cum vino mixtum ex ore effiindēns, cecidit supinus in terram neque iam movērl potuit. Tum alii Centauri ferociter pugnare coepērunt et “Arma! Arma!” magnis vocibus clamabant.",
-        "Cum vērō vinum animos valdē excitaret, saeva pugna facta est. Plūrēs ex utraque parte moriēbantur: nec tamen Lapithae dēterrēbantur nē Centauros oppugnarent, sed: “Fortissimus quisque arma sua capiat!” clamabant; “Centauri necandi sunt! Pereant Centauri!” neque prius pugnare dēsiērunt, quam māximam Centaurorum partem interfecērunt, cēterōs vērō aufugere vīdērunt."
+        "Centaurī mīra mōnstra fuērunt, quibus vultūs, pectora et bracchia hominum erant, cētera vērō corporis membra equīna; nātūram vērō ferōcem et saevam habēbant.",
+        "Ōlim Pīrithous, Lapithārum rēx, cum Hippodamen, fōrmōsissimam virginem, uxōrem dūcere vellet, ideō convī convīvium parāverat, ad quod etiam ferōs Centaurōs ūna cum cēterīs per nūntiōs vocāvit. Servī domum tōtam multīs pulchrīsque flōribus exōrnāverant, vestibus pretiōsīs omnēs lectōs strāverant, in mēnsās vāsa argentea, in quibus cibōs optimōs appōnēbant, et pōcula aurea, in quae fundēbant dulcissimum vīnum, imposuerant. Tībīcinēs et fidicinēs tam iūcunda carmina canēbant, ut omnēs hospitēs valdē dēlectārentur. “Sānē laudandī sunt” dīcēbant inter sē, “et servī, quī tam bene omnia ad convīvium parāvērunt, et hī fidicinēs tībīcinēsque, quī tam pulchrē canunt, ut valdē animōs nostrōs dēlectent. Sed ubi est uxor Pīrithoī?”",
+        "Cum haec dīcerent, Hippodame, pulcherrima virgō, tīna cum aliīs fēminīs et mātrōnīs trīclīnium intrāvit. Omnēs Pīrithoum ‘felicem’ illā coniuge dīcēbant. Pīrithous vērō: “Cibōs et vīnum, amīcī” ait, “sine morā ā ministrīs postulātē: iī enim dabunt vōbīs quidquid optāveritis! Gaudeāmus, neque quisquam maereat! Quisquis dē hōc laetō convīviō gaudet, pōculum tollat et bibat mecurn! Nunc bibendum et gaudendum est!”",
+        "Dītī igitur omnēs laetī ab ōvō iīsque ad mala fābulābantur optimōs cibōs gustantēs et vīnum, quod ministrī in pōcula fundēbant, magnō cum gaudiō pōtantēs.",
+        "At subitō Centaurī, plūrima merī pōcula funditus exhauserant, multō vīnō ēbriī, mēnsās humī prōiecērunt et tōtum convīvium turbāre coepērunt. Quīdam eōrum, nōmine Eurytus, quī māmaximē ēbrius erat, Hippodamen rapuit; aliī ra puērunt quās poterant; puellārum mātrōnārumque clamōribus tōta domus replēbātur: “Heus, tū, mōnstrum!” clāmābant, “Abstinē maniīs ā mē!” “Ō virī, auxilium ferte!” Omnēs igitur vīn, cum haec indigna scelera fierī vidērent, statim ē lectīs surrēxērunt. Thēseus, fortissimus iuvenis, ad Eurytus conversus: “Quae stultitia tē,” inquit, “scelestē, capit, quī Pīrithoō ita nocēre cōnāris? Tē hoc turpissimum scelus sine poenā facere nōn sinam!”",
+        "Thēseō autem loquentl nihil Eurytus respondit, (neque quidquam dīcere poterat, ut verbīs sē dēfenderet!) sed iniūriae iniūriam addidit et saevīs pugnīs eius os ac nōbile pectus pulsāvit. Tunc Thēseus “Profectō tū,” inquit, “quī nōn modo fēminam illam pulcherrimam abdūcere ausus es, sed etiam mē nunc verberās, capite pūniendus es!”",
+        "Haec verba locūtus, signum magnum et grave, quod tricllnium ōrnābat, sustulit et in Centaurī os mīsit. Ille, sanguinem cum vīnō mixtum ex ōre effiindēns, cecidit supīnus in terram neque iam movērl potuit. Tum aliī Centaurī ferōciter pugnāre coepērunt et “Arma! Armā!” magnīs vōcibus clāmābant.",
+        "Cum vērō vīnum animōs valdē excitāret, saeva pugna facta est. Plūrēs ex utrāque parte moriēbantur: nec tamen Lapithae dēterrēbantur nē Centaurōs oppugnārent, sed: “Fortissimus quisque arma sua capiat!” clāmābant; “Centaurī necandī sunt! Pereant Centaurī!” neque prius pugnāre dēsiērunt, quam māximam Centaurōrum partem interfecērunt, cēterōs vērō aufugere vīdērunt."
       ],
       "notes": [
         {
@@ -269,7 +269,7 @@ const chapter = {
           "gloss": "equus"
         },
         {
-          "term": "Pirithous -i m",
+          "term": "Pīrithous -i m",
           "gloss": "Lapithae -arum m pl"
         },
         {
@@ -277,7 +277,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "uxorem ducere",
+          "term": "uxōrem ducere",
           "gloss": "uxorem suam facere velle, coni imperf. vellem vellemus velles velletis vellet vellent"
         },
         {
@@ -289,7 +289,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "re-plere",
+          "term": "rē-plere",
           "gloss": "complere"
         },
         {
@@ -297,7 +297,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "misit",
+          "term": "mīsit",
           "gloss": "iecit"
         },
         {
@@ -305,7 +305,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "supinus -a -um",
+          "term": "supīnus -a -um",
           "gloss": "in tergo iacens"
         },
         {
@@ -319,15 +319,15 @@ const chapter = {
       "latinTitle": "4. Tantalus",
       "title": "",
       "paragraphs": [
-        "Tantalus, Iovis filius, cum nihil magis optaret quam pōtiōnēs et cibos, inter deorum convivia hospes esse solēbat: ab ovō ūsque ad mala cum deis cēnābat, quōs dē variis rēbus fabulantēs audiēbat; omnēs igitur, cum illi praeter cēterōs fīdere solērent, etsi summis dē rēbus consilia interdum capiēbant, liberē tamen inter sē, eō praesente, loquēbantur. At fide Tantalus dignus non erat: nam post convivia coram amicis omnia super deis eorumque consiliis narrabat. Hominēs tamen Tantalō non crēdēbant: eum enim malum nuntium esse et falsos rumores nuntiare putabant. Ōlim vēro, inter convivium, dei per quōsdam nūntiōs cognoverunt Tantalum omnia consilia, de quibus immortales inter sē loqui audiverat, coram hominibus dixisse. Quod cum primum dei scivērunt, scelestum illum capite punire cōnstituērunt. Omnēs igitur simul ‘Tantalum interficiendum esse’ magna vōce clamabant. Iuppiter autem deōs ita clāmantēs interpellavit et “Nolite Tantalum interficiendum esse dicere!” inquit, “Clēmentēs estote! Tantalus non est necandus.” Sed deus quidam “Nimis clēmēns es:” inquit, “quam facile filio tuo, etsi scelesto et nēquam, ignoscere solēs!”",
-        "Tantalus vēro, aliquantum turbatus, ut sē excusaret, deis talia verba dicēbat “Ignoscite mihi dēbili: nimium ego vini biberam atque ēbrius nugas dicere coepi. Neque vēro omnia dixi, nam mala memoria mihi est.” Hic Cupido, deus qui, quamquam iuvenis esse vidētur, senex tamen est, simul atque poculum suum funditus exhausit, exclamavit: “Num ideō tantam iniūriam non esse puniendam cēnsēs? Nōnne mōrēs nostros didicisti? Consilia quae hic audis tibi aperienda nōn sunt.”",
-        "Iuppiter tandem, qui maximam inter deōs habēbat potestatem, hanc sententiam dixit ut poenam iustam statueret “Vitae tibi parcimus, Tantale, sed posthac apud nōs tē cēnāre vetamus.”",
-        "Cum igitur Tantalus, qui supplicium multō sevērius metuerat, ob periculum vitatum valdē laetus esset: “Ō di boni!” exclamavit, “Profecto magnum praemium et magna munera pro vestro beneficio sunt a me vobis danda: omnēs ad s Cenam magnificam domi, apud me, invitamini.”",
-        "Dii, in triclinium floribus ōmātum ingressi et in lectis recipere vestibus pulcherrimis stratis accumbentēs, laetē apud Tantalum cēnābant, qui eis cibōs optimōs appōnēbat pōtiōnēsque, quae eis numquam satis esse vidēbantur, in pōcula fundēbat. Cum igitur plūra ēsse optarent, quidam ex diis, impatiēns “Age, Tantale” inquit, “aliōs cibos accipere volumus: iam pridem eōs appositos esse oportēbat! Nimis tardus nōbis vidēris esse.” Tantalus vero, qui cibis carebat, filium parvum, nomine Pelopem, quem domi educaverat, eo consilio vocavit ut eum necaret eiusque carnes coctas deis in convivio cubantibus apponeret. Sic Tantalus, qui etiam cognoscere volebat utrum dii omnia animadverterent, carnes miseri filii inhumane interfecti e culina in triclinium portavit.",
-        "Cum autem dii alios cibos tandem apportari aliasque potiones fundi viderent “Vivat Tantalus!” clamaverunt, “Gaudeamus omnes!” lam deos, quos nemo fallere potest, scelere occultato se decepisse credebat Tantalus, sed cum primum illas carnes in mensa appositas dii spectaverunt, statim supplicium, quod Pelops passus erat, intellexerunt.",
-        "Dea igitur quaedam, “O Tantale,” inquit, “crudelissime pater: filium tuum necavisti!” “Quamobrem” ait Iuppiter, “nobis filii tui carnes apponere es ausus? Quis umquam tam turpe et inhumanum scelus fecit?” Ceteris deis severissimam poenam invocantibus, “Profecto maximo supplicio afficieris;” inquit deorum pater, “ō Tantale, quod nisi factum erit, etiam homines nequam, te imitati, talia scelera committent; nec enim quidquam, nisi poena severa, huius generis homines ab iniuriis et maleficiis deterrere potest.”",
-        "Omnes igitur convivae uno ore exclamaverunt: “Pereat Tantalus, pater crudelissimus et iniustissimus, ne nomine quidem patris dignus! Iuppiter eum maximis perdat cruciatibus!” Tantalum igitur ad Inferos Iuppiter proiecit et in flumen usque ad medium corpus mersit ut supplicium, quod ille pro scelere facto merebat, sumeret.",
-        "Ex eo tempore Tantalus, in Inferorum flumine stans, fame et siti, quae nullum habent finem, excruciatur: nam simul atque bibere conatur, aqua, quam haurire vult, recedit; et cum poma, quae super caput sunt, sumere cupit, ventus ea retrahit priusquam capiat. Sic pater ille sceleratus, debilis et invalidus, sine cibo et sine potione semper manet. Dii vero Pelopis membra, ut fuerant, composuerunt, eique iterum vitam dederunt."
+        "Tantalus, Iovis fīlius, cum nihil magis optāret quam pōtiōnēs et cibōs, inter deōrum convīvia hospes esse solēbat: ab ovō ūsque ad mala cum deīs cēnābat, quōs dē variīs rēbus fabulantēs audiēbat; omnēs igitur, cum illī praeter cēterōs fīdere solērent, etsī summīs dē rēbus cōnsilia interdum capiēbant, liberē tamen inter sē, eō praesente, loquēbantur. At fide Tantalus dignus nōn erat: nam post convīvia cōram amīcīs omnia super deīs eōrumque cōnsiliīs nārrābat. Hominēs tamen Tantalō nōn crēdēbant: eum enim mālum nūntium esse et falsōs rūmōrēs nūntiāre putābant. Ōlim vēro, inter convīvium, deī per quōsdam nūntiōs cognōvērunt Tantalum omnia cōnsilia, dē quibus immortālēs inter sē loquī audīverat, cōram hominibus dīxisse. Quod cum prīmum deī scivērunt, scelestum illum capite pūnīre cōnstituērunt. Omnēs igitur simul ‘Tantalum interficiendum esse’ magnā vōce clāmābant. Iuppiter autem deōs ita clāmantēs interpellāvit et “Nōlīte Tantalum interficiendum esse dīcere!” inquit, “Clēmentēs ēstote! Tantalus nōn est necandus.” Sed deus quīdam “Nimis clēmēns es:” inquit, “quam facile fīliō tuō, etsī scelestō et nēquam, ignōscere solēs!”",
+        "Tantalus vēro, aliquantum turbātus, ut sē excūsāret, deīs tālia verba dicēbat “Ignōscite mihi dēbili: nimium ego vīnī biberam atque ēbrius nūgās dīcere coepī. Neque vēro omnia dīxī, nam mala memoria mihi est.” Hic Cupīdō, deus quī, quamquam iuvenis esse vidētur, senex tamen est, simul atque pōculum suum funditus exhausit, exclāmāvit: “Num ideō tantam iniūriam nōn esse pūniendam cēnsēs? Nōnne mōrēs nostrōs didicistī? Cōnsiliā quae hic audīs tibi aperienda nōn sunt.”",
+        "Iuppiter tandem, quī maximam inter deōs habēbat potestātem, hanc sententiam dīxit ut poenam iūstam statueret “Vītae tibi parcimus, Tantale, sed posthāc apud nōs tē cēnāre vetāmus.”",
+        "Cum igitur Tantalus, quī supplicium multō sevērius metuerat, ob perīculum vītātum valdē laetus esset: “Ō dī bonī!” exclāmāvit, “Profectō magnum praemium et magna mūnera prō vestrō beneficiō sunt ā mē vōbīs danda: omnēs ad s Cēnam magnificam domī, apud mē, invītāminī.”",
+        "Dīī, in trīclīnium flōribus ōmātum ingressī et in lectīs recipere vestibus pulcherrimīs strātīs accumbentēs, laetē apud Tantalum cēnābant, quī eīs cibōs optimōs appōnēbat pōtiōnēsque, quae eīs numquam satis esse vidēbantur, in pōcula fundēbat. Cum igitur plūra ēsse optārent, quīdam ex dīīs, impatiēns “Age, Tantale” inquit, “aliōs cibōs accipere volumus: iam prīdem eōs appositōs esse oportēbat! Nimis tardus nōbis vidēris esse.” Tantalus vērō, quī cibīs carēbat, fīlium parvum, nōmine Pelopem, quem domī ēducāverat, eō cōnsiliō vocāvit ut eum necāret eiusque carnēs coctās deīs in convīviō cubantibus appōneret. Sīc Tantalus, quī etiam cognōscere volēbat utrum dīī omnia animadverterent, carnēs miserī fīliī inhūmānē interfectī ē culīnā in trīclīnium portāvit.",
+        "Cum autem dīī aliōs cibōs tandem apportārī aliāsque pōtiōnēs fundī vidērent “Vīvat Tantalus!” clāmāvērunt, “Gaudeāmus omnēs!” lam deōs, quōs nēmō fallere potest, scelere occultātō sē dēcēpisse crēdēbat Tantalus, sed cum prīmum illās carnēs in mēnsā appositās dīī spectāvērunt, statim supplicium, quod Pelops passus erat, intellēxērunt.",
+        "Dea igitur quaedam, “Ō Tantale,” inquit, “crūdēlissimē pater: fīlium tuum necāvistī!” “Quamobrem” ait Iuppiter, “nōbīs fīliī tuī carnēs appōnere es ausus? Quis umquam tam turpe et inhūmānum scelus fēcit?” Cēterīs deīs sevērissimam poenam invocantibus, “Profectō maximō suppliciō afficiēris;” inquit deōrum pater, “ō Tantale, quod nisi factum erit, etiam hominēs nēquam, tē imitātī, tālia scelera committent; nec enim quidquam, nisi poena sevēra, huius generis hominēs ab iniūriīs et maleficiīs dēterrēre potest.”",
+        "Omnēs igitur convīvae ūnō ōre exclāmāvērunt: “Pereat Tantalus, pater crūdēlissimus et iniūstissimus, nē nōmine quidem patris dignus! Iuppiter eum maximīs perdat cruciātibus!” Tantalum igitur ad Īnferōs Iuppiter prōiēcit et in flūmen usque ad medium corpus mersit ut supplicium, quod ille prō scelere factō merēbat, sūmeret.",
+        "Ex eō tempore Tantalus, in Īnferōrum flūmine stāns, famē et sitī, quae nūllum habent fīnem, excruciātur: nam simul atque bibere cōnātur, aqua, quam haurīre vult, recēdit; et cum pōma, quae super caput sunt, sūmere cupit, ventus ea retrahit priusquam capiat. Sīc pater ille scelerātus, dēbilis et invalidus, sine cibō et sine pōtiōne semper manet. Dīī vērō Pelopis membra, ut fuerant, composuērunt, eīque iterum vītam dedērunt."
       ],
       "notes": [
         {
@@ -335,7 +335,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "consilium capere",
+          "term": "cōnsilium capere",
           "gloss": "constituere"
         },
         {
@@ -343,11 +343,11 @@ const chapter = {
           "gloss": "nonnumquam"
         },
         {
-          "term": "immortales -ium m pi= dii",
+          "term": "immortālēs -ium m pi= dii",
           "gloss": ""
         },
         {
-          "term": "scire-ivisse",
+          "term": "scīre-ivisse",
           "gloss": ""
         },
         {
@@ -359,7 +359,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "me danda sunt",
+          "term": "mē danda sunt",
           "gloss": "me dare oportet"
         },
         {
@@ -371,7 +371,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "de-cipere -cepisse -ceptum",
+          "term": "dē-cipere -cepisse -ceptum",
           "gloss": "fallere"
         },
         {
@@ -391,7 +391,7 @@ const chapter = {
           "gloss": "poma sunt mala, pira, uvae, cet."
         },
         {
-          "term": "com-ponere",
+          "term": "com-pōnere",
           "gloss": "cum-ponere"
         }
       ]
@@ -401,19 +401,19 @@ const chapter = {
       "latinTitle": "5. Cadmus",
       "title": "",
       "paragraphs": [
-        "Agenor, qui rex erat in quadam Asiae urbe, postquam Iuppiter eius filiam rapuit, coram filiis locutus est, et: “Multi iam dies sunt” inquit, “cum Europam, sororem vestram, non vidi; a praedonibus eam raptam esse credo!” Rex vero, cum nesciret ubi puella esset, atque de eius vita valde timeret, suasit iuvenibus ut sororem quaererent et: “Si forte” inquit “illos scelestos praedones inveneritis, qui cruce aliisque suppliciis digni sunt, nolite iis ignoscere, sed, cum capti erunt, facite ut per nuntios rem cognoscam; nam in eos severissimas poenas statuere oportebit; nisi autem filiam ad me reduxeritis, prohibebo vos iterum in hanc domum intrare, immo etiam in ipsam patriam redire: vos enim nomine filiorum indignos esse censebo.”",
-        "Quibus verbis auditis, omnes filii (inter quos erat quidam nomine Cadmus) e patris domo exierunt et: “Nescio,” inquit quidam eorum, “quid faciamus: nobis enim per totum mare omnesque terras soror quaerenda erit; nec umquam inveniemus, nisi diu quaesiverimus.” Statuerunt igitur Ut alii alias regiones peterent.",
-        "At Cadmus Apollinem deum, quem dignissimum fide esse censebat, ante omnes interrogare voluit. Graeciam igitur petivit, ubi Apollinis templum situm erat, ut deum rogaret ubi esset soror. Itaque venit ad dei templum et: “Esto mihi bonus,” inquit, “Apollo; nam coram te venire audeo ut de mea sorore interrogem, quam praedones rapuerunt.”",
-        "Deus autem: “Noli credere sororem a praedonibus raptam esse aut iniuriam ullam pati: illa enim bene se habet, neque vero tecum redire poterit, quia eam Iuppiter apud se retinet. Scio tamen patrem te prohibuisse domum sine sorore redire, neque hinc sine ullo consilio te dimittere volo. Cum enim pius mihi videaris, tibi bene volo et auxilium feram, ut terram tibi habitandam invenias, quae nova patria tibi erit. Hoc igitur facias: cum e templo exieris, vaccam pulchram videbis comibus paene aureis, quae numquam ruri laboravit; ea in latere plenam lunam gerere videbitur; tibi suadeo ut eam sequaris: nam ubi constiterit, ibi urbis moenia tibi aedificanda erunt.” Apollo, haec verba locutus, tacuit.",
-        "Cadmus vērō, quī deō parēre volebat, cum primum exiit, illam pulchram vaccam conspexit, quae aurea cornua gerebat; itaque, confidens Apollinis verbis, eam, etsi per longum tempus terrāsque multas ambulavit, usque ad locum quendam ignotum, pulcherrimum tamen, secūtus est. Tum, simul atque eam consistere et in herba recumbere vidit, imperavit cuidam militi (nam, cum esset princeps sui populi, sēcum aliquot amicos mīlitēsque dūcēbat) ut fontem quaereret et inde aquam afferret.",
-        "Cum vērō post longum tempus ille nondum rediret: “Multae iam sunt horae” inquit, “cum militem ad fontem misi; Cur nondum revertit? Eum iam pridem hic adesse oportuit!” Alterum igitur militem arcessivit elque imperavit ut priorem inveniret. At post complūrēs hōrās nē alter quidem miles apparuit.",
-        "Tertio vērō milite misso nec postea ūllō in loco viso, princeps metuere coepit; sed dii, qui tantum bonōs piōsque hominēs amant quantum malōs prāvōsque ōdērunt, auxilium ei ferre voluērunt: Minerva igitur, quae iuvenl prae cēterīs mortalibus bene volēbat, ē summō Olympo dēscendit, et simul atque ei occurrit: “Ō Cadme bone,” inquit, “Agenoris fili: mīlitēs tui interfecti sunt ā scelestissimo mōnstrō, quod apud fontem ad quem eōs miseras vivit. Tū tamen esto fortis! Nam illud nēquam monstrum pūnīre oportet, propter maximam iniūriam, quam tibi tuisque militibus fecit. Est enim draco tam saevus, ut hominēs vivos edat nec umquam satis habeat. Tibi ille ferox draco capite puniendus est; cape igitur hastam tuam et confide mihi, nec quidquam mali timeas.”",
-        "Quibus verbis auditis, Cadmus, nihil iam timens: “Eamus!” inquit, “Verba deorum fide dignissima esse cēnseō, neque quidquam mali mē terret; quamobrem, vidē, hastam capiō quā, cum occurrerimus mōnstrō, illud occidam. Age igitur: ei occurramus et vincamus!”",
-        "Postquam dea et vir ad fontem pervēnērunt, Cadmus pulchritūdinem loci mirabatur: erat enim silva amoenissima, rēge digna; media vērō in silva alta arbor ērigēbātur, vīsū mirabilis, sub quā erat fons aquarum frigidarum, quae vere Cadmus draconem Hasta transfigere conatur E draconis dentibus, quos Cadmus in agro sparsit, homines oriuntur purae esse videbantur. At in ipsa arbore dea statim viro magnum draconem ostendit, qui, simul atque animadvertit eos adesse, Iratus rubrum suum caput erexit et corpus totum celerrime huc et illuc movebat, ut eos terreret.",
-        "Cadmus vero, cum militum suorum ossa, cruore aspersa, sub arbore iacentia videret, nullo modo deterritus est ne saevum draconem oppugnaret, at protinus magna voce clamavit: “Pereat istud monstrum, dignum pessima morte! Quoniam tantam in me et amicos iniuriam fecit, certe mihi est puniendum: nec enim eius ferocia me deterret ne in illud impetum faciam!”",
-        "Haec verba locutus, draconem hasta transfigere conabatur, qui tamen celeriter movebatur et mordere inimicum volebat. Cum vero dea haec videret: “Cave” inquit “hanc bestiam Infidam: non enim eam occides, si modo caput hasta petiveris: in ventrem faciendus est tibi impetus!” Cadmus igitur magnam hastam in Imum draconis ventrem tanta vi tantoque impetu mersit, ut bestiam arbori figeret; quae, postquam multum veneni per os effudit, inter magnos dolores mortua est.",
-        "Dea vero, cum Cadmum magna tristitia affectum videret propter amorem erga fidos milites, qui a dracone tam horrenda morte erant occisi, iuveni, cui novos socios dare volebat, suasit ut dentes ex ore draconis extractos in agro quodam sereret; quod simul atque factum est, e terra homines orti sunt arma gerentes, qui iuvenem valde terruerunt; sed Minerva: “Esto fortis, mi Cadme:” inquit, “illi certe sunt homines mali et scelesti, Infidi et falsi: nec enim quisquam inter eos fide dignus est, sed turpissima scelera facient; tu vero, ut mortem fugias certam, tua hasta unum eorum a tergo pulsa et videbis eos inter se usque ad mortem pugnantes.”",
-        "Minervae verbis parens, Cadmus tergum cuiusdam ex illis militibus e terra natis hasta percussit: qui, credens se ab alio milite pulsatum esse, eum gladio transfixit; ita ii feri homines ex agro orti suis armis inter se occidebant; post longam autem pugnam eorum tres tantum manserunt; quos Minerva Cadmo suasit ut amicos sociosque acciperet. Cum iis igitur iuvenis moenia urbis aedificavit, quam ‘Cadmeiam’ a nomine suo vocavit; incolae autem, post Cadmi mortem, eam ‘Thebas’ appellaverunt."
+        "Agēnor, quī rēx erat in quādam Asiae urbe, postquam Iuppiter eius fīliam rapuit, cōram fīliīs locūtus est, et: “Multī iam diēs sunt” inquit, “cum Eurōpam, sorōrem vestram, nōn vīdī; ā praedōnibus eam raptam esse crēdō!” Rēx vērō, cum nescīret ubi puella esset, atque dē eius vīta valdē timēret, suāsit iuvenibus ut sorōrem quaererent et: “Sī forte” inquit “illōs scelestōs praedōnēs invēnerītis, quī cruce aliīsque suppliciīs dignī sunt, nōlīte iīs ignōscere, sed, cum captī erunt, facite ut per nūntiōs rem cognōscam; nam in eōs sevērissimās poenās statuere oportēbit; nisi autem fīliam ad mē redūxeritis, prohibēbō vōs iterum in hanc domum intrāre, immō etiam in ipsam patriam redīre: vōs enim nōmine fīliōrum indignōs esse cēnsēbō.”",
+        "Quibus verbīs audītīs, omnēs fīliī (inter quōs erat quīdam nōmine Cadmus) ē patris domō exiērunt et: “Nesciō,” inquit quīdam eōrum, “quid faciāmus: nōbīs enim per tōtum mare omnēsque terrās soror quaerenda erit; nec umquam inveniēmus, nisi diū quaesīverimus.” Statuērunt igitur Ut aliī aliās regiōnēs peterent.",
+        "At Cadmus Apollinem deum, quem dignissimum fide esse cēnsēbat, ante omnēs interrogāre voluit. Graeciam igitur petīvit, ubi Apollinis templum situm erat, ut deum rogāret ubi esset soror. Itaque venit ad deī templum et: “Estō mihi bonus,” inquit, “Apollō; nam cōram tē venīre audeō ut dē meā sorōre interrogem, quam praedōnēs rapuērunt.”",
+        "Deus autem: “Nōlī crēdere sorōrem ā praedōnibus raptam esse aut iniūriam ūllam patī: illa enim bene sē habet, neque vērō tēcum redīre poterit, quia eam Iuppiter apud sē retinet. Sciō tamen patrem tē prohibuisse domum sine sorōre redīre, neque hinc sine ūllō cōnsiliō tē dīmittere volō. Cum enim pius mihi videāris, tibi bene volō et auxilium feram, ut terram tibi habitandam inveniās, quae nova patria tibi erit. Hoc igitur faciās: cum ē templō exierīs, vaccam pulchram vidēbis cōmibus paene aureīs, quae numquam rūrī labōrāvit; ea in latere plēnam lūnam gerere vidēbitur; tibi suādeō ut eam sequāris: nam ubi cōnstiterit, ibi urbis moenia tibi aedificanda erunt.” Apollō, haec verba locūtus, tacuit.",
+        "Cadmus vērō, quī deō parēre volēbat, cum prīmum exiit, illam pulchram vaccam cōnspexit, quae aurea cornua gerēbat; itaque, cōnfīdēns Apollinis verbīs, eam, etsī per longum tempus terrāsque multās ambulāvit, usque ad locum quendam ignōtum, pulcherrimum tamen, secūtus est. Tum, simul atque eam cōnsistere et in herbā recumbere vīdit, imperāvit cuidam mīlitī (nam, cum esset prīnceps suī populī, sēcum aliquot amīcōs mīlitēsque dūcēbat) ut fontem quaereret et inde aquam afferret.",
+        "Cum vērō post longum tempus ille nōndum redīret: “Multae iam sunt hōrae” inquit, “cum mīlitem ad fontem mīsī; Cūr nōndum revertit? Eum iam prīdem hic adesse oportuit!” Alterum igitur mīlitem arcessīvit elque imperāvit ut priōrem invenīret. At post complūrēs hōrās nē alter quidem mīles appāruit.",
+        "Tertiō vērō mīlite missō nec posteā ūllō in locō vīsō, prīnceps metuere coepit; sed dīī, quī tantum bonōs piōsque hominēs amant quantum malōs prāvōsque ōdērunt, auxilium eī ferre voluērunt: Minerva igitur, quae iuvenl prae cēterīs mortālibus bene volēbat, ē summō Olympō dēscendit, et simul atque eī occurrit: “Ō Cadme bone,” inquit, “Agēnoris fīlī: mīlitēs tuī interfectī sunt ā scelestissimō mōnstrō, quod apud fontem ad quem eōs miserās vīvit. Tū tamen estō fortis! Nam illud nēquam mōnstrum pūnīre oportet, propter maximam iniūriam, quam tibi tuīsque mīlitibus fēcit. Est enim dracō tam saevus, ut hominēs vīvōs ēdat nec umquam satis habeat. Tibi ille ferōx dracō capite pūniendus est; cape igitur hastam tuam et cōnfīde mihi, nec quidquam malī timeās.”",
+        "Quibus verbīs audītīs, Cadmus, nihil iam timēns: “Eāmus!” inquit, “Verba deōrum fide dignissima esse cēnseō, neque quidquam malī mē terret; quamobrem, vidē, hastam capiō quā, cum occurrerīmus mōnstrō, illud occīdam. Age igitur: eī occurrāmus et vincāmus!”",
+        "Postquam dea et vir ad fontem pervēnērunt, Cadmus pulchritūdinem locī mīrābātur: erat enim silva amoenissima, rēge digna; mediā vērō in silvā altā arbor ērigēbātur, vīsū mīrābilis, sub quā erat fōns aquārum frīgidārum, quae vērē Cadmus dracōnem Hasta trānsfīgere cōnātur Ē dracōnis dentibus, quōs Cadmus in agrō sparsit, hominēs oriuntur pūrae esse vidēbantur. At in ipsā arbore dea statim virō magnum dracōnem ostendit, quī, simul atque animadvertit eōs adesse, Īrātus rubrum suum caput ērēxit et corpus tōtum celerrimē hūc et illūc movēbat, ut eōs terrēret.",
+        "Cadmus vērō, cum mīlitum suōrum ossa, cruōre aspersa, sub arbore iacentia vidēret, nūllō modō dēterritus est nē saevum dracōnem oppugnāret, at prōtinus magnā vōce clāmāvit: “Pereat istud mōnstrum, dignum pessimā morte! Quoniam tantam in mē et amīcōs iniūriam fēcit, certē mihi est pūniendum: nec enim eius ferōcia mē dēterret nē in illud impetum faciam!”",
+        "Haec verba locūtus, dracōnem hastā trānsfīgere cōnābātur, quī tamen celeriter movēbātur et mordēre inimīcum volēbat. Cum vērō dea haec vidēret: “Cave” inquit “hanc bēstiam Īnfīdam: nōn enim eam occīdēs, sī modo caput hastā petīverīs: in ventrem faciendus est tibi impetus!” Cadmus igitur magnam hastam in Īmum dracōnis ventrem tantā vī tantōque impetū mersit, ut bēstiam arborī fīgeret; quae, postquam multum venēnī per os effūdit, inter magnōs dolōrēs mortua est.",
+        "Dea vērō, cum Cadmum magna trīstitia affectum vidēret propter amōrem ergā fīdōs mīlitēs, quī ā dracōne tam horrenda morte erant occīsī, iuvenī, cui novōs sociōs dare volēbat, suāsit ut dentēs ex ōre dracōnis extractōs in agrō quōdam sereret; quod simul atque factum est, ē terrā hominēs ortī sunt arma gerentēs, quī iuvenem valdē terruērunt; sed Minerva: “Estō fortis, mī Cadme:” inquit, “illī certē sunt hominēs malī et scelestī, Īnfīdī et falsī: nec enim quisquam inter eōs fide dignus est, sed turpissima scelera facient; tū vērō, ut mortem fugiās certam, tua hasta ūnum eōrum ā tergō pulsā et vidēbis eōs inter sē usque ad mortem pugnantēs.”",
+        "Minervae verbīs parēns, Cadmus tergum cuiusdam ex illīs mīlitibus ē terrā natis hasta percussit: quī, crēdēns sē ab aliō mīlite pulsātum esse, eum gladiō trānsfīxit; ita iī ferī hominēs ex agrō ortī suīs armīs inter sē occīdēbant; post longam autem pugnam eōrum trēs tantum mānsērunt; quōs Minerva Cadmō suāsit ut amīcōs sociōsque acciperet. Cum iīs igitur iuvenis moenia urbis aedificāvit, quam ‘Cadmēiam’ ā nōmine suō vocāvit; incolae autem, post Cadmī mortem, eam ‘Thēbās’ appellāvērunt."
       ],
       "notes": [
         {
@@ -421,19 +421,19 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "Agenor-oris m",
+          "term": "Agēnor-ōrīs m",
           "gloss": ""
         },
         {
-          "term": "Europa-aef=Agenoris filia",
+          "term": "Eurōpa-aef=Agēnoris filia",
           "gloss": ""
         },
         {
-          "term": "st forte",
+          "term": "sT forte",
           "gloss": "st fortasse"
         },
         {
-          "term": "alii alias (",
+          "term": "aliī alias (",
           "gloss": "quasdam) regiones, alii alias pete rent"
         },
         {
@@ -449,15 +449,15 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "e-rigere -rexisse -rēctum",
+          "term": "ē-rigere -rexisse -rēctum",
           "gloss": "tollere"
         },
         {
-          "term": "ferocia -ae f",
+          "term": "ferōcia -ae f",
           "gloss": "ferox"
         },
         {
-          "term": "trans -figere",
+          "term": "trāns -figere",
           "gloss": "per medium corpus figere"
         },
         {
@@ -488,7 +488,7 @@ const chapter = {
     }
   ],
   "plates": [
-    "Deucalion et Pyrrha, capitibus opertis, lapides post se iaciunt, e quibus viri et feminae nascuntur."
+    "Deucaliōn et Pyrrha, capitibus opertīs, lapidēs post sē iaciunt, ē quibus virī et fēminae nāscuntur."
   ],
   "grammar": [],
   "vocabulary": [],

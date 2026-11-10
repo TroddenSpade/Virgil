@@ -14,33 +14,33 @@ const chapter = {
   "readings": [
     {
       "id": "apollo-et-hyacinthus",
-      "latinTitle": "1. Apollo et Hyacinthus",
+      "latinTitle": "1. Apollō et Hyacinthus",
       "title": "",
       "paragraphs": [
-        "Cum olim Apollo, lucis cantusque deus, in terris formosissimum puerum conspexisset, qui ei pulchrior quam omnes immortales visus erat, de alto Olympo descendit ut cum eo inter homines versaretur. Nihil enim ei gratius iam poterat esse quam ipsum nomen Hyacinthi: sic enim puer vocabatur.",
-        "Tam laetus erat Apollo, ut cum Hyacintho totos dies consumere vellet, ut cum eo per silvāsas et campos erraret, aut in molli herba, sole in caelo lucente, apud purum rivum in arboris umbra quiesceret. Saepe etiam gaudebant ludendo: modo enim certabant cursu, modo hastis aut discis iaciendis; modo vero in fluminum aquis natabant. Apollo tanto amore erga puerum accensus erat, ut eum in omnibus certaminibus vincere sineret, ne tristitia afficeretur, si forte victus esset.",
-        "Olim igitur, cum, positis vestimentis, oleo membra aspersissent, in latissimo campo herbis operto discis iactandis certabant; Hyacinthus, qui certandi studiosissimus erat, prior discum in aera omnibus lacertorum viribus emisit; qui, se celerrime vertens, usque ad caelum ascendit, atque, cum nubes scidisset, rursus ad terram descendit, ceciditque procul a loco unde puer et deus intuebantur. Laudat Apollo Hyacinthi vires et artem: gaudet atque laetatur pueri animus amici dei laude.",
-        "Erat tunc Apollini tempus mittendi disci per aera: qui, cum vincere nollet, minore vi suum discum iecit, ne longius caderet quam discus Hyacinti; utinam tamen numquam emisisset! Zephyrus enim, qui iam diu, occultatus inter nubes, eos ludentes spectabat, cum ipse quoque pueri amōre accensus esset, et Apollini hac de causa invideret, iratus in discum vehementi flatu spiravit; quod cum fecisset, discus, de suō cursu flectens, Hyacinthi caput graviter percussit. Puer, cum tam valido ictū pulsatus esset, statim ad terram cecidit atque in manibus Apollinis, qui continuo accurrerat ad auxilium ferendum, ex vulnere mortuus est.",
-        "Apollō vēro maestus multis cum lacrimis amici mortem lugebat eiusque formosissimum corpus sine vita complectens, se ipse accusabat: “Nisi discum iecissem, nōn mortuus essēs, mi Hyacinthe, tam iuvenis, tantaque pulchritudine ōmātus! Quid nunc faciam? Nisi deus essem, ego quoque tēcum, amice carissime, dolore morerer!”",
-        "Cum talia diceret, sanguis ex Hyacinthi vulnere effundi non desinebat; qui, cum terram attigisset, in pulcherrimum mirabilemque florem mutatus est. Quem cum Apollō vidisset, “Hic flōs” inquit “ad tuam memoriam servandam ortus, in se inscriptam habebit mei doloris vocem!”",
-        "Haec locutus, manu leviter floris folia tetigit: et ecce! Statim in iis ‘AI’ litterae ad Apollinis clamorem commemorandum apparuerunt, quae adhuc in illius flōris foliis scripta cernuntur.",
-        "Pastor, qui in campō oves pascebat, cum haec omnia vidisset, tristis ac maerens hoc carmen continuo compositum animō valde commōtō cecinit:",
-        "Descendebat Apollō altō de vertice Olympi aurātāsque domōs, divorum tecta, relinquens,",
-        "oppida clara hominum, ridentiaque arva petebat",
-        "egregia pueri forma pellectus honesti,",
-        "iungi mortalem sibi non contemnit amicum. Nōmen dulce sonans Phoebō levis aura ferebat:",
-        "gratius illi nil Hyacinthi nomine visum est. Cum puero ludebat Apollo prato in aperto: corporibus nudis, agitantes candida membra splendida mittebant trans aera pondera disci.",
-        "Invidus adstabat vehementi flamine anhelans occiduus ventus, qui veris signa reducit. Attamen, iratus, puerum nunc laedere mavult",
-        "auricomum sibi qui divum praeponit amanti. Nubes ex toto caelo iam congerit atras quas Zephyri flatus saepe ante fugare solebant. Amens odit amatque ruitque solo impete caeco secumque ipse igitur tanta impia dicta revolvit: “Si me fastidis refugisque fronte superba o formose puer, nimio splendore corusce, ō Hyacinthe cui radiant ut sidera ocelli",
-        "quis tu me misere perdis, nunc accipe poenas: umquam nemo te, me nunc si spernis, amabit. Sic fatus lacrimans, infesto flamine flavit; Viribus tunc magnis scidit deus aera disco At discum Zephyrus deflexit flatu odioso in vultus, Hyacinthe, tuos. Expalluit aeque",
-        "quam puer ipse deus collapsosque excipit artus, et modo te refovet, modo tristia vulnera siccat, nunc animam admotis fugientem sustinet herbis.",
-        "Nil prosunt artes: erat immedicabile vulnus.",
-        "“Laberis, Oebalide...”",
-        "Phoebus ait “videoque tuum, mea crimina, vulnus.",
-        "Tu dolor es facinusque meum.......ego sum tibi funeris auctor.",
-        "Quae mea culpa tamen, nisi si lusisse vocari culpa potest, nisi culpa potest et amasse vocari? Atque utinam tecumque mori vitamque liceret reddere!... Semper eris mecum... Te lyra pulsa manu, te carmina nostra sonabunt, flosque novus scripto gemitus imitabere nostros.”",
-        "ecce cruor, qui fusus humo signaverat herbas,",
-        ". desinit esse cruor... flos oritur formamque capit, quam lilia, si non purpureus color his, argenteus esset in illis. Non satis hoc Phoebo est:... ipse suos gemitus foliis inscribit, et“AI AI” flos habet inscriptum."
+        "Cum ōlim Apollō, lūcis cantūsque deus, in terrīs fōrmōsissimum puerum cōnspexisset, quī eī pulchrior quam omnēs immortālēs vīsus erat, dē altō Olympō dēscendit ut cum eō inter hominēs versārētur. Nihil enim eī grātius iam poterat esse quam ipsum nōmen Hyacinthī: sīc enim puer vocābātur.",
+        "Tam laetus erat Apollō, ut cum Hyacinthō tōtōs diēs cōnsūmere vellet, ut cum eō per silvāsas et campōs errāret, aut in mollī herbā, sōle in caelō lūcente, apud pūrum rīvum in arboris umbra quiēsceret. Saepe etiam gaudēbant lūdendō: modo enim certābant cursū, modo hastīs aut discīs iaciendīs; modo vērō in flūminum aquīs natābant. Apollō tantō amōre ergā puerum accēnsus erat, ut eum in omnibus certāminibus vincere sineret, nē trīstitia afficerētur, sī forte victus esset.",
+        "Ōlim igitur, cum, positīs vestīmentīs, oleō membra aspersissent, in lātissimō campō herbīs opertō discīs iactandīs certābant; Hyacinthus, quī certandī studiōsissimus erat, prior discum in āera omnibus lacertōrum vīribus ēmīsit; quī, sē celerrimē vertēns, usque ad caelum ascendit, atque, cum nūbēs scidisset, rūrsus ad terram dēscendit, ceciditque procul ā locō unde puer et deus intuēbantur. Laudat Apollō Hyacinthī vīrēs et artem: gaudet atque laetātur puerī animus amīcī deī laude.",
+        "Erat tunc Apollinī tempus mittendī discī per āera: quī, cum vincere nōllet, minōre vī suum discum iēcit, nē longius caderet quam discus Hyacintī; utinam tamen numquam ēmīsisset! Zephyrus enim, quī iam diū, occultātus inter nūbēs, eōs lūdentēs spectābat, cum ipse quoque puerī amōre accēnsus esset, et Apollinī hāc dē causā invidēret, īrātus in discum vehementī flātū spīrāvit; quod cum fēcisset, discus, dē suō cursū flectēns, Hyacinthī caput graviter percussit. Puer, cum tam validō ictū pulsātus esset, statim ad terram cecidit atque in manibus Apollinis, quī continuō accurrerat ad auxilium ferendum, ex vulnere mortuus est.",
+        "Apollō vēro maestus multīs cum lacrimīs amīcī mortem lūgēbat eiusque fōrmōsissimum corpus sine vītā complectēns, sē ipse accūsābat: “Nīsī discum iēcissem, nōn mortuus essēs, mī Hyacinthe, tam iuvenis, tantāque pulchritūdine ōmātus! Quid nunc faciam? Nisi deus essem, ego quoque tēcum, amīce cārissime, dolōre morerer!”",
+        "Cum tālia dīceret, sanguis ex Hyacinthī vulnere effundī nōn dēsinēbat; quī, cum terram attigisset, in pulcherrimum mīrābilemque flōrem mūtātus est. Quem cum Apollō vīdisset, “Hic flōs” inquit “ad tuam memoriam servandam ortus, in sē īnscrīptam habēbit meī dolōris vōcem!”",
+        "Haec locūtus, manū leviter flōrīs folia tetigit: et ecce! Statim in iīs ‘AI’ litterae ad Apollinis clāmōrem commemorandum appāruērunt, quae adhūc in illīus flōris foliīs scrīpta cernuntur.",
+        "Pāstor, quī in campō ovēs pāscēbat, cum haec omnia vīdisset, trīstis ac maerēns hoc carmen continuō compositum animō valdē commōtō cecinit:",
+        "Dēscendēbat Apollō altō dē vertice Olympī aurātāsque domōs, dīvōrum tēcta, relinquēns,",
+        "oppida clāra hominum, rīdentiaque arva petēbat",
+        "ēgregiā puerī fōrmā pellectus honestī,",
+        "iungī mortālem sibi nōn contemnit amīcum. Nōmen dulce sonāns Phoebō levis aura ferēbat:",
+        "grātius illī nīl Hyacinthī nōmine vīsum est. Cum puerō lūdēbat Apollō prātō in apertō: corporibus nūdīs, agitantēs candida membra splendida mittēbant trāns āera pondera discī.",
+        "Invidus adstābat vehementī flāmine anhēlāns occiduus ventus, quī vērīs signa redūcit. Attamen, īrātus, puerum nunc laedere māvult",
+        "auricomum sibi quī dīvum praepōnit amantī. Nūbēs ex tōtō caelō iam congerit ātrās quās Zephyrī flātūs saepe ante fugāre solēbant. Āmēns ōdit amatque ruitque solō impete caecō sēcumque ipse igitur tanta impia dicta revolvit: “Sī mē fastīdīs refugisque fronte superbā ō fōrmōse puer, nimiō splendōre coruscē, ō Hyacinthe cui radiant ut sīdera ocellī",
+        "quis tū mē miserē perdis, nunc accipe poenās: umquam nēmō tē, mē nunc sī spernis, amābit. Sīc fātus lacrimāns, īnfēstō flāmine flāvit; Vīribus tunc magnīs scidit deus aera discō At discum Zephyrus dēflexit flātū odiōsō in vultūs, Hyacinthe, tuōs. Expalluit aequē",
+        "quam puer ipse deus collāpsōsque excipit artūs, et modo tē refovet, modo trīstia vulnera siccat, nunc animam admōtīs fugientem sustinet herbīs.",
+        "Nīl prōsunt artēs: erat immedicābile vulnus.",
+        "“Lāberis, Oebalidē...”",
+        "Phoebus ait “videōque tuum, mea crīmina, vulnus.",
+        "Tū dolor es facinusque meum.......ego sum tibi fūneris auctor.",
+        "Quae mea culpa tamen, nisi sī lūsisse vocārī culpa potest, nisi culpa potest et amāsse vocārī? Atque utinam tēcumque morī vītamque licēret reddere!... Semper eris mēcum... Tē lyrā pulsā manū, tē carmina nostra sonābunt, flōsque novus scrīptō gemitus imitābere nostrōs.”",
+        "ecce cruor, quī fūsus humō signāverat herbās,",
+        ". dēsinit esse cruor... flōs oritur fōrmamque capit, quam līlia, sī nōn purpureus color hīs, argenteus esset in illīs. Nōn satis hōc Phoebō est:... ipse suōs gemitūs foliīs īnscrībit, et“AI AI” flōs habet īnscrīptum."
       ],
       "notes": [
         {
@@ -52,15 +52,15 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "qui",
+          "term": "quī",
           "gloss": "discus"
         },
         {
-          "term": "e-mittere",
+          "term": "ē-mittere",
           "gloss": ""
         },
         {
-          "term": "flatus -us m",
+          "term": "flātūs -us m",
           "gloss": "flare"
         },
         {
@@ -68,7 +68,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "com-movere (< cum + movere)",
+          "term": "com-movēre (< cum + movere)",
           "gloss": "permovere (animum)"
         },
         {
@@ -136,7 +136,7 @@ const chapter = {
           "gloss": "tamen"
         },
         {
-          "term": "auri-comus -a -um",
+          "term": "aurī-comus -a -um",
           "gloss": "aurum + coma (= capillus)"
         },
         {
@@ -148,11 +148,11 @@ const chapter = {
           "gloss": "Apollinem)"
         },
         {
-          "term": "nubes atrās | con-gerere",
+          "term": "nūbēs atrās | con-gerere",
           "gloss": "in unum locum ferre"
         },
         {
-          "term": "fugare",
+          "term": "fugāre",
           "gloss": "in fugam vertere"
         },
         {
@@ -176,7 +176,7 @@ const chapter = {
           "gloss": "contemnere"
         },
         {
-          "term": "re-fugere",
+          "term": "rē-fugere",
           "gloss": ""
         },
         {
@@ -208,15 +208,15 @@ const chapter = {
           "gloss": "sic locutus"
         },
         {
-          "term": "de-flectere",
+          "term": "dē-flectere",
           "gloss": "vertere"
         },
         {
-          "term": "vultus tuos",
+          "term": "vultūs tuos",
           "gloss": "vultum tuum | ex-palluit"
         },
         {
-          "term": "aeque quam",
+          "term": "aequē quam",
           "gloss": "eodem modo atque"
         },
         {
@@ -232,15 +232,15 @@ const chapter = {
           "gloss": "membrum"
         },
         {
-          "term": "re-fovere",
+          "term": "rē-fovere",
           "gloss": "amanter complecti"
         },
         {
-          "term": "siccare",
+          "term": "siccāre",
           "gloss": "siccum facere"
         },
         {
-          "term": "admotis herbis",
+          "term": "admōtīs herbis",
           "gloss": "usus herbis"
         },
         {
@@ -252,7 +252,7 @@ const chapter = {
           "gloss": "qui sanari non potest"
         },
         {
-          "term": "laberis",
+          "term": "lāberis",
           "gloss": "moreris | Oebalides -idae (voc -e) m"
         },
         {
@@ -280,7 +280,7 @@ const chapter = {
           "gloss": "relinquere"
         },
         {
-          "term": "lyra",
+          "term": "lyrā",
           "gloss": "fīdēs (v. pāg. 103) | pulsa: pulsata, tacta"
         },
         {
@@ -300,11 +300,11 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "signaverat",
+          "term": "signāverat",
           "gloss": "colore affecerat"
         },
         {
-          "term": "si non esset",
+          "term": "sī non esset",
           "gloss": "praeter quam quod est"
         },
         {
@@ -315,63 +315,63 @@ const chapter = {
     },
     {
       "id": "narcissus-et-echo",
-      "latinTitle": "2. Narcissus et Echo",
+      "latinTitle": "2. Narcissus et Ēchō",
       "title": "",
       "paragraphs": [
-        "Fuit Echo iucundissima nympha, quae tam pulchra vōce canere fabulasque tam belle narrare solebat, ut ipsa Iūnō, deorum regina, saepe ex alto Olympo descenderet, ut eam canentem loquentemve studiose audiret. Cum vero Iuppiter, qui solus et sine uxore per aliquod temporis spatium manere volebat, hoc animadvertisset, nympham rogavit ut Iūnōnem arcesseret eamque fabulis narrandis aut carminibus canendis longisque sermonibus retineret dum ipse suis rebus studeret. Cum autem Iūnō se a nympha delusam esse sensisset, eam severe punire constituit:",
-        "“Huius” ait “linguae, qua sum delusa, potestas",
-        "parva tibi dabitur vocisque brevissimus usus!” Reque minas firmat: tantum haec in fine loquendi",
-        "ingeminat voces auditaque verba reportat.",
-        "Ex eo igitur tempore misera Echo non iam ipsa quidquam dicere, sed modo novissima aliorum hominum verba repetere potuit. Cum olim infelix nympha per silvāsas erraret, subito Narcissum, formosissimum adulescentulum sedecim annorum, qui arcu et sagittis armatus timidos cervos persequebatur, conspexit; quem cum primum pulcherrimis membris currentem cervique vestigia oculis quaerentem vidisset, statim amavit nec iam sine eo se vivere posse putavit.",
-        "Cum igitur nympha ad eum accessisset seque post arborem occultavisset, Narcissus, qui non iam amicos, quibuscum ad venandum in silvam venerat, videbat, “Num quis adest?” inquit. Quibus verbis Echo statim “Adest!” respondit. Narcissus stupuit; cum vero in omnes partes spectavisset, neque quemquam circa se vidisset,",
-        "voce “Veni!” magna clamat: vocat illa vocantem.",
-        "Respicit et rursus nullo veniente “Quid” inquit “me fugis?’” et totidem, quot dixit, verba recepit.",
-        "Cum etiam atque etiam Narcissus vocem audivisset ad suas voces respondentem, neminem tamen vidisset, per silvāsam ambulare perrexit; cum vero ad apertum campum arboribus circumdatum pervenisset, “Huc coeamus” dixit magna voce. Respondens Echo continuo “Coeamus!” repetivit,",
-        "egressaque silva ibat, ut iniceret sperato bracchia collo;",
-        "ille fugit fugiensque “Manus complexibus aufer!",
-        "Ante” ait ’’emoriar, quam sit tibi copia nostri”;",
-        "rettulit illa nihil nisi “sit tibi copia nostri!” Nympha misera, cum tam turpiter sē contemptam esse sensisset, iterum in silvas fugit ibique latuit, pudore affecta, vīvēns obscūns in antris; nec tamen poterat ex animo deponere amorem, qui, immō, ob dolorem repulsae etiam atque etiam crescebat; cuns confectum corpus extenuatur, et membra in dies graciliora fiunt; paulatim nihil restat, nisi vōx et ossa; vōx tandem manet sola, ossa in lapidem conversa sunt. Vōx igitur sine corpore",
-        "inde latet silvis nūllōque in monte videtur,",
-        "omnibus auditur: sonus est, qui vivit in illa.",
-        "Interea pulcherrimus ille puer tantum errando in silvis feiisque persequendis gaudebat, neque quemquam se amare sinebat, sed omnēs, eōdem modo quō Ēchō despecta erat, contemnebat:",
-        "multi illum iuvenēs, multae cupiere puellae; sed fuit in tenera tam dura superbia forma, nulli illum iuvenēs, nūllae tetigere puellae.",
-        "Olim pervenit Narcissus ad amoenissimum locum, ubi altissimae arbores umbram in rivum faciebant purissimae aquae:",
-        "fons erat illimis, nitidis argenteus undis, quem neque pāstōrēs neque pastae monte capellae contigerant aliudve pecus, quem nulla volucris",
-        "nec fera turbarat nec lapsus ab arbore ramus;",
-        "circa fontem erat mollis herba, in quā puer cum fessus esset currendo per silvāsam, recubuit; deinde, cum sitim pateretur, vultum ad aquam admovit; cum vērō suam imaginem in aqua vidisset, credidit ibi formosissimum latere puerum; cuius amōre statim accensus est, dumque sitim sedare cupit, sitis altera crevit, dumque bibit, visae correptus imagine formae",
+        "Fuit Ēchō iūcundissimā nymphā, quae tam pulchrā vōce canere fābulāsque tam bellē nārrāre solēbat, ut ipsa Iūnō, deōrum rēgīna, saepe ex altō Olympō dēscenderet, ut eam canentem loquentemve studiōsē audīret. Cum vērō Iuppiter, quī sōlus et sine uxōre per aliquod temporis spatium manēre volēbat, hoc animadvertisset, nympham rogāvit ut Iūnōnem arcesseret eamque fābulīs nārrandīs aut carminibus canendīs longīsque sermōnibus retinēret dum ipse suīs rēbus studēret. Cum autem Iūnō sē ā nymphā dēlūsam esse sēnsisset, eam sevērē pūnīre cōnstituit:",
+        "“Huius” ait “linguae, quā sum dēlūsa, potestās",
+        "parva tibi dabitur vōcisque brevissimus ūsus!” Rēque minās firmat: tantum haec in fīne loquendī",
+        "ingeminat vōcēs audītaque verba reportat.",
+        "Ex eō igitur tempore misera Ēchō nōn iam ipsa quidquam dīcere, sed modo novissima aliōrum hominum verba repetere potuit. Cum ōlim īnfēlīx nympha per silvāsas errāret, subitō Narcissum, fōrmōsissimum adulēscentulum sēdecim annōrum, quī arcū et sagittīs armātus timidōs cervōs persequēbātur, cōnspexit; quem cum prīmum pulcherrimīs membrīs currentem cervīque vestīgia oculīs quaerentem vīdisset, statim amāvit nec iam sine eō sē vīvere posse putāvit.",
+        "Cum igitur nympha ad eum accessisset sēque post arborem occultāvisset, Narcissus, quī nōn iam amīcōs, quibuscum ad vēnandum in silvam vēnerat, vidēbat, “Num quis adest?” inquit. Quibus verbīs Ēchō statim “Adest!” respondit. Narcissus stupuit; cum vērō in omnēs partēs spectāvisset, neque quemquam circā sē vīdisset,",
+        "vōce “Vēnī!” magna clāmat: vocat illa vocantem.",
+        "Respicit et rūrsus nūllō veniente “Quid” inquit “mē fugis?’” et totidem, quot dīxit, verba recēpit.",
+        "Cum etiam atque etiam Narcissus vōcem audīvisset ad suās vōcēs respondentem, nēminem tamen vīdisset, per silvāsam ambulāre perrēxit; cum vērō ad apertum campum arboribus circumdatum pervēnisset, “Hūc coeāmus” dīxit magnā vōce. Respondēns Ēchō continuō “Coeāmus!” repetīvit,",
+        "ēgressaque silva ībat, ut iniceret spērātō bracchia collō;",
+        "ille fugit fugiēnsque “Manus complexibus aufer!",
+        "Ante” ait ’’ēmoriar, quam sit tibi cōpia nostrī”;",
+        "rettulit illa nihil nisi “sit tibi cōpia nostrī!” Nympha misera, cum tam turpiter sē contemptam esse sēnsisset, iterum in silvās fūgit ibique latuit, pudōre affectā, vīvēns obscūns in antrīs; nec tamen poterat ex animō dēpōnere amōrem, quī, immō, ob dolōrem repulsae etiam atque etiam crēscēbat; cuns cōnfectum corpus extenuātur, et membra in diēs graciliōra fīunt; paulātim nihil restat, nisi vōx et ossa; vōx tandem manet sōla, ossa in lapidem conversa sunt. Vōx igitur sine corpore",
+        "inde latet silvīs nūllōque in monte vidētur,",
+        "omnibus audītur: sonus est, quī vīvit in illā.",
+        "Intereā pulcherrimus ille puer tantum errandō in silvīs feīīsque persequendīs gaudēbat, neque quemquam sē amāre sinēbat, sed omnēs, eōdem modo quō Ēchō dēspecta erat, contemnēbat:",
+        "multī illum iuvenēs, multae cupiēre puellae; sed fuit in tenerā tam dūra superbiā fōrma, nūllī illum iuvenēs, nūllae tetigēre puellae.",
+        "Ōlim pervēnit Narcissus ad amoenissimum locum, ubi altissimae arborēs umbram in rīvum faciēbant pūrissimae aquae:",
+        "fōns erat illīmīs, nitidīs argenteus undīs, quem neque pāstōrēs neque pastae monte capellae contigerant aliudve pecus, quem nūlla volucris",
+        "nec fera turbārat nec lāpsus ab arbore rāmus;",
+        "circā fontem erat mollis herba, in quā puer cum fessus esset currendō per silvāsam, recubuit; deinde, cum sitim paterētur, vultum ad aquam admōvit; cum vērō suam imāginem in aquā vīdisset, crēdidit ibi fōrmōsissimum latēre puerum; cuius amōre statim accēnsus est, dumque sitim sēdāre cupit, sitis altera crēvit, dumque bibit, vīsae correptus imāgine fōrmae",
         "spem sine corpore amat: corpus putat esse, quod umbra est.",
-        "Stupuit Narcissus cum, humi iacens, spectavisset illos oculos, quae quasi lucentia sidera, ex aqua eum intueri videbantur, et capillos dignos Baccho, dignos Apolline, pulcherrimasque genas et candidum collum decusque",
-        "oris et in niveo mixtum candore ruborem,",
-        "cunctaque miratur, quibus est mirabilis ipse: se cupit (imprudens!) et, qui probat, ipse probatur,",
-        "dumque petit, petitur, pariterque accendit et ardet.",
-        "O, quoties dedit oscula fonti! Quoties conatus est frustra imaginem, quam in aqua videbat, complecti!",
-        "Bracchia mersit aquis nec se deprendit in illis!",
-        "Quid videat, nescit; sed quod videt, uritur illo;",
-        "Miser Narcisse, nonne intellegis nullo in loco, nisi in te ipso, esse quod petis?",
-        "Ista repercussae, quam cernis, imaginis umbra est:",
-        "nil habet ista sui; tecum venitque manetque; tecum discedet, si tu discedere possis!",
-        "Tantus fit amor, quo uritur, ut neque de cibo neque de somno capiendo iam curet: nam ex eo loco averti non iam vult, neque aliud cupit nisi omni tempore formosissimam illam imaginem spectare; Sic vero inter lacrimas ait:",
-        "“Et placet et video; sed quod videoque placetque,",
-        "non tamen invenio” (tantus tenet error amantem!) Narcissus amore capitur suae imaginis in fonte repercussae “Quoque magis doleam, nec nos mare separat ingens",
-        "nec via nec montes nec clausis moenia portis; exigua prohibemur aqua! Cupit ipse teneri: nam quoties liquidis porreximus oscula lymphis, hic toties ad me resupino nititur ore.",
-        "Posse putes tangi: minimum est, quod amantibus obstat! Quisquis es, huc exi! Quid me, puer unice, fallis",
-        "quove, petitus, abis? Certe nec forma nec aetas est mea, quam fugias, et amarunt me quoque nymphae! Spem mihi (nescid quam) vultu promittis amico, cumque ego porrexi tibi bracchia, porrigis ultro,",
-        "cum risi, arrides; lacrimas quoque saepe notavi me lacrimante tuās!”",
-        "Post multos dies multasque noctes tandem Narcissus intellexit eam, quam in aqua videbat, nihil aliud esse nisi sui ipsius imāginem:",
-        "“Iste ego sum: sēnsi, nec me mea fallit imāgō; ūror amore mei: flammas moveōque feroque.",
-        "quid faciam? roger anne rogem? quid deinde rogābō? quod cupio mecum est... O utinam a nostro secedere corpore possem! votum in amante novum: vellem, quod amamus, abesset!”",
-        "Cum talia verba diceret, puer misere flebat, et lacrimis turbavit aquas; tum in lacu nihil aliud conspexit nisi obscuram quandam formam abeuntem;",
-        "... quam cum vidisset abire,",
-        "“Quo refugis? Remane, nec me, crudelis, amantem desere!” clamavit; “Liceat, quod tangere non est,",
+        "Stupuit Narcissus cum, humī iacēns, spectāvisset illōs oculōs, quae quasi lūcentia sīdera, ex aquā eum intuērī vidēbantur, et capillōs dignōs Bacchō, dignōs Apolline, pulcherrimāsque genās et candidum collum decusque",
+        "ōrīs et in niveō mixtum candōre rubōrem,",
+        "cūnctaque mīrātur, quibus est mīrābilis ipse: sē cupit (imprūdēns!) et, quī probat, ipse probātur,",
+        "dumque petit, petitur, pariterque accendit et ārdet.",
+        "Ō, quotiēs dēdit ōscula fontī! Quotiēs cōnātus est frūstrā imāginem, quam in aquā vidēbat, complectī!",
+        "Bracchia mersit aquīs nec sē dēprēndit in illīs!",
+        "Quid videat, nescit; sed quod videt, ūritur illō;",
+        "Miser Narcisse, nōnne intellegis nūllō in locō, nisi in tē ipsō, esse quod petis?",
+        "Ista repercussae, quam cernis, imāginis umbra est:",
+        "nīl habet ista suī; tēcum venitque manetque; tēcum discēdet, sī tū discēdere possīs!",
+        "Tantus fit amor, quō ūritur, ut neque dē cibō neque dē somnō capiendō iam cūret: nam ex eō locō āvertī nōn iam vult, neque aliud cupit nisi omnī tempore fōrmōsissimam illam imāginem spectāre; Sīc vērō inter lacrimās ait:",
+        "“Et placet et videō; sed quod videōque placetque,",
+        "nōn tamen inveniō” (tantus tenet error amantem!) Narcissus amōre capitur suae imāginis in fonte repercussae “Quoque magis doleam, nec nōs mare sēparat ingēns",
+        "nec via nec montēs nec clausīs moenia portīs; exiguā prohibēmur aquā! Cupit ipse tenērī: nam quotiēs liquidīs porrēximus ōscula lymphīs, hīc totiēs ad mē resupīnō nītitur ōre.",
+        "Posse pūtēs tangī: minimum est, quod amantibus obstat! Quisquis es, hūc exī! Quid mē, puer ūnice, fallīs",
+        "quōve, petītus, abīs? Certē nec fōrma nec aetās est mea, quam fugiās, et amārunt mē quoque nymphae! Spem mihi (nescid quam) vultū prōmittis amīcō, cumque ego porrēxī tibi bracchia, porrigis ultrō,",
+        "cum rīsī, arrīdēs; lacrimās quoque saepe notāvī mē lacrimante tuās!”",
+        "Post multōs diēs multāsque noctēs tandem Narcissus intellēxit eam, quam in aquā vidēbat, nihil aliud esse nisi suī ipsīus imāginem:",
+        "“Iste ego sum: sēnsi, nec mē mea fallit imāgō; ūror amōre meī: flammās moveōque ferōque.",
+        "quid faciam? roger anne rogem? quid deinde rogābō? quod cupiō mēcum est... Ō utinam ā nostrō sēcēdere corpore possem! vōtum in amante novum: vellem, quod amāmus, abesset!”",
+        "Cum tālia verba dīceret, puer miserē flēbat, et lacrimīs turbāvit aquās; tum in lacū nihil aliud cōnspexit nisi obscūram quandam fōrmam abeuntem;",
+        "... quam cum vīdisset abīre,",
+        "“Quō refugis? Remanē, nec mē, crūdēlis, amantem dēsere!” clāmāvit; “Liceat, quod tangere nōn est,",
         "aspicere!”",
-        "Haec locutus, dolens vestem scidit, et nudum pectus candidis manibus percussit; deinde vires magis magisque amisit;",
-        "nec corpus remanet, quondam quod amaverat Echo.",
-        "Amore consumptus,",
-        "ille caput viridi fessum submisit in herba,",
-        "lumina mors clausit domini mirantia formam: tum quoque sē, postquam est mfemā sede receptus, in Stygia spectabat aqua.",
-        "Luxerunt omnes nymphae; lugentibus adsonuit Echo; sed cum iam rogum paravissent, in quo corpus ponerent,",
-        "nusquam corpus erat; croceum pro corpore florem",
-        "inveniunt foliis medium cingentibus albis."
+        "Haec locūtus, dolēns vestem scidit, et nūdum pectus candidīs manibus percussit; deinde vīrēs magis magisque āmīsit;",
+        "nec corpus remanet, quondam quod amāverat Ēchō.",
+        "Amōre cōnsūmptus,",
+        "ille caput viridī fessum submīsit in herbā,",
+        "lūmina mors clausit dominī mīrantia fōrmam: tum quoque sē, postquam est mfemā sēde receptus, in Stygiā spectābat aquā.",
+        "Lūxērunt omnēs nymphae; lūgentibus adsonuit Ēchō; sed cum iam rogum parāvissent, in quō corpus pōnerent,",
+        "nusquam corpus erat; croceum prō corpore flōrem",
+        "inveniunt foliīs medium cingentibus albīs."
       ],
       "notes": [
         {
@@ -407,7 +407,7 @@ const chapter = {
           "gloss": "bis easdem voces dicere"
         },
         {
-          "term": "re-portare",
+          "term": "rē-portare",
           "gloss": ""
         },
         {
@@ -423,7 +423,7 @@ const chapter = {
           "gloss": "feras persequi et occidere"
         },
         {
-          "term": "voce magna",
+          "term": "vōce magna",
           "gloss": ""
         },
         {
@@ -435,7 +435,7 @@ const chapter = {
           "gloss": "re-spicere ↔”> prospicere"
         },
         {
-          "term": "tot-idem",
+          "term": "tot-īdem",
           "gloss": "idem numerus"
         },
         {
@@ -463,7 +463,7 @@ const chapter = {
           "gloss": "manus abstine a me tibi sit copia nostri=me in potestate tua habeas nos, gen nostri"
         },
         {
-          "term": "de-ponere",
+          "term": "dē-pōnere",
           "gloss": "dimittere"
         },
         {
@@ -475,7 +475,7 @@ const chapter = {
           "gloss": "tenuem facere"
         },
         {
-          "term": "paulatim adv",
+          "term": "paulātim adv",
           "gloss": "paulum ac paulum (<-► subito) lapis -idis m (v. pag. 67)"
         },
         {
@@ -483,7 +483,7 @@ const chapter = {
           "gloss": "ex eo tempore latet in silvis ab omnibus"
         },
         {
-          "term": "de-spicere -spexisse -spectum",
+          "term": "dē-spicere -spexisse -spectum",
           "gloss": ""
         },
         {
@@ -495,11 +495,11 @@ const chapter = {
           "gloss": "superbus"
         },
         {
-          "term": "tetigere",
+          "term": "tetigēre",
           "gloss": "tetigerunt"
         },
         {
-          "term": "fons fontis m",
+          "term": "fōns fontis m",
           "gloss": "aqua e terra erumpens (v. pag."
         },
         {
@@ -523,7 +523,7 @@ const chapter = {
           "gloss": "tangere volucris -is f= avis turbaverat"
         },
         {
-          "term": "sedare",
+          "term": "sēdāre",
           "gloss": "tranquillum facere (<-* turbare);"
         },
         {
@@ -555,7 +555,7 @@ const chapter = {
           "gloss": "color ruber"
         },
         {
-          "term": "im-prudens -entis↔” prudens",
+          "term": "im-prūdēns -entis↔” prudens",
           "gloss": ""
         },
         {
@@ -567,15 +567,15 @@ const chapter = {
           "gloss": "igne (: amore) consumi"
         },
         {
-          "term": "aquis",
+          "term": "aquīs",
           "gloss": "in aquas"
         },
         {
-          "term": "de-prehendit uritur illo quod videt",
+          "term": "dē-prehendit uritur illo quod videt",
           "gloss": ""
         },
         {
-          "term": "re-percutere umbra repercussae imaginis se, gen suT",
+          "term": "rē-percutere umbra repercussae imaginis se, gen suT",
           "gloss": ""
         },
         {
@@ -583,7 +583,7 @@ const chapter = {
           "gloss": "et ut"
         },
         {
-          "term": "se-parāre coniungere",
+          "term": "sē-parāre coniungere",
           "gloss": ""
         },
         {
@@ -591,7 +591,7 @@ const chapter = {
           "gloss": "qui in aqua cernitur"
         },
         {
-          "term": "quoties... toties",
+          "term": "quotiēs... toties",
           "gloss": "liquidis lymphis"
         },
         {
@@ -615,7 +615,7 @@ const chapter = {
           "gloss": "videris"
         },
         {
-          "term": "fere tangi posse) | ob-stare",
+          "term": "ferē tangi posse) | ob-stare",
           "gloss": "viam claudere"
         },
         {
@@ -635,7 +635,7 @@ const chapter = {
           "gloss": "extendere"
         },
         {
-          "term": "ultro",
+          "term": "ultrō",
           "gloss": "volens, per te"
         },
         {
@@ -655,19 +655,19 @@ const chapter = {
           "gloss": "patior"
         },
         {
-          "term": "a nostro (",
+          "term": "ā nostro (",
           "gloss": "meo) corpore secedere"
         },
         {
-          "term": "se-cedere",
+          "term": "sē-cedere",
           "gloss": "discedere"
         },
         {
-          "term": "votum -I n",
+          "term": "vōtum -I n",
           "gloss": "voluntas"
         },
         {
-          "term": "votum in amante novum",
+          "term": "vōtum in amante novum",
           "gloss": "nullus umquam amans id voluit quod ego"
         },
         {
@@ -695,7 +695,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "lumen -inis n",
+          "term": "lūmen -inis n",
           "gloss": "lux; lumina - oculi"
         },
         {
@@ -703,7 +703,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "Stygia aqua",
+          "term": "Stygiā aqua",
           "gloss": "fluvius Styx"
         },
         {
@@ -727,57 +727,57 @@ const chapter = {
           "gloss": "aureo colore"
         },
         {
-          "term": "foliis medium cingentibus albis",
+          "term": "foliīs medium cingentibus albis",
           "gloss": "cuius pars media albis foliis cingitur"
         }
       ]
     },
     {
       "id": "pomona-et-vertumnus",
-      "latinTitle": "3. Pomona et Vertumnus",
+      "latinTitle": "3. Pōmōna et Vertumnus",
       "title": "",
       "paragraphs": [
-        "Fuit Pōmōna nympha Latina, quae studiosissima erat colendi hortos:",
-        "non silvas illa nec amnes, rūs amat et ramos felicia poma ferentes,",
-        "ex quibus ipsa nomen habuerat; manu numquam hastam tenebat, nequa alia ei arma grata erant, praeter falcem qua ramos nimis longos secabat, aut nimis magnam foliorum copiam minuebat. Nec umquam arbores sitim pati sinebat, sed saepe terram aqua fluminum rigabat, ne sicca fieret: hic amor, hoc studium, Veneris quoque nulla cupido est;",
-        "Nam, quamquam multi et mortales et immortales eam amabant, omnes viros omnesque deos fugere solebat, solis suis frugibus pomisque contenta. Neque igitur Satyri, neque Pan et Silvanus, silvarum di, ad eam accedere potuerant, etsi non parvo amore accensi erant; sed",
-        "superabat amando",
-        "hōs quoque Vertumnus neque erat felicior illis.",
-        "Qui Vertumnus, ut Pomonae hortis appropinquaret, saepe agricolae vestimenta induebat, et in umeris corbes frumenti plenas ferebat, vel, miscens fenum capillis, faciebat ut rustico similis esse videretur; saepe ita virgam manu portabat, ut crederes eum modo ex aratro boves solvisse; falcem gerens, vites nuper putavisse videbatur; cum vero scalas umeris portaret, efficere volebat, ut nympha se ad poma carpenda ire arbitraretur. Interdum, armatus gladio, militis formam sumebat; nonnumquam, harundine sumpta, piscatori similem se ipse faciebat; modo hac, modo illa veste induebatur, ut fere occultus ac latens prope Pomonae hortos ad eam spectandam veniret.",
-        "Cum autem intellexisset nullum virum in Pomonae hortos admitti, mitra in capite posita, membra sustinens baculo et albos capillos sibi addens simulavit se esse anum",
-        "...cultōsque intravit in hortōs",
-        "pōmaque mirata est. Quae cum admirāta esset, nymphae artem valde laudāvit,",
-        "paucaque laudātae dedit oscula, qualia numquam vera dedisset anus,",
-        "et consedit humi suspiciens arborum ramos autumni pomis graves. Habebat ante oculos ulmum pulcherrimam, ex qua pendebant mirabiles uvae; quas cum multis verbis laudavisset, “At si arbor” inquit “staret sine vite, nulla esset causa cur homines eam peterent, praeter umbram, quam facit; haec quoque vitis, quae cum ulmo iuncta est, in arbore quiescit; si enim non nupta esset, humi iaceret;",
-        "tu tamen exemplo non tangeris arboris huius concubitusque fugis nec te coniungere curas: atque utinam velles!...",
-        "... Nunc quoque, cum fugias averserisque petentes, mille viri cupiunt et semideique deique et quaecumque tenent Albanos numina montes.",
-        "sed tu si sapies, si te bene iungere anumque hanc audire voles (quae te plus omnibus illis, plus, quam credis, amo): vulgares reice taedas",
-        "Vertumnumque tori socium tibi selige!...",
-        "Semper enim te amabit neque umquam a latere tuo discedet; haec loca sola incolit, nec errat per totum terrarum orbem: sicut tu ipsa, ille quoque hortos diligit quos magna cum cura colit. Praeterea iuvenis est, et pulchra facie; et est paratus ad facienda omnia quae iusseris. Ne eum spreveris! Nonne scis quid olim Anaxareti factum sit, quae Iphidis amorem despexerat?” At Pomona, quae fabulam ignorabat, ab anu quaerit ‘quid illi feminae acciderit?’ Cui anus: “Cum Iphis, qui pauper fuit Vertumnus, simuCans se esse anum, in (Pomonae ilortos ingressus, cum ea coiCoquitur adulescens, Anaxareten, nobilissimam virginem, vidisset, continuo miro amore accensus est; cum quo diu pugnare conatus est, sed frustra: nam ignis, quo consumebatur, tam valde eius animum urebat, ut exstingui non posset. Cum ergo vincere non potuisset, et ad limen domus venisset, in qua virgo habitabat, suum amorem eius nutrici confessus, eam oravit ut Anaxareti persuaderet ne nimis dura esset, et ut sibi parceret; deinde saepe sua verba in tabellis inscripta servis dedit, ut virgini traderent legenda; interdum pulchra florum serta suis lacrimis rigata in foribus fixit, et ipse totos dies totasque noctes iacens in duro illius domus limine consumpsit, exspectans dum admitteretur: illa tamen fuit durior ferro aut saxo:",
-        "spernit et irridet, factisque immitibus addit",
-        "verba superba ferox et spe quoque fraudat amantem. Non tulit, impatiens longi tormenta doloris, Iphis et ante fores haec verba novissima dixit: “Vincis, Anaxarete, neque erunt tibi taedia tandem ulla ferenda mei... Vincis enim, moriorque libens: age, ferrea, gaude!”",
-        "Praeterea haec addidit: “Nec quisquam tibi mortem meam nuntiabit:",
-        "ipse ego, ne dubites, adero praesensque videbor,",
-        "corpore ut exanimi crudelia lumina pascas.",
-        "Si tamen, o superi, mortalia facta videtis,",
-        "este mei memores (nihil ultra lingua precari",
-        "sustinet) et longo facite ut narremur in aevo!”",
-        "Haec locutus ad ianuam, quam tam saepe floribus ornaverat, ivit; cum vero oculos lacrimis plenos et pallida bracchia sustulisset, laqueumque trabi, quae in summa forium parte erat, vinxisset,",
-        "“Haec tibi serta placent, crudelis et impia!” dixit ihseruitque caput, sed tum quoque versus ad illam!",
-        "Tum sine mora se suspendit; pedes autem trementes ianuam percusserunt; qui intus erant crediderunt aliquem fores pulsare ut aperirentur: cum autem servi ianuam aperuissent, et iuvenem laqueo suspensum conspexissent, magna voce clamaverunt; deinde corpus sine vita ad matrem (nam pater iam mortuus erat) rettulerunt:",
-        "accipit illa sinu, complexaque frigida nati",
-        "membra sui, postquam miserorum verba parentum edidit et matrum miserarum facta peregit, funera ducebat mediam lacrimosa per urbem.",
-        "Forte domus Anaxaretēs sita erat in via, qua pompa lugentium progrediebatur; audito igitur clamōre, illa virgo crudelis, “Videamus” inquit “haec funera”. Cum vēro in tectum ascendisset et inde ex fenestris Iphin in lectō funeris positum prospexisset,",
-        "deriguere oculi, calidusque e corpore sanguis,",
-        "inducto pallore, fugit, conataque retro",
-        "ferre pedes, haesit; conata avertere vultus hoc quoque non potuit, paulatimque occupat artus,",
-        "quod fuit in duro iam pridem pectore, saxum.",
-        "“Ne credideris” ait anus “talia falsa esse: nam verissima sunt! Cuius exempli reminiscens, superbiam tuam depone, d virgo, et coniunge te amanti!”",
-        "Cum haec dixisset, Vertumnus, anili forma vestimentisque depositis, in iuvenem rediit, et talis apparuit nymphae; quae, cum eius pulchritudinem conspexisset, ipsa quoque statim amore capta est et in animo vulnera sensit. Vertumnus igitur, cum hoc modo Pomonam vincere potuisset, eandem uxorem duxit."
+        "Fuit Pōmōna nymphā Latīnā, quae studiōsissima erat colendī hortōs:",
+        "nōn silvās illa nec amnēs, rūs amat et rāmōs fēlīcia pōma ferentēs,",
+        "ex quibus ipsa nōmen habuerat; manū numquam hastam tenēbat, nequa alia eī arma grāta erant, praeter falcem quā rāmōs nimis longōs secābat, aut nimis magnam foliōrum cōpiam minuēbat. Nec umquam arborēs sitim patī sinēbat, sed saepe terram aquā flūminum rigābat, nē sicca fieret: hic amor, hoc studium, Veneris quoque nūlla cupīdō est;",
+        "Nam, quamquam multī et mortālēs et immortālēs eam amābant, omnēs virōs omnēsque deōs fugere solēbat, sōlīs suīs frūgibus pōmīsque contenta. Neque igitur Satyrī, neque Pan et Silvānus, silvārum dī, ad eam accēdere potuerant, etsī nōn parvō amōre accēnsī erant; sed",
+        "superābat āmandō",
+        "hōs quoque Vertumnus neque erat fēlīcior illīs.",
+        "Quī Vertumnus, ut Pōmōnae hortīs appropinquāret, saepe agricolae vestīmenta induēbat, et in umerīs corbēs frūmentī plēnās ferēbat, vel, miscēns fēnum capillīs, faciēbat ut rūsticō similis esse vidērētur; saepe ita virgam manū portābat, ut crēderēs eum modo ex arātrō bovēs solvisse; falcem gerēns, vītēs nūper putāvisse vidēbātur; cum vērō scālās umerīs portāret, efficere volēbat, ut nymphā sē ad pōma carpenda īre arbitrārētur. Interdum, armātus gladiō, mīlitis fōrmam sūmēbat; nōnnumquam, harundine sūmpta, piscātōrī similem sē ipse faciēbat; modo hāc, modo illā veste induēbātur, ut ferē occultus ac latēns prope Pōmōnae hortōs ad eam spectandam venīret.",
+        "Cum autem intellēxisset nūllum virum in Pōmōnae hortōs admittī, mitrā in capite positā, membra sustinēns baculō et albōs capillōs sibi addēns simulāvit sē esse ānum",
+        "...cultōsque intrāvit in hortōs",
+        "pōmaque mīrāta est. Quae cum admirāta esset, nymphae artem valdē laudāvit,",
+        "paucaque laudātae dedit ōscula, quālia numquam vēra dedisset anūs,",
+        "et cōnsēdit humī suspiciēns arborum rāmōs autumnī pōmīs gravēs. Habēbat ante oculōs ulmum pulcherrimam, ex quā pendēbant mīrābilēs ūvae; quās cum multīs verbīs laudāvisset, “At sī arbor” inquit “stāret sine vīte, nūllā esset causā cūr hominēs eam peterent, praeter umbram, quam facit; haec quoque vītis, quae cum ulmō iūncta est, in arbore quiēscit; sī enim nōn nūpta esset, humī iacēret;",
+        "tū tamen exemplō nōn tangeris arboris huius concubitusque fugis nec tē coniungere cūrās: atque utinam vellēs!...",
+        "... Nunc quoque, cum fugiās āversērisque petentēs, mīlle virī cupiunt et sēmideīque deīque et quaecumque tenent Albānōs nūmina montēs.",
+        "sed tū sī sapiēs, sī tē bene iungere anumque hanc audīre volēs (quae tē plūs omnibus illīs, plūs, quam crēdis, amō): vulgārēs reice taedās",
+        "Vertumnumque torī socium tibi sēlige!...",
+        "Semper enim tē amābit neque umquam ā latere tuō discēdet; haec loca sōla incolit, nec errat per tōtum terrārum orbem: sīcut tū ipsa, ille quoque hortōs dīligit quōs magna cum cūra colit. Praetereā iuvenis est, et pulchrā faciē; et est parātus ad facienda omnia quae iusserīs. Nē eum sprēverīs! Nōnne scīs quid ōlim Anaxarētī factum sit, quae Īphidis amōrem dēspexerat?” At Pōmōna, quae fābulam ignōrābat, ab anū quaerit ‘quid illī fēminae acciderit?’ Cui ānus: “Cum Īphis, quī pauper fuit Vertumnus, simūCāns sē esse anum, in (Pōmōnae ilortōs ingressus, cum ea coiCoquitur adulēscēns, Anaxaretēn, nōbilissimam virginem, vīdisset, continuō mīrō amōre accēnsus est; cum quō diū pugnāre cōnātus est, sed frūstrā: nam ignis, quō cōnsūmēbātur, tam valdē eius animum ūrēbat, ut exstinguī nōn posset. Cum ergō vincere nōn potuisset, et ad līmen domūs vēnisset, in quā virgō habitābat, suum amōrem eius nūtrīcī cōnfessus, eam ōrāvit ut Anaxarētī persuādēret nē nimis dūra esset, et ut sibi parceret; deinde saepe sua verba in tabellīs īnscrīpta servīs dedit, ut virginī trāderent legenda; interdum pulchra flōrum serta suīs lacrimīs rigāta in foribus fīxit, et ipse tōtōs diēs tōtāsque noctēs iacēns in dūrō illīus domūs līmine cōnsūmpsit, exspectāns dum admitterētur: illa tamen fuit dūrior ferrō aut saxō:",
+        "spernit et irrīdet, factīsque immītibus addit",
+        "verba superba ferōx et spē quoque fraudat amantem. Nōn tulit, impatiēns longī tormenta dolōris, Īphis et ante forēs haec verba novissima dīxit: “Vincis, Anaxaretē, neque erunt tibi taedia tandem ūlla ferenda meī... Vincis enim, mōriorque libēns: age, ferreā, gaudē!”",
+        "Praetereā haec addidit: “Nec quisquam tibi mortem meam nūntiābit:",
+        "ipse ego, nē dubitēs, aderō praesēnsque vidēbor,",
+        "corpore ut exanimī crūdēlia lūmina pāscās.",
+        "Sī tamen, ō superī, mortālia facta vidētis,",
+        "este meī memorēs (nihil ultrā linguā precārī",
+        "sustinet) et longō facite ut nārrēmur in aevō!”",
+        "Haec locūtus ad iānuam, quam tam saepe flōribus ōrnāverat, īvit; cum vērō oculōs lacrimīs plēnōs et pallidā bracchia sustulisset, laqueumque trabī, quae in summā forium parte erat, vīnxisset,",
+        "“Haec tibi serta placent, crūdēlis et impia!” dīxit ihseruitque caput, sed tum quoque versus ad illam!",
+        "Tum sine morā sē suspendit; pedēs autem trementēs iānuam percussērunt; quī intus erant crēdidērunt aliquem forēs pulsāre ut aperīrentur: cum autem servī iānuam aperuissent, et iuvenem laqueō suspēnsum cōnspexissent, magnā vōce clāmāvērunt; deinde corpus sine vītā ad mātrem (nam pater iam mortuus erat) rettulērunt:",
+        "accipit illā sinū, complexāque frīgidā natī",
+        "membra suī, postquam miserōrum verba parentum ēdidit et mātrum miserārum facta perēgit, fūnera dūcēbat mediam lacrimōsā per urbem.",
+        "Forte domus Anaxaretēs sita erat in viā, quā pompā lūgentium prōgrediēbātur; audītō igitur clamōre, illa virgō crūdēlis, “Videāmus” inquit “haec fūnera”. Cum vēro in tēctum ascendisset et inde ex fenestrīs Īphin in lectō fūneris positum prōspexisset,",
+        "dēriguēre oculī, calidusque ē corpore sanguis,",
+        "inductō pallōre, fugit, cōnātaque retrō",
+        "ferre pedēs, haesit; cōnāta āvertere vultūs hoc quoque nōn potuit, paulātimque occupat artūs,",
+        "quod fuit in dūrō iam prīdem pectore, saxum.",
+        "“Nē crēdiderīs” ait ānus “tālia falsa esse: nam vērissima sunt! Cuius exemplī reminīscēns, superbiam tuam dēpōne, d virgō, et coniunge tē amantī!”",
+        "Cum haec dīxisset, Vertumnus, anīlī fōrmā vestīmentīsque dēpositīs, in iuvenem rediit, et tālis appāruit nymphae; quae, cum eius pulchritūdinem cōnspexisset, ipsa quoque statim amōre capta est et in animō vulnera sēnsit. Vertumnus igitur, cum hōc modō Pōmōnam vincere potuisset, eandem uxōrem dūxit."
       ],
       "notes": [
         {
-          "term": "Pomona -ae f",
+          "term": "Pōmōna -ae f",
           "gloss": ""
         },
         {
@@ -785,7 +785,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "felix -icis",
+          "term": "fēlīx -icis",
           "gloss": "fertilis; (poma) felicia = multa et"
         },
         {
@@ -793,7 +793,7 @@ const chapter = {
           "gloss": "poma sunt mala, pira, uvae, cet."
         },
         {
-          "term": "Veneris",
+          "term": "Vēnerīs",
           "gloss": "amoris cupido -inis f= cupiditas"
         },
         {
@@ -845,7 +845,7 @@ const chapter = {
           "gloss": "colere"
         },
         {
-          "term": "laudatae puellae",
+          "term": "laudātae puellae",
           "gloss": ""
         },
         {
@@ -853,7 +853,7 @@ const chapter = {
           "gloss": "propter poma) graves ulmus -Ī f"
         },
         {
-          "term": "non tangeris",
+          "term": "nōn tangeris",
           "gloss": "non moveris"
         },
         {
@@ -897,7 +897,7 @@ const chapter = {
           "gloss": "lectus | socius -im = qui commu ni fortuna/negotio coniungitur cum aliquo"
         },
         {
-          "term": "se-ligere",
+          "term": "sē-ligere",
           "gloss": "eligere"
         },
         {
@@ -909,11 +909,11 @@ const chapter = {
           "gloss": "despicere, contemnere"
         },
         {
-          "term": "Anaxarete -es (acc -en) f Gr",
+          "term": "Anaxaretē -es (acc -en) f Gr",
           "gloss": ""
         },
         {
-          "term": "Iphis -idis (acc Gr Iphin) m",
+          "term": "Īphis -idis (acc Gr Iphin) m",
           "gloss": ""
         },
         {
@@ -961,7 +961,7 @@ const chapter = {
           "gloss": "patienda nom ego, gen mei"
         },
         {
-          "term": "libens -entis",
+          "term": "libēns -entis",
           "gloss": "libenter | ferrea: femina, cuius animus est durus ut ferrum"
         },
         {
@@ -973,15 +973,15 @@ const chapter = {
           "gloss": "sine animo, mortuus"
         },
         {
-          "term": "lumen -inis n",
+          "term": "lūmen -inis n",
           "gloss": "lux; lumina = oculi"
         },
         {
-          "term": "mortalia facta",
+          "term": "mortālia facta",
           "gloss": "facta hominum"
         },
         {
-          "term": "ultra adv. nihil ultra",
+          "term": "ultrā adv. nihil ultra",
           "gloss": "nihil aliud"
         },
         {
@@ -1021,7 +1021,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "re-ferre rettulisse re-latum",
+          "term": "rē-ferre rettulisse re-latum",
           "gloss": ""
         },
         {
@@ -1033,7 +1033,7 @@ const chapter = {
           "gloss": "filius | nati sui"
         },
         {
-          "term": "e-dere -didisse -ditum (< e + dare); verba",
+          "term": "ē-dere -didisse -ditum (< e + dare); verba",
           "gloss": ""
         },
         {
@@ -1049,11 +1049,11 @@ const chapter = {
           "gloss": "tristis per mediam urbem pompa -ae f- agmen hominum procedentium"
         },
         {
-          "term": "de-rigere -uisse",
+          "term": "dē-rigere -uisse",
           "gloss": "flecti desinere"
         },
         {
-          "term": "in-ducere -duxisse -ductum",
+          "term": "in-dūcere -duxisse -ductum",
           "gloss": ""
         },
         {
@@ -1061,7 +1061,7 @@ const chapter = {
           "gloss": "pallere"
         },
         {
-          "term": "retro",
+          "term": "retrō",
           "gloss": "eo unde venerat (<—)"
         },
         {
@@ -1073,19 +1073,19 @@ const chapter = {
           "gloss": "vultum"
         },
         {
-          "term": "paulatim",
+          "term": "paulātim",
           "gloss": "paulum ac paulum (↔-* subito)"
         },
         {
-          "term": "artus -us m",
+          "term": "artūs -us m",
           "gloss": "membrum occupat artus saxum, quod fuit iam pridem in"
         },
         {
-          "term": "duro pectore (",
+          "term": "dūrō pectore (",
           "gloss": "mutatur in saxum)"
         },
         {
-          "term": "de-ponere -posuisse -positum ** induere;",
+          "term": "dē-pōnere -posuisse -positum ** induere;",
           "gloss": ""
         },
         {
@@ -1107,72 +1107,72 @@ const chapter = {
       ]
     },
     {
-      "id": "phaeton",
-      "latinTitle": "4. Phaeton",
+      "id": "phaethon",
+      "latinTitle": "4. Phaethōn",
       "title": "",
       "paragraphs": [
-        "Rēgia Phoebī, Solis dei, cuius tectum eburneum altissimis ā columnīs sustinebatur, lucebat tota, cum ex purissimo auro aliisque metallis ignem imitantibus facta esset; fores atque fenestrae argenteae clarissime splendebant; at opus, quod Vulcanus arte sua in ianuis confecerat, materiam pretiosam superabat: nam illic caelaverat maria, quae cingunt terras,",
-        "terrarumque orbem caelumque, quod imminet orbi.",
-        "In illo mirabili opere dei marini cernebantur et Naiades,",
-        "...quarum pars nare videtur, pars in mole sedens virides siccare capillos, pisce vehi quaedam: facies non omnibus una, non diversa tamen, qualem decet esse sororum. Terra viros urbesque gerit silvasque ferasque fluminaque et nymphas et cetera numina ruris;",
-        "haec super imposita est caeli fulgentis imago.",
-        "Huc cum venisset Phaeton, Solis filius, patris domum intravit ac gradus ad parentem versus fecit, qui, indutus purpurea veste, sedebat in solio claris gemmis lucente; Phaeton procul constitit; nam magnam lucem propius oculis sustinere non poterat. Ad dextram et ad sinistram Solis aderant Dies et Menses et Anni et Saecula et Horae;",
-        "'Er y Verque novum stabat cinctum florente corona, stabat nuda Aestas et spicea serta gerebat, stabat et Autumnus calcatis sordidus uvis et glacialis Hiems canos hirsuta capillos",
-        "In mediō omnium sedens,",
-        "Sol oculis iuvenem, quibus aspicit omnia, vidit",
-        "atque “Quae est causa” ait “cūr hūc veneris? Cūr usque ad meam regiam iter fecisti, fili mi?” Ille vero respondit: “Ō Phoebe pater, qui es lux totius mundi: quidam, qui fortasse invident mihi, negaverunt me filium tuum esse: nunc igitur tē orō et rogō ut mihi dubium tollas, et aliquō modo certō demonstres a mē verē et iūre ‘patrem’ tē nominan posse!”",
-        "Phoebus dēposuit omnēs radios, qui circā caput lūcēbant, ut Phaetonta propius accēdere sineret; cumque eum sibi appropinquare iussisset, complexus, “Numquam” inquit “negabo tē vērē filium meum esse; nē autem iam dē hac rē dūbitēs, pete mūnus quod vis, et mē illud tibi daturum esse promitto!”",
-        "Vix loqui dēsierat, cum puer rogavit ut currus, quō cotīdiē Sōl totum caelum ab ortu usque ad occasum percurrere solēbat, sibi per unum diem regendus traderētur. Patrem promisisse paenituit; qui, ter quaterque quatiēns caput, exclamavit:",
-        "“...utinam promissa licēret nōn dare! Confīteor, solum hoc tibi, nate, negarem!",
-        "Dissuādēre licet: nōn est tua tuta voluntas! magna petis, Phaethon, et quae nec viribus istis",
-        "mūnera conveniant nec tam puerilibus annis:",
-        "sors tua mortalis; nōn est mortale, quod optas!”",
-        "Cum autem vidisset filium ā temerario cōnsiliō nōn facile averti posse, haec addidit: “Nē immortalēs quidem, mihi crēde, illum currum regere possunt, praeter mē: Iuppiter ipse, qui terribili sua dextra fulgura in terras iacit, hunc currum agere non audet:",
-        "...et quid Iove maius habemus?",
-        "Nam prima pars viae, quam equi mane percurrunt, est ardua et difficilis; altera vero",
-        "medio est altissima caelo, unde mare et terras ipsi mihi saepe videre fit timor;",
-        "ultima tandem viae pars, cum deorsum versa sit, periculosissima est atque ad eam tuto percurrendam auriga opus est, qui bene equos regere sciat! Tu fortasse, fili mi, credis in caelo esse amoenissimos hortos et urbes deorum pulcherrimas atque templa pretiosissimis donis plena, neque ita est, ut arbitraris: immo,",
-        "...per insidias iter est formasque ferarum!",
-        "Nisi caveris, Taurus iratus comibus te petet; via est periculorum plena: hinc enim habebis Sagittarium, qui arcu suo emittit sagittas, illinc saevi Leonis os, apertum et ad te mordendum paratum; bracchia sua ad te apprehendendum Scorpio ad dextram et Cancer ad sinistram extendent; neque facile erit tunc equos timentes metuque affectos regere: vix mihi parent, vix me patiuntur!",
-        "Nate, cave, dum resque sinit tua corrige vota!",
-        "Vis certo scire utrum sim tibi pater an non: num dubitas, cum videas me tam valde timere? Aspice vultum meum:",
-        "...utinamque oculos in pectora posses",
-        "inserere et patrias intus deprendere curas! denique quidquid habet dives, circumspice, mundus",
-        "eque tot ac tantis caeli terraeque marisque posce bonis aliquid; nullam patiere repulsam!",
-        "Hoc imum precor ne velis,",
-        "...quod vero nomine poena, non honor est: poenam, Phaeton, pro munere poscis!",
-        "Cum talia dixisset, Phoebus loqui atque monere desiit; at Phaeton tam multum currum illum regere cupiebat, ut omnia alia patris munera contemneret. Ergo pater, cum filio dissuadere non potuisset, eum ad currum duxit, quem olim Vulcanus sua arte mirabili confecerat. Axis erat aureus, aureus erat temo, aureae rotae, at argentei radii: quae metalla una cum gemmis, quibus totus currus ornabatur, Solis lumen repercussum in omnes caeli partes spargebant.",
-        "Cum Phaeton haec omnia stupens admiraretur opusque diligenter aspiceret, subito aperuit",
-        "purpureas Aurora forēs et plena rosarum atria: diffugiunt stellae;",
-        "quas cum non iam apparere, atque mundum rubescere vidissent, properaverunt Horae equos adducere, quos continuo currui iunxerunt; tum pater, animo turbato, filium suum salutans dixit:",
-        "“Si potes his saltem monitis parere parentis, parce, puer, stimulis et fortius utere loris!",
-        "Sponte sua properant: labor est inhibere volentes.",
-        "Viam mediam tene: iter fac in medio aere inter caelum et terram; altius egressus caelestia tecta cremabis,",
-        "inferius terras; medio tutissimus ibis.” Occupat ille levem iuvenali corpore currum statque super, manibusque leves contingere habenas gaudet et invito grates agit inde parenti.",
-        "Vix habenas tetigerat puer, cum Solis equi, excurrentes, Aurorae porta eruperunt, pedibusque per aera motis, nubes scindebant sursum evolantes;",
-        "sed leve pondus erat nec quod cognoscere possent Solis equi, solitaque iugum gravitate carebat.",
-        "Currum igitur, tamquam si a nullo auriga regeretur, modo in altum, modo ad terras trahebant; Phaeton, perterritus,",
-        "nec scit quā sit iter, nec, si sciat, imperet illis;",
-        "usque ad septentriones pervenit, igneque eam caeli partem urit;",
-        "Ut vero summo despexit ab aethere terras infelix Phaethon penitus penitusque iacentes, palluit et subito genua intremuere timore suntque oculis tenebrae per tantum lumen obortae, et iam mallet equos numquam tetigisse paternos!",
-        "Quid faciat? multum caeli post terga relictum, ante oculos plus est;",
-        "modo prospicit, modo respicit,",
-        "quidque agat ignarus stupet et nec frena remittit",
-        "nec retinere valet nec nomina novit equorum. Ex manibus pueri, qui ingenti metu afficiebatur, habenae delapsae sunt: cum autem equi in tergo sensissent habenas relictas esse, per aera sine lege errant et ignotas regiones percurrunt; cum ad montes camposque accedunt, terra, exhausta aqua, sicca subito fit, et uritur igne; uruntur et arbores in agris;",
-        "...magnae pereunt cum moenibus urbes, cumque suis totas populis incendia gentes in cinerem vertunt; silvae cum montibus ardent;",
-        "sicci fiunt fontes, glacies nivesque molliuntur; omnia ignis consumit.",
-        "Tum vero Phaethon cunctis e partibus orbem",
-        "aspicit accensum nec tantos sustinet aestus:",
-        "cum ubique fumus currum tegeret, puer nesciebat ubi esset aut quo iret; interea gentes totius orbis terrae igne combustae moriebantur; aves de caelo in terram cadebant; amnes, qui antea per valles fluebant, siccabantur; delphini et pisces oceani fundum petebant, ut ignes vitarent: at ipsa maria in siccos campos vertebantur.",
-        "Tandem Iuppiter cum aqua exstinguere ignem vellet, neque nubes habuit neque imbres quos de caelo demitteret! Tunc, iratus, fulmen in puerum qui in curru stabat iecit; Phaeton, graviter vulneratus, in flumen Eridanum cecidit ac mersus est, nec quisquam ei auxilium ferre potuit: ne pater quidem, qui misere lugens illo die nullam lucem dedit terris; neque sorores, quae, effusis lacrimis, quattuor menses nocte dieque eum vocabant humi iacentes, donec di pedes earum in radices, capillum in folia, bracchia in ramos mutaverunt: restabant tantum ora vocantia matrem: quid vero faceret misera mater? Currens enim huc et illuc filiarum corpora complectebatur et manibus ramos, in quibus membra claudebantur, rumpere et frangere conabatur: at inde sanguis IovisfiiCmine percussus, in flumen Eridanum de caelo cadit Actaeon in Cuco nymphas conspicit effundebatur tamquam ex vulnere: “Parce, precor, mater!” clamabant, “Parce! Nostrum enim corpus in arbore scinditur! Iamque vale!” Nec quidquam aliud dicere potuerunt."
+        "Rēgia Phoebī, Sōlis deī, cuius tēctum eburneum altissimīs ā columnīs sustinēbātur, lūcēbat tōta, cum ex pūrissimō aurō aliīsque metallīs ignem imitantibus facta esset; forēs atque fenestrae argenteae clārissimē splendēbant; at opus, quod Vulcānus arte suā in iānuīs cōnfēcerat, māteriam pretiōsam superābat: nam illīc caelāverat maria, quae cingunt terrās,",
+        "terrārumque orbem caelumque, quod imminet orbī.",
+        "In illō mīrābilī opere deī marīnī cernēbantur et Nāiadēs,",
+        "...quārum pars nāre vidētur, pars in mōle sedēns viridēs siccāre capillōs, pisce vehī quaedam: faciēs nōn omnibus ūna, nōn dīversa tamen, quālem decet esse sorōrum. Terra virōs urbēsque gerit silvāsque ferāsque flūminaque et nymphās et cētera nūmina rūris;",
+        "haec super imposita est caelī fulgentis imāgō.",
+        "Hūc cum vēnisset Phaetōn, Sōlis fīlius, patris domum intrāvit ac gradūs ad parentem versus fēcit, quī, indūtus purpureā veste, sedēbat in soliō clārīs gemmīs lūcente; Phaethōn procul cōnstitit; nam magnam lūcem propius oculīs sustinēre nōn poterat. Ad dextram et ad sinistram Sōlis aderant Diēs et Mēnsēs et Annī et Saecula et Horae;",
+        "'Er y Vērque novum stābat cīnctum flōrente corōnā, stābat nūda Aestās et spīcea serta gerēbat, stābat et Autumnus calcātīs sordidus ūvīs et glaciālis Hiems cānōs hirsūta capillōs",
+        "In mediō omnium sedēns,",
+        "Sōl oculīs iuvenem, quibus aspicit omnia, vīdit",
+        "atque “Quae est causā” ait “cūr hūc vēnerīs? Cūr usque ad meam rēgiam iter fēcistī, fīlī mī?” Ille vērō respondit: “Ō Phoebe pater, quī es lūx tōtīus mundī: quīdam, quī fortasse invident mihi, negāvērunt mē fīlium tuum esse: nunc igitur tē orō et rogō ut mihi dubium tollās, et aliquō modō certō dēmōnstrēs ā mē verē et iūre ‘patrem’ tē nōminan posse!”",
+        "Phoebus dēposuit omnēs radiōs, quī circā caput lūcēbant, ut Phaethonta propius accēdere sineret; cumque eum sibi appropinquāre iussisset, complexūs, “Numquam” inquit “negābō tē vērē fīlium meum esse; nē autem iam dē hāc rē dūbitēs, pete mūnus quod vīs, et mē illud tibi datūrum esse prōmittō!”",
+        "Vix loquī dēsierat, cum puer rogāvit ut currūs, quō cotīdiē Sōl tōtum caelum ab ortū usque ad occāsum percurrere solēbat, sibi per ūnum diem regendus traderētur. Patrem prōmīsisse paenituit; quī, ter quaterque quatiēns caput, exclāmāvit:",
+        "“...utinam prōmissa licēret nōn dare! Confīteor, sōlum hoc tibi, nāte, negārem!",
+        "Dissuādēre licet: nōn est tua tūta voluntās! magna petis, Phaethōn, et quae nec vīribus istīs",
+        "mūnera conveniant nec tam puerīlibus annīs:",
+        "sors tua mortālīs; nōn est mortāle, quod optās!”",
+        "Cum autem vīdisset fīlium ā temerāriō cōnsiliō nōn facile āvertī posse, haec addidit: “Nē immortalēs quidem, mihi crēde, illum currum regere possunt, praeter mē: Iuppiter ipse, quī terribilī suā dextrā fulgura in terrās iacit, hunc currum agere nōn audet:",
+        "...et quid Iove maius habēmus?",
+        "Nam prīma pars viae, quam equī māne percurrunt, est ardua et difficilis; altera vērō",
+        "mediō est altissimā caelō, unde mare et terrās ipsī mihi saepe vīdēre fit timor;",
+        "ultima tandem viae pars, cum deorsum versa sit, perīculōsissima est atque ad eam tūtō percurrendam aurīgā opus est, quī bene equōs regere sciat! Tū fortasse, fīlī mī, crēdis in caelō esse amoenissimōs hortōs et urbēs deōrum pulcherrimās atque templa pretiōsissimīs dōnīs plēna, neque ita est, ut arbitrāris: immō,",
+        "...per īnsidiās iter est fōrmāsque ferārum!",
+        "Nisi cavēris, Taurus īrātus cōmibus tē petet; via est perīculōrum plēna: hinc enim habēbis Sagittārium, quī arcū suō ēmittit sagittās, illinc saevī Leōnis os, apertum et ad tē mordendum parātum; bracchia sua ad tē apprehendendum Scorpiō ad dextram et Cancer ad sinistram extendent; neque facile erit tunc equōs timentēs metūque affectōs regere: vix mihi pārent, vix mē patiuntur!",
+        "Nāte, cave, dum rēsque sinit tua corrige vōta!",
+        "Vīs certō scīre utrum sim tibi pater an nōn: num dubitās, cum videās mē tam valdē timēre? Aspice vultum meum:",
+        "...utinamque oculōs in pectora possēs",
+        "īnserere et patriās intus dēprēndere cūrās! dēnique quidquid habet dīves, circumspice, mundus",
+        "eque tot ac tantīs caelī terraeque marisque posce bonīs aliquid; nūllam patiēre repulsam!",
+        "Hoc īmum precor nē velīs,",
+        "...quod vērō nōmine poena, nōn honor est: poenam, Phaethōn, prō mūnere poscis!",
+        "Cum tālia dīxisset, Phoebus loquī atque monēre dēsiit; at Phaethōn tam multum currum illum regere cupiēbat, ut omnia alia patris mūnera contemneret. Ergō pater, cum fīliō dissuādēre nōn potuisset, eum ad currum dūxit, quem ōlim Vulcānus suā arte mīrābilī cōnfēcerat. Axis erat aureus, aureus erat tēmō, aureae rotae, at argenteī radiī: quae metalla ūna cum gemmīs, quibus tōtus currus ōrnābātur, Sōlis lūmen repercussum in omnēs caelī partēs spargēbant.",
+        "Cum Phaethōn haec omnia stupēns admīrārētur opusque dīligenter aspiceret, subitō aperuit",
+        "purpureās Aurōra forēs et plēna rosārum ātria: diffugiunt stēllae;",
+        "quās cum nōn iam appārēre, atque mundum rubēscere vīdissent, properāvērunt Horae equōs addūcere, quōs continuō curruī iūnxērunt; tum pater, animō turbātō, fīlium suum salūtāns dīxit:",
+        "“Sī potes hīs saltem monitīs pārēre parentīs, parce, puer, stimulīs et fortius ūtere lōrīs!",
+        "Sponte suā properant: labor est inhibēre volentēs.",
+        "Viam mediam tenē: iter fac in mediō āere inter caelum et terram; altius ēgressus caelestia tēcta cremābis,",
+        "īnferius terrās; mediō tūtissimus ībis.” Occupat ille levem iuvenālī corpore currum statque super, manibusque levēs contingere habēnās gaudet et invītō grātēs agit inde parentī.",
+        "Vix habēnās tetigerat puer, cum Sōlis equī, excurrentēs, Aurōrae portā ērūpērunt, pedibusque per aera mōtīs, nūbēs scindēbant sūrsum ēvolantēs;",
+        "sed leve pondus erat nec quod cognōscere possent Sōlis equī, solitaque iugum gravitāte carēbat.",
+        "Currum igitur, tamquam sī ā nūllō aurīgā regerētur, modo in altum, modo ad terrās trahēbant; Phaetōn, perterritus,",
+        "nec scit quā sit iter, nec, sī sciat, imperet illīs;",
+        "usque ad septentriōnēs pervēnit, igneque eam caelī partem ūrit;",
+        "Ut vērō summō dēspexit ab aethere terrās īnfēlīx Phaethōn penitus penitusque iacentēs, palluit et subitō genua intremuēre timōre suntque oculīs tenebrae per tantum lūmen obortae, et iam māllet equōs numquam tetigisse paternōs!",
+        "Quid faciat? multum caelī post terga relictum, ante oculōs plūs est;",
+        "modo prōspicit, modo respicit,",
+        "quidque agat ignārus stupet et nec frēna remittit",
+        "nec retinēre valet nec nōmina nōvit equōrum. Ex manibus puerī, quī ingentī metū afficiēbātur, habēnae dēlāpsae sunt: cum autem equī in tergō sēnsissent habēnās relictās esse, per āera sine lēge errant et ignōtās regiōnēs percurrunt; cum ad montēs campōsque accēdunt, terrā, exhaustā aquā, sicca subitō fit, et ūritur igne; ūruntur et arborēs in agrīs;",
+        "...magnae pereunt cum moenibus urbēs, cumque suīs tōtās pōpulīs incendia gentēs in cinerem vertunt; silvae cum montibus ārdent;",
+        "siccī fīunt fontēs, glaciēs nivēsque molliuntur; omnia ignis cōnsūmit.",
+        "Tum vērō Phaethōn cūnctīs ē partibus orbem",
+        "aspicit accēnsum nec tantōs sustinet aestūs:",
+        "cum ubīque fūmus currum tegeret, puer nesciēbat ubi esset aut quō īret; intereā gentēs tōtīus orbis terrae igne combustae moriēbantur; avēs dē caelō in terram cadēbant; amnēs, quī anteā per vallēs fluēbant, siccābantur; delphīnī et piscēs ōceanī fundum petēbant, ut ignēs vītārent: at ipsa maria in siccōs campōs vertēbantur.",
+        "Tandem Iuppiter cum aquā exstinguere ignem vellet, neque nūbēs habuit neque imbrēs quōs dē caelō dēmitteret! Tunc, īrātus, fulmen in puerum quī in currū stābat iēcit; Phaethōn, graviter vulnerātus, in flūmen Ēridanum cecidit ac mersus est, nec quisquam eī auxilium ferre potuit: nē pater quidem, quī miserē lūgēns illō diē nūllam lūcem dedit terrīs; neque sorōrēs, quae, effūsīs lacrimīs, quattuor mēnsēs nocte diēque eum vocābant humī iacentēs, dōnec dī pedēs eārum in rādīcēs, capillum in folia, bracchia in rāmōs mūtāvērunt: restābant tantum ōra vocantia mātrem: quid vērō faceret misera māter? Currēns enim hūc et illūc fīliārum corpora complectēbātur et manibus rāmōs, in quibus membra claudēbantur, rumpere et frangere cōnābātur: at inde sanguis IovisfiiCmīne percussūs, in flūmen Ēridanum dē caelō cadit Actaeōn in Cucō nymphās cōnspicit effundēbātur tamquam ex vulnere: “Parce, precor, māter!” clāmābant, “Parce! Nostrum enim corpus in arbore scinditur! Iamque valē!” Nec quidquam aliud dīcere potuērunt."
       ],
       "notes": [
         {
-          "term": "Phaeton -ontis m",
+          "term": "Phaetōn -ontis m",
           "gloss": ""
         },
         {
-          "term": "rēgia -ae f",
+          "term": "rēgiā -ae f",
           "gloss": "domus regis"
         },
         {
@@ -1192,7 +1192,7 @@ const chapter = {
           "gloss": "est"
         },
         {
-          "term": "supra (orbem)",
+          "term": "suprā (orbem)",
           "gloss": "imminet orbi terrarum"
         },
         {
@@ -1204,7 +1204,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "nare",
+          "term": "nāre",
           "gloss": "natare"
         },
         {
@@ -1216,11 +1216,11 @@ const chapter = {
           "gloss": "herbae colore"
         },
         {
-          "term": "siccare",
+          "term": "siccāre",
           "gloss": "siccum facere"
         },
         {
-          "term": "una",
+          "term": "ūna",
           "gloss": "eadem"
         },
         {
@@ -1248,7 +1248,7 @@ const chapter = {
           "gloss": "magna sella regis"
         },
         {
-          "term": "sustinere",
+          "term": "sustinēre",
           "gloss": "pati"
         },
         {
@@ -1272,7 +1272,7 @@ const chapter = {
           "gloss": "pede premere"
         },
         {
-          "term": "glacialis -e < glacies | canus -a -um",
+          "term": "glaciālis -e < glacies | canus -a -um",
           "gloss": "albus"
         },
         {
@@ -1300,15 +1300,15 @@ const chapter = {
           "gloss": "doleo quod ita feci"
         },
         {
-          "term": "promissa dare",
+          "term": "prōmissa dare",
           "gloss": "facere quod promissum est"
         },
         {
-          "term": "natus -I m",
+          "term": "nātus -I m",
           "gloss": "filius"
         },
         {
-          "term": "munera quae",
+          "term": "mūnera quae",
           "gloss": ""
         },
         {
@@ -1324,7 +1324,7 @@ const chapter = {
           "gloss": "regere"
         },
         {
-          "term": "altera pars vero est altissima in medio caelo",
+          "term": "alterā pars vero est altissima in medio caelo",
           "gloss": ""
         },
         {
@@ -1344,15 +1344,15 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "e-mittere",
+          "term": "ē-mittere",
           "gloss": ""
         },
         {
-          "term": "Leo -onis m",
+          "term": "Leō -onis m",
           "gloss": ""
         },
         {
-          "term": "Scorpio -onis /n",
+          "term": "Scorpiō -onis /n",
           "gloss": ""
         },
         {
@@ -1360,7 +1360,7 @@ const chapter = {
           "gloss": "et dum res | votum"
         },
         {
-          "term": "votum -i n",
+          "term": "vōtum -i n",
           "gloss": "voluntas"
         },
         {
@@ -1368,7 +1368,7 @@ const chapter = {
           "gloss": "in pectus meum"
         },
         {
-          "term": "(oculos) inserere in aliquid",
+          "term": "(oculōs) inserere in aliquid",
           "gloss": "intueri aliquid"
         },
         {
@@ -1376,11 +1376,11 @@ const chapter = {
           "gloss": "pater"
         },
         {
-          "term": "de-prehendere/-prendere",
+          "term": "dē-prehendere/-prendere",
           "gloss": "videre, cernere cura -ae f= metus ne quid mali accidat"
         },
         {
-          "term": "dives mundus",
+          "term": "dīves mundus",
           "gloss": ""
         },
         {
@@ -1388,11 +1388,11 @@ const chapter = {
           "gloss": "circum se aspicere e tot ac tantis bonis caeli terraeque marisque posce aliquid"
         },
         {
-          "term": "patieris",
+          "term": "patiēris",
           "gloss": "repulsa -ae f< repellere; repulsam"
         },
         {
-          "term": "pati",
+          "term": "patī",
           "gloss": "repelli"
         },
         {
@@ -1400,7 +1400,7 @@ const chapter = {
           "gloss": "signum laudis, gloria"
         },
         {
-          "term": "tēmo -ōnis m",
+          "term": "tēmō -ōnis m",
           "gloss": "rota -ae f | radius -i m"
         },
         {
@@ -1412,11 +1412,11 @@ const chapter = {
           "gloss": "in contrarias partes fugere"
         },
         {
-          "term": "quas cum",
+          "term": "quās cum",
           "gloss": "et cum eas"
         },
         {
-          "term": "rubescere",
+          "term": "rubēscere",
           "gloss": "rubere incipere, rubens fieri"
         },
         {
@@ -1436,7 +1436,7 @@ const chapter = {
           "gloss": "res difficilis et molesta"
         },
         {
-          "term": "inhibere",
+          "term": "inhibēre",
           "gloss": "retinere | volentes currere"
         },
         {
@@ -1488,7 +1488,7 @@ const chapter = {
           "gloss": "pondus"
         },
         {
-          "term": "qua via sit iter (",
+          "term": "quā via sit iter (",
           "gloss": "eundum sit)"
         },
         {
@@ -1508,7 +1508,7 @@ const chapter = {
           "gloss": "-erunt"
         },
         {
-          "term": "lumen -inis n",
+          "term": "lūmen -inis n",
           "gloss": "lux"
         },
         {
@@ -1524,27 +1524,27 @@ const chapter = {
           "gloss": "pater"
         },
         {
-          "term": "re-linquere -liquisse -lictum",
+          "term": "rē-linquere -liquisse -lictum",
           "gloss": ""
         },
         {
-          "term": "re-spicere prospicere",
+          "term": "rē-spicere prospicere",
           "gloss": ""
         },
         {
-          "term": "frenum -T n (v. pag. 100)",
+          "term": "frēnum -T n (v. pag. 100)",
           "gloss": ""
         },
         {
-          "term": "re-mittere nec frena remittit quo tardius equi currant",
+          "term": "rē-mittere nec frena remittit quo tardius equi currant",
           "gloss": ""
         },
         {
-          "term": "valere + inf= posse",
+          "term": "valēre + inf= posse",
           "gloss": ""
         },
         {
-          "term": "de-labT -lapsum esse",
+          "term": "dē-labT -lapsum esse",
           "gloss": ""
         },
         {
@@ -1572,7 +1572,7 @@ const chapter = {
           "gloss": "igne consumi"
         },
         {
-          "term": "cunctis e partibus",
+          "term": "cūnctīs e partibus",
           "gloss": "totum orbem terrarum aspicit"
         },
         {
@@ -1588,7 +1588,7 @@ const chapter = {
           "gloss": "urere (multum)"
         },
         {
-          "term": "de-mittere",
+          "term": "dē-mittere",
           "gloss": "deorsum mittere"
         },
         {
@@ -1604,11 +1604,11 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "re-stare",
+          "term": "rē-stare",
           "gloss": "reliquus esse, superesse"
         },
         {
-          "term": "(Phaeton,",
+          "term": "(Phaetōn,",
           "gloss": ""
         },
         {
@@ -1619,28 +1619,28 @@ const chapter = {
     },
     {
       "id": "actaeon",
-      "latinTitle": "5. Actaeon",
+      "latinTitle": "5. Actaeōn",
       "title": "",
       "paragraphs": [
-        "Fuit olim vallis quaedam multis atque frequentibus operta arboribus, cuius in ultima parte antrum erat non hominum arte sed natura confectum. Ad dextram ex fonte purissima aqua effundebatur; qui fons molli herba undique cinctus erat. Hic Diana, silvarum dea, quoties venando fessa esset, una cum nymphis suis considens lavare membra solebat.",
-        "Cum igitur olim in illam silvae partem pervenisset, nympharum urii arcum sagittasque suas tradidit, alteri vero vestem dedit; duae calceos ex pedibus exuunt, dum tertia capillos per collum sparsos colligit in nodum. Tum aquam ex fonte capacibus urriis haustam in deae corpus effundunt. Cum autem Diana sic membra lavet, iuvenis quidam, nomine Actaeon, qui cum canibus suis in silva venabatur,",
-        "per nemus ignotum non certis passibus errans",
-        "pervenit in lucum: sic illum fata ferebant.",
-        "Qui, cum primum in antrum intravit, a Nymphis conspectus est Dianam lavantibus; quae, animo valde perturbatae, magnis clamoribus ingentibusque ululatibus totum lucum impleverunt, et circumdantes Dianam suis corporibus texerunt; tamen ipsa dea altior illis erat; erubuit igitur, atque color, qui cum sol oritur aut occidit",
-        "nubibus esse solet aut purpureae Aurorae,",
-        "is fuit in vultu visae sine veste Dianae.",
-        "Dea irata, cum non prope se haberet sagittas, hausit aquam e fonte, et vultum capillumque viri spargens, haec verba addidit: “Nunc, si poteris, licebit tibi narrare te Dianam veste posita vidisse!” Canes Actaeonem in cervum mutatum daCacerant Statim comua cervi in Actaeonis capite aquā asperso creverunt, collum auctum est, longiores factae sunt aurēs, et manus in pedēs, bracchia in longa crura mutata sunt totumque corpus pilis maculisque opertum est. Ingenti metii affectus, fugit Actaeon,",
-        "et se tam celerem cursū miratur in ipso;",
-        "ut vero vultus et comua vidit in unda, “me miserum!” dicturus erat: vōx nulla secuta est! Ingemuit: vōx illa fuit, lacrimaeque per ora non sua fluxerunt; mens tantum pristina mansit.",
-        "Quid faciat? repetatne domum et regālia tecta an lateat silvis? Pudor hoc, timor impedit illud.",
-        "Cum autem, nesciens quid faceret, sic dubitaret, canes eum viderunt; quorum primi, cum conspexissent, verum cervum eum esse putantes, latrando signum ceteris dederunt; continuo igitur omnes simul in eum fugientem impetu facto per silvāsam, per valles, per dura saxa et per loca quibus nulla erat via persecuti sunt.",
-        "Ille fugit per quae fuerat loca saepe secutus,",
-        "heu! famulos fugit ipse suos. Clamare libebat: “Actaeon ego sum: dominum cognoscite vestrum!” Verba animo desunt; resonat latratibus aether.",
-        "Cum tandem eum canes consecuti essent, eorum primus dentibus in Actaeonis tergo vulnera fecit; duo vero alii dentes in cruribus fixerunt; deinde, dum illi dominum retinent (quem cervum esse credebant!) reliqua turba adveniens eius corpus dentibus petivit atque multis in partibus momordit. Querebatur ille ob dolorem, nec tamen humanos sonos ex bre edere poterat: cum in genua cecidisset, fere rogare et orare ut sibi parcerent videbatur: circum se aspiciens oculis, tendebat"
+        "Fuit ōlim vallīs quaedam multīs atque frequentibus operta arboribus, cuius in ultimā parte antrum erat nōn hominum arte sed nātūrā cōnfectum. Ad dextram ex fonte pūrissimā aquā effundēbātur; quī fōns mollī herbā undique cīnctus erat. Hīc Diāna, silvārum deā, quotiēs vēnandō fessa esset, ūna cum nymphīs suīs cōnsīdēns lavāre membra solēbat.",
+        "Cum igitur ōlim in illam silvae partem pervēnisset, nymphārum ūriī arcum sagittāsque suās trādidit, alterī vērō vestem dedit; duae calceōs ex pedibus exuunt, dum tertia capillōs per collum sparsōs colligit in nōdum. Tum aquam ex fonte capācibus urrīīs haustam in deae corpus effundunt. Cum autem Diāna sīc membra lavet, iuvenis quīdam, nōmine Actaeōn, quī cum canibus suīs in silvā vēnābātur,",
+        "per nemus ignōtum nōn certīs passibus errāns",
+        "pervēnit in lūcum: sīc illum fāta ferēbant.",
+        "Quī, cum prīmum in antrum intrāvit, ā Nymphīs cōnspectus est Diānam lavantibus; quae, animō valdē perturbātae, magnīs clāmōribus ingentibusque ululātibus tōtum lūcum implēvērunt, et circumdantēs Diānam suīs corporibus tēxērunt; tamen ipsa dea altior illīs erat; ērubuit igitur, atque color, quī cum sōl oritur aut occīdit",
+        "nūbibus esse solet aut purpureae Aurōrae,",
+        "is fuit in vultū vīsae sine veste Diānae.",
+        "Dea īrāta, cum nōn prope sē habēret sagittās, hausit aquam ē fonte, et vultum capillumque virī spargēns, haec verba addidit: “Nunc, sī poteris, licēbit tibi nārrāre tē Diānam veste positā vīdisse!” Canēs Actaeonem in cervum mūtātum daCacerant Statim comua cervī in Actaeonis capite aquā aspersō crēvērunt, collum auctum est, longiōrēs factae sunt aurēs, et manūs in pedēs, bracchia in longa crūra mūtāta sunt tōtumque corpus pīlīs maculīsque opertum est. Ingentī metiī affectus, fugit Actaeōn,",
+        "et sē tam celerem cursū mīrātur in ipsō;",
+        "ut vērō vultus et comua vīdit in undā, “mē miserum!” dictūrus erat: vōx nūlla secūta est! Ingemuit: vōx illa fuit, lacrimaeque per ōra nōn sua flūxērunt; mēns tantum prīstina mānsit.",
+        "Quid faciat? repetatne domum et regālia tēcta an lateat silvīs? Pudor hoc, timor impedit illud.",
+        "Cum autem, nesciēns quid faceret, sīc dubitāret, canēs eum vīdērunt; quōrum prīmī, cum cōnspexissent, vērum cervum eum esse putantēs, lātrandō signum cēterīs dedērunt; continuō igitur omnēs simul in eum fugientem impetū factō per silvāsam, per vallēs, per dūra saxa et per loca quibus nūlla erat viā persecūtī sunt.",
+        "Ille fugit per quae fuerat loca saepe secūtus,",
+        "heu! famulōs fugit ipse suōs. Clāmāre libēbat: “Actaeōn ego sum: dominum cognōscite vestrum!” Verba animō dēsunt; resonat lātrātibus aether.",
+        "Cum tandem eum canēs cōnsecūtī essent, eōrum prīmus dentibus in Actaeonis tergō vulnera fēcit; duo vērō aliī dentēs in crūribus fīxērunt; deinde, dum illī dominum retinent (quem cervum esse crēdēbant!) reliqua turba adveniēns eius corpus dentibus petīvit atque multīs in partibus momordit. Querēbātur ille ob dolōrem, nec tamen hūmānōs sonōs ex bre edere poterat: cum in genua cecidisset, ferē rogāre et ōrāre ut sibi parcerent vidēbātur: circum sē aspiciēns oculīs, tendēbat"
       ],
       "notes": [
         {
-          "term": "Actaeon -onis (acc sg Gr-a) m",
+          "term": "Actaeōn -onis (acc sg Gr-a) m",
           "gloss": ""
         },
         {
@@ -1652,7 +1652,7 @@ const chapter = {
           "gloss": "ex omnibus locis/partibus cingere cinxisse cinctum"
         },
         {
-          "term": "Diana -ae f",
+          "term": "Diāna -ae f",
           "gloss": ""
         },
         {
@@ -1672,7 +1672,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "capax-acis =qui",
+          "term": "capax-ācis =qui",
           "gloss": ""
         },
         {
@@ -1704,11 +1704,11 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "vultus",
+          "term": "vultūs",
           "gloss": "vultum"
         },
         {
-          "term": "unda -ae f- parvus fluctus (",
+          "term": "undā -ae f- parvus fluctus (",
           "gloss": "aqua)"
         },
         {
@@ -1720,7 +1720,7 @@ const chapter = {
           "gloss": "antiquus manere mansisse"
         },
         {
-          "term": "re-petere",
+          "term": "rē-petere",
           "gloss": "patriam r."
         },
         {
@@ -1748,7 +1748,7 @@ const chapter = {
           "gloss": "servus; famulos: canes"
         },
         {
-          "term": "re-sonare",
+          "term": "rē-sonare",
           "gloss": "sonum dare/facere"
         },
         {
@@ -1760,16 +1760,16 @@ const chapter = {
           "gloss": "aer summus, caelum"
         },
         {
-          "term": "e-dere",
+          "term": "ē-dere",
           "gloss": "dare"
         }
       ]
     }
   ],
   "plates": [
-    "Hyacinthus, disci ictu percussus, in manibus Apollinis e vulnere moritur.",
-    "Phaethon Solis, patris sui, domum ingressus, rogat ut sibi currus regendus tradatur.",
-    "Actaeon in luco nymphas conspicit, Dianam lavantem."
+    "Hyacinthus, discī ictū percussus, in manibus Apollinis ē vulnere moritur.",
+    "Phaethōn Sōlis, patris suī, domum ingressus, rogat ut sibi currus regendus trādātur.",
+    "Actaeōn in lūcō nymphās cōnspicit, Diānam lavantem."
   ],
   "grammar": [],
   "vocabulary": [],

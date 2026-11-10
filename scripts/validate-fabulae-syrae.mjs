@@ -13,7 +13,7 @@ const stats = {
 }
 
 function words(text) {
-  return (String(text).match(/[A-Za-zÀ-ÿ]+/g) || []).length
+  return (String(text).match(/[A-Za-zÀ-ÿĀ-ſ]+/g) || []).length
 }
 
 function checkText(where, text) {

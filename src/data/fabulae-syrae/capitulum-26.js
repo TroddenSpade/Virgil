@@ -14,20 +14,20 @@ const chapter = {
   "readings": [
     {
       "id": "pygmalion",
-      "latinTitle": "1. Pygmalion",
+      "latinTitle": "1. Pygmaliōn",
       "title": "",
       "paragraphs": [
-        "Pygmalion vir Graecus fuit, qui magnam pecuniam, multos amicos, multos servos habebat. Feminas vero, quas superbas esse putabat, nullas amabat.",
-        "Pygmalion arte sua multas res mirabiles confecerat, quas plurimi homines valde admirabantur. Cotidie enim pulcherrima signa ex marmore faciebat, quae tamen non signa, sed homines vivi esse videbantur.",
-        "Saepe Pygmalion cives in tabernam suam vocabat, pulcherrima illa signa ostendens: “Venite ad spectandum” aiebat, “viri et feminae: pulchra haec signa aspicite: admiramini membra, manus, pedes, bracchia, crura, colla, ora, quae artem meam vobis demonstrant: nam arte mea naturam ipsam imitātus sum, quae vivere meis in signis videtur.”",
-        "Viri Graeci et feminae Graecae ad Pygmalionis tabernam accedentes cupidissimi erant signa spectandi, quorum pulchritudinem omni modo laudabant: “Ō Pygmalion” aiebant, “quam pulchra haec signa sunt! Naturam enim non solum imitatus es, sed etiam superavisti!” Omnes delectabantur spectando illa signa, mirabilia exempla novissimae artis.",
-        "Tandem Pygmalion formosissimae puellae signum confecit, quae aureum capillum, caeruleos oculos, rubra labra habebat. Cuius signi amore captus, Pygmalion miserrimus factus erat et nocte pessime dormiebat: dolēbat enim signum, quamquam vera atque pulcherrima puella esse videbatur, non vivere, neque sibi respondere amorem suum fatenti.",
-        "Cotidie itaque Pygmalion, qui cupidus erat eam puellam vivam aspiciendi, deorum templa adire solebat ad sacrificandum et deos deasque orabat: sperabat enim flendo se deorum animos mollire posse; neque enim quisquam, nisi deus, illi signo vitam dare poterat.",
-        "Olim, postquam domum rediit, in cubiculum intravit, ubi pulcherrimum illud puellae signum posuerat. Nullum tamen signum vidit! Aliquem igitur illud abstulisse putavit, atque considens diu flevit. Subito tamen formosissima femina ad eum accessit, quae aureos capillos, caeruleos oculos, labra rubra habebat; quae Pygmalioni ex sella sua surgenti, “Non iam signum” inquit, “sed puella vera sum.” Pygmalion tersit lacrimas et laetissimus puellam complexus osculatus est. Post brevissimum vero tempus eam puellam uxorem duxit."
+        "Pygmaliōn vir Graecus fuit, quī magnam pecūniam, multōs amīcōs, multōs servōs habēbat. Fēminās vērō, quās superbās esse putābat, nūllās amābat.",
+        "Pygmaliōn arte suā multās rēs mīrābilēs cōnfēcerat, quās plūrimī hominēs valdē admīrābantur. Cotīdiē enim pulcherrima signa ex marmore faciēbat, quae tamen nōn signa, sed hominēs vīvī esse vidēbantur.",
+        "Saepe Pygmaliōn cīvēs in tabernam suam vocābat, pulcherrima illa signa ostendēns: “Venīte ad spectandum” aiēbat, “virī et fēminae: pulchra haec signa aspicite: admīrāminī membra, manūs, pedēs, bracchia, crūra, colla, ōra, quae artem meam vōbīs dēmōnstrant: nam arte meā nātūram ipsam imitātus sum, quae vīvere meīs in signīs vidētur.”",
+        "Virī Graecī et fēminae Graecae ad Pygmaliōnis tabernam accēdentēs cupidissimī erant signa spectandī, quōrum pulchritūdinem omnī modō laudābant: “Ō Pygmaliōn” aiēbant, “quam pulchra haec signa sunt! Nātūram enim nōn sōlum imitātus es, sed etiam superāvistī!” Omnēs dēlectābantur spectandō illa signa, mīrābilia exempla novissimae artis.",
+        "Tandem Pygmaliōn fōrmōsissimae puellae signum cōnfēcit, quae aureum capillum, caeruleōs oculōs, rubra labra habēbat. Cuius signī amōre captus, Pygmaliōn miserrimus factus erat et nocte pessimē dormiēbat: dolēbat enim signum, quamquam vēra atque pulcherrima puella esse vidēbātur, nōn vīvere, neque sibi respondēre amōrem suum fatentī.",
+        "Cotīdiē itaque Pygmaliōn, quī cupidus erat eam puellam vīvam aspiciendī, deōrum templa adīre solēbat ad sacrificandum et deōs deāsque ōrābat: spērābat enim flendō sē deōrum animōs mollīre posse; neque enim quisquam, nisi deus, illī signō vītam dare poterat.",
+        "Ōlim, postquam domum rediit, in cubiculum intrāvit, ubi pulcherrimum illud puellae signum posuerat. Nūllum tamen signum vīdit! Aliquem igitur illud abstulisse putāvit, atque cōnsīdēns diū flēvit. Subitō tamen fōrmōsissima fēmina ad eum accessit, quae aureōs capillōs, caeruleōs oculōs, labra rubra habēbat; quae Pygmaliōnī ex sellā suā surgentī, “Nōn iam signum” inquit, “sed puellā vērā sum.” Pygmaliōn tersit lacrimās et laetissimus puellam complexus ōsculātus est. Post brevissimum vērō tempus eam puellam uxōrem dūxit."
       ],
       "notes": [
         {
-          "term": "Pygmalion -ōnis m",
+          "term": "Pygmaliōn -ōnis m",
           "gloss": ""
         },
         {
@@ -59,11 +59,11 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "orare",
+          "term": "ōrāre",
           "gloss": "postulare aliquid ab aliquo / ā deTs"
         },
         {
-          "term": "ponere posuisse positum",
+          "term": "pōnere posuisse positum",
           "gloss": ""
         },
         {
@@ -79,7 +79,7 @@ const chapter = {
           "gloss": "puella teigēre -sisse -sum"
         },
         {
-          "term": "uxorem ducere",
+          "term": "uxōrem ducere",
           "gloss": "uxorem suam facere"
         }
       ]
@@ -89,16 +89,16 @@ const chapter = {
       "latinTitle": "2. Virginia",
       "title": "",
       "paragraphs": [
-        "Virginius vir Romanus fuit, qui pulchram filiam habebat, nōmine Virginiam, quam valde amabat. Ipse quoque a filia sua amabatur.",
-        "Olim, dum per vias ambulant, vir malus at dives, nomine Claudius, qui magnam pecuniam multosque servos habebat, eos vidit. Claudius, quamquam dives erat, tamen Virginio invidebat, quod eum laetum esse atque pulchram filiam habere videbat. Qua de causa consilium eam rapiendi excogitavit. Vocavit igitur servum et “Videsne” inquit, “Virginiam, pulchram illam virginem?” Cui servus “Ita, domine,” inquit, “video: mihi quoque pulcherrima videtur esse.” Claudius igitur puellam raptam ad se duci iussit, dicens: “Curre, atque puellam raptam ad me statim duc!”",
-        "Servus imperata domini statim fecit; puella rapta clamabat et servum orabat, qui tamen eius vocem audire non videbatur. Quamquam multi in via ambulabant, nemo ad iuvandum cucurrit: nam omnes Claudium timebant, cuius saevissimum servum bene noverant: neque quisquam paratus erat ad moriendum pro Virginia. Patri vero filiam raptam esse nuntiaverunt; qui statim ad Claudium accedens clamavit: “O Claudi, quid est hoc? Quomodo filiam meam rapere ausus es? Nullum enim malum tibi feci, et filia mea virgo proba est. Redde igitur statim eam, si vir es bonus.”",
-        "Claudius autem ridens “O Virgini” inquit, “ipse divitissimus sum, tu autem pauper; ego multos servos habeo, qui me defendere poterunt, si necesse erit, tu vero nullos: abi, stulte senex: te enim contemno, neque clamores tuos curo.”",
-        "Quibus superbissimis verbis auditis, Virginius, gladio sub pallio occultato, ad filiam suam accessit, dicens Claudio se ultimum eam complecti velle: gladium vero in corpus eius mersit atque interfecit. Dum igitur puella humi in sanguine suo iacet, “Filia mea” clamavit Virginius, “numquam ancilla tua erit, quamquam tu multos servos habes, ego nullos!”",
-        "Cum primum autem Romani Virginiam mortuam viderunt atque totam rem, ut facta erat, audiverunt, Claudium comprehensum ad mortem mitti iusserunt."
+        "Virgīnius vir Rōmānus fuit, quī pulchram fīliam habēbat, nōmine Virginiam, quam valdē amābat. Ipse quoque ā fīliā suā amābātur.",
+        "Ōlim, dum per viās ambulant, vir malus at dīves, nōmine Claudius, quī magnam pecūniam multōsque servōs habēbat, eōs vīdit. Claudius, quamquam dīves erat, tamen Virginīō invidēbat, quod eum laetum esse atque pulchram fīliam habēre vidēbat. Quā dē causā cōnsilium eam rapiendī excōgitāvit. Vocāvit igitur servum et “Vidēsne” inquit, “Virginiam, pulchram illam virginem?” Cui servus “Ita, domine,” inquit, “videō: mihi quoque pulcherrima vidētur esse.” Claudius igitur puellam raptam ad sē dūcī iussit, dīcēns: “Curre, atque puellam raptam ad mē statim dūc!”",
+        "Servus imperāta dominī statim fēcit; puella rapta clāmābat et servum ōrābat, quī tamen eius vōcem audīre nōn vidēbātur. Quamquam multī in viā ambulābant, nēmō ad iuvandum cucurrit: nam omnēs Claudium timēbant, cuius saevissimum servum bene nōverant: neque quisquam parātus erat ad moriendum prō Virginīā. Patrī vērō fīliam raptam esse nūntiāvērunt; quī statim ad Claudium accēdēns clāmāvit: “Ō Claudī, quid est hoc? Quōmodo fīliam meam rapere ausus es? Nūllum enim malum tibi fēcī, et fīlia mea virgō proba est. Redde igitur statim eam, sī vir es bonus.”",
+        "Claudius autem rīdēns “Ō Virginī” inquit, “ipse dīvitissimus sum, tū autem pauper; ego multōs servōs habeō, quī mē dēfendere poterunt, sī necesse erit, tū vērō nūllōs: abī, stultē senex: tē enim contemnō, neque clāmōrēs tuōs cūrō.”",
+        "Quibus superbissimīs verbīs audītīs, Virginius, gladiō sub palliō occultātō, ad fīliam suam accessit, dīcēns Claudiō sē ultimum eam complectī velle: gladium vērō in corpus eius mersit atque interfēcit. Dum igitur puella humī in sanguine suō iacet, “Fīlia mea” clāmāvit Virginius, “numquam ancilla tua erit, quamquam tū multōs servōs habēs, ego nūllōs!”",
+        "Cum prīmum autem Rōmānī Virginiam mortuam vīdērunt atque tōtam rem, ut facta erat, audīvērunt, Claudium comprehēnsum ad mortem mittī iussērunt."
       ],
       "notes": [
         {
-          "term": "Virginia -ae f",
+          "term": "Virginīā -ae f",
           "gloss": ""
         },
         {
@@ -110,7 +110,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "m-videre + dat",
+          "term": "m-vidēre + dat",
           "gloss": "inimicus esse ob bonum aiienum"
         },
         {
@@ -134,7 +134,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "pro pip + abi; prō Virginia",
+          "term": "prō pip + abi; prō Virginia",
           "gloss": "in locō Virginiae"
         },
         {
@@ -166,29 +166,29 @@ const chapter = {
           "gloss": "comprehensum ad mortem mitti"
         },
         {
-          "term": "iusserunt",
+          "term": "iussērunt",
           "gloss": "eum comprehendere et ad mortem mitti iusserunt"
         }
       ]
     },
     {
       "id": "europa",
-      "latinTitle": "3. Europa",
+      "latinTitle": "3. Eurōpa",
       "title": "",
       "paragraphs": [
-        "Europa bona et pulchra virgo Graeca fuit. Quae, dum cum aliis puellis in campo ludit, currit, pilam iacit floresque carpendo delectatur, subito magnum et album taurum vidit. Quem cum primum conspexerunt, amicae eius perterritae fugerunt clamantes.",
-        "Taurus autem non saevus esse videbatur: itaque Europa, quae minime metuebat et taurum propius videndi cupida erat, ad eum accedens manu sua tetigit. Taurus mugivit; Europa vero herbas ex campo carptas tauro dedit, qui eas edendo laetabatur.",
-        "Deinde Europa, audacior facta, latum tauri tergum spectabat atque manu sua tangebat. Tandem in eius tergum ascendens considit et “O amicae, venite, et me spectate!” inquit, “videte me in tauri tergo sedentem!”",
-        "Statim autem taurus, qui humi iacebat, surgens ad maris oram currere coepit. Europa clamavit perterrita; amicae eius flentes et lacrimantes, in litus ad adiuvandum cucurrerunt, neque vero Europam, quae tauro vehebatur, consequi potuerunt: taurus enim, campo relicto, Oceanum petivit atque in magnos maris fluctus intrans natabat. Postquam vero in altum pervenerunt, “Non taurus” inquit, “sed Iuppiter, deorum hominumque pater sum. Noli autem timere: non enim malus sum, neque tibi nocere volo; nam non nocendi causa, sed amore tui captus te rapere constitui.”",
-        "Europa igitur, quae initio valde metuerat, timorem suum deposuit, neque iam flebat. Mox vero ad novam terram pervenerunt, ubi taurus, puella deposita, ad divinam suam formam rediit. Post breve tempus Europam uxorem duxit et eam terram, ad quam simul cum ea pervenerat, Europam appellavit."
+        "Eurōpa bona et pulchra virgō Graeca fuit. Quae, dum cum aliīs puellīs in campō lūdit, currit, pilam iacit flōrēsque carpendō dēlectātur, subitō magnum et album taurum vīdit. Quem cum prīmum cōnspexērunt, amīcae eius perterritae fūgērunt clāmantēs.",
+        "Taurus autem nōn saevus esse vidēbātur: itaque Eurōpa, quae minimē metuēbat et taurum propius videndī cupida erat, ad eum accēdēns manū suā tetigit. Taurus mūgīvit; Eurōpa vērō herbās ex campō carptās taurō dedit, quī eās ēdendō laetābātur.",
+        "Deinde Eurōpa, audācior facta, lātum taurī tergum spectābat atque manū suā tangēbat. Tandem in eius tergum ascendēns cōnsīdit et “Ō amīcae, venīte, et mē spectāte!” inquit, “vidēte mē in taurī tergō sedentem!”",
+        "Statim autem taurus, quī humī iacēbat, surgēns ad maris ōram currere coepit. Eurōpa clāmāvit perterrita; amīcae eius flentēs et lacrimantēs, in lītus ad adiuvandum cucurrērunt, neque vērō Eurōpam, quae taurō vehēbātur, cōnsequī potuērunt: taurus enim, campō relictō, Ōceanum petīvit atque in magnōs maris flūctus intrāns natābat. Postquam vērō in altum pervēnērunt, “Nōn taurus” inquit, “sed Iuppiter, deōrum hominumque pater sum. Nōlī autem timēre: nōn enim malus sum, neque tibi nocēre volō; nam nōn nocendī causā, sed amōre tuī captus tē rapere cōnstituī.”",
+        "Eurōpa igitur, quae initiō valdē metuerat, timōrem suum dēposuit, neque iam flēbat. Mox vērō ad novam terram pervēnērunt, ubi taurus, puella dēposita, ad dīvīnam suam fōrmam rediit. Post breve tempus Eurōpam uxōrem dūxit et eam terram, ad quam simul cum eā pervēnerat, Eurōpam appellāvit."
       ],
       "notes": [
         {
-          "term": "Europa -ae f",
+          "term": "Eurōpa -ae f",
           "gloss": ""
         },
         {
-          "term": "minime",
+          "term": "minimē",
           "gloss": "nullo modo"
         },
         {
@@ -200,7 +200,7 @@ const chapter = {
           "gloss": "‘mu’ facere carpere -psisse -ptum"
         },
         {
-          "term": "carptas dedit",
+          "term": "carptās dedit",
           "gloss": "carpsit et dedit"
         },
         {
@@ -216,11 +216,11 @@ const chapter = {
           "gloss": "advenīre"
         },
         {
-          "term": "nocere -uisse + dat <-* iuvare nom ta, gen tuT I rapere rapuisse raptum",
+          "term": "nocēre -uisse + dat <-* iuvare nom ta, gen tuT I rapere rapuisse raptum",
           "gloss": "capere et secum ferre metuere -uisse"
         },
         {
-          "term": "de-ponere -posuisse -positum; d. timorem",
+          "term": "dē-pōnere -posuisse -positum; d. timorem",
           "gloss": "desinere timere"
         },
         {
@@ -228,24 +228,24 @@ const chapter = {
           "gloss": "deus"
         },
         {
-          "term": "uxorem ducere",
+          "term": "uxōrem ducere",
           "gloss": "uxorem suam facere"
         }
       ]
     },
     {
       "id": "cornelia",
-      "latinTitle": "4. Cornelia",
+      "latinTitle": "4. Cornēlia",
       "title": "",
       "paragraphs": [
-        "Cornelia bona et proba femina Romana fuit, quae duos habuit filios, quorum alteii Tiberius, alteri Gāius nomina erant. Filios Cornelia valde amabat, atque ab iis amabatur.",
-        "Ōlim femina Romana, nomine Tullia, Corneliam visit, cupida ornamenta sua ostendendi; quae, superbe monstrans gemmas, quas in digitis et in collo gerebat, “Multas” inquit “novās et pulchras gemmas habeo, quae me valde delectant: specta! Aspice hōs ānulōs, hās lineas margaritarum, hās gemmas pretiosas, quas mihi vir meus magna pecunia ēmit. Quam pulchra sunt haec ornamenta! Nonne tē dēlectant hae gemmae?”",
-        "Cornēlia vēro quae tam superba verba audiendo non laetabatur, gemmas aspiciēns respondit: “Ita est, ō Tullia: mihi enim pulchrae videntur esse gemmae, quas maritus tuus tibi ēmit: certē ille valdē tē amat. Ego quoque tamen pulchras gemmas habeō.” “Ain’ vērō?” ait Tullia, “O mea Cornēlia, ostende mihi pulchras hās gemmas tuas! Studiosissima enim sum eās aspiciendi!”",
-        "Cornēlia igitur surgēns vocat: “O filii, vehite hūc!” Tibērius et Gāius, mātris voce audītā, accurrentēs in ātrium intrant. Quōs Cornēlia digito monstrans, “Ecce” inquit, “gemmae meae: filii enim mei ornamenta mea sunt: nūllās aliās gemmās cupiō.”"
+        "Cornēlia bona et proba fēmina Rōmāna fuit, quae duōs habuit fīliōs, quōrum alterī Tiberius, alterī Gāius nōmina erant. Fīliōs Cornēlia valdē amābat, atque ab iīs amābātur.",
+        "Ōlim fēmina Rōmāna, nōmine Tullia, Cornēliam vīsit, cupida ōrnāmenta sua ostendendī; quae, superbē mōnstrāns gemmās, quās in digitīs et in collō gerēbat, “Multās” inquit “novās et pulchrās gemmās habeō, quae mē valdē dēlectant: spectā! Aspice hōs ānulōs, hās līneās margarītārum, hās gemmās pretiōsās, quās mihi vir meus magna pecūnia ēmit. Quam pulchra sunt haec ōrnāmenta! Nōnne tē dēlectant hae gemmae?”",
+        "Cornēlia vēro quae tam superba verba audiendō nōn laetābātur, gemmās aspiciēns respondit: “Ita est, ō Tullia: mihi enim pulchrae videntur esse gemmae, quās marītus tuus tibi ēmit: certē ille valdē tē amat. Ego quoque tamen pulchrās gemmās habeō.” “Ain’ vērō?” ait Tullia, “Ō mea Cornēlia, ostende mihi pulchrās hās gemmās tuās! Studiōsissima enim sum eās aspiciendī!”",
+        "Cornēlia igitur surgēns vocat: “Ō fīliī, vehite hūc!” Tiberius et Gāius, mātris vōce audītā, accurrentēs in ātrium intrant. Quōs Cornēlia digitō mōnstrāns, “Ecce” inquit, “gemmae meae: fīliī enim meī ōrnāmenta mea sunt: nūllās aliās gemmās cupiō.”"
       ],
       "notes": [
         {
-          "term": "Cornelia -ae f",
+          "term": "Cornēlia -ae f",
           "gloss": ""
         },
         {
@@ -272,15 +272,15 @@ const chapter = {
     },
     {
       "id": "tarpeia",
-      "latinTitle": "5. Tarpeia",
+      "latinTitle": "5. Tarpēia",
       "title": "",
       "paragraphs": [
-        "Olim Sabini, qui in Latio habitabant, magno exercitu Romanos, hostes suos, oppugnaverunt. Qui quidem, portis clausis, urbem suam defendere conabantur.",
-        "Sabini vero, fortissime pugnantes, urbem paene ceperunt. Romani, qui strenui milites erant, breves gladios, galeas ex ferro factas, longas hastas gerebant, quibus semper parati erant ad pugnandum; at Sabini quoque optima arma habebant. In bracchio sinistro vero, quo scuta tenebant, armillas aureas gerere solebant.",
-        "Taipeia, quae improba et mala puella Romana fuit, ea Sabinorum ornamenta, quae procul ex Romae moeniis in sole lucentia conspexerat, habere cupiebat: ei enim pulcherrima esse videbantur.",
-        "Quoniam igitur cupidissima facta erat illud aurum habendi, noctu ex urbe exiit, quia Sabinorum castra petere volebat. Postquam illuc pervenit, “O Sabini” inquit, “si mihi dabitis ea, quae in bracchiis sinistris geritis, statim vobis portas aperiam et viam monstrabo, qua in urbem ingredi poteritis.”",
-        "Itaque Sabini, qui cupidissimi erant urbem expugnandi, Taipeiam secuti, ad portas urbis pervenerunt, quas Tarpeia statim aperuit. Hostes, in urbem ingressi, impetu in Romanos facto, brevi eos vicerunt atque magnam praedam ceperunt.",
-        "Postquam multos homines interfecerant, domos incende rant, ornamenta, nummos et alias res pretiosas abstulerant, iam fessi pugnando, et studiosi in patriam suam revertendi, Taipeiam praemium exspectantem apud portas conspexerunt. “O Taipeia” dixerunt, “quamquam mala et improba femina nobis videris esse, dabimus tamen, ut polliciti sumus, ea, quae in brachiis nostris sinistris gerimus!” Taipeia laeta ad milites accessit; qui quidem ridentes in eam non armillas, sed gravissima sua scuta iecerunt! Taipeia, multis scutis oppressa, ad terram cecidit et mortua ibi iacuit."
+        "Ōlim Sabīnī, quī in Latiō habitābant, magnō exercitū Rōmānōs, hostēs suōs, oppugnāvērunt. Quī quidem, portīs clausīs, urbem suam dēfendere cōnābantur.",
+        "Sabīnī vērō, fortissimē pugnantēs, urbem paene cēpērunt. Rōmānī, quī strēnuī mīlitēs erant, brevēs gladiōs, galeās ex ferrō factās, longās hastās gerēbant, quibus semper parātī erant ad pugnandum; at Sabīnī quoque optima arma habēbant. In bracchiō sinistrō vērō, quō scūta tenēbant, armillās aureās gerere solēbant.",
+        "Tarpēia, quae improba et mala puella Rōmāna fuit, ea Sabīnōrum ōrnāmenta, quae procul ex Rōmae moeniīs in sōle lūcentia cōnspexerat, habēre cupiēbat: eī enim pulcherrima esse vidēbantur.",
+        "Quoniam igitur cupidissima facta erat illud aurum habendī, noctū ex urbe exiit, quia Sabīnōrum castra petere volēbat. Postquam illūc pervenit, “Ō Sabīnī” inquit, “sī mihi dabitis ea, quae in bracchiīs sinistrīs geritis, statim vōbīs portās aperiam et viam mōnstrābō, quā in urbem ingredī poteritis.”",
+        "Itaque Sabīnī, quī cupidissimī erant urbem expugnandī, Tarpēiam secūtī, ad portās urbis pervēnērunt, quās Tarpēia statim aperuit. Hostēs, in urbem ingressī, impetū in Rōmānōs factō, brevī eōs vīcērunt atque magnam praedam cēpērunt.",
+        "Postquam multōs hominēs interfēcerant, domōs incenderant, ōrnāmenta, nummōs et aliās rēs pretiōsās abstulerant, iam fessī pugnandō, et studiōsī in patriam suam revertendī, Tarpēiam praemium exspectantem apud portās cōnspexērunt. “Ō Tarpēia” dīxērunt, “quamquam mala et improba fēmina nōbīs vidēris esse, dabimus tamen, ut pollicitī sumus, ea, quae in brāchiīs nostrīs sinistrīs gerimus!” Tarpēia laeta ad mīlitēs accessit; quī quidem rīdentēs in eam nōn armillās, sed gravissima sua scūta iēcērunt! Tarpēia, multīs scūtīs oppressa, ad terram cecidit et mortua ibi iacuit."
       ],
       "notes": [
         {
@@ -288,7 +288,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "Sabini -ōrum m pl",
+          "term": "Sabīnī -ōrum m pl",
           "gloss": ""
         },
         {
@@ -304,11 +304,11 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "noctu adv- nocte",
+          "term": "noctū adv- nocte",
           "gloss": "ex-Tre -iisse"
         },
         {
-          "term": "per-venire -venisse",
+          "term": "per-venīre -venisse",
           "gloss": "ad-venire"
         },
         {
@@ -343,7 +343,7 @@ const chapter = {
     }
   ],
   "plates": [
-    "Europa tauro vehitur."
+    "Eurōpa taurō vehitur."
   ],
   "grammar": [],
   "vocabulary": [],

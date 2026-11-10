@@ -14,20 +14,20 @@ const chapter = {
   "readings": [
     {
       "id": "minos",
-      "latinTitle": "1. Minos",
+      "latinTitle": "1. Mīnōs",
       "title": "",
       "paragraphs": [
-        "Minos rex, qui Cretam insulam regebat, ibi magnam et pulchram regiam, multos servos, magnam pecuniam habebat; itaque superbus factus erat, atque deos omnes sibi favere putabat seque ab iis omnia petere posse. “Me prae ceteris mortalibus beatum esse censeo: dei enim me amant;” inquit, “si enim a deis peto ut mihi donum dent, statim donum ad me mittunt.”",
-        "Olim, multis hominibus spectantibus, ambulatum exiit et oram maris petivit; ibi vero Neptunum talibus verbis oravit: “O Neptune” inquit, “oro te ut pulchrum taurum ad meam insulam mittas, quem tibi, marium omnium deo qui magnos fluctus excitas tempestatesque sedare soles, sacrificabo!”",
-        "Neptunus ex fundo maris eum orantem audivit et pulcherrimum magnumque taurum ad insulam Cretam misit, quem sacrificari iussit.",
-        "Minos, ad taurum accedens, eum magna cum cura spectavit: postquam vero vidit taurum pulcherrimum esse, noluit tam formosam bestiam Neptuno sacrificare; servos igitur suos id facere prohibuit, eosque iussit alterum taurum ex stabulo suo ad maris oram adducere: “O servi” inquit, “vobis impero ut taurum minus pulchrum ex stabulo meo sumatis: curate tamen ut colore sit similis huic, quem Neptunus misit.”",
-        "Vix haec dixerat, cum servi, qui severum atque superbum regem timebant, quam celerrime potuerunt imperata fecerunt: itaque ad stabulum cucurrerunt unde alterum taurum ad litus duxerunt. Quō sacrificato, Minos servos iussit sacrum taurum, quem Neptunus miserat, ad stabulum agere atque iānuās claudere: “Nunc magna cura facite, ut nēmō hunc taurum videat: impero vobis ut eum bene in stabulo occultetis.” Deinde rex, laetus quod tam pulchrum taurum sibi paravit, ad regiam suam rediit.",
-        "Neptunus tamen facile omnia intellexit, quae rex fecerat. Iratus igitur ad oram maris venit; ad stabulum cucurrit, et, iānuā aperta, suum vidit taurum in stabulo inclusum. “O improbe Minos!” exclamavit, “me fallere voluisti! Efficiam igitur ut pulcherrimus ille taurus, quem tibi largitus eram, in saevum monstrum mutetur!”",
-        "Haec verba locutus, ex stabulo taurum, qui ferocissimus factus erat, emisit; qui, in homines impetum infestis cornibus suis faciens, multos viros multasque feminas horrenda morte interfecit. Incolae perterriti, quamquam funibus et hastis utebantur, taurum huc et illuc currentem capere non poterant; nec ē tali periculo liberati sunt, donec Hercules, qui in Cretam venerat, illam saevissimam bestiam tandem cepit."
+        "Mīnōs rēx, quī Crētam īnsulam regēbat, ibi magnam et pulchram rēgiam, multōs servōs, magnam pecūniam habēbat; itaque superbus factus erat, atque deōs omnēs sibi favēre putābat sēque ab iīs omnia petere posse. “Mē prae cēterīs mortālibus beātum esse cēnseō: deī enim mē amant;” inquit, “sī enim ā deīs petō ut mihi dōnum dent, statim dōnum ad mē mittunt.”",
+        "Ōlim, multīs hominibus spectantibus, ambulātum exiit et ōram maris petīvit; ibi vērō Neptūnum tālibus verbīs ōrāvit: “Ō Neptūne” inquit, “ōrō tē ut pulchrum taurum ad meam īnsulam mittās, quem tibi, marium omnium deō quī magnōs flūctūs excitās tempestātēsque sēdāre solēs, sacrificābō!”",
+        "Neptūnus ex fundō maris eum ōrantem audīvit et pulcherrimum magnumque taurum ad īnsulam Crētam mīsit, quem sacrificārī iussit.",
+        "Mīnōs, ad taurum accēdēns, eum magna cum cūrā spectāvit: postquam vērō vīdit taurum pulcherrimum esse, nōluit tam fōrmōsam bēstiam Neptūnō sacrificāre; servōs igitur suōs id facere prohibuit, eōsque iussit alterum taurum ex stabulō suō ad maris ōram addūcere: “Ō servī” inquit, “vōbīs imperō ut taurum minus pulchrum ex stabulō meō sūmātis: cūrātē tamen ut colōre sit similis huic, quem Neptūnus mīsit.”",
+        "Vix haec dīxerat, cum servī, quī sevērum atque superbum rēgem timēbant, quam celerrimē potuērunt imperāta fēcērunt: itaque ad stabulum cucurrērunt unde alterum taurum ad lītus dūxērunt. Quō sacrificātō, Mīnōs servōs iussit sacrum taurum, quem Neptūnus mīserat, ad stabulum agere atque iānuās claudere: “Nunc magnā cūrā facite, ut nēmō hunc taurum videat: imperō vōbīs ut eum bene in stabulō occultētis.” Deinde rēx, laetus quod tam pulchrum taurum sibi parāvit, ad rēgiam suam rediit.",
+        "Neptūnus tamen facile omnia intellēxit, quae rēx fēcerat. Īrātus igitur ad ōram maris venit; ad stabulum cucurrit, et, iānuā aperta, suum vīdit taurum in stabulō inclūsum. “Ō improbē Mīnōs!” exclāmāvit, “mē fallere voluistī! Efficiam igitur ut pulcherrimus ille taurus, quem tibi largītus eram, in saevum mōnstrum mūtētur!”",
+        "Haec verba locūtus, ex stabulō taurum, quī ferōcissimus factus erat, ēmīsit; quī, in hominēs impetum īnfēstīs cornibus suīs faciēns, multōs virōs multāsque fēminās horrenda morte interfēcit. Incolae perterritī, quamquam fūnibus et hastīs ūtēbantur, taurum hūc et illūc currentem capere nōn poterant; nec ē tālī perīculō līberātī sunt, dōnec Herculēs, quī in Crētam vēnerat, illam saevissimam bēstiam tandem cēpit."
       ],
       "notes": [
         {
-          "term": "regia -ae f= domus regis",
+          "term": "rēgiā -ae f= domus regis",
           "gloss": ""
         },
         {
@@ -35,7 +35,7 @@ const chapter = {
           "gloss": "qui alios nullius pretii esse putat"
         },
         {
-          "term": "favere + dat= bene velle",
+          "term": "favēre + dat= bene velle",
           "gloss": ""
         },
         {
@@ -47,7 +47,7 @@ const chapter = {
           "gloss": "locus quo pecora nocte redeunt"
         },
         {
-          "term": "ad-ducere",
+          "term": "ad-dūcere",
           "gloss": ""
         },
         {
@@ -67,7 +67,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "Hercules",
+          "term": "Herculēs",
           "gloss": ""
         },
         {
@@ -83,7 +83,7 @@ const chapter = {
           "gloss": "ad pugnam paratus horrendus -a -um = terribilis fimis -is m"
         },
         {
-          "term": "periculum -T n | liberare",
+          "term": "perīculum -T n | liberare",
           "gloss": "liberum facere"
         },
         {
@@ -91,23 +91,23 @@ const chapter = {
           "gloss": "dum, ūsque ad tempus quō"
         },
         {
-          "term": "Hercules -is m",
+          "term": "Herculēs -is m",
           "gloss": "Iovis filius, deus Graecus"
         }
       ]
     },
     {
       "id": "latona",
-      "latinTitle": "2. Latona",
+      "latinTitle": "2. Lātōna",
       "title": "",
       "paragraphs": [
-        "Latona dea fuit, quam Iūnō, deorum regina, non amabat; itaque de Olympo expulsam in terram misit, ubi ipsa maerens per campos silvasque errabat. Ad oram maritimam Latona postremo advenit, ubi sic Neptunum oravit: “O Neptune, oro te ut me in insulam feras in medio mari sitam: opto enim ut ibi iratam Iūnōnem tandem effugere possim!”",
-        "Neptunus, eius precibus permotus, parvam insulam ex Oceani fundo extulit; tum delphinum ex alto mari ad Latonam misit, qui eam in dorso suo sedentem a litore maris usque ad parvae illius insulae oram vexit. Ibi vero delphinus eam exposuit; quae ab humili litore in alta saxa ascendit, unde prospiciens totum mare circa insulam spectāvit. Locus erat amoenissimus; insula autem non fixa stabat, sed, tamquam navis, modo huc modo illuc fluctibus iactabatur. Latona vero in insula quae movebatur vivere nolebat.",
-        "Iuppiter igitur, postquam hoc animadvertit, de alto Olympo descendit atque catenis ferreis insulam ad maris fundum vinxit.",
-        "Latona ergo in ea insula habitavit, sed, quod sola erat, Iuppiter filium et filiam ei dedit. Ita nati sunt Apollo et Diana, Latonae liberi, quos ipsa valde amabat; neque iam ab insula discedere volebat: at inde quoque necesse fuit fugere: nam Iūnō eam persequebatur.",
-        "Duos igitur infantes, qui nondum ambulare poterant, in sinu suo portans per varias terras errabat et valde fessa erat. Quamquam vero sitiebat et esuriebat, neque aquam invenire poterat, neque quisquam cibum ei largiri volebat: omnes enim Iūnōnem iratam metuebant.",
-        "Ōlim, dum ambulat, subito parvum lacum haud procul a via vidit, ad quem laetissima statim cucurrit. Agricolae vero, qui frumentum in campis metebant, postquam eam conspexerunt ad lacum currentem: “Abi!” clamaverunt, “Nōli aquae appropinquare! Nisi statim discedes, curabimus nē aquam illam bibere possis!” Quibus autem clamantibus Lātōna non paruit, et lacum petens: “Cūr me prohibetis aquis?” inquit, “Omnēs libere aquis utuntur. Natura nemini dedit solem, nec aera, nec aquam: dona sunt omnibus communia. Orans tamen a vobis peto ut me aquam haurire sinatis; nolo enim in lacu lavare membra: tantum bibendi cupida sum, quoniam os est valde siccum et vix loqui possum. Oro igitur vos ut aquam mihi ad vivendum necessariam detis. Nonne hi quoque infantes vos movent, qui ex meo sinu ad vos bracchia tendunt?” Agricolae vero illi, qui ab aqua eam prohibere volebant, his verbis nullo modo moti sunt, sed, falcibus suis in campo relictis, ad lacum ipsi quoque cucurrerunt, atque aquam pedibus manibusque turbare coeperunt. Tum Latona, quae aquam sordidam iam bibere non poterat, deos deasque his verbis oravit: “O dei boni, si soror vestra sum, ac me adhuc amatis, curate ut hi improbi agricolae, qui me ab aqua prohibuerunt, severe puniantur!”",
-        "Quibus verbis auditis, Iuppiter, deorum omnium rex, agricolas illos pravos in magnas ranas convertit. Hanc ob cau-  sam etiam nunc ranae semper apud aquam aut in aqua ipsa vivunt."
+        "Lātōna dea fuit, quam Iūnō, deōrum rēgīna, nōn amābat; itaque dē Olympō expulsam in terram mīsit, ubi ipsa maerēns per campōs silvāsque errābat. Ad ōram maritimam Lātōna postrēmō advēnit, ubi sīc Neptūnum ōrāvit: “Ō Neptūne, ōrō tē ut mē in īnsulam ferās in mediō marī sitam: optō enim ut ibi īrātam Iūnōnem tandem effugere possim!”",
+        "Neptūnus, eius precibus permōtus, parvam īnsulam ex Ōceanī fundō extulit; tum delphīnum ex altō marī ad Lātōnam mīsit, quī eam in dorsō suō sedentem ā lītore maris usque ad parvae illīus īnsulae ōram vēxit. Ibi vērō delphīnus eam exposuit; quae ab humilī lītore in alta saxa ascendit, unde prōspiciēns tōtum mare circā īnsulam spectāvit. Locus erat amoenissimus; īnsula autem nōn fīxa stābat, sed, tamquam nāvis, modo hūc modo illūc flūctibus iactābātur. Lātōna vērō in īnsulā quae movēbātur vīvere nōlēbat.",
+        "Iuppiter igitur, postquam hoc animadvertit, dē altō Olympō dēscendit atque catēnīs ferreīs īnsulam ad maris fundum vīnxit.",
+        "Lātōna ergō in eā īnsulā habitāvit, sed, quod sōla erat, Iuppiter fīlium et fīliam eī dedit. Ita nātī sunt Apollō et Diāna, Lātōnae līberī, quōs ipsa valdē amābat; neque iam ab īnsulā discēdere volēbat: at inde quoque necesse fuit fugere: nam Iūnō eam persequēbātur.",
+        "Duōs igitur īnfantēs, quī nōndum ambulāre poterant, in sinū suō portāns per variās terrās errābat et valdē fessa erat. Quamquam vērō sitiēbat et ēsuriēbat, neque aquam invenīre poterat, neque quisquam cibum eī largīrī volēbat: omnēs enim Iūnōnem īrātam metuēbant.",
+        "Ōlim, dum ambulat, subitō parvum lacum haud procul ā viā vīdit, ad quem laetissima statim cucurrit. Agricolae vērō, quī frūmentum in campīs metēbant, postquam eam cōnspexērunt ad lacum currentem: “Abī!” clāmāvērunt, “Nōli aquae appropinquāre! Nisi statim discēdēs, cūrābimus nē aquam illam bibere possīs!” Quibus autem clāmantibus Lātōna nōn pāruit, et lacum petēns: “Cūr mē prohibētis aquīs?” inquit, “Omnēs līberē aquīs ūtuntur. Nātūra nēminī dēdit sōlem, nec āera, nec aquam: dōna sunt omnibus commūnia. Ōrāns tamen ā vōbīs petō ut mē aquam haurīre sinātis; nōlō enim in lacū lavāre membra: tantum bibendī cupida sum, quoniam os est valdē siccum et vix loquī possum. Ōrō igitur vōs ut aquam mihi ad vīvendum necessāriam dētis. Nōnne hī quoque īnfantēs vōs movent, quī ex meō sinū ad vōs bracchia tendunt?” Agricolae vērō illī, quī ab aquā eam prohibēre volēbant, hīs verbīs nūllō modō mōtī sunt, sed, falcibus suīs in campō relictīs, ad lacum ipsī quoque cucurrērunt, atque aquam pedibus manibusque turbāre coepērunt. Tum Lātōna, quae aquam sordidam iam bibere nōn poterat, deōs deāsque hīs verbīs ōrāvit: “Ō deī bonī, sī soror vestra sum, ac mē adhūc amātis, cūrāte ut hī improbī agricolae, quī mē ab aquā prohibuērunt, sevērē pūniantur!”",
+        "Quibus verbīs audītis, Iuppiter, deōrum omnium rēx, agricolās illōs prāvōs in magnās rānās convertit. Hanc ob causam etiam nunc rānae semper apud aquam aut in aquā ipsā vīvunt."
       ],
       "notes": [
         {
@@ -115,7 +115,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "regina -ae f- regis coniūnx",
+          "term": "rēgīna -ae f- regis coniūnx",
           "gloss": ""
         },
         {
@@ -131,7 +131,7 @@ const chapter = {
           "gloss": "expulit et misit"
         },
         {
-          "term": "per-movere -movisse -motum fundus -i m (v. pag. 13)",
+          "term": "per-movēre -movisse -motum fundus -i m (v. pag. 13)",
           "gloss": ""
         },
         {
@@ -155,7 +155,7 @@ const chapter = {
           "gloss": "mater parit, liben nascuntur"
         },
         {
-          "term": "Apollo -inis m, Diana -ae f",
+          "term": "Apollō -inis m, Diana -ae f",
           "gloss": ""
         },
         {
@@ -175,7 +175,7 @@ const chapter = {
           "gloss": "prope venire"
         },
         {
-          "term": "parēre -uisse nēmo, dat nemini āēr, acc Gr aera",
+          "term": "pārēre -uisse nēmo, dat nemini āēr, acc Gr aera",
           "gloss": ""
         },
         {
@@ -187,7 +187,7 @@ const chapter = {
           "gloss": "poscere"
         },
         {
-          "term": "Infantes bracchia tendunt",
+          "term": "Īnfantēs bracchia tendunt",
           "gloss": ""
         },
         {
@@ -195,38 +195,38 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "movere movisse motum",
+          "term": "movēre movisse motum",
           "gloss": ""
         },
         {
-          "term": "re-iinquere -liquisse -lictum",
+          "term": "rē-iinquere -liquisse -lictum",
           "gloss": ""
         },
         {
-          "term": "turbare",
+          "term": "turbāre",
           "gloss": "turbidum (: sordidum) facere"
         },
         {
-          "term": "pro-hibere -uisse",
+          "term": "prō-hibere -uisse",
           "gloss": ""
         },
         {
-          "term": "mi - _ _ _ _ _ ... __. con-vertere-tisse",
+          "term": "mī - _ _ _ _ _ ... __. con-vertere-tisse",
           "gloss": ""
         }
       ]
     },
     {
       "id": "phrixus-et-helle",
-      "latinTitle": "3. Phrixus et Helle",
+      "latinTitle": "3. Phrixus et Hellē",
       "title": "",
       "paragraphs": [
-        "Athamas Graecorum rex fuit, qui, postquam eius uxor mortua est, alteram feminam, nomine Inonem, in matrimonium duxit, quia parvum filium et parvam filiam habebat, quos ipse alere non poterat.",
-        "Ino autem, cum primum in regiam ivit, neque puerum nomine Phrixum neque puellam nomine Hellen amavit eosque ex regia ad parvam casam quae in silva sita erat, misit, ubi tamen Phrixus et Helle laeti habitabant. Cotidie enim, gallo canente, e lectis surgebant, mala edebant et lac bibebant, ac postea e casa in silvas et colles currebant, ubi parvas oves insequentes vel flores carpentes ludere per multas horas poterant. Vesperi vero e silvis collibusque ad parvam casam redibant, ubi cenam parabant. Tum denique fessi in cubiculum ibant, ubi dormiebant.",
-        "Saepe vero noverca e regia venire solebat eosque spectabat ludentes. Ino autem non gaudebat quod videbat puerum  puelIamque tam laetos esse, iisque invidebat: “Nolo iam videre hos pueros tam laete viventes. Curabo igitur ut Phrixus ahenum moriatur; profecto enim hoc modo efficiam ut soror quoque, post eius mortem, miseram vitam habeat.”",
-        "Phrixum igitur e casa ad regiam arcessere eumque interfi- cere constituit. Mercurius tamen, malo hoc consilio cognito, aureum arietem, qui duas alas habebat, de caelo misit; qui, primum ad eum locum pervenit, ubi puer et puella habitabant, a Phrixo conspectus est. Puer igitur, nihil timens, ad arietem accessit, eique herbas de campo carptas praebuit. Aries non erat saevus; ergo Phrixus, audacior factus, in bestiae tergum ascendit et laetus clamavit: “O Helle, exi e casa, et specta me in tergo arietis insidentem!” Helle, fratris voce audita, statim e casa currens exiit; neque ipsa metuit arietem, sed accedens in eius dorsum ascendit ibique post fratrem consedit.",
-        "Aries vero aureus sursum supra humum se levavit et ex eo loco, ubi sita erat puerorum casa, evolavit. Mox puer et puella Graeciam reliquerunt, et supra mare volantes longinquas terras petiverunt. Helle autem despiciens magnos fluctus Infra se vidit; puella perterrita de arietis dorso delapsa est; dum vero cadit, “O frater,” clamavit, “oro te ut auxilium mihi feras!” Deinde, quatiens bracchia et crura de summo caelo in mare cecidit ac mersa est, neque frater eam servare potuit. Ea maris pars, in qua Helle mersa est, a nomine eius ‘Helles pontus’ vocatur.",
-        "Frater diu flevit; ipse tamen non cecidit, sed usque ad Asiae terram volavit, quae Colchis appellatur. Ibi aries puerum exposuit, qui bestiam deis sacrificavit. Tum aureum eius vellus ad Colchidis regem portavit, qui: “Curabo” inquit, “ut hoc vellus aureum in ramo altissimae quercus ponatur, quae in silva prope regiam est.” Draco vero saevus, qui in silva vivebat, circum arboris truncum se volvens vellus per multos annos custodivit."
+        "Athamās Graecōrum rēx fuit, quī, postquam eius uxor mortua est, alteram fēminam, nōmine Inōnem, in mātrimōnium dūxit, quia parvum fīlium et parvam fīliam habēbat, quōs ipse alere nōn poterat.",
+        "Īnō autem, cum prīmum in rēgiam īvit, neque puerum nōmine Phrixum neque puellam nōmine Hellēn amāvit eōsque ex rēgiā ad parvam casam quae in silvā sita erat, mīsit, ubi tamen Phrixus et Hellē laetī habitābant. Cotīdiē enim, gallō canente, ē lectīs surgēbant, mala ēdēbant et lac bibēbant, ac posteā ē casā in silvās et collēs currēbant, ubi parvās ovēs īnsequentēs vel flōrēs carpentēs lūdere per multās hōrās poterant. Vesperī vērō ē silvīs collibusque ad parvam casam redībant, ubi cēnam parābant. Tum dēnique fessī in cubiculum ībant, ubi dormiēbant.",
+        "Saepe vērō noverca ē rēgiā venīre solēbat eōsque spectābat lūdentēs. Īnō autem nōn gaudēbat quod vidēbat puerum  puelIamque tam laetōs esse, iīsque invidēbat: “Nōlō iam vidēre hōs puerōs tam laetē vīventēs. Cūrābō igitur ut Phrixus ahēnum moriātur; profectō enim hōc modō efficiam ut soror quoque, post eius mortem, miseram vītam habeat.”",
+        "Phrixum igitur ē casā ad rēgiam arcessere eumque interficere cōnstituit. Mercurius tamen, malō hoc cōnsiliō cognitō, aureum arietem, quī duās ālās habēbat, dē caelō mīsit; quī, prīmum ad eum locum pervēnit, ubi puer et puella habitābant, ā Phrixō cōnspectus est. Puer igitur, nihil timēns, ad arietem accessit, eīque herbās dē campō carptās praebuit. Ariēs nōn erat saevus; ergō Phrixus, audācior factus, in bēstiae tergum ascendit et laetus clāmāvit: “Ō Hellē, exī ē casā, et spectā mē in tergō arietis īnsīdentem!” Hellē, frātris vōce audīta, statim ē casā currēns exiit; neque ipsa metuit arietem, sed accēdēns in eius dorsum ascendit ibique post frātrem cōnsēdit.",
+        "Ariēs vērō aureus sūrsum suprā humum sē levāvit et ex eō locō, ubi sita erat puerōrum casa, ēvolāvit. Mox puer et puella Graeciam relīquērunt, et suprā mare volantēs longinquās terrās petīvērunt. Hellē autem dēspiciēns magnōs flūctūs Īnfrā sē vīdit; puella perterrita dē arietis dorsō dēlāpsa est; dum vērō cadit, “Ō frāter,” clāmāvit, “ōrō tē ut auxilium mihi ferās!” Deinde, quatiēns bracchia et crūra dē summō caelō in mare cecidit ac mersa est, neque frāter eam servāre potuit. Ea maris pars, in quā Hellē mersa est, ā nōmine eius ‘Hellēs pontus’ vocātur.",
+        "Frāter diū flēvit; ipse tamen nōn cecidit, sed usque ad Asiae terram volāvit, quae Colchīs appellātur. Ibi ariēs puerum exposuit, quī bēstiam deīs sacrificāvit. Tum aureum eius vellus ad Colchidis rēgem portāvit, quī: “Cūrābō” inquit, “ut hoc vellus aureum in rāmō altissimae quercus pōnātur, quae in silvā prope rēgiam est.” Dracō vērō saevus, quī in silvā vīvēbat, circum arboris truncum sē volvēns vellus per multōs annōs cūstōdīvit."
       ],
       "notes": [
         {
@@ -234,7 +234,7 @@ const chapter = {
           "gloss": "Helle -es, acc -en f"
         },
         {
-          "term": "Athamas -antis m",
+          "term": "Athamās -antis m",
           "gloss": ""
         },
         {
@@ -246,11 +246,11 @@ const chapter = {
           "gloss": "uxorem suam facere"
         },
         {
-          "term": "regia -ae f",
+          "term": "rēgiā -ae f",
           "gloss": "domus regis"
         },
         {
-          "term": "casa -ae f",
+          "term": "casā -ae f",
           "gloss": ""
         },
         {
@@ -266,19 +266,19 @@ const chapter = {
           "gloss": "uxor patris (quae mater"
         },
         {
-          "term": "invidere + dat",
+          "term": "invidēre + dat",
           "gloss": "inimicus esse ob bonum"
         },
         {
-          "term": "mori -ior <-> vivere",
+          "term": "morī -ior <-> vivere",
           "gloss": ""
         },
         {
-          "term": "aries arietis m",
+          "term": "ariēs arietis m",
           "gloss": ""
         },
         {
-          "term": "CUm per-venlre -venisse",
+          "term": "Cum per-venlre -venisse",
           "gloss": "advenire"
         },
         {
@@ -290,7 +290,7 @@ const chapter = {
           "gloss": "dare"
         },
         {
-          "term": "Tn-sid6re",
+          "term": "Tn-sid6rē",
           "gloss": ""
         },
         {
@@ -298,11 +298,11 @@ const chapter = {
           "gloss": "tergum bestiae"
         },
         {
-          "term": "re-linquere -liquisse -lictum longinquus -a -um propinquus",
+          "term": "rē-linquere -liquisse -lictum longinquus -a -um propinquus",
           "gloss": ""
         },
         {
-          "term": "de-labT -lapsum esse",
+          "term": "dē-labT -lapsum esse",
           "gloss": ""
         },
         {
@@ -310,15 +310,15 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "diu—per longum tempus flere -evisse",
+          "term": "diū—per longum tempus flere -evisse",
           "gloss": ""
         },
         {
-          "term": "Colchis -idis f",
+          "term": "Colchīs -idis f",
           "gloss": ""
         },
         {
-          "term": "ex-ponere -posuisse -positum | sacrificare",
+          "term": "ex-pōnere -posuisse -positum | sacrificare",
           "gloss": "ovem /bovem/ porcum occidere et deb dare vellus -eris n quercus -iis f dracō -ōnis m"
         },
         {
@@ -329,18 +329,18 @@ const chapter = {
     },
     {
       "id": "comatas",
-      "latinTitle": "4. Comatas",
+      "latinTitle": "4. Comātās",
       "title": "",
       "paragraphs": [
-        "Comatas servus fuit, qui in Graecia habitabat, et cotidie capras ovesque domini, quae in collibus et campis pascebantur, custodiebat. Oves albae et nigrae in campis herba opertis currebant herbasque carpebant. Nocte silenti luna et plurimae stellae in caelo sereno lucebant; oves dormiebant; Comatas vero non dormiebat, sed in alto saxo sedens, dum oves custodit, lunam et stellas in caelo sine nubibus lucentes spectabat.",
-        "Subito autem novem pulcherrimas puellas vidit, quas statim intellexit novem Musas esse, deas artium canendi, scribendi, saltandi. Quae, Comata tacente atque spectante, lae tae in campis currebant, saltabant, cantabant.",
-        "Tandem Musae ex campis illis amoenis ad Olympum, deorum domum in alto monte positam, redierunt.",
-        "Mane, sole oriente, Comatas parvum haedum captum e grege in templo super aram Musis sacrificat easque orat ut illud sacrificium accipiant. Dominus autem gregis ex urbe in praedium suum venit, quia voluit aspicere agricolas et pastores suos qui in agris et campis opus faciebant. Cum primum gregem suum conspexit, oves et capras numerare coepit. Postquam vero haedum abesse animadvertit, servo arcessito, “O improbe serve,” inquit, “ubi est haedus meus? Officium tuum est curare ne ulla ovis neve ulla capra desit! Ego curabo ne posthac neglegens sis neve dormias!”",
-        "Comatas vero perterritus, ad pedes domini se proiciens, “O domine,” respondit, “oro te ne severe me punias: nam in ara haedum sacrificavi Musis, quae in campis tuis laetae saltabant.”",
-        "Dominus autem Iratissimus primum baculo servum verberare volebat, deinde vero in cubiculum duxit, ubi magnam habebat arcam, in quam miserum servum inclusit. Comatas ibi vix spirare poterat, neque cibum neque aquam habebat. Quoniam igitur se moriturum esse sentiebat, “O Musae,” inquit, “oro vos, propter quas talia a domino meo patior, ut me a morte servetis horrenda!”",
-        "Musae ex alto Olympo eum orantem audiverunt, et apes ad arcam miserunt, quae, in cubiculum per parvam rimam ingressae, in arcam intraverunt et Comatam meile aluerunt. Apes igitur cotidie venientes mei servo in arca incluso ferebant, quo eum a morte servabant. Neque dominus eas, quae tam parvae erant, animadvertebat.",
-        "Tandem dominus, putans servum, qui tam diu in arca clausus erat, iam mortuum esse, eam aperiri iussit. Arca tamen aperta, valde miratus est, quod servum non mortuum, sed vivum et bene valentem invenit! “Cur non mortuus es?” rogavit. “Musae” respondit Comatas, “apes cotidie mittebant, quae mihi mei suum ferebant, quo corpus meum alebam.” “Exi ex arca!”, inquit dominus, “Si enim Musae te amant, te interficere nolo.”",
-        "Comatas laetus ex arca exiit; tabernam igitur petivit, in qua haedum emit, quem Musis sacrificavit, quia eum a certa morte servaverant."
+        "Comātās servus fuit, quī in Graeciā habitābat, et cotīdiē caprās ovēsque dominī, quae in collibus et campīs pāscēbantur, cūstōdiēbat. Ovēs albae et nigrae in campīs herbā opertīs currēbant herbāsque carpēbant. Nocte silentī lūna et plūrimae stēllae in caelō serēnō lūcēbant; ovēs dormiēbant; Comātās vērō nōn dormiēbat, sed in altō saxō sedēns, dum ovēs cūstōdit, lūnam et stēllās in caelō sine nūbibus lūcentēs spectābat.",
+        "Subitō autem novem pulcherrimās puellās vīdit, quās statim intellēxit novem Mūsās esse, deās artium canendī, scrībendī, saltandī. Quae, Comāta tacente atque spectante, lae tae in campīs currēbant, saltābant, cantābant.",
+        "Tandem Mūsae ex campīs illīs amoenīs ad Olympum, deōrum domum in altō monte positam, rediērunt.",
+        "Māne, sōle oriente, Comātās parvum haedum captum ē grege in templō super āram Mūsīs sacrificat eāsque ōrat ut illud sacrificium accipiant. Dominus autem gregis ex urbe in praedium suum venit, quia voluit aspicere agricolās et pāstōrēs suōs quī in agrīs et campīs opus faciēbant. Cum prīmum gregem suum cōnspexit, ovēs et caprās numerāre coepit. Postquam vērō haedum abesse animadvertit, servō arcessītō, “Ō improbe serve,” inquit, “ubi est haedus meus? Officium tuum est cūrāre nē ūlla ovis nēve ūlla capra dēsit! Ego cūrābō nē posthāc neglegēns sīs nēve dormiās!”",
+        "Comātās vērō perterritus, ad pedēs dominī sē prōiciēns, “Ō domine,” respondit, “ōrō tē nē sevērē mē pūniās: nam in ārā haedum sacrificāvī Mūsīs, quae in campīs tuīs laetae saltābant.”",
+        "Dominus autem Īrātissimus prīmum baculō servum verberāre volēbat, deinde vērō in cubiculum dūxit, ubi magnam habēbat arcam, in quam miserum servum inclūsit. Comātās ibi vix spīrāre poterat, neque cibum neque aquam habēbat. Quoniam igitur sē moritūrum esse sentiēbat, “Ō Mūsae,” inquit, “ōrō vōs, propter quās tālia ā dominō meō patior, ut mē ā morte servētis horrenda!”",
+        "Mūsae ex altō Olympō eum ōrantem audīvērunt, et apēs ad arcam mīsērunt, quae, in cubiculum per parvam rīmam ingressae, in arcam intrāvērunt et Comātam meile aluērunt. Apēs igitur cotīdiē venientēs meī servō in arcā inclūsō ferēbant, quō eum ā morte servābant. Neque dominus eās, quae tam parvae erant, animadvertēbat.",
+        "Tandem dominus, putāns servum, quī tam diū in arcā clausus erat, iam mortuum esse, eam aperīrī iussit. Arca tamen aperta, valdē mīrātus est, quod servum nōn mortuum, sed vīvum et bene valentem invēnit! “Cūr nōn mortuus es?” rogāvit. “Mūsae” respondit Comātās, “apēs cotīdiē mittēbant, quae mihi meī suum ferēbant, quō corpus meum alēbam.” “Exī ex arcā!”, inquit dominus, “Sī enim Mūsae tē amant, tē interficere nōlō.”",
+        "Comātās laetus ex arcā exiit; tabernam igitur petīvit, in quā haedum emit, quem Mūsīs sacrificāvit, quia eum ā certā morte servāverant."
       ],
       "notes": [
         {
@@ -368,7 +368,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "āra -ae f | sacrificare",
+          "term": "ārā -ae f | sacrificare",
           "gloss": "ovem/bovem/porcum occidere et deis dare"
         },
         {
@@ -380,11 +380,11 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "arca -ae f",
+          "term": "arcā -ae f",
           "gloss": ""
         },
         {
-          "term": "mori <-* vivere",
+          "term": "morī <-* vivere",
           "gloss": ""
         },
         {
@@ -399,25 +399,25 @@ const chapter = {
     },
     {
       "id": "coronis",
-      "latinTitle": "5. Coronis",
+      "latinTitle": "5. Corōnis",
       "title": "",
       "paragraphs": [
-        "Coronis pulchra fuit puella quae in Graecia habitabat.",
-        "Apollo, qui in silvis et agris errabat, cum primum eam iisdem in locis laete ludentem conspexit, statim amare coepit.",
-        "Accessit igitur ad puellam et, amorem suum fassus, sic loqui coepit: “O Coronis,” inquit, “oro te ut me audias: ego te amo; pulchrior enim dea mihi videris esse!”, verbisque magnificis eam laudabat.",
-        "Coronis autem, quae improba fuit puella, “Ego quoque” inquit, “te amo, o Apollo; oro igitur te ut me amare pergas, neve umquam me deseras!” Occultavit vero se alium amare virum. Deus tamen, qui hoc plane ignorabat, laetabatur quod talia verba ex formosissima virgine audiebat, atque, Coronidem videre cupiens, cotidie de summo Olympo descendere solebat.",
-        "Coronis igitur Apollinem in silva exspectabat: gaudebat enim valde, quod deus pulcherrimas gemmas ferebat, quibus et digitos et collum et bracchia ornare poterat. Quoniam vero Apollo illis ornamentis eam gaudere animadvertebat, “Ō mea Coronis,” aiebat, “noli timere: nam curabo ut cotidie novis gemmis novisque margaritis corpus tuum formosissimum exornetur.” Apollo autem etiam corvum habebat album, qui eum valde amabat, puellam vero oderat. Dum igitur Coronis et amicus eius in silvis errant atque inter se oscula dant, corvus, qui eos conspexit, statim ad Apollinem volavit et, “O Apollo,” inquit, “te monere volo, ne credas puellae amorem suum fatenti. Coronis enim non te, sed alium virum amat: nam malam illam puellam conspexi cum amico suo in silvis errantem et ludentem. Si vis, curabo ut te ad eam cum amico ambulantem ducam.”",
-        "Apollo iratus ex aurea sella, in qua sedebat, surgens, de Olympo descendit et ad silvas iit.",
-        "Cum primum vero puellam vidit, sagittam in eam misit atque interfecit: at continuo facti sui eum paenituit. Postquam enim eam mortuam et humi iacentem vidit, tristis subito factus ac maerens, herbas, quibus aegros sanare solebat, carptas ei dare conatus est. Frustra tamen: nam puella mortua in sanguine suo iacebat.",
-        "Tunc Apollo corvum ad se vocavit et, “Improbe corve,” ait, “Coronis mea mortua est! Tu hoc voluisti!” Avem igitur punire constituit: itaque albas eius pennas in nigras convertit. Hanc ob causam nunc omnes corvi nigri sunt."
+        "Corōnis pulchra fuit puella quae in Graeciā habitābat.",
+        "Apollō, quī in silvīs et agrīs errābat, cum prīmum eam iīsdem in locīs laetē lūdentem cōnspexit, statim amāre coepit.",
+        "Accessit igitur ad puellam et, amōrem suum fassus, sīc loquī coepit: “Ō Corōnis,” inquit, “ōrō tē ut mē audiās: ego tē amō; pulchrior enim dea mihi vidēris esse!”, verbīsque magnificīs eam laudābat.",
+        "Corōnis autem, quae improba fuit puella, “Ego quoque” inquit, “tē amō, ō Apollō; ōrō igitur tē ut mē amāre pergās, nēve umquam mē dēserās!” Occultāvit vērō sē alium amāre virum. Deus tamen, quī hoc plānē ignōrābat, laetābātur quod tālia verba ex fōrmōsissimā virgine audiēbat, atque, Corōnidem vidēre cupiēns, cotīdiē dē summō Olympō dēscendere solēbat.",
+        "Corōnis igitur Apollinem in silvā exspectābat: gaudēbat enim valdē, quod deus pulcherrimās gemmās ferēbat, quibus et digitōs et collum et bracchia ōrnāre poterat. Quoniam vērō Apollō illīs ōrnāmentīs eam gaudēre animadvertēbat, “Ō mea Corōnis,” aiēbat, “nōlī timēre: nam cūrābō ut cotīdiē novīs gemmīs novīsque margarītīs corpus tuum fōrmōsissimum exōrnētur.” Apollō autem etiam corvum habēbat album, quī eum valdē amābat, puellam vērō ōderat. Dum igitur Corōnis et amīcus eius in silvīs errant atque inter sē ōscula dant, corvus, quī eōs cōnspexit, statim ad Apollinem volāvit et, “Ō Apollō,” inquit, “tē monēre volō, nē crēdās puellae amōrem suum fatentī. Corōnis enim nōn tē, sed alium virum amat: nam mālam illam puellam cōnspexī cum amīcō suō in silvīs errantem et lūdentem. Sī vīs, cūrābō ut tē ad eam cum amīcō ambulantem dūcam.”",
+        "Apollō īrātus ex aureā sellā, in quā sedēbat, surgēns, dē Olympō dēscendit et ad silvās iit.",
+        "Cum prīmum vērō puellam vīdit, sagittam in eam mīsit atque interfēcit: at continuō factī suī eum paenituit. Postquam enim eam mortuam et humī iacentem vīdit, trīstis subitō factus ac maerēns, herbās, quibus aegrōs sānāre solēbat, carptās eī dare cōnātus est. Frūstrā tamen: nam puella mortua in sanguine suō iacēbat.",
+        "Tunc Apollō corvum ad sē vocāvit et, “Improbē corve,” ait, “Corōnis mea mortua est! Tū hoc voluistī!” Avem igitur pūnīre cōnstituit: itaque albās eius pennās in nigrās convertit. Hanc ob causam nunc omnēs corvī nigrī sunt."
       ],
       "notes": [
         {
-          "term": "Coronis -idis f",
+          "term": "Corōnis -idis f",
           "gloss": ""
         },
         {
-          "term": "Apollo -inis m",
+          "term": "Apollō -inis m",
           "gloss": "deus lucis et artis canendi"
         },
         {
@@ -437,7 +437,7 @@ const chapter = {
           "gloss": "doluit quod ita fecit carpere carpsisse carptum"
         },
         {
-          "term": "herbas carptas dare conatus est",
+          "term": "herbās carptas dare conatus est",
           "gloss": "herbas carpsit et dare conatus est frustra adr, frustra conatus estconatus est, neque vero potuit"
         },
         {
@@ -448,8 +448,8 @@ const chapter = {
     }
   ],
   "plates": [
-    "Latona et agricolae in magnas ranas conversi.",
-    "Apollo, mortua Coronide, albas corvi pennas in nigras convertit."
+    "Lātōna et agricolae in magnās rānās conversī.",
+    "Apollō, mortua Corōnide, albās corvī pennās in nigrās convertit."
   ],
   "grammar": [],
   "vocabulary": [],

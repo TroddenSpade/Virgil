@@ -17,18 +17,18 @@ const chapter = {
       "latinTitle": "1. Atalanta",
       "title": "",
       "paragraphs": [
-        "Fuit olim pulcherrima puella, nomine Atalanta, cui plurimi viri, qui eam ita amabant ut uxorem ducere vellent, multa et pretiosissima dona ex variis orbis terrarum partibus ferre solebant. Atalanta autem nullum ex illis viris amabat nec dona eorum accipere volebat; qui vero, cupidi eam uxorem ducendi, iterum iterumque salutatum adibant eiusque pulchritudinem verbis magnificis laudabant. Hoc igitur consilium eos dimittendi causa excogitavit: viros omnes, qui eam uxorem petebant, ad cenam apud se vocavit.",
-        "Postquam omnes adfuerunt, servi vinum in pocula fuderunt, quod viri, qui parati erant ad audiendum, cupide biberunt. Dum vero cibum in mensa appositum sumunt, Atalanta “O viri,” inquit, “usque ad hunc diem nullum maritum habere volui, neque quisquam efficere potuit ut me uxorem duceret nolentem. Non ignoratis tamen me tam celerem esse in currendo ut nemō umquam me currentem adhuc consequi posset. Si igitur me in matrimonium ducere cupitis, parati estote ad currendum: ita currite ut me vincatis, si potestis! Sin vero ipsa vincam, continuo faciam ut interficiamini!”",
-        "Haec verba locuta, servos arcessivit, qui locum ad currendum idoneum ostenderunt, cuius in ultima parte duo saxa magna posuerant. Omnes valde timebant: nam, etsi bene artem currendi didicerant, sciebant Atalantam vento celerius currere, neque facile vinci posse; eius tamen pulchritudine capti, ac sperantes se, diis iuvantibus, eam uxorem ducturos esse, quamquam perterriti, currendo vincere conari voluerunt. Sedebat haud procul ab eo loco atque forte, ab alto colle prospiciens, viros illos ad currendum paratos spectabat adulescens nomine Hippomenes, qui, cupidus eos propius aspiciendi, sine mora ad campum accessit quo omnes currendi causa convenerant.",
-        "Postquam autem audivit complures ex illis adulescentibus ad mortem certam ire, “Nimis magnum” inquit, “est huius amoris pretium! Temerarii mihi hi omnes iuvenes videntur esse, si vera sunt, quae de Atalantae celeritate narrantur!”",
-        "Cum primum vero pulcherrimam puellae faciem et formosissimum corpus, posita veste, vidit, tam multum eam amare coepit, ut speraret neminem currendo eam consequi posse: ipse enim volebat eius coniunx fieri: nam ei pulcherrima esse videbatur omnium feminarum, quas umquam viderat.",
-        "Postquam servus tuba signum proficiscendi dedit, omnes celeriter currere coeperunt: ante omnes, sagitta celerior, currebat Atalanta; ceteri vero, conati eam consequi atque per longum spatium secuti, tandem ita currendo fessi fuerunt, ut alius post alium consisterent et victos se esse faterentur: ex iis complures multis cum lacrimis maerebant; nam sciebant se ad certam mortem missum iri.",
-        "Atalanta interea tam celeriter cucurrit ad metam, quo prima pervenit, ut alae in pedibus eius esse viderentur. Eius caput corona cingitur; victi sine mora interficiuntur. At quamquam ii ad horrendam necem missi erant, Hippomenes sine timore mortis in conspectum puellae venit et “Cur” inquit “facilem gloriam quaeris vincendo debiles viros? Me vincere conare! Si victor ero, non dolebis quod a tanto tamque forti viro superaris.”",
-        "Eum haec dicentem Atalanta intuebatur: quae, cum primum eum conspexit, a tam pulchro adulescente se victum iri speravit et “Qui deus” inquit “tam saeve cupit istum perdere, ut eum cogat me uxorem petere vitae periculo? Discede dum potes, puer, et vitam serva! Omnes puellae cupient te maritum habere! Cur tamen si de tua morte cogito animus meus ita turbatur, tot viris iam ante occisis? Dignus eras vita. Ūnus eras, cuius uxor fierī poteram!”",
-        "Ita loquebatur, nec intellegebat sē illum puerum iam amare coepisse. ET igitur persuadere cōnābātur, ne temerarius esset neve vitam amitteret. Cīvēs vero et ipse Atalantae pater cursus qui solebant fierī poscebant, neque moram patiebantur.",
-        "Hippomenes igitur Venerem, amoris deam, invocavit: “Ō Venus, adiuvā me, et amorem, quem tū dedisti, defende!” Audivit Venus haec verba, quae ventus usque ad eius aures tulit; sine mora igitur ad auxilium ferendum descendit ex Olympo et ad Hippomenem accessit; neque tamen quisquam alius eam videre poterat nisi Hippomenes ipse. Cui dea tria mala aurea dedit et “Hic sunt” inquit “tria aurea mala. Dum curris, iace primum malum, deinde alterum, postremo tertium. Noli timere! Ego, Venus, tibi auxilium feram!”",
-        "Tubae signum dederunt: Atalanta et Hippomenes tam velociter currere coeperunt, ut eorum pedes vix terram tangere viderentur. Cives clamabant: “Nunc, nunc, propera, Hippomene! Pelle moras: vinces!” Tum Hippomenes ūnum ē tribus malis prompsit et iēcit. Puella ita mirata est, ut, cupida aureum malum sumendi, brevem moram faceret. Hippomenes eam praeteriit; at illa post brevem moram iterum puerum post terga reliquit. Qui riirsus mālum iēcit; puella autem, ut illud tolleret iterum brevi constitit; continuo vero Hippomenen consecuta est.",
-        "Postrema cursus pars restabat; Hippomenes “Nunc” ait “adiuvā mē, ō Venus, quae haec mihi dona dedisti!” et tertium iēcit mālum. Puella dubitāre visa est; at posteā constitit malum capiendi causa: Hippomenes ad metam cucurrit, quam primus consecutus est. Victor non modo vitam servavit, sed etiam Atalantam uxorem ducere potuit."
+        "Fuit ōlim pulcherrima puella, nōmine Atalanta, cui plūrimī virī, quī eam ita amābant ut uxōrem dūcere vellent, multa et pretiōsissima dōna ex variīs orbīs terrārum partibus ferre solēbant. Atalanta autem nūllum ex illīs virīs amābat nec dōna eōrum accipere volēbat; quī vērō, cupidī eam uxōrem dūcendī, iterum iterumque salūtātum adībant eiusque pulchritūdinem verbīs magnificīs laudābant. Hoc igitur cōnsilium eōs dīmittendī causā excōgitāvit: virōs omnēs, quī eam uxōrem petēbant, ad cēnam apud sē vocāvit.",
+        "Postquam omnēs adfuērunt, servī vīnum in pōcula fūdērunt, quod virī, quī parātī erant ad audiendum, cupidē bibērunt. Dum vērō cibum in mēnsā appositum sūmunt, Atalanta “Ō virī,” inquit, “usque ad hunc diem nūllum marītum habēre voluī, neque quisquam efficere potuit ut mē uxōrem dūceret nōlentem. Nōn ignōrātis tamen mē tam celerem esse in currendō ut nemō umquam mē currentem adhūc cōnsequī posset. Sī igitur mē in mātrimōnium dūcere cupitis, parātī ēstote ad currendum: ita currite ut mē vincātis, sī potestis! Sīn vērō ipsa vincam, continuō faciam ut interficiāminī!”",
+        "Haec verba locūta, servōs arcessīvit, quī locum ad currendum idōneum ostendērunt, cuius in ultimā parte duo saxa magna posuerant. Omnēs valdē timēbant: nam, etsī bene artem currendī didicerant, sciēbant Atalantam ventō celerius currere, neque facile vincī posse; eius tamen pulchritūdine captī, ac spērantēs sē, dīīs iuvantibus, eam uxōrem ductūrōs esse, quamquam perterritī, currendō vincere cōnārī voluērunt. Sedēbat haud procul ab eō locō atque forte, ab altō colle prōspiciēns, virōs illōs ad currendum parātōs spectābat adulēscēns nōmine Hippomenēs, quī, cupidus eōs propius aspiciendī, sine morā ad campum accessit quō omnēs currendī causā convēnerant.",
+        "Postquam autem audīvit complūrēs ex illīs adulēscentibus ad mortem certam īre, “Nimis magnum” inquit, “est huius amōris pretium! Temerāriī mihi hī omnēs iuvenēs videntur esse, sī vēra sunt, quae dē Atalantae celeritāte nārrantur!”",
+        "Cum prīmum vērō pulcherrimam puellae faciem et fōrmōsissimum corpus, positā veste, vīdit, tam multum eam amāre coepit, ut spērāret nēminem currendō eam cōnsequī posse: ipse enim volēbat eius coniūnx fierī: nam eī pulcherrima esse vidēbātur omnium fēminārum, quās umquam vīderat.",
+        "Postquam servus tubā signum proficīscendī dedit, omnēs celeriter currere coepērunt: ante omnēs, sagitta celerior, currēbat Atalanta; cēterī vērō, cōnātī eam cōnsequī atque per longum spatium secūtī, tandem ita currendō fessī fuērunt, ut alius post alium cōnsisterent et vīctōs sē esse fatērentur: ex iīs complūrēs multīs cum lacrimīs maerēbant; nam sciēbant sē ad certam mortem missum īrī.",
+        "Atalanta intereā tam celeriter cucurrit ad mētam, quō prīma pervēnit, ut ālae in pedibus eius esse vidērentur. Eius caput corōna cingitur; vīctī sine morā interficiuntur. At quamquam iī ad horrendam necem missī erant, Hippomenēs sine timōre mortis in cōnspectum puellae venit et “Cūr” inquit “facilem glōriam quaeris vincendō dēbilēs virōs? Mē vincere cōnāre! Sī victor erō, nōn dolēbis quod ā tantō tamque fortī virō superārīs.”",
+        "Eum haec dīcentem Atalantā intuēbātur: quae, cum prīmum eum cōnspexit, ā tam pulchrō adulēscente sē vīctum īrī spērāvit et “Quī deus” inquit “tam saevē cupit istum perdere, ut eum cōgat mē uxōrem petere vītae perīculō? Discēde dum potes, puer, et vītam servā! Omnēs puellae cupient tē marītum habēre! Cūr tamen sī dē tuā morte cōgitō animus meus ita turbātur, tot virīs iam ante occīsīs? Dignus erās vītā. Ūnus erās, cuius uxor fierī poteram!”",
+        "Ita loquēbātur, nec intellegēbat sē illum puerum iam amāre coepisse. ET igitur persuādēre cōnābātur, nē temerārius esset nēve vītam āmitteret. Cīvēs vērō et ipse Atalantae pater cursūs quī solēbant fierī poscēbant, neque moram patiēbantur.",
+        "Hippomenēs igitur Venerem, amōris deam, invocāvit: “Ō Venus, adiuvā mē, et amōrem, quem tū dedistī, dēfende!” Audīvit Venus haec verba, quae ventus usque ad eius aurēs tulit; sine morā igitur ad auxilium ferendum dēscendit ex Olympō et ad Hippomenēm accessit; neque tamen quisquam alius eam vidēre poterat nisi Hippomenēs ipse. Cui dea tria mala aurea dēdit et “Hic sunt” inquit “tria aurea mala. Dum curris, iacē prīmum malum, deinde alterum, postrēmō tertium. Nōlī timēre! Ego, Venus, tibi auxilium feram!”",
+        "Tubae signum dedērunt: Atalanta et Hippomenēs tam vēlōciter currere coepērunt, ut eōrum pedēs vix terram tangere vidērentur. Cīvēs clāmābant: “Nunc, nunc, properā, Hippomenē! Pelle morās: vincēs!” Tum Hippomenēs ūnum ē tribus mālīs prōmpsit et iēcit. Puella ita mīrāta est, ut, cupida aureum malum sūmendī, brevem moram faceret. Hippomenēs eam praeteriit; at illa post brevem mōram iterum puerum post terga relīquit. Quī riirsus mālum iēcit; puella autem, ut illud tolleret iterum brevī cōnstitit; continuō vērō Hippomenēn cōnsecūta est.",
+        "Postrēma cursus pars restābat; Hippomenēs “Nunc” ait “adiuvā mē, ō Venus, quae haec mihi dōna dedistī!” et tertium iēcit mālum. Puella dubitāre vīsa est; at posteā cōnstitit mālum capiendī causā: Hippomenēs ad mētam cucurrit, quam prīmus cōnsecūtus est. Victor nōn modo vītam servāvit, sed etiam Atalantam uxōrem dūcere potuit."
       ],
       "notes": [
         {
@@ -36,7 +36,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "uxorem ducere",
+          "term": "uxōrem ducere",
           "gloss": "uxorem suam facere"
         },
         {
@@ -44,7 +44,7 @@ const chapter = {
           "gloss": "magni pretii"
         },
         {
-          "term": "vinum in poculum funditur",
+          "term": "vīnum in poculum funditur",
           "gloss": ""
         },
         {
@@ -56,11 +56,11 @@ const chapter = {
           "gloss": "cibus qui circiter hora nona vel decima sumitur fundere fudisse fusum bibere bibisse"
         },
         {
-          "term": "ap-ponere -posuisse -positum (< ad-)",
+          "term": "ap-pōnere -posuisse -positum (< ad-)",
           "gloss": ""
         },
         {
-          "term": "matrimonium -i n: in matrimonium dūcere",
+          "term": "mātrimōnium -i n: in matrimonium dūcere",
           "gloss": "uxorem suam facere"
         },
         {
@@ -72,7 +72,7 @@ const chapter = {
           "gloss": "conveniens ultimus -a -um primus ponere posuisse positum"
         },
         {
-          "term": "Hippomenes -ae m Gr(acc -en, voc -ē)",
+          "term": "Hippomenēs -ae m Gr(acc -en, voc -ē)",
           "gloss": ""
         },
         {
@@ -80,15 +80,15 @@ const chapter = {
           "gloss": "vir circiter XXX annorum"
         },
         {
-          "term": "corona",
+          "term": "corōna",
           "gloss": ""
         },
         {
-          "term": "interea - interim",
+          "term": "intereā - interim",
           "gloss": "currere cucurrisse"
         },
         {
-          "term": "meta -ae f",
+          "term": "mētā -ae f",
           "gloss": "saxum, quo finis currendi significatur corona -ae f"
         },
         {
@@ -112,7 +112,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "cursus -ūs m",
+          "term": "cursūs -ūs m",
           "gloss": "currere"
         },
         {
@@ -124,7 +124,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "velociter",
+          "term": "vēlōciter",
           "gloss": "celeriter"
         },
         {
@@ -140,7 +140,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "re-stare",
+          "term": "rē-stare",
           "gloss": "reliquus esse"
         }
       ]
@@ -150,13 +150,13 @@ const chapter = {
       "latinTitle": "2. Veturia",
       "title": "",
       "paragraphs": [
-        "Veturia fuit mater Gaii Marcii, prudentissimi ac fortissimi viri, qui, postquam Romanorum exercitum contra Volscos duxerat et Coriolos, maximam eorum urbem, expugnaverat, ‘Coriolanus’ a civibus suis appellatus erat. Ob eius magnam gloriam Romani primum Coriolanum valde laudabant et admirabantur; postea vero tanta facta est eius potestas, ut cives ei inviderent eumque ad mortem ducere vellent: non tamen ausi sunt tam fortem virum interficere, qui patriam ab hostibus servaverat. Imperaverunt igitur ut ex urbe discederet neve umquam postea rediret.",
-        "Ergo Coriolanus, Roma pulsus, ad Volscos confugit, qui olim hostes eius fuerant, iisque persuasit, ut Romanorum urbem oppugnarent. Id multo facilius iis persuadere potuit, quod se ipsum eos ducturum esse promisit, qui et urbem Romam et modum, quo Romani pugnare solebant, optime noverat. “Roma discessi” aiebat Coriolanus, “ut certam mortem vitarem, ad quam me cives mei mittere volebant; nunc ipse, vobis iuvantibus, plurimos cives meos ad Inferos mittam, ubi umbrae mortuorum versari dicuntur! Animus enim meus tam Iratus est, ut nullo alio modo tranquillior fieri possit!”",
-        "Magnus igitur Volscorum numerus, Coriolano duce, Romam oppugnavit; castris circa urbem positis, tam multis pugnis Romanos vicerunt, ut ii, qui in apertis campis non iam audebant cum tam fortibus hostibus pugnare, vellent potius intra muros se tenere, unde urbem defendere conabantur.",
-        "Complures dies Volscorum exercitus ita Romanos intra urbis moenia inclusos tenuit, ut tandem omni cibo et aqua carerent. Tunc Romanis necesse fuit legatos ad Volscorum castra mittere: nam sperabant se Coriolano persuadere posse, ut saevum consilium oppugnandi patriam mutaret atque a moeniis cum toto exercitu discederet.",
-        "Legati igitur, postquam ad Volscorum castra venerunt, Coriolanum multis precibus oraverunt nē patriam iam oppugnaret. Ille vero, eorum precibus minime motus, iis ut abirent iratus imperavit, dicens ‘se neque Rōmānōs, ā quibus tam indigne pulsus erat, iam amare, neque de patria, quae suos filios laudem ac gloriam merentes tam turpiter ē finibus ēiceret, multum curare’; immō dixit ‘eam nē nomine quidem patriae dignam esse’.",
-        "Lēgāti, tali respōnso accepto, ad urbem rediērunt. Postquam vēro Coriolani verba audivērunt, mirabantur senatores, et perterriti ac valde turbati erant cives, periculum sibi impendens timentes.",
-        "Tunc Vetuna, Coriolani mater, et Volumnia uxor parvos filios trahens, ad hostium castra venerunt, et virum oraverunt ne Romae noceret neve civibus suis quidquam mali afferret. Tandem mater, uxor llberlque, eius genua complexi ac lacrimantes, animum Coriolani moverunt elque persuadere potuerunt ut ab urbis moeniis discederet: victus igitur eorum precibus, postquam suos dimisit, Coriolanus agrum Romanum ab hostium exercitu liberavit. Volsci tamen, Irati, eum ad mortem duci iusserunt."
+        "Veturia fuit māter Gāiī Marciī, prūdentissimī ac fortissimī virī, quī, postquam Rōmānōrum exercitum contrā Volscōs dūxerat et Coriolōs, maximam eōrum urbem, expugnāverat, ‘Coriolānus’ ā cīvibus suīs appellātus erat. Ob eius magnam glōriam Rōmānī prīmum Coriolānum valdē laudābant et admīrābantur; posteā vērō tanta facta est eius potestās, ut cīvēs eī invidērent eumque ad mortem dūcere vellent: nōn tamen ausī sunt tam fortem virum interficere, quī patriam ab hostibus servāverat. Imperāvērunt igitur ut ex urbe discēderet nēve umquam posteā redīret.",
+        "Ergō Coriolānus, Rōma pulsūs, ad Volscōs cōnfūgit, quī ōlim hostēs eius fuerant, iīsque persuāsit, ut Rōmānōrum urbem oppugnārent. Id multō facilius iīs persuādēre potuit, quod sē ipsum eōs ductūrum esse prōmīsit, quī et urbem Rōmam et modum, quō Rōmānī pugnāre solēbant, optimē nōverat. “Rōmā discessī” aiēbat Coriolānus, “ut certam mortem vītārem, ad quam mē cīvēs meī mittere volēbant; nunc ipse, vōbīs iuvantibus, plūrimōs cīvēs meōs ad Īnferōs mittam, ubi umbrae mortuōrum versārī dīcuntur! Animus enim meus tam Īrātus est, ut nūllō aliō modō tranquillior fierī possit!”",
+        "Magnus igitur Volscōrum numerus, Coriolānō duce, Rōmam oppugnāvit; castrīs circā urbem positīs, tam multīs pugnīs Rōmānōs vīcērunt, ut iī, quī in apertīs campīs nōn iam audēbant cum tam fortibus hostibus pugnāre, vellent potius intrā mūrōs sē tenēre, unde urbem dēfendere cōnābantur.",
+        "Complūrēs diēs Volscōrum exercitūs ita Rōmānōs intrā urbis moenia inclūsōs tenuit, ut tandem omnī cibō et aquā cārerent. Tunc Rōmānīs necesse fuit lēgātōs ad Volscōrum castra mittere: nam spērābant sē Coriolānō persuādēre posse, ut saevum cōnsilium oppugnandī patriam mūtāret atque ā moeniīs cum tōtō exercitū discēderet.",
+        "Lēgātī igitur, postquam ad Volscōrum castra vēnērunt, Coriolanum multīs precibus ōrāvērunt nē patriam iam oppugnāret. Ille vērō, eōrum precibus minimē mōtus, iīs ut abīrent īrātus imperāvit, dīcēns ‘sē neque Rōmānōs, ā quibus tam indignē pulsus erat, iam amāre, neque dē patriā, quae suōs fīliōs laudem ac glōriam merentēs tam turpiter ē fīnibus ēiceret, multum cūrāre’; immō dīxit ‘eam nē nōmine quidem patriae dignam esse’.",
+        "Lēgāti, tālī respōnso acceptō, ad urbem rediērunt. Postquam vēro Coriolānī verba audivērunt, mīrābantur senātōrēs, et perterritī ac valdē turbātī erant cīvēs, perīculum sibi impendēns timentēs.",
+        "Tunc Vetūna, Coriolānī māter, et Volumniā uxor parvōs fīliōs trahēns, ad hostium castra vēnērunt, et virum ōrāvērunt nē Rōmae nocēret nēve cīvibus suīs quidquam malī afferret. Tandem māter, uxor llberlque, eius genua complexī ac lacrimantēs, animum Coriolānī mōvērunt elque persuādēre potuērunt ut ab urbīs moeniīs discēderet: vīctus igitur eōrum precibus, postquam suōs dīmīsit, Coriolānus agrum Rōmānum ab hostium exercitū līberāvit. Volscī tamen, Īrātī, eum ad mortem dūcī iussērunt."
       ],
       "notes": [
         {
@@ -164,7 +164,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "Volsci -orum m pk homines quidam qui",
+          "term": "Volscī -orum m pk homines quidam qui",
           "gloss": ""
         },
         {
@@ -176,7 +176,7 @@ const chapter = {
           "gloss": "urbs Volscorum"
         },
         {
-          "term": "invidere + dat - inimicus esse ob bonum alienum audere ausum esse (perf dep) velle, coni imperf. vellem vellemus velles velletis vellet vellent",
+          "term": "invidēre + dat - inimicus esse ob bonum alienum audere ausum esse (perf dep) velle, coni imperf. vellem vellemus velles velletis vellet vellent",
           "gloss": ""
         },
         {
@@ -184,15 +184,15 @@ const chapter = {
           "gloss": "cum-."
         },
         {
-          "term": "discedere -ssisse",
+          "term": "discēdere -ssisse",
           "gloss": ""
         },
         {
-          "term": "ponere posuisse positum vincere vicisse victum",
+          "term": "pōnere posuisse positum vincere vicisse victum",
           "gloss": ""
         },
         {
-          "term": "tenere -uisse",
+          "term": "tenēre -uisse",
           "gloss": ""
         },
         {
@@ -200,7 +200,7 @@ const chapter = {
           "gloss": "nuntius"
         },
         {
-          "term": "minime",
+          "term": "minimē",
           "gloss": "nullo modo"
         },
         {
@@ -216,15 +216,15 @@ const chapter = {
           "gloss": "civis notus qui Romae ma gnam potestatem habebat"
         },
         {
-          "term": "Volumnia -ae f",
+          "term": "Volumniā -ae f",
           "gloss": ""
         },
         {
-          "term": "complecti -xum esse",
+          "term": "complectī -xum esse",
           "gloss": ""
         },
         {
-          "term": "liberare",
+          "term": "līberāre",
           "gloss": "liberum facere"
         }
       ]
@@ -234,17 +234,17 @@ const chapter = {
       "latinTitle": "3. Nausicaa",
       "title": "",
       "paragraphs": [
-        "Nausicaa fuit pulcherrima puella, filia Alcinoi regis, qui in insulā Phaeacum, nomine Scheria, magna cum prudentia regnabat. Olim NNausicaa cum aliis puellis et ancillis suis in ora maritima pila ludebat: illa, sicut Diana inter Nymphas, omnium formosissima esse videbatur. Ceteris puellis “Celeriter currite” clamabat, “huc, huc pilam iacite!” Imperabat NNausicaa ut ad se pilam mitterent ancillae, quam deinde ipsa, manus extendens, captam ad ancillas versus iaciebat. Pila a puella ad puellam volabat, neque umquam ad terram cadebat, quia puellae tam cupidae erant eam capiendi, ut cadere non sinerent.",
-        "Postquam vero diu hoc modo inter se magno cum gaudio luserunt, regis filia pilam ad ancillam tam alte iecit, ut illa capere non posset; cecidit autem in mare fluctusque eam ita secum traxerunt, ut mergeretur: itaque puellae simul omnes tam magnā vōce clamaverunt, ut Ulixes, notissimus ille Graecorum dux, qui in silva prope litus dormiebat, subito excitaretur. Ulixes enim, qui multos annos per maria erraverat, tandem, magna tempestate coorta, tam valde fluctibus iactatus erat, ut, nave fracta, in Phaeacum litus eiceretur, ubi, fessus, longum somnum ceperat. Dum vero illas puellas spectat, sic secum loquitur: “Heu, me miserum! Quorum in terram veni? Quae sunt illae puellae? Utrum sunt bonae et probae, an feroces, saevae atque inhumanae? Utrum humanus clamor ad meas aures pervenit, an Nymphae clamaverunt, quae in montibus habitant? Cum ipse rem experior? Nam in tantis tamque multis periculis versatus sum, ut nunc nihil iam timeam.”",
-        "Haec locutus, e silva egrediebatur Ulixes; ex arbore quadam ramum multis cum foliis fregit manu, ut partes pudendas sibi tegeret. Perrexit autem ire, velut leo qui descendit de montibus; nudus et sordidus tamque terribilis visu erat, ut puellae omnes, cum primum eum conspexerunt, huc et illuc fugerent animo turbatae.",
-        "Sola autem Alcinoi filia mansit: eam enim dii audacem fecerant; metu igitur deposito, stetit, Ulixem spectans, qui ad eam versus veniebat.",
-        "Ulixes autem, eam intuens, nesciebat quid faceret: tandem vero his verbis eam precatus est: “Utrum dea an mortalis es? Si enim mortalis es, beatissimi sunt parentes, beatissimi fratres; profecto eorum animi semper laetantur, cum vident te, quae sicut flos es eorum domus pulcherrimus; omnium vero beatissimus ille erit, qui te uxorem ducet: nondum enim talem mortalem videram oculis, neque virum neque mulierem: formam tuam et pulchritudinem admiror. Heri e fluctibus maris, quibus viginti dies iactatus sum, effugi; saeva tempestas in hoc litus me pepulit, ut adhuc, fortasse, etiam hic mala paterer, sicut iam aliis in locis passus sum; tu vero adiuva me: tibi enim primae his in terris occurri: ceterorum hominum, qui hanc urbem et regionem incolunt, neminem novi. Urbem vero mihi ostende, oro te, et da vestem ad corpus tegendum.”",
-        "Sic autem respondit candida puella: “Iuppiter suam cuique partem boni et mali dat; cum igitur mala nobis dat, oportet pati. Nunc vero, quoniam ad nostram urbem et terram venisti, neque vestimentis, neque aliis rebus egebis. Urbem tibi ostendam, in qua pater regnat meus: sum enim ego filia Alcinoi, Phaeacum regis.”",
-        "Arcessivit igitur Nausicaa ancillas, quae perterritae huc et illuc fugerant, iisque imperavit ut Ulixem lavarent in fluvio et tunica pallioque vestirent. Ulixes vero ancillis “State, oro vos,” inquit “procul, dum ego ipse corpus lavo: nam pudet me nuda membra ante puellarum oculos ostendere.”",
-        "Postquam autem corpus lavit, tam pulcher erat, ut sic Nausicaa cum ancillis loqueretur: “Initio quidem mihi ille vir foedus esse videbatur; nunc vero diis similis est, qui caelum latum habitant; o ancillae! Nemo mihi persuadebit eum non esse regem quendam, vel fortissimum ducem. Opto ut ille delectetur hic apud nos manendo, et meus fiat maritus! Verum date ei cibum, et vinum, ut edat et bibat: diu enim, credo, cibo caruit.” Ulixes igitur primum sumpsit cibum, deinde vero cum Nausicaa et ancillis urbem petivit, ubi a rege et regina acceptus est.",
-        "Post cenam autem rex eum rogavit ut sibi narraret unde et quomodo veniret, quo ire vellet. Ulixes igitur, qui statim dixit se esse cupidum in patriam redeundi, multis cum lacrimis tristem fabulam suam omnibus, qui ibi aderant, narravit.",
-        "Rex, tali fabula audita, tam motus est animo, ut Ulixem omni modo iuvare vellet. Imperavit itaque ut navis pararetur, qua vectus Ulixes in patriam suam redire posset. Ergo postero die Ulixes omnibus ‘vale’ dixit et navem conscendit, ut tandem post tot annos domum suam reverteretur.",
-        "Nausicaa autem tristissima erat: postquam navis, qua Ulixes vehebatur, profecta est, in altum saxum ascendit; unde prospiciens diu navem abeuntem oculis secuta est. Lacrimae vero ex eius oculis labebantur, neque quisquam aderat, qui eam maerentem consolari posset."
+        "Nausicaa fuit pulcherrima puella, fīlia Alcinoī rēgis, quī in insulā Phaeācum, nōmine Scheria, magna cum prūdentia rēgnābat. Ōlim NNausicaa cum aliīs puellīs et ancillīs suīs in ōrā maritimā pilā lūdēbat: illa, sīcut Diāna inter Nymphās, omnium fōrmōsissima esse vidēbātur. Cēterīs puellīs “Celeriter currite” clāmābat, “hūc, hūc pilam iacitē!” Imperābat NNausicaa ut ad sē pilam mitterent ancillae, quam deinde ipsa, manus extendēns, captam ad ancillās versus iaciēbat. Pila ā puellā ad puellam volābat, neque umquam ad terram cadēbat, quia puellae tam cupidae erant eam capiendī, ut cadere nōn sinerent.",
+        "Postquam vērō diū hoc modo inter sē magnō cum gaudiō lūsērunt, rēgis fīlia pilam ad ancillam tam altē iēcit, ut illa capere nōn posset; cecidit autem in mare flūctūsque eam ita sēcum trāxērunt, ut mergerētur: itaque puellae simul omnēs tam magnā vōce clāmāvērunt, ut Ulixēs, nōtissimus ille Graecōrum dux, quī in silvā prope lītus dormiēbat, subitō excitārētur. Ulixēs enim, quī multōs annōs per maria errāverat, tandem, magnā tempestāte coortā, tam valdē flūctibus iactātus erat, ut, nāve frāctā, in Phaeācum lītus ēicerētur, ubi, fessus, longum somnum cēperat. Dum vērō illās puellās spectat, sīc sēcum loquitur: “Heu, mē miserum! Quōrum in terram vēnī? Quae sunt illae puellae? Utrum sunt bonae et probae, an ferōcēs, saevae atque inhūmānae? Utrum hūmānus clāmor ad meās aurēs pervēnit, an Nymphae clāmāvērunt, quae in montibus habitant? Cum ipse rem experior? Nam in tantīs tamque multīs perīculīs versātus sum, ut nunc nihil iam timeam.”",
+        "Haec locūtus, ē silvā ēgrediēbātur Ulixēs; ex arbore quādam rāmum multīs cum foliīs frēgit manū, ut partēs pudendās sibi tegeret. Perrēxit autem īre, velut leō quī dēscendit dē montibus; nūdus et sordidus tamque terribilis vīsū erat, ut puellae omnēs, cum prīmum eum cōnspexērunt, hūc et illūc fugerent animō turbātae.",
+        "Sōla autem Alcinoī fīlia mānsit: eam enim dīī audācem fēcerant; metū igitur dēpositō, stetit, Ulixem spectāns, quī ad eam versus veniēbat.",
+        "Ulixēs autem, eam intuēns, nesciēbat quid faceret: tandem vērō hīs verbīs eam precātus est: “Utrum dea an mortālis es? Sī enim mortālīs es, beātissimī sunt parentēs, beātissimī frātrēs; profectō eōrum animī semper laetantur, cum vident tē, quae sīcut flōs es eōrum domus pulcherrimus; omnium vērō beātissimus ille erit, quī tē uxōrem dūcet: nōndum enim tālem mortālem vīderam oculīs, neque virum neque mulierem: fōrmam tuam et pulchritūdinem admīror. Heri ē flūctibus maris, quibus vīgintī diēs iactātus sum, effūgī; saeva tempestās in hōc lītus mē pepulit, ut adhūc, fortasse, etiam hīc mala paterer, sīcut iam aliīs in locīs passus sum; tū vērō adiuvā mē: tibi enim prīmae hīs in terrīs occurrī: cēterōrum hominum, quī hanc urbem et regiōnem incolunt, nēminem nōvī. Urbem vērō mihi ostende, ōrō tē, et dā vestem ad corpus tegendum.”",
+        "Sīc autem respondit candida puella: “Iuppiter suam cuique partem bonī et malī dat; cum igitur mala nōbīs dat, oportet patī. Nunc vērō, quoniam ad nostram urbem et terram vēnistī, neque vestīmentīs, neque aliīs rēbus egēbis. Urbem tibi ostendam, in quā pater rēgnat meus: sum enim ego fīlia Alcinoī, Phaeācum rēgis.”",
+        "Arcessīvit igitur Nausicaa ancillās, quae perterritae hūc et illūc fūgerant, iīsque imperāvit ut Ulixem lavārent in fluviō et tunicā palliōque vestīrent. Ulixēs vērō ancillīs “State, ōrō vōs,” inquit “procul, dum ego ipse corpus lavō: nam pudet mē nūda membra ante puellārum oculōs ostendere.”",
+        "Postquam autem corpus lāvit, tam pulcher erat, ut sīc Nausicaa cum ancillīs loquerētur: “Initiō quidem mihi ille vir foedus esse vidēbātur; nunc vērō dīīs similis est, quī caelum lātum habitant; ō ancillae! Nēmō mihi persuādēbit eum nōn esse rēgem quendam, vel fortissimum ducem. Optō ut ille dēlectētur hic apud nōs manendō, et meus fīat marītus! Vērum date eī cibum, et vīnum, ut ēdat et bibat: diū enim, crēdō, cibō caruit.” Ulixēs igitur prīmum sūmpsit cibum, deinde vērō cum Nausicaā et ancillīs urbem petīvit, ubi ā rēge et rēgīnā acceptus est.",
+        "Post cēnam autem rēx eum rogāvit ut sibi nārrāret unde et quōmodo venīret, quō īre vellet. Ulixēs igitur, quī statim dīxit sē esse cupidum in patriam redeundī, multīs cum lacrimīs trīstem fābulam suam omnibus, quī ibi aderant, nārrāvit.",
+        "Rēx, tālī fābulā audīta, tam mōtus est animō, ut Ulixem omnī modō iuvāre vellet. Imperāvit itaque ut nāvis parārētur, quā vectus Ulixēs in patriam suam redīre posset. Ergō posterō diē Ulixēs omnibus ‘valē’ dīxit et nāvem cōnscendit, ut tandem post tot annōs domum suam reverterētur.",
+        "Nausicaa autem trīstissima erat: postquam nāvis, quā Ulixēs vehēbātur, profecta est, in altum saxum ascendit; unde prōspiciēns diū nāvem abeuntem oculīs secūta est. Lacrimae vērō ex eius oculīs lābēbantur, neque quisquam aderat, quī eam maerentem cōnsōlārī posset."
       ],
       "notes": [
         {
@@ -260,11 +260,11 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "prudentia",
+          "term": "prūdentia",
           "gloss": "prudens"
         },
         {
-          "term": "Diana -ae f Iovis filia, Nympharum domina",
+          "term": "Diāna -ae f Iovis filia, Nympharum domina",
           "gloss": ""
         },
         {
@@ -272,11 +272,11 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "diu - per longum tempus",
+          "term": "diū - per longum tempus",
           "gloss": ""
         },
         {
-          "term": "Ulixes-ism",
+          "term": "Ulixēs-ism",
           "gloss": ""
         },
         {
@@ -296,11 +296,11 @@ const chapter = {
           "gloss": "operire pergere perrexisse"
         },
         {
-          "term": "manere mansisse",
+          "term": "manēre mansisse",
           "gloss": ""
         },
         {
-          "term": "de-ponere -posuisse -positum",
+          "term": "dē-pōnere -posuisse -positum",
           "gloss": "dimittere,"
         },
         {
@@ -308,15 +308,15 @@ const chapter = {
           "gloss": "stare stetisse"
         },
         {
-          "term": "precari -atum esse (< preces)",
+          "term": "precārī -atum esse (< preces)",
           "gloss": "orare"
         },
         {
-          "term": "uxorem ducere",
+          "term": "uxōrem ducere",
           "gloss": "uxorem suam facere"
         },
         {
-          "term": "ad-iuvare",
+          "term": "ad-iuvāre",
           "gloss": "iuvare occurrere -risse"
         },
         {
@@ -324,7 +324,7 @@ const chapter = {
           "gloss": "pulchra bonum -i n <-* malum"
         },
         {
-          "term": "egere + abi",
+          "term": "egēre + abi",
           "gloss": "(re necessaria carere)"
         },
         {
@@ -340,7 +340,7 @@ const chapter = {
           "gloss": "cupere"
         },
         {
-          "term": "carere -uisse",
+          "term": "carēre -uisse",
           "gloss": ""
         },
         {
@@ -362,11 +362,11 @@ const chapter = {
       "latinTitle": "4. Cyparissus",
       "title": "",
       "paragraphs": [
-        "Cyparissus formosissimus adulescens fuit, qui ab Apolline diligebatur. Cotidie per silvāsas et campos errans, feras, quae ibi versabantur, persecutus capiebat. Delectabatur vero ingenti quodam cervo qui magna et lata cornua in capite gerebat, quae Nymphae auro gemmisque ita ornaverant ut etiam in obscura silva lucerent; ipse cervus, sine meta, hominum domos adire solebat, qui, manus extendentes, eius collum tergumque tangebant. Ille enim Cyparissus, cervo sagitta percusso, ob animi dolorem in arborem mutatur collum manibus, quamquam ignotis, non sine gaudio offerebat.",
-        "Prae ceteris Cyparissus eum tam multum diligebat, ut cotidie ad novos campos duceret, ut bonam herbam esset, et ad rapidos fluvios ageret, ut puram aquam biberet; floribus variorum colorum cervi cornua mirabili modo ornabat, et, tamquam eques, in eius tergo sedens huc et illuc vehebatur.",
-        "Olim vero, quoniam aer calidissimus erat, circa meridiem cervus fessus suum corpus in herbosa terra posuit sub altae arboris umbra, ut frigus ibi caperet. Cyparissus autem, imprudens, dum suo arcu in silva ludit, sagitta cervum sub arbore cubantem forte percussit; cum vero, accurrens, eum morientem vidit, ita turbatus est animo, ut ipse cum cervo moii vellet.",
-        "Apollo, qui, postquam pueri clamores audiverat, ad eum maerentem accurrerat, multis verbis eum consolari conabatur; neque tamen facere potuit ut miserrimus puer minus ob dilectissimae bestiae mortem doleret. Plorabat enim ille, ac multis cum lacrimis flebat; tam tristis erat, ut vivere iam nollet; immo, a deis inter lacrimas petivit, ut sibi flere sine fine liceret. Et iam membra in viridem colorem verti atque capilli, quibus candida frons operiebatur, horrere coeperunt: Cyparissus tunc arbor factus est alta et rigida, cuius pars summa caelum stellis ornatum spectare videbatur.",
-        "Apollo igitur, tristis ad arborem accedens, “Ego” inquit, “semper te flebo, amice; tu vero alios flebis et dolentibus hominibus omni tempore aderis!” Hoc est cur arborem, quae ex illo puero Graece ‘cyparissi’, La tine vero ‘cupressi’ nomen habet, prope amicorum nostrorum sepulcra ponamus."
+        "Cyparissus fōrmōsissimus adulēscēns fuit, quī ab Apolline dīligēbātur. Cotīdiē per silvāsas et campōs errāns, ferās, quae ibi versābantur, persecūtus capiēbat. Dēlectābātur vērō ingentī quōdam cervō quī magna et lāta cornua in capite gerēbat, quae Nymphae aurō gemmīsque ita ōrnāverant ut etiam in obscūrā silvā lūcērent; ipse cervus, sine mētā, hominum domōs adīre solēbat, quī, manūs extendentēs, eius collum tergumque tangēbant. Ille enim Cyparissus, cervō sagittā percussō, ob animī dolōrem in arborem mūtātur collum manibus, quamquam ignōtīs, nōn sine gaudiō offerēbat.",
+        "Prae cēterīs Cyparissus eum tam multum dīligēbat, ut cotīdiē ad novōs campōs dūceret, ut bonam herbam esset, et ad rapidōs fluviōs ageret, ut pūram aquam biberet; flōribus variōrum colōrum cervī cornua mīrābilī modo ōrnābat, et, tamquam eques, in eius tergō sedēns hūc et illūc vehēbātur.",
+        "Ōlim vērō, quoniam āēr calidissimus erat, circā merīdiem cervus fessus suum corpus in herbōsā terrā posuit sub altae arboris umbrā, ut frīgus ibi caperet. Cyparissus autem, imprūdēns, dum suō arcū in silvā lūdit, sagittā cervum sub arbore cubantem forte percussit; cum vērō, accurrēns, eum morientem vīdit, ita turbātus est animō, ut ipse cum cervō moīī vellet.",
+        "Apollō, quī, postquam puerī clāmōrēs audīverat, ad eum maerentem accurrerat, multīs verbīs eum cōnsōlārī cōnābātur; neque tamen facere potuit ut miserrimus puer minus ob dīlēctissimae bēstiae mortem dolēret. Plōrābat enim ille, ac multīs cum lacrimīs flēbat; tam trīstis erat, ut vīvere iam nōllet; immō, ā deīs inter lacrimās petīvit, ut sibi flēre sine fīne licēret. Et iam membra in viridem colōrem vertī atque capillī, quibus candida frōns operiēbātur, horrēre coepērunt: Cyparissus tunc arbor factus est alta et rigida, cuius pars summa caelum stēllīs ōrnātum spectāre vidēbātur.",
+        "Apollō igitur, trīstis ad arborem accēdēns, “Ego” inquit, “semper tē flēbō, amīce; tū vērō aliōs flēbis et dolentibus hominibus omnī tempore aderis!” Hoc est cūr arborem, quae ex illō puerō Graecē ‘cyparissī’, La tīne vērō ‘cupressī’ nōmen habet, prope amīcōrum nostrōrum sepulcra pōnāmus."
       ],
       "notes": [
         {
@@ -374,7 +374,7 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "Apollo -inis m",
+          "term": "Apollō -inis m",
           "gloss": "deus lucis et artis canendi"
         },
         {
@@ -402,7 +402,7 @@ const chapter = {
           "gloss": "herba ponere posuisse positum"
         },
         {
-          "term": "im-prudens -entis <-> prudens",
+          "term": "im-prūdēns -entis <-> prudens",
           "gloss": ""
         },
         {
@@ -418,7 +418,7 @@ const chapter = {
           "gloss": "qui diligitur"
         },
         {
-          "term": "nollet",
+          "term": "nōllet",
           "gloss": "non vellet | petere: poscere"
         },
         {
@@ -445,33 +445,33 @@ const chapter = {
     },
     {
       "id": "alcestis",
-      "latinTitle": "5. Alcestis",
+      "latinTitle": "5. Alcēstis",
       "title": "",
       "paragraphs": [
-        "Alcestis bona et proba uxor Admeti fuit, qui eam Graeciae regionem, quae Thessalia appellatur, tam bene regebat, ut non modo incolis, verum etiam deis, et prae ceteris Apollini, carissimus esset.",
-        "Postquam vero Admetus ad quadragesimum aetatis annum pervenit, Apollo ei in cubiculo suo versanti “Mox” inquit “pallida mors ad te veniet, quae imperabit ut ad Inferos descendas, unde nemo rediit umquam. Magno igitur in periculo versaris; petivi tamen a Parcis, ut, alio homine pro te dato, tot annos posthac viveres, quot iam vixisti; ergo, si aut pater aut mater aut uxor aut amicus quidam pro te mori volet, tu mortem effugies, atque inter vivos multos adhuc annos manere poteris. Ergo cura, ut invenias aliquem, qui pro te sit ad moriendum paratus, ne Thessali rege suo careant.”",
-        "Ut tempestates mare tranquillum turbare solent, ita verba Apollinis animum Admeti turbaverunt. Pater vero, cubiculum ingressus, filium colorem mutavisse animadvertit et “Quid palles, fili?” inquit “Utrum aegrotas an territus es?” Filius autem id, quod Apollo dixerat, patri narravit, eumque rogavit, ut pro se ad illud regnum descenderet, ubi umbrae mortuorum versari dicuntur. At pater, manum extendens ac filii manum apprehendens, multis cum lacrimis “Quis” inquit, “tam fortis est, ut ipse morti sine metu occurrat? Quamquam enim te multum diligo, fili mi, nescio quid faciam: nam timor mortis animum meum vincit.” Admetus a patre tam maerens discessit, ut prae animi dolore loqui non posset.",
-        "Ad matrem igitur accessit, cui persuadere conatus est ut pro se moreretur. “O mater,” inquit “saepe dixisti te deos deasque omnes oravisse, ut mihi longissimam beatamque vitam darent: nunc autem vide: nisi quis pro me ad Inferos descendat, brevi atra mors me rapiet, neque umquam ad vivos redibo. Adiuva me, si me amas!” Mater autem, etsi valde dolebat quod tantum periculum filio impendebat, mortem pro eo adire non audebat; Inferos enim ita timebat, ut de iis cogitans tōtō corpore tremeret. Tum Alcestis, quae Admetum totam rem narrantem, parentesque ‘sē nōlle prō eō mori’ dicentes exaudiverat, “Ō Ad mete, dilectissime coniunx,” inquit “tē plus quam vitam meam amō; sine mora paratissima sum ad moriendum; Plutonis regnum prō tē petam, unde negant redire quemquam; hoc unum tamen tē rogō, ut liberos nostros etiam post mortem meam bene cūrēs et doceas; ōrō quoque nē mei, quae tantum tē amavi, obliviscaris.”",
-        "Postquam Alcestis talia dixit, Mors, adveniens, eam rap tam ad mortuorum regnum secum traxit. Servi et ancillae, maerentes, amissam dominam, quam omnes amabant, diu multumque fleverunt.",
-        "Mox vero Hercules, virorum fortissimus, mortalis feminae et Iovis filius, qui per Thessaliam errabat, ad regiam Admeti perveniens, postulavit a rege, ut sibi fesso cibum vinumque daret.",
-        "Admetus, etiamsi ipse maxime maerebat ob uxoris mortem, nihil tamen de ea re dixit, sed servis imperavit, ut cibum et vinum optimum ad mensam afferrent. Ipse vero poposcit ab Hercule, ut sineret se Ire dormitum, atque discessit.",
-        "Dum autem est et bibit, animadvertit Hercules ancillas servosque tristissimos esse ac lacrimare, cuius rei causam interrogat. Qui de dominae suae morte narraverunt; “Nescis tu” inquiunt “mala quae sunt in hac domo: dominus enim noster nihil tibi dixit, ne animum tuum turbaret: coniunx Admeti periit; qui tamen, ne cogereris aliam domum invenire, te excepit, atque nobis imperavit, ut tibi, hospiti omni honore digno, cibos apponeremus. Ille vero uxorem mortuam in cubiculo suo flet.” Hercules igitur surgēns magna voce clamat: “Ad Inferos descendam, ubi cum Morte ipsa pugnabo, ut, victa, tam probam feminam marito vivisque reddat! Nolite timere: mox Rēgīnam ad regiam reducam!” Haec locutus, relictis servis, ad Plutonis regnum cucurrit, ubi Mortem fortissime oppugnatam vicit, atque Alcēstim ad coniugem suum, qui vix oculis suis credebat, reduxit."
+        "Alcēstis bona et proba uxor Admētī fuit, quī eam Graeciae regiōnem, quae Thessaliā appellātur, tam bene regēbat, ut nōn modo incolis, vērum etiam deīs, et prae cēterīs Apollinī, cārissimus esset.",
+        "Postquam vērō Admētus ad quadrāgēsimum aetātis annum pervēnit, Apollō eī in cubiculō suō versantī “Mox” inquit “pallida mors ad tē veniet, quae imperābit ut ad Īnferōs dēscendās, unde nēmō rediit umquam. Magnō igitur in perīculō versārīs; petīvī tamen ā Parcīs, ut, aliō homine prō tē datō, tot annōs posthāc vīverēs, quot iam vīxistī; ergō, sī aut pater aut māter aut uxor aut amīcus quīdam prō tē morī volet, tū mortem effugiēs, atque inter vīvōs multōs adhūc annōs manēre poteris. Ergō cūra, ut inveniās aliquem, quī prō tē sit ad moriendum parātus, nē Thessalī rēge suō careant.”",
+        "Ut tempestātēs mare tranquillum turbāre solent, ita verba Apollinis animum Admētī turbāvērunt. Pater vērō, cubiculum ingressus, fīlium colōrem mūtāvisse animadvertit et “Quid pallēs, fīlī?” inquit “Utrum aegrōtās an territus es?” Fīlius autem id, quod Apollō dīxerat, patrī nārrāvit, eumque rogāvit, ut prō sē ad illud rēgnum dēscenderet, ubi umbrae mortuōrum versārī dīcuntur. At pater, mānum extendēns ac fīliī manum apprehendēns, multīs cum lacrimīs “Quis” inquit, “tam fortis est, ut ipse mortī sine metū occurrat? Quamquam enim tē multum dīligō, fīlī mī, nesciō quid faciam: nam timor mortis animum meum vincit.” Admētus ā patre tam maerēns discessit, ut prae animī dolōre loquī nōn posset.",
+        "Ad mātrem igitur accessit, cui persuādēre cōnātus est ut prō sē morerētur. “Ō māter,” inquit “saepe dīxistī tē deōs deāsque omnēs ōrāvisse, ut mihi longissimam beātamque vītam darent: nunc autem vidē: nisi quis prō mē ad Īnferōs dēscendat, brevī ātra mors mē rapiet, neque umquam ad vīvōs redībō. Adiuvā mē, sī mē amās!” Māter autem, etsī valdē dolēbat quod tantum perīculum fīliō impendēbat, mortem prō eō adīre nōn audēbat; Īnferōs enim ita timēbat, ut dē iīs cōgitāns tōtō corpore tremeret. Tum Alcēstis, quae Admētum tōtam rem nārrantem, parentēsque ‘sē nōlle prō eō morī’ dīcentēs exaudīverat, “Ō Ad mete, dīlēctissime coniūnx,” inquit “tē plūs quam vītam meam amō; sine morā parātissimā sum ad moriendum; Plūtōnis rēgnum prō tē petam, unde negant redīre quemquam; hoc ūnum tamen tē rogō, ut līberōs nostrōs etiam post mortem meam bene cūrēs et doceās; ōrō quoque nē meī, quae tantum tē amāvī, oblīvīscāris.”",
+        "Postquam Alcēstis tālia dīxit, Mors, adveniēns, eam rap tam ad mortuōrum rēgnum sēcum trāxit. Servī et ancillae, maerentēs, āmissam dominam, quam omnēs amābant, diū multumque flēvērunt.",
+        "Mox vērō Herculēs, virōrum fortissimus, mortālis fēminae et Iovis fīlius, quī per Thessaliam errābat, ad rēgiam Admētī perveniēns, postulāvit ā rēge, ut sibi fessō cibum vīnumque daret.",
+        "Admētus, etiamsī ipse maximē maerēbat ob uxōris mortem, nihil tamen dē eā rē dīxit, sed servīs imperāvit, ut cibum et vīnum optimum ad mēnsam afferrent. Ipse vērō poposcit ab Hercule, ut sineret sē Īre dormītum, atque discessit.",
+        "Dum autem est et bibit, animadvertit Herculēs ancillās servōsque trīstissimōs esse ac lacrimāre, cuius reī causam interrogat. Quī dē dominae suae morte nārrāvērunt; “Nescīs tū” inquiunt “mala quae sunt in hāc domō: dominus enim noster nihil tibi dīxit, nē animum tuum turbāret: coniūnx Admētī periit; quī tamen, nē cōgerēris aliam domum invenīre, tē excēpit, atque nōbīs imperāvit, ut tibi, hospitī omnī honōre dignō, cibōs appōnerēmus. Ille vērō uxōrem mortuam in cubiculō suō flet.” Herculēs igitur surgēns magnā vōce clāmat: “Ad Īnferōs dēscendam, ubi cum Morte ipsā pugnābō, ut, victa, tam probam fēminam marītō vīvīsque reddat! Nōlīte timēre: mox Rēgīnam ad rēgiam redūcam!” Haec locūtus, relictīs servīs, ad Plūtōnis rēgnum cucurrit, ubi Mortem fortissimē oppugnātam vīcit, atque Alcēstim ad coniugem suum, quī vix oculīs suīs crēdēbat, redūxit."
       ],
       "notes": [
         {
-          "term": "Alcestis -is f",
+          "term": "Alcēstis -is f",
           "gloss": ""
         },
         {
-          "term": "Admetus -i m",
+          "term": "Admētus -i m",
           "gloss": ""
         },
         {
-          "term": "Thessalia -ae f regio Graeciae incola -ae m/f= qul/quae incolit",
+          "term": "Thessaliā -ae f regio Graeciae incola -ae m/f= qul/quae incolit",
           "gloss": ""
         },
         {
-          "term": "Apollo -inis m",
+          "term": "Apollō -inis m",
           "gloss": "deus lucis et artis canendi"
         },
         {
@@ -495,15 +495,15 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "regnum - t n",
+          "term": "rēgnum - t n",
           "gloss": "regis imperium"
         },
         {
-          "term": "discedere -ssisse",
+          "term": "discēdere -ssisse",
           "gloss": ""
         },
         {
-          "term": "ad-iuvare",
+          "term": "ad-iuvāre",
           "gloss": "iuvare"
         },
         {
@@ -519,15 +519,15 @@ const chapter = {
           "gloss": ""
         },
         {
-          "term": "a-mittere -misisse -missum accipere diu - per longum tempus flere -evisse",
+          "term": "ā-mittere -misisse -missum accipere diu - per longum tempus flere -evisse",
           "gloss": ""
         },
         {
-          "term": "Hercules -is m",
+          "term": "Herculēs -is m",
           "gloss": "Iovis filius, deus Graecus regia -ae f= regis domus"
         },
         {
-          "term": "etiam-si",
+          "term": "etiam-sī",
           "gloss": "quamquam, etsi"
         },
         {
@@ -543,14 +543,14 @@ const chapter = {
           "gloss": "signum laudis, laus"
         },
         {
-          "term": "re-dūcere relinquere -liquisse -lictum currere cucurrisse vincere vicisse victum",
+          "term": "rē-dūcere relinquere -liquisse -lictum currere cucurrisse vincere vicisse victum",
           "gloss": ""
         }
       ]
     }
   ],
   "plates": [
-    "Dum Atalanta malum capiendi causa consistit, Hippomenes ad metam currit."
+    "Dum Atalanta mālum capiendī causā cōnsistit, Hippomenēs ad mētam currit."
   ],
   "grammar": [],
   "vocabulary": [],
