@@ -205,9 +205,9 @@ const THEMES = [
   ['religion', 'Gods and religion', ['god', 'goddess', 'temple', 'sacrifice', 'priest', 'altar', 'prayer', 'divine', 'fate', 'oracle', 'religion', 'sacred', 'holy', 'deus', 'dea', 'templum', 'sacrificium', 'sacerdos', 'ara', 'precari', 'fatum', 'oraculum', 'religio', 'sacer', 'sanctus']],
   ['myth', 'Myth and legend', ['hercules', 'theseus', 'perseus', 'ulysses', 'aeneas', 'jason', 'minotaur', 'hydra', 'labyrinth', 'troy', 'trojan', 'myth', 'legend', 'hero', 'monster', 'hercules', 'theseus', 'perseus', 'ulixes', 'aeneas', 'iason', 'minotaurus', 'hydra', 'labyrinthus', 'troia', 'troianus', 'heros', 'monstrum']],
   ['love', 'Love and desire', ['love', 'desire', 'wedding', 'kiss', 'beauty', 'venus', 'cupid', 'lover', 'beloved', 'amor', 'amare', 'cupido', 'nubere', 'coniugium', 'osculum', 'venus', 'amator', 'amata']],
-  ['dining', 'Food and dining', ['dinner', 'food', 'wine', 'bread', 'fish', 'cook', 'feast', 'dish', 'hunger', 'thirst', 'table', 'banquet', 'cena', 'cibus', 'vinum', 'panis', 'piscis', 'coquus', 'epulum', 'ferculum', 'fames', 'sitis', 'mensa', 'convivium']],
+  ['dining', 'Food and dining', ['dinner', 'food', 'wine', 'bread', 'fish', 'cook', 'feast', 'dish', 'hunger', 'thirst', 'table', 'banquet', 'cena', 'cibus', 'vinum', 'panis', 'piscis', 'coquus', 'epulum', 'ferculum', 'fames', 'sitis', 'convivium']],
   ['body-health', 'Health and medicine', ['health', 'sick', 'illness', 'doctor', 'medicine', 'wound', 'pain', 'valetudo', 'aeger', 'morbus', 'medicus', 'medicina', 'vulnus', 'dolor']],
-  ['death', 'Death and burial', ['death', 'die', 'kill', 'funeral', 'tomb', 'grave', 'ghost', 'underworld', 'murder', 'mors', 'mori', 'necare', 'funus', 'sepulcrum', 'tumulus', 'umbra', 'inferi', 'occidere']],
+  ['death', 'Death and burial', ['death', 'kill', 'funeral', 'tomb', 'grave', 'ghost', 'underworld', 'murder', 'mors', 'mori', 'necare', 'funus', 'sepulcrum', 'tumulus', 'umbra', 'inferi', 'occidere']],
   ['friendship', 'Friendship and patronage', ['friend', 'friendship', 'patron', 'client', 'greet', 'gift', 'favour', 'favor', 'guest', 'hospitality', 'amicus', 'amicitia', 'patronus', 'cliens', 'salutare', 'donum', 'beneficium', 'hospes', 'hospitium']],
   ['emotions', 'Emotions and character', ['fear', 'anger', 'joy', 'grief', 'hope', 'brave', 'wise', 'foolish', 'happy', 'sad', 'courage', 'timor', 'ira', 'gaudium', 'dolor', 'spes', 'fortis', 'sapiens', 'stultus', 'felix', 'tristis', 'virtus']],
   ['time', 'Time and the calendar', ['day', 'night', 'month', 'year', 'hour', 'calendar', 'festival', 'season', 'morning', 'evening', 'dies', 'nox', 'mensis', 'annus', 'hora', 'kalendae', 'festus', 'tempus', 'mane', 'vesper']],
@@ -711,13 +711,8 @@ for (const { book, chapter, ctx, core } of chapterRefs) {
   const level = levelFor(chapter, ctx)
   addKeyword(tags, `level:${level}`, 'level', LEVEL_LABELS[level])
 
-  // Keep a stable order: grammar, theme, text, skill, author, work, level.
-  const order = ['grammar', 'theme', 'text', 'skill', 'author', 'work', 'level']
-  tags.sort((a, b) => {
-    const [ga, ...ra] = a.split(':')
-    const [gb, ...rb] = b.split(':')
-    return order.indexOf(ga) - order.indexOf(gb) || definitions.get(a).label.localeCompare(definitions.get(b).label)
-  })
+  // Keep insertion order: grammar and theme labels are already ranked by
+  // relevance, and the groups stay in a predictable order.
 
   chapterKeywords[key] = tags
   for (const tag of tags) {
@@ -744,6 +739,11 @@ if (process.env.DEBUG_KEYWORDS) {
     const dbgCore = ref.core
     const dbgInherited = dbgCore && coreData.get(`${ref.book.id === 'exercitia-latina-ii' || ref.book.id === 'companion-roma-aeterna' ? 'roma-aeterna' : 'familia-romana'}:${dbgCore.number}`)
     console.log('inherited:', dbgInherited)
+    {
+      const t=titleText(ref.chapter); const hay=words(t); const toks=new Set(hay.split(' ').filter(Boolean).map(latinStem)); const lat=looksLatin(t);
+      for (const [id,,cues] of THEMES) { const hits=[]; for (const cue of cues) { const en=THEME_CUE_RE.get(id)[cues.indexOf(cue)].test(hay); const la=lat && !cue.includes(' ') && (toks.has(latinStem(cue))||toks.has(cue)); if(en||la) hits.push(cue+(la?'(la)':'')) } if(hits.length) console.log(' title theme hit',id,hits.join(', ')) }
+    }
+    console.log('title themes:', [...titleThemeIds(ref.chapter)])
     console.log('own themes:', themeTags(ref.chapter))
     console.log('theme sources:', {
       title: titleText(ref.chapter),

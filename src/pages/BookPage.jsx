@@ -1,6 +1,7 @@
 import { Link, useParams, Navigate } from 'react-router-dom'
 import { books, getBook } from '../data/library.js'
 import { useProgress } from '../hooks/useLocalStorage.js'
+import KeywordChips from '../components/KeywordChips.jsx'
 
 const EXTRA_NUMERALS = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII']
 
@@ -219,6 +220,7 @@ function ActiveBook({ book }) {
                 <span className="chapter-card__body">
                   <span className="chapter-card__latin latin">{chapter.latinTitle}</span>
                   <span className="chapter-card__title">{chapter.title}</span>
+                  <KeywordChips ids={chapter.keywords} variant="card" />
                 </span>
               </>
             )

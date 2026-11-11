@@ -413,6 +413,28 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.chapter-card__keywords {
+  display: block;
+  margin-top: 0.32rem;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: var(--font-ui);
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  line-height: 1.3;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+.chapter-card__keyword-sep {
+  margin: 0 0.38rem;
+  color: var(--bronze);
+  font-size: 0.44rem;
+  vertical-align: 0.08em;
+}
 .chapter-card__status {
   flex: none;
 }
@@ -478,6 +500,112 @@
   font-style: italic;
   margin: 1.25rem 0 0;
   max-width: 60ch;
+}
+
+/* ---------- Chapter keywords: small epigraphic labels ---------- */
+
+.lesson__keywords {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.45rem 0.6rem;
+  margin-top: 1.1rem;
+}
+.lesson__keywords-label {
+  margin: 0 0.15rem 0 0;
+  font-family: var(--font-ui);
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--bronze);
+}
+.keyword-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.32rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.keyword {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.55rem;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  background: color-mix(in srgb, var(--surface-2) 55%, transparent);
+  font-family: var(--font-ui);
+  font-size: 0.61rem;
+  font-weight: 600;
+  letter-spacing: 0.075em;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  white-space: nowrap;
+  max-width: 15rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.keyword[data-group='grammar'] {
+  color: var(--bronze);
+  border-color: color-mix(in srgb, var(--bronze) 32%, var(--line));
+}
+.keyword[data-group='theme'] {
+  color: var(--patina);
+  border-color: color-mix(in srgb, var(--patina) 30%, var(--line));
+}
+.keyword[data-group='text'] {
+  color: var(--ink-faint);
+}
+.keyword[data-group='skill'] {
+  color: var(--wine);
+  border-color: color-mix(in srgb, var(--wine) 26%, var(--line));
+}
+.keyword[data-group='level'] {
+  color: color-mix(in srgb, var(--paper) 94%, white);
+  background: linear-gradient(150deg, var(--wine), var(--wine-deep));
+  border-color: var(--wine-deep);
+}
+.keyword[data-group='author'],
+.keyword[data-group='work'] {
+  color: var(--ink-faint);
+  border-style: dashed;
+}
+.keyword-more {
+  flex-basis: 100%;
+  margin-top: 0.05rem;
+}
+.keyword-more summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  cursor: pointer;
+  list-style: none;
+  font-family: var(--font-ui);
+  font-size: 0.58rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+.keyword-more summary::-webkit-details-marker {
+  display: none;
+}
+.keyword-more summary::before {
+  content: '+';
+  color: var(--bronze);
+  font-size: 0.75rem;
+  line-height: 1;
+}
+.keyword-more[open] summary::before {
+  content: '−';
+}
+.keyword-more__count {
+  color: var(--bronze);
+}
+.keyword-row--all {
+  margin-top: 0.55rem;
 }
 
 /* Two columns: a sticky chapter rail beside the content */

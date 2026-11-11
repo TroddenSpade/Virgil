@@ -8,6 +8,7 @@ import Vocabulary from '../components/Vocabulary.jsx'
 import Pensum from '../components/Pensum.jsx'
 import CommentarySection, { Inline } from '../components/Commentary.jsx'
 import CompanionVocabulary, { CompanionNotes } from '../components/CompanionVocabulary.jsx'
+import KeywordChips from '../components/KeywordChips.jsx'
 
 const ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII']
 
@@ -109,6 +110,7 @@ function Lesson({ book, chapter }) {
               <li>{chapter.pensa?.length || 0} practices</li>
             </ul>
           )}
+          <KeywordChips ids={chapter.keywords} />
         </header>
 
         <div className="lesson__layout">
