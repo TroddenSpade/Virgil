@@ -206,6 +206,32 @@ export const books = [
   },
 ]
 
+const HERO_MARKS = {
+  'familia-romana': 'FAM. ROM.',
+  'roma-aeterna': 'ROMA AET.',
+  'exercitia-latina': 'EXERC. I',
+  'colloquia-personarum': 'COLLOQ.',
+  'fabulae-syrae': 'FAB. SYR.',
+  'sermones-romani': 'SERM. ROM.',
+  'epitome-historiae-sacrae': 'EPIT. SACR.',
+  'exercitia-latina-ii': 'EXERC. II',
+  'caesar-de-bello-gallico-vii': 'BELL. GALL.',
+  'vergil-aeneis-i-et-iv': 'AENEIS',
+  'ovidii-ars-amatoria': 'ARS AMAT.',
+  'petronius-cena-trimalchionis': 'CENA',
+  'sallustius-cicero-catilina': 'CATILINA',
+  'plautus-amphitryo': 'AMPHITRYO',
+  'companion-roma-aeterna': 'COMES II',
+  companion: 'COMES I',
+  'learn-latin': 'DISC. LAT.',
+  'latin-via-ovid': 'LAT. OVID.',
+  'virgils-works': 'VERGILIVS',
+}
+
+for (const book of books) {
+  book.heroMark = HERO_MARKS[book.id] || book.shortTitle?.toUpperCase() || 'LIBER'
+}
+
 export function getBook(slug) {
   return books.find((b) => b.slug === slug)
 }

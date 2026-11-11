@@ -85,7 +85,7 @@ export const book = {
   slug: 'companion-to-familia-romana',
   title: 'A Companion to Familia Romana',
   latinTitle: 'COMES FAMILIAE ROMANAE',
-  shortTitle: 'Companion',
+  shortTitle: 'Companion I',
   author: 'Jeanne Marie Neumann',
   edition: 'Second Edition',
   year: 2016,

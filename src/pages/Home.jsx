@@ -162,7 +162,7 @@ export default function Home() {
               </div>
             </div>
             <div className="book-feature__spine" aria-hidden="true" style={{ background: 'linear-gradient(160deg, #7a5a1f, #3c2a0c)' }}>
-              <span className="book-feature__spine-text">COMES</span>
+              <span className="book-feature__spine-text">COMES I</span>
             </div>
           </div>
 

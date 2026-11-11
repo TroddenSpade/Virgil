@@ -26,6 +26,11 @@ function ReferenceBook({ book }) {
         </Link>
 
         <header className="book-hero rise">
+          {book.heroMark && (
+            <span className="book-hero__mark" aria-hidden="true">
+              {book.heroMark}
+            </span>
+          )}
           <p className="eyebrow">{book.latinTitle}</p>
           <h1 className="book-hero__title">{book.title}</h1>
           <p className="book-hero__meta muted">
@@ -111,6 +116,11 @@ function ActiveBook({ book }) {
         </Link>
 
         <header className="book-hero rise">
+          {book.heroMark && (
+            <span className="book-hero__mark" aria-hidden="true">
+              {book.heroMark}
+            </span>
+          )}
           <p className="eyebrow">{book.latinTitle}</p>
           <h1 className="book-hero__title">{book.title}</h1>
           <p className="book-hero__meta muted">
