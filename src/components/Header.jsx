@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import { getBook } from '../data/library.js'
 import Logo from './Logo.jsx'
@@ -40,9 +41,23 @@ function pageContext(pathname) {
 export default function Header() {
   const { pathname } = useLocation()
   const context = pageContext(pathname)
+  const [menuOpen, setMenuOpen] = useState(false)
+
+  useEffect(() => {
+    setMenuOpen(false)
+  }, [pathname])
+
+  useEffect(() => {
+    if (!menuOpen) return undefined
+    const onKey = (event) => {
+      if (event.key === 'Escape') setMenuOpen(false)
+    }
+    document.addEventListener('keydown', onKey)
+    return () => document.removeEventListener('keydown', onKey)
+  }, [menuOpen])
 
   return (
-    <header className="site-header">
+    <header className={`site-header${menuOpen ? ' site-header--menu-open' : ''}`}>
       <div className="container site-header__inner">
         <Link to="/" className="brand" aria-label="Virgil — home">
           <Logo size={40} className="brand__mark" />
@@ -52,21 +67,45 @@ export default function Header() {
           </span>
         </Link>
 
-        <nav className="site-nav" aria-label="Primary">
+        <button
+          type="button"
+          className="site-nav__toggle icon-btn"
+          aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+          aria-expanded={menuOpen}
+          aria-controls="site-menu"
+          onClick={() => setMenuOpen((open) => !open)}
+        >
+          <span className="site-nav__toggle-bars" aria-hidden="true">
+            <span />
+            <span />
+            <span />
+          </span>
+        </button>
+
+        <nav
+          id="site-menu"
+          className={`site-nav${menuOpen ? ' is-open' : ''}`}
+          aria-label="Primary"
+        >
           <NavLink to="/" end>
             Home
           </NavLink>
           <NavLink to="/library">Library</NavLink>
           <NavLink to="/dictionary">Dictionary</NavLink>
-          <NavLink to="/approach" className="hide-sm">
-            Approach
-          </NavLink>
-          <NavLink to="/profile" className="hide-sm">
-            Profile
-          </NavLink>
+          <NavLink to="/approach">Approach</NavLink>
+          <NavLink to="/profile">Profile</NavLink>
           <ThemeToggle />
         </nav>
       </div>
+
+      {menuOpen && (
+        <button
+          type="button"
+          className="site-menu-backdrop"
+          aria-label="Close menu"
+          onClick={() => setMenuOpen(false)}
+        />
+      )}
 
       {context && (
         <div className="site-header__context container" aria-label="Breadcrumb">
