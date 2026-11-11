@@ -10,7 +10,7 @@ function FillExercise({ pensum }) {
   const items = useMemo(() => pensum.items.map((text) => parseBlanks(text)), [pensum.items])
 
   const totalBlankCount = useMemo(
-    () => items.reduce((sum, nodes) => sum + nodes.filter((n) => n.type === 'blank').length, 0),
+    () => items.reduce((sum, nodes) => sum + nodes.filter((n) => n.type === 'blank' && !n.open).length, 0),
     [items],
   )
 
@@ -22,8 +22,10 @@ function FillExercise({ pensum }) {
       let j = 0
       nodes.forEach((node) => {
         if (node.type !== 'blank') return
-        const given = normalise(values[key(i, j)] || '')
-        if (given && node.answers.some((a) => normalise(a) === given)) correct += 1
+        if (!node.open) {
+          const given = normalise(values[key(i, j)] || '')
+          if (given && node.answers.some((a) => normalise(a) === given)) correct += 1
+        }
         j += 1
       })
     })
@@ -36,7 +38,7 @@ function FillExercise({ pensum }) {
       let j = 0
       nodes.forEach((node) => {
         if (node.type === 'blank') {
-          filled[key(i, j)] = node.answers[0]
+          if (!node.open) filled[key(i, j)] = node.answers[0]
           j += 1
         }
       })
@@ -66,13 +68,13 @@ function FillExercise({ pensum }) {
               const value = values[fieldKey] || ''
               const isBlankCorrect =
                 value && node.answers.some((a) => normalise(a) === normalise(value))
-              const cls = checked ? (isBlankCorrect ? 'is-correct' : 'is-wrong') : ''
+              const cls = node.open ? 'is-open' : checked ? (isBlankCorrect ? 'is-correct' : 'is-wrong') : ''
               return (
                 <input
                   key={k}
                   className={`blank-input ${cls}`}
                   value={value}
-                  style={{ width: `${Math.max(node.answers[0]?.length || 3, 3) + 1}ch` }}
+                  style={{ width: `${node.open ? 14 : Math.max(node.answers[0]?.length || 3, 3) + 1}ch` }}
                   spellCheck="false"
                   autoComplete="off"
                   onChange={(e) => {
@@ -91,13 +93,16 @@ function FillExercise({ pensum }) {
         <button type="button" className="btn btn--primary btn--sm" onClick={() => setChecked(true)}>
           Check answers
         </button>
-        <button type="button" className="btn btn--ghost btn--sm" onClick={showAnswers}>
-          Show answers
-        </button>
+        {totalBlankCount > 0 && (
+          <button type="button" className="btn btn--ghost btn--sm" onClick={showAnswers}>
+            Show answers
+          </button>
+        )}
         {checked && (
           <span className="pensum__score" role="status">
-            {revealed ? 'Answers shown · ' : ''}
-            {correctCount} / {totalBlankCount} correct
+            {totalBlankCount === 0
+              ? 'Practice exercise — write your answers in the fields.'
+              : `${revealed ? 'Answers shown · ' : ''}${correctCount} / ${totalBlankCount} correct`}
           </span>
         )}
       </div>

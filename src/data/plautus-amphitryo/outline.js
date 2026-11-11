@@ -5,7 +5,7 @@ export const outline = [
     "slug": "prologus",
     "latinTitle": "PROLOGVS",
     "title": "Prologus",
-    "tagline": "T. Maccius Plautus"
+    "tagline": "Mercurius argumentum comoediae narrat"
   },
   {
     "number": 2,
@@ -13,7 +13,7 @@ export const outline = [
     "slug": "actus-i",
     "latinTitle": "ACTVS PRIMVS",
     "title": "Actus I",
-    "tagline": "T. Maccius Plautus"
+    "tagline": "Sosia et Mercurius; Iuppiter et Alcumena"
   },
   {
     "number": 3,
@@ -21,7 +21,7 @@ export const outline = [
     "slug": "actus-ii",
     "latinTitle": "ACTVS SECVNDVS",
     "title": "Actus II",
-    "tagline": "T. Maccius Plautus"
+    "tagline": "Amphitryo domum redit; Alcumena miratur"
   },
   {
     "number": 4,
@@ -29,7 +29,7 @@ export const outline = [
     "slug": "actus-iii",
     "latinTitle": "ACTVS TERTIVS",
     "title": "Actus III",
-    "tagline": "T. Maccius Plautus"
+    "tagline": "Iuppiter Alcumenam placat"
   },
   {
     "number": 5,
@@ -37,7 +37,7 @@ export const outline = [
     "slug": "actus-iv",
     "latinTitle": "ACTVS QVARTVS",
     "title": "Actus IV",
-    "tagline": "T. Maccius Plautus"
+    "tagline": "Amphitryo a Mercurio ludificatur"
   },
   {
     "number": 6,
@@ -45,7 +45,7 @@ export const outline = [
     "slug": "actus-v",
     "latinTitle": "ACTVS QVINTVS",
     "title": "Actus V",
-    "tagline": "T. Maccius Plautus"
+    "tagline": "Bromia rem gestam narrat; Iuppiter se ostendit"
   }
 ]
 

@@ -1,4 +1,153 @@
+// Front and back matter of the edition, reproduced in the book’s order.
+
 export const extras = [
+  {
+    "id": "notae",
+    "slug": "notae",
+    "title": "Notae",
+    "latinTitle": "NOTAE",
+    "sections": [
+      {
+        "id": "sec-1",
+        "latin": "NOTAE",
+        "english": "Abbreviations",
+        "kind": "reference",
+        "blocks": [
+          {
+            "t": "p",
+            "text": "In margine paginarum explanantur vocabula quae non reperiuntur in libro qui inscribitur LINGVA LATINA PER SE ILLVSTRATA, PARS I: FAMILIA ROMANA."
+          },
+          {
+            "t": "table",
+            "rows": [
+              [
+                "Signum",
+                "Significat",
+                "Signum",
+                "Significat"
+              ],
+              [
+                "=",
+                "idem atque",
+                "ger",
+                "gerundium/gerundivum"
+              ],
+              [
+                "",
+                "id est",
+                "imp",
+                "imperativus"
+              ],
+              [
+                "↔",
+                "contrarium",
+                "ind",
+                "indicativus"
+              ],
+              [
+                "=",
+                "sive",
+                "inf",
+                "infinitivus"
+              ],
+              [
+                "<",
+                "factum/ortum est",
+                "interi",
+                "interiectio"
+              ],
+              [
+                ">",
+                "fit, mutatur in",
+                "loc",
+                "locativus"
+              ],
+              [
+                "/",
+                "excidit littera",
+                "m/masc",
+                "masculinum"
+              ],
+              [
+                "1, 2, 3",
+                "persona I, II, III",
+                "n/neutr",
+                "neutrum"
+              ],
+              [
+                "abl",
+                "ablativus",
+                "nom",
+                "nominativus"
+              ],
+              [
+                "acc",
+                "accusativus",
+                "p.",
+                "pagina"
+              ],
+              [
+                "adi",
+                "adiectivum",
+                "part",
+                "participium"
+              ],
+              [
+                "adv",
+                "adverbium",
+                "pass",
+                "passivum"
+              ],
+              [
+                "comp",
+                "comparativus",
+                "perf",
+                "perfectum"
+              ],
+              [
+                "coni",
+                "coniunctivus",
+                "pl/plur",
+                "pluralis"
+              ],
+              [
+                "dat",
+                "dativus",
+                "praes",
+                "praesens"
+              ],
+              [
+                "f/fem",
+                "femininum",
+                "prp",
+                "praepositio"
+              ],
+              [
+                "fut",
+                "futurum",
+                "sg/sing",
+                "singularis"
+              ],
+              [
+                "gen",
+                "genetivus",
+                "v.",
+                "vide"
+              ]
+            ]
+          },
+          {
+            "t": "p",
+            "text": "Syllabae versuum comoediae notis quibusdam significantur: linea tenuis ponitur inter syllabas quae non contrahuntur; nota synizesis ponitur super vocales quae in unam syllabam contrahuntur; nota correptionis ponitur super vocalem vel syllabam quae corripitur. Littera -s quae in syllabis -us et -is excidit scribitur -s pro -us: -us et -is legitur -u' et -i'."
+          },
+          {
+            "t": "p",
+            "text": "Numeri qui inveniuntur in capitulis DE GRAMMATICA et DE VERSIBUS et in INDICIBUS demonstrant versus comoediae; ubi ante numeros ponuntur litterae Prf aut Arg, versus Praefationis aut Argumenti demonstrantur."
+          }
+        ]
+      }
+    ]
+  },
   {
     "id": "praefatio",
     "slug": "praefatio",
@@ -7,13 +156,89 @@ export const extras = [
     "sections": [
       {
         "id": "sec-1",
-        "latin": "PRAEFATIO",
-        "english": "Preface",
+        "latin": "DE THEATRO ROMANO",
+        "english": "De theatro Romano",
         "kind": "reference",
         "blocks": [
           {
             "t": "p",
-            "text": "Theatrum cavea -aef praefiitio < prae-fiiri De cheacro ROmiin6 Theatrum Romanum constat ex cavea et scaena. Cavea, quae formam habet h1nae dimidiae, est locus unde popu- lus in gradibus sedens !abulas spectat. In scaena longa s histriones, personas alienas gerentes, !abulas agunt. histri6 Fabulae scaenicae dispertiuntur in comoedias et tra- dispertire tragoedia goedias. Comoedia est tabuhi de rebus levibus et iocosis ..... atque de vita privata, tragoedia appellatur !abula in qua aguntur res graves seriaeque, velut acerba fiinera aliae- fun us mortuum, que hominum miseriae. miseria Fabulas spectare Romarus libet, nee vera quolibet die qui- abl iis licet spectatum Ire, sed tantum testis diebus , qui omni lestus Romae satis crebri sunt. Dies resti sunt quibus dii in creber quens; templis piiblice adorantur atque homines otio fruuntur; IS tum liidi scaenici populo otioso apparantur ac theatrum ap-parare cito spectatoribus completur. citus adv Comoedia antiqua incipit a prologo, quo iinus ex his- prologus trionibus argiimentum tabulae narrat, postquam specta- argiirnentum fiibulae tores hortatus est ut animum advertant neve tumultum fiibula ad-vertere: 20 faciant in cavea. Dum !abula agitur, plerumque binae = 4 A t~biae~ aut ternae personae in scaena inter se colloquuntur, -arum terdum una persona secum loquitur. Si scaena fpl sonare = son urn dare vacua relinquitur, interim tibiae dulciter sonant. quae in tabula aguntur omnes eodem die atque e-venire -venisse -vemu- loco eveniunt, et quidem plerumque in aliquo rum = accidere stabilis-e ( < stare) = qui Graec6. Scaena enim stabilis, nulla re mutata, non movemr/miitatur qui- quae- quod-vis locum vel quodvis oppidum significare potest. = quilibet quam peracta est tabula, spectatores semper per-agere = ad finem agere, finire uti clare plaudant. uti= ut De Plauto poetii Scipio -onis m Hannibal-alis Titus Maccius Plautus eOdem fere tempore m Canhaginienses -ium m pi< Carthago -inisf, Scipio, dux Romanorum egregius, qui Hannibalem, urbs Africae su perare = vincere cem Canhaginiensium, bello superavit. Natus Umbria -ae [ , regia ltaliae in oppido Umbriae Plautus oSarsina Romam migravit ibique v.Jr migrare = in ali urn lo- ~., cum ire habitatum ..- , histrio factus est. Cum ver6 (n!) fret us -a -urn = (rellre) fidens fortuna fretus mercaturam mercan1ra -ae f = merca- toris negotium facere occepisset, brevi oc-cipere -io -cepisse -ceptum = incipere tempore pecuniam omnem quam histrio fecerat merca- tor perdidit. Deinde comoedias scribere coepit, ad -eo adv = tam valde com-placere -uisse/-itum pulo adeo complacuerunt ut postea nee tama nee esse = placere de-cedere (de vita): mori poetae industria deesset. Senex de vita decessit octogesimus -a -urn = centesimo octogesimo quarto ante Christum natum. LXXX (80.) vertere venisse versum Comoediae Plauti e lingua Graeca in Latinam : miitare sunt, nee vero Plautus ipsa verba poetarum Graecorum 4 B secfnus est, sed multa miitasse ac non pauca sua ad- -asse didisse videtur, cum sermonem et mores Romanorum diligenter imitaretur. so Incertum est quot comoedias Plautus scripserit, nam viri docti alii eum quinque et viginti comoedias edidisse e-dere < opinantur, alii centum et triginta. Sed iina et viginti oplnarl tantum comoediae Plauti ad nostram aetatem servatae sunt, in quarum numero primum locum tenet ilia cui ss titulus est Amphitr:yo. Amphitry6 = De Amphitryone comoedia In Amphitry8ne comoedia ipse luppiter, supremus rex supremus summus divorum, cum Mercurio, filio et nuntio suo, in scaenam divus inducitur, itemque Amphitryon, dux belli nobilis, cum in-ducere pius 60 Alcmena, uxore sua pia et pudica; nee tamen tragoedia amat pudicus appellanda est haec tabula, nam dii in formam hiimanam p.a s6lumamat se miitarunt atque res ridiculas et iocos agunt clicuntque. -arunt iocus Argumentum huius comoediae ducitur a tabula Graeca ioc6sum quae narratur de Amphitryone et Alcmena hoc modo: Am phi tryon (Alcaei fili- 65 Alcaeus us) postquam cum Alcmena Electrvon Arg1~6rum (filia Electryonis) Argis ex Argl glvus patria sua Thebas migravit, Thebae Thebanus a Creonte, rege Thebano, Creon m 70 exercitui praefectus est, ut prae-ficere -fectum bellum gereret cum Tele- Teleboae Acarnania bois, genre Acarnaniae, qui Graeciae sit 5 A praeda -ae f = res quae in fratres Alcmenae interfecerant et praedam rapuerant bello rapiuntur regnum -in = imperium regno Electryonis. Amphitryon ad bellum regis fugare=in fugam vertere Teleboas proelio vicit fugavitque, oppido eorum potiri +abUgen: rep. = rem suam facere est ac Pterelaum, regem eorum, manu sua Pterelaus -i m prosperus -a -urn = felix Interea, dum Amphitryon procul a patria bellum sus-cipere = in se acci- perum gerit, luppiter, amore captus, formam perelsumere clam adv ...... aperte cepit, ut Alcmenam clam viseret. amator -oris m = qui amat, amans De Alcmena et amatore eius divino Hyginus divinus -a -urn< divus vir doctus qui saeculo secundo post Christum usus -us m < uti usum librum Fabularnm ad iisum discipulorum edidit, referre = narrare refert (in Fabulis XXIX et xxx): XXIX = undetricesimus Alcimena = Alcmena XXIX. ALCIMENA Oechalia, locus ignotus Amphitryan cum abesset ad expugnandam Oechaliam, (: Acarnania?) aestimans : existimans mena, aescimans lavern coniugem suum esse, eum thalamus -i m = cubicu- lum coniugum ; pl : sg mis recepit. Qui cum in thalamos venisset et ei referret con-cumbere -cubuisse = in eodem lecto cu- in Oechalia gessisset, ea credens coniugem esse cum bantem se p6nere libens (parr< libere) cubuit. Qui tam libens cum ea concubuit ut duas : libenter con-geminare ( < gemi- geminaret, ita ut Alcimena tam longam noccem nus) = ex uno duos/ex duo bus unum facere retur. Postea cum numiaretur ei 'coniugem viccorem minime ciiravit, quod iam putabat se coniugem suum regia -aef=domus regis Qui cum in regiam imrasset et earn videret neglegentius -asset = -az•isset se-curus -a -urn = nihil seciiram, mirari coepit et queri 'quod se adl.'enientem ciirans, sine ciira ex-cipere = (bene) reci- excepisset' . Cui Alcimena respond it: \"I am pridem pere -asti = az,isti ec mecum concubuisti et mihi narrasti quae in Oechalia signum= id quod rem significat sisses.\" Quae cum signa omnia diceret, sensit Amphitryon sen tire sensisse sensum 5 B niimen numen aliquod fuisse pro se, ex qua die cum ea nan concubuit. luntiis, com-primere Quae ex love compressa peperit Herculem. -pressum: cum quae compressa XXX. [HERCVLES] lnfans cum esset, dracanes duos duabus manibus necavit, draco -ism quos I uno mfserat ... Hercules duos necat In Plauti comoedia, cui scaena est Thebis ante aedes aedes Amphitryonis, quaedam novae personae inductae sunt, in primis Sosia, servus Amphitryonis, et Mercurius in primis simulare deus, qui formam Sosiae gerens simulat se servum esse. cere; agit Ita non solum Iuppiter et Amphitryon inter se similes similis esse sunt, sed etiam Mercurius et Sosia, quapropter familia Amphitryonis admodum perturbatur. lv\\ercurius enim, ad-modum servi cum Sosiae servi tam similis sit uti nemo eos inter- mam inter-noscere noscere possit , et servum et dorninum omnibus modis e-liidere eludit, atque Iuppiter, consimilis Amphitryonis, uxorem con-similis in -sciens eius inscientem facile decipit. de-cipere 115 In parte comoediae posteriore adulter divinus cum adulter uxoris ipso marit6 coiisse et eum magno cum tumultu derisisse co-ire 6 A in-crepare -uisse -itum = atque increpuisse videtur, sed in libris antiquis clamando reprehendere iurgmm -i n = certamen versus fere trecenti quibus continebatur illud verbis factum (de iure) acerrimum inter maritum atque adulterum; propterea ea scaena iocosa nihil hodie legi potest praeter grammaticus -i m = vir doctus qui grammati- versus qui in libris grammaticorum Latinorum cae et lineris studet gratia ( +gen) =causa gratia afferuntur. Haud necesse est plus dicere de personis et praesertim = praecipue, ment6 huius comoediae, praesertim cum Mercurius max1me aetas : vita Prolog6 argumentum narret; praeterea post Plauti tern aliqui grammaticus addidit Argumentum decem iterare = iterum dicere suum, in quo eaedem fere res iterantur. 6 B"
+            "text": "Theātrum Rōmānum cōnstat ex caveā et scaenā. Cavea, quae fōrmam habet lūnae dīmidiae, est locus unde populus in gradibus sedēns fābulās spectat. In scaenā longā histriōnēs, persōnās aliēnās gerentēs, fābulās agunt."
+          },
+          {
+            "t": "p",
+            "text": "Fābulae scaenicae dispertiuntur in cōmoediās et tragoediās. Cōmoedia est fābula dē rēbus levibus et iocōsīs atque dē vītā prīvātā, tragoediā appellātur fābula in quā aguntur rēs gravēs sēriaeque, velut acerba fūnera aliaeque hominum miseriae."
+          },
+          {
+            "t": "p",
+            "text": "Fābulās spectāre Rōmānīs libet, nec vērō quōlibet diē iīs licet spectātum īre, sed tantum fēstīs diēbus, quī Rōmae satis crēbrī sunt. Diēs fēstī sunt quibus dīī in templīs pūblicē adōrantur atque hominēs ōtiō fruuntur; tum lūdī scaenicī populō ōtiōsō apparantur ac theātrum cito spectātōribus complētur."
+          },
+          {
+            "t": "p",
+            "text": "Cōmoedia antīqua incipit ā prologō, quō ūnus ex histriōnibus argūmentum fābulae nārrat, postquam spectātōrēs hortātus est ut animum advertant nēve tumultum faciant in caveā. Dum fābula agitur, plērumque bīnae aut ternae persōnae in scaenā inter sē colloquuntur, interdum ūna persōna sēcum loquitur. Sī scaena paulisper vacua relinquitur, interim tībiae dulciter sonant. Rēs quae in fābulā aguntur omnēs eōdem diē atque eōdem locō ēveniunt, et quidem plērumque in aliquō oppidō Graecō. Scaena enim stabilis, nūllā rē mūtātā, quemvīs locum vel quodvīs oppidum significāre potest. Postquam perācta est fābula, spectātōrēs semper monentur utī clārē plaudant."
+          }
+        ]
+      },
+      {
+        "id": "sec-2",
+        "latin": "DE PLAUTO POETA",
+        "english": "De Plauto poeta",
+        "kind": "reference",
+        "blocks": [
+          {
+            "t": "p",
+            "text": "Titus Maccius Plautus eōdem ferē tempore vīxit quō Scīpiō, dux Rōmānōrum ēgregius, quī Hannibalem, ducem Carthāginiēnsium, bellō superāvit. Nātus Sarsinae in oppidō Umbriae Plautus Rōmam migrāvit ibique histriō factus est. Cum vērō fortūna frētus mercātūram facere occēpisset, brevī tempore pecūniam omnem quam histriō fēcerat mercātor perdidit. Deinde cōmoediās scrībere coepit, quae populō adeō complacuērunt ut posteā nec fāma nec fortūna poētae industria dēesset. Senex dē vītā dēcessit annō centēsimō octōgēsimō quārtō ante Chrīstum nātum."
+          },
+          {
+            "t": "p",
+            "text": "Cōmoediae Plautī ē linguā Graecā in Latīnam versae sunt, nec vērō Plautus ipsa verba poētārum Graecōrum secūtus est, sed multa mūtāsse ac nōn pauca sua addidisse vidētur, cum sermōnem et mōrēs Rōmānōrum dīligenter imitārētur."
+          },
+          {
+            "t": "p",
+            "text": "Incertum est quot cōmoediās Plautus scrīpserit, nam virī doctī aliī eum quīnque et vīgintī cōmoediās ēdidisse opīnantur, aliī centum et trīgintā. Sed ūna et vīgintī tantum cōmoediae Plautī ad nostram aetātem servātae sunt, in quārum numerō prīmum locum tenet illa cui titulus est Amphitryō."
+          }
+        ]
+      },
+      {
+        "id": "sec-3",
+        "latin": "DE AMPHITRYONE COMOEDIA",
+        "english": "De Amphitryone comoedia",
+        "kind": "reference",
+        "blocks": [
+          {
+            "t": "p",
+            "text": "In Amphitryōne cōmoedia ipse Iuppiter, suprēmus rēx dīvōrum, cum Mercuriō, fīliō et nūntiō suō, in scaenam indūcitur, itemque Amphitryōn, dux bellī nōbilis, cum Alcmēnā, uxōre suā pia et pudīca; nec tamen tragoedia appellanda est haec fābula, nam dīī in fōrmam hūmānam sē mūtārunt atque rēs rīdiculās et iocōs agunt dīcuntque. Argūmentum huius cōmoediae dūcitur ā fābulā Graecā quae nārrātur dē Amphitryōne et Alcmēnā hōc modō:"
+          },
+          {
+            "t": "p",
+            "text": "Amphitryōn (Alcaeī fīlius) postquam cum Alcmēnā (fīlia Electryōnis) Argīs ex patriā suā Thēbās migrāvit, ā Creonte, rēge Thēbānō, exercituī praefectus est, ut bellum gereret cum Tēleboīs, gente Acarnāniae, quī frātrēs Alcmēnae interfēcerant et praedam rapuerant ē rēgnō Electryōnis. Amphitryōn ad bellum profectus Tēleboās proeliō vīcit fugāvitque, oppidō eōrum potītus est ac Pterelāum, rēgem eōrum, manū suā interfēcit. Intereā, dum Amphitryōn procul ā patriā bellum prōsperum gerit, Iuppiter, amōre captus, fōrmam eius suscēpit, ut Alcmēnam clam vīseret."
+          },
+          {
+            "t": "p",
+            "text": "Dē Alcmēnā et amātōre eius dīvīnō Hygīnus quīdam, vir doctus quī saeculō secundō post Chrīstum nātum librum Fābulārum ad ūsum discipulōrum ēdidit, haec refert (in Fabulīs XXIX et XXX):"
+          },
+          {
+            "t": "p",
+            "text": "XXĪX. ALCIMENA. Amphitryōn cum abesset ad expugnandam Oechaliam, Alcimena, aestimāns Iovem coniugem suum esse, eum in thalamīs recēpit. Quī cum in thalamōs vēnisset et eī referret quae in Oechaliā gessisset, ea crēdēns coniugem esse cum eō concubuit. Quī tam libēns cum eā concubuit ut duās noctēs congemināret, ita ut Alcimena tam longam noctem mīrārētur."
+          },
+          {
+            "t": "p",
+            "text": "Posteā cum nūntiārētur eī 'coniugem victōrem adesse', minimē cūrāvit, quod iam putābat sē coniugem suum vīdisse. Quī cum in rēgiam intrāsset et eam vidēret neglegentius sēcūrum, mīrārī coepit et querī 'quod sē advenientem nōn excēpisset'. Cui Alcimena respondit: 'Iam prīdem vēnistī et mēcum concubuistī et mihi nārrāstī quae in Oechaliā gessissēs.' Quae cum signa omnia dīceret, sēnsit Amphitryōn nūmen aliquod fuisse prō sē, ex quā diē cum eā nōn concubuit. Quae ex Iove compressa peperit Herculem."
+          },
+          {
+            "t": "p",
+            "text": "XXX. [HERCULĒS.] Īnfāns cum esset, dracōnēs duōs duābus manibus necāvit, quōs Iūnō mīserat..."
+          },
+          {
+            "t": "p",
+            "text": "In Plautī cōmoedia, cui scaena est Thēbīs ante aedēs Amphitryōnis, quaedam novae persōnae inductae sunt, in prīmīs Sōsia, servus Amphitryōnis, et Mercurius deus, quī fōrmam Sōsiae gerēns simulat sē servum esse. Ita nōn sōlum Iuppiter et Amphitryōn inter sē similēs sunt, sed etiam Mercurius et Sōsia, quāpropter familia Amphitryōnis admodum perturbātur. Mercurius enim, cum Sōsiae servī tam similis sit utī nēmō eōs internōscere possit, et servum et dominum omnibus modīs ēlūdit, atque Iuppiter, cōnsimilis Amphitryōnis, uxōrem eius īnscientem facile dēcipit."
+          },
+          {
+            "t": "p",
+            "text": "In parte cōmoediae posteriōre adulter dīvīnus cum ipsō marītō coiisse et eum magnō cum tumultū dērīsisse atque increpuisse vidētur, sed in librīs antīquīs dēsunt versūs ferē trecentī quibus continēbātur illud iūrgium ācerrimum inter marītum atque adulterum; proptereā ex eā scaenā iocōsā nihil hodiē legī potest praeter paucōs versūs quī in librīs grammaticōrum Latīnōrum exemplī grātiā afferuntur."
+          },
+          {
+            "t": "p",
+            "text": "Haud necesse est plūs dīcere dē persōnīs et dē argūmentō huius cōmoediae, praesertim cum Mercurius in Prologō argūmentum nārret; praetereā post Plautī aetātem aliquī grammaticus addidit Argūmentum decem versuum, in quō eaedem ferē rēs iterantur."
           }
         ]
       }
@@ -33,7 +258,43 @@ export const extras = [
         "blocks": [
           {
             "t": "p",
-            "text": "T. MACCII PLAVTI AMPHITRYO In faciem versus Amphitryonis luppiter, facies versus dum bellum gereret cum Telobois hostibus, dum Teloboae Alcmenam uxorem cepit iisiirariam. iisiirarius = Mercurius formam Sosiae servi gerit aliquis; ii.am s absentis. His Alcmena decipitur dolls. dolus fallendi Postquam rediere veri Amphitryo et Sosia, -ere uterque deliiduntur in mirum modum. de-liidere uterque Hinc iiirgium, tumultus uxori et viro, donee donee cum tonitrii voce missa ex aethere aether summus, 10 adulterum se luppiter confessus est. 'se 7 A"
+            "text": "In faciem versus Amphitryōnis Iuppiter,"
+          },
+          {
+            "t": "p",
+            "text": "dum bellum gereret cum Tēloboīs hostibus,"
+          },
+          {
+            "t": "p",
+            "text": "Alcmēnam uxōrem cēpit ūsūrāriam."
+          },
+          {
+            "t": "p",
+            "text": "Mercurius fōrmam Sōsiae servī gerit"
+          },
+          {
+            "t": "p",
+            "text": "absentīs. Hīs Alcmēnā dēcipitur dolīs."
+          },
+          {
+            "t": "p",
+            "text": "Postquam rediēre vērī Amphitryō et Sōsia,"
+          },
+          {
+            "t": "p",
+            "text": "uterque dēlūduntur in mīrum modum."
+          },
+          {
+            "t": "p",
+            "text": "Hinc iūrgium, tumultus uxōrī et virō,"
+          },
+          {
+            "t": "p",
+            "text": "dōnec cum tonitrū vōce missa ex aethere"
+          },
+          {
+            "t": "p",
+            "text": "adulterum sē Iuppiter cōnfessus est."
           }
         ]
       }
@@ -53,7 +314,35 @@ export const extras = [
         "blocks": [
           {
             "t": "p",
-            "text": "Iuppiter Maia Mercurius, deus, Iovis filius Q I l-.tercurius Sosia, servus Amphitryonis Iuppiter, deus summus = Alcumena, Electri filia, uxor Amphitryonis Alcumena Alcmena Electrius -I m = Elec- tryon ; gen -1 = -i1 Amphitryo, Alcaei filius, dux Thebanorum Blepharo -onis m Blephari5, gubernator Bromia, ancilla Amphitryonis SCAENA Thebfs, ante aedes Amphitryonis Perseus-1m, Iovis filius , Perseus x Andromeda qui Andromedam a ~'\"' monstro servavit . ~ A=~ Ekw•Oo Iuppiter ::;; Alcmena x :\\mphitrvon I I - Iphicles -is m Hercules Iphicles 7 B"
+            "text": "Mercurius, deus, Iovis fīlius"
+          },
+          {
+            "t": "p",
+            "text": "Sōsia, servus Amphitryōnis"
+          },
+          {
+            "t": "p",
+            "text": "Iuppiter, deus summus"
+          },
+          {
+            "t": "p",
+            "text": "Alcumēna, Ēlectrī fīlia, uxor Amphitryōnis"
+          },
+          {
+            "t": "p",
+            "text": "Amphitryō, Alcaeī fīlius, dux Thēbānōrum"
+          },
+          {
+            "t": "p",
+            "text": "Blepharō, gubernātor"
+          },
+          {
+            "t": "p",
+            "text": "Bromia, ancilla Amphitryōnis"
+          },
+          {
+            "t": "p",
+            "text": "SCAENA: Thebis, ante aedes Amphitryonis."
           }
         ]
       }
@@ -67,13 +356,113 @@ export const extras = [
     "sections": [
       {
         "id": "sec-1",
-        "latin": "DE GRAMMATICA",
-        "english": "Grammar",
+        "latin": "I. DE PRONOMINIBUS",
+        "english": "I. De pronominibus",
         "kind": "reference",
         "blocks": [
           {
             "t": "p",
-            "text": "DE GRMMv\\ATICA DE GRAJvtMATICA I. De pronominibus A . Pronomina personalia. egomec = ego (ipse) [1] Aliquando adicitur syllaba -met: egomet, memec, memec = me (ipsum) (=ego, me, mihi). mihimec = mihi (ipsi) [2] Ad personam secundam singularis aliquando adicitur riice = tii (ipse) cuce ( = tu). ame t'acalem: [3] Accilsat\"ivus et ablativus singularis ante vocalem med =me desinit in -d: med, ted ( = me, ce) . ted= te B. Pronomina demonstrativa. Ad formas pronominum hie et ille in -s desinentes -s-ee adicitur -ce: hasce, illlsce ( = has, ill!s). Ad pronomina ille et zste aliquando adicitur -c: Masc. Fern. Neutr. -ic = -e Sing. nom. illic illaec l -aec =-a is tic istaec illuc -uc = -ud ace. illunc illanc is cue -unc = -um -anc =-am is tunc istanc -ic = -l dat. illic -o -ik = is tic -lie= -ii abl. iliac zllac ilwc -aec = -a is toe iscac is toe Ph1r. nom. } illaec ace. istaec ipse: ipsus ~ = ipse); Pronomen nom. masc . sing. ipsus =ipse ipseme1 = ipse -met: ipsemet ( = ipse). C. Pronomen interrogativum . qui = quzs Mascullnum: nominativus singularis qu! (127, 609 , 1046 = quis). D . Pronomen relativum. qui = qua/qua Ablativus singularis: (261 ,419,535 = 340 qui qua, quicum (99 , 364 = qu0cum). 35 B DE II. De verbis A. Persona . Persona secunda singuliiris passivi nonnumquam desinit in -repro -ris: mentire (344 = mentiris), auferere (358 = aufereris), -re = 'l:ocare (382 = vocaris), rere (659 = reris), arbitrere (905 = arbitreris), loquere 973 = loqueris) . B. infinitivus. infinitivus praesemis pass! vi aliquando desinit in -ier pro -i: -iirier fabularier (201 = fabulan), amplexarier (465 = amplexan), me- -Crier= -zer morarier ( 512 = memoran), percontarier (71 0 = percontan), ar- -Frier bitrarier (932 = arbitran), obtuerier (900 = obtuen), praevertier (921 = praevertf). -assere: oppugnassere = oppug- Infinitivus futflri iictivi: (210 -assere naturnm esse). infinltivus praesemis pro indiciitivo: suscipere, hortari (230 = suscipit, hortatur), circumvisere (1110 = circumvisunt), era- here, ducere (1112 = traho, dUco), persequi (1114 = persequun- tur). C. Imperiiti:vus. Ante imperiiti:vum ponitur ne: ne interpella (803 = noli inter- ne -ii ne -e pellare, ne interpellaveris), ne me appella (810, 813 = noll me ne -e appellare), ne time (1 064 = noli timere), ne pave (111 0 = noli ne -i\" pavere), ne corrnmpe (530 = noli corrnmpere). D . 1ndiciitivus. -iba- -ieba-: scibam = sciebam), aibas lmperfecrum pro (385 -!bam -zbiis (807 = aiebas), aibat (661 = aiebat). -!bat E. Coniunctivus. Coniuncti:vus praesemis verb! esse: Sing . Plur. siem Pers. 1 szem sies Pers. 11 sies siet Pers . III siet sient simt 36 A"
+            "text": "A. Pronomina personalia."
+          },
+          {
+            "t": "p",
+            "text": "Aliquandō adicitur syllaba -met: egomet, mēmet, mihimet (= ego, mē, mihi)."
+          },
+          {
+            "t": "p",
+            "text": "Ad persōnam secundam singulāris aliquandō adicitur -tē: tūtē (= tū)."
+          },
+          {
+            "t": "p",
+            "text": "Accūsātīvus et ablātīvus singulāris ante vōcālem interdum dēsinit in -d: mēd, tēd (= mē, tē)."
+          },
+          {
+            "t": "p",
+            "text": "B. Pronomina demonstrativa."
+          },
+          {
+            "t": "p",
+            "text": "Ad fōrmās prōnōminum hīc et ille in -s dēsinentis interdum adicitur -ce: hāsce, illīsce (= hās, illīs)."
+          },
+          {
+            "t": "p",
+            "text": "Ad prōnōmina ille et iste aliquandō adicitur -c: illīc, illaec, illūc; istīc, istaec, istūc; acc. illum, illanc, istunc, istanc; dat. illīc, istīc; abl. illōc, illāc, istōc, istaec."
+          },
+          {
+            "t": "p",
+            "text": "Prōnōmen ipse: nom. masc. sing. ipsus (= ipse); adicitur -met: ipsemet (= ipse)."
+          },
+          {
+            "t": "p",
+            "text": "C. Pronomen interrogativum."
+          },
+          {
+            "t": "p",
+            "text": "Masculīnum: nōminātīvus singulāris quī (127, 130, 382, 609, 1046 = quis)."
+          },
+          {
+            "t": "p",
+            "text": "D. Pronomen relativum."
+          },
+          {
+            "t": "p",
+            "text": "Ablātīvus singulāris: quī (261, 419, 535 = quā; 340 = quō); quīcum (99, 364 = quōcum)."
+          }
+        ]
+      },
+      {
+        "id": "sec-2",
+        "latin": "II. DE VERBIS",
+        "english": "II. De verbis",
+        "kind": "reference",
+        "blocks": [
+          {
+            "t": "p",
+            "text": "A. Persona."
+          },
+          {
+            "t": "p",
+            "text": "Persōna secunda singulāris passīvī nōnnumquam dēsinit in -rē prō -ris: mentīre (344 = mentīris), auferēre (358 = auferēris), vocāre (382 = vocārīs), rēre (659 = rēris), arbitrēre (905 = arbitrēris), loquere (973 = loqueris)."
+          },
+          {
+            "t": "p",
+            "text": "B. Infinitivus."
+          },
+          {
+            "t": "p",
+            "text": "Īnfīnītīvus praesentis passīvī aliquandō dēsinit in -ier prō -ī: fābulārier (201 = fābulārī), amplexārier (465 = amplexārī), memorārier (512 = memorārī), percontārier (710 = percontārī), arbitrārier (932 = arbitrārī), obtuērier (900 = obtuērī), praevertier (921 = praevertī)."
+          },
+          {
+            "t": "p",
+            "text": "Īnfīnītīvus futūrī āctīvī: -assere: oppugnāssere (210 = oppugnātūrum esse)."
+          },
+          {
+            "t": "p",
+            "text": "Īnfīnītīvus praesentis prō indicātīvō: suscipere, hortārī (230 = suscipit, hortātur), circumvīsere (1110 = circumvīsunt), trahere, dūcere (1112 = trahō, dūcō), persequī (1114 = persequuntur)."
+          },
+          {
+            "t": "p",
+            "text": "C. Imperativus."
+          },
+          {
+            "t": "p",
+            "text": "Ante imperātīvum pōnitur nē: nē interpellā (803 = nōlī interpellāre, nē interpellāverīs), nē mē appellā (810, 813 = nōlī mē appellāre), nē timē (1064 = nōlī timēre), nē pavē (1110 = nōlī pavēre), nē corrumpe (530 = nōlī corrumpere)."
+          },
+          {
+            "t": "p",
+            "text": "D. Indicativus."
+          },
+          {
+            "t": "p",
+            "text": "Imperfectum -iba- prō -ieba-: scībam (385 = sciēbam), aibās (807 = aiēbās), aibat (661 = aiēbat)."
+          },
+          {
+            "t": "p",
+            "text": "E. Coniunctivus."
+          },
+          {
+            "t": "p",
+            "text": "Coniūnctīvus praesentis verbī esse: sing. siem, siēs, siet; plur. sient."
           }
         ]
       }
@@ -87,33 +476,209 @@ export const extras = [
     "sections": [
       {
         "id": "sec-1",
-        "latin": "DE VERSIBVS",
-        "english": "Verse",
+        "latin": "I. SYLLABAE BREVES ET LONGAE.",
+        "english": "I. Syllabae breves et longae.",
         "kind": "reference",
         "blocks": [
           {
             "t": "p",
-            "text": "L Syllabae breves et longae. Is amar' occepit Alcumenam clam z•irum. Hie versus tredecim syllabas continet: i-fa-mii-r'oc-ce-pi- f. 4./-cu-me-nam- clam- ·ui-rum. Syllaba brevis in \\'6ci'ilem brevem desinit, uti, sa, syllaba longa desinit in vocalem longam aut in diphthongum aut in consonantem, ut mii, roc ce, tal, me, nam, clam, pro-dilcere = longum versibus legendls una syllaba tonga aeque producitur facere breves. ~ = syllaba bre\\·is In exemplls quae sequuntur haec nota[~] syllabam - = svllaba longa significat, haec [-] syllabam longam. con-tractio -onis f II . Contractio syllabarum. < contrahere [A] Consonans vocabull ultima cum vocall prima (vel bull sequentis ita contrahitur ut initium syllabae faciat: Exempla ex Amphitryone: I -fa-ma -r' oc-ce-pi- fA.l-cu-me-nam 107 Ti-me-fho-mo 295 Qui-ai-aex-quz-ris 342 Qui-f'e-ru-ses-fi-gi-tur- ti-bi 362 [B] Vocalis vocabull ultima (item -am, -em, -zm, -urn) ante \\'6calem primam (vel h-) \\'ocabuli sequentis. Exempla: legendum sic: lb'eg'illzc oln·iam lb!o; eg'oJ illlc ob<>iam 263 Tii m 'her' hlc z-zdisr' Tu mr ej her(ij hie v'idist(z!? Eg( oJ, inquam 725 eg'inquam c' extemp/' adc·ent'apport' d um) extemp/(o) adz'ent(um) apport(o), llico 865 iii co In vocabulis est et es eliditur e post vocalem et .\\!acurio'st .-1./cumena'st M ercurio (ejsc mihi 19, Alcumena (e)st99 , bellum ( e;st bellum'st (e)s 427. Aliquando scribitur -st, -s: factum'st43l , S osia's 1045, illln'st 1054, proba's 838 . Inter vocabula quae non contrahuntur p6nitur linea I I [): si ego 358, quo agis te? 450, quz l habito 863, advenimus, I ubi 203 ,fa cit, animo 995. 36 B [C] Nonnumquam etiam in eodem vocabulo binae vocales in singulas syllabas contrahuntur (id quod synizesis vacatur et hac nota[ - ] significatur). = Exempla ex A.mphitryone: per-duelles 250 , antehac 458, edmus 543 , antezt 649 , ;;lbas 807 , prOinde 973, deorsum 1108 , huTus 96, cuTus 346 ' ezus 989. III. Syllabae acutae. Is amare occepit Alcumenam clam ·virUm. In hoc versu sex syllabae aciitae sunt : ma, ce, tal, me, clam, nim. Syllabae acutae, quae hac nota ['] significantur, voce · = maiore seu clariore leguntur quam ceterae. paen-ultimus In versibus non solum syllaba vocabuH paenultima (i. e. < secunda a fine ! et antepaenultima (i. e. tertia a fine ) acul po- acuere = test , sed etiam ultima. IV. Syllabae correptae. [A] Littera -s vocabuH postrema interdum excidit post u vel i ex-cidere + breves, ita ut syllabae -us et -is corripiantur in -u' et -i' (id cor-ripere quod in hoc libro scrlbitur -us et -is): tum 1 ..... Exempla ex Amphitr-yonc: Im:is: Im:i' 19; pnus: pr1u' 102; meus: meu' 112; nimis: nimi' 213; agis: agi' 450 ; magis: magi' 595 ; opus: opu' 791. Syllaba -us in -u' correpta cum est et es contrahitur in -u'st et -u'sc -u's -u's; item -is (i.e . -i' > -e) interdum cum est contrahitur in -e' st -e'st: Exempla: actun/st 88, praefectu'st 100, itun/st 263 , domu 'st 362 , en/sc 381 , opu'st +45 , 'i.'Gniloquu's 379 , donaw's 780, simi- le'sL +42 , qualc'sl 537. [B] Nonnumquam corripitur syllaba longa quae syllabam bre- vem sequitur. Id fieri potest : (1 J sl sylla ba brevis acuitur, ut '<-'ide > z·ide. ~ - Exempla : mea 126, scio 437 , heri 514 , llice 743 , mane 765 , Z'ide/8 7, tu6 774, abi 1126, cos 657 , tuae 453 , meae 1106, eam 281 , suos 712, apzid 947 . 37 A (2) sl syllabam brevem . et longam sequitur syllaba . mea more > mea mt5re. Exempla: eor' 6ppidum 210; heri mi 731; iube viro ,_,r 1143; deos esse 284; deos invocat 1061; in exercicum legat 205 ; quidem cerce 417; meiie nuntiiire 452; enfmviro 'Z:o!Uptdtes 939; suis factfs 1140. breviare = bre\\·em Haec lex, qua syllaba brevis syllabam sequentem facere, corripere videtur, brevis brevians appeWitur. Ut ex exempli:s hac lege corripiuntur vel breviantur etiam syllabae nunt in consonantem aut in diphthongum. · = syllaba correpta Syllabae quae hac lege breviantur nota ['] significavirnus. V. Pedes. I s amiilr' occelpif.4llcumelnam clam l ·virum. Idem versus dlviditur in sex pedes, quorum prlmus mii-, secundus roc-ce-, tertius pi-tal-, quartus cu-me-, nam-clam, sextus -z:i-rum. Pes dkitur versus pars quae que duas aut tres syllabas continet . rrochaeus -i m Pedes blnarum syllabarum sum trochaei et iambi. iambus -im chaeus constat ex syllaba longa et brevi, ut R6-m~a; brevi et longa , ut 7j-ri5. - - - dactylus -i m Pedes ternarum syllabarum sum dactyli et anapaesti. -- - anapaestus -i m tylus constat ex syllaba longa et duabus brevi bus, ut anapaestus ex duabus brevibus et longa, ut d~!;\"!!,-no Saepe pro duabus syllabi's brevibus ponitur una longa , que pro una longa d uae breves. Ita in loco dactyli: anapaestl [~ ~ - } duae syllabae longae [- - } inveniuntur, - - spondeus -i m est spondeus , et pro trochaeo [-~]vel iambo [~ -] ~ ~- rribrachys -yis m ves [ ~ ~ ~], id est tribrachys. Rarius in loco dactyli: vel - --- proceleusmaticus stl inveniuntur quattuor syllabae breves [~ ~~~], -i m proceleusmaticus. In singulls pedibus acuitur syllaba longa aut prior brevibus: trochaeus ....:.._ ~ , iambus ~ ....:.._, dactylus - .:.~, anapaestus ~~....:.._ aut .:.~-, spondeus ....:..__ tribrachys .:.~~aut~ .:.~, proceleusmaticus .:. ~~~aut~~ 37 B [VI] Versuum genera. senarius Versus qui in senos pedes dividuntur senarii appellantur; septenarius septeni item septenarii dicuntur versus qui septenos, octonarii qui oct6narius octonos pedes continent. toni Trochaicus di'citur versus qui nullos iambos continet, sed tantum trochaeos aliosve pedes quorum primae syllabae acu- untur ; qui nullos trochaeos continet, sed tantum iambos alios- ve pedes quorum non primae, sed ultimae aut paenultimae syllabae acuuntur, versus iambicus dicitur. VII. Versus iambici. Versus iambici quibus uutur Plautus non solum iambos [- _:_] continent, sed etiam hos pedes quorum ultimae aut paenultimae syllabae acuuntur: anapaestos [-- _:_], dactylos [- .:--] , spondeos [- _:_], tribrachyes [-.:-- ], rarius proce- leusmaticos [-~.:-~];sed pes postremus aut iambus est aut ex duabus syllabis brevi bus constat [- ~], pes pyrrichius qui vo- -- catur. [A] Versus iambicus senarius dividitur in sex pedes qui sic ordinantur: Exempla ex Amphitryone: \\·ersus Iovi' iusisu ~·enilo. N6imen Mercuri6'st l mihi. Haec urbis est Thilb'Irf'il ilisc'Juibz icat\"ae dibUs 97 ndi tus~4rg!s Amphitrylo, Alicae6i patre, 98 quic'Atlcumeina'sc nupit'Elec irn /zilia. 99 Bene pr6siper'h6choidi'6pe lris pr6!cessitl mihi. -163 In Amphitryone versus senarii iambic! sum: 1-152, 463- 498, 861-955, 974--983, 1007-1008 , 1131-1143 . [B] Versus iambicus octonarius constat ex octo pedibus: Versus iambicus octonarius saepe in duas panes dividitur, quarum uterque quaternos pedes continet. In versu ita diviso 38 A non modo pes postremus, sed etiam pes quartus semper bus (vel pyrrichius) est: Exempla ex Amphitry6ne: versus 188 Victo !res viclt!s h6sltibUs!l legwlnes rivelniuntl domum acirf b'obiilcitf~inera 190 Quod mullta Thilbanai popWll id ~·'eci virtulte mfllitumll vict'atlqu'expuglruit'6plpidum'st 216 Haec ubillega fti per!tuliir'Amphitry 'e casftns zilico 217 prodzi!cit\"6mjn' exericitum. i Contra\"! iel6bo' !ex 6piPi.dO 218 legiolnes eiduczinti suasi l nimi' pulichr!s ar fmis praelditas 2Sl Verten,tibUsJ iel6bolis cJills comiptebdnitur c6rlpora 984 Conceldit' atlqu' absceldit' 6m l nes, dei vidi dedldite! 999 Capiami coroinam m'inl caput,ll adsimultab6i m'ess'iibrium ~'itae i 1053 Spes at ,qu'opisi meae ii iacentl sepulit'in pecitore lOSS Ita mil viden icurn6minia,ll mare, terlra caellum cbnisequ{ In Amphitryone versus iambic! octonarii sunt: 180-218, 262, 984-1005, 1053-1061, 1063, 1066-1071, 1074-1085. VIII. Versus trochaic!. Versus trochaic! non modo trochaeos [___:___ ~] continent, etiam alios pedes quorum primae syllabae acuuntur: [ ___:___ ~ ~], anapaestos [-.:- ~ -], spondeos [ ___:___ -], tribrachyes [-.:-~v], rarius proceleusmaticos [.:-vvv]. Versus trochaicus septenarius constat ex septem integris et una syllaba longa vel brevi. Pes septima trochaeus [___:___ ~] vel tribrachys [-.:-v~] est. Exempla ex AmphitT)'One: \\'ersus si illli 263 Auaf tlllilcnulli tdru' ffb' ejg' cobvil am, 264 niqu' eg'hun 1cn6mznem ! h6di' alaaedeislz&s siin'umqu' ac1cedeire 291 lb'uferlus quo ldlmpe ir&vilfAtculmenaei nuntilem. Nanedeipol nunfcubi ter!r&rumi sim scilo, szl quis roigec, 38 B neque mi \\ser mel commo \\zAe i possum \\ prde for\\mzdi\\ne! 337 Cziral ~99 Bene w ll'Alcu \\mina! l rem com \\mdnem,l quod fa \\cis . Nimia l memonis! mfra. 1 Sed vl\\distl\\n'U.xo\\rem me\\am .; 616 Amphiuy' \\uxo \\rem sa lzicac\\ laecus l spira lcam su \\am' 676 Per su \\primzl regis\\ ,-egnuml izir'et\\ mdtrem l fdmi!i \\ds 831 In Amphinyone versus trochaici septenaril sum: 263-462 , 499-550, 585-860, 956--973, 1009-1052, 1064-1065 , 1072, 1086-- 1130, ll-1-4-1146 . IX. Versus cretici et bacchiaci. Pes creticus constat ex syllaba longa et brevi et longa , ut je- - - n:f-nae; baccbius ex syllaba brevi et duabus longis constat, ut -- se-cun-dum. ~-- [A] Creticus tetrameter dicitur versus qui quattuor pedes tetrameter sus creticos continet: 1 = -~- 1 --- 1 -~- 1 -~- Exempla ex Amphitryone: 1·ersus Postqu'zwim \\qu'exitum'st l mdximal c6pia c6nsonat! ten·a' ctd!m6r'utrim \\qu' ef(erunt. 228 lmper& jufr uuim \\qu'hinc efflllinc lad Interdum pro syllaba brevi 1onga invenitur: [ - - -], i.e. pes trium syllabarum 1ongarum (molossus qui vocatur): - - n6s nosmfs m6re nos\\tr'et mod' fn \\smiximus 221 hastes crJib,-f cadzint, l n6stri c6rzltr'ingruunt ~36 Pro syllaba 1onga etiam binae breves poni possum , ut in hoc versu : Diniqu'ut z·6luimus, n6stra supelrat manus 235 In Amphicryone versus creticl tetrametrl sunt: 219-221, 227-236. [B] Versus bacchiacus tetrameter ex quattuor bacchils con- stat: --- 1 ~-- 1 --- 1 ~-- Exempla ex Amphitryone: te. Ag'f tu l secundum! \\ Sequor sub\\sequ6r 551 Sce/estislsim' dudes! miht prae i dicd,~id: 39 A 562 domf t'esise nunc qu'hzlrades.; Veira dzco. 568 hom'zdeml duobus l loc!s\"ut simul sit Nonnumquam pro syllaba brevllonga invenltur: (pes molossus), ut in his versibus: 566 mnrzd dijcer'audes l quod nem'um lqu'hom'ant'htic 567 z,.idit, nee! potest filerf, tem lpor'una Rarius pro syllabls longls blnae breves ponuntur, versibus: z·erl 565 TUn' mi, ber' audel s:'ertim lU ldificcir'i.' 572 .\\Jeri to maleldzais mihi, I si n6n\"id'ilra factum'st In Amphinyone versus bacchiacl tetrametrl sunt Versus bacchiacl varil, qui et pedes bacchlos et alios nent, sunt 635-651. X. Index versuum Amphillyonis comoediae A.rgumentum: iambic! senaril 654-860 trochaic! septenaril Prologus: iambic! senaril 861-955 iambici senari:i 956-973 trochaicl septenaril 186-218 iambic! octonaril 974-983 iambic! senari:i 219- 221 creticl tetrametri 984-1005 iambici octoniirii 222 rrochaicus septenarius 1006-1008 iambici 227-236 cretici tetrametrl 1009-1052 trochaicl 1053-1061 iambic! 2-1-8-262 iambic! octonaril 1062 anapaesticus 263-462 trochaic! septenaril 1063 iambicus octonarius 463-498 iambic! senaril 1064-1065 trochaici -1-99-550 trochaicl septenarii I 066-1071 iambicl 5 51-57 3 bacchiacl tetrametrl 1072 trochaicus septenarius 574-579 incerti 1073 iambicus quaterniirius 107 4-1085 iambici 592-628 trochaicl septenaril 1086-1130 trochaici 1131- 1143 iambici 635-651 bacchiacl varil 11-1-4-1146 trochaic! 39 B"
+            "text": "Is amārē occēpit Alcumēnam clam virum."
+          },
+          {
+            "t": "p",
+            "text": "Hīc versūs tredecim syllabās continet: ī-sa-ma-r'oc-ce-pit-Al-cū-mē-nam-clam-vī-rum."
+          },
+          {
+            "t": "p",
+            "text": "Syllaba brevis in vōcālem brevem dēsinit, ut ī, sa, pit, cū, vī; syllaba longa dēsinit in vōcālem longam aut in diphthongum aut in cōnsonantem, ut ma, roc, ce, tal, mē, nam, clam, rum. In versibus legendīs ūna syllabā longā aequē prōdūcitur ac duae brevēs."
+          }
+        ]
+      },
+      {
+        "id": "sec-2",
+        "latin": "II. CONTRACTIO SYLLABARUM.",
+        "english": "II. Contractio syllabarum.",
+        "kind": "reference",
+        "blocks": [
+          {
+            "t": "p",
+            "text": "[Ā] Cōnsonāns vocābulī ultima cum vōcālī prīmā (vel h-) vocābulī sequentis ita contrahitur ut initium syllabae faciat: ī-sa-ma-r'oc-ce-pit Alcumēnam (107); ī-mē-t'ho-mō (295); quī-d ī-d ex-quī-ris (342); quī-s'ē-rū-s es? fī-gī-tur tī-bī (362)."
+          },
+          {
+            "t": "p",
+            "text": "[B] Vōcālis vocābulī ultima (item -am, -em, -im, -um) ēlīditur ante vōcālem prīmam (vel h-) vocābulī sequentis: ib(ō) eg(ō) illīc obviam (263); tū m(ē) her(ī) hīc vīdistī? eg(ō), inquam (725); c(um) extempl(ō) advent(um) apport(ō), īlicō (865). In vocābulīs est et es ēlīditur ē post vōcālem et -m: Nōmen Mercuriō (ē)st mihi (19), Alcumēna (ē)st (99), bellum (ē)st (101), Sōsia (ē)s (427). Aliquandō scrībitur -st, -s: factum'st (431, 749), ille'st (1045), ūlla'st (1054), proba's (838)."
+          },
+          {
+            "t": "p",
+            "text": "[C] Nōnnumquam etiam in eōdem vocābulō bīnae vōcālēs in singulās syllabās contrahuntur (id quod synīzēsis vocātur): perduellēs (250), antehāc (458), eāmus (543), anteit (649), aibās (807), proinde (973), deorsum (1108), huius (96), cuius (346), eius (989)."
+          }
+        ]
+      },
+      {
+        "id": "sec-3",
+        "latin": "III. SYLLABAE ACUTAE.",
+        "english": "III. Syllabae acutae.",
+        "kind": "reference",
+        "blocks": [
+          {
+            "t": "p",
+            "text": "Is amārē occēpit Alcumēnam clam virum."
+          },
+          {
+            "t": "p",
+            "text": "In hōc versū sex syllabae acūtae sunt: ma, ce, tal, mē, clam, rum. Syllabae acūtae vōce maiōre seu clāriōre leguntur quam cēterae. In versibus nōn sōlum syllaba vocābulī paenultima (ī.ē. secunda ā fīne) et antepaenultima (ī.ē. tertia ā fīne) acuī potest, sed etiam ultima."
+          }
+        ]
+      },
+      {
+        "id": "sec-4",
+        "latin": "IV. SYLLABAE CORREPTAE.",
+        "english": "IV. Syllabae correptae.",
+        "kind": "reference",
+        "blocks": [
+          {
+            "t": "p",
+            "text": "[Ā] Litterā -s vocābulī postrēma interdum excidit post ū vel ī brevēs, ita ut syllabae -us et -is corripiantur in -ū' et -ī': Iovis: Iou (19); prius: priu (102); meus: meu (112); nimis: nimī (213); agis: agī (450); magis: magī (595); opus: opu (791). Syllaba -us in -ū' corrēptā cum est et es contrahitur in -ū'st et -ū's; item -is in -ē'st: acturu'st (88), praefectū'st (100), iturū'st (263), domū'st (362), erū'st (381), opū'st (445), vaniloquū's (379), dōnātū's (780), simile'st (442), quāle'st (537)."
+          },
+          {
+            "t": "p",
+            "text": "[B] Nōnnumquam corripitur syllabā longā quae syllabam brevem sequitur. Id fierī potest: (1) sī syllaba brevis acuitur, ut cīde = cīde: mea (126), sciō (437), herī (514), tacē (743), manē (765), vidē (787), tuō (774), abī (1126), eōs (657), tūtē (453), medē (1106), eam (281), sīōs (712), apud (947). (2) sī syllabam brevem et longam sequitur syllabā acūtā, ut meō mōre = meō mōre: eor' oppidum (210); heri mē (731); iubē vērō (946); meā ope (143); deōs esse (284); deōs invocat (1061); in exercitum (125); eōs lēgat (205); quidem certē (417); medē nūntiāre (452); enimvērō (344); voluptātēs (939); suīs factīs (1140). Haec lēx, quā syllaba brevis syllabam sequentem breviāre vidētur, brevis breviāns appellātur."
+          }
+        ]
+      },
+      {
+        "id": "sec-5",
+        "latin": "V. PEDES.",
+        "english": "V. Pedes.",
+        "kind": "reference",
+        "blocks": [
+          {
+            "t": "p",
+            "text": "Is amārē occēpit Alcumēnam clam virum. Īdem versus dīviditur in sex pedēs, quōrum prīmus est ī-sa-ma, secundus roc-ce, tertius pit-Al, quārtus cū-mē, quīntus nam-clam, sextus vī-rum. Pēs dīcitur versus pars quae plērumque duās aut trēs syllabās continet."
+          },
+          {
+            "t": "p",
+            "text": "Pedēs bīnārium syllabārum sunt trochaeī et iambī. Trochaeus cōnstat ex syllabā longā et brevī, ut Rō-ma; iambus ex brevī et longā, ut vī-rō. Pedēs ternārum syllabārum sunt dactylī et anapaestī. Dactylus cōnstat ex syllabā longā et duābus brevibus, ut fā-bū-lā; anapaestus ex duābus brevibus et longa, ut dō-mī-nō."
+          },
+          {
+            "t": "p",
+            "text": "Saepe prō duābus syllabīs brevibus pōnitur ūna longa itemque prō ūnā longa duae brevēs. Ita in locō dactylī vel anapaestī duae syllabae longae inveniuntur, id est spondēus, et prō trochaeō vel iambō trēs brevēs, id est tribrachys. Rārius in locō dactylī vel anapaestī inveniuntur quattuor syllabae brevēs, id est pēs proceleusmaticus."
+          }
+        ]
+      },
+      {
+        "id": "sec-6",
+        "latin": "VI. VERSUUM GENERA.",
+        "english": "VI. Versuum genera.",
+        "kind": "reference",
+        "blocks": [
+          {
+            "t": "p",
+            "text": "Versus quī in sēnōs pedēs dīviduntur sēnāriī appellantur; item septēnāriī dīcuntur versūs quī septēnōs, octōnāriī quī octōnōs pedēs continent. Trochaicus dīcitur versus quī nūllōs iambōs continet, sed tantum trochaeōs aliōsve pedēs quōrum prīmae syllabae acuuntur; quī nūllōs trochaeōs continet, sed tantum iambōs aliōsve pedēs quōrum nōn prīmae, sed ultimae aut paenultimae syllabae acuuntur, versus iambicus dīcitur."
+          }
+        ]
+      },
+      {
+        "id": "sec-7",
+        "latin": "VII. VERSUS IAMBICI.",
+        "english": "VII. Versus iambici.",
+        "kind": "reference",
+        "blocks": [
+          {
+            "t": "p",
+            "text": "Versus iambicī quibus ūtitur Plautus nōn sōlum iambōs continent, sed etiam hōs pedēs quōrum ultimae aut paenultimae syllabae acuuntur: anapaestōs, dactylōs, spondēōs, tribrachyēs, rārius proceleusmaticōs; sed pēs postrēmus aut iambus est aut ex duābus syllabīs brevibus cōnstat, pēs pyrrichius quī vocātur."
+          },
+          {
+            "t": "p",
+            "text": "[Ā] Versus iambicus sēnārius dīviditur in sex pedēs. Exempla ex Amphitryōne: Iovis iussū veniō. Nōmen Mercuriō est mihi; Haec urbs est Thēbae. In illīsce habitat aedibus; Amphitryō, nātus Argīs Alcaeō patre; quīcum Alcumēna est nūpta, Ēlectrī fīlia; Bene prōsperē hoc hodiē operis prōcessit mihi. In Amphitryōne versūs sēnāriī iambicī sunt: 1-152, 463-498, 861-955, 974-983, 1007-1008, 1131-1143."
+          },
+          {
+            "t": "p",
+            "text": "[B] Versus iambicus octōnārius cōnstat ex octo pedibus; saepe in duās partēs dīviditur, quārum uterque quaternōs pedēs continet. Exemplā: Victōrēs victīs hostibus legiōnēs revēniunt domum; Quod multa Thēbānō poplō acerba obiēcit fūnera; id vī et virtūte mīlitum vīctum atque expugnātum oppidum est; Haec ubi lēgātī pertulēre, Amphitryō castrīs īlicō; prōdūcit omnem exercitum. Contrā Tēloboae ex oppidō; legiōnēs ēdūcunt suās nimis pulchrīs armīs praeditās; Vertentibus Tēloboīs tēlīs complēbantur corpora; Concēdite atque abscēdite omnēs, dē viā dēcēdite!; Capiam corōnam mī in caput, adsimulābō mē esse ēbrium; Spēs atque opēs vītae meae iacent sepultae in pectore; Ita mī videntur omnia, mare, terra, caelum, cōnsequī. In Amphitryōne versūs iambicī octōnāriī sunt: 180-218, 248-262, 984-1005, 1053-1061, 1063, 1066-1071, 1074-1085."
+          }
+        ]
+      },
+      {
+        "id": "sec-8",
+        "latin": "VIII. VERSUS TROCHAICI.",
+        "english": "VIII. Versus trochaici.",
+        "kind": "reference",
+        "blocks": [
+          {
+            "t": "p",
+            "text": "Versus trochaicī nōn modō trochaeōs continent, sed etiam aliōs pedēs quōrum prīmae syllabae acuuntur: dactylōs, anapaestōs, spondēōs, tribrachyēs, rārius proceleusmaticōs. Versus trochaicus septēnārius cōnstat ex septem pedibus integrīs et ūnā syllabā longā vel brevī. Pēs septimus semper trochaeus vel tribrachys est. Exemplā: Attat! illīc hūc iturū'st. Ībō ego illīc obviam; neque ego hunc hominem hodiē ad aedēs hās sinam umquam accēdere; Ībō ut erus quod imperāvit Alcumēnae nūntiem; Nōn edepol nunc ubi terrārum sim sciō, sī quis roget; neque miser mē commovēre possum prae formīdine!; Bene valē, Alcumēna! Cūra rem commūnem, quod facis; Nimia memorās mīra. Sed vīdistīn' uxōrem meam?; Amphitryō uxōrem salūtat laetus spērātam suam!; Per suprēmī rēgis rēgnum iūrō et mātrem familiās. In Amphitryōne versūs trochaicī septēnāriī sunt: 263-462, 499-550, 585-860, 956-973, 1009-1052, 1064-1065, 1072, 1086-1130, 1144-1146."
+          }
+        ]
+      },
+      {
+        "id": "sec-9",
+        "latin": "IX. VERSUS CRETICI ET BACCHIACI.",
+        "english": "IX. Versus cretici et bacchiaci.",
+        "kind": "reference",
+        "blocks": [
+          {
+            "t": "p",
+            "text": "Pēs crēticus cōnstat ex syllabā longā et brevī et longā, ut fē-mī-nae; bacchīus ex syllabā brevī et duābus longīs, ut sē-cun-dum. Crēticus tetrameter dīcitur versus quī quattuor pedēs crēticōs continet: Postqu' utrimqū' exitum'st maxima cōpia; cōnsonat terra, clāmor utrimqū' efferunt; Imperātor utrimque, hinc et illinc, Iovī. In Amphitryōne versūs crēticī tetrametrī sunt: 219-221, 227-236. Versus bacchiacus tetrameter ex quattuor bacchiīs cōnstat: Ag' ī tū secundum! Sequor subsequor tē; Scelestissim' audēs mihi praedicāre id. In Amphitryōne versūs bacchiacī tetrametrī sunt 551-573; bacchiācī variī 635-651."
+          }
+        ]
+      },
+      {
+        "id": "sec-10",
+        "latin": "X. INDEX VERSUUM AMPHITRYONIS COMOEDIAE",
+        "english": "X. Index versuum Amphitryonis comoediae",
+        "kind": "reference",
+        "blocks": [
+          {
+            "t": "p",
+            "text": "Argūmentum: iambicī sēnāriī. Prologus: iambicī sēnāriī 1-152, iambicī octōnāriī 186-218, crēticī tetrametrī 219-221, trochaicus septēnārius 222, crēticī tetrametrī 227-236, iambicī octōnāriī 248-262, trochaicī septēnāriī 263-462, iambicī sēnāriī 463-498, trochaicī septēnāriī 499-550, bacchiacī tetrametrī 551-573, incertī 574-579, trochaicī septēnāriī 592-628, bacchiācī variī 635-651, iambicī sēnāriī 654-860, iambicī sēnāriī 861-955, trochaicī septēnāriī 956-973, iambicī sēnāriī 974-983, iambicī octōnāriī 984-1005, iambicī sēnāriī 1006-1008, trochaicī septēnāriī 1009-1052, iambicī octōnāriī 1053-1061, anapaesticus 1062, iambicus octōnārius 1063, trochaicī septēnāriī 1064-1065, iambicī octōnāriī 1066-1071, trochaicus septēnārius 1072, iambicus quaternārius 1073, iambicī octōnāriī 1074-1085, trochaicī septēnāriī 1086-1130, iambicī sēnāriī 1131-1143, trochaicī septēnāriī 1144-1146."
           }
         ]
       }
     ]
   },
   {
-    "id": "indices",
-    "slug": "indices",
-    "title": "Indices",
-    "latinTitle": "INDICES",
+    "id": "index-vocabulorum",
+    "slug": "index-vocabulorum",
+    "title": "Index Vocabulorum",
+    "latinTitle": "INDEX VOCABVLORVM",
     "sections": [
       {
         "id": "sec-1",
-        "latin": "INDICES",
-        "english": "Indexes",
+        "latin": "INDEX VOCABVLORVM",
+        "english": "Index of vocabulary",
         "kind": "reference",
         "blocks": [
           {
+            "t": "p",
+            "text": "Index vocabulorum e notis marginalibus huius editionis compositus; numeri ad versus comoediae spectant."
+          },
+          {
             "t": "pre",
-            "text": "INDEX\nINDEX VOCABVLORVM\nA ambO -ae -o 974, 1109, 1119 coetus -us\na~ 935 a-mittere 847, 1017 co-gnatus\nab-igere -egisse -actum I SO, 979 a-movere -movisse 464, 468 co-Ire (Prf\nabitus -us m 529,641,646,662 amplexari 465 col-libere\nabs-cedere 984 an 457, 662, 690, 745 , 773, 964 col-ligare\nab-solvere 1097 anguis -ism (Prf102), 1108, col-loqui\nab-sumere I 058 1110, 1113-1115,1119,1123 com-meminisse\nactus -us m (ante 186) animatus -a -urn 209, 762 com-minisci\nactutum adv 530, 544,627, 969, ante-ire 649 comrnodus\n1126 amid -hac 711 com-morari\nad-ducere 849,854, 918,919 ap-parare (PrfiS), 970 com-movere\nad-eo adz; (Prf 42), 254,468, ap-portare, adventum a. 86S com-mutare\n678,982 , 1134 arbitratus -us m 2S9; 931 com-placere\nad-modum adv (PrfiiO), 541 ardere arsisse 1067 (Prf42),\nad-monere 993 arguere -uisse -utum 883, 897 compos -otis\nado ria -ae f 193 argumentum -in (Prf 18, Arg), compressus\nad-ornare 946, 1126 Sl,96;423,433,806, 1087 com-primere\nad-p6tus -a -urn 282 a-spectare 270, 1028 sum (Prf\nad-sentari 702, 75 I as-pellere 1000 con-cedere\nad-sentire 824 as-portare 207 990\nad-simulare 11 5,999 attat! 263 con-cidere\nad-stare 747 , 993 audacter 836, 838 concinnare\nadulter -eri m (Prj liS , 119, Arg audiens esse +dat989, 991 con -cludere\n10), 1049 auspicium -in 192, 196, 6S7; concubitus\nadventus -us m (ame 186), 641 ; 690 con-cumbere\na. urn apportare 865 autumare 332, 416, 7S2 con-dere -didisse\nadversum, a. Ire 67S, tea. 936 avus -i m IOSO con-dignus\nadversus, tea. 750 con-donare\nad-venere, animum a. (Prf19), B con-ferre\n9S,393 barba -aef 445 (ad 854),\nad-vocare (ante 1035), 1128 beare 641 culpam c.\nadvocatus -im 1037,1038,1040 bilis -is /727 confidenter\naedes -iumf(Prfl04), 97, ISO, blatlre 626 confidentia\n292,350,406,448,603,617, con-fulgere\nc\n700,733, 882,978, 1018,1048, con-gemimire\n1050, 1052, 1057, 1067, 1072, cad us -I m 429 coniector\n1080, 1095, 10% capessere, sec. 262 con-sequi635,\naegrius comp 910 captare 422 , 795 con-servus\naegrum -1 n 641 carnifex -icis m 376,422, 518 con-similis\naequum 687, 85 I , 921 cavea -aef(Prf2 , 20) con-sonare\naetas -atisf(Prf53), 938 , 1023 cedo 778, 1076 con-spicari\naether -eris m (Arg 9) cenaculum -in 863 con-suescere\naf-ferre , se a. 989 certum est 26S, 339,787, 847, 11 22\nage-dum 783, 1081 1048 consulere\nagere egisse act urn (Prf 5), 88; circum-spicere (ante 1045) 1035), 1128\n500; sea. 450 circum-visere 1110 con-templare\nah! 520 cistula -ae/ 420, 773,783,792 con-tinere\naio, aibat 661, albas 807; quid cito adv (Prf16), 689, 728 con-tingere\nais? 364, 418, 620, 848 citus -a -urn 1111 , 1115 408),834;\nal-loqui (ante 19), 388, 881 clam (Prf79), 527; +ace 107 con-tonare\namare, amabO 540, 810 clanculum adv 523, 79S, 797 contra adv\namator -oris m (Prf80), 106 cluere 647 339, 655\n40 A\nVOCABVLORVM\nm 6S7\n-i m 849, 860, 918\n116)\n-itum esse 343, 8S8\nII 04\n( +acc)i339 , 898\n254, 738\n-mentum 979\n-a -urn 862\n690\n337\n(ante 19), 53\n-uisse/-itum esse\n106\n642\n-us m 109\n-pressisse -pres-\n100); 496\n(post ISO), 546, 984,\n(poscl052), 1063\n529, 728\n-sisse -sum 341\n-us m 1136\n-cubuisse (Prf88)\n-ditum 1107\n-a -urn S37, S38\n536\ncon-tulisse col-latum\nsec. (post 460),\nin 788\n339, 837\n-ae f(post837), 1054\n1067, 1096\n(Pr/89), 786\n-Oris m 1128\n880, JOSS\n-i m 129\n-e (Prfll3), 443\n228\n(ad 1024), 1070,1111\n-evissel-etum esse\n-uisse -sultum (ante\n441\n690\n-tigisse -tactum (post\n187,1061\n-uisse 1094\n217, 222, 227, 236,\n79\nI~DEX VOCABVLORVM\ncon-rundere -tudisse -tiisum dormitare 807 ex-cipere (Pr/961\n395 J, -+07, 618 , 62-+ draco -onis m (P1/ 102 J ex-damare i+accj 11\n( <ld\ncon-,·enlre 767, 1009; 853 dllcere. sed. I 0-+2 ex-imere -emisse -emptum\ncorona -ae (999 ductus -usm 196,657 ex-optiire 65-+\ncor-rumpe.re 530, 1058 diidumadz· 387, -+79, 602,620, ex-oriri -ortum 422\ncreber -bra -brum iPrfl3 l, 236 62-+.661 , 683 , 691,692,699, ex-ossare 3-+2\ncrebra ad<:· 128 767. 916,963: iam d. 618 ex-pedire 912, 1081\ncrepare -uisse .+96 duellum -in 189 ex-perlr!-pertum 508,\ncrepitus -us m 1062, 1063 dum +coni 996 662\ncruciarus -us m 793 durare 882 ex-pers -penis 7 13\ncubitus -us m 1122 ex-perere 1127\ncui-,·Is 59-+ Y. qui-\\·is E ex-purgare (965)\nculpa -ae/788 e-bibere -+31 expurgatia -on is / 965\ncultor -oris m I 065 ecasror 508, 537 , 663,682 , 698, ex-qulrere -siYisse -situm\n71-+ . 730,81 2,858 715; 628,791 , 803,\nD eccam 778 ex-sequi 262, 956; 80\nde-ci'dere !Pr(-+3 1. 98-+. 990 eccum 120,335 , 497,897. 1005 ex-silire -uisse 1115\ni\ndecere +dac 007 . ec-quid 577 ex-solvere 783, 784;\nde-cipere -ia -cepisse -ceptum ec-quis 856, 1020 ex-stinguere -lnxisse\n· P1fll.f,.-\\.1g 5), -+2-+ edepol281,282 , 336, .f-ll . 516. 186), J89\n( Wllt'\ndede.:us -oris n 883 , 898 65-l , 753,762, 768 , 8-+8 , 9 13 , ex-surgere 1066, 1067\nde-dere -didisse -ditum 258 10-ll, 1045 , 107-l externplo adz· 207, 865\nde-discere 688 e-dere -didisse -ditum (PI/ 51, ex-tollere 1109\nde-ducere 215 82 ,_ 232\nde-ferre 70 1 e-dictare 816 F\ndefessus -a -urn (Q nte 186 ,, 101-+ e-dissertare 600 fac +coni 97 1, 976,\nde-Iigere -legisse -lectum 20-+ e-dormiscere 697 facies -ei f (:lrg L\nde-Iinquere -llquisse 8 16 , 817. i'-d ucere21 8; -+ 30 facinus -oris n 858 ,\n836,853 ef-ferre ex-tulisse e-latum 228 falso adz· 859 , 902\ndellramenta -arum n pi 696 efflictim ad<:· 517 farniliaris -is m 127,\ndt'llriire 7 27. 728, 789 ef-fringere -iregisse -fractum 1083\nde-ludere (.-b g h 295 , 980 , 997, 1026 fatuu s -a -urn 1026\n998, 1005, 1097 ef-fu gere -+51 fax6 (ful) 972 . 997.\nde-mirar1 765 ego-rnet-+16, 425, -+3-+, -+57 , ferlre-232. 1019 .\nde-negare 850 598 , 607.930 festus -a -urn (Prf12,\nde-perire 517 e-gredi -ior -gressu m I 079 fides -ei/376, 455 ,\nderidiculum -in 682 ei' 798 , 805 , 11 09 foedus -eris n 395\nde-Yolare II 08 e-loqui51 , 96,200, -l20, 10-+2 , formldare (ad 320 !,\ndextera -ae (923 1087 , 1129. 1133 form Ida -inis (337.\ndicia -anisf259 e-llldere (PilJ 13 ;, 265 form!dolasus--a -urn\ndicta audiens esse 989, 99 1 em 778 forte . si f. -+57, f. si\ndi-iudicare 677. ( ani<' 1035) e-rnentlri -+II freru s -a -urn (P rf 37),\ndllllculum -in 737 , 7-B e-nicare I 056 , 111 9 frustra esse 97-+\ndimidium -in 112 5 enim, certe e . 331 , 658 friistrari 830\n-e enim-Yero 3-+4 , .flO, 759, 772\ndisenus -a -urn. ad<:· 579 fugare (Pr(75 ), 136\ndis-pertire rP1/61, 220 eo l = ideo) 756 fulgere -sisse (post\ndiYinirus ad<:· 1105 era -ae /(anct' 186 ,, 261. -+52 , fun us -eris n (Prf9\ndiYinus -a -urn !P1-f80 :. 258 , 97-l, 1061 furcifer -erl m 5 39\n966. 968 . 976 . . erilis -e I 069 fiistis -is m 358\ndi,·us -I m :Pr( S8; . 635 . 11 21 errare 975\nd olus -I m l.-\\.rg5 1 e-scendere 1000 G\nd onare (+abl; 137 .761, 763 , euge! 802 gernere -uisse 1099\n766, 77 L 780 eugepae 1 1018 gens, nusquam gentium\ndonee v \\ rg 9), 598 e-,·enire (Prf25 :. 187, 938, 9-+1 686\nda na dare 53-+, 538 , 761 ,790 e-,·ocare 9-+9. 967 gerere gessisse gestum\n80\n40 B\n20\n796\n, 1092\n512 , 637,\n342 .\n1015\nI\n948\n-lnctum\n, I 097\n979, 982\n859, 1117\n1-+6 , 359,\n1107\n13J\n1130; 391\n1113\n1079\n111 7\n621\n212\nI 052 )\n:, 190\n620,\n196, 65 5 ,\nI},\"DEX\n784; morem g. 131 in -sciens -en tis (Prj 11·-i'l magn-anirnus\ngestare I 08 3 in-simulare 859 , 902 mala -aej\ngrad us -us m (Prj 4 j in-sistere -stitisse I 063 male-dicere\ngrammaticus -I m (Prj 121 , 126 ) insons -antis 869 manere miinsisse\ngratia -aej940 , 942 , 1141 in-spectiire 998 manus -iisj235\nin-spicere -io -exisse -ectum matrimonium-in\nH lad 4-\\1 1, -M2 , 774 , 787 mavellem\nhac adz· 628 , 660 inter-ire -eo -iisse I 076 med ace 359\nhaerere haesisse 814 inter-necare 189 ab/663\nhariolus -I m 1132 inter-niiscere -novisse (Prj 1111, meditiiri 197\nharuspex -icis m 1132 142 me I gen (ad\nheia! 901 inter-\\·enire 9-\\0 me-met ace\nhercle 397,408 , 736 intra ad<· -\\09 , 617 , 85-\\, 970, memoriter\nhirnea -aej429, 431 , 432 972 , 1007, 1039, 1045 , 1145 mendacium\nhistrio -onis m (Prf5 i intus 770 mentum -i\nhorror -oris m 1068, 1118 in-ultus -a -urn 1041 merciitiira\nhostia -aej cad 983 ), 1127 invitus -a -urn 663 merces -edis\niocus -i m cPrf62 ); ioco 906, mereri -itum-\n916 , 964 ; per iocum 920 , 963 merito adz·\nid ad<: 909 ipse-met 102 migriire (Prf35\nignubilis -e 440 ipsus 252 , 415 , 754 mihi-met\nIIi co adz· 216 , 714, 799 , 865 iriicundus -a -urn 903 ministriire\nilli ad<· 133,148, 249 , 7-M, 761 irasci 522 , 540 minus adz·\nillic m 149 , 263 , -\\32 ; illaecj ir-ritus -a -urn 925 mirum -i n616\n766 ; illuc n 270 ; illunc ace m istic m 575 , 619 ,747 , 1041 ; istuc 1057, 1080,1105\nISO , 980 ; illic da1 m 263; iliac n512 , 595 , 596 , 628 , 692 , 710 , miseria -aej\nablj -\\32 , 818; illaec ace pin 747, 763 . 791 , 812 , 949 , 1100; missum facere\n-\\16 istunc ace m 699; istanc accj minere 546\nillo adz· 197 , 203, 603 754 ; istiic abln 378 ; istaec n pi modus, quem\nil-Jucescere 5-17 75 7, 815 , 834,925 , 1105 huius modi\nimago -inis j 1~1.1-ll, 265 , -\\58 iterare :Prjl27), 211 moechus -i\nim-mutare 456 , 866 itidem -M3 , 712, 992 molestia -aef\nim-pellere -oulisse -pulsum 1079 iuba -aej(ad 1108) moriiri •:ance\nim-percere 500 iubiitus -a -urn 1108 miirigerare\nim-pransus -a -urn 254 iurare 435, 436, 831 mas, morem\nim-pudens -entis 818 iiiriitus -a -urn -B7 multiire 852\nim-pudicus -a -urn (ame 809), iiirgium -in CPrfll8 , Arg 8: munire 381.\n834, 905 , 913 , 926, 92 7 iiis iiirandum 931 , 936\nin -cedere -cessisse 119, 3 3 5 iussii 19 , 989 ]\\\nin-clamare 1068 nam , quo\nin-crepare -uisse <Prf 11 71, 213 , L ne +imp 530\n1077 lantern a -ae j 14 9, 406 1064, 1110\nincunabula -orum n pl 110-\\ laviire!lavere Ia vi sse !autum 802 , ne-quiquam\nin-diicere (Prj 59 , 105 ), 915 1102 , 1103 ne-quire -eo\nindiitiae -arum/ pi 389 Iegare 205 nescio-quid\nin-ferre in-tulisse il-liitum 733 libens -entis (Prf89), 531 , 848; nescio-quis\ninfortunium-in 451 adl' libenter -quem ace\nin-gredi -gressum -\\29 licere -itum esse 617 ni 357 , -MO\ningruere 236 longitudii -inisj(ad 279), 281 nihilo 596,\nin -iiiratus -a -urn -\\37 liicescere Juxisse 533 , 543 nimis 213\nin-quisitus -a -urn 8-\\7 , 1017 liidificari 565 , -are 1041 , 10-\\7 1117\ninsania -ae j798 nimius -a\ninsanire 75 3 ,\\I noctii adz:\nin -sanus -a -urn (ad 604), 108-\\ madidus -a -urn 1001 nox , abl noctii\nin-scendere -disse 450 maeror -oris m 635 niimen -inis\n41 A\nVOCABVLORVM\n-a -urn 212\n408 , -M5\n(ante 1861, 572\n546 , 696 , 765\n852\n1. = miillem) 512\n, 400 , 434, 435 , 982;\n, 202\n284), 4-\\2 , 60 I , 856\n607\n41 7\n-In 198 , 370\nn-MS\n-aef(Prf37 )\nf 646\n(ad 572), 1101\n572\n, 68 ), 1143\nda1 597\n983\n4 79\n, 772 , 1036,\n, 111 7\n(PrflO }, 939\n1145\n, 1101 , 1133\nad mod urn 442 ;\n938 , 941\nm 135\n46-\\\n546)\n981\ngerere 131\n520\n... nam 592\n, 803 , 810 , 813 ,\n835\n-ivisse 882\n605\n331,830 , 1063 ;\n332\n; quid ni 434\n908\n, 218 , 442,765 , 858 ,\n-urn 616 , 1080, 1105\n(ante 186)\n404 , 412 , 731\nn (Pr[99 , ad 1132)\n81\n11'\\DEX VOCABVLORVM\nnum-nam 1073 pellis -isf(ad 123) pro-gniitus -a -urn 365\nnum-quid 347,852 pendere pependisse 280 m p/650\nnunc-iam 778, 1052 penetriire, se p . 250 pro-inde 214; p. ut\nnupta 99,364,8 17 per-agere (Prf 28) 973 , 982\nnusquam 576 , 620, 686, 1014 per-ciere -ciisse -citum (ad 569), prologus -i m (Prf 17,\n727 pro-loqui 202, 248,\n0 per-cipere 1118 pro-merere 1142\nob-dorm!re 620 per-contiiri 710 prope-modum 823\nob-icere -iii -iecisse -iectum 190, perduellis -ism 250, 642 propere 215\n605 peregre 361 propitius -a -urn 935,\nob-secriire 388, 455 , 765 , 923 , pergere (post 332), 1052, 1111 propter-eii 119\n1130; obsecro 682 , 760, 812 periclitiiri 688 , 914 prosperus -a -urn (Prf77);\nob-sequ! 995 pernix -icis, adv -iciter 1116 -e 463\nob-serviire 270 perperam adz> 248 protervus -a -urn, adz·\nob-signiire-U 1, 77 4, 775,784,797 perpes -etis 280, 732 pro-\\·idere 1071\nob-temperiire 449 per-sequi, imperium p. 622 pudicitia -ae/811,\nob-trunciire 252,415 , 1050 persona -ae (Pr/5, 21, 105) pudicus -a -urn (Prf60),\nob-tuer! 900 pinnu1a -aef(ante 19:,, 143 838 , 932,1086\nob-tundere -tudisse -tiisum 606 f\npius -a -urn (Pr/ 60J, 1086 puer-pera -ae I 092\nob-viam 263 (pose 675; placere -itum esse 635 pultiire 449\noc-cidere -disse 1066 po1782 , 1124 piirgiire 909,945\noc-cipere -iii -cepisse -ceptum poplus -i m 101 , 190, 259\n\\Prf38l, 107, 1091 , 1102 populiiris -ism 193 Q\noc-cliidere -sisse -sum 1018 porro adz· 803 , 1119 q uii propter 815\noctogesimus -a -urn (Prf 44) posterius 788 quadrigae -arum/ p/422\nodisse, osa sum 900 postri-die 256 quaeritiire 1014\nof-fendere -disse (ante 55 1), 613, postuliire + !nf 361 , 789 quaeso 500, 625, 753,\n713 potin' 903 1037 ' 1097\noffirmiitus -a -urn 646 pot!ri +abUgen (Prf75 ), 187 quaestio -onis/ 1017\nopes -urn/pi 1053 potis est 626 quando (= cum) 123,\nopiniiri (Prf52), 186, 574 potitiire 261 , 419,535 972, 1097; (= quoniam)\nopinio -onis/545 piitus -a -urn 1007 390,440,926, 995\nop-primere -pressisse -pressum prae adz_· 543 quantum potest 971\n1056 prae-currere -cucurrisse 796 quasi +coni 11 5,200\noptiito adz· 658 praeda -aef(Prf73), 193 q. si 1078\nopus est -to 628, 791 prae-didire359, 402 , 561 , 730, qui (= quis) 127, 130,382,609,\nordo, ordine 211 , 599 901 , 905,1085 , 1117 1046\norniitus -iis m 116, 1007 praeditus -a -urn 218 qui ab/261,419,535\nosa sum 900 prae-ficere -iii -fecisse -feet urn qui adz• (= quomodo)\n,prf7 0 ), 100,2 11 , 363 766, 858\np prae-minere 186), 195 , 602 quic-quam 248,910,972\n(ante\npactum -1 n: abl quo p .o 137, praesens, in re praesenti 249 qui-cum 99 , 364\n592,915 , quov!s p.o 979 praesertim (Prf 124),.655 quid ni434\npaenitere, me paenitet 1124 prae-servire 126 quid-vis 391,393,708\npiir est 832, 990 praestigiiitor -oris m 830 qui- quae- quid/quod-libet\npariter 1019 praestigiiitrix -icis/782 11 J, (ad 391 , 393)\npartire 1035 prae-vertere 528, 1069, -i 921 quin adv 359,410,\nparturire 1039, 1061, 1091 prandere -disse -iinsum 951 , 968 quin (+com) 750, 852,\npartus -iis m 1138 primores -urn m pl 204 (ante 1035), 1052,\nparum-per 389, 638 primulus -a -urn 737 quippe qui 745\npatera -ae/260, 419, 420, 534, pro! 376, 791,822 , 1074 quire -eo -ivisse (anre\n760 ... 796 probe282, 424, 975,997, 1005 qui- quae- quod-vis\npavere (ad 1109\\ 1110 probrum -in 869, 882 dat m cui-vis 594,\npecciire 383 pro-cedere 463 979\npecciitum -in 257 pro-diicere 217 quo (+coni) 834; non\n82\n41 B\n, 614,\n517, 757,\nante 19)\n757\n1065, 1090\nadv\n-e 837\n930\n712,\n, 450\n934,\n862, 864,\n265,\n, 683 , 1096;\n; +coni 340\n626,710,\n(Prf\n61 7; 918 ,972\n970,\n1054, I 106\n1035), 1104\n(Prf26, 27) ,\nabl n quo-vis\nquo 913\nINDEX\nR similis -e i.Prf!08, Ill ), 284 , tuba -aef227\nrapt or -oris m 206 442,601,856 tuigen 284\nratus -a -urn < reri simulare (Pr/107), 200 tiitari 214,\nrecessim 1112 sis (si \\·Is) 778, 787, 982 tii-te 746,747,795\nre-cipere, se r. 645, 663 sobrius -a -urn 1001 tiito adz· 465\nrecta adr 1042 , 1115 solacium -In 643\nu\nre-ferre rct-tulissc (Pr(83, 87i so lens -entis 198\nregia -aef(Pr/94) . sol ere -itum esse 261, 419 ubiconi211,216,439,\nregnum -in (Prf74), 194,831 somniare 697 1092; u.\nreri rat urn iante 635 ), 656, 659, somniculose 622 usquam 1036\n964 , 975, 1095 somnium -In 738 iisque 143,253,645,679,715\nres , rem (piiblicam) gerere 196, sonare -uisse (Prf23) iisiira -aefl08,\n655 sonitus -iis m 1062 , 1095 iisiirarius\nre-ticere 397 speratus -a -urn 676 980\nridiculum -in 9!7 stabilire 194 iisus -iis m\nrogare (= interrogare) 336, 708 , stabilis -e (Prj 26 J ut (+perf)\n749, 794, 917' 1025 , 1026 statiira -ae f 444 ut (=quomodo)\nruere 1095 stolidus -a -urn 1028 662 , 744,\nriimiferare 6 78 stultitia -ae [709 1103\nrumpere, intro r. 1048 stuprum -In 883, 898, 1016 ut-cumque\nriirsum 797,939, 940, 942; r. subditivus -a -urn 497 uterus -I m\nversum 1112 sub-igere -egisse -actum 1143 uti (= ut)\nsub-parasitari 515,993 598,691,909,1052\ns utrimque\nsub-sequi 550, 551\nsacrificare 983 superare (Pr/33), 235, 656; 709 230\nsaltern -B8, 642, 822 superbia -ae [709 Ul-Ut 397,\nsatin' 509, 578 , 604 superum -In 1001\nsatius 1018 v\nsuppetiae -arum[ p/1106\nscaena -aef (Prf2) supremus -a -urn (Prf57 ), 831 . vae' ( +dal)\nschema -ae f 117 ll27 vani-loquus\nscin' 356, 1082 siira -ae f 444 \\'anus -a -urn\nscipio -onis m 520 sus-cipere -io -cepisse -ceptum vapulare 370,\nsciscere 1069 (Prf78), 230, 1139 vel917\nse-cedere 771 velare 257\nsecundum adz• 551 T \\'elim 834\nse-ciirus -a -urn (Prf95 ) tabernac(u)lum -in 426 , 428 venia -ae {924\nsecus 1078 tam etsi977 verbero -6nis\nsedere. apud hostess. 599 ted ab/812, afc 911 1029\nsemen -inis n 1139 telum -In 251 \\·ero adz· 678,%4\nseminare 482 temptare 661, 692 \\·ersi-pellis\nsepelire -Ivisse -pultum 1053 , terror -oris m (ante 1053 ), 1066, vertere -tisse\n1074 1079 1), 121\nserio adz· 855 , 906. 964 tetuli (=tum 716, 800 vestitus -iis\nserium -In 92! thalamus-In (Prf86) vin' 769\nsen·are, promissum s. 1144 tibiae -arum[ pi (Prf23i \\'irtiis -iitisf925\nservilis -e (ante 19; , 117 tollere 501 vitium -in\nsiem ( = sim) 130, 434; sient ( = tonare -uisse (pos1 1052), 1062, tere 1142\nsint) 209 , 1106; sies ( = sis1 1130 volup est\n924,934, 976; siet 1. = sit} 105, tonsus -iis m 444 voluptas -atisfll4\n392,485,787,856,858 torpere 335 641.939,994\nsignum-In (Prf98 ), 145 , 146, torulus -I m 144 votum -In\n1087 tragoedia -aef(Pr/61, 51, 52,54 vovere vovisse\n42 A\nVOCABVLORVM\n-are 651\n, 796, 816\n1061,\nprimum 203\n1135\n-a -urn (Arg 3), 498,\n(Prf82)\n203,602, 733, 734\n104, 136, 196,\n745; (=quam ) 1062,\n343\n1092\n(Prf29), 214,573,\nIll, 219 ,22 8,229,\n110)\n726, 1057, 1080\n-a -urn 379\n(ame 186, 248)\n379 , 388, 395, 440\n; 1058\nm 284,344, 565,\n-e 123\n-sum (Prf 45 , Arg\nm (anre 19), 443, 866\n402, 811; vitio ver-\n958,994\n, 635,637,\n230, 947\nvotum 94 7, 966\n83\nINDEX NOAUKV.\\t\nINDEX NOMINVM\nA M\nAccheriins -untis/Acheron -ontis m. fluvius Mercurius -I m, lovis filius et niintius;\napud inferos: infer! 1078 · Sosiae gerens JO\\·i amanti servit\nAlcaeus -I m , Argivus, pater Amphitrvonis 98\nAldu)mena -aej; f:Jectryonis filia , Amphitryo- N\nnis uxor, quam luppiter clam amavit Naucrates -is m, cognatus Amphitryonis,\nAmphitryo(nJ -onis m, Alcaei filius , exercitui eadem nave vectus est 849, 854, 860,\nThebanorum praefectus Teleboas vicit\nArgi -orum m, urbs Peloponnesi, Amphitrvonis p\net .\\Jcmenae patria 98 ; Argivi, cives 208 Persicus , portus P., ponus ignotus unde\nphitryon ex bello rediens navem sol\\·it\nB 41 2, 823\nBlepharo -onis m , gubernator na\\·is Amphitrvo- Polliix -iicis m, l ovis filius, Castoris frater\nnis 951 , 968 , 1037 nus, per quem Romani iii rant: pol, edepol\nBromia -aef, ancilla Amphitryonis 1077 Pterelaus -I!Pterela -ae m, rex Teleboarum,\nquem Amphitryon interfecit 252, 261\nc\n41 9,746\nCastor -oris m, lo\\·is filius , frater Polliicis gemi- Pudicitia -aef, dea pudicitiae 930\nnus: per eum iiirant feminae Romanae: ecas1or\ns\nCreon -ontis/Creo -onis m, rex Thebanorum 194\nSol -is m, deus solis, qui cotidie quadrigas\nE per caelum agit 282 , 422\nElectryon -onisfElectrius -I m . rex Argivorum, Sosia -ae m , filiu s Da\\·I, sel\"\\·us Amphitryonis\npater Alcmenae 99\nT\nH Teleboaeffiloboae -arum m , gens Acarnaniae,\nHercules -ism , lo\\·is et Alcmenae filius (Pif hostes ArgJ\\·orum et Thebanorum,\n100:', (483 , 1123, 11 39), qui inlans duos angues .\\mphitryon (Prf7 I J, 101 , 205 , 211\nmanibus suls neca\\·it (1 103, 1114, 111 9 J: per 414, 41 8,734\neum iii rant vir! Romani: here!£ Teresiafru-esias -ae m. coniector T hebanus\ncaecus 11 28 , 1145\nThebae -arum[, urbs in media Graecia\nliino -onisf, filia Saturn!, lo\\·is coniiinx (932), 677 , 1046;ad!Thebanus-a-um 101\ndea marronarum, per quam Alcmena iiirar 832 ; 363 , 376, 678, pi ci\\·es 365\nangues misit qui Herculem infamem necarenr Thessala -ae f, an cilia Alcmenae 770\n<Prfl03 i\nv\nluppiter Iovis m , filius Siiturni, deus summus et\nrex cae!I (831 ), qui in formam Amphitryonis Vulcanus -I m, l ovis et liinonis filius ,\nmiitatus Alcmenam amii\\'it et fabrorum ; ignis 341\n84\n42 B\nformam\nqui\n1009\nAm-\n404,\ngemi-\n, 413,\nsuas\nquos \\'Icit\n, 217, 25 1,\nsira 97,\n, 190,259,\ndeus ignis\nPresented via the natural method by Hans Ørberg, T. Macci Plavti: Amphitryo Comoedia is\nan abridged edition of Plautus’ Amphitryo, with marginal notes in Latin. This comedy can be\nused as a supplemental reader in Ørberg’s Lingua Latina per se Illustrata series and can be\nread by students who have completed the first book in the series, Familia Romana.\nHans Henning Ørberg (1920-2010) received his MA in English, French and Latin from the\nUniversity of Copenhagen in 1946. He taught at various Danish high schools until 1963 and\nat the Grenaa Gymnasium until 1988. From 1953 to 1961 he served on the staff of the Nature\nMethod Institute, Copenhagen. He is the author of the Latin course “Lingua Latina secundum\nnaturae rationem explicata” (1955-56); the course was revised in 1990-91, with a number of\nsupplements, under the title “Lingua Latina per se illustrata.” His books were published by\nDomus Latina, a publishing house he founded in Denmark, and they are distributed in the\nEnglish-speaking world by Hackett Publishing Company under the Focus imprint.\nISBN-13: 978-1-58510-194-8\n90000\nFocus\nan imprint of\n9 781585 101948\nHackett Publishing Company FOREIGN LANGUAGE STUDY | Latin"
+            "text": "ab-igere — ab - agere\nabs-cedere — dē-cēdere\nab-solvere — liberāre\nab-sūmere — cōnsūmere\nAccherūns -untis m\nac-cumbere -cubuisse\nactus -ūs m — agere\nad-dūcere\nad-eō — vērō\nad-monēre — monēre\nad-ornāre — apparāre\nad-potus -a -um - ēbrius\nad-simulare — simulare\nad-stāre — prope stāre\nadventus -ūs m — ad-\nad-vocāre\nadvria -ae f — glōria\nage-dum - age\nal-loqui — ad-loqui\nambo -ae -ō — duo simul\nā-movēre\nantid-hāc — antehāc\narguere -uisse -ūtum\nAS -jism\nas-portāre — auferre\naudin' - audis-ne\na-um - stultus\nbarba -ae f\ncarnifex -ficis m — vir\ncircum-spicere — circum\ncircum-visere — circum-\ncol-ligare — vincire\ncom-meminisse — memi-\ncom-minisci -mentum\ncommodus -a -um\ncom-morāāri — morāri\ncom-moveēre — movere\ncom-mūtāre — mūtāre\ncompressus -ūs m\ncon-cedere — cedere\ncon-cidere -disse — ad\ncon-clūdere -sisse -sum\ncon-cubitus -ūs m\ncon-dere -didisse -ditum\ncon-dignus — dignus\ncon-dōnāre — doōnāre\ncōn-ferre con-tulisse col-\nconfidentia -ae f\ncōn-fulgēre — fulgere\nconiector -ōris m — qui\ncōn-servus -im — servus\ncōn-sonāre-simul sonare\nconsulere -uisse -sultum\ncon-tingere -tigisse\ncon-tonāre — tonāre\ncon-tundere -tudisse\ncon-unēre — tenēre\ncon-venire acc — adire\ncor-xrumpere — pravum\ncrepāre -uisse — moleste\ncrepitus -ūs ni — crepāre\ncruciātus -ūs m — cruci-\ncubāre -uisse -itum\nculpa -ae f — causa accū-\ncultor -ōris m — incola\ndedecus -oris n — factum\ndē-dere — tradere\nde-discere — oblivisci\nde-dūcere\ndē-ferre -tulisse -latum\ndē-fessus -a -um - fessus\ndē-ligere -legisse -lectum\nde-linquere -liquisse\ndelirāmenta -ōrum n pl\ndē-mirāri — mirāri\ndē-negāre — negāre\ndē-perire — amāre ūsque\nde-volāre\ndextera -ae f — dextra\ndicio -ōnis f — arbitrā-\ndi-liūdicāre — exisumare\ndilūculum -iz — prima\ndisertus -a -um — qui\nductus -ūs m — dūcere\nec-quid — numquid\nec-quis — num quis\nē-dissertāre — diligenter\nef-ferre — ex--ferre; cla-\nef-fringere -fregisse -frac-\neg -ae f\nego-met — ego (ipse)\nē-gredi -ior -gressum\nē-mentiri — falsa ex-\nē-nicāre — necare\nenim-vērō — profectō\nera -ae f — domina\nerilis -e — erus/era\nex-imere -ēmisse -ēmp-\nex-oriri — oriri\nex-pedire — explanare\nex-petere — petere; Iovis\nex-quirere — quaerere\nex-quirere -sivisse -situm\nex-sequi — facere\nex-silire — ex 4- salire\nex-solvere — solvere\nex-sūnguere -inxisse\nex-surgere — surgere\nex-tollere — tollere\nfacinus -oris n — factum\nfamiliāris -is m — servus\nfatuus -a -um — stolidus\nfoedus -eris n — lex quā\nformido -inis f — timor\nformidolōsus -a -um\nfurcifer -eri m — verbero\ngemere--uisse — graviter\nhās-ce — hās\nhorror -ōris n — horrere\nhostia -ae f — bēstia quae\nhuius modi - huius ge-\nignobilis -e — ignōtus\nillis-ce — illis\nil-lūcescere — lūcēscere\nim-mūtāre — commūtāre\nim-pellere -pulisse -pul-\nim-percere — parcere\nim-prānsus -a -um — qui\nim-pudens -entis\nim-pudicus -a -um\nin-cedere -cessisse\nin-clamāre\nin-crepāre — crepitū\nincūnāābula -ōrum n pl\nindūtiae -ārum f — tem-\nIn-ferre in-tulisse il-lā-\ninfortūnium -i n — mala\nin-gredi -ior -gressum\nin-gruere — procurrere\nin-quisitus -a -um — nōn\ninsānia -ae f — insānus\nIn-sānus -a -um\nin-scendere — ascendere\nin-simulāre — accūsāre\nin-sistere -stitisse — cōn-\nInsōns -ontis — qui nōn\nin-spectāāre — spectāre\nIn-spicere -exisse -ectum\ninter-ire -iisse — perire\ninter-necāre — omnēs n\ninter-venire\nin-ultus -a -um - sine\ninvitus -a -um e libens\nipse-met — ipse\nirācundus -a -um — qui\nirritus -a -um — nihil\niubātus -a -um — iubam\niūrātus -a -um — qui\niussus -ūs m — iubere\nlongitūdōo -inis f\nmaāla -ae f\nmadidus -a -um\nmaeror -ōris m — mae-\nmagnanimus -a -um\nmā-vellem — māllem\nmē-met — mē (ipsum)\nmerere -uisse\nmihi-met — mihi (ipsi)\nmolestia -ae f — rēs\nmōorigerāre-mōremgerere\nnē corrumpe - nōli cor-\nnēquiquam - frūstrā\nne-quire -eō — nōn posse\nnescio-quid — aliquid\nnescio-quis — aliquis\nn' --ne\nnum-nam — num\nnum-quid — num\nnusquam gentium - n\nob-dormire — dormire\nOb-icere -iecisse -iectum\nob-secrāre — rogāre\nob-servāre — spectandō\nob-signāre — signāre\nob-tuēri — intueri\nob-tundere -tudisse\noc-cidere -disse — con-\noc-clūdere -sisse -sum\noffendere -disse -ēnsum\noffirmātus -a -um - cōn-\noperire -uisse opertum\nopinio -onis f — opinari\nop-primere- visuperāre\npartus -ūs m — parere\nparum-per — paulisper\npatera -ae f\npeccatum -i n maleficium\nper-ciēre -ciisse -citum\nper-cipere — capere\npernix -icis — vēlōx\nperpes -etis — perpetuus\npinnula -ae f — parva\npoplus -i m — populus\npostri-die — postero diē\npōtus -a -um — ēbrius\nprae-currere -cucurrisse\npraedicāre- plane dicere\npraeditus -a -um — ōrnā-\nprae-mittere\nprae-servire — servire\npraestūgiātor -ōris n\nprae-vertere — magis cū-\nprimōrēs -um m pl\nprimulus-a-um - primus\npro-fertō -tōte mp fut\nprō-gnātus — nātus\npro-inde — ergō\npro-inde ut — ita ut\nprō-loqui — ēloqui\nprō-merēre — merēre\nprope-modum - prope\npropitius -a -um — favens\nprotervus -a -um\nprō-vidēre — (rem futū-\nPterela -ae m — Pterelāus\npudicitia -ae f — pudicus\npuerpera -ae f — mulier\nqua-cum — cum quā\nquadrigae -ārum f — equi\nquae-ne — ea-ne quae\nquaestiō -ōnis f — quae-\nquem ad modum - quō-\nqui-cum — quō-cum\nquid-libet\nquiescere -ēvisse\nquire -eō -ivisse — posse\nraptor -ōris m — qui rapit\nre-cipere — re- 4- capere\nre-ticēre — tacere, nōn\nre-venerunt\nrūrsum versum - re-\nscipiō -ōnis m- baculum\nsē-cedere — a ceteris\nsepelire -ivisse -pultum\nservilis -e — € servus\nstatūra -ae f — corporis\nstultitia -ae f — stultus\nsubditivus -a -um - si-\nsub-igere -ēgisse -āctum\nsub-parasitāri -dat\nsub-sequi — sequi\nsuperbia-ae f — superbus\nsuppetiae -ārum f pl\nsūra -ae f — crūris pars\ntū-te — tū (ipse)\nut-cumque — - quōquo\nutrim-que — ab utrāque\nut-ut — utcumque\nvāni-loquus -a -um — - qui\nvānus -a -um — vacuus\nverberō -oōnis m — qui\nvincōn'- vincō-ne\nvoluptās -ātis f — dolor"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "index-nominum",
+    "slug": "index-nominum",
+    "title": "Index Nominum",
+    "latinTitle": "INDEX NOMINVM",
+    "sections": [
+      {
+        "id": "sec-1",
+        "latin": "INDEX NOMINVM",
+        "english": "Index of names",
+        "kind": "reference",
+        "blocks": [
+          {
+            "t": "p",
+            "text": "Nomina personarum et locorum quae in comoedia occurrunt."
+          },
+          {
+            "t": "pre",
+            "text": "Alcumena — Electryonis filia, uxor Amphitryonis, mater Herculis et Iphiclis.\nAmphitryo — Alcaei filius, dux Thebanorum, maritus Alcumenae.\nBlepharo — gubernator navis Amphitryonis.\nBromia — ancilla Amphitryonis.\nCreon — rex Thebanorum, Amphitryoni exercitum tradidit.\nElectryon — rex Argivorum, pater Alcumenae.\nHercules — Iovis et Alcumenae filius, qui infans duos angues necavit.\nIphicles — Amphitryonis et Alcumenae filius, frater Herculis.\nIuppiter — deus summus, qui formam Amphitryonis sumpsit et Alcumenam amavit.\nMercurius — Iovis filius et nuntius, qui formam Sosiae sumpsit.\nNaucrates — cognatus Alcumenae, ex navi adductus testis.\nPterela — rex Teleboarum, ab Amphitryone occisus.\nSosia — servus Amphitryonis, cuius formam Mercurius sumpsit.\nTeleboae — gens Acarnaniae, cum qua Amphitryo bellum gessit.\nTiresias — coniector Thebanus, quem Amphitryo consulit.\nThebae — urbs Boeotiae, ubi fabula agitur.\nArgos — urbs Peloponnesi, patria Amphitryonis et Alcumenae."
           }
         ]
       }

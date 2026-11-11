@@ -9,6 +9,7 @@ import capitulum06 from './capitulum-06.js'
 import capitulum07 from './capitulum-07.js'
 import capitulum08 from './capitulum-08.js'
 import capitulum09 from './capitulum-09.js'
+
 const detailed = {
   1: capitulum01,
   2: capitulum02,
@@ -20,37 +21,50 @@ const detailed = {
   8: capitulum08,
   9: capitulum09,
 }
-export const chapters = outline.map((entry) => ({ ...entry, ...detailed[entry.number] }))
+
+export const chapters = outline.map((entry) => {
+  const content = detailed[entry.number]
+  return { ...entry, ...content }
+})
+
 export const book = {
   id: 'sallustius-cicero-catilina',
   slug: 'sallustius-cicero-catilina',
-  title: 'Sallustius & Cicero: Catilina',
+  title: 'Catilina',
   latinTitle: 'CATILINA',
   shortTitle: 'Catilina',
-  author: 'Sallustius; Cicero',
+  author: 'Sallust and Cicero',
   edition: 'Hans H. Ørberg (ed.)',
   year: 2005,
   publisher: 'Domus Latina',
-  isbn: '978-1-58510-156-6',
-  level: 'Reader — Sallust and Cicero on Catiline',
+  isbn: '87-90696-11-5',
+  level: 'Latin reader — 9 selections',
   language: 'Latin',
-  summary: 'Sallust’s account of the Catilinarian conspiracy with Cicero’s first and third Catilinarian orations and the portrait from Pro Caelio.',
-  description: 'The nine selections of Ørberg’s Catilina: Sallust’s narrative of the conspiracy and Cicero’s speeches, printed in the edition’s order with the Latin text and marginal notes.',
+  summary:
+    'Sallust’s account of Catiline’s conspiracy and Cicero’s speeches against him, in the Ørberg edition for students.',
+  description:
+    'This reader gathers the central narrative of the Catilinarian conspiracy: Sallust’s De Catilinae coniuratione ' +
+    'and Cicero’s In Catilinam I and III, with the portrait of Catiline from the Pro Caelio. The Latin text, the ' +
+    'selection headings, the authors’ names and the marginal notes follow the printed edition of Hans H. Ørberg ' +
+    '(Domus Latina, 2005), with macra restored. The book’s Index Vocabulorum, Index Nominum and Notae are included ' +
+    'as back matter.',
   accent: 'wine',
   status: 'active',
   kind: 'reader',
-  unit: 'Caput',
-  unitPlural: 'Capita',
-  readingUnit: 'sectiō',
-  readingUnitPlural: 'sectiōnēs',
-  collectionLabel: 'Capita',
+  unit: 'Capitulum',
+  unitPlural: 'Capitula',
+  readingUnit: 'selecțiō',
+  readingUnitPlural: 'selecțiōnēs',
+  collectionLabel: 'Selecțiōnēs',
   readingLabel: 'Textus',
-  collectionNote: 'Nine selections from Sallust and Cicero, with the edition’s marginalia.',
-  startLabel: 'Incipit Catilina',
-  chapterCount: 9,
-  readingCount: 9,
-  readyCount: 9,
+  collectionNote:
+    'Nine selections from Sallust and Cicero, with the edition’s marginal notes and indexes.',
+  startLabel: 'Incipit Catilīna',
+  chapterCount: outline.length,
+  readingCount: chapters.reduce((sum, c) => sum + (c.readings?.length || 0), 0),
+  readyCount: chapters.filter((c) => c.complete).length,
   chapters,
   extras,
 }
+
 export default book

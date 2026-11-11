@@ -1,145 +1,465 @@
+// Prologus — PROLOGVS
+// Source: T. Maccius Plautus, Amphitryo Comoedia, ed. Hans H. Ørberg (Hackett, 2014).
+// Latin text and marginalia follow the printed edition.
+
 const chapter = {
-  "number": 1,
-  "roman": "I",
-  "slug": "prologus",
-  "latinTitle": "PROLOGVS",
-  "title": "Prologus",
-  "tagline": "T. Maccius Plautus",
-  "status": "complete",
-  "complete": true,
-  "readings": [
-    {
-      "id": "prologus",
-      "latinTitle": "PROLOGVS",
-      "title": "",
-      "paragraphs": [
-        "[Nox est. Mercurius ex aedibus Amphitryī'mis exit. Vestī- vestītus",
-        "tum servīlem gerifus acque in farmam Sōsiae servī commutd- servīlis",
-        "tūs nūllō modō deī sīmī/is est-nisi quod pinnulae, quās in pinnulā",
-        "pinnā",
-        "pecāsō gerit, signifuant eum esse Mercurium . In scaenam",
-        "prōcēdit et spectiitbrēs ā/loquitur.] al-loquī",
-        "MERCVRIVS",
-        "iussus",
-        "Iovis iussū veniō. Nōmen Mercuriō est mihi .- Iovis",
-        "luppiter,",
-        "51 Nunc argurnenturn hwus ēloquar tragoediae. ē-loquī",
-        "Quid contrāxistis frontem? quia tragoediam quia",
-        "tragoediam",
-        "dīxī futurarn hanc? Deus sum, comml1tlivērō: esse'",
-        "commūtāverō",
-        "elindem hanc, sī vultis, faciarn iam ex tragoedīlī faciam",
-        "cōmoediā",
-        "55 cornoedia ut sit-omnibus isdern versibus!- omnibus",
-        "mūtātis",
-        "88 Ipse hanc licturū'st luppiter cornoediam ipse",
-        "mōēdiam",
-        "95 et ego ūna cum illō. Nunc vās anirnurn advertite, -ū'st",
-        "Ī",
-        "durn huius argumenturn ēloquar cornoediae: huius",
-        "Haec urbs est Thēbae. In illīsce habitat aedibus illīs-ce",
-        "Arnphitryō , nlitus Argīs Alcaeō patre,",
-        "quī-cum=",
-        "quicurn Alcurnēna est nūpta, Ēlectrī fīlia. nūpta",
-        "quīcum",
-        "Is nunc Arnphitry6 praefectū'st legiōnibus, nūpta",
-        "narn cum Tēloboīs bellum est Thēbānō poplō. poplus",
-        "Is prius quam hinc abiit ipsernet in exercīturn, ipse-met",
-        "gravidarn Alcumenarn fēcit uxōrem suarn.",
-        "Nam ego vās nōvisse crēdō, ut sit pater rneus, ut =quōmodo",
-        "8 Ā",
-        ": in hīs rēbus (: amōrī-",
-        "bus) multīs quam Hber hārum rērum multārum siet,",
-        "eius quod eī comp1acitum quantusque amātor sit quod complacitum est",
-        "clamprp+acc: c. virum Is amārē occēpit Alcumēnam clam virum",
-        "= virō īnsciente",
-        "compressūs -iīs m et gravidam fēcit is earn compressŌ. suō.",
-        "< comprimere",
-        "teneiitis : sciiitis Nunc dē Alcumēnā ut rem teneiitis rēctius:",
-        "parte, ex utr6que",
-        "Et meus pater nunc intus hiē cum īlia cubat,",
-        "et haec ob earn rem nox est facta longior,",
-        "\\\"Oluptiīs -iitisf ..... dolor dum cum īlia quācum vult voluptātem capit.",
-        "Cesset) [Vestem suam servīlem ostendēns.]",
-        "mentum, vestītūs",
-        "schēmā -aef(/schēmā quod ego hue prōcessī sīc cum servīlī schēmā:",
-        "veterem atque antīquam rem novam ad vōs prŌferam,",
-        "in-cēdere -cessisse proptereā 6rnātus in novum incessī mod urn.",
-        "= prōcēdere",
-        "eccum =ecce eum Nam meus pater intus nunc est eccum Iuppiter;",
-        "(\\īdē)",
-        "imāgō : fōrma in Amphitryōnis vertit sēsē imāginem,",
-        "omnēsque eum esse cēnsent servī quī vident",
-        "\\·ersī-pellis -ē=quī pēl/em",
-        "venit (: fōrmam miitat) -ita versipellem sē facit quandō tibet!",
-        "quandō (: cum) eīlibet",
-        "Ego servī sO.mpsī Sōsiae mihi imāginem,",
-        "J>--41~ ·",
-        "11 . , ..",
-        "pē IS (C : ·-",
-        "-is[~ ·.c Ī",
-        "quī cum Amphitryōne abiit hinc in exercitum,",
-        "quī= quis: nē familiārēs atque ut nē, quī essem, familiārēs quaererent,",
-        "quaererent 'quis essem?'",
-        "cum vidērent mē crēbrō versārī crēbrō hiē cum vidērent mē domī;",
-        "(cuh) hie versiīrī",
-        "mē nunc, cum esse crēdent servum et cōnservum",
-        "cum crēdent esse. ..",
-        "eiusdem familiae haud quisquam quaeret, quī siem aut quid vēnerim.",
-        "8 B",
-        "mōrem",
-        "Pater nunc intus suō animō mōrem gerit:",
-        "grātum",
-        "animō",
-        "cubat complexus cuius cupiēns maximē est.",
-        "complectī",
-        "plexus",
-        "Quae ill! ad legiōnem facta sunt memorat pater",
-        "cupiēns",
-        "illī ad'v",
-        "meus Alcumēnae;l illa illum censer virum",
-        "135 suum esse, quae cum moechō est! lbi nunc meus pater",
-        "moechus",
-        "memorat legiōnēs hostium ut fugāverit,",
-        "ut =quōmodo",
-        "' pactum",
-        "quō pactō sit dōrus dōnātus pliirimls.",
-        "quō",
-        "dōnāre",
-        "(Ea dōna quae illlc Amphitryonl sum datā rē",
-        "140 Nunc hodiē Amphitryō veniet hiic ab exercitiī",
-        "et servus, cuius ego ferō hanc imāginem.",
-        "nōsse",
-        "Nunc internōsse ut nōs possltis facilius,",
-        "ab",
-        "ego hās habēbō usque hk in petasō pinnuHis,",
-        "usque",
-        "ad",
-        "tum meō patrl autem torulus inerit aureus",
-        "Ī",
-        "145 sub petasō -id signum Amphitryonl nōn erit;",
-        "Ī",
-        "ea signa nēmō hŌrum farniliarium",
-        "vidēre poterit, vērum vōs vidēbitis.",
-        "[Sōsiam ā dexcrīī adveniencem cŌn.spicic.]",
-        "Sed Amphitryōnis illl est servus Sōsia, illl tuī1:",
-        "ā portiī illīc nunc hiic cum lanternā advēnit.",
-        "illīc",
-        "ĪSŌ Abigam iam ego illunc advenientem ab aedibus! ab-igere",
-        "illunc",
-        "[Mercun·us in ōstium concedic ita ūta Sōsia n6n videātur.]",
-        "cōn-cēdere",
-        "recēdere",
-        "lantern",
-        "-aef",
-        "9 Ā"
-      ],
-      "notes": []
-    }
-  ],
-  "grammar": [],
-  "vocabulary": [],
-  "pensa": []
+      "number": 1,
+    "roman": "I",
+    "slug": "prologus",
+    "latinTitle": "PROLOGVS",
+    "title": "Prologus",
+    "tagline": "Mercurius argumentum comoediae narrat",
+    "status": "complete",
+    "complete": true,
+    "readings": [
+      {
+        "id": "prologus",
+        "latinTitle": "PROLOGVS",
+        "title": "Prologus",
+        "paragraphs": [
+          "[Nox est. Mercurius ex aedibus Amphitryōnis exit. Vestītum servīlem gerēns atque in fōrmam Sōsiae servī commūtātus nūllō modō deī similis est—nisi quod pinnulae, quās in petasō gerit, significant eum esse Mercurium. In scaenam prōcēdit et spectātōrēs alloquitur.]",
+          "MERCVRIVS: Iovis iussū veniō. Nōmen Mercuriō est mihi.",
+          "Nunc argūmentum huius ēloquar tragoediae.",
+          "Quid contrāxistis frontem, quia tragoediam",
+          "dīxī futūram hanc? Deus sum, commūtāverō:",
+          "eandem hanc, sī vultis, faciam iam ex tragoediā",
+          "cōmoedia ut sit—omnibus īsdem versibus!",
+          "Ipse hanc acturū'st Iuppiter cōmoediam",
+          "et ego ūna cum illō. Nunc vōs animum advertite,",
+          "dum huius argūmentum ēloquar cōmoediae:",
+          "Haec urbs est Thēbae. In illīsce habitat aedibus",
+          "Amphitryō, nātus Argīs Alcaeō patre,",
+          "quīcum Alcumēnā est nūpta, Ēlectrī fīlia.",
+          "Is nunc Amphitryō praefectū'st legiōnibus,",
+          "nam cum Tēloboīs bellum est Thēbānō poplō.",
+          "Is prius quam hinc abiit ipsemet in exercitum,",
+          "gravidam Alcumēnam fēcit uxōrem suam.",
+          "Nam ego vōs nōvisse crēdō, ut sit pater meus,",
+          "quam liber hārum rērum multārum siet,",
+          "quantusque amātor sit quod complacitum est semel:",
+          "Is amārē occēpit Alcumēnam clam virum",
+          "ūsūramque eius corporis cēpit sibi,",
+          "et gravidam fēcit is eam compressū suō.",
+          "Nunc dē Alcumēnā ut rem teneātis rēctius:",
+          "utrimque est gravida, et ex virō et ex summō Iove!",
+          "Et meus pater nunc intus hic cum illā cubat,",
+          "et haec ob eam rem nox est facta longior,",
+          "dum cum illa quācum vult voluptātem capit.",
+          "Sed ita adsimulāvit sē quasi Amphitryō siet.",
+          "[Vestem suam servīlem ostendēns.]",
+          "Nunc nē hunc ōrnātum vōs meum admīrēminī,",
+          "quod ego hūc prōcessī sīc cum servīlī schēmā:",
+          "veterem atque antīquam rem novam ad vōs prōferam,",
+          "proptereā ōrnātus in novum incessī modum.",
+          "Nam meus pater intus nunc est eccum Iuppiter;",
+          "in Amphitryōnis vertit sēsē imāginem,",
+          "omnēsque eum esse cēnsent servī quī vident:",
+          "ita versipellem sē facit quandō lubet.",
+          "Ego servī sūmpsī Sōsiae mihi imāginem,",
+          "quī cum Amphitryōne abiit hinc in exercitum,",
+          "ut praeservīre amantī meō possem patrī,",
+          "atque ut nē, quī essem, familiārēs quaererent,",
+          "versārī crēbrō hīc cum vidērent mē domī;",
+          "nunc, cum esse crēdent servum et cōnservum suum,",
+          "haud quisquam quaeret, quī siem aut quid vēnerim.",
+          "Pater nunc intus suō animō mōrem gerit:",
+          "cubat complexus cuius cupiēns maximē est.",
+          "Quae illī ad legiōnem facta sunt memorat pater",
+          "meus Alcumēnae; illa illum cēnset virum",
+          "suum esse, quae cum moechō est! Ibi nunc meus pater",
+          "memorat legiōnēs hostium ut fugāverit,",
+          "quō pactō sit dōnīs dōnātus plūrimīs.",
+          "(Ea dōna quae illīc Amphitryōnī sunt data",
+          "abstulimus—facile meus pater quod vult facit!)",
+          "Nunc hodiē Amphitryō veniet hūc ab exercitū",
+          "et servus, cuius ego ferō hanc imāginem.",
+          "Nunc internōsse ut nōs possītis facilius,",
+          "ego hās habēbō usque hīc in petasō pinnulās,",
+          "tum meō patrī autem torulus inerit aureus",
+          "sub petasō—id signum Amphitryōnī nōn erit;",
+          "ea signa nēmō hōrum familiārium",
+          "vidēre poterit, vērum vōs vidēbitis.",
+          "[Sōsiam ā dextrā advenientem cōnspicit.]",
+          "Sed Amphitryōnis illīc est servus Sōsia,",
+          "ā portū illīc nunc hūc cum lanternā advēnit.",
+          "Abigam iam ego illum advenientem ab aedibus!",
+          "[Mercurius in ōstium concēdit ita ut ā Sōsiā nōn videātur.]"
+        ],
+        "notes": [
+          {
+            "term": "pinnula petasus",
+            "gloss": ""
+          },
+          {
+            "term": "servilis -e",
+            "gloss": "€ servus"
+          },
+          {
+            "term": "com-mūtāre",
+            "gloss": "mūtāre"
+          },
+          {
+            "term": "pinnula -ae f",
+            "gloss": "parva"
+          },
+          {
+            "term": "pinna (— penna)",
+            "gloss": ""
+          },
+          {
+            "term": "al-loqui",
+            "gloss": "ad-loqui"
+          },
+          {
+            "term": "iussus -ūs m",
+            "gloss": "iubere"
+          },
+          {
+            "term": "Iovis iussū",
+            "gloss": "ut iussit"
+          },
+          {
+            "term": "Iuppiter, Iove iubente",
+            "gloss": ""
+          },
+          {
+            "term": "&-loqui",
+            "gloss": ""
+          },
+          {
+            "term": "quia dixi *hanc (fabulam)",
+            "gloss": ""
+          },
+          {
+            "term": "tragoediam futūram",
+            "gloss": ""
+          },
+          {
+            "term": "esse\"",
+            "gloss": ""
+          },
+          {
+            "term": "commūtāverō : -mūtabō",
+            "gloss": ""
+          },
+          {
+            "term": "faciam ut eadem haec",
+            "gloss": ""
+          },
+          {
+            "term": "comoedia sit",
+            "gloss": ""
+          },
+          {
+            "term": "omnibus :isdem : nūllis",
+            "gloss": ""
+          },
+          {
+            "term": "mūtāts",
+            "gloss": ""
+          },
+          {
+            "term": "ipse Iuppiter hanc co-",
+            "gloss": ""
+          },
+          {
+            "term": "moediam āctūrus est",
+            "gloss": ""
+          },
+          {
+            "term": "u'st",
+            "gloss": "-us est"
+          },
+          {
+            "term": "huius cōmoediae",
+            "gloss": ""
+          },
+          {
+            "term": "illis-ce",
+            "gloss": "illis"
+          },
+          {
+            "term": "qui-cum",
+            "gloss": "quō-cum"
+          },
+          {
+            "term": "nupta part perf",
+            "gloss": "nūbere"
+          },
+          {
+            "term": "quicum nupta est",
+            "gloss": "cui"
+          },
+          {
+            "term": "nupta (: uxor) est",
+            "gloss": ""
+          },
+          {
+            "term": "poplus -i m",
+            "gloss": "populus"
+          },
+          {
+            "term": "ipse-met",
+            "gloss": "ipse"
+          },
+          {
+            "term": "ut",
+            "gloss": "quōmodo (: qualis)"
+          },
+          {
+            "term": ": in his rēbus (: amōri- |",
+            "gloss": ""
+          },
+          {
+            "term": "bus) multis |",
+            "gloss": ""
+          },
+          {
+            "term": "siet sient",
+            "gloss": "sit sint |"
+          },
+          {
+            "term": "eius quod ei complacitum",
+            "gloss": ""
+          },
+          {
+            "term": "clam prp-- acc: c. virum",
+            "gloss": ""
+          },
+          {
+            "term": "virō insciente |",
+            "gloss": ""
+          },
+          {
+            "term": "capere rei",
+            "gloss": "rē ūti |"
+          },
+          {
+            "term": "compressus -ūs m",
+            "gloss": ""
+          },
+          {
+            "term": "comprimere",
+            "gloss": ""
+          },
+          {
+            "term": "teneāus : sciātis",
+            "gloss": ""
+          },
+          {
+            "term": "utrim-que",
+            "gloss": "ab utrāque"
+          },
+          {
+            "term": "parte, ex utroque",
+            "gloss": ""
+          },
+          {
+            "term": "qua-cum",
+            "gloss": "cum quā"
+          },
+          {
+            "term": "voluptās -ātis f",
+            "gloss": "dolor"
+          },
+          {
+            "term": "ad-simulare",
+            "gloss": "simulare"
+          },
+          {
+            "term": "quasi (- coni)",
+            "gloss": "velut si"
+          },
+          {
+            "term": "(esset)",
+            "gloss": ""
+          },
+          {
+            "term": "mentum, vestitus",
+            "gloss": ""
+          },
+          {
+            "term": "schema -ae f (/schēma",
+            "gloss": ""
+          },
+          {
+            "term": "atis =)",
+            "gloss": "forma"
+          },
+          {
+            "term": "in-cedere -cessisse",
+            "gloss": ""
+          },
+          {
+            "term": "procedere",
+            "gloss": ""
+          },
+          {
+            "term": "eccum -— ecce (vide) eum",
+            "gloss": ""
+          },
+          {
+            "term": "imāgo : forma",
+            "gloss": ""
+          },
+          {
+            "term": "versi-pellis -e—qui pellem",
+            "gloss": ""
+          },
+          {
+            "term": "vertit (: formam mūtat)",
+            "gloss": ""
+          },
+          {
+            "term": "quando (: cum) ei libet",
+            "gloss": ""
+          },
+          {
+            "term": "pellis (",
+            "gloss": ""
+          },
+          {
+            "term": "prae-servire",
+            "gloss": "servire"
+          },
+          {
+            "term": "familiāris -is m",
+            "gloss": "servus"
+          },
+          {
+            "term": "qui",
+            "gloss": "quis: nē familiāres"
+          },
+          {
+            "term": "quaererent 'quis essem?",
+            "gloss": ""
+          },
+          {
+            "term": "cum vidērent me crebro",
+            "gloss": ""
+          },
+          {
+            "term": "(adc) hic versari",
+            "gloss": ""
+          },
+          {
+            "term": "cum crēdent mē esse",
+            "gloss": ""
+          },
+          {
+            "term": "cōn-servus -im",
+            "gloss": "servus"
+          },
+          {
+            "term": "eiusdem familiae",
+            "gloss": ""
+          },
+          {
+            "term": "siem",
+            "gloss": "sim: 'quis sim?"
+          },
+          {
+            "term": "grātum facere (suō",
+            "gloss": ""
+          },
+          {
+            "term": "animo : sibi)",
+            "gloss": ""
+          },
+          {
+            "term": "complecti -exum; com-",
+            "gloss": ""
+          },
+          {
+            "term": "plexus eam cuius māx",
+            "gloss": ""
+          },
+          {
+            "term": "cupiens (— cupidus) est",
+            "gloss": ""
+          },
+          {
+            "term": "illi adv (loc)",
+            "gloss": "illic"
+          },
+          {
+            "term": "quō pactō",
+            "gloss": "quō modō"
+          },
+          {
+            "term": "dōnāre (-- abD): aliquem",
+            "gloss": ""
+          },
+          {
+            "term": "rē donāre",
+            "gloss": "alicui remd"
+          },
+          {
+            "term": "nosse",
+            "gloss": "nOcisse"
+          },
+          {
+            "term": "inter-novisse (nos : deos",
+            "gloss": ""
+          },
+          {
+            "term": "āb hominibus)",
+            "gloss": ""
+          },
+          {
+            "term": "ūsque",
+            "gloss": "ūsque ab initio"
+          },
+          {
+            "term": "ad finem, semper",
+            "gloss": ""
+          },
+          {
+            "term": "torulus =",
+            "gloss": ""
+          },
+          {
+            "term": "£i X",
+            "gloss": ""
+          },
+          {
+            "term": "illt adv (loc)",
+            "gloss": "ilic"
+          },
+          {
+            "term": "illic (nōm m)",
+            "gloss": "ille"
+          },
+          {
+            "term": "ab-igere",
+            "gloss": "ab - agere"
+          },
+          {
+            "term": "illunc (acc m)",
+            "gloss": "illum"
+          },
+          {
+            "term": "con-cedere",
+            "gloss": "cedere"
+          },
+          {
+            "term": "recedere",
+            "gloss": ""
+          },
+          {
+            "term": "lanterna",
+            "gloss": ""
+          },
+          {
+            "term": "ae f",
+            "gloss": ""
+          }
+        ]
+      }
+    ],
+    "grammar": [],
+    "vocabulary": [],
+    "pensa": []
 }
 
 export default chapter

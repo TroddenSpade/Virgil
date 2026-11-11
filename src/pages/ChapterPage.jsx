@@ -44,7 +44,7 @@ function chapterSections(chapter, book) {
     chapter.plates?.length && { id: 'tabulae', label: 'Tabvlae', sub: 'Illustration captions' },
     chapter.grammar?.length && { id: 'grammatica', label: 'Grammatica Latīna', sub: 'Grammar' },
     chapter.vocabulary?.length && { id: 'vocabula', label: 'Vocābula', sub: 'Vocabulary' },
-    chapter.pensa?.length && { id: 'pensa', label: 'Pēnsa', sub: 'Exercises' },
+    chapter.pensa?.length && { id: 'pensa', label: book?.exerciseLabel || 'Pēnsa', sub: 'Exercises' },
   ]
     .filter(Boolean)
     .map((section, index) => ({ ...section, num: ROMAN[index] || String(index + 1) }))
@@ -225,7 +225,11 @@ function Lesson({ book, chapter }) {
 
                 {chapter.pensa?.length > 0 && (
                   <section className="lesson__section" id="pensa">
-                    <SectionHead num={sectionNum('pensa')} latin="Pēnsa" english="exercises" />
+                    <SectionHead
+                      num={sectionNum('pensa')}
+                      latin={sections.find((section) => section.id === 'pensa')?.label || 'Pēnsa'}
+                      english="exercises"
+                    />
                     <Pensum pensa={chapter.pensa} />
                   </section>
                 )}

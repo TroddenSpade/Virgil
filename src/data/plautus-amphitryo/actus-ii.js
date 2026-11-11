@@ -1,687 +1,1944 @@
+// Actus II — ACTVS SECVNDVS
+// Source: T. Maccius Plautus, Amphitryo Comoedia, ed. Hans H. Ørberg (Hackett, 2014).
+// Latin text and marginalia follow the printed edition.
+
 const chapter = {
-  "number": 3,
-  "roman": "III",
-  "slug": "actus-ii",
-  "latinTitle": "ACTVS SECVNDVS",
-  "title": "Actus II",
-  "tagline": "T. Maccius Plautus",
-  "status": "complete",
-  "complete": true,
-  "readings": [
-    {
-      "id": "actus-ii",
-      "latinTitle": "ACTVS SECVNDVS",
-      "title": "",
-      "paragraphs": [
-        "ACTVS IĪ",
-        "[Prīmā liīce Amphitryō ā portū advēnit cum Sosiīī.",
-        "qu'ī cistulam obsigniitam fert . Sōsia dominŌ iam niirriīvit",
-        "ante aedēs alterū.m Sō siam offendisse. ']",
-        "= forte in venīre (rem",
-        "inexspectātam) , AMPHITRYŌ",
-        "Ī",
-        "secundum (adt•) Īre Age, Ī tīī secundum!",
-        "= sequl",
-        "SŌSIA Sequor, subsequor tē.",
-        "AMPHITRYŌ",
-        "Scelestissime, audēs mihl praedicāre id:",
-        "'domī tē esse nunc' quī hiē ades?",
-        "SŌSIA Vēra dkō.",
-        "AMPHITRYŌ",
-        "hldificarV-ārē eliīdere Thn' mē, verberō, audēs erum liidificārī?",
-        "=",
-        "Thne id dīcere audēs quod nēmō umquam homō",
-        "ut tempore iīnō ... vīdit, neē potest fierī: tempore iīnō",
-        "(abf)",
-        "duōbus lads",
-        "SŌSIA",
-        "Profectō, ut loquor, rēs ita est.",
-        "AMPHITRYŌ ['irīī percitus] luppiter tē perdat!",
-        "= permovēre",
-        "= merēre -uisse",
-        "meritō adt• ut meritus ' Meritō maledkās mihi, sī nōn id ita factum est.",
-        "=",
-        "sum, iiīre",
-        "utī rēs facta, esc Vērum haud mentior, rēsque utī facta dīcō.",
-        "AMPHITRYŌ",
-        "Homō hiē ēbrius est, ut opīnor.",
-        "17 B",
-        "SŌSIA",
-        "575 Utinam ita essem!",
-        "AMPHITRYŌ Optās quae facta. quae",
-        "SōsiA",
-        "Egone?",
-        "AMPHITRYŌ Ttī is tic. Ubi bibistī?",
-        "istīc",
-        "tiī",
-        "SŌSIA",
-        "576 Nusquam equidem bibī. nusquam",
-        "locō",
-        "AMPHITRYŌ Quid hoc sit sit :",
-        "quid",
-        "hominis? mo,",
-        "SŌSIA Equidem deciēs dīxī:",
-        "577 domī ego sum, inquam-ecquid audīs?- ec-quid",
-        "num",
-        "et apud tē adsum Sōsia īdem!",
-        "satin'",
-        "578 Satin' hoc plānē, satin' disertē, disertus",
-        "bene",
-        "ere, nunc videor tibi lociitus esse? disertē",
-        "AMPHITRYŌ",
-        "592 Quō id pact6 potest nam quō-nampāctō",
-        "id",
-        "fierī, nunc ut tīī hiē sīs et domī? nunc",
-        "SŌSIA",
-        "Sum profectō et hiē et illīc, hoc cuivīs mīrārī licet; cui -vīs",
-        "(omnī",
-        "595 neque tibi, Amphitryō, istuc mīrum magis vidētur quam mīrum,",
-        "mihi.",
-        "AMPHITRYŌ",
-        "Quō modo?",
-        "nihil",
-        "SōsiA Nihil6, inquam, mīrum magis tibi istūc quam mihi. comp",
-        "nihilō",
-        "Neque- ita mē dī ament! - crēdēbam prim6 mihimet tī bī",
-        "Sōsiae,",
-        "18 Ā",
-        "ACTVS IĪ",
-        "illīc ego met : ille alter donee Sōsiā illīc egomet fēcit sibi utī crēderem!",
-        "ego",
-        "Ī",
-        "rēs",
-        "nārrāre ēdissertāvit. Tum fōrmam ūna abstulit cum nōmine!",
-        "iīna cum nōmine",
-        "= Neque lac lactis magis est simile quam ille ego",
-        "magis simile similius",
-        "ille ā leer ego",
-        "domum",
-        "AMPHITRYŌ",
-        "Quid igitur?",
-        "multō prius ... quam SōsiA ... prius multō ante aedēs stābam",
-        "advēneram!",
-        "quās niigās niimīs~ Quās-mālum!-nūgās? Satin' tū sānus es?",
-        "SōsiA Sīc sum",
-        "AMPHITRYŌ",
-        "nescioquid malī mala Huic hominī nescioquid est malī mala obiectum",
-        "māniī ob-iectum est",
-        "(quod eum Īnsānum postquam ā mē abiit.",
-        "fēcit !)",
-        "AMPHITRYŌ",
-        "Quis tē verberāvit?",
-        "AMPHITRYŌ",
-        "SŌSIA",
-        "Tuus est servus.",
-        "iīn6 tē : cum tē iīnum AMPHITRYŌ Mihi quidem ūnō tē plūs etiam est quam",
-        "habeam",
-        "18 B",
-        "N eque post quam sum nat us habuī nisi tē servum Sō siam.",
-        "SōsiA",
-        "At ego nunc, Amphitryō, dīcō: Sōsiam servum tuum",
-        "praeter mē alterum, inquam, adveniēns faciam ut offēn- faciam",
-        "rum",
-        "dās domī,",
-        "Dāvō prōgnātum patre eōdem quō ego sum, fōrma, ae- eadem",
-        "dem",
-        "tate item",
-        "615 quā ego sum. Quid opū'st verbīs? Geminus Sōsia hiē geminus",
-        "factū'st tibi!",
-        "ī",
-        "AMPHITRYŌ",
-        "Nimia memorās mīrā. Sed vīdistīn' uxōrem meam? nimius",
-        "mīrā",
-        "SŌSIĀ rēs",
-        "quīn",
-        "Quīn intrō Īre in aedēs numquam licitum est. licēre",
-        "mihi",
-        "AMPHITRYŌ Quis tē prohibuit?",
-        "SŌSIA",
-        "Sōsia ille quem iam diidum dlcō, is quī mē contudit. iam",
-        "=",
-        "AMPHITRYŌ",
-        "Quis istīc Sōsia est?",
-        "SōsiA Ego, inquam. Quotiēs dīcendum est tibi?",
-        "AMPHITRYŌ",
-        "620 Sed quid ais? num obdormīvistī diidum? ob-dorrnīre",
-        "incipere",
-        "SōsiA Nusquam gentium . nusquam",
-        "terrārum",
-        "AMPHITRYŌ",
-        "Ibi forte istum sī vīdissēs quendam in somnīs Sōsiam? forte",
-        "tāsse",
-        "SŌSIA",
-        "Ego nōn soleō somnīculōsē mel erī imperia persequL somnicul6sē",
-        "persequī",
-        "Vigilāns vīdī, vigilāns nunc ut videō, vigilāns fābulor",
-        "19 Ā",
-        "ACTVS IĪ",
-        "mē vigilantem vīgī-",
-        "lāns ... contudit",
-        "AMPHITRYŌ",
-        "Quis homō?",
-        "SōsiA Sōsia, mquam, ego ille. Quaesō,",
-        "intellegis?",
-        "AMPHITRYŌ",
-        "ad·v Quī-malum!-intellegere quisquam potis est?",
-        "quī (abfJ =quōmodo",
-        "SŌSIA",
-        "Vērum āctūtum nōscēs, cum illum nōscēs servum",
-        "AMPHITRYŌ",
-        "Sequēre hāc igitur mē; nam ml istuc prlmum",
-        "= quaerēre (causam)",
-        "quīrere opus est",
-        "quem com item habēns",
-        "suum advenientem ·videt.]",
-        "ALCVMENA",
-        "< Ita divls est placitum, voluptātem ut maeror comes",
-        "rēre",
-        "Nam ego id nunc experior dom6 atque ipsa dē",
-        "domō : ex meā rē",
-        "cui",
-        "parumper data est, dum vir! ml potestās videndī",
-        "vir! videndf potest:is mihi",
-        "fuit : virum vidēre",
-        "noctem iīnam modō-atque is repente abiitī:ī mē",
-        "pōtū!",
-        "Sōla hiē mihi nunc videor, quia ille hinc abest",
-        "ego am6 praeter",
-        "praeter omnēs : prae",
-        "omnibus",
-        "19 B",
-        "Ī",
-        "Plūs aegrī ex abitū virī quam ex adventū voluptātis",
-        "aegrurn",
-        "capere",
-        "cepL Sed hoc mē beat",
-        "beāre",
-        "Ī",
-        "saltern, cum perduellēs vīcit et domum laudis compos",
-        "compos",
-        "possidēns;",
-        "revēnit:",
-        "laudern",
-        "sōlāciurn",
-        "id sōlāciō est. cōnsōlātur;",
-        "mihi",
-        "Absit, dummodo laude partā",
-        "pārēre",
-        "645 domum recipiat sē; feram et perferam usque",
-        "sē rē-cipere",
-        "abitum erus animō fortī atque offirmātō, id modo sī",
-        "offirrnatūs",
-        "stāns",
-        "mercēdis sī modo",
-        "rnercēs",
-        "datur mī, ut meus victor vir bellī clueat.",
-        "cluere",
-        "Ū! rneus",
-        "Virtūs praemium est optimum,",
-        "appellētur",
-        "virtūs omnibus rēbus anteit profectō:",
-        "ferendurn",
-        "650 llbertās , saliīs, vītā, rēs et parentēs, patria et prōgnātī",
-        "prōgnātī",
-        "tūtantur, servantur ...",
-        "tīītarē",
-        "AMPHITRYŌ [quī uxārem n0ndum videt, ad Sōsiam]",
-        "654 Edepol mē uxōrī exoptātum crēdō adventūrum domum,",
-        "dē",
-        "655 quae mē ā mat, quam contrā amō, praesertim rē gestā bene,",
-        "<ad-venīre)",
-        "victīs hostibus: quōs nēmō posse superārī ratū'st,",
-        "ratus",
-        "arbitrātus",
-        "eōs auspiciō meō atque ductū prīmō coetū vīcimus.",
-        "coetus",
-        "exspectātus",
-        "Certē enim mē illī exspectātum optātō ventūrum sciō. spērātus,",
-        "optātō",
-        "SŌSIA",
-        "rēre",
-        "Quid? mē nōn rēre exspectātum amīcae ventūrum meae? nōnne",
-        "rneae",
-        "[Amphitryōnem cōnspiciēns] tiirurn",
-        "ALCVMENA",
-        "660 Meus vir hīe quidem est.",
-        "AMPHITRYŌ [ad Sōsiam] Sequēre hāc tū mē!",
-        "ALCVMĒNĀ Quidnam ille revertitur quid-narn?",
-        "aibat",
-        "quī dūdum 'properāre sē' aibat? An ille mē temptat sciēns ternptāre",
-        "20 Ā",
-        "ACTVS IĪ",
-        ": ut (=quōmodo) sē ab- atque id sē vult experlrl, suum abitum ut deslderem?-",
-        "semem dēsidērem",
-        "inYilus -ā -urn ...... libēns; Ēcastor! mēd haud invītā sē domum recipit suam!",
-        "mē in vīta : mē niilente",
-        "viam īre (earn cōnī praes",
-        "1 sg <īre) versum,",
-        "[Alcumēnā tacitā ·virō obviam it .]",
-        "AMPHITRYŌ [laetus ad Alcumēnam accēdēns]",
-        "optātus",
-        "stamere",
-        "haud vīdī magis exspectā- SŌSIA [sēcum] Haud vīdī",
-        "tum adūnīre quemquam",
-        "haudquisquam (: nemīī l Exspectātum eum saliitat magis haud quisquam",
-        "eum magis exspectātum",
-        "saliitatquamcanem",
-        "AMPHITRYŌ [ad Alcumēnam]",
-        "cum : quoniam Cum tē gravidam et cum tē pulchrē plēnam",
-        "ALCVMENA",
-        "obsecrii tē (: dīē mihi ,",
-        "quaesiī) Obsecrō, ēcastor, quid tiī mē derldicul:ī grātia",
-        "rīdicula ; d.ī grātia sīc saliitās atque appellās, quasi diidum nōn vldērīs?",
-        "= dērīdendī grātia",
-        "Immō equidem tē, nisi nunc, hodiē nusquam",
-        "ALCVMENA",
-        "Cūr negās?",
-        "AMPHITRYŌ Quia vēra didicī dīcere.",
-        "n!ctum/īiistum est",
-        "20 B",
-        "quid animī habeam? Sed quid hue revertiminī v6s tam",
-        "cito? com-morārī",
-        "auspicium",
-        "690 Ante auspicium commorātum est an tempestīī.s continet, proficlscī",
-        "cōn-tinēre",
-        "quī nōn abiistī ad legiōnēs, ita utī dūdum dīxerās? dīxerās",
-        "AMPHITRYŌ",
-        "Dūdum? quam dūdum istūc factum est?",
-        "ALCVMENA Temptīī.s. lam dūdum, modo. metemptās",
-        "AMPHITRYŌ [ad Sōsiam]",
-        "696 Haec quidem dēlīrāmenta loquitur! dēlīrāmenta",
-        "=",
-        "SōsiA [ad Amphitryōnem] Paulisper manē, manē",
-        "dum ēdormīscat ūnum somnum! ē-dormīscere",
-        "=",
-        "AMPHITRYŌ Quaene vigilāns somniat? quae-nē",
-        "somniāre",
-        "ALCVMENA vidēre",
-        "Equidem ēcastor vigilō et vigiliī.ns id quod factum est",
-        "fīī.bulor:",
-        "nam dūdum ante lūcem et istunc et tē vidL istunc",
-        "(: Sōsiam",
-        "AMPHITRYŌ Quō in locō?",
-        "ALCVMENA",
-        "700 Hie in aedibus ubi til habitīī.s.",
-        "Ā.'v\\PHITRYŌ Numquam factum est!",
-        "SŌSIA ~ōn racēs?",
-        "nōn",
-        "Quid sī ē portū nāvis hue nōs dormientēs dētulit? dē-ferre",
-        "AMPHITRYŌ",
-        "Etiam tū quoque adsentiī.rīs huic? ad-sentiirl",
-        "sent!rē",
-        "SōSIA Quid vīs fierī?-",
-        "707 AMPHITRYŌ Tacē!",
-        "21 Ā",
-        "ACTVS IĪ",
-        "ALCVMĒNA Quidvīs",
-        "Ā.\\-\\PHITRYŌ",
-        "superbiā-aef<superbus Num tibi aut stultitiā accessit aut superat superbia?",
-        "!",
-        "ALCVMĒNA",
-        "quī ad<:= quōmodo",
-        ": in mēmem Z'enir Quī istuc in mentem est tibi ex mē, mī vir, percontārier?",
-        "AMPHITRYŌ",
-        "amid-hāc= antehāc Quia salŪtāre advenientem mē solēbās antidhāc,",
-        "ut eae quae pudīcae sum",
-        "suōs virōs appelliīre appellāre itidem ut pud:icae suōs virōs quae sunt",
-        "sō lent",
-        "--eō",
-        "+genJabl: ē. reī/rē =quī",
-        "rem nōn habet, sine rē !",
-        "ALCVMĒNA",
-        "Ēcastor equidem tē certō heri hue advenientem",
-        "et salutav1 et 'valuissēsne usque' exquīsīvī simul,",
-        "ferre tulisseltetulisse: tē-",
-        "Thn' her! hunc salūtāvistī?",
-        "ALCVMĒNA Et tē quoque etiam,",
-        "AMPHITRYŌ",
-        "Th mē heri hīe vīdistī?",
-        "mē ALCVMĒ~Ā Ego, inquam, sī vīs deciēs",
-        "sī ,·Is deciēs (idem )",
-        "dīcere",
-        "AMPHITRYŌ",
-        "In somnīs fortasse? l",
-        "ALCVMĒ~Ā Immō vigilāns .",
-        "(+ace)",
-        "SŌSIA",
-        "Quid tibi est?",
-        "21 B",
-        "bīlis",
-        "SŌSIA Ātra bill percīta est: fluēns",
-        "facere",
-        "nūlla rēs tam dēlī:rantēs hominēs concinnat cito. tam",
-        "ramēs",
-        "ALCVMEKA facit",
-        "730 Equidem ēcastor sāna et salva sum.",
-        "AMPHITRYŌ Cūr igitur praedicās",
-        "Ī",
-        "'tē heri mē vīdisse', quī hāc noctū in portum advectī advectī",
-        "sum",
-        "sum us?",
-        "quiēscere",
-        "lbī cēnāvī atque ibi quiēvī in nāvī noctem perpetem, navz",
-        "neque meum pedem hue intulī etiam in aedēs, ut cum tum:",
-        "ut (",
-        "exercitū",
-        "hinc profectus sum ad Tēloboās hostēs eōsque ut vī-",
-        "ClmUS.",
-        "ALCVMENA",
-        "735 Immō mēcum cēnāvistī et mēcum cubuistī. cubāre",
-        "AMPHITRYŌ Quid est?",
-        "ALCVMĒNA",
-        "Vērā dicō.",
-        "AMPHITRYŌ Nōn quidem hercle dē hāc rē! - dē aliīs dē aliīs",
-        "z·erā",
-        "nescio.",
-        "ALCVMENA",
-        "Prīmulō dīlūculō abiistī ad legiōnēs. prīmulus",
-        "dīlūculum",
-        "AMPHITRYŌ Quō modo? lūx",
-        "SōsiA",
-        "Rēctē dīcit ut commeminit: somnium nārrat tibi . somnium",
-        "somnls",
-        "AMPHITRYŌ",
-        "Tacē tū! [Ad Alcumēnam] Th diē! Egone abs tē abiī hinc",
-        "hodiē cum dīlūculō? '",
-        "22 Ā",
-        "ACTVS IĪ",
-        "ALCVMĒNA",
-        "ut =quōmodo",
-        "AMPHITRYŌ",
-        "An iam id tii scīs?",
-        "namque",
-        "AMPHITRYŌ",
-        "Egone istuc d!xī?",
-        "AMPHITRYŌ [ad Sōsiam]",
-        "Audīvistīn' tiī mē nārrāre haec hodiē?",
-        "SŌSIA Cbī ego audlverim?",
-        "AMPHITRYŌ",
-        "hanc : Alcumēnam Hanc roga!",
-        "SōsiA M.ē quidem praesente numquam factum'st",
-        "ALCVMENA [ad Amphitryōnem]",
-        "mīrum est quīn (: ciir Mīrum quīn tē adversus dlcat!",
-        "nōn ; ādYersu s 1 =cōn-",
-        "tra : tē dicat AMPHITRYŌ [ad Sōsiam] Sōsia, age, mē hue",
-        "SŌSIA",
-        "Spectō.",
-        "c~ adsentārī AMPHITRYŌ Yērā volō loquī tē , nōlō adsentarl",
-        "Audīvistīn' tīī hodiē mē illl dīcere ea quae illa",
-        "SōsiA",
-        "Quaesō edepol, num tīī quoque etiam Insanls,",
-        "delir:īre",
-        "mē interrogās'",
-        "22 B",
-        "quī ipsus equidem nunc prīmum istanc tēcum c6nspīcī6 istanc",
-        "simul?",
-        "AMPHITRYŌ [ad Alcumēnam]",
-        "755 Quid nunc, mulier? audīn' illum? audīn",
-        "ALCVMENA Ego vēr6--ac falsum dīcere! egoveroeumaudzō",
-        "AMPHITRYŌ",
-        "Neque tfl illī neque mihi virō ipsī crēdis?",
-        "ALCVMENA Ēō fit, quia mihi eō =",
-        "plūrimum crēdō et sciō istaec facta proinde ut prōloquor. istaec",
-        "esse",
-        "AMPHITRYŌ",
-        "Thn' 'mē heri advēnisse' dīcis?",
-        "ALCVMENA Thn' 'tē abiisse hodiē hinc' negās?",
-        "AMPHITRYŌ",
-        "Negō enimvērō, et 'mē advenīre nunc prīmum' aiō 'ad tē",
-        "domum.'",
-        "ALCVMENA",
-        "760 Obsecrō, etiamne hoc negābis: tē auream pateram mihi",
-        "dedisse dōnō hodiē, 'quā tē illl dōnātum esse' dīxerās? illl=illlc",
-        "dīxerās",
-        "AMPHITRYŌ",
-        "Neque edepol dedī neque dīxī-vērum ita animātūs fuī",
-        "itaque nunc sum, ut ea tē paterā dōnem. Sed quis istuc tibi",
-        "dīxit?",
-        "ALCVMĒNA Ego equidem ex tē audīvī et ex tuā accēpī manū",
-        "765 pateram.",
-        "AMPHITRYŌ Māne , manē, obsecrō tel [Ad Sōsiam] Nimis nimis",
-        "dēmīror, Sōsia, cte-mlran",
-        "quī illaec illīc mē dōna tum esse ā urēā pat erā sciat, quī",
-        "illaec",
-        "23 Ā",
-        "ACTVS IĪ",
-        "cōn-venīre +ace= adīre nisi tO dOdum hanc convēnistī et nārrāvistī haec",
-        "SŌSIA",
-        "Neque edepol ego dīxī neque istam vīdī nisi tēcum",
-        "AMPHITRYŌ",
-        "Quid hoc sit hominis?",
-        "<am pr6ferrī volō AMPHITRYŌ Prōferrī",
-        "ALCVMĒNA",
-        "ē ī",
-        "intus: domō Fīat. [Ad ancillam] tO, Thessala, intus pateram",
-        "prō-fertō -tōtē imp fw fert6",
-        "quā hodiē meus vir dōnāvit mē.",
-        "[Thessala aedēs intrat.]",
-        "discēdere",
-        "Enimver6 illud praeter alia mīra mīror maximē,",
-        "sī haec habet pateram illam.",
-        "id : Ā.lcumb wm habēre pā- SōsiA An etiam crēdis id ?--quae in hāc",
-        "teram , quae .. .",
-        "tū6 signa obsignāta fertur.",
-        "sall'um : integrum AMPHITRYŌ Salvum signum est?",
-        "SŌSIA",
-        "AMPHITRYŌ [signum fnspicīēns]",
-        "Rēctē, ita est ut obsignāvī.- -",
-        "[Thessala pateram effert et Alcumēnae tnīdit.]",
-        "ALCVMĒNA Quid verbīs",
-        "bae: nun-cī-am l estne haec paterā quā dōnātū's illīc?",
-        "23 B",
-        "AMPHITRYŌ Summe luppiter!",
-        "Quid ego videō? Haec ea est profectō patera .-Periī,",
-        "Sōsia!",
-        "SŌSIA pol",
-        "haec",
-        "Aut pol haec praestigiātrīx mulier multō maxima est, praesllgiātor",
-        "/-trlx",
-        "aut pateram hiē inesse oportet. [Cistulam osrendic.] /quae",
-        "hominēs",
-        "AMPHITRYŌ Agedum, exsolve cistulam! age-dum",
-        "SŌSIA (: aperlre)",
-        "Quid ego istam exsolvam? Obsignāta est rēctē.-Rēs",
-        "gesta est bene:",
-        "785 tiī peperistī Amphitryōnem alium, ego alium peperī Sō-",
-        "stam,",
-        "nunc sī patera pateram peperit, omnēs congemināvimus! (nōs)",
-        "congeminatl",
-        "AMPHITRYŌ minī",
-        "Certum est aperīre atque īnspicere. certum",
-        "SōsiA Vidē, sīs, signī quid siet, quid",
-        "stgnum",
-        "nē posterius in mē culpam cōnferās. posterius",
-        "culpā",
-        "AMPHITRYŌ Aperī modō! sandl;",
-        "eum",
-        "nam haec quidem nōs dēlīrantēs facere dictīs postulat. postulat",
-        "ALCVMENA [pateram ostendēns]",
-        "790 Unde haec igitur est nisi abs tē, quae mihi dōnō data est?",
-        "AMPHITRYŌ",
-        "Opus mī est istuc exquīsit6. : mihi",
-        "exqulrere",
-        "SŌSIA [ cistulam aperiēns] luppiter, prō luppiter!",
-        "AMPHITRYŌ",
-        "Quid tibi est?",
-        "SōsiA Hiē patera nūlla in cistulā est!",
-        "24 Ā",
-        "ACTVS IĪ",
-        "AMPHITRYŌ Quid ego",
-        "SŌSIA",
-        "ld quod vērum'st.",
-        "are; cum crucīātīi tū6",
-        "erit (: ALCVMĒNĀ [pateram ostendēns]",
-        "cruciāberis)",
-        "Haec quidem appāret.",
-        "AMPHITRYŌ Quis igitur tibi dēdit?",
-        "is quī mē interrogat ALCVMENA Quī",
-        "SŌSIA [ad Amphitryōnem]",
-        "Mē captās, quia tiite ab nāvī clanculum hue alia",
-        "prae-currere -cucurrisse praecucurristī, atque hinc pateram tiltē exēmistī",
-        "bane cisrulam riirsus ob-",
-        "signat•istī AMPHITRYŌ",
-        "=",
-        "eī mihi! vae mihi! Eī mihi! lam til quoque huius adiuvās īnsāniam?",
-        "[Ad Alcumēnam] Ain' 'heri nōs advēnisse hilc?'",
-        "ALCVMĒNA Ā.iō, adveniēnsque",
-        "mē saliltāvistī, et ego tē, et ōsculum tetulī tibi.",
-        "SŌSIA",
-        "lam illud nōn placet prīncipium dē ōscula!",
-        "(verbīs) exsequī AMPHITRYŌ [ad Alcumēnam] Perge",
-        "=",
-        "ōrdine nārrāre",
-        "ALCVMĒNA",
-        "lavārī ,",
-        "Ī",
-        "AMPHITRYŌ Quid postquam lāvī?l",
-        "interī SŌSIA [adAmphitryōnem] Eugē,",
-        "eugē! =bene'",
-        "Nunc exquīre!",
-        "24 B",
-        "AMPHITRYŌ Nē interpellā! [Ad Alcumēnam] Perge nē interpellā",
-        "interpellāre",
-        "porn) dīcere! porroadz•",
-        "=",
-        "ALCVMĒNA",
-        "dīcere",
-        "Cēna apposita est. Cēnāvistī mēcum - ego accubuī",
-        "simul. simul",
-        "AMPHITRYŌ",
-        "805 In eōdem lectō?l",
-        "ALCVMENA In eōdem.",
-        "SŌSIA Ēī! Nōn placet convīvium.",
-        "AMPHITRYŌ",
-        "Sine modō argflmenta dīcat. [Ad Alcumēnam] Quid post- sine",
-        "dīcere",
-        "quam cēnāvimus?",
-        "ALCVMĒNA",
-        "dormītāre=dormīre",
-        "'Tē dormītāre' rubās. Mēnsa ablāta est. Cubitum hinc aibās",
-        "cubitumsupin",
-        "abiimus . c.",
-        "AMPHITRYŌ",
-        "Ubī tfl cubuistī?",
-        "ALCVMENA In eōdem lectō tēcum ūna in cubiculō. ūna",
-        "AMPHITRYŌ [quz iam uxārem suam impudīcam exzstimat] im-pudīcus",
-        "Perdidistī! mē",
-        "SŌSIA Quid tibi est?",
-        "AMPHITRYŌ Haec mē modo ad mortem dedit! ad mortem",
-        "ficere",
-        "ALCVMĒNA",
-        "810 Quid iam, amābō? āmāoō",
-        "mihi)",
-        "AMPHITRYŌ Nē mē appelliī!",
-        "SŌSIA Quid tibi est?",
-        "AMPHITRYŌ Periī miser,",
-        "25 Ā",
-        "ACTVS IĪ",
-        "pudīcitiae vitium addī- qUia pudīcitiae huius vitium mē hinc absente",
-        "tum est : pudīcitia cor-",
-        "rupta est",
-        "ALCVMENA",
-        "AMPHITRYŌ",
-        "Vir ego tuus sim? Nē mē appellā, falsa, falsō",
-        "SŌSIA [sēcum]",
-        "movērī nōn posse Haeret haec rēs, sī quidem hiē iam mulier facta",
-        "rēs haeret : rēs nōn prō-",
-        "cēdit",
-        "ALCVMENA",
-        "qua ... propter= quā-",
-        "propter, quamobrem Quid ego fēcī, qua istaec propter dicta dicāmur",
-        "quā propter ista dicta",
-        "dicantur mihi AMPHITRYŌ",
-        "dē-linquere -līquisse",
-        "peccāre",
-        "sī fuī tēcum cui nūpta Quid ego tibi dē!Iquī, sī cui nūpta sum tēcum",
-        "sum",
-        "AMPHITRYŌ",
-        "quem nihil pudet Thn' mēcum fuerīs? Quid illāc impudente audācius?",
-        "audiicius est? Prō, dī immortālēs! [Ad Sōsiam] Cognōscīn'",
-        "nē tern,",
-        "SŌSIA",
-        "paene",
-        "AMPHITRYŌ Cēnāvīn' ego heri in nāvī in portll",
-        "ALCVMĒNA",
-        "lv\\ihī quoque adsunt testēs quī illud quod ego",
-        "vērum esse dīcere",
-        "AMPHITRYŌ",
-        "friistrārī = dēcipere, ēliī- Nescioquis praestigiātor hanc frllstrātur mulierem.",
-        "dēre",
-        "25 B",
-        "ALCVMENA",
-        "suprēmī",
-        "Per suprēmī rēgis rēgnum iūrō et mātrem familiās rēgnum:",
-        "pār",
-        "Iūnōnem, quam mē verērī et metuere est pār maxime, oponet",
-        "ut nēmō",
-        "ut mī extrā ūnum tē mortālis nēmō corpus corpore monālem",
-        "ter)",
-        "contigit, quō mē impudīcam faceret. corpore",
-        "quō",
-        "AMPHITRYŌ Vēra istaec velim! velim",
-        "essent",
-        "ALCVMĒNA",
-        "835 Vēra dīcō, sed nēquīquam, quoniam nōn vīs crēdere. nēquīquam",
-        "AMPHITRYŌ",
-        "Ī",
-        "Mulier es -audācter iiirās! audāx,",
-        "ALCVMENA Quae nōn dēlīquit, decet eamdecet",
-        "audācem esse, cōnfīdenter prō sē et protervē loquī. protervus",
-        "audāx;",
-        "AMPHITRYŌ [cōnfīdentiam eius adminins] cōnfīdentia",
-        "<",
-        "Satis audācter.",
-        "ALCVMĒNĀ Ū t pudīcam decet.",
-        "AMPHITRYŌ Ain'? Verbīs proba's!- probaēs",
-        "847 Mulier, istam rem inquīsītam certum est nōn āmittere. in-quīsītus",
-        "exquīsītus;",
-        "ALCVMĒNA nōn",
-        "quīrere",
-        "Edepol mē libente faciēs . mē",
-        "\\ ......",
-        "AMPHITRYŌ Quid ais? respondē mihi:",
-        "Ī",
-        "Quid sī addūcō tuum cognātum hue ā nāvī Naucratem, cō-gnātus",
-        "guīne",
-        "850 quī mēcum ūnā vectū'st ūnā nāvī, atque is sī dēnegat avunculī",
-        "dē-negāre",
-        "facta quae tū facta dīcis, quid tibi aequum est fierī? facta",
-        "multāre",
-        "Numquid causam dīcis quīn tē hoc multem mātrimōniō? āmissā)",
-        "mātrimōnium",
-        "ALCVMĒNA coniugum",
-        "(uxōrem)",
-        "Sī dellqui, nūlla causa est. dīmittere",
-        "AMPHITRYŌ Convenit. [Ad Sōsiam] Th, Sōsia, cōn",
-        "!inter",
-        "26 Ā",
-        "ACTVS IĪ",
-        "hās : servōs (quī rēs due hōs intrō!-Ego hue ab nāvī mēcum",
-        "Amphitryōnis in aedēs",
-        "cōnferant) Naucratem.",
-        "[Amphitryō ad portum abit.]",
-        "SosrA [ad Alcumēnam]",
-        "Nunc quidem praeter nōs nēmō est-diē mihi",
-        "= ecquis alius Sōsia intū'st, quī meī similis siet?",
-        "ALCVMENA",
-        "= Abīn' hinc ā mē?- Dignus dominō servus!",
-        "abīn' abls-nē (: abl 1)",
-        "dignus est",
-        "SosrA Abeō,",
-        "[ S asia inlro ā bit.]",
-        "ALCVMĒNA",
-        "fā! sō adv ...... \\'ere",
-        "Naucrate (abf) cognat6 Quidquid est, iam ex Naucrate cognātō id cognōscam",
-        "meō",
-        "[Alcumēnā aedēs intrat.]",
-        "26 B"
-      ],
-      "notes": []
-    }
-  ],
-  "grammar": [],
-  "vocabulary": [],
-  "pensa": []
+      "number": 3,
+    "roman": "III",
+    "slug": "actus-ii",
+    "latinTitle": "ACTVS SECVNDVS",
+    "title": "Actus II",
+    "tagline": "Amphitryo domum redit; Alcumena miratur",
+    "status": "complete",
+    "complete": true,
+    "readings": [
+      {
+        "id": "scaena-i",
+        "latinTitle": "SCAENA PRIMA",
+        "title": "Scaena I",
+        "paragraphs": [
+          "[Prīmā lūce Amphitryō ā portū advēnit cum Sōsiā servō, quī cistulam obsignātam fert. Sōsia dominō iam nārrāvit 'sē ante aedēs alterum Sōsiam offendisse.']",
+          "AMPHITRYO: Age, ī tū secundum!",
+          "SOSIA: Sequor, subsequor tē.",
+          "AMPHITRYO: Scelestissimē, audēs mihi praedicāre id:",
+          "'domī tē esse nunc' quī hīc ades?",
+          "SOSIA: Vēra dīcō.",
+          "AMPHITRYO: Tūn' mē, verberō, audēs erum lūdificārī?",
+          "Tūne id dīcere audēs quod nēmō umquam homō antehāc",
+          "vīdit, nec potest fierī: tempore ūnō",
+          "homō īdem duōbus locīs ut simul sit?",
+          "SOSIA: Profectō, ut loquor, rēs ita est.",
+          "AMPHITRYO: [īrā percitus] Iuppiter tē perdat!",
+          "SOSIA: Meritō maledīcās mihi, sī nōn id ita factum est.",
+          "Vērum haud mentior, rēsque utī facta dīcō.",
+          "AMPHITRYO: Homō hīc ēbrius est, ut opīnor.",
+          "SOSIA: Utinam ita essem!",
+          "AMPHITRYO: Optās quae facta.",
+          "SOSIA: Egone?",
+          "AMPHITRYO: Tū istīc. Ubi bibistī?",
+          "SOSIA: Nusquam equidem bibī.",
+          "AMPHITRYO: Quid hoc sit hominis?",
+          "SOSIA: Equidem deciēs dīxī:",
+          "domī ego sum, inquam—ecquid audīs?—",
+          "et apud tē adsum Sōsia īdem!",
+          "Satin' hoc plānē, satīn' disertē,",
+          "ere, nunc videor tibi locūtus esse?",
+          "AMPHITRYO: Quō id pactō potest nam fierī, nunc ut tū hic sīs et domī?",
+          "SOSIA: Sum profectō et hic et illīc, hoc cuivīs mīrārī licet;",
+          "neque tibi, Amphitryō, istuc mīrum magis vidētur quam mihi.",
+          "AMPHITRYO: Quō modo?",
+          "SOSIA: Nihilō, inquam, mīrum magis tibi istūc quam mihi.",
+          "Neque—ita mē dī ament!—crēdēbam prīmō mihimet Sōsiae,",
+          "dōnec Sōsia illīc egomet fēcit sibi utī crēderem!",
+          "Ōrdine omnia, ut quidque āctum est, dum apud hostēs sēdimus,",
+          "ēdissertāvit. Tum fōrmam ūna abstulit cum nōmine!",
+          "Neque lac lactis magis est simile quam ille ego similis est meī.",
+          "Nam ut dūdum ante lūcem ā portū mē praemīsistī domum...",
+          "AMPHITRYO: Quid igitur?",
+          "SOSIA: ...prius multō ante aedēs stābam quam illō advēneram!",
+          "AMPHITRYO: [quī eum īnsānum esse cēnset] Quās—malum!—nūgās? Satin tū sānus es?",
+          "SOSIA: Sīc sum ut vidēs.",
+          "AMPHITRYO: Huic hominī nescioquid est malī mala obiectum manū,",
+          "postquam ā mē abiit.",
+          "SOSIA: Fateor, nam sum obtūsus pugnīs pessimē!",
+          "AMPHITRYO: Quis tē verberāvit?",
+          "SOSIA: Egomet mēmet, quī nunc sum domī!",
+          "AMPHITRYO: Omnium prīmum, iste quī sit Sōsia, hoc dīcī volō.",
+          "SOSIA: Tuus est servus.",
+          "AMPHITRYO: Mihi quidem ūnō tē plūs etiam est quam volō!",
+          "Neque postquam sum nātus habuī nisi tē servum Sōsiam.",
+          "SOSIA: At ego nunc, Amphitryō, dīcō: Sōsiam servum tuum",
+          "praeter mē alterum, inquam, adveniēns faciam ut offendās domī,",
+          "Dāvō prōgnātum patre eōdem quō ego sum, fōrma, aetāte item",
+          "quā ego sum. Quid opū'st verbīs? Geminus Sōsia hīc factū'st tibi!",
+          "AMPHITRYO: Nimia memorās mīra. Sed vīdistīn' uxōrem meam?",
+          "SOSIA: Quīn intrō īre in aedēs numquam licitum est.",
+          "AMPHITRYO: Quis tē prohibuit?",
+          "SOSIA: Sōsia ille quem iam dūdum dīcō, is quī mē contudit.",
+          "AMPHITRYO: Quis istīc Sōsia est?",
+          "SOSIA: Ego, inquam. Quotiēs dīcendum est tibi?",
+          "AMPHITRYO: Sed quid ais? Num obdormīvistī dūdum?",
+          "SOSIA: Nusquam gentium.",
+          "AMPHITRYO: Ibi forte istum sī vīdissēs quendam in somnīs Sōsiam?",
+          "SOSIA: Ego nōn soleō somnīculōsē meī erī imperia persequī.",
+          "Vigilāns vīdī, vigilāns nunc ut videō, vigilāns fābulor,",
+          "vigilantem ille mē iam dūdum vigilāns pugnīs contudit!",
+          "AMPHITRYO: Quis homō?",
+          "SOSIA: Sōsia, inquam, ego ille. Quaesō, nōnne intellegis?",
+          "AMPHITRYO: Quī—malum!—intellegere quisquam potis est? Ita nūgās blatīs!",
+          "SOSIA: Vērum āctūtum nōscēs, cum illum nōscēs servum Sōsiam.",
+          "AMPHITRYO: Sequēre hāc igitur mē; nam mī istūc prīmum exquīsītō est opus."
+        ],
+        "notes": [
+          {
+            "term": "offendere -disse -ēnsum",
+            "gloss": ""
+          },
+          {
+            "term": "forte invenire (rem",
+            "gloss": ""
+          },
+          {
+            "term": "inexspectātam)",
+            "gloss": ""
+          },
+          {
+            "term": "secundum (ad^) ire",
+            "gloss": ""
+          },
+          {
+            "term": "sequi",
+            "gloss": ""
+          },
+          {
+            "term": "lūdificari/-āre",
+            "gloss": "elūdere"
+          },
+          {
+            "term": "ut tempore ūno",
+            "gloss": ""
+          },
+          {
+            "term": "duobus locis (abl) ^ in",
+            "gloss": ""
+          },
+          {
+            "term": "duōbus locis",
+            "gloss": ""
+          },
+          {
+            "term": "per-ciēre -ciisse -citum",
+            "gloss": ""
+          },
+          {
+            "term": "permovēere",
+            "gloss": ""
+          },
+          {
+            "term": "merēri -itum esse (dēp)",
+            "gloss": ""
+          },
+          {
+            "term": "merere -uisse",
+            "gloss": ""
+          },
+          {
+            "term": "meritō adv",
+            "gloss": "ut meritus"
+          },
+          {
+            "term": "uti rēs facta;est",
+            "gloss": ""
+          },
+          {
+            "term": "quae facta sunt",
+            "gloss": ""
+          },
+          {
+            "term": "istic (nōm m)",
+            "gloss": "iste"
+          },
+          {
+            "term": "tū Istic",
+            "gloss": "tū ipse"
+          },
+          {
+            "term": "nusquam ad^",
+            "gloss": "nūllo"
+          },
+          {
+            "term": "loco",
+            "gloss": ""
+          },
+          {
+            "term": "Sit : potest esse",
+            "gloss": ""
+          },
+          {
+            "term": "quid hominis",
+            "gloss": "qui ho-"
+          },
+          {
+            "term": "mō, quālis homō",
+            "gloss": ""
+          },
+          {
+            "term": "ec-quid",
+            "gloss": "numquid"
+          },
+          {
+            "term": "num",
+            "gloss": ""
+          },
+          {
+            "term": "satin'",
+            "gloss": "satis-ne"
+          },
+          {
+            "term": "disertus -a -um",
+            "gloss": "qui"
+          },
+          {
+            "term": "bene loquitur; ade",
+            "gloss": ""
+          },
+          {
+            "term": "disertē : plane",
+            "gloss": ""
+          },
+          {
+            "term": "id fieri potest ut tū",
+            "gloss": ""
+          },
+          {
+            "term": "nunc...?",
+            "gloss": ""
+          },
+          {
+            "term": "cui-vis (dat)",
+            "gloss": "cui-libet"
+          },
+          {
+            "term": "(omni homini)",
+            "gloss": ""
+          },
+          {
+            "term": "mirum, comp magis m",
+            "gloss": ""
+          },
+          {
+            "term": "nihil, abi nihilo (ante",
+            "gloss": ""
+          },
+          {
+            "term": "comp",
+            "gloss": "nūllo modo)"
+          },
+          {
+            "term": "nihilō magis mirum istud",
+            "gloss": ""
+          },
+          {
+            "term": "tūbi eidetur",
+            "gloss": ""
+          },
+          {
+            "term": "mihi-met",
+            "gloss": "mihi (ipsi)"
+          },
+          {
+            "term": "illic egomet : ille alter",
+            "gloss": ""
+          },
+          {
+            "term": "ego",
+            "gloss": ""
+          },
+          {
+            "term": "res",
+            "gloss": ""
+          },
+          {
+            "term": "sedēre",
+            "gloss": "in castris esse"
+          },
+          {
+            "term": "ē-dissertāre",
+            "gloss": "diligenter"
+          },
+          {
+            "term": "nārrare",
+            "gloss": ""
+          },
+          {
+            "term": "ūnā cum nōmine",
+            "gloss": ""
+          },
+          {
+            "term": "magis simile",
+            "gloss": "similius"
+          },
+          {
+            "term": "ille alter ego",
+            "gloss": ""
+          },
+          {
+            "term": "ut (t perf",
+            "gloss": "postquam"
+          },
+          {
+            "term": "multō prius... quam",
+            "gloss": ""
+          },
+          {
+            "term": "illo ade",
+            "gloss": "illūc"
+          },
+          {
+            "term": "In-sānus -a -um",
+            "gloss": ""
+          },
+          {
+            "term": "quās nūgās nārrās?",
+            "gloss": ""
+          },
+          {
+            "term": "nescio-quid",
+            "gloss": "aliquid"
+          },
+          {
+            "term": "nescioquid mali malā",
+            "gloss": ""
+          },
+          {
+            "term": "manū ob-iectum est",
+            "gloss": ""
+          },
+          {
+            "term": "(quod eum insāinum",
+            "gloss": ""
+          },
+          {
+            "term": "fecit)",
+            "gloss": ""
+          },
+          {
+            "term": "ob-tundere -tudisse",
+            "gloss": ""
+          },
+          {
+            "term": "tūsum",
+            "gloss": "contundere"
+          },
+          {
+            "term": "mē-met",
+            "gloss": "mē (ipsum)"
+          },
+          {
+            "term": "qui",
+            "gloss": "quis"
+          },
+          {
+            "term": "ūnō tē : cum tē ūnum",
+            "gloss": ""
+          },
+          {
+            "term": "habeam",
+            "gloss": ""
+          },
+          {
+            "term": "faciam ut Sōsiam... alte-",
+            "gloss": ""
+          },
+          {
+            "term": "rum offendaās",
+            "gloss": ""
+          },
+          {
+            "term": "eādem fōrmā abl (: ean-",
+            "gloss": ""
+          },
+          {
+            "term": "dem fōrmam gerentem)",
+            "gloss": ""
+          },
+          {
+            "term": "geminus : alter idem",
+            "gloss": ""
+          },
+          {
+            "term": "nimius : māximus",
+            "gloss": ""
+          },
+          {
+            "term": "quin",
+            "gloss": "at (enim)"
+          },
+          {
+            "term": "licere -uisse/-itum esse",
+            "gloss": ""
+          },
+          {
+            "term": "mihi licitum est (— licuit)",
+            "gloss": ""
+          },
+          {
+            "term": "iam dūdum (- praes)",
+            "gloss": ""
+          },
+          {
+            "term": "jam diū",
+            "gloss": ""
+          },
+          {
+            "term": "ob-dormire",
+            "gloss": "dormire"
+          },
+          {
+            "term": "incipere",
+            "gloss": ""
+          },
+          {
+            "term": "nusquam gentium - n",
+            "gloss": ""
+          },
+          {
+            "term": "terrārum (: in terris)",
+            "gloss": ""
+          },
+          {
+            "term": "forte si vidissēs",
+            "gloss": "for-"
+          },
+          {
+            "term": "tasse vidisū",
+            "gloss": ""
+          },
+          {
+            "term": "somniculosē",
+            "gloss": "in somnis"
+          },
+          {
+            "term": "persequi",
+            "gloss": "exsequi"
+          }
+        ]
+      },
+      {
+        "id": "scaena-ii",
+        "latinTitle": "SCAENA SECVNDA",
+        "title": "Scaena II",
+        "paragraphs": [
+          "[Alcumēna, quae Amphitryōnem modo ā sē abīsse rētur, maesta forās exit Thessala ancilla comitāta, neque virum suum advenientem videt.]",
+          "ALCVMENA: Ita dīvīs est placitum, voluptātem ut maeror comes cōnsequātur.",
+          "Nam ego id nunc experior domō atque ipsa dē mē sciō, cui voluptās",
+          "parumper data est, dum virī mī potestās videndī fuit",
+          "noctem ūnam modō—atque is repente abiit ā mē hinc ante lūcem!",
+          "Sōla hic mihi nunc videor, quia ille hinc abest quem ego amō praeter omnēs.",
+          "Plūs aegrī ex abitū virī quam ex adventū voluptātis cēpī. Sed hoc mē beat",
+          "saltem, cum perduellēs vīcit et domum laudis compos revēnit:",
+          "id sōlāciō est.",
+          "Absit, dummodo laude parta",
+          "domum recipiat sē; feram et perferam usque",
+          "abitum eius animō fortī atque offirmātō, id modo sī mercēdis",
+          "datur mī, ut meus victor vir bellī clueat.",
+          "Virtūs praemium est optimum,",
+          "virtūs omnibus rēbus anteit profectō:",
+          "lībertās, salūs, vīta, rēs et parentēs, patria et prōgnātī",
+          "tūtantur, servantur...",
+          "AMPHITRYO: [quī uxōrem nōndum videt, ad Sōsiam] Edepol mē uxōrī exoptātum crēdō adventūrum domum,",
+          "quae mē amat, quam contrā amō, praesertim rē gesta bene,",
+          "victīs hostibus: quōs nēmō posse superārī ratū'st,",
+          "eōs auspiciō meō atque ductū prīmō coetū vīcimus.",
+          "Certē enim mē illī exspectātum optātō ventūrum sciō.",
+          "SOSIA: Quid? Mē nōn rēre exspectātum amīcae ventūrum meae?",
+          "ALCVMENA: [Amphitryōnem cōnspiciēns] Meus vir hic quidem est.",
+          "AMPHITRYO: [ad Sōsiam] Sequēre hāc tū mē!",
+          "ALCVMENA: Quidnam ille revertitur",
+          "quī dūdum 'properāre sē' aibat? An ille mē temptat sciēns",
+          "atque id sē vult experīrī, suum abitum ut dēsidērem?—",
+          "Ēcastor! Mē haud invītā sē domum recipit suam!",
+          "Magis nunc mē meum officium facere, sī huic eam adversum, arbitror.",
+          "[Alcumēnā tacitā virō obviam it.]",
+          "AMPHITRYO: [laetus ad Alcumēnam accēdēns] Amphitryō uxōrem salūtat laetus spērātam suam,",
+          "quam omnium Thēbīs vir ūnam esse optimam dīiūdicat,",
+          "quamque adeō cīvēs Thēbānī vērō rūmiferant probam!",
+          "Valuistīn' usque? Exspectātun' adveniō?",
+          "SOSIA: [sēcum] Haud vīdī magis! Exspectātum eum salūtat magis haud quisquam quam canem!",
+          "AMPHITRYO: [ad Alcumēnam] Cum tē gravidam et cum tē pulchrē plēnam aspiciō, gaudeō.",
+          "ALCVMENA: Obsecrō, ēcastor, quid tū mē dērīdiculī grātia",
+          "sīc salūtās atque appellās, quasi dūdum nōn vīderīs?",
+          "AMPHITRYO: Immō equidem tē, nisi nunc, hodiē nusquam vīdī gentium.",
+          "ALCVMENA: Cūr negās?",
+          "AMPHITRYO: Quia vēra didicī dīcere.",
+          "ALCVMENA: Haud aequum facit",
+          "quī quod didicit id dēdiscit. An perīclitāminī",
+          "quid animī habeam? Sed quid hūc revertiminī vōs tam cito?",
+          "Ante auspicium commorātum est an tempestās continet,",
+          "quī nōn abiistī ad legiōnēs, ita utī dūdum dīxerās?",
+          "AMPHITRYO: Dūdum? Quam dūdum istūc factum est?",
+          "ALCVMENA: Temptās. Iam dūdum, modo.",
+          "AMPHITRYO: [ad Sōsiam] Haec quidem dēlīrāmenta loquitur!",
+          "SOSIA: [ad Amphitryōnem] Paulisper manē, dum ēdormīscat ūnum somnum!",
+          "AMPHITRYO: Quaene vigilāns somniat?",
+          "ALCVMENA: Equidem ēcastor vigilō et vigilāns id quod factum est fābulor:",
+          "nam dūdum ante lūcem et istunc et tē vīdī.",
+          "AMPHITRYO: Quō in locō?",
+          "ALCVMENA: Hic in aedibus ubi tū habitās.",
+          "AMPHITRYO: Numquam factum est!",
+          "SOSIA: Nōn tacēs? Quid sī ē portū nāvis hūc nōs dormientēs dētulit?",
+          "AMPHITRYO: Etiam tū quoque adsentāris huic?",
+          "SOSIA: Quid vīs fierī?—",
+          "AMPHITRYO: Tacē!",
+          "[ad Alcumēnam] Alcumēnā, ūnum rogāre tē volō.",
+          "ALCVMENA: Quidvīs roga!",
+          "AMPHITRYO: Num tibi aut stultitia accessit aut superat superbia?",
+          "ALCVMENA: Quī istūc in mentem est tibi ex mē, mī vir, percontārier?",
+          "AMPHITRYO: Quia salūtāre advenientem mē solēbās antidhāc,",
+          "appellāre itidem ut pudīcae suōs virōs quae sunt solent",
+          "—eō mōre expertem tē factam adveniēns offendī domī.",
+          "ALCVMENA: Ēcastor equidem tē certō heri hūc advenientem īlicō",
+          "et salūtāvī et 'valuissēsne usque' exquīsīvī simul,",
+          "mī vir, et manum prehendī et ōsculum tetulī tibi.",
+          "SOSIA: [ad Alcumēnam] Tūn' heri hunc salūtāvistī?",
+          "ALCVMENA: Et tē quoque etiam, Sōsia.",
+          "AMPHITRYO: Tūn' mē heri hīc vīdistī?",
+          "ALCVMENA: Ego, inquam, sī vīs deciēs dīcere.",
+          "AMPHITRYO: In somnīs fortasse?",
+          "ALCVMENA: Immō vigilāns.",
+          "AMPHITRYO: Vae mīserō mihi!",
+          "SOSIA: Quid tibi est?",
+          "AMPHITRYO: Dēlīrat uxor.",
+          "SOSIA: Ātra bīlī percita est:",
+          "nūlla rēs tam dēlīrantēs hominēs concinnat cito.",
+          "ALCVMENA: Equidem ēcastor sāna et salva sum.",
+          "AMPHITRYO: Cūr igitur praedicās",
+          "'tē heri mē vīdisse', quī hāc nocte in portum advectī sumus?",
+          "Ibi cēnāvī atque ibi quiēvī in nāvī noctem perpetem,",
+          "neque meum pedem hūc intulī etiam in aedēs, ut cum exercitū",
+          "hinc profectus sum ad Tēloboās hostēs eōsque ut vīcimus.",
+          "ALCVMENA: Immō mēcum cēnāvistī et mēcum cubuistī.",
+          "AMPHITRYO: Quid est?",
+          "ALCVMENA: Vēra dicō.",
+          "AMPHITRYO: Nōn quidem hercle dē hāc rē!—dē aliīs nesciō.",
+          "ALCVMENA: Prīmulō dīlūculō abiistī ad legiōnēs.",
+          "AMPHITRYO: Quō modo?",
+          "SOSIA: Rēctē dīcit ut commeminit: somnium nārrat tibi.",
+          "AMPHITRYO: Tacē tū! [Ad Alcumēnam] Tū dīc! Egone abs tē abiī hinc hodiē cum dīlūculō?",
+          "ALCVMENA: Quis igitur nisi vōs nārrāvit mī illī ut fuerit proelium?",
+          "AMPHITRYO: An etiam id tū scīs?",
+          "ALCVMENA: Quippe quī ex tē audīvī, ut urbem maximam",
+          "expugnāvissēs rēgemque Pterelam tūtē occīderīs.",
+          "AMPHITRYO: Egone istūc dīxī?",
+          "ALCVMENA: Tūtē istīc, etiam adstante hōc Sōsiā.",
+          "AMPHITRYO: [ad Sōsiam] Audīvistīn' tū mē nārrāre haec hodiē?",
+          "SOSIA: Ubi ego audīverim?",
+          "AMPHITRYO: Hanc rogā!",
+          "SOSIA: Mē quidem praesente numquam factum'st, quod sciam.",
+          "ALCVMENA: [ad Amphitryōnem] Mīrum quīn tē adversus dīcat!",
+          "AMPHITRYO: [ad Sōsiam] Sōsia, age, mē hūc aspice!",
+          "SOSIA: Spectō.",
+          "AMPHITRYO: Vēra volō loquī tē, nōlō adsentārī mihi:",
+          "audīvistīn' tū hodiē mē illī dīcere ea quae illa autumat?",
+          "SOSIA: Quaesō edepol, num tū quoque etiam īnsānīs, cum id mē interrogās,",
+          "quī ipsus equidem nunc prīmum istanc tēcum cōnspiciō simul?",
+          "AMPHITRYO: [ad Alcumēnam] Quid nunc, mulier? Audīn' illum?",
+          "ALCVMENA: Ego vērō—ac falsum dīcere!",
+          "AMPHITRYO: Neque tū illī neque mihi virō ipsī crēdis?",
+          "ALCVMENA: Eō fit, quia mihi plūrimum crēdō et sciō istaec facta proinde ut prōloquor.",
+          "AMPHITRYO: Tūn' 'mē heri advēnisse' dīcis?",
+          "ALCVMENA: Tūn' 'tē abiisse hodiē hinc' negās?",
+          "AMPHITRYO: Negō enimvērō, et 'mē advenīre nunc prīmum' aiō 'ad tē domum.'",
+          "ALCVMENA: Obsecrō, etiamne hoc negābis: tē auream pateram mihi",
+          "dedisse dōnō hodiē, 'quā tē illī dōnātum esse' dīxerās?",
+          "AMPHITRYO: Neque edepol dedī neque dīxī—vērum ita animātūs fuī",
+          "itaque nunc sum, ut ea tē paterā dōnem. Sed quis istuc tibi dīxit?",
+          "ALCVMENA: Ego equidem ex tē audīvī et ex tuā accēpī manū pateram.",
+          "AMPHITRYO: Manē, māne, obsecrō tē! [Ad Sōsiam] Nimis dēmīror, Sōsia,",
+          "quī illaec illīc mē dōnātum esse aurea patera sciat,",
+          "nisi tū dūdum hanc convēnistī et nārrāvistī haec omnia.",
+          "SOSIA: Neque edepol ego dīxī neque istam vīdī nisi tēcum simul.",
+          "AMPHITRYO: Quid hoc sit hominis?",
+          "ALCVMENA: Vīn' prōferrī pateram?",
+          "AMPHITRYO: Prōferrī volō.",
+          "ALCVMENA: Fīat. [Ad ancillam] Ī tū, Thessala, intus pateram prōfertō forās,",
+          "quā hodiē meus vir dōnāvit mē.",
+          "[Thessala aedēs intrat.]",
+          "AMPHITRYO: [ad Sōsiam] Sēcēde hūc tū, Sōsia!—",
+          "Enimvērō illud praeter aliā mīrā mīror maximē,",
+          "sī haec habet pateram illam.",
+          "SOSIA: An etiam crēdis id?—Quae in hāc cistulā",
+          "tuō signō obsignātā fertur.",
+          "AMPHITRYO: Salvum signum est?",
+          "SOSIA: Īnspice!",
+          "AMPHITRYO: [signum īnspiciēns] Rēctē, ita est ut obsignāvī.—",
+          "[Thessala pateram effert et Alcumēnae trādit.]",
+          "ALCVMENA: Quid verbīs opū'st? Em tibi pateram, eccam!",
+          "AMPHITRYO: Cedo mī!",
+          "ALCVMENA: Age, aspice hūc, sīs, nūnciam:",
+          "estne haec paterā quā dōnātū's illīc?",
+          "AMPHITRYO: Summē Iuppiter!",
+          "Quid ego videō? Haec ea est profectō patera.—Periī, Sōsia!",
+          "SOSIA: Aut pol haec praestigiātrīx mulier multō maxima est,",
+          "aut pateram hīc inesse oportet. [Cistulam ostendit.]",
+          "AMPHITRYO: Agedum, exsolve cistulam!",
+          "SOSIA: Quid ego istam exsolvam? Obsignāta est rēctē.—Rēs gesta est bene:",
+          "tū peperistī Amphitryōnem alium, ego alium peperī Sōsiam,",
+          "nunc sī patera pateram peperit, omnēs congemināvimus!",
+          "AMPHITRYO: Certum est aperīre atque īnspicere.",
+          "SOSIA: Vidē, sīs, signī quid siet,",
+          "nē posterius in mē culpam cōnferās.",
+          "AMPHITRYO: Aperī modo!",
+          "nam haec quidem nōs dēlīrantēs facere dictīs postulat.",
+          "ALCVMENA: [pateram ostendēns] Unde haec igitur est nisi abs tē, quae mihi dōnō data est?",
+          "AMPHITRYO: Opus mī est istuc exquīsītō.",
+          "SOSIA: [cistulam aperiēns] Iuppiter, prō Iuppiter!",
+          "AMPHITRYO: Quid tibi est?",
+          "SOSIA: Hīc patera nūlla in cistulā est!",
+          "AMPHITRYO: Quid ego audiō?",
+          "SOSIA: Id quod vērum'st.",
+          "AMPHITRYO: At cum cruciātū iam, nisi appāret, tuō!",
+          "ALCVMENA: [pateram ostendēns] Haec quidem appāret.",
+          "AMPHITRYO: Quis igitur tibi dēdit?",
+          "ALCVMENA: Quī mē rogat.",
+          "SOSIA: [ad Amphitryōnem] Mē captās, quia tūtē ab nāvī clanculum hūc alia via",
+          "praecucurristī, atque hinc pateram tūtē exēmistī atque eam",
+          "huic dedistī, post hanc rūrsum obsignāstī clanculum!",
+          "AMPHITRYO: Eī mihi! Iam tū quoque huius adiuvās īnsāniam?",
+          "[Ad Alcumēnam] Ain' 'heri nōs advēnisse hūc'?",
+          "ALCVMENA: Aiō, adveniēnsque īlicō",
+          "mē salūtāvistī, et ego tē, et ōsculum tetulī tibi.",
+          "SOSIA: Iam illud nōn placet prīncipium dē ōsculō!",
+          "AMPHITRYO: [ad Alcumēnam] Perge exsequī!",
+          "ALCVMENA: Lāvistī.",
+          "AMPHITRYO: Quid postquam lāvī?",
+          "ALCVMENA: Accubuistī.",
+          "SOSIA: [ad Amphitryōnem] Eugē, optimē! Nunc exquīre!",
+          "AMPHITRYO: Nē interpellā! [Ad Alcumēnam] Perge porrō dīcere!",
+          "ALCVMENA: Cēna apposita est. Cēnāvistī mēcum—ego accubuī simul.",
+          "AMPHITRYO: In eōdem lectō?",
+          "ALCVMENA: In eōdem.",
+          "SOSIA: Eī! Nōn placet convīvium.",
+          "AMPHITRYO: Sine modō argūmenta dīcat. [Ad Alcumēnam] Quid postquam cēnāvimus?",
+          "ALCVMENA: 'Tē dormītāre' aibās. Mēnsa ablāta est. Cubitum hinc abiimus.",
+          "AMPHITRYO: Ubi tū cubuistī?",
+          "ALCVMENA: In eōdem lectō tēcum ūna in cubiculō.",
+          "AMPHITRYO: [quī iam uxōrem suam impudīcam exīstimat] Perdidistī!",
+          "SOSIA: Quid tibi est?",
+          "AMPHITRYO: Haec mē modo ad mortem dedit!",
+          "ALCVMENA: Quid iam, amābō?",
+          "AMPHITRYO: Nē mē appellā!",
+          "SOSIA: Quid tibi est?",
+          "AMPHITRYO: Periī miser,",
+          "quia pudīcitiae huius vitium mē hinc absente est additum.",
+          "ALCVMENA: Obsecrō, ēcastor, cūr istuc, mī vir, ex tēd audiō?",
+          "AMPHITRYO: Vir ego tuus sim? Nē mē appellā, falsā, falsō nōmine!",
+          "SOSIA: [sēcum] Haeret haec rēs, sī quidem hīc iam mulier facta est ex virō!",
+          "ALCVMENA: Quid ego fēcī, quā istaec propter dicta dicantur mihi?",
+          "AMPHITRYO: Tūtē ēdictās facta tua—ex mē quaeris quid dēlīquerīs?",
+          "ALCVMENA: Quid ego tibi dēlīquī, sī cui nūpta sum tēcum fuī?",
+          "AMPHITRYO: Tūn' mēcum fuerīs? Quid illāc impudente audācius?",
+          "Prō, dī immortālēs! [Ad Sōsiam] Cognōscīn' tū mē saltem, Sōsia?",
+          "SOSIA: Propemodum.",
+          "AMPHITRYO: Cēnāvīn' ego heri in nāvī in portū Persicō?",
+          "ALCVMENA: Mihi quoque adsunt testēs quī illud quod ego dicam adsentiant.",
+          "AMPHITRYO: Nescioquis praestigiātor hanc frūstrātur mulierem.",
+          "ALCVMENA: Per suprēmī rēgis rēgnum iūrō et mātrem familiās",
+          "Iūnōnem, quam mē verērī et metuere est pār maximē,",
+          "ut mī extrā ūnum tē mortālis nēmō corpus corpore",
+          "contigit, quō mē impudīcam faceret.",
+          "AMPHITRYO: Vēra istaec velim!",
+          "ALCVMENA: Vēra dīcō, sed nēquīquam, quoniam nōn vīs crēdere.",
+          "AMPHITRYO: Mulier es—audācter iūrās!",
+          "ALCVMENA: Quae nōn dēlīquit, decet",
+          "audācem esse, cōnfīdenter prō sē et protervē loquī.",
+          "AMPHITRYO: [cōnfīdentiam eius admīrāns] Satis audācter.",
+          "ALCVMENA: Ut pudīcam decet.",
+          "AMPHITRYO: Ain'? Verbīs proba's!—",
+          "Mulier, istam rem inquīsītam certum est nōn āmittere.",
+          "ALCVMENA: Edepol mē libente faciēs.",
+          "AMPHITRYO: Quid ais? Respondē mihi:",
+          "Quid sī addūcō tuum cognātum hūc ā nāvī Naucratem,",
+          "quī mēcum ūnā vectū'st ūnā nāvī, atque is sī dēnegat",
+          "facta quae tū facta dīcis, quid tibi aequum est fierī?",
+          "Numquid causam dīcis quīn tē hoc multem mātrimōniō?",
+          "ALCVMENA: Sī dēlīquī, nūlla causa est.",
+          "AMPHITRYO: Convenit. [Ad Sōsiam] Tū, Sōsia,",
+          "dūc hōs intrō!—Ego hūc ab nāvī mēcum addūcam Naucratem.",
+          "[Amphitryō ad portum abit.]",
+          "SOSIA: [ad Alcumēnam] Nunc quidem praeter nōs nēmō est—dīc mihi vērum sēriō:",
+          "ecquis alius Sōsia intū'st, quī meī similis siet?",
+          "ALCVMENA: Abīn' hinc ā mē?—Dignus dominō servus!",
+          "SOSIA: Abeō, sī iubēs.",
+          "[Sōsia intrō abit.]",
+          "ALCVMENA: Nimis ēcastor facinus mīrum est, quī illī collibitum siet",
+          "meō virō sīc mē īnsimulāre falsō facinus tam mālum!",
+          "Quidquid est, iam ex Naucrate cognātō id cognōscam meō.",
+          "[Alcumēna aedēs intrat.]"
+        ],
+        "notes": [
+          {
+            "term": "me vigilantem ille vigi-",
+            "gloss": ""
+          },
+          {
+            "term": "lāns... contudit",
+            "gloss": ""
+          },
+          {
+            "term": "qui ade (abl) - quōmodo",
+            "gloss": ""
+          },
+          {
+            "term": "pots est",
+            "gloss": "potest"
+          },
+          {
+            "term": "blatire",
+            "gloss": "stulte loqui"
+          },
+          {
+            "term": "hāc adc",
+            "gloss": "hac viā"
+          },
+          {
+            "term": "ex-quirere -sivisse -situm",
+            "gloss": ""
+          },
+          {
+            "term": "quaerere (causam)",
+            "gloss": ""
+          },
+          {
+            "term": "exquisito opus est",
+            "gloss": "ex-"
+          },
+          {
+            "term": "quirere opus est",
+            "gloss": ""
+          },
+          {
+            "term": "rēri ratum",
+            "gloss": "arbitrāri"
+          },
+          {
+            "term": "aliquo comitātus",
+            "gloss": "ali-"
+          },
+          {
+            "term": "quem comitem habens",
+            "gloss": ""
+          },
+          {
+            "term": "placitum est",
+            "gloss": "placuit"
+          },
+          {
+            "term": "maeror -ōris m",
+            "gloss": "mae-"
+          },
+          {
+            "term": "rere",
+            "gloss": ""
+          },
+          {
+            "term": "cōnsequi",
+            "gloss": "sequi"
+          },
+          {
+            "term": "domō : ex meā rē",
+            "gloss": ""
+          },
+          {
+            "term": "viri videndi potestās mihi",
+            "gloss": ""
+          },
+          {
+            "term": "fuit : virum vidēre",
+            "gloss": ""
+          },
+          {
+            "term": "potui",
+            "gloss": ""
+          },
+          {
+            "term": "praeter omnes : prae",
+            "gloss": ""
+          },
+          {
+            "term": "omnibus",
+            "gloss": ""
+          },
+          {
+            "term": "capere",
+            "gloss": "accipere"
+          },
+          {
+            "term": "beāre",
+            "gloss": "beātum facere"
+          },
+          {
+            "term": "compos -otis (-- gen)",
+            "gloss": ""
+          },
+          {
+            "term": "possidens; laudis c",
+            "gloss": ""
+          },
+          {
+            "term": "laudem possidens",
+            "gloss": ""
+          },
+          {
+            "term": "cōnsōlātur; s.o (dat) est",
+            "gloss": ""
+          },
+          {
+            "term": "mihi",
+            "gloss": "consolatur mē"
+          },
+          {
+            "term": "parere",
+            "gloss": "facere, efficere"
+          },
+          {
+            "term": "sē re-cipere",
+            "gloss": "redire"
+          },
+          {
+            "term": "offirmātus -a -um - cōn-",
+            "gloss": ""
+          },
+          {
+            "term": "stāns",
+            "gloss": ""
+          },
+          {
+            "term": "si modo id mercedis (: ea",
+            "gloss": ""
+          },
+          {
+            "term": "mercēs : id praemium)",
+            "gloss": ""
+          },
+          {
+            "term": "cluere",
+            "gloss": "appellāri"
+          },
+          {
+            "term": "ut meus vir 'victor belli'",
+            "gloss": ""
+          },
+          {
+            "term": "appelletur",
+            "gloss": ""
+          },
+          {
+            "term": "ante-ire (- dat)",
+            "gloss": "prae-"
+          },
+          {
+            "term": "ferendum esse",
+            "gloss": ""
+          },
+          {
+            "term": "prognāti",
+            "gloss": "liberi"
+          },
+          {
+            "term": "tūtare",
+            "gloss": "tūtāri (dep)"
+          },
+          {
+            "term": "de optātus, grātissimus",
+            "gloss": ""
+          },
+          {
+            "term": "ad-ventūrum esse (inf fut",
+            "gloss": ""
+          },
+          {
+            "term": "ad- venire)",
+            "gloss": ""
+          },
+          {
+            "term": "ratus est (= reri)",
+            "gloss": ""
+          },
+          {
+            "term": "arbitratus est",
+            "gloss": ""
+          },
+          {
+            "term": "spēratus, optātus",
+            "gloss": ""
+          },
+          {
+            "term": "optāātō adv",
+            "gloss": "ut optatur"
+          },
+          {
+            "term": "rēre",
+            "gloss": "reris"
+          },
+          {
+            "term": "nōnne reris mē amicae",
+            "gloss": ""
+          },
+          {
+            "term": "meae exspectatum ven-",
+            "gloss": ""
+          },
+          {
+            "term": "tūrum esse?",
+            "gloss": ""
+          },
+          {
+            "term": "quid-nam?",
+            "gloss": "quid?"
+          },
+          {
+            "term": "aibat",
+            "gloss": "aiebat"
+          },
+          {
+            "term": "temptāre",
+            "gloss": "experiri"
+          },
+          {
+            "term": "sentem dēsiderem",
+            "gloss": ""
+          },
+          {
+            "term": "invitus -a -um e libens",
+            "gloss": ""
+          },
+          {
+            "term": "mē invitā : mē nolente",
+            "gloss": ""
+          },
+          {
+            "term": "viam ire (eam cont praes",
+            "gloss": ""
+          },
+          {
+            "term": "speratus",
+            "gloss": "exspectātus"
+          },
+          {
+            "term": "optātus",
+            "gloss": ""
+          },
+          {
+            "term": "di-liūdicāre",
+            "gloss": "exisumare"
+          },
+          {
+            "term": "statuere",
+            "gloss": ""
+          },
+          {
+            "term": "verō adv",
+            "gloss": "vērē"
+          },
+          {
+            "term": "rūmiferāre",
+            "gloss": "praedicare"
+          },
+          {
+            "term": "un'",
+            "gloss": "-us-ne"
+          },
+          {
+            "term": "haud vidi magis exspectā-",
+            "gloss": ""
+          },
+          {
+            "term": "tum advenire quemquam",
+            "gloss": ""
+          },
+          {
+            "term": "haudquisquam (: nēmō)",
+            "gloss": ""
+          },
+          {
+            "term": "eummagis exspectātum",
+            "gloss": ""
+          },
+          {
+            "term": "salūtatquam canem",
+            "gloss": ""
+          },
+          {
+            "term": "cum : quoniam",
+            "gloss": ""
+          },
+          {
+            "term": "obsecro £e (: dic mihi",
+            "gloss": ""
+          },
+          {
+            "term": "quaesō)",
+            "gloss": ""
+          },
+          {
+            "term": "ridicula; d.i grātiā",
+            "gloss": ""
+          },
+          {
+            "term": "deridendi grāuā",
+            "gloss": ""
+          },
+          {
+            "term": "(— d. causa)",
+            "gloss": ""
+          },
+          {
+            "term": "rēctum/iūstum est",
+            "gloss": ""
+          },
+          {
+            "term": "de-discere",
+            "gloss": "oblivisci"
+          },
+          {
+            "term": "periclitāri",
+            "gloss": "experiri"
+          },
+          {
+            "term": "com-morāāri",
+            "gloss": "morāri"
+          },
+          {
+            "term": "auspicium... : an aves te",
+            "gloss": ""
+          },
+          {
+            "term": "proficisci vetant?",
+            "gloss": ""
+          },
+          {
+            "term": "con-unēre",
+            "gloss": "tenēre"
+          },
+          {
+            "term": "dixeras : dixisti",
+            "gloss": ""
+          },
+          {
+            "term": "mē temptās",
+            "gloss": ""
+          },
+          {
+            "term": "delirāmenta -ōrum n pl",
+            "gloss": ""
+          },
+          {
+            "term": "verba hominis insāni",
+            "gloss": ""
+          },
+          {
+            "term": "mane : exspectā",
+            "gloss": ""
+          },
+          {
+            "term": "e-dormiscere (somnum)",
+            "gloss": ""
+          },
+          {
+            "term": "dormire desinere",
+            "gloss": ""
+          },
+          {
+            "term": "quae-ne",
+            "gloss": "ea-ne quae"
+          },
+          {
+            "term": "somniāre",
+            "gloss": "in somnis"
+          },
+          {
+            "term": "vidēre aliquid",
+            "gloss": ""
+          },
+          {
+            "term": "istunc (acc m)",
+            "gloss": "isum"
+          },
+          {
+            "term": "(: Sōsiam)",
+            "gloss": ""
+          },
+          {
+            "term": "nōn tacēs? : quin taces?",
+            "gloss": ""
+          },
+          {
+            "term": "dē-ferre -tulisse -latum",
+            "gloss": ""
+          },
+          {
+            "term": "senūre (atque?",
+            "gloss": ""
+          },
+          {
+            "term": "rogāre",
+            "gloss": "interrogāre"
+          },
+          {
+            "term": "stultitia -ae f",
+            "gloss": "stultus"
+          },
+          {
+            "term": "superbia-ae f",
+            "gloss": "superbus"
+          },
+          {
+            "term": "superare",
+            "gloss": "superesse"
+          },
+          {
+            "term": "qui adc",
+            "gloss": "quōmodo"
+          },
+          {
+            "term": ":inmentem venit",
+            "gloss": ""
+          },
+          {
+            "term": "percontar?",
+            "gloss": "quaerere"
+          },
+          {
+            "term": "antid-hāc",
+            "gloss": "antehāc"
+          },
+          {
+            "term": "uteae quae pudicae sunt",
+            "gloss": ""
+          },
+          {
+            "term": "suos virōs appellare",
+            "gloss": ""
+          },
+          {
+            "term": "solent",
+            "gloss": ""
+          },
+          {
+            "term": "ex-pers -rtis (€ ex- pars?",
+            "gloss": ""
+          },
+          {
+            "term": "t gen/abl: e. reVre",
+            "gloss": "qui"
+          },
+          {
+            "term": "rem nōn habet, sine rē",
+            "gloss": ""
+          },
+          {
+            "term": "osculum ferre",
+            "gloss": "o. dare"
+          },
+          {
+            "term": "ferre tulisse/tetulisse: te-",
+            "gloss": ""
+          },
+          {
+            "term": "Sl vis mē decies (Idem)",
+            "gloss": ""
+          },
+          {
+            "term": "dicere",
+            "gloss": ""
+          },
+          {
+            "term": "vae! mteri (dat)",
+            "gloss": "heu!"
+          },
+          {
+            "term": "(racc)",
+            "gloss": ""
+          },
+          {
+            "term": "dēlirāre",
+            "gloss": "insānus esse"
+          },
+          {
+            "term": "bilis -is f: atra b. e iecore",
+            "gloss": ""
+          },
+          {
+            "term": "fluēns hominēs insānos",
+            "gloss": ""
+          },
+          {
+            "term": "facere dicitur",
+            "gloss": ""
+          },
+          {
+            "term": "tam cito homines deli-",
+            "gloss": ""
+          },
+          {
+            "term": "rantēs concinnat (—",
+            "gloss": ""
+          },
+          {
+            "term": "faciO",
+            "gloss": ""
+          },
+          {
+            "term": "advecti sumus : advectus",
+            "gloss": ""
+          },
+          {
+            "term": "sum (cum ceteris)",
+            "gloss": ""
+          },
+          {
+            "term": "quiescere -ēvisse",
+            "gloss": ""
+          },
+          {
+            "term": "nāvi (abl)",
+            "gloss": "nāve"
+          },
+          {
+            "term": "In-ferre in-tulisse il-lā-",
+            "gloss": ""
+          },
+          {
+            "term": "ut (perf)",
+            "gloss": "postquam"
+          },
+          {
+            "term": "cubāre -uisse -itum",
+            "gloss": ""
+          },
+          {
+            "term": "de aliis rēbus nescio an",
+            "gloss": ""
+          },
+          {
+            "term": "vera dicās",
+            "gloss": ""
+          },
+          {
+            "term": "primulus-a-um - primus",
+            "gloss": ""
+          },
+          {
+            "term": "dilūculum -iz",
+            "gloss": "prima"
+          },
+          {
+            "term": "lūx (diei)",
+            "gloss": ""
+          },
+          {
+            "term": "somnis vidētur",
+            "gloss": ""
+          },
+          {
+            "term": "quippe qui",
+            "gloss": "quoniam"
+          },
+          {
+            "term": "namque",
+            "gloss": ""
+          },
+          {
+            "term": "tū-te",
+            "gloss": "tū (ipse)"
+          },
+          {
+            "term": "tūte istic",
+            "gloss": "tū ipse"
+          },
+          {
+            "term": "ad-stāre",
+            "gloss": "prope stāre"
+          },
+          {
+            "term": "audiverim",
+            "gloss": "audire potui"
+          },
+          {
+            "term": "hanc : Alcumenam",
+            "gloss": ""
+          },
+          {
+            "term": "mirum est quin (: cūr",
+            "gloss": ""
+          },
+          {
+            "term": "nōn; adversus (",
+            "gloss": "con-"
+          },
+          {
+            "term": "trā; tē dicat",
+            "gloss": ""
+          },
+          {
+            "term": "tē adsentāri",
+            "gloss": ""
+          },
+          {
+            "term": "insanire",
+            "gloss": "insānus esse"
+          },
+          {
+            "term": "delirāre",
+            "gloss": ""
+          },
+          {
+            "term": "istanc (acc f)",
+            "gloss": "istam"
+          },
+          {
+            "term": "audin' - audis-ne",
+            "gloss": ""
+          },
+          {
+            "term": "ego vero eum audiō",
+            "gloss": ""
+          },
+          {
+            "term": "eō",
+            "gloss": "ideo, obeam rem"
+          },
+          {
+            "term": "istaec (— ista pl) facta",
+            "gloss": ""
+          },
+          {
+            "term": "esse",
+            "gloss": ""
+          },
+          {
+            "term": "illi",
+            "gloss": "illic"
+          },
+          {
+            "term": "dixerās : dixisti",
+            "gloss": ""
+          },
+          {
+            "term": "nimis : valde",
+            "gloss": ""
+          },
+          {
+            "term": "dē-mirāri",
+            "gloss": "mirāri"
+          },
+          {
+            "term": "qui adv",
+            "gloss": "quōmodo"
+          },
+          {
+            "term": "con-venire acc",
+            "gloss": "adire"
+          },
+          {
+            "term": "vin!",
+            "gloss": "vis-ne"
+          },
+          {
+            "term": "eam proferri volo",
+            "gloss": ""
+          },
+          {
+            "term": "intus : ē domō",
+            "gloss": ""
+          },
+          {
+            "term": "pro-fertō -tōte mp fut",
+            "gloss": ""
+          },
+          {
+            "term": "sē-cedere",
+            "gloss": "a ceteris"
+          },
+          {
+            "term": "discedere",
+            "gloss": ""
+          },
+          {
+            "term": "id : Alcumenam habere pa-",
+            "gloss": ""
+          },
+          {
+            "term": "teram, quae",
+            "gloss": ""
+          },
+          {
+            "term": "salvum : integrum",
+            "gloss": ""
+          },
+          {
+            "term": "em",
+            "gloss": "ecce"
+          },
+          {
+            "term": "eccam",
+            "gloss": "ecce (vide) eam"
+          },
+          {
+            "term": "cedo! interi",
+            "gloss": "dā!"
+          },
+          {
+            "term": "SIS (€ Sl VIS)",
+            "gloss": "quaeso"
+          },
+          {
+            "term": "bae: nun-ci-am)",
+            "gloss": ""
+          },
+          {
+            "term": "pol inter?",
+            "gloss": "edepol"
+          },
+          {
+            "term": "haec mulier",
+            "gloss": ""
+          },
+          {
+            "term": "praestūgiātor -ōris n",
+            "gloss": ""
+          },
+          {
+            "term": "/-trix -icis f",
+            "gloss": "qui"
+          },
+          {
+            "term": "/quae miris artibus",
+            "gloss": ""
+          },
+          {
+            "term": "hominēs elūdit",
+            "gloss": ""
+          },
+          {
+            "term": "age-dum - age",
+            "gloss": ""
+          },
+          {
+            "term": "ex-solvere",
+            "gloss": "solvere"
+          },
+          {
+            "term": "(: aperire)",
+            "gloss": ""
+          },
+          {
+            "term": "(nos) congemināvimus",
+            "gloss": ""
+          },
+          {
+            "term": "congemināti sumus (ge-",
+            "gloss": ""
+          },
+          {
+            "term": "mini facti sumus)",
+            "gloss": ""
+          },
+          {
+            "term": "certum mii est",
+            "gloss": ""
+          },
+          {
+            "term": "signum",
+            "gloss": ""
+          },
+          {
+            "term": "posterius ad= e= prius",
+            "gloss": ""
+          },
+          {
+            "term": "culpa -ae f",
+            "gloss": "causa accū-"
+          },
+          {
+            "term": "sandi; c.am cōnferre in",
+            "gloss": ""
+          },
+          {
+            "term": "eum",
+            "gloss": "eum accūsare"
+          },
+          {
+            "term": "postulat : vult",
+            "gloss": ""
+          },
+          {
+            "term": ": mihi opus est istud",
+            "gloss": ""
+          },
+          {
+            "term": "exquirere",
+            "gloss": ""
+          },
+          {
+            "term": "cruciātus -ūs m",
+            "gloss": "cruci-"
+          },
+          {
+            "term": "āre; cum cruciatū tuō",
+            "gloss": ""
+          },
+          {
+            "term": "erit (: cruciāberis)",
+            "gloss": ""
+          },
+          {
+            "term": "is qui mē rnterrogat",
+            "gloss": ""
+          },
+          {
+            "term": "prae-currere -cucurrisse",
+            "gloss": ""
+          },
+          {
+            "term": "ex-imere -ēmisse -ēmp-",
+            "gloss": ""
+          },
+          {
+            "term": "tum",
+            "gloss": "prōmere"
+          },
+          {
+            "term": "rūrsum",
+            "gloss": "rūrsus"
+          },
+          {
+            "term": "hanc cistulam rūrsus ob-",
+            "gloss": ""
+          },
+          {
+            "term": "signāvisti",
+            "gloss": ""
+          },
+          {
+            "term": "ei mihi!",
+            "gloss": "vae mihi!"
+          },
+          {
+            "term": "insānia -ae f",
+            "gloss": "insānus"
+          },
+          {
+            "term": "(verbis) exsequi",
+            "gloss": ""
+          },
+          {
+            "term": "Ordine nārrare",
+            "gloss": ""
+          },
+          {
+            "term": "lavāre",
+            "gloss": "lavātum ire"
+          },
+          {
+            "term": "lavāri",
+            "gloss": ""
+          },
+          {
+            "term": "ac-cumbere -cubuisse",
+            "gloss": ""
+          },
+          {
+            "term": "euge! interi",
+            "gloss": "bene!"
+          },
+          {
+            "term": "nē interpellā",
+            "gloss": "noli"
+          },
+          {
+            "term": "interpellāre",
+            "gloss": ""
+          },
+          {
+            "term": "porrō ade [—]: p. dicere",
+            "gloss": ""
+          },
+          {
+            "term": "loqui pergere, plūra",
+            "gloss": ""
+          },
+          {
+            "term": "simul tē-cum",
+            "gloss": ""
+          },
+          {
+            "term": "sine dicat",
+            "gloss": "sine eam"
+          },
+          {
+            "term": "dormitāre— dormire velle",
+            "gloss": ""
+          },
+          {
+            "term": "albas",
+            "gloss": "aiēbās"
+          },
+          {
+            "term": "cubitum supin",
+            "gloss": "cubare"
+          },
+          {
+            "term": "c. ire : dormitum ire",
+            "gloss": ""
+          },
+          {
+            "term": "ūnā tē-cum",
+            "gloss": ""
+          },
+          {
+            "term": "im-pudicus -a -um",
+            "gloss": ""
+          },
+          {
+            "term": "mē perdidisti",
+            "gloss": ""
+          },
+          {
+            "term": "ad mortem dare : inter-",
+            "gloss": ""
+          },
+          {
+            "term": "ficere",
+            "gloss": ""
+          },
+          {
+            "term": "amāābo tē : quaeso (dic",
+            "gloss": ""
+          },
+          {
+            "term": "pudicitia -ae f",
+            "gloss": "pudicus"
+          },
+          {
+            "term": "pudicitiae vitium addi-",
+            "gloss": ""
+          },
+          {
+            "term": "tum est : pudicitia cor-",
+            "gloss": ""
+          },
+          {
+            "term": "rupta est",
+            "gloss": ""
+          },
+          {
+            "term": "ted (ante vocālem)",
+            "gloss": "ie"
+          },
+          {
+            "term": "haerere",
+            "gloss": "fixa esse, locō"
+          },
+          {
+            "term": "moveri nōn posse",
+            "gloss": ""
+          },
+          {
+            "term": "res haeret : rēs nōn pro-",
+            "gloss": ""
+          },
+          {
+            "term": "cedit",
+            "gloss": ""
+          },
+          {
+            "term": "quā... propter",
+            "gloss": "quā-"
+          },
+          {
+            "term": "propter, quamobrem",
+            "gloss": ""
+          },
+          {
+            "term": "quāāpropter ista dicta",
+            "gloss": ""
+          },
+          {
+            "term": "dicantur mihi",
+            "gloss": ""
+          },
+          {
+            "term": "edictare",
+            "gloss": "praedicāre"
+          },
+          {
+            "term": "de-linquere -liquisse",
+            "gloss": ""
+          },
+          {
+            "term": "lictum",
+            "gloss": "male facere"
+          },
+          {
+            "term": "peccare",
+            "gloss": ""
+          },
+          {
+            "term": "Sl fui tēcum cui nupta",
+            "gloss": ""
+          },
+          {
+            "term": "sum",
+            "gloss": ""
+          },
+          {
+            "term": "im-pudens -entis",
+            "gloss": ""
+          },
+          {
+            "term": "quem nihil pudet",
+            "gloss": ""
+          },
+          {
+            "term": "quid illac ( illa)",
+            "gloss": ""
+          },
+          {
+            "term": "audacius est?",
+            "gloss": ""
+          },
+          {
+            "term": "cognoscin'",
+            "gloss": "cognōscis-"
+          },
+          {
+            "term": "ne",
+            "gloss": ""
+          },
+          {
+            "term": "prope-modum - prope",
+            "gloss": ""
+          },
+          {
+            "term": "paene",
+            "gloss": ""
+          },
+          {
+            "term": "ad-sentire— idem senure",
+            "gloss": ""
+          },
+          {
+            "term": "vērum esse dicere",
+            "gloss": ""
+          },
+          {
+            "term": "frūstrāri",
+            "gloss": "dēcipere, ēlū-"
+          },
+          {
+            "term": "dere",
+            "gloss": ""
+          },
+          {
+            "term": "suprēmi rēgis (Iovis)",
+            "gloss": ""
+          },
+          {
+            "term": "regnum: caelum",
+            "gloss": ""
+          },
+          {
+            "term": "pār est",
+            "gloss": "aequum est"
+          },
+          {
+            "term": "oportet",
+            "gloss": ""
+          },
+          {
+            "term": "ut nēmo... : 'neminem",
+            "gloss": ""
+          },
+          {
+            "term": "mortālem extrā (: prae-",
+            "gloss": ""
+          },
+          {
+            "term": "ter) te ūnum mi corpus",
+            "gloss": ""
+          },
+          {
+            "term": "corpore suō contigisse'",
+            "gloss": ""
+          },
+          {
+            "term": "quō (*-cont)",
+            "gloss": "ut (eō)"
+          },
+          {
+            "term": "velim (: utinam) ista vēra",
+            "gloss": ""
+          },
+          {
+            "term": "essent",
+            "gloss": ""
+          },
+          {
+            "term": "nēquiquam - frūstrā",
+            "gloss": ""
+          },
+          {
+            "term": "audāx, adc audācter",
+            "gloss": ""
+          },
+          {
+            "term": "eam decet",
+            "gloss": ""
+          },
+          {
+            "term": "protervus -a -um",
+            "gloss": ""
+          },
+          {
+            "term": "audāx; ade -€",
+            "gloss": ""
+          },
+          {
+            "term": "confidentia -ae f",
+            "gloss": ""
+          },
+          {
+            "term": "cōnfidens",
+            "gloss": ""
+          },
+          {
+            "term": "proba es",
+            "gloss": ""
+          },
+          {
+            "term": "in-quisitus -a -um",
+            "gloss": "nōn"
+          },
+          {
+            "term": "exquisitus; rem i.am",
+            "gloss": ""
+          },
+          {
+            "term": "nōn ā-mittere : rem ex-",
+            "gloss": ""
+          },
+          {
+            "term": "quirere",
+            "gloss": ""
+          },
+          {
+            "term": "mē libente—ut mihi libet",
+            "gloss": ""
+          },
+          {
+            "term": "(=o mē invitā)",
+            "gloss": ""
+          },
+          {
+            "term": "ad-dūcere",
+            "gloss": ""
+          },
+          {
+            "term": "guine coniūnctus (ut",
+            "gloss": ""
+          },
+          {
+            "term": "avunculi filius)",
+            "gloss": ""
+          },
+          {
+            "term": "dē-negāre",
+            "gloss": "negāre"
+          },
+          {
+            "term": "facta esse",
+            "gloss": ""
+          },
+          {
+            "term": "multāre (rē)",
+            "gloss": "pūnire (rē"
+          },
+          {
+            "term": "amissa)",
+            "gloss": ""
+          },
+          {
+            "term": "coniugum commiūnis",
+            "gloss": ""
+          },
+          {
+            "term": "(uxorem) m.ō multāre :",
+            "gloss": ""
+          },
+          {
+            "term": "dimittere e m.ō",
+            "gloss": ""
+          },
+          {
+            "term": "convenit",
+            "gloss": "statūtum est"
+          },
+          {
+            "term": "(nter nōs)",
+            "gloss": ""
+          },
+          {
+            "term": "Amphitryōnis in aedēs",
+            "gloss": ""
+          },
+          {
+            "term": "cōnferanū",
+            "gloss": ""
+          },
+          {
+            "term": "seriō ade",
+            "gloss": "sērius -a -um"
+          },
+          {
+            "term": "ec-quis",
+            "gloss": "num quis"
+          },
+          {
+            "term": "abin'",
+            "gloss": "abis-ne (: abi!)"
+          },
+          {
+            "term": "dignus est",
+            "gloss": ""
+          },
+          {
+            "term": "facinus -oris n",
+            "gloss": "factum"
+          },
+          {
+            "term": "in-simulāre",
+            "gloss": "accūsāre"
+          },
+          {
+            "term": "falsō adv e verē",
+            "gloss": ""
+          },
+          {
+            "term": "Naucrate (abl) cognātō",
+            "gloss": ""
+          },
+          {
+            "term": "meo",
+            "gloss": ""
+          }
+        ]
+      }
+    ],
+    "grammar": [],
+    "vocabulary": [],
+    "pensa": []
 }
 
 export default chapter

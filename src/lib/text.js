@@ -2,16 +2,19 @@
 // into an array of text and blank nodes.
 export function parseBlanks(text) {
   const nodes = []
-  const regex = /\{\{([^}]+)\}\}/g
+  const regex = /\{\{([^}]*)\}\}/g
   let last = 0
   let match
   while ((match = regex.exec(text)) !== null) {
     if (match.index > last) {
       nodes.push({ type: 'text', value: text.slice(last, match.index) })
     }
+    const raw = match[1].trim()
+    const open = raw === '' || raw === '?'
     nodes.push({
       type: 'blank',
-      answers: match[1].split('|').map((s) => s.trim()),
+      open,
+      answers: open ? [] : raw.split('|').map((s) => s.trim()),
     })
     last = regex.lastIndex
   }
