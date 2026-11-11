@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { books, familiaRomanaBook, romaAeternaBook, exercitiaBook, latinViaOvidBook, companionBook, colloquiaBook, fabulaeBook, sermonesBook, exercitiaIIBook, caesarBook, epitomeBook } from '../data/library.js'
+import { books, familiaRomanaBook, romaAeternaBook, exercitiaBook, latinViaOvidBook, companionBook, colloquiaBook, fabulaeBook, sermonesBook, exercitiaIIBook, caesarBook, epitomeBook, petroniusBook, arsBook, companionRABook, aeneisBook, catilinaBook, amphitryoBook } from '../data/library.js'
 import { useProgress } from '../hooks/useLocalStorage.js'
 
 const firstChapter = familiaRomanaBook.chapters[0]
@@ -44,13 +44,13 @@ export default function Home() {
             <ul className="hero__meta rise">
               <li>
                 <strong>
-                  {familiaRomanaBook.chapterCount + romaAeternaBook.chapterCount + exercitiaBook.chapterCount + latinViaOvidBook.chapterCount + companionBook.chapterCount + colloquiaBook.chapterCount + fabulaeBook.chapterCount + sermonesBook.chapterCount + exercitiaIIBook.chapterCount + caesarBook.chapterCount + epitomeBook.chapterCount}
+                  {familiaRomanaBook.chapterCount + romaAeternaBook.chapterCount + exercitiaBook.chapterCount + latinViaOvidBook.chapterCount + companionBook.chapterCount + colloquiaBook.chapterCount + fabulaeBook.chapterCount + sermonesBook.chapterCount + exercitiaIIBook.chapterCount + caesarBook.chapterCount + epitomeBook.chapterCount + petroniusBook.chapterCount + arsBook.chapterCount + companionRABook.chapterCount + aeneisBook.chapterCount + catilinaBook.chapterCount + amphitryoBook.chapterCount}
                 </strong>{' '}
                 chapters, readings &amp; fables
               </li>
               <li>
                 <strong>
-                  {familiaRomanaBook.readyCount + romaAeternaBook.readyCount + exercitiaBook.readyCount + latinViaOvidBook.readyCount + companionBook.readyCount + colloquiaBook.readyCount + fabulaeBook.readyCount + sermonesBook.readyCount + exercitiaIIBook.readyCount + caesarBook.readyCount + epitomeBook.readyCount}
+                  {familiaRomanaBook.readyCount + romaAeternaBook.readyCount + exercitiaBook.readyCount + latinViaOvidBook.readyCount + companionBook.readyCount + colloquiaBook.readyCount + fabulaeBook.readyCount + sermonesBook.readyCount + exercitiaIIBook.readyCount + caesarBook.readyCount + epitomeBook.readyCount + petroniusBook.readyCount + arsBook.readyCount + companionRABook.readyCount + aeneisBook.readyCount + catilinaBook.readyCount + amphitryoBook.readyCount}
                 </strong>{' '}
                 texts ready
               </li>

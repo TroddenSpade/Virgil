@@ -154,7 +154,7 @@ function ActiveBook({ book }) {
           <div className="book-hero__actions">
             <Link className="btn btn--primary" to={`/library/${book.slug}/${first.slug}`}>
               {book.kind === 'commentary'
-                ? 'Begin Chapter I'
+                ? book.startLabel || `Begin ${book.unit || 'Chapter'} ${first.roman}`
                 : book.kind === 'reader' || book.kind === 'workbook'
                   ? book.startLabel || `Start ${book.unit || 'Capitulum'} ${first.roman}`
                   : book.id === 'familia-romana' || book.id === 'roma-aeterna'

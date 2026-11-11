@@ -10,6 +10,12 @@ import { book as caesar, chapters as caesarChapters } from './caesar-de-bello-ga
 import { book as exercitiaII, chapters as exercitiaIIChapters } from './exercitia-latina-ii/index.js'
 import { book as sermones, chapters as sermonesChapters } from './sermones-romani/index.js'
 import { sources } from './sources.generated.js'
+import { book as petronius, chapters as petroniusChapters } from './petronius-cena-trimalchionis/index.js'
+import { book as ars, chapters as arsChapters } from './ovidii-ars-amatoria/index.js'
+import { book as companionRA, chapters as companionRAChapters } from './companion-roma-aeterna/index.js'
+import { book as aeneis, chapters as aeneisChapters } from './vergil-aeneis-i-et-iv/index.js'
+import { book as catilina, chapters as catilinaChapters } from './sallustius-cicero-catilina/index.js'
+import { book as amphitryo, chapters as amphitryoChapters } from './plautus-amphitryo/index.js'
 
 // Reference sources are the full texts extracted from the source editions.
 // Their chapter JSON lives in public/sources/<sourceSlug>/ and is fetched on
@@ -71,6 +77,42 @@ export const fabulaeBook = {
   ...fabulae,
   chapters: fabulaeChapters,
 }
+
+export const amphitryoBook = {
+  ...amphitryo,
+  chapters: amphitryoChapters,
+}
+
+
+export const catilinaBook = {
+  ...catilina,
+  chapters: catilinaChapters,
+}
+
+
+export const aeneisBook = {
+  ...aeneis,
+  chapters: aeneisChapters,
+}
+
+
+export const companionRABook = {
+  ...companionRA,
+  chapters: companionRAChapters,
+}
+
+
+export const arsBook = {
+  ...ars,
+  chapters: arsChapters,
+}
+
+
+export const petroniusBook = {
+  ...petronius,
+  chapters: petroniusChapters,
+}
+
 
 export const epitomeBook = {
   ...epitome,
@@ -158,6 +200,12 @@ export const books = [
   epitomeBook,
   exercitiaIIBook,
   caesarBook,
+  aeneisBook,
+  arsBook,
+  petroniusBook,
+  catilinaBook,
+  amphitryoBook,
+  companionRABook,
   companionBook,
   learnLatinBook,
   latinViaOvidBook,

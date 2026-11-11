@@ -10,10 +10,10 @@ export default function Library() {
         <p className="lead" style={{ maxWidth: '60ch' }}>
           The whole course, arranged as a shelf of books. Familia Romana begins the course and Roma Aeterna
           carries it on through Aeneas and the Roman Republic, with the Exercitia Latina, the Colloquia Personarum,
-          the Fabulae Syrae, the Sermones Romani and the Epitome Historiae Sacrae beside them; the Companion offers
-          a chapter-by-chapter commentary on Familia Romana, while Learn Latin from the Romans, Latin via Ovid,
-          Exercitia Latina II and Caesar’s seventh book of the Gallic War are here in full. Together they lead from
-          your first Latin sentence to the poetry of Virgil.
+          the Fabulae Syrae, the Sermones Romani and the Epitome Historiae Sacrae beside them. The companions offer
+          chapter-by-chapter commentary on Familia Romana and Roma Aeterna, while Learn Latin from the Romans, Latin
+          via Ovid, Exercitia Latina II and the Latin texts of Caesar, Vergil, Ovid, Petronius, Sallust, Cicero and
+          Plautus are here in full. Together they lead from your first Latin sentence to the poetry of Virgil.
         </p>
 
         <div className="book-grid">
