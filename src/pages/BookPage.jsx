@@ -187,17 +187,15 @@ function ActiveBook({ book }) {
                 ? book.collectionLabel || 'Exercitia'
                 : 'Capitula'}
         </h2>
-        <p className="book-page__note muted" style={{ marginTop: '-0.75rem', marginBottom: '1.5rem' }}>
-          {book.kind === 'commentary'
-            ? 'Each chapter follows the book’s own sections: Rēs Grammaticae Novae, the Lēctiōnēs, Recēnsiō, Studia Rōmāna, and the chapter vocabulary.'
-            : book.kind === 'reader'
-              ? book.collectionNote || 'Twenty-four short Latin dialogues, one after each chapter of Familia Romana, with the book’s own marginalia.'
-              : book.kind === 'workbook'
-                ? book.collectionNote || 'The printed exercises for each chapter, reproduced in Latin.'
-                : 'Lessons marked '}
-          {book.kind !== 'commentary' && book.kind !== 'reader' && book.kind !== 'workbook' && book.kind !== 'coursebook' && <span className="tag tag--laurel">lesson</span>}
-          {book.kind !== 'commentary' && book.kind !== 'reader' && book.kind !== 'workbook' && book.kind !== 'coursebook' && ' are fully written up; the rest open the original Latin text.'}
-        </p>
+        {(book.kind === 'commentary' || book.kind === 'reader' || book.kind === 'workbook') && (
+          <p className="book-page__note muted" style={{ marginTop: '-0.75rem', marginBottom: '1.5rem' }}>
+            {book.kind === 'commentary'
+              ? 'Each chapter follows the book’s own sections: Rēs Grammaticae Novae, the Lēctiōnēs, Recēnsiō, Studia Rōmāna, and the chapter vocabulary.'
+              : book.kind === 'reader'
+                ? book.collectionNote || 'Twenty-four short Latin dialogues, one after each chapter of Familia Romana, with the book’s own marginalia.'
+                : book.collectionNote || 'The printed exercises for each chapter, reproduced in Latin.'}
+          </p>
+        )}
         <div className="chapter-grid">
           {book.chapters.map((chapter) => {
             const ready = chapter.complete
