@@ -17,6 +17,7 @@ import { book as companionRA, chapters as companionRAChapters } from './companio
 import { book as aeneis, chapters as aeneisChapters } from './vergil-aeneis-i-et-iv/index.js'
 import { book as catilina, chapters as catilinaChapters } from './sallustius-cicero-catilina/index.js'
 import { book as amphitryo, chapters as amphitryoChapters } from './plautus-amphitryo/index.js'
+import { chapterKeywords } from './chapter-keywords.generated.js'
 
 // Reference sources are the full texts extracted from the source editions.
 // Their chapter JSON lives in public/sources/<sourceSlug>/ and is fetched on
@@ -230,7 +231,17 @@ const HERO_MARKS = {
 
 for (const book of books) {
   book.heroMark = HERO_MARKS[book.id] || book.shortTitle?.toUpperCase() || 'LIBER'
+  for (const chapter of book.chapters || []) {
+    chapter.keywords = chapterKeywords[`${book.slug}/${chapter.slug}`] || []
+  }
 }
+
+export {
+  chapterKeywords,
+  keywordDefinitions,
+  keywordGroups,
+  keywordIndex,
+} from './chapter-keywords.generated.js'
 
 export function getBook(slug) {
   return books.find((b) => b.slug === slug)

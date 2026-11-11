@@ -9,7 +9,9 @@
     "build": "vite build && node scripts/postbuild.mjs",
     "build:pages": "VITE_BASE=/ vite build && node scripts/postbuild.mjs",
     "preview": "vite preview --host",
-    "icons": "python3 scripts/generate-icons.py"
+    "icons": "python3 scripts/generate-icons.py",
+    "keywords": "node scripts/build-chapter-keywords.mjs",
+    "validate:keywords": "node scripts/validate-keywords.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.119.0",
