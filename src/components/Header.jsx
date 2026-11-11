@@ -1,8 +1,46 @@
-import { Link, NavLink } from 'react-router-dom'
+import { Link, NavLink, useLocation } from 'react-router-dom'
+import { getBook } from '../data/library.js'
 import Logo from './Logo.jsx'
 import ThemeToggle from './ThemeToggle.jsx'
 
+function pageContext(pathname) {
+  const parts = pathname.split('/').filter(Boolean)
+  if (!parts.length) return null
+  if (parts[0] === 'library') {
+    if (!parts[1]) return { root: { to: '/library', label: 'Library' } }
+    const book = getBook(parts[1])
+    if (!book) return { root: { to: '/library', label: 'Library' } }
+    let page = null
+    if (parts[2] === 'extra' && parts[3]) {
+      const extra = book.extras?.find((item) => item.slug === parts[3])
+      page = extra?.title || 'Reference'
+    } else if (parts[2]) {
+      const chapter = book.chapters?.find((item) => item.slug === parts[2])
+      if (chapter) {
+        page = chapter.latinTitle
+          ? `${chapter.latinTitle}${chapter.title ? ` · ${chapter.title}` : ''}`
+          : chapter.title
+      }
+    }
+    return {
+      root: { to: '/library', label: 'Library' },
+      book: { to: `/library/${book.slug}`, label: book.shortTitle },
+      page,
+    }
+  }
+  const labels = {
+    dictionary: 'Dictionary',
+    approach: 'Approach',
+    profile: 'Profile',
+    library: 'Library',
+  }
+  return { page: labels[parts[0]] || null }
+}
+
 export default function Header() {
+  const { pathname } = useLocation()
+  const context = pageContext(pathname)
+
   return (
     <header className="site-header">
       <div className="container site-header__inner">
@@ -29,6 +67,32 @@ export default function Header() {
           <ThemeToggle />
         </nav>
       </div>
+
+      {context && (
+        <div className="site-header__context container" aria-label="Breadcrumb">
+          {context.root && (
+            <Link to={context.root.to} className="site-header__context-link">
+              {context.root.label}
+            </Link>
+          )}
+          {context.book && (
+            <span className="site-header__context-book-group">
+              <span className="site-header__context-sep" aria-hidden="true">·</span>
+              <Link to={context.book.to} className="site-header__context-link site-header__context-book">
+                {context.book.label}
+              </Link>
+            </span>
+          )}
+          {context.page && (
+            <>
+              {(context.root || context.book) && (
+                <span className="site-header__context-sep" aria-hidden="true">·</span>
+              )}
+              <span className="site-header__context-page">{context.page}</span>
+            </>
+          )}
+        </div>
+      )}
     </header>
   )
 }
