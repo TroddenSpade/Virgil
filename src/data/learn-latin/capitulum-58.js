@@ -15,8 +15,28 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "p",
-          "text": "British Case Order Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom. īdem eadem idem eīdem eaedem eadem Voc. – – – – – – Acc. eundem eandem idem eōsdem eāsdem eadem Gen. eiusdem eiusdem eiusdem eōrundem eārundem eōrundem Dat. eīdem eīdem eīdem eīsdem/īsdem eīsdem/īsdem eīsdem/īsdem Abl. eōdem eādem eōdem eīsdem/īsdem eīsdem/īsdem eīsdem/īsdem Ancient Case Order Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom. īdem eadem idem eīdem eaedem eadem Gen. eiusdem eiusdem eiusdem eōrundem eārundem eōrundem Dat. eīdem eīdem eīdem eīsdem/īsdem eīsdem/īsdem eīsdem/īsdem Acc. eundem eandem idem eōsdem eāsdem eadem Abl. eōdem eādem eōdem eīsdem/īsdem eīsdem/īsdem eīsdem/īsdem"
+          "t": "h",
+          "text": "British Case Order"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. īdem eadem idem eīdem eaedem eadem Voc. – – – – – – Acc. eundem eandem idem eōsdem eāsdem eadem Gen. eiusdem eiusdem eiusdem eōrundem eārundem eōrundem Dat. eīdem eīdem eīdem eīsdem/īsdem eīsdem/īsdem eīsdem/īsdem Abl. eōdem eādem eōdem eīsdem/īsdem eīsdem/īsdem eīsdem/īsdem"
+        },
+        {
+          "t": "h",
+          "text": "Ancient Case Order"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. īdem eadem idem eīdem eaedem eadem Gen. eiusdem eiusdem eiusdem eōrundem eārundem eōrundem Dat. eīdem eīdem eīdem eīsdem/īsdem eīsdem/īsdem eīsdem/īsdem Acc. eundem eandem idem eōsdem eāsdem eadem Abl. eōdem eādem eōdem eīsdem/īsdem eīsdem/īsdem eīsdem/īsdem"
         }
       ]
     },
@@ -27,8 +47,24 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
+          "t": "h",
+          "text": "iterum attulit. 12 eidem filiae pecuniam dedi, non"
+        },
+        {
           "t": "p",
-          "text": "To express a price, Latin uses the ablative without a preposition: tribus dēnāriīs hoc ēmī ‘I bought this for three denarii.’ For value, however, the genitive is normally used rather than the ablative: illum magnī aestimō ‘I value him greatly.’ The distinction between price and value is not absolute, but price expressed in monetary terms is nearly always ablative, while indefinite expressions like quantī ‘how much?’, magnī ‘greatly’, and parvī ‘a little’ are normally genitive. Also, verbs of buying and selling (e.g. emō and vendō) are more likely to take the ablative and verbs of valuing (e.g. aestimō) to take the genitive. Note the following vocabulary: dēnārius, -ī (m.) ‘denarius’ (a coin of significant value) sēstertius, -ī (m.) ‘sestertius’ (English plural ‘sesterces’) (a coin worth a quarter of a denarius) as, assis (m.) ‘as’ (a coin worth one-tenth or, later, one-sixteenth of a denarius) aestimō, -āre, -āvī, -ātum ‘value’ faciō ‘value’ (nōn) floccī faciō ‘I consider to be of no value’ (literally ‘I (don’t) value at the rate of a tuft of wool’)."
+          "text": "To express a price, Latin uses the ablative without a preposition: tribus dēnāriīs hoc ēmī ‘I bought this for three denarii.’ For value, however, the genitive is normally used rather than the ablative: illum magnī aestimō ‘I value him greatly.’ The distinction between price and value is not absolute, but price expressed in monetary terms is nearly always ablative, while indefinite expressions like quantī ‘how much?’, magnī ‘greatly’, and parvī ‘a little’ are normally genitive."
+        },
+        {
+          "t": "p",
+          "text": "Also, verbs of buying and selling (e.g. emō and vendō) are more likely to take the ablative and verbs of valuing (e.g. aestimō) to take the genitive. Note the following vocabulary: dēnārius, -ī (m.) ‘denarius’ (a coin of significant value) sēstertius, -ī (m.) ‘sestertius’ (English plural ‘sesterces’) (a coin worth a quarter of"
+        },
+        {
+          "t": "h",
+          "text": "a denarius)"
+        },
+        {
+          "t": "p",
+          "text": "as, assis (m.) ‘as’ (a coin worth one-tenth or, later, one-sixteenth of a denarius) aestimō, -āre, -āvī, -ātum ‘value’ faciō ‘value’ (nōn) floccī faciō ‘I consider to be of no value’ (literally ‘I (don’t) value at the rate of a tuft of wool’)."
         }
       ]
     }
@@ -39,10 +75,7 @@ const chapter = {
       "latinTitle": "SENTENTIAE LATĪNAE",
       "title": "Latin sentences from this chapter",
       "paragraphs": [
-        "eadem hora regina mortua est. alteri.",
-        "ille Mariam filiam Marci amat; ego eiusdem filiam alteram amo.",
         "quanti venditus est equus tuus?",
-        "oves meae venditae sunt multis",
         "pueri saxa iacientes mali sunt.",
         "eosdem canes domi dormientes ausa non est. vidi.",
         "igne domo deleta pater laetus non cecidit. erat.",
@@ -161,43 +194,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "4 illi ad eandem urbem iverunt. 58.",
-          "a": ""
-        },
-        {
-          "q": "2 Expressions of Price and Value 389",
-          "a": ""
-        },
-        {
-          "q": "5 idem canis iterum oves interfecit.",
-          "a": ""
-        },
-        {
-          "q": "10 cum eisdem Romam ibo.",
-          "a": ""
-        },
-        {
-          "q": "6 eadem nocte ille bene dormivit.",
-          "a": ""
-        },
-        {
-          "q": "11 rogavit utrum alius canis an idem",
-          "a": ""
-        },
-        {
-          "q": "7 aliquis eundem librum ad me pueros fugavisset. iterum attulit.",
-          "a": ""
-        },
-        {
-          "q": "12 eidem filiae pecuniam dedi, non",
-          "a": ""
-        },
-        {
-          "q": "8 eadem hora regina mortua est. alteri.",
-          "a": ""
-        },
-        {
-          "q": "9 ille Mariam filiam Marci amat; ego eiusdem filiam alteram amo.",
+          "q": "4 illi ad eandem urbem iverunt.",
           "a": ""
         }
       ],

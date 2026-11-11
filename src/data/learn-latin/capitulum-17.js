@@ -9,21 +9,25 @@ const chapter = {
   "complete": true,
   "sections": [
     {
-      "id": "section-1",
-      "latin": "Fourth and Mixed Conjugations",
-      "english": "Chapter",
+      "id": "section-0",
+      "latin": "Introduction",
+      "english": "Introduction",
       "kind": "commentary",
       "blocks": [
         {
           "t": "p",
-          "text": "Latin verbs are divided into five conjugations; in addition to the three that you have already learned there is a fourth conjugation and a ‘mixed’ conjugation with characteristics of both third and fourth conjugations. The mixed conjugation is also called ‘third conjugation in -iō’ or ‘third conjugation i-stems’. These verbs are conjugated as follows:"
+          "text": "Latin verbs are divided into five conjugations; in addition to the three that you have already learned there is a fourth conjugation and a ‘mixed’ conjugation with characteristics of both third and fourth conjugations. The mixed conjugation is also called ‘third conjugation in -iō’ or ‘third conjugation i-stems’. These verbs are conjugated"
         },
         {
-          "t": "p",
-          "text": "Third conjugation regō, regere, rēxī, Fourth conjugation Mixed conjugation rēctum ‘rule’ (for audiō, audīre, audīvī, capiō, capere, cēpī, comparison) audītum ‘hear’ captum ‘take’, ‘capture’"
+          "t": "example",
+          "text": ""
         },
         {
-          "t": "p",
+          "t": "example",
+          "text": "Third conjugation regō, regere, rēxī, Fourth conjugation Mixed conjugation rēctum ‘rule’ (for audiō, audīre, audīvī, capiō, capere, cēpī, comparison) audītum ‘hear’\ncaptum ‘take’, ‘capture’"
+        },
+        {
+          "t": "pre",
           "text": "Present regō audiō capiō active regis audīs capis indicative regit audit capit"
         },
         {
@@ -31,7 +35,7 @@ const chapter = {
           "text": "regimus audīmus capimus regitis audītis capitis regunt audiunt capiunt"
         },
         {
-          "t": "p",
+          "t": "pre",
           "text": "Future regam audiam capiam active regēs audiēs capiēs indicative reget audiet capiet"
         },
         {
@@ -47,11 +51,11 @@ const chapter = {
           "text": "rēximus audīvimus cēpimus rēxistis audīvistis cēpistis rēxērunt audīvērunt cēpērunt"
         },
         {
-          "t": "p",
+          "t": "h",
           "text": "Imperative rege audī cape1"
         },
         {
-          "t": "p",
+          "t": "h",
           "text": "regite audīte capite"
         },
         {
@@ -59,11 +63,11 @@ const chapter = {
           "text": "The imperative of faciō is irregular: fac, facite."
         },
         {
-          "t": "p",
-          "text": "Third conjugation regō, regere, rēxī, Fourth conjugation Mixed conjugation rēctum ‘rule’ (for audiō, audīre, audīvī, capiō, capere, cēpī, comparison) audītum ‘hear’ captum ‘take’, ‘capture’"
+          "t": "example",
+          "text": "Third conjugation regō, regere, rēxī, Fourth conjugation Mixed conjugation rēctum ‘rule’ (for audiō, audīre, audīvī, capiō, capere, cēpī, comparison) audītum ‘hear’\ncaptum ‘take’, ‘capture’"
         },
         {
-          "t": "p",
+          "t": "pre",
           "text": "Present regam audiam capiam active regās audiās capiās subjunctive regat audiat capiat"
         },
         {
@@ -71,7 +75,99 @@ const chapter = {
           "text": "regāmus audiāmus capiāmus regātis audiātis capiātis regant audiant capiant"
         },
         {
+          "t": "pre",
+          "text": "Imperfect regerem audīrem caperem active regerēs audīrēs caperēs subjunctive regeret audīret caperet"
+        },
+        {
           "t": "p",
+          "text": "regerēmus audīrēmus caperēmus regerētis audīrētis caperētis regerent audīrent caperent"
+        },
+        {
+          "t": "p",
+          "text": "As with the first and second conjugations, in the perfect indicative and imperfect"
+        },
+        {
+          "t": "p",
+          "text": "subjunctive these verbs take exactly the same endings as the third-conjugation verbs. In the present and future indicative and in the present subjunctive they also take the same endings, with the addition of an -iwherever there is not already an -i-."
+        },
+        {
+          "t": "p",
+          "text": "Like verbs of the first three conjugations, fourth-conjugation verbs can be identified"
+        },
+        {
+          "t": "p",
+          "text": "by their second principal parts: their infinitives end in -īre. Mixed-conjugation verbs are trickier to spot, since their second principal parts end in -ere like those of thirdconjugation verbs: one has to use the combination of a first principal part in -iō (which third-conjugation verbs never have, though fourth-conjugation ones do) and a second principal part in -ere (which fourth-conjugation verbs never have, though thirdconjugation ones do) to identify verbs of the mixed conjugation."
+        }
+      ]
+    },
+    {
+      "id": "section-1",
+      "latin": "Fourth and Mixed Conjugations",
+      "english": "Chapter",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Latin verbs are divided into five conjugations; in addition to the three that you have already learned there is a fourth conjugation and a ‘mixed’ conjugation with characteristics of both third and fourth conjugations. The mixed conjugation is also called ‘third conjugation in -iō’ or ‘third conjugation i-stems’. These verbs are conjugated"
+        },
+        {
+          "t": "example",
+          "text": ""
+        },
+        {
+          "t": "example",
+          "text": "Third conjugation regō, regere, rēxī, Fourth conjugation Mixed conjugation rēctum ‘rule’ (for audiō, audīre, audīvī, capiō, capere, cēpī, comparison) audītum ‘hear’\ncaptum ‘take’, ‘capture’"
+        },
+        {
+          "t": "pre",
+          "text": "Present regō audiō capiō active regis audīs capis indicative regit audit capit"
+        },
+        {
+          "t": "p",
+          "text": "regimus audīmus capimus regitis audītis capitis regunt audiunt capiunt"
+        },
+        {
+          "t": "pre",
+          "text": "Future regam audiam capiam active regēs audiēs capiēs indicative reget audiet capiet"
+        },
+        {
+          "t": "p",
+          "text": "regēmus audiēmus capiēmus regētis audiētis capiētis regent audient capient"
+        },
+        {
+          "t": "p",
+          "text": "Perfect rēxī audīvī cēpī active rēxistī audīvistī cēpistī indicative rēxit audīvit cēpit"
+        },
+        {
+          "t": "p",
+          "text": "rēximus audīvimus cēpimus rēxistis audīvistis cēpistis rēxērunt audīvērunt cēpērunt"
+        },
+        {
+          "t": "h",
+          "text": "Imperative rege audī cape1"
+        },
+        {
+          "t": "h",
+          "text": "regite audīte capite"
+        },
+        {
+          "t": "p",
+          "text": "The imperative of faciō is irregular: fac, facite."
+        },
+        {
+          "t": "example",
+          "text": "Third conjugation regō, regere, rēxī, Fourth conjugation Mixed conjugation rēctum ‘rule’ (for audiō, audīre, audīvī, capiō, capere, cēpī, comparison) audītum ‘hear’\ncaptum ‘take’, ‘capture’"
+        },
+        {
+          "t": "pre",
+          "text": "Present regam audiam capiam active regās audiās capiās subjunctive regat audiat capiat"
+        },
+        {
+          "t": "p",
+          "text": "regāmus audiāmus capiāmus regātis audiātis capiātis regant audiant capiant"
+        },
+        {
+          "t": "pre",
           "text": "Imperfect regerem audīrem caperem active regerēs audīrēs caperēs subjunctive regeret audīret caperet"
         },
         {

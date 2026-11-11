@@ -9,6 +9,18 @@ const chapter = {
   "complete": true,
   "sections": [
     {
+      "id": "section-0",
+      "latin": "Introduction",
+      "english": "Introduction",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "h",
+          "text": "Overview"
+        }
+      ]
+    },
+    {
       "id": "section-1",
       "latin": "56.1 Relative Clauses of Characteristic",
       "english": "Grammar",
@@ -16,7 +28,19 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "In chapter 25 we saw relative clauses that use the relative pronoun (quī, quae, quod) and an indicative verb, such as these examples. vir quem vidēs rēx est. ‘The man whom you see is the king.’ librum quem legis scrīpsī. ‘I wrote the book that you are reading.’ Sometimes, however, relative clauses have verbs in the subjunctive (the tense is determined by normal sequence of tenses: see chapter 46.2, not chapter 54). These subjunctives can have a variety of meanings, which must be distinguished primarily by context. The most important of these meanings is a generalizing function known as the ‘relative clause of characteristic’; this is used to indicate that the subject has the characteristics that would cause the action of the verb, rather than that the subject necessarily does cause the action of the verb. is nōn est quī illud faciat. ‘He is not a person who would do that.’ / ‘He is not the sort of person who does that.’ nēmō est quī hoc crēdat. ‘There is no-one who would believe this.’ sunt quī hoc crēdant. ‘There are those who would believe this.’ ille liber est quem omnēs Rōmānī legant. ‘That is a book that all the Romans would read.’ / ‘That is the sort of book that all the Romans read.’ versus ille liber est quem omnēs Rōmānī legunt. ‘That is the book that all the Romans are reading.’"
+          "text": "In chapter 25 we saw relative clauses that use the relative pronoun (quī, quae, quod) and an indicative verb, such as these examples. vir quem vidēs rēx est. ‘The man whom you see is the king.’ librum quem legis scrīpsī. ‘I wrote the book that you are reading.’ Sometimes, however, relative clauses have verbs in the subjunctive (the tense is determined by normal sequence of tenses: see chapter 46.2, not chapter 54)."
+        },
+        {
+          "t": "p",
+          "text": "These subjunctives can have a variety of meanings, which must be distinguished primarily by context. The most important of these meanings is a generalizing function known as the ‘relative clause of characteristic’; this is used to indicate that the subject has the characteristics that would cause the action of the verb, rather than that the subject necessarily does cause the action of the verb. is nōn est quī illud faciat."
+        },
+        {
+          "t": "p",
+          "text": "‘He is not a person who would do that.’ / ‘He is not the sort of person who does that.’ nēmō est quī hoc crēdat. ‘There is no-one who would believe this.’ sunt quī hoc crēdant. ‘There are those who would believe this.’ ille liber est quem omnēs Rōmānī legant. ‘That is a book that all the Romans would read.’ / ‘That is the sort of book that all the Romans read.’ versus ille liber est quem omnēs Rōmānī legunt."
+        },
+        {
+          "t": "h",
+          "text": "‘That is the book that all the Romans are reading.’"
         }
       ]
     },
@@ -28,7 +52,11 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "Sometimes a relative clause with subjunctive verb is equivalent to a purpose clause; this occurs only with certain types of main verb, including ones meaning ‘send’, ‘go’, and ‘come’. mīlitēs mīsit quī oppidum dēfenderent. ‘He sent soldiers to defend the town.’ trēs virī vēnērunt quī rēgī persuādērent. ‘Three men came to persuade the king.’ Alternatively, a relative clause with subjunctive can express cause; under these circumstances the particle quippe is often placed in front of the relative pronoun. mīlitēs quippe quī fūgissent interfectī sunt. ‘The soldiers were killed because they had fled.’ hanc puellam quippe quae pulcherrima sit maximē amō. ‘I greatly love this girl because she is very beautiful.’"
+          "text": "Sometimes a relative clause with subjunctive verb is equivalent to a purpose clause; this occurs only with certain types of main verb, including ones meaning ‘send’, ‘go’, and ‘come’. mīlitēs mīsit quī oppidum dēfenderent. ‘He sent soldiers to defend the town.’ trēs virī vēnērunt quī rēgī persuādērent."
+        },
+        {
+          "t": "p",
+          "text": "‘Three men came to persuade the king.’ Alternatively, a relative clause with subjunctive can express cause; under these circumstances the particle quippe is often placed in front of the relative pronoun. mīlitēs quippe quī fūgissent interfectī sunt. ‘The soldiers were killed because they had fled.’ hanc puellam quippe quae pulcherrima sit maximē amō. ‘I greatly love this girl because she is very beautiful.’"
         }
       ]
     },
@@ -39,8 +67,80 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
+          "t": "p",
+          "text": "Before embarking on the next chapter it will be useful to look again at participles, which we saw in chapters 6.2, 21.3, 24, and 32."
+        },
+        {
+          "t": "p",
+          "text": "The available participle forms are: Perfect Perfect Present Future passive active active active participle participle participle participle First amātus, -a, -um amāns, amantis amātūrus, -a, conjugation ‘(having been) – ‘loving’ -um ‘(being) loved’ about to love’ First vēnātus, -a, vēnāns, vēnantis vēnātūrus, -a, conjugation – -um ‘having ‘hunting’ -um ‘(being) deponent hunted’ about to hunt’ Second monitus, -a, monēns, monitūrus, -a, conjugation -um ‘(having – monentis -um ‘(being) been) advised’ ‘advising’ about to advise’ Second veritus, -a, verēns, verentis veritūrus, -a, conjugation – -um ‘having ‘fearing’ -um ‘(being) deponent feared’ about to fear’ Third rēctus, -a, regēns, regentis rēctūrus, -a, conjugation -um ‘(having – ‘ruling’ -um ‘(being) been) ruled’ about to rule’ Third ūsus, -a, -um ūtēns, ūtentis ūsūrus, -a, conjugation – ‘having used’ ‘using’ -um ‘(being) deponent about to use’ Perfect Perfect Present Future passive active active active participle participle participle participle Fourth audītus, -a, audiēns, audītūrus, -a, conjugation -um ‘(having – audientis -um ‘(being) been) heard’ ‘hearing’ about to hear’ Fourth partītus, -a, partiēns, partītūrus, -a, conjugation – -um ‘having partientis -um ‘(being) deponent divided’ ‘dividing’ about to divide’ Mixed captus, -a, capiēns, captūrus, -a, conjugation -um ‘(having – capientis -um ‘(being)"
+        },
+        {
           "t": "h",
-          "text": "56.3 Participles: Summary of Formation"
+          "text": "been) captured’ ‘capturing’ about to"
+        },
+        {
+          "t": "example",
+          "text": "capture’ Mixed mortuus, -a, moriēns, moritūrus, -a, conjugation – -um ‘having morientis -um ‘(being) deponent died’ ‘dying’ about to die’"
+        },
+        {
+          "t": "h",
+          "text": "Sum futūrus, -a,"
+        },
+        {
+          "t": "h",
+          "text": "– – – -um ‘(being)"
+        },
+        {
+          "t": "h",
+          "text": "about to be’"
+        },
+        {
+          "t": "h",
+          "text": "Eō iēns, euntis itūrus, -a,"
+        },
+        {
+          "t": "h",
+          "text": "– –"
+        },
+        {
+          "t": "h",
+          "text": "‘going’ -um ‘(being)"
+        },
+        {
+          "t": "h",
+          "text": "about to go’"
+        },
+        {
+          "t": "h",
+          "text": "Volō volēns, volentis"
+        },
+        {
+          "t": "h",
+          "text": "– – –"
+        },
+        {
+          "t": "h",
+          "text": "‘wanting’"
+        },
+        {
+          "t": "h",
+          "text": "Nōlō nōlēns, nōlentis"
+        },
+        {
+          "t": "h",
+          "text": "– – –"
+        },
+        {
+          "t": "h",
+          "text": "‘not wanting’"
+        },
+        {
+          "t": "h",
+          "text": "Ferō lātus, -a, -um ferēns, ferentis lātūrus, -a,"
+        },
+        {
+          "t": "h",
+          "text": "–"
         },
         {
           "t": "h",
@@ -48,7 +148,59 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Before embarking on the next chapter it will be useful to look again at participles, which we saw in chapters 6.2, 21.3, 24, and 32. The available participle forms are: Perfect Perfect Present Future passive active active active participle participle participle participle First amātus, -a, -um amāns, amantis amātūrus, -a, conjugation ‘(having been) – ‘loving’ -um ‘(being) loved’ about to love’ First vēnātus, -a, vēnāns, vēnantis vēnātūrus, -a, conjugation – -um ‘having ‘hunting’ -um ‘(being) deponent hunted’ about to hunt’ Second monitus, -a, monēns, monitūrus, -a, conjugation -um ‘(having – monentis -um ‘(being) been) advised’ ‘advising’ about to advise’ Second veritus, -a, verēns, verentis veritūrus, -a, conjugation – -um ‘having ‘fearing’ -um ‘(being) deponent feared’ about to fear’ Third rēctus, -a, regēns, regentis rēctūrus, -a, conjugation -um ‘(having – ‘ruling’ -um ‘(being) been) ruled’ about to rule’ Third ūsus, -a, -um ūtēns, ūtentis ūsūrus, -a, conjugation – ‘having used’ ‘using’ -um ‘(being) deponent about to use’ Perfect Perfect Present Future passive active active active participle participle participle participle Fourth audītus, -a, audiēns, audītūrus, -a, conjugation -um ‘(having – audientis -um ‘(being) been) heard’ ‘hearing’ about to hear’ Fourth partītus, -a, partiēns, partītūrus, -a, conjugation – -um ‘having partientis -um ‘(being) deponent divided’ ‘dividing’ about to divide’ Mixed captus, -a, capiēns, captūrus, -a, conjugation -um ‘(having – capientis -um ‘(being) been) captured’ ‘capturing’ about to capture’ Mixed mortuus, -a, moriēns, moritūrus, -a, conjugation – -um ‘having morientis -um ‘(being) deponent died’ ‘dying’ about to die’ Sum futūrus, -a, – – – -um ‘(being) about to be’ Eō iēns, euntis itūrus, -a, – – ‘going’ -um ‘(being) about to go’ Volō volēns, volentis – – – ‘wanting’ Nōlō nōlēns, nōlentis – – – ‘not wanting’ Ferō lātus, -a, -um ferēns, ferentis lātūrus, -a, – ‘(having been) ‘carrying’ -um ‘(being) carried’ about to carry’ The perfect participles, being first/second-declension adjectives, are declined as follows; future participles are declined the same way but have -ūrbefore the ending. British Case Order Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom. amātus amāta amātum amātī amātae amāta Voc. amāte amāta amātum amātī amātae amāta Acc. amātum amātam amātum amātōs amātās amāta Gen. amātī amātae amātī amātōrum amātārum amātōrum Dat. amātō amātae amātō amātīs amātīs amātīs Abl. amātō amātā amātō amātīs amātīs amātīs Ancient Case Order Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom. amātus amāta amātum amātī amātae amāta Gen. amātī amātae amātī amātōrum amātārum amātōrum Dat. amātō amātae amātō amātīs amātīs amātīs Acc. amātum amātam amātum amātōs amātās amāta Abl. amātō amātā amātō amātīs amātīs amātīs Voc. amāte amāta amātum amātī amātae amāta The present participles are third-declension adjectives, with a variation in the ablative singular that has not hitherto been relevant to us. British Case Order Singular Plural Masculine/ Masculine/ Feminine Neuter Feminine Neuter Nom. amāns amāns amantēs amantia Voc. amāns amāns amantēs amantia Acc. amantem amāns amantēs/amantīs amantia Gen. amantis amantis amantium amantium Dat. amantī amantī amantibus amantibus Abl. amantī/amante amantī/amante amantibus amantibus Ancient Case Order Singular Plural Masculine/ Masculine/ Feminine Neuter Feminine Neuter Nom./Voc. amāns amāns amantēs amantia Gen. amantis amantis amantium amantium Dat. amantī amantī amantibus amantibus Acc. amantem amāns amantēs/amantīs amantia Abl. amantī/amante amantī/amante amantibus amantibus"
+          "text": "‘(having been) ‘carrying’ -um ‘(being) carried’ about to carry’ The perfect participles, being first/second-declension adjectives, are declined as follows; future participles are declined the same way but have -ūrbefore the ending."
+        },
+        {
+          "t": "h",
+          "text": "British Case Order"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. amātus amāta amātum amātī amātae amāta Voc. amāte amāta amātum amātī amātae amāta Acc. amātum amātam amātum amātōs amātās amāta Gen. amātī amātae amātī amātōrum amātārum amātōrum Dat. amātō amātae amātō amātīs amātīs amātīs Abl. amātō amātā amātō amātīs amātīs amātīs"
+        },
+        {
+          "t": "h",
+          "text": "Ancient Case Order"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. amātus amāta amātum amātī amātae amāta Gen. amātī amātae amātī amātōrum amātārum amātōrum Dat. amātō amātae amātō amātīs amātīs amātīs Acc. amātum amātam amātum amātōs amātās amāta Abl. amātō amātā amātō amātīs amātīs amātīs Voc. amāte amāta amātum amātī amātae amāta"
+        },
+        {
+          "t": "p",
+          "text": "The present participles are third-declension adjectives, with a variation in the ablative singular that has not hitherto been relevant to us."
+        },
+        {
+          "t": "h",
+          "text": "British Case Order"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine/ Masculine/ Feminine Neuter Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. amāns amāns amantēs amantia Voc. amāns amāns amantēs amantia Acc. amantem amāns amantēs/amantīs amantia Gen. amantis amantis amantium amantium Dat. amantī amantī amantibus amantibus Abl. amantī/amante amantī/amante amantibus amantibus"
+        },
+        {
+          "t": "h",
+          "text": "Ancient Case Order"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine/ Masculine/ Feminine Neuter Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom./Voc. amāns amāns amantēs amantia Gen. amantis amantis amantium amantium Dat. amantī amantī amantibus amantibus Acc. amantem amāns amantēs/amantīs amantia Abl. amantī/amante amantī/amante amantibus amantibus"
         }
       ]
     }
@@ -64,7 +216,6 @@ const chapter = {
         "quis est qui hoc credat?",
         "hi sunt versus quos omnes legant. legeret.",
         "sunt qui inimicis ignoverint. advenisse.",
-        "iuvandus mihi est ille quippe qui",
         "sunt qui dicant te servos tuos pecuniam amissam invenirent. liberavisse."
       ],
       "notes": []
@@ -116,11 +267,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "10 nemo erat qui bene pugnaret. 56.",
-          "a": ""
-        },
-        {
-          "q": "2 Relative Clauses of Purpose and Cause 373",
+          "q": "10 nemo erat qui bene pugnaret.",
           "a": ""
         }
       ],

@@ -9,11 +9,99 @@ const chapter = {
   "complete": true,
   "sections": [
     {
+      "id": "section-0",
+      "latin": "Introduction",
+      "english": "Introduction",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "In addition to the first and second declensions, Latin has a third declension. Nouns of the third declension can be masculine, feminine, or neuter, and all three genders decline similarly, except that in the neuter the nominative, vocative, and accusative are always the same as each other. The nominatives singular of third-declension nouns are unpredictable: the first form in the vocabulary entry will always be the nominative and vocative (and accusative in the case of neuter nouns) singular, but there is no reliable way of predicting what the relationship between that form and the other forms in the paradigm will be. The stem on which these other forms are based can only be found by dropping the -is ending of the genitive singular: thus for a noun with a vocabulary entry mīles, mīlitis (m.), the stem is mīlit-. To this stem are added the following endings: in the singular accusative -em, genitive -is, dative -ī, ablative -e or -ī depending on the paradigm; in the plural nominative and vocative -ēs, accusative -ēs or -īs depending on the paradigm, genitive -um or -ium depending on the paradigm, dative and ablative -ibus. Therefore the full declension of mīles is as follows:"
+        },
+        {
+          "t": "h",
+          "text": "British Case Order Ancient Case Order"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Singular Plural"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. mīles mīlit-ēs Nom./Voc. mīles mīlit-ēs Voc. mīles mīlit-ēs Gen. mīlit-is mīlit-um Acc. mīlit-em mīlit-ēs Dat. mīlit-ī mīlit-ibus Gen. mīlit-is mīlit-um Acc. mīlit-em mīlit-ēs Dat. mīlit-ī mīlit-ibus Abl. mīlit-e mīlit-ibus Abl. mīlit-e mīlit-ibus"
+        },
+        {
+          "t": "p",
+          "text": "Third-declension nouns belong to two types: consonant stems and i-stems. Nouns"
+        },
+        {
+          "t": "p",
+          "text": "in the latter category take a slightly different set of endings; these have an additional form given in the vocabulary, the genitive plural. The forms that differ in the i-stem paradigm are in bold font below."
+        },
+        {
+          "t": "h",
+          "text": "British Case Order"
+        },
+        {
+          "t": "h",
+          "text": "Consonant stems"
+        },
+        {
+          "t": "p",
+          "text": "Masculine and feminine Neuter mīles, mīlitis ‘soldier’ opus, operis ‘work’ Singular Plural Singular Plural"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. mīles mīlitēs opus opera Voc. mīles mīlitēs opus opera Acc. mīlitem mīlitēs opus opera Gen. mīlitis mīlitum operis operum Dat. mīlitī mīlitibus operī operibus Abl. mīlite mīlitibus opere operibus"
+        },
+        {
+          "t": "h",
+          "text": "I-stems"
+        },
+        {
+          "t": "p",
+          "text": "Masculine and feminine Neuter cīvis, cīvis, cīvium ‘citizen’ animal, animālis, animālium ‘animal’ Singular Plural Singular Plural"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. cīvis cīvēs animal animālia Voc. cīvis cīvēs animal animālia Acc. cīvem cīvēs/cīvīs animal animālia Gen. cīvis cīvium animālis animālium Dat. cīvī cīvibus animālī animālibus Abl. cīve/cīvī cīvibus animālī animālibus"
+        },
+        {
+          "t": "h",
+          "text": "Ancient Case Order"
+        },
+        {
+          "t": "h",
+          "text": "Consonant stems"
+        },
+        {
+          "t": "p",
+          "text": "Masculine and feminine Neuter mīles, mīlitis ‘soldier’ opus, operis ‘work’ Singular Plural Singular Plural"
+        },
+        {
+          "t": "pre",
+          "text": "Nom./Voc. mīles mīlitēs opus opera Gen. mīlitis mīlitum operis operum Dat. mīlitī mīlitibus operī operibus Acc. mīlitem mīlitēs opus opera Abl. mīlite mīlitibus opere operibus"
+        }
+      ]
+    },
+    {
       "id": "section-1",
       "latin": "14.2 Agreement",
       "english": "Grammar",
       "kind": "commentary",
       "blocks": [
+        {
+          "t": "h",
+          "text": "I-stems"
+        },
+        {
+          "t": "p",
+          "text": "Masculine and feminine Neuter cīvis, cīvis, cīvium ‘citizen’ animal, animālis, animālium ‘animal’ Singular Plural Singular Plural"
+        },
+        {
+          "t": "pre",
+          "text": "Nom./Voc. cīvis cīvēs animal animālia Gen. cīvis cīvium animālis animālium Dat. cīvī cīvibus animālī animālibus Acc. cīvem cīvēs/cīvīs animal animālia Abl. cīve/cīvī cīvibus animālī animālibus"
+        },
         {
           "t": "p",
           "text": "When a first/second-declension adjective like bonus modifies a third-declension noun such as mīles, the endings of noun and adjective are usually completely different, but the adjective nevertheless agrees with the noun in gender, number, and case: bonus mīles nominative singular, bonī mīlitēs nominative plural, bonī mīlitis genitive singular, bonō mīlitī dative singular, etc."
@@ -27,16 +115,12 @@ const chapter = {
       "latinTitle": "SENTENTIAE LATĪNAE",
       "title": "Latin sentences from this chapter",
       "paragraphs": [
-        "pater, patris (m.) ‘father’",
-        "māter, mātris (f.) ‘mother’",
         "mater, quis est pater meus?",
         "sorores nostrae cum rege sunt.",
-        "puer miser est; adsint pater et",
         "opera matris meae bona sunt.",
         "multi cives liberi sunt.",
         "cuius opera vidisti? bonum est.",
         "miles, ubi est flumen?",
-        "servus animalia trans agros",
         "ubi est equus fratris tui? duxit.",
         "quid est nomen matris vestrae? magna fuerunt.",
         "milites hunc regem non amant. non sine moenibus est.",

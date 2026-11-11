@@ -15,12 +15,24 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "19.2 Tenses of the Infinitive"
+          "t": "p",
+          "text": "In both Latin and English words may be reported either in direct or in indirect speech: direct speech is the type that uses quotation marks and repeats the exact words of the original statement, and indirect speech does not use quotation marks, is often introduced by ‘that’, and does not repeat the original words exactly."
         },
         {
           "t": "p",
-          "text": "In both Latin and English words may be reported either in direct or in indirect speech: direct speech is the type that uses quotation marks and repeats the exact words of the original statement, and indirect speech does not use quotation marks, is often introduced by ‘that’, and does not repeat the original words exactly. Direct: ‘He said, “I will come soon.”’ Indirect: ‘He said that he would come soon.’ or ‘He said he would come soon.’ In Latin, indirect statement (which can be used not only with verbs meaning ‘say’, but also with verbs having related meanings such as ‘hear’) is expressed with a subject in the accusative and a verb in the infinitive. The subject must always be expressed, since an infinitive does not provide any information on what the subject is; the reason indicative and subjunctive verbs often do not have expressed subjects in Latin is that their endings convey all the necessary information. dīcit hostēs venīre. ‘He says (that) the enemy is coming.’ dīcit rēgem adesse. ‘He says (that) the king is present.’ dīcunt illam puellam pulchram esse. ‘They say (that) that girl is beautiful.’ Notice that in this last example pulchram is accusative despite being associated with a form of sum. In chapter 5.3 we saw that sum takes the same case as its subject, and that therefore in most circumstances sum effectively takes the nominative, since subjects are usually nominative. But when a subject is accusative, any word linked to that subject by sum will also be accusative. When an indirect statement contains two accusatives, either may in theory be the subject, though in practice one often works better than the other in the role of subject. dīcit tē rēgem laudāre. ‘He says (that) you praise the king.’ / ‘He says (that) the king praises you.’ dīcit tē equum laudāre. ‘He says (that) you praise the horse.’"
+          "text": "Direct: ‘He said, “I will come soon.”’ Indirect: ‘He said that he would come soon.’ or ‘He said he would come soon.’ In Latin, indirect statement (which can be used not only with verbs meaning ‘say’, but also with verbs having related meanings such as ‘hear’) is expressed with a subject in the accusative and a verb in the infinitive."
+        },
+        {
+          "t": "p",
+          "text": "The subject must always be expressed, since an infinitive does not provide any information on what the subject is; the reason indicative and subjunctive verbs often do not have expressed subjects in Latin is that their endings convey all the necessary information. dīcit hostēs venīre. ‘He says (that) the enemy is coming.’ dīcit rēgem adesse. ‘He says (that) the king is present.’ dīcunt illam puellam pulchram esse."
+        },
+        {
+          "t": "p",
+          "text": "‘They say (that) that girl is beautiful.’ Notice that in this last example pulchram is accusative despite being associated with a form of sum. In chapter 5.3 we saw that sum takes the same case as its subject, and that therefore in most circumstances sum effectively takes the nominative, since subjects are usually nominative. But when a subject is accusative, any word linked to that subject by sum will also be accusative."
+        },
+        {
+          "t": "p",
+          "text": "When an indirect statement contains two accusatives, either may in theory be the subject, though in practice one often works better than the other in the role of subject. dīcit tē rēgem laudāre. ‘He says (that) you praise the king.’ / ‘He says (that) the king praises you.’ dīcit tē equum laudāre. ‘He says (that) you praise the horse.’"
         }
       ]
     },
@@ -32,7 +44,19 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "When the original statement was not in the present tense but in the past or the future, a perfect or future infinitive needs to be used. The perfect infinitive is formed by adding -isse to the perfect stem (the third principal part without its final -ī), and the future infinitive is formed by replacing the -um of the fourth principal part with -ūrus (-ūra, -ūrum) esse. (If the fourth principal part already ends in -ūrus, no change is necessary.) Present Perfect Future infinitive infinitive infinitive First conjugation amāre amāvisse amātūrus, -a, -um esse Second conjugation monēre monuisse monitūrus, -a, -um esse Third conjugation regere rēxisse rēctūrus, -a, -um esse Fourth conjugation audīre audīvisse audītūrus, -a, -um esse Mixed conjugation capere cēpisse captūrus, -a, -um esse Sum esse fuisse futūrus, -a, -um esse Possum posse potuisse – Eō īre īvisse/īsse itūrus, -a, -um esse"
+          "text": "When the original statement was not in the present tense but in the past or the future, a perfect or future infinitive needs to be used. The perfect infinitive is formed by adding -isse to the perfect stem (the third principal part without its final -ī), and the future infinitive is formed by replacing the -um of the fourth principal part with -ūrus (-ūra, -ūrum) esse."
+        },
+        {
+          "t": "p",
+          "text": "(If the fourth principal part already ends in -ūrus, no change is necessary.)"
+        },
+        {
+          "t": "pre",
+          "text": "Present Perfect Future infinitive infinitive infinitive"
+        },
+        {
+          "t": "p",
+          "text": "First conjugation amāre amāvisse amātūrus, -a, -um esse Second conjugation monēre monuisse monitūrus, -a, -um esse Third conjugation regere rēxisse rēctūrus, -a, -um esse Fourth conjugation audīre audīvisse audītūrus, -a, -um esse Mixed conjugation capere cēpisse captūrus, -a, -um esse Sum esse fuisse futūrus, -a, -um esse Possum posse potuisse – Eō īre īvisse/īsse itūrus, -a, -um esse"
         }
       ]
     },
@@ -44,7 +68,11 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "The future infinitive agrees with its subject in gender, number, and case; the case in an indirect statement, of course, is always accusative. dīcunt puellam rēgem amatūram esse. ‘They say that the girl will love the king.’ dīcunt puellam rēgem amatūrum esse. ‘They say that the king will love the girl.’ dīcit illum nōs vīsūrum esse. ‘He says that that man will see us.’ dīcit illum nōs vīsūrōs esse. ‘He says that we shall see that man.’ This agreement means that indirect statements with a future infinitive are less likely to be ambiguous than those with present or past infinitives."
+          "text": "The future infinitive agrees with its subject in gender, number, and case; the case in an indirect statement, of course, is always accusative. dīcunt puellam rēgem amatūram esse. ‘They say that the girl will love the king.’ dīcunt puellam rēgem amatūrum esse. ‘They say that the king will love the girl.’ dīcit illum nōs vīsūrum esse. ‘He says that that man will see us.’ dīcit illum nōs vīsūrōs esse."
+        },
+        {
+          "t": "p",
+          "text": "‘He says that we shall see that man.’ This agreement means that indirect statements with a future infinitive are less likely to be ambiguous than those with present or past infinitives."
         }
       ]
     },
@@ -55,12 +83,40 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "19.4 Use of Infinitive Tenses"
+          "t": "p",
+          "text": "In formal written English, sequence of tenses applies to indirect statements: if the verb of saying is in the past, the verb of the subordinate clause is usually not in the same form as it would have been in the original direct statement."
         },
         {
           "t": "p",
-          "text": "In formal written English, sequence of tenses applies to indirect statements: if the verb of saying is in the past, the verb of the subordinate clause is usually not in the same form as it would have been in the original direct statement. Thus an indirect statement ‘He said that they had already arrived’ means that what the messenger actually said was ‘They have already arrived’, and ‘He said that they would arrive soon’ means that the original statement was ‘They will arrive soon.’ The English tense changes are as follows: Original sentence Indirect speech Indirect speech after present tense after past tense I ate a fish. He says he ate a fish. He said he had eaten a fish. I eat fish. He says he eats fish. He said he ate fish. I am eating a fish. He says he is eating a fish. He said he was eating a fish. I shall eat a fish. He says he will eat a fish. He said he would eat a fish. In Latin the tense of the infinitive is the same as the tense of the original direct statement; in other words, the tense of the infinitive is relative to that of the main verb. The present infinitive is used for an original present tense, while the perfect and future infinitives are used for original perfect and future tenses. ille tē amat. ‘That man loves you.’ → dīxī illum tē amāre. ‘I said that that man loved you.’ (English uses a past tense in the subordinate verb, but Latin uses a present.) ille tē amāvit. ‘That man loved you.’ → dīxī illum tē amāvisse. ‘I said that that man had loved you.’ (English uses a pluperfect in the subordinate verb, but Latin uses a perfect.) ille tē amābit. ‘That man will love you.’ → dīxī illum tē amātūrum esse. ‘I said that that man would love you.’ (English uses ‘would’ in the subordinate verb, but Latin uses a future.) Therefore when translating in either direction it is usually necessary to adjust the tenses of the subordinate verb(s) if the main verb is in a past tense."
+          "text": "Thus an indirect statement ‘He said that they had already arrived’ means that what the messenger actually said was ‘They have already arrived’, and ‘He said that they would arrive soon’ means that the original statement was ‘They will arrive soon.’ The English tense changes are"
+        },
+        {
+          "t": "example",
+          "text": ""
+        },
+        {
+          "t": "h",
+          "text": "Original sentence Indirect speech Indirect speech"
+        },
+        {
+          "t": "h",
+          "text": "after present tense after past tense"
+        },
+        {
+          "t": "p",
+          "text": "I ate a fish. He says he ate a fish. He said he had eaten a fish. I eat fish. He says he eats fish. He said he ate fish. I am eating a fish. He says he is eating a fish. He said he was eating a fish. I shall eat a fish. He says he will eat a fish. He said he would eat a fish."
+        },
+        {
+          "t": "p",
+          "text": "In Latin the tense of the infinitive is the same as the tense of the original direct statement; in other words, the tense of the infinitive is relative to that of the main verb. The present infinitive is used for an original present tense, while the perfect and future infinitives are used for original perfect and future tenses. ille tē amat. ‘That man loves you.’ → dīxī illum tē amāre."
+        },
+        {
+          "t": "p",
+          "text": "‘I said that that man loved you.’ (English uses a past tense in the subordinate verb, but Latin uses a present.) ille tē amāvit. ‘That man loved you.’ → dīxī illum tē amāvisse. ‘I said that that man had loved you.’ (English uses a pluperfect in the subordinate verb, but Latin uses a perfect.) ille tē amābit. ‘That man will love you.’ → dīxī illum tē amātūrum esse."
+        },
+        {
+          "t": "p",
+          "text": "‘I said that that man would love you.’ (English uses ‘would’ in the subordinate verb, but Latin uses a future.) Therefore when translating in either direction it is usually necessary to adjust the tenses of the subordinate verb(s) if the main verb is in a past tense."
         }
       ]
     }

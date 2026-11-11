@@ -16,7 +16,59 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "The relative pronoun is the word used for ‘who’, ‘whom’, ‘whose’, and ‘which’ when those words do not introduce questions (and for ‘that’ when equivalent to ‘who’ etc.), as ‘The man who finds the gold will be rich’ and ‘You should have seen the one that got away.’ In Latin, as in English, the relative pronoun is very similar to the interrogative pronoun, which we saw in chapter 13.3; in fact the relative pronoun is identical in form to the interrogative adjective, quī, quae, quod. It is therefore declined as follows: British Case Order Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom. quī quae quod quī quae quae Voc. – – – – – – Acc. quem quam quod quōs quās quae Gen. cuius cuius cuius quōrum quārum quōrum Dat. cui cui cui quibus/quīs quibus/quīs quibus/quīs Abl. quō quā quō quibus/quīs quibus/quīs quibus/quīs Ancient Case Order Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom. quī quae quod quī quae quae Gen. cuius cuius cuius quōrum quārum quōrum Dat. cui cui cui quibus/quīs quibus/quīs quibus/quīs Acc. quem quam quod quōs quās quae Abl. quō quā quō quibus/quīs quibus/quīs quibus/quīs A relative pronoun or adjective introduces a subordinate clause; the relative pronoun links this subordinate clause to a particular word (very often, though not always, the word just before the relative clause) in the main clause, called the antecedent. The relative pronoun agrees with the antecedent in gender and number, but it takes its case from its construction in its own (subordinate) clause. rēx quī nōs regit bonus est. ‘The king who rules us is good.’ The relative pronoun is masculine and singular because it agrees with the antecedent rēx, but nominative because it is the subject of regit. rēx quem vidēs bonus est. ‘The king whom you see is good.’ The relative pronoun is masculine and singular because it agrees with the antecedent rēx, but accusative because it is the object of vidēs. pulchrae sunt puellae quās amāmus. ‘The girls whom we love are beautiful.’ The relative pronoun is feminine and plural because it agrees with the antecedent puellae, but accusative because it is the object of amāmus. puellās quās vidēs amāmus. ‘We love the girls whom you see.’ The relative pronoun is feminine and plural because it agrees with the antecedent puellās, but accusative because it is the object of vidēs. Notice that the relative clause in both Latin and English may come in the middle of another clause; one can identify the beginning and end of the relative clause because it begins with the relative pronoun (or with a preposition that governs the relative pronoun: vīdī puellās cum quibus cucurristī ‘I saw the girls with whom you ran’) and usually ends with the first finite verb that occurs after the relative pronoun. Notice also that the word order is often very different in English from in Latin: in translating sentences with relative clauses from Latin to English one needs to identify the main clause, translate it, and then translate the relative clause immediately after its antecedent, wherever that antecedent happens to come in the English version. It is very important to keep the relative clause intact in translation; mixing words from the relative clause with ones from the main clause will nearly always produce the wrong meaning."
+          "text": "The relative pronoun is the word used for ‘who’, ‘whom’, ‘whose’, and ‘which’ when those words do not introduce questions (and for ‘that’ when equivalent to ‘who’ etc.), as ‘The man who finds the gold will be rich’ and ‘You should have seen the one that got away.’ In Latin, as in English, the relative pronoun is very similar to the interrogative pronoun, which we saw in chapter 13.3; in fact the relative pronoun is identical in form to the interrogative adjective, quī, quae, quod."
+        },
+        {
+          "t": "p",
+          "text": "It is therefore declined as follows:"
+        },
+        {
+          "t": "h",
+          "text": "British Case Order"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. quī quae quod quī quae quae Voc. – – – – – – Acc. quem quam quod quōs quās quae Gen. cuius cuius cuius quōrum quārum quōrum Dat. cui cui cui quibus/quīs quibus/quīs quibus/quīs Abl. quō quā quō quibus/quīs quibus/quīs quibus/quīs"
+        },
+        {
+          "t": "h",
+          "text": "Ancient Case Order"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. quī quae quod quī quae quae Gen. cuius cuius cuius quōrum quārum quōrum Dat. cui cui cui quibus/quīs quibus/quīs quibus/quīs Acc. quem quam quod quōs quās quae Abl. quō quā quō quibus/quīs quibus/quīs quibus/quīs"
+        },
+        {
+          "t": "p",
+          "text": "A relative pronoun or adjective introduces a subordinate clause; the relative pronoun links this subordinate clause to a particular word (very often, though not always, the word just before the relative clause) in the main clause, called the antecedent. The relative pronoun agrees with the antecedent in gender and number, but it takes its case from its construction in its own (subordinate) clause. rēx quī nōs regit bonus est."
+        },
+        {
+          "t": "p",
+          "text": "‘The king who rules us is good.’ The relative pronoun is masculine and singular because it agrees with the antecedent rēx, but nominative because it is the subject of regit. rēx quem vidēs bonus est. ‘The king whom you see is good.’ The relative pronoun is masculine and singular because it agrees with the antecedent rēx, but accusative because it is the object of vidēs. pulchrae sunt puellae quās amāmus."
+        },
+        {
+          "t": "p",
+          "text": "‘The girls whom we love are beautiful.’ The relative pronoun is feminine and plural because it agrees with the antecedent puellae, but accusative because it is the object of amāmus. puellās quās vidēs amāmus. ‘We love the girls whom you see.’ The relative pronoun is feminine and plural because it agrees with the antecedent puellās, but accusative because it is the object of vidēs."
+        },
+        {
+          "t": "p",
+          "text": "Notice that the relative clause in both Latin and English may come in the middle of another clause; one can identify the beginning and end of the relative clause because it begins with the relative pronoun (or with a preposition that governs the relative pronoun: vīdī puellās cum quibus cucurristī ‘I saw the girls with whom you ran’) and usually ends with the first finite verb that occurs after the relative pronoun."
+        },
+        {
+          "t": "p",
+          "text": "Notice also that the word order is often very different in English from in Latin: in translating sentences with relative clauses from Latin to English one needs to identify the main clause, translate it, and then translate the relative clause immediately after its antecedent, wherever that antecedent happens to come in the English version."
+        },
+        {
+          "t": "p",
+          "text": "It is very important to keep the relative clause intact in translation; mixing words from the relative clause with ones from the main clause will nearly always produce the wrong meaning."
         }
       ]
     },
@@ -28,7 +80,11 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "The word for ‘want’ is volō, velle, voluī, –; it is irregular and conjugated as follows: Present Future Perfect Present Imperfect indicative indicative indicative subjunctive subjunctive volō volam voluī velim vellem vīs volēs voluistī velīs vellēs vult volet voluit velit vellet volumus volēmus voluimus velīmus vellēmus vultis volētis voluistis velītis vellētis volunt volent voluērunt velint vellent Infinitives: present velle, perfect voluisse, no future Participles: present volēns, gen. volentis; no perfect or future Volō takes a present infinitive, like possum and like its English equivalent ‘want’: volō venīre ‘I want to come’."
+          "text": "The word for ‘want’ is volō, velle, voluī, –; it is irregular and conjugated as follows: Present Future Perfect Present Imperfect indicative indicative indicative subjunctive subjunctive volō volam voluī velim vellem vīs volēs voluistī velīs vellēs vult volet voluit velit vellet volumus volēmus voluimus velīmus vellēmus vultis volētis voluistis velītis vellētis volunt volent voluērunt velint vellent Infinitives: present velle, perfect voluisse, no future Participles: present volēns, gen."
+        },
+        {
+          "t": "p",
+          "text": "volentis; no perfect or future Volō takes a present infinitive, like possum and like its English equivalent ‘want’: volō venīre ‘I want to come’."
         }
       ]
     }
@@ -45,7 +101,7 @@ const chapter = {
         "ubi est puella cuius pecuniam bona dant. habemus?",
         "nos non amat puella cum qua boni sunt. sedimus.",
         "bonae sunt deae quarum nomina laudabimus. laudavimus.",
-        "puellam quae me amat laudavi. 25."
+        "puellam quae me amat laudavi."
       ],
       "notes": []
     }
@@ -209,11 +265,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "18 puellam quae me amat laudavi. 25.",
-          "a": ""
-        },
-        {
-          "q": "3 Volō 159",
+          "q": "18 puellam quae me amat laudavi.",
           "a": ""
         }
       ],

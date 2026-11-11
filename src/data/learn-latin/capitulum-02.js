@@ -9,6 +9,18 @@ const chapter = {
   "complete": true,
   "sections": [
     {
+      "id": "section-0",
+      "latin": "Introduction",
+      "english": "Introduction",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "h",
+          "text": "of First and Second Declensions"
+        }
+      ]
+    },
+    {
       "id": "section-1",
       "latin": "2.1 Cases",
       "english": "Grammar",
@@ -16,7 +28,35 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "Nouns are words for people, places, or things. In English, word order tells us how the nouns and verbs in a sentence are related: ‘Maria leads Julia’ has a very different meaning from ‘Julia leads Maria.’ The noun (or pronoun) that comes before the verb is usually the subject, the doer of the action of the verb. Likewise, in English, if there is a noun (or pronoun) after the verb, that is normally the object, the recipient of the action of the verb. In Latin, however, the information as to which noun is the subject and which is the object is conveyed not by word order, but by the endings of the words (inflection). The subject has an ending that identifies it as belonging to the nominative case, and the object has an ending that identifies it as belonging to the accusative case. Therefore any word order can be used in Latin without altering the basic meaning of the sentence, and when translating a Latin sentence into English one normally has to change the order of the words. Names like Marīa and Iūlia belong to the first declension, a group of nouns that end in -a in the nominative singular (when they are subjects) and in -am in the accusative singular (when they are objects). Thus ‘Maria leads Julia’ could be written in Latin Marīa Iūliam dūcit; this would be the normal order with the verb at the end. But ‘Maria leads Julia’ could also be Iūliam Marīa dūcit, dūcit Iūliam Marīa, dūcit Marīa Iūliam, Marīa dūcit Iūliam, or Iūliam dūcit Marīa. These six sentences are not identical in meaning; there are differences of emphasis depending on how they vary from the normal order. But all six could be translated into English as ‘Maria leads Julia’. Similarly ‘Julia leads Maria’ could be written in Latin Iūlia Marīam dūcit, Marīam Iūlia dūcit, dūcit Marīam Iūlia, dūcit Iūlia Marīam, Iūlia dūcit Marīam, or Marīam dūcit Iūlia. Names like Mārcus and Quīntus belong to the second declension: these words end in -us in the nominative and -um in the accusative. So ‘Marcus leads Quintus’ could be Mārcus Quīntum dūcit, Quīntum Mārcus dūcit, etc. In sum: First declension Second declension Nominative singular -a -us Accusative singular -am -um"
+          "text": "Nouns are words for people, places, or things. In English, word order tells us how the nouns and verbs in a sentence are related: ‘Maria leads Julia’ has a very different meaning from ‘Julia leads Maria.’ The noun (or pronoun) that comes before the verb is usually the subject, the doer of the action of the verb."
+        },
+        {
+          "t": "p",
+          "text": "Likewise, in English, if there is a noun (or pronoun) after the verb, that is normally the object, the recipient of the action of the verb. In Latin, however, the information as to which noun is the subject and which is the object is conveyed not by word order, but by the endings of the words (inflection)."
+        },
+        {
+          "t": "p",
+          "text": "The subject has an ending that identifies it as belonging to the nominative case, and the object has an ending that identifies it as belonging to the accusative case. Therefore any word order can be used in Latin without altering the basic meaning of the sentence, and when translating a Latin sentence into English one normally has to change the order of the words."
+        },
+        {
+          "t": "p",
+          "text": "Names like Marīa and Iūlia belong to the first declension, a group of nouns that end in -a in the nominative singular (when they are subjects) and in -am in the accusative singular (when they are objects). Thus ‘Maria leads Julia’ could be written in Latin Marīa Iūliam dūcit; this would be the normal order with the verb at the end."
+        },
+        {
+          "t": "p",
+          "text": "But ‘Maria leads Julia’ could also be Iūliam Marīa dūcit, dūcit Iūliam Marīa, dūcit Marīa Iūliam, Marīa dūcit Iūliam, or Iūliam dūcit Marīa. These six sentences are not identical in meaning; there are differences of emphasis depending on how they vary from the normal order. But all six could be translated into English as ‘Maria leads Julia’."
+        },
+        {
+          "t": "p",
+          "text": "Similarly ‘Julia leads Maria’ could be written in Latin Iūlia Marīam dūcit, Marīam Iūlia dūcit, dūcit Marīam Iūlia, dūcit Iūlia Marīam, Iūlia dūcit Marīam, or Marīam dūcit Iūlia. Names like Mārcus and Quīntus belong to the second declension: these words end in -us in the nominative and -um in the accusative. So ‘Marcus leads Quintus’ could be Mārcus Quīntum dūcit, Quīntum Mārcus dūcit, etc. In sum:"
+        },
+        {
+          "t": "example",
+          "text": "First declension Second declension"
+        },
+        {
+          "t": "h",
+          "text": "Nominative singular -a -us Accusative singular -am -um"
         }
       ]
     },
@@ -28,7 +68,15 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "When calling to someone or addressing him/her directly, the Romans used another case, the vocative. In the first declension the vocative has the same endings as the nominative, but in the second declension it is different. First declension Second declension Nominative singular -a -us Vocative singular -a -e Accusative singular -am -um Thus when calling to Marcus, one says Mārce, but when calling to Julia, one says Iūlia. A vocative can appear anywhere in the sentence, even in front of the word that has -ne in a question: ‘Marcus, are you reading?’ could be Mārce, legisne? or legisne, Mārce?. (The -ne cannot be attached to the vocative itself.)"
+          "text": "When calling to someone or addressing him/her directly, the Romans used another case, the vocative. In the first declension the vocative has the same endings as the nominative, but in the second declension it is different."
+        },
+        {
+          "t": "example",
+          "text": "First declension Second declension"
+        },
+        {
+          "t": "p",
+          "text": "Nominative singular -a -us Vocative singular -a -e Accusative singular -am -um Thus when calling to Marcus, one says Mārce, but when calling to Julia, one says Iūlia. A vocative can appear anywhere in the sentence, even in front of the word that has -ne in a question: ‘Marcus, are you reading?’ could be Mārce, legisne? or legisne, Mārce?. (The -ne cannot be attached to the vocative itself.)"
         }
       ]
     },
@@ -40,7 +88,23 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "Like the verbs in chapter 1.1, these names illustrate paradigms, large groups of words that all take the same endings. Many nouns end in -a and belong to the first declension, and many others end in -us and belong to the second declension. These nouns take the endings we have just seen; in addition, they can be plural (refer to more than one person/thing), and when they are plural they take different endings: nominative and vocative in -ae (first declension) or -ī (second declension), accusative in -ās (first declension) or -ōs (second declension). One example of a first-declension noun is puella ‘girl’, and one example of a second-declension noun is servus ‘slave’. We can now decline (i.e. put the endings on) these two nouns as follows: First declension Second declension Singular Plural Singular Plural Nominative puella puellae servus servī Vocative puella puellae serve servī Accusative puellam puellās servum servōs"
+          "text": "Like the verbs in chapter 1.1, these names illustrate paradigms, large groups of words that all take the same endings. Many nouns end in -a and belong to the first declension, and many others end in -us and belong to the second declension."
+        },
+        {
+          "t": "p",
+          "text": "These nouns take the endings we have just seen; in addition, they can be plural (refer to more than one person/thing), and when they are plural they take different endings: nominative and vocative in -ae (first declension) or -ī (second declension), accusative in -ās (first declension) or -ōs (second declension)."
+        },
+        {
+          "t": "p",
+          "text": "One example of a first-declension noun is puella ‘girl’, and one example of a second-declension noun is servus ‘slave’. We can now decline (i.e. put the endings on) these two nouns as follows:"
+        },
+        {
+          "t": "example",
+          "text": "First declension Second declension Singular Plural Singular Plural"
+        },
+        {
+          "t": "p",
+          "text": "Nominative puella puellae servus servī Vocative puella puellae serve servī Accusative puellam puellās servum servōs"
         }
       ]
     },
@@ -52,7 +116,15 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "Like the verb forms in chapter 1.2, these nouns can be translated into English in more than one way. Latin has no articles (i.e. no equivalent of English ‘the’ or ‘a’). So puella can be translated ‘girl’, ‘a girl’, or ‘the girl’, and puellae can be translated ‘girls’ or ‘the girls’. A sentence containing two nouns and a present-tense verb therefore has a wide variety of translations: puella servum dūcit could be rendered ‘The girl leads the slave’, ‘The girl is leading the slave’, ‘A girl leads the slave’, ‘A girl is leading the slave’, ‘The girl leads a slave’, ‘The girl is leading a slave’, ‘A girl leads a slave’, or ‘A girl is leading a slave’. When the sentence is presented in isolation any one of these can be used, but when the sentence has a context (as is almost always the case in real Latin literature) the context normally determines which translation is appropriate. Therefore puella servum dūcit might mean ‘A girl leads a slave’ in one place and ‘The girl is leading the slave’ in another place."
+          "text": "Like the verb forms in chapter 1.2, these nouns can be translated into English in more than one way. Latin has no articles (i.e. no equivalent of English ‘the’ or ‘a’). So puella can be translated ‘girl’, ‘a girl’, or ‘the girl’, and puellae can be translated ‘girls’ or ‘the girls’."
+        },
+        {
+          "t": "p",
+          "text": "A sentence containing two nouns and a present-tense verb therefore has a wide variety of translations: puella servum dūcit could be rendered ‘The girl leads the slave’, ‘The girl is leading the slave’, ‘A girl leads the slave’, ‘A girl is leading the slave’, ‘The girl leads a slave’, ‘The girl is leading a slave’, ‘A girl leads a slave’, or ‘A girl is leading a slave’."
+        },
+        {
+          "t": "p",
+          "text": "When the sentence is presented in isolation any one of these can be used, but when the sentence has a context (as is almost always the case in real Latin literature) the context normally determines which translation is appropriate. Therefore puella servum dūcit might mean ‘A girl leads a slave’ in one place and ‘The girl is leading the slave’ in another place."
         }
       ]
     }
@@ -66,7 +138,6 @@ const chapter = {
         "Maria Iuliam petit.",
         "Iuliam non petit Maria.",
         "Marcum Quintus petit.",
-        "Marce, Iulia Mariam petit.",
         "servum poeta petit.",
         "puella, petisne servos?",
         "agricolas servus non petit.",
@@ -269,43 +340,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "8 currisne, Maria? 2.",
-          "a": ""
-        },
-        {
-          "q": "3 Declensions 21",
-          "a": ""
-        },
-        {
-          "q": "9 Quinte, Iulia Mariam ducit.",
-          "a": ""
-        },
-        {
-          "q": "13 Iulia, Mariam peto.",
-          "a": ""
-        },
-        {
-          "q": "10 legisne, Iulia?",
-          "a": ""
-        },
-        {
-          "q": "14 regisne, Maria?",
-          "a": ""
-        },
-        {
-          "q": "11 Maria, legitne Marcus?",
-          "a": ""
-        },
-        {
-          "q": "15 Marce, Iulia Mariam petit.",
-          "a": ""
-        },
-        {
-          "q": "12 legitne Iulia?",
-          "a": ""
-        },
-        {
-          "q": "16 regitne Maria?",
+          "q": "8 currisne, Maria?",
           "a": ""
         }
       ],

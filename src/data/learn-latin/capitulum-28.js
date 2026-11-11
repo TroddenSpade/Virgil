@@ -9,26 +9,78 @@ const chapter = {
   "complete": true,
   "sections": [
     {
-      "id": "section-1",
-      "latin": "28.2 Addition of Objects",
-      "english": "Grammar",
+      "id": "section-0",
+      "latin": "Introduction",
+      "english": "Introduction",
       "kind": "commentary",
       "blocks": [
         {
           "t": "p",
-          "text": "The sentences above are unusual in that their main verbs all have expressed objects; more often those objects are omitted and left to be understood from the (often not expressed) subjects of the subordinate verbs. In English, most verbs of asking need to have expressed objects, so when translating Latin indirect commands into English one often needs to supply an object for the main verb. rogat ut veniāmus. ‘He asks us to come.’ rogābit nē veniās ‘He will ask you not to come.’ rogāvit ut venīrem ‘He asked me to come.’ rogāvimus nē venīret. ‘We asked him not to come.’"
+          "text": "The imperative is used to give direct commands (‘come!’ ‘go!’), but it is also possible for a command, like a statement, to be indirect. Indirect commands occur not only after verbs of ordering (‘he ordered me to go’) but also after asking (‘he asked me to go’) and after verbs expressing related concepts such as advising, urging, and encouraging. In English indirect commands use the infinitive, but in Latin they use ut with the subjunctive (or nē with subjunctive if negative); they are very similar to the purpose clauses seen in chapter 15.2 and chapter 16. Thus they follow the sequence of tenses rules introduced there and repeated below:"
+        },
+        {
+          "t": "p",
+          "text": "Main verb Subordinate verb Present indicative, future indicative, → Present subjunctive"
+        },
+        {
+          "t": "h",
+          "text": "imperative, subjunctive"
+        },
+        {
+          "t": "h",
+          "text": "Perfect indicative1 → Imperfect subjunctive"
+        },
+        {
+          "t": "p",
+          "text": "Examples (rogō, rogāre, rogāvī, rogātum ‘ask’):"
+        },
+        {
+          "t": "p",
+          "text": "rogat nōs ut veniāmus ‘He asks us to come.’ rogābit tē nē veniās ‘He will ask you not to come.’ rogāvit mē ut venīrem ‘He asked me to come.’ rogāvimus eum nē venīret. ‘We asked him not to come.’"
         }
       ]
     },
     {
-      "id": "section-2",
+      "id": "section-1",
       "latin": "28.3 Identifying Ut-Clauses and Infinitives",
       "english": "Grammar",
       "kind": "commentary",
       "blocks": [
         {
           "t": "p",
-          "text": "We have now seen two different Latin constructions that use ut/nē + subjunctive: purpose clauses and indirect commands. These do not always have the same translations in English: the indirect command is nearly always translated with an infinitive, but purpose clauses cannot be translated with an infinitive if the subjects of the two verbs are different. Thus rogāvit nōs ut venīrēmus ‘he asked us to come’ is an indirect command, but id fēcit ut venīrēmus ‘he did it so that we would come’ is a purpose clause – as is id fēcimus ut venīrēmus ‘we did it in order to come’. So it is useful to know before translating whether a subjunctive clause is a purpose clause or an indirect command. The best way to do that is to see whether the sentence’s main verb indicates asking, ordering, begging, or persuading: if it does, the subjunctive clause is probably an indirect command, and if it does not, the subjunctive is probably a purpose clause. The following verbs in particular take indirect commands: hortor, hortārī, hortātus sum ‘urge’, ‘encourage’ imperō, imperāre, imperāvī, imperātum (+ dative) ‘order’ ōrō, ōrāre, ōrāvī, ōrātum ‘beg’ persuādeō, persuādēre, persuāsī, persuāsum (+ dative) ‘persuade’ velim (present subjunctive of volō) ‘would like’ Note that like all forms of volō, velim takes the infinitive when the subject of the subordinate verb is the same as the subject of the main verb; it is only when the two have different subjects that an indirect command is intended and ut is used. Thus velim venīre ‘I would like to come’ (not a command) but velim ut veniās ‘I would like you to come’ (indirect command)."
+          "text": "We have now seen two different Latin constructions that use ut/nē + subjunctive: purpose clauses and indirect commands. These do not always have the same translations in English: the indirect command is nearly always translated with an infinitive, but purpose clauses cannot be translated with an infinitive if the subjects of the two verbs are different."
+        },
+        {
+          "t": "p",
+          "text": "Thus rogāvit nōs ut venīrēmus ‘he asked us to come’ is an indirect command, but id fēcit ut venīrēmus ‘he did it so that we would come’ is a purpose clause – as is id fēcimus ut venīrēmus ‘we did it in order to come’. So it is useful to know before translating whether a subjunctive clause is a purpose clause or an indirect command."
+        },
+        {
+          "t": "p",
+          "text": "The best way to do that is to see whether the sentence’s main verb indicates asking, ordering, begging, or persuading: if it does, the subjunctive clause is probably an indirect command, and if it does not, the subjunctive is probably a purpose clause."
+        },
+        {
+          "t": "p",
+          "text": "The following verbs in particular take indirect commands: hortor, hortārī, hortātus sum ‘urge’, ‘encourage’ imperō, imperāre, imperāvī, imperātum (+ dative) ‘order’ ōrō, ōrāre, ōrāvī, ōrātum ‘beg’ persuādeō, persuādēre, persuāsī, persuāsum (+ dative) ‘persuade’ velim (present subjunctive of volō) ‘would like’ Note that like all forms of volō, velim takes the infinitive when the subject of the subordinate verb is the same as the subject of the main verb; it is only when the two have different subjects that an indirect command is intended and ut is used."
+        },
+        {
+          "t": "p",
+          "text": "Thus velim venīre ‘I would like to come’ (not a command) but velim ut veniās ‘I would like you to come’ (indirect command)."
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "latin": "28.2 Addition of Objects",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The sentences above are unusual in that their main verbs all have expressed objects; more often those objects are omitted and left to be understood from the (often not expressed) subjects of the subordinate verbs. In English, most verbs of asking need to have expressed objects, so when translating Latin indirect commands into English one often needs to supply an object for the main verb. rogat ut veniāmus."
+        },
+        {
+          "t": "p",
+          "text": "‘He asks us to come.’ rogābit nē veniās ‘He will ask you not to come.’ rogāvit ut venīrem ‘He asked me to come.’ rogāvimus nē venīret. ‘We asked him not to come.’"
         }
       ]
     },
@@ -39,25 +91,33 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
+          "t": "h",
+          "text": "23 milites hortor ne fugiant, sed 25 magister pueris persuadebit ne"
+        },
+        {
           "t": "p",
-          "text": "When translating from English to Latin there is a further complication: while some infinitives need to be translated with ut/nē + subjunctive because they are indirect commands or purpose clauses, other English infinitives are equivalent to Latin infinitives. The verbs possum and volō (as well as some other verbs to be introduced later) take a ‘complementary’ infinitive in Latin just as they do in English. Therefore when translating an English infinitive into Latin one needs to translate first of all the verb on which the infinitive depends: if when translated into Latin that governing verb turns out to be one that takes an infinitive in Latin, then the English infinitive depending on it needs to be translated with a Latin infinitive. But if the verb on which the English infinitive depends turns out to be one that takes an indirect command in Latin, then the English infinitive needs to be translated with a Latin indirect command. And if the verb on which the English infinitive depends turns out to be one that takes neither of these constructions, then (for now – but we have not yet seen the full range of constructions) the English infinitive needs to be translated with a Latin purpose clause."
+          "text": "fugiunt. vereantur. 24 in silva venantur ut multa 26 velim ut me iuves. animalia capiant."
+        },
+        {
+          "t": "p",
+          "text": "When translating from English to Latin there is a further complication: while some infinitives need to be translated with ut/nē + subjunctive because they are indirect commands or purpose clauses, other English infinitives are equivalent to Latin infinitives. The verbs possum and volō (as well as some other verbs to be introduced later) take a ‘complementary’ infinitive in Latin just as they do in English."
+        },
+        {
+          "t": "p",
+          "text": "Therefore when translating an English infinitive into Latin one needs to translate first of all the verb on which the infinitive depends: if when translated into Latin that governing verb turns out to be one that takes an infinitive in Latin, then the English infinitive depending on it needs to be translated with a Latin infinitive."
+        },
+        {
+          "t": "p",
+          "text": "But if the verb on which the English infinitive depends turns out to be one that takes an indirect command in Latin, then the English infinitive needs to be translated with a Latin indirect command."
+        },
+        {
+          "t": "p",
+          "text": "And if the verb on which the English infinitive depends turns out to be one that takes neither of these constructions, then (for now – but we have not yet seen the full range of constructions) the English infinitive needs to be translated with a Latin purpose clause."
         }
       ]
     }
   ],
-  "readings": [
-    {
-      "id": "lectio-28",
-      "latinTitle": "SENTENTIAE LATĪNAE",
-      "title": "Latin sentences from this chapter",
-      "paragraphs": [
-        "pater filium hortatur ut",
-        "omnia fecimus ne pater mortuam partiantur. moreretur, et non morietur.",
-        "omnia facimus ne pater"
-      ],
-      "notes": []
-    }
-  ],
+  "readings": [],
   "grammar": [],
   "vocabulary": [
     {
@@ -174,11 +234,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "1 in chapter 16.1. 28.",
-          "a": ""
-        },
-        {
-          "q": "3 Identifying Ut-Clauses and Infinitives 173",
+          "q": "1 in chapter 16.1.",
           "a": ""
         }
       ],
@@ -373,27 +429,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "22 dicunt se velle te sequi. Additional exercises on this point, with an answer key, can be found in chapter 63.9. 28.",
-          "a": ""
-        },
-        {
-          "q": "4 English Infinitives 175",
-          "a": ""
-        },
-        {
-          "q": "23 milites hortor ne fugiant, sed",
-          "a": ""
-        },
-        {
-          "q": "25 magister pueris persuadebit ne fugiunt. vereantur.",
-          "a": ""
-        },
-        {
-          "q": "24 in silva venantur ut multa",
-          "a": ""
-        },
-        {
-          "q": "26 velim ut me iuves. animalia capiant.",
+          "q": "22 dicunt se velle te sequi. Additional exercises on this point, with an answer key, can be found in chapter 63.9.",
           "a": ""
         }
       ],

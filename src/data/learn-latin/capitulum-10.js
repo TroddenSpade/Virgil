@@ -9,18 +9,74 @@ const chapter = {
   "complete": true,
   "sections": [
     {
+      "id": "section-0",
+      "latin": "Introduction",
+      "english": "Introduction",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Words for ‘this’ and ‘that’ (or, in the plural, ‘these’ and ‘those’) are known as demonstratives. Latin has several, including hic ‘this, these’ and ille ‘that, those’; such words agree with nouns in gender, number, and case as adjectives do. They are declined irregularly."
+        },
+        {
+          "t": "h",
+          "text": "British Case Order"
+        },
+        {
+          "t": "pre",
+          "text": "Singular (‘this’) Plural (‘these’) Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. hic haec hoc hī hae haec Voc. – – – – – – Acc. hunc hanc hoc hōs hās haec Gen. huius huius huius hōrum hārum hōrum Dat. huic huic huic hīs hīs hīs Abl. hōc hāc hōc hīs hīs hīs"
+        },
+        {
+          "t": "pre",
+          "text": "Singular (‘that’) Plural (‘those’) Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. ille illa illud illī illae illa Voc. – – – – – – Acc. illum illam illud illōs illās illa Gen. illīus illīus illīus illōrum illārum illōrum Dat. illī illī illī illīs illīs illīs Abl. illō illā illō illīs illīs illīs"
+        },
+        {
+          "t": "h",
+          "text": "Ancient Case Order"
+        },
+        {
+          "t": "pre",
+          "text": "Singular (‘this’) Plural (‘these’) Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. hic haec hoc hī hae haec Gen. huius huius huius hōrum hārum hōrum Dat. huic huic huic hīs hīs hīs Acc. hunc hanc hoc hōs hās haec Abl. hōc hāc hōc hīs hīs hīs"
+        },
+        {
+          "t": "pre",
+          "text": "Singular (‘that’) Plural (‘those’) Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. ille illa illud illī illae illa Gen. illīus illīus illīus illōrum illārum illōrum Dat. illī illī illī illīs illīs illīs Acc. illum illam illud illōs illās illa Abl. illō illā illō illīs illīs illīs"
+        }
+      ]
+    },
+    {
       "id": "section-1",
       "latin": "10.2 Demonstrative Pronouns",
       "english": "Grammar",
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "10.2 Demonstrative Pronouns"
+          "t": "p",
+          "text": "When hic and ille are attached to nouns, they function as adjectives. But like any other adjectives they can be substantivized (see chapter 8.3); indeed such use is particularly common with hic and ille, and for that reason they are often referred to as demonstrative pronouns."
         },
         {
           "t": "p",
-          "text": "When hic and ille are attached to nouns, they function as adjectives. But like any other adjectives they can be substantivized (see chapter 8.3); indeed such use is particularly common with hic and ille, and for that reason they are often referred to as demonstrative pronouns. Thus very often hic means ‘this man’, haec ‘this woman’, and hoc ‘this thing’ (or just ‘this’); all three can also mean ‘this one’ with an understood noun in the appropriate context. Thus vidēsne hunc? could mean ‘Do you see this man?’ but could also, in a conversation about fields (since ager is masculine), mean ‘Do you see this one?’, referring to a particular field. Consider the following examples: hoc illī dabō. ‘I shall give this to that man.’ lēgistīne hunc librum? nōn, sed illum lēgī. ‘Did you read this book?’ ‘No, but I read that one.’ haec illī laudāvērunt. ‘Those men praised these things.’ illīus verba bona sunt. ‘That man’s words are good.’"
+          "text": "Thus very often hic means ‘this man’, haec ‘this woman’, and hoc ‘this thing’ (or just ‘this’); all three can also mean ‘this one’ with an understood noun in the appropriate context. Thus vidēsne hunc? could mean ‘Do you see this man?’ but could also, in a conversation about fields (since ager is masculine), mean ‘Do you see this one?’, referring to a particular field. Consider the following examples: hoc illī dabō."
+        },
+        {
+          "t": "p",
+          "text": "‘I shall give this to that man.’ lēgistīne hunc librum? nōn, sed illum lēgī. ‘Did you read this book?’ ‘No, but I read that one.’ haec illī laudāvērunt. ‘Those men praised these things.’ illīus verba bona sunt. ‘That man’s words are good.’"
         }
       ]
     },
@@ -31,12 +87,32 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "10.3 Imperative"
+          "t": "p",
+          "text": "So far the verbs we have seen have been in the indicative mood; this is the normal form of a verb, used for making simple statements and asking direct questions. Verbs also have several other moods, including the imperative, used for issuing orders. Thus in English ‘go away!’, ‘come in!’, and ‘please close the window’ use the imperative."
         },
         {
           "t": "p",
-          "text": "So far the verbs we have seen have been in the indicative mood; this is the normal form of a verb, used for making simple statements and asking direct questions. Verbs also have several other moods, including the imperative, used for issuing orders. Thus in English ‘go away!’, ‘come in!’, and ‘please close the window’ use the imperative. In Latin the formation of the imperative is simple: the singular imperative is the bare verb stem (drop -re from the infinitive), and the plural imperative is the same as the second person plural indicative with the final -is replaced by -e (notice that in the third conjugation this not the same form as one would get by adding -te to the singular imperative). First Second Third conjugation conjugation conjugation Singular imperative amā ‘love!’ monē ‘advise!’ rege ‘rule!’ Plural imperative amāte ‘love!’ monēte ‘advise!’ regite ‘rule!’ A few verbs are irregular in the imperative; thus the singular imperative of dūcō is dūc (not dūce), the singular imperative of dīcō is dīc (not dīce), the singular imperative of eō is ī; the plural imperative of eō is īte, the singular imperative of sum is estō, and the plural imperative of sum is este.1 When a Latin verb is in the imperative, it does not come at the end of the sentence but rather at or near the beginning. Officially sum has two singular imperatives, es and estō, and two plural ones, este and estōte; the second form in each of these pairs is called a future imperative, and in fact other verbs also have a future imperative (e.g. amātō and amātōte from amō). But in practice the future imperative is rarely used except in the case of estō (and a few other verbs we have not yet seen), and the present imperative es is very rarely used, being effectively replaced by estō. There are some other irregular imperatives, which we shall see in later chapters."
+          "text": "In Latin the formation of the imperative is simple: the singular imperative is the bare verb stem (drop -re from the infinitive), and the plural imperative is the same as the second person plural indicative with the final -is replaced by -e (notice that in the third conjugation this not the same form as one would get by adding -te to the singular imperative)."
+        },
+        {
+          "t": "example",
+          "text": "First Second Third conjugation conjugation conjugation"
+        },
+        {
+          "t": "pre",
+          "text": "Singular imperative amā ‘love!’ monē ‘advise!’ rege ‘rule!’ Plural imperative amāte ‘love!’ monēte ‘advise!’ regite ‘rule!’"
+        },
+        {
+          "t": "p",
+          "text": "A few verbs are irregular in the imperative; thus the singular imperative of dūcō is dūc (not dūce), the singular imperative of dīcō is dīc (not dīce), the singular imperative of eō is ī; the plural imperative of eō is īte, the singular imperative of sum is estō, and the plural imperative of sum is este.1 When a Latin verb is in the imperative, it does not come at the end of the sentence but rather at or near the beginning."
+        },
+        {
+          "t": "p",
+          "text": "Officially sum has two singular imperatives, es and estō, and two plural ones, este and estōte; the second form in each of these pairs is called a future imperative, and in fact other verbs also have a future imperative (e.g. amātō and amātōte from amō)."
+        },
+        {
+          "t": "p",
+          "text": "But in practice the future imperative is rarely used except in the case of estō (and a few other verbs we have not yet seen), and the present imperative es is very rarely used, being effectively replaced by estō. There are some other irregular imperatives, which we shall see in later chapters."
         }
       ]
     }
@@ -49,14 +125,12 @@ const chapter = {
       "paragraphs": [
         "illa puella ad silvam ivit.",
         "haec puella dea est.",
-        "haec puella agricolam amare",
         "illi agricolae poetae sunt.",
         "illae sunt deae.",
         "illae sunt Graecae.",
         "hi agricolae teneri sunt.",
         "illae puellae deae sunt.",
         "haec puella amat agricolam.",
-        "servi vestri non sunt boni: emite",
         "eme hunc servum; bonus est.",
         "petite oppidum novum: hoc nunc nostrum est."
       ],

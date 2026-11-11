@@ -16,7 +16,19 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "Adverbs are words that modify verbs and adjectives. In English they are often formed by adding -ly to the stem of an adjective, as ‘badly’ from ‘bad’, but many of the most common English adverbs are formed in other ways: ‘well’, ‘always’, and ‘very’ are also adverbs. We have already seen a number of Latin adverbs as independent vocabulary items, including diū ‘for a long time’, numquam ‘never’, bene ‘well’, and saepe ‘often’; as in English, these common adverbs are not formed regularly, but most others are derived from adjectives via a regular process. We have already seen one (almost-) regular adverb, male ‘badly’ from malus, -a, -um ‘bad’.1 Because many English adverbs end in -ly, many Latin adverbs can be translated by adding -ly to the translation of the corresponding adjective: malus ‘bad’, so male ‘badly’. But sometimes there is no English adverb in -ly, and then it is necessary to use a periphrasis that gets the adverbial meaning across: Rōmānus ‘Roman’, but Rōmānē clearly not ‘*Romanly’, so ‘in a Roman fashion’, etc. Similarly longus ‘long’, but longē clearly not ‘*longly’, so ‘(by) a long way’, ‘(by) far’. (* is used to indicate words that do not exist.)"
+          "text": "Adverbs are words that modify verbs and adjectives. In English they are often formed by adding -ly to the stem of an adjective, as ‘badly’ from ‘bad’, but many of the most common English adverbs are formed in other ways: ‘well’, ‘always’, and ‘very’ are also adverbs."
+        },
+        {
+          "t": "p",
+          "text": "We have already seen a number of Latin adverbs as independent vocabulary items, including diū ‘for a long time’, numquam ‘never’, bene ‘well’, and saepe ‘often’; as in English, these common adverbs are not formed regularly, but most others are derived from adjectives via a regular process."
+        },
+        {
+          "t": "p",
+          "text": "We have already seen one (almost-) regular adverb, male ‘badly’ from malus, -a, -um ‘bad’.1 Because many English adverbs end in -ly, many Latin adverbs can be translated by adding -ly to the translation of the corresponding adjective: malus ‘bad’, so male ‘badly’."
+        },
+        {
+          "t": "p",
+          "text": "But sometimes there is no English adverb in -ly, and then it is necessary to use a periphrasis that gets the adverbial meaning across: Rōmānus ‘Roman’, but Rōmānē clearly not ‘*Romanly’, so ‘in a Roman fashion’, etc. Similarly longus ‘long’, but longē clearly not ‘*longly’, so ‘(by) a long way’, ‘(by) far’. (* is used to indicate words that do not exist.)"
         }
       ]
     },
@@ -27,40 +39,108 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "43.4 Comparison of Adverbs"
+          "t": "p",
+          "text": "As one can see from the above, adjectives of the first and second declensions form adverbs by adding -ē to the stem. In writing there is often ambiguity between the adverb and the masculine singular vocative, but in Roman pronunciation there was no such ambiguity, because the vocative ending is -ĕ and the adverb ending (usually) -ē."
         },
         {
           "t": "p",
-          "text": "As one can see from the above, adjectives of the first and second declensions form adverbs by adding -ē to the stem. In writing there is often ambiguity between the adverb and the masculine singular vocative, but in Roman pronunciation there was no such ambiguity, because the vocative ending is -ĕ and the adverb ending (usually) -ē. Adjectives of the third declension form adverbs by adding -iter to the stem; thus the adverb of fortis Male is not quite regular because it has a short -e rather than the -ē of most adverbs of its type. ‘brave’ is fortiter ‘bravely’. With both types of adjective some care must be taken if the masculine nominative singular ends in -er: not only may such adjectives belong to either declension, but the -emay or may not disappear in the stem. As we have seen (chapters 8.2, 21.1, and 38.2), it is necessary to know the feminine nominative singular or the masculine genitive singular in order to find the stem. Thus the adverb of celer ‘swift’ is celeriter ‘swiftly’, because the stem is celer- (dictionary entry celer, celeris, celere), but the adverb of ācer ‘keen’ is ācriter ‘keenly’, because the stem is ācr- (dictionary entry ācer, ācris, ācre)."
+          "text": "Adjectives of the third declension form adverbs by adding -iter to the stem; thus the adverb of fortis Male is not quite regular because it has a short -e rather than the -ē of most adverbs of its type."
         }
       ]
     },
     {
       "id": "section-3",
+      "latin": "43.4 Comparison of Adverbs",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "‘brave’ is fortiter ‘bravely’. With both types of adjective some care must be taken if the masculine nominative singular ends in -er: not only may such adjectives belong to either declension, but the -emay or may not disappear in the stem. As we have seen (chapters 8.2, 21.1, and 38.2), it is necessary to know the feminine nominative singular or the masculine genitive singular in order to find the stem."
+        },
+        {
+          "t": "p",
+          "text": "Thus the adverb of celer ‘swift’ is celeriter ‘swiftly’, because the stem is celer- (dictionary entry celer, celeris, celere), but the adverb of ācer ‘keen’ is ācriter ‘keenly’, because the stem is ācr- (dictionary entry ācer, ācris, ācre)."
+        },
+        {
+          "t": "p",
+          "text": "Like adjectives, adverbs have a comparative and superlative. In English the comparative and superlative of adverbs are normally formed with ‘more’ and ‘most’: ‘He won easily / more easily / most easily’ (cf. ‘The task is easy/easier/easiest’ for the corresponding adjective). Sometimes, however, English comparative and superlative adverbs have the same forms as the adjectives: ‘He ran fast/faster/fastest’ (cf."
+        },
+        {
+          "t": "p",
+          "text": "‘This runner is fast/faster/fastest’ for the adjective). In Latin, the comparative adverb is almost always the neuter accusative singular of the comparative adjective, and the superlative adverb is the superlative adjective with the adverbial -ē ending."
+        },
+        {
+          "t": "p",
+          "text": "Thus the following are examples of adverbs corresponding to adjectives with a regular comparison: Positive Comparative Superlative longē ‘(by) far’ longius ‘(by) farther’ longissimē ‘(by) farthest’ (adjective longus, (adjective longior, (adjective -a, -um ‘long’) longius ‘longer’, longissimus, -a,"
+        },
+        {
+          "t": "h",
+          "text": "‘rather long’) -um ‘longest’,"
+        },
+        {
+          "t": "h",
+          "text": "‘very long’)"
+        },
+        {
+          "t": "h",
+          "text": "breviter ‘briefly’ brevius ‘more briefly’, brevissimē ‘most briefly’,"
+        },
+        {
+          "t": "example",
+          "text": "(adjective brevis, ‘rather briefly’ ‘very briefly’ -e ‘short’) (adjective brevior, (adjective"
+        },
+        {
+          "t": "h",
+          "text": "-ius ‘shorter’, brevissimus, -a, ‘rather short’) -um ‘shortest’,"
+        },
+        {
+          "t": "h",
+          "text": "‘very short’)"
+        },
+        {
+          "t": "example",
+          "text": "tenerē ‘tenderly’\ntenerius ‘more tenderly’, tenerrimē ‘most tenderly’, (adjective tener, rather tenderly’ ‘very tenderly’ -era, -erum (adjective tenerior, (adjective ‘tender’) -ius ‘tenderer’, tenerrimus, -a, -um"
+        },
+        {
+          "t": "h",
+          "text": "‘rather tender’) ‘tenderest’,"
+        },
+        {
+          "t": "h",
+          "text": "‘very tender’)"
+        },
+        {
+          "t": "h",
+          "text": "ācriter ‘keenly’ ācrius ‘more keenly’, ācerrimē ‘most keenly’,"
+        },
+        {
+          "t": "example",
+          "text": "(adjective ācer, ‘rather keenly’ ‘very keenly’ ācris, ācre ‘keen’) (adjective ācrior, (adjective"
+        },
+        {
+          "t": "h",
+          "text": "-ius ‘keener’, ācerrimus, -a, -um ‘rather keen’) ‘keenest’,"
+        },
+        {
+          "t": "h",
+          "text": "‘very keen’)"
+        }
+      ]
+    },
+    {
+      "id": "section-4",
       "latin": "43.3 Irregular Adverbs",
       "english": "Grammar",
       "kind": "commentary",
       "blocks": [
         {
           "t": "p",
-          "text": "The relationship between adjectives and adverbs is not always completely straightforward. Some adverbs, such as numquam, do not have corresponding adjectives, and some adjectives, such as tuus, do not have corresponding adverbs. Also, some adverbs are formed irregularly, including the following: Adverb Adjective bene ‘well’ bonus, bona, bonum ‘good’ facile ‘easily’ facilis, facile ‘easy’ magnopere ‘greatly’ magnus, magna, magnum ‘great’ multum ‘much’ multī, multae, multa ‘many’ paulum ‘little’ parvus, parva, parvum ‘small’"
-        }
-      ]
-    },
-    {
-      "id": "section-4",
-      "latin": "43.4 Comparison of Adverbs",
-      "english": "Grammar",
-      "kind": "commentary",
-      "blocks": [
-        {
-          "t": "h",
-          "text": "280 Adverbs"
+          "text": "The relationship between adjectives and adverbs is not always completely straightforward. Some adverbs, such as numquam, do not have corresponding adjectives, and some adjectives, such as tuus, do not have corresponding adverbs."
         },
         {
-          "t": "p",
-          "text": "Like adjectives, adverbs have a comparative and superlative. In English the comparative and superlative of adverbs are normally formed with ‘more’ and ‘most’: ‘He won easily / more easily / most easily’ (cf. ‘The task is easy/easier/easiest’ for the corresponding adjective). Sometimes, however, English comparative and superlative adverbs have the same forms as the adjectives: ‘He ran fast/faster/fastest’ (cf. ‘This runner is fast/faster/fastest’ for the adjective). In Latin, the comparative adverb is almost always the neuter accusative singular of the comparative adjective, and the superlative adverb is the superlative adjective with the adverbial -ē ending. Thus the following are examples of adverbs corresponding to adjectives with a regular comparison: Positive Comparative Superlative longē ‘(by) far’ longius ‘(by) farther’ longissimē ‘(by) farthest’ (adjective longus, (adjective longior, (adjective -a, -um ‘long’) longius ‘longer’, longissimus, -a, ‘rather long’) -um ‘longest’, ‘very long’) breviter ‘briefly’ brevius ‘more briefly’, brevissimē ‘most briefly’, (adjective brevis, ‘rather briefly’ ‘very briefly’ -e ‘short’) (adjective brevior, (adjective -ius ‘shorter’, brevissimus, -a, ‘rather short’) -um ‘shortest’, ‘very short’) tenerē ‘tenderly’ tenerius ‘more tenderly’, tenerrimē ‘most tenderly’, (adjective tener, rather tenderly’ ‘very tenderly’ -era, -erum (adjective tenerior, (adjective ‘tender’) -ius ‘tenderer’, tenerrimus, -a, -um ‘rather tender’) ‘tenderest’, ‘very tender’) ācriter ‘keenly’ ācrius ‘more keenly’, ācerrimē ‘most keenly’, (adjective ācer, ‘rather keenly’ ‘very keenly’ ācris, ācre ‘keen’) (adjective ācrior, (adjective -ius ‘keener’, ācerrimus, -a, -um ‘rather keen’) ‘keenest’, ‘very keen’)"
+          "t": "example",
+          "text": "Also, some adverbs are formed irregularly, including the following: Adverb Adjective bene ‘well’ bonus, bona, bonum ‘good’\nfacile ‘easily’ facilis, facile ‘easy’\nmagnopere ‘greatly’ magnus, magna, magnum ‘great’\nmultum ‘much’ multī, multae, multa ‘many’\npaulum ‘little’ parvus, parva, parvum ‘small’"
         }
       ]
     },
@@ -77,18 +157,7 @@ const chapter = {
       ]
     }
   ],
-  "readings": [
-    {
-      "id": "lectio-43",
-      "latinTitle": "SENTENTIAE LATĪNAE",
-      "title": "Latin sentences from this chapter",
-      "paragraphs": [
-        "ille pulchre locutus est, sed tu",
-        "haec moenia melius reficienda scribenda est. sunt nobis."
-      ],
-      "notes": []
-    }
-  ],
+  "readings": [],
   "grammar": [],
   "vocabulary": [
     {

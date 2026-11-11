@@ -9,13 +9,13 @@ const chapter = {
   "complete": true,
   "sections": [
     {
-      "id": "section-1",
-      "latin": "Deponent Verbs: Forms from First Two Principal Parts",
-      "english": "Chapter",
+      "id": "section-0",
+      "latin": "Introduction",
+      "english": "Introduction",
       "kind": "commentary",
       "blocks": [
         {
-          "t": "p",
+          "t": "h",
           "text": "Principal Parts"
         },
         {
@@ -23,7 +23,7 @@ const chapter = {
           "text": "In addition to the five conjugations of regular verbs we have so far seen, there are five conjugations of deponent verbs. Deponent verbs use a completely different set of endings, but in other respects they function exactly like the verbs we have so far seen. The paradigm verbs for the deponents are the following:"
         },
         {
-          "t": "p",
+          "t": "example",
           "text": "First conjugation vēnor, vēnārī, vēnātus sum ‘hunt’ Second conjugation vereor, verērī, veritus sum (+ accusative) ‘fear’, ‘be afraid (of)’ Third conjugation ūtor, ūtī, ūsus sum (+ ablative) ‘use’ Fourth conjugation partior, partīrī, partītus sum ‘divide’ Mixed conjugation morior, morī, mortuus sum ‘die’"
         },
         {
@@ -35,7 +35,7 @@ const chapter = {
           "text": "First Second Third Fourth Mixed conjugation conjugation conjugation conjugation conjugation"
         },
         {
-          "t": "p",
+          "t": "pre",
           "text": "Present vēnor vereor ūtor partior morior indicative vēnāris verēris ūteris partīris moreris"
         },
         {
@@ -47,7 +47,7 @@ const chapter = {
           "text": "First Second Third Fourth Mixed conjugation conjugation conjugation conjugation conjugation"
         },
         {
-          "t": "p",
+          "t": "pre",
           "text": "Future vēnābor verēbor ūtar partiar moriar indicative vēnāberis verēberis ūtēris partiēris moriēris"
         },
         {
@@ -63,7 +63,7 @@ const chapter = {
           "text": "vēnētur vereātur ūtātur partiātur moriātur vēnēmur vereāmur ūtāmur partiāmur moriāmur vēnēminī vereāminī ūtāminī partiāminī moriāminī vēnentur vereantur ūtantur partiantur moriāntur"
         },
         {
-          "t": "p",
+          "t": "pre",
           "text": "Imperfect vēnārer verērer ūterer partīrer morerer subjunctive vēnārēris verērēris ūterēris partīrēris morerēris"
         },
         {
@@ -71,15 +71,119 @@ const chapter = {
           "text": "vēnārētur verērētur ūterētur partīrētur morerētur vēnārēmur verērēmur ūterēmur partīrēmur morerēmur vēnārēminī verērēminī ūterēminī partīrēminī morerēminī vēnārentur verērentur ūterentur partīrentur morerentur"
         },
         {
-          "t": "p",
+          "t": "h",
           "text": "Imperative vēnāre verēre ūtere partīre morere"
         },
         {
-          "t": "p",
+          "t": "h",
           "text": "vēnāminī verēminī ūtiminī partīminī moriminī"
         },
         {
+          "t": "pre",
+          "text": "Present vēnāns, gen. verēns, gen. ūtēns, gen. partiēns, gen. moriēns, gen. participle vēnantis verentis ūtentis partientis morientis Perfect in chapter 29 participle Future in chapter 29 participle Present vēnārī verērī ūtī partīrī morī infinitive Perfect in chapter 29 infinitive Future in chapter 29 infinitive"
+        },
+        {
           "t": "p",
+          "text": "The following observations can be made about these forms:"
+        },
+        {
+          "t": "p",
+          "text": "1) Although the deponents use a different set of personal endings from the"
+        },
+        {
+          "t": "p",
+          "text": "regular verbs, they are consistent in using those forms: it is always the same set of endings."
+        },
+        {
+          "t": "p",
+          "text": "2) The stem vowels before the endings, and indeed the entire stem apart from"
+        },
+        {
+          "t": "p",
+          "text": "the endings, behave exactly as the equivalent regular paradigms would behave: it is only the endings that are different."
+        },
+        {
+          "t": "p",
+          "text": "3) The present participles are identical to those of regular verbs. 4) The imperfect subjunctive is formed not from the actual present infinitive of"
+        },
+        {
+          "t": "p",
+          "text": "a deponent verb, but from what would be the present infinitive if the verb were not deponent."
+        }
+      ]
+    },
+    {
+      "id": "section-1",
+      "latin": "Deponent Verbs: Forms from First Two Principal Parts",
+      "english": "Chapter",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "h",
+          "text": "Principal Parts"
+        },
+        {
+          "t": "p",
+          "text": "In addition to the five conjugations of regular verbs we have so far seen, there are five conjugations of deponent verbs. Deponent verbs use a completely different set of endings, but in other respects they function exactly like the verbs we have so far seen. The paradigm verbs for the deponents are the following:"
+        },
+        {
+          "t": "example",
+          "text": "First conjugation vēnor, vēnārī, vēnātus sum ‘hunt’ Second conjugation vereor, verērī, veritus sum (+ accusative) ‘fear’, ‘be afraid (of)’ Third conjugation ūtor, ūtī, ūsus sum (+ ablative) ‘use’ Fourth conjugation partior, partīrī, partītus sum ‘divide’ Mixed conjugation morior, morī, mortuus sum ‘die’"
+        },
+        {
+          "t": "p",
+          "text": "As you can see, deponent verbs have only three principal parts, and their third principal part is periphrastic (i.e. it consists of two words, as vēnātus sum); this is because deponent verbs cannot be made passive and so cannot have the kind of fourth principal part that regular verbs do (see chapter 6.2). The use of the third principal part of deponent verbs will be explained in chapter 29. Deponent verbs belonging to each conjugation can be identified as follows: first-conjugation verbs have a second principal part in -ārī, second-conjugation verbs have a second principal part in -ērī, thirdconjugation verbs have a second principal part in -ī and a first principal part that does not end in -ior, fourth-conjugation verbs have a second principal part in -īrī, and mixed-conjugation verbs have a second principal part in -ī and a first principal part in -ior. Deponents are conjugated as shown in the table below:"
+        },
+        {
+          "t": "p",
+          "text": "First Second Third Fourth Mixed conjugation conjugation conjugation conjugation conjugation"
+        },
+        {
+          "t": "pre",
+          "text": "Present vēnor vereor ūtor partior morior indicative vēnāris verēris ūteris partīris moreris"
+        },
+        {
+          "t": "p",
+          "text": "vēnātur verētur ūtitur partītur moritur vēnāmur verēmur ūtimur partīmur morimur vēnāminī verēminī ūtiminī partīminī moriminī vēnantur verentur ūtuntur partiuntur moriuntur"
+        },
+        {
+          "t": "p",
+          "text": "First Second Third Fourth Mixed conjugation conjugation conjugation conjugation conjugation"
+        },
+        {
+          "t": "pre",
+          "text": "Future vēnābor verēbor ūtar partiar moriar indicative vēnāberis verēberis ūtēris partiēris moriēris"
+        },
+        {
+          "t": "p",
+          "text": "vēnābitur verēbitur ūtētur partiētur moriētur vēnābimur verēbimur ūtēmur partiēmur moriēmur vēnābiminī verēbiminī ūtēminī partiēminī moriēminī vēnābuntur verēbuntur ūtentur partientur morientur"
+        },
+        {
+          "t": "p",
+          "text": "Perfect in chapter 29 indicative Present vēner verear ūtar partiar moriar subjunctive vēnēris vereāris ūtāris partiāris moriāris"
+        },
+        {
+          "t": "p",
+          "text": "vēnētur vereātur ūtātur partiātur moriātur vēnēmur vereāmur ūtāmur partiāmur moriāmur vēnēminī vereāminī ūtāminī partiāminī moriāminī vēnentur vereantur ūtantur partiantur moriāntur"
+        },
+        {
+          "t": "pre",
+          "text": "Imperfect vēnārer verērer ūterer partīrer morerer subjunctive vēnārēris verērēris ūterēris partīrēris morerēris"
+        },
+        {
+          "t": "p",
+          "text": "vēnārētur verērētur ūterētur partīrētur morerētur vēnārēmur verērēmur ūterēmur partīrēmur morerēmur vēnārēminī verērēminī ūterēminī partīrēminī morerēminī vēnārentur verērentur ūterentur partīrentur morerentur"
+        },
+        {
+          "t": "h",
+          "text": "Imperative vēnāre verēre ūtere partīre morere"
+        },
+        {
+          "t": "h",
+          "text": "vēnāminī verēminī ūtiminī partīminī moriminī"
+        },
+        {
+          "t": "pre",
           "text": "Present vēnāns, gen. verēns, gen. ūtēns, gen. partiēns, gen. moriēns, gen. participle vēnantis verentis ūtentis partientis morientis Perfect in chapter 29 participle Future in chapter 29 participle Present vēnārī verērī ūtī partīrī morī infinitive Perfect in chapter 29 infinitive Future in chapter 29 infinitive"
         },
         {

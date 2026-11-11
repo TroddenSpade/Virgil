@@ -16,19 +16,71 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "When a gerund in a case other than the nominative ought to have an accusative object, the most common Latin construction is to substitute a gerundive for the gerund.1 The gerundive takes on the gender and number of the noun that should have been the gerund’s object, and the noun takes on the case that the gerund would have had. But the meaning remains that of the gerund. *ad librōs legendum becomes ad librōs legendōs ‘for the purpose of reading books’ (not ‘for books that have to be read’) (* is used to indicate a phrase that would not occur). *librum legendī causā becomes librī legendī causā ‘for the sake of reading a book’ (not ‘for a book that has to be read’) *librōs legendō becomes librīs legendīs ‘by reading books’ (not ‘by having-to-be-read books’) When the gerundive is used this way it must be translated with an English gerund, not with the ‘must’ or ‘have to’ constructions that normally translate a gerundive. The infinitive when used as a gerund does not take this construction; there are no restrictions on the kinds of objects an infinitive can take."
+          "text": "When a gerund in a case other than the nominative ought to have an accusative object, the most common Latin construction is to substitute a gerundive for the gerund.1 The gerundive takes on the gender and number of the noun that should have been the gerund’s object, and the noun takes on the case that the gerund would have had. But the meaning remains that of the gerund."
+        },
+        {
+          "t": "p",
+          "text": "*ad librōs legendum becomes ad librōs legendōs ‘for the purpose of reading books’ (not ‘for books that have to be read’) (* is used to indicate a phrase that would not occur). *librum legendī causā becomes librī legendī causā ‘for the sake of reading a book’ (not"
+        },
+        {
+          "t": "h",
+          "text": "‘for a book that has to be read’)"
+        },
+        {
+          "t": "p",
+          "text": "*librōs legendō becomes librīs legendīs ‘by reading books’ (not ‘by having-to-be-read"
+        },
+        {
+          "t": "h",
+          "text": "books’)"
+        },
+        {
+          "t": "p",
+          "text": "When the gerundive is used this way it must be translated with an English gerund, not with the ‘must’ or ‘have to’ constructions that normally translate a gerundive. The infinitive when used as a gerund does not take this construction; there are no restrictions on the kinds of objects an infinitive can take."
         }
       ]
     },
     {
       "id": "section-2",
+      "latin": "61.2 Distinguishing Gerundives",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "h",
+          "text": "10 The enemy placed a camp here 11 The king has come to Corinth for"
+        },
+        {
+          "t": "p",
+          "text": "for the purpose of hindering our the purpose of encouraging the men. soldiers."
+        }
+      ]
+    },
+    {
+      "id": "section-3",
       "latin": "61.2 Distinguishing Gerundives by Attraction from Gerundives",
       "english": "Grammar",
       "kind": "commentary",
       "blocks": [
         {
+          "t": "h",
+          "text": "of Obligation"
+        },
+        {
           "t": "p",
-          "text": "of Obligation This construction, known as ‘gerundive by attraction’, is not always easy to distinguish from the gerundive of obligation construction (chapters 41 and 45.2) – but it is essential to do so, as the two have very different meanings. Useful clues for telling them apart are that in the gerundive by attraction construction the gerundive is never nominative, whereas in the obligation construction the gerundive is usually nominative (and usually accompanied by a form of the verb sum). So a rule that will work about 95 per cent of the time is that if the gerundive is nominative, it should be translated with ‘must’/‘have to’, and if it is not nominative, it should be translated with ‘-ing’. vēnit ad dōna videnda: the form videnda is not nominative, so ‘He came for the purpose of seeing the gifts.’ urbs videnda est nōbīs: the form videnda is nominative, so ‘We must see the city.’ vēnit rēgis audiendī causā: the form audiendī is not nominative, so ‘He came for the sake of hearing the king.’ rēgēs audiendī erant nōbīs: the form audiendī is nominative, so ‘We had to hear the kings.’ vēnit ad videndum: the form videndum is not nominative, so ‘He came for the purpose of seeing.’ videndum est: the form videndum is nominative, so ‘One must see’, ‘It is necessary to see.’"
+          "text": "This construction, known as ‘gerundive by attraction’, is not always easy to distinguish from the gerundive of obligation construction (chapters 41 and 45.2) – but it is essential to do so, as the two have very different meanings."
+        },
+        {
+          "t": "p",
+          "text": "Useful clues for telling them apart are that in the gerundive by attraction construction the gerundive is never nominative, whereas in the obligation construction the gerundive is usually nominative (and usually accompanied by a form of the verb sum)."
+        },
+        {
+          "t": "p",
+          "text": "So a rule that will work about 95 per cent of the time is that if the gerundive is nominative, it should be translated with ‘must’/‘have to’, and if it is not nominative, it should be translated with ‘-ing’."
+        },
+        {
+          "t": "p",
+          "text": "vēnit ad dōna videnda: the form videnda is not nominative, so ‘He came for the purpose of seeing the gifts.’ urbs videnda est nōbīs: the form videnda is nominative, so ‘We must see the city.’ vēnit rēgis audiendī causā: the form audiendī is not nominative, so ‘He came for the sake of hearing the king.’ rēgēs audiendī erant nōbīs: the form audiendī is nominative, so ‘We had to hear the kings.’ vēnit ad videndum: the form videndum is not nominative, so ‘He came for the purpose of seeing.’ videndum est: the form videndum is nominative, so ‘One must see’, ‘It is necessary to see.’"
         }
       ]
     }
@@ -41,17 +93,12 @@ const chapter = {
       "paragraphs": [
         "milites progressi sunt ad hostes docendi gratia. vincendos.",
         "pecunia petenda miser factus est. omnes liberavit.",
-        "hi ludi videndi sunt omnibus",
         "hae portae reficiendae sunt. civibus.",
         "vobis hic sedendum est.",
-        "nocte dormiendum est bonis",
-        "mulieres raptae quaerendae sunt",
         "Iuppiter laudandus est iudicibus. oppugnandas.",
-        "nunc magnopere conandum est",
         "progrediendum est nobis. vobis.",
         "nostri progressi sunt ad hostes audiendis. vincendos.",
         "cogitandum est mihi.",
-        "milites progressi sunt ad ducem",
         "illi veniendum est domum."
       ],
       "notes": []
@@ -300,19 +347,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "5 You saved us all by repairing the gates. 61.",
-          "a": ""
-        },
-        {
-          "q": "2 Distinguishing Gerundives 409",
-          "a": ""
-        },
-        {
-          "q": "10 The enemy placed a camp here",
-          "a": ""
-        },
-        {
-          "q": "11 The king has come to Corinth for for the purpose of hindering our the purpose of encouraging the men. soldiers.",
+          "q": "5 You saved us all by repairing the gates.",
           "a": ""
         }
       ],

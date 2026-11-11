@@ -2326,3 +2326,129 @@
 .cv__note:last-child {
   margin-bottom: 0;
 }
+
+/* ---------- Coursebook layout (Learn Latin from the Romans) ---------- */
+
+.lesson__course-meta {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 1.4rem;
+  margin: 0.9rem 0 0;
+  padding: 0;
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  color: var(--ink-soft);
+}
+.lesson__course-meta li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+.lesson__course-meta li::before {
+  content: '◆';
+  color: var(--bronze);
+  font-size: 0.52rem;
+  transform: translateY(-1px);
+}
+.lesson--coursebook .commentary__p {
+  font-size: 1.07rem;
+  line-height: 1.86;
+  margin-bottom: 1.1rem;
+  max-width: 72ch;
+}
+.lesson--coursebook .commentary__heading {
+  margin-top: 2.2rem;
+}
+.lesson--coursebook .lesson__section {
+  margin: 2.75rem 0;
+}
+
+.pensa--collapsible {
+  display: grid;
+  gap: 0.8rem;
+}
+.pensum-disclosure {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+  overflow: clip;
+}
+.pensum-disclosure__summary {
+  cursor: pointer;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.2rem 1rem;
+  padding: 1rem 1.25rem;
+  align-items: baseline;
+}
+.pensum-disclosure__summary::-webkit-details-marker {
+  display: none;
+}
+.pensum-disclosure__summary::after {
+  content: '+';
+  grid-column: 2;
+  grid-row: 1;
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--bronze);
+  line-height: 1;
+}
+.pensum-disclosure[open] .pensum-disclosure__summary {
+  border-bottom: 1px solid var(--line-soft);
+  background: color-mix(in srgb, var(--bronze) 5%, transparent);
+}
+.pensum-disclosure[open] .pensum-disclosure__summary::after {
+  content: '−';
+}
+.pensum-disclosure__label {
+  font-size: 1.02rem;
+  letter-spacing: 0.04em;
+}
+.pensum-disclosure__count {
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  justify-self: end;
+  padding-right: 1.4rem;
+}
+.pensum-disclosure__instruction {
+  grid-column: 1 / -1;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  max-width: 72ch;
+}
+.pensum-disclosure > .pensum {
+  border: 0;
+  box-shadow: none;
+  border-radius: 0;
+  background: transparent;
+}
+.pensum-disclosure > .pensum .pensum__head {
+  display: none;
+}
+
+/* Latin examples and paradigms inside a coursebook chapter */
+.commentary__example {
+  margin: 1.15rem 0 1.5rem;
+  padding: 1rem 1.2rem;
+  background: color-mix(in srgb, var(--surface-2) 88%, var(--bronze) 12%);
+  border-left: 3px solid var(--bronze);
+  border-radius: 2px;
+  font-family: var(--font-latin);
+  font-size: 1.02rem;
+  line-height: 1.7;
+  color: var(--ink);
+  white-space: pre-wrap;
+  overflow-x: auto;
+}
+.lesson--coursebook .commentary__pre {
+  border-left: 3px solid var(--line-strong);
+  background: var(--surface-2);
+}

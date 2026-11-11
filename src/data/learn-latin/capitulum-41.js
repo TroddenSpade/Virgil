@@ -15,12 +15,24 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "41.2 Use of Gerundives of Transitive Verbs"
+          "t": "p",
+          "text": "In addition to the participles, another kind of adjective can be formed from a verb. This is the gerundive, a form that expresses obligation. Gerundives are formed by adding -ndus, -nda, -ndum to the stem of the verb (the same base as is used to form the imperfect indicative: see chapter 39.1); they are regular first/second-declension adjectives and therefore decline like bonus."
         },
         {
           "t": "p",
-          "text": "In addition to the participles, another kind of adjective can be formed from a verb. This is the gerundive, a form that expresses obligation. Gerundives are formed by adding -ndus, -nda, -ndum to the stem of the verb (the same base as is used to form the imperfect indicative: see chapter 39.1); they are regular first/second-declension adjectives and therefore decline like bonus. First conjugation amandus, -a, -um ‘having to be loved’ Second conjugation monendus, -a, -um ‘having to be warned’ Third conjugation regendus, -a, -um ‘having to be ruled’ Fourth conjugation audiendus, -a, -um ‘having to be heard’ Mixed conjugation capiendus, -a, -um ‘having to be captured’ First conjugation deponent vēnandus, -a, -um ‘having to be hunted’ Second conjugation deponent verendus, -a, -um ‘having to be feared’ Third conjugation deponent ūtendus, -a, -um ‘having to be used’ Fourth conjugation deponent partiendus, -a, -um ‘having to be divided’ Mixed conjugation deponent moriendus, -a, -um (no literal translation available) Sum – Possum – Eō eundus, -a, -um (no literal translation available) Volō volendus, -a, -um ‘having to be wanted’ Nōlō nōlendus, -a, -um ‘having to be not wanted’ Mālō – The translations are provided only as an indication of the basic meaning of these forms; in practice such translations are almost never used, because a number of more idiomatic English expressions work better in different contexts (see below). It is not possible to give a literal translation of the gerundives of verbs that are intransitive in English."
+          "text": "First conjugation amandus, -a, -um ‘having to be loved’ Second conjugation monendus, -a, -um ‘having to be warned’ Third conjugation regendus, -a, -um ‘having to be ruled’ Fourth conjugation audiendus, -a, -um ‘having to be heard’ Mixed conjugation capiendus, -a, -um ‘having to be captured’ First conjugation deponent vēnandus, -a, -um ‘having to be hunted’ Second conjugation deponent verendus, -a, -um ‘having to be feared’ Third conjugation deponent ūtendus, -a, -um ‘having to be used’ Fourth conjugation deponent partiendus, -a, -um ‘having to be divided’ Mixed conjugation deponent moriendus, -a, -um (no literal translation"
+        },
+        {
+          "t": "h",
+          "text": "available)"
+        },
+        {
+          "t": "p",
+          "text": "Sum – Possum – Eō eundus, -a, -um (no literal translation available) Volō volendus, -a, -um ‘having to be wanted’ Nōlō nōlendus, -a, -um ‘having to be not wanted’ Mālō – The translations are provided only as an indication of the basic meaning of these forms; in practice such translations are almost never used, because a number of more idiomatic English expressions work better in different contexts (see below)."
+        },
+        {
+          "t": "p",
+          "text": "It is not possible to give a literal translation of the gerundives of verbs that are intransitive in English."
         }
       ]
     },
@@ -31,12 +43,36 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "270 Gerundives"
+          "t": "p",
+          "text": "Gerundives of transitive verbs (verbs that take a direct object in the accusative) agree with the nouns they modify in gender, number, and case: puella amanda ‘a having-tobe-loved girl’, i.e. a girl who must be loved; liber legendus ‘a having-to-be-read book’, i.e. a book that must be read."
         },
         {
           "t": "p",
-          "text": "Gerundives of transitive verbs (verbs that take a direct object in the accusative) agree with the nouns they modify in gender, number, and case: puella amanda ‘a having-tobe-loved girl’, i.e. a girl who must be loved; liber legendus ‘a having-to-be-read book’, i.e. a book that must be read. Most often the gerundive is used with a form of sum and in English is best translated with ‘must’ or ‘have to’: haec puella amanda est ‘this girl must be loved’, ‘this girl has to be loved’ (literally ‘this girl is having-to-be-loved’); ille liber legendus est ‘that book must be read’, ‘that book has to be read’ (literally ‘that book is having-to-be-read’).1 Often there is an agent, i.e. an indication of who must do the action that is necessary. The agent is in the dative case (this is known as the ‘dative of agent’), not in the ablative as for ordinary passives, and there is no ā/ab: haec puella amanda est mihi ‘this girl must be loved by me’, ‘this girl has to be loved by me’ (literally ‘this girl is having-to-be-loved by me’); ille liber legendus est mihi ‘that book must be read by me’, ‘that book has to be read by me’ (literally ‘that book is having-tobe-read by me’). Although ordinary Latin passives are normally translated into English with English passives, gerundives are usually translated into English with active verbs if there is an agent. (This is partly because the gerundive construction is the most common way of saying ‘must’ in Latin, whereas in English the active construction is much more common than the passive, and partly because of the difficulties caused by the gerundives of intransitive verbs, for which see chapter 45.2.) So the normal way to translate haec puella amanda est mihi is ‘I must love this girl’ or ‘I have to love this girl’, and the normal way to translate ille liber legendus est mihi is ‘I must read that book’ or ‘I have to read that book’, even though these translations are much less literal than others we normally use. This construction is sometimes called the ‘passive periphrastic’. That term is not ideal, because the gerundive is no more periphrastic than many other passive verb forms (e.g. amātus est ‘he was loved’). The gerundive itself is sometimes called the ‘future passive participle’; again this is not ideal, as the gerundive behaves differently from the participles. Therefore the translation possibilities are as follows, in declining order of attrac- tiveness in English: With agent: haec dīcenda sunt tibi. ‘You must say these things.’ ‘You have to say these things.’ ‘These things must be said by you.’ ‘These things have to be said by you.’ Without agent: haec dīcenda sunt. ‘These things must be said.’ ‘These things have to be said.’"
+          "text": "Most often the gerundive is used with a form of sum and in English is best translated with ‘must’ or ‘have to’: haec puella amanda est ‘this girl must be loved’, ‘this girl has to be loved’ (literally ‘this girl is having-to-be-loved’); ille liber legendus est ‘that book must be read’, ‘that book has to be read’ (literally ‘that book is having-to-be-read’).1 Often there is an agent, i.e."
+        },
+        {
+          "t": "p",
+          "text": "an indication of who must do the action that is necessary."
+        },
+        {
+          "t": "p",
+          "text": "The agent is in the dative case (this is known as the ‘dative of agent’), not in the ablative as for ordinary passives, and there is no ā/ab: haec puella amanda est mihi ‘this girl must be loved by me’, ‘this girl has to be loved by me’ (literally ‘this girl is having-to-be-loved by me’); ille liber legendus est mihi ‘that book must be read by me’, ‘that book has to be read by me’ (literally ‘that book is having-tobe-read by me’)."
+        },
+        {
+          "t": "p",
+          "text": "Although ordinary Latin passives are normally translated into English with English passives, gerundives are usually translated into English with active verbs if there is an agent."
+        },
+        {
+          "t": "p",
+          "text": "(This is partly because the gerundive construction is the most common way of saying ‘must’ in Latin, whereas in English the active construction is much more common than the passive, and partly because of the difficulties caused by the gerundives of intransitive verbs, for which see chapter 45.2.) So the normal way to translate haec puella amanda est mihi is ‘I must love this girl’ or ‘I have to love this girl’, and the normal way to translate ille liber legendus est mihi is ‘I must read that book’ or ‘I have to read that book’, even though these translations are much less literal than others we normally use."
+        },
+        {
+          "t": "p",
+          "text": "This construction is sometimes called the ‘passive periphrastic’. That term is not ideal, because the gerundive is no more periphrastic than many other passive verb forms (e.g. amātus est ‘he was loved’). The gerundive itself is sometimes called the ‘future passive participle’; again this is not ideal, as the gerundive behaves differently from the participles."
+        },
+        {
+          "t": "p",
+          "text": "Therefore the translation possibilities are as follows, in declining order of attrac- tiveness in English: With agent: haec dīcenda sunt tibi. ‘You must say these things.’ ‘You have to say these things.’ ‘These things must be said by you.’ ‘These things have to be said by you.’ Without agent: haec dīcenda sunt. ‘These things must be said.’ ‘These things have to be said.’"
         }
       ]
     },
@@ -474,11 +510,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "22 She must hear his words. 41.",
-          "a": ""
-        },
-        {
-          "q": "3 Tenses 271",
+          "q": "22 She must hear his words.",
           "a": ""
         }
       ],

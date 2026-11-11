@@ -16,7 +16,31 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "In addition to the two past indicative tenses we have so far seen, the perfect (‘he did, he has done’) and the imperfect (‘he was doing, he used to do’), Latin has a pluperfect (‘he had done’). In the active, the pluperfect is formed by attaching an ending formed like the imperfect of sum to the perfect stem of the verb (third principal part minus -ī). In the passive, it is formed by adding the imperfect of sum to the perfect participle (fourth principal part). See the table on the next page. The translations of these forms follow the pattern of amāveram and amātus eram: Active amāveram ‘I had loved’ amāverās ‘you (singular) had loved’ amāverat ‘he had loved’, ‘she had loved’, ‘it had loved’, ‘had loved’ amāverāmus ‘we had loved’ amāverātis ‘you (plural) had loved’ amāverant ‘they had loved’, ‘had loved’ Passive amātus, -a, -um eram ‘I had been loved’ amātus, -a, -um erās ‘you (singular) had been loved’ amātus, -a, -um erat ‘he had been loved’, ‘she had been loved’, ‘it had been loved’, ‘had been loved’ amātī, -ae, -a erāmus ‘we had been loved’ amātī, -ae, -a erātis ‘you (plural) had been loved’ amātī, -ae, -a erant ‘they had been loved’, ‘had been loved’ Deponent verbs, as usual, have passive forms with active meanings: vēnātus eram ‘I had hunted’, veritus eram ‘I had feared’, ūsus eram ‘I had used’, partītus eram ‘I had divided’, mortuus eram ‘I had died’. All irregular verbs are regular in the pluperfect: fueram ‘I had been’ from sum, potueram ‘I had been able to’ from possum, īveram and ieram ‘I had gone’ from eō, volueram ‘I had wanted’ from volō, etc. Active First conjugation Second conjugation Third conjugation Fourth conjugation Mixed conjugation amāveram monueram rēxeram audīveram cēperam amāverās monuerās rēxerās audīverās cēperās amāverat monuerat rēxerat audīverat cēperat amāverāmus monuerāmus rēxerāmus audīverāmus cēperāmus amāverātis monuerātis rēxerātis audīverātis cēperātis amāverant monuerant rēxerant audīverant cēperant Passive First conjugation Second conjugation Third conjugation Fourth conjugation Mixed conjugation amātus, -a, -um eram monitus, -a, -um eram rēctus, -a, -um eram audītus, -a, -um eram captus, -a, -um eram amātus, -a, -um erās monitus, -a, -um erās rēctus, -a, -um erās audītus, -a, -um erās captus, -a, -um erās amātus, -a, -um erat monitus, -a, -um erat rēctus, -a, -um erat audītus, -a, -um erat captus, -a, -um erat amātī, -ae, -a erāmus monitī, -ae, -a erāmus rēctī, -ae, -a erāmus audītī, -ae, -a erāmus captī, -ae, -a erāmus amātī, -ae, -a erātis monitī, -ae, -a erātis rēctī, -ae, -a erātis audītī, -ae, -a erātis captī, -ae, -a erātis amātī, -ae, -a erant monitī, -ae, -a erant rēctī, -ae, -a erant audītī, -ae, -a erant captī, -ae, -a erant"
+          "text": "In addition to the two past indicative tenses we have so far seen, the perfect (‘he did, he has done’) and the imperfect (‘he was doing, he used to do’), Latin has a pluperfect (‘he had done’). In the active, the pluperfect is formed by attaching an ending formed like the imperfect of sum to the perfect stem of the verb (third principal part minus -ī)."
+        },
+        {
+          "t": "p",
+          "text": "In the passive, it is formed by adding the imperfect of sum to the perfect participle (fourth principal part). See the table on the next page. The translations of these forms follow the pattern of amāveram and amātus eram:"
+        },
+        {
+          "t": "pre",
+          "text": "Active amāveram ‘I had loved’ amāverās ‘you (singular) had loved’ amāverat ‘he had loved’, ‘she had loved’, ‘it had loved’, ‘had loved’ amāverāmus ‘we had loved’ amāverātis ‘you (plural) had loved’ amāverant ‘they had loved’, ‘had loved’ Passive amātus, -a, -um eram ‘I had been loved’ amātus, -a, -um erās ‘you (singular) had been loved’ amātus, -a, -um erat ‘he had been loved’, ‘she had been loved’, ‘it had been loved’, ‘had"
+        },
+        {
+          "t": "example",
+          "text": "been loved’ amātī, -ae, -a erāmus ‘we had been loved’ amātī, -ae, -a erātis ‘you (plural) had been loved’ amātī, -ae, -a erant ‘they had been loved’, ‘had been loved’ Deponent verbs, as usual, have passive forms with active meanings: vēnātus eram ‘I had hunted’, veritus eram ‘I had feared’, ūsus eram ‘I had used’, partītus eram ‘I had divided’, mortuus eram ‘I had died’."
+        },
+        {
+          "t": "example",
+          "text": "All irregular verbs are regular in the pluperfect: fueram ‘I had been’ from sum, potueram ‘I had been able to’ from possum, īveram and ieram ‘I had gone’ from eō, volueram ‘I had wanted’ from volō, etc."
+        },
+        {
+          "t": "pre",
+          "text": "Active First conjugation Second conjugation Third conjugation Fourth conjugation Mixed conjugation amāveram monueram rēxeram audīveram cēperam amāverās monuerās rēxerās audīverās cēperās amāverat monuerat rēxerat audīverat cēperat amāverāmus monuerāmus rēxerāmus audīverāmus cēperāmus amāverātis monuerātis rēxerātis audīverātis cēperātis amāverant monuerant rēxerant audīverant cēperant"
+        },
+        {
+          "t": "pre",
+          "text": "Passive First conjugation Second conjugation Third conjugation Fourth conjugation Mixed conjugation amātus, -a, -um eram monitus, -a, -um eram rēctus, -a, -um eram audītus, -a, -um eram captus, -a, -um eram amātus, -a, -um erās monitus, -a, -um erās rēctus, -a, -um erās audītus, -a, -um erās captus, -a, -um erās amātus, -a, -um erat monitus, -a, -um erat rēctus, -a, -um erat audītus, -a, -um erat captus, -a, -um erat amātī, -ae, -a erāmus monitī, -ae, -a erāmus rēctī, -ae, -a erāmus audītī, -ae, -a erāmus captī, -ae, -a erāmus amātī, -ae, -a erātis monitī, -ae, -a erātis rēctī, -ae, -a erātis audītī, -ae, -a erātis captī, -ae, -a erātis amātī, -ae, -a erant monitī, -ae, -a erant rēctī, -ae, -a erant audītī, -ae, -a erant captī, -ae, -a erant"
         }
       ]
     },
@@ -28,7 +52,31 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "The future perfect tense (‘he will have done’) is formed very similarly to the pluperfect, but substituting the future of sum for the imperfect – except that in the active the third person plural ends in -erint rather than -erunt. See the table on the next page. The translations of these forms follow the pattern of amāverō and amātus erō: Active amāverō ‘I will have loved’, ‘I shall have loved’ amāveris ‘you (singular) will have loved’, ‘you (singular) shall have loved’ amāverit ‘he will have loved’, ‘she will have loved’, ‘it will have loved’, ‘will have loved’, ‘he shall have loved’, ‘she shall have loved’, ‘it shall have loved’, ‘shall have loved’ amāverimus ‘we will have loved’, ‘we shall have loved’ amāveritis ‘you (plural) will have loved’, ‘you (plural) shall have loved’ amāverint ‘they will have loved’, ‘they shall have loved’, ‘will have loved’, ‘shall have loved’ Passive amātus, -a, -um erō ‘I will have been loved’, ‘I shall have been loved’ amātus, -a, -um eris ‘you (singular) will have been loved, ‘you (singular) shall have been loved’ amātus, -a, -um erit ‘he will have been loved’, ‘she will have been loved’, ‘it will have been loved’, ‘will have been loved’, ‘he shall have been loved’, ‘she shall have been loved’, ‘it shall have been loved’, ‘shall have been loved’ amātī, -ae, -a erimus ‘we will have been loved’, ‘we shall have been loved’ amātī, -ae, -a eritis ‘you (plural) will have been loved’, ‘you (plural) shall have been loved’ amātī, -ae, -a erunt ‘they will have been loved’, ‘they shall have been loved’, ‘will have been loved’, ‘shall have been loved’ Deponent and irregular verbs all form future perfects regularly, following the same pattern. Active First conjugation Second conjugation Third conjugation Fouth conjugation Mixed conjugation amāverō monuerō rēxerō audīverō cēperō amāveris monueris rēxeris audīveris cēperis amāverit monuerit rēxerit audīverit cēperit amāverimus monuerimus rēxerimus audīverimus cēperimus amāveritis monueritis rēxeritis audīveritis cēperitis amāverint monuerint rēxerint audīverint cēperint Passive First conjugation Second conjugation Third conjugation Fourth conjugation Mixed conjugation amātus, -a, -um erō monitus, -a, -um erō rēctus, -a, -um erō audītus, -a, -um erō captus, -a, -um erō amātus, -a, -um eris monitus, -a, -um eris rēctus, -a, -um eris audītus, -a, -um eris captus, -a, -um eris amātus, -a, -um erit monitus, -a, -um erit rēctus, -a, -um erit audītus, -a, -um erit captus, -a, -um erit amātī, -ae, -a erimus monitī, -ae, -a erimus rēctī, -ae, -a erimus audītī, -ae, -a erimus captī, -ae, -a erimus amātī, -ae, -a eritis monitī, -ae, -a eritis rēctī, -ae, -a eritis audītī, -ae, -a eritis captī, -ae, -a eritis amātī, -ae, -a erunt monitī, -ae, -a erunt rēctī, -ae, -a erunt audītī, -ae, -a erunt captī, -ae, -a erunt"
+          "text": "The future perfect tense (‘he will have done’) is formed very similarly to the pluperfect, but substituting the future of sum for the imperfect – except that in the active the third person plural ends in -erint rather than -erunt. See the table on the next page. The translations of these forms follow the pattern of amāverō and amātus erō:"
+        },
+        {
+          "t": "pre",
+          "text": "Active amāverō ‘I will have loved’, ‘I shall have loved’ amāveris ‘you (singular) will have loved’, ‘you (singular) shall have loved’ amāverit ‘he will have loved’, ‘she will have loved’, ‘it will have loved’, ‘will have loved’,"
+        },
+        {
+          "t": "example",
+          "text": "‘he shall have loved’, ‘she shall have loved’, ‘it shall have loved’, ‘shall have loved’\namāverimus ‘we will have loved’, ‘we shall have loved’\namāveritis ‘you (plural) will have loved’, ‘you (plural) shall have loved’\namāverint ‘they will have loved’, ‘they shall have loved’, ‘will have loved’, ‘shall have loved’"
+        },
+        {
+          "t": "pre",
+          "text": "Passive amātus, -a, -um erō ‘I will have been loved’, ‘I shall have been loved’ amātus, -a, -um eris ‘you (singular) will have been loved, ‘you (singular) shall have"
+        },
+        {
+          "t": "p",
+          "text": "been loved’ amātus, -a, -um erit ‘he will have been loved’, ‘she will have been loved’, ‘it will have been loved’, ‘will have been loved’, ‘he shall have been loved’, ‘she shall have been loved’, ‘it shall have been loved’, ‘shall have been loved’ amātī, -ae, -a erimus ‘we will have been loved’, ‘we shall have been loved’ amātī, -ae, -a eritis ‘you (plural) will have been loved’, ‘you (plural) shall have been loved’ amātī, -ae, -a erunt ‘they will have been loved’, ‘they shall have been loved’, ‘will have been loved’, ‘shall have been loved’ Deponent and irregular verbs all form future perfects regularly, following the same pattern."
+        },
+        {
+          "t": "pre",
+          "text": "Active First conjugation Second conjugation Third conjugation Fouth conjugation Mixed conjugation amāverō monuerō rēxerō audīverō cēperō amāveris monueris rēxeris audīveris cēperis amāverit monuerit rēxerit audīverit cēperit amāverimus monuerimus rēxerimus audīverimus cēperimus amāveritis monueritis rēxeritis audīveritis cēperitis amāverint monuerint rēxerint audīverint cēperint"
+        },
+        {
+          "t": "pre",
+          "text": "Passive First conjugation Second conjugation Third conjugation Fourth conjugation Mixed conjugation amātus, -a, -um erō monitus, -a, -um erō rēctus, -a, -um erō audītus, -a, -um erō captus, -a, -um erō amātus, -a, -um eris monitus, -a, -um eris rēctus, -a, -um eris audītus, -a, -um eris captus, -a, -um eris amātus, -a, -um erit monitus, -a, -um erit rēctus, -a, -um erit audītus, -a, -um erit captus, -a, -um erit amātī, -ae, -a erimus monitī, -ae, -a erimus rēctī, -ae, -a erimus audītī, -ae, -a erimus captī, -ae, -a erimus amātī, -ae, -a eritis monitī, -ae, -a eritis rēctī, -ae, -a eritis audītī, -ae, -a eritis captī, -ae, -a eritis amātī, -ae, -a erunt monitī, -ae, -a erunt rēctī, -ae, -a erunt audītī, -ae, -a erunt captī, -ae, -a erunt"
         }
       ]
     }

@@ -9,9 +9,9 @@ const chapter = {
   "complete": true,
   "sections": [
     {
-      "id": "section-1",
-      "latin": "Sequence of Tenses",
-      "english": "Chapter",
+      "id": "section-0",
+      "latin": "Introduction",
+      "english": "Introduction",
       "kind": "commentary",
       "blocks": [
         {
@@ -23,11 +23,11 @@ const chapter = {
           "text": "Main verb Subordinate verb Present indicative, future → Present subjunctive"
         },
         {
-          "t": "p",
+          "t": "h",
           "text": "indicative, imperative, subjunctive"
         },
         {
-          "t": "p",
+          "t": "h",
           "text": "Perfect indicative → Imperfect subjunctive"
         },
         {
@@ -59,7 +59,7 @@ const chapter = {
           "text": "ad urbem īvit ut rēgem videret. ‘He went to the city to see the king.’ / ‘He went to the"
         },
         {
-          "t": "p",
+          "t": "h",
           "text": "city in order to see the king.’"
         },
         {
@@ -67,11 +67,79 @@ const chapter = {
           "text": "ad urbem īvit nē rēgem videret. ‘He went to the city in order not to see the king.’ haec scrīpsit ut legerēmus. ‘He wrote these things so that we would read them.’ puerō pecūniam dedērunt nē miser esset. ‘They gave money to the boy so that he would"
         },
         {
-          "t": "p",
+          "t": "h",
           "text": "not be miserable.’"
         },
         {
+          "t": "h",
+          "text": "Practice"
+        }
+      ]
+    },
+    {
+      "id": "section-1",
+      "latin": "Sequence of Tenses",
+      "english": "Chapter",
+      "kind": "commentary",
+      "blocks": [
+        {
           "t": "p",
+          "text": "The imperfect subjunctive, like the present subjunctive, does not have a fixed translation; its meaning depends on its construction. One construction in which the imperfect subjunctive is often used is the purpose clauses discussed in chapter 15.2: these use either present or imperfect subjunctive for the subordinate clause depending on the tense of the main verb. This relationship between the tense of the main verb and the tense of the subjunctive is called ‘sequence of tenses’ and is one of the most important rules of Latin syntax. Indicative tenses fall into two groups, primary and historic (also called primary and secondary); primary tenses in the main verb result in present subjunctives in the subordinate clause, and historic tenses in the main verb result in imperfect subjunctives in the subordinate clause. Of the tenses we have so far seen, the present and future are primary; the imperative, deliberative subjunctive, and hortatory subjunctive (though not strictly speaking tenses at all) also function as primary tenses. The only historic tense we have so far seen is the perfect.1 Therefore:"
+        },
+        {
+          "t": "p",
+          "text": "Main verb Subordinate verb Present indicative, future → Present subjunctive"
+        },
+        {
+          "t": "h",
+          "text": "indicative, imperative, subjunctive"
+        },
+        {
+          "t": "h",
+          "text": "Perfect indicative → Imperfect subjunctive"
+        },
+        {
+          "t": "p",
+          "text": "The tense of the subordinate verb can sometimes help resolve an ambiguous main"
+        },
+        {
+          "t": "p",
+          "text": "verb. For example, in a text where long vowels are not marked librum emit might mean either ‘he is buying the book’ (emit with short e) or ‘he bought the book’ (ēmit), but librum emit ut nobis daret has to mean ‘he bought the book to give it to us’ (daret is an imperfect subjunctive, so the main verb must be a perfect indicative)."
+        },
+        {
+          "t": "p",
+          "text": "English also has a sequence of tenses, though it does not work quite like the Latin"
+        },
+        {
+          "t": "p",
+          "text": "sequence, and therefore when a purpose clause has a historic main verb and an imperfect subjunctive the translation pattern is different from that seen in the last chapter: such purpose clauses are translated with an infinitive or with a clause beginning ‘in order to’, ‘in order that . . . would’, or ‘so that . . . would’, rather than with ‘will’."
+        },
+        {
+          "t": "p",
+          "text": "This is an oversimplification, for sometimes the perfect can function as a primary tense. This occurs only in contexts where it would be translated with ‘have’ in English (e.g. ‘I have ruled’); such situations will not arise in this book."
+        },
+        {
+          "t": "p",
+          "text": "The infinitive and ‘in order to’ can be used only if the subject of the subjunctive is the same as the subject of the sentence’s main verb. For example:"
+        },
+        {
+          "t": "p",
+          "text": "ad urbem īvit ut rēgem videret. ‘He went to the city to see the king.’ / ‘He went to the"
+        },
+        {
+          "t": "h",
+          "text": "city in order to see the king.’"
+        },
+        {
+          "t": "p",
+          "text": "ad urbem īvit nē rēgem videret. ‘He went to the city in order not to see the king.’ haec scrīpsit ut legerēmus. ‘He wrote these things so that we would read them.’ puerō pecūniam dedērunt nē miser esset. ‘They gave money to the boy so that he would"
+        },
+        {
+          "t": "h",
+          "text": "not be miserable.’"
+        },
+        {
+          "t": "h",
           "text": "Practice"
         }
       ]

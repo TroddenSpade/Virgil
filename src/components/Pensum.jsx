@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import { parseBlanks, normalise } from '../lib/text.js'
 
-function FillExercise({ pensum }) {
+function FillExercise({ pensum, hideHead = false }) {
   const [values, setValues] = useState({})
   const [checked, setChecked] = useState(false)
   const [revealed, setRevealed] = useState(false)
@@ -50,11 +50,13 @@ function FillExercise({ pensum }) {
 
   return (
     <section className="pensum card" id={pensum.id}>
-      <header className="pensum__head">
-        <h3 className="pensum__title latin">{pensum.latinLabel || pensum.title}</h3>
-        {pensum.latinLabel && pensum.title && <p className="pensum__subtitle">{pensum.title}</p>}
-        {pensum.instruction && <p className="pensum__instruction">{pensum.instruction}</p>}
-      </header>
+      {!hideHead && (
+        <header className="pensum__head">
+          <h3 className="pensum__title latin">{pensum.latinLabel || pensum.title}</h3>
+          {pensum.latinLabel && pensum.title && <p className="pensum__subtitle">{pensum.title}</p>}
+          {pensum.instruction && <p className="pensum__instruction">{pensum.instruction}</p>}
+        </header>
+      )}
 
       <div className="pensum__items latin">
         {items.map((nodes, i) => (
@@ -110,15 +112,17 @@ function FillExercise({ pensum }) {
   )
 }
 
-function QuestionExercise({ pensum }) {
+function QuestionExercise({ pensum, hideHead = false }) {
   const [open, setOpen] = useState({})
   return (
     <section className="pensum card" id={pensum.id}>
-      <header className="pensum__head">
-        <h3 className="pensum__title latin">{pensum.latinLabel || pensum.title}</h3>
-        {pensum.latinLabel && pensum.title && <p className="pensum__subtitle">{pensum.title}</p>}
-        {pensum.instruction && <p className="pensum__instruction">{pensum.instruction}</p>}
-      </header>
+      {!hideHead && (
+        <header className="pensum__head">
+          <h3 className="pensum__title latin">{pensum.latinLabel || pensum.title}</h3>
+          {pensum.latinLabel && pensum.title && <p className="pensum__subtitle">{pensum.title}</p>}
+          {pensum.instruction && <p className="pensum__instruction">{pensum.instruction}</p>}
+        </header>
+      )}
 
       <ol className="pensum__questions">
         {pensum.items.map((item, i) => (
@@ -150,17 +154,33 @@ function QuestionExercise({ pensum }) {
   )
 }
 
-export default function Pensum({ pensa }) {
+export default function Pensum({ pensa, collapsible = false }) {
   if (!pensa?.length) return null
   return (
-    <div className="pensa">
-      {pensa.map((pensum) =>
-        pensum.type === 'questions' ? (
-          <QuestionExercise key={pensum.id} pensum={pensum} />
-        ) : (
-          <FillExercise key={pensum.id} pensum={pensum} />
-        ),
-      )}
+    <div className={`pensa${collapsible ? ' pensa--collapsible' : ''}`}>
+      {pensa.map((pensum, index) => {
+        const body =
+          pensum.type === 'questions' ? (
+            <QuestionExercise key={pensum.id} pensum={pensum} hideHead={collapsible} />
+          ) : (
+            <FillExercise key={pensum.id} pensum={pensum} hideHead={collapsible} />
+          )
+        if (!collapsible) return body
+        return (
+          <details className="pensum-disclosure" key={pensum.id} open={index === 0}>
+            <summary className="pensum-disclosure__summary">
+              <span className="pensum-disclosure__label latin">{pensum.latinLabel || pensum.title}</span>
+              <span className="pensum-disclosure__count">
+                {pensum.items.length} {pensum.items.length === 1 ? 'item' : 'items'}
+              </span>
+              {pensum.instruction && (
+                <span className="pensum-disclosure__instruction">{pensum.instruction}</span>
+              )}
+            </summary>
+            {body}
+          </details>
+        )
+      })}
     </div>
   )
 }

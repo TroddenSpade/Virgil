@@ -15,12 +15,112 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "21.1 Formation of Third-Declension Adjectives"
+          "t": "p",
+          "text": "Adjectives, like nouns, can belong to the third declension, and third-declension adjectives are i-stems."
         },
         {
           "t": "p",
-          "text": "Adjectives, like nouns, can belong to the third declension, and third-declension adjectives are i-stems. They come in three varieties: adjectives of three terminations such as ācer, ācris, ācre have different forms for all three genders in the nominative singular, adjectives of two terminations such as trīstis, trīste have the same form for the masculine and feminine but a different form for the neuter in the nominative singular, and adjectives of one termination such as fēlīx have only one form for all three genders in the nominative singular. In the plural, all three types have one form for the masculine and feminine and a different form for the neuter. The stem of three-termination and two-termination adjectives can be found by dropping the -is from the feminine nominative singular; the stem of one-termination adjectives can be found by dropping the -is from the genitive singular, which will be given in the vocabulary for these adjectives only. British Case Order Adjectives of three terminations: ācer, ācris, ācre ‘sharp, keen’ Singular Plural Masculine Feminine Neuter Masculine Neuter and feminine Nom. ācer ācris ācre ācrēs ācria Voc. ācer ācris ācre ācrēs ācria Acc. ācrem ācrem ācre ācrēs/ācrīs ācria Gen. ācris ācris ācris ācrium ācrium Dat. ācrī ācrī ācrī ācribus ācribus Abl. ācrī ācrī ācrī ācribus ācribus British Case Order (continued) Adjectives of two terminations: trīstis, trīste ‘sad’ Singular Plural Masculine and Neuter Masculine and Neuter feminine feminine Nom. trīstis trīste trīstēs trīstia Voc. trīstis trīste trīstēs trīstia Acc. trīstem trīste trīstēs/tristīs trīstia Gen. trīstis trīstis trīstium trīstium Dat. trīstī trīstī trīstibus trīstibus Abl. trīstī trīstī trīstibus trīstibus Adjectives of one termination: fēlīx, gen. fēlīcis ‘happy, fortunate’ Singular Plural Masculine and Neuter Masculine and Neuter feminine feminine Nom. fēlīx fēlīx fēlīcēs fēlīcia Voc. fēlīx fēlīx fēlīcēs fēlīcia Acc. fēlīcem fēlīx fēlīcēs/fēlīcīs fēlīcia Gen. fēlīcis fēlīcis fēlīcium fēlīcium Dat. fēlīcī fēlīcī fēlīcibus fēlīcibus Abl. fēlīcī fēlīcī fēlīcibus fēlīcibus Ancient Case Order Adjectives of three terminations: ācer, ācris, ācre ‘sharp, keen’ Singular Plural Masculine Feminine Neuter Masculine Neuter and feminine Nom./Voc. ācer ācris ācre ācrēs ācria Gen. ācris ācris ācris ācrium ācrium Dat. ācrī ācrī ācrī ācribus ācribus Acc. ācrem ācrem ācre ācrēs/ācrīs ācria Abl. ācrī ācrī ācrī ācribus ācribus Ancient Case Order (continued) Adjectives of two terminations: trīstis, trīste ‘sad’ Singular Plural Masculine and Neuter Masculine and Neuter feminine feminine Nom./Voc. trīstis trīste trīstēs trīstia Gen. trīstis trīstis trīstium trīstium Dat. trīstī trīstī trīstibus trīstibus Acc. trīstem trīste trīstēs/tristīs trīstia Abl. trīstī trīstī trīstibus trīstibus Adjectives of one termination: fēlīx, gen. fēlīcis ‘happy, fortunate’ Singular Plural Masculine and Neuter Masculine and Neuter feminine feminine Nom./Voc. fēlīx fēlīx fēlīcēs fēlīcia Gen. fēlīcis fēlīcis fēlīcium fēlīcium Dat. fēlīcī fēlīcī fēlīcibus fēlīcibus Acc. fēlīcem fēlīx fēlīcēs/fēlīcīs fēlīcia Abl. fēlīcī fēlīcī fēlīcibus fēlīcibus"
+          "text": "They come in three varieties: adjectives of three terminations such as ācer, ācris, ācre have different forms for all three genders in the nominative singular, adjectives of two terminations such as trīstis, trīste have the same form for the masculine and feminine but a different form for the neuter in the nominative singular, and adjectives of one termination such as fēlīx have only one form for all three genders in the nominative singular."
+        },
+        {
+          "t": "p",
+          "text": "In the plural, all three types have one form for the masculine and feminine and a different form for the neuter. The stem of three-termination and two-termination adjectives can be found by dropping the -is from the feminine nominative singular; the stem of one-termination adjectives can be found by dropping the -is from the genitive singular, which will be given in the vocabulary for these adjectives only."
+        },
+        {
+          "t": "h",
+          "text": "British Case Order"
+        },
+        {
+          "t": "h",
+          "text": "Adjectives of three terminations: ācer, ācris, ācre ‘sharp, keen’"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine Feminine Neuter Masculine Neuter"
+        },
+        {
+          "t": "h",
+          "text": "and feminine"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. ācer ācris ācre ācrēs ācria Voc. ācer ācris ācre ācrēs ācria Acc. ācrem ācrem ācre ācrēs/ācrīs ācria Gen. ācris ācris ācris ācrium ācrium Dat. ācrī ācrī ācrī ācribus ācribus Abl. ācrī ācrī ācrī ācribus ācribus"
+        },
+        {
+          "t": "h",
+          "text": "British Case Order (continued)"
+        },
+        {
+          "t": "h",
+          "text": "Adjectives of two terminations: trīstis, trīste ‘sad’"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine and Neuter Masculine and Neuter feminine feminine"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. trīstis trīste trīstēs trīstia Voc. trīstis trīste trīstēs trīstia Acc. trīstem trīste trīstēs/tristīs trīstia Gen. trīstis trīstis trīstium trīstium Dat. trīstī trīstī trīstibus trīstibus Abl. trīstī trīstī trīstibus trīstibus"
+        },
+        {
+          "t": "h",
+          "text": "Adjectives of one termination: fēlīx, gen. fēlīcis ‘happy, fortunate’"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine and Neuter Masculine and Neuter feminine feminine"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. fēlīx fēlīx fēlīcēs fēlīcia Voc. fēlīx fēlīx fēlīcēs fēlīcia Acc. fēlīcem fēlīx fēlīcēs/fēlīcīs fēlīcia Gen. fēlīcis fēlīcis fēlīcium fēlīcium Dat. fēlīcī fēlīcī fēlīcibus fēlīcibus Abl. fēlīcī fēlīcī fēlīcibus fēlīcibus"
+        },
+        {
+          "t": "h",
+          "text": "Ancient Case Order"
+        },
+        {
+          "t": "h",
+          "text": "Adjectives of three terminations: ācer, ācris, ācre ‘sharp, keen’"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine Feminine Neuter Masculine Neuter"
+        },
+        {
+          "t": "h",
+          "text": "and feminine"
+        },
+        {
+          "t": "pre",
+          "text": "Nom./Voc. ācer ācris ācre ācrēs ācria Gen. ācris ācris ācris ācrium ācrium Dat. ācrī ācrī ācrī ācribus ācribus Acc. ācrem ācrem ācre ācrēs/ācrīs ācria Abl. ācrī ācrī ācrī ācribus ācribus"
+        },
+        {
+          "t": "h",
+          "text": "Ancient Case Order (continued)"
+        },
+        {
+          "t": "h",
+          "text": "Adjectives of two terminations: trīstis, trīste ‘sad’"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine and Neuter Masculine and Neuter feminine feminine"
+        },
+        {
+          "t": "pre",
+          "text": "Nom./Voc. trīstis trīste trīstēs trīstia Gen. trīstis trīstis trīstium trīstium Dat. trīstī trīstī trīstibus trīstibus Acc. trīstem trīste trīstēs/tristīs trīstia Abl. trīstī trīstī trīstibus trīstibus"
+        },
+        {
+          "t": "h",
+          "text": "Adjectives of one termination: fēlīx, gen. fēlīcis ‘happy, fortunate’"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine and Neuter Masculine and Neuter feminine feminine"
+        },
+        {
+          "t": "pre",
+          "text": "Nom./Voc. fēlīx fēlīx fēlīcēs fēlīcia Gen. fēlīcis fēlīcis fēlīcium fēlīcium Dat. fēlīcī fēlīcī fēlīcibus fēlīcibus Acc. fēlīcem fēlīx fēlīcēs/fēlīcīs fēlīcia Abl. fēlīcī fēlīcī fēlīcibus fēlīcibus"
         }
       ]
     },
@@ -32,7 +132,11 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "A third-declension adjective may modify a noun of any declension; it will agree with the noun it modifies in gender, number, and case, but not necessarily in ending. Thus equus celer (nominative singular), equī celerēs (nominative plural), equī celeris (genitive singular), etc. Third-declension adjectives may be substantivized, i.e. used without an expressed noun (see chapter 8.3), as omnēs illud vīdērunt ‘everyone (literally ‘all the people’) saw that’ and laudēmus immortālēs ‘let’s praise the immortals’ (i.e. the gods)."
+          "text": "A third-declension adjective may modify a noun of any declension; it will agree with the noun it modifies in gender, number, and case, but not necessarily in ending. Thus equus celer (nominative singular), equī celerēs (nominative plural), equī celeris (genitive singular), etc. Third-declension adjectives may be substantivized, i.e."
+        },
+        {
+          "t": "p",
+          "text": "used without an expressed noun (see chapter 8.3), as omnēs illud vīdērunt ‘everyone (literally ‘all the people’) saw that’ and laudēmus immortālēs ‘let’s praise the immortals’ (i.e. the gods)."
         }
       ]
     },
@@ -43,8 +147,32 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
+          "t": "h",
+          "text": "11 Brave men always fight well. 15 Is your sword sharp?"
+        },
+        {
+          "t": "h",
+          "text": "12 I am not brave. 16 The immortals are always"
+        },
+        {
+          "t": "h",
+          "text": "13 These women love that brave happy."
+        },
+        {
+          "t": "h",
+          "text": "14 Every girl here is beautiful. 18 May you (plural) be happy!"
+        },
+        {
           "t": "p",
-          "text": "The adjectives amāns, pugnāns, fugiēns, and currēns are formed from verbs; they are called present participles. (The participles you have already seen in chapter 6.2, such as doctus, are perfect participles.) Any verb (apart from sum and compounds of sum) can form a present participle, as follows: First conjugation amāns, gen. amantis ‘loving’ Second conjugation monēns, gen. monentis ‘advising’ Third conjugation regēns, gen. regentis ‘ruling’ Fourth conjugation audiēns, gen. audientis ‘hearing’ Mixed conjugation capiēns, gen. capientis ‘taking’ Eō iēns, gen. euntis ‘going’"
+          "text": "man. 17 Give these to the sad boys."
+        },
+        {
+          "t": "p",
+          "text": "The adjectives amāns, pugnāns, fugiēns, and currēns are formed from verbs; they are called present participles. (The participles you have already seen in chapter 6.2, such as doctus, are perfect participles.) Any verb (apart from sum and compounds of sum) can form a present participle, as follows: First conjugation amāns, gen. amantis ‘loving’ Second conjugation monēns, gen. monentis ‘advising’ Third conjugation regēns, gen."
+        },
+        {
+          "t": "example",
+          "text": "regentis ‘ruling’ Fourth conjugation audiēns, gen. audientis ‘hearing’ Mixed conjugation capiēns, gen. capientis ‘taking’ Eō iēns, gen. euntis ‘going’"
         }
       ]
     }
@@ -460,43 +588,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "10 We saw everyone (all men). 21.",
-          "a": ""
-        },
-        {
-          "q": "3 Present Participles 137",
-          "a": ""
-        },
-        {
-          "q": "11 Brave men always fight well.",
-          "a": ""
-        },
-        {
-          "q": "15 Is your sword sharp?",
-          "a": ""
-        },
-        {
-          "q": "12 I am not brave.",
-          "a": ""
-        },
-        {
-          "q": "16 The immortals are always",
-          "a": ""
-        },
-        {
-          "q": "13 These women love that brave happy. man.",
-          "a": ""
-        },
-        {
-          "q": "17 Give these to the sad boys.",
-          "a": ""
-        },
-        {
-          "q": "14 Every girl here is beautiful.",
-          "a": ""
-        },
-        {
-          "q": "18 May you (plural) be happy!",
+          "q": "10 We saw everyone (all men).",
           "a": ""
         }
       ],

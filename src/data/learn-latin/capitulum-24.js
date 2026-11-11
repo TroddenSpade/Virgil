@@ -15,12 +15,44 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "24.2 Participle Usage"
+          "t": "p",
+          "text": "So far we have seen two participles: the perfect participle, which is passive (e.g. amātus, -a, -um ‘loved’ or ‘having been loved’, but not the active ‘having loved’: see chapter 6.2), and the present participle, which is active (e.g. amāns, gen. amantis ‘loving’: see chapter 21.3). There is also a future participle, which is active; as English does not have a future participle its translation is rather cumbersome, e.g."
         },
         {
           "t": "p",
-          "text": "So far we have seen two participles: the perfect participle, which is passive (e.g. amātus, -a, -um ‘loved’ or ‘having been loved’, but not the active ‘having loved’: see chapter 6.2), and the present participle, which is active (e.g. amāns, gen. amantis ‘loving’: see chapter 21.3). There is also a future participle, which is active; as English does not have a future participle its translation is rather cumbersome, e.g. amātūrus, -a, -um ‘(being) about to love’. The future participle is formed by taking the fourth principal part, dropping the -um, and adding -ūrus, -ūra, -ūrum (in other words, the future participle is the future infinitive (for which see chapter 19.2) without the esse). When the fourth principal part already ends in -ūrus, as in the case of futūrus and fugitūrus, no change is necessary: for such verbs the fourth principal part is the future participle, and there is no perfect participle. The full set of participles is therefore as shown in the table below. Perfect participle Present participle Future participle First amātus, -a, -um ‘loved’, amāns, gen. amantis amātūrus, -a, -um ‘being conjugation ‘having been loved’ ‘loving’ about to love’ Second monitus, -a, -um ‘advised’, monēns, gen. monentis monitūrus, -a, -um conjugation ‘having been advised’ ‘advising’ ‘being about to advise’ Third rēctus, -a, -um ‘ruled’, regēns, gen. regentis rēctūrus, -a, -um ‘being conjugation ‘having been ruled’ ‘ruling’ about to rule’ Fourth audītus, -a, -um ‘heard’, audiēns, gen. audientis audītūrus, -a, -um ‘being conjugation ‘having been heard’ ‘hearing’ about to hear’ Mixed captus, -a, -um ‘captured’, capiēns, gen. capientis captūrus, -a, -um ‘being conjugation ‘having been captured’ ‘capturing’ about to capture’ Sum – – futūrus, -a, -um ‘being about to be’ Eō – iēns, gen. euntis ‘going’ itūrus, -a, -um ‘being about to go’"
+          "text": "amātūrus, -a, -um ‘(being) about to love’. The future participle is formed by taking the fourth principal part, dropping the -um, and adding -ūrus, -ūra, -ūrum (in other words, the future participle is the future infinitive (for which see chapter 19.2) without the esse)."
+        },
+        {
+          "t": "p",
+          "text": "When the fourth principal part already ends in -ūrus, as in the case of futūrus and fugitūrus, no change is necessary: for such verbs the fourth principal part is the future participle, and there is no perfect participle. The full set of participles is therefore as shown in the table below."
+        },
+        {
+          "t": "h",
+          "text": "Perfect participle Present participle Future participle"
+        },
+        {
+          "t": "p",
+          "text": "First amātus, -a, -um ‘loved’, amāns, gen. amantis amātūrus, -a, -um ‘being conjugation ‘having been loved’ ‘loving’ about to love’ Second monitus, -a, -um ‘advised’, monēns, gen. monentis monitūrus, -a, -um conjugation ‘having been advised’ ‘advising’ ‘being about to advise’ Third rēctus, -a, -um ‘ruled’, regēns, gen."
+        },
+        {
+          "t": "p",
+          "text": "regentis rēctūrus, -a, -um ‘being conjugation ‘having been ruled’ ‘ruling’ about to rule’ Fourth audītus, -a, -um ‘heard’, audiēns, gen. audientis audītūrus, -a, -um ‘being conjugation ‘having been heard’ ‘hearing’ about to hear’ Mixed captus, -a, -um ‘captured’, capiēns, gen. capientis captūrus, -a, -um ‘being conjugation ‘having been captured’ ‘capturing’ about to capture’"
+        },
+        {
+          "t": "h",
+          "text": "Sum – – futūrus, -a, -um ‘being"
+        },
+        {
+          "t": "h",
+          "text": "about to be’"
+        },
+        {
+          "t": "h",
+          "text": "Eō – iēns, gen. euntis ‘going’ itūrus, -a, -um ‘being"
+        },
+        {
+          "t": "h",
+          "text": "about to go’"
         }
       ]
     },
@@ -31,16 +63,56 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "152 Participles"
-        },
-        {
-          "t": "h",
-          "text": "24.2 Participle Usage"
+          "t": "p",
+          "text": "The literal translation of the future participle is very odd in English, so it is preferable to use a less literal translation when encountering such participles in sentences."
         },
         {
           "t": "p",
-          "text": "The literal translation of the future participle is very odd in English, so it is preferable to use a less literal translation when encountering such participles in sentences. For example, puerōs pugnātūrōs vīdī literally means ‘I saw the being-about-to-fight boys’, but since we would never say that in English, it is a good idea to use a subordinate clause with ‘who’ or ‘when’, such as ‘I saw the boys who were about to fight’ or ‘I saw the boys when they were about to fight’. Which type of subordinate clause is best will be determined by the context. Often subordinate clauses are the best translations of perfect and present participles too (cf. chapter 6.2), because the Latin participle is frequently used in situations where English would not employ a participle. Latin participles, despite being adjectives, retain many of the characteristics of the verbs from which they came: they can have objects in the accusative (mīlitēs hanc puellam amantēs ‘the soldiers loving this girl’, or better ‘the soldiers who love this girl’) or the dative (librī puerīs datī ‘the books given to the boys’, or ‘the books that were given to the boys’), and they can be modified by adverbs (puellae crās ventūrae ‘the being-about-to-come-tomorrow girls’, or better ‘the girls who will come tomorrow’) or by prepositional phrases (puellae ā poētīs amātae ‘the girls loved by the poets’, or ‘the girls who are loved by the poets’). A Latin participle normally agrees in gender, number, and case with another word in the sentence, and it is important to translate it so that that agreement is preserved. Since English often uses word order to indicate what a participle goes with, a literal translation of the Latin that does not change the word order may end up with a completely different meaning in English from that of the original Latin sentence. For example, the sentence per silvam euntem tē vīdimus could be literally translated ‘going through the forest, we saw you’, but that translation would mean that ‘we’ were going through the forest, whereas in Latin euntem agrees with tē and therefore it is ‘you’, not ‘we’, who were going through the forest. Therefore it would be better to translate per silvam euntem tē vīdimus with ‘We saw you going through the forest’, or ‘We saw you when you were going through the forest’. If in fact it was ‘we’ rather than ‘you’ going through the forest, the Latin sentence would be per silvam euntēs tē vīdimus, with the participle nominative plural to agree with the understood subject of vīdimus, and the best English translation would be ‘We saw you when we were going through the forest’. Sometimes, however, a participle has nothing in the sentence to agree with at all; under those circumstances it must be substantivized, like any other adjective in the same situation, and in English one will normally need to add ‘man’, ‘men’, ‘woman’, ‘women’, ‘thing’, or ‘things’, depending on the participle’s gender and number (cf. chapter 8.3). Thus just as bonōs vīdī means ‘I saw the good men’ and bona vīdī means ‘I saw good things’, so currentēs vīdī means ‘I saw the running men’ or ‘I saw the men who were running’ and data vīdī means ‘I saw the given things’, or better ‘I saw the things that had been given’. The substantivized participles dicta and facta (literally ‘said things’ and ‘done things’) are usually translated ‘words’ and ‘deeds’ in English. In Latin the tense of the participle expresses time relative to the main verb (present participle = action at same time as main verb, perfect participle = action before main verb, future participle = action after main verb). But in English, a past-tense main verb normally forces subordinate verbs in the same sentence into the past tense as well; as a result, when replacing participles with subordinate clauses in English, one must apply caution in the same way as with the tenses in indirect statement (see chapter 19.4). Thus ovēs in agrō stantēs vīdī ‘I saw the sheep that were standing in the field’ or ‘I saw the sheep when they were standing in the field’ (present participle in Latin, but past tense in English, because the standing happened at the same time as the seeing, both of which are now in the past) and hostēs rēgem interfectūrōs vīdī ‘I saw the enemies when they were about to kill the king’ or ‘I saw the enemies who were about to kill the king’."
+          "text": "For example, puerōs pugnātūrōs vīdī literally means ‘I saw the being-about-to-fight boys’, but since we would never say that in English, it is a good idea to use a subordinate clause with ‘who’ or ‘when’, such as ‘I saw the boys who were about to fight’ or ‘I saw the boys when they were about to fight’. Which type of subordinate clause is best will be determined by the context."
+        },
+        {
+          "t": "p",
+          "text": "Often subordinate clauses are the best translations of perfect and present participles too (cf. chapter 6.2), because the Latin participle is frequently used in situations where English would not employ a participle."
+        },
+        {
+          "t": "p",
+          "text": "Latin participles, despite being adjectives, retain many of the characteristics of the verbs from which they came: they can have objects in the accusative (mīlitēs hanc puellam amantēs ‘the soldiers loving this girl’, or better ‘the soldiers who love this girl’) or the dative (librī puerīs datī ‘the books given to the boys’, or ‘the books that were given to the boys’), and they can be modified by adverbs (puellae crās ventūrae ‘the being-about-to-come-tomorrow girls’, or better ‘the girls who will come tomorrow’) or by prepositional phrases (puellae ā poētīs amātae ‘the girls loved by the poets’, or ‘the girls who are loved by the poets’)."
+        },
+        {
+          "t": "p",
+          "text": "A Latin participle normally agrees in gender, number, and case with another word in the sentence, and it is important to translate it so that that agreement is preserved. Since English often uses word order to indicate what a participle goes with, a literal translation of the Latin that does not change the word order may end up with a completely different meaning in English from that of the original Latin sentence."
+        },
+        {
+          "t": "p",
+          "text": "For example, the sentence per silvam euntem tē vīdimus could be literally translated ‘going through the forest, we saw you’, but that translation would mean that ‘we’ were going through the forest, whereas in Latin euntem agrees with tē and therefore it is ‘you’, not ‘we’, who were going through the forest."
+        },
+        {
+          "t": "p",
+          "text": "Therefore it would be better to translate per silvam euntem tē vīdimus with ‘We saw you going through the forest’, or ‘We saw you when you were going through the forest’."
+        },
+        {
+          "t": "p",
+          "text": "If in fact it was ‘we’ rather than ‘you’ going through the forest, the Latin sentence would be per silvam euntēs tē vīdimus, with the participle nominative plural to agree with the understood subject of vīdimus, and the best English translation would be ‘We saw you when we were going through the forest’."
+        },
+        {
+          "t": "p",
+          "text": "Sometimes, however, a participle has nothing in the sentence to agree with at all; under those circumstances it must be substantivized, like any other adjective in the same situation, and in English one will normally need to add ‘man’, ‘men’, ‘woman’, ‘women’, ‘thing’, or ‘things’, depending on the participle’s gender and number (cf. chapter 8.3)."
+        },
+        {
+          "t": "p",
+          "text": "Thus just as bonōs vīdī means ‘I saw the good men’ and bona vīdī means ‘I saw good things’, so currentēs vīdī means ‘I saw the running men’ or ‘I saw the men who were running’ and data vīdī means ‘I saw the given things’, or better ‘I saw the things that had been given’. The substantivized participles dicta and facta (literally ‘said things’ and ‘done things’) are usually translated ‘words’ and ‘deeds’ in English."
+        },
+        {
+          "t": "p",
+          "text": "In Latin the tense of the participle expresses time relative to the main verb (present participle = action at same time as main verb, perfect participle = action before main verb, future participle = action after main verb)."
+        },
+        {
+          "t": "p",
+          "text": "But in English, a past-tense main verb normally forces subordinate verbs in the same sentence into the past tense as well; as a result, when replacing participles with subordinate clauses in English, one must apply caution in the same way as with the tenses in indirect statement (see chapter 19.4)."
+        },
+        {
+          "t": "p",
+          "text": "Thus ovēs in agrō stantēs vīdī ‘I saw the sheep that were standing in the field’ or ‘I saw the sheep when they were standing in the field’ (present participle in Latin, but past tense in English, because the standing happened at the same time as the seeing, both of which are now in the past) and hostēs rēgem interfectūrōs vīdī ‘I saw the enemies when they were about to kill the king’ or ‘I saw the enemies who were about to kill the king’."
         }
       ]
     }

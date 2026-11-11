@@ -9,18 +9,82 @@ const chapter = {
   "complete": true,
   "sections": [
     {
-      "id": "section-1",
+      "id": "section-0",
+      "latin": "Introduction",
+      "english": "Introduction",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "So far we have seen three types of subordinate clause taking the subjunctive: purpose clauses, indirect commands, and fear clauses. A fourth type is the result clause, which indicates the result of the action expressed in the main verb. Like the three types of subjunctive clause already seen, result clauses follow sequence of tenses: the present subjunctive is used if the main verb is in a primary tense, and the imperfect subjunctive if it is in a historic tense.1 (So far, the only historic tense we have seen is the perfect.) nē, but instead a nōn is added to the verb of the subordinate clause. Most result clauses can be translated with English ‘that’ and a normal indicative verb, but there are also other possibilities. the main clause: tot ‘so many’; tantus, -a, -um ‘so great’, ‘so big’; tālis, -e ‘such’; ita ‘so’, in such a way’; tam ‘so’; adeō ‘so’, ‘to such an extent’. mīlitēs adeō timuērunt ut fugerent. ‘The soldiers were so frightened that they fled.’ classis hostium tanta est ut timeāmus. ‘The enemy’s fleet is so big that we are"
+        },
+        {
+          "t": "h",
+          "text": "frightened.’"
+        },
+        {
+          "t": "p",
+          "text": "nostrī tam fortēs sunt ut nōn fugiant. ‘Our men are so brave that they are not fleeing.’"
+        }
+      ]
+    },
+    {
+      "id": "section-2",
       "latin": "33.2 Distinguishing Different Types of Subjunctive Clauses",
       "english": "Grammar",
       "kind": "commentary",
       "blocks": [
         {
+          "t": "p",
+          "text": "The four types of subordinate clause with subjunctive that we have so far seen are distinguished by the following features:"
+        },
+        {
           "t": "h",
-          "text": "33.2 Distinguishing Subjunctive Clauses"
+          "text": "Subordinate clause introduced by (if no negative in (if negative in"
+        },
+        {
+          "t": "h",
+          "text": "Syntactic clues in subordinate subordinate"
         },
         {
           "t": "p",
-          "text": "The four types of subordinate clause with subjunctive that we have so far seen are distinguished by the following features: Subordinate clause introduced by (if no negative in (if negative in Syntactic clues in subordinate subordinate Construction main clause clause) clause) Result clause tantus, tam, etc. ut ut . . . nōn Fear clause verb of fearing nē ut (or nē . . . nōn) Indirect verb of asking, etc. ut nē command Purpose clause none ut nē Their translations are different as follows (only the most common translations are listed here; many others are possible): Construction Translation Example Result clause 1. ‘that’ + present indicative (if in primary adeō timet ut fugiat. ‘He is so frightened that he is sequence) fleeing.’ 2. ‘that’ + past indicative (if in historic sequence) adeō timuit ut fugeret. ‘He was so frightened that he fled.’ historic sequence) Fear clause 3. ‘that’ + future indicative (if in primary timeō nē veniat. ‘I am afraid that he will come.’ sequence) 4. ‘that’ + ‘would’ (if in historic sequence) timuī nē venīret. ‘I was afraid that he would come.’ Indirect command 5. infinitive rogō eum ut veniat. ‘I am asking him to come.’ Purpose clause 6. infinitive (if both clauses have the same subject) discēdit ut veniat. ‘He is leaving (e.g. home) to come.’ 7. ‘in order to’ + infinitive (if both clauses have the discēdit ut veniat. ‘He is leaving in order to come.’ same subject) 8. ‘so that’ + future indicative (if in primary vocō eum ut veniat. ‘I am calling him so that he sequence) will come.’ 9. ‘so that’ + ‘would’ (if in historic sequence) vocāvī eum ut venīret. ‘I called him so that he would come.’ The result of all this is that it is essential to look for the clues provided in the first table above before translating one of these subordinate clauses: one can only choose between the translations provided in the second table after working out which construction is present."
+          "text": "Construction main clause clause) clause) Result clause tantus, tam, etc. ut ut . . . nōn Fear clause verb of fearing nē ut (or nē . . . nōn) Indirect verb of asking, etc. ut nē"
+        },
+        {
+          "t": "h",
+          "text": "command"
+        },
+        {
+          "t": "p",
+          "text": "Purpose clause none ut nē Their translations are different as follows (only the most common translations are listed here; many others are possible): Construction Translation Example Result clause 1. ‘that’ + present indicative (if in primary adeō timet ut fugiat. ‘He is so frightened that he is sequence) fleeing.’ 2. ‘that’ + past indicative (if in historic sequence) adeō timuit ut fugeret. ‘He was so frightened that"
+        },
+        {
+          "t": "h",
+          "text": "he fled.’ historic sequence)"
+        },
+        {
+          "t": "p",
+          "text": "Fear clause 3. ‘that’ + future indicative (if in primary timeō nē veniat. ‘I am afraid that he will come.’"
+        },
+        {
+          "t": "h",
+          "text": "sequence)"
+        },
+        {
+          "t": "p",
+          "text": "4. ‘that’ + ‘would’ (if in historic sequence) timuī nē venīret. ‘I was afraid that he would come.’ Indirect command 5. infinitive rogō eum ut veniat. ‘I am asking him to come.’ Purpose clause 6. infinitive (if both clauses have the same subject) discēdit ut veniat. ‘He is leaving (e.g. home) to come.’ 7. ‘in order to’ + infinitive (if both clauses have the discēdit ut veniat. ‘He is leaving in order to come.’"
+        },
+        {
+          "t": "h",
+          "text": "same subject)"
+        },
+        {
+          "t": "example",
+          "text": "8. ‘so that’ + future indicative (if in primary vocō eum ut veniat. ‘I am calling him so that he sequence) will come.’ 9. ‘so that’ + ‘would’ (if in historic sequence) vocāvī eum ut venīret."
+        },
+        {
+          "t": "p",
+          "text": "‘I called him so that he would come.’ The result of all this is that it is essential to look for the clues provided in the first table above before translating one of these subordinate clauses: one can only choose between the translations provided in the second table after working out which construction is present."
         }
       ]
     }
@@ -31,24 +95,16 @@ const chapter = {
       "latinTitle": "SENTENTIAE LATĪNAE",
       "title": "Latin sentences from this chapter",
       "paragraphs": [
-        "tot hostes visi sunt ut nostri",
         "haec puella adeo laudatur ut timerent. semper felix sit.",
-        "soror mea tam pulchra est ut ab",
         "talis est ut numquam vincatur. omnibus ametur.",
-        "hic magister tam bonus est ut",
         "classis hostium tanta est ut nostri omnes pueri ab eo doceri velint. vincantur.",
-        "moenia illius urbis tanta sunt ut",
-        "tot libri scripti sunt ut legi non capi non possit. possent.",
-        "saxis hostes adeo impediti sunt",
         "quis servos hortatus est ut est ut nos iuvaret. nobiscum venirent?",
         "haec saxa tam gravia sunt ut eis tro doceantur. uti non possimus.",
         "milites orati sunt ne fugerent, nostri vincerentur. sed fugerunt.",
         "moenia nostra tanta sunt ut interficiantur. omnes hostes vincantur.",
         "pueri veriti sunt ut ab hoc possint. magistro docerentur.",
-        "illa puella adeo laudata est ut",
         "nobiscum locutus est ut veniant? intellegeretur.",
         "liber a te scriptus tam longus est vincerentur. ut eum legere non possimus.",
-        "rex veritus est ne ab hostibus",
         "hoc oppidum tantum est ut a caperetur. nostris oppugnari non possit."
       ],
       "notes": []
@@ -309,19 +365,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "7 milites adeo timuerunt ut e castris duci non possent. Although this rule will suffice for most occurrences, it is not strictly speaking complete, as result clauses sometimes take a perfect subjunctive (see chapter 46). 33.",
-          "a": ""
-        },
-        {
-          "q": "2 Distinguishing Subjunctive Clauses 213",
-          "a": ""
-        },
-        {
-          "q": "8 moenia illius urbis tanta sunt ut",
-          "a": ""
-        },
-        {
-          "q": "9 tot libri scripti sunt ut legi non capi non possit. possent.",
+          "q": "7 milites adeo timuerunt ut e castris duci non possent. Although this rule will suffice for most occurrences, it is not strictly speaking complete, as result clauses sometimes take a perfect subjunctive (see chapter 46).",
           "a": ""
         }
       ],

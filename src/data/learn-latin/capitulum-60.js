@@ -15,56 +15,88 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "60.3 Distinguishing Gerunds"
+          "t": "p",
+          "text": "The gerund is a noun formed from a verb. In English gerunds are formed by adding ‘-ing’ to the stem of a verb; this makes them look like present participles. Nevertheless a gerund functions very differently from a participle, so it is important to be able to distinguish the two. ‘I love swimming’: swimming is a noun, a gerund. ‘The boy swimming in the river is very fast’: swimming is an adjective, a present participle."
         },
         {
           "t": "p",
-          "text": "The gerund is a noun formed from a verb. In English gerunds are formed by adding ‘-ing’ to the stem of a verb; this makes them look like present participles. Nevertheless a gerund functions very differently from a participle, so it is important to be able to distinguish the two. ‘I love swimming’: swimming is a noun, a gerund. ‘The boy swimming in the river is very fast’: swimming is an adjective, a present participle. In Latin the gerund has a neuter gender and is formed like the neuter singular of the gerundive (see chapter 41). First conjugation amandum ‘loving’ Second conjugation monendum ‘advising’ Third conjugation regendum ‘ruling’ Fourth conjugation audiendum ‘hearing’ Mixed conjugation capiendum ‘capturing’ First conjugation deponent vēnandum ‘hunting’ Second conjugation deponent verendum ‘fearing’ Third conjugation deponent ūtendum ‘using’ Fourth conjugation deponent partiendum ‘dividing’ Mixed conjugation deponent moriendum ‘dying’ Sum – Possum – Eō eundum ‘going’ Volō volendum ‘wanting’ Nōlō nōlendum ‘not wanting’ Mālō – Ferō ferendum ‘carrying’ Fīō –"
+          "text": "In Latin the gerund has a neuter gender and is formed like the neuter singular of the gerundive (see chapter 41)."
+        },
+        {
+          "t": "example",
+          "text": "First conjugation amandum ‘loving’ Second conjugation monendum ‘advising’ Third conjugation regendum ‘ruling’ Fourth conjugation audiendum ‘hearing’ Mixed conjugation capiendum ‘capturing’ First conjugation deponent vēnandum ‘hunting’ Second conjugation deponent verendum ‘fearing’ Third conjugation deponent ūtendum ‘using’ Fourth conjugation deponent partiendum ‘dividing’ Mixed conjugation deponent moriendum ‘dying’ Sum – Possum – Eō eundum ‘going’ Volō volendum ‘wanting’ Nōlō nōlendum ‘not wanting’ Mālō – Ferō ferendum ‘carrying’ Fīō –"
         }
       ]
     },
     {
-      "id": "section-2",
+      "id": "section-3",
       "latin": "60.2 Declension of Gerunds",
       "english": "Grammar",
       "kind": "commentary",
       "blocks": [
         {
           "t": "p",
-          "text": "Because the gerund is not only always neuter but also always singular, it has very few forms when declined, and their number is further reduced by the fact that the present infinitive serves as the nominative of the gerund. This makes the gerund an exceptional paradigm in that the neuter nominative and accusative are not the same. British Case Order Ancient Case Order Nom. amāre Nom. amāre Voc. – Gen. amandī Acc. amandum Dat. amandō Gen. amandī Acc. amandum Dat. amandō Abl. amandō Abl. amandō"
+          "text": "Because the gerund is not only always neuter but also always singular, it has very few forms when declined, and their number is further reduced by the fact that the present infinitive serves as the nominative of the gerund. This makes the gerund an exceptional paradigm in that the neuter nominative and accusative are not the same."
+        },
+        {
+          "t": "h",
+          "text": "British Case Order Ancient Case Order"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. amāre Nom. amāre Voc. – Gen. amandī Acc. amandum Dat. amandō Gen. amandī Acc. amandum Dat. amandō Abl. amandō Abl. amandō"
         }
       ]
     },
     {
-      "id": "section-3",
+      "id": "section-4",
       "latin": "60.3 Distinguishing Gerunds from Other Words Translated with ‘-ing’",
       "english": "Grammar",
       "kind": "commentary",
       "blocks": [
         {
           "t": "h",
-          "text": "402 Gerunds I"
+          "text": "in English"
         },
         {
           "t": "p",
-          "text": "in English The fact that the infinitive is the nominative of the gerund means that in an English sentence like ‘Swimming is fun’ the word in ‘-ing’ is equivalent to a Latin infinitive. In fact the full range of Latin possibilities for English words in ‘-ing’ is four, because some such words are part of verbs. ‘Ruling well is good.’ bene regere bonum est. (English gerund, Latin infinitive acting as gerund in the nominative) ‘You will conquer by ruling well.’ bene regendō vincēs. (English gerund, Latin gerund) ‘The ruling men are happy.’ (virī) regentēs fēlīcēs sunt. (English participle, Latin participle) ‘You are ruling well.’ bene regis. (English participle as part of a present periphrastic verb; Latin finite verb). Cf. ‘you were ruling well’ bene regēbās, ‘you will be ruling well’ bene regēs."
+          "text": "The fact that the infinitive is the nominative of the gerund means that in an English sentence like ‘Swimming is fun’ the word in ‘-ing’ is equivalent to a Latin infinitive. In fact the full range of Latin possibilities for English words in ‘-ing’ is four, because some such words are part of verbs. ‘Ruling well is good.’ bene regere bonum est. (English gerund, Latin infinitive acting as"
+        },
+        {
+          "t": "h",
+          "text": "gerund in the nominative)"
+        },
+        {
+          "t": "example",
+          "text": "‘You will conquer by ruling well.’ bene regendō vincēs. (English gerund, Latin gerund) ‘The ruling men are happy.’ (virī) regentēs fēlīcēs sunt. (English participle, Latin"
+        },
+        {
+          "t": "h",
+          "text": "participle)"
+        },
+        {
+          "t": "example",
+          "text": "‘You are ruling well.’ bene regis. (English participle as part of a present periphrastic verb; Latin finite verb). Cf. ‘you were ruling well’ bene regēbās, ‘you will be ruling well’ bene regēs."
         }
       ]
     },
     {
-      "id": "section-4",
+      "id": "section-5",
       "latin": "60.4 Use of the Gerund",
       "english": "Grammar",
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "60.4 Use of the Gerund"
+          "t": "p",
+          "text": "The Latin gerund is normally used only in particular constructions, of which the most common are the following: ad + accusative of gerund: translated ‘for . . . -ing’, ‘for the purpose of . . . -ing’. Thus veniō ad laudandum ‘I come for praising’, ‘I come for the purpose of praising’. genitive of gerund + causā or grātiā: translated ‘for the sake of . . . -ing’."
         },
         {
           "t": "p",
-          "text": "The Latin gerund is normally used only in particular constructions, of which the most common are the following: ad + accusative of gerund: translated ‘for . . . -ing’, ‘for the purpose of . . . -ing’. Thus veniō ad laudandum ‘I come for praising’, ‘I come for the purpose of praising’. genitive of gerund + causā or grātiā: translated ‘for the sake of . . . -ing’. Thus veniō laudandī causā, veniō laudandī grātiā ‘I come for the sake of praising’. ablative of gerund with preposition: translated ‘-ing’ with appropriate preposition. Thus dē laudandō ‘about praising’, in laudandō ‘in praising’. ablative of gerund without preposition: ablative of means, translated ‘by . . . -ing’. Thus laudandō ‘by praising’. nominative of gerund (infinitive) as subject: translated as gerund or as infinitive. Thus laudāre bonum est ‘praising is good’, ‘it is good to praise’. A gerund may be modified by an adverb and may take an object, as bene laudandī causā ‘for the sake of praising well’ or eōs laudandī causā ‘for the sake of praising them’. But the use of objects with gerunds is rare (cf. chapter 61)."
+          "text": "Thus veniō laudandī causā, veniō laudandī grātiā ‘I come for the sake of praising’. ablative of gerund with preposition: translated ‘-ing’ with appropriate preposition. Thus dē laudandō ‘about praising’, in laudandō ‘in praising’. ablative of gerund without preposition: ablative of means, translated ‘by . . . -ing’. Thus laudandō ‘by praising’. nominative of gerund (infinitive) as subject: translated as gerund or as infinitive."
+        },
+        {
+          "t": "p",
+          "text": "Thus laudāre bonum est ‘praising is good’, ‘it is good to praise’. A gerund may be modified by an adverb and may take an object, as bene laudandī causā ‘for the sake of praising well’ or eōs laudandī causā ‘for the sake of praising them’. But the use of objects with gerunds is rare (cf. chapter 61)."
         }
       ]
     }
@@ -81,7 +113,6 @@ const chapter = {
         "patre mortuo, filii iuvandi sunt.",
         "pater venit filios iuvandi causa.",
         "nisi nobiscum venies, cum aliis servanda est. tibi eundum erit.",
-        "ab aliis pecunia tibi petenda est;",
         "tibi pollicendum est."
       ],
       "notes": []

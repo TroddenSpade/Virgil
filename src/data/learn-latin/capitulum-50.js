@@ -15,12 +15,128 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "50.2 Latin Conditional Clauses"
+          "t": "p",
+          "text": "Clauses containing a word for ‘if’ (Latin sī) are known as ‘conditional clauses’ because they indicate the conditions under which something is or would be true: ‘If the weather is good we shall have a picnic’ or ‘If he had come sooner it would have been a disaster.’ In order to translate Latin conditional sentences successfully it is necessary to understand how conditionals work in formal written English, though many spoken varieties of English diverge from this system significantly."
         },
         {
           "t": "p",
-          "text": "Clauses containing a word for ‘if’ (Latin sī) are known as ‘conditional clauses’ because they indicate the conditions under which something is or would be true: ‘If the weather is good we shall have a picnic’ or ‘If he had come sooner it would have been a disaster.’ In order to translate Latin conditional sentences successfully it is necessary to understand how conditionals work in formal written English, though many spoken varieties of English diverge from this system significantly. In formal English, some types of conditional sentence present a condition without saying anything about whether it is or has been fulfilled: Past simple: 1a) ‘If John went to Rome, he had a great time.’ (We do not know whether John went to Rome.) 1b) ‘If John was in Rome yesterday, he missed seeing the queen.’ (We do not know where John was.) 1c) ‘If they were in Rome yesterday, they missed seeing the queen.’ (We do not know where they were.) Present simple: 2) ‘If John is in Rome, he is having a great time.’ (We do not know where John is.) Future more 3) ‘If John goes to Rome, he will have a great time.’ (We do not vivid: know whether John will go to Rome.) But the following types tell us that the condition has not been fulfilled and that therefore the statement in the main clause is not true: Past contrary to 4a) ‘If John had gone to Rome, he would have had a great time.’ fact: (John did not go to Rome.) 4b) ‘If John had been in Rome yesterday, he would have missed seeing the queen.’ (John was not in Rome.) Present contrary 5a) ‘If John were in Rome, he would be having a great time.’ (John to fact: is not in Rome.) 5b) ‘If they were in Rome, they would be having a great time.’ (They are not in Rome.) 5c) ‘If she loved him, she would not be treating him like that.’ (She does not love him.) 5d) ‘If Martha were doing her job properly, we would not have this problem.’ (Martha is not doing her job properly.) For the future one cannot say positively that a condition has not been fulfilled, since the fulfilment or non-fulfilment has not yet happened, but it is still possible to indicate that it is unlikely to be fulfilled, as follows: Future less 6a) ‘If John should1 go to Rome, he would have a great time.’ vivid: (John might go to Rome, but it is not likely.) 6b) ‘If John were to go to Rome, he would have a great time.’ (John might go to Rome, but it is not likely.) There is much more consistency in the main clauses than in the subordinate clauses: in English most of the meaning of a conditional sentence is carried by the verb of the main clause, so that for example sentences 4–6 (the ones in which fulfilment of the condition is impossible or doubtful) all have ‘would’ in the main clause, while sentences 1–3 (the ones in which fulfilment of the conditional is left open) do not have ‘would’. There is a distinction between the use of ‘was’ (past indicative) in sentence 1b and singular ‘were’ (subjunctive) in sentence 5a: ‘if he was . . . ’ means that he may have been, whereas ‘if he were . . . ’ using the subjunctive indicates that he is not. But in the plural (cf. sentences 1c and 5b) there is no distinction: ‘if they were . . . ’ can be used both when they may have been (indicative) and when they are not (subjunctive). Sentences 6a–b are largely absent from modern spoken English and are now fairly rare even in writing, but because their Latin equivalents are common it is worth learning these elements of a slightly older type of English in order to be able to make the same distinctions as the Romans did. In many informal varieties of English the subjunctive has disappeared, so the simi- larity between sentences 1c and 5b is carried over into sentences 1b and 5a; thus it is possible in those informal varieties (but not in standard written English) to produce sentences like ‘If John was in Rome, he would be having a great time’ (meaning that John is not in Rome). Some varieties of spoken English also admit sentences like ‘If John went to Rome he would have had a great time’ (meaning that John did not go to Rome), ‘If John would’ve gone to Rome he would’ve had a great time’ (meaning that John did not go to Rome) or even ‘If John is in Rome he would be having a great time’ (meaning that John is not in Rome). These formulations, which are usually considered grammatically incorrect in formal written English, cause difficulties for translating Latin, so it is a good idea to avoid them and stick to the formulations given in 1–6 above. The use of ‘should’ in if-clauses does not imply obligation; it is different from the ‘should’ in main clauses, such as ‘You really should wait for the green light before crossing the road.’"
+          "text": "In formal English, some types of conditional sentence present a condition without saying anything about whether it is or has been fulfilled: Past simple: 1a) ‘If John went to Rome, he had a great time.’ (We do not know"
+        },
+        {
+          "t": "h",
+          "text": "whether John went to Rome.)"
+        },
+        {
+          "t": "h",
+          "text": "1b) ‘If John was in Rome yesterday, he missed seeing the queen.’"
+        },
+        {
+          "t": "h",
+          "text": "(We do not know where John was.)"
+        },
+        {
+          "t": "h",
+          "text": "1c) ‘If they were in Rome yesterday, they missed seeing the queen.’"
+        },
+        {
+          "t": "h",
+          "text": "(We do not know where they were.)"
+        },
+        {
+          "t": "pre",
+          "text": "Present simple: 2) ‘If John is in Rome, he is having a great time.’ (We do not know"
+        },
+        {
+          "t": "h",
+          "text": "where John is.)"
+        },
+        {
+          "t": "pre",
+          "text": "Future more 3) ‘If John goes to Rome, he will have a great time.’ (We do not"
+        },
+        {
+          "t": "h",
+          "text": "vivid: know whether John will go to Rome.)"
+        },
+        {
+          "t": "p",
+          "text": "But the following types tell us that the condition has not been fulfilled and that therefore the statement in the main clause is not true: Past contrary to 4a) ‘If John had gone to Rome, he would have had a great time.’"
+        },
+        {
+          "t": "h",
+          "text": "fact: (John did not go to Rome.)"
+        },
+        {
+          "t": "h",
+          "text": "4b) ‘If John had been in Rome yesterday, he would have missed"
+        },
+        {
+          "t": "h",
+          "text": "seeing the queen.’ (John was not in Rome.)"
+        },
+        {
+          "t": "pre",
+          "text": "Present contrary 5a) ‘If John were in Rome, he would be having a great time.’ (John"
+        },
+        {
+          "t": "h",
+          "text": "to fact: is not in Rome.)"
+        },
+        {
+          "t": "h",
+          "text": "5b) ‘If they were in Rome, they would be having a great time.’"
+        },
+        {
+          "t": "h",
+          "text": "(They are not in Rome.)"
+        },
+        {
+          "t": "h",
+          "text": "5c) ‘If she loved him, she would not be treating him like that.’ (She"
+        },
+        {
+          "t": "h",
+          "text": "does not love him.)"
+        },
+        {
+          "t": "h",
+          "text": "5d) ‘If Martha were doing her job properly, we would not have this"
+        },
+        {
+          "t": "h",
+          "text": "problem.’ (Martha is not doing her job properly.)"
+        },
+        {
+          "t": "p",
+          "text": "For the future one cannot say positively that a condition has not been fulfilled, since the fulfilment or non-fulfilment has not yet happened, but it is still possible to indicate that it is unlikely to be fulfilled, as follows: Future less 6a) ‘If John should1 go to Rome, he would have a great time.’ vivid: (John might go to Rome, but it is not likely.) 6b) ‘If John were to go to Rome, he would have a great time.’"
+        },
+        {
+          "t": "h",
+          "text": "(John might go to Rome, but it is not likely.)"
+        },
+        {
+          "t": "p",
+          "text": "There is much more consistency in the main clauses than in the subordinate clauses: in English most of the meaning of a conditional sentence is carried by the verb of the main clause, so that for example sentences 4–6 (the ones in which fulfilment of the condition is impossible or doubtful) all have ‘would’ in the main clause, while sentences 1–3 (the ones in which fulfilment of the conditional is left open) do not have ‘would’."
+        },
+        {
+          "t": "p",
+          "text": "There is a distinction between the use of ‘was’ (past indicative) in sentence 1b and singular ‘were’ (subjunctive) in sentence 5a: ‘if he was . . . ’ means that he may have been, whereas ‘if he were . . . ’ using the subjunctive indicates that he is not. But in the plural (cf. sentences 1c and 5b) there is no distinction: ‘if they were . . ."
+        },
+        {
+          "t": "p",
+          "text": "’ can be used both when they may have been (indicative) and when they are not (subjunctive). Sentences 6a–b are largely absent from modern spoken English and are now fairly rare even in writing, but because their Latin equivalents are common it is worth learning these elements of a slightly older type of English in order to be able to make the same distinctions as the Romans did."
+        },
+        {
+          "t": "p",
+          "text": "In many informal varieties of English the subjunctive has disappeared, so the simi- larity between sentences 1c and 5b is carried over into sentences 1b and 5a; thus it is possible in those informal varieties (but not in standard written English) to produce sentences like ‘If John was in Rome, he would be having a great time’ (meaning that John is not in Rome)."
+        },
+        {
+          "t": "p",
+          "text": "Some varieties of spoken English also admit sentences like ‘If John went to Rome he would have had a great time’ (meaning that John did not go to Rome), ‘If John would’ve gone to Rome he would’ve had a great time’ (meaning that John did not go to Rome) or even ‘If John is in Rome he would be having a great time’ (meaning that John is not in Rome)."
+        },
+        {
+          "t": "p",
+          "text": "These formulations, which are usually considered grammatically incorrect in formal written English, cause difficulties for translating Latin, so it is a good idea to avoid them and stick to the formulations given in 1–6 above. The use of ‘should’ in if-clauses does not imply obligation; it is different from the ‘should’ in main clauses, such as ‘You really should wait for the green light before crossing the road.’"
         }
       ]
     },
@@ -31,12 +147,72 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "50.2 Latin Conditional Clauses"
+          "t": "p",
+          "text": "In Latin, sentences in which nothing is indicated about the fulfilment of the condition have their verbs in the indicative in both the if-clause and the main clause; such sentences are the equivalents of 1–3 above, the simple conditions and the future more vivid."
         },
         {
           "t": "p",
-          "text": "In Latin, sentences in which nothing is indicated about the fulfilment of the condition have their verbs in the indicative in both the if-clause and the main clause; such sentences are the equivalents of 1–3 above, the simple conditions and the future more vivid. Sentences indicating that the fulfilment of the condition is doubtful (future) or impossible (past and present) have their verbs in the subjunctive in both the if-clause and the main clause; these are the equivalent of 4–6 above, the contrary-to-fact conditions and the future less vivid. In other words, if the English main clause contains the word ‘would’, the Latin has the subjunctive in both clauses; otherwise the Latin has the indicative in both clauses. In the indicative the tenses are self-evident, except that in Another exercise of this type, with an answer key, can be found in chapter 63.11, exercise O. future conditions Latin uses the future in both clauses3 where English uses the present in the if-clause; in the subjunctive Latin uses the pluperfect to express past time, the imperfect for present time, and the present for future time. Therefore: 1) Indicative condition, past (= past simple): any past indicative tense(s) sī Rōmae erat, fēlīx erat. ‘If he was in Rome, he was happy.’ sī rēx locūtus est, cīvēs audīvērunt. ‘If the king spoke, the citizens listened.’ 2) Indicative condition, present (= present simple): present indicative sī Rōmae est, fēlīx est. ‘If he is in Rome, he is happy.’ sī rēx loquitur, cīvēs audiuntur. ‘If the king speaks, the citizens listen.’ / ‘If the king is speaking, the citizens are listening.’ 3) Indicative condition, future (= future more vivid): future indicative in both clauses sī Rōmae erit, fēlīx erit. ‘If he is in Rome, he will be happy.’ (literally ‘If he will be in Rome, he will be happy.’) sī rēx loquētur, cīvēs audientur. ‘If the king speaks, the citizens will listen.’ (literally ‘If the king will speak, the citizens will listen.’) 4) Subjunctive condition, past (= past contrary to fact): pluperfect subjunctive in both clauses sī Rōmae fuisset, fēlīx fuisset. ‘If he had been in Rome, he would have been happy.’ sī rēx locūtus esset, cīvēs audīvissent. ‘If the king had spoken, the citizens would have listened.’ 5) Subjunctive condition, present (= present contrary to fact): imperfect subjunctive in both clauses sī Rōmae esset, fēlīx esset. ‘If he were in Rome, he would be happy.’ sī rēx loquerētur, cīvēs audīrent. ‘If the king were speaking, the citizens would be listening.’ 6) Subjunctive condition, future (= future less vivid): present subjunctive in both clauses sī Rōmam eat, fēlīx sit. ‘If he should go to Rome, he would be happy.’ / ‘If he were to go to Rome, he would be happy.’ sī rēx loquātur, cīvēs audiant. ‘If the king should speak, the citizens would listen.’ / ‘If the king were to speak, the citizens would listen.’ But see the next chapter for the use of the future perfect."
+          "text": "Sentences indicating that the fulfilment of the condition is doubtful (future) or impossible (past and present) have their verbs in the subjunctive in both the if-clause and the main clause; these are the equivalent of 4–6 above, the contrary-to-fact conditions and the future less vivid."
+        },
+        {
+          "t": "p",
+          "text": "In other words, if the English main clause contains the word ‘would’, the Latin has the subjunctive in both clauses; otherwise the Latin has the indicative in both clauses. In the indicative the tenses are self-evident, except that in Another exercise of this type, with an answer key, can be found in chapter 63.11, exercise O."
+        },
+        {
+          "t": "p",
+          "text": "future conditions Latin uses the future in both clauses3 where English uses the present in the if-clause; in the subjunctive Latin uses the pluperfect to express past time, the imperfect for present time, and the present for future time. Therefore: 1) Indicative condition, past (= past simple): any past indicative tense(s) sī Rōmae erat, fēlīx erat. ‘If he was in Rome, he was happy.’ sī rēx locūtus est, cīvēs audīvērunt."
+        },
+        {
+          "t": "p",
+          "text": "‘If the king spoke, the citizens listened.’ 2) Indicative condition, present (= present simple): present indicative sī Rōmae est, fēlīx est. ‘If he is in Rome, he is happy.’ sī rēx loquitur, cīvēs audiuntur. ‘If the king speaks, the citizens listen.’ / ‘If the king is speaking, the citizens are listening.’ 3) Indicative condition, future (= future more vivid): future indicative in both"
+        },
+        {
+          "t": "h",
+          "text": "clauses"
+        },
+        {
+          "t": "p",
+          "text": "sī Rōmae erit, fēlīx erit. ‘If he is in Rome, he will be happy.’ (literally ‘If he will be in"
+        },
+        {
+          "t": "h",
+          "text": "Rome, he will be happy.’)"
+        },
+        {
+          "t": "p",
+          "text": "sī rēx loquētur, cīvēs audientur. ‘If the king speaks, the citizens will listen.’ (literally"
+        },
+        {
+          "t": "h",
+          "text": "‘If the king will speak, the citizens will listen.’)"
+        },
+        {
+          "t": "p",
+          "text": "4) Subjunctive condition, past (= past contrary to fact): pluperfect subjunctive in"
+        },
+        {
+          "t": "h",
+          "text": "both clauses"
+        },
+        {
+          "t": "p",
+          "text": "sī Rōmae fuisset, fēlīx fuisset. ‘If he had been in Rome, he would have been happy.’ sī rēx locūtus esset, cīvēs audīvissent. ‘If the king had spoken, the citizens would have listened.’ 5) Subjunctive condition, present (= present contrary to fact): imperfect subjunctive"
+        },
+        {
+          "t": "h",
+          "text": "in both clauses"
+        },
+        {
+          "t": "p",
+          "text": "sī Rōmae esset, fēlīx esset. ‘If he were in Rome, he would be happy.’ sī rēx loquerētur, cīvēs audīrent. ‘If the king were speaking, the citizens would be listening.’ 6) Subjunctive condition, future (= future less vivid): present subjunctive in both"
+        },
+        {
+          "t": "h",
+          "text": "clauses"
+        },
+        {
+          "t": "p",
+          "text": "sī Rōmam eat, fēlīx sit. ‘If he should go to Rome, he would be happy.’ / ‘If he were to go to Rome, he would be happy.’ sī rēx loquātur, cīvēs audiant. ‘If the king should speak, the citizens would listen.’ / ‘If the king were to speak, the citizens would listen.’ But see the next chapter for the use of the future perfect."
         }
       ]
     }

@@ -16,7 +16,11 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "In addition to the present and imperfect tenses, the subjunctive also has perfect and pluperfect tenses. Like all subjunctive forms, these have no fixed translations but rather a variety of meanings depending on the constructions in which they are found. In formation the perfect subjunctive is very similar to the future perfect indicative, particularly in the active. See the tables on the following pages. Deponents and irregular verbs are entirely regular in both these subjunctive forms. The deponents form perfect subjunctives vēnātus sim, veritus sim, etc. and pluperfect subjunctives vēnātus essem, veritus essem, etc. The irregulars form perfect subjunctives fuerim from sum, potuerim from possum, etc. and pluperfect subjunctives fuissem from sum, potuissem from possum, etc."
+          "text": "In addition to the present and imperfect tenses, the subjunctive also has perfect and pluperfect tenses. Like all subjunctive forms, these have no fixed translations but rather a variety of meanings depending on the constructions in which they are found. In formation the perfect subjunctive is very similar to the future perfect indicative, particularly in the active. See the tables on the following pages."
+        },
+        {
+          "t": "p",
+          "text": "Deponents and irregular verbs are entirely regular in both these subjunctive forms. The deponents form perfect subjunctives vēnātus sim, veritus sim, etc. and pluperfect subjunctives vēnātus essem, veritus essem, etc. The irregulars form perfect subjunctives fuerim from sum, potuerim from possum, etc. and pluperfect subjunctives fuissem from sum, potuissem from possum, etc."
         }
       ]
     },
@@ -27,29 +31,33 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "46.3 Causal Cum Clauses"
+          "t": "p",
+          "text": "One construction that uses all four subjunctives is the causal cum clause. In this construction cum is a conjunction meaning ‘since’ or ‘because’ (as well as some other meanings, which will be discussed in the next chapter); this is a completely different word from the preposition cum ‘with’. cum fortis sit, bene pugnat."
+        },
+        {
+          "t": "example",
+          "text": "‘Since he is brave, he fights well.’ (subordinate clause at same time as main clause, primary sequence, therefore present subjunctive) cum fortis esset, bene pugnāvit. ‘Since he was brave, he fought well.’ (subordinate clause at same time as main clause, historic sequence, therefore imperfect subjunctive) cum mē vocāverint, veniam."
         },
         {
           "t": "p",
-          "text": "One construction that uses all four subjunctives is the causal cum clause. In this construction cum is a conjunction meaning ‘since’ or ‘because’ (as well as some other meanings, which will be discussed in the next chapter); this is a completely different word from the preposition cum ‘with’. cum fortis sit, bene pugnat. ‘Since he is brave, he fights well.’ (subordinate clause at same time as main clause, primary sequence, therefore present subjunctive) cum fortis esset, bene pugnāvit. ‘Since he was brave, he fought well.’ (subordinate clause at same time as main clause, historic sequence, therefore imperfect subjunctive) cum mē vocāverint, veniam. ‘Since they have called me, I shall come.’ (subordinate clause before main clause, primary sequence, therefore perfect subjunctive) cum mē vocāvissent, vēnī. ‘Since they (had) called me, I came.’ (subordinate clause before main clause, historic sequence, therefore pluperfect subjunctive) As can be seen from the above examples, the subjunctives in cum clauses are translated with indicatives in English. And there is a shortcut available when translating this type of cum clause into English: a correct translation can usually be obtained simply by converting the Latin subjunctive to the corresponding English indicative tense (present = present, perfect = perfect, imperfect = imperfect, pluperfect = pluperfect). But this shortcut does not work for many other types of clause, some of which will be encountered very soon, so it is important to understand the sequence rules. The shortcut is best used in this chapter to check that one has obtained the right answer by applying the sequence rules, and then discarded in later chapters. When a cum clause is negative, the negative used is nōn (and therefore nēmō, nihil, nūllus) rather than nē. A cum clause can occur either before or after the main clause."
+          "text": "‘Since they have called me, I shall come.’ (subordinate clause before main clause, primary sequence, therefore perfect subjunctive) cum mē vocāvissent, vēnī. ‘Since they (had) called me, I came.’ (subordinate clause before main clause, historic sequence, therefore pluperfect subjunctive) As can be seen from the above examples, the subjunctives in cum clauses are translated with indicatives in English."
+        },
+        {
+          "t": "p",
+          "text": "And there is a shortcut available when translating this type of cum clause into English: a correct translation can usually be obtained simply by converting the Latin subjunctive to the corresponding English indicative tense (present = present, perfect = perfect, imperfect = imperfect, pluperfect = pluperfect)."
+        },
+        {
+          "t": "p",
+          "text": "But this shortcut does not work for many other types of clause, some of which will be encountered very soon, so it is important to understand the sequence rules. The shortcut is best used in this chapter to check that one has obtained the right answer by applying the sequence rules, and then discarded in later chapters. When a cum clause is negative, the negative used is nōn (and therefore nēmō, nihil, nūllus) rather than nē."
+        },
+        {
+          "t": "p",
+          "text": "A cum clause can occur either before or after the main clause."
         }
       ]
     }
   ],
-  "readings": [
-    {
-      "id": "lectio-46",
-      "latinTitle": "SENTENTIAE LATĪNAE",
-      "title": "Latin sentences from this chapter",
-      "paragraphs": [
-        "cum mortuus esset, pater vester Athenas ire nolo. sepeliendus erat.",
-        "pater vester sepeliendus est cum Graecam nescirem. mortuus sit.",
-        "poeta laudatus est cum illos"
-      ],
-      "notes": []
-    }
-  ],
+  "readings": [],
   "grammar": [],
   "vocabulary": [],
   "pensa": [

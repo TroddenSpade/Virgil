@@ -16,7 +16,67 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "The verb fīō is in effect the passive of faciō in the present, future, and imperfect tenses (i.e. those tenses formed from the first two principal parts); its principal parts are therefore fīō, fierī, factus sum. Strictly speaking fīō is not very irregular, for nearly all its forms can be formed regularly from the principal parts if one classes it as a mixed conjugation partially deponent verb. Nevertheless this formation process is tricky enough that fīō is normally classed with the irregular verbs. Indicative Subjunctive Present fīō fīam fīs fīās fit fīat fīmus fīāmus fītis fīātis fīunt fīant Future fīam fīēs fīet fīēmus fīētis fīent Perfect factus, -a, -um sum factus, -a, -um sim factus, -a, -um es factus, -a, -um sīs factus, -a, -um est factus, -a, -um sit factī, -ae, -a sumus factī, -ae, -a sīmus factī, -ae, -a estis factī, -ae, -a sītis factī, -ae, -a sunt factī, -ae, -a sint Imperfect fīēbam fierem fīēbās fierēs fīēbat fieret fīēbāmus fierēmus fīēbātis fierētis fīēbant fierent Indicative Subjunctive Pluperfect factus, -a, -um eram factus, -a, -um essem factus, -a, -um erās factus, -a, -um essēs factus, -a, -um erat factus, -a, -um esset factī, -ae, -a erāmus factī, -ae, -a essēmus factī, -ae, -a erātis factī, -ae, -a essētis factī, -ae, -a erant factī, -ae, -a essent Future perfect factus, -a, -um erō factus, -a, -um eris factus, -a, -um erit factī, -ae, -a erimus factī, -ae, -a eritis factī, -ae, -a erunt Imperative – Present infinitive fierī Future infinitive factum īrī Perfect infinitive factus, -a, -um esse Present participle – Future participle – Perfect participle factus, -a, -um Gerundive faciendus, -a, -um"
+          "text": "The verb fīō is in effect the passive of faciō in the present, future, and imperfect tenses (i.e. those tenses formed from the first two principal parts); its principal parts are therefore fīō, fierī, factus sum. Strictly speaking fīō is not very irregular, for nearly all its forms can be formed regularly from the principal parts if one classes it as a mixed conjugation partially deponent verb."
+        },
+        {
+          "t": "p",
+          "text": "Nevertheless this formation process is tricky enough that fīō is normally classed with the irregular verbs."
+        },
+        {
+          "t": "h",
+          "text": "Indicative Subjunctive"
+        },
+        {
+          "t": "pre",
+          "text": "Present fīō fīam"
+        },
+        {
+          "t": "h",
+          "text": "fīs fīās fit fīat fīmus fīāmus fītis fīātis fīunt fīant"
+        },
+        {
+          "t": "pre",
+          "text": "Future fīam"
+        },
+        {
+          "t": "h",
+          "text": "fīēs fīet fīēmus fīētis fīent"
+        },
+        {
+          "t": "h",
+          "text": "Perfect factus, -a, -um sum factus, -a, -um sim"
+        },
+        {
+          "t": "p",
+          "text": "factus, -a, -um es factus, -a, -um sīs factus, -a, -um est factus, -a, -um sit factī, -ae, -a sumus factī, -ae, -a sīmus factī, -ae, -a estis factī, -ae, -a sītis factī, -ae, -a sunt factī, -ae, -a sint"
+        },
+        {
+          "t": "pre",
+          "text": "Imperfect fīēbam fierem"
+        },
+        {
+          "t": "p",
+          "text": "fīēbās fierēs fīēbat fieret fīēbāmus fierēmus fīēbātis fierētis fīēbant fierent"
+        },
+        {
+          "t": "h",
+          "text": "Indicative Subjunctive"
+        },
+        {
+          "t": "h",
+          "text": "Pluperfect factus, -a, -um eram factus, -a, -um essem"
+        },
+        {
+          "t": "p",
+          "text": "factus, -a, -um erās factus, -a, -um essēs factus, -a, -um erat factus, -a, -um esset factī, -ae, -a erāmus factī, -ae, -a essēmus factī, -ae, -a erātis factī, -ae, -a essētis factī, -ae, -a erant factī, -ae, -a essent"
+        },
+        {
+          "t": "pre",
+          "text": "Future perfect factus, -a, -um erō"
+        },
+        {
+          "t": "p",
+          "text": "factus, -a, -um eris factus, -a, -um erit factī, -ae, -a erimus factī, -ae, -a eritis factī, -ae, -a erunt Imperative – Present infinitive fierī Future infinitive factum īrī Perfect infinitive factus, -a, -um esse Present participle – Future participle – Perfect participle factus, -a, -um Gerundive faciendus, -a, -um"
         }
       ]
     },
@@ -42,7 +102,6 @@ const chapter = {
         "ergo volo rex fieri. sunt.",
         "heri autem factus sum pater.",
         "servus non fies nisi ab hostibus venerint, urbs fiet. victus eris.",
-        "nisi morati sunt Romae, domi",
         "numquam te laudabo nisi me sunt. iuveris.",
         "numquam te laudavissem nisi sunt. me iuvisses."
       ],

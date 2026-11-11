@@ -16,7 +16,55 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "Latin has a relatively large group of words that can function either as adjectives or as pronouns. We have seen quis ‘who?’, ‘which?’, hic ‘this’, ille ‘that’, and is ‘he’, ‘this’, ‘that’, but there are also a number of others, including iste ‘that of yours’ and ipse ‘-self’. These two are declined as follows; note the similarity to the declension of ille. British Case Order Iste Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom. iste ista istud istī istae ista Voc. – – – – – – Acc. istum istam istud istōs istās ista Gen. istīus istīus istīus istōrum istārum istōrum Dat. istī istī istī istīs istīs istīs Abl. istō istā istō istīs istīs istīs Ipse Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom. ipse ipsa ipsum ipsī ipsae ipsa Voc. – – – – – – Acc. ipsum ipsam ipsum ipsōs ipsās ipsa Gen. ipsīus ipsīus ipsīus ipsōrum ipsārum ipsōrum Dat. ipsī ipsī ipsī ipsīs ipsīs ipsīs Abl. ipsō ipsā ipsō ipsīs ipsīs ipsīs Ancient Case Order Iste Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom. iste ista istud istī istae ista Gen. istīus istīus istīus istōrum istārum istōrum Dat. istī istī istī istīs istīs istīs Acc. istum istam istud istōs istās ista Abl. istō istā istō istīs istīs istīs Ipse Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom. ipse ipsa ipsum ipsī ipsae ipsa Gen. ipsīus ipsīus ipsīus ipsōrum ipsārum ipsōrum Dat. ipsī ipsī ipsī ipsīs ipsīs ipsīs Acc. ipsum ipsam ipsum ipsōs ipsās ipsa Abl. ipsō ipsā ipsō ipsīs ipsīs ipsīs"
+          "text": "Latin has a relatively large group of words that can function either as adjectives or as pronouns. We have seen quis ‘who?’, ‘which?’, hic ‘this’, ille ‘that’, and is ‘he’, ‘this’, ‘that’, but there are also a number of others, including iste ‘that of yours’ and ipse ‘-self’. These two are declined as follows; note the similarity to the declension of ille."
+        },
+        {
+          "t": "h",
+          "text": "British Case Order Iste Singular Plural"
+        },
+        {
+          "t": "h",
+          "text": "Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. iste ista istud istī istae ista Voc. – – – – – – Acc. istum istam istud istōs istās ista Gen. istīus istīus istīus istōrum istārum istōrum Dat. istī istī istī istīs istīs istīs Abl. istō istā istō istīs istīs istīs"
+        },
+        {
+          "t": "h",
+          "text": "Ipse Singular Plural"
+        },
+        {
+          "t": "h",
+          "text": "Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. ipse ipsa ipsum ipsī ipsae ipsa Voc. – – – – – – Acc. ipsum ipsam ipsum ipsōs ipsās ipsa Gen. ipsīus ipsīus ipsīus ipsōrum ipsārum ipsōrum Dat. ipsī ipsī ipsī ipsīs ipsīs ipsīs Abl. ipsō ipsā ipsō ipsīs ipsīs ipsīs"
+        },
+        {
+          "t": "h",
+          "text": "Ancient Case Order Iste Singular Plural"
+        },
+        {
+          "t": "h",
+          "text": "Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. iste ista istud istī istae ista Gen. istīus istīus istīus istōrum istārum istōrum Dat. istī istī istī istīs istīs istīs Acc. istum istam istud istōs istās ista Abl. istō istā istō istīs istīs istīs"
+        },
+        {
+          "t": "h",
+          "text": "Ipse Singular Plural"
+        },
+        {
+          "t": "h",
+          "text": "Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. ipse ipsa ipsum ipsī ipsae ipsa Gen. ipsīus ipsīus ipsīus ipsōrum ipsārum ipsōrum Dat. ipsī ipsī ipsī ipsīs ipsīs ipsīs Acc. ipsum ipsam ipsum ipsōs ipsās ipsa Abl. ipsō ipsā ipsō ipsīs ipsīs ipsīs"
         }
       ]
     },
@@ -27,8 +75,40 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
+          "t": "p",
+          "text": "Iste can be used for something connected with the addressee, and/or for something about which a disparaging comment is made: iste equus ‘that horse of yours’, istud ‘that thing of yours’. Ipse is usually translated with English ‘himself’, ‘herself’, ‘themselves’, ‘myself’, ‘yourself’, ‘ourselves’, ‘yourselves’, but nevertheless it is sharply distinct from sē."
+        },
+        {
+          "t": "p",
+          "text": "Ipse is intensive, meaning that it emphasizes the word to which it is attached; sē is reflexive, meaning that it refers back to the subject of the sentence."
+        },
+        {
+          "t": "p",
+          "text": "Ipse can be used for any of the three grammatical persons (‘I/we’, ‘you’, ‘he/she/it/they’), while sē belongs exclusively to the third person (‘him’, ‘her’, ‘them’) – for reflexive ‘myself’, ‘ourselves’, ‘yourself’ and ‘yourselves’ the ordinary personal pronouns mē, nōs, tē, vōs are used. Ipse can be either a pronoun or an adjective, with the same translation in either case, but sē can only be a pronoun."
+        },
+        {
+          "t": "p",
+          "text": "The possessive of ipse is the genitive ipsīus (‘of himself’ etc.), but the possessive of sē is the adjective suus, -a, -um (‘his own’, ‘her own’, ‘their own’). Ipse always means ‘-self’; sē is sometimes (in indirect statement) equivalent to English ‘he’ etc. rather than ‘himself’ etc. Reflexive Intensive sē vīdērunt. ‘They saw ipsī vīdērunt. ‘They themselves saw (it).’ themselves.’ ipsum vidērunt."
+        },
+        {
+          "t": "p",
+          "text": "‘They saw (the man) himself.’ rēx sē vīdit. ‘The king saw rēx ipse vīdit. ‘The king himself saw (it).’ himself.’ rēgem ipse vīdit. ‘He himself saw the king.’ rēgem ipsum vīdit. ‘He saw the king himself.’ rēgem suum vīdērunt. ‘They rēgem ipsum vīdērunt. ‘They saw the king himself.’ saw their own king.’ fīliōs suōs docet. ‘He teaches fīliōs ipsōs docet. ‘He teaches the sons themselves.’"
+        },
+        {
           "t": "h",
-          "text": "52.2 Use of Iste and Ipse"
+          "text": "his own sons.’ fīliōs ipsīus docet. ‘He teaches the sons of that man"
+        },
+        {
+          "t": "p",
+          "text": "himself.’ fīliōs ipse docet. ‘He teaches his sons himself.’ dīxit sē āfuisse. ‘He said he dīxit ipsum āfuisse. ‘He said that that man himself had had been away.’ (man been away’ (man away is not the same as the away is same as speaker) speaker) in aquā mē vīdī. ‘I saw ipse aquam vīdī. ‘I myself saw the water.’ myself in the water.’ vīdistīne tē? ‘Did you see vīdistīne ipsum?"
+        },
+        {
+          "t": "example",
+          "text": "‘Did you see the man himself?’ yourself?’ vīdistīne ipse? ‘Did you yourself see (it)?’"
+        },
+        {
+          "t": "h",
+          "text": "Practice"
         },
         {
           "t": "h",
@@ -67,6 +147,14 @@ const chapter = {
           "text": "9 If you want more food, help 23 The queen gave it to me herself."
         },
         {
+          "t": "p",
+          "text": "A State whether the underlined words are reflexives or intensives and whether they would be expressed in Latin with sē, ipse, or a personal pronoun. greatly. 20 I want to do it myself."
+        },
+        {
+          "t": "h",
+          "text": "yourself! 24 I got this dress from the queen"
+        },
+        {
           "t": "h",
           "text": "10 Do not kill yourself! herself."
         },
@@ -81,10 +169,6 @@ const chapter = {
         {
           "t": "h",
           "text": "13 We saw the king himself."
-        },
-        {
-          "t": "p",
-          "text": "Iste can be used for something connected with the addressee, and/or for something about which a disparaging comment is made: iste equus ‘that horse of yours’, istud ‘that thing of yours’. Ipse is usually translated with English ‘himself’, ‘herself’, ‘themselves’, ‘myself’, ‘yourself’, ‘ourselves’, ‘yourselves’, but nevertheless it is sharply distinct from sē. Ipse is intensive, meaning that it emphasizes the word to which it is attached; sē is reflexive, meaning that it refers back to the subject of the sentence. Ipse can be used for any of the three grammatical persons (‘I/we’, ‘you’, ‘he/she/it/they’), while sē belongs exclusively to the third person (‘him’, ‘her’, ‘them’) – for reflexive ‘myself’, ‘ourselves’, ‘yourself’ and ‘yourselves’ the ordinary personal pronouns mē, nōs, tē, vōs are used. Ipse can be either a pronoun or an adjective, with the same translation in either case, but sē can only be a pronoun. The possessive of ipse is the genitive ipsīus (‘of himself’ etc.), but the possessive of sē is the adjective suus, -a, -um (‘his own’, ‘her own’, ‘their own’). Ipse always means ‘-self’; sē is sometimes (in indirect statement) equivalent to English ‘he’ etc. rather than ‘himself’ etc. Reflexive Intensive sē vīdērunt. ‘They saw ipsī vīdērunt. ‘They themselves saw (it).’ themselves.’ ipsum vidērunt. ‘They saw (the man) himself.’ rēx sē vīdit. ‘The king saw rēx ipse vīdit. ‘The king himself saw (it).’ himself.’ rēgem ipse vīdit. ‘He himself saw the king.’ rēgem ipsum vīdit. ‘He saw the king himself.’ rēgem suum vīdērunt. ‘They rēgem ipsum vīdērunt. ‘They saw the king himself.’ saw their own king.’ fīliōs suōs docet. ‘He teaches fīliōs ipsōs docet. ‘He teaches the sons themselves.’ his own sons.’ fīliōs ipsīus docet. ‘He teaches the sons of that man himself.’ fīliōs ipse docet. ‘He teaches his sons himself.’ dīxit sē āfuisse. ‘He said he dīxit ipsum āfuisse. ‘He said that that man himself had had been away.’ (man been away’ (man away is not the same as the away is same as speaker) speaker) in aquā mē vīdī. ‘I saw ipse aquam vīdī. ‘I myself saw the water.’ myself in the water.’ vīdistīne tē? ‘Did you see vīdistīne ipsum? ‘Did you see the man himself?’ yourself?’ vīdistīne ipse? ‘Did you yourself see (it)?’ Practice A State whether the underlined words are reflexives or intensives and whether they would be expressed in Latin with sē, ipse, or a personal pronoun. greatly. 20 I want to do it myself. yourself! 24 I got this dress from the queen"
         }
       ]
     }
@@ -102,9 +186,6 @@ const chapter = {
         "ipse amat.",
         "istam amat.",
         "iste amat.",
-        "ipse civis Romanus numquam omnibus laudabuntur. factus essem nisi servus",
-        "si servus esses, civis Romanus",
-        "si iste fiat servus, civis Romanus",
         "si servus Romani civis liberatus fient nisi ipsi cives Romani facti est, civis Romanus ipse factus est. eritis."
       ],
       "notes": []

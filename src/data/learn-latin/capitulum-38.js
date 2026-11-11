@@ -16,43 +16,115 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "Adjectives have three degrees of comparison: the positive, which we have already seen (indicating that a noun has a certain quality), the comparative (indicating that a noun has more of that quality), and the superlative (indicating that a noun has most of that quality). In English these three degrees are formed with ‘-er’/‘-est’ or (for long words) with ‘more’/‘most’, as follows: Positive Comparative Superlative long longer longest short shorter shortest beautiful more beautiful most beautiful In Latin the comparative ends in -ior (masculine nominative singular) and can be translated not only like the English comparative, but also with ‘rather’ when it is used in an absolute sense, rather than being used to compare two things. The superlative ends in -issimus or -errimus and can be translated not only like the English superlative, but also with ‘very’ (when it is used in an absolute sense). So from fortis ‘strong’ we have the comparatives fortior, which would be translated ‘stronger’ in a context like ‘This horse is fortior than that one’ but ‘rather strong’ in a context like ‘This horse is fortior.’ Likewise the superlative fortissimus would be translated ‘strongest’ in a context like ‘This horse is fortissimus of all the ones we have seen’ but ‘very strong’ in a context like ‘This horse is fortissimus’ (when no comparison with others was implied by the larger context)."
+          "text": "Adjectives have three degrees of comparison: the positive, which we have already seen (indicating that a noun has a certain quality), the comparative (indicating that a noun has more of that quality), and the superlative (indicating that a noun has most of that quality)."
+        },
+        {
+          "t": "p",
+          "text": "In English these three degrees are formed with ‘-er’/‘-est’ or (for long words) with ‘more’/‘most’,"
+        },
+        {
+          "t": "example",
+          "text": "Positive Comparative Superlative long longer longest short shorter shortest beautiful more beautiful most beautiful In Latin the comparative ends in -ior (masculine nominative singular) and can be translated not only like the English comparative, but also with ‘rather’ when it is used in an absolute sense, rather than being used to compare two things."
+        },
+        {
+          "t": "p",
+          "text": "The superlative ends in -issimus or -errimus and can be translated not only like the English superlative, but also with ‘very’ (when it is used in an absolute sense)."
+        },
+        {
+          "t": "p",
+          "text": "So from fortis ‘strong’ we have the comparatives fortior, which would be translated ‘stronger’ in a context like ‘This horse is fortior than that one’ but ‘rather strong’ in a context like ‘This horse is fortior.’ Likewise the superlative fortissimus would be translated ‘strongest’ in a context like ‘This horse is fortissimus of all the ones we have seen’ but ‘very strong’ in a context like ‘This horse is fortissimus’ (when no comparison with others was implied by the larger context)."
         }
       ]
     },
     {
-      "id": "section-2",
+      "id": "section-3",
       "latin": "38.2 Formation of Regular Comparatives and Superlatives",
       "english": "Grammar",
       "kind": "commentary",
       "blocks": [
         {
           "t": "p",
-          "text": "In Latin the comparative is formed by adding -ior, -ius to the stem of the adjective (the stem is found by dropping the ending of the genitive singular or the feminine nominative singular: see chapters 8.2 and 21.1). This means that the comparative is a third-declension adjective (even when the positive was a first/second-declension adjective) ending in -ior in the masculine and feminine and -ius in the neuter. The superlative is formed by adding -issimus, -issima, -issimum to the stem of the adjective; this means that the superlative is a first/second-declension adjective (even when the positive was a third-declension adjective). Positive Comparative Superlative longus, -a, -um longior, longius longissimus, -a, -um ‘long’ ‘longer’, ‘rather long’ ‘longest’, ‘very long’ brevis, breve brevior, brevius brevissimus, -a, -um ‘short’ ‘shorter’, ‘rather short’ ‘shortest’, ‘very short’ But adjectives with a masculine singular in -er (whether second or third declension) have superlatives in -errimus, -errima, -errimum. In this superlative the e of the original -er remains regardless of whether it is part of the stem or not, but the comparatives of such adjectives contain the e only if it is part of the stem. Positive Comparative Superlative tener, tenera, tenerum tenerior, tenerius tenerrimus, -a, -um ācer, ācris, ācre ācrior, ācrius ācerrimus, -a, -um"
+          "text": "In Latin the comparative is formed by adding -ior, -ius to the stem of the adjective (the stem is found by dropping the ending of the genitive singular or the feminine nominative singular: see chapters 8.2 and 21.1). This means that the comparative is a third-declension adjective (even when the positive was a first/second-declension adjective) ending in -ior in the masculine and feminine and -ius in the neuter."
+        },
+        {
+          "t": "p",
+          "text": "The superlative is formed by adding -issimus, -issima, -issimum to the stem of the adjective; this means that the superlative is a first/second-declension adjective (even when the positive was a third-declension adjective). Positive Comparative Superlative longus, -a, -um longior, longius longissimus, -a, -um ‘long’ ‘longer’, ‘rather long’ ‘longest’, ‘very long’"
+        },
+        {
+          "t": "h",
+          "text": "brevis, breve brevior, brevius brevissimus, -a, -um"
+        },
+        {
+          "t": "p",
+          "text": "‘short’ ‘shorter’, ‘rather short’ ‘shortest’, ‘very short’ But adjectives with a masculine singular in -er (whether second or third declension) have superlatives in -errimus, -errima, -errimum. In this superlative the e of the original -er remains regardless of whether it is part of the stem or not, but the comparatives of such adjectives contain the e only if it is part of the stem."
+        },
+        {
+          "t": "p",
+          "text": "Positive Comparative Superlative tener, tenera, tenerum tenerior, tenerius tenerrimus, -a, -um ācer, ācris, ācre ācrior, ācrius ācerrimus, -a, -um"
         }
       ]
     },
     {
-      "id": "section-3",
+      "id": "section-4",
       "latin": "38.3 Declension of Comparatives",
       "english": "Grammar",
       "kind": "commentary",
       "blocks": [
         {
           "t": "p",
-          "text": "The genitive of comparative adjectives ends in -iōris, so their stem ends in -iōr-. Unlike most other third-declension adjectives (see chapter 21.1), comparatives are not i-stems: they therefore decline like mīles and flūmen (cf. chapter 14.1). British Case Order Singular Plural Masculine and Masculine and feminine Neuter feminine Neuter Nom. trīstior trīstius trīstiōrēs trīstiōra Voc. trīstior trīstius trīstiōrēs trīstiōra Acc. trīstiōrem trīstius trīstiōrēs trīstiōra Gen. trīstiōris trīstiōris trīstiōrum trīstiōrum Dat. trīstiōrī trīstiōrī trīstiōribus trīstiōribus Abl. trīstiōre trīstiōre trīstiōribus trīstiōribus Ancient Case Order Singular Plural Masculine and Masculine and feminine Neuter feminine Neuter Nom./Voc. trīstior trīstius trīstiōrēs trīstiōra Gen. trīstiōris trīstiōris trīstiōrum trīstiōrum Dat. trīstiōrī trīstiōrī trīstiōribus trīstiōribus Acc. trīstiōrem trīstius trīstiōrēs trīstiōra Abl. trīstiōre trīstiōre trīstiōribus trīstiōribus"
+          "text": "The genitive of comparative adjectives ends in -iōris, so their stem ends in -iōr-. Unlike most other third-declension adjectives (see chapter 21.1), comparatives are not i-stems: they therefore decline like mīles and flūmen (cf. chapter 14.1)."
+        },
+        {
+          "t": "h",
+          "text": "British Case Order"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine and Masculine and feminine Neuter feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. trīstior trīstius trīstiōrēs trīstiōra Voc. trīstior trīstius trīstiōrēs trīstiōra Acc. trīstiōrem trīstius trīstiōrēs trīstiōra Gen. trīstiōris trīstiōris trīstiōrum trīstiōrum Dat. trīstiōrī trīstiōrī trīstiōribus trīstiōribus Abl. trīstiōre trīstiōre trīstiōribus trīstiōribus"
+        },
+        {
+          "t": "h",
+          "text": "Ancient Case Order"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine and Masculine and feminine Neuter feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom./Voc. trīstior trīstius trīstiōrēs trīstiōra Gen. trīstiōris trīstiōris trīstiōrum trīstiōrum Dat. trīstiōrī trīstiōrī trīstiōribus trīstiōribus Acc. trīstiōrem trīstius trīstiōrēs trīstiōra Abl. trīstiōre trīstiōre trīstiōribus trīstiōribus"
         }
       ]
     },
     {
-      "id": "section-4",
+      "id": "section-5",
       "latin": "38.4 Use of Comparatives and Superlatives",
       "english": "Grammar",
       "kind": "commentary",
       "blocks": [
         {
           "t": "p",
-          "text": "Comparatives and superlatives are involved in a variety of constructions, of which the most common are the following: 1) The comparative with quam ‘than’. The word after quam needs to be in the same case as the noun to which it is being compared: hic liber longior est quam ille ‘this book is longer than that one’ (ille is nominative because hic liber is), vīdī virum fortiōrem quam tē ‘I saw a man stronger than you’ (tē is accusative because virum is). 2) The ablative of comparison. With this construction there is no separate word for ‘than’; the noun compared is put into the ablative. Thus hic liber longior est illō ‘this book is longer than that one’ (the ‘than’ is expressed by the ablative case of illō). 3) The partitive genitive with the superlative. This genitive, as usual for parti- tives, is normally translated with ‘of’, but ‘among’ is another possibility: hic liber longissimus est omnium ‘this book is the longest of all’, vīdī (virum) fortissimum Graecōrum ‘I saw the strongest of the Greeks’, ‘I saw the strongest man among the Greeks’. 4) The superlative with quam. This construction means ‘as . . . as possible’, and the Latin superlative is translated with the English positive, not the English superlative: liber quam longissimus ‘a book as long as possible’, vir quam fortissimus ‘a man as strong as possible’."
+          "text": "Comparatives and superlatives are involved in a variety of constructions, of which the most common are the following: 1) The comparative with quam ‘than’."
+        },
+        {
+          "t": "p",
+          "text": "The word after quam needs to be in the same case as the noun to which it is being compared: hic liber longior est quam ille ‘this book is longer than that one’ (ille is nominative because hic liber is), vīdī virum fortiōrem quam tē ‘I saw a man stronger than you’ (tē is accusative because virum is). 2) The ablative of comparison."
+        },
+        {
+          "t": "p",
+          "text": "With this construction there is no separate word for ‘than’; the noun compared is put into the ablative. Thus hic liber longior est illō ‘this book is longer than that one’ (the ‘than’ is expressed by the ablative case of illō). 3) The partitive genitive with the superlative."
+        },
+        {
+          "t": "p",
+          "text": "This genitive, as usual for parti- tives, is normally translated with ‘of’, but ‘among’ is another possibility: hic liber longissimus est omnium ‘this book is the longest of all’, vīdī (virum) fortissimum Graecōrum ‘I saw the strongest of the Greeks’, ‘I saw the strongest man among the Greeks’. 4) The superlative with quam. This construction means ‘as . . ."
+        },
+        {
+          "t": "p",
+          "text": "as possible’, and the Latin superlative is translated with the English positive, not the English superlative: liber quam longissimus ‘a book as long as possible’, vir quam fortissimus ‘a man as strong as possible’."
         }
       ]
     }
@@ -64,15 +136,10 @@ const chapter = {
       "title": "Latin sentences from this chapter",
       "paragraphs": [
         "haec puella pulchrior est quam ea.",
-        "illa puella pulcherrima omnium sunt quam ei qui a magistro bono est. docentur, sed feliciores quam ei",
         "epistula mea longior est quam tua.",
-        "dei immortales feliciores sunt",
         "epistula eius quam brevissima est. hominibus.",
-        "pater noster fortissimus est",
         "dei semper quam felicissimi sunt. omnium militum.",
-        "equi eius celeriores sunt quam",
         "hic equus nigrior est quam ille. vestri.",
-        "hic equus nigerrimus est",
         "haec saxa gravissima sunt. omnium.",
         "haec saxa graviora sunt.",
         "equi eorum quam celerrimi sunt."
@@ -195,11 +262,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "12 gravior 38.",
-          "a": ""
-        },
-        {
-          "q": "2 Regular Comparatives and Superlatives 247",
+          "q": "12 gravior",
           "a": ""
         }
       ],
@@ -331,35 +394,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "6 gravior, masculine plural 38.",
-          "a": ""
-        },
-        {
-          "q": "4 Use of Comparatives and Superlatives 249",
-          "a": ""
-        },
-        {
-          "q": "7 celerior, neuter singular",
-          "a": ""
-        },
-        {
-          "q": "10 tenerior, feminine singular",
-          "a": ""
-        },
-        {
-          "q": "8 longior, feminine plural",
-          "a": ""
-        },
-        {
-          "q": "11 ācrior, masculine plural",
-          "a": ""
-        },
-        {
-          "q": "9 brevior, masculine singular",
-          "a": ""
-        },
-        {
-          "q": "12 gravior, neuter plural",
+          "q": "6 gravior, masculine plural",
           "a": ""
         }
       ],

@@ -15,12 +15,44 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
+          "t": "p",
+          "text": "The fifth case is the dative. With it added, the noun and adjective paradigms look like this:"
+        },
+        {
           "t": "h",
-          "text": "7.2 Use of the Dative"
+          "text": "British Case Order"
+        },
+        {
+          "t": "h",
+          "text": "Nouns"
+        },
+        {
+          "t": "example",
+          "text": "First declension Second declension Second declension"
+        },
+        {
+          "t": "h",
+          "text": "masculine neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Singular Plural Singular Plural"
         },
         {
           "t": "p",
-          "text": "The fifth case is the dative. With it added, the noun and adjective paradigms look like this: British Case Order Nouns First declension Second declension Second declension masculine neuter Singular Plural Singular Plural Singular Plural Nominative puella puellae servus servī bellum bella Vocative puella puellae serve servī bellum bella Accusative puellam puellās servum servōs bellum bella Genitive puellae puellārum servī servōrum bellī bellōrum Dative puellae puellīs servō servīs bellō bellīs Adjectives Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nominative bonus bona bonum bonī bonae bona Vocative bone bona bonum bonī bonae bona Accusative bonum bonam bonum bonōs bonās bona Genitive bonī bonae bonī bonōrum bonārum bonōrum Dative bonō bonae bonō bonīs bonīs bonīs Ancient Case Order Nouns First declension Second declension Second declension masculine neuter Singular Plural Singular Plural Singular Plural Nominative puella puellae servus servī bellum bella Genitive puellae puellārum servī servōrum bellī bellōrum Dative puellae puellīs servō servīs bellō bellīs Accusative puellam puellās servum servōs bellum bella Vocative puella puellae serve servī bellum bella Adjectives Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nominative bonus bona bonum bonī bonae bona Genitive bonī bonae bonī bonōrum bonārum bonōrum Dative bonō bonae bonō bonīs bonīs bonīs Accusative bonum bonam bonum bonōs bonās bona Vocative bone bona bonum bonī bonae bona"
+          "text": "Nominative puella puellae servus servī bellum bella Vocative puella puellae serve servī bellum bella Accusative puellam puellās servum servōs bellum bella Genitive puellae puellārum servī servōrum bellī bellōrum Dative puellae puellīs servō servīs bellō bellīs"
+        },
+        {
+          "t": "h",
+          "text": "Adjectives"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "p",
+          "text": "Nominative bonus bona bonum bonī bonae bona Vocative bone bona bonum bonī bonae bona Accusative bonum bonam bonum bonōs bonās bona Genitive bonī bonae bonī bonōrum bonārum bonōrum Dative bonō bonae bonō bonīs bonīs bonīs"
         }
       ]
     },
@@ -31,8 +63,48 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
+          "t": "h",
+          "text": "Ancient Case Order"
+        },
+        {
+          "t": "h",
+          "text": "Nouns"
+        },
+        {
+          "t": "example",
+          "text": "First declension Second declension Second declension"
+        },
+        {
+          "t": "h",
+          "text": "masculine neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Singular Plural Singular Plural"
+        },
+        {
           "t": "p",
-          "text": "The dative has a variety of uses, including the indirect object; that is, the additional object found with a verb meaning ‘give’. With such a verb, the gift itself is the direct object and is in the accusative case; the person to whom it is given is the indirect object and is in the dative case. In English there are two constructions used for indirect objects: the indirect object can come before the direct object, or it can come after the direct object with the preposition ‘to’. The indirect objects in these sentences are underlined: ‘I gave Mary the book’, ‘I gave the book to Mary’, ‘We gave them candy’, ‘He gave candy to the children’. Adjectives that agree with dative nouns are also in the dative case."
+          "text": "Nominative puella puellae servus servī bellum bella Genitive puellae puellārum servī servōrum bellī bellōrum Dative puellae puellīs servō servīs bellō bellīs Accusative puellam puellās servum servōs bellum bella Vocative puella puellae serve servī bellum bella"
+        },
+        {
+          "t": "h",
+          "text": "Adjectives"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "p",
+          "text": "Nominative bonus bona bonum bonī bonae bona Genitive bonī bonae bonī bonōrum bonārum bonōrum Dative bonō bonae bonō bonīs bonīs bonīs Accusative bonum bonam bonum bonōs bonās bona Vocative bone bona bonum bonī bonae bona"
+        },
+        {
+          "t": "p",
+          "text": "The dative has a variety of uses, including the indirect object; that is, the additional object found with a verb meaning ‘give’. With such a verb, the gift itself is the direct object and is in the accusative case; the person to whom it is given is the indirect object and is in the dative case."
+        },
+        {
+          "t": "p",
+          "text": "In English there are two constructions used for indirect objects: the indirect object can come before the direct object, or it can come after the direct object with the preposition ‘to’. The indirect objects in these sentences are underlined: ‘I gave Mary the book’, ‘I gave the book to Mary’, ‘We gave them candy’, ‘He gave candy to the children’. Adjectives that agree with dative nouns are also in the dative case."
         }
       ]
     },
@@ -44,7 +116,35 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "The verb possum (principal parts possum, posse, potuī, –) means ‘be able to’ or ‘can’; it is a compound of potis and sum and therefore is conjugated like sum with potor posin front of each form. Present active indicative Future active indicative Perfect active indicative possum ‘I am able to’, poterō ‘I will be able to’, potuī ‘I have been able ‘I can’ ‘I shall be able to’ to’, ‘I could’ potes ‘you (singular) are poteris ‘you (singular) will potuistī ‘you (singular) able to’, ‘you can’ be able to’, ‘you have been able to’, (singular) shall be ‘you (singular) able to’ could’ potest ‘he/she/it is able to’, poterit ‘he/she/it will be able potuit ‘he/she/it has been ‘he/she/it can’, ‘is to’, ‘he/she/it shall be able to’, ‘he/she/it able to’, ‘can’ able to’, ‘will be able could’, ‘has been to’, ‘shall be able to’ able to’, ‘could’ possumus ‘we are able to’, ‘we poterimus ‘we will be able to’, potuimus ‘we have been able can’ ‘we shall be able to’ to’, ‘we could’ potestis ‘you (plural) are able poteritis ‘you (plural) will be potuistis ‘you (plural) have to’, ‘you can’ able to’, ‘you (plural) been able to’, ‘you shall be able to’ (plural) could’ possunt ‘they are able to’, poterunt ‘they will be able to’, potuērunt ‘they have been ‘they can’, ‘are able ‘they shall be able to’, able to’, ‘they to’, ‘can’ ‘will be able to’, ‘shall could’, ‘have been be able to’ able to’, ‘could’ Because of its meaning possum is usually accompanied by another verb, like English ‘can’ as in ‘I can run’ (= ‘I am able to run’). In Latin this additional verb is in the infinitive, that is, the second principal part. So possum currere (or currere possum) is ‘I can run’, ‘I am able to run’, and scrībere potest (or potest scrībere) is ‘he can write’, ‘he is able to write’."
+          "text": "The verb possum (principal parts possum, posse, potuī, –) means ‘be able to’ or ‘can’; it is a compound of potis and sum and therefore is conjugated like sum with potor posin front of each form."
+        },
+        {
+          "t": "pre",
+          "text": "Present active indicative Future active indicative Perfect active indicative"
+        },
+        {
+          "t": "example",
+          "text": "possum ‘I am able to’, poterō ‘I will be able to’, potuī ‘I have been able ‘I can’ ‘I shall be able to’ to’, ‘I could’\npotes ‘you (singular) are poteris ‘you (singular) will potuistī ‘you (singular)"
+        },
+        {
+          "t": "h",
+          "text": "able to’, ‘you can’ be able to’, ‘you have been able to’,"
+        },
+        {
+          "t": "p",
+          "text": "(singular) shall be ‘you (singular) able to’ could’ potest ‘he/she/it is able to’, poterit ‘he/she/it will be able potuit ‘he/she/it has been ‘he/she/it can’, ‘is to’, ‘he/she/it shall be able to’, ‘he/she/it able to’, ‘can’ able to’, ‘will be able could’, ‘has been to’, ‘shall be able to’ able to’, ‘could’ possumus ‘we are able to’, ‘we poterimus ‘we will be able to’, potuimus ‘we have been able can’ ‘we shall be able to’ to’, ‘we could’ potestis ‘you (plural) are able poteritis ‘you (plural) will be potuistis ‘you (plural) have"
+        },
+        {
+          "t": "h",
+          "text": "to’, ‘you can’ able to’, ‘you (plural) been able to’, ‘you"
+        },
+        {
+          "t": "p",
+          "text": "shall be able to’ (plural) could’ possunt ‘they are able to’, poterunt ‘they will be able to’, potuērunt ‘they have been ‘they can’, ‘are able ‘they shall be able to’, able to’, ‘they to’, ‘can’ ‘will be able to’, ‘shall could’, ‘have been be able to’ able to’, ‘could’ Because of its meaning possum is usually accompanied by another verb, like English ‘can’ as in ‘I can run’ (= ‘I am able to run’)."
+        },
+        {
+          "t": "p",
+          "text": "In Latin this additional verb is in the infinitive, that is, the second principal part. So possum currere (or currere possum) is ‘I can run’, ‘I am able to run’, and scrībere potest (or potest scrībere) is ‘he can write’, ‘he is able to write’."
         }
       ]
     },
@@ -61,17 +161,7 @@ const chapter = {
       ]
     }
   ],
-  "readings": [
-    {
-      "id": "lectio-7",
-      "latinTitle": "SENTENTIAE LATĪNAE",
-      "title": "Latin sentences from this chapter",
-      "paragraphs": [
-        "servus meus stare non potest. poterunt."
-      ],
-      "notes": []
-    }
-  ],
+  "readings": [],
   "grammar": [],
   "vocabulary": [
     {
@@ -411,11 +501,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "12 consilium puellae dabo. dabit. 7.",
-          "a": ""
-        },
-        {
-          "q": "3 Possum 49",
+          "q": "12 consilium puellae dabo. dabit.",
           "a": ""
         }
       ],

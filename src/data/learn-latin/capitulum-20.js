@@ -15,12 +15,32 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "128 Reflexives"
+          "t": "p",
+          "text": "A word that refers back to the subject of a sentence is a reflexive. In English reflexives are often indicated with ‘-self’, as ‘He saw himself in the mirror’, in which the word ‘himself’ indicates that the person seen in the mirror is the same as the one seeing."
         },
         {
           "t": "p",
-          "text": "A word that refers back to the subject of a sentence is a reflexive. In English reflexives are often indicated with ‘-self’, as ‘He saw himself in the mirror’, in which the word ‘himself’ indicates that the person seen in the mirror is the same as the one seeing. (Compare ‘He saw him in the mirror’, in which the person seen is different from the one seeing.) In Latin the firstand second-person reflexives are the same as the personal pronouns we have already seen; in other words a Roman said ‘me’, ‘you’, or ‘us’ where we would say ‘myself’, ‘yourself’, ‘ourselves’. Thus mē videō ‘I see myself ’, nōs vidēmus ‘we see ourselves’. In the third person the reflexive pronoun is sē, which has its own declension: it makes no distinction between singular and plural or between the three genders, but it does have distinct forms for different cases. British Case Order Ancient Case Order All numbers and genders All numbers and genders Nom. – Nom./Voc. – Voc. – Gen. suī Acc. sē/sēsē Dat. sibi Gen. suī Acc. sē/sēsē Dat. sibi Abl. sē/sēsē Abl. sē/sēsē The reflexive pronoun has no nominative or vocative, because the nature of a reflexive means that it is never used in those cases. Apart from that, it bears a strong resemblance to the personal pronouns ego and tū, and that resemblance includes the peculiarities of usage of those pronouns: the genitive suī is not used for possession, only for other uses such as the partitive or objective genitive, and the ablative combines with cum to form sēcum. sē docuit. ‘He taught himself.’ or ‘She taught herself.’ sē docuērunt. ‘They taught themselves.’ laus suī mala est. ‘Praise of oneself is bad.’ sibi bona dedērunt. ‘They gave themselves good things.’ sēcum fīlium dūxit. ‘He led his son with himself.’ (i.e. ‘He brought his son with him.’)"
+          "text": "(Compare ‘He saw him in the mirror’, in which the person seen is different from the one seeing.) In Latin the firstand second-person reflexives are the same as the personal pronouns we have already seen; in other words a Roman said ‘me’, ‘you’, or ‘us’ where we would say ‘myself’, ‘yourself’, ‘ourselves’. Thus mē videō ‘I see myself ’, nōs vidēmus ‘we see ourselves’."
+        },
+        {
+          "t": "p",
+          "text": "In the third person the reflexive pronoun is sē, which has its own declension: it makes no distinction between singular and plural or between the three genders, but it does have distinct forms for different cases. British Case Order Ancient Case Order All numbers and genders All numbers and genders"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. – Nom./Voc. – Voc. – Gen. suī Acc. sē/sēsē Dat. sibi Gen. suī Acc. sē/sēsē Dat. sibi Abl. sē/sēsē Abl. sē/sēsē"
+        },
+        {
+          "t": "p",
+          "text": "The reflexive pronoun has no nominative or vocative, because the nature of a reflexive means that it is never used in those cases."
+        },
+        {
+          "t": "p",
+          "text": "Apart from that, it bears a strong resemblance to the personal pronouns ego and tū, and that resemblance includes the peculiarities of usage of those pronouns: the genitive suī is not used for possession, only for other uses such as the partitive or objective genitive, and the ablative combines with cum to form sēcum. sē docuit. ‘He taught himself.’ or ‘She taught herself.’ sē docuērunt."
+        },
+        {
+          "t": "example",
+          "text": "‘They taught themselves.’ laus suī mala est. ‘Praise of oneself is bad.’ sibi bona dedērunt. ‘They gave themselves good things.’ sēcum fīlium dūxit. ‘He led his son with himself.’ (i.e. ‘He brought his son with him.’)"
         }
       ]
     },
@@ -32,7 +52,23 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "Reflexive possession (that is, possession by the subject of the sentence) is indicated by the adjective suus, sua, suum and translated in English either with an ordinary possessive (‘his’, ‘her’, ‘their’) or with a reflexive possessive (‘his own’, ‘her own’, ‘their own’). urbem suam amat. ‘He loves his city.’ / ‘He loves his own city.’ nōmina sua dīxērunt. ‘They said their names.’ / ‘They said their own names.’ But reflexive possession is not normally expressed in Latin when the word for the possessed thing implies relationship; when reflexive possession is expressed with such words, it is always emphatic. patrem amat. ‘He loves his father.’ (possessive not necessary as ‘father’ implies relationship) patrem suum interfēcit. ‘He killed his own father.’ (possessive used despite the fact that ‘father’ implies relationship, in order to emphasize the horror of the crime) Practice"
+          "text": "Reflexive possession (that is, possession by the subject of the sentence) is indicated by the adjective suus, sua, suum and translated in English either with an ordinary possessive (‘his’, ‘her’, ‘their’) or with a reflexive possessive (‘his own’, ‘her own’, ‘their own’). urbem suam amat. ‘He loves his city.’ / ‘He loves his own city.’ nōmina sua dīxērunt."
+        },
+        {
+          "t": "p",
+          "text": "‘They said their names.’ / ‘They said their own names.’ But reflexive possession is not normally expressed in Latin when the word for the possessed thing implies relationship; when reflexive possession is expressed with such words, it is always emphatic. patrem amat. ‘He loves his father.’ (possessive not necessary as ‘father’ implies"
+        },
+        {
+          "t": "h",
+          "text": "relationship)"
+        },
+        {
+          "t": "p",
+          "text": "patrem suum interfēcit. ‘He killed his own father.’ (possessive used despite the fact that ‘father’ implies relationship, in order to emphasize the horror of the crime)"
+        },
+        {
+          "t": "h",
+          "text": "Practice"
         }
       ]
     },
@@ -44,22 +80,40 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "The Latin reflexive is not always translated with ‘-self’ in English, because it is not always equivalent to an English reflexive. In two situations it is regularly the equivalent of English ‘he’/‘him’, ‘she’/‘her’, ‘they’/‘them’: in indirect statement and in purpose clauses. In indirect statement reflexives are used when the subject of the reported statement is the same as the subject of the main verb; in other words, when the subject of the original direct statement was ‘I’/‘we’. dīxit sē ad urbem īvisse. ‘He said that he had gone to the city.’ (original direct statement: ‘I have gone to the city.’) dīxērunt sē pecūniam inventūrōs esse. ‘They said that they would find the money.’ (original direct statement: ‘We shall find the money.’) In purpose clauses reflexives are used in the subordinate clause to refer back to the subject of the main verb. vēnit ut sē laudārēmus. ‘He came so that we would praise him.’ illī mē iūvērunt ut sē iuvārem. ‘Those men helped me so that I would help them.’ Therefore it is important when translating sē to think about the construction in which it occurs: in a main clause it is normally equivalent to English ‘himself’ etc., but in a subordinate clause it is normally equivalent to English ‘him’ etc. Practice"
+          "text": "The Latin reflexive is not always translated with ‘-self’ in English, because it is not always equivalent to an English reflexive. In two situations it is regularly the equivalent of English ‘he’/‘him’, ‘she’/‘her’, ‘they’/‘them’: in indirect statement and in purpose clauses."
+        },
+        {
+          "t": "p",
+          "text": "In indirect statement reflexives are used when the subject of the reported statement is the same as the subject of the main verb; in other words, when the subject of the original direct statement was ‘I’/‘we’. dīxit sē ad urbem īvisse. ‘He said that he had gone to the city.’ (original direct statement:"
+        },
+        {
+          "t": "h",
+          "text": "‘I have gone to the city.’)"
+        },
+        {
+          "t": "p",
+          "text": "dīxērunt sē pecūniam inventūrōs esse. ‘They said that they would find the money.’"
+        },
+        {
+          "t": "h",
+          "text": "(original direct statement: ‘We shall find the money.’)"
+        },
+        {
+          "t": "p",
+          "text": "In purpose clauses reflexives are used in the subordinate clause to refer back to the subject of the main verb. vēnit ut sē laudārēmus. ‘He came so that we would praise him.’ illī mē iūvērunt ut sē iuvārem."
+        },
+        {
+          "t": "p",
+          "text": "‘Those men helped me so that I would help them.’ Therefore it is important when translating sē to think about the construction in which it occurs: in a main clause it is normally equivalent to English ‘himself’ etc., but in a subordinate clause it is normally equivalent to English ‘him’ etc."
+        },
+        {
+          "t": "h",
+          "text": "Practice"
         }
       ]
     }
   ],
-  "readings": [
-    {
-      "id": "lectio-20",
-      "latinTitle": "SENTENTIAE LATĪNAE",
-      "title": "Latin sentences from this chapter",
-      "paragraphs": [
-        "pater meus dixit se ovem"
-      ],
-      "notes": []
-    }
-  ],
+  "readings": [],
   "grammar": [],
   "vocabulary": [
     {
@@ -222,11 +276,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "10 He will hinder himself. 20.",
-          "a": ""
-        },
-        {
-          "q": "3 Translation of the Reflexive 129",
+          "q": "10 He will hinder himself.",
           "a": ""
         }
       ],

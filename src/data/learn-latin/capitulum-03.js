@@ -9,6 +9,18 @@ const chapter = {
   "complete": true,
   "sections": [
     {
+      "id": "section-0",
+      "latin": "Introduction",
+      "english": "Introduction",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "h",
+          "text": "and Vocabulary Format"
+        }
+      ]
+    },
+    {
       "id": "section-1",
       "latin": "3.1 Gender",
       "english": "Grammar",
@@ -16,7 +28,19 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "In Latin, all nouns have a gender; that is, every noun is inherently masculine, feminine, or neuter. Words for male humans are normally masculine and words for female humans are normally feminine, but words for things can belong to any of the three genders. Gender is important because adjectives in Latin assume the same gender as the nouns they modify; often you cannot tell which noun an adjective goes with unless you know the genders of the nouns in the sentence. The genders of the nouns we have seen so far are: Masculine Feminine agricola ‘farmer’ dea ‘goddess’ amīcus ‘friend’ puella ‘girl’ deus ‘god’ equus ‘horse’ poēta ‘poet’ servus ‘slave’ All the second-declension nouns in this list are masculine; in fact most nouns of the second declension ending in -us are masculine – but not all, so it is important to learn their genders. Likewise most nouns of the first declension are feminine – but not all, as you can see from agricola and poēta."
+          "text": "In Latin, all nouns have a gender; that is, every noun is inherently masculine, feminine, or neuter. Words for male humans are normally masculine and words for female humans are normally feminine, but words for things can belong to any of the three genders."
+        },
+        {
+          "t": "p",
+          "text": "Gender is important because adjectives in Latin assume the same gender as the nouns they modify; often you cannot tell which noun an adjective goes with unless you know the genders of the nouns in the sentence."
+        },
+        {
+          "t": "p",
+          "text": "The genders of the nouns we have seen so far are: Masculine Feminine agricola ‘farmer’ dea ‘goddess’ amīcus ‘friend’ puella ‘girl’ deus ‘god’ equus ‘horse’ poēta ‘poet’ servus ‘slave’ All the second-declension nouns in this list are masculine; in fact most nouns of the second declension ending in -us are masculine – but not all, so it is important to learn their genders."
+        },
+        {
+          "t": "p",
+          "text": "Likewise most nouns of the first declension are feminine – but not all, as you can see from agricola and poēta."
         }
       ]
     },
@@ -27,12 +51,16 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "3.3 Adjectives"
+          "t": "p",
+          "text": "So far we have not seen any neuter nouns. Neuters decline similarly to masculines, but they always have one form for the nominative, vocative, and accusative; in the second declension this form is -um for the singular and -a for the plural. For example, the noun bellum ‘war’ declines as follows:"
         },
         {
-          "t": "p",
-          "text": "So far we have not seen any neuter nouns. Neuters decline similarly to masculines, but they always have one form for the nominative, vocative, and accusative; in the second declension this form is -um for the singular and -a for the plural. For example, the noun bellum ‘war’ declines as follows: Singular Plural Nominative bellum bella Vocative bellum bella Accusative bellum bella This paradigm requires alertness on the part of the reader. It can be difficult to tell whether a neuter noun is nominative or accusative, and if you encounter an unfamiliar word ending in -a, it may be difficult to tell whether it is a neuter plural or a firstdeclension nominative singular."
+          "t": "pre",
+          "text": "Singular Plural"
+        },
+        {
+          "t": "h",
+          "text": "Nominative bellum bella Vocative bellum bella Accusative bellum bella"
         }
       ]
     },
@@ -44,7 +72,27 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "Adjectives agree with nouns in gender, number, and case; therefore they can be masculine, feminine, or neuter; singular or plural; and nominative, vocative, or accusative. They take different endings to reflect these different possibilities, as you can see from the declension of bonus ‘good’. Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nominative bonus bona bonum bonī bonae bona Vocative bone bona bonum bonī bonae bona Accusative bonum bonam bonum bonōs bonās bona You will observe that adjectives take second-declension endings in the masculine and neuter, and first-declension endings in the feminine. But this does not mean that an adjective necessarily has the same ending as the noun it agrees with, since a firstdeclension noun may be masculine (and a second-declension noun may be feminine, though we have not yet seen any such). ‘A good friend’ is amīcus bonus or bonus amīcus, and ‘a good girl’ is puella bona or bona puella, but ‘a good farmer’ is agricola bonus or bonus agricola, and ‘a good poet’ is poēta bonus or bonus poēta."
+          "text": "This paradigm requires alertness on the part of the reader. It can be difficult to tell whether a neuter noun is nominative or accusative, and if you encounter an unfamiliar word ending in -a, it may be difficult to tell whether it is a neuter plural or a firstdeclension nominative singular."
+        },
+        {
+          "t": "p",
+          "text": "Adjectives agree with nouns in gender, number, and case; therefore they can be masculine, feminine, or neuter; singular or plural; and nominative, vocative, or accusative. They take different endings to reflect these different possibilities, as you can see from the declension of bonus ‘good’."
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "p",
+          "text": "Nominative bonus bona bonum bonī bonae bona Vocative bone bona bonum bonī bonae bona Accusative bonum bonam bonum bonōs bonās bona You will observe that adjectives take second-declension endings in the masculine and neuter, and first-declension endings in the feminine."
+        },
+        {
+          "t": "p",
+          "text": "But this does not mean that an adjective necessarily has the same ending as the noun it agrees with, since a firstdeclension noun may be masculine (and a second-declension noun may be feminine, though we have not yet seen any such)."
+        },
+        {
+          "t": "p",
+          "text": "‘A good friend’ is amīcus bonus or bonus amīcus, and ‘a good girl’ is puella bona or bona puella, but ‘a good farmer’ is agricola bonus or bonus agricola, and ‘a good poet’ is poēta bonus or bonus poēta."
         }
       ]
     },
@@ -56,7 +104,23 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "When nouns are listed in Latin dictionaries or vocabulary lists, they are accompanied by two pieces of information in addition to their meanings. One of these is the gender, usually abbreviated to ‘m.’, ‘f.’, or ‘n.’ The other is information on what declension a noun belongs to, since there are more than two declensions and it is not normally possible to tell how a noun declines simply by seeing the nominative singular. Declensions are given by adding a case form we have not yet seen, the genitive singular: first-declension genitives singular end in -ae, and second-declension genitives singular (both masculine and neuter) end in -ī. Thus a proper dictionary or vocabulary entry for puella would be ‘puella, puellae (f.) “girl”’ (sometimes abbreviated to ‘puella, -ae (f.) “girl”’), and one for bellum would be ‘bellum, bellī (n.) “war”’ (sometimes abbreviated to ‘bellum, -ī (n.) “war”’). Such entries tell the reader that puella is a feminine noun of the first declension and bellum is a neuter noun of the second declension. It is necessary to memorize this information along with the word itself in order to understand a Latin text, for without knowing that bellum is a second-declension neuter one does not know that the form bella may be accusative plural. Adjectives are accompanied by different information: they show the endings that they take in the nominatives singular of all three genders. Thus a proper dictionary or vocabulary entry for bonus would be ‘bonus, bona, bonum “good”’ (sometimes abbreviated to ‘bonus, -a, -um “good”’). Again it is necessary to memorize this information along with the words themselves. The vocabulary from the previous chapter is therefore repeated here, for re-learning with this additional information."
+          "text": "When nouns are listed in Latin dictionaries or vocabulary lists, they are accompanied by two pieces of information in addition to their meanings. One of these is the gender, usually abbreviated to ‘m.’, ‘f.’, or ‘n.’ The other is information on what declension a noun belongs to, since there are more than two declensions and it is not normally possible to tell how a noun declines simply by seeing the nominative singular."
+        },
+        {
+          "t": "p",
+          "text": "Declensions are given by adding a case form we have not yet seen, the genitive singular: first-declension genitives singular end in -ae, and second-declension genitives singular (both masculine and neuter) end in -ī."
+        },
+        {
+          "t": "p",
+          "text": "Thus a proper dictionary or vocabulary entry for puella would be ‘puella, puellae (f.) “girl”’ (sometimes abbreviated to ‘puella, -ae (f.) “girl”’), and one for bellum would be ‘bellum, bellī (n.) “war”’ (sometimes abbreviated to ‘bellum, -ī (n.) “war”’). Such entries tell the reader that puella is a feminine noun of the first declension and bellum is a neuter noun of the second declension."
+        },
+        {
+          "t": "p",
+          "text": "It is necessary to memorize this information along with the word itself in order to understand a Latin text, for without knowing that bellum is a second-declension neuter one does not know that the form bella may be accusative plural. Adjectives are accompanied by different information: they show the endings that they take in the nominatives singular of all three genders."
+        },
+        {
+          "t": "p",
+          "text": "Thus a proper dictionary or vocabulary entry for bonus would be ‘bonus, bona, bonum “good”’ (sometimes abbreviated to ‘bonus, -a, -um “good”’). Again it is necessary to memorize this information along with the words themselves. The vocabulary from the previous chapter is therefore repeated here, for re-learning with this additional information."
         }
       ]
     }
@@ -71,10 +135,7 @@ const chapter = {
         "dea oppida vincit.",
         "puella, petisne servos tuos?",
         "servus tuus verba mea non legit.",
-        "petitne servus tuus agricolas?",
-        "servum novum poeta petit.",
-        "equos tuos ducit puella.",
-        "equum magnum puella non emit. emit."
+        "petitne servus tuus agricolas?"
       ],
       "notes": []
     }
@@ -484,135 +545,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "21 servine vincunt oppidum tuum? 3.",
-          "a": ""
-        },
-        {
-          "q": "4 Vocabulary Format 27",
-          "a": ""
-        },
-        {
-          "q": "22 oppidum novum petimus.",
-          "a": ""
-        },
-        {
-          "q": "37 puellae magnae equum magnum",
-          "a": ""
-        },
-        {
-          "q": "23 servi, ducitisne equos meos? ducunt.",
-          "a": ""
-        },
-        {
-          "q": "24 servum novum poeta petit.",
-          "a": ""
-        },
-        {
-          "q": "38 equos tuos ducit puella.",
-          "a": ""
-        },
-        {
-          "q": "25 poetae bonos agricolas petunt.",
-          "a": ""
-        },
-        {
-          "q": "39 poetae oppidum tuum petunt.",
-          "a": ""
-        },
-        {
-          "q": "26 petuntne poetam boni",
-          "a": ""
-        },
-        {
-          "q": "40 serve, ducisne equos meos? agricolae?",
-          "a": ""
-        },
-        {
-          "q": "41 puellae equos tuos petunt.",
-          "a": ""
-        },
-        {
-          "q": "27 agricola bonum equum emit.",
-          "a": ""
-        },
-        {
-          "q": "42 agricola, emisne servos novos?",
-          "a": ""
-        },
-        {
-          "q": "28 poeta nova verba scribit.",
-          "a": ""
-        },
-        {
-          "q": "43 amice, scribisne nova verba?",
-          "a": ""
-        },
-        {
-          "q": "29 servum novum agricola non",
-          "a": ""
-        },
-        {
-          "q": "44 equum magnum puella non emit. emit.",
-          "a": ""
-        },
-        {
-          "q": "30 puellae meum servum emunt.",
-          "a": ""
-        },
-        {
-          "q": "45 equos novos agricolae emunt.",
-          "a": ""
-        },
-        {
-          "q": "31 emitne poeta bonos servos?",
-          "a": ""
-        },
-        {
-          "q": "46 amici, petitisne puellas bonas?",
-          "a": ""
-        },
-        {
-          "q": "32 emuntne servos boni poetae?",
-          "a": ""
-        },
-        {
-          "q": "47 amice, petisne nova bella?",
-          "a": ""
-        },
-        {
-          "q": "33 puella, petisne servos tuos?",
-          "a": ""
-        },
-        {
-          "q": "48 servum tuum non emo.",
-          "a": ""
-        },
-        {
-          "q": "34 agricolae equos meos non",
-          "a": ""
-        },
-        {
-          "q": "49 amice, mittisne tuum servum? emunt.",
-          "a": ""
-        },
-        {
-          "q": "50 poetae boni verba non scribunt.",
-          "a": ""
-        },
-        {
-          "q": "35 puellas bonas non petimus.",
-          "a": ""
-        },
-        {
-          "q": "51 agricolae verba mea non legunt.",
-          "a": ""
-        },
-        {
-          "q": "36 emisne servum bonum?",
-          "a": ""
-        },
-        {
-          "q": "52 bone serve, currisne?",
+          "q": "21 servine vincunt oppidum tuum?",
           "a": ""
         }
       ],

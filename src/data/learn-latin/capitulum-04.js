@@ -16,7 +16,11 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "So far all the verbs we have seen have been in the present tense, but Latin has a future as well. Third-conjugation verbs (the only type we have seen so far) form their futures by changing the vowel in the ending to e, except in the first person singular. Present active Future active indicative indicative regō regam ‘I will rule’, ‘I shall rule’ regis regēs ‘you (singular) will rule’, ‘you (singular) shall rule’ regit reget ‘he/she/it will rule’, ‘he/she/it shall rule’, ‘will rule’, ‘shall rule’ regimus regēmus ‘we will rule’, ‘we shall rule’ regitis regētis ‘you (plural) will rule’, ‘you (plural) shall rule’ regunt regent ‘they will rule’, ‘they shall rule’, ‘will rule’, ‘shall rule’"
+          "text": "So far all the verbs we have seen have been in the present tense, but Latin has a future as well. Third-conjugation verbs (the only type we have seen so far) form their futures by changing the vowel in the ending to e, except in the first person singular."
+        },
+        {
+          "t": "pre",
+          "text": "Present active Future active indicative indicative regō regam ‘I will rule’, ‘I shall rule’ regis regēs ‘you (singular) will rule’, ‘you (singular) shall rule’ regit reget ‘he/she/it will rule’, ‘he/she/it shall rule’, ‘will rule’, ‘shall rule’ regimus regēmus ‘we will rule’, ‘we shall rule’ regitis regētis ‘you (plural) will rule’, ‘you (plural) shall rule’ regunt regent ‘they will rule’, ‘they shall rule’, ‘will rule’, ‘shall rule’"
         }
       ]
     },
@@ -27,12 +31,20 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "4.3 Perfect"
+          "t": "p",
+          "text": "Most Latin verbs have more than one stem (basic form of the word to which endings are added); one stem is used for the present and future and a different one for (most) past tenses. Many English verbs also have this arrangement: consider ‘sing, sang, sung’ or ‘go, went, gone’. In most cases it is not possible to predict from the present stem what the others will be, so one has to learn a set of stems for each verb."
         },
         {
           "t": "p",
-          "text": "Most Latin verbs have more than one stem (basic form of the word to which endings are added); one stem is used for the present and future and a different one for (most) past tenses. Many English verbs also have this arrangement: consider ‘sing, sang, sung’ or ‘go, went, gone’. In most cases it is not possible to predict from the present stem what the others will be, so one has to learn a set of stems for each verb. These are known as ‘principal parts’ and consist of four elements (though not every verb has all four): the first person singular of the present active indicative (this is the standard reference form that you have already been using), the present active infinitive (this tells you which conjugation the verb belongs to and therefore how to conjugate it in the present; since all the verbs we have seen so far belong to the third conjugation, they all have infinitives in -ere), the first person singular of the perfect active indicative (the tense you are about to learn now) and the supine or perfect passive participle.1 Thus the principal parts of regō are: regō (‘I rule’), regere (‘to rule’), rēxī (‘I ruled’), rēctum (‘ruled’). The principal parts of all the verbs we have seen so far are: currō, currere, cucurrī, cursum dūcō, dūcere, dūxī, ductum emō, emere, ēmī, ēmptum legō, legere, lēgī, lēctum mittō, mittere, mīsī, missum petō, petere, petīvī, petītum pōnō, pōnere, posuī, positum regō, regere, rēxī, rēctum scrībō, scrībere, scrīpsī, scrīptum vincō, vincere, vīcī, victum In some verbs (emō, legō) the only difference between the present and perfect stem is in the length of the stem vowel, which is short in the present and long in the perfect. Some books, including this one, give a fourth principal part in -um; this is technically the supine, a form that is not really translatable. Others give the fourth principal part in -us; this is technically the perfect passive participle, e.g. ‘done’, ‘ruled’ (see chapter 6.2). Since in most texts vowel length is not indicated, some forms of these verbs will be for all practical purposes ambiguous between the present and the perfect; in other forms the endings are different."
+          "text": "These are known as ‘principal parts’ and consist of four elements (though not every verb has all four): the first person singular of the present active indicative (this is the standard reference form that you have already been using), the present active infinitive (this tells you which conjugation the verb belongs to and therefore how to conjugate it in the present; since all the verbs we have seen so far belong to the third conjugation, they all have infinitives in -ere), the first person singular of the perfect active indicative (the tense you are about to learn now) and the supine or perfect passive participle.1 Thus the principal parts of regō are: regō (‘I rule’), regere (‘to rule’), rēxī (‘I ruled’), rēctum (‘ruled’)."
+        },
+        {
+          "t": "p",
+          "text": "The principal parts of all the verbs we have seen so far are: currō, currere, cucurrī, cursum dūcō, dūcere, dūxī, ductum emō, emere, ēmī, ēmptum legō, legere, lēgī, lēctum mittō, mittere, mīsī, missum petō, petere, petīvī, petītum pōnō, pōnere, posuī, positum regō, regere, rēxī, rēctum scrībō, scrībere, scrīpsī, scrīptum vincō, vincere, vīcī, victum In some verbs (emō, legō) the only difference between the present and perfect stem is in the length of the stem vowel, which is short in the present and long in the perfect."
+        },
+        {
+          "t": "p",
+          "text": "Some books, including this one, give a fourth principal part in -um; this is technically the supine, a form that is not really translatable. Others give the fourth principal part in -us; this is technically the perfect passive participle, e.g. ‘done’, ‘ruled’ (see chapter 6.2)."
         }
       ]
     },
@@ -44,7 +56,19 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "The perfect is the basic past tense in Latin. To form it, you start with the third principal part, drop the -ī, and to the resulting stem (in the case of our paradigm verb this stem is rēx-) add the endings -ī, -istī, -it, -imus, -istis, -ērunt. rēxī ‘I ruled’, ‘I have ruled’, ‘I did rule’ rēxistī ‘you (singular) ruled’, ‘you (singular) have ruled’, ‘you (singular) did rule’ rēxit ‘he/she/it ruled’, ‘he/she/it has ruled’, ‘he/she/it did rule’, ‘ruled’, ‘has ruled’, ‘did rule’ rēximus ‘we ruled’, ‘we have ruled’, ‘we did rule’ rēxistis ‘you (plural) ruled’, ‘you (plural) have ruled’, ‘you (plural) did rule’ rēxērunt ‘they ruled’, ‘they have ruled’, ‘they did rule’, ‘ruled’, ‘have ruled’, ‘did rule’ There is an alternative form rēxēre in the third person plural: writers may use either rēxērunt or rēxēre. In verbs where there is ambiguity between present and perfect stems this form can sometimes be confused with the present infinitive. This alternative form will not generally be used in this book, but it is worth remembering."
+          "text": "Since in most texts vowel length is not indicated, some forms of these verbs will be for all practical purposes ambiguous between the present and the perfect; in other forms the endings are different."
+        },
+        {
+          "t": "p",
+          "text": "The perfect is the basic past tense in Latin. To form it, you start with the third principal part, drop the -ī, and to the resulting stem (in the case of our paradigm verb this stem is rēx-) add the endings -ī, -istī, -it, -imus, -istis, -ērunt."
+        },
+        {
+          "t": "example",
+          "text": "rēxī ‘I ruled’, ‘I have ruled’, ‘I did rule’\nrēxistī ‘you (singular) ruled’, ‘you (singular) have ruled’, ‘you (singular) did rule’\nrēxit ‘he/she/it ruled’, ‘he/she/it has ruled’, ‘he/she/it did rule’, ‘ruled’, ‘has ruled’, ‘did rule’\nrēximus ‘we ruled’, ‘we have ruled’, ‘we did rule’\nrēxistis ‘you (plural) ruled’, ‘you (plural) have ruled’, ‘you (plural) did rule’\nrēxērunt ‘they ruled’, ‘they have ruled’, ‘they did rule’, ‘ruled’, ‘have ruled’, ‘did rule’ There is an alternative form rēxēre in the third person plural: writers may use either rēxērunt or rēxēre."
+        },
+        {
+          "t": "p",
+          "text": "In verbs where there is ambiguity between present and perfect stems this form can sometimes be confused with the present infinitive. This alternative form will not generally be used in this book, but it is worth remembering."
         }
       ]
     }
@@ -55,8 +79,6 @@ const chapter = {
       "latinTitle": "SENTENTIAE LATĪNAE",
       "title": "Latin sentences from this chapter",
       "paragraphs": [
-        "legit",
-        "servus tuus verba mea non legit",
         "puella, petivistine servos tuos?",
         "equos tuos duxit puella.",
         "petivitne servus tuus agricolas?"

@@ -15,16 +15,136 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "9.1 Ablative"
-        },
-        {
-          "t": "h",
-          "text": "9.2 Prepositions"
+          "t": "p",
+          "text": "The last case is the ablative. In the declensions we have so far seen, the ablative endings are the same as those of the dative except in the singular of the first declension and in the feminine singular of adjectives: in those forms it ends in a long -ā. The length of the -ā is important because it serves to distinguish the ablative from the nominative."
         },
         {
           "t": "p",
-          "text": "The last case is the ablative. In the declensions we have so far seen, the ablative endings are the same as those of the dative except in the singular of the first declension and in the feminine singular of adjectives: in those forms it ends in a long -ā. The length of the -ā is important because it serves to distinguish the ablative from the nominative. With the ablative added, the paradigms we have seen can be completed; words ending in -r and in -ius have the same ablative forms as other second-declension words, so the paradigms seen in chapter 8 pose no additional difficulties. British Case Order Nouns in -a, -us, and –um First declension Second declension Second declension masculine neuter Singular Plural Singular Plural Singular Plural Nom. puella puellae servus servī bellum bella Voc. puella puellae serve servī bellum bella Acc. puellam puellās servum servōs bellum bella Gen. puellae puellārum servī servōrum bellī bellōrum Dat. puellae puellīs servō servīs bellō bellīs Abl. puellā puellīs servō servīs bellō bellīs Adjectives in -us, -a, -um Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom. bonus bona bonum bonī bonae bona Voc. bone bona bonum bonī bonae bona Acc. bonum bonam bonum bonōs bonās bona Gen. bonī bonae bonī bonōrum bonārum bonōrum Dat. bonō bonae bonō bonīs bonīs bonīs Abl. bonō bonā bonō bonīs bonīs bonīs British Case Order (continued) Nouns in -r and –ius Singular Plural Singular Plural Singular Plural Singular Plural Nom. puer puerī magister magistrī vir virī fīlius fīliī Voc. puer puerī magister magistrī vir virī fīlī fīliī Acc. puerum puerōs magistrum magistrōs virum virōs fīlium fīliōs Gen. puerī puerōrum magistrī magistrōrum virī virōrum fīlī/fīliī fīliōrum Dat. puerō puerīs magistrō magistrīs virō virīs fīliō fīliīs Abl. puerō puerīs magistrō magistrīs virō virīs fīliō fīliīs Adjectives in –r Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom. niger nigra nigrum nigrī nigrae nigra Voc. niger nigra nigrum nigrī nigrae nigra Acc. nigrum nigram nigrum nigrōs nigrās nigra Gen. nigrī nigrae nigrī nigrōrum nigrārum nigrōrum Dat. nigrō nigrae nigrō nigrīs nigrīs nigrīs Abl. nigrō nigrā nigrō nigrīs nigrīs nigrīs Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom. tener tenera tenerum tenerī tenerae tenera Voc. tener tenera tenerum tenerī tenerae tenera Acc. tenerum teneram tenerum tenerōs tenerās tenera Gen. tenerī tenerae tenerī tenerōrum tenerārum tenerōrum Dat. tenerō tenerae tenerō tenerīs tenerīs tenerīs Abl. tenerō tenerā tenerō tenerīs tenerīs tenerīs Ancient1 Case Order Nouns in -a, -us, and –um Second declension Second declension First declension masculine neuter Singular Plural Singular Plural Singular Plural Nom. puella puellae servus servī bellum bella Gen. puellae puellārum servī servōrum bellī bellōrum Dat. puellae puellīs servō servīs bellō bellīs Acc. puellam puellās servum servōs bellum bella Abl. puellā puellīs servō servīs bellō bellīs Voc. puella puellae serve servī bellum bella Adjectives in -us, -a, -um Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom. bonus bona bonum bonī bonae bona Gen. bonī bonae bonī bonōrum bonārum bonōrum Dat. bonō bonae bonō bonīs bonīs bonīs Acc. bonum bonam bonum bonōs bonās bona Abl. bonō bonā bonō bonīs bonīs bonīs Voc. bone bona bonum bonī bonae bona Nouns in -r and –ius Singular Plural Singular Plural Singular Plural Singular Plural Nom. puer puerī magister magistrī vir virī fīlius fīliī Gen. puerī puerōrum magistrī magistrōrum virī virōrum fīlī/fīliī fīliōrum Dat. puerō puerīs magistrō magistrīs virō virīs fīliō fīliīs Acc. puerum puerōs magistrum magistrōs virum virōs fīlium fīliōs Abl. puerō puerīs magistrō magistrīs virō virīs fīliō fīliīs Voc. puer puerī magister magistrī vir virī fīlī fīliī Strictly speaking, this is a slightly modified version of the ancient order: the actual ancient order was nominative, genitive, dative, accusative, vocative, ablative, but now the vocative is usually positioned after the ablative by adherents of this case order. Many words either have no vocative at all or have no vocative separate from the nominative; with this case order the vocative line is usually omitted in such forms. When using the British order, however, it is unsafe to leave out the vocative line as doing so can lead to uncertainty about which case labels attach to which lines of a paradigm that one has memorized. Adjectives in –r Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom./Voc. niger nigra nigrum nigrī nigrae nigra Gen. nigrī nigrae nigrī nigrōrum nigrārum nigrōrum Dat. nigrō nigrae nigrō nigrīs nigrīs nigrīs Acc. nigrum nigram nigrum nigrōs nigrās nigra Abl. nigrō nigrā nigrō nigrīs nigrīs nigrīs Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom./Voc. tener tenera tenerum tenerī tenerae tenera Gen. tenerī tenerae tenerī tenerōrum tenerārum tenerōrum Dat. tenerō tenerae tenerō tenerīs tenerīs tenerīs Acc. tenerum teneram tenerum tenerōs tenerās tenera Abl. tenerō tenerā tenerō tenerīs tenerīs tenerīs"
+          "text": "With the ablative added, the paradigms we have seen can be completed; words ending in -r and in -ius have the same ablative forms as other second-declension words, so the paradigms seen in chapter 8 pose no additional difficulties."
+        },
+        {
+          "t": "h",
+          "text": "British Case Order"
+        },
+        {
+          "t": "h",
+          "text": "Nouns in -a, -us, and –um"
+        },
+        {
+          "t": "example",
+          "text": "First declension Second declension Second declension"
+        },
+        {
+          "t": "h",
+          "text": "masculine neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Singular Plural Singular Plural"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. puella puellae servus servī bellum bella Voc. puella puellae serve servī bellum bella Acc. puellam puellās servum servōs bellum bella Gen. puellae puellārum servī servōrum bellī bellōrum Dat. puellae puellīs servō servīs bellō bellīs Abl. puellā puellīs servō servīs bellō bellīs"
+        },
+        {
+          "t": "h",
+          "text": "Adjectives in -us, -a, -um"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. bonus bona bonum bonī bonae bona Voc. bone bona bonum bonī bonae bona Acc. bonum bonam bonum bonōs bonās bona Gen. bonī bonae bonī bonōrum bonārum bonōrum Dat. bonō bonae bonō bonīs bonīs bonīs Abl. bonō bonā bonō bonīs bonīs bonīs"
+        },
+        {
+          "t": "h",
+          "text": "British Case Order (continued)"
+        },
+        {
+          "t": "h",
+          "text": "Nouns in -r and –ius"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Singular Plural Singular Plural Singular Plural"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. puer puerī magister magistrī vir virī fīlius fīliī Voc. puer puerī magister magistrī vir virī fīlī fīliī Acc. puerum puerōs magistrum magistrōs virum virōs fīlium fīliōs Gen. puerī puerōrum magistrī magistrōrum virī virōrum fīlī/fīliī fīliōrum Dat. puerō puerīs magistrō magistrīs virō virīs fīliō fīliīs Abl. puerō puerīs magistrō magistrīs virō virīs fīliō fīliīs"
+        },
+        {
+          "t": "h",
+          "text": "Adjectives in –r"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. niger nigra nigrum nigrī nigrae nigra Voc. niger nigra nigrum nigrī nigrae nigra Acc. nigrum nigram nigrum nigrōs nigrās nigra Gen. nigrī nigrae nigrī nigrōrum nigrārum nigrōrum Dat. nigrō nigrae nigrō nigrīs nigrīs nigrīs Abl. nigrō nigrā nigrō nigrīs nigrīs nigrīs"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. tener tenera tenerum tenerī tenerae tenera Voc. tener tenera tenerum tenerī tenerae tenera Acc. tenerum teneram tenerum tenerōs tenerās tenera Gen. tenerī tenerae tenerī tenerōrum tenerārum tenerōrum Dat. tenerō tenerae tenerō tenerīs tenerīs tenerīs Abl. tenerō tenerā tenerō tenerīs tenerīs tenerīs"
+        },
+        {
+          "t": "h",
+          "text": "Ancient1 Case Order"
+        },
+        {
+          "t": "h",
+          "text": "Nouns in -a, -us, and –um"
+        },
+        {
+          "t": "example",
+          "text": "Second declension Second declension"
+        },
+        {
+          "t": "p",
+          "text": "First declension masculine neuter Singular Plural Singular Plural Singular Plural"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. puella puellae servus servī bellum bella Gen. puellae puellārum servī servōrum bellī bellōrum Dat. puellae puellīs servō servīs bellō bellīs Acc. puellam puellās servum servōs bellum bella Abl. puellā puellīs servō servīs bellō bellīs Voc. puella puellae serve servī bellum bella"
+        },
+        {
+          "t": "h",
+          "text": "Adjectives in -us, -a, -um"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. bonus bona bonum bonī bonae bona Gen. bonī bonae bonī bonōrum bonārum bonōrum Dat. bonō bonae bonō bonīs bonīs bonīs Acc. bonum bonam bonum bonōs bonās bona Abl. bonō bonā bonō bonīs bonīs bonīs Voc. bone bona bonum bonī bonae bona"
+        },
+        {
+          "t": "h",
+          "text": "Nouns in -r and –ius"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Singular Plural Singular Plural Singular Plural"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. puer puerī magister magistrī vir virī fīlius fīliī Gen. puerī puerōrum magistrī magistrōrum virī virōrum fīlī/fīliī fīliōrum Dat. puerō puerīs magistrō magistrīs virō virīs fīliō fīliīs Acc. puerum puerōs magistrum magistrōs virum virōs fīlium fīliōs Abl. puerō puerīs magistrō magistrīs virō virīs fīliō fīliīs Voc. puer puerī magister magistrī vir virī fīlī fīliī"
+        },
+        {
+          "t": "p",
+          "text": "Strictly speaking, this is a slightly modified version of the ancient order: the actual ancient order was nominative, genitive, dative, accusative, vocative, ablative, but now the vocative is usually positioned after the ablative by adherents of this case order. Many words either have no vocative at all or have no vocative separate from the nominative; with this case order the vocative line is usually omitted in such forms."
+        },
+        {
+          "t": "p",
+          "text": "When using the British order, however, it is unsafe to leave out the vocative line as doing so can lead to uncertainty about which case labels attach to which lines of a paradigm that one has memorized."
         }
       ]
     },
@@ -35,8 +155,36 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
+          "t": "h",
+          "text": "Adjectives in –r"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom./Voc. niger nigra nigrum nigrī nigrae nigra Gen. nigrī nigrae nigrī nigrōrum nigrārum nigrōrum Dat. nigrō nigrae nigrō nigrīs nigrīs nigrīs Acc. nigrum nigram nigrum nigrōs nigrās nigra Abl. nigrō nigrā nigrō nigrīs nigrīs nigrīs"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom./Voc. tener tenera tenerum tenerī tenerae tenera Gen. tenerī tenerae tenerī tenerōrum tenerārum tenerōrum Dat. tenerō tenerae tenerō tenerīs tenerīs tenerīs Acc. tenerum teneram tenerum tenerōs tenerās tenera Abl. tenerō tenerā tenerō tenerīs tenerīs tenerīs"
+        },
+        {
           "t": "p",
-          "text": "The ablative is used in a variety of ways, including after many prepositions. Prepositions in Latin always govern a particular case or cases; for example cum, which means ‘with’ (in the sense of accompaniment, as ‘John came with Mark’), is always followed by a word in the ablative, whereas ad ‘to’ (in the sense of motion towards, as ‘we went to the beach’) is always followed by a word in the accusative. Some of the most important prepositions and the cases they take are the following: ā, ab + ablative ‘from’, ‘away from’ cum + ablative ‘with’ (accompaniment) dē + ablative ‘from’, ‘about’ ē, ex + ablative ‘out of’ sine + ablative ‘without’ in + ablative ‘in’, ‘on’ (without motion towards, as ‘He was swimming in the water’) in + accusative ‘into’, ‘onto’ (with motion towards, as ‘He dived into the water’) ad + accusative ‘to’ (with motion towards) per + accusative ‘through’ trāns + accusative ‘across’ The basic principle is that motion towards takes the accusative, motion from takes the ablative, and lack of motion also takes the ablative. Nevertheless, some prepositions always take the same case regardless of the particular context in which they occur."
+          "text": "The ablative is used in a variety of ways, including after many prepositions. Prepositions in Latin always govern a particular case or cases; for example cum, which means ‘with’ (in the sense of accompaniment, as ‘John came with Mark’), is always followed by a word in the ablative, whereas ad ‘to’ (in the sense of motion towards, as ‘we went to the beach’) is always followed by a word in the accusative."
+        },
+        {
+          "t": "p",
+          "text": "Some of the most important prepositions and the cases they take are the following: ā, ab + ablative ‘from’, ‘away from’ cum + ablative ‘with’ (accompaniment) dē + ablative ‘from’, ‘about’ ē, ex + ablative ‘out of’ sine + ablative ‘without’ in + ablative ‘in’, ‘on’ (without motion towards, as ‘He was swimming in the water’) in + accusative ‘into’, ‘onto’ (with motion towards, as ‘He dived into the water’) ad + accusative ‘to’ (with motion towards) per + accusative ‘through’ trāns + accusative ‘across’ The basic principle is that motion towards takes the accusative, motion from takes the ablative, and lack of motion also takes the ablative."
+        },
+        {
+          "t": "p",
+          "text": "Nevertheless, some prepositions always take the same case regardless of the particular context in which they occur."
         }
       ]
     },
@@ -48,7 +196,31 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "The Latin verb ‘go’, like ‘be’ and ‘can’, is irregular. It is eō, īre, iī/īvī, itum, conjugated as follows: Present active indicative Future active indicative Perfect active indicative eō ‘I go’, ‘I am going’ ībō ‘I will go’, iī, īvī ‘I went’, ‘I have ‘I shall go’ gone’ īs ‘you (singular) go’, ībis ‘you (singular) īstī, īvistī ‘you (singular) ‘you (singular) are will go’, ‘you went’, you going’ (singular) shall (singular) have gone’ go’ it ‘he/she/it goes’, ībit ‘he/she/it will iit, īvit ‘he/she/it went’, ‘he/she/it is go’, ‘he/she/it ‘he/she/it has going’, ‘goes’, ‘is shall go’, ‘will gone’, ‘went’, going’ go’, ‘shall go’ ‘has gone’ īmus ‘we go’, ‘we are ībimus ‘we will go’, iimus, īvimus ‘we went’, ‘we going’ ‘we shall go’ have gone’ ītis ‘you (plural) go’, ībitis ‘you (plural) īstis, īvistis ‘you (plural) ‘you (plural) are will go’, ‘you went’, ‘you going’ (plural) shall (plural) have go’ gone’ eunt ‘they go’, ‘they are ībunt ‘they will go’, iērunt, ‘they went’, ‘they going’, ‘go’, ‘are ‘they shall go’, īvērunt have gone’, going’ ‘will go’, ‘shall ‘went’, ‘have go’ gone’"
+          "text": "The Latin verb ‘go’, like ‘be’ and ‘can’, is irregular. It is eō, īre, iī/īvī, itum, conjugated"
+        },
+        {
+          "t": "example",
+          "text": ""
+        },
+        {
+          "t": "pre",
+          "text": "Present active indicative Future active indicative Perfect active indicative"
+        },
+        {
+          "t": "h",
+          "text": "eō ‘I go’, ‘I am going’ ībō ‘I will go’, iī, īvī ‘I went’, ‘I have"
+        },
+        {
+          "t": "example",
+          "text": "‘I shall go’ gone’\nīs ‘you (singular) go’, ībis ‘you (singular) īstī, īvistī ‘you (singular) ‘you (singular) are will go’, ‘you went’, you going’ (singular) shall (singular) have gone’ go’"
+        },
+        {
+          "t": "h",
+          "text": "it ‘he/she/it goes’, ībit ‘he/she/it will iit, īvit ‘he/she/it went’,"
+        },
+        {
+          "t": "p",
+          "text": "‘he/she/it is go’, ‘he/she/it ‘he/she/it has going’, ‘goes’, ‘is shall go’, ‘will gone’, ‘went’, going’ go’, ‘shall go’ ‘has gone’ īmus ‘we go’, ‘we are ībimus ‘we will go’, iimus, īvimus ‘we went’, ‘we going’ ‘we shall go’ have gone’ ītis ‘you (plural) go’, ībitis ‘you (plural) īstis, īvistis ‘you (plural) ‘you (plural) are will go’, ‘you went’, ‘you going’ (plural) shall (plural) have go’ gone’ eunt ‘they go’, ‘they are ībunt ‘they will go’, iērunt, ‘they went’, ‘they going’, ‘go’, ‘are ‘they shall go’, īvērunt have gone’, going’ ‘will go’, ‘shall ‘went’, ‘have go’ gone’"
         }
       ]
     }
@@ -61,7 +233,6 @@ const chapter = {
       "paragraphs": [
         "filius tuus cum pueris est. vicerunt.",
         "servus meus ex oppido cucurrit.",
-        "ubi sunt pueri? cum magistro",
         "servus tuus a castris cucurrit.",
         "puella ad aquam it.",
         "puella, isne per aquam?"
@@ -312,11 +483,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "33 sine servis e castris cucurrimus. 9.",
-          "a": ""
-        },
-        {
-          "q": "3 Eō 65",
+          "q": "33 sine servis e castris cucurrimus.",
           "a": ""
         }
       ],

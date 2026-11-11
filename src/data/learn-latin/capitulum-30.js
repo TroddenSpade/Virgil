@@ -9,6 +9,38 @@ const chapter = {
   "complete": true,
   "sections": [
     {
+      "id": "section-0",
+      "latin": "Introduction",
+      "english": "Introduction",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Verbs expressing fear, such as timeō and vereor, take several different constructions in Latin. As in English, they can take an infinitive; this occurs in exactly the same circumstances in both languages. They can also take a subjunctive clause using present or imperfect subjunctive according to the rules of sequence discussed in chapters 16 and 28. Such clauses are introduced by nē, which is translated in English by ‘that’ or ‘lest’. timeō venīre. ‘I am afraid to come.’ veritus est venīre. ‘He was afraid to come.’ timeō nē veniat. ‘I am afraid that he will come.’ / ‘I fear lest he come.’ veritus est nē venīrent. ‘He was afraid that they would come.’ / ‘He feared lest they"
+        },
+        {
+          "t": "h",
+          "text": "come.’"
+        },
+        {
+          "t": "p",
+          "text": "The fact that fear clauses are introduced by nē when the subordinate clause is positive means that when the subordinate clause is negative one cannot simply signal that by replacing the initial ut with nē, as is done with purpose clauses and indirect commands. Instead a negative fear clause can be expressed either by adding nōn to it, or by changing nē to ut. timeō nē nōn veniat. ‘I am afraid that he will not come.’ / ‘I fear lest he not come.’ timeō ut veniat. ‘I am afraid that he will not come.’ / ‘I fear lest he not come.’ veritus est nē nōn venīrent. ‘He was afraid that they would not come.’ / ‘He feared lest"
+        },
+        {
+          "t": "h",
+          "text": "they not come.’"
+        },
+        {
+          "t": "p",
+          "text": "veritus est ut venīrent. ‘He was afraid that they would not come.’ / ‘He feared lest they"
+        },
+        {
+          "t": "h",
+          "text": "not come.’"
+        }
+      ]
+    },
+    {
       "id": "section-1",
       "latin": "30.2 Long Sentences",
       "english": "Grammar",
@@ -16,7 +48,23 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "Latin sentences are often very long. When dealing with a long sentence, the first step is to identify the different clauses of which it is composed (see chapter 15.1 for clauses) and where they begin and end. Conjunctions often provide good clues to the location of clause boundaries, since conjunctions usually come at the start of clauses, but many constructions, particularly those involving infinitives and participles, are not introduced by conjunctions. Verbs can also be helpful, because verbs often come at the end of their clauses, but verbs do not always come at the ends of their clauses. Punctuation, when present, should always be used to the maximum; usually it comes not from the original author but from an editor trying to make the sentence intelligible to modern readers. Most of the time, the words for each clause will be grouped together (though one clause may ‘nest’ inside another); it is rare for the words belonging to one clause to be interspersed randomly with those belonging to another clause (except in poetry, for which see the next chapter). Remember that normally speaking each clause has one verb, so you should expect to end up with as many clauses as you have verbs. The second step in translating a long sentence is to identify the constructions in the various clauses. Because the same verb form can have radically different translations according to which construction is being used, it is essential to avoid translating verbs until you have identified their constructions."
+          "text": "Latin sentences are often very long. When dealing with a long sentence, the first step is to identify the different clauses of which it is composed (see chapter 15.1 for clauses) and where they begin and end."
+        },
+        {
+          "t": "p",
+          "text": "Conjunctions often provide good clues to the location of clause boundaries, since conjunctions usually come at the start of clauses, but many constructions, particularly those involving infinitives and participles, are not introduced by conjunctions. Verbs can also be helpful, because verbs often come at the end of their clauses, but verbs do not always come at the ends of their clauses."
+        },
+        {
+          "t": "p",
+          "text": "Punctuation, when present, should always be used to the maximum; usually it comes not from the original author but from an editor trying to make the sentence intelligible to modern readers."
+        },
+        {
+          "t": "p",
+          "text": "Most of the time, the words for each clause will be grouped together (though one clause may ‘nest’ inside another); it is rare for the words belonging to one clause to be interspersed randomly with those belonging to another clause (except in poetry, for which see the next chapter). Remember that normally speaking each clause has one verb, so you should expect to end up with as many clauses as you have verbs."
+        },
+        {
+          "t": "p",
+          "text": "The second step in translating a long sentence is to identify the constructions in the various clauses. Because the same verb form can have radically different translations according to which construction is being used, it is essential to avoid translating verbs until you have identified their constructions."
         }
       ]
     },
@@ -28,26 +76,16 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "When reading real Latin texts, you will often find that there are many words you do not know and have to look up in a dictionary; when you look them up, you discover that each of them has several different meanings, and it is necessary to choose the right one. In order to do that successfully it is usually necessary to have divided the sentence up correctly before looking up the words, and therefore it is important to be able to divide up sentences even when you do not know what the words in them mean. If you think carefully about the grammar, this is usually not difficult as long as you know the words that provide the clues to the constructions."
+          "text": "When reading real Latin texts, you will often find that there are many words you do not know and have to look up in a dictionary; when you look them up, you discover that each of them has several different meanings, and it is necessary to choose the right one."
+        },
+        {
+          "t": "p",
+          "text": "In order to do that successfully it is usually necessary to have divided the sentence up correctly before looking up the words, and therefore it is important to be able to divide up sentences even when you do not know what the words in them mean. If you think carefully about the grammar, this is usually not difficult as long as you know the words that provide the clues to the constructions."
         }
       ]
     }
   ],
-  "readings": [
-    {
-      "id": "lectio-30",
-      "latinTitle": "SENTENTIAE LATĪNAE",
-      "title": "Latin sentences from this chapter",
-      "paragraphs": [
-        "milites veriti sunt progredi.",
-        "milites veriti sunt ne hostes",
-        "veniens ad urbem, frater meus fugerent, rex eos e castris ad gladium amisit quem filio dare hostium oppidum duxit. voluit, et veritus est ut eum",
-        "veritus ne se interficeremus, ille vendere vult. pollicitus est se omnia facturum",
-        "servos heri emptos malos esse patrem meum interficerent ut arbitrans, pater meus hodie ad pecuniam eius haberent. oppidum ire voluit ut eos"
-      ],
-      "notes": []
-    }
-  ],
+  "readings": [],
   "grammar": [],
   "vocabulary": [],
   "pensa": [
@@ -94,59 +132,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "10 timent ut sequatur. 30.",
-          "a": ""
-        },
-        {
-          "q": "2 Long Sentences 187",
-          "a": ""
-        },
-        {
-          "q": "11 timuerunt ne non sequeretur.",
-          "a": ""
-        },
-        {
-          "q": "19 milites veriti sunt progredi.",
-          "a": ""
-        },
-        {
-          "q": "12 veremur ut loquantur.",
-          "a": ""
-        },
-        {
-          "q": "20 milites veriti sunt ne hostes",
-          "a": ""
-        },
-        {
-          "q": "13 veriti sumus ne loquerentur. progrederentur.",
-          "a": ""
-        },
-        {
-          "q": "14 veremur loqui.",
-          "a": ""
-        },
-        {
-          "q": "21 milites verentur ut hostes",
-          "a": ""
-        },
-        {
-          "q": "15 veriti sumus ne non loquerentur. progrediantur.",
-          "a": ""
-        },
-        {
-          "q": "16 timui ne venaretur.",
-          "a": ""
-        },
-        {
-          "q": "22 milites verebuntur ne hostes",
-          "a": ""
-        },
-        {
-          "q": "17 timeo ut venentur. progrediantur.",
-          "a": ""
-        },
-        {
-          "q": "18 timui venari.",
+          "q": "10 timent ut sequatur.",
           "a": ""
         }
       ],
@@ -253,11 +239,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "2 quia duci persuasimus ut consul in senatu orationem nuntios ad urbem mitteret, cives habuit et negavit se haec fecisse. 30.",
-          "a": ""
-        },
-        {
-          "q": "3 Dividing Sentences 189",
+          "q": "2 quia duci persuasimus ut consul in senatu orationem nuntios ad urbem mitteret, cives habuit et negavit se haec fecisse.",
           "a": ""
         },
         {

@@ -15,8 +15,48 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
+          "t": "example",
+          "text": "The main Latin word for ‘he’, ‘she’, ‘it’, ‘they’, etc. is the irregular pronoun is, ea, id."
+        },
+        {
+          "t": "h",
+          "text": "British Case Order"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. is ‘he’ ea ‘she’ id ‘it’ eī/iī ‘they’ eae ‘they’ ea Voc. – – – – – – Acc. eum ‘him’ eam ‘her’ id ‘it’ eōs ‘them’ eās ‘them’ ea Gen. eius ‘his’ eius ‘her, hers’ eius ‘its’ eōrum ‘their’ eārum ‘their’ eōrum Dat. eī ‘him’ eī ‘her’ eī ‘it’ eīs/iīs ‘them’ eīs/iīs ‘them’ eīs/iīs Abl. eō ‘him’ eā ‘her’ eō ‘it’ eīs/iīs ‘them’ eīs/iīs ‘them’ eīs/iīs"
+        },
+        {
+          "t": "h",
+          "text": "Ancient Case Order"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. is ‘he’ ea ‘she’ id ‘it’ eī/iī ‘they’ eae ‘they’ ea Gen. eius ‘his’ eius ‘her, hers’ eius ‘its’ eōrum ‘their’ eārum ‘their’ eōrum Dat. eī ‘him’ eī ‘her’ eī ‘it’ eīs/iīs ‘them’ eīs/iīs ‘them’ eīs/iīs Acc. eum ‘him’ eam ‘her’ id ‘it’ eōs ‘them’ eās ‘them’ ea Abl. eō ‘him’ eā ‘her’ eō ‘it’ eīs/iīs ‘them’ eīs/iīs ‘them’ eīs/iīs"
+        },
+        {
           "t": "p",
-          "text": "The main Latin word for ‘he’, ‘she’, ‘it’, ‘they’, etc. is the irregular pronoun is, ea, id. British Case Order Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom. is ‘he’ ea ‘she’ id ‘it’ eī/iī ‘they’ eae ‘they’ ea Voc. – – – – – – Acc. eum ‘him’ eam ‘her’ id ‘it’ eōs ‘them’ eās ‘them’ ea Gen. eius ‘his’ eius ‘her, hers’ eius ‘its’ eōrum ‘their’ eārum ‘their’ eōrum Dat. eī ‘him’ eī ‘her’ eī ‘it’ eīs/iīs ‘them’ eīs/iīs ‘them’ eīs/iīs Abl. eō ‘him’ eā ‘her’ eō ‘it’ eīs/iīs ‘them’ eīs/iīs ‘them’ eīs/iīs Ancient Case Order Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom. is ‘he’ ea ‘she’ id ‘it’ eī/iī ‘they’ eae ‘they’ ea Gen. eius ‘his’ eius ‘her, hers’ eius ‘its’ eōrum ‘their’ eārum ‘their’ eōrum Dat. eī ‘him’ eī ‘her’ eī ‘it’ eīs/iīs ‘them’ eīs/iīs ‘them’ eīs/iīs Acc. eum ‘him’ eam ‘her’ id ‘it’ eōs ‘them’ eās ‘them’ ea Abl. eō ‘him’ eā ‘her’ eō ‘it’ eīs/iīs ‘them’ eīs/iīs ‘them’ eīs/iīs In the nominative this pronoun is not used nearly as often as its English equivalents, because the relevant information is normally conveyed in the verb endings. In the genitive eius and eōrum/eārum are used for possession freely; there is no possessive adjective for this pronoun as there are for the personal and reflexive pronouns. The genitives eius and eōrum, of course, do not agree with the nouns possessed: it is purely coincidental that one happens to end in -us and the other in -um. Thus māter eius means ‘his/her/its mother’, māter eōrum ‘their (masculine possessors) mother’, and māter eārum ‘their (feminine possessors) mother’. Compare māter mea ‘my mother’, māter nostra ‘our mother’, and mātres nostrae ‘our mothers’: there the adjectives meus and noster are inflected to agree with ‘mother’ and are feminine because māter is feminine, regardless of the genders of ‘I’ or ‘we’. The neuter plural has no consistent translation, as English has no plural of ‘it’; often it can be translated ‘these things’ or ‘those things’. Like hic and ille, the forms of is, ea, id can be used as adjectives, meaning both ‘this’ and ‘that’, as well as pronouns."
+          "text": "In the nominative this pronoun is not used nearly as often as its English equivalents, because the relevant information is normally conveyed in the verb endings. In the genitive eius and eōrum/eārum are used for possession freely; there is no possessive adjective for this pronoun as there are for the personal and reflexive pronouns."
+        },
+        {
+          "t": "p",
+          "text": "The genitives eius and eōrum, of course, do not agree with the nouns possessed: it is purely coincidental that one happens to end in -us and the other in -um. Thus māter eius means ‘his/her/its mother’, māter eōrum ‘their (masculine possessors) mother’, and māter eārum ‘their (feminine possessors) mother’."
+        },
+        {
+          "t": "p",
+          "text": "Compare māter mea ‘my mother’, māter nostra ‘our mother’, and mātres nostrae ‘our mothers’: there the adjectives meus and noster are inflected to agree with ‘mother’ and are feminine because māter is feminine, regardless of the genders of ‘I’ or ‘we’. The neuter plural has no consistent translation, as English has no plural of ‘it’; often it can be translated ‘these things’ or ‘those things’."
+        },
+        {
+          "t": "p",
+          "text": "Like hic and ille, the forms of is, ea, id can be used as adjectives, meaning both ‘this’ and ‘that’, as well as pronouns."
         }
       ]
     },
@@ -28,7 +68,19 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "Since sē and suus have translations that overlap with those of is, it is important to distinguish carefully between them. Forms of sē and suus refer back to the subject of the sentence, while forms of is (unless they are nominative) refer to a person or thing that is not the same as the subject of the sentence. Thus sē audit is ‘he hears himself’, and eum audit is ‘he hears him’ (i.e. someone else). Similarly ‘he sees his horse’ is equum suum videt when the person who owns the horse and the person doing the seeing are the same, and equum eius videt when the person who owns the horse is not the same as the person doing the seeing. (Notice that suum is an adjective agreeing with ‘horse’ while eius is a genitive.) In indirect statement the potential for confusion between sē and eum/eam is particularly great, because English allows an ambiguity that Latin does not: dīxit sē venīre and dīxit eum venīre can both be translated ‘he said he was coming’, but in the first case the person doing the saying and the person doing the coming are the same (i.e. the original sentence was ‘I am coming’), and in the second case the person coming is not the same as the person saying (i.e. the original sentence was ‘He is coming’)."
+          "text": "Since sē and suus have translations that overlap with those of is, it is important to distinguish carefully between them. Forms of sē and suus refer back to the subject of the sentence, while forms of is (unless they are nominative) refer to a person or thing that is not the same as the subject of the sentence. Thus sē audit is ‘he hears himself’, and eum audit is ‘he hears him’ (i.e. someone else)."
+        },
+        {
+          "t": "p",
+          "text": "Similarly ‘he sees his horse’ is equum suum videt when the person who owns the horse and the person doing the seeing are the same, and equum eius videt when the person who owns the horse is not the same as the person doing the seeing."
+        },
+        {
+          "t": "p",
+          "text": "(Notice that suum is an adjective agreeing with ‘horse’ while eius is a genitive.) In indirect statement the potential for confusion between sē and eum/eam is particularly great, because English allows an ambiguity that Latin does not: dīxit sē venīre and dīxit eum venīre can both be translated ‘he said he was coming’, but in the first case the person doing the saying and the person doing the coming are the same (i.e."
+        },
+        {
+          "t": "p",
+          "text": "the original sentence was ‘I am coming’), and in the second case the person coming is not the same as the person saying (i.e. the original sentence was ‘He is coming’)."
         }
       ]
     },
@@ -40,7 +92,11 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "The prepostion ā or ab can mean ‘by’ as well as ‘from’. In this meaning as well it takes the ablative, and the construction is known as the ablative of agent. It is used with passive verb forms, and therefore the only forms with which you can at this stage find it are perfect participles, which as we have seen (chapter 6.2) are passive in meaning. Thus puella ā poētā amāta ‘the girl loved by the poet’, equus ā puerō ductus ‘the horse led by the boy’. This construction can be used only when the doer is a person, god, or other animate being; for inanimate agents (e.g. ‘he was killed by a landslide’) a different construction is used (to be discussed in chapter 32.3)."
+          "text": "The prepostion ā or ab can mean ‘by’ as well as ‘from’. In this meaning as well it takes the ablative, and the construction is known as the ablative of agent. It is used with passive verb forms, and therefore the only forms with which you can at this stage find it are perfect participles, which as we have seen (chapter 6.2) are passive in meaning."
+        },
+        {
+          "t": "p",
+          "text": "Thus puella ā poētā amāta ‘the girl loved by the poet’, equus ā puerō ductus ‘the horse led by the boy’. This construction can be used only when the doer is a person, god, or other animate being; for inanimate agents (e.g. ‘he was killed by a landslide’) a different construction is used (to be discussed in chapter 32.3)."
         }
       ]
     }
@@ -55,12 +111,7 @@ const chapter = {
         "ea pulchra est.",
         "eae pulchrae sunt.",
         "ea pulchra sunt.",
-        "pater eorum",
-        "pater meus dixit se ovem",
-        "pater meus dixit eum ovem",
-        "matrem amat.",
-        "liber a puella lectus",
-        "servus a Marco missus"
+        "matrem amat."
       ],
       "notes": []
     }
@@ -305,11 +356,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "2 dixit eam me amare. interfecturum esse. 23.",
-          "a": ""
-        },
-        {
-          "q": "2 Distinguishing Is from Sē 147",
+          "q": "2 dixit eam me amare. interfecturum esse.",
           "a": ""
         },
         {

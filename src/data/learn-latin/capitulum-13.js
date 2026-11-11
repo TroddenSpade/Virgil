@@ -9,6 +9,18 @@ const chapter = {
   "complete": true,
   "sections": [
     {
+      "id": "section-0",
+      "latin": "Introduction",
+      "english": "Introduction",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Like the indicative and the imperative, the subjunctive is a mood. Latin subjunctives can be difficult to deal with because they have no fixed translation in English: they occur in a variety of different constructions, and their meanings depend on the constructions in which they are used. In Latin the subjunctive, like the indicative, can have different forms. One of these is the present active subjunctive, which is formed as follows. First Second Third conjugation conjugation conjugation Sum Possum Eō amem moneam regam sim possim eam amēs moneās regās sīs possīs eās amet moneat regat sit possit eat amēmus moneāmus regāmus sīmus possīmus eāmus amētis moneātis regātis sītis possītis eātis ament moneant regant sint possint eant"
+        }
+      ]
+    },
+    {
       "id": "section-1",
       "latin": "13.2 Hortatory and Deliberative Subjunctives",
       "english": "Grammar",
@@ -16,7 +28,15 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "One use of the present subjunctive is to express wishes or suggestions; subjunctives with this meaning are usually translated with ‘let’s’ (in the first person plural) or with ‘may’ before the subject (in other forms), and the construction is known as the hortatory subjunctive.1 Thus videāmus can mean ‘let’s see’, videās can mean ‘may you see’ (not ‘you may see’), and videat can mean ‘may he see’ (not ‘he may see’). When such expressions are negative, they use nē rather than nōn as the negative: nē scrībāmus ‘let’s not write’, nē scrībat ‘may he not write’. Another use of the present subjunctive is in questions in which the speaker wonders what to do; these subjunctives are always in the first person and are known as deliberative subjunctives. They are usually translated with ‘should’ or ‘am I to’ / ‘are we to’; thus scrībamne? means ‘should I write?’, ‘am I to write?’, and scrībāmusne means ‘should we write?’, ‘are we to write?’. It is therefore necessary to work out whether a subjunctive is hortatory or deliberative before translating it; as the deliberative subjunctive occurs only in questions and the hortatory subjunctive cannot be used in questions this task is not very difficult."
+          "text": "One use of the present subjunctive is to express wishes or suggestions; subjunctives with this meaning are usually translated with ‘let’s’ (in the first person plural) or with ‘may’ before the subject (in other forms), and the construction is known as the hortatory subjunctive.1 Thus videāmus can mean ‘let’s see’, videās can mean ‘may you see’ (not ‘you may see’), and videat can mean ‘may he see’ (not ‘he may see’)."
+        },
+        {
+          "t": "p",
+          "text": "When such expressions are negative, they use nē rather than nōn as the negative: nē scrībāmus ‘let’s not write’, nē scrībat ‘may he not write’. Another use of the present subjunctive is in questions in which the speaker wonders what to do; these subjunctives are always in the first person and are known as deliberative subjunctives. They are usually translated with ‘should’ or ‘am I to’ / ‘are we to’; thus scrībamne?"
+        },
+        {
+          "t": "p",
+          "text": "means ‘should I write?’, ‘am I to write?’, and scrībāmusne means ‘should we write?’, ‘are we to write?’. It is therefore necessary to work out whether a subjunctive is hortatory or deliberative before translating it; as the deliberative subjunctive occurs only in questions and the hortatory subjunctive cannot be used in questions this task is not very difficult."
         }
       ]
     },
@@ -27,12 +47,72 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
+          "t": "p",
+          "text": "The interrogative pronoun quis, quid is the Latin equivalent of ‘who?’ and ‘what?’; the genitive can therefore be the equivalent of ‘whose?’ and the accusative the equivalent of ‘whom?’. It is declined"
+        },
+        {
+          "t": "example",
+          "text": ""
+        },
+        {
           "t": "h",
-          "text": "13.3 Interrogative Pronoun"
+          "text": "British Case Order"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. quis quis quid quī quae quae Voc. – – – – – – Acc. quem quam quid quōs quās quae Gen. cuius cuius cuius quōrum quārum quōrum Dat. cui cui cui quibus/quīs quibus/quīs quibus/quīs Abl. quō quā quō quibus/quīs quibus/quīs quibus/quīs"
+        },
+        {
+          "t": "h",
+          "text": "Ancient Case Order"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. quis quis quid quī quae quae Gen. cuius cuius cuius quōrum quārum quōrum Dat. cui cui cui quibus/quīs quibus/quīs quibus/quīs Acc. quem quam quid quōs quās quae Abl. quō quā quō quibus/quīs quibus/quīs quibus/quīs"
         },
         {
           "t": "p",
-          "text": "The interrogative pronoun quis, quid is the Latin equivalent of ‘who?’ and ‘what?’; the genitive can therefore be the equivalent of ‘whose?’ and the accusative the equivalent of ‘whom?’. It is declined as follows: British Case Order Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom. quis quis quid quī quae quae Voc. – – – – – – Acc. quem quam quid quōs quās quae Gen. cuius cuius cuius quōrum quārum quōrum Dat. cui cui cui quibus/quīs quibus/quīs quibus/quīs Abl. quō quā quō quibus/quīs quibus/quīs quibus/quīs Ancient Case Order Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom. quis quis quid quī quae quae Gen. cuius cuius cuius quōrum quārum quōrum Dat. cui cui cui quibus/quīs quibus/quīs quibus/quīs Acc. quem quam quid quōs quās quae Abl. quō quā quō quibus/quīs quibus/quīs quibus/quīs There is also an interrogative adjective, the Latin equivalent of ‘which?’ in contexts such as ‘Which book do you want?’. This is declined very similarly to the pronoun, but not identically; the forms that differ are in bold in the paradigm below. British Case Order Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom. quī quae quod quī quae quae Voc. – – – – – – Acc. quem quam quod quōs quās quae Gen. cuius cuius cuius quōrum quārum quōrum Dat. cui cui cui quibus/quīs quibus/quīs quibus/quīs Abl. quō quā quō quibus/quīs quibus/quīs quibus/quīs Ancient Case Order Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom. quī quae quod quī quae quae Gen. cuius cuius cuius quōrum quārum quōrum Dat. cui cui cui quibus/quīs quibus/quīs quibus/quīs Acc. quem quam quod quōs quās quae Abl. quō quā quō quibus/quīs quibus/quīs quibus/quīs Because most forms are identical for the pronoun and the adjective, one normally has to keep both possibilities in mind and decide between them based on the context, as with the pronominal and adjectival meanings of hic and ille. When the interrogative word agrees with another word in the sentence, it is normally best translated with ‘which?’: quae puella adest? ‘Which girl is present?’, quod verbum scrīpsistī? ‘Which word did you write?’. When it does not agree with anything it is translated with ‘what?’ in the neuter (quid dīxit? ‘What did he say?’) and with ‘who?’, ‘whom?’, or ‘whose?’ in the masculine and feminine: quis est? ‘Who is it?’, quem vīdistī? ‘Whom did you see?’, cuius pecūnia est? ‘Whose money is it?’ As these examples suggest, questions introduced by forms of quis or quī do not have -ne as well."
+          "text": "There is also an interrogative adjective, the Latin equivalent of ‘which?’ in contexts such as ‘Which book do you want?’. This is declined very similarly to the pronoun, but not identically; the forms that differ are in bold in the paradigm below."
+        },
+        {
+          "t": "h",
+          "text": "British Case Order"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. quī quae quod quī quae quae Voc. – – – – – – Acc. quem quam quod quōs quās quae Gen. cuius cuius cuius quōrum quārum quōrum Dat. cui cui cui quibus/quīs quibus/quīs quibus/quīs Abl. quō quā quō quibus/quīs quibus/quīs quibus/quīs"
+        },
+        {
+          "t": "h",
+          "text": "Ancient Case Order"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. quī quae quod quī quae quae Gen. cuius cuius cuius quōrum quārum quōrum Dat. cui cui cui quibus/quīs quibus/quīs quibus/quīs Acc. quem quam quod quōs quās quae Abl. quō quā quō quibus/quīs quibus/quīs quibus/quīs"
+        },
+        {
+          "t": "p",
+          "text": "Because most forms are identical for the pronoun and the adjective, one normally has to keep both possibilities in mind and decide between them based on the context, as with the pronominal and adjectival meanings of hic and ille. When the interrogative word agrees with another word in the sentence, it is normally best translated with ‘which?’: quae puella adest? ‘Which girl is present?’, quod verbum scrīpsistī?"
+        },
+        {
+          "t": "p",
+          "text": "‘Which word did you write?’. When it does not agree with anything it is translated with ‘what?’ in the neuter (quid dīxit? ‘What did he say?’) and with ‘who?’, ‘whom?’, or ‘whose?’ in the masculine and feminine: quis est? ‘Who is it?’, quem vīdistī? ‘Whom did you see?’, cuius pecūnia est? ‘Whose money is it?’ As these examples suggest, questions introduced by forms of quis or quī do not have -ne as well."
         }
       ]
     }
@@ -272,11 +352,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "14 adsimusne vobiscum? Different scholars use different terminology for the hortatory subjunctive: ‘jussive’ and ‘optative’ are also found. According to some classifications these three terms apply to slightly different uses of the present subjunctive: when it is a command (e.g. ‘let there be light’) it is called jussive, when it is a wish (e.g. ‘may the gods be propitious’) it is called optative, and when it is an exhortation (a first-person plural command, e.g. ‘let’s go’) it is hortatory. But there are also other ways of using these terms. 13.",
-          "a": ""
-        },
-        {
-          "q": "3 Interrogative Pronoun 91",
+          "q": "14 adsimusne vobiscum? Different scholars use different terminology for the hortatory subjunctive: ‘jussive’ and ‘optative’ are also found. According to some classifications these three terms apply to slightly different uses of the present subjunctive: when it is a command (e.g. ‘let there be light’) it is called jussive, when it is a wish (e.g. ‘may the gods be propitious’) it is called optative, and when it is an exhortation (a first-person plural command, e.g. ‘let’s go’) it is hortatory. But there are also other ways of using these terms.",
           "a": ""
         }
       ],

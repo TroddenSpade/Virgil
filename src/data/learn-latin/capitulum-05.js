@@ -15,12 +15,76 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "5.1 Genitive"
+          "t": "p",
+          "text": "The nominative, vocative, and accusative are only three of the six cases in Latin. Another is the genitive, whose singular endings you have already seen in the vocabulary entries."
         },
         {
           "t": "p",
-          "text": "The nominative, vocative, and accusative are only three of the six cases in Latin. Another is the genitive, whose singular endings you have already seen in the vocabulary entries. The genitive is traditionally used in dictionary entries because it was the second case (after the nominative) in the order that the Romans themselves used, and many modern Classicists (especially in North America) follow this ancient order.1 British Classicists, however, tend to learn the cases in a revised order that puts similar endings together and therefore makes the paradigms easier to learn. In order to accommodate both traditions, this book will give all declensions twice, first in the British order and then in the ancient order. It is recommended that any given class choose one order and stick to it consistently throughout the course, to avoid confusion. In the British order, the first four cases of the nouns are as follows: British Case Order First declension Second declension Second declension masculine neuter Singular Plural Singular Plural Singular Plural Nominative puella puellae servus servī bellum bella Vocative puella puellae serve servī bellum bella Accusative puellam puellās servum servōs bellum bella Genitive puellae puellārum servī servōrum bellī bellōrum The adjectives form their genitives in the same way. For the fascinating story of the history of the different orders of the cases see W. S. Allen and C. O. Brink, ‘The Old Order and the New: A Case History’, Lingua 50 (1980), pp. 61–100. Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nominative bonus bona bonum bonī bonae bona Vocative bone bona bonum bonī bonae bona Accusative bonum bonam bonum bonōs bonās bona Genitive bonī bonae bonī bonōrum bonārum bonōrum In the ancient order, these are arranged as follows: Ancient Case Order First declension Second declension Second declension masculine neuter Singular Plural Singular Plural Singular Plural Nominative puella puellae servus servī bellum bella Genitive puellae puellārum servī servōrum bellī bellōrum Accusative puellam puellās servum servōs bellum bella Vocative puella puellae serve servī bellum bella And the adjectives have a similar pattern: Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nominative bonus bona bonum bonī bonae bona Genitive bonī bonae bonī bonōrum bonārum bonōrum Accusative bonum bonam bonum bonōs bonās bona Vocative bone bona bonum bonī bonae bona"
+          "text": "The genitive is traditionally used in dictionary entries because it was the second case (after the nominative) in the order that the Romans themselves used, and many modern Classicists (especially in North America) follow this ancient order.1 British Classicists, however, tend to learn the cases in a revised order that puts similar endings together and therefore makes the paradigms easier to learn."
+        },
+        {
+          "t": "p",
+          "text": "In order to accommodate both traditions, this book will give all declensions twice, first in the British order and then in the ancient order. It is recommended that any given class choose one order and stick to it consistently throughout the course, to avoid confusion. In the British order, the first four cases of the nouns are as follows:"
+        },
+        {
+          "t": "h",
+          "text": "British Case Order"
+        },
+        {
+          "t": "example",
+          "text": "First declension Second declension Second declension"
+        },
+        {
+          "t": "h",
+          "text": "masculine neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Singular Plural Singular Plural"
+        },
+        {
+          "t": "p",
+          "text": "Nominative puella puellae servus servī bellum bella Vocative puella puellae serve servī bellum bella Accusative puellam puellās servum servōs bellum bella Genitive puellae puellārum servī servōrum bellī bellōrum The adjectives form their genitives in the same way. For the fascinating story of the history of the different orders of the cases see W. S. Allen and C. O."
+        },
+        {
+          "t": "p",
+          "text": "Brink, ‘The Old Order and the New: A Case History’, Lingua 50 (1980), pp. 61–100."
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "p",
+          "text": "Nominative bonus bona bonum bonī bonae bona Vocative bone bona bonum bonī bonae bona Accusative bonum bonam bonum bonōs bonās bona Genitive bonī bonae bonī bonōrum bonārum bonōrum In the ancient order, these are arranged as follows:"
+        },
+        {
+          "t": "h",
+          "text": "Ancient Case Order"
+        },
+        {
+          "t": "example",
+          "text": "First declension Second declension Second declension"
+        },
+        {
+          "t": "h",
+          "text": "masculine neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Singular Plural Singular Plural"
+        },
+        {
+          "t": "p",
+          "text": "Nominative puella puellae servus servī bellum bella Genitive puellae puellārum servī servōrum bellī bellōrum Accusative puellam puellās servum servōs bellum bella Vocative puella puellae serve servī bellum bella And the adjectives have a similar pattern:"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "p",
+          "text": "Nominative bonus bona bonum bonī bonae bona Genitive bonī bonae bonī bonōrum bonārum bonōrum Accusative bonum bonam bonum bonōs bonās bona Vocative bone bona bonum bonī bonae bona"
         }
       ]
     },
@@ -31,12 +95,44 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "5.2 Use of the Genitive"
+          "t": "p",
+          "text": "The genitive case is used for possession. It is the only case that survives with distinctive endings in English nouns: words ending in an apostrophe + s, or s + apostrophe, are normally genitives in English. Thus girl’s in ‘that girl’s book is on the desk’ is a genitive, as is girls’ in ‘those girls’ books are on the desk’;2 puellae servī is ‘the girl’s slaves’ and puellārum servī is ‘the girls’ slaves’."
         },
         {
           "t": "p",
-          "text": "The genitive case is used for possession. It is the only case that survives with distinctive endings in English nouns: words ending in an apostrophe + s, or s + apostrophe, are normally genitives in English. Thus girl’s in ‘that girl’s book is on the desk’ is a genitive, as is girls’ in ‘those girls’ books are on the desk’;2 puellae servī is ‘the girl’s slaves’ and puellārum servī is ‘the girls’ slaves’. A genitive phrase of this sort can be the subject or the object of a sentence: puellae servus currit ‘The girl’s slave is running’ versus puellae servum dūcō ‘I lead the girl’s slave’. Notice that in these two sentences the case of ‘slave’ changes according to whether the slave is the subject or the object, but ‘girl’ remains in the genitive case in both, since in both sentences the girl is neither subject nor object, but the possessor of the slave. There is sometimes a temptation to mix up which word in a phrase is the genitive, i.e. to mistranslate puellae servus as ‘the slave’s girl’. To avoid this temptation, remember that the word that gets the apostrophe in English is the same word as the one that gets the genitive ending in Latin. Sometimes a Latin genitive is best translated with English ‘of’; thus puellae servus can mean ‘the slave of the girl’ as well as ‘the girl’s slave’. Here as well there is a temptation to mix up which word is the genitive, and to mistranslate puellae servus as ‘the girl of the slave’. That temptation can be avoided by remembering that the word after the ‘of’ in English is the genitive in Latin. Some English ‘of’ phrases are not possessive, but these too are normally translated with a genitive in Latin; for example ‘one of the slaves’ and ‘some of the horses’ are phrases using partitive genitives (for which see chapter 12.1). Generally speaking you should translate any English ‘of’ with a genitive unless there is a particular reason not to do so. The following distinctions apply in correct written English but are not always observed in practice; you will need to follow them if you want to translate Latin correctly: girl = one girl, nominative or accusative girl’s = one girl, genitive girls = two or more girls, nominative or accusative girls’ = two or more girls, genitive Thus: ‘The girls saw me’, ‘I saw the girls’, ‘I saw the girl’s book’ (one girl owns it), ‘I saw the girls’ book’ (two girls own it jointly). But note also that apostrophe + s can sometimes be short for ‘is’, as in ‘He’s not here.’ With the word ‘it’, an apostrophe is used before ‘s’ when ‘it’s’ stands for ‘it is’, but no apostrophe is used when ‘its’ is a genitive. A genitive normally stands next to the noun that it relates to, but if a genitive falls between two nouns the sentence may be ambiguous: servus puellae equum ēmit could mean either ‘The girl’s slave bought a horse’ or ‘A slave bought the girl’s horse’. This type of ambiguity was as perplexing to the Romans as it is to us, so they usually avoided it: in a real text the context will normally make it clear which is intended. Since adjectives agree with the nouns they modify in gender, number, and case, any adjectives modifying nouns in the genitive will also be in the genitive case. Thus servī bonī equus ‘the good slave’s horse’. The possessive adjectives meus ‘my’ and tuus ‘your’ are not genitives, but a different way of expressing possession."
+          "text": "A genitive phrase of this sort can be the subject or the object of a sentence: puellae servus currit ‘The girl’s slave is running’ versus puellae servum dūcō ‘I lead the girl’s slave’."
+        },
+        {
+          "t": "p",
+          "text": "Notice that in these two sentences the case of ‘slave’ changes according to whether the slave is the subject or the object, but ‘girl’ remains in the genitive case in both, since in both sentences the girl is neither subject nor object, but the possessor of the slave. There is sometimes a temptation to mix up which word in a phrase is the genitive, i.e. to mistranslate puellae servus as ‘the slave’s girl’."
+        },
+        {
+          "t": "p",
+          "text": "To avoid this temptation, remember that the word that gets the apostrophe in English is the same word as the one that gets the genitive ending in Latin. Sometimes a Latin genitive is best translated with English ‘of’; thus puellae servus can mean ‘the slave of the girl’ as well as ‘the girl’s slave’."
+        },
+        {
+          "t": "p",
+          "text": "Here as well there is a temptation to mix up which word is the genitive, and to mistranslate puellae servus as ‘the girl of the slave’. That temptation can be avoided by remembering that the word after the ‘of’ in English is the genitive in Latin."
+        },
+        {
+          "t": "p",
+          "text": "Some English ‘of’ phrases are not possessive, but these too are normally translated with a genitive in Latin; for example ‘one of the slaves’ and ‘some of the horses’ are phrases using partitive genitives (for which see chapter 12.1). Generally speaking you should translate any English ‘of’ with a genitive unless there is a particular reason not to do so."
+        },
+        {
+          "t": "p",
+          "text": "The following distinctions apply in correct written English but are not always observed in practice; you will need to follow them if you want to translate Latin correctly: girl = one girl, nominative or accusative girl’s = one girl, genitive girls = two or more girls, nominative or accusative girls’ = two or more girls, genitive Thus: ‘The girls saw me’, ‘I saw the girls’, ‘I saw the girl’s book’ (one girl owns it), ‘I saw the girls’ book’ (two girls own it jointly)."
+        },
+        {
+          "t": "p",
+          "text": "But note also that apostrophe + s can sometimes be short for ‘is’, as in ‘He’s not here.’ With the word ‘it’, an apostrophe is used before ‘s’ when ‘it’s’ stands for ‘it is’, but no apostrophe is used when ‘its’ is a genitive."
+        },
+        {
+          "t": "p",
+          "text": "A genitive normally stands next to the noun that it relates to, but if a genitive falls between two nouns the sentence may be ambiguous: servus puellae equum ēmit could mean either ‘The girl’s slave bought a horse’ or ‘A slave bought the girl’s horse’. This type of ambiguity was as perplexing to the Romans as it is to us, so they usually avoided it: in a real text the context will normally make it clear which is intended."
+        },
+        {
+          "t": "p",
+          "text": "Since adjectives agree with the nouns they modify in gender, number, and case, any adjectives modifying nouns in the genitive will also be in the genitive case. Thus servī bonī equus ‘the good slave’s horse’. The possessive adjectives meus ‘my’ and tuus ‘your’ are not genitives, but a different way of expressing possession."
         }
       ]
     },
@@ -47,12 +143,48 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
+          "t": "p",
+          "text": "The verb sum ‘be’ is irregular in Latin as in English; its principal parts are sum, esse, fuī, and futūrus.3 It is conjugated as follows:"
+        },
+        {
+          "t": "pre",
+          "text": "Present active indicative Future active indicative Perfect active indicative"
+        },
+        {
+          "t": "example",
+          "text": "sum ‘I am’\nerō ‘I will be’, ‘I shall be’\nfuī ‘I have been’, ‘I was’\nes ‘you (singular) eris ‘you (singular) will fuistī ‘you (singular) have"
+        },
+        {
           "t": "h",
-          "text": "5.3 Sum"
+          "text": "are’ be’, ‘you (singular) been’, ‘you (singular)"
         },
         {
           "t": "p",
-          "text": "The verb sum ‘be’ is irregular in Latin as in English; its principal parts are sum, esse, fuī, and futūrus.3 It is conjugated as follows: Present active indicative Future active indicative Perfect active indicative sum ‘I am’ erō ‘I will be’, ‘I shall be’ fuī ‘I have been’, ‘I was’ es ‘you (singular) eris ‘you (singular) will fuistī ‘you (singular) have are’ be’, ‘you (singular) been’, ‘you (singular) shall be’ were’ est ‘he/she/it is’, ‘is’ erit ‘he/she/it will be’, fuit ‘he/she/it has ‘he/she/it shall be’, been’, ‘he/she/it ‘will be’, ‘shall be’ was’, ‘has been’, ‘was’ sumus ‘we are’ erimus ‘we will be’, ‘we shall fuimus ‘we have been’, ‘we be’ were’ estis ‘you (plural) eritis ‘you (plural) will be’, fuistis ‘you (plural) have are’ ‘you (plural) shall be’ been’, ‘you (plural) were’ sunt ‘they are’, erunt ‘they will be’, ‘they fuērunt ‘they have been’, ‘they ‘are’ shall be’, ‘will be’, were’, ‘have been’, ‘shall be’ ‘were’ The fourth principal part ends in -s because it is a different kind of form from other fourth parts you have seen; this will be explained in chapter 24. The verb sum ‘be’ does not take an object, because ‘be’ does not indicate any action; it shows that the two words it joins are the same thing. So a form of sum takes a word in the same case as its subject, which of course is normally nominative: ‘The girl is a poet’ is puella poēta est (or puella est poēta, etc.).4 This is sometimes called a ‘predicate nominative’. Notice that because Latin does not have words for ‘the’ or ‘a’, and because both nouns are nominative, there is no clear distinction between ‘The girl is a poet’ and ‘The poet is a girl’; if a Roman wanted to make such a distinction, he needed to use additional words such as hic ‘this’. Similarly a sentence like poēta est can mean either ‘He is a poet’ or (less likely, but in certain contexts not impossible) ‘The poet is.’"
+          "text": "shall be’ were’ est ‘he/she/it is’, ‘is’ erit ‘he/she/it will be’, fuit ‘he/she/it has ‘he/she/it shall be’, been’, ‘he/she/it ‘will be’, ‘shall be’ was’, ‘has been’, ‘was’ sumus ‘we are’ erimus ‘we will be’, ‘we shall fuimus ‘we have been’, ‘we be’ were’ estis ‘you (plural) eritis ‘you (plural) will be’, fuistis ‘you (plural) have"
+        },
+        {
+          "t": "h",
+          "text": "are’ ‘you (plural) shall be’ been’, ‘you (plural)"
+        },
+        {
+          "t": "example",
+          "text": "were’\nsunt ‘they are’, erunt ‘they will be’, ‘they fuērunt ‘they have been’, ‘they"
+        },
+        {
+          "t": "h",
+          "text": "‘are’ shall be’, ‘will be’, were’, ‘have been’,"
+        },
+        {
+          "t": "p",
+          "text": "‘shall be’ ‘were’ The fourth principal part ends in -s because it is a different kind of form from other fourth parts you have seen; this will be explained in chapter 24. The verb sum ‘be’ does not take an object, because ‘be’ does not indicate any action; it shows that the two words it joins are the same thing."
+        },
+        {
+          "t": "p",
+          "text": "So a form of sum takes a word in the same case as its subject, which of course is normally nominative: ‘The girl is a poet’ is puella poēta est (or puella est poēta, etc.).4 This is sometimes called a ‘predicate nominative’."
+        },
+        {
+          "t": "p",
+          "text": "Notice that because Latin does not have words for ‘the’ or ‘a’, and because both nouns are nominative, there is no clear distinction between ‘The girl is a poet’ and ‘The poet is a girl’; if a Roman wanted to make such a distinction, he needed to use additional words such as hic ‘this’. Similarly a sentence like poēta est can mean either ‘He is a poet’ or (less likely, but in certain contexts not impossible) ‘The poet is.’"
         }
       ]
     },

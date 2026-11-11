@@ -16,7 +16,35 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "So far we have seen only one past indicative tense, the perfect, but Latin has an imperfect indicative as well. The imperfect is used to describe actions as ongoing in the past, such as ‘I was doing’ or ‘I used to do’. It is relatively simple to form, because all the different conjugations take exactly the same endings, and the only differences between them come from the stem vowels used before those endings. First Second Third Fourth Mixed conjugation conjugation conjugation conjugation conjugation Active amābam monēbam regēbam audiēbam capiēbam amābās monēbās regēbās audiēbās capiēbās amābat monēbat regēbat audiēbat capiēbat amābāmus monēbāmus regēbāmus audiēbāmus capiēbāmus amābātis monēbātis regēbātis audiēbātis capiēbātis amābant monēbant regēbant audiēbant capiēbant Passive amābar monēbar regēbar audiēbar capiēbar amābāris monēbāris regēbāris audiēbāris capiēbāris amābātur monēbātur regēbātur audiēbātur capiēbātur amābāmur monēbāmur regēbāmur audiēbāmur capiēbāmur amābāminī monēbāminī regēbāminī audiēbāminī capiēbāminī amābantur monēbantur regēbantur audiēbantur capiēbantur Deponent vēnābar verēbar ūtēbar partiēbar moriēbar vēnābāris verēbāris ūtēbāris partiēbāris moriēbāris vēnābātur verēbātur ūtēbātur partiēbātur moriēbātur vēnābāmur verēbāmur ūtēbāmur partiēbāmur moriēbāmur vēnābāminī verēbāminī ūtēbāminī partiēbāminī moriēbāminī vēnābantur verēbantur ūtēbantur partiēbantur moriēbantur"
+          "text": "So far we have seen only one past indicative tense, the perfect, but Latin has an imperfect indicative as well. The imperfect is used to describe actions as ongoing in the past, such as ‘I was doing’ or ‘I used to do’. It is relatively simple to form, because all the different conjugations take exactly the same endings, and the only differences between them come from the stem vowels used before those endings."
+        },
+        {
+          "t": "p",
+          "text": "First Second Third Fourth Mixed conjugation conjugation conjugation conjugation conjugation"
+        },
+        {
+          "t": "pre",
+          "text": "Active amābam monēbam regēbam audiēbam capiēbam"
+        },
+        {
+          "t": "p",
+          "text": "amābās monēbās regēbās audiēbās capiēbās amābat monēbat regēbat audiēbat capiēbat amābāmus monēbāmus regēbāmus audiēbāmus capiēbāmus amābātis monēbātis regēbātis audiēbātis capiēbātis amābant monēbant regēbant audiēbant capiēbant"
+        },
+        {
+          "t": "pre",
+          "text": "Passive amābar monēbar regēbar audiēbar capiēbar"
+        },
+        {
+          "t": "p",
+          "text": "amābāris monēbāris regēbāris audiēbāris capiēbāris amābātur monēbātur regēbātur audiēbātur capiēbātur amābāmur monēbāmur regēbāmur audiēbāmur capiēbāmur amābāminī monēbāminī regēbāminī audiēbāminī capiēbāminī amābantur monēbantur regēbantur audiēbantur capiēbantur"
+        },
+        {
+          "t": "h",
+          "text": "Deponent vēnābar verēbar ūtēbar partiēbar moriēbar"
+        },
+        {
+          "t": "p",
+          "text": "vēnābāris verēbāris ūtēbāris partiēbāris moriēbāris vēnābātur verēbātur ūtēbātur partiēbātur moriēbātur vēnābāmur verēbāmur ūtēbāmur partiēbāmur moriēbāmur vēnābāminī verēbāminī ūtēbāminī partiēbāminī moriēbāminī vēnābantur verēbantur ūtēbantur partiēbantur moriēbantur"
         }
       ]
     },
@@ -27,12 +55,8 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "39.3 Translation of the Imperfect Indicative"
-        },
-        {
           "t": "p",
-          "text": "Even the irregular verbs are mostly regular in the imperfect: eō, volō, nōlō, and mālō are completely regular, and sum and possum take the regular endings without the characteristic -b-. Sum Possum Eō Volō Nōlō Mālō eram poteram ībam volēbam nōlēbam mālēbam erās poterās ībās volēbās nōlēbās mālēbās erat poterat ībat volēbat nōlēbat mālēbat erāmus poterāmus ībāmus volēbāmus nōlēbāmus mālēbāmus erātis poterātis ībātis volēbātis nōlēbātis mālēbātis erant poterant ībant volēbant nōlēbant mālēbant"
+          "text": "Even the irregular verbs are mostly regular in the imperfect: eō, volō, nōlō, and mālō are completely regular, and sum and possum take the regular endings without the characteristic -b-."
         }
       ]
     },
@@ -44,23 +68,44 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "The imperfect has two main translations, both of them periphrastic (involving more than one word in English). It is important to be able to recognize these English forms as equivalents of the Latin imperfect, as otherwise there is a temptation to translate ‘was doing’ with a form of sum and the present participle in Latin (which would not be correct), and to translate ‘used to do’ with a form of ūtor and the infinitive (which would be even more incorrect). For most verbs, actives and deponents are translated like amābam, and passives are translated like amābar. Active amābam ‘I was loving’, ‘I used to love’ amābās ‘you (singular) were loving’, ‘you (singular) used to love’ amābat ‘he was loving’, ‘she was loving’, ‘it was loving’, ‘was loving’, ‘he used to love’, ‘she used to love’, ‘it used to love’, ‘used to love’ amābāmus ‘we were loving’, ‘we used to love’ amābātis ‘you (plural) were loving’, ‘you (plural) used to love’ amābant ‘they were loving’, ‘they used to love’, ‘were loving’, ‘used to love’ Passive amābar ‘I was being loved’, ‘I used to be loved’ amābāris ‘you (singular) were being loved’, ‘you (singular) used to be loved’ amābātur ‘he was being loved’, ‘she was being loved’, ‘it was being loved’, ‘was being loved’, ‘he used to be loved’, ‘she used to be loved’, ‘it used to be loved’, ‘used to be loved’ amābāmur ‘we were being loved’, ‘we used to be loved’ amābāminī ‘you were being loved’, ‘you used to be loved’ amābantur ‘they were being loved’, ‘they used to be loved’, ‘were being loved’, ‘used to be loved’ For a few verbs these English translations do not work; for example ‘I was being’ would usually be unfortunate as a translation of eram, as would ‘I was being able’ as a translation of poteram. For such verbs, in situations where the ‘used to’ translation does not work either, one has to use the simple past in English; thus ‘I was’ can be the translation either of fuī or of eram. In fact eram is more common than fuī in situations where an English speaker would say ‘I was’; the action of ‘being’ is one that is naturally continuous and so lends itself to the use of the imperfect tense. The imperfect is a historic tense for the purposes of sequence of tenses (see chapter 16.1): if it is used in a main clause on which a subordinate clause with a subjunctive verb depends, the subjunctive in that clause is imperfect rather than present."
+          "text": "Sum Possum Eō Volō Nōlō Mālō eram poteram ībam volēbam nōlēbam mālēbam erās poterās ībās volēbās nōlēbās mālēbās erat poterat ībat volēbat nōlēbat mālēbat erāmus poterāmus ībāmus volēbāmus nōlēbāmus mālēbāmus erātis poterātis ībātis volēbātis nōlēbātis mālēbātis erant poterant ībant volēbant nōlēbant mālēbant"
+        },
+        {
+          "t": "p",
+          "text": "The imperfect has two main translations, both of them periphrastic (involving more than one word in English)."
+        },
+        {
+          "t": "p",
+          "text": "It is important to be able to recognize these English forms as equivalents of the Latin imperfect, as otherwise there is a temptation to translate ‘was doing’ with a form of sum and the present participle in Latin (which would not be correct), and to translate ‘used to do’ with a form of ūtor and the infinitive (which would be even more incorrect)."
+        },
+        {
+          "t": "p",
+          "text": "For most verbs, actives and deponents are translated like amābam, and passives are translated like amābar."
+        },
+        {
+          "t": "pre",
+          "text": "Active amābam ‘I was loving’, ‘I used to love’ amābās ‘you (singular) were loving’, ‘you (singular) used to love’ amābat ‘he was loving’, ‘she was loving’, ‘it was loving’, ‘was loving’, ‘he used to love’, ‘she used to love’, ‘it used to love’, ‘used to love’ amābāmus ‘we were loving’, ‘we used to love’ amābātis ‘you (plural) were loving’, ‘you (plural) used to love’ amābant ‘they were loving’, ‘they used to love’, ‘were loving’, ‘used to love’"
+        },
+        {
+          "t": "pre",
+          "text": "Passive"
+        },
+        {
+          "t": "p",
+          "text": "amābar ‘I was being loved’, ‘I used to be loved’ amābāris ‘you (singular) were being loved’, ‘you (singular) used to be loved’ amābātur ‘he was being loved’, ‘she was being loved’, ‘it was being loved’, ‘was being loved’, ‘he used to be loved’, ‘she used to be loved’, ‘it used to be loved’, ‘used to be loved’ amābāmur ‘we were being loved’, ‘we used to be loved’ amābāminī ‘you were being loved’, ‘you used to be loved’ amābantur ‘they were being loved’, ‘they used to be loved’, ‘were being loved’, ‘used to be loved’ For a few verbs these English translations do not work; for example ‘I was being’ would usually be unfortunate as a translation of eram, as would ‘I was being able’ as a translation of poteram."
+        },
+        {
+          "t": "p",
+          "text": "For such verbs, in situations where the ‘used to’ translation does not work either, one has to use the simple past in English; thus ‘I was’ can be the translation either of fuī or of eram. In fact eram is more common than fuī in situations where an English speaker would say ‘I was’; the action of ‘being’ is one that is naturally continuous and so lends itself to the use of the imperfect tense."
+        },
+        {
+          "t": "p",
+          "text": "The imperfect is a historic tense for the purposes of sequence of tenses (see chapter 16.1): if it is used in a main clause on which a subordinate clause with a subjunctive verb depends, the subjunctive in that clause is imperfect rather than present."
         }
       ]
     }
   ],
-  "readings": [
-    {
-      "id": "lectio-39",
-      "latinTitle": "SENTENTIAE LATĪNAE",
-      "title": "Latin sentences from this chapter",
-      "paragraphs": [
-        "illa puella turpissima omnium",
-        "servus stultissimus ab equo erat. fugiebat."
-      ],
-      "notes": []
-    }
-  ],
+  "readings": [],
   "grammar": [],
   "vocabulary": [],
   "pensa": [
@@ -256,11 +301,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "14 eram 39.",
-          "a": ""
-        },
-        {
-          "q": "3 Translation of the Imperfect Indicative 257",
+          "q": "14 eram",
           "a": ""
         }
       ],

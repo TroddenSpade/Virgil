@@ -16,7 +16,23 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "In addition to meaning ‘since’ or ‘because’, cum can mean ‘although’. As there is considerable potential for confusion when a word can mean both ‘since’ and ‘although’, Roman authors usually took care to make it clear from the context when cum meant ‘although’; often they did this by adding tamen ‘nevertheless’ to the main clause. In this meaning, just as when it means ‘since’, cum takes a subjunctive, with the choice among subjunctives determined by sequence of tenses and the English translations of those subjunctives being indicatives (see chapter 46.3). cum crās paeniteat, tamen hodiē hoc faciam. ‘Although I shall be sorry tomorrow, nevertheless I shall do this today’. hoc hodiē faciam cum crās paeniteat. ‘I shall do this today although I’ll be sorry tomorrow.’ Notice that in these examples the translation shortcut mentioned in the last chapter does not work, because the Latin present subjunctive has to be translated with an English future indicative. One can work out that a future indicative is needed by thinking about what sequence of tenses tells us about the actual relationship of the two clauses: the present subjunctive means that the action of the subordinate clause happens after or at the same time as the action of the main clause. The main clause is in the future, and a subordinate clause describing action that happens after or at the same time as an action in the future is also future."
+          "text": "In addition to meaning ‘since’ or ‘because’, cum can mean ‘although’. As there is considerable potential for confusion when a word can mean both ‘since’ and ‘although’, Roman authors usually took care to make it clear from the context when cum meant ‘although’; often they did this by adding tamen ‘nevertheless’ to the main clause."
+        },
+        {
+          "t": "p",
+          "text": "In this meaning, just as when it means ‘since’, cum takes a subjunctive, with the choice among subjunctives determined by sequence of tenses and the English translations of those subjunctives being indicatives (see chapter 46.3). cum crās paeniteat, tamen hodiē hoc faciam. ‘Although I shall be sorry tomorrow, nevertheless I shall do this today’. hoc hodiē faciam cum crās paeniteat."
+        },
+        {
+          "t": "p",
+          "text": "‘I shall do this today although I’ll be sorry tomorrow.’ Notice that in these examples the translation shortcut mentioned in the last chapter does not work, because the Latin present subjunctive has to be translated with an English future indicative."
+        },
+        {
+          "t": "p",
+          "text": "One can work out that a future indicative is needed by thinking about what sequence of tenses tells us about the actual relationship of the two clauses: the present subjunctive means that the action of the subordinate clause happens after or at the same time as the action of the main clause."
+        },
+        {
+          "t": "p",
+          "text": "The main clause is in the future, and a subordinate clause describing action that happens after or at the same time as an action in the future is also future."
         }
       ]
     },
@@ -27,12 +43,16 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "47.3 Distinguishing Types of Cum Clause"
+          "t": "p",
+          "text": "Cum can also mean ‘when’, and in this meaning it takes a slightly different construction. In historic sequence (i.e. with a main verb in a past tense), clauses in which cum means ‘when’ usually function like the other cum clauses and take a verb in the subjunctive (translated with the indicative in English), but in primary sequence (i.e."
         },
         {
           "t": "p",
-          "text": "Cum can also mean ‘when’, and in this meaning it takes a slightly different construction. In historic sequence (i.e. with a main verb in a past tense), clauses in which cum means ‘when’ usually function like the other cum clauses and take a verb in the subjunctive (translated with the indicative in English), but in primary sequence (i.e. with a main verb in a primary tense) they take a verb in the indicative.1 cum in urbe essem, multa ēmī. ‘When I was in the city I bought many things.’ cum in urbe sum, multa emō. ‘When I am in the city I buy many things.’ This is something of an oversimplification, and moreover there are several other types of cum clause in addition to the three presented here – but the rules given here will work for all the material in this book. When the main verb is in the future, English normally uses a present tense for a ‘when’ clause. But Latin makes a distinction between actions that happen at the same time as the main clause and ones that happen before the main clause: the former take the future indicative and the latter the future perfect indicative. cum in urbe erō, multa emam. ‘When I am in the city I shall buy many things.’ (literally ‘When I shall be in the city I shall buy many things.’ The being in the city and the buying happen at the same time, and that time is future, so Latin uses the future for both.) cum ad urbem īverō, multa emam. ‘When I go to the city I shall buy many things.’ (literally ‘When I shall have gone to the city I shall buy many things.’ The going to the city happens before the buying, so Latin uses the future perfect.) cum amābit, amābitur. ‘When he loves, he will be loved.’ (literally ‘When he will love, he will be loved.’) cum mortuus erit, sepeliētur. ‘When he dies he will be buried.’ (literally ‘When he will have died he will be buried.’) This distinction is effectively the same one that in past time is made using sequence of tenses. cum ad urbem īvissem, multa ēmī. ‘When I had gone (or ‘when I went’) to the city, I bought many things.’ (The going to the city happens before the buying, and this is reflected in the use of the pluperfect subjunctive; see chapter 46.3.) cum in urbe essem, multa ēmī. ‘When I was in the city I bought many things.’ (The being in the city and the buying happen at the same time, and this is reflected in the use of the imperfect subjunctive; see chapter 46.3.)"
+          "text": "with a main verb in a primary tense) they take a verb in the indicative.1 cum in urbe essem, multa ēmī. ‘When I was in the city I bought many things.’ cum in urbe sum, multa emō."
+        },
+        {
+          "t": "p",
+          "text": "‘When I am in the city I buy many things.’ This is something of an oversimplification, and moreover there are several other types of cum clause in addition to the three presented here – but the rules given here will work for all the material in this book."
         }
       ]
     },
@@ -44,7 +64,63 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "It is necessary to be able to distinguish these three types of cum clause in order to know whether any given instance of cum should be translated ‘when’, ‘since’, or ‘although’. The first place to look is at the verb of the cum clause: if that verb is indicative, cum must mean ‘when’, and if that verb is present or perfect subjunctive, cum must mean ‘since’ or ‘although’. (Present and perfect subjunctives occur only in primary sequence, and in primary sequence cum meaning ‘when’ does not take a subjunctive.) If the verb is imperfect or pluperfect subjunctive, all three translations of cum are possible and the reader needs to pick the one that best fits the context; often there is more than one possibility. With all three types of cum clause a subjunctive verb will always be translated with an indicative in English: it is the translation of the conjunction cum, not the translation of the verb, that reflects in English whether the Latin verb is subjunctive. cum māter abest, puer timet. ‘When his mother is away, the boy is afraid.’ (The verb of the cum clause is indicative, so cum must mean ‘when’.) cum māter absit, tamen puer nōn timet. ‘Although his mother is away, nevertheless the boy is not afraid.’ (The verb of the cum clause is present subjunctive, so cum must mean ‘since’ or ‘although’; the context indicates ‘although’.) cum māter absit, puer timet. ‘Since his mother is away, the boy is afraid.’ (The verb of the cum clause is present subjunctive, so cum must mean ‘since’ or ‘although’; the context indicates ‘since’.) cum bene locūtus esset, laudātus est. ‘Since he spoke (had spoken) well, he was praised.’ or ‘When he spoke (had spoken) well, he was praised.’ (The verb of the cum clause is pluperfect subjunctive, so all three possibilities are available, and two of them fit the context.)"
+          "text": "When the main verb is in the future, English normally uses a present tense for a ‘when’ clause. But Latin makes a distinction between actions that happen at the same time as the main clause and ones that happen before the main clause: the former take the future indicative and the latter the future perfect indicative. cum in urbe erō, multa emam."
+        },
+        {
+          "t": "p",
+          "text": "‘When I am in the city I shall buy many things.’ (literally ‘When I shall be in the city I shall buy many things.’ The being in the city and the buying happen at the same time, and that time is future, so Latin uses the future for both.) cum ad urbem īverō, multa emam."
+        },
+        {
+          "t": "p",
+          "text": "‘When I go to the city I shall buy many things.’ (literally ‘When I shall have gone to the city I shall buy many things.’ The going to the city happens before the buying, so Latin uses the future perfect.) cum amābit, amābitur. ‘When he loves, he will be loved.’ (literally ‘When he will love,"
+        },
+        {
+          "t": "h",
+          "text": "he will be loved.’)"
+        },
+        {
+          "t": "p",
+          "text": "cum mortuus erit, sepeliētur. ‘When he dies he will be buried.’ (literally ‘When he will"
+        },
+        {
+          "t": "h",
+          "text": "have died he will be buried.’)"
+        },
+        {
+          "t": "p",
+          "text": "This distinction is effectively the same one that in past time is made using sequence of tenses. cum ad urbem īvissem, multa ēmī. ‘When I had gone (or ‘when I went’) to the city, I bought many things.’ (The going to the city happens before the buying, and this is reflected in the use of the pluperfect subjunctive; see chapter 46.3.) cum in urbe essem, multa ēmī."
+        },
+        {
+          "t": "p",
+          "text": "‘When I was in the city I bought many things.’ (The being in the city and the buying happen at the same time, and this is reflected in the use of the imperfect subjunctive; see chapter 46.3.)"
+        },
+        {
+          "t": "p",
+          "text": "It is necessary to be able to distinguish these three types of cum clause in order to know whether any given instance of cum should be translated ‘when’, ‘since’, or ‘although’. The first place to look is at the verb of the cum clause: if that verb is indicative, cum must mean ‘when’, and if that verb is present or perfect subjunctive, cum must mean ‘since’ or ‘although’."
+        },
+        {
+          "t": "p",
+          "text": "(Present and perfect subjunctives occur only in primary sequence, and in primary sequence cum meaning ‘when’ does not take a subjunctive.) If the verb is imperfect or pluperfect subjunctive, all three translations of cum are possible and the reader needs to pick the one that best fits the context; often there is more than one possibility."
+        },
+        {
+          "t": "p",
+          "text": "With all three types of cum clause a subjunctive verb will always be translated with an indicative in English: it is the translation of the conjunction cum, not the translation of the verb, that reflects in English whether the Latin verb is subjunctive. cum māter abest, puer timet. ‘When his mother is away, the boy is afraid.’ (The verb of"
+        },
+        {
+          "t": "h",
+          "text": "the cum clause is indicative, so cum must mean ‘when’.)"
+        },
+        {
+          "t": "p",
+          "text": "cum māter absit, tamen puer nōn timet. ‘Although his mother is away, nevertheless the boy is not afraid.’ (The verb of the cum clause is present subjunctive, so cum must mean ‘since’ or ‘although’; the context indicates ‘although’.) cum māter absit, puer timet."
+        },
+        {
+          "t": "p",
+          "text": "‘Since his mother is away, the boy is afraid.’ (The verb of the cum clause is present subjunctive, so cum must mean ‘since’ or ‘although’; the context indicates ‘since’.) cum bene locūtus esset, laudātus est."
+        },
+        {
+          "t": "p",
+          "text": "‘Since he spoke (had spoken) well, he was praised.’ or ‘When he spoke (had spoken) well, he was praised.’ (The verb of the cum clause is pluperfect subjunctive, so all three possibilities are available, and two of them fit the context.)"
         }
       ]
     },
@@ -56,7 +132,27 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "Clauses in which a word for ‘when’, ‘while’, ‘before’, or ‘after’ occurs are known as temporal clauses, because they indicate the time at which an action occurred. There are other words besides cum that introduce Latin temporal clauses, including: dum ‘while’, ‘until’ antequam ‘before’ postquam ‘after’ These other temporal conjunctions normally take indicative verbs;2 the tenses are generally the same as in English, except that if the main verb is future the subordinate verb must be future or future perfect (as in temporal cum clauses). postquam Londinium vēnī rēgīnam vīdī. ‘After I came to London I saw the queen.’ antequam Londiniō discesserō rēgīnam vidēbō. ‘Before I leave London I shall see the queen.’ But dum takes a present indicative (regardless of the time of the main verb) when it indicates a span of time at one point in which the action of the main verb takes place. dum Londiniī sum rēgīnam vīdī. ‘While I was in London I saw the queen.’ (The seeing of the queen did not occupy the whole of my time in London but happened at one point during it, so dum takes the present tense.) There are a number of circumstances in which these conjunctions take the subjunctive, but these rules will suffice for now. dum Londiniī eram fēlīcissimus eram. ‘While I was in London I was very happy.’ (The being happy occurred throughout the whole of my time in London, so dum takes whatever tense is logical, in this case the imperfect.) Closely related to dum is dummodo, which takes the subjunctive (tenses determined by sequence of tenses as in chapter 46.2) and means ‘provided that’; its negative is nē (and therefore nē quis, nē quid, nē ūllus) rather than nōn. dummodo nē discēdās, rēgīnam vidēbis. ‘Provided that you don’t leave, you will see the queen.’"
+          "text": "Clauses in which a word for ‘when’, ‘while’, ‘before’, or ‘after’ occurs are known as temporal clauses, because they indicate the time at which an action occurred."
+        },
+        {
+          "t": "p",
+          "text": "There are other words besides cum that introduce Latin temporal clauses, including: dum ‘while’, ‘until’ antequam ‘before’ postquam ‘after’ These other temporal conjunctions normally take indicative verbs;2 the tenses are generally the same as in English, except that if the main verb is future the subordinate verb must be future or future perfect (as in temporal cum clauses). postquam Londinium vēnī rēgīnam vīdī."
+        },
+        {
+          "t": "p",
+          "text": "‘After I came to London I saw the queen.’ antequam Londiniō discesserō rēgīnam vidēbō. ‘Before I leave London I shall see the queen.’ But dum takes a present indicative (regardless of the time of the main verb) when it indicates a span of time at one point in which the action of the main verb takes place. dum Londiniī sum rēgīnam vīdī."
+        },
+        {
+          "t": "p",
+          "text": "‘While I was in London I saw the queen.’ (The seeing of the queen did not occupy the whole of my time in London but happened at one point during it, so dum takes the present tense.) There are a number of circumstances in which these conjunctions take the subjunctive, but these rules will suffice for now. dum Londiniī eram fēlīcissimus eram."
+        },
+        {
+          "t": "p",
+          "text": "‘While I was in London I was very happy.’ (The being happy occurred throughout the whole of my time in London, so dum takes whatever tense is logical, in this case the imperfect.) Closely related to dum is dummodo, which takes the subjunctive (tenses determined by sequence of tenses as in chapter 46.2) and means ‘provided that’; its negative is nē (and therefore nē quis, nē quid, nē ūllus) rather than nōn."
+        },
+        {
+          "t": "p",
+          "text": "dummodo nē discēdās, rēgīnam vidēbis. ‘Provided that you don’t leave, you will see the queen.’"
         }
       ]
     }
@@ -385,11 +481,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "26 pudebit omnes cum omnes nostri classem hostium viderunt. fugerint. 47.",
-          "a": ""
-        },
-        {
-          "q": "4 Other Temporal Clauses 311",
+          "q": "26 pudebit omnes cum omnes nostri classem hostium viderunt. fugerint.",
           "a": ""
         }
       ],

@@ -84,7 +84,7 @@ function Lesson({ book, chapter }) {
   const active = useScrollSpy(sections.map((s) => s.id))
 
   return (
-    <article className={`lesson${isCommentary ? ' lesson--commentary' : ''}`}>
+    <article className={`lesson${isCommentary ? ' lesson--commentary' : ''}${book.kind === 'coursebook' ? ' lesson--coursebook' : ''}`}>
       <div className="container lesson__container">
         <Link to={`/library/${book.slug}`} className="back-link">
           ← {book.shortTitle}
@@ -102,6 +102,13 @@ function Lesson({ book, chapter }) {
             </div>
           </div>
           {chapter.tagline && <p className="lesson__tagline">{chapter.tagline}</p>}
+          {book.kind === 'coursebook' && (
+            <ul className="lesson__course-meta">
+              <li>{chapter.sections?.length || 0} grammar sections</li>
+              <li>{chapter.vocabulary?.length || 0} words</li>
+              <li>{chapter.pensa?.length || 0} practices</li>
+            </ul>
+          )}
         </header>
 
         <div className="lesson__layout">
@@ -195,7 +202,7 @@ function Lesson({ book, chapter }) {
                       latin={sections.find((section) => section.id === 'pensa')?.label || 'Pēnsa'}
                       english="exercises"
                     />
-                    <Pensum pensa={chapter.pensa} />
+                    <Pensum pensa={chapter.pensa} collapsible={book.kind === 'coursebook'} />
                   </section>
                 )}
               </>
@@ -254,7 +261,7 @@ function Lesson({ book, chapter }) {
                       latin={sections.find((section) => section.id === 'pensa')?.label || 'Pēnsa'}
                       english="exercises"
                     />
-                    <Pensum pensa={chapter.pensa} />
+                    <Pensum pensa={chapter.pensa} collapsible={book.kind === 'coursebook'} />
                   </section>
                 )}
               </>

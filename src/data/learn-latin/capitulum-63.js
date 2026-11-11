@@ -15,12 +15,76 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "63.1 Parts of Speech"
+          "t": "p",
+          "text": "Words can be classified into parts of speech; this is necessary when dealing with an inflected language like Latin as the various parts of speech behave differently from each other. The main parts of speech are verbs, nouns, adjectives, pronouns, adverbs, prepositions, and conjunctions."
         },
         {
           "t": "p",
-          "text": "Words can be classified into parts of speech; this is necessary when dealing with an inflected language like Latin as the various parts of speech behave differently from each other. The main parts of speech are verbs, nouns, adjectives, pronouns, adverbs, prepositions, and conjunctions. Verbs are traditionally defined as action words, but the ‘action’ they describe can be fairly inactive: ‘run’, ‘sit’, ‘sleep’, and ‘think’ are all verbs. Another way verbs can be identified is as words that can inflect (i.e. change form) to indicate past or present action: in English ‘run’ changes to ‘ran’ to indicate past time, and similarly ‘sit’ becomes ‘sat’, ‘sleep’ becomes ‘slept’, and ‘think’ becomes ‘thought’. Alternatively, you can think of verbs as words that become singular (referring to only one subject) when you add ‘-s’: in the plural ‘they run’, ‘they sit’, ‘they sleep’, and ‘they think’, but in the singular ‘he runs’, ‘he sits’, ‘he sleeps’, and ‘he thinks’. However you do it, it is essential to be able to identify verbs, as they are the most important parts of speech: there is at least one in every sentence, and the sentence is built around the verb(s). Sometimes a single verb form is made up of more than one word (see section 63.2, ‘periphrastic verbs’). Nouns are traditionally defined as words that name a person, place, or thing; ‘Julia’, ‘London’, ‘beauty’, and ‘turnip’ are all nouns. In English, most nouns inflect for number: they become plural (i.e. they indicate two or more items) when an ‘-s’ is added to them. Thus ‘beauties’ and ‘turnips’ are easily recognizable, and while you may never have seen ‘Julias’ or ‘Londons’, you can nevertheless tell that they would refer to two women named ‘Julia’ or two places named ‘London’. Some nouns take a different plural ending, or change their vowels when they are plural: thus the plural of ‘child’ is ‘children’, the plural of ‘foot’ is ‘feet’, and the plural of ‘man’ is ‘men’. Most English nouns also form a genitive by adding apostrophe + s: ‘Julia’s dog’, ‘London’s crowds’, ‘beauty’s disappearance’, and ‘the turnip’s colour’ are all possible possessive phrases. Adjectives are words that modify (i.e. describe) nouns: ‘big’, ‘many’, and ‘beautiful’ are all adjectives. In English, adjectives do not inflect (i.e. change their form): you cannot add ‘-s’ to them. Thus ‘*bigs’, ‘*manies’, and ‘*beautifuls’ do not exist (* is used to indicate words that do not exist). Pronouns are short words that stand for a noun; most languages have only a few different pronouns and use each one frequently. Common types of pronouns include personal pronouns such as ‘I’, ‘we’, and ‘you’; demonstrative pronouns such as ‘this’ and ‘that’; and relative pronouns such as ‘who’ and ‘what’. English pronouns contain remnants of our language’s original inflection system that are no longer visible elsewhere: they inflect for gender (‘he’ versus ‘she’), number (‘he’ and ‘she’ versus ‘they’, ‘I’ versus ‘we’), and case (nominative ‘I’, ‘he’, ‘she’, ‘they’; accusative ‘me’, ‘him’, ‘her’, ‘them’). Adverbs are words that modify verbs and/or adjectives; very often they describe how or when something is done. In English many adverbs end in ‘-ly’ (e.g. ‘quickly’, ‘kindly’, ‘enormously’), but this is not a secure way of identifying adverbs since some very common ones have other endings (e.g. ‘very’, ‘tomorrow’). Prepositions are words like ‘to’, ‘in’, ‘at’, ‘by’, ‘from’, etc.: little words that have to be followed by nouns or pronouns. Thus ‘to London’, ‘in consideration’, ‘at school’, ‘by Julia’, ‘from work’, etc. are preposition + noun groups known as prepositional phrases. Sometimes adjectives and/or other modifiers come between the preposition and the noun and form part of the prepositional phrase, as ‘in a red dress’. Conjunctions are words that join other words or sentences together. They are divided into co-ordinating conjunctions (‘and’, ‘but’, and ‘or’) and subordinating conjunctions (‘if’, ‘when’, ‘because’, ‘since’, etc.). (For subordination see chapter 15.) Articles are a part of speech that exists in English but not in Latin: the English articles are ‘the’ and ‘a’. ‘The’ is known as the ‘definite article’ and ‘a’ as the ‘indefinite article’, but this distinction is irrelevant for Latin. There are also a few words that belong to other parts of speech, including interjec- tions (exclamations like ‘oh!’ and ‘ouch!’). These parts of speech are not discussed in this book. A difficulty with identifying parts of speech in English is that sometimes the same word can function in more than one way, depending on the context. Thus for example ‘cut’ can be a verb, a noun, or an adjective, but in any particular sentence it can be only one of those. In ‘He cut the bread’ it is a verb, in ‘She has a nasty-looking cut on her finger’ it is a noun, and in ‘There is some cut cheese in the refrigerator’ it is an adjective. Likewise ‘that’ is a pronoun in ‘I didn’t know that’, an adjective in ‘That house is enormous’, and a conjunction in ‘He said that she was away.’ So it is important to work out what a word’s function in a particular sentence is. An English sentence can be broken up into different parts of speech as follows: ‘Jim’s friend Mike is coming to dinner tonight, and we have a huge roast in the oven.’ Jim’s noun friend noun Mike noun is coming verb to preposition dinner noun tonight adverb and conjunction we pronoun have verb a article huge adjective roast noun in preposition the article oven noun Practice"
+          "text": "Verbs are traditionally defined as action words, but the ‘action’ they describe can be fairly inactive: ‘run’, ‘sit’, ‘sleep’, and ‘think’ are all verbs. Another way verbs can be identified is as words that can inflect (i.e. change form) to indicate past or present action: in English ‘run’ changes to ‘ran’ to indicate past time, and similarly ‘sit’ becomes ‘sat’, ‘sleep’ becomes ‘slept’, and ‘think’ becomes ‘thought’."
+        },
+        {
+          "t": "p",
+          "text": "Alternatively, you can think of verbs as words that become singular (referring to only one subject) when you add ‘-s’: in the plural ‘they run’, ‘they sit’, ‘they sleep’, and ‘they think’, but in the singular ‘he runs’, ‘he sits’, ‘he sleeps’, and ‘he thinks’."
+        },
+        {
+          "t": "p",
+          "text": "However you do it, it is essential to be able to identify verbs, as they are the most important parts of speech: there is at least one in every sentence, and the sentence is built around the verb(s). Sometimes a single verb form is made up of more than one word (see section 63.2, ‘periphrastic verbs’)."
+        },
+        {
+          "t": "p",
+          "text": "Nouns are traditionally defined as words that name a person, place, or thing; ‘Julia’, ‘London’, ‘beauty’, and ‘turnip’ are all nouns. In English, most nouns inflect for number: they become plural (i.e. they indicate two or more items) when an ‘-s’ is added to them."
+        },
+        {
+          "t": "p",
+          "text": "Thus ‘beauties’ and ‘turnips’ are easily recognizable, and while you may never have seen ‘Julias’ or ‘Londons’, you can nevertheless tell that they would refer to two women named ‘Julia’ or two places named ‘London’. Some nouns take a different plural ending, or change their vowels when they are plural: thus the plural of ‘child’ is ‘children’, the plural of ‘foot’ is ‘feet’, and the plural of ‘man’ is ‘men’."
+        },
+        {
+          "t": "p",
+          "text": "Most English nouns also form a genitive by adding apostrophe + s: ‘Julia’s dog’, ‘London’s crowds’, ‘beauty’s disappearance’, and ‘the turnip’s colour’ are all possible possessive phrases. Adjectives are words that modify (i.e. describe) nouns: ‘big’, ‘many’, and ‘beautiful’ are all adjectives. In English, adjectives do not inflect (i.e. change their form): you cannot add ‘-s’ to them."
+        },
+        {
+          "t": "p",
+          "text": "Thus ‘*bigs’, ‘*manies’, and ‘*beautifuls’ do not exist (* is used to indicate words that do not exist). Pronouns are short words that stand for a noun; most languages have only a few different pronouns and use each one frequently. Common types of pronouns include personal pronouns such as ‘I’, ‘we’, and ‘you’; demonstrative pronouns such as ‘this’ and ‘that’; and relative pronouns such as ‘who’ and ‘what’."
+        },
+        {
+          "t": "p",
+          "text": "English pronouns contain remnants of our language’s original inflection system that are no longer visible elsewhere: they inflect for gender (‘he’ versus ‘she’), number (‘he’ and ‘she’ versus ‘they’, ‘I’ versus ‘we’), and case (nominative ‘I’, ‘he’, ‘she’, ‘they’; accusative ‘me’, ‘him’, ‘her’, ‘them’). Adverbs are words that modify verbs and/or adjectives; very often they describe how or when something is done."
+        },
+        {
+          "t": "p",
+          "text": "In English many adverbs end in ‘-ly’ (e.g. ‘quickly’, ‘kindly’, ‘enormously’), but this is not a secure way of identifying adverbs since some very common ones have other endings (e.g. ‘very’, ‘tomorrow’). Prepositions are words like ‘to’, ‘in’, ‘at’, ‘by’, ‘from’, etc.: little words that have to be followed by nouns or pronouns. Thus ‘to London’, ‘in consideration’, ‘at school’, ‘by Julia’, ‘from work’, etc."
+        },
+        {
+          "t": "p",
+          "text": "are preposition + noun groups known as prepositional phrases. Sometimes adjectives and/or other modifiers come between the preposition and the noun and form part of the prepositional phrase, as ‘in a red dress’. Conjunctions are words that join other words or sentences together. They are divided into co-ordinating conjunctions (‘and’, ‘but’, and ‘or’) and subordinating conjunctions (‘if’, ‘when’, ‘because’, ‘since’, etc.)."
+        },
+        {
+          "t": "p",
+          "text": "(For subordination see chapter 15.) Articles are a part of speech that exists in English but not in Latin: the English articles are ‘the’ and ‘a’. ‘The’ is known as the ‘definite article’ and ‘a’ as the ‘indefinite article’, but this distinction is irrelevant for Latin. There are also a few words that belong to other parts of speech, including interjec- tions (exclamations like ‘oh!’ and ‘ouch!’)."
+        },
+        {
+          "t": "p",
+          "text": "These parts of speech are not discussed in this book. A difficulty with identifying parts of speech in English is that sometimes the same word can function in more than one way, depending on the context. Thus for example ‘cut’ can be a verb, a noun, or an adjective, but in any particular sentence it can be only one of those."
+        },
+        {
+          "t": "p",
+          "text": "In ‘He cut the bread’ it is a verb, in ‘She has a nasty-looking cut on her finger’ it is a noun, and in ‘There is some cut cheese in the refrigerator’ it is an adjective. Likewise ‘that’ is a pronoun in ‘I didn’t know that’, an adjective in ‘That house is enormous’, and a conjunction in ‘He said that she was away.’ So it is important to work out what a word’s function in a particular sentence is."
+        },
+        {
+          "t": "p",
+          "text": "An English sentence can be broken up into different parts of speech as follows: ‘Jim’s friend Mike is coming to dinner tonight, and we have a huge roast in the oven.’"
+        },
+        {
+          "t": "h",
+          "text": "Jim’s noun friend noun Mike noun is coming verb to preposition"
+        },
+        {
+          "t": "p",
+          "text": "dinner noun tonight adverb and conjunction we pronoun have verb a article huge adjective roast noun in preposition the article oven noun"
+        },
+        {
+          "t": "h",
+          "text": "Practice"
         }
       ]
     },
@@ -32,7 +96,43 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "Some English verbs have two parts: ‘he is coming’, ‘he was coming’, ‘did he come?’, ‘he has come’, ‘has he come?’, ‘he has been coming’, ‘he will come’, ‘will he come?’, ‘he will be coming’, ‘he wants to come’, etc. These verb forms function as a single unit in English and must be translated with a single word in Latin, so it is important to be able to identify them. Generally speaking any form of English ‘be’, ‘do’, ‘have’, ‘will’, ‘shall’, or ‘would’ that is followed by another verb form makes up a periphrastic unit; the two elements need not be exactly next to each other. Infinitives are also periphrastic and consist of ‘to’ plus a verb, for example ‘to be’. It is often stated that English infinitives should not be split, i.e. that nothing should come between ‘to’ and ‘be’, but in practice English infinitives are often split (e.g. ‘to boldly go where no-one has gone before’, where the infinitive ‘to go’ is split by the adverb ‘boldly’), so it is useful to be alert to this possibility when trying to identify them. Not all groups of verb forms are periphrastic units; often several different verbs are involved. If the different verb forms do not combine to express one idea, but instead express separate ideas, they are separate entities rather than a single periphrastic unit: ‘he came, saw, and conquered’ has three verbs, while ‘he has been conquering’ has one periphrastic verb form in three parts. A verb form and a following infinitive count as two separate entities: ‘he wants to come’, ‘he likes to argue’, and ‘he hates to be wrong’ are each composed of two verb forms. There is a grey area with verbs that take an infinitive without ‘to’, such as ‘can’ and ‘could’: from an English perspective one could certainly think of ‘he can come’ as a single periphrastic verb form, but that analysis would be unhelpful in dealing with Latin, where two verbs are involved. And the main advantage of the concept of periphrastic verb forms is that it allows one to identify English multi-word groupings that are equivalent to a single word in Latin (and Latin multi-word groupings that are equivalent to a single word in English). It is therefore easiest to think of ‘can’ and ‘could’ as separate verbs from what follows them, not as parts of periphrastic units. The simplest rule to follow is that English periphrastic verb forms can only begin with forms of ‘be’, ‘do’, ‘have’, ‘will’, ‘shall’, and ‘would’ (or, for infinitives, with ‘to’): when a group of verb forms starts off with any other verb (‘want’, ‘can’, ‘need’, etc.) two separate verbs are involved. And when punctuation intervenes, separate verbs are always involved. Thus ‘he was, is, and always will be a scoundrel’ contains three separate verbs, of which the third is periphrastic, and ‘he would like to see you’ contains two separate verbs, both periphrastic."
+          "text": "Now an ancient city can have only one founder, so the story was bound to end badly: they had a quarrel over who was to be king, and Romulus killed Remus."
+        },
+        {
+          "t": "p",
+          "text": "Some English verbs have two parts: ‘he is coming’, ‘he was coming’, ‘did he come?’, ‘he has come’, ‘has he come?’, ‘he has been coming’, ‘he will come’, ‘will he come?’, ‘he will be coming’, ‘he wants to come’, etc. These verb forms function as a single unit in English and must be translated with a single word in Latin, so it is important to be able to identify them."
+        },
+        {
+          "t": "p",
+          "text": "Generally speaking any form of English ‘be’, ‘do’, ‘have’, ‘will’, ‘shall’, or ‘would’ that is followed by another verb form makes up a periphrastic unit; the two elements need not be exactly next to each other. Infinitives are also periphrastic and consist of ‘to’ plus a verb, for example ‘to be’. It is often stated that English infinitives should not be split, i.e."
+        },
+        {
+          "t": "p",
+          "text": "that nothing should come between ‘to’ and ‘be’, but in practice English infinitives are often split (e.g. ‘to boldly go where no-one has gone before’, where the infinitive ‘to go’ is split by the adverb ‘boldly’), so it is useful to be alert to this possibility when trying to identify them. Not all groups of verb forms are periphrastic units; often several different verbs are involved."
+        },
+        {
+          "t": "p",
+          "text": "If the different verb forms do not combine to express one idea, but instead express separate ideas, they are separate entities rather than a single periphrastic unit: ‘he came, saw, and conquered’ has three verbs, while ‘he has been conquering’ has one periphrastic verb form in three parts."
+        },
+        {
+          "t": "p",
+          "text": "A verb form and a following infinitive count as two separate entities: ‘he wants to come’, ‘he likes to argue’, and ‘he hates to be wrong’ are each composed of two verb forms."
+        },
+        {
+          "t": "p",
+          "text": "There is a grey area with verbs that take an infinitive without ‘to’, such as ‘can’ and ‘could’: from an English perspective one could certainly think of ‘he can come’ as a single periphrastic verb form, but that analysis would be unhelpful in dealing with Latin, where two verbs are involved."
+        },
+        {
+          "t": "p",
+          "text": "And the main advantage of the concept of periphrastic verb forms is that it allows one to identify English multi-word groupings that are equivalent to a single word in Latin (and Latin multi-word groupings that are equivalent to a single word in English). It is therefore easiest to think of ‘can’ and ‘could’ as separate verbs from what follows them, not as parts of periphrastic units."
+        },
+        {
+          "t": "p",
+          "text": "The simplest rule to follow is that English periphrastic verb forms can only begin with forms of ‘be’, ‘do’, ‘have’, ‘will’, ‘shall’, and ‘would’ (or, for infinitives, with ‘to’): when a group of verb forms starts off with any other verb (‘want’, ‘can’, ‘need’, etc.) two separate verbs are involved. And when punctuation intervenes, separate verbs are always involved."
+        },
+        {
+          "t": "p",
+          "text": "Thus ‘he was, is, and always will be a scoundrel’ contains three separate verbs, of which the third is periphrastic, and ‘he would like to see you’ contains two separate verbs, both periphrastic."
         }
       ]
     },
@@ -43,8 +143,48 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
+          "t": "h",
+          "text": "12 Who knows whether we shall swimmer, but it didn’t work out,"
+        },
+        {
+          "t": "h",
+          "text": "13 The captain could not see the that the winner will not be"
+        },
+        {
           "t": "p",
-          "text": "Every sentence consists of, at a minimum, one verb and a subject for that verb, that is, an indication of who or what performs the action of the verb. In Latin the subject may be understood rather than expressed, but in English it has to be expressed (except in the case of imperatives). Subjects can be nouns or pronouns: in ‘Julia runs’, ‘London is crowded’, ‘The cat wants to come in’, or ‘Beauty is truth’, the subjects (underlined) are nouns; in ‘He saw it’, ‘You know her’, and ‘They have a big dog’, the subjects are pronouns. The subject is often the first word or phrase in an English sentence, but not always. Sometimes an adverb or prepositional phrase precedes the subject, as ‘Tomorrow we shall go shopping’ or ‘In spring this wood is full of bluebells’. In questions an interrogative word and/or a verb usually comes first, forcing the subject into a later position, as ‘Do you know him?’, ‘Whom did you see?’, ‘Which one did he buy?’, ‘Have you seen Mary?’. (If the interrogative word happens to be the subject, then it continues to come first: ‘Who saw them?’) Sometimes several verbs connected by a conjunction share the same subject, as in ‘He comes and goes’, where ‘he’ is the subject of both ‘comes’ and ‘goes’. Some verbs depend directly on another verb and do not have expressed subjects: for example, in ‘I want to go to Paris’ the main verb is ‘want’, which has the subject ‘I’, but the dependent verb ‘to go’ does not have an expressed subject. Many, but not all, verbs have objects. An object is a noun or pronoun that receives the action of the verb; in English objects normally come after verbs. Some verbs have more than one object. The objects are underlined in the following sentences: ‘I love John’, ‘John loves me’, ‘We saw an enormous rattlesnake’, ‘They gave her flowers’ (here ‘her’ is an indirect object and ‘flowers’ is a direct object; see chapter 7.2), ‘They had cake, ice cream, and candied fruit’. Verbs expressing identity, such as ‘be’, ‘become’, or ‘be called’, do not have objects since the thing that comes after them is stated to be the same thing as the subject. Thus ‘He has become famous’, ‘We are hungry’, and ‘He is named Jim’ are sentences without objects."
+          "text": "recognize him because he will be 14 People have been learning Latin asleep in the lounge. as a foreign language for more deciding to buy a used car, 15 I can see something, but I have because many people have been no idea what it is. tricked by car salesmen. 16 I wanted to be an Olympic ever see our homeland again? so I decided to be a writer No-one who has come this way instead."
+        },
+        {
+          "t": "p",
+          "text": "has ever returned to tell the tale 17 No-one can be sure who will win of his adventures. that race, but we all know other ship, so he did not try to Martin. steer away from it."
+        },
+        {
+          "t": "p",
+          "text": "Every sentence consists of, at a minimum, one verb and a subject for that verb, that is, an indication of who or what performs the action of the verb. In Latin the subject may be understood rather than expressed, but in English it has to be expressed (except in the case of imperatives)."
+        },
+        {
+          "t": "p",
+          "text": "Subjects can be nouns or pronouns: in ‘Julia runs’, ‘London is crowded’, ‘The cat wants to come in’, or ‘Beauty is truth’, the subjects (underlined) are nouns; in ‘He saw it’, ‘You know her’, and ‘They have a big dog’, the subjects are pronouns. The subject is often the first word or phrase in an English sentence, but not always."
+        },
+        {
+          "t": "p",
+          "text": "Sometimes an adverb or prepositional phrase precedes the subject, as ‘Tomorrow we shall go shopping’ or ‘In spring this wood is full of bluebells’. In questions an interrogative word and/or a verb usually comes first, forcing the subject into a later position, as ‘Do you know him?’, ‘Whom did you see?’, ‘Which one did he buy?’, ‘Have you seen Mary?’."
+        },
+        {
+          "t": "p",
+          "text": "(If the interrogative word happens to be the subject, then it continues to come first: ‘Who saw them?’) Sometimes several verbs connected by a conjunction share the same subject, as in ‘He comes and goes’, where ‘he’ is the subject of both ‘comes’ and ‘goes’."
+        },
+        {
+          "t": "p",
+          "text": "Some verbs depend directly on another verb and do not have expressed subjects: for example, in ‘I want to go to Paris’ the main verb is ‘want’, which has the subject ‘I’, but the dependent verb ‘to go’ does not have an expressed subject. Many, but not all, verbs have objects. An object is a noun or pronoun that receives the action of the verb; in English objects normally come after verbs. Some verbs have more than one object."
+        },
+        {
+          "t": "p",
+          "text": "The objects are underlined in the following sentences: ‘I love John’, ‘John loves me’, ‘We saw an enormous rattlesnake’, ‘They gave her flowers’ (here ‘her’ is an indirect object and ‘flowers’ is a direct object; see chapter 7.2), ‘They had cake, ice cream, and candied fruit’."
+        },
+        {
+          "t": "p",
+          "text": "Verbs expressing identity, such as ‘be’, ‘become’, or ‘be called’, do not have objects since the thing that comes after them is stated to be the same thing as the subject. Thus ‘He has become famous’, ‘We are hungry’, and ‘He is named Jim’ are sentences without objects."
         }
       ]
     },
@@ -56,7 +196,27 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "The subject of a sentence is in the nominative case in Latin, and the direct object is in the accusative (see section 63.3 above for subjects and objects). Words connected to the subject by a verb indicating identity, such as ‘be’, ‘become’, or ‘be called’, are also in the nominative: thus in these sentences the underlined words are all nominatives even though they are not subjects: ‘He has become famous’, ‘We are hungry’, and ‘He is named John’."
+          "text": "which was lucky for Rhea Silvia as otherwise Numitor would have killed her as he allegedly killed her brother), he ordered Rhea to become a Vestal Virgin. It was a serious crime for a Vestal Virgin to have a child, and when the twins were born, Amulius was furious. He took them away from their mother and dumped them in a river in hopes that they would drown."
+        },
+        {
+          "t": "p",
+          "text": "But they did not drown; the basket containing the twins drifted to shore, where they were rescued and fed by a wolf. Later a shepherd found the babies and took them home to his wife, who raised them until they became unruly teenagers. As teenagers Romulus and Remus caused more trouble than most: they not only robbed people, but also gathered a band of followers and became powerful bandits."
+        },
+        {
+          "t": "p",
+          "text": "Eventually Remus was captured and brought to the king, at which point he was recognized by his grandfather, Numitor. Romulus and his men came to rescue Remus, and with Numitor’s help they killed the king. Numitor then became king of Alba, and Romulus and Remus, who were not used to the restraint and decorum required of princes in Alba, went off to found Rome."
+        },
+        {
+          "t": "p",
+          "text": "Now an ancient city can have only one founder, so the story was bound to end badly: they had a quarrel over who was to be king, and Romulus killed Remus."
+        },
+        {
+          "t": "p",
+          "text": "The subject of a sentence is in the nominative case in Latin, and the direct object is in the accusative (see section 63.3 above for subjects and objects)."
+        },
+        {
+          "t": "p",
+          "text": "Words connected to the subject by a verb indicating identity, such as ‘be’, ‘become’, or ‘be called’, are also in the nominative: thus in these sentences the underlined words are all nominatives even though they are not subjects: ‘He has become famous’, ‘We are hungry’, and ‘He is named John’."
         }
       ]
     },
@@ -80,7 +240,27 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "Genitives are used in Latin for words that in English have an apostrophe with ‘s’ and for phrases beginning with ‘of’ (see chapter 5.2); thus ‘girls’ would be genitive both in ‘The girls’ father is over there’ and in ‘One of the girls has left’ (but ‘father’ and ‘one’ would be nominative). Datives are used for indirect objects, that is, the recipient with the verb ‘give’: in ‘I gave him a book’, ‘him’ is dative and ‘book’, the thing actually given, is accusative (see chapter 7.2)."
+          "text": "which was lucky for Rhea Silvia as otherwise Numitor would have killed her as he allegedly killed her brother), he ordered Rhea to become a Vestal Virgin. It was a serious crime for a Vestal Virgin to have a child, and when the twins were born, Amulius was furious. He took them away from their mother and dumped them in a river in hopes that they would drown."
+        },
+        {
+          "t": "p",
+          "text": "But they did not drown; the basket containing the twins drifted to shore, where they were rescued and fed by a wolf. Later a shepherd found the babies and took them home to his wife, who raised them until they became unruly teenagers. As teenagers Romulus and Remus caused more trouble than most: they not only robbed people, but also gathered a band of followers and became powerful bandits."
+        },
+        {
+          "t": "p",
+          "text": "Eventually Remus was captured and brought to the king, at which point he was recognized by his grandfather, Numitor. Romulus and his men came to rescue Remus, and with Numitor’s help they killed the king. Numitor then became king of Alba, and Romulus and Remus, who were not used to the restraint and decorum required of princes in Alba, went off to found Rome."
+        },
+        {
+          "t": "p",
+          "text": "Now an ancient city can have only one founder, so the story was bound to end badly: they had a quarrel over who was to be king, and Romulus killed Remus."
+        },
+        {
+          "t": "p",
+          "text": "Genitives are used in Latin for words that in English have an apostrophe with ‘s’ and for phrases beginning with ‘of’ (see chapter 5.2); thus ‘girls’ would be genitive both in ‘The girls’ father is over there’ and in ‘One of the girls has left’ (but ‘father’ and ‘one’ would be nominative)."
+        },
+        {
+          "t": "p",
+          "text": "Datives are used for indirect objects, that is, the recipient with the verb ‘give’: in ‘I gave him a book’, ‘him’ is dative and ‘book’, the thing actually given, is accusative (see chapter 7.2)."
         }
       ]
     },
@@ -92,7 +272,19 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "In addition to the case usages mentioned above, accusatives are used for the subjects of indirect statements (see chapter 19.1), for indicating an extent of time or space (see chapter 35.3), and after certain prepositions such as ad ‘to’ and in ‘into’. Verbs meaning ‘be’ and ‘become’, since they take a word in the same case as their subjects, also take an accusative if their subjects are accusative (i.e. in indirect statement: see chapter 19.1). Although usually English words that have an apostrophe and ‘s’ (in either order) are genitives and ones that have the ‘s’ without an apostrophe are not genitives (unless they are part of a phrase with ‘of’), two words use the apostrophe differently: ‘whose’ and ‘its’ are genitives, while ‘who’s’ and ‘it’s’ are not. (These latter forms are contractions of ‘who is’ and ‘it is’.) Datives are used after verbs that take an object in the dative, such as persuādeō ‘persuade’ (see chapter 28.3). Ablatives are used after prepositions such as cum ‘with’, ā/ab ‘by’ and ‘from’, and in ‘in’; after verbs that take an object in the ablative, such as ūtor ‘use’; and in a number of other constructions (see chapter 35). Relative pronouns take their case from their own clause, not from the main clause (see chapter 25.2)."
+          "text": "In addition to the case usages mentioned above, accusatives are used for the subjects of indirect statements (see chapter 19.1), for indicating an extent of time or space (see chapter 35.3), and after certain prepositions such as ad ‘to’ and in ‘into’. Verbs meaning ‘be’ and ‘become’, since they take a word in the same case as their subjects, also take an accusative if their subjects are accusative (i.e."
+        },
+        {
+          "t": "p",
+          "text": "in indirect statement: see chapter 19.1). Although usually English words that have an apostrophe and ‘s’ (in either order) are genitives and ones that have the ‘s’ without an apostrophe are not genitives (unless they are part of a phrase with ‘of’), two words use the apostrophe differently: ‘whose’ and ‘its’ are genitives, while ‘who’s’ and ‘it’s’ are not."
+        },
+        {
+          "t": "p",
+          "text": "(These latter forms are contractions of ‘who is’ and ‘it is’.) Datives are used after verbs that take an object in the dative, such as persuādeō ‘persuade’ (see chapter 28.3). Ablatives are used after prepositions such as cum ‘with’, ā/ab ‘by’ and ‘from’, and in ‘in’; after verbs that take an object in the ablative, such as ūtor ‘use’; and in a number of other constructions (see chapter 35)."
+        },
+        {
+          "t": "p",
+          "text": "Relative pronouns take their case from their own clause, not from the main clause (see chapter 25.2)."
         }
       ]
     },
@@ -102,6 +294,82 @@ const chapter = {
       "english": "Grammar",
       "kind": "commentary",
       "blocks": [
+        {
+          "t": "h",
+          "text": "6 Martha is now a neurosurgeon, 20 Who knows the answer?"
+        },
+        {
+          "t": "h",
+          "text": "7 Jane said that she had come from works in London."
+        },
+        {
+          "t": "p",
+          "text": "but when I last saw her she was 21 Jim says that he is not a poet. a little girl. 22 Martin’s sister is a doctor who"
+        },
+        {
+          "t": "h",
+          "text": "Corinth. 23 Whose dissertation won the"
+        },
+        {
+          "t": "h",
+          "text": "8 John will never persuade Julia to prize?"
+        },
+        {
+          "t": "h",
+          "text": "9 What are you running away 25 Can Jane persuade her mother to"
+        },
+        {
+          "t": "h",
+          "text": "10 The dog that Maria bought is 26 What did the fishermen catch"
+        },
+        {
+          "t": "h",
+          "text": "11 Which books did the teacher 27 Jonathan saw the men who had"
+        },
+        {
+          "t": "h",
+          "text": "12 Mary thinks that poets are 28 Julia thinks that we will stay in"
+        },
+        {
+          "t": "h",
+          "text": "13 Mark has not yet used the money 29 Whom did James see in town?"
+        },
+        {
+          "t": "h",
+          "text": "14 Who did you go to the play with? hard to find a job."
+        },
+        {
+          "t": "h",
+          "text": "15 Jane is sad because she doesn’t 31 What will Marcia use to fix the"
+        },
+        {
+          "t": "h",
+          "text": "16 Who did Martin give his cloak 32 Which beggar did you give your"
+        },
+        {
+          "t": "h",
+          "text": "17 Rome is overrun by people who 33 Mark’s father said that the boys"
+        },
+        {
+          "t": "h",
+          "text": "18 To whom is Martha giving all 34 Those children are always"
+        },
+        {
+          "t": "p",
+          "text": "leave Rome; she has lived there 24 Joshua knows the girl whose hat for twenty years. that is. from? buy her a new phone? eating all her socks. today? borrow? burgled the shop. boring. Rome. that his grandfather gave him for 30 The father of these boys is Christmas. unemployed, but he is trying know what to do. window? to? sandwich to? write bad poetry. had given him an apple."
+        },
+        {
+          "t": "h",
+          "text": "that money? happy; all day I see them"
+        },
+        {
+          "t": "h",
+          "text": "19 Mary fixed the lawnmower with laughing."
+        },
+        {
+          "t": "p",
+          "text": "a rubber band that she found in 35 Who persuaded Jim to come to the bottom drawer. the party?"
+        },
         {
           "t": "p",
           "text": "One of the most important aspects of Latin grammar is the different constructions used; it is necessary to learn to distinguish these both in Latin and in English if one is to be able to translate successfully between the two languages. The exercise below concentrates on indirect statement and purpose clauses; as these are covered in chapters 15, 16, and 19 the exercise can be done at any point after chapter 19."
@@ -114,6 +382,14 @@ const chapter = {
       "english": "Grammar",
       "kind": "commentary",
       "blocks": [
+        {
+          "t": "h",
+          "text": "32 He said it probably did not want 33 We put a brick over the hole so it"
+        },
+        {
+          "t": "p",
+          "text": "to be in the kitchen with her wouldn’t return. either."
+        },
         {
           "t": "p",
           "text": "different things and must therefore be translated differently in English. In order to distinguish them, one looks for a verb that introduces an indirect command: if such a verb is present, the following subjunctive has to be translated as an indirect command, and if not, it can be translated as a purpose clause. See chapter 28.3; this exercise is designed to be done any time after chapter 29."
@@ -128,7 +404,99 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "On the following page is a chart listing the different possible constructions for Latin infinitives, participles, and subjunctives introduced in chapters 1– 35, followed by some practice exercises. If you have trouble working out how to translate such verb forms, it is recommended that you use the chart for each sentence: first identify the construction using the two left-hand columns and then translate it using the right-hand column. Practice translating this way should enable you to internalize the identification process and learn to translate these constructions without such help. Other words (or other types Latin Verb Form of clue) nearby Construction and Translation Present infinitive possum, volō, nōlō, mālō Translate with English infinitive. potest Rōmam īre. ‘He is able to go to Rome.’ volō Rōmam īre. ‘I want to go to Rome.’ Infinitive (any tense) dīcō, arbitror, other verb of Indirect statement: translate with indicative verb in the tense of the saying or thinking infinitive. dīcit sē Rōmam itūrum esse. ‘He says he will go to Rome.’ dīcit sē Rōmam īre. ‘He says he is going to Rome.’ dīcit sē Rōmam īvisse. ‘He says he went to Rome.’ Perfect participle The participle is near a form of Translate the participle and the form of sum together as a past sum. indicative (active if the verb is deponent, otherwise passive). ille vēnātus est. ‘That man hunted.’ ille amātus est. ‘That man was loved.’ Perfect participle The participle is not near Translate with an English past active participle (‘having loved’) if a form of sum. the verb is deponent, otherwise with a past passive participle (‘loved’, ‘having been loved’), or translate with a subordinate clause with a similar meaning. vēnātus Rōmam īvit. ‘Having hunted, he went to Rome.’ / ‘After he hunted, he went to Rome.’ amātus Rōmam ībit. ‘Since/if/when he is loved, he will go to Rome.’ puella amāta discessit. ‘The beloved girl has left.’ Other words (or other types Latin Verb Form of clue) nearby Construction and Translation Present participle – Translate with an English present participle (‘loving’), or with a subordinate clause with a similar meaning. servōs dūcēns Rōmam ībit. ‘He will go to Rome leading slaves.’ Future participle – Translate with ‘being about to’ or with a subordinate clause having a similar meaning. dictūrus impedītus est. ‘Being about to speak, he was hindered.’ / ‘He was hindered when he was about to speak.’ Present subjunctive The subjunctive is the only or Deliberative subjunctive: translate with ‘should. . . ?’. main verb of the sentence, eāmusne Rōmam? ‘Should we go to Rome?’ the sentence is a question, and the subjunctive is in the first person. Present subjunctive The subjunctive is the only or Hortatory subjunctive: translate with ‘let’s’ if first person, otherwise main verb of the sentence, with ‘may’ before the subject. and the sentence is not Rōmam eāmus. ‘Let’s go to Rome.’ a question. Rōmam eat. ‘May he go to Rome.’ (not ‘He may go to Rome.’) nē Rōmam eant. ‘May they not go to Rome.’ (not ‘They may not go. . .’) Subjunctive (any tense) Subjunctive is in a clause Result clause: translate with ‘that’ and present or past indicative opened by ut, and in the according to sequence. main clause there is tantus, tam fortis est ut Rōmam eat. ‘He’s so brave that he’s going to Rome.’ tam, etc. tam fortis erat ut Rōmam īret. ‘He was so brave that he went to Rome.’ Subjunctive (any tense) Subjunctive is in a clause Fear clause: translate with ‘that’ and future indicative or ‘would’, opened by ut or nē, with negative if ut and no negative if nē. dependent on a verb of timeō ut Rōmam eat. ‘I’m afraid that he will not go to Rome.’ fearing. timuī nē Rōmam īret. ‘I was afraid that he would go to Rome.’ Subjunctive (any tense) Subjunctive is in a clause Indirect command: translate with infinitive. opened by ut or nē, rogō eum ut Rōmam eat. ‘I’m asking him to go to Rome.’ dependent on a verb of imperāvī eī nē Rōmam īret. ‘I ordered him not to go to Rome.’ asking, ordering, etc. Subjunctive (any tense) Subjunctive is in a clause Purpose clause: translate with ‘so that’ or ‘(in order) to’. opened by ut or nē, with discessit ut Rōmam īret. ‘He left (in order) to go to Rome.’ none of the above clues impediam eum nē Rōmam eat. ‘I shall hinder him so that he doesn’t present. go to Rome.’"
+          "text": "On the following page is a chart listing the different possible constructions for Latin infinitives, participles, and subjunctives introduced in chapters 1– 35, followed by some practice exercises."
+        },
+        {
+          "t": "p",
+          "text": "If you have trouble working out how to translate such verb forms, it is recommended that you use the chart for each sentence: first identify the construction using the two left-hand columns and then translate it using the right-hand column. Practice translating this way should enable you to internalize the identification process and learn to translate these constructions without such help."
+        },
+        {
+          "t": "h",
+          "text": "Other words (or other types"
+        },
+        {
+          "t": "p",
+          "text": "Latin Verb Form of clue) nearby Construction and Translation Present infinitive possum, volō, nōlō, mālō Translate with English infinitive. potest Rōmam īre. ‘He is able to go to Rome.’ volō Rōmam īre. ‘I want to go to Rome.’ Infinitive (any tense) dīcō, arbitror, other verb of Indirect statement: translate with indicative verb in the tense of the saying or thinking infinitive. dīcit sē Rōmam itūrum esse."
+        },
+        {
+          "t": "p",
+          "text": "‘He says he will go to Rome.’ dīcit sē Rōmam īre. ‘He says he is going to Rome.’ dīcit sē Rōmam īvisse. ‘He says he went to Rome.’ Perfect participle The participle is near a form of Translate the participle and the form of sum together as a past sum. indicative (active if the verb is deponent, otherwise passive). ille vēnātus est. ‘That man hunted.’ ille amātus est."
+        },
+        {
+          "t": "p",
+          "text": "‘That man was loved.’ Perfect participle The participle is not near Translate with an English past active participle (‘having loved’) if a form of sum. the verb is deponent, otherwise with a past passive participle (‘loved’, ‘having been loved’), or translate with a subordinate clause with a similar meaning."
+        },
+        {
+          "t": "h",
+          "text": "vēnātus Rōmam īvit. ‘Having hunted, he went to Rome.’ / ‘After he"
+        },
+        {
+          "t": "p",
+          "text": "hunted, he went to Rome.’ amātus Rōmam ībit. ‘Since/if/when he is loved, he will go to Rome.’ puella amāta discessit. ‘The beloved girl has left.’"
+        },
+        {
+          "t": "h",
+          "text": "Other words (or other types"
+        },
+        {
+          "t": "p",
+          "text": "Latin Verb Form of clue) nearby Construction and Translation Present participle – Translate with an English present participle (‘loving’), or with a subordinate clause with a similar meaning. servōs dūcēns Rōmam ībit. ‘He will go to Rome leading slaves.’"
+        },
+        {
+          "t": "pre",
+          "text": "Future participle – Translate with ‘being about to’ or with a subordinate clause having"
+        },
+        {
+          "t": "p",
+          "text": "a similar meaning."
+        },
+        {
+          "t": "h",
+          "text": "dictūrus impedītus est. ‘Being about to speak, he was hindered.’ /"
+        },
+        {
+          "t": "h",
+          "text": "‘He was hindered when he was about to speak.’"
+        },
+        {
+          "t": "pre",
+          "text": "Present subjunctive The subjunctive is the only or Deliberative subjunctive: translate with ‘should. . . ?’."
+        },
+        {
+          "t": "p",
+          "text": "main verb of the sentence, eāmusne Rōmam? ‘Should we go to Rome?’ the sentence is a question, and the subjunctive is in the first person."
+        },
+        {
+          "t": "pre",
+          "text": "Present subjunctive The subjunctive is the only or Hortatory subjunctive: translate with ‘let’s’ if first person, otherwise"
+        },
+        {
+          "t": "p",
+          "text": "main verb of the sentence, with ‘may’ before the subject. and the sentence is not Rōmam eāmus. ‘Let’s go to Rome.’ a question. Rōmam eat. ‘May he go to Rome.’ (not ‘He may go to Rome.’)"
+        },
+        {
+          "t": "h",
+          "text": "nē Rōmam eant. ‘May they not go to Rome.’ (not ‘They may not"
+        },
+        {
+          "t": "h",
+          "text": "go. . .’)"
+        },
+        {
+          "t": "p",
+          "text": "Subjunctive (any tense) Subjunctive is in a clause Result clause: translate with ‘that’ and present or past indicative opened by ut, and in the according to sequence. main clause there is tantus, tam fortis est ut Rōmam eat. ‘He’s so brave that he’s going to Rome.’ tam, etc. tam fortis erat ut Rōmam īret."
+        },
+        {
+          "t": "p",
+          "text": "‘He was so brave that he went to Rome.’ Subjunctive (any tense) Subjunctive is in a clause Fear clause: translate with ‘that’ and future indicative or ‘would’, opened by ut or nē, with negative if ut and no negative if nē. dependent on a verb of timeō ut Rōmam eat. ‘I’m afraid that he will not go to Rome.’ fearing. timuī nē Rōmam īret."
+        },
+        {
+          "t": "p",
+          "text": "‘I was afraid that he would go to Rome.’ Subjunctive (any tense) Subjunctive is in a clause Indirect command: translate with infinitive. opened by ut or nē, rogō eum ut Rōmam eat. ‘I’m asking him to go to Rome.’ dependent on a verb of imperāvī eī nē Rōmam īret. ‘I ordered him not to go to Rome.’ asking, ordering, etc. Subjunctive (any tense) Subjunctive is in a clause Purpose clause: translate with ‘so that’ or ‘(in order) to’."
+        },
+        {
+          "t": "p",
+          "text": "opened by ut or nē, with discessit ut Rōmam īret. ‘He left (in order) to go to Rome.’ none of the above clues impediam eum nē Rōmam eat. ‘I shall hinder him so that he doesn’t present. go to Rome.’"
         }
       ]
     },
@@ -139,8 +507,20 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
+          "t": "h",
+          "text": "This Book"
+        },
+        {
           "t": "p",
-          "text": "This Book Chapter 5, exercise B: identification of genitives. Chapter 5, exercise G: identification of nominatives and accusatives (like exercises F and G above). Chapter 7, exercise B: identification of datives. Chapter 7, exercise G: identification of nominatives, accusatives, genitives, and datives (like exercise I above). Chapter 15, exercise A: division of sentences into clauses; identification of conjunctions, main clauses, and subordinate clauses. Chapter 25, exercise A: identification of relative clauses. Chapter 28, exercise E: distinguishing the different Latin translations of English infinitives. Chapter 30, exercises C and D: dividing long sentences into clauses. Chapter 34, exercise E: identifying different types of ablative. Chapter 35, exercise E: identifying different types of ablative. Chapter 50, exercise A: manipulation of English conditional clauses (like exercise O above). Chapter 50, exercise B, and chapter 51, exercise C: identification of conditional clauses (like exercise P above)."
+          "text": "Chapter 5, exercise B: identification of genitives. Chapter 5, exercise G: identification of nominatives and accusatives (like exercises F and G above). Chapter 7, exercise B: identification of datives. Chapter 7, exercise G: identification of nominatives, accusatives, genitives, and datives (like exercise I above)."
+        },
+        {
+          "t": "p",
+          "text": "Chapter 15, exercise A: division of sentences into clauses; identification of conjunctions, main clauses, and subordinate clauses. Chapter 25, exercise A: identification of relative clauses. Chapter 28, exercise E: distinguishing the different Latin translations of English infinitives. Chapter 30, exercises C and D: dividing long sentences into clauses. Chapter 34, exercise E: identifying different types of ablative."
+        },
+        {
+          "t": "p",
+          "text": "Chapter 35, exercise E: identifying different types of ablative. Chapter 50, exercise A: manipulation of English conditional clauses (like exercise O above). Chapter 50, exercise B, and chapter 51, exercise C: identification of conditional clauses (like exercise P above)."
         }
       ]
     }
@@ -153,19 +533,14 @@ const chapter = {
       "paragraphs": [
         "servo meo imperavi ut oppido progressi sunt. sequeretur.",
         "servum meum rogabo ne sunt ne hostes se caperent. moretur.",
-        "pater filio imperat ut sequatur. sequantur, ex oppido progressi",
-        "venati sunt ut animalia caperent. se sequerentur ex oppido",
         "velim ut me sequaris. progressi sunt.",
         "regem sequentes, milites e castris patientur. progressi sunt.",
         "imperabimus servis ut Londinii a fratre meo impeditus est. maneant.",
         "adeo laudati sunt ut omnes eos defensos esse. amarent.",
         "animalia ab hoc agricola vendita oppugnatos esse. numquam bona sunt.",
-        "exercitus hostium tantus est ut",
         "tanta est spes nostra ut tristes impedior. non simus.",
         "tantus est metus eius ut fugiat.",
-        "domus eorum tanta est ut multi",
-        "multa passi tristes sunt.",
-        "Athenis tot dies morati sunt ut 80 vidi servos te sequentem. Corinthum numquam irent. 81 relinquamusne hic equos"
+        "multa passi tristes sunt."
       ],
       "notes": []
     }
@@ -180,7 +555,7 @@ const chapter = {
       "type": "questions",
       "items": [
         {
-          "q": "2 Periphrastic Verb Forms 421 Now an ancient city can have only one founder, so the story was bound to end badly: they had a quarrel over who was to be king, and Romulus killed Remus.",
+          "q": "A Identify the part of speech of each underlined word or group of words in the following English paragraphs: Romulus and Remus, the founders of Rome, had a doubtful ancestry. Their father was unknown: legend has it that he was the god of war, Mars, but even in antiquity that story was viewed with suspicion. Their mother was Rhea Silvia, daughter of Numitor, rightful king of Alba Longa. Numitor’s evil brother, Amulius, seized the throne from him, and in order to make sure that the legitimate king had no male heirs (female heirs did not count in antiquity, which was lucky for Rhea Silvia as otherwise Numitor would have killed her as he allegedly killed her brother), he ordered Rhea to become a Vestal Virgin. It was a serious crime for a Vestal Virgin to have a child, and when the twins were born, Amulius was furious. He took them away from their mother and dumped them in a river in hopes that they would drown. But they did not drown; the basket containing the twins drifted to shore, where they were rescued and fed by a wolf. Later a shepherd found the babies and took them home to his wife, who raised them until they became unruly teenagers. As teenagers Romulus and Remus caused more trouble than most: they not only robbed people, but also gathered a band of followers and became powerful bandits. Eventually Remus was captured and brought to the king, at which point he was recognized by his grandfather, Numitor. Romulus and his men came to rescue Remus, and with Numitor’s help they killed the king. Numitor then became king of Alba, and Romulus and Remus, who were not used to the restraint and decorum required of princes in Alba, went off to found Rome.",
           "a": ""
         }
       ],
@@ -357,39 +732,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "10 Come and see the chairman and then I wrote a book once you’ve settled in; you will about it. 63.",
-          "a": ""
-        },
-        {
-          "q": "3 Subjects and Objects 423 recognize him because he will be",
-          "a": ""
-        },
-        {
-          "q": "14 People have been learning Latin asleep in the lounge. as a foreign language for more",
-          "a": ""
-        },
-        {
-          "q": "11 I would think twice before than two thousand years. deciding to buy a used car,",
-          "a": ""
-        },
-        {
-          "q": "15 I can see something, but I have because many people have been no idea what it is. tricked by car salesmen.",
-          "a": ""
-        },
-        {
-          "q": "16 I wanted to be an Olympic",
-          "a": ""
-        },
-        {
-          "q": "12 Who knows whether we shall swimmer, but it didn’t work out, ever see our homeland again? so I decided to be a writer No-one who has come this way instead. has ever returned to tell the tale",
-          "a": ""
-        },
-        {
-          "q": "17 No-one can be sure who will win of his adventures. that race, but we all know",
-          "a": ""
-        },
-        {
-          "q": "13 The captain could not see the that the winner will not be other ship, so he did not try to Martin. steer away from it.",
+          "q": "10 Come and see the chairman and then I wrote a book once you’ve settled in; you will about it.",
           "a": ""
         }
       ],
@@ -486,11 +829,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "11 Martin’s dog is overweight. rich. E For every underlined verb in the paragraphs below, find its subject or identify it as an infinitive. Work out which verbs have objects and what those objects are. Be sure to identify the actual word that is the grammatical subject or object, not the idea behind that word: for example, in the sentence ‘Bob, who is a surgeon, works long hours’, the subject of ‘works’ is ‘Bob’, but the subject of ‘is’ is ‘who’, not ‘Bob’. Although logically ‘who’ is the same person as ‘Bob’, grammatically only ‘who’ can be the subject of ‘is’; this point is important for some aspects of Latin. Romulus and Remus, the founders of Rome, had a doubtful ancestry. Their father was unknown: legend has it that he was the god of war, Mars, but even in antiquity that story was viewed with suspicion. Their mother was Rhea Silvia, daughter of Numitor, rightful king of Alba Longa. Numitor’s evil brother, Amulius, seized the throne from him, and in order to make sure that the legitimate king had no male heirs (female heirs did not count in antiquity, 63.",
-          "a": ""
-        },
-        {
-          "q": "4 Nominatives and Accusatives 425 which was lucky for Rhea Silvia as otherwise Numitor would have killed her as he allegedly killed her brother), he ordered Rhea to become a Vestal Virgin. It was a serious crime for a Vestal Virgin to have a child, and when the twins were born, Amulius was furious. He took them away from their mother and dumped them in a river in hopes that they would drown. But they did not drown; the basket containing the twins drifted to shore, where they were rescued and fed by a wolf. Later a shepherd found the babies and took them home to his wife, who raised them until they became unruly teenagers. As teenagers Romulus and Remus caused more trouble than most: they not only robbed people, but also gathered a band of followers and became powerful bandits. Eventually Remus was captured and brought to the king, at which point he was recognized by his grandfather, Numitor. Romulus and his men came to rescue Remus, and with Numitor’s help they killed the king. Numitor then became king of Alba, and Romulus and Remus, who were not used to the restraint and decorum required of princes in Alba, went off to found Rome. Now an ancient city can have only one founder, so the story was bound to end badly: they had a quarrel over who was to be king, and Romulus killed Remus.",
+          "q": "11 Martin’s dog is overweight. rich. E For every underlined verb in the paragraphs below, find its subject or identify it as an infinitive. Work out which verbs have objects and what those objects are. Be sure to identify the actual word that is the grammatical subject or object, not the idea behind that word: for example, in the sentence ‘Bob, who is a surgeon, works long hours’, the subject of ‘works’ is ‘Bob’, but the subject of ‘is’ is ‘who’, not ‘Bob’. Although logically ‘who’ is the same person as ‘Bob’, grammatically only ‘who’ can be the subject of ‘is’; this point is important for some aspects of Latin. Romulus and Remus, the founders of Rome, had a doubtful ancestry. Their father was unknown: legend has it that he was the god of war, Mars, but even in antiquity that story was viewed with suspicion. Their mother was Rhea Silvia, daughter of Numitor, rightful king of Alba Longa. Numitor’s evil brother, Amulius, seized the throne from him, and in order to make sure that the legitimate king had no male heirs (female heirs did not count in antiquity,",
           "a": ""
         }
       ],
@@ -684,11 +1023,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "22 Who is that man? colours. H For every underlined word in the paragraphs below, state whether it would be nominative or accusative in Latin. Romulus and Remus, the founders of Rome, had a doubtful ancestry. Their father was unknown: legend has it that he was the god of war, Mars, but even in antiquity that story was viewed with suspicion. Their mother was Rhea Silvia, daughter of Numitor, rightful king of Alba Longa. Numitor’s evil brother, Amulius, seized the throne from him, and in order to make sure that the legitimate king had no male heirs (female heirs did not count in antiquity, 63.",
-          "a": ""
-        },
-        {
-          "q": "6 Genitives and Datives 427 which was lucky for Rhea Silvia as otherwise Numitor would have killed her as he allegedly killed her brother), he ordered Rhea to become a Vestal Virgin. It was a serious crime for a Vestal Virgin to have a child, and when the twins were born, Amulius was furious. He took them away from their mother and dumped them in a river in hopes that they would drown. But they did not drown; the basket containing the twins drifted to shore, where they were rescued and fed by a wolf. Later a shepherd found the babies and took them home to his wife, who raised them until they became unruly teenagers. As teenagers Romulus and Remus caused more trouble than most: they not only robbed people, but also gathered a band of followers and became powerful bandits. Eventually Remus was captured and brought to the king, at which point he was recognized by his grandfather, Numitor. Romulus and his men came to rescue Remus, and with Numitor’s help they killed the king. Numitor then became king of Alba, and Romulus and Remus, who were not used to the restraint and decorum required of princes in Alba, went off to found Rome. Now an ancient city can have only one founder, so the story was bound to end badly: they had a quarrel over who was to be king, and Romulus killed Remus.",
+          "q": "22 Who is that man? colours. H For every underlined word in the paragraphs below, state whether it would be nominative or accusative in Latin. Romulus and Remus, the founders of Rome, had a doubtful ancestry. Their father was unknown: legend has it that he was the god of war, Mars, but even in antiquity that story was viewed with suspicion. Their mother was Rhea Silvia, daughter of Numitor, rightful king of Alba Longa. Numitor’s evil brother, Amulius, seized the throne from him, and in order to make sure that the legitimate king had no male heirs (female heirs did not count in antiquity,",
           "a": ""
         }
       ],
@@ -806,131 +1141,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "5 Which students are ill? 63.",
-          "a": ""
-        },
-        {
-          "q": "8 Distinguishing Different Constructions I 429",
-          "a": ""
-        },
-        {
-          "q": "6 Martha is now a neurosurgeon,",
-          "a": ""
-        },
-        {
-          "q": "20 Who knows the answer? but when I last saw her she was",
-          "a": ""
-        },
-        {
-          "q": "21 Jim says that he is not a poet. a little girl.",
-          "a": ""
-        },
-        {
-          "q": "22 Martin’s sister is a doctor who",
-          "a": ""
-        },
-        {
-          "q": "7 Jane said that she had come from works in London. Corinth.",
-          "a": ""
-        },
-        {
-          "q": "23 Whose dissertation won the",
-          "a": ""
-        },
-        {
-          "q": "8 John will never persuade Julia to prize? leave Rome; she has lived there",
-          "a": ""
-        },
-        {
-          "q": "24 Joshua knows the girl whose hat for twenty years. that is.",
-          "a": ""
-        },
-        {
-          "q": "9 What are you running away",
-          "a": ""
-        },
-        {
-          "q": "25 Can Jane persuade her mother to from? buy her a new phone?",
-          "a": ""
-        },
-        {
-          "q": "10 The dog that Maria bought is",
-          "a": ""
-        },
-        {
-          "q": "26 What did the fishermen catch eating all her socks. today?",
-          "a": ""
-        },
-        {
-          "q": "11 Which books did the teacher",
-          "a": ""
-        },
-        {
-          "q": "27 Jonathan saw the men who had borrow? burgled the shop.",
-          "a": ""
-        },
-        {
-          "q": "12 Mary thinks that poets are",
-          "a": ""
-        },
-        {
-          "q": "28 Julia thinks that we will stay in boring. Rome.",
-          "a": ""
-        },
-        {
-          "q": "13 Mark has not yet used the money",
-          "a": ""
-        },
-        {
-          "q": "29 Whom did James see in town? that his grandfather gave him for",
-          "a": ""
-        },
-        {
-          "q": "30 The father of these boys is Christmas. unemployed, but he is trying",
-          "a": ""
-        },
-        {
-          "q": "14 Who did you go to the play with? hard to find a job.",
-          "a": ""
-        },
-        {
-          "q": "15 Jane is sad because she doesn’t",
-          "a": ""
-        },
-        {
-          "q": "31 What will Marcia use to fix the know what to do. window?",
-          "a": ""
-        },
-        {
-          "q": "16 Who did Martin give his cloak",
-          "a": ""
-        },
-        {
-          "q": "32 Which beggar did you give your to? sandwich to?",
-          "a": ""
-        },
-        {
-          "q": "17 Rome is overrun by people who",
-          "a": ""
-        },
-        {
-          "q": "33 Mark’s father said that the boys write bad poetry. had given him an apple.",
-          "a": ""
-        },
-        {
-          "q": "18 To whom is Martha giving all",
-          "a": ""
-        },
-        {
-          "q": "34 Those children are always that money? happy; all day I see them",
-          "a": ""
-        },
-        {
-          "q": "19 Mary fixed the lawnmower with laughing. a rubber band that she found in",
-          "a": ""
-        },
-        {
-          "q": "35 Who persuaded Jim to come to the bottom drawer. the party?",
+          "q": "5 Which students are ill?",
           "a": ""
         }
       ],
@@ -1063,19 +1274,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "31 My father said it would not come by himself. up again. 63.",
-          "a": ""
-        },
-        {
-          "q": "9 Distinguishing Different Constructions II 431",
-          "a": ""
-        },
-        {
-          "q": "32 He said it probably did not want",
-          "a": ""
-        },
-        {
-          "q": "33 We put a brick over the hole so it to be in the kitchen with her wouldn’t return. either.",
+          "q": "31 My father said it would not come by himself. up again.",
           "a": ""
         }
       ],
@@ -1461,11 +1660,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "23 dei nos iuvent. numquam domum veniret. 63.",
-          "a": ""
-        },
-        {
-          "q": "10 Distinguishing Different Constructions III 437",
+          "q": "23 dei nos iuvent. numquam domum veniret.",
           "a": ""
         },
         {

@@ -15,12 +15,36 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
+          "t": "p",
+          "text": "The verb volō (‘wish’, ‘want’: see chapter 25.3) has two compounds. Nōlō is formed from nōn + volō and means ‘I do not want’, and mālō is formed from magis ‘more’ + volō and means ‘I prefer’ (i.e. ‘I want more’). Like volō, they have no passive. These verbs are conjugated as follows (volō is given for comparison):"
+        },
+        {
           "t": "h",
-          "text": "37.2 Use of Nōlō and Mālō"
+          "text": "Volō, velle, voluī, – Nōlō, nōlle, nōluī, – Mālō, mālle, māluī, –"
+        },
+        {
+          "t": "pre",
+          "text": "Present active volō nōlō mālō indicative vīs nōn vīs māvīs"
         },
         {
           "t": "p",
-          "text": "The verb volō (‘wish’, ‘want’: see chapter 25.3) has two compounds. Nōlō is formed from nōn + volō and means ‘I do not want’, and mālō is formed from magis ‘more’ + volō and means ‘I prefer’ (i.e. ‘I want more’). Like volō, they have no passive. These verbs are conjugated as follows (volō is given for comparison): Volō, velle, voluī, – Nōlō, nōlle, nōluī, – Mālō, mālle, māluī, – Present active volō nōlō mālō indicative vīs nōn vīs māvīs vult nōn vult māvult volumus nōlumus mālumus vultis nōn vultis māvultis volunt nōlunt mālunt Future active volam nōlam mālam indicative volēs nōlēs mālēs volet nōlet mālet volēmus nōlēmus mālēmus volētis nōlētis mālētis volent nōlent mālent Perfect active voluī nōluī māluī indicative voluistī nōluistī māluistī voluit nōluit māluit voluimus nōluimus māluimus voluistis nōluistis māluistis voluērunt nōluērunt māluērunt Present active velim nōlim mālim subjunctive velīs nōlīs mālīs velit nōlit mālit velīmus nōlīmus mālīmus velītis nōlītis mālītis velint nōlint mālint Volō, velle, voluī, – Nōlō, nōlle, nōluī, – Mālō, mālle, māluī, – Imperfect vellem nōllem māllem active vellēs nōllēs māllēs subjunctive vellet nōllet māllet vellēmus nōllēmus māllēmus vellētis nōllētis māllētis vellent nōllent māllent Imperative – nōlī – active nōlīte Present active volēns, gen. volentis nōlēns, gen. nōlentis – participle Perfect – – – participle Future – – – participle Present active velle nōlle mālle infinitive Perfect active voluisse nōluisse māluisse infinitive Future – – – infinitive"
+          "text": "vult nōn vult māvult volumus nōlumus mālumus vultis nōn vultis māvultis volunt nōlunt mālunt"
+        },
+        {
+          "t": "pre",
+          "text": "Future active volam nōlam mālam indicative volēs nōlēs mālēs"
+        },
+        {
+          "t": "p",
+          "text": "volet nōlet mālet volēmus nōlēmus mālēmus volētis nōlētis mālētis volent nōlent mālent Perfect active voluī nōluī māluī indicative voluistī nōluistī māluistī voluit nōluit māluit voluimus nōluimus māluimus voluistis nōluistis māluistis voluērunt nōluērunt māluērunt"
+        },
+        {
+          "t": "pre",
+          "text": "Present active velim nōlim mālim subjunctive velīs nōlīs mālīs"
+        },
+        {
+          "t": "p",
+          "text": "velit nōlit mālit velīmus nōlīmus mālīmus velītis nōlītis mālītis velint nōlint mālint"
         }
       ]
     },
@@ -31,24 +55,29 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
+          "t": "h",
+          "text": "Volō, velle, voluī, – Nōlō, nōlle, nōluī, – Mālō, mālle, māluī, –"
+        },
+        {
+          "t": "pre",
+          "text": "Imperfect vellem nōllem māllem active vellēs nōllēs māllēs subjunctive vellet nōllet māllet"
+        },
+        {
           "t": "p",
-          "text": "Like volō, the verbs nōlō and mālō normally take a present infinitive: nōlō venīre ‘I do not want to come’, mālō venīre ‘I prefer to come’. Mālō often takes a construction with quam ‘than’, ‘rather than’: mālō venīre quam hīc sedēre ‘I prefer to come rather than to sit here’. The imperatives nōlī and nōlīte are used with infinitives to make negative commands; originally this was a polite construction, but in Classical Latin it is simply a negative command and not noticeably polite. nōlī venīre ‘do not come!’ (literally ‘do not want to come!’) nōlīte scrībere ‘do not write!’ (literally ‘do not want to write!’)"
+          "text": "vellēmus nōllēmus māllēmus vellētis nōllētis māllētis vellent nōllent māllent Imperative – nōlī – active nōlīte Present active volēns, gen. volentis nōlēns, gen. nōlentis – participle Perfect – – – participle Future – – – participle Present active velle nōlle mālle infinitive Perfect active voluisse nōluisse māluisse infinitive Future – – – infinitive"
+        },
+        {
+          "t": "p",
+          "text": "Like volō, the verbs nōlō and mālō normally take a present infinitive: nōlō venīre ‘I do not want to come’, mālō venīre ‘I prefer to come’. Mālō often takes a construction with quam ‘than’, ‘rather than’: mālō venīre quam hīc sedēre ‘I prefer to come rather than to sit here’."
+        },
+        {
+          "t": "p",
+          "text": "The imperatives nōlī and nōlīte are used with infinitives to make negative commands; originally this was a polite construction, but in Classical Latin it is simply a negative command and not noticeably polite. nōlī venīre ‘do not come!’ (literally ‘do not want to come!’) nōlīte scrībere ‘do not write!’ (literally ‘do not want to write!’)"
         }
       ]
     }
   ],
-  "readings": [
-    {
-      "id": "lectio-37",
-      "latinTitle": "SENTENTIAE LATĪNAE",
-      "title": "Latin sentences from this chapter",
-      "paragraphs": [
-        "haec puella, a viro non pulchro pugnare. amata, cum eo sedere noluit.",
-        "a puella pulchra ita amatus est, genua pulchra? ut cum ea Romae manere mallet."
-      ],
-      "notes": []
-    }
-  ],
+  "readings": [],
   "grammar": [],
   "vocabulary": [
     {

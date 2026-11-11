@@ -9,18 +9,54 @@ const chapter = {
   "complete": true,
   "sections": [
     {
+      "id": "section-0",
+      "latin": "Introduction",
+      "english": "Introduction",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "We have so far seen two kinds of indirect speech: indirect statement (accusative + infinitive) and indirect commands (ut + subjunctive). There is also a third type of indirect speech, indirect questions. Indirect questions take the subjunctive like indirect commands, but they are introduced by an interrogative word rather than by ut or nē; if they are negative nōn is used. The Latin subjunctive is translated with an English indicative (usually in the same tense; see 54.3 below). Direct Indirect quis adest? ‘Who is present?’ rogāvī quis adesset. ‘I asked who was"
+        },
+        {
+          "t": "h",
+          "text": "present.’"
+        },
+        {
+          "t": "p",
+          "text": "cūr Rōmam īvit? ‘Why did he go to rogāvī cūr Rōmam īvisset. ‘I asked why he"
+        },
+        {
+          "t": "h",
+          "text": "Rome?’ had gone to Rome.’"
+        }
+      ]
+    },
+    {
       "id": "section-1",
       "latin": "54.3 English Tenses",
       "english": "Grammar",
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "54.4 Num"
+          "t": "p",
+          "text": "The tense of the verb of an indirect question in English is usually the same as the Latin tense, because English shifts the tense of the subordinate verb back when the introductory verb is in the past. This is the same shift that we saw with indirect statement in chapter 19.4, and the diagram of English usage seen there (and reproduced with modifications below) can also be applied to questions."
         },
         {
           "t": "p",
-          "text": "The tense of the verb of an indirect question in English is usually the same as the Latin tense, because English shifts the tense of the subordinate verb back when the introductory verb is in the past. This is the same shift that we saw with indirect statement in chapter 19.4, and the diagram of English usage seen there (and reproduced with modifications below) can also be applied to questions. But whereas this feature of English can cause difficulty in translating indirect statements, it is an advantage for indirect questions, where the sequence rules of the two languages largely match. Indirect question after Indirect question after Original sentence present tense past tense Who ate the fish? He asks who ate the fish. He asked who had eaten the fish. Who eats fish? He asks who eats fish. He asked who ate fish. Who is eating the fish? He asks who is eating the He asked who was eating fish. the fish. Who will eat the fish? He asks who will eat the He asked who would eat fish. the fish. Who is going to eat the He asks who is going to eat He asked who was going to fish? the fish. eat the fish."
+          "text": "But whereas this feature of English can cause difficulty in translating indirect statements, it is an advantage for indirect questions, where the sequence rules of the two languages largely match."
+        },
+        {
+          "t": "h",
+          "text": "Indirect question after Indirect question after"
+        },
+        {
+          "t": "p",
+          "text": "Original sentence present tense past tense Who ate the fish? He asks who ate the fish. He asked who had eaten the fish. Who eats fish? He asks who eats fish. He asked who ate fish. Who is eating the fish? He asks who is eating the He asked who was eating fish. the fish. Who will eat the fish? He asks who will eat the He asked who would eat fish. the fish."
+        },
+        {
+          "t": "p",
+          "text": "Who is going to eat the He asks who is going to eat He asked who was going to fish? the fish. eat the fish."
         }
       ]
     },
@@ -32,7 +68,15 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "When the direct version of the question begins with an interrogative word, as in the examples seen so far, the same interrogative word also begins the indirect question. But some direct questions begin with -ne rather than an interrogative word, and -ne is not used in indirect questions; it has to be replaced by num, which is translated with ‘whether’ or ‘if’ in English. (Care is needed with the ‘if’ translation, as this ‘if’ is completely different from the ‘if’ that introduces conditional clauses: compare ‘I asked him if it had rained’ (indirect question) with ‘We would have stayed home if it had rained’ (conditional).) Direct Indirect cucurritne? ‘Did he run?’ rogāvī num cucurrisset. ‘I asked whether he had run.’ / ‘I asked if he had run.’ curritne? ‘Is he running?’ rogāvī num curreret. ‘I asked whether he was running.’ / ‘I asked if he was running.’ curretne? ‘Will he run?’ rogāvī num cursūrus esset. ‘I asked whether he would run.’ / ‘I asked if he would run.’ / ‘I asked whether he was going to run.’ / ‘I asked if he was going to run.’"
+          "text": "When the direct version of the question begins with an interrogative word, as in the examples seen so far, the same interrogative word also begins the indirect question. But some direct questions begin with -ne rather than an interrogative word, and -ne is not used in indirect questions; it has to be replaced by num, which is translated with ‘whether’ or ‘if’ in English."
+        },
+        {
+          "t": "p",
+          "text": "(Care is needed with the ‘if’ translation, as this ‘if’ is completely different from the ‘if’ that introduces conditional clauses: compare ‘I asked him if it had rained’ (indirect question) with ‘We would have stayed home if it had rained’ (conditional).) Direct Indirect cucurritne? ‘Did he run?’ rogāvī num cucurrisset. ‘I asked whether he had run.’ / ‘I asked if he had run.’ curritne? ‘Is he running?’ rogāvī num curreret."
+        },
+        {
+          "t": "p",
+          "text": "‘I asked whether he was running.’ / ‘I asked if he was running.’ curretne? ‘Will he run?’ rogāvī num cursūrus esset. ‘I asked whether he would run.’ / ‘I asked if he would run.’ / ‘I asked whether he was going to run.’ / ‘I asked if he was going to run.’"
         }
       ]
     },
@@ -44,7 +88,27 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "We have already seen a range of interrogative words, all of which can be used in -ne (indirect version num): used for questions answerable with ‘yes’ or ‘no’ quis ‘who?’ quid (neuter of quis) ‘what?’ quī, quae, quod (adjective) ‘which?’ cūr ‘why?’ ubi ‘where?’ (when motion is not involved: ubi est ‘Where is he?’) There are also a number of other interrogative words not seen so far, including the following: quō ‘to where?’, ‘where?’ (when motion towards a place is involved: quō currit? ‘Where is he running to?’, quō īvit? ‘Where did he go?’) unde ‘from where?’ (unde vēnit? ‘Where did he come from?’) quot ‘how many?’ quandō ‘when?’ (only usable in questions and to be clearly distinguished from cum ‘when’, which is only used in temporal clauses) quōmodo ‘how?’ quantus, -a, -um ‘how big?’ utrum . . . an (used for double questions, where utrum has no translation and an is equivalent to ‘or’: utrum hoc an illud vīs? ‘Do you want this or that?’)"
+          "text": "We have already seen a range of interrogative words, all of which can be used in -ne (indirect version num): used for questions answerable with ‘yes’ or ‘no’ quis ‘who?’ quid (neuter of quis) ‘what?’ quī, quae, quod (adjective) ‘which?’ cūr ‘why?’ ubi ‘where?’ (when motion is not involved: ubi est ‘Where is he?’) There are also a number of other interrogative words not seen so far, including the following: quō ‘to where?’, ‘where?’ (when motion towards a place is involved: quō currit?"
+        },
+        {
+          "t": "h",
+          "text": "‘Where"
+        },
+        {
+          "t": "h",
+          "text": "is he running to?’, quō īvit? ‘Where did he go?’)"
+        },
+        {
+          "t": "example",
+          "text": "unde ‘from where?’ (unde vēnit? ‘Where did he come from?’) quot ‘how many?’\nquandō ‘when?’ (only usable in questions and to be clearly distinguished from cum"
+        },
+        {
+          "t": "h",
+          "text": "‘when’, which is only used in temporal clauses)"
+        },
+        {
+          "t": "p",
+          "text": "quōmodo ‘how?’ quantus, -a, -um ‘how big?’ utrum . . . an (used for double questions, where utrum has no translation and an is equivalent to ‘or’: utrum hoc an illud vīs? ‘Do you want this or that?’)"
         }
       ]
     },

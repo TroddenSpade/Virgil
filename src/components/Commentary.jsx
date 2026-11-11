@@ -126,6 +126,12 @@ export default function CommentarySection({ blocks }) {
           {block.text}
         </pre>,
       )
+    } else if (block.t === 'example') {
+      out.push(
+        <pre className="commentary__example latin" key={`ex${key++}`}>
+          {block.text}
+        </pre>,
+      )
     } else {
       out.push(
         <p className="commentary__p" key={`p${key++}`}>

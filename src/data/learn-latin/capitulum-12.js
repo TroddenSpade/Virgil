@@ -9,6 +9,18 @@ const chapter = {
   "complete": true,
   "sections": [
     {
+      "id": "section-0",
+      "latin": "Introduction",
+      "english": "Introduction",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "h",
+          "text": "Genitives"
+        }
+      ]
+    },
+    {
       "id": "section-1",
       "latin": "12.1 Partitive and Objective Genitives",
       "english": "Grammar",
@@ -16,7 +28,15 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "The genitive case can be used for purposes other than possession. A partitive genitive is used to indicate the whole from which a part is taken: ‘some of the men’, ‘one of the boys’, and ‘half (of) the pie’ are partitive genitives in English. Objective genitives are used with a noun or adjective to indicate the kind of relationship to that noun or adjective that an object would have to a verb: thus ‘fear of falling’ (one fears falling) and ‘love of music’ (one loves music) are objective genitives.1 In Latin these relationships are also expressed with the genitive, particularly with words like: odium, -ī (n.) ‘hatred’ (odium Rōmānōrum ‘hatred of Romans’) paucī, -ae, -a ‘few’ (paucī Rōmānōrum ‘a few of the Romans’) multī, -ae, -a ‘many’ (multī Rōmānōrum ‘many of the Romans’) quattuor ‘four’ (quattuor Rōmānōrum ‘four of the Romans’) quīnque ‘five’ sex ‘six’ septem ‘seven’ When the word on which the genitive depends is declinable, it declines as usual and the case of the whole genitive phrase is apparent: paucī Rōmānōrum is ‘a few of the Romans’ as the subject of a sentence, but paucōs Rōmānōrum is ‘a few of the Romans’ as the object of a sentence. But with the numbers, which are indeclinable, the phrase as a whole becomes ambiguous as to case: quattuor Rōmānōrum could be either the subject or the object of a sentence."
+          "text": "The genitive case can be used for purposes other than possession. A partitive genitive is used to indicate the whole from which a part is taken: ‘some of the men’, ‘one of the boys’, and ‘half (of) the pie’ are partitive genitives in English."
+        },
+        {
+          "t": "p",
+          "text": "Objective genitives are used with a noun or adjective to indicate the kind of relationship to that noun or adjective that an object would have to a verb: thus ‘fear of falling’ (one fears falling) and ‘love of music’ (one loves music) are objective genitives.1 In Latin these relationships are also expressed with the genitive, particularly with words like: odium, -ī (n.) ‘hatred’ (odium Rōmānōrum ‘hatred of Romans’) paucī, -ae, -a ‘few’ (paucī Rōmānōrum ‘a few of the Romans’) multī, -ae, -a ‘many’ (multī Rōmānōrum ‘many of the Romans’) quattuor ‘four’ (quattuor Rōmānōrum ‘four of the Romans’) quīnque ‘five’ sex ‘six’ septem ‘seven’ When the word on which the genitive depends is declinable, it declines as usual and the case of the whole genitive phrase is apparent: paucī Rōmānōrum is ‘a few of the Romans’ as the subject of a sentence, but paucōs Rōmānōrum is ‘a few of the Romans’ as the object of a sentence."
+        },
+        {
+          "t": "p",
+          "text": "But with the numbers, which are indeclinable, the phrase as a whole becomes ambiguous as to case: quattuor Rōmānōrum could be either the subject or the object of a sentence."
         }
       ]
     }

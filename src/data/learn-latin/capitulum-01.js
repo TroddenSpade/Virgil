@@ -16,7 +16,55 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "The key element of every sentence, both in English and in Latin, is a verb: a word indicating the action described by the sentence (e.g. ‘go’, ‘is’, ‘learn’, ‘eat’). English verbs can be identified by the way they inflect (change shape): a word to which ‘-ed’ and ‘-ing’ can be added is a verb. Thus ‘learn’ can be identified as a verb because of the forms ‘learned’ and ‘learning’. Likewise, if you put a verb after ‘they’ and then replace the ‘they’ by ‘he’, you will usually find that the verb then gets an ‘-s’ at the end. Thus ‘they eat’ → ‘he eats’, ‘they learn’ → ‘he learns’, etc. Some common verbs inflect in other ways, but they still indicate that they are verbs by the fact that they have different forms for past and present and for use after ‘they’ and after ‘he’: ‘run’ and ‘sit’ become ‘ran’ and ‘sat’ in the past, and ‘they are’ becomes ‘he is’. A problem, however, is that some English verbs are periphrastic (formed of two or more separate words): ‘is running’, ‘had run’, ‘did run’, ‘will be running’, and ‘will have been running’ are all periphrastic verb forms and each express one single idea – and each would be expressed with just one word in Latin. It is important to be able to spot English verbs, and to be able to identify periphrastic verb forms as units, in order to deal successfully with Latin. Those who are uncertain of their abilities in this area would benefit from doing the exercises on these points in chapter 63.1–2. Verbs normally have subjects, that is, a word for the person or thing that does the action expressed by the verb (in the examples above, ‘he’ and ‘they’ are the subjects). In English every sentence must have a subject and a verb, so the shortest possible sentence is ‘I am’, where ‘I’ is the subject and ‘am’ is the verb. But in Latin sentences do not all have an expressed subject, because the verbs have endings that often make it unnecessary. The Latin for ‘I am’ is simply sum, and the Latin for ‘he rules’ is regit, but the Latin for ‘Julia runs’ is Iūlia currit, because the Latin endings can only supply pronouns such as ‘I’, ‘you’, ‘he’, ‘she’, ‘it’, ‘we’, or ‘they’ as subjects, not a name like ‘Julia’. When translating Latin one needs to think carefully about whether the verb has an expressed subject, and if not, which pronoun to add in English. Like English verbs, Latin verbs have different forms with different meanings, for example present versus future (‘rule’ versus ‘will rule’), active versus passive (‘rule’ versus ‘be ruled’), and indicative versus infinitive (‘rule’ versus ‘to rule’). All these will be encountered in due course; we begin with the present active indicative. In the present active indicative English verbs normally have two forms (‘rule’ and ‘rules’, as in ‘he rules’), but Latin verbs have six forms. A Latin verb can appear in the first person (indicating a subject ‘I’ or ‘we’), second person (subject ‘you’), or third person (subject ‘he’, ‘she’, ‘it’, ‘they’ or almost any other word); and it can be singular (indicating just one subject) or plural (more than one subject, or a subject composed of multiple individuals). For example: Regō ‘rule’ (present active indicative) Dūcō ‘lead’ (present active indicative) regō ‘I rule’ dūcō ‘I lead’ regis ‘you (singular) rule’ dūcis ‘you (singular) lead’ regit ‘he rules’, ‘she rules’, ‘it rules’, dūcit ‘he leads’, ‘she leads’, ‘it ‘rules’ leads’, ‘leads’ regimus ‘we rule’ dūcimus ‘we lead’ regitis ‘you (plural) rule’ dūcitis ‘you (plural) lead’ regunt ‘they rule’, ‘rule’ dūcunt ‘they lead’, ‘lead’ These two verbs, and many others like them, have the same endings as each other (-ō, -is, -it, -imus, -itis, -unt): once you know how one of them conjugates (takes different endings), you can also conjugate (put the endings on) the other. A sample verb written out this way is known as a ‘paradigm’, and once you know a paradigm you can use it to produce the equivalent forms for all other verbs that take the same endings. For example, if you know that currō ‘run’ is conjugated like regō, you also know that curris means ‘you run’ and currunt means ‘they run’ or ‘run’. When there is more than one possible translation of a Latin verb, it is necessary to pick the one that fits the context. Thus Mārcus regit would be translated ‘Marcus rules’, but regit by itself would be translated ‘he rules’ or ‘she rules’."
+          "text": "The key element of every sentence, both in English and in Latin, is a verb: a word indicating the action described by the sentence (e.g. ‘go’, ‘is’, ‘learn’, ‘eat’). English verbs can be identified by the way they inflect (change shape): a word to which ‘-ed’ and ‘-ing’ can be added is a verb. Thus ‘learn’ can be identified as a verb because of the forms ‘learned’ and ‘learning’."
+        },
+        {
+          "t": "p",
+          "text": "Likewise, if you put a verb after ‘they’ and then replace the ‘they’ by ‘he’, you will usually find that the verb then gets an ‘-s’ at the end. Thus ‘they eat’ → ‘he eats’, ‘they learn’ → ‘he learns’, etc."
+        },
+        {
+          "t": "p",
+          "text": "Some common verbs inflect in other ways, but they still indicate that they are verbs by the fact that they have different forms for past and present and for use after ‘they’ and after ‘he’: ‘run’ and ‘sit’ become ‘ran’ and ‘sat’ in the past, and ‘they are’ becomes ‘he is’."
+        },
+        {
+          "t": "p",
+          "text": "A problem, however, is that some English verbs are periphrastic (formed of two or more separate words): ‘is running’, ‘had run’, ‘did run’, ‘will be running’, and ‘will have been running’ are all periphrastic verb forms and each express one single idea – and each would be expressed with just one word in Latin."
+        },
+        {
+          "t": "p",
+          "text": "It is important to be able to spot English verbs, and to be able to identify periphrastic verb forms as units, in order to deal successfully with Latin. Those who are uncertain of their abilities in this area would benefit from doing the exercises on these points in chapter 63.1–2."
+        },
+        {
+          "t": "p",
+          "text": "Verbs normally have subjects, that is, a word for the person or thing that does the action expressed by the verb (in the examples above, ‘he’ and ‘they’ are the subjects). In English every sentence must have a subject and a verb, so the shortest possible sentence is ‘I am’, where ‘I’ is the subject and ‘am’ is the verb."
+        },
+        {
+          "t": "p",
+          "text": "But in Latin sentences do not all have an expressed subject, because the verbs have endings that often make it unnecessary. The Latin for ‘I am’ is simply sum, and the Latin for ‘he rules’ is regit, but the Latin for ‘Julia runs’ is Iūlia currit, because the Latin endings can only supply pronouns such as ‘I’, ‘you’, ‘he’, ‘she’, ‘it’, ‘we’, or ‘they’ as subjects, not a name like ‘Julia’."
+        },
+        {
+          "t": "p",
+          "text": "When translating Latin one needs to think carefully about whether the verb has an expressed subject, and if not, which pronoun to add in English. Like English verbs, Latin verbs have different forms with different meanings, for example present versus future (‘rule’ versus ‘will rule’), active versus passive (‘rule’ versus ‘be ruled’), and indicative versus infinitive (‘rule’ versus ‘to rule’)."
+        },
+        {
+          "t": "p",
+          "text": "All these will be encountered in due course; we begin with the present active indicative. In the present active indicative English verbs normally have two forms (‘rule’ and ‘rules’, as in ‘he rules’), but Latin verbs have six forms."
+        },
+        {
+          "t": "p",
+          "text": "A Latin verb can appear in the first person (indicating a subject ‘I’ or ‘we’), second person (subject ‘you’), or third person (subject ‘he’, ‘she’, ‘it’, ‘they’ or almost any other word); and it can be singular (indicating just one subject) or plural (more than one subject, or a subject composed of multiple individuals)."
+        },
+        {
+          "t": "example",
+          "text": "Regō ‘rule’ (present active indicative) Dūcō ‘lead’ (present active indicative) regō ‘I rule’\ndūcō ‘I lead’\nregis ‘you (singular) rule’\ndūcis ‘you (singular) lead’\nregit ‘he rules’, ‘she rules’, ‘it rules’, dūcit ‘he leads’, ‘she leads’, ‘it ‘rules’ leads’, ‘leads’\nregimus ‘we rule’\ndūcimus ‘we lead’\nregitis ‘you (plural) rule’\ndūcitis ‘you (plural) lead’\nregunt ‘they rule’, ‘rule’\ndūcunt ‘they lead’, ‘lead’ These two verbs, and many others like them, have the same endings as each other (-ō, -is, -it, -imus, -itis, -unt): once you know how one of them conjugates (takes different endings), you can also conjugate (put the endings on) the other."
+        },
+        {
+          "t": "p",
+          "text": "A sample verb written out this way is known as a ‘paradigm’, and once you know a paradigm you can use it to produce the equivalent forms for all other verbs that take the same endings. For example, if you know that currō ‘run’ is conjugated like regō, you also know that curris means ‘you run’ and currunt means ‘they run’ or ‘run’."
+        },
+        {
+          "t": "p",
+          "text": "When there is more than one possible translation of a Latin verb, it is necessary to pick the one that fits the context. Thus Mārcus regit would be translated ‘Marcus rules’, but regit by itself would be translated ‘he rules’ or ‘she rules’."
         }
       ]
     },
@@ -28,7 +76,19 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "English has a number of different verb forms that are all equivalent to the present tense in Latin. Regō could be translated not only ‘I rule’, but also with the periphrastic form ‘I am ruling’; in the negative nōn regō could be either ‘I do not rule’ or ‘I am not ruling’. To form a yes/no question English can use a present tense made with ‘do’ (‘Do you rule?’), while Latin adds -ne to the end of the first word of the sentence: regisne?. Therefore a more complete list of the English translations of the regō paradigm for the present active indicative would be as follows: regō ‘I rule’, ‘I am ruling’, ‘I do rule’ regis ‘you (singular) rule’, ‘you (singular) are ruling’, ‘you (singular) do rule’ regit ‘he/she/it rules’, ‘he/she/it is ruling’, ‘he/she/it does rule’, ‘rules’, ‘is ruling’, ‘does rule’ regimus ‘we rule’, ‘we are ruling’, ‘we do rule’ regitis ‘you (plural) rule’, ‘you (plural) are ruling’, ‘you (plural) do rule’ regunt ‘they rule’, ‘they are ruling’, ‘they do rule’, ‘rule’, ‘are ruling’, ‘do rule’"
+          "text": "English has a number of different verb forms that are all equivalent to the present tense in Latin. Regō could be translated not only ‘I rule’, but also with the periphrastic form ‘I am ruling’; in the negative nōn regō could be either ‘I do not rule’ or ‘I am not ruling’."
+        },
+        {
+          "t": "p",
+          "text": "To form a yes/no question English can use a present tense made with ‘do’ (‘Do you rule?’), while Latin adds -ne to the end of the first word of the sentence: regisne?."
+        },
+        {
+          "t": "p",
+          "text": "Therefore a more complete list of the English translations of the regō paradigm for the present active indicative would be"
+        },
+        {
+          "t": "example",
+          "text": "regō ‘I rule’, ‘I am ruling’, ‘I do rule’\nregis ‘you (singular) rule’, ‘you (singular) are ruling’, ‘you (singular) do rule’\nregit ‘he/she/it rules’, ‘he/she/it is ruling’, ‘he/she/it does rule’, ‘rules’, ‘is ruling’, ‘does rule’\nregimus ‘we rule’, ‘we are ruling’, ‘we do rule’\nregitis ‘you (plural) rule’, ‘you (plural) are ruling’, ‘you (plural) do rule’\nregunt ‘they rule’, ‘they are ruling’, ‘they do rule’, ‘rule’, ‘are ruling’, ‘do rule’"
         }
       ]
     },
@@ -39,12 +99,8 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "1.4 Additional Exercises"
-        },
-        {
           "t": "p",
-          "text": "Latin word order is not usually the same as English word order. In Latin a verb normally goes at the end of a sentence, but if there is a question with -ne, the verb normally comes first: Mārcus et Quīntus dūcunt ‘Marcus and Quintus are leading’ but dūcuntne Mārcus et Quīntus? ‘Are Marcus and Quintus leading?’. (If another word comes first in a question, as in Marīane dūcit?, that word is emphatic: ‘Is Maria leading?’.)"
+          "text": "Latin word order is not usually the same as English word order. In Latin a verb normally goes at the end of a sentence, but if there is a question with -ne, the verb"
         }
       ]
     },
@@ -54,6 +110,10 @@ const chapter = {
       "english": "Grammar",
       "kind": "commentary",
       "blocks": [
+        {
+          "t": "p",
+          "text": "normally comes first: Mārcus et Quīntus dūcunt ‘Marcus and Quintus are leading’ but dūcuntne Mārcus et Quīntus? ‘Are Marcus and Quintus leading?’. (If another word comes first in a question, as in Marīane dūcit?, that word is emphatic: ‘Is Maria leading?’.)"
+        },
         {
           "t": "p",
           "text": "The exercises below offer further practice on all the material covered in this chapter."
@@ -67,11 +127,6 @@ const chapter = {
       "latinTitle": "SENTENTIAE LATĪNAE",
       "title": "Latin sentences from this chapter",
       "paragraphs": [
-        "regit.",
-        "Iulia regit.",
-        "Quintus currit.",
-        "currit",
-        "petit",
         "non regit.",
         "Iulia non regit.",
         "Quintusne currit?",
@@ -204,75 +259,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "8 currunt. Remember that in this book translation exercises do not have macrons on the long vowels, so the words in these sentences will not look exactly as they do in the paradigms or the grammatical exercises. 1.",
-          "a": ""
-        },
-        {
-          "q": "2 Multiple Translations 15",
-          "a": ""
-        },
-        {
-          "q": "9 Iulia regit.",
-          "a": ""
-        },
-        {
-          "q": "17 Maria ducit.",
-          "a": ""
-        },
-        {
-          "q": "10 curro.",
-          "a": ""
-        },
-        {
-          "q": "18 ducis.",
-          "a": ""
-        },
-        {
-          "q": "11 Quintus currit.",
-          "a": ""
-        },
-        {
-          "q": "19 petunt.",
-          "a": ""
-        },
-        {
-          "q": "12 duco.",
-          "a": ""
-        },
-        {
-          "q": "20 peto.",
-          "a": ""
-        },
-        {
-          "q": "13 Marcus et Quintus regunt.",
-          "a": ""
-        },
-        {
-          "q": "21 Iulia et Marcus currunt.",
-          "a": ""
-        },
-        {
-          "q": "14 regis.",
-          "a": ""
-        },
-        {
-          "q": "22 Marcus et Iulia ducunt.",
-          "a": ""
-        },
-        {
-          "q": "15 Iulia et Maria ducunt.",
-          "a": ""
-        },
-        {
-          "q": "23 ducitis.",
-          "a": ""
-        },
-        {
-          "q": "16 regimus.",
-          "a": ""
-        },
-        {
-          "q": "24 petimus.",
+          "q": "8 currunt. Remember that in this book translation exercises do not have macrons on the long vowels, so the words in these sentences will not look exactly as they do in the paradigms or the grammatical exercises.",
           "a": ""
         }
       ],

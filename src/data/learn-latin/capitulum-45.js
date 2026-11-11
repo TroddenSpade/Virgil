@@ -9,6 +9,46 @@ const chapter = {
   "complete": true,
   "sections": [
     {
+      "id": "section-0",
+      "latin": "Introduction",
+      "english": "Introduction",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Some verbs are impersonal; that is, they have no meaningful subject. In English, where the structure of the language requires that verbs have expressed subjects, to do the right thing’. In Latin impersonal verbs have no expressed subject, but they appear in the third person singular, and in forms where the gender of the subject is specified they are neuter: thus in many ways the Latin impersonal subject is not unlike the English ‘it’. Some verbs are only used impersonally and therefore do not occur in forms other than the third person singular, as is signalled by their principal parts."
+        },
+        {
+          "t": "example",
+          "text": "pluit, pluere, pluit, – ‘it is raining’ decet, decēre, decuit, – ‘it is fitting’ (+ accusative and infinitive) licet, licēre, licuit, – ‘it is allowed’ (+ dative and infinitive) oportet, oportēre, oportuit, – ‘it is right’ (+ accusative and infinitive) paenitet, paenitēre, paenituit, – ‘it repents’ (+ accusative of person and genitive of"
+        },
+        {
+          "t": "h",
+          "text": "cause)"
+        },
+        {
+          "t": "p",
+          "text": "pudet, pudēre, puduit, – ‘it shames’ (+ accusative of person and genitive of cause) These verbs are sometimes tricky to translate into English, as English does not always have equivalent impersonal constructions. Often it is best not to use the literal, impersonal translation but to turn the sentence around and make the Latin object the subject. licet tibi venīre ‘you may come’, ‘you are allowed to come’ (literally ‘it is allowed to you"
+        },
+        {
+          "t": "h",
+          "text": "to come’)"
+        },
+        {
+          "t": "p",
+          "text": "oportet tē venīre ‘you ought to come’ (literally ‘it is right for you to come’) paenitet mē factī ‘I repent of (my) deed’, ‘I am sorry for my deed’ (literally ‘it repents"
+        },
+        {
+          "t": "h",
+          "text": "me of the deed’)"
+        },
+        {
+          "t": "p",
+          "text": "pudet mē factī ‘I am ashamed of (my) deed’ (literally ‘it shames me of the deed’)"
+        }
+      ]
+    },
+    {
       "id": "section-1",
       "latin": "45.2 Impersonal Gerundives",
       "english": "Grammar",
@@ -16,7 +56,51 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "Ordinary verbs can also be used impersonally on occasion. This impersonal construction is particularly important with gerundives, as it allows intransitive verbs (ones that do not take an object in the accusative) to be used in the gerundive. When a gerundive is used intransitively, it has nothing to agree with, so it becomes neuter singular by default; the agent remains in the dative. The best way to translate these constructions is to turn them around so that the dative is the subject and the verb is preceded by ‘must’ or ‘have to’ (see chapter 41); it is, however, also possible to translate them impersonally with English ‘it is necessary’. eundum est mihi ‘I must go’, ‘I have to go’, ‘it is necessary for me to go’ (literally ‘it is having-to-be-gone by me’) iuvandum erat nōbīs ‘we had to help’, ‘it was necessary for us to help’ (literally ‘it was having-to-be-helped by us’) Compare the personal construction illī iuvandī erant nōbīs ‘we had to help those men’ (literally ‘those men had to be helped by us’). If there is no agent expressed, impersonal gerundives can be translated with ‘it is necessary’ or with the generic English ‘one’. bene vīvendum est ‘it is necessary to live well’, ‘one must live well’ (literally ‘it is having- to-be-lived well’) nunc timendum est ‘now it is necessary to fear’, ‘now one must fear’ (literally ‘now it is having-to-be-feared’) Verbs that take an object in a case other than the accusative use the impersonal construction for the gerundive as well; the object remains in its usual case. aquā nōbīs ūtendum erit ‘we shall have to use water’, ‘it will be necessary for us to use water’ (literally ‘it will be having-to-be-used water by us’) persuādendum est rēgī ‘the king must be persuaded’, ‘the king has to be persuaded’, ‘it will be necessary to persuade the king’ (literally ‘it will be having-to-bepersuaded the king’); in the right context this sentence could also mean ‘the king must persuade’.1"
+          "text": "Ordinary verbs can also be used impersonally on occasion. This impersonal construction is particularly important with gerundives, as it allows intransitive verbs (ones that do not take an object in the accusative) to be used in the gerundive. When a gerundive is used intransitively, it has nothing to agree with, so it becomes neuter singular by default; the agent remains in the dative."
+        },
+        {
+          "t": "p",
+          "text": "The best way to translate these constructions is to turn them around so that the dative is the subject and the verb is preceded by ‘must’ or ‘have to’ (see chapter 41); it is, however, also possible to translate them impersonally with English ‘it is necessary’. eundum est mihi ‘I must go’, ‘I have to go’, ‘it is necessary for me to go’ (literally ‘it is"
+        },
+        {
+          "t": "h",
+          "text": "having-to-be-gone by me’)"
+        },
+        {
+          "t": "example",
+          "text": "iuvandum erat nōbīs ‘we had to help’, ‘it was necessary for us to help’ (literally ‘it was"
+        },
+        {
+          "t": "h",
+          "text": "having-to-be-helped by us’)"
+        },
+        {
+          "t": "p",
+          "text": "Compare the personal construction illī iuvandī erant nōbīs ‘we had to help those men’ (literally ‘those men had to be helped by us’). If there is no agent expressed, impersonal gerundives can be translated with ‘it is necessary’ or with the generic English ‘one’. bene vīvendum est ‘it is necessary to live well’, ‘one must live well’ (literally ‘it is having-"
+        },
+        {
+          "t": "h",
+          "text": "to-be-lived well’)"
+        },
+        {
+          "t": "example",
+          "text": "nunc timendum est ‘now it is necessary to fear’, ‘now one must fear’ (literally ‘now it is"
+        },
+        {
+          "t": "h",
+          "text": "having-to-be-feared’)"
+        },
+        {
+          "t": "p",
+          "text": "Verbs that take an object in a case other than the accusative use the impersonal construction for the gerundive as well; the object remains in its usual case. aquā nōbīs ūtendum erit ‘we shall have to use water’, ‘it will be necessary for us to use"
+        },
+        {
+          "t": "h",
+          "text": "water’ (literally ‘it will be having-to-be-used water by us’)"
+        },
+        {
+          "t": "p",
+          "text": "persuādendum est rēgī ‘the king must be persuaded’, ‘the king has to be persuaded’, ‘it will be necessary to persuade the king’ (literally ‘it will be having-to-bepersuaded the king’); in the right context this sentence could also mean ‘the king must persuade’.1"
         }
       ]
     }
@@ -27,11 +111,9 @@ const chapter = {
       "latinTitle": "SENTENTIAE LATĪNAE",
       "title": "Latin sentences from this chapter",
       "paragraphs": [
-        "illi celeriter veniendum est",
         "Carthaginem eundum est.",
         "moriendum est.",
         "hic nobiscum sedendum est vobis.",
-        "celerrime progrediendum est",
         "e castris progrediendum erat. standum est.",
         "diu standum erat. est.",
         "quam sapientissime regendum est.",

@@ -9,6 +9,66 @@ const chapter = {
   "complete": true,
   "sections": [
     {
+      "id": "section-0",
+      "latin": "Introduction",
+      "english": "Introduction",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "h",
+          "text": "Participles"
+        },
+        {
+          "t": "p",
+          "text": "So far all the verbs we have seen belong to the third conjugation. The first and second conjugations function somewhat differently."
+        },
+        {
+          "t": "pre",
+          "text": "Present active indicative First conjugation Second conjugation Third conjugation"
+        },
+        {
+          "t": "example",
+          "text": "amō ‘I love’ etc. moneō ‘I advise’ etc. regō ‘I rule’ etc. amās ‘you love’ etc. monēs ‘you advise’ etc. regis ‘you rule’ etc. amat ‘he loves’ etc. monet ‘he advises’ etc. regit ‘he rules’ etc. amāmus ‘we love’ etc. monēmus ‘we advise’ etc. regimus ‘we rule’ etc. amātis ‘you love’ etc. monētis ‘you advise’ etc. regitis ‘you rule’ etc. amant ‘they love’ etc. monent ‘they advise’ etc. regunt ‘they rule’ etc."
+        },
+        {
+          "t": "pre",
+          "text": "Future active indicative First conjugation Second conjugation Third conjugation"
+        },
+        {
+          "t": "example",
+          "text": "amābō ‘I shall love’ etc. monēbō ‘I shall advise’ etc. regam ‘I shall rule’ etc. amābis ‘you will love’ etc. monēbis ‘you will advise’ etc. regēs ‘you will rule’ etc. amābit ‘he will love’ etc. monēbit ‘he will advise’ etc. reget ‘he will rule’ etc. amābimus ‘we shall love’ etc. monēbimus ‘we shall advise’ etc. regēmus ‘we shall rule’ etc. amābitis ‘you will love’ etc. monēbitis ‘you will advise’ etc. regētis ‘you will rule’ etc. amābunt ‘they will love’ etc. monēbunt ‘they will advise’ etc. regent ‘they will rule’ etc."
+        },
+        {
+          "t": "p",
+          "text": "Perfect active indicative First conjugation Second conjugation Third conjugation"
+        },
+        {
+          "t": "example",
+          "text": "amāvī ‘I loved’ etc. monuī ‘I advised’ etc. rēxī ‘I ruled’ etc. amāvistī ‘you loved’ etc. monuistī ‘you advised’ etc. rēxistī ‘you ruled’ etc. amāvit ‘he loved’ etc. monuit ‘he advised’ etc. rēxit ‘he ruled’ etc. amāvimus ‘we loved’ etc. monuimus ‘we advised’ etc. rēximus ‘we ruled’ etc. amāvistis ‘you loved’ etc. monuistis ‘you advised’ etc. rēxistis ‘you ruled’ etc. amāvērunt ‘they loved’ etc. monuērunt ‘they advised’ etc. rēxērunt ‘they ruled’ etc."
+        },
+        {
+          "t": "p",
+          "text": "To a large extent one simply has to memorize these different forms. However, there"
+        },
+        {
+          "t": "p",
+          "text": "are some tips that can reduce the burden of memorization. In the present and future the first and second conjugations take largely the same endings as each other, except that the second conjugation has a stem vowel e where the first conjugation has a: first conjugation -ō, -ās, -at, -āmus, -ātis, -ant and -ābō, -ābis, -ābit, -ābimus, -ābitis, -ābunt versus second conjugation -eō, -ēs, -et, -ēmus, -ētis, -ent and -ēbō, -ēbis, -ēbit, -ēbimus, -ēbitis, -ēbunt. In the perfect the endings are exactly the same in all three conjugations (as well as in the irregular verb sum): -ī, -istī, -it, -imus, -istis, -ērunt. Thus in the perfect the three conjugations are not useful categories; in order to know how to conjugate a verb in the perfect one simply needs to find the perfect stem from its principal parts. The principal parts of these verbs are"
+        },
+        {
+          "t": "example",
+          "text": "First conjugation paradigm verb: amō, amāre, amāvī, amātum ‘love’ Second conjugation paradigm verb: moneō, monēre, monuī, monitum ‘advise’, ‘warn’ Third conjugation paradigm verb: regō, regere, rēxī, rēctum ‘rule’"
+        },
+        {
+          "t": "p",
+          "text": "These principal parts also illustrate how to identify which conjugation a verb"
+        },
+        {
+          "t": "p",
+          "text": "belongs to: the second principal part ends in -āre for first-conjugation verbs,1 in -ēre for second-conjugation verbs, and in -ere with a short e for third-conjugation verbs. (Notice the partial correlation between the middle vowel of each infinitive and the stem vowel of that conjugation, which is -āor -ain the first conjugation, -ēor -ein the second conjugation, and -iin the third conjugation.) It is therefore very important to learn the quantity of the e of the second principal part when memorizing principal parts. The second principal part can also be used as a key to forming the present and future: take the second principal part, drop the last three letters, and add the endings that in these paradigms follow the am-, mon-, and reg-. Similarly the third principal part is the key to forming the perfect: take the third principal part, drop the -ī, and add the perfect endings given above."
+        }
+      ]
+    },
+    {
       "id": "section-1",
       "latin": "6.2 Perfect Participle",
       "english": "Grammar",
@@ -16,7 +76,19 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "The fourth principal parts of many verbs function as adjectives; that is, from amātum one can get a verbal adjective amātus, -a, -um. These verbal adjectives are passive (receiving the action of a verb rather than performing it) and have the meaning of a past participle, so amātus means ‘loved’ or ‘beloved’, as in puella amāta ‘the beloved girl’, and doctus means ‘having been taught’, ‘learned’ (in the sense of ‘educated’), as in puella docta ‘the learned girl’. Similarly verba scrīpta means ‘written words’ and servus ēmptus ‘bought slave’. Sometimes it works better in English to substitute a relative clause with a passive verb for the participle: ‘words that were written’, ‘slave that was bought’. But note that most Latin perfect participles cannot be used in this way with a form of sum: ‘The girl is loved’ is a periphrastic present passive in English that needs to be translated with a one-word verb in Latin (puella amātur, see chapter 32) and cannot be expressed with puella amāta est (in fact puella amāta est means something else, as we shall see in chapter 32)."
+          "text": "The fourth principal parts of many verbs function as adjectives; that is, from amātum one can get a verbal adjective amātus, -a, -um."
+        },
+        {
+          "t": "p",
+          "text": "These verbal adjectives are passive (receiving the action of a verb rather than performing it) and have the meaning of a past participle, so amātus means ‘loved’ or ‘beloved’, as in puella amāta ‘the beloved girl’, and doctus means ‘having been taught’, ‘learned’ (in the sense of ‘educated’), as in puella docta ‘the learned girl’. Similarly verba scrīpta means ‘written words’ and servus ēmptus ‘bought slave’."
+        },
+        {
+          "t": "p",
+          "text": "Sometimes it works better in English to substitute a relative clause with a passive verb for the participle: ‘words that were written’, ‘slave that was bought’."
+        },
+        {
+          "t": "p",
+          "text": "But note that most Latin perfect participles cannot be used in this way with a form of sum: ‘The girl is loved’ is a periphrastic present passive in English that needs to be translated with a one-word verb in Latin (puella amātur, see chapter 32) and cannot be expressed with puella amāta est (in fact puella amāta est means something else, as we shall see in chapter 32)."
         }
       ]
     }
@@ -31,8 +103,6 @@ const chapter = {
         "habuitne servus poetae equum?",
         "consilium poetae bonum est.",
         "verba poetarum puellas bonum non est. docuerunt.",
-        "servus amatus",
-        "puella petita",
         "servus doctus poetam iuvit."
       ],
       "notes": []

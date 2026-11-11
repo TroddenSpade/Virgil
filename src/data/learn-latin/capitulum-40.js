@@ -9,18 +9,154 @@ const chapter = {
   "complete": true,
   "sections": [
     {
+      "id": "section-0",
+      "latin": "Introduction",
+      "english": "Introduction",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "So far we have not mentioned the comparatives or the superlatives of the most common adjectives, such as bonus, malus, magnus, and parvus. Just as the most common verbs tend to have irregular conjugations, so the most common adjectives have irregular comparisons. The most important irregular comparatives and superlatives in Latin are the following:"
+        },
+        {
+          "t": "p",
+          "text": "Positive Comparative Superlative bonus, -a, -um melior, melius optimus, -a, -um"
+        },
+        {
+          "t": "h",
+          "text": "‘good’ ‘better’, ‘rather good’ ‘best’, ‘very good’"
+        },
+        {
+          "t": "h",
+          "text": "malus, -a, -um peior, peius pessimus, -a, -um"
+        },
+        {
+          "t": "h",
+          "text": "‘bad’ ‘worse’, ‘rather bad’ ‘worst’, ‘very bad’"
+        },
+        {
+          "t": "h",
+          "text": "magnus, -a, -um maior, maius maximus, -a, -um"
+        },
+        {
+          "t": "h",
+          "text": "‘big’ ‘bigger’, ‘rather big’ ‘biggest’, ‘very big’"
+        },
+        {
+          "t": "h",
+          "text": "parvus, -a, -um minor, minus minimus, -a, -um"
+        },
+        {
+          "t": "h",
+          "text": "‘small’ ‘smaller’, ‘rather small’ ‘smallest’, ‘very small’"
+        },
+        {
+          "t": "h",
+          "text": "multī, -ae, -a plūrēs, plūra plūrimī, -ae, -a"
+        },
+        {
+          "t": "h",
+          "text": "‘many’ ‘more’, ‘rather many’ ‘most’, ‘very many’"
+        },
+        {
+          "t": "h",
+          "text": "facilis, -e facilior, facilius facillimus, -a, -um"
+        },
+        {
+          "t": "h",
+          "text": "‘easy’ ‘easier’, ‘rather easy’ ‘easiest’, ‘very easy’"
+        },
+        {
+          "t": "h",
+          "text": "difficilis, -e difficilior, difficilius difficillimus, -a, -um"
+        },
+        {
+          "t": "h",
+          "text": "‘difficult’ ‘more difficult’, ‘rather ‘most difficult’, ‘very"
+        },
+        {
+          "t": "h",
+          "text": "difficult’ difficult’"
+        },
+        {
+          "t": "h",
+          "text": "similis, -e similior, similius simillimus, -a, -um"
+        },
+        {
+          "t": "example",
+          "text": "‘like’ ‘more like’, ‘rather like’ ‘most like’, ‘very like’ All these comparatives decline like trīstior (see chapter 38.3), except plūrēs which"
+        },
+        {
+          "t": "p",
+          "text": "declines as follows:"
+        },
+        {
+          "t": "h",
+          "text": "British Case Order"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine and Masculine and feminine Neuter feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. – plūs plūrēs plūra Voc. – plūs plūrēs plūra Acc. – plūs plūrēs plūra Gen. – plūris plūrium plūrium Dat. – – plūribus plūribus Abl. – plūre plūribus plūribus"
+        },
+        {
+          "t": "h",
+          "text": "Ancient Case Order"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine and Masculine and feminine Neuter feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom./Voc. – plūs plūrēs plūra Gen. – plūris plūrium plūrium Dat. – – plūribus plūribus Acc. – plūs plūrēs plūra Abl. – plūre plūribus plūribus"
+        },
+        {
+          "t": "p",
+          "text": "Notice that the genitive plural plūrium has an i-stem form, but the other forms are"
+        },
+        {
+          "t": "p",
+          "text": "not i-stems (neuter nominative plural plūra not *plūria, ablative singular plūre not *plūrī). (* is used to indicate words that do not exist.)"
+        }
+      ]
+    },
+    {
       "id": "section-1",
       "latin": "40.2 Nēmō and Nihil",
       "english": "Grammar",
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "40.3 Use of Negatives"
+          "t": "p",
+          "text": "The normal words for ‘no-one’ (nēmō), ‘nothing’ (nihil), and adjectival ‘no’ (as in ‘no king is humble’, Latin nūllus) are also irregular in Latin."
         },
         {
-          "t": "p",
-          "text": "The normal words for ‘no-one’ (nēmō), ‘nothing’ (nihil), and adjectival ‘no’ (as in ‘no king is humble’, Latin nūllus) are also irregular in Latin. British Case Order Ancient Case Order ‘No-one’ ‘Nothing’ ‘No-one’ ‘Nothing’ (singular (singular (singular (singular only) only) only) only) Nom. nēmō nihil/nīl Nom. nēmō nihil/nīl Voc. – – Gen. – – Acc. nēminem nihil/nīl Dat. nēminī – Gen. – – Acc. nēminem nihil/nīl Dat. nēminī – Abl. – – Abl. – – British Case Order ‘No’ Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom. nūllus nūlla nūllum nūllī nūllae nūlla Voc. – – – – – – Acc. nūllum nūllam nūllum nūllōs nūllās nūlla Gen. nūllīus nūllīus nūllīus nūllōrum nūllārum nūllōrum Dat. nūllī nūllī nūllī nūllīs nūllīs nūllīs Abl. nūllō nūllā nūllō nūllīs nūllīs nūllīs Ancient Case Order ‘No’ Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom. nūllus nūlla nūllum nūllī nūllae nūlla Gen. nūllīus nūllīus nūllīus nūllōrum nūllārum nūllōrum Dat. nūllī nūllī nūllī nūllīs nūllīs nūllīs Acc. nūllum nūllam nūllum nūllōs nūllās nūlla Abl. nūllō nūllā nūllō nūllīs nūllīs nūllīs Like other adjectives, nūllus can be substantivized with vir understood; then it means ‘no man’ or ‘no person’ and as such is very similar to nēmō. In fact substantivized forms of nūllus effectively supply the missing forms of nēmō, so that one could (and many people do) say that nēmō has a genitive nūllīus and an ablative nūllō."
+          "t": "h",
+          "text": "British Case Order Ancient Case Order"
+        },
+        {
+          "t": "example",
+          "text": "‘No-one’ ‘Nothing’ ‘No-one’ ‘Nothing’ (singular (singular (singular (singular only) only) only) only)"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. nēmō nihil/nīl Nom. nēmō nihil/nīl Voc. – – Gen. – – Acc. nēminem nihil/nīl Dat. nēminī – Gen. – – Acc. nēminem nihil/nīl Dat. nēminī – Abl. – – Abl. – –"
+        },
+        {
+          "t": "h",
+          "text": "British Case Order ‘No’"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. nūllus nūlla nūllum nūllī nūllae nūlla Voc. – – – – – – Acc. nūllum nūllam nūllum nūllōs nūllās nūlla Gen. nūllīus nūllīus nūllīus nūllōrum nūllārum nūllōrum Dat. nūllī nūllī nūllī nūllīs nūllīs nūllīs Abl. nūllō nūllā nūllō nūllīs nūllīs nūllīs"
         }
       ]
     },
@@ -31,8 +167,92 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
+          "t": "h",
+          "text": "Ancient Case Order"
+        },
+        {
+          "t": "h",
+          "text": "‘No’"
+        },
+        {
+          "t": "pre",
+          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. nūllus nūlla nūllum nūllī nūllae nūlla Gen. nūllīus nūllīus nūllīus nūllōrum nūllārum nūllōrum Dat. nūllī nūllī nūllī nūllīs nūllīs nūllīs Acc. nūllum nūllam nūllum nūllōs nūllās nūlla Abl. nūllō nūllā nūllō nūllīs nūllīs nūllīs"
+        },
+        {
           "t": "p",
-          "text": "The three negative words nēmō, nihil, and nūllus are used in circumstances when an ordinary negative would be nōn rather than nē. In constructions where nē would be found instead of nōn, a completely different set of words is used: nēmō is replaced by nē quis ‘no-one’, nihil is replaced by nē quid ‘nothing’, and nūllus is replaced by nē ūllus ‘no’. Declension of these terms is straightforward: quis and quid decline like the quis and quid we have already seen meaning ‘who?’ (chapter 13.3), and ūllus is identical to nūllus without the initial n-. nēmō vēnit. ‘No-one came.’ (ordinary direct statement, negative nōn) nē quis veniat. ‘May no-one come.’ (hortatory subjunctive, negative nē) tālia dīxit ut nēmō venīre vellet. ‘He said such things that no-one wanted to come.’ (result clause, negative nōn) haec dīxit nē quis venīre vellet. ‘He said these things so that no-one would want to come.’ (purpose clause, negative nē) nūllōs hostēs in silvā vīdit. ‘He saw no enemies in the forest.’ (ordinary direct statement, negative nōn) nē ūllōs hostēs in silvā videat. ‘May he see no enemies in the forest!’ (hortatory subjunctive, negative nē) English also has two-word negatives that look similar to nē quis, nē quid, and ne ūllus: ‘not . . . anyone’, ‘not . . . anything’, and ‘not . . . any’. Indeed structurally the English and Latin forms are very similar, because in certain contexts quis, quid, and ūllus can also be used without nē to mean ‘anyone’, ‘anything’, and ‘any’. But the principles governing the use of such two-word negatives in English are different from those applying to the Latin ones, so depending on the particular sentence either type of English negative may be used to translate either type of Latin negative. nēminem vīdit. ‘He did not see anyone.’ / ‘He saw no-one.’ nihil facere potuit. ‘He could not do anything.’ / ‘He could do nothing.’ nūllōs hostēs in silvā vīdit. ‘He did not see any enemies in the forest.’ / ‘He saw no enemies in the forest.’ hoc dīximus nē quid facere posset. ‘We said this so that he would not be able to do anything.’ (purpose) tālia dīximus ut nihil facere posset. ‘We said such things that he was not able to do anything.’ (result) When translating from Latin to English, therefore, one needs to choose between the English one-word negatives (‘no-one’ etc.) and two-word negatives (‘not . . . anyone’ etc.) according to what sounds best in English; it is not a good idea to try to translate Latin one-word negatives (nēmō etc.) only with English one-word negatives and Latin two-word negatives (nē quis etc.) only with English two-word negatives. When translating from English to Latin it is vital to be ready to translate either type of English negative with either type of Latin negative, according to what is needed in Latin: the Latin oneword negatives are used in contexts where the simple negative would be nōn, and the two-word negatives in contexts where the simple negative would be nē."
+          "text": "Like other adjectives, nūllus can be substantivized with vir understood; then it means ‘no man’ or ‘no person’ and as such is very similar to nēmō. In fact substantivized forms of nūllus effectively supply the missing forms of nēmō, so that one could (and many people do) say that nēmō has a genitive nūllīus and an ablative nūllō."
+        },
+        {
+          "t": "p",
+          "text": "The three negative words nēmō, nihil, and nūllus are used in circumstances when an ordinary negative would be nōn rather than nē. In constructions where nē would be found instead of nōn, a completely different set of words is used: nēmō is replaced by nē quis ‘no-one’, nihil is replaced by nē quid ‘nothing’, and nūllus is replaced by nē ūllus ‘no’."
+        },
+        {
+          "t": "p",
+          "text": "Declension of these terms is straightforward: quis and quid decline like the quis and quid we have already seen meaning ‘who?’ (chapter 13.3), and ūllus is identical to nūllus without the initial n-. nēmō vēnit. ‘No-one came.’ (ordinary direct statement, negative nōn) nē quis veniat. ‘May no-one come.’ (hortatory subjunctive, negative nē) tālia dīxit ut nēmō venīre vellet. ‘He said such things that no-one wanted to come.’"
+        },
+        {
+          "t": "h",
+          "text": "(result clause, negative nōn)"
+        },
+        {
+          "t": "p",
+          "text": "haec dīxit nē quis venīre vellet. ‘He said these things so that no-one would want to"
+        },
+        {
+          "t": "h",
+          "text": "come.’ (purpose clause, negative nē)"
+        },
+        {
+          "t": "p",
+          "text": "nūllōs hostēs in silvā vīdit. ‘He saw no enemies in the forest.’ (ordinary direct statement,"
+        },
+        {
+          "t": "h",
+          "text": "negative nōn)"
+        },
+        {
+          "t": "p",
+          "text": "nē ūllōs hostēs in silvā videat. ‘May he see no enemies in the forest!’ (hortatory"
+        },
+        {
+          "t": "h",
+          "text": "subjunctive, negative nē)"
+        },
+        {
+          "t": "p",
+          "text": "English also has two-word negatives that look similar to nē quis, nē quid, and ne ūllus: ‘not . . . anyone’, ‘not . . . anything’, and ‘not . . . any’. Indeed structurally the English and Latin forms are very similar, because in certain contexts quis, quid, and ūllus can also be used without nē to mean ‘anyone’, ‘anything’, and ‘any’."
+        },
+        {
+          "t": "p",
+          "text": "But the principles governing the use of such two-word negatives in English are different from those applying to the Latin ones, so depending on the particular sentence either type of English negative may be used to translate either type of Latin negative. nēminem vīdit. ‘He did not see anyone.’ / ‘He saw no-one.’ nihil facere potuit. ‘He could not do anything.’ / ‘He could do nothing.’ nūllōs hostēs in silvā vīdit."
+        },
+        {
+          "t": "p",
+          "text": "‘He did not see any enemies in the forest.’ / ‘He saw no enemies in the forest.’ hoc dīximus nē quid facere posset. ‘We said this so that he would not be able to do"
+        },
+        {
+          "t": "h",
+          "text": "anything.’ (purpose)"
+        },
+        {
+          "t": "p",
+          "text": "tālia dīximus ut nihil facere posset. ‘We said such things that he was not able to do"
+        },
+        {
+          "t": "h",
+          "text": "anything.’ (result)"
+        },
+        {
+          "t": "p",
+          "text": "When translating from Latin to English, therefore, one needs to choose between the English one-word negatives (‘no-one’ etc.) and two-word negatives (‘not . . . anyone’ etc.) according to what sounds best in English; it is not a good idea to try to translate Latin one-word negatives (nēmō etc.) only with English one-word negatives and Latin two-word negatives (nē quis etc.) only with English two-word negatives."
+        },
+        {
+          "t": "p",
+          "text": "When translating from English to Latin it is vital to be ready to translate either type of English negative with either type of Latin negative, according to what is needed in Latin: the Latin oneword negatives are used in contexts where the simple negative would be nōn, and the two-word negatives in contexts where the simple negative would be nē."
         }
       ]
     }
@@ -46,10 +266,7 @@ const chapter = {
         "equus maximus ad agrum ab esse? agricola ductus est.",
         "domus minima refecta non est.",
         "arbitrabatur nos optimos doctissimis scripti sunt. omnium esse.",
-        "ille puer similis est tibi, sed hic",
-        "arbitrabantur nihil bonum esse. est.",
-        "puer minor a patre domum eius. ductus est ne quid facere",
-        "nullus liber tam difficile est ut"
+        "arbitrabantur nihil bonum esse. est."
       ],
       "notes": []
     }

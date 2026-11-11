@@ -15,12 +15,40 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "366 Numbers"
+          "t": "p",
+          "text": "We have so far seen several numbers, such as quattuor ‘four’ and quīnque ‘five’. These are indeclinable, so that the same form is used regardless of the gender, number, or case of the items being counted: quattuor virī vēnērunt ‘four men came’, quattuor puellās vīdī ‘I saw four girls’."
         },
         {
           "t": "p",
-          "text": "We have so far seen several numbers, such as quattuor ‘four’ and quīnque ‘five’. These are indeclinable, so that the same form is used regardless of the gender, number, or case of the items being counted: quattuor virī vēnērunt ‘four men came’, quattuor puellās vīdī ‘I saw four girls’. But the numbers ‘one’, ‘two’, and ‘three’ inflect: ‘one’ follows the pronominal declension like ipse, ‘three’ is a third-declension adjective, and ‘two’ is irregular (it is one of the few Latin remnants of the dual number, which was originally used when referring to two things, with the plural restricted to three or more things). British Case Order ‘One’1 ‘Two’ ‘Three’ Masc. Fem. Neuter Masc. Fem. Neuter M./F. Neuter Nom. ūnus ūna ūnum duo duae duo trēs tria Voc. – – – – – – – – Acc. ūnum ūnam ūnum duōs/duo duās duo trēs tria Gen. ūnīus ūnīus ūnīus duōrum duārum duōrum trium trium Dat. ūnī ūnī ūnī duōbus duābus duōbus tribus tribus Abl. ūnō ūnā ūnō duōbus duābus duōbus tribus tribus Ancient Case Order ‘One’ ‘Two’ ‘Three’ Masc. Fem. Neuter Masc. Fem. Neuter M./F. Neuter Nom. ūnus ūna ūnum duo duae duo trēs tria Gen. ūnīus ūnīus ūnīus duōrum duārum duōrum trium trium Dat. ūnī ūnī ūnī duōbus duābus duōbus tribus tribus Acc. ūnum ūnam ūnum duōs/duo duās duo trēs tria Abl. ūnō ūnā ūnō duōbus duābus duōbus tribus tribus ‘One’ also has a plural; this is not common and inflects regularly: ūnī, ūnae, ūna, etc."
+          "text": "But the numbers ‘one’, ‘two’, and ‘three’ inflect: ‘one’ follows the pronominal declension like ipse, ‘three’ is a third-declension adjective, and ‘two’ is irregular (it is one of the few Latin remnants of the dual number, which was originally used when referring to two things, with the plural restricted to three or more things)."
+        },
+        {
+          "t": "h",
+          "text": "British Case Order"
+        },
+        {
+          "t": "h",
+          "text": "‘One’1 ‘Two’ ‘Three’ Masc. Fem. Neuter Masc. Fem. Neuter M./F. Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. ūnus ūna ūnum duo duae duo trēs tria Voc. – – – – – – – – Acc. ūnum ūnam ūnum duōs/duo duās duo trēs tria Gen. ūnīus ūnīus ūnīus duōrum duārum duōrum trium trium Dat. ūnī ūnī ūnī duōbus duābus duōbus tribus tribus Abl. ūnō ūnā ūnō duōbus duābus duōbus tribus tribus"
+        },
+        {
+          "t": "h",
+          "text": "Ancient Case Order"
+        },
+        {
+          "t": "h",
+          "text": "‘One’ ‘Two’ ‘Three’ Masc. Fem. Neuter Masc. Fem. Neuter M./F. Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. ūnus ūna ūnum duo duae duo trēs tria Gen. ūnīus ūnīus ūnīus duōrum duārum duōrum trium trium Dat. ūnī ūnī ūnī duōbus duābus duōbus tribus tribus Acc. ūnum ūnam ūnum duōs/duo duās duo trēs tria Abl. ūnō ūnā ūnō duōbus duābus duōbus tribus tribus"
+        },
+        {
+          "t": "p",
+          "text": "‘One’ also has a plural; this is not common and inflects regularly: ūnī, ūnae, ūna, etc."
         }
       ]
     },
@@ -31,16 +59,72 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "55.2 Alius and Alter"
+          "t": "p",
+          "text": "Latin has two words for ‘other’: in most circumstances alius is used, but when ‘other’ means the other of two (usually ‘the other’ in English), alter is used. Both these words can be pronouns or adjectives; alius declines similarly to iste, and alter similarly to ipse."
         },
         {
           "t": "h",
-          "text": "368 Numbers"
+          "text": "British Case Order Alius Singular Plural"
+        },
+        {
+          "t": "h",
+          "text": "Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. alius alia aliud aliī aliae alia Voc. – – – – – – Acc. alium aliam aliud aliōs aliās alia Gen. alīus2 alīus alīus aliōrum aliārum aliōrum Dat. aliī aliī aliī aliīs aliīs aliīs Abl. aliō aliā aliō aliīs aliīs aliīs"
+        },
+        {
+          "t": "h",
+          "text": "Alter Singular Plural"
+        },
+        {
+          "t": "h",
+          "text": "Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. alter altera alterum alterī alterae altera Voc. – – – – – – Acc. alterum alteram alterum alterōs alterās altera Gen. alterīus alterīus alterīus alterōrum alterārum alterōrum Dat. alterī alterī alterī alterīs alterīs alterīs Abl. alterō alterā alterō alterīs alterīs alterīs"
+        },
+        {
+          "t": "h",
+          "text": "Ancient Case Order Alius Singular Plural"
+        },
+        {
+          "t": "h",
+          "text": "Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. alius alia aliud aliī aliae alia Gen. alīus2 alīus alīus aliōrum aliārum aliōrum Dat. aliī aliī aliī aliīs aliīs aliīs Acc. alium aliam aliud aliōs aliās alia Abl. aliō aliā aliō aliīs aliīs aliīs"
+        },
+        {
+          "t": "h",
+          "text": "Alter Singular Plural"
+        },
+        {
+          "t": "h",
+          "text": "Masculine Feminine Neuter Masculine Feminine Neuter"
+        },
+        {
+          "t": "pre",
+          "text": "Nom. alter altera alterum alterī alterae altera Gen. alterīus alterīus alterīus alterōrum alterārum alterōrum Dat. alterī alterī alterī alterīs alterīs alterīs Acc. alterum alteram alterum alterōs alterās altera Abl. alterō alterā alterō alterīs alterīs alterīs"
         },
         {
           "t": "p",
-          "text": "Latin has two words for ‘other’: in most circumstances alius is used, but when ‘other’ means the other of two (usually ‘the other’ in English), alter is used. Both these words can be pronouns or adjectives; alius declines similarly to iste, and alter similarly to ipse. British Case Order Alius Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom. alius alia aliud aliī aliae alia Voc. – – – – – – Acc. alium aliam aliud aliōs aliās alia Gen. alīus2 alīus alīus aliōrum aliārum aliōrum Dat. aliī aliī aliī aliīs aliīs aliīs Abl. aliō aliā aliō aliīs aliīs aliīs Alter Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom. alter altera alterum alterī alterae altera Voc. – – – – – – Acc. alterum alteram alterum alterōs alterās altera Gen. alterīus alterīus alterīus alterōrum alterārum alterōrum Dat. alterī alterī alterī alterīs alterīs alterīs Abl. alterō alterā alterō alterīs alterīs alterīs Ancient Case Order Alius Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom. alius alia aliud aliī aliae alia Gen. alīus2 alīus alīus aliōrum aliārum aliōrum Dat. aliī aliī aliī aliīs aliīs aliīs Acc. alium aliam aliud aliōs aliās alia Abl. aliō aliā aliō aliīs aliīs aliīs Alter Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter Nom. alter altera alterum alterī alterae altera Gen. alterīus alterīus alterīus alterōrum alterārum alterōrum Dat. alterī alterī alterī alterīs alterīs alterīs Acc. alterum alteram alterum alterōs alterās altera Abl. alterō alterā alterō alterīs alterīs alterīs The genitive of alter, alterīus, is often used instead of alīus as genitive singular of alius. Examples: quid dīxit alter? ‘What did the other man say?’ quid dīcunt aliī? ‘What are the others saying?’ When two forms of alius occur together, they often mean ‘one . . . another’ or, in the plural, ‘some . . . others’; similarly two forms of alter can mean ‘one . . . the other’. aliī volunt, aliī nōlunt. ‘Some want (it, and) others do not (want it).’ alter puer magnus est, alter parvus. ‘One boy (of the two) is big, the other little.’ But if two forms of alius are in different genders, numbers, or cases, each must be translated twice in English; usually one can also translate this construction with ‘different’ and a plural. alius aliam amat. ‘One man loves one woman, and another loves another woman.’ / ‘Different men love different women.’ aliī alia dīxērunt. ‘Some people said some things, and others said other things.’ / ‘Different people said different things.’"
+          "text": "The genitive of alter, alterīus, is often used instead of alīus as genitive singular of alius. Examples: quid dīxit alter? ‘What did the other man say?’ quid dīcunt aliī? ‘What are the others saying?’ When two forms of alius occur together, they often mean ‘one . . . another’ or, in the plural, ‘some . . . others’; similarly two forms of alter can mean ‘one . . . the other’. aliī volunt, aliī nōlunt."
+        },
+        {
+          "t": "p",
+          "text": "‘Some want (it, and) others do not (want it).’ alter puer magnus est, alter parvus. ‘One boy (of the two) is big, the other little.’ But if two forms of alius are in different genders, numbers, or cases, each must be translated twice in English; usually one can also translate this construction with ‘different’ and a plural."
+        },
+        {
+          "t": "h",
+          "text": "alius aliam amat. ‘One man loves one woman, and another loves another"
+        },
+        {
+          "t": "example",
+          "text": "woman.’ / ‘Different men love different women.’ aliī alia dīxērunt. ‘Some people said some things, and others said other things.’ / ‘Different people said different things.’"
         }
       ]
     }
@@ -53,14 +137,11 @@ const chapter = {
       "paragraphs": [
         "duobus gladiis se defendit. agricolarum refectae sunt.",
         "tres annos Carthagine est. manebimus.",
-        "duo libri mihi legendi sunt; alter",
         "quaesivit ubi alias puellas longior est, alter brevior. vidissemus.",
-        "pecunia mea inventa est, sed saxis. pecunia omnium aliorum",
         "alii alia fecerunt. amissa est.",
         "alter magister nunc adest, alter facilis est, altera difficilis. duobus diebus veniet.",
         "rogaverunt num alios servos bonum est et alia mala. liberaturus essem.",
         "duo servi sumus; dominus Corinthi. alterius bonus est, alterius malus.",
-        "tres equi mortui sunt, sed alii",
         "hic servus doctissimus est, sed valent. alii nihil sciunt."
       ],
       "notes": []

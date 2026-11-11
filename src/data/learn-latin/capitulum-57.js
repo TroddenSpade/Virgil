@@ -9,6 +9,82 @@ const chapter = {
   "complete": true,
   "sections": [
     {
+      "id": "section-0",
+      "latin": "Introduction",
+      "english": "Introduction",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "All the participles we have seen so far have a clear grammatical relationship to the rest of the sentence. Sometimes they agree with the subject (expressed or understood), as mīlitēs captī timēbant ‘the captured soldiers were afraid’ or captī timēbant ‘the captured men were afraid’; sometimes they agree with the direct object (expressed or understood), as mīlitēs captōs vīdī ‘I saw the captured soldiers’ or captōs vīdī ‘I saw the captured men’; and sometimes they have other functions that cause them to end up in a variety of cases, as mīlitibus captīs aquam dedit ‘He gave water to the captured soldiers’, cum captīs stat ‘He is standing with the captured men’, etc."
+        },
+        {
+          "t": "p",
+          "text": "But in Latin it is also possible for a participle and the word it modifies to have no"
+        },
+        {
+          "t": "p",
+          "text": "grammatical relationship to the rest of the sentence; this is called an ‘absolute’ construction because it is not relative to anything else. When this occurs the participle and the word it modifies are put into the ablative, and the construction is therefore known as the ‘ablative absolute’. The ablative in question has one declensional peculiarity: present participles have an ablative singular in -e rather than -ī when used in the"
+        },
+        {
+          "t": "p",
+          "text": "English can also use absolute constructions to a limited extent, and therefore some"
+        },
+        {
+          "t": "p",
+          "text": "Latin ablatives absolute can be translated literally into English."
+        },
+        {
+          "t": "p",
+          "text": "patre mortuō, frātrēs Rōmā discessērunt. ‘Their father having died, the brothers left"
+        },
+        {
+          "t": "h",
+          "text": "Rome.’"
+        },
+        {
+          "t": "p",
+          "text": "aurō inventō, omnēs fēlīcēs erant. ‘The gold having been found, everyone was happy.’"
+        },
+        {
+          "t": "p",
+          "text": "More often, however, the literal English equivalent of a Latin ablative absolute construction sounds peculiar, ungrammatical, or even nonsensical."
+        },
+        {
+          "t": "p",
+          "text": "patre vēnante, frātrēs Rōmā discessērunt. ‘*Their father hunting, the brothers left"
+        },
+        {
+          "t": "h",
+          "text": "Rome.’ (* is used to indicate an impossible sentence.)"
+        },
+        {
+          "t": "p",
+          "text": "Under these circumstances one can add ‘with’ in English (‘With their father hunting . . . ’) or one can translate the ablative absolute with an English clause introduced by a conjunction such as ‘when’ or ‘since’ (‘When their father was hunting . . . ’). Such translations can also be used for other ablatives absolute."
+        },
+        {
+          "t": "p",
+          "text": "patre mortuō, frātrēs Rōmā discessērunt. ‘With their father having died, the brothers"
+        },
+        {
+          "t": "h",
+          "text": "left Rome.’ / ‘When their father (had) died, the brothers left Rome.’"
+        },
+        {
+          "t": "p",
+          "text": "aurō inventō, omnēs fēlīcēs erant ‘With the gold having been found, everyone was"
+        },
+        {
+          "t": "h",
+          "text": "happy.’ / ‘When the gold was found, everyone was happy.’"
+        },
+        {
+          "t": "p",
+          "text": "In dealing with an ablative absolute, one needs to understand the word that the participle agrees with as the subject of the verb that the participle comes from: thus in patre mortuō one needs to take the ablative patre as the subject of mortuō (which needs to be translated as a verb when using the ‘when’ translation: ‘when their father (had) died’). The tense of the participle is relative to that of the main verb, so because this ablative absolute uses a perfect participle, it means that the father died before the brothers left Rome. In the sentence patre mortuō frātrēs Rōmā discēdent the same leave Rome’: the translation of the ablative absolute depends on the tense of the main verb. Likewise the sentence patre moriente frātrēs Rōmā discēdunt means ‘Since their father is dying the brothers are leaving Rome’, but patre moriente frātrēs Rōmā discessērunt means ‘When their father was dying, the brothers left Rome’ (or ‘With their father dying, the brothers left Rome’): the present participle means that the two actions occurred at the same time, but because of the English sequence of tenses (cf. chapters 19.4 and 24.2) it is translated with a past tense in English."
+        }
+      ]
+    },
+    {
       "id": "section-1",
       "latin": "57.2 Additional Words Attached to an Ablative Absolute",
       "english": "Grammar",
@@ -16,7 +92,23 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "An ablative absolute does not have to consist of only two words; other words that depend on those two can also be part of the construction. Often such words are also in the ablative case, because they are adjectives agreeing with the ablative absolute. iūvistī mē patre meō moriente. ‘You helped me when my father was dying.’ illō aurō inventō omnēs fēlīcēs erant. ‘When that gold was found everyone was happy.’ But often the words depending on an ablative absolute are in other cases, if they are the objects of the participle (see chapter 24.2 for the tendency of participles to take objects), a possessive genitive with the noun, or even a prepositional phrase. rēge mīlitēs hortātō ē castrīs prōgressī sumus. ‘When the king had encouraged the soldiers we advanced out of the camp.’ patre eius moriente nihil facere poteram. ‘When his father was dying I was unable to do anything.’ rēge ab hostibus interfectō miserrimī erāmus. ‘When the king was killed by the enemy we were very miserable.’ Very often, as in these examples, the additional words come between the two ablative words; words that belong to the main sentence rather than to the ablative absolute phrase are not normally found in this position. This positioning is therefore useful because it allows the reader to work out easily which extra words go with the ablative absolute and which with the main sentence, but it is also tricky because it makes the belong to the ablative absolute construction to occur before or after the two main words. rēge interfectō ab hostibus miserrimī erāmus. ‘When the king was killed by the enemy we were very miserable.’"
+          "text": "An ablative absolute does not have to consist of only two words; other words that depend on those two can also be part of the construction. Often such words are also in the ablative case, because they are adjectives agreeing with the ablative absolute. iūvistī mē patre meō moriente. ‘You helped me when my father was dying.’ illō aurō inventō omnēs fēlīcēs erant."
+        },
+        {
+          "t": "p",
+          "text": "‘When that gold was found everyone was happy.’ But often the words depending on an ablative absolute are in other cases, if they are the objects of the participle (see chapter 24.2 for the tendency of participles to take objects), a possessive genitive with the noun, or even a prepositional phrase. rēge mīlitēs hortātō ē castrīs prōgressī sumus."
+        },
+        {
+          "t": "p",
+          "text": "‘When the king had encouraged the soldiers we advanced out of the camp.’ patre eius moriente nihil facere poteram. ‘When his father was dying I was unable to do anything.’ rēge ab hostibus interfectō miserrimī erāmus."
+        },
+        {
+          "t": "p",
+          "text": "‘When the king was killed by the enemy we were very miserable.’ Very often, as in these examples, the additional words come between the two ablative words; words that belong to the main sentence rather than to the ablative absolute phrase are not normally found in this position."
+        },
+        {
+          "t": "p",
+          "text": "This positioning is therefore useful because it allows the reader to work out easily which extra words go with the ablative absolute and which with the main sentence, but it is also tricky because it makes the belong to the ablative absolute construction to occur before or after the two main words. rēge interfectō ab hostibus miserrimī erāmus. ‘When the king was killed by the enemy we were very miserable.’"
         }
       ]
     }
@@ -30,8 +122,7 @@ const chapter = {
         "amico veniente puer felix erit. servata est.",
         "servis liberatis dominus ipse saxa amicis iuvantibus. feret.",
         "dominus ipse saxa ferebat servis celeriter refecimus. liberatis.",
-        "multis libris scriptis magister hostes visi sunt. clarissimus factus est.",
-        "pater tuus haec verba dixit agricola ad nos venit. ("
+        "multis libris scriptis magister hostes visi sunt. clarissimus factus est."
       ],
       "notes": []
     }
@@ -243,11 +334,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "8 multis libris scriptis ipse hostes oppugnabunt. clarissimus fies. 57.",
-          "a": ""
-        },
-        {
-          "q": "2 Additional Words with an Ablative Absolute 383",
+          "q": "8 multis libris scriptis ipse hostes oppugnabunt. clarissimus fies.",
           "a": ""
         },
         {
