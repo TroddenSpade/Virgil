@@ -157,9 +157,11 @@ function ActiveBook({ book }) {
                 ? book.startLabel || `Begin ${book.unit || 'Chapter'} ${first.roman}`
                 : book.kind === 'reader' || book.kind === 'workbook'
                   ? book.startLabel || `Start ${book.unit || 'Capitulum'} ${first.roman}`
-                  : book.id === 'familia-romana' || book.id === 'roma-aeterna'
-                    ? `Start Capitulum ${first.roman}`
-                    : 'Start Chapter I'} →
+                  : book.startLabel
+                    ? book.startLabel
+                    : book.id === 'familia-romana' || book.id === 'roma-aeterna'
+                      ? `Start Capitulum ${first.roman}`
+                      : 'Start Chapter I'} →
             </Link>
             {book.kind === 'commentary' && (
               <a className="btn btn--ghost" href="#commentary">
@@ -193,8 +195,8 @@ function ActiveBook({ book }) {
               : book.kind === 'workbook'
                 ? book.collectionNote || 'The printed exercises for each chapter, reproduced in Latin.'
                 : 'Lessons marked '}
-          {book.kind !== 'commentary' && book.kind !== 'reader' && book.kind !== 'workbook' && <span className="tag tag--laurel">lesson</span>}
-          {book.kind !== 'commentary' && book.kind !== 'reader' && book.kind !== 'workbook' && ' are fully written up; the rest open the original Latin text.'}
+          {book.kind !== 'commentary' && book.kind !== 'reader' && book.kind !== 'workbook' && book.kind !== 'coursebook' && <span className="tag tag--laurel">lesson</span>}
+          {book.kind !== 'commentary' && book.kind !== 'reader' && book.kind !== 'workbook' && book.kind !== 'coursebook' && ' are fully written up; the rest open the original Latin text.'}
         </p>
         <div className="chapter-grid">
           {book.chapters.map((chapter) => {

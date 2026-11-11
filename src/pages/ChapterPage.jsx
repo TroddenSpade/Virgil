@@ -30,12 +30,14 @@ function chapterSections(chapter, book) {
         sub: section.english || '',
         num: ROMAN[index] || String(index + 1),
       })),
+      chapter.readings?.length && { id: 'lectio', label: book?.readingLabel || 'Lēctiō', sub: 'Reading' },
       chapter.vocabulary?.length && {
         id: 'vocabula',
         label: chapter.vocabularyTitle || 'Vocābula',
         sub: 'Vocabulary',
       },
       chapter.notes?.length && { id: 'notae', label: 'Nōtae', sub: 'Notes' },
+      chapter.pensa?.length && { id: 'pensa', label: book?.exerciseLabel || 'Pēnsa', sub: 'Exercises' },
     ].filter(Boolean)
   }
 
@@ -146,6 +148,17 @@ function Lesson({ book, chapter }) {
 
             {isCommentary ? (
               <>
+                {chapter.readings?.length > 0 && (
+                  <section className="lesson__section" id="lectio">
+                    <SectionHead
+                      num={sectionNum('lectio')}
+                      latin={sections.find((section) => section.id === 'lectio')?.label || 'Lēctiō'}
+                      english="reading"
+                    />
+                    <Reading readings={chapter.readings} />
+                  </section>
+                )}
+
                 {chapter.sections.map((section) => (
                   <section className="lesson__section" id={section.id} key={section.id}>
                     <SectionHead
@@ -172,6 +185,17 @@ function Lesson({ book, chapter }) {
                   <section className="lesson__section" id="notae">
                     <SectionHead num={sectionNum('notae')} latin="Nōtae" english="notes" />
                     <CompanionNotes notes={chapter.notes} />
+                  </section>
+                )}
+
+                {chapter.pensa?.length > 0 && (
+                  <section className="lesson__section" id="pensa">
+                    <SectionHead
+                      num={sectionNum('pensa')}
+                      latin={sections.find((section) => section.id === 'pensa')?.label || 'Pēnsa'}
+                      english="exercises"
+                    />
+                    <Pensum pensa={chapter.pensa} />
                   </section>
                 )}
               </>

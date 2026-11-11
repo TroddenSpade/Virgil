@@ -130,17 +130,19 @@ function QuestionExercise({ pensum }) {
               placeholder="Scribite responsum…"
               aria-label={`Answer to: ${item.q}`}
             />
-            <div className="question__foot">
-              <button
-                type="button"
-                className="btn btn--ghost btn--sm"
-                aria-expanded={Boolean(open[i])}
-                onClick={() => setOpen((o) => ({ ...o, [i]: !o[i] }))}
-              >
-                {open[i] ? 'Hide answer' : 'Reveal answer'}
-              </button>
-            </div>
-            {open[i] && <p className="question__answer latin">Respondētur: {item.a}</p>}
+            {item.a && (
+              <div className="question__foot">
+                <button
+                  type="button"
+                  className="btn btn--ghost btn--sm"
+                  aria-expanded={Boolean(open[i])}
+                  onClick={() => setOpen((o) => ({ ...o, [i]: !o[i] }))}
+                >
+                  {open[i] ? 'Hide answer' : 'Reveal answer'}
+                </button>
+              </div>
+            )}
+            {item.a && open[i] && <p className="question__answer latin">Respondētur: {item.a}</p>}
           </li>
         ))}
       </ol>

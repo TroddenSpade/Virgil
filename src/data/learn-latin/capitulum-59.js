@@ -1,0 +1,62 @@
+const chapter = {
+  "number": 59,
+  "roman": "LIX",
+  "slug": "capitulum-59",
+  "latinTitle": "CAPVT LIX",
+  "title": "Reading Practice",
+  "tagline": "Grammar, vocabulary and practice",
+  "status": "complete",
+  "complete": true,
+  "sections": [
+    {
+      "id": "section-1",
+      "latin": "59.1 Colloquia Monacensia–Einsidlensia 11a–12d (adapted)",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "h",
+          "text": "59.3 Virgil, Aeneid 1.76–91"
+        },
+        {
+          "t": "p",
+          "text": "Giving a dinner party (second or third century ad): (As the guests gather in the library before dinner) l u c i u s (to slaves): date hic cathedras, sellas, cervicalia. (to Gaius) sede. g a i u s : sedeo. l u c i u s (to Quintus): cur stas? (to slaves) lava calicem et vinum aqua calida tempera; valde enim sitio. misce omnibus. (to guests) quis quid vult? conditum aut carenum? (to slave, after getting an answer from a guest) illud ei misce. (to Gaius) tu, quid vis? (to slave) lava calicem. g a i u s : misce mihi calidum, noli miscere ferventem neque tepidum, sed temperatum. (after tasting it) mitte aquam. (after tasting it again) adice merum. (As the guests move into the dining room) l u c i u s: cur statis? sedete, si vultis. g a i u s: discumbamus. ubi imperas ut discumbam? l u c i u s: in primo loco discumbe. (to slaves) date nobis liquamen. da nobis malvas ferventes. porrige mihi mappam. mitte impensam in acetabulum. partire ungellas. concide aqualiculum et chordam ex aqua. da ficatum tenerum, turdos, lactucas. unus vestrum panem frangat et in canistellum inferat. (to guests) cenate. (to slaves) da sardinas, cymam cum liquamine, rapatum, gallinam assam, porcellum assum. pone discum cum radicibus, menta, olivis albis et caseo salso, fungis. (to stewards, after all the guests have been fed) ministrantibus et coquo date cenam; et date bellaria, quia bene ministraverunt. date nobis aquam manibus. (in preparation for the last part of the evening) terge mensam. da calicem, da merum. g a i u s: bibamus aquam de gillone. q ui nt u s: misce calidum. s l a v e : in maiore calice? q ui nt u s: in minore. s l a v e : libenter. q ui nt u s (to Lucius): si mihi permittis, propino tibi; bene accipis? l u c i u s: a te, libenter. (to Marcus) cur non bibis? bibe, Marce. m a r c u s: rogavi et nemo mihi dedit. gaius: sufficit nobis. nunc eamus. (to slave) accende lampadem. slave : accipe. gaius (to Lucius): bene nos accepisti. (After guests have left) lucius (to slave): puer, veni. collige haec omnia et suis locis repone. diligenter sterne lectum. slaves: stravimus. lucius: cur igitur durus est? slaves: excussimus et pulvinum commollivimus. lucius: si cuius vocem audiero, non ei parcam. recipite vos, dormite et galli cantu excitate me, ut excurram. Vocabulary cathedra, cathedrae (f.) ‘chair’ acētābulum, acētābulī (n.) ‘vinegar cup’ sella, sellae (f.) ‘seat’ ungella, ungellae (f.) ‘pig’s foot’ cervīcal, cervīcālis (n.) ‘cushion’ concīdō, -cīdere, -cīdī, -cīsum ‘cut up’ lavō, lavāre, lāvī, lautum ‘rinse out’ aquāliculum, aquāliculī (n.) ‘paunch’ calix, calicis (m.) ‘cup’ chorda, chordae (f.) ‘tripe’ vīnum, vīnī (n.) ‘wine’ ex aquā ‘boiled’ calidus, -a, -um ‘hot’ fīcātum, fīcātī (n.) ‘liver’ temperō, -āre, -āvī, -ātum ‘mix’ turdus, turdī (m.) ‘thrush’ valdē ‘extremely’ lactūca, lactūcae (f.) ‘lettuce’ sitiō, sitīre, –, – ‘be thirsty’ pānis, pānis, pānium (m.) ‘bread’ misceō, miscēre, miscuī, mixtum ‘mix’ frangō, frangere, frēgī, frāctum ‘break’ condītum, condītī (n.) ‘spiced wine’ canistellum, canistellī (n.) ‘basket’ carēnum, carēnī (n.) ‘sweet boiled wine’ īnferō (like ferō) ‘serve’ calidum, calidī (n.) ‘hot drink’ sardīna, sardīnae (f.) ‘pilchard’ fervēns, gen. ferventis ‘boiling’ cyˉma, cyˉmae (f.) ‘cabbage-sprout’ tepidus, -a, -um ‘lukewarm’ rāpātum, rāpātī (n.) ‘meat in grated temperātus, -a, -um ‘the right turnip’ temperature’ gallīna, gallīnae (f.) ‘chicken’ mittō can also mean ‘add’ and ‘pour’ assus, assa, assum ‘roasted’ adiciō, adicere, adiēcī, adiectum ‘add’ porcellus, porcellī (m.) ‘suckling pig’ merum, merī (n.) ‘unmixed wine’ pōnō can also mean ‘set out’ discumbō, -cumbere, -cubuī, discus, discī (m.) ‘platter’ -cubitum ‘recline’ rādīx, rādīcis (f.) ‘radish’ liquāmen, liquāminis (n.) ‘garum’ menta, mentae (f.) ‘mint’ malva, malvae (f.) ‘mallow’ olīva, olīvae (f.) ‘olive’ porrigō, porrigere, porrēxī, porrēctum albus, alba, album ‘white’ ‘pass’ cāseus, cāseī (f.) ‘cheese’ mappa, mappae (f.) ‘napkin’ salsus, salsa, salsum ‘salted’ impēnsa, impēnsae (f.) ‘fish oil sauce’ fungus, fungī (m.) ‘mushroom’ ministrāns, ministrantis (m.) ‘waiter’ repōnō (like pōnō) ‘put back’ coquus, coquī (m.) ‘cook’ dīligenter ‘carefully’ bellārium, bellāriī (n.) ‘dessert’ sternō, sternere, strāvī, strātum ministrō, -āre, -āvī, -ātum ‘serve’ ‘spread out’ tergō, tergere, tersī, tersum ‘wipe off’ lectus, lectī (m.) ‘bed’ mēnsa, mēnsae (f.) ‘table’ excutiō, excutere, excussī, excussum bibō, bibere, bibī, – ‘drink’ ‘shake out’ gillō, gillōnis (m.) ‘cooler’ pulvīnus, pulvīnī (m.) ‘pillow’ libenter ‘gladly’ commolliō, -īre, -īvī, -ītum ‘soften up’ permittō (like mittō) ‘allow’ cuius = alicuius (after sī) propīnō, propīnāre, –, – ‘drink a toast’ parcō, parcere, pepercī, parsūrus sufficiō, sufficere, suffēcī, suffectum ‘be (+ dative) ‘spare’ enough’ recipiō mē ‘take myself away’ accendō, accendere, accendī, accēnsum gallus, gallī (m.) ‘rooster’ ‘light’ cantus, cantūs (m.) ‘song’ lampas, lampadis (f.) ‘torch’ excitō, -āre, -āvī, -ātum ‘wake up’ colligō, colligere, collēgī, collēctum excurrō (like currō) ‘run out’ ‘gather up’"
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "latin": "59.2 Translate into Latin",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "g a i u s: Lucius, we dined very well yesterday; you received us well. l u c i u s: I give you thanks. But I am sad since Marcus is saying bad things about my dinner. g a i u s: What? There is nothing bad that you could say about that dinner; it must be praised. We had very good pigs’ feet, very good liver, very good pilchards, a very good cabbage sprout, very good fish sauce. If your cook is a slave, free him! l u c i u s: But Marcus had nothing; he asked and no-one gave (anything) to him. I am ashamed. The waiters served so badly that I must sell them all. Additional Vocabulary agō can also mean ‘give’ (and is so used in ‘give thanks’) grātiae, grātiārum (f. plural) ‘thanks’"
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "latin": "59.3 Virgil, Aeneid 1.76–91",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "h",
+          "text": "59.3 Virgil, Aeneid 1.76–91"
+        },
+        {
+          "t": "p",
+          "text": "Aeolus, king of the winds, responds to Juno’s request that he destroy Aeneas’ fleet with a storm (continuation of the passage in chapter 53): Aeolus haec contra: ‘tuus, o regina, quid optes explorare labor; mihi iussa capessere fas est. tu mihi quodcumque hoc regni, tu sceptra Iovemque concilias, tu das epulis accumbere divum nimborumque facis tempestatumque potentem.’ haec ubi dicta, cavum conversa cuspide montem impulit in latus; ac venti velut agmine facto, qua data porta, ruunt et terras turbine perflant. incubuere mari totumque a sedibus imis una Eurusque Notusque ruunt creberque procellis Africus, et vastos volvunt ad litora fluctus. insequitur clamorque virum stridorque rudentum; eripiunt subito nubes caelumque diemque Teucrorum ex oculis; ponto nox incubat atra; intonuere poli et crebris micat ignibus aether praesentemque viris intentant omnia mortem. Vocabulary contrā ‘in reply’ ubi ‘when’ optō, optāre, optāvī, optātum ‘want’ cavus, cava, cavum ‘hollow’ explōrō, -āre, -āvī, -ātum ‘find out’ convertō, -vertere, -vertī, -versum labor, labōris (m.) ‘task’ (supply est here) ‘reverse’ iubeō, iubēre, iussī, iussum ‘order’ cuspis, cuspidis (f.) ‘spear’ capessō, capessere, capessīvī, impellō, impellere, impulī, impulsum capessītum ‘carry out’ ‘strike’ fās (n. indeclinable) ‘right’ latus, lateris (n.) ‘side’ quodcumque hoc rēgnī ‘this, whatever ac ‘and’ kingdom (is mine)’ ventus, ventī (m.) ‘wind’ scēptrum, scēptrī (n.) ‘royal power’ velut ‘as if’ Iuppiter, Iovis (m.) ‘Jupiter’ agmine factō ‘in military formation’ conciliō, -āre, -āvī, -ātum ‘procure’, quā ‘where’ (short for quā viā, so ‘make favourable’ literally ‘by which way’) epulae, epulārum (f. plural) ‘feast’ porta, portae (f.) ‘gateway’ accumbō, accumbere, accubuī, ruō, ruere, ruī, rūtum ‘rush out’, accubitum (+ dative) ‘recline at’ ‘heave up’ (Roman banqueters reclined while terra, terrae (f.) ‘land’ eating, so this effectively means ‘join turbō, turbinis (m.) ‘whirlwind’ in feasting’) perflō, -āre, -āvī, -ātum ‘blow through’ dīvum = deōrum incubuēre = incubuērunt, from nimbus, nimbī (m.) ‘storm-cloud’ incumbō, incumbere, incubuī, -que . . . -que ‘both . . . and’ incubitum (+ ablative) ‘swoop down tempestās, tempestātis (f.) ‘storm’ on, settle on’ potēns, gen. potentis (+ genitive) mare, maris, marium (n.) ‘sea’ ‘powerful over’ tōtus, tōta, tōtum ‘whole’ sēdēs, sēdis (f.) ‘bottom’ ēripiō, ēripere, ēripuī, ēreptum ‘snatch īmus, īma, īmum ‘deepest’ away’ ūnā ‘together’ subitō ‘suddenly’ Eurus, Eurī (m.) ‘east wind’ nūbēs, nūbis, nūbium (f.) ‘cloud’ Notus, Notī (m.) ‘south wind’ caelum, caelī (n.) ‘sky’ crēber, crēbra, crēbrum (+ ablative) Teucrī, Teucrōrum (m. plural) ‘Trojans’ ‘prolific in’, ‘frequent’ oculus, oculī (m.) ‘eye’ procella, procellae (f.) ‘storm’ pontus, pontī (m.) ‘sea’ Āfricus, Āfricī (m.) ‘south-west wind’ incubō, incubāre, incubuī, incubitum vāstus, vāsta, vāstum ‘enormous’ ‘broods over’ volvō, volvere, volvī, volūtum ‘turn’ āter, ātra, ātrum ‘black’ lītus, lītoris (n.) ‘shore’ intonō, intonāre, intonuī, intonātum flūctus, flūctūs (m.) ‘wave’ ‘thunder’ īnsequor (like sequor) ‘follow polus, polī (m.) ‘heaven’ immediately’ micō, micāre, micuī, – ‘flash’ clāmor, clāmōris (m.) ‘shouting’ aethēr, aetheris (m.) ‘sky’ virum = virōrum praesēns, gen. praesentis ‘immediate’ strīdor, strīdōris (m.) ‘creaking’ intentō, intentāre, intentāvī, intentātum rudentēs, rudentum (m. plural) ‘threaten’ ‘rigging’ (on a sailing ship) mors, mortis, mortium (f.) ‘death’ A possible prose order of the above would be: Aeolus haec (dixit) contra: ‘tuus, o regina, labor (est) explorare quid optes; mihi fas est iussa capessere. tu mihi quodcumque hoc regni (concilias), tu sceptra Iovemque concilias, tu (mihi) das epulis divum accumbere, nimborumque tempestatumque potentem (me) facis.’ ubi haec dicta (sunt), conversa cuspide cavum montem in latus impulit; ac venti, velut agmine facto, ruunt qua data (est) porta, et terras turbine perflant. incubuere mari, totumque (mare) a sedibus imis ruunt una Eurusque Notusque Africusque creber procellis, et vastos volvunt ad litora fluctus; insequitur clamorque virum stridorque rudentum. nubes caelumque diemque ex oculis Teucrorum subito eripiunt; ponto nox atra incubat. intonuere poli et crebris micat ignibus aether omniaque viris praesentem mortem intentant."
+        }
+      ]
+    }
+  ],
+  "readings": [],
+  "grammar": [],
+  "vocabulary": [],
+  "pensa": []
+}
+
+export default chapter

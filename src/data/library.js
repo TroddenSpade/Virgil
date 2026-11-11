@@ -5,6 +5,7 @@ import { book as latinViaOvid, chapters as latinViaOvidChapters } from './latin-
 import { book as companion, chapters as companionChapters } from './companion/index.js'
 import { book as colloquia, chapters as colloquiaChapters } from './colloquia-personarum/index.js'
 import { book as fabulae, chapters as fabulaeChapters } from './fabulae-syrae/index.js'
+import { book as learnLatin, chapters as learnLatinChapters } from './learn-latin/index.js'
 import { book as epitome, chapters as epitomeChapters } from './epitome-historiae-sacrae/index.js'
 import { book as caesar, chapters as caesarChapters } from './caesar-de-bello-gallico-vii/index.js'
 import { book as exercitiaII, chapters as exercitiaIIChapters } from './exercitia-latina-ii/index.js'
@@ -57,7 +58,6 @@ export const romaAeternaBook = {
 }
 
 const companionSource = sourceBySlug['companion']
-const learnLatinSource = sourceBySlug['learn-latin']
 const latinViaOvidSource = sourceBySlug['latin-via-ovid']
 const exercitiaSource = sourceBySlug['exercitia']
 
@@ -139,33 +139,8 @@ export const sermonesBook = {
 
 
 export const learnLatinBook = {
-  id: 'learn-latin',
-  slug: 'learn-latin-from-the-romans',
-  title: 'Learn Latin from the Romans',
-  latinTitle: 'DISCERE LATINAM A ROMANIS',
-  shortTitle: 'Learn Latin from the Romans',
-  author: 'Eleanor Dickey',
-  edition: 'First Edition',
-  year: 2018,
-  publisher: 'Cambridge University Press',
-  isbn: '978-1-107-63577-0',
-  level: 'Grammar-based alternative',
-  language: 'English + Latin',
-  summary:
-    'A rigorous, grammar-and-exercises course that teaches Latin the way it was read for centuries, ' +
-    'using passages from real Roman authors from the start.',
-  description:
-    'A complete introductory course built from ancient Latin-learning materials, the Colloquia. ' +
-    'It explains the grammar step by step with thousands of practice sentences and over 150 longer ' +
-    'passages from Roman authors. The full text is available here chapter by chapter.',
-  status: 'active',
-  kind: 'reference',
-  sourceSlug: 'learn-latin',
-  accent: 'laurel',
-  chapterCount: learnLatinSource?.chapters.length ?? 0,
-  readyCount: learnLatinSource?.chapters.length ?? 0,
-  chapters: referenceChapters('learn-latin'),
-  referenceChapters: referenceChapters('learn-latin'),
+  ...learnLatin,
+  chapters: learnLatinChapters,
 }
 
 export const latinViaOvidBook = {
