@@ -648,6 +648,10 @@ const chapter = {
       "type": "questions",
       "items": [
         {
+          "q": "6 they (neuter) hunted divide it?",
+          "a": ""
+        },
+        {
           "q": "7 he did not fear 20 she has divided it 8 they (feminine) feared 21 they (neuter) divided it 9 it was afraid 22 they (masculine) have divided it 10 were you (masculine plural) 23 we (feminine) did not divide it C Conjugate in the perfect: 1 arbitror, arbitrārī, arbitrātus sum 5 patior, patī, passus sum ‘suffer’,",
           "a": ""
         }

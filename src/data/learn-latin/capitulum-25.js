@@ -467,15 +467,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "1 Colloquium Harleianum 7a–e (adapted): caring for one’s writing tools (perhaps first century ad). Tea cher: dealba tabulam tuam, sede et scribe. apices fac litterarum. in atramen- tum tuum aquam paucam mitte. ecce, nunc bonum est. Child 1: porrige cannam. porrige scalpellum. Child",
-          "a": ""
-        },
-        {
-          "q": "2 : quod scalpellum vis? Child 1: acutum volo. Child",
-          "a": ""
-        },
-        {
-          "q": "2 : acutum vis? cur?",
+          "q": "1 Colloquium Harleianum 7a–e (adapted): caring for one’s writing tools (perhaps first century ad). Tea cher: dealba tabulam tuam, sede et scribe. apices fac litterarum. in atramen- tum tuum aquam paucam mitte. ecce, nunc bonum est. Child 1: porrige cannam. porrige scalpellum. Child 2: quod scalpellum vis? Child 1: acutum volo. Child 2: acutum vis? cur?",
           "a": ""
         }
       ],

@@ -552,7 +552,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "14 (adapted): Sannio has a bad experience with the master of the slave Syrus (second century bc ). syrus : quid istud, Sannio, est quod audio te concertavisse cum ero? sannio: numquam vidi certationem iniquius comparatam, quam quae hodie inter nos fuit: ego vapulando, ille verberando, usque ambo defessi sumus. syrus : tua culpa.",
+          "q": "14 (adapted): Sannio has a bad experience with the master of the slave Syrus (second century bc). syrus: quid istud, Sannio, est quod audio te concertavisse cum ero? sannio: numquam vidi certationem iniquius comparatam, quam quae hodie inter nos fuit: ego vapulando, ille verberando, usque ambo defessi sumus. syrus: tua culpa.",
           "a": ""
         }
       ],

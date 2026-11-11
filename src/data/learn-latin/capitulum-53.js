@@ -56,11 +56,11 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "Two visits to a banker (second or third century ad ): bank er : domine, quid velis? lucius: habesne pecuniam vacuam? bank er : quid vis mutuari? lucius: si habes, da mihi quinque sestertia. bank er : etsi non habuissem, undecumque explicavissem. lucius: pignusne vis? bank er : absit, nihil tibi dandum est. cave autem, scribens te accepisse. lucius: sic faciam; quibus usuris? bank er : usuris quas vis.1 lucius: cavi."
+          "text": "Two visits to a banker (second or third century ad): banker: domine, quid velis? lucius: habesne pecuniam vacuam? banker: quid vis mutuari? lucius: si habes, da mihi quinque sestertia. banker: etsi non habuissem, undecumque explicavissem. lucius: pignusne vis? banker: absit, nihil tibi dandum est. cave autem, scribens te accepisse. lucius: sic faciam; quibus usuris? banker: usuris quas vis.1 lucius: cavi."
         },
         {
           "t": "p",
-          "text": "bank er : gratias tibi ago; signa. lucius: signavi. bank er : numero numera. lucius: numeravi. bank er : proba. lucius: probavi. bank er : sicut pecuniam accepisti, probam reddas. lucius: cum eam tibi reddidero, satisfaciam. (later) bank er : bono die venisti. lucius: sic veni. bank er : attulistine pecuniam? dedistine servo meo? lucius: dedi. bank er : caruisti. lucius: estne aliud mihi faciendum? bank er : valendum est tibi."
+          "text": "banker: gratias tibi ago; signa. lucius: signavi. banker: numero numera. lucius: numeravi. banker: proba. lucius: probavi. banker: sicut pecuniam accepisti, probam reddas. lucius: cum eam tibi reddidero, satisfaciam. (later) banker: bono die venisti. lucius: sic veni. banker: attulistine pecuniam? dedistine servo meo? lucius: dedi. banker: caruisti. lucius: estne aliud mihi faciendum? banker: valendum est tibi."
         },
         {
           "t": "p",
@@ -212,19 +212,19 @@ const chapter = {
       "type": "questions",
       "items": [
         {
-          "q": "g a i u s : Lucius, I need money; unless I am allowed to borrow from you yourself, I shall have to go to a banker.",
+          "q": "gaius: Lucius, I need money; unless I am allowed to borrow from you yourself, I shall have to go to a banker.",
           "a": ""
         },
         {
-          "q": "l u c i u s : What would you like to borrow?",
+          "q": "lucius: What would you like to borrow?",
           "a": ""
         },
         {
-          "q": "g a i u s : I need four or five thousand sesterces.",
+          "q": "gaius: I need four or five thousand sesterces.",
           "a": ""
         },
         {
-          "q": "l u c i u s : Heaven forbid!",
+          "q": "lucius: Heaven forbid!",
           "a": ""
         },
         {
@@ -236,7 +236,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "g a i u s : I cannot do anything else; I have to find the money, since I want to become quaestor.",
+          "q": "gaius: I cannot do anything else; I have to find the money, since I want to become quaestor.",
           "a": ""
         },
         {
@@ -244,7 +244,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "l u c i u s : Will you give a guarantee and seal (it)?",
+          "q": "lucius: Will you give a guarantee and seal (it)?",
           "a": ""
         },
         {
@@ -252,15 +252,15 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "g a i u s : Yes (literally ‘I shall do in this way’), provided that you give me the money now.",
+          "q": "gaius: Yes (literally ‘I shall do in this way’), provided that you give me the money now.",
           "a": ""
         },
         {
-          "q": "l u c i u s : I will not do (it), since I do not think (use arbitror not cōgitō) that you will become quaestor.",
+          "q": "lucius: I will not do (it), since I do not think (use arbitror not cōgitō) that you will become quaestor.",
           "a": ""
         },
         {
-          "q": "g a i u s : You have become my enemy, and you will be sorry when I am quaestor!",
+          "q": "gaius: You have become my enemy, and you will be sorry when I am quaestor!",
           "a": ""
         }
       ]

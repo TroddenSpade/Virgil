@@ -48,7 +48,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Neuter nouns such as cōnsilium, which we have already seen, can also take a genitive with one -ī. The genitive with one -ī is the older form and found up through the first century B C ; from the time of Augustus onwards the genitive in -iī is used. Adjectives in ius/-ium always have the genitive in -iī."
+          "text": "Neuter nouns such as cōnsilium, which we have already seen, can also take a genitive with one -ī. The genitive with one -ī is the older form and found up through the first century B C; from the time of Augustus onwards the genitive in -iī is used. Adjectives in ius/-ium always have the genitive in -iī."
         },
         {
           "t": "h",

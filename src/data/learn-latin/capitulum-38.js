@@ -632,6 +632,19 @@ const chapter = {
         }
       ],
       "id": "practice-38-g"
+    },
+    {
+      "id": "translate-38",
+      "latinLabel": "TRANSLATE INTO LATIN",
+      "title": "Translate into Latin",
+      "instruction": "",
+      "type": "questions",
+      "items": [
+        {
+          "q": "northern Britain and their families, an invitation to a birthday party (c.",
+          "a": ""
+        }
+      ]
     }
   ]
 }

@@ -52,7 +52,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "35 Those men’s slaves will go with 27 These men cannot see us. you (plural). 28 These men can give you (singu- 36 Our slaves do not love us. lar) money. Colloquium Harleianum 13a–b (adapted): an encounter in a temple (second or third century ad). m a r c u s : salutavi te nudius tertius sursum in templo, sed me non salutavisti. g a i u s : ego adorabam. m a r c u s : et amicum tuum tecum vidi."
+          "text": "35 Those men’s slaves will go with 27 These men cannot see us. you (plural). 28 These men can give you (singu- 36 Our slaves do not love us. lar) money. Colloquium Harleianum 13a–b (adapted): an encounter in a temple (second or third century ad). marcus: salutavi te nudius tertius sursum in templo, sed me non salutavisti. gaius: ego adorabam. marcus: et amicum tuum tecum vidi."
         },
         {
           "t": "example",

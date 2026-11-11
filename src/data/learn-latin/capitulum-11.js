@@ -64,7 +64,7 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "How a Roman might appeal to a neglectful friend (second or third century ad ): I ad fratrem et dic ei: ‘Quid tibi fecimus, ut neglegas nos? te diligimus, te amamus, per deum, per caelum, per terram. et ipse hoc scis, quoniam amicus noster es.’"
+          "text": "How a Roman might appeal to a neglectful friend (second or third century ad): I ad fratrem et dic ei: ‘Quid tibi fecimus, ut neglegas nos? te diligimus, te amamus, per deum, per caelum, per terram. et ipse hoc scis, quoniam amicus noster es.’"
         }
       ]
     },
@@ -76,7 +76,7 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "Winning belief by taking an oath (probably third or fourth century ad ): Dixit mihi, ‘Si periurus non es, iura mihi.’ et iuravi simpliciter, et non periuravi: ‘per deum optimum, per deum maximum, sic mihi sit deus propitius: periurus in hoc sacramento non inveniar.’ tunc mihi credidit."
+          "text": "Winning belief by taking an oath (probably third or fourth century ad): Dixit mihi, ‘Si periurus non es, iura mihi.’ et iuravi simpliciter, et non periuravi: ‘per deum optimum, per deum maximum, sic mihi sit deus propitius: periurus in hoc sacramento non inveniar.’ tunc mihi credidit."
         }
       ]
     },
@@ -88,11 +88,11 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "An unsuccessful attempt to obtain repayment of a debt (second or third century ad): m a r c u s : nonne est ille Lucius, qui meam pecuniam habet? est. accedens ergo salutabo illum. m a r c u s : ave, paterfamilias! possumne accipere meam pecuniam, quam mihi tam diu debes? l u c i u s : quid dicis? insanis! m a r c u s : faeneravi tibi pecuniam, et dicis ‘insanis?’ fraudator, nonne cognoscis me?"
+          "text": "An unsuccessful attempt to obtain repayment of a debt (second or third century ad): marcus: nonne est ille Lucius, qui meam pecuniam habet? est. accedens ergo salutabo illum. marcus: ave, paterfamilias! possumne accipere meam pecuniam, quam mihi tam diu debes? lucius: quid dicis? insanis! marcus: faeneravi tibi pecuniam, et dicis ‘insanis?’ fraudator, nonne cognoscis me?"
         },
         {
           "t": "p",
-          "text": "l u c i u s : duc te, quaere cui faeneravisti: ego enim nihil tuum habeo. m a r c u s : iura mihi. l u c i u s : iurabo ubi velis. m a r c u s : eamus. iura in templo. l u c i u s : per deum hunc, nihil mihi dedisti. m a r c u s : modo bene."
+          "text": "lucius: duc te, quaere cui faeneravisti: ego enim nihil tuum habeo. marcus: iura mihi. lucius: iurabo ubi velis. marcus: eamus. iura in templo. lucius: per deum hunc, nihil mihi dedisti. marcus: modo bene."
         }
       ]
     },

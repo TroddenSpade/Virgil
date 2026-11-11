@@ -752,7 +752,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "21 Did she say that the enemies’ the forest. camp had been without water? Colloquium Montepessulanum, 4a–g (adapted): an early-morning messenger (probably third century ad ). l u c i u s’ s l a v e : quis pulsat ostium? g a i u s’ s l a v e (outside): nuntius a Gaio ad Lucium. si hic est, nuntia me. l u c i u s’ s l a v e (to Lucius): venit a Gaio. l u c i u s : roga illum. (to Gaius’ slave) quid est, puer? omnia recte? g a i u s’ s l a v e : etiam, domine. misit tibi epistulam signatam. l u c i u s : da, legam. . . . scripsit mihi de negotio. vade, puer, et nuntia me venturum esse. (to his own slaves) date mihi calceamenta, affer aquam ad faciem, da tunicam, cinge me, da togam, operi me, da paenulam et anulos. cur stas, amice? tolle haec et veni mecum. festino ad amicum antiquum, senatorem populi Romani, qui a Romulo deducit genus, a Troianis Aeneadis.",
+          "q": "21 Did she say that the enemies’ the forest. camp had been without water? Colloquium Montepessulanum, 4a–g (adapted): an early-morning messenger (probably third century ad). lucius’ slave: quis pulsat ostium? gaius’ slave (outside): nuntius a Gaio ad Lucium. si hic est, nuntia me. lucius’ slave (to Lucius): venit a Gaio. lucius: roga illum. (to Gaius’ slave) quid est, puer? omnia recte? gaius’ slave: etiam, domine. misit tibi epistulam signatam. lucius: da, legam. . . . scripsit mihi de negotio. vade, puer, et nuntia me venturum esse. (to his own slaves) date mihi calceamenta, affer aquam ad faciem, da tunicam, cinge me, da togam, operi me, da paenulam et anulos. cur stas, amice? tolle haec et veni mecum. festino ad amicum antiquum, senatorem populi Romani, qui a Romulo deducit genus, a Troianis Aeneadis.",
           "a": ""
         }
       ],
@@ -766,27 +766,7 @@ const chapter = {
       "type": "questions",
       "items": [
         {
-          "q": "l u c i u s’ s l a v e : quis pulsat ostium?",
-          "a": ""
-        },
-        {
-          "q": "g a i u s’ s l a v e (outside): nuntius a Gaio ad Lucium.",
-          "a": ""
-        },
-        {
-          "q": "l u c i u s’ s l a v e (to Lucius): venit a Gaio.",
-          "a": ""
-        },
-        {
-          "q": "l u c i u s : roga illum.",
-          "a": ""
-        },
-        {
-          "q": "g a i u s’ s l a v e : etiam, domine.",
-          "a": ""
-        },
-        {
-          "q": "l u c i u s : da, legam.",
+          "q": "For exercises offering practice at identifying indirect statement in English sentences and distinguishing it from other constructions, with an answer key, see chapter 63.8.",
           "a": ""
         }
       ]

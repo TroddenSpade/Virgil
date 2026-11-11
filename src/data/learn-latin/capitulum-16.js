@@ -84,11 +84,7 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "22 The slave is leading the sheep 23 Slave, lead the sheep away from away from the river so that they the river so that they will not run will not run into the water. into the water! Colloquium Harleianum 6a–c (adapted): continuation of the school scene in the preceding chapter. teacher: nonne mercedem attulisti? p u p i l : petivi patrem, et dixit, ‘ego ipse ad scholam hodie veniam cum pecunia."
-        },
-        {
-          "t": "h",
-          "text": "volo enim et experimentum accipere.’"
+          "text": "22 The slave is leading the sheep 23 Slave, lead the sheep away from away from the river so that they the river so that they will not run will not run into the water. into the water! Colloquium Harleianum 6a–c (adapted): continuation of the school scene in the preceding chapter. teacher: nonne mercedem attulisti? pupil: petivi patrem, et dixit, ‘ego ipse ad scholam hodie veniam cum pecunia. volo enim et experimentum accipere.’"
         },
         {
           "t": "example",
@@ -543,6 +539,14 @@ const chapter = {
       "items": [
         {
           "q": "that he would see the soldiers.",
+          "a": ""
+        },
+        {
+          "q": "in order to buy a black horse.",
+          "a": ""
+        },
+        {
+          "q": "that he would give us money.",
           "a": ""
         },
         {

@@ -647,7 +647,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "8 Whose servant are you? Colloquium Harleianum 3a–d (adapted): a boy goes to school (perhaps first century ad ). Surge, puer: cur sedes? tolle libros Latinos, membranas et locellum et praeductal, atramentum et cannas. eamus, magistrum salutemus.",
+          "q": "8 Whose servant are you? Colloquium Harleianum 3a–d (adapted): a boy goes to school (perhaps first century ad). Surge, puer: cur sedes? tolle libros Latinos, membranas et locellum et praeductal, atramentum et cannas. eamus, magistrum salutemus.",
           "a": ""
         }
       ],

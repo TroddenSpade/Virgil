@@ -596,7 +596,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "11 Let the soldiers repair our walls in order to hinder the enemy. Colloquium Harleianum 6d–f (adapted): continuation of the school scene in the preceding chapter. teacher: age ergo diligenter, ut paratus sis. p u p i l : paratus sum; incendi enim lucernam et nocte legi. teacher: bene fecisti; te laudo.",
+          "q": "11 Let the soldiers repair our walls in order to hinder the enemy. Colloquium Harleianum 6d–f (adapted): continuation of the school scene in the preceding chapter. teacher: age ergo diligenter, ut paratus sis. pupil: paratus sum; incendi enim lucernam et nocte legi. teacher: bene fecisti; te laudo.",
           "a": ""
         }
       ],
@@ -614,19 +614,11 @@ const chapter = {
           "a": ""
         },
         {
+          "q": "14 Which soldier did he kill?",
+          "a": ""
+        },
+        {
           "q": "Colloquium Harleianum 6d–f (adapted): continuation of the school scene in the preceding chapter.",
-          "a": ""
-        },
-        {
-          "q": "teacher: age ergo diligenter, ut paratus sis.",
-          "a": ""
-        },
-        {
-          "q": "p u p i l : paratus sum; incendi enim lucernam et nocte legi.",
-          "a": ""
-        },
-        {
-          "q": "teacher: bene fecisti; te laudo.",
           "a": ""
         }
       ]

@@ -16,23 +16,19 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "Having a friend over for lunch (second or third century ad ): marcus: Gai amice, quo vadis? gaius: domum festino. cur inquisisti? marcus: si tibi suave est, hodie apud me prande. vinum bonum domesticum habemus. gaius: sic fiat. marcus: temperi ergo veni ad nos. gaius: cum me vis, mitte servum ad me; domi ero. marcus: sic fiat nobis. (to slave) tu, puer, sequere me ad macellum; aliquid emamus ad prandium. inquire, quanti piscis."
+          "text": "Having a friend over for lunch (second or third century ad): marcus: Gai amice, quo vadis? gaius: domum festino. cur inquisisti? marcus: si tibi suave est, hodie apud me prande. vinum bonum domesticum habemus. gaius: sic fiat. marcus: temperi ergo veni ad nos. gaius: cum me vis, mitte servum ad me; domi ero. marcus: sic fiat nobis. (to slave) tu, puer, sequere me ad macellum; aliquid emamus ad prandium. inquire, quanti piscis."
         },
         {
           "t": "p",
-          "text": "f i s h m o n g e r: denariis decem. marcus (having bought fish): tu, puer, refer hoc domum, ut possimus ire ad hole- rarium et emere holera, quae necessaria sunt, et poma: mora, mala Persica, pira. (to second slave) ecce habes omnia quae emimus. refer haec domum. (arriving home) vocet aliquis coquum. ubi est? slave : sursum ascendit. marcus: et quid ibi vult? descendat huc."
+          "text": "fishmonger: denariis decem. marcus (having bought fish): tu, puer, refer hoc domum, ut possimus ire ad hole- rarium et emere holera, quae necessaria sunt, et poma: mora, mala Persica, pira. (to second slave) ecce habes omnia quae emimus. refer haec domum. (arriving home) vocet aliquis coquum. ubi est? slave: sursum ascendit. marcus: et quid ibi vult? descendat huc. (to cook, when he comes) tolle haec, coque diligenter."
         },
         {
           "t": "p",
-          "text": "(to cook, when he comes) tolle haec, coque diligenter. prandium bonum fiat. (to another slave) aperi loculum et eice clavem cellarii. profer e cellario quae necessaria sunt: salem, oleum, liquamen, acetum acre, vinum album et nigrum, ligna sicca, prunam. slave : quid aliud vis? marcus: haec tantum, puer. vade ad Gaium et dic ei, ‘veni, ibi prandeamus’. vade, curre, cito fac; nihil tarde, sed velociter."
+          "text": "prandium bonum fiat. (to another slave) aperi loculum et eice clavem cellarii. profer e cellario quae necessaria sunt: salem, oleum, liquamen, acetum acre, vinum album et nigrum, ligna sicca, prunam. slave: quid aliud vis? marcus: haec tantum, puer. vade ad Gaium et dic ei, ‘veni, ibi prandeamus’. vade, curre, cito fac; nihil tarde, sed velociter. (when slave returns) fuisti apud eum? slave: fui. marcus: ubi est?"
         },
         {
           "t": "p",
-          "text": "(when slave returns) fuisti apud eum? slave : fui. marcus: ubi est? slave : domi sedet. marcus: et quid facit? slave : legit. marcus: et quid dixit? slave : amicos meos exspecto; veniunt et sequar. m a r c u s: vade iterum et dic ei, ‘omnes hic sunt’. cum eo huc veni. (to other slaves) vos interim componite diligenter vitreamina et aeramenta. sternite triclinium. s l a v e : iam stravimus. omnia parata sunt."
-        },
-        {
-          "t": "p",
-          "text": "m a r c u s: nondum venit? vade, dic ei, ‘sero nos facis prandere’. ecce adest; huc venit."
+          "text": "slave: domi sedet. marcus: et quid facit? slave: legit. marcus: et quid dixit? slave: amicos meos exspecto; veniunt et sequar. marcus: vade iterum et dic ei, ‘omnes hic sunt’. cum eo huc veni. (to other slaves) vos interim componite diligenter vitreamina et aeramenta. sternite triclinium. slave: iam stravimus. omnia parata sunt. marcus: nondum venit? vade, dic ei, ‘sero nos facis prandere’. ecce adest; huc venit."
         }
       ]
     },
@@ -44,7 +40,7 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "A schoolboy goes home for lunch with an unobservant child-minder (perhaps second or third century ad ): Dimittit nos magister; regredior domum. intro domum patris, exuo vestimenta mundiora, induo cottidiana. posco aquam ad manus. quoniam esurio, dico meo puero: ‘pone mensam et mantele et mappam, et vade ad tuam dominam, ut afferas panem et pulmentarium et vinum. dic meae matri me iterum reverti debere ad domum magistri."
+          "text": "A schoolboy goes home for lunch with an unobservant child-minder (perhaps second or third century ad): Dimittit nos magister; regredior domum. intro domum patris, exuo vestimenta mundiora, induo cottidiana. posco aquam ad manus. quoniam esurio, dico meo puero: ‘pone mensam et mantele et mappam, et vade ad tuam dominam, ut afferas panem et pulmentarium et vinum. dic meae matri me iterum reverti debere ad domum magistri."
         },
         {
           "t": "p",
@@ -371,11 +367,23 @@ const chapter = {
       "type": "questions",
       "items": [
         {
-          "q": "g a i u s: Because I had lunch at your house yesterday, have lunch at my house today.",
+          "q": "gaius: Because I had lunch at your house yesterday, have lunch at my house today.",
           "a": ""
         },
         {
-          "q": "g a i u s: You, boy, go with me to the grocer so that I will be able to buy fruits, which are necessary.",
+          "q": "marcus: Let it be thus.",
+          "a": ""
+        },
+        {
+          "q": "gaius: You, boy, go with me to the grocer so that I will be able to buy fruits, which are necessary.",
+          "a": ""
+        },
+        {
+          "q": "Carry these vegetables home.",
+          "a": ""
+        },
+        {
+          "q": "Take this fish and cook it carefully.",
           "a": ""
         },
         {

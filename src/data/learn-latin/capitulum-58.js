@@ -567,7 +567,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "1 Colloquium Montepessulanum 13b–f (adapted): shopping for clothes (probably third century ad ). Ego duco me ad vestiarium. buyer : quanti pallium? seller : centum denariis. buyer : quanti paenula? s e l l e r: ducentis denariis. buyer: multum dicis; accipe centum denarios. s e l l e r: non potest tanti; tanti constat de infertoribus. buyer: udones emam. quid dabo? s e l l e r: quod vis. buyer (to servant carrying his purse): da illi XXV denarios. eamus et ad lintearium. confer et illi. s e r v a n t (to seller): da nobis quattuor lintea. quanti omnia? s e l l e r: trecentis denariis.",
+          "q": "1 Colloquium Montepessulanum 13b–f (adapted): shopping for clothes (probably third century ad). Ego duco me ad vestiarium. buyer: quanti pallium? seller: centum denariis. buyer: quanti paenula? seller: ducentis denariis. buyer: multum dicis; accipe centum denarios. seller: non potest tanti; tanti constat de infertoribus. buyer: udones emam. quid dabo? seller: quod vis. buyer (to servant carrying his purse): da illi XXV denarios. eamus et ad lintearium. confer et illi. servant (to seller): da nobis quattuor lintea. quanti omnia? seller: trecentis denariis.",
           "a": ""
         }
       ],

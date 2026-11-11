@@ -700,7 +700,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "1 Colloquium Harleianum 22a–c and 21g–h (adapted): plans for an outing (second or third century ad). g a i u s: tertio die cursus equorum erit, et postea ludi gladiatorum. communiter ergo spectemus et sic lavemur, cum dimittunt spectacula. l u c i u s: quomodo vis. g a i u s: frater autem meus excusavit; heri enim in balneo rixam fecit, coactus ab amicis ebriis, et procedere non potest, quia confunditur.",
+          "q": "1 Colloquium Harleianum 22a–c and 21g–h (adapted): plans for an outing (second or third century ad). gaius: tertio die cursus equorum erit, et postea ludi gladiatorum. communiter ergo spectemus et sic lavemur, cum dimittunt spectacula. lucius: quomodo vis. gaius: frater autem meus excusavit; heri enim in balneo rixam fecit, coactus ab amicis ebriis, et procedere non potest, quia confunditur.",
           "a": ""
         }
       ],
@@ -723,18 +723,6 @@ const chapter = {
         },
         {
           "q": "the walls of the town, the citizens 17 (When they are) about to write sought stones.",
-          "a": ""
-        },
-        {
-          "q": "g a i u s: tertio die cursus equorum erit, et postea ludi gladiatorum.",
-          "a": ""
-        },
-        {
-          "q": "communiter l u c i u s: quomodo vis.",
-          "a": ""
-        },
-        {
-          "q": "g a i u s: frater autem meus excusavit; heri enim in balneo rixam fecit, coactus ab",
           "a": ""
         }
       ]

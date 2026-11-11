@@ -619,7 +619,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "1 Colloquium Harleianum 8a–9d (adapted): a boy refutes an accusation of truancy (perhaps first century ad). school o fficial : heri cessabas et meridie domi ludebas. quaesivi te et audivi omnia quae fecisti a nutrice tua. boy : mentitur qui illud tibi dixit! duxit enim me pater secum in praetorium. salutatus est a magistratibus et epistulas accepit a domino meo imperatore; et statim ascendit in templum et immolavit pro aeterna victoria imperatoris.",
+          "q": "1 Colloquium Harleianum 8a–9d (adapted): a boy refutes an accusation of truancy (perhaps first century ad). school official: heri cessabas et meridie domi ludebas. quaesivi te et audivi omnia quae fecisti a nutrice tua. boy: mentitur qui illud tibi dixit! duxit enim me pater secum in praetorium. salutatus est a magistratibus et epistulas accepit a domino meo imperatore; et statim ascendit in templum et immolavit pro aeterna victoria imperatoris.",
           "a": ""
         }
       ],

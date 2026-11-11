@@ -20,15 +20,15 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "son : bene me admonuisti: venter me cogit. nunc eamus. father (to son, on arriving at changing rooms): exspolia te, (to slave) discalcea me, compone vestimenta, cooperi, serva bene, noli obdormire propter fures. (to son) rape nobis pilam; ludamus in sphaeristerio. son : exercere volo in ceromate. veni luctemur uno momento. father: nescio num possim; olim enim cessavi luctari. tamen temptabo num possim."
+          "text": "son: bene me admonuisti: venter me cogit. nunc eamus. father (to son, on arriving at changing rooms): exspolia te, (to slave) discalcea me, compone vestimenta, cooperi, serva bene, noli obdormire propter fures. (to son) rape nobis pilam; ludamus in sphaeristerio. son: exercere volo in ceromate. veni luctemur uno momento. father: nescio num possim; olim enim cessavi luctari. tamen temptabo num possim."
         },
         {
           "t": "p",
-          "text": "(shortly afterwards) leviter fatigatus sum. introeamus in cellam primam, tepidarium. da balneatori nummos; recipe reliquum. (once in the tepidarium) unge te. son : unxi me. father (sceptically): unxistine te? son : ungo me. father: frica. (later) veni ad sudatorium. sudas? son : sudo; lassus sum. introeamus ad solium. father: descende. son : utamur assis et sic descendamus ad solium. father: descende, fomenta me. exi iam."
+          "text": "(shortly afterwards) leviter fatigatus sum. introeamus in cellam primam, tepidarium. da balneatori nummos; recipe reliquum. (once in the tepidarium) unge te. son: unxi me. father (sceptically): unxistine te? son: ungo me. father: frica. (later) veni ad sudatorium. sudas? son: sudo; lassus sum. introeamus ad solium. father: descende. son: utamur assis et sic descendamus ad solium. father: descende, fomenta me. exi iam."
         },
         {
           "t": "p",
-          "text": "mitte te in piscinam subdivalem. nata. son : natavi. father accede ad luterem, perfunde te. son : perfudi, resumpsi. porrige strigilem. father (back in changing room, to slaves): deterge me. cinge sabana. terge caput meum et pedes. da mihi caligulas, calcea me. porrige mihi dalmaticam et pallium. colligite vestimenta et omnia nostra. sequimini nos domum, et emite nobis minutalia et lupinos et fabas acetatas."
+          "text": "mitte te in piscinam subdivalem. nata. son: natavi. father accede ad luterem, perfunde te. son: perfudi, resumpsi. porrige strigilem. father (back in changing room, to slaves): deterge me. cinge sabana. terge caput meum et pedes. da mihi caligulas, calcea me. porrige mihi dalmaticam et pallium. colligite vestimenta et omnia nostra. sequimini nos domum, et emite nobis minutalia et lupinos et fabas acetatas."
         },
         {
           "t": "p",
@@ -271,7 +271,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "son : To the public baths or to the private one?",
+          "q": "son: To the public baths or to the private one?",
           "a": ""
         },
         {
@@ -283,7 +283,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "son : Why did we leave Rome and come to London?",
+          "q": "son: Why did we leave Rome and come to London?",
           "a": ""
         },
         {

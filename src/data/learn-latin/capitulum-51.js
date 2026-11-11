@@ -613,7 +613,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "53 bc ). Tullius Tironi salutem dicit. omnia a te data esse mihi putabo, si te valentem videro. summa cura exspectabam adventum Andrici, quem ad te miseram. si me diligis, cura ut valeas et ad nos venias cum te bene confirmaris. vale.",
+          "q": "53 bc). Tullius Tironi salutem dicit. omnia a te data esse mihi putabo, si te valentem videro. summa cura exspectabam adventum Andrici, quem ad te miseram. si me diligis, cura ut valeas et ad nos venias cum te bene confirmaris. vale.",
           "a": ""
         }
       ],
@@ -672,6 +672,10 @@ const chapter = {
         },
         {
           "q": "would undoubtedly have a good country unless you are prepared reason.",
+          "a": ""
+        },
+        {
+          "q": "to do a lot of paperwork.",
           "a": ""
         },
         {

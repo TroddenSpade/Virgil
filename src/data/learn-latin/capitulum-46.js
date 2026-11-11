@@ -327,7 +327,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "46 bc ). Dionysius, servus meus, qui meam bibliothecam pretiosam tractavit, cum multos libros surripuisset nec se impune laturum esse putaret, aufugit. is est in provincia tua. eum et Marcus Bolanus, familiaris meus, et multi alii Naronae viderunt. . . . hunc tu si mihi restituendum curaris, non possum dicere, quam mihi gratum futurum sit.",
+          "q": "46 bc). Dionysius, servus meus, qui meam bibliothecam pretiosam tractavit, cum multos libros surripuisset nec se impune laturum esse putaret, aufugit. is est in provincia tua. eum et Marcus Bolanus, familiaris meus, et multi alii Naronae viderunt. . . . hunc tu si mihi restituendum curaris, non possum dicere, quam mihi gratum futurum sit.",
           "a": ""
         }
       ],

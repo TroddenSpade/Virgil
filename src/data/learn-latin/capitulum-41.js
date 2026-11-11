@@ -88,7 +88,7 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "3 Terence, Heauton timorumenos 322–6: advice for a young man in love (second century bc ). Vis amare, vis potiri, vis quod des illi effici; tuum esse in potiundo periclum non vis: haud stulte sapis, siquidem id sapere est, velle te id quod non potest contingere. aut haec cum illis sunt habenda, aut illa cum his mittenda sunt. harum duarum condicionum nunc utram malis vide."
+          "text": "3 Terence, Heauton timorumenos 322–6: advice for a young man in love (second century bc). Vis amare, vis potiri, vis quod des illi effici; tuum esse in potiundo periclum non vis: haud stulte sapis, siquidem id sapere est, velle te id quod non potest contingere. aut haec cum illis sunt habenda, aut illa cum his mittenda sunt. harum duarum condicionum nunc utram malis vide."
         },
         {
           "t": "example",
@@ -678,7 +678,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "7 (adapted): a youth complains of his father’s treatment of him (second century bc ). Nam quid ego dicam de patre? tantam rem tam neglegenter agit! praeteriens modo mihi in foro dixit ‘uxor tibi ducenda est, Pamphile, hodie: para, abi domum.’ visus est mihi dicere ‘abi cito et suspende te.’ obstupui. arbitrarisne me verbum potuisse ullum loqui? aut ullam causam, ineptam saltem falsam iniquam? obmutui.",
+          "q": "7 (adapted): a youth complains of his father’s treatment of him (second century bc). Nam quid ego dicam de patre? tantam rem tam neglegenter agit! praeteriens modo mihi in foro dixit ‘uxor tibi ducenda est, Pamphile, hodie: para, abi domum.’ visus est mihi dicere ‘abi cito et suspende te.’ obstupui. arbitrarisne me verbum potuisse ullum loqui? aut ullam causam, ineptam saltem falsam iniquam? obmutui.",
           "a": ""
         }
       ],

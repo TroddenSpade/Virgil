@@ -20,11 +20,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "gaius: ecce ianitor; interroga illum num possimus intrare et videre amicum nostrum. por ter : quem petitis? marcus: dominum tuum Lucium; de salute eius venimus. por ter : ascendite. marcus: quot scalas? por ter : duas; ad dextram portam pulsate. marcus: pulsemus. vide, quis est? slave (opening door): avete omnes. marcus: dominum tuum volumus visitare. si vigilat, nuntia nos. slave : non est hic. marcus: quid dicis? sed ubi est?"
+          "text": "gaius: ecce ianitor; interroga illum num possimus intrare et videre amicum nostrum. porter: quem petitis? marcus: dominum tuum Lucium; de salute eius venimus. porter: ascendite. marcus: quot scalas? porter: duas; ad dextram portam pulsate. marcus: pulsemus. vide, quis est? slave (opening door): avete omnes. marcus: dominum tuum volumus visitare. si vigilat, nuntia nos. slave: non est hic. marcus: quid dicis? sed ubi est?"
         },
         {
           "t": "p",
-          "text": "slave : descendit ad lauretum ut ambularet. marcus: gratulamur illi. cum venerit, dic illi nos ad eum venisse de salute eius gratulantes, quia omnia bona sunt. slave : sic faciam."
+          "text": "slave: descendit ad lauretum ut ambularet. marcus: gratulamur illi. cum venerit, dic illi nos ad eum venisse de salute eius gratulantes, quia omnia bona sunt. slave: sic faciam."
         }
       ]
     },
@@ -36,11 +36,11 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "A very unrealistic representation of how a lawyer finds a job (perhaps third century ad). Because many people who learned Latin did so in order to become lawyers, ancient Latin teachers painted a rosy picture of the life of a lawyer in an effort to encourage people to study Latin. r i c h f r i en d : domine, salve. l a w y e r: salvus sis semper, amice. r i c h f r i en d : quomodo sunt res tuae? omnia bene?"
+          "text": "A very unrealistic representation of how a lawyer finds a job (perhaps third century ad). Because many people who learned Latin did so in order to become lawyers, ancient Latin teachers painted a rosy picture of the life of a lawyer in an effort to encourage people to study Latin. rich friend: domine, salve. lawyer: salvus sis semper, amice. rich friend: quomodo sunt res tuae? omnia bene? lawyer: quomodo dei volunt."
         },
         {
           "t": "p",
-          "text": "l a w y e r: quomodo dei volunt. r i c h f r i en d : quid nunc agis? l a w y e r: agebam, nunc autem vacat mihi. r i c h f r i en d : volo tibi iniungere administrationem meae actionis. eamus; ambula et ego tibi dabo quod agas. omnium enim bonorum dignus es."
+          "text": "rich friend: quid nunc agis? lawyer: agebam, nunc autem vacat mihi. rich friend: volo tibi iniungere administrationem meae actionis. eamus; ambula et ego tibi dabo quod agas. omnium enim bonorum dignus es."
         }
       ]
     }
@@ -213,6 +213,14 @@ const chapter = {
       "type": "questions",
       "items": [
         {
+          "q": "marcus: Come with me in order to see Lucius.",
+          "a": ""
+        },
+        {
+          "q": "marcus: He lives here; this is his house.",
+          "a": ""
+        },
+        {
           "q": "gaius: Let’s knock on the door.",
           "a": ""
         },
@@ -226,6 +234,10 @@ const chapter = {
         },
         {
           "q": "We have heard that our friend Lucius is ill and we want to see him: is he awake?",
+          "a": ""
+        },
+        {
+          "q": "porter: Lucius does not live here; my master’s name is Titus.",
           "a": ""
         }
       ]

@@ -56,27 +56,27 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "Giving a dinner party (second or third century ad): (As the guests gather in the library before dinner) l u c i u s (to slaves): date hic cathedras, sellas, cervicalia. (to Gaius) sede. g a i u s : sedeo. l u c i u s (to Quintus): cur stas? (to slaves) lava calicem et vinum aqua calida tempera; valde enim sitio. misce omnibus. (to guests) quis quid vult? conditum aut carenum?"
+          "text": "Giving a dinner party (second or third century ad): (As the guests gather in the library before dinner) lucius (to slaves): date hic cathedras, sellas, cervicalia. (to Gaius) sede. gaius: sedeo. lucius (to Quintus): cur stas? (to slaves) lava calicem et vinum aqua calida tempera; valde enim sitio. misce omnibus. (to guests) quis quid vult? conditum aut carenum? (to slave, after getting an answer from a guest) illud ei misce."
         },
         {
           "t": "p",
-          "text": "(to slave, after getting an answer from a guest) illud ei misce. (to Gaius) tu, quid vis? (to slave) lava calicem. g a i u s : misce mihi calidum, noli miscere ferventem neque tepidum, sed temperatum. (after tasting it) mitte aquam. (after tasting it again) adice merum. (As the guests move into the dining room) l u c i u s: cur statis? sedete, si vultis. g a i u s: discumbamus. ubi imperas ut discumbam?"
+          "text": "(to Gaius) tu, quid vis? (to slave) lava calicem. gaius: misce mihi calidum, noli miscere ferventem neque tepidum, sed temperatum. (after tasting it) mitte aquam. (after tasting it again) adice merum. (As the guests move into the dining room) lucius: cur statis? sedete, si vultis. gaius: discumbamus. ubi imperas ut discumbam? lucius: in primo loco discumbe. (to slaves) date nobis liquamen. da nobis malvas ferventes."
         },
         {
           "t": "p",
-          "text": "l u c i u s: in primo loco discumbe. (to slaves) date nobis liquamen. da nobis malvas ferventes. porrige mihi mappam. mitte impensam in acetabulum. partire ungellas. concide aqualiculum et chordam ex aqua. da ficatum tenerum, turdos, lactucas. unus vestrum panem frangat et in canistellum inferat. (to guests) cenate. (to slaves) da sardinas, cymam cum liquamine, rapatum, gallinam assam, porcellum assum."
+          "text": "porrige mihi mappam. mitte impensam in acetabulum. partire ungellas. concide aqualiculum et chordam ex aqua. da ficatum tenerum, turdos, lactucas. unus vestrum panem frangat et in canistellum inferat. (to guests) cenate. (to slaves) da sardinas, cymam cum liquamine, rapatum, gallinam assam, porcellum assum. pone discum cum radicibus, menta, olivis albis et caseo salso, fungis."
         },
         {
           "t": "p",
-          "text": "pone discum cum radicibus, menta, olivis albis et caseo salso, fungis. (to stewards, after all the guests have been fed) ministrantibus et coquo date cenam; et date bellaria, quia bene ministraverunt. date nobis aquam manibus. (in preparation for the last part of the evening) terge mensam. da calicem, da merum. g a i u s: bibamus aquam de gillone. q ui nt u s: misce calidum. s l a v e : in maiore calice? q ui nt u s: in minore."
+          "text": "(to stewards, after all the guests have been fed) ministrantibus et coquo date cenam; et date bellaria, quia bene ministraverunt. date nobis aquam manibus. (in preparation for the last part of the evening) terge mensam. da calicem, da merum. gaius: bibamus aquam de gillone. quintus: misce calidum. slave: in maiore calice? quintus: in minore. slave: libenter. quintus (to Lucius): si mihi permittis, propino tibi; bene accipis?"
         },
         {
           "t": "p",
-          "text": "s l a v e : libenter. q ui nt u s (to Lucius): si mihi permittis, propino tibi; bene accipis? l u c i u s: a te, libenter. (to Marcus) cur non bibis? bibe, Marce. m a r c u s: rogavi et nemo mihi dedit. gaius: sufficit nobis. nunc eamus. (to slave) accende lampadem. slave : accipe. gaius (to Lucius): bene nos accepisti. (After guests have left) lucius (to slave): puer, veni. collige haec omnia et suis locis repone."
+          "text": "lucius: a te, libenter. (to Marcus) cur non bibis? bibe, Marce. marcus: rogavi et nemo mihi dedit. gaius: sufficit nobis. nunc eamus. (to slave) accende lampadem. slave: accipe. gaius (to Lucius): bene nos accepisti. (After guests have left) lucius (to slave): puer, veni. collige haec omnia et suis locis repone. diligenter sterne lectum. slaves: stravimus. lucius: cur igitur durus est?"
         },
         {
           "t": "p",
-          "text": "diligenter sterne lectum. slaves: stravimus. lucius: cur igitur durus est? slaves: excussimus et pulvinum commollivimus. lucius: si cuius vocem audiero, non ei parcam. recipite vos, dormite et galli cantu excitate me, ut excurram."
+          "text": "slaves: excussimus et pulvinum commollivimus. lucius: si cuius vocem audiero, non ei parcam. recipite vos, dormite et galli cantu excitate me, ut excurram."
         }
       ]
     },
@@ -388,11 +388,11 @@ const chapter = {
       "type": "questions",
       "items": [
         {
-          "q": "g a i u s: Lucius, we dined very well yesterday; you received us well.",
+          "q": "gaius: Lucius, we dined very well yesterday; you received us well.",
           "a": ""
         },
         {
-          "q": "l u c i u s: I give you thanks.",
+          "q": "lucius: I give you thanks.",
           "a": ""
         },
         {
@@ -408,7 +408,11 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "l u c i u s: But Marcus had nothing; he asked and no-one gave (anything) to him.",
+          "q": "If your cook is a slave, free him!",
+          "a": ""
+        },
+        {
+          "q": "lucius: But Marcus had nothing; he asked and no-one gave (anything) to him.",
           "a": ""
         },
         {

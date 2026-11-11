@@ -55,8 +55,37 @@ const chapter = {
           "text": "A Latin verb can appear in the first person (indicating a subject ‘I’ or ‘we’), second person (subject ‘you’), or third person (subject ‘he’, ‘she’, ‘it’, ‘they’ or almost any other word); and it can be singular (indicating just one subject) or plural (more than one subject, or a subject composed of multiple individuals)."
         },
         {
-          "t": "example",
-          "text": "Regō ‘rule’ (present active indicative) Dūcō ‘lead’ (present active indicative) regō ‘I rule’\ndūcō ‘I lead’\nregis ‘you (singular) rule’\ndūcis ‘you (singular) lead’\nregit ‘he rules’, ‘she rules’, ‘it rules’, dūcit ‘he leads’, ‘she leads’, ‘it ‘rules’ leads’, ‘leads’\nregimus ‘we rule’\ndūcimus ‘we lead’\nregitis ‘you (plural) rule’\ndūcitis ‘you (plural) lead’\nregunt ‘they rule’, ‘rule’\ndūcunt ‘they lead’, ‘lead’ These two verbs, and many others like them, have the same endings as each other (-ō, -is, -it, -imus, -itis, -unt): once you know how one of them conjugates (takes different endings), you can also conjugate (put the endings on) the other."
+          "t": "table",
+          "rows": [
+            [
+              "Regō ‘rule’",
+              "Dūcō ‘lead’"
+            ],
+            [
+              "regō ‘I rule’",
+              "dūcō ‘I lead’"
+            ],
+            [
+              "regis ‘you (singular) rule’",
+              "dūcis ‘you (singular) lead’"
+            ],
+            [
+              "regit ‘he rules’, ‘she rules’, ‘it rules’",
+              "dūcit ‘he leads’, ‘she leads’, ‘it leads’"
+            ],
+            [
+              "regimus ‘we rule’",
+              "dūcimus ‘we lead’"
+            ],
+            [
+              "regitis ‘you (plural) rule’",
+              "dūcitis ‘you (plural) lead’"
+            ],
+            [
+              "regunt ‘they rule’, ‘rule’",
+              "dūcunt ‘they lead’, ‘lead’"
+            ]
+          ]
         },
         {
           "t": "p",
@@ -87,8 +116,33 @@ const chapter = {
           "text": "Therefore a more complete list of the English translations of the regō paradigm for the present active indicative would be"
         },
         {
-          "t": "example",
-          "text": "regō ‘I rule’, ‘I am ruling’, ‘I do rule’\nregis ‘you (singular) rule’, ‘you (singular) are ruling’, ‘you (singular) do rule’\nregit ‘he/she/it rules’, ‘he/she/it is ruling’, ‘he/she/it does rule’, ‘rules’, ‘is ruling’, ‘does rule’\nregimus ‘we rule’, ‘we are ruling’, ‘we do rule’\nregitis ‘you (plural) rule’, ‘you (plural) are ruling’, ‘you (plural) do rule’\nregunt ‘they rule’, ‘they are ruling’, ‘they do rule’, ‘rule’, ‘are ruling’, ‘do rule’"
+          "t": "table",
+          "rows": [
+            [
+              "regō",
+              "‘I rule’, ‘I am ruling’, ‘I do rule’"
+            ],
+            [
+              "regis",
+              "‘you (singular) rule’, ‘you (singular) are ruling’, ‘you (singular) do rule’"
+            ],
+            [
+              "regit",
+              "‘he/she/it rules’, ‘he/she/it is ruling’, ‘he/she/it does rule’, ‘rules’, ‘is ruling’, ‘does rule’"
+            ],
+            [
+              "regimus",
+              "‘we rule’, ‘we are ruling’, ‘we do rule’"
+            ],
+            [
+              "regitis",
+              "‘you (plural) rule’, ‘you (plural) are ruling’, ‘you (plural) do rule’"
+            ],
+            [
+              "regunt",
+              "‘they rule’, ‘they are ruling’, ‘they do rule’, ‘rule’, ‘are ruling’, ‘do rule’"
+            ]
+          ]
         }
       ]
     },

@@ -608,28 +608,11 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "1 Colloquium Harleianum 4a–e (adapted): continuation of the school scene in the preceding chapter. p u p i l : ave, domine magister, bene tibi sit. ab hodie studere volo. rogo te ergo, doce me Latine loqui. t e a c he r: docebo te, si me attendes. p u p i l : ecce, attendo. t e a c he r: bene dixisti, ut decet ingenuitatem tuam.",
+          "q": "1 Colloquium Harleianum 4a–e (adapted): continuation of the school scene in the preceding chapter. pupil: ave, domine magister, bene tibi sit. ab hodie studere volo. rogo te ergo, doce me Latine loqui. teacher: docebo te, si me attendes. pupil: ecce, attendo. teacher: bene dixisti, ut decet ingenuitatem tuam.",
           "a": ""
         }
       ],
       "id": "practice-14-d"
-    },
-    {
-      "id": "translate-14",
-      "latinLabel": "TRANSLATE INTO LATIN",
-      "title": "Translate into Latin",
-      "instruction": "",
-      "type": "questions",
-      "items": [
-        {
-          "q": "p u p i l : ave, domine magister, bene tibi sit.",
-          "a": ""
-        },
-        {
-          "q": "p u p i l : ecce, attendo.",
-          "a": ""
-        }
-      ]
     }
   ]
 }

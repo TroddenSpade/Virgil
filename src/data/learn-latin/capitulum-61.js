@@ -671,7 +671,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "19 (adapted): how to find out which bricks are strongest (first century bc ). De ipsa autem testa, utrum sit optima an vitiosa ad structuram, statim nemo potest iudicare, sed postquam in tempestatibus et aestate in tecto collocata est, tunc, si est firma, probatur; nam testa quae non erit facta ex creta bona aut parum erit cocta, ibi se ostendet esse vitiosam gelis et pruina tacta. ergo testa quae non in tectis potest pati laborem, ea non potest in structurae oneri ferendo esse firma. maxime igitur ex veteribus tegulis structa tecta et ex vetere testa structi parietes firmitatem poterunt habere.",
+          "q": "19 (adapted): how to find out which bricks are strongest (first century bc). De ipsa autem testa, utrum sit optima an vitiosa ad structuram, statim nemo potest iudicare, sed postquam in tempestatibus et aestate in tecto collocata est, tunc, si est firma, probatur; nam testa quae non erit facta ex creta bona aut parum erit cocta, ibi se ostendet esse vitiosam gelis et pruina tacta. ergo testa quae non in tectis potest pati laborem, ea non potest in structurae oneri ferendo esse firma. maxime igitur ex veteribus tegulis structa tecta et ex vetere testa structi parietes firmitatem poterunt habere.",
           "a": ""
         }
       ],

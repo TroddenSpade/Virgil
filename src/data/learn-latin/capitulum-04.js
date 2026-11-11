@@ -63,8 +63,33 @@ const chapter = {
           "text": "The perfect is the basic past tense in Latin. To form it, you start with the third principal part, drop the -ī, and to the resulting stem (in the case of our paradigm verb this stem is rēx-) add the endings -ī, -istī, -it, -imus, -istis, -ērunt."
         },
         {
-          "t": "example",
-          "text": "rēxī ‘I ruled’, ‘I have ruled’, ‘I did rule’\nrēxistī ‘you (singular) ruled’, ‘you (singular) have ruled’, ‘you (singular) did rule’\nrēxit ‘he/she/it ruled’, ‘he/she/it has ruled’, ‘he/she/it did rule’, ‘ruled’, ‘has ruled’, ‘did rule’\nrēximus ‘we ruled’, ‘we have ruled’, ‘we did rule’\nrēxistis ‘you (plural) ruled’, ‘you (plural) have ruled’, ‘you (plural) did rule’\nrēxērunt ‘they ruled’, ‘they have ruled’, ‘they did rule’, ‘ruled’, ‘have ruled’, ‘did rule’ There is an alternative form rēxēre in the third person plural: writers may use either rēxērunt or rēxēre."
+          "t": "table",
+          "rows": [
+            [
+              "rēxī",
+              "‘I ruled’, ‘I have ruled’, ‘I did rule’"
+            ],
+            [
+              "rēxistī",
+              "‘you (singular) ruled’, ‘you (singular) have ruled’, ‘you (singular) did rule’"
+            ],
+            [
+              "rēxit",
+              "‘he/she/it ruled’, ‘he/she/it has ruled’, ‘he/she/it did rule’, ‘ruled’, ‘has ruled’, ‘did rule’"
+            ],
+            [
+              "rēximus",
+              "‘we ruled’, ‘we have ruled’, ‘we did rule’"
+            ],
+            [
+              "rēxistis",
+              "‘you (plural) ruled’, ‘you (plural) have ruled’, ‘you (plural) did rule’"
+            ],
+            [
+              "rēxērunt",
+              "‘they ruled’, ‘they have ruled’, ‘they did rule’, ‘ruled’, ‘have ruled’, ‘did rule’ There is an alternative form rēxēre in the third person plural: writers may use either rēxērunt or rēxēre."
+            ]
+          ]
         },
         {
           "t": "p",

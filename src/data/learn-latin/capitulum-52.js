@@ -462,7 +462,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "1 Corpus Inscriptionum Latinarum iv.8364 (adapted): graffiti from the walls of Pompeii (first century ad ). Secundus Primae suae ubique ipse salutem dicit. rogo, domina, ut me ames.",
+          "q": "1 Corpus Inscriptionum Latinarum iv.8364 (adapted): graffiti from the walls of Pompeii (first century ad). Secundus Primae suae ubique ipse salutem dicit. rogo, domina, ut me ames.",
           "a": ""
         }
       ],

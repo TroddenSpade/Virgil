@@ -136,11 +136,11 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "When Romans used signs for numbers rather than writing out the names of the numbers, they used Roman numerals. I 1 IX or VIIII 9 XVII 17 II 2 X 10 XVIII 18 III 3 XI 11 XIX or XVIIII 19 IV or IIII 4 XII 12 XX 20 V 5 XIII 13 XXX 30 VI 6 XIV or XIIII 14 XL 40 VII 7 XV 15 L 50 VIII 8 XVI 16 C 100 These numerals are strung together in order from largest to smallest. Thus 236 is c cx x x v i, and 349 is cccxlix ."
+          "text": "When Romans used signs for numbers rather than writing out the names of the numbers, they used Roman numerals. I 1 IX or VIIII 9 XVII 17 II 2 X 10 XVIII 18 III 3 XI 11 XIX or XVIIII 19 IV or IIII 4 XII 12 XX 20 V 5 XIII 13 XXX 30 VI 6 XIV or XIIII 14 XL 40 VII 7 XV 15 L 50 VIII 8 XVI 16 C 100 These numerals are strung together in order from largest to smallest. Thus 236 is ccxxxvi, and 349 is cccxlix."
         },
         {
           "t": "p",
-          "text": "1 Corpus Inscriptionum Latinarum iv .3881, 1190, 7994, and 3884 (all adapted): signs advertising gladiatorial shows, from the walls of Pompeii (first century ad ). Gladiatorum paria XX Quinti Monni Rufi pugnabunt Nolae Kalendis Maiis, et venatio erit. Auli Suetti Certi aedilis familia gladiatoria pugnabit Pompeis pridie Kalendas Iunias; venatio et vela erunt."
+          "text": "1 Corpus Inscriptionum Latinarum iv .3881, 1190, 7994, and 3884 (all adapted): signs advertising gladiatorial shows, from the walls of Pompeii (first century ad). Gladiatorum paria XX Quinti Monni Rufi pugnabunt Nolae Kalendis Maiis, et venatio erit. Auli Suetti Certi aedilis familia gladiatoria pugnabit Pompeis pridie Kalendas Iunias; venatio et vela erunt."
         },
         {
           "t": "p",

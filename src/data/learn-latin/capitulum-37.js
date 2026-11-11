@@ -405,7 +405,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "44 bc ). Cicero filius Tironi suo salutem dicit. etsi iusta et idonea usus es excusatione intermissionis epistularum tuarum, tamen id ne saepius facias rogo. nam etsi de re publica rumoribus et nuntiis certior fio, et semper ad me perscribit pater, tamen de quavis minima re scripta a te ad me epistula semper fuit gratissima. quare cum in primis tuas desiderem epistulas, noli committere, ut excusatione potius expleas officium scribendi, quam assiduitate epistularum. vale.",
+          "q": "44 bc). Cicero filius Tironi suo salutem dicit. etsi iusta et idonea usus es excusatione intermissionis epistularum tuarum, tamen id ne saepius facias rogo. nam etsi de re publica rumoribus et nuntiis certior fio, et semper ad me perscribit pater, tamen de quavis minima re scripta a te ad me epistula semper fuit gratissima. quare cum in primis tuas desiderem epistulas, noli committere, ut excusatione potius expleas officium scribendi, quam assiduitate epistularum. vale.",
           "a": ""
         }
       ],
@@ -420,6 +420,10 @@ const chapter = {
       "items": [
         {
           "q": "the Roman senate rather than to 9 My brother will prefer to stay in the Greeks.",
+          "a": ""
+        },
+        {
+          "q": "Delphi for a few days.",
           "a": ""
         },
         {

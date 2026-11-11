@@ -578,7 +578,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "1 Colloquium Celtis 66c–68b (adapted): coming home to a scolding after a party (probably second or third century ad ). wife: itane decet sapientem patremfamilias, qui aliis consilia dat, se regere? non potest turpius nec ignominiosius agere quam heri egisti. husband: me certe valde pudet. wife: quid dicunt alii in absentia tua? infamiam maximam tibi cumulavisti. rogo te ne postea talia facias. husband: nescio quid dicam; ita enim perturbatus sum ut rationem nulli possim reddere.",
+          "q": "1 Colloquium Celtis 66c–68b (adapted): coming home to a scolding after a party (probably second or third century ad). wife: itane decet sapientem patremfamilias, qui aliis consilia dat, se regere? non potest turpius nec ignominiosius agere quam heri egisti. husband: me certe valde pudet. wife: quid dicunt alii in absentia tua? infamiam maximam tibi cumulavisti. rogo te ne postea talia facias. husband: nescio quid dicam; ita enim perturbatus sum ut rationem nulli possim reddere.",
           "a": ""
         }
       ],

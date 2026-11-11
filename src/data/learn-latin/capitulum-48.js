@@ -16,19 +16,19 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "Winning a court case (second or third century ad): l u c i u s : ave, Gai. g a i u s : bene valeas, Luci. l u c i u s : quid agis? g a i u s : omnia recte se habent. quomodo te habes? l u c i u s : gratulor tibi sicut mihi. sed iudicium habeo. g a i u s : ad quem? ad quaestorem? l u c i u s : non ibi. g a i u s : sed ubi? ad proconsulem? l u c i u s : ibi. g a i u s : quale est ipsa res?"
+          "text": "Winning a court case (second or third century ad): lucius: ave, Gai. gaius: bene valeas, Luci. lucius: quid agis? gaius: omnia recte se habent. quomodo te habes? lucius: gratulor tibi sicut mihi. sed iudicium habeo. gaius: ad quem? ad quaestorem? lucius: non ibi. gaius: sed ubi? ad proconsulem? lucius: ibi. gaius: quale est ipsa res? lucius: non valde magnum; est enim pecuniarium, ut omne videas."
         },
         {
           "t": "p",
-          "text": "l u c i u s : non valde magnum; est enim pecuniarium, ut omne videas. si vacat tibi, veni nobiscum; iudices diem nobis dederunt, quae hodie est, et sententia dicetur. quare volo te praesente de causa cum advocatis tractare. g a i u s : adhibuistine advocatos? l u c i u s : adhibui. g a i u s : quos? l u c i u s : tuos amicos. g a i u s : bene fecisti. constituistine? circa quam horam? in quo loco?"
+          "text": "si vacat tibi, veni nobiscum; iudices diem nobis dederunt, quae hodie est, et sententia dicetur. quare volo te praesente de causa cum advocatis tractare. gaius: adhibuistine advocatos? lucius: adhibui. gaius: quos? lucius: tuos amicos. gaius: bene fecisti. constituistine? circa quam horam? in quo loco? lucius: in foro, in porticu, iuxta stoam Victoriae. gaius: post modicum ad te veniam. lucius: sed rogo ut hoc in mente habeas."
         },
         {
           "t": "p",
-          "text": "l u c i u s : in foro, in porticu, iuxta stoam Victoriae. g a i u s : post modicum ad te veniam. l u c i u s : sed rogo ut hoc in mente habeas. g a i u s : securus esto; mihi pertinet. l u c i u s (to son): eamus nos ad nummularium; accipiamus ab eo denarios centum; demus eos causidico et advocatis et iuris peritis, ut quam optime defendant nos. hic est. accipe ab eo denarios et sequere."
+          "text": "gaius: securus esto; mihi pertinet. lucius (to son): eamus nos ad nummularium; accipiamus ab eo denarios centum; demus eos causidico et advocatis et iuris peritis, ut quam optime defendant nos. hic est. accipe ab eo denarios et sequere. (on arrival at court) sicut constituimus, adest Gaius. convocemus eum in consilium. hic habemus instrumenta. gaius: denuntiavistine illi? lucius: denuntiavi. gaius: testatusne es?"
         },
         {
           "t": "p",
-          "text": "(on arrival at court) sicut constituimus, adest Gaius. convocemus eum in consilium. hic habemus instrumenta. g a i u s : denuntiavistine illi? l u c i u s : denuntiavi. g a i u s : testatusne es? l u c i u s : testatus sum. tacete, audiamus sententiam. audivistine nos vicisse, Gai?"
+          "text": "lucius: testatus sum. tacete, audiamus sententiam. audivistine nos vicisse, Gai?"
         }
       ]
     },
@@ -40,7 +40,7 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "g a i u s : He did (Latin ‘he bought’), although he has no money, and now that house will have to be given to his creditors, provided that the judge is wise. But I must not say such things, for he is my friend. When he loses his house, he will have to live with me. l u c i u s : You are a good friend; therefore it is fitting for you to be praised."
+          "text": "gaius: He did (Latin ‘he bought’), although he has no money, and now that house will have to be given to his creditors, provided that the judge is wise. But I must not say such things, for he is my friend. When he loses his house, he will have to live with me. lucius: You are a good friend; therefore it is fitting for you to be praised."
         },
         {
           "t": "h",
@@ -234,6 +234,10 @@ const chapter = {
       "type": "questions",
       "items": [
         {
+          "q": "gaius: Hello, Lucius.",
+          "a": ""
+        },
+        {
           "q": "lucius: How are you doing, Gaius?",
           "a": ""
         },
@@ -243,6 +247,10 @@ const chapter = {
         },
         {
           "q": "gaius: He has a court case before the quaestor, since he owes many denarii.",
+          "a": ""
+        },
+        {
+          "q": "lucius: But Marcus bought a new house yesterday.",
           "a": ""
         }
       ]

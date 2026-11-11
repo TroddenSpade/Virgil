@@ -602,7 +602,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "48 bc . Three verbs (scrīberem, sint, sim affectus) are subjunctive for reasons we have not yet discussed; the first can be translated ‘I might write’ and the second two with indicatives. Tullius Terentiae suae salutem dicit. si vales bene est; ego valeo. si quid haberem, quod ad te scriberem, facerem id et pluribus verbis et saepius. nunc quae sint negotia vides. ego autem quomodo sim affectus, ex Lepta et Trebatio poteris cognoscere. tu fac ut tuam et Tulliae valetudinem cures. vale.",
+          "q": "48 bc. Three verbs (scrīberem, sint, sim affectus) are subjunctive for reasons we have not yet discussed; the first can be translated ‘I might write’ and the second two with indicatives. Tullius Terentiae suae salutem dicit. si vales bene est; ego valeo. si quid haberem, quod ad te scriberem, facerem id et pluribus verbis et saepius. nunc quae sint negotia vides. ego autem quomodo sim affectus, ex Lepta et Trebatio poteris cognoscere. tu fac ut tuam et Tulliae valetudinem cures. vale.",
           "a": ""
         }
       ],
@@ -615,6 +615,10 @@ const chapter = {
       "instruction": "",
       "type": "questions",
       "items": [
+        {
+          "q": "mentioning their daughter Tullia, in 48 bc.",
+          "a": ""
+        },
         {
           "q": "Three verbs (scrīberem, sint, sim affectus) are subjunctive for reasons we have not yet discussed; the first can be translated ‘I might write’ and the second two with indicatives.",
           "a": ""

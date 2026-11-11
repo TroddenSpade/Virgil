@@ -773,7 +773,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "24 the fighting soldier (dative) Colloquium Stephani 18a–19d (adapted): the author tells teachers using his work that lessons should be individually tailored to particular students (probably first to third century ad ). Haec acta sunt per singulos iuxta unius cuiusque vires et profectum, et aetatem discipulorum. sunt enim et naturae variae studentium, et difficiles voluntates ad laborem litterarum, in quibus cum multum proficias, plus superest ut ad summum profectum venias.",
+          "q": "24 the fighting soldier (dative) Colloquium Stephani 18a–19d (adapted): the author tells teachers using his work that lessons should be individually tailored to particular students (probably first to third century ad). Haec acta sunt per singulos iuxta unius cuiusque vires et profectum, et aetatem discipulorum. sunt enim et naturae variae studentium, et difficiles voluntates ad laborem litterarum, in quibus cum multum proficias, plus superest ut ad summum profectum venias.",
           "a": ""
         }
       ],

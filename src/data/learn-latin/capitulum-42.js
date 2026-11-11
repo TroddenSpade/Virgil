@@ -32,7 +32,7 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "Watching the trials in a Roman courtroom (probably fourth century ad ). One of the main reasons Greek students learned Latin was to become lawyers: note the emphasis on the role of the lawyers. Torture of both defendants and witnesses was common during the later imperial period, when this piece was written. Fit hora tertia. ingrediuntur advocati, causidici, scholastici."
+          "text": "Watching the trials in a Roman courtroom (probably fourth century ad). One of the main reasons Greek students learned Latin was to become lawyers: note the emphasis on the role of the lawyers. Torture of both defendants and witnesses was common during the later imperial period, when this piece was written. Fit hora tertia. ingrediuntur advocati, causidici, scholastici."
         },
         {
           "t": "p",
@@ -238,6 +238,10 @@ const chapter = {
         },
         {
           "q": "He was beaten (use imperfect) and said (use perfect) nothing, because he was very (use imperfect) brave.",
+          "a": ""
+        },
+        {
+          "q": "Then he was acquitted.",
           "a": ""
         },
         {
