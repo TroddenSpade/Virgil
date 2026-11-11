@@ -7,7 +7,7 @@ export default function Library() {
       <div className="container">
         <p className="eyebrow">Bibliotheca</p>
         <h1>The Library</h1>
-        <p className="lead" style={{ maxWidth: '60ch' }}>
+        <p className="lead" style={{ maxWidth: '90ch' }}>
           The whole course, arranged as a shelf of books. Familia Romana begins the course and Roma Aeterna
           carries it on through Aeneas and the Roman Republic, with the Exercitia Latina, the Colloquia Personarum,
           the Fabulae Syrae, the Sermones Romani and the Epitome Historiae Sacrae beside them. The companions offer
