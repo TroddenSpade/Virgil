@@ -512,13 +512,39 @@
   margin-top: 1.1rem;
 }
 .lesson__keywords-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
   margin: 0 0.15rem 0 0;
+  padding: 0;
+  border: 0;
+  background: none;
   font-family: var(--font-ui);
   font-size: 0.58rem;
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--bronze);
+}
+button.lesson__keywords-label {
+  cursor: pointer;
+}
+button.lesson__keywords-label::after {
+  content: '+';
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--bronze);
+}
+button.lesson__keywords-label[aria-expanded='true']::after {
+  content: '−';
+}
+button.lesson__keywords-label:hover {
+  color: var(--ink);
+}
+button.lesson__keywords-label:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--bronze) 60%, transparent);
+  outline-offset: 3px;
 }
 .keyword-row {
   display: flex;
@@ -571,41 +597,6 @@
 .keyword[data-group='work'] {
   color: var(--ink-faint);
   border-style: dashed;
-}
-.keyword-more {
-  flex-basis: 100%;
-  margin-top: 0.05rem;
-}
-.keyword-more summary {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-  cursor: pointer;
-  list-style: none;
-  font-family: var(--font-ui);
-  font-size: 0.58rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--ink-faint);
-}
-.keyword-more summary::-webkit-details-marker {
-  display: none;
-}
-.keyword-more summary::before {
-  content: '+';
-  color: var(--bronze);
-  font-size: 0.75rem;
-  line-height: 1;
-}
-.keyword-more[open] summary::before {
-  content: '−';
-}
-.keyword-more__count {
-  color: var(--bronze);
-}
-.keyword-row--all {
-  margin-top: 0.55rem;
 }
 
 /* Two columns: a sticky chapter rail beside the content */

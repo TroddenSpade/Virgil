@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { describeKeyword } from '../data/keywords.js'
 
 const GROUP_ORDER = ['level', 'grammar', 'theme', 'text', 'skill', 'author', 'work']
@@ -92,6 +93,7 @@ export function primaryKeywordLabels(ids = [], count = 2) {
 }
 
 export default function KeywordChips({ ids = [], variant = 'lesson' }) {
+  const [open, setOpen] = useState(false)
   const entries = resolve(ids)
   if (!entries.length) return null
 
@@ -111,7 +113,8 @@ export default function KeywordChips({ ids = [], variant = 'lesson' }) {
   }
 
   const primary = pick(entries, 'lesson')
-  const rest = entries.filter((entry) => !primary.includes(entry))
+  const canExpand = entries.length > primary.length
+  const shown = open ? entries : primary
   const chip = (entry) => (
     <li key={entry.id} className="keyword" data-group={entry.group} title={`${entry.group}: ${entry.label}`}>
       {entry.label}
@@ -120,20 +123,22 @@ export default function KeywordChips({ ids = [], variant = 'lesson' }) {
 
   return (
     <div className="lesson__keywords">
-      <p className="lesson__keywords-label">Keywords</p>
-      <ul className="keyword-row" aria-label="Chapter keywords">
-        {primary.map(chip)}
-      </ul>
-      {rest.length > 0 && (
-        <details className="keyword-more">
-          <summary>
-            All keywords <span className="keyword-more__count">{entries.length}</span>
-          </summary>
-          <ul className="keyword-row keyword-row--all" aria-label="All chapter keywords">
-            {entries.map(chip)}
-          </ul>
-        </details>
+      {canExpand ? (
+        <button
+          type="button"
+          className="lesson__keywords-label"
+          aria-expanded={open}
+          onClick={() => setOpen((value) => !value)}
+          title={open ? 'Show fewer keywords' : 'Show all keywords'}
+        >
+          Keywords
+        </button>
+      ) : (
+        <p className="lesson__keywords-label">Keywords</p>
       )}
+      <ul className="keyword-row" aria-label="Chapter keywords">
+        {shown.map(chip)}
+      </ul>
     </div>
   )
 }
