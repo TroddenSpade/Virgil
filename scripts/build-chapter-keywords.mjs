@@ -220,7 +220,7 @@ const THEMES = [
   ['inscriptions', 'Inscriptions and graffiti', ['inscription', 'graffito', 'epitaph', 'stone', 'monument', 'tomb', 'inscriptio', 'titulus', 'sepulcralis', 'monumentum', 'sepulcrum']],
   ['theatre', 'Theatre and performance', ['theatre', 'theater', 'play', 'comedy', 'actor', 'stage', 'audience', 'scene', 'theatrum', 'comoedia', 'histrio', 'scaena']],
   ['poetry-music', 'Poetry and song', ['poem', 'poet', 'song', 'verse', 'lyre', 'poetry', 'epic', 'elegy', 'poeta', 'carmen', 'versus', 'lyra', 'poema', 'epicus', 'elegia']],
-  ['bible', 'Bible and biblical history', ['bible', 'lord', 'israel', 'jerusalem', 'moses', 'abraham', 'david', 'jesus', 'christ', 'prophet', 'genesis', 'exodus', 'deus', 'dominus', 'israel', 'hierosolyma', 'moyses', 'abraham', 'david', 'iesus', 'christus', 'propheta', 'genesis', 'exodus']],
+  ['bible', 'Bible and biblical history', ['bible', 'lord', 'israel', 'jerusalem', 'moses', 'abraham', 'david', 'jesus', 'christ', 'prophet', 'genesis', 'exodus', 'israel', 'hierosolyma', 'moyses', 'abraham', 'david', 'iesus', 'christus', 'propheta']],
   ['christianity', 'Christianity and the martyrs', ['christian', 'church', 'martyr', 'apostle', 'gospel', 'faith', 'baptism', 'christianus', 'ecclesia', 'martyr', 'apostolus', 'evangelium', 'fides', 'baptisma']],
 ]
 
@@ -394,15 +394,22 @@ function grammarTags(chapter) {
 }
 
 function themeAnalysis(chapter) {
-  const scores = new Map()
+  const cueWeights = new Map()
   const matched = new Map()
-  const add = (id, hits, weight, cap) => {
+
+  const add = (id, hits, weight) => {
     if (!hits.length) return
-    scores.set(id, (scores.get(id) || 0) + Math.min(hits.length, cap) * weight)
-    matched.set(id, [...(matched.get(id) || []), ...hits])
+    const map = cueWeights.get(id) || new Map()
+    const seen = matched.get(id) || new Set()
+    for (const cue of hits) {
+      map.set(cue, Math.max(map.get(cue) || 0, weight))
+      seen.add(cue)
+    }
+    cueWeights.set(id, map)
+    matched.set(id, seen)
   }
 
-  const addEnglish = (text, weight, cap = 2) => {
+  const addEnglish = (text, weight) => {
     if (!text) return
     const haystack = words(text)
     for (const [id, , cues] of THEMES) {
@@ -410,11 +417,11 @@ function themeAnalysis(chapter) {
       THEME_CUE_RE.get(id).forEach((re, index) => {
         if (re.test(haystack)) hits.push(cues[index])
       })
-      add(id, hits, weight, cap)
+      add(id, hits, weight)
     }
   }
 
-  const addLatin = (text, weight, cap = 2) => {
+  const addLatin = (text, weight) => {
     if (!text) return
     const haystack = words(text)
     const tokens = new Set(haystack.split(' ').filter(Boolean).map(latinStem))
@@ -428,31 +435,58 @@ function themeAnalysis(chapter) {
           hits.push(cue)
         }
       }
-      add(id, hits, weight, cap)
+      add(id, hits, weight)
     }
   }
 
-  addEnglish(vocabularyEnglish(chapter), 3, 2)
-  addEnglish(metadataText(chapter), 2, 2)
-  addEnglish(titleText(chapter), 2, 2)
-  addLatin(vocabularyLatin(chapter), 3, 2)
-  addEnglish(readingsEnglish(chapter), 2, 2)
-  addLatin(readingsLatin(chapter), 3, 3)
-  if (looksLatin(titleText(chapter))) addLatin(titleText(chapter), 2, 2)
+  addEnglish(vocabularyEnglish(chapter), 2)
+  addEnglish(metadataText(chapter), 2)
+  addEnglish(titleText(chapter), 6)
+  addLatin(vocabularyLatin(chapter), 2)
+  addEnglish(readingsEnglish(chapter), 2)
+  addLatin(readingsLatin(chapter), 2)
+  if (looksLatin(titleText(chapter))) addLatin(titleText(chapter), 6)
 
-  return { scores, matched }
+  // Score by distinct cues, not by how many fields mention the same cue.
+  const scores = new Map()
+  for (const [id, map] of cueWeights) {
+    scores.set(id, [...map.values()].reduce((sum, value) => sum + value, 0))
+  }
+  const matchedLists = new Map([...matched].map(([id, set]) => [id, [...set]]))
+  return { scores, matched: matchedLists }
+}
+
+function titleThemeIds(chapter) {
+  const text = titleText(chapter)
+  if (!text) return new Set()
+  const haystack = words(text)
+  const tokens = new Set(haystack.split(' ').filter(Boolean).map(latinStem))
+  const latin = looksLatin(text)
+  const ids = new Set()
+  for (const [id, , cues] of THEMES) {
+    for (const cue of cues) {
+      const inEnglish = THEME_CUE_RE.get(id)[cues.indexOf(cue)].test(haystack)
+      const inLatin = latin && !cue.includes(' ') && (tokens.has(latinStem(cue)) || tokens.has(cue))
+      if (inEnglish || inLatin) {
+        ids.add(id)
+        break
+      }
+    }
+  }
+  return ids
 }
 
 function themeTags(chapter, inheritedThemeIds = []) {
   const { scores } = themeAnalysis(chapter)
-  const own = [...scores.entries()]
+  const titleThemes = titleThemeIds(chapter)
+  const ranked = [...scores.entries()]
     .filter(([, score]) => score >= 3)
     .sort((a, b) => b[1] - a[1] || THEME_DEF.get(a[0]).order - THEME_DEF.get(b[0]).order)
-    .slice(0, 5)
     .map(([id]) => id)
+  const own = [...new Set([...titleThemes, ...ranked])].slice(0, 6)
 
   const merged = [...new Set([...own, ...inheritedThemeIds])]
-  return merged.slice(0, 7)
+  return merged.slice(0, 8)
 }
 
 function detectAuthor(text, fallback) {
