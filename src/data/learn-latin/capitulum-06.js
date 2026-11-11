@@ -91,6 +91,18 @@ const chapter = {
           "text": "But note that most Latin perfect participles cannot be used in this way with a form of sum: ‘The girl is loved’ is a periphrastic present passive in English that needs to be translated with a one-word verb in Latin (puella amātur, see chapter 32) and cannot be expressed with puella amāta est (in fact puella amāta est means something else, as we shall see in chapter 32)."
         }
       ]
+    },
+    {
+      "id": "section-2",
+      "latin": "6.3 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "Verbs amō, amāre, amāvī, amātum ‘love’ dīcō, dīcere, dīxī, dictum ‘say’ dō, dare, dedī, datum ‘give’ doceō, docēre, docuī, doctum ‘teach’ habeō, habēre, habuī, habitum ‘have’ iuvō, iuvāre, iūvī, iūtum ‘help’ laudō, laudāre, laudāvī, laudātum ‘praise’ moneō, monēre, monuī, monitum ‘advise’, ‘warn’ stō, stāre, stetī, statum ‘stand’ videō, vidēre, vīdī, vīsum ‘see’"
+        }
+      ]
     }
   ],
   "readings": [
@@ -109,58 +121,7 @@ const chapter = {
     }
   ],
   "grammar": [],
-  "vocabulary": [
-    {
-      "latin": "amō, amāre, amāvī, amātum",
-      "english": "love",
-      "group": "Verba"
-    },
-    {
-      "latin": "dīcō, dīcere, dīxī, dictum",
-      "english": "say",
-      "group": "Verba"
-    },
-    {
-      "latin": "dō, dare, dedī, datum",
-      "english": "give",
-      "group": "Verba"
-    },
-    {
-      "latin": "doceō, docēre, docuī, doctum",
-      "english": "teach",
-      "group": "Verba"
-    },
-    {
-      "latin": "habeō, habēre, habuī, habitum",
-      "english": "have",
-      "group": "Verba"
-    },
-    {
-      "latin": "iuvō, iuvāre, iūvī, iūtum",
-      "english": "help",
-      "group": "Verba"
-    },
-    {
-      "latin": "laudō, laudāre, laudāvī, laudātum",
-      "english": "praise",
-      "group": "Verba"
-    },
-    {
-      "latin": "moneō, monēre, monuī, monitum",
-      "english": "advise, warn",
-      "group": "Verba"
-    },
-    {
-      "latin": "stō, stāre, stetī, statum",
-      "english": "stand",
-      "group": "Verba"
-    },
-    {
-      "latin": "videō, vidēre, vīdī, vīsum",
-      "english": "see",
-      "group": "Verba"
-    }
-  ],
+  "vocabulary": [],
   "pensa": [
     {
       "latinLabel": "PRACTICE A",

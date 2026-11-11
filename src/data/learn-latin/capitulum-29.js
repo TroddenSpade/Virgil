@@ -20,15 +20,15 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The form of sum is conjugated as usual, while the participle changes as necessary to agree with the subject in gender and number. The form of a deponent verb in a perfect tense therefore reflects whether the subject is masculine, feminine, or neuter, as well as whether it is singular or plural and whether it is first, second, or third person. So the complete conjugation of the perfect of vēnor is as follows: Masculine subject"
+          "text": "The form of sum is conjugated as usual, while the participle changes as necessary to agree with the subject in gender and number. The form of a deponent verb in a perfect tense therefore reflects whether the subject is masculine, feminine, or neuter, as well as whether it is singular or plural and whether it is first, second, or third person."
         },
         {
-          "t": "h",
-          "text": "vēnātus sum ‘I (masculine) hunted’, ‘I (masculine) have hunted’,"
+          "t": "p",
+          "text": "So the complete conjugation of the perfect of vēnor is"
         },
         {
           "t": "example",
-          "text": "‘I (masculine) did hunt’ vēnātus es ‘you (masculine singular) hunted’, ‘you (masculine singular) have hunted’, ‘you (masculine singular) did hunt’ vēnātus est ‘he hunted’, ‘he has hunted’, ‘he did hunt’, ‘hunted’, ‘has hunted’, ‘did hunt’ vēnātī sumus ‘we (masculine) hunted’, ‘we (masculine) have hunted’, ‘we (masculine) did hunt’ vēnātī estis ‘you (masculine plural) hunted’, ‘you (masculine plural) have hunted’, ‘you (masculine plural) did hunt’ vēnātī sunt ‘they (masculine) hunted’, ‘they (masculine) have hunted’, ‘they (masculine) did hunt’, ‘hunted’, ‘have hunted’, ‘did hunt’"
+          "text": "Masculine subject vēnātus sum ‘I (masculine) hunted’, ‘I (masculine) have hunted’, ‘I (masculine) did hunt’ vēnātus es ‘you (masculine singular) hunted’, ‘you (masculine singular) have hunted’, ‘you (masculine singular) did hunt’ vēnātus est ‘he hunted’, ‘he has hunted’, ‘he did hunt’, ‘hunted’, ‘has hunted’, ‘did hunt’ vēnātī sumus ‘we (masculine) hunted’, ‘we (masculine) have hunted’, ‘we (masculine) did hunt’ vēnātī estis ‘you (masculine plural) hunted’, ‘you (masculine plural) have hunted’, ‘you (masculine plural) did hunt’ vēnātī sunt ‘they (masculine) hunted’, ‘they (masculine) have hunted’, ‘they (masculine) did hunt’, ‘hunted’, ‘have hunted’, ‘did hunt’"
         },
         {
           "t": "h",
@@ -48,51 +48,7 @@ const chapter = {
         },
         {
           "t": "example",
-          "text": "First Second Third Fourth Mixed conjugation conjugation conjugation conjugation conjugation vēnātus, -a, veritus, -a, ūsus, -a, -um partītus, -a, mortuus, -a,"
-        },
-        {
-          "t": "h",
-          "text": "-um sum -um sum sum -um sum -um sum"
-        },
-        {
-          "t": "h",
-          "text": "vēnātus, -a, veritus, -a, ūsus, -a, -um partītus, -a, mortuus, -a,"
-        },
-        {
-          "t": "h",
-          "text": "-um es -um es es -um es -um es"
-        },
-        {
-          "t": "h",
-          "text": "vēnātus, -a, veritus, -a, ūsus, -a, -um partītus, -a, mortuus, -a,"
-        },
-        {
-          "t": "h",
-          "text": "-um est -um est est -um est -um est"
-        },
-        {
-          "t": "p",
-          "text": "vēnātī, -ae, -a veritī, -ae, -a ūsī, -ae, -a partītī, -ae, mortuī, -ae, -a"
-        },
-        {
-          "t": "h",
-          "text": "sumus sumus sumus -a sumus sumus"
-        },
-        {
-          "t": "p",
-          "text": "vēnātī, -ae, -a veritī, -ae, -a ūsī, -ae, -a partītī, -ae, mortuī, -ae, -a"
-        },
-        {
-          "t": "h",
-          "text": "estis estis estis -a estis estis"
-        },
-        {
-          "t": "p",
-          "text": "vēnātī, -ae, -a veritī, -ae, -a ūsī, -ae, -a partītī, -ae, mortuī, -ae, -a"
-        },
-        {
-          "t": "h",
-          "text": "sunt sunt sunt -a sunt sunt"
+          "text": "First Second Third Fourth Mixed conjugation conjugation conjugation conjugation conjugation vēnātus, -a, veritus, -a, ūsus, -a, -um partītus, -a, mortuus, -a, -um sum -um sum sum -um sum -um sum vēnātus, -a, veritus, -a, ūsus, -a, -um partītus, -a, mortuus, -a, -um es -um es es -um es -um es vēnātus, -a, veritus, -a, ūsus, -a, -um partītus, -a, mortuus, -a, -um est -um est est -um est -um est vēnātī, -ae, -a veritī, -ae, -a ūsī, -ae, -a partītī, -ae, mortuī, -ae, -a sumus sumus sumus -a sumus sumus vēnātī, -ae, -a veritī, -ae, -a ūsī, -ae, -a partītī, -ae, mortuī, -ae, -a estis estis estis -a estis estis vēnātī, -ae, -a veritī, -ae, -a ūsī, -ae, -a partītī, -ae, mortuī, -ae, -a sunt sunt sunt -a sunt sunt"
         }
       ]
     },
@@ -116,15 +72,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "First conjugation vēnātus, -a, -um ‘having hunted’ vēnātus, -a, -um esse Second conjugation veritus, -a, -um ‘having been afraid’, veritus, -a, -um esse"
-        },
-        {
-          "t": "h",
-          "text": "‘fearing’1"
-        },
-        {
-          "t": "p",
-          "text": "Third conjugation ūsus, -a, -um ‘having used’ ūsus, -a, -um esse Fourth conjugation partītus, -a, -um ‘having divided’ partītus, -a, -um esse Mixed conjugation mortuus, -a, -um ‘having died’, ‘dead’ mortuus, -a, -um esse"
+          "text": "First conjugation vēnātus, -a, -um ‘having hunted’ vēnātus, -a, -um esse Second conjugation veritus, -a, -um ‘having been afraid’, veritus, -a, -um esse ‘fearing’1 Third conjugation ūsus, -a, -um ‘having used’ ūsus, -a, -um esse Fourth conjugation partītus, -a, -um ‘having divided’ partītus, -a, -um esse Mixed conjugation mortuus, -a, -um ‘having died’, ‘dead’ mortuus, -a, -um esse"
         },
         {
           "t": "pre",
@@ -132,23 +80,15 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "First conjugation vēnātūrus, -a, -um ‘being about to vēnātūrus, -a, -um esse hunt’ Second conjugation veritūrus, -a, -um ‘being about to fear’ veritūrus, -a, -um esse Third conjugation ūsūrus, -a, -um ‘being about to use’ ūsūrus, -a, -um esse Fourth conjugation partītūrus, -a, -um ‘being about to partītūrus, -a, -um esse divide’ Mixed conjugation moritūrus, -a, -um ‘being about to moritūrus, -a, -um esse"
-        },
-        {
-          "t": "h",
-          "text": "die’2"
+          "text": "First conjugation vēnātūrus, -a, -um ‘being about to vēnātūrus, -a, -um esse hunt’ Second conjugation veritūrus, -a, -um ‘being about to fear’ veritūrus, -a, -um esse Third conjugation ūsūrus, -a, -um ‘being about to use’ ūsūrus, -a, -um esse Fourth conjugation partītūrus, -a, -um ‘being about to partītūrus, -a, -um esse divide’ Mixed conjugation moritūrus, -a, -um ‘being about to moritūrus, -a, -um esse die’2 The perfect and future infinitives of deponent verbs are used in the same way as those infinitives of other verbs: dīxit sē vēnātum esse ‘he said that he had hunted’, dīxērunt eam vēnātūram esse ‘they said that she would hunt’ (as usual, the infinitive agrees with its accusative subject: see chapter 19.3)."
         },
         {
           "t": "p",
-          "text": "The perfect and future infinitives of deponent verbs are used in the same way as those infinitives of other verbs: dīxit sē vēnātum esse ‘he said that he had hunted’, dīxērunt eam vēnātūram esse ‘they said that she would hunt’ (as usual, the infinitive agrees with its accusative subject: see chapter 19.3). The future participle also behaves like other future participles (see chapter 24.2)."
+          "text": "The future participle also behaves like other future participles (see chapter 24.2). But the perfect participle is different: whereas the perfect participles of other verbs are passive in meaning (amātus = ‘having been loved’, not ‘having loved’: see chapter 6.2), the participles of deponent verbs are active (ūsus = ‘having used’, not ‘having been used’)."
         },
         {
           "t": "p",
-          "text": "But the perfect participle is different: whereas the perfect participles of other verbs are passive in meaning (amātus = ‘having been loved’, not ‘having loved’: see chapter 6.2), the participles of deponent verbs are active (ūsus = ‘having used’, not ‘having been used’). Vereor is unusual in that the perfect participle can be translated with ‘-ing’ in English; normally this translation is reserved for present participles."
-        },
-        {
-          "t": "p",
-          "text": "The future participle and future infinitive of morior are irregular: we would expect *mortuūrus (esse). Other mixed-conjugation verbs are not irregular."
+          "text": "Vereor is unusual in that the perfect participle can be translated with ‘-ing’ in English; normally this translation is reserved for present participles. The future participle and future infinitive of morior are irregular: we would expect *mortuūrus (esse). Other mixed-conjugation verbs are not irregular."
         }
       ]
     }
@@ -174,7 +114,68 @@ const chapter = {
     }
   ],
   "grammar": [],
-  "vocabulary": [],
+  "vocabulary": [
+    {
+      "latin": "prōcessum",
+      "english": "go out",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "praecīnctum",
+      "english": "put a belt on",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "salūtō, -āre, -āvī, -ātum",
+      "english": "greet",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "unguō, unguere, ūnxī, ūnctum",
+      "english": "anoint ambōs",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "pectinō, -āre, -āvī, -ātum",
+      "english": "comb",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dēscendō, dēscendere, dēscendī, induō, induere, induī, indūtum",
+      "english": "put on",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dēscēnsum",
+      "english": "go down",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "domō",
+      "english": "house",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "nātiōne",
+      "english": "from the nation",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "Asturians",
+      "english": "Maurum",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "Moors",
+      "english": "(genitive plural) (an pientissimē",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "annōrum",
+      "english": "aged",
+      "group": "Vocābula"
+    }
+  ],
   "pensa": [
     {
       "latinLabel": "PRACTICE A",
@@ -633,15 +634,24 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "1 Colloquia Monacensia–Einsidlensia 2c–f (adapted): a boy describes getting dressed in the morning (perhaps first century ad). Deposui dormitoria, accepi tunicam, praecinxi me, unxi caput meum et pectinavi, indui paenulam. processi de cubiculo cum paedagogo ut salutarem patrem et matrem. ambos salutavi et osculatus sum, et descendi de domo. Vocabulary (in order of first appearance; words that appear more than once are in bold) dēpōnō (like pōnō) ‘take off’ prōcēdō, prōcēdere, prōcessī, dormītōrium, -ī (n.) ‘nightgown’ prōcessum ‘go out’ tunica, -ae (f.) ‘tunic’ cubiculum, -ī (n.) ‘bedroom’ praecingō, praecingere, praecīnxī, paedagōgus, -ī (m.) ‘child-minder’ praecīnctum ‘put a belt on’ salūtō, -āre, -āvī, -ātum ‘greet’ unguō, unguere, ūnxī, ūnctum ‘anoint ambōs ‘both’ (accusative) with oil’ ōsculor, -ārī, -ātus sum ‘kiss’ pectinō, -āre, -āvī, -ātum ‘comb’ dēscendō, dēscendere, dēscendī, induō, induere, induī, indūtum ‘put on’ dēscēnsum ‘go down’ paenula, -ae (f.) ‘cape’ domō ‘house’ (ablative)",
-          "a": ""
-        },
-        {
-          "q": "2 Roman Inscriptions of Britain 1064: funerary inscription from northern England (imperial period). Dis manibus Victoris natione Maurum annorum XX libertus Numeriani equitis alae I Asturum qui pientissime prosecutus est. Vocabulary dīs mānibus ‘to the divine spirits’ Numeriānus, Numeriānī (m.): name of Victor, Victōris (m.): name of the dead the man responsible for the tomb man (possessive genitive eques, equitis (m.) ‘cavalryman’ with mānibus) ālae I Asturum ‘of the first regiment of nātiōne ‘from the nation’ Asturians’ Maurum ‘Moors’ (genitive plural) (an pientissimē ‘very devotedly’ African people) prōsequor (like sequor) ‘follow him to annōrum ‘aged’ the tomb’ (i.e. conduct a funeral XX ‘20’ procession for him) lībertus, lībertī (m.) ‘freedman’",
+          "q": "1 Colloquia Monacensia–Einsidlensia 2c–f (adapted): a boy describes getting dressed in the morning (perhaps first century ad). Deposui dormitoria, accepi tunicam, praecinxi me, unxi caput meum et pectinavi, indui paenulam. processi de cubiculo cum paedagogo ut salutarem patrem et matrem. ambos salutavi et osculatus sum, et descendi de domo.",
           "a": ""
         }
       ],
       "id": "practice-29-g"
+    },
+    {
+      "id": "translate-29",
+      "latinLabel": "TRANSLATE INTO LATIN",
+      "title": "Translate into Latin",
+      "instruction": "",
+      "type": "questions",
+      "items": [
+        {
+          "q": "7 he did not fear 20 she has divided it 8 they (feminine) feared 21 they (neuter) divided it 9 it was afraid 22 they (masculine) have divided it 10 were you (masculine plural) 23 we (feminine) did not divide it C Conjugate in the perfect: 1 arbitror, arbitrārī, arbitrātus sum 5 patior, patī, passus sum ‘suffer’,",
+          "a": ""
+        }
+      ]
     }
   ]
 }

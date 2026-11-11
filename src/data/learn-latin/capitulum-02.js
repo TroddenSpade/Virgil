@@ -127,6 +127,18 @@ const chapter = {
           "text": "When the sentence is presented in isolation any one of these can be used, but when the sentence has a context (as is almost always the case in real Latin literature) the context normally determines which translation is appropriate. Therefore puella servum dūcit might mean ‘A girl leads a slave’ in one place and ‘The girl is leading the slave’ in another place."
         }
       ]
+    },
+    {
+      "id": "section-5",
+      "latin": "2.5 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "Nouns agricola ‘farmer’\namīcus ‘friend’\ndea ‘goddess’\ndeus ‘god’\nequus ‘horse’\npoēta ‘poet’\npuella ‘girl’\nservus ‘slave’"
+        }
+      ]
     }
   ],
   "readings": [
@@ -148,48 +160,7 @@ const chapter = {
     }
   ],
   "grammar": [],
-  "vocabulary": [
-    {
-      "latin": "41 puellae equos petunt. 47 reguntne dei poetas? 42 agricola, emisne servos? 48 servum non emo. 43 amicos petunt puellae. 49 amice, mittisne servum? 44 equum puella non emit. 50 poetae scribunt. 45 equos agricolae emunt. 51 agricolae non legunt. 46 amici, petitisne puellas? 52 serve, currisne? Nouns agricola",
-      "english": "farmer",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "amīcus",
-      "english": "friend",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "dea",
-      "english": "goddess",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "deus",
-      "english": "god",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "equus",
-      "english": "horse",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "poēta",
-      "english": "poet",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "puella",
-      "english": "girl",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "servus",
-      "english": "slave",
-      "group": "Vocābula"
-    }
-  ],
+  "vocabulary": [],
   "pensa": [
     {
       "latinLabel": "PRACTICE A",

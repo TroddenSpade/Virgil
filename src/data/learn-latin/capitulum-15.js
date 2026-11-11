@@ -59,24 +59,8 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "10 If he had not done that, he might 16 The praise of Cicero, which was"
-        },
-        {
-          "t": "h",
-          "text": "11 Catiline had friends in Rome 17 Because the other Romans were"
-        },
-        {
-          "t": "h",
-          "text": "14 Catiline’s army was defeated 20 While he was in exile, Cicero"
-        },
-        {
-          "t": "h",
-          "text": "15 When this had happened the his return, Cicero was invited"
-        },
-        {
           "t": "p",
-          "text": "have survived, but as soon as he described as being not without had joined a hostile army he was reason but alas without end, doomed. irritated everyone else. who were on his side, and he jealous and annoyed, Cicero asked them to instigate riots and soon had many enemies. arson in the city."
+          "text": "10 If he had not done that, he might 16 The praise of Cicero, which was have survived, but as soon as he described as being not without had joined a hostile army he was reason but alas without end, doomed. irritated everyone else. 11 Catiline had friends in Rome 17 Because the other Romans were who were on his side, and he jealous and annoyed, Cicero asked them to instigate riots and soon had many enemies. arson in the city."
         },
         {
           "t": "p",
@@ -84,7 +68,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "in a great battle, in which was completely miserable; he everyone including Catiline was wished that he were dead. killed. 21 After his friends lobbied hard for Catilinarian Conspiracy was over, back to Rome. and everyone lost interest in it 22 His house was rebuilt at public except Cicero, who kept remindexpense, and the senate ing people that he had saved the expressed gratitude for everystate. thing he had done."
+          "text": "14 Catiline’s army was defeated 20 While he was in exile, Cicero in a great battle, in which was completely miserable; he everyone including Catiline was wished that he were dead. killed. 21 After his friends lobbied hard for 15 When this had happened the his return, Cicero was invited Catilinarian Conspiracy was over, back to Rome."
+        },
+        {
+          "t": "p",
+          "text": "and everyone lost interest in it 22 His house was rebuilt at public except Cicero, who kept remindexpense, and the senate ing people that he had saved the expressed gratitude for everystate. thing he had done."
         },
         {
           "t": "p",
@@ -127,35 +115,42 @@ const chapter = {
           "text": "First Second Third conjugation conjugation conjugation Sum Possum Eō amārem monērem regerem essem possem īrem amārēs monērēs regerēs essēs possēs īrēs amāret monēret regeret esset posset īret amārēmus monērēmus regerēmus essēmus possēmus īrēmus amārētis monērētis regerētis essētis possētis īrētis amārent monērent regerent essent possent īrent"
         }
       ]
+    },
+    {
+      "id": "section-3",
+      "latin": "15.5 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "Verbs accipiō, accipere, accēpī, acceptum ‘receive’ agō, agere, ēgī, āctum ‘drive’, ‘do’ audiō, audīre, audīvī, audītum ‘hear’ capiō, capere, cēpī, captum ‘take’, ‘capture’ faciō, facere, fēcī, factum ‘do’, ‘make’"
+        }
+      ]
     }
   ],
   "readings": [],
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "accipiō, accipere, accēpī, acceptum",
-      "english": "receive",
-      "group": "Verba"
+      "latin": "aperī",
+      "english": "open!",
+      "group": "Vocābula"
     },
     {
-      "latin": "agō, agere, ēgī, āctum",
-      "english": "drive, do",
-      "group": "Verba"
+      "latin": "cito",
+      "english": "quickly",
+      "group": "Vocābula"
     },
     {
-      "latin": "audiō, audīre, audīvī, audītum",
-      "english": "hear",
-      "group": "Verba"
+      "latin": "fac",
+      "english": "mark!",
+      "group": "Vocābula"
     },
     {
-      "latin": "capiō, capere, cēpī, captum",
-      "english": "take, capture",
-      "group": "Verba"
-    },
-    {
-      "latin": "faciō, facere, fēcī, factum",
-      "english": "do, make",
-      "group": "Verba"
+      "latin": "ergō",
+      "english": "therefore",
+      "group": "Vocābula"
     }
   ],
   "pensa": [
@@ -405,7 +400,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "12 stō Colloquium Harleianum, 5a–d (adapted): continuation of the school scene in the preceding chapter. teacher: porrige mihi, puer, manuale. cito ergo porrige librum, revolve, lege cum voce magna, aperi os. nunc bene fac locum, ut scribas dictatum. Vocabulary porrigō, porrigere, porrēxī, porrēctum vōx, vōcis (f.) ‘voice’ ‘hand’, ‘pass’ aperī ‘open!’ (imperative singular) manuāle, manuālis (n.) ‘book stand’ ōs, ōris (n.) ‘mouth’ cito ‘quickly’ fac ‘mark!’ (imperative singular of faciō) ergō ‘therefore’ (translate one word locus, locī (m.) ‘place’ earlier than where it appears in Latin) dictātum, dictātī (n.) ‘exercise’ revolvō, revolvere, revolvī, revolūtum ‘turn to the right place’",
+          "q": "12 stō Colloquium Harleianum, 5a–d (adapted): continuation of the school scene in the preceding chapter. teacher: porrige mihi, puer, manuale. cito ergo porrige librum, revolve, lege cum voce magna, aperi os. nunc bene fac locum, ut scribas dictatum.",
           "a": ""
         }
       ],

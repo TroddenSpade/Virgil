@@ -115,6 +115,18 @@ const chapter = {
           "text": "‘Which word did you write?’. When it does not agree with anything it is translated with ‘what?’ in the neuter (quid dīxit? ‘What did he say?’) and with ‘who?’, ‘whom?’, or ‘whose?’ in the masculine and feminine: quis est? ‘Who is it?’, quem vīdistī? ‘Whom did you see?’, cuius pecūnia est? ‘Whose money is it?’ As these examples suggest, questions introduced by forms of quis or quī do not have -ne as well."
         }
       ]
+    },
+    {
+      "id": "section-3",
+      "latin": "13.5 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "Pronoun quis, quid ‘who?’, ‘what?’ Adjective quī, quae, quod ‘which?’ Adverb nē ‘not’ (with many types of subjunctive)"
+        }
+      ]
     }
   ],
   "readings": [
@@ -140,19 +152,19 @@ const chapter = {
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "quis, quid",
-      "english": "who?, what?",
-      "group": "Prōnōmina"
+      "latin": "sedeō, sedēre, sēdī, sessum",
+      "english": "sit",
+      "group": "Vocābula"
     },
     {
-      "latin": "quī, quae, quod",
-      "english": "which?",
-      "group": "Adiectīva"
+      "latin": "tollō, tollere, sustulī, sublātum",
+      "english": "pick up",
+      "group": "Vocābula"
     },
     {
-      "latin": "nē",
-      "english": "not",
-      "group": "Adverbia"
+      "latin": "salūtō, salūtāre, salūtāvī, salūtātum",
+      "english": "greet",
+      "group": "Vocābula"
     }
   ],
   "pensa": [
@@ -635,7 +647,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "8 Whose servant are you? Colloquium Harleianum 3a–d (adapted): a boy goes to school (perhaps first century ad ). Surge, puer: cur sedes? tolle libros Latinos, membranas et locellum et praeductal, atramentum et cannas. eamus, magistrum salutemus. Vocabulary surgō, surgere, surrēxī, surrēctum locellus, locellī (m.) ‘casket’ ‘get up’ praeductal, praeductālis (n.) ‘ruler’ sedeō, sedēre, sēdī, sessum ‘sit’ ātrāmentum, ātrāmentī (n.) ‘ink’ tollō, tollere, sustulī, sublātum ‘pick up’ canna, cannae (f.) ‘pen’ membrāna, membrānae (f.) ‘parchment’ salūtō, salūtāre, salūtāvī, salūtātum ‘greet’",
+          "q": "8 Whose servant are you? Colloquium Harleianum 3a–d (adapted): a boy goes to school (perhaps first century ad ). Surge, puer: cur sedes? tolle libros Latinos, membranas et locellum et praeductal, atramentum et cannas. eamus, magistrum salutemus.",
           "a": ""
         }
       ],

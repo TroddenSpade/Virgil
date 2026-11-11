@@ -111,6 +111,26 @@ const chapter = {
           "text": "This positioning is therefore useful because it allows the reader to work out easily which extra words go with the ablative absolute and which with the main sentence, but it is also tricky because it makes the belong to the ablative absolute construction to occur before or after the two main words. rēge interfectō ab hostibus miserrimī erāmus. ‘When the king was killed by the enemy we were very miserable.’"
         }
       ]
+    },
+    {
+      "id": "section-2",
+      "latin": "57.4 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "Verbs cadō, cadere, cecidī, cāsum ‘fall’ cēnō, cēnāre, cēnāvī, cēnātum ‘dine’, ‘have dinner’ dēleō, dēlēre, dēlēvī, dēlētum ‘destroy’ dormiō, dormīre, dormīvī, dormītum ‘sleep’ fugō, fugāre, fugāvī, fugātum ‘cause to flee’, ‘put to flight’ gerō, gerere, gessī, gestum ‘wear’, ‘wage (war)’, ‘conduct’ iaceō, iacēre, iacuī, – ‘lie’ (i.e."
+        },
+        {
+          "t": "example",
+          "text": "be horizontal) iaciō, iacere, iēcī, iactum ‘throw’ Nouns canis, canis (m., f.) ‘dog’ cēna, cēnae (f.) ‘dinner’ dux, ducis (m.) ‘leader’ fīlia, fīliae (f.) ‘daughter’ ignis, ignis, ignium (m.) ‘fire’ Adjectives altus, alta, altum ‘high’, ‘deep’ antīquus, antīqua, antīquum ‘ancient’ dīves, gen."
+        },
+        {
+          "t": "example",
+          "text": "dīvitis ‘rich’ laetus, laeta, laetum ‘joyful’ Pronouns aliquis, aliquid (declines like quis) ‘someone’, ‘anyone’ (in neuter ‘something’, ‘anything’)"
+        }
+      ]
     }
   ],
   "readings": [
@@ -130,99 +150,139 @@ const chapter = {
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "cadō, cadere, cecidī, cāsum",
-      "english": "fall",
-      "group": "Verba"
+      "latin": "hōra can also mean",
+      "english": "time",
+      "group": "Vocābula"
     },
     {
-      "latin": "cēnō, cēnāre, cēnāvī, cēnātum",
-      "english": "dine, have dinner",
-      "group": "Verba"
+      "latin": "dictō, dictāre, dictāvī, dictātum",
+      "english": "dictate",
+      "group": "Vocābula"
     },
     {
-      "latin": "dēleō, dēlēre, dēlēvī, dēlētum",
-      "english": "destroy",
-      "group": "Verba"
+      "latin": "rēctē",
+      "english": "straight",
+      "group": "Vocābula"
     },
     {
-      "latin": "dormiō, dormīre, dormīvī, dormītum",
-      "english": "sleep",
-      "group": "Verba"
+      "latin": "trādō, trādere, trādidī, trāditum",
+      "english": "hand nōtus, nōtī (m.)",
+      "group": "Vocābula"
     },
     {
-      "latin": "fugō, fugāre, fugāvī, fugātum",
-      "english": "cause to flee, put to flight",
-      "group": "Verba"
+      "latin": "over",
+      "english": "occurrō (like currō) (+ dative)",
+      "group": "Vocābula"
     },
     {
-      "latin": "gerō, gerere, gessī, gestum",
-      "english": "wear, wage (war), conduct",
-      "group": "Verba"
+      "latin": "parō, parāre, parāvī, parātum",
+      "english": "prepare",
+      "group": "Vocābula"
     },
     {
-      "latin": "iaceō, iacēre, iacuī, –",
-      "english": "lie",
-      "group": "Verba"
+      "latin": "resalūtō, -āre, -āvī, -ātum",
+      "english": "greet in in (+ accusative) can also mean",
+      "group": "Vocābula"
     },
     {
-      "latin": "(i.e. be horizontal) iaciō, iacere, iēcī, iactum",
-      "english": "throw",
-      "group": "Verba"
+      "latin": "cūrō can also mean",
+      "english": "have charge of the prō praetōre",
+      "group": "Vocābula"
     },
     {
-      "latin": "canis, canis (m., f.)",
-      "english": "dog",
-      "group": "Nōmina"
+      "latin": "propraetorian",
+      "english": "(i.e. having work",
+      "group": "Vocābula"
     },
     {
-      "latin": "cēna, cēnae (f.)",
-      "english": "dinner",
-      "group": "Nōmina"
+      "latin": "praefectus, -a, -um",
+      "english": "prefect",
+      "group": "Vocābula"
     },
     {
-      "latin": "dux, ducis (m.)",
-      "english": "leader",
-      "group": "Nōmina"
+      "latin": "exūrō, exūrere, exussī, exustum",
+      "english": "burn Vettōnēs, Vettōnum",
+      "group": "Vocābula"
     },
     {
-      "latin": "fīlia, fīliae (f.)",
-      "english": "daughter",
-      "group": "Nōmina"
+      "latin": "ante diem V",
+      "english": "five days before",
+      "group": "Vocābula"
     },
     {
-      "latin": "ignis, ignis, ignium (m.)",
-      "english": "fire",
-      "group": "Nōmina"
+      "latin": "Octōber, -bris, -bre",
+      "english": "of October",
+      "group": "Vocābula"
     },
     {
-      "latin": "altus, alta, altum",
-      "english": "high, deep",
-      "group": "Adiectīva"
+      "latin": "domesticus, -a, -um",
+      "english": "home-made",
+      "group": "Vocābula"
     },
     {
-      "latin": "antīquus, antīqua, antīquum",
-      "english": "ancient",
-      "group": "Adiectīva"
+      "latin": "terō, terere, trīvī, trītum",
+      "english": "grind",
+      "group": "Vocābula"
     },
     {
-      "latin": "dīves, gen. dīvitis",
-      "english": "rich",
-      "group": "Adiectīva"
+      "latin": "īnferciō, īnfercīre, īnfersī, īnfersum frīgō, frīgere, frīxī, frīctum",
+      "english": "fry",
+      "group": "Vocābula"
     },
     {
-      "latin": "laetus, laeta, laetum",
-      "english": "joyful",
-      "group": "Adiectīva"
+      "latin": "coquō, coquere, coxī, coctum",
+      "english": "cook",
+      "group": "Vocābula"
     },
     {
-      "latin": "aliquis, aliquid (declines like quis)",
-      "english": "someone, anyone",
-      "group": "Prōnōmina"
+      "latin": "forīs",
+      "english": "on the outside",
+      "group": "Vocābula"
     },
     {
-      "latin": "(in neuter",
-      "english": "something, anything",
-      "group": "Prōnōmina"
+      "latin": "adiciō, adicere, adiēcī, adiectum",
+      "english": "put anēthum, anēthī (n.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "concīdō, -cīdere, -cīdī, -cīsum",
+      "english": "cut up",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "modicē",
+      "english": "a little",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "temperō, -āre, -āvī, -ātum",
+      "english": "blend",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ascalōnius, -a, -um",
+      "english": "Ascalonian",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "āridus, -a, -um",
+      "english": "dried",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ferveō, fervēre, ferbuī, –",
+      "english": "boil",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "porcīnus, -a, -um",
+      "english": "of pork",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "aspergō, aspergere, aspersī, aspersum tessellātim",
+      "english": "in little squares",
+      "group": "Vocābula"
     }
   ],
   "pensa": [
@@ -488,35 +548,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "1 Colloquium Stephani 38a–d: a schoolboy does an advanced Greek exercise (probably first to third century ad). Sumptis ergo pugillaribus scripsi de oratione Demosthenis dictante praeceptore, quod sufficiebat et hora permittebat; et distinxi ut oportebat. Vocabulary sūmō, sūmere, sūmpsī, sūmptum ‘take sufficiō, sufficere, suffēcī, suffectum up’ ‘suffice’ pugillāris, pugillāris, pugillārium (m.) hōra can also mean ‘time’ ‘writing-tablet’ permittō (like mittō) ‘permit’ ōrātiō, ōrātiōnis (f.) ‘speech’ distinguō, distinguere, distīnxī, Dēmosthenēs, Dēmosthenis (m.) name distīnctum ‘put in punctuation of a famous Greek orator marks’ dictō, dictāre, dictāvī, dictātum ‘dictate’ ut (+ indicative) ‘as’ praeceptor, praeceptōris (m.) ‘instructor’",
-          "a": ""
-        },
-        {
-          "q": "2 Colloquium Stephani 7a–8c (adapted): how a model child with his own personal slave boy goes to school (probably first to third century ad). Graphium requisivi et membranam, et haec tradidi meo puero. paratus ergo in omnia, progressus sum domo sequente me paedagogo, recte per porticum quae ducebat ad scholam. cum mihi noti occurrissent, salutavi eos; et illi me resalutaverunt. Vocabulary graphium, graphiī (n.) ‘stylus’ paedagōgus, paedagōgī (m.) ‘childrequīrō, requīrere, requīsīvī, requīsītum minder’ ‘ask for’ rēctē ‘straight’, ‘directly’ membrāna, membrānae (f.) porticus, porticūs (f.) ‘colonnade’ ‘parchment’ schola, scholae (f.) ‘school’ trādō, trādere, trādidī, trāditum ‘hand nōtus, nōtī (m.) ‘acquaintance’ over’ occurrō (like currō) (+ dative) ‘meet’ parō, parāre, parāvī, parātum ‘prepare’ resalūtō, -āre, -āvī, -ātum ‘greet in in (+ accusative) can also mean ‘for’ return’",
-          "a": ""
-        },
-        {
-          "q": "3 Corpus Inscriptionum Latinarum vii.273: an inscription on a bath-house in Yorkshire (second century a d ). Deae Fortunae. Virius Lupus, legatus Augusti pro praetore, balineum vi ignis exustum cohorti I Thracum restituit, curante Valerio Frontone praefecto equitum alae Vettonum. Vocabulary Fortūna, Fortūnae (f.) ‘fortune’ restituō, restituere, restituī, restitūtum (a minor goddess) ‘rebuild’ (i.e. pay to have something lēgātus, lēgātī (m.) ‘legate’ rebuilt) Augustus, Augustī (m.) ‘emperor’ cūrō can also mean ‘have charge of the prō praetōre ‘propraetorian’ (i.e. having work’ the powers of a praetor) praefectus, -a, -um ‘prefect’ (a grade of balineum, balineī (n.) ‘bath-house’ officer) vī (ablative singular) ‘violence’ equitēs, equitum (m. plural) ‘cavalry’ ignis, ignis, ignium (m.) ‘fire’ āla, ālae (f.) ‘squadron’ exūrō, exūrere, exussī, exustum ‘burn Vettōnēs, Vettōnum ‘Vettonians’ (i.e. down’ men from what is now Bettona in cohortī I Thrācum ‘for the First Cohort Italy) of Thracians’ (the army unit who used that bath-house)",
-          "a": ""
-        },
-        {
-          "q": "4 Corpus Inscriptionum Latinarum iv .1842 (adapted): graffito from a wall in Pompeii (first century ad ). C. Pumidius Dipilus hic fuit, ante diem V Nonas Octobres M. Lepido et Q. Catulo consulibus. Vocabulary ante diem V ‘five days before’ ablative absolute with the participle Nōnae, Nōnārum ‘Nones’ (a festival of sum understood; as sum has no that in October fell on the participle this is the only way to seventh day of the month) form an ablative absolute involving Octōber, -bris, -bre ‘of October’ ‘be’, and it is a very common way of cōnsulibus ‘being consuls’ (with the giving dates) preceding names this forms an",
-          "a": ""
-        },
-        {
-          "q": "5 Apicius, De re coquinaria 7.13.",
-          "a": ""
-        },
-        {
-          "q": "1 (adapted): from a Roman cookbook, a recipe for sweets made from dates (perhaps fifth century ad). Dulcia domestica: palmulas vel dactilos excepto semine nucibus vel nucleis vel pipere trito infercies. sal foris continges, friges in melle cocto, et inferes. Vocabulary domesticus, -a, -um ‘home-made’ sēmen, sēminis (n.) ‘pit, stone’ palmula, palmulae (f.) ‘palm date’ nux, nucis (f.) ‘nut’ dactilus, dactilī (m.) ‘date’ nucleus, nucleī (m.) ‘pine nut’ excipiō, excipere, excēpī, exceptum piper, piperis (n.) ‘pepper’ ‘take out’ terō, terere, trīvī, trītum ‘grind’ īnferciō, īnfercīre, īnfersī, īnfersum frīgō, frīgere, frīxī, frīctum ‘fry’ ‘stuff’ mel, mellis (n.) ‘honey’ sāl, salis (m.) ‘salt’ coquō, coquere, coxī, coctum ‘cook’ forīs ‘on the outside’ īnferō (like ferō) ‘serve’ contingō, -tingere, -tigī, -tāctum ‘sprinkle’",
-          "a": ""
-        },
-        {
-          "q": "6 Apicius, De re coquinaria 4.3.",
-          "a": ""
-        },
-        {
-          "q": "6 (adapted): a recipe for apricot stew (perhaps fifth century ad). Minutal ex armeniacis: adicies in caccabum oleum, liquamen, vinum; concides cepam ascaloniam aridam; spatulam porcinam coctam tessellatim concides. his omnibus coctis teres piper, cuminum, mentam aridam, anethum; suffundes mel, liquamen, passum, acetum modice; temperabis. armeniaca enucleata adicies, facies ut ferveant donec percoquantur. piper asperges et inferes. Vocabulary minūtal, minūtālis (n.) ‘stew’ cumīnum, cumīnī (n.) ‘cumin’ armeniacum, armeniacī (n.) ‘apricot’ menta, mentae (f.) ‘mint’ adiciō, adicere, adiēcī, adiectum ‘put anēthum, anēthī (n.) ‘dill’ in’ suffundō, suffundere, suffūdī, suffūsum caccabus, caccabī (m.) ‘pot’ ‘pour in’ oleum, oleī (n.) ‘olive oil’ mel, mellis (n.) ‘honey’ liquāmen, liquāminis (n.) ‘garum’ passum, passī (n.) ‘raisin wine’ vīnum, vīnī (n.) ‘wine’ acētum, acētī (n.) ‘vinegar’ concīdō, -cīdere, -cīdī, -cīsum ‘cut up’ modicē ‘a little’ cēpa, cēpae (f.) ‘onion’ temperō, -āre, -āvī, -ātum ‘blend’ ascalōnius, -a, -um ‘Ascalonian’ (a ēnucleātus, -a, -um ‘with the pit/stone variety of onion) removed’ āridus, -a, -um ‘dried’ ferveō, fervēre, ferbuī, – ‘boil’ spatula, spatulae (f.) ‘wide piece’ dōnec (+ subjunctive) ‘until’ porcīnus, -a, -um ‘of pork’ percoquō (like coquō) ‘cook thoroughly’ coquō, coquere, coxī, coctum ‘cook’ aspergō, aspergere, aspersī, aspersum tessellātim ‘in little squares’ ‘sprinkle on’ terō, terere, trīvī, trītum ‘grind’ īnferō (like ferō) ‘serve’ piper, piperis (n.) ‘pepper’",
+          "q": "1 Colloquium Stephani 38a–d: a schoolboy does an advanced Greek exercise (probably first to third century ad). Sumptis ergo pugillaribus scripsi de oratione Demosthenis dictante praeceptore, quod sufficiebat et hora permittebat; et distinxi ut oportebat.",
           "a": ""
         }
       ],

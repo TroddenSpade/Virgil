@@ -83,7 +83,58 @@ const chapter = {
   ],
   "readings": [],
   "grammar": [],
-  "vocabulary": [],
+  "vocabulary": [
+    {
+      "latin": "resalūtō, -āre, -āvī, -ātum",
+      "english": "greet in revertor, revertī, reversus sum",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "postquam",
+      "english": "after",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ōrnō, ōrnāre, ōrnāvī, ōrnātum",
+      "english": "honour",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "rēs can also mean",
+      "english": "welfare",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "perfamiliāris, -e",
+      "english": "very close friend",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "commendō, -āre, -āvī, -ātum",
+      "english": "take care of",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dīligēns, gen. dīligentis",
+      "english": "particular",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "adiūnctum",
+      "english": "attach",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "crēdō, crēdere, crēdidī, crēditum",
+      "english": "believe",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "nisi",
+      "english": "unless",
+      "group": "Vocābula"
+    }
+  ],
   "pensa": [
     {
       "latinLabel": "PRACTICE A",
@@ -432,19 +483,32 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "1 Colloquium Leidense–Stephani 7a–e (adapted): a schoolboy’s lunch hour (probably second or third century ad). Nunc didici versus quos acceperam. magistrum rogavi ut me dimitteret domum ad prandium, et me dimisit. ‘bene vale’ ei dixi et resalutatus discessi. postquam pranderam, reversus reddidi quod didiceram. Vocabulary dīmittō (like mittō) ‘dismiss’ prandeō, prandēre, prandī, prānsum prandium, prandiī (n.) ‘lunch’ ‘eat lunch’ resalūtō, -āre, -āvī, -ātum ‘greet in revertor, revertī, reversus sum ‘return’ return’ reddō, reddere, reddidī, redditum postquam ‘after’ ‘recite’",
-          "a": ""
-        },
-        {
-          "q": "2 Cicero, Epistulae ad familiares 13.51: a request for help for a friend (first century bc ). Cicero Publio Caesio salutem dicit. P. Messienum, equitem Romanum, omnibus rebus ornatum meumque perfamiliarem, tibi commendo ea commendatione, quae potest esse diligentissima. peto a te et pro nostra et pro paterna amicitia, ut eum in tuam fidem recipias eiusque rem famamque tuearis. virum bonum tuaque amicitia dignum tibi adiunxeris mihique gratissimum feceris. Vocabulary Cicerō, Cicerōnis (m.) name of the et . . . et ‘both . . . and’ writer prō (+ ablative) ‘by’ Pūblius Caesius, -ī (m.) name of the paternus, -a, -um ‘of our fathers’ addressee amīcitia, amīcitiae (f.) ‘friendship’ Pūblius Messiēnus, -ī (m.) name of the fidēs can also mean ‘confidence’ writer’s friend recipiō, recipere, recēpī, receptum eques, equitis (m.) ‘knight’ ‘receive’ ōrnō, ōrnāre, ōrnāvī, ōrnātum ‘honour’ rēs can also mean ‘welfare’ perfamiliāris, -e ‘very close friend’ tueor, tuērī, tuitus sum (+ accusative) commendō, -āre, -āvī, -ātum ‘take care of’ ‘recommend’ dignus, digna, dignum (+ ablative) commendātiō, commendātiōnis (f.) ‘worthy of’ ‘recommendation’ adiungō, adiungere, adiūnxī, dīligēns, gen. dīligentis ‘particular’ adiūnctum ‘attach’",
-          "a": ""
-        },
-        {
-          "q": "3 Martial 12.73: the poet accuses Catullus (not the famous poet of that name, but a later figure) of lying about what he has put in his will (first century ad ). Because a Roman’s will was read only after the death of its writer, the ending suggests that Martial is impatient for Catullus’ death. Heredem tibi me, Catulle, dicis. non credo nisi legero, Catulle. Vocabulary hērēs, hērēdis (m.) ‘heir’ crēdō, crēdere, crēdidī, crēditum ‘believe’ (understand esse in the first line) nisi ‘unless’",
+          "q": "1 Colloquium Leidense–Stephani 7a–e (adapted): a schoolboy’s lunch hour (probably second or third century ad). Nunc didici versus quos acceperam. magistrum rogavi ut me dimitteret domum ad prandium, et me dimisit. ‘bene vale’ ei dixi et resalutatus discessi. postquam pranderam, reversus reddidi quod didiceram.",
           "a": ""
         }
       ],
       "id": "practice-44-e"
+    },
+    {
+      "id": "translate-44",
+      "latinLabel": "TRANSLATE INTO LATIN",
+      "title": "Translate into Latin",
+      "instruction": "",
+      "type": "questions",
+      "items": [
+        {
+          "q": "2 we shall have fled 10 we shall have sat 3 it will have been sold 11 they (neuter) will have been 4 he will have repaired found 5 they had advanced 12 had you (plural) delayed?",
+          "a": ""
+        },
+        {
+          "q": "6 you (singular) had not wanted 13 they had attacked 7 she had been called 14 he had been left The pluperfect is a historic tense like the perfect and imperfect, but the future perfect is a primary tense, since it refers to actions that will take place in the future.",
+          "a": ""
+        },
+        {
+          "q": "Thus a subjunctive subordinated to a main verb in the pluperfect indicative will be an imperfect subjunctive, but a subjunctive subordinated to a main verb in the future perfect indicative will be a present subjunctive (cf.",
+          "a": ""
+        }
+      ]
     }
   ]
 }

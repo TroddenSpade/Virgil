@@ -9,6 +9,22 @@ const chapter = {
   "complete": true,
   "sections": [
     {
+      "id": "section-0",
+      "latin": "Introduction",
+      "english": "Introduction",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "grātus, grāta, grātum ‘pleasing’, ‘grateful’ potēns, gen. potentis ‘powerful’ sapiēns, gen. sapientis ‘wise’ similis, simile (+ dative) ‘like’, ‘similar’ stultus, stulta, stultum ‘foolish’ turpis, turpe ‘shameful’"
+        },
+        {
+          "t": "h",
+          "text": "Adverb quam ‘as . . . as possible’"
+        }
+      ]
+    },
+    {
       "id": "section-1",
       "latin": "38.1 Comparison of Adjectives",
       "english": "Grammar",
@@ -48,19 +64,15 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The superlative is formed by adding -issimus, -issima, -issimum to the stem of the adjective; this means that the superlative is a first/second-declension adjective (even when the positive was a third-declension adjective). Positive Comparative Superlative longus, -a, -um longior, longius longissimus, -a, -um ‘long’ ‘longer’, ‘rather long’ ‘longest’, ‘very long’"
-        },
-        {
-          "t": "h",
-          "text": "brevis, breve brevior, brevius brevissimus, -a, -um"
+          "text": "The superlative is formed by adding -issimus, -issima, -issimum to the stem of the adjective; this means that the superlative is a first/second-declension adjective (even when the positive was a third-declension adjective)."
         },
         {
           "t": "p",
-          "text": "‘short’ ‘shorter’, ‘rather short’ ‘shortest’, ‘very short’ But adjectives with a masculine singular in -er (whether second or third declension) have superlatives in -errimus, -errima, -errimum. In this superlative the e of the original -er remains regardless of whether it is part of the stem or not, but the comparatives of such adjectives contain the e only if it is part of the stem."
+          "text": "Positive Comparative Superlative longus, -a, -um longior, longius longissimus, -a, -um ‘long’ ‘longer’, ‘rather long’ ‘longest’, ‘very long’ brevis, breve brevior, brevius brevissimus, -a, -um ‘short’ ‘shorter’, ‘rather short’ ‘shortest’, ‘very short’ But adjectives with a masculine singular in -er (whether second or third declension) have superlatives in -errimus, -errima, -errimum."
         },
         {
           "t": "p",
-          "text": "Positive Comparative Superlative tener, tenera, tenerum tenerior, tenerius tenerrimus, -a, -um ācer, ācris, ācre ācrior, ācrius ācerrimus, -a, -um"
+          "text": "In this superlative the e of the original -er remains regardless of whether it is part of the stem or not, but the comparatives of such adjectives contain the e only if it is part of the stem. Positive Comparative Superlative tener, tenera, tenerum tenerior, tenerius tenerrimus, -a, -um ācer, ācris, ācre ācrior, ācrius ācerrimus, -a, -um"
         }
       ]
     },
@@ -127,6 +139,18 @@ const chapter = {
           "text": "as possible’, and the Latin superlative is translated with the English positive, not the English superlative: liber quam longissimus ‘a book as long as possible’, vir quam fortissimus ‘a man as strong as possible’."
         }
       ]
+    },
+    {
+      "id": "section-6",
+      "latin": "38.6 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "Adjectives cārus, cāra, cārum ‘dear’, ‘expensive’ certus, certa, certum ‘certain’, ‘reliable’ clārus, clāra, clārum ‘bright’, ‘famous’ dulcis, dulce ‘sweet’ dūrus, dūra, dūrum ‘hard’, ‘harsh’"
+        }
+      ]
     }
   ],
   "readings": [
@@ -150,64 +174,119 @@ const chapter = {
   "grammar": [],
   "vocabulary": [
     {
+      "latin": "III Īdūs Septembrēs",
+      "english": "On 11 September",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "writer but probably not actually her sollemnis, sollemne",
+      "english": "of celebration",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sister nātālis, nātāle",
+      "english": "of birthday",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "iūcundus, -a, -um",
+      "english": "pleasant",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "Lepidina",
+      "english": "s husband",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "salūtō, -āre, -āvī, -ātum",
+      "english": "greet",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "Severa",
+      "english": "s husband cārus, cāra, cārum",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "rēx can also mean",
+      "english": "patron",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "praecipiō, -cipere, -cēpī, -ceptum",
+      "english": "send propitius, -a, -um (+ dative)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "instructions",
+      "english": "disposed towards",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "erat",
+      "english": "was",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "callidus, -a, -um",
+      "english": "clever",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "respondeō, respondēre, respondī, fēcerat",
+      "english": "had made",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "respōnsum",
+      "english": "reply",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "comedō, comedere, comēdī, comēsum licet",
+      "english": "it is allowed",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "tangō, tangere, tetigī, tāctum",
+      "english": "touch",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "emperor",
+      "english": "s mother",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "venerābilis, venerābile",
+      "english": "venerable",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "destrūctum",
+      "english": "destroy",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "an",
+      "english": "or",
+      "group": "Vocābula"
+    },
+    {
       "latin": "cārus, cāra, cārum",
-      "english": "dear, expensive",
-      "group": "Adiectīva"
+      "english": "expensive",
+      "group": "Vocābula"
     },
     {
-      "latin": "certus, certa, certum",
-      "english": "certain, reliable",
-      "group": "Adiectīva"
+      "latin": "sīc",
+      "english": "that is how",
+      "group": "Vocābula"
     },
     {
-      "latin": "clārus, clāra, clārum",
-      "english": "bright, famous",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "dulcis, dulce",
-      "english": "sweet",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "dūrus, dūra, dūrum",
-      "english": "hard, harsh",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "continues. grātus, grāta, grātum",
-      "english": "pleasing, grateful",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "potēns, gen. potentis",
-      "english": "powerful",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "sapiēns, gen. sapientis",
-      "english": "wise",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "similis, simile (+ dative)",
-      "english": "like, similar",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "stultus, stulta, stultum",
-      "english": "foolish",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "turpis, turpe",
-      "english": "shameful",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "quam",
-      "english": "as . . . as possible",
-      "group": "Adverbia"
+      "latin": "difference does it make whether",
+      "english": "magis",
+      "group": "Vocābula"
     }
   ],
   "pensa": [
@@ -548,31 +627,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "1 Tabulae Vindolandenses ii.291 (adapted): from the letters of soldiers stationed in northern Britain and their families, an invitation to a birthday party (c. ad 100). Claudia Severa Lepidinae suae salutem dicit. III Idus Septembres, soror, die sollemne natale meo, rogo ut venias ad nos, iucundiorem mihi diem interventu tuo factura. Cerialem tuum saluta. Aelius meus et filiolus te salutant. sperabo te, soror. vale, soror, anima mea carissima. Vocabulary Claudia Sevēra, Claudiae Sevērae (f.) III Īdūs Septembrēs ‘On",
-          "a": ""
-        },
-        {
-          "q": "11 September’ name of the writer of the letter (literally ‘on the third day before the Lepidīna, Lepidīnae (f.) name of the Ides (13th) of September’ – Romans recipient of the letter, a friend of the counted inclusively) writer but probably not actually her sollemnis, sollemne ‘of celebration’ sister nātālis, nātāle ‘of birthday’ salūs, salūtis (f.) ‘greetings’ iūcundus, -a, -um ‘pleasant’ interventus, interventūs (m.) ‘arrival’ fīliolus, fīliolī (m.) ‘little son’ Ceriālis, Ceriālis (m.) name of spērō, spērāre, spērāvī, spērātum Lepidina’s husband ‘expect’ salūtō, -āre, -āvī, -ātum ‘greet’ anima, animae (f.) ‘soul’ (a term of Aelius, Aeliī (m.) name of Claudia endearment) Severa’s husband cārus, cāra, cārum ‘dear’",
-          "a": ""
-        },
-        {
-          "q": "2 Tabulae Vindolandenses iii .628: an officer stationed in northern Britain sends requests to a superior (c. ad 100). Masclus Ceriali regi suo salutem dicit. rogo te, domine, ut praecipias quid velis ut cras faciamus. . . . cervesiam milites non habent, quam rogo ut iubeas mitti. felicissimus sis et mihi propitius. vale. Vocabulary Masclus, Masclī (m.) name of the writer iubeō, iubēre, iussī, iussum ‘order’ Ceriālis, Ceriālis (m.) name of the (takes accusative and infinitive recipient of the letter rather than the usual indirect rēx can also mean ‘patron’ command construction) praecipiō, -cipere, -cēpī, -ceptum ‘send propitius, -a, -um (+ dative) ‘well instructions’ disposed towards’ cervēsia, cervēsiae (f.) ‘beer’",
-          "a": ""
-        },
-        {
-          "q": "3 Vulgate version of the Bible, Genesis 3:1–",
-          "a": ""
-        },
-        {
-          "q": "3 (adapted): Adam and Eve meet the serpent (translated in the fourth century ad from an earlier Greek version). Sed serpens, qui erat callidior omnibus animalibus terrae quae fecerat dominus deus, dixit mulieri, ‘cur imperavit vobis deus ne comederetis de arboribus in paradiso?’ cui respondit mulier, ‘de fructu arborum quae sunt in paradiso licet nobis comedere, sed de fructu huius arboris imperavit nobis deus ne comederemus et ne tangeremus, ne moreremur.’ Vocabulary erat ‘was’ arbor, arboris (f.) ‘tree’ callidus, -a, -um ‘clever’ paradīsus, paradīsī (m.) ‘paradise’ terra, terrae (f.) ‘earth’ respondeō, respondēre, respondī, fēcerat ‘had made’ (pluperfect) respōnsum ‘reply’ mulier, mulieris (f.) ‘woman’ frūctus, frūctūs (m.), ‘fruit’ comedō, comedere, comēdī, comēsum licet ‘it is allowed’ ‘eat’ tangō, tangere, tetigī, tāctum ‘touch’",
-          "a": ""
-        },
-        {
-          "q": "4 Corpus Inscriptionum Latinarum vi.1136: inscription from Rome recording the restoration of baths (fourth century ad). Domina nostra Helena venerabilis domini nostri Constantini Augusti mater et avia beatissimorum et florentissimorum Caesarum nostrorum thermas incendio destructas restituit. Vocabulary Helena, Helenae (f.) name of the flōrēns, gen. flōrentis emperor’s mother ‘flourishing’ venerābilis, venerābile ‘venerable’ Caesar, Caesaris (m.) was at this period (here nominative) the title of the emperor’s son(s) Cōnstantīnus, -ī (m.) thermae, thermārum (f. plural) ‘public ‘Constantine’ baths’ Augustus, -ī (m.) was at this period the incendium, incendiī (n.) ‘fire’ title of the senior emperor dēstruō, dēstruere, dēstrūxī, avia, aviae (f.) ‘grandmother’ destrūctum ‘destroy’ beātus, beāta, beātum restituō, restituere, restituī, restitūtum ‘blessed’ ‘restore’",
-          "a": ""
-        },
-        {
-          "q": "5 Martial 13.76: the taste of meat depends on its price (first century ad). Rustica sim an perdix quid refert, si sapor idem est? carior est perdix: sic sapit illa magis. Vocabulary rūstica, rūsticae (f.) ‘woodcock’ īdem, eadem, idem (declined like is) (an edible bird) ‘same’ an ‘or’ cārus, cāra, cārum ‘expensive’ perdīx, perdīcis (f.) ‘partridge’ sīc ‘that is how’ quid rēfert (+ subjunctive) ‘what sapiō, sapere, sapīvī, – ‘taste good’ difference does it make whether’ magis ‘more’ (adverb) sapor, sapōris (m.) ‘taste’",
+          "q": "1 Tabulae Vindolandenses ii.291 (adapted): from the letters of soldiers stationed in northern Britain and their families, an invitation to a birthday party (c. ad 100). Claudia Severa Lepidinae suae salutem dicit. III Idus Septembres, soror, die sollemne natale meo, rogo ut venias ad nos, iucundiorem mihi diem interventu tuo factura. Cerialem tuum saluta. Aelius meus et filiolus te salutant. sperabo te, soror. vale, soror, anima mea carissima.",
           "a": ""
         }
       ],

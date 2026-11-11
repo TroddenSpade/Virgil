@@ -107,7 +107,118 @@ const chapter = {
   ],
   "readings": [],
   "grammar": [],
-  "vocabulary": [],
+  "vocabulary": [
+    {
+      "latin": "cessō, cessāre, cessāvī, cessātum",
+      "english": "slack imperātor, imperātōris (m.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "off",
+      "english": "statim",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ascendō, ascendere, ascendī, ascēnsum lūdō, lūdere, lūsī, lūsum",
+      "english": "play",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sacrifice",
+      "english": "mentior, mentīrī, mentītus sum",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "lie",
+      "english": "prō (+ ablative)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "town hall",
+      "english": "aeternus, -a, -um",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "eternal",
+      "english": "salūtō, -āre, -āvī, -ātum",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "greet",
+      "english": "victōria, victōriae (f.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "inde",
+      "english": "then",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "praestrūxerant",
+      "english": "had built",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "discō, discere, didicī, –",
+      "english": "learn",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "quid ūtilitātis esset",
+      "english": "what the point was",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ignōrō, -āre, -āvī, -ātum",
+      "english": "be ignorant",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cōgō, cōgere, coēgi, coāctum sēgnis, sēgne",
+      "english": "lazy",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "multiplicō, -āre, -āvī, -ātum",
+      "english": "multiply",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "vāpulō, -āre, -āvī, -ātum",
+      "english": "be beaten",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "maior can also mean",
+      "english": "adult",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "quid",
+      "english": "why",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "an",
+      "english": "can it be that?",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "mīlia ducenta",
+      "english": "two hundred thousand",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "a man",
+      "english": "s name dispereō (like eō)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "perish",
+      "english": "mīlia decem",
+      "group": "Vocābula"
+    }
+  ],
   "pensa": [
     {
       "latinLabel": "PRACTICE A",
@@ -508,23 +619,24 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "1 Colloquium Harleianum 8a–9d (adapted): a boy refutes an accusation of truancy (perhaps first century ad). school o fficial : heri cessabas et meridie domi ludebas. quaesivi te et audivi omnia quae fecisti a nutrice tua. boy : mentitur qui illud tibi dixit! duxit enim me pater secum in praetorium. salutatus est a magistratibus et epistulas accepit a domino meo imperatore; et statim ascendit in templum et immolavit pro aeterna victoria imperatoris. Vocabulary cessō, cessāre, cessāvī, cessātum ‘slack imperātor, imperātōris (m.) ‘emperor’ off’ statim ‘immediately’ merīdiēs (like diēs) (m.) ‘midday’ ascendō, ascendere, ascendī, ascēnsum lūdō, lūdere, lūsī, lūsum ‘play’ ‘go up’ quaerō, quaerere, quaesīvī, quaesītum templum, templī (n.) ‘temple’ ‘look for’ immolō, -āre, -āvī, -ātum ‘offer a nūtrīx, nūtrīcis (f.) ‘nurse’ sacrifice’ mentior, mentīrī, mentītus sum ‘lie’ prō (+ ablative) ‘for’ praetōrium, praetōriī (n.) ‘town hall’ aeternus, -a, -um ‘eternal’ salūtō, -āre, -āvī, -ātum ‘greet’ victōria, victōriae (f.) ‘victory’ magistrātus, magistrātūs (m.) ‘magistrate’",
-          "a": ""
-        },
-        {
-          "q": "2 St Augustine (fourth century ad), Confessions 1.",
-          "a": ""
-        },
-        {
-          "q": "9 (adapted): the saint describes his early school years. Inde in scholam missus sum, ut discerem litteras, in quibus quid utilitatis esset ignorabam miser. et tamen, si segnis in discendo eram, vapulabam. laudabatur enim hoc a maioribus, et multi ante nos vitam agentes praestruxerant aerumnosas vias, per quas vitam transire cogebamur multiplicato labore et dolore. Vocabulary inde ‘then’ ante (+ accusative) ‘before’ schola, scholae (f.) ‘school’ praestrūxerant ‘had built’ discō, discere, didicī, – ‘learn’ (pluperfect tense) littera, litterae (f.) ‘letter’ (of the aerumnōsus, -a, -um ‘painful’ alphabet) via, viae (f.) ‘road’, ‘route’ quid ūtilitātis esset ‘what the point was’ trānseō (like eō) ‘go across’ ignōrō, -āre, -āvī, -ātum ‘be ignorant’ cōgō, cōgere, coēgi, coāctum sēgnis, sēgne ‘lazy’ ‘compel’ discendum, discendī (n.) ‘learning’ multiplicō, -āre, -āvī, -ātum ‘multiply’ vāpulō, -āre, -āvī, -ātum ‘be beaten’ labor, labōris (m.) ‘toil’ maior can also mean ‘adult’, ‘grown up’ dolor, dolōris (m.) ‘pain’",
-          "a": ""
-        },
-        {
-          "q": "3 Martial 5.82: the poet complains about someone who does not deliver on his promises (first century ad). Quid promittebas mihi milia, Gaure, ducenta, si dare non poteras milia, Gaure, decem? an potes et non vis? rogo: non est turpius istud? i tibi, dispereas, Gaure: pusillus homo es. Vocabulary quid ‘why’ an ‘can it be that?’ prōmittō (like mittō) ‘promise’ istud (neuter nominative singular) mīlia ducenta ‘two hundred thousand ‘that’ (sesterces)’ ī tibi ‘away with you!’ Gaurus, Gaurī (m.) a man’s name dispereō (like eō) ‘perish’ mīlia decem ‘ten thousand (sesterces)’ pusillus, -a, -um ‘of no account’",
+          "q": "1 Colloquium Harleianum 8a–9d (adapted): a boy refutes an accusation of truancy (perhaps first century ad). school o fficial : heri cessabas et meridie domi ludebas. quaesivi te et audivi omnia quae fecisti a nutrice tua. boy : mentitur qui illud tibi dixit! duxit enim me pater secum in praetorium. salutatus est a magistratibus et epistulas accepit a domino meo imperatore; et statim ascendit in templum et immolavit pro aeterna victoria imperatoris.",
           "a": ""
         }
       ],
       "id": "practice-39-e"
+    },
+    {
+      "id": "translate-39",
+      "latinLabel": "TRANSLATE INTO LATIN",
+      "title": "Translate into Latin",
+      "instruction": "",
+      "type": "questions",
+      "items": [
+        {
+          "q": "4 we were hearing 10 they were ruling 5 we were being heard 11 they were being ruled 6 we were dying 12 they were wanting",
+          "a": ""
+        }
+      ]
     }
   ]
 }

@@ -29,22 +29,6 @@ const chapter = {
       ]
     },
     {
-      "id": "section-2",
-      "latin": "22.2 Colloquium Harleianum 12a–f",
-      "english": "Grammar",
-      "kind": "commentary",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "Vocabulary (in order of first appearance; words that appear more than once are in bold) sī ‘if’ intrō, intrāre, intrāvī, intrātum ‘enter’ vīs ‘you want’ salūs, salūtis (f.) ‘health’ quō ‘where’, ‘whither’ ascendō, ascendere, ascendī, ascēnsum vīsitō, -āre, -āvī, -ātum ‘go see’ ‘go up’ eum ‘him’ quot ‘how many?’ enim ‘for’ (best omitted in translation scāla, scālae (f.) ‘flight of stairs’ here) duās (f."
-        },
-        {
-          "t": "p",
-          "text": "accusative plural) ‘two’ aegrōtō, -āre, -āvī, -ātum ‘be ill’ dexter, dextra, dextrum ‘right-hand’ quandō ‘when’ porta, portae (f.) ‘door’ intrā paucōs diēs ‘a few days ago’ pulsō, pulsāre, pulsāvī, pulsātum incurrō (like currō) ‘fall ill’ (here ‘knock on’ a present where we would expect avēte ‘hello’ a past, because Latin uses the present volumus ‘we want’ for an action that began in the past vigilō, vigilāre, vigilāvī, vigilātum ‘be but continues in the present) awake’ habitō, -āre, -āvī, -ātum ‘live, dwell’ nūntiō, nūntiāre, nūntiāvī, nūntiātum longē ‘far off’ ‘announce’ ambulō, -āre, -āvī, -ātum ‘walk’, dēscendō, dēscendere, dēscendī, ‘walk on’ dēscēnsum ‘go down’ putō, putāre, putāvī, putātum ‘think’ laurētum, laurētī (n.) ‘laurel grove’ domus, domī (f.) ‘house’ grātulāmur (+ dative) ‘we congratulate’ eius (indeclinable) ‘his’ cum vēnerit ‘when he comes’ (see ecce ‘look!’ chapter 47.2 for the construction) iānitor, iānitōris (m.) ‘doorman’ grātulantēs is a present participle of interrogō, -āre, -āvī, -ātum ‘ask’ grātulor ‘congratulate’ num (+ subjunctive) ‘whether’ sīc ‘thus, so’"
-        }
-      ]
-    },
-    {
       "id": "section-3",
       "latin": "22.2 Colloquium Harleianum 12a–f (adapted)",
       "english": "Grammar",
@@ -57,42 +41,196 @@ const chapter = {
         {
           "t": "p",
           "text": "l a w y e r: quomodo dei volunt. r i c h f r i en d : quid nunc agis? l a w y e r: agebam, nunc autem vacat mihi. r i c h f r i en d : volo tibi iniungere administrationem meae actionis. eamus; ambula et ego tibi dabo quod agas. omnium enim bonorum dignus es."
-        },
-        {
-          "t": "p",
-          "text": "Vocabulary (in order of first appearance; words that appear more than once are in bold, and those in bold in the preceding vocabulary list are omitted) salvē ‘hello’ volō, velle, voluī, – ‘want’ salvus, salva, salvum ‘well’ iniungō, iniungere, iniūnxī, iniūnctum quōmodo ‘how’, ‘as’ (+ dative and accusative) ‘hand rēs tuae ‘your affairs’ (nominative over to’"
-        },
-        {
-          "t": "h",
-          "text": "plural) administrātiō, administrātiōnis (f.)"
-        },
-        {
-          "t": "p",
-          "text": "volunt ‘(they) want’ ‘management’ agēbam ‘I was doing things’ (imperfect āctiō, āctiōnis (f.) ‘court case’ tense of agō) quod agās ‘something for you to do’ autem ‘however’ (translate one word enim ‘for’ (in the sense of ‘because’; earlier than where it appears in translate one word earlier than Latin) where it appears in Latin) vacat mihi ‘I don’t have anything to do’ dignus, digna, dignum ‘worthy of’"
-        }
-      ]
-    },
-    {
-      "id": "section-4",
-      "latin": "22.3 Translate into Latin",
-      "english": "Grammar",
-      "kind": "commentary",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "marcus: Come with me in order to see Lucius. gaius: Why? marcus: He is ill. gaius: Let’s go. Where does he live? marcus: He lives here; this is his house. gaius: Let’s knock on the door. por ter : Hello! Whom are you seeking? marcus: We are seeking your master. We have heard that our friend Lucius is ill and we want to see him: is he awake? por ter : Lucius does not live here; my master’s name is Titus."
-        },
-        {
-          "t": "h",
-          "text": "PART III"
         }
       ]
     }
   ],
   "readings": [],
   "grammar": [],
-  "vocabulary": [],
-  "pensa": []
+  "vocabulary": [
+    {
+      "latin": "sī",
+      "english": "if",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "intrō, intrāre, intrāvī, intrātum",
+      "english": "enter",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "vīs",
+      "english": "you want",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "quō",
+      "english": "where",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ascendō, ascendere, ascendī, ascēnsum vīsitō, -āre, -āvī, -ātum",
+      "english": "go see",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "eum",
+      "english": "him",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "quot",
+      "english": "how many?",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "enim",
+      "english": "for",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "aegrōtō, -āre, -āvī, -ātum",
+      "english": "be ill",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dexter, dextra, dextrum",
+      "english": "right-hand",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "quandō",
+      "english": "when",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "intrā paucōs diēs",
+      "english": "a few days ago",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "a present where we would expect avēte",
+      "english": "hello",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "habitō, -āre, -āvī, -ātum",
+      "english": "live, dwell",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "nūntiō, nūntiāre, nūntiāvī, nūntiātum longē",
+      "english": "far off",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ambulō, -āre, -āvī, -ātum",
+      "english": "walk",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dēscēnsum",
+      "english": "go down",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "putō, putāre, putāvī, putātum",
+      "english": "think",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cum vēnerit",
+      "english": "when he comes",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "grātulor",
+      "english": "congratulate",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sīc",
+      "english": "thus, so",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "salvē",
+      "english": "hello",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "volō, velle, voluī, –",
+      "english": "want",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "salvus, salva, salvum",
+      "english": "well",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "iniungō, iniungere, iniūnxī, iniūnctum quōmodo",
+      "english": "how",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "your affairs",
+      "english": "(nominative over to",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "volunt",
+      "english": "(they) want",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "agēbam",
+      "english": "I was doing things",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "quod agās",
+      "english": "something for you to do",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "autem",
+      "english": "however",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "vacat mihi",
+      "english": "I don",
+      "group": "Vocābula"
+    }
+  ],
+  "pensa": [
+    {
+      "id": "translate-22",
+      "latinLabel": "22.3 TRANSLATE INTO LATIN",
+      "title": "22.3 Translate into Latin",
+      "instruction": "",
+      "type": "questions",
+      "items": [
+        {
+          "q": "gaius: Let’s knock on the door.",
+          "a": ""
+        },
+        {
+          "q": "Whom are you seeking?",
+          "a": ""
+        },
+        {
+          "q": "marcus: We are seeking your master.",
+          "a": ""
+        },
+        {
+          "q": "We have heard that our friend Lucius is ill and we want to see him: is he awake?",
+          "a": ""
+        }
+      ]
+    }
+  ]
 }
 
 export default chapter

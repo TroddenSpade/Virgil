@@ -20,23 +20,15 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "*ad librōs legendum becomes ad librōs legendōs ‘for the purpose of reading books’ (not ‘for books that have to be read’) (* is used to indicate a phrase that would not occur). *librum legendī causā becomes librī legendī causā ‘for the sake of reading a book’ (not"
-        },
-        {
-          "t": "h",
-          "text": "‘for a book that has to be read’)"
+          "text": "*ad librōs legendum becomes ad librōs legendōs ‘for the purpose of reading books’ (not ‘for books that have to be read’) (* is used to indicate a phrase that would not occur)."
         },
         {
           "t": "p",
-          "text": "*librōs legendō becomes librīs legendīs ‘by reading books’ (not ‘by having-to-be-read"
-        },
-        {
-          "t": "h",
-          "text": "books’)"
+          "text": "*librum legendī causā becomes librī legendī causā ‘for the sake of reading a book’ (not ‘for a book that has to be read’) *librōs legendō becomes librīs legendīs ‘by reading books’ (not ‘by having-to-be-read books’) When the gerundive is used this way it must be translated with an English gerund, not with the ‘must’ or ‘have to’ constructions that normally translate a gerundive."
         },
         {
           "t": "p",
-          "text": "When the gerundive is used this way it must be translated with an English gerund, not with the ‘must’ or ‘have to’ constructions that normally translate a gerundive. The infinitive when used as a gerund does not take this construction; there are no restrictions on the kinds of objects an infinitive can take."
+          "text": "The infinitive when used as a gerund does not take this construction; there are no restrictions on the kinds of objects an infinitive can take."
         }
       ]
     },
@@ -47,12 +39,8 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "10 The enemy placed a camp here 11 The king has come to Corinth for"
-        },
-        {
           "t": "p",
-          "text": "for the purpose of hindering our the purpose of encouraging the men. soldiers."
+          "text": "10 The enemy placed a camp here 11 The king has come to Corinth for for the purpose of hindering our the purpose of encouraging the men. soldiers."
         }
       ]
     },
@@ -63,12 +51,8 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "of Obligation"
-        },
-        {
           "t": "p",
-          "text": "This construction, known as ‘gerundive by attraction’, is not always easy to distinguish from the gerundive of obligation construction (chapters 41 and 45.2) – but it is essential to do so, as the two have very different meanings."
+          "text": "of Obligation This construction, known as ‘gerundive by attraction’, is not always easy to distinguish from the gerundive of obligation construction (chapters 41 and 45.2) – but it is essential to do so, as the two have very different meanings."
         },
         {
           "t": "p",
@@ -81,6 +65,18 @@ const chapter = {
         {
           "t": "p",
           "text": "vēnit ad dōna videnda: the form videnda is not nominative, so ‘He came for the purpose of seeing the gifts.’ urbs videnda est nōbīs: the form videnda is nominative, so ‘We must see the city.’ vēnit rēgis audiendī causā: the form audiendī is not nominative, so ‘He came for the sake of hearing the king.’ rēgēs audiendī erant nōbīs: the form audiendī is nominative, so ‘We had to hear the kings.’ vēnit ad videndum: the form videndum is not nominative, so ‘He came for the purpose of seeing.’ videndum est: the form videndum is nominative, so ‘One must see’, ‘It is necessary to see.’"
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "latin": "61.4 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "Verbs negō, negāre, negāvī, negātum ‘deny’ parcō, parcere, pepercī, parsūrus (+ dative) ‘spare’ pāreō, pārēre, pāruī, – (+ dative) ‘obey’ Nouns adulēscēns, adulēscentis, adulēscentium (m.) ‘young man’ aestās, aestātis (f.) ‘summer’ aetās, aetātis (f.) ‘age’ animus, animī (m.) ‘soul’ āra, ārae (f.) ‘altar’ arbor, arboris (f.) ‘tree’ cōpia, cōpiae (f.) ‘supply’, (in plural) ‘troops’ gaudium, gaudiī (n.) ‘joy’ nauta, nautae (m.) ‘sailor’ ōrātor, ōrātōris (m.) ‘speaker’ perīculum, perīculī (n.) ‘danger’ Adjectives aequus, aequa, aequum ‘even’, ‘fair’ albus, alba, album ‘white’ inīquus, inīqua, inīquum ‘uneven’, ‘unfair’ tōtus, tōta, tōtum ‘whole’ APPENDICES"
         }
       ]
     }
@@ -107,99 +103,129 @@ const chapter = {
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "negō, negāre, negāvī, negātum",
-      "english": "deny",
-      "group": "Verba"
+      "latin": "parum",
+      "english": "insufficiently",
+      "group": "Vocābula"
     },
     {
-      "latin": "parcō, parcere, pepercī, parsūrus (+ dative)",
-      "english": "spare",
-      "group": "Verba"
+      "latin": "vitiōsus, -a, -um",
+      "english": "bad",
+      "group": "Vocābula"
     },
     {
-      "latin": "pāreō, pārēre, pāruī, – (+ dative)",
-      "english": "obey",
-      "group": "Verba"
+      "latin": "iūdicō, -āre, -āvī, -ātum",
+      "english": "determine",
+      "group": "Vocābula"
     },
     {
-      "latin": "adulēscēns, adulēscentis, adulēscentium (m.)",
-      "english": "young man",
-      "group": "Nōmina"
+      "latin": "collocō, -āre, -āvī, -ātum",
+      "english": "place",
+      "group": "Vocābula"
     },
     {
-      "latin": "aestās, aestātis (f.)",
-      "english": "summer",
-      "group": "Nōmina"
+      "latin": "struō, struere, strūxī, strūctum tunc",
+      "english": "then",
+      "group": "Vocābula"
     },
     {
-      "latin": "aetās, aetātis (f.)",
-      "english": "age",
-      "group": "Nōmina"
+      "latin": "firmus, firma, firmum",
+      "english": "sound",
+      "group": "Vocābula"
     },
     {
-      "latin": "animus, animī (m.)",
-      "english": "soul",
-      "group": "Nōmina"
+      "latin": "probō, -āre, -āvī, -ātum",
+      "english": "approve",
+      "group": "Vocābula"
     },
     {
-      "latin": "āra, ārae (f.)",
-      "english": "altar",
-      "group": "Nōmina"
+      "latin": "quōrsum",
+      "english": "to which result?",
+      "group": "Vocābula"
     },
     {
-      "latin": "arbor, arboris (f.)",
-      "english": "tree",
-      "group": "Nōmina"
+      "latin": "falsus, falsa, falsum",
+      "english": "false",
+      "group": "Vocābula"
     },
     {
-      "latin": "cōpia, cōpiae (f.)",
-      "english": "supply",
-      "group": "Nōmina"
+      "latin": "spēro, spērāre, spērāvī, spērātum",
+      "english": "hope",
+      "group": "Vocābula"
     },
     {
-      "latin": "(in plural)",
-      "english": "troops",
-      "group": "Nōmina"
+      "latin": "ēvādō, ēvādere, ēvāsī, ēvāsum",
+      "english": "end up",
+      "group": "Vocābula"
     },
     {
-      "latin": "gaudium, gaudiī (n.)",
-      "english": "joy",
-      "group": "Nōmina"
+      "latin": "iam",
+      "english": "already",
+      "group": "Vocābula"
     },
     {
-      "latin": "nauta, nautae (m.)",
-      "english": "sailor",
-      "group": "Nōmina"
+      "latin": "āmoveō, āmovēre, āmōvī, āmōtum quoiquam",
+      "english": "to any one",
+      "group": "Vocābula"
     },
     {
-      "latin": "ōrātor, ōrātōris (m.)",
-      "english": "speaker",
-      "group": "Nōmina"
+      "latin": "aegrē",
+      "english": "badly",
+      "group": "Vocābula"
     },
     {
-      "latin": "perīculum, perīculī (n.)",
-      "english": "danger",
-      "group": "Nōmina"
+      "latin": "fortasse",
+      "english": "perhaps",
+      "group": "Vocābula"
     },
     {
-      "latin": "aequus, aequa, aequum",
-      "english": "even, fair",
-      "group": "Adiectīva"
+      "latin": "necopīnāns, gen. necopīnantis disturbō, -āre, -āvī, -ātum",
+      "english": "disrupt",
+      "group": "Vocābula"
     },
     {
-      "latin": "albus, alba, album",
-      "english": "white",
-      "group": "Adiectīva"
+      "latin": "amārus, -a, -um",
+      "english": "bitter",
+      "group": "Vocābula"
     },
     {
-      "latin": "inīquus, inīqua, inīquum",
-      "english": "uneven, unfair",
-      "group": "Adiectīva"
+      "latin": "ōdī, ōdisse, ōsum",
+      "english": "hate",
+      "group": "Vocābula"
     },
     {
-      "latin": "tōtus, tōta, tōtum",
-      "english": "whole",
-      "group": "Adiectīva"
+      "latin": "vidēlicet",
+      "english": "indeed",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "peregrīnus, -a, -um",
+      "english": "foreign",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "texō, texere, texuī, textum",
+      "english": "weave",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "diīs mānibus",
+      "english": "to the divine spirits",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sacer, sacra, sacrum",
+      "english": "sacred to",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "fīliābusque",
+      "english": "sons and daughters",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "kārus = cārus deīs deābusque",
+      "english": "gods and (understand hoc with fēcit) goddesses",
+      "group": "Vocābula"
     }
   ],
   "pensa": [
@@ -645,23 +671,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "19 (adapted): how to find out which bricks are strongest (first century bc ). De ipsa autem testa, utrum sit optima an vitiosa ad structuram, statim nemo potest iudicare, sed postquam in tempestatibus et aestate in tecto collocata est, tunc, si est firma, probatur; nam testa quae non erit facta ex creta bona aut parum erit cocta, ibi se ostendet esse vitiosam gelis et pruina tacta. ergo testa quae non in tectis potest pati laborem, ea non potest in structurae oneri ferendo esse firma. maxime igitur ex veteribus tegulis structa tecta et ex vetere testa structi parietes firmitatem poterunt habere. Vocabulary testa, testae (f.) ‘brick’ parum ‘insufficiently’ vitiōsus, -a, -um ‘bad’, ‘flawed’ gelum, gelī (n.) ‘frost’ strūctūra, strūctūrae (f.) ‘building’ pruīna, pruīnae (f.) ‘winter weather’ iūdicō, -āre, -āvī, -ātum ‘determine’ labor, labōris (m.) ‘exposure’ tempestās, tempestātis (f.) ‘bad weather’ onus, oneris (n.) ‘weight’ aestās, aestātis (f.) ‘summer heat’ tēgula, tēgulae (f.) ‘roof tile’ collocō, -āre, -āvī, -ātum ‘place’ struō, struere, strūxī, strūctum tunc ‘then’ ‘construct’ firmus, firma, firmum ‘sound’ pariēs, parietis (m.) ‘wall’ probō, -āre, -āvī, -ātum ‘approve’ firmitās, firmitātis (f.) ‘strength’ crēta, crētae (f.) ‘clay’",
-          "a": ""
-        },
-        {
-          "q": "2 Terence, Andria 175–80 (adapted): a slave worries about what his master is up to (second century bc ). Semper verebar quorsum eri lenitas evaderet: qui postquam audiverat non datum iri uxorem filio suo, numquam quoiquam nostrum verbum dixit neque id aegre tulit. fortasse voluit nos sic necopinantes duci falso gaudio, sperantes, iam amoto metu capi, ne esset spatium cogitandi ad disturbandas nuptias. Vocabulary quōrsum ‘to which result?’ falsus, falsa, falsum ‘false’ erus, erī (m.) ‘master’ gaudium, gaudiī (n.) ‘joy’ lēnitās, lēnitātis (f.) ‘mildness’ spēro, spērāre, spērāvī, spērātum ‘hope’ ēvādō, ēvādere, ēvāsī, ēvāsum ‘end up’ iam ‘already’ uxor, uxōris (f.) ‘wife’ āmoveō, āmovēre, āmōvī, āmōtum quoiquam ‘to any one’ ‘remove’ aegrē ‘badly’ spatium, spatiī (n.) (+ genitive) fortasse ‘perhaps’ ‘opportunity for’ necopīnāns, gen. necopīnantis disturbō, -āre, -āvī, -ātum ‘disrupt’ ‘unsuspecting’ nuptiae, nuptiārum (f. plural) ‘wedding’ 412 Gerunds II",
-          "a": ""
-        },
-        {
-          "q": "3 St Augustine, Confessions 1.",
-          "a": ""
-        },
-        {
-          "q": "14 (adapted): as a child, Augustine hated learning Greek (fourth century ad). Cur ergo graecas etiam litteras oderam talia cantantes? nam Homerus peritus est texere tales fabulas, sed mihi tamen amarus erat puero. credo etiam graecis pueris Vergilium ita esse, cum eum sic discere coguntur ut ego Homerum. videlicet difficultas discendae linguae peregrinae quasi felle aspergebat omnes suavitates graecarum fabularum. Vocabulary litterae, litterārum (f. plural) ‘literature’ amārus, -a, -um ‘bitter’, ‘unpleasant’ ōdī, ōdisse, ōsum ‘hate’ (perfect in form, ut (without subjunctive) ‘as’ but present in meaning) vidēlicet ‘indeed’ cantō, -āre, -āvī, -ātum (+ accusative) difficultās, difficultātis (f.) ‘difficulty’ ‘sing of’ peregrīnus, -a, -um ‘foreign’ perītus, -a, -um (+ infinitive) ‘skilled in’ fel, fellis (n.) ‘bile’, ‘bitterness’ texō, texere, texuī, textum ‘weave’, aspergō, aspergere, aspersī, aspersum ‘compose’ ‘sprinkle’ fābula, fābulae (f.) ‘story’ suāvitās, suāvitātis (f.) ‘sweetness’",
-          "a": ""
-        },
-        {
-          "q": "4 Funerary inscription in the Metropolitan Museum of Art, New York: a freedwoman mourns her son (second century ad). See the cover of this volume. Diis manibus. sacrum P. Sextilio P. lib. Fortunato, qui vixit annos XXII mensib. III. Sextilia P. lib. Isias filio karissimo fecit et sibi et suis et libertis libertabusque posterisque eorum. Vocabulary diīs mānibus ‘to the divine spirits’ suī, suōrum (m.) ‘his/her own people’, sacer, sacra, sacrum ‘sacred to’ ‘his/her relatives’ P. lib. (= Pūblī lībertō or Pūblī lībertus, lībertī (m.) ‘freedman’ lībertae) ‘freedman of Publius’ or līberta, lībertae (f.) ‘freedwoman’ (the ‘freedwoman of Publius’ dative/ablative plural ending -ābus (designation inserted between is sometimes used in the first a freedman’s second and third declension on feminine words that names or a freedwoman’s first would otherwise have the same and second names) ending as masculine ones: fīliīs mēnsib. (= mēnsibus) ‘for months’ fīliābusque ‘sons and daughters’, kārus = cārus deīs deābusque ‘gods and (understand hoc with fēcit) goddesses’) posterī, posterōrum (m.) ‘offspring’",
+          "q": "19 (adapted): how to find out which bricks are strongest (first century bc ). De ipsa autem testa, utrum sit optima an vitiosa ad structuram, statim nemo potest iudicare, sed postquam in tempestatibus et aestate in tecto collocata est, tunc, si est firma, probatur; nam testa quae non erit facta ex creta bona aut parum erit cocta, ibi se ostendet esse vitiosam gelis et pruina tacta. ergo testa quae non in tectis potest pati laborem, ea non potest in structurae oneri ferendo esse firma. maxime igitur ex veteribus tegulis structa tecta et ex vetere testa structi parietes firmitatem poterunt habere.",
           "a": ""
         }
       ],

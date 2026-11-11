@@ -2151,36 +2151,8 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "sum third person: 65"
-        },
-        {
-          "t": "example",
-          "text": "conjugation of time, expressions of: 35"
-        },
-        {
           "t": "p",
-          "text": "future: 5.3 transitive verbs: 41.2, 65 imperative: 10.3 trēs, declension of: 55.1 imperfect indicative: 39.2 tū, declension and use of: 12.2 imperfect subjunctive: 15.3 infinitives: 19.2 ūnus, declension of: 55.1 participle: 24.1 perfect indicative: 5.3 value, expressions of: 58.2 perfect subjunctive: 46.1 verbs: 1, 63.1–2, et passim pluperfect indicative: 44.1 vocabulary format: 3.4 pluperfect subjunctive: 46.1 vocative case: 2.2, 65 present indicative: 5.3 voice: 65 present subjunctive: 13.1 volō"
-        },
-        {
-          "t": "example",
-          "text": "use of: 5.3, 19.1 conjugation of 37.1"
-        },
-        {
-          "t": "h",
-          "text": "superlative: 65 future indicative: 25.3"
-        },
-        {
-          "t": "p",
-          "text": "of adjectives: 38, 40.1 gerundive: 41.1 of adverbs: 43.4–5 imperfect indicative: 39.2 supine: 4.2 imperfect subjunctive: 25.3 syllable: 65, 66 infinitives: 25.3 syntax: 65 participles: 25.3"
-        },
-        {
-          "t": "h",
-          "text": "perfect indicative: 25.3"
-        },
-        {
-          "t": "p",
-          "text": "temporal clauses: 47, 65 perfect subjunctive: 46.1 tenses: 4, 65 pluperfect indicative: 44.1 third conjugation pluperfect subjunctive: 46.1 active: 1.1, 6.1, 17.1 present indicative: 25.3 deponent: 27.1 present subjunctive: 25.3 future perfect: 44.2 use of: 25.3, 28.3–4, 37 gerundive: 41.1 vōs, declension and use of: 12.2 imperfect indicative: 39.1 vowels: 65 passive: 32.2 perfect subjunctive: 46.1 word order: 1.3, 2.1, 57.2"
+          "text": "sum third person: 65 conjugation of time, expressions of: 35 future: 5.3 transitive verbs: 41.2, 65 imperative: 10.3 trēs, declension of: 55.1 imperfect indicative: 39.2 tū, declension and use of: 12.2 imperfect subjunctive: 15.3 infinitives: 19.2 ūnus, declension of: 55.1 participle: 24.1 perfect indicative: 5.3 value, expressions of: 58.2 perfect subjunctive: 46.1 verbs: 1, 63.1–2, et passim pluperfect indicative: 44.1 vocabulary format: 3.4 pluperfect subjunctive: 46.1 vocative case: 2.2, 65 present indicative: 5.3 voice: 65 present subjunctive: 13.1 volō use of: 5.3, 19.1 conjugation of 37.1 superlative: 65 future indicative: 25.3 of adjectives: 38, 40.1 gerundive: 41.1 of adverbs: 43.4–5 imperfect indicative: 39.2 supine: 4.2 imperfect subjunctive: 25.3 syllable: 65, 66 infinitives: 25.3 syntax: 65 participles: 25.3 perfect indicative: 25.3 temporal clauses: 47, 65 perfect subjunctive: 46.1 tenses: 4, 65 pluperfect indicative: 44.1 third conjugation pluperfect subjunctive: 46.1 active: 1.1, 6.1, 17.1 present indicative: 25.3 deponent: 27.1 present subjunctive: 25.3 future perfect: 44.2 use of: 25.3, 28.3–4, 37 gerundive: 41.1 vōs, declension and use of: 12.2 imperfect indicative: 39.1 vowels: 65 passive: 32.2 perfect subjunctive: 46.1 word order: 1.3, 2.1, 57.2"
         },
         {
           "t": "h",
@@ -2223,12 +2195,8 @@ const chapter = {
           "text": "H 5a–d: 15"
         },
         {
-          "t": "h",
-          "text": "Caesar, BG 1.1.1–2: 32 H 6a–c: 16 Catullus H 6d–f: 17"
-        },
-        {
           "t": "p",
-          "text": "5: 58 H 7d–e: 25 7: 54 H 8a–9e: 39 13.1–8: 51 H 12a–f: 22 14: 52 H 13a–b: 12 49: 40 H 21g–h: 24 85: 54 H 22: 24"
+          "text": "Caesar, BG 1.1.1–2: 32 H 6a–c: 16 Catullus H 6d–f: 17 5: 58 H 7d–e: 25 7: 54 H 8a–9e: 39 13.1–8: 51 H 12a–f: 22 14: 52 H 13a–b: 12 49: 40 H 21g–h: 24 85: 54 H 22: 24"
         },
         {
           "t": "h",
@@ -2244,11 +2212,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "ME 10a–u: 36 John: see Bible ME 11a–12d: 59 Mp 4a–g: 19 Livy, Ab urbe condita Mp 6a–b: 20 1.9.1–2: 56 Mp 7a–b: 54 1.21.6: 55 Mp 11a–12d: 28 1.23.88: 43 Mp 13b–f: 58 1.51.3–4: 20 Mp 13g–15a: 27 Luke: see Bible Mp 20a–f: 11 S 3a–6a: 32 Martial S 7a–8c: 57 2.20: 56 S 9–10: 45 3.8: 55 S 13–15: 47 3.9: 40 S 16–17: 43 3.56: 46 S 18a–19d: 21 3.61: 40 S 38a–d: 57 5.82: 39"
-        },
-        {
-          "t": "h",
-          "text": "6.30: 50"
+          "text": "ME 10a–u: 36 John: see Bible ME 11a–12d: 59 Mp 4a–g: 19 Livy, Ab urbe condita Mp 6a–b: 20 1.9.1–2: 56 Mp 7a–b: 54 1.21.6: 55 Mp 11a–12d: 28 1.23.88: 43 Mp 13b–f: 58 1.51.3–4: 20 Mp 13g–15a: 27 Luke: see Bible Mp 20a–f: 11 S 3a–6a: 32 Martial S 7a–8c: 57 2.20: 56 S 9–10: 45 3.8: 55 S 13–15: 47 3.9: 40 S 16–17: 43 3.56: 46 S 18a–19d: 21 3.61: 40 S 38a–d: 57 5.82: 39 6.30: 50"
         },
         {
           "t": "h",
@@ -2256,31 +2220,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "CIL iv.429: 49 7.85: 43 CIL iv.1136: 35 8.10: 58 CIL iv.1190: 35 8.35: 40 CIL iv.1679: 58 8.40: 52 CIL iv.1842: 57 9.53: 45 CIL iv.3640: 49 9.77: 54 CIL iv.3881: 35 9.81: 37 CIL iv.3884: 35 11.50: 56 CIL iv.7994: 35 12.12: 47 CIL iv.8364: 52 12.46: 58"
-        },
-        {
-          "t": "h",
-          "text": "12.73: 44"
-        },
-        {
-          "t": "h",
-          "text": "inscriptions 13.45: 50"
-        },
-        {
-          "t": "h",
-          "text": "512 Index of Latin Passages Included"
+          "text": "CIL iv.429: 49 7.85: 43 CIL iv.1136: 35 8.10: 58 CIL iv.1190: 35 8.35: 40 CIL iv.1679: 58 8.40: 52 CIL iv.1842: 57 9.53: 45 CIL iv.3640: 49 9.77: 54 CIL iv.3881: 35 9.81: 37 CIL iv.3884: 35 11.50: 56 CIL iv.7994: 35 12.12: 47 CIL iv.8364: 52 12.46: 58 12.73: 44 inscriptions 13.45: 50 CIL vi.889: 32 13.76: 38 CIL vi.1136: 38 14.6: 47 CIL vii.273: 57 14.12: 54 CIL vii.451: 27 14.42: 32 RIB 10: 49 14.49: 43 RIB 164: 25 Spectac."
         },
         {
           "t": "p",
-          "text": "CIL vi.889: 32 13.76: 38 CIL vi.1136: 38 14.6: 47 CIL vii.273: 57 14.12: 54 CIL vii.451: 27 14.42: 32 RIB 10: 49 14.49: 43 RIB 164: 25 Spectac. 36: 40 RIB 363: 49 mosaic RIB 369: 49 CIL x .877: 14 RIB 560: 49 RIB 594: 49 New Testament: see Bible RIB 934: 49 RIB 959: 49 papyrus P.Oxy. vii. RIB 1064: 29 1022: 49"
-        },
-        {
-          "t": "h",
-          "text": "songs Vindolanda tablets"
-        },
-        {
-          "t": "p",
-          "text": "Adeste fideles: 24 248: 46 Gaudeamus igitur: 47 250: 28 Pange lingua: 34 291: 38 Puer nobis nascitur: 32 628: 38"
+          "text": "36: 40 RIB 363: 49 mosaic RIB 369: 49 CIL x .877: 14 RIB 560: 49 RIB 594: 49 New Testament: see Bible RIB 934: 49 RIB 959: 49 papyrus P.Oxy. vii. RIB 1064: 29 1022: 49 512 Index of Latin Passages Included songs Vindolanda tablets Adeste fideles: 24 248: 46 Gaudeamus igitur: 47 250: 28 Pange lingua: 34 291: 38 Puer nobis nascitur: 32 628: 38"
         },
         {
           "t": "h",
@@ -2292,11 +2236,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Adelphi 210–14: 60 1.34–8: 36 Adelphi 866–80: 60 1.39–49: 42 Andria 175–80: 61 1.50–9: 48 Andria 252–7: 41 1.60–75: 53 Heauton timorumenos 1.76–91: 59"
-        },
-        {
-          "t": "h",
-          "text": "322–6: 41 Vitruvius, On Architecture 2.8.19: 61"
+          "text": "Adelphi 210–14: 60 1.34–8: 36 Adelphi 866–80: 60 1.39–49: 42 Andria 175–80: 61 1.50–9: 48 Andria 252–7: 41 1.60–75: 53 Heauton timorumenos 1.76–91: 59 322–6: 41 Vitruvius, On Architecture 2.8.19: 61"
         }
       ]
     }

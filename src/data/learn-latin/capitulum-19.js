@@ -99,12 +99,8 @@ const chapter = {
           "text": "Original sentence Indirect speech Indirect speech"
         },
         {
-          "t": "h",
-          "text": "after present tense after past tense"
-        },
-        {
           "t": "p",
-          "text": "I ate a fish. He says he ate a fish. He said he had eaten a fish. I eat fish. He says he eats fish. He said he ate fish. I am eating a fish. He says he is eating a fish. He said he was eating a fish. I shall eat a fish. He says he will eat a fish. He said he would eat a fish."
+          "text": "after present tense after past tense I ate a fish. He says he ate a fish. He said he had eaten a fish. I eat fish. He says he eats fish. He said he ate fish. I am eating a fish. He says he is eating a fish. He said he was eating a fish. I shall eat a fish. He says he will eat a fish. He said he would eat a fish."
         },
         {
           "t": "p",
@@ -119,50 +115,87 @@ const chapter = {
           "text": "‘I said that that man would love you.’ (English uses ‘would’ in the subordinate verb, but Latin uses a future.) Therefore when translating in either direction it is usually necessary to adjust the tenses of the subordinate verb(s) if the main verb is in a past tense."
         }
       ]
+    },
+    {
+      "id": "section-5",
+      "latin": "19.6 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "Verbs vocō, vocāre, vocāvī, vocātum ‘call’ Nouns caput, capitis (n.) ‘head’ homō, hominis (m.) ‘human being’ laus, laudis (f.) ‘praise’ Adjectives longus, longa, longum ‘long’ parvus, parva, parvum ‘small’ vērus, vēra, vērum ‘true’ Adverbs diū ‘for a long time’"
+        }
+      ]
     }
   ],
   "readings": [],
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "vocō, vocāre, vocāvī, vocātum",
-      "english": "call",
-      "group": "Verba"
+      "latin": "on",
+      "english": "negōtium, negōtiī (n.)",
+      "group": "Vocābula"
     },
     {
-      "latin": "caput, capitis (n.)",
-      "english": "head",
-      "group": "Nōmina"
+      "latin": "vādō, vādere, –, –",
+      "english": "go",
+      "group": "Vocābula"
     },
     {
-      "latin": "homō, hominis (m.)",
-      "english": "human being",
-      "group": "Nōmina"
+      "latin": "nūntiō, nūntiāre, nūntiāvī, nūntiātum affer",
+      "english": "bring!",
+      "group": "Vocābula"
     },
     {
-      "latin": "laus, laudis (f.)",
-      "english": "praise",
-      "group": "Nōmina"
+      "latin": "ad faciem",
+      "english": "for washing my face",
+      "group": "Vocābula"
     },
     {
-      "latin": "longus, longa, longum",
-      "english": "long",
-      "group": "Adiectīva"
+      "latin": "rogō, rogāre, rogāvī, rogātum",
+      "english": "invite tunica, tunicae (f.)",
+      "group": "Vocābula"
     },
     {
-      "latin": "parvus, parva, parvum",
-      "english": "small",
-      "group": "Adiectīva"
+      "latin": "inside",
+      "english": "cingō, cingere, cīnxī, cīnctum",
+      "group": "Vocābula"
     },
     {
-      "latin": "vērus, vēra, vērum",
-      "english": "true",
-      "group": "Adiectīva"
+      "latin": "omnia rēctē",
+      "english": "is everything okay?",
+      "group": "Vocābula"
     },
     {
-      "latin": "diū",
-      "english": "for a long time",
-      "group": "Adverbia"
+      "latin": "belt on",
+      "english": "etiam",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "yes",
+      "english": "toga, togae (f.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "toga",
+      "english": "dominus, dominī (m.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sir",
+      "english": "operiō, operīre, operuī, opertum",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "Troiānus, Troiāna, Troiānum",
+      "english": "Trojan",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "antīquus, antīqua, antīquum",
+      "english": "old",
+      "group": "Vocābula"
     }
   ],
   "pensa": [
@@ -719,11 +752,44 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "21 Did she say that the enemies’ the forest. camp had been without water? Colloquium Montepessulanum, 4a–g (adapted): an early-morning messenger (probably third century ad ). l u c i u s’ s l a v e : quis pulsat ostium? g a i u s’ s l a v e (outside): nuntius a Gaio ad Lucium. si hic est, nuntia me. l u c i u s’ s l a v e (to Lucius): venit a Gaio. l u c i u s : roga illum. (to Gaius’ slave) quid est, puer? omnia recte? g a i u s’ s l a v e : etiam, domine. misit tibi epistulam signatam. l u c i u s : da, legam. . . . scripsit mihi de negotio. vade, puer, et nuntia me venturum esse. (to his own slaves) date mihi calceamenta, affer aquam ad faciem, da tunicam, cinge me, da togam, operi me, da paenulam et anulos. cur stas, amice? tolle haec et veni mecum. festino ad amicum antiquum, senatorem populi Romani, qui a Romulo deducit genus, a Troianis Aeneadis. Vocabulary (in order of first appearance; words that appear more than once are in bold) pulsō, pulsāre, pulsāvī, pulsātum ‘knock signō, signāre, signāvī, signātum ‘seal’ on’ negōtium, negōtiī (n.) ‘business’ ōstium, ōstiī (n.) ‘door’ vādō, vādere, –, – ‘go’ nūntius, nūntiī (m.) ‘messenger’ calceāmentum, calceāmentī (n.) ‘shoe’ nūntiō, nūntiāre, nūntiāvī, nūntiātum affer ‘bring!’ (imperative singular) ‘announce’ ad faciem ‘for washing my face’ rogō, rogāre, rogāvī, rogātum ‘invite tunica, tunicae (f.) ‘tunic’ inside’ cingō, cingere, cīnxī, cīnctum ‘put the omnia rēctē ‘is everything okay?’ belt on’ etiam ‘yes’ toga, togae (f.) ‘toga’ dominus, dominī (m.) ‘sir’ operiō, operīre, operuī, opertum ‘drape’ paenula, paenulae (f.) ‘cape’ populus, populī (m.) ‘people’ ānulus, ānulī (m.) ‘ring’ Rōmulus, Rōmulī (m.) name of the tollō, tollere, sustulī, sublātum legendary founder of Rome ‘pick up’ dēdūcō (like dūcō) ‘trace’ festīnō, festīnāre, festīnāvī, festīnātum genus, generis (n.) ‘ancestry’ ‘hasten to the aid of’, ‘hasten to help’ Troiānus, Troiāna, Troiānum ‘Trojan’ antīquus, antīqua, antīquum ‘old’ Aeneadae, Aeneadārum (m. plural) senātor, senātōris (m.) ‘senator’ ‘descendants of Aeneas’",
+          "q": "21 Did she say that the enemies’ the forest. camp had been without water? Colloquium Montepessulanum, 4a–g (adapted): an early-morning messenger (probably third century ad ). l u c i u s’ s l a v e : quis pulsat ostium? g a i u s’ s l a v e (outside): nuntius a Gaio ad Lucium. si hic est, nuntia me. l u c i u s’ s l a v e (to Lucius): venit a Gaio. l u c i u s : roga illum. (to Gaius’ slave) quid est, puer? omnia recte? g a i u s’ s l a v e : etiam, domine. misit tibi epistulam signatam. l u c i u s : da, legam. . . . scripsit mihi de negotio. vade, puer, et nuntia me venturum esse. (to his own slaves) date mihi calceamenta, affer aquam ad faciem, da tunicam, cinge me, da togam, operi me, da paenulam et anulos. cur stas, amice? tolle haec et veni mecum. festino ad amicum antiquum, senatorem populi Romani, qui a Romulo deducit genus, a Troianis Aeneadis.",
           "a": ""
         }
       ],
       "id": "practice-19-g"
+    },
+    {
+      "id": "translate-19",
+      "latinLabel": "TRANSLATE INTO LATIN",
+      "title": "Translate into Latin",
+      "instruction": "",
+      "type": "questions",
+      "items": [
+        {
+          "q": "l u c i u s’ s l a v e : quis pulsat ostium?",
+          "a": ""
+        },
+        {
+          "q": "g a i u s’ s l a v e (outside): nuntius a Gaio ad Lucium.",
+          "a": ""
+        },
+        {
+          "q": "l u c i u s’ s l a v e (to Lucius): venit a Gaio.",
+          "a": ""
+        },
+        {
+          "q": "l u c i u s : roga illum.",
+          "a": ""
+        },
+        {
+          "q": "g a i u s’ s l a v e : etiam, domine.",
+          "a": ""
+        },
+        {
+          "q": "l u c i u s : da, legam.",
+          "a": ""
+        }
+      ]
     }
   ]
 }

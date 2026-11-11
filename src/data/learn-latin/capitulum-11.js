@@ -64,15 +64,7 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "How a Roman might appeal to a neglectful friend (second or third century ad ): I ad fratrem et dic ei: ‘Quid tibi fecimus, ut neglegas nos? te diligimus, te amamus, per deum, per caelum, per terram. et ipse hoc scis, quoniam amicus noster es.’ Vocabulary (in order of first appearance; words that appear more than once are in bold)"
-        },
-        {
-          "t": "h",
-          "text": "frātrem ‘brother’ (accusative) (here nōs ‘us’ (accusative)"
-        },
-        {
-          "t": "p",
-          "text": "probably used metaphorically of tē ‘you’ (accusative) a friend) dīligō, dīligere, dīlēxī, dīlēctum ‘like’ eī ‘to him’ per (+ accusative) ‘by’ quid ‘what?’ (accusative) caelum, caelī (n.) ‘heaven’ tibi ‘to you’ terra, terrae (f.) ‘earth’ faciō, facere, fēcī, factum ‘do’ ipse ‘yourself’ (nominative) ut ‘so that’ scīs ‘you know’ neglegās ‘you neglect’ (subjunctive) quoniam ‘since’"
+          "text": "How a Roman might appeal to a neglectful friend (second or third century ad ): I ad fratrem et dic ei: ‘Quid tibi fecimus, ut neglegas nos? te diligimus, te amamus, per deum, per caelum, per terram. et ipse hoc scis, quoniam amicus noster es.’"
         }
       ]
     },
@@ -85,18 +77,6 @@ const chapter = {
         {
           "t": "p",
           "text": "Winning belief by taking an oath (probably third or fourth century ad ): Dixit mihi, ‘Si periurus non es, iura mihi.’ et iuravi simpliciter, et non periuravi: ‘per deum optimum, per deum maximum, sic mihi sit deus propitius: periurus in hoc sacramento non inveniar.’ tunc mihi credidit."
-        },
-        {
-          "t": "p",
-          "text": "Vocabulary (in order of first appearance; words that appear more than once are in bold, and those in bold in the preceding vocabulary list are omitted) mihi ‘to me’, ‘for me’ (dative) sit ‘may (he) be’ (third person singular sī ‘if’ verb in the subjunctive) periūrus, -a, -um ‘perjured’ (swearing propitius, propitia, propitium falsely) ‘favourable’ iūrō, iūrāre, iūrāvī, iūrātum ‘swear’ sacrāmentum, sacrāmentī (n.) ‘oath’ simpliciter ‘frankly’ inveniar ‘I shall be found’ (future periūrō, periūrāre, periūrāvī, passive) periūrātum ‘swear falsely’ tunc ‘then’ optimus, optima, optimum ‘best’ crēdō, crēdere, crēdidī, crēditum maximus, maxima, maximum ‘greatest’ ‘believe’ (takes object in the dative) sīc ‘thus’ (i.e."
-        },
-        {
-          "t": "h",
-          "text": "only if I am telling the"
-        },
-        {
-          "t": "h",
-          "text": "truth)"
         }
       ]
     },
@@ -113,38 +93,6 @@ const chapter = {
         {
           "t": "p",
           "text": "l u c i u s : duc te, quaere cui faeneravisti: ego enim nihil tuum habeo. m a r c u s : iura mihi. l u c i u s : iurabo ubi velis. m a r c u s : eamus. iura in templo. l u c i u s : per deum hunc, nihil mihi dedisti. m a r c u s : modo bene."
-        },
-        {
-          "t": "p",
-          "text": "Vocabulary (in order of first appearance; words that appear more than once are in bold, and those in bold in the preceding vocabulary lists are omitted) nōnne = nōn + -ne tibi ‘you’ (dative) quī ‘who’ (nominative) fraudātor, fraudātōris (m.) ‘cheater’ accēdēns ‘approaching’ (nominative) cognōscō, cognōscere, cognōvī, ergō ‘therefore’ (translate one word cognitum ‘recognize’ earlier than where it appears in mē ‘me’ (accusative) Latin) dūc tē ‘get out of here!’ (literally ‘lead"
-        },
-        {
-          "t": "h",
-          "text": "salūtō, salūtāre, salūtāvī, salūtātum yourself [away]’)"
-        },
-        {
-          "t": "h",
-          "text": "‘greet’ quaerō, quaerere, quaesīvī, quaesītum"
-        },
-        {
-          "t": "example",
-          "text": "avē ‘hello’ ‘find out’\npaterfamiliās ‘sir’ (literally ‘master of cui ‘to whom’ (dative)"
-        },
-        {
-          "t": "h",
-          "text": "a household’) ego ‘I’ (nominative)"
-        },
-        {
-          "t": "p",
-          "text": "accipiō, accipere, accēpī, acceptum enim ‘for’ (in the sense of ‘because’;"
-        },
-        {
-          "t": "h",
-          "text": "‘receive’ translate one word earlier than"
-        },
-        {
-          "t": "example",
-          "text": "quam ‘which’ (accusative) where it appears in Latin) tam diū ‘for so long’ nihil (n.) ‘nothing’ dēbeō, dēbēre, dēbuī, dēbitum ‘owe’ tuus can also mean ‘of yours’\nquid ‘what?’ (accusative) velīs ‘you may wish’ (subjunctive) īnsānīs ‘you are insane’\neāmus ‘let’s go!’ (subjunctive) faenerō, faenerāre, faenerāvī, templum, templī (n.) ‘temple’\nfaenerātum ‘lend’ modo bene ‘very well’"
         }
       ]
     },
@@ -159,52 +107,306 @@ const chapter = {
           "text": "The end of a Roman’s day (probably third century ad): marcus: nunc sero est; eamus domum. marcus: domina ubi est? iulia: hic sum. marcus: habemus quid cenare? iulia: habemus omnia. marcus: impone mensam, da panem, praecide caseum, da poma . . . quot horae sunt noctis? iulia: nunc tres. marcus: pone matellam et tolle lucernam. dormire volo, ut mane vigilem."
         }
       ]
-    },
-    {
-      "id": "section-6",
-      "latin": "11.5 Translate into Latin",
-      "english": "Grammar",
-      "kind": "commentary",
-      "blocks": [
-        {
-          "t": "h",
-          "text": "Vocabulary"
-        },
-        {
-          "t": "example",
-          "text": "sērō ‘late’ cāseus, cāseī (m.) ‘cheese’\neāmus ‘let’s go’ (subjunctive) pōmum, pōmī (n.) ‘fruit’\ndomum ‘(to) home’\nquot ‘how many?’ domina, dominae (f.) ‘mistress of the hōra, hōrae (f.) ‘hour’1 house’ nox, noctis, gen. pl. noctium (f.) ‘night’\nquid ‘something’ (accusative) trēs ‘three’ cēnō, cēnāre, cēnāvī, cēnātum ‘eat for pōnō can also mean ‘set out’"
-        },
-        {
-          "t": "h",
-          "text": "dinner’ matella, matellae (f.) ‘chamber pot’2"
-        },
-        {
-          "t": "example",
-          "text": "omnia ‘everything’ (n. plural tollō, tollere, sustulī, sublātum ‘remove’ accusative) lucerna, lucernae (f.) ‘lantern’ impōnō (like pōnō) ‘set up’ dormiō, dormīre, dormīvī, dormītum mēnsa, mēnsae (f.) ‘table’ ‘sleep’\npānem ‘bread’ (accusative) volō, velle, voluī, – ‘want’ praecīdō, praecīdere, praecīdī, ut māne vigilem ‘so that I can wake up praecīsum ‘cut up’ in the morning’"
-        },
-        {
-          "t": "p",
-          "text": "Use vocabulary and forms from the passages above as well as the words you already know."
-        },
-        {
-          "t": "p",
-          "text": "‘What have you done to that man, so that he neglects you?’ ‘I have done nothing to him.’ ‘Swear to me, in the temple.’ ‘I shall swear: by this god, by the greatest god, by heaven, by earth, I have done nothing to him.’ ‘Are you perjured?’ ‘I have not sworn falsely: see, the god knows, since he has received my oath.’ ‘Now I shall believe you.’ The Romans calculated time on a system whereby the hours of daylight and the hours of darkness were each divided into twelve equal hours; the first hour of the night would be at sunset and the sixth at our midnight, so the third might have been around our 9 pm, depending on the season."
-        },
-        {
-          "t": "p",
-          "text": "Unlike many ancient peoples, the Romans had good plumbing, but nevertheless they did not expect to walk to the toilet at night and so preferred to use a chamber pot."
-        },
-        {
-          "t": "h",
-          "text": "PART II"
-        }
-      ]
     }
   ],
   "readings": [],
   "grammar": [],
-  "vocabulary": [],
-  "pensa": []
+  "vocabulary": [
+    {
+      "latin": "frātrem",
+      "english": "brother",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dīligō, dīligere, dīlēxī, dīlēctum",
+      "english": "like",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "eī",
+      "english": "to him",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "quid",
+      "english": "what?",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "tibi",
+      "english": "to you",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "faciō, facere, fēcī, factum",
+      "english": "do",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ipse",
+      "english": "yourself",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ut",
+      "english": "so that",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "scīs",
+      "english": "you know",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "neglegās",
+      "english": "you neglect",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "quoniam",
+      "english": "since",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "mihi",
+      "english": "to me",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sit",
+      "english": "may (he) be",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "periūrus, -a, -um",
+      "english": "perjured",
+      "group": "Verba"
+    },
+    {
+      "latin": "iūrō, iūrāre, iūrāvī, iūrātum",
+      "english": "swear",
+      "group": "Verba"
+    },
+    {
+      "latin": "simpliciter",
+      "english": "frankly",
+      "group": "Verba"
+    },
+    {
+      "latin": "inveniar",
+      "english": "I shall be found",
+      "group": "Verba"
+    },
+    {
+      "latin": "periūrātum",
+      "english": "swear falsely",
+      "group": "Verba"
+    },
+    {
+      "latin": "tunc",
+      "english": "then",
+      "group": "Verba"
+    },
+    {
+      "latin": "optimus, optima, optimum",
+      "english": "best",
+      "group": "Verba"
+    },
+    {
+      "latin": "crēdō, crēdere, crēdidī, crēditum maximus, maxima, maximum",
+      "english": "greatest",
+      "group": "Verba"
+    },
+    {
+      "latin": "sīc",
+      "english": "thus",
+      "group": "Verba"
+    },
+    {
+      "latin": "nōnne = nōn + -ne tibi",
+      "english": "you",
+      "group": "Verba"
+    },
+    {
+      "latin": "quī",
+      "english": "who",
+      "group": "Verba"
+    },
+    {
+      "latin": "accēdēns",
+      "english": "approaching",
+      "group": "Verba"
+    },
+    {
+      "latin": "cognōscō, cognōscere, cognōvī, ergō",
+      "english": "therefore",
+      "group": "Verba"
+    },
+    {
+      "latin": "earlier than where it appears in mē",
+      "english": "me",
+      "group": "Verba"
+    },
+    {
+      "latin": "dūc tē",
+      "english": "get out of here!",
+      "group": "Verba"
+    },
+    {
+      "latin": "avē",
+      "english": "hello",
+      "group": "Verba"
+    },
+    {
+      "latin": "paterfamiliās",
+      "english": "sir",
+      "group": "Verba"
+    },
+    {
+      "latin": "a household",
+      "english": ") ego",
+      "group": "Verba"
+    },
+    {
+      "latin": "accipiō, accipere, accēpī, acceptum enim",
+      "english": "for",
+      "group": "Verba"
+    },
+    {
+      "latin": "quam",
+      "english": "which",
+      "group": "Verba"
+    },
+    {
+      "latin": "tam diū",
+      "english": "for so long",
+      "group": "Verba"
+    },
+    {
+      "latin": "dēbeō, dēbēre, dēbuī, dēbitum",
+      "english": "owe",
+      "group": "Verba"
+    },
+    {
+      "latin": "tuus can also mean",
+      "english": "of yours",
+      "group": "Verba"
+    },
+    {
+      "latin": "velīs",
+      "english": "you may wish",
+      "group": "Verba"
+    },
+    {
+      "latin": "īnsānīs",
+      "english": "you are insane",
+      "group": "Verba"
+    },
+    {
+      "latin": "eāmus",
+      "english": "let",
+      "group": "Verba"
+    },
+    {
+      "latin": "s go!",
+      "english": "(subjunctive) faenerō, faenerāre, faenerāvī, templum, templī (n.)",
+      "group": "Verba"
+    },
+    {
+      "latin": "faenerātum",
+      "english": "lend",
+      "group": "Verba"
+    },
+    {
+      "latin": "modo bene",
+      "english": "very well",
+      "group": "Verba"
+    },
+    {
+      "latin": "sērō",
+      "english": "late",
+      "group": "Verba"
+    },
+    {
+      "latin": "s go",
+      "english": "(subjunctive) pōmum, pōmī (n.)",
+      "group": "Verba"
+    },
+    {
+      "latin": "fruit",
+      "english": "domum",
+      "group": "Verba"
+    },
+    {
+      "latin": "home",
+      "english": "quot",
+      "group": "Verba"
+    },
+    {
+      "latin": "how many?",
+      "english": "domina, dominae (f.)",
+      "group": "Verba"
+    },
+    {
+      "latin": "house",
+      "english": "nox, noctis, gen. pl. noctium (f.)",
+      "group": "Verba"
+    },
+    {
+      "latin": "trēs",
+      "english": "three",
+      "group": "Verba"
+    },
+    {
+      "latin": "cēnō, cēnāre, cēnāvī, cēnātum",
+      "english": "eat for pōnō can also mean",
+      "group": "Verba"
+    },
+    {
+      "latin": "dinner",
+      "english": "matella, matellae (f.)",
+      "group": "Verba"
+    },
+    {
+      "latin": "omnia",
+      "english": "everything",
+      "group": "Verba"
+    },
+    {
+      "latin": "pānem",
+      "english": "bread",
+      "group": "Verba"
+    },
+    {
+      "latin": "volō, velle, voluī, –",
+      "english": "want",
+      "group": "Verba"
+    },
+    {
+      "latin": "praecīsum",
+      "english": "cut up",
+      "group": "Verba"
+    }
+  ],
+  "pensa": [
+    {
+      "id": "translate-11",
+      "latinLabel": "11.5 TRANSLATE INTO LATIN",
+      "title": "11.5 Translate into Latin",
+      "instruction": "",
+      "type": "questions",
+      "items": [
+        {
+          "q": "Use vocabulary and forms from the passages above as well as the words you already know.",
+          "a": ""
+        },
+        {
+          "q": "Unlike many ancient peoples, the Romans had good plumbing, but nevertheless they did not expect to walk to the toilet at night and so preferred to use a chamber pot.",
+          "a": ""
+        }
+      ]
+    }
+  ]
 }
 
 export default chapter

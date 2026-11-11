@@ -116,15 +116,23 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "‘Some want (it, and) others do not (want it).’ alter puer magnus est, alter parvus. ‘One boy (of the two) is big, the other little.’ But if two forms of alius are in different genders, numbers, or cases, each must be translated twice in English; usually one can also translate this construction with ‘different’ and a plural."
-        },
-        {
-          "t": "h",
-          "text": "alius aliam amat. ‘One man loves one woman, and another loves another"
+          "text": "‘Some want (it, and) others do not (want it).’ alter puer magnus est, alter parvus. ‘One boy (of the two) is big, the other little.’ But if two forms of alius are in different genders, numbers, or cases, each must be translated twice in English; usually one can also translate this construction with ‘different’ and a plural. alius aliam amat."
         },
         {
           "t": "example",
-          "text": "woman.’ / ‘Different men love different women.’ aliī alia dīxērunt. ‘Some people said some things, and others said other things.’ / ‘Different people said different things.’"
+          "text": "‘One man loves one woman, and another loves another woman.’ / ‘Different men love different women.’ aliī alia dīxērunt. ‘Some people said some things, and others said other things.’ / ‘Different people said different things.’"
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "latin": "55.4 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "Adjectives/Pronouns alius, alia, aliud ‘other’ (of more than two) alter, altera, alterum ‘other’ (of two) Numbers ūnus, ūna, ūnum ‘one’ duo, duae, duo ‘two’ trēs, tria ‘three’"
         }
       ]
     }
@@ -150,18 +158,78 @@ const chapter = {
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "līs, lītis, lītium (f.)",
-      "english": "lawsuit",
+      "latin": "deinceps",
+      "english": "in succession",
       "group": "Vocābula"
     },
     {
-      "latin": "forum, -ī (n.)",
-      "english": "court",
+      "latin": "cum . . . tum",
+      "english": "not only . . . but also",
       "group": "Vocābula"
     },
     {
-      "latin": "(here) bis",
-      "english": "twice, two times",
+      "latin": "validus, -a, -um",
+      "english": "strong",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "augeō, augēre, auxī, auctum",
+      "english": "cause temperātus, -a, -um",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "peccō, -āre, -āvī, -ātum",
+      "english": "sin",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "inānis, ināne",
+      "english": "vain",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ligneus, lignea, ligneum",
+      "english": "wooden",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "amōre",
+      "english": "in my affections",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "potius",
+      "english": "rather",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "iam vērō",
+      "english": "indeed",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "hateful",
+      "english": "dead wife, who appears as a ghost cantiō, cantiōnis (f.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "chant",
+      "english": "in the Aeneid spectāculum, spectāculī (n.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "Thaida Quintus amat",
+      "english": "quam Thaida?",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "one-eyed",
+      "english": "oculus, oculī (m.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "bis",
+      "english": "twice",
       "group": "Vocābula"
     },
     {
@@ -185,54 +253,14 @@ const chapter = {
       "group": "Vocābula"
     },
     {
-      "latin": "vīgintī (indeclinable)",
-      "english": "twenty",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "frīgus, frīgoris (n.)",
-      "english": "cold weather",
-      "group": "Vocābula"
-    },
-    {
       "latin": "lītigō, -āre, -āvī, -ātum",
       "english": "litigate",
       "group": "Vocābula"
     },
     {
-      "latin": "brūma, brūmae (f.)",
-      "english": "winter solstice",
+      "latin": "conterit",
+      "english": "has been wearing you out",
       "group": "Vocābula"
-    },
-    {
-      "latin": "quisquam (nominative singular) conterit",
-      "english": "has been wearing you out, anyone",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "/Pronouns alius, alia, aliud",
-      "english": "other",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "(of more than two) alter, altera, alterum",
-      "english": "other",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "(of two) Numbers ūnus, ūna, ūnum",
-      "english": "one",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "duo, duae, duo",
-      "english": "two",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "trēs, tria",
-      "english": "three",
-      "group": "Adiectīva"
     }
   ],
   "pensa": [
@@ -518,23 +546,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "1 Livy, Ab urbe condita 1.21.6: comparison of two early kings of Rome, Romulus and Numa (written in the first century bc about a much earlier and partly mythical period). Ita duo deinceps reges, alius alia via, ille bello hic pace, civitatem auxerunt. Romulus septem et triginta regnavit annos, Numa tres et quadraginta. cum valida tum temperata et belli et pacis artibus erat civitas. Vocabulary deinceps ‘in succession’ trīgintā (indeclinable) ‘thirty’ via, viae (f.) ‘way’ quadrāgintā (indeclinable) ‘forty’ pāx, pācis (f.) ‘peace’ cum . . . tum ‘not only . . . but also’ cīvitās, cīvitātis (f.) ‘state’ validus, -a, -um ‘strong’ augeō, augēre, auxī, auctum ‘cause temperātus, -a, -um ‘well to grow’ organized’ 370 Numbers",
-          "a": ""
-        },
-        {
-          "q": "2 St Augustine, Confessions 1.",
-          "a": ""
-        },
-        {
-          "q": "13 (adapted): as a child, the saint preferred Virgil to mathematics, an opinion he later considered sinful (fourth century ad). Peccabam ergo puer, cum illa inania his utilioribus amore praeponerem – vel potius haec oderam, illa amabam. iam vero ‘unum et unum sunt duo, duo et duo sunt quattuor’ odiosa cantio mihi erat, et dulcissima erant spectacula vanitatis: equus ligneus plenus armatis, et Troiae incendium, atque ipsius umbra Creusae. Vocabulary peccō, -āre, -āvī, -ātum ‘sin’ vānitās, vānitātis (f.) ‘vanity, puer ‘being a boy’, ‘when I was a boy’ uselessness’ inānis, ināne ‘vain’, ‘empty’ ligneus, lignea, ligneum ‘wooden’ amōre ‘in my affections’ plēnus, plēna, plēnum (+ ablative) praepōnō (like pōnō) (+ X accusative ‘full of’ and Y ablative) ‘put X before Y’ armātus, armātī (m.) ‘armed man’ potius ‘rather’ Troia, Troiae (f.) ‘Troy’ ōdī, ōdisse, ōsum (perfect in form but incendium, incendiī (n.) ‘burning’ present in meaning) ‘hate’ umbra, umbrae (f.) ‘ghost’ iam vērō ‘indeed’ Creūsa, Creūsae (f.) name of Aeneas’ odiōsus, -a, -um ‘hateful’ dead wife, who appears as a ghost cantiō, cantiōnis (f.) ‘chant’ in the Aeneid spectāculum, spectāculī (n.) ‘spectacle’",
-          "a": ""
-        },
-        {
-          "q": "3 Martial 3.8: bad taste in love (first century ad). Thaida Quintus amat. ‘quam Thaida?’ Thaida luscam. unum oculum Thais non habet, ille duos. Vocabulary Thāida is accusative of the woman’s name Thāis luscus, lusca, luscum ‘one-eyed’ oculus, oculī (m.) ‘eye’",
-          "a": ""
-        },
-        {
-          "q": "4 Martial 7.65: the undesirability of long lawsuits (first century ad). Lis te bis decimae numerantem frigora brumae conterit una tribus, Gargiliane, foris. ah miser et demens! viginti litigat annos quisquam cui vinci, Gargiliane, licet?",
+          "q": "1 Livy, Ab urbe condita 1.21.6: comparison of two early kings of Rome, Romulus and Numa (written in the first century bc about a much earlier and partly mythical period). Ita duo deinceps reges, alius alia via, ille bello hic pace, civitatem auxerunt. Romulus septem et triginta regnavit annos, Numa tres et quadraginta. cum valida tum temperata et belli et pacis artibus erat civitas.",
           "a": ""
         }
       ],

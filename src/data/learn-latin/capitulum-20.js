@@ -56,15 +56,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "‘They said their names.’ / ‘They said their own names.’ But reflexive possession is not normally expressed in Latin when the word for the possessed thing implies relationship; when reflexive possession is expressed with such words, it is always emphatic. patrem amat. ‘He loves his father.’ (possessive not necessary as ‘father’ implies"
-        },
-        {
-          "t": "h",
-          "text": "relationship)"
+          "text": "‘They said their names.’ / ‘They said their own names.’ But reflexive possession is not normally expressed in Latin when the word for the possessed thing implies relationship; when reflexive possession is expressed with such words, it is always emphatic. patrem amat. ‘He loves his father.’ (possessive not necessary as ‘father’ implies relationship) patrem suum interfēcit."
         },
         {
           "t": "p",
-          "text": "patrem suum interfēcit. ‘He killed his own father.’ (possessive used despite the fact that ‘father’ implies relationship, in order to emphasize the horror of the crime)"
+          "text": "‘He killed his own father.’ (possessive used despite the fact that ‘father’ implies relationship, in order to emphasize the horror of the crime)"
         },
         {
           "t": "h",
@@ -84,23 +80,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "In indirect statement reflexives are used when the subject of the reported statement is the same as the subject of the main verb; in other words, when the subject of the original direct statement was ‘I’/‘we’. dīxit sē ad urbem īvisse. ‘He said that he had gone to the city.’ (original direct statement:"
-        },
-        {
-          "t": "h",
-          "text": "‘I have gone to the city.’)"
+          "text": "In indirect statement reflexives are used when the subject of the reported statement is the same as the subject of the main verb; in other words, when the subject of the original direct statement was ‘I’/‘we’. dīxit sē ad urbem īvisse. ‘He said that he had gone to the city.’ (original direct statement: ‘I have gone to the city.’) dīxērunt sē pecūniam inventūrōs esse."
         },
         {
           "t": "p",
-          "text": "dīxērunt sē pecūniam inventūrōs esse. ‘They said that they would find the money.’"
-        },
-        {
-          "t": "h",
-          "text": "(original direct statement: ‘We shall find the money.’)"
-        },
-        {
-          "t": "p",
-          "text": "In purpose clauses reflexives are used in the subordinate clause to refer back to the subject of the main verb. vēnit ut sē laudārēmus. ‘He came so that we would praise him.’ illī mē iūvērunt ut sē iuvārem."
+          "text": "‘They said that they would find the money.’ (original direct statement: ‘We shall find the money.’) In purpose clauses reflexives are used in the subordinate clause to refer back to the subject of the main verb. vēnit ut sē laudārēmus. ‘He came so that we would praise him.’ illī mē iūvērunt ut sē iuvārem."
         },
         {
           "t": "p",
@@ -111,60 +95,87 @@ const chapter = {
           "text": "Practice"
         }
       ]
+    },
+    {
+      "id": "section-4",
+      "latin": "20.5 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "Verbs āmittō, āmittere, āmīsī, āmissum ‘lose’ fugiō, fugere, fūgī, fugitūrus ‘flee’ pugnō, pugnāre, pugnāvī, pugnātum ‘fight’ Nouns domina, dominae (f.) ‘mistress’ dominus, dominī (m.) ‘master’ Pronoun sē ‘himself’, ‘herself’, ‘themselves’ Adjective suus, sua, suum ‘his (own)’, ‘her (own)’, ‘their (own)’ Adverbs numquam ‘never’\nsaepe ‘often’\nsemper ‘always’"
+        }
+      ]
     }
   ],
   "readings": [],
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "āmittō, āmittere, āmīsī, āmissum",
-      "english": "lose",
-      "group": "Verba"
+      "latin": "paulō",
+      "english": "a little",
+      "group": "Vocābula"
     },
     {
-      "latin": "fugiō, fugere, fūgī, fugitūrus",
-      "english": "flee",
-      "group": "Verba"
+      "latin": "hesternus, hesterna, hesternum",
+      "english": "on the ante (+ accusative)",
+      "group": "Vocābula"
     },
     {
-      "latin": "pugnō, pugnāre, pugnāvī, pugnātum",
-      "english": "fight",
-      "group": "Verba"
+      "latin": "before",
+      "english": "previous day",
+      "group": "Vocābula"
     },
     {
-      "latin": "domina, dominae (f.)",
-      "english": "mistress",
-      "group": "Nōmina"
+      "latin": "Latīnus, Latīna, Latīnum",
+      "english": "Roman",
+      "group": "Vocābula"
     },
     {
-      "latin": "dominus, dominī (m.)",
-      "english": "master",
-      "group": "Nōmina"
+      "latin": "quasi",
+      "english": "as if",
+      "group": "Vocābula"
     },
     {
-      "latin": "sē",
-      "english": "himself, herself, themselves",
-      "group": "Prōnōmina"
+      "latin": "sōlus, sōla, sōlum",
+      "english": "by himself",
+      "group": "Vocābula"
     },
     {
-      "latin": "suus, sua, suum",
-      "english": "his (own), her (own), their (own)",
-      "group": "Adiectīva"
+      "latin": "rē novā",
+      "english": "by an attempt at revolution",
+      "group": "Vocābula"
     },
     {
-      "latin": "numquam",
-      "english": "never",
-      "group": "Adverbia"
+      "latin": "hesternō diē",
+      "english": "on the previous day",
+      "group": "Vocābula"
     },
     {
-      "latin": "saepe",
-      "english": "often",
-      "group": "Adverbia"
+      "latin": "perturbō, -āre, -āvī, -ātum",
+      "english": "alarm",
+      "group": "Vocābula"
     },
     {
-      "latin": "semper",
-      "english": "always",
-      "group": "Adverbia"
+      "latin": "volō, velle, voluī, –",
+      "english": "want",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "āfuerit",
+      "english": "he (Tarquin) was absent",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "Capitōlīnus, -a, -um",
+      "english": "Capitolinus",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "tollō, tollere, sustulī, sublātum",
+      "english": "take",
+      "group": "Vocābula"
     }
   ],
   "pensa": [
@@ -530,15 +541,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "4 (adapted): a king tries to get rid of someone by means of a false accusation (written in the first century bc about a much earlier and partly mythical period). Tarquinius paulo ante lucem accitis ad se principibus Latinorum, quasi re nova perturbatus, dicit moram suam hesternam saluti sibi et illis fuisse: Turnum se et primores interfecturum esse, ut Latinos solus regat. hunc hesterno die haec facere voluisse, sed non potuisse quia afuerit. Vocabulary (in order of first appearance; words that appear more than once are in bold) Tarquinius, -ī (m.) ‘Tarquin’ (the name mora, morae (f.) ‘delay’ (Tarquin had of an early king of Rome) not appeared when he was expected) paulō ‘a little’ hesternus, hesterna, hesternum ‘on the ante (+ accusative) ‘before’ previous day’ lūx, lūcis (f.) ‘daylight’ salūtī sum (+ dative) ‘be the salvation of’ accītīs prīncipibus ‘when the leading Turnus, -ī (m.) the name of a man men had been summoned’ Tarquin did not like Latīnus, Latīna, Latīnum ‘Roman’ prīmor, prīmōris (m.) ‘nobleman’ quasi ‘as if’ sōlus, sōla, sōlum ‘by himself’ rē novā ‘by an attempt at revolution’ hesternō diē ‘on the previous day’ perturbō, -āre, -āvī, -ātum ‘alarm’ volō, velle, voluī, – ‘want’ āfuerit ‘he (Tarquin) was absent’",
-          "a": ""
-        },
-        {
-          "q": "2 Colloquium Montepessulanum 6a–b (adapted): a panegyric of a god (probably third century ad ). s tu d e n t: laudem scripsi. teacher: cuius? s tu d e n t: Iovis Capitolini. teacher: lege. (afterwards) bene dixisti; tolle coronam. nemo tibi contradicit. Vocabulary laus, laudis (f.) ‘praise’, ‘panegyric’ corōna, corōnae (f.) ‘crown’ (indicating Iuppiter, Iovis (m.) ‘Jupiter’ victory in a competition) Capitōlīnus, -a, -um ‘Capitolinus’ (a nēmō (m.) ‘no-one’ (nominative) title of Jupiter in Rome) contrādīcō (like dīcō) ‘speak in tollō, tollere, sustulī, sublātum ‘take’ opposition’ (takes object in dative)",
-          "a": ""
-        },
-        {
-          "q": "3 Colloquium Harleianum 26a–d (adapted): a rebuke (second or third century ad ). Quid est, frater? cur non venisti ad templum? ego te sustinui et propter te tarde prandi. 132 Reflexives Vocabulary templum, templī (n.) ‘temple’ tardē (adverb) ‘late’ sustineō, sustinēre, sustinuī, sustentum prandeō, prandēre, prandī, prānsum ‘wait for’ ‘eat lunch’ propter (+ accusative) ‘on account of’",
+          "q": "4 (adapted): a king tries to get rid of someone by means of a false accusation (written in the first century bc about a much earlier and partly mythical period). Tarquinius paulo ante lucem accitis ad se principibus Latinorum, quasi re nova perturbatus, dicit moram suam hesternam saluti sibi et illis fuisse: Turnum se et primores interfecturum esse, ut Latinos solus regat. hunc hesterno die haec facere voluisse, sed non potuisse quia afuerit.",
           "a": ""
         }
       ],

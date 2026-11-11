@@ -72,15 +72,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "An English sentence can be broken up into different parts of speech as follows: ‘Jim’s friend Mike is coming to dinner tonight, and we have a huge roast in the oven.’"
-        },
-        {
-          "t": "h",
-          "text": "Jim’s noun friend noun Mike noun is coming verb to preposition"
-        },
-        {
-          "t": "p",
-          "text": "dinner noun tonight adverb and conjunction we pronoun have verb a article huge adjective roast noun in preposition the article oven noun"
+          "text": "An English sentence can be broken up into different parts of speech as follows: ‘Jim’s friend Mike is coming to dinner tonight, and we have a huge roast in the oven.’ Jim’s noun friend noun Mike noun is coming verb to preposition dinner noun tonight adverb and conjunction we pronoun have verb a article huge adjective roast noun in preposition the article oven noun"
         },
         {
           "t": "h",
@@ -143,20 +135,12 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "12 Who knows whether we shall swimmer, but it didn’t work out,"
-        },
-        {
-          "t": "h",
-          "text": "13 The captain could not see the that the winner will not be"
+          "t": "p",
+          "text": "recognize him because he will be 14 People have been learning Latin asleep in the lounge. as a foreign language for more deciding to buy a used car, 15 I can see something, but I have because many people have been no idea what it is. tricked by car salesmen. 16 I wanted to be an Olympic 12 Who knows whether we shall swimmer, but it didn’t work out, ever see our homeland again?"
         },
         {
           "t": "p",
-          "text": "recognize him because he will be 14 People have been learning Latin asleep in the lounge. as a foreign language for more deciding to buy a used car, 15 I can see something, but I have because many people have been no idea what it is. tricked by car salesmen. 16 I wanted to be an Olympic ever see our homeland again? so I decided to be a writer No-one who has come this way instead."
-        },
-        {
-          "t": "p",
-          "text": "has ever returned to tell the tale 17 No-one can be sure who will win of his adventures. that race, but we all know other ship, so he did not try to Martin. steer away from it."
+          "text": "so I decided to be a writer No-one who has come this way instead. has ever returned to tell the tale 17 No-one can be sure who will win of his adventures. that race, but we all know 13 The captain could not see the that the winner will not be other ship, so he did not try to Martin. steer away from it."
         },
         {
           "t": "p",
@@ -295,80 +279,24 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "6 Martha is now a neurosurgeon, 20 Who knows the answer?"
-        },
-        {
-          "t": "h",
-          "text": "7 Jane said that she had come from works in London."
-        },
-        {
           "t": "p",
-          "text": "but when I last saw her she was 21 Jim says that he is not a poet. a little girl. 22 Martin’s sister is a doctor who"
+          "text": "6 Martha is now a neurosurgeon, 20 Who knows the answer? but when I last saw her she was 21 Jim says that he is not a poet. a little girl. 22 Martin’s sister is a doctor who 7 Jane said that she had come from works in London."
         },
         {
           "t": "h",
           "text": "Corinth. 23 Whose dissertation won the"
         },
         {
-          "t": "h",
-          "text": "8 John will never persuade Julia to prize?"
-        },
-        {
-          "t": "h",
-          "text": "9 What are you running away 25 Can Jane persuade her mother to"
-        },
-        {
-          "t": "h",
-          "text": "10 The dog that Maria bought is 26 What did the fishermen catch"
-        },
-        {
-          "t": "h",
-          "text": "11 Which books did the teacher 27 Jonathan saw the men who had"
-        },
-        {
-          "t": "h",
-          "text": "12 Mary thinks that poets are 28 Julia thinks that we will stay in"
-        },
-        {
-          "t": "h",
-          "text": "13 Mark has not yet used the money 29 Whom did James see in town?"
-        },
-        {
-          "t": "h",
-          "text": "14 Who did you go to the play with? hard to find a job."
-        },
-        {
-          "t": "h",
-          "text": "15 Jane is sad because she doesn’t 31 What will Marcia use to fix the"
-        },
-        {
-          "t": "h",
-          "text": "16 Who did Martin give his cloak 32 Which beggar did you give your"
-        },
-        {
-          "t": "h",
-          "text": "17 Rome is overrun by people who 33 Mark’s father said that the boys"
-        },
-        {
-          "t": "h",
-          "text": "18 To whom is Martha giving all 34 Those children are always"
+          "t": "p",
+          "text": "8 John will never persuade Julia to prize? leave Rome; she has lived there 24 Joshua knows the girl whose hat for twenty years. that is. 9 What are you running away 25 Can Jane persuade her mother to from? buy her a new phone? 10 The dog that Maria bought is 26 What did the fishermen catch eating all her socks. today? 11 Which books did the teacher 27 Jonathan saw the men who had borrow? burgled the shop."
         },
         {
           "t": "p",
-          "text": "leave Rome; she has lived there 24 Joshua knows the girl whose hat for twenty years. that is. from? buy her a new phone? eating all her socks. today? borrow? burgled the shop. boring. Rome. that his grandfather gave him for 30 The father of these boys is Christmas. unemployed, but he is trying know what to do. window? to? sandwich to? write bad poetry. had given him an apple."
-        },
-        {
-          "t": "h",
-          "text": "that money? happy; all day I see them"
-        },
-        {
-          "t": "h",
-          "text": "19 Mary fixed the lawnmower with laughing."
+          "text": "12 Mary thinks that poets are 28 Julia thinks that we will stay in boring. Rome. 13 Mark has not yet used the money 29 Whom did James see in town? that his grandfather gave him for 30 The father of these boys is Christmas. unemployed, but he is trying 14 Who did you go to the play with? hard to find a job. 15 Jane is sad because she doesn’t 31 What will Marcia use to fix the know what to do. window?"
         },
         {
           "t": "p",
-          "text": "a rubber band that she found in 35 Who persuaded Jim to come to the bottom drawer. the party?"
+          "text": "16 Who did Martin give his cloak 32 Which beggar did you give your to? sandwich to? 17 Rome is overrun by people who 33 Mark’s father said that the boys write bad poetry. had given him an apple. 18 To whom is Martha giving all 34 Those children are always that money? happy; all day I see them 19 Mary fixed the lawnmower with laughing. a rubber band that she found in 35 Who persuaded Jim to come to the bottom drawer. the party?"
         },
         {
           "t": "p",
@@ -383,12 +311,8 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "32 He said it probably did not want 33 We put a brick over the hole so it"
-        },
-        {
           "t": "p",
-          "text": "to be in the kitchen with her wouldn’t return. either."
+          "text": "32 He said it probably did not want 33 We put a brick over the hole so it to be in the kitchen with her wouldn’t return. either."
         },
         {
           "t": "p",
@@ -424,15 +348,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "‘That man was loved.’ Perfect participle The participle is not near Translate with an English past active participle (‘having loved’) if a form of sum. the verb is deponent, otherwise with a past passive participle (‘loved’, ‘having been loved’), or translate with a subordinate clause with a similar meaning."
+          "text": "‘That man was loved.’ Perfect participle The participle is not near Translate with an English past active participle (‘having loved’) if a form of sum. the verb is deponent, otherwise with a past passive participle (‘loved’, ‘having been loved’), or translate with a subordinate clause with a similar meaning. vēnātus Rōmam īvit. ‘Having hunted, he went to Rome.’ / ‘After he hunted, he went to Rome.’ amātus Rōmam ībit."
         },
         {
-          "t": "h",
-          "text": "vēnātus Rōmam īvit. ‘Having hunted, he went to Rome.’ / ‘After he"
-        },
-        {
-          "t": "p",
-          "text": "hunted, he went to Rome.’ amātus Rōmam ībit. ‘Since/if/when he is loved, he will go to Rome.’ puella amāta discessit. ‘The beloved girl has left.’"
+          "t": "example",
+          "text": "‘Since/if/when he is loved, he will go to Rome.’ puella amāta discessit. ‘The beloved girl has left.’"
         },
         {
           "t": "h",
@@ -448,15 +368,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "a similar meaning."
-        },
-        {
-          "t": "h",
-          "text": "dictūrus impedītus est. ‘Being about to speak, he was hindered.’ /"
-        },
-        {
-          "t": "h",
-          "text": "‘He was hindered when he was about to speak.’"
+          "text": "a similar meaning. dictūrus impedītus est. ‘Being about to speak, he was hindered.’ / ‘He was hindered when he was about to speak.’"
         },
         {
           "t": "pre",
@@ -472,31 +384,19 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "main verb of the sentence, with ‘may’ before the subject. and the sentence is not Rōmam eāmus. ‘Let’s go to Rome.’ a question. Rōmam eat. ‘May he go to Rome.’ (not ‘He may go to Rome.’)"
-        },
-        {
-          "t": "h",
-          "text": "nē Rōmam eant. ‘May they not go to Rome.’ (not ‘They may not"
-        },
-        {
-          "t": "h",
-          "text": "go. . .’)"
+          "text": "main verb of the sentence, with ‘may’ before the subject. and the sentence is not Rōmam eāmus. ‘Let’s go to Rome.’ a question. Rōmam eat. ‘May he go to Rome.’ (not ‘He may go to Rome.’) nē Rōmam eant. ‘May they not go to Rome.’ (not ‘They may not go. . .’) Subjunctive (any tense) Subjunctive is in a clause Result clause: translate with ‘that’ and present or past indicative opened by ut, and in the according to sequence."
         },
         {
           "t": "p",
-          "text": "Subjunctive (any tense) Subjunctive is in a clause Result clause: translate with ‘that’ and present or past indicative opened by ut, and in the according to sequence. main clause there is tantus, tam fortis est ut Rōmam eat. ‘He’s so brave that he’s going to Rome.’ tam, etc. tam fortis erat ut Rōmam īret."
+          "text": "main clause there is tantus, tam fortis est ut Rōmam eat. ‘He’s so brave that he’s going to Rome.’ tam, etc. tam fortis erat ut Rōmam īret. ‘He was so brave that he went to Rome.’ Subjunctive (any tense) Subjunctive is in a clause Fear clause: translate with ‘that’ and future indicative or ‘would’, opened by ut or nē, with negative if ut and no negative if nē. dependent on a verb of timeō ut Rōmam eat."
         },
         {
           "t": "p",
-          "text": "‘He was so brave that he went to Rome.’ Subjunctive (any tense) Subjunctive is in a clause Fear clause: translate with ‘that’ and future indicative or ‘would’, opened by ut or nē, with negative if ut and no negative if nē. dependent on a verb of timeō ut Rōmam eat. ‘I’m afraid that he will not go to Rome.’ fearing. timuī nē Rōmam īret."
+          "text": "‘I’m afraid that he will not go to Rome.’ fearing. timuī nē Rōmam īret. ‘I was afraid that he would go to Rome.’ Subjunctive (any tense) Subjunctive is in a clause Indirect command: translate with infinitive. opened by ut or nē, rogō eum ut Rōmam eat. ‘I’m asking him to go to Rome.’ dependent on a verb of imperāvī eī nē Rōmam īret. ‘I ordered him not to go to Rome.’ asking, ordering, etc."
         },
         {
           "t": "p",
-          "text": "‘I was afraid that he would go to Rome.’ Subjunctive (any tense) Subjunctive is in a clause Indirect command: translate with infinitive. opened by ut or nē, rogō eum ut Rōmam eat. ‘I’m asking him to go to Rome.’ dependent on a verb of imperāvī eī nē Rōmam īret. ‘I ordered him not to go to Rome.’ asking, ordering, etc. Subjunctive (any tense) Subjunctive is in a clause Purpose clause: translate with ‘so that’ or ‘(in order) to’."
-        },
-        {
-          "t": "p",
-          "text": "opened by ut or nē, with discessit ut Rōmam īret. ‘He left (in order) to go to Rome.’ none of the above clues impediam eum nē Rōmam eat. ‘I shall hinder him so that he doesn’t present. go to Rome.’"
+          "text": "Subjunctive (any tense) Subjunctive is in a clause Purpose clause: translate with ‘so that’ or ‘(in order) to’. opened by ut or nē, with discessit ut Rōmam īret. ‘He left (in order) to go to Rome.’ none of the above clues impediam eum nē Rōmam eat. ‘I shall hinder him so that he doesn’t present. go to Rome.’"
         }
       ]
     },

@@ -192,39 +192,15 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Declension of these terms is straightforward: quis and quid decline like the quis and quid we have already seen meaning ‘who?’ (chapter 13.3), and ūllus is identical to nūllus without the initial n-. nēmō vēnit. ‘No-one came.’ (ordinary direct statement, negative nōn) nē quis veniat. ‘May no-one come.’ (hortatory subjunctive, negative nē) tālia dīxit ut nēmō venīre vellet. ‘He said such things that no-one wanted to come.’"
-        },
-        {
-          "t": "h",
-          "text": "(result clause, negative nōn)"
+          "text": "Declension of these terms is straightforward: quis and quid decline like the quis and quid we have already seen meaning ‘who?’ (chapter 13.3), and ūllus is identical to nūllus without the initial n-. nēmō vēnit. ‘No-one came.’ (ordinary direct statement, negative nōn) nē quis veniat. ‘May no-one come.’ (hortatory subjunctive, negative nē) tālia dīxit ut nēmō venīre vellet."
         },
         {
           "t": "p",
-          "text": "haec dīxit nē quis venīre vellet. ‘He said these things so that no-one would want to"
-        },
-        {
-          "t": "h",
-          "text": "come.’ (purpose clause, negative nē)"
+          "text": "‘He said such things that no-one wanted to come.’ (result clause, negative nōn) haec dīxit nē quis venīre vellet. ‘He said these things so that no-one would want to come.’ (purpose clause, negative nē) nūllōs hostēs in silvā vīdit. ‘He saw no enemies in the forest.’ (ordinary direct statement, negative nōn) nē ūllōs hostēs in silvā videat."
         },
         {
           "t": "p",
-          "text": "nūllōs hostēs in silvā vīdit. ‘He saw no enemies in the forest.’ (ordinary direct statement,"
-        },
-        {
-          "t": "h",
-          "text": "negative nōn)"
-        },
-        {
-          "t": "p",
-          "text": "nē ūllōs hostēs in silvā videat. ‘May he see no enemies in the forest!’ (hortatory"
-        },
-        {
-          "t": "h",
-          "text": "subjunctive, negative nē)"
-        },
-        {
-          "t": "p",
-          "text": "English also has two-word negatives that look similar to nē quis, nē quid, and ne ūllus: ‘not . . . anyone’, ‘not . . . anything’, and ‘not . . . any’. Indeed structurally the English and Latin forms are very similar, because in certain contexts quis, quid, and ūllus can also be used without nē to mean ‘anyone’, ‘anything’, and ‘any’."
+          "text": "‘May he see no enemies in the forest!’ (hortatory subjunctive, negative nē) English also has two-word negatives that look similar to nē quis, nē quid, and ne ūllus: ‘not . . . anyone’, ‘not . . . anything’, and ‘not . . . any’. Indeed structurally the English and Latin forms are very similar, because in certain contexts quis, quid, and ūllus can also be used without nē to mean ‘anyone’, ‘anything’, and ‘any’."
         },
         {
           "t": "p",
@@ -232,27 +208,35 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "‘He did not see any enemies in the forest.’ / ‘He saw no enemies in the forest.’ hoc dīximus nē quid facere posset. ‘We said this so that he would not be able to do"
-        },
-        {
-          "t": "h",
-          "text": "anything.’ (purpose)"
+          "text": "‘He did not see any enemies in the forest.’ / ‘He saw no enemies in the forest.’ hoc dīximus nē quid facere posset. ‘We said this so that he would not be able to do anything.’ (purpose) tālia dīximus ut nihil facere posset."
         },
         {
           "t": "p",
-          "text": "tālia dīximus ut nihil facere posset. ‘We said such things that he was not able to do"
-        },
-        {
-          "t": "h",
-          "text": "anything.’ (result)"
+          "text": "‘We said such things that he was not able to do anything.’ (result) When translating from Latin to English, therefore, one needs to choose between the English one-word negatives (‘no-one’ etc.) and two-word negatives (‘not . . ."
         },
         {
           "t": "p",
-          "text": "When translating from Latin to English, therefore, one needs to choose between the English one-word negatives (‘no-one’ etc.) and two-word negatives (‘not . . . anyone’ etc.) according to what sounds best in English; it is not a good idea to try to translate Latin one-word negatives (nēmō etc.) only with English one-word negatives and Latin two-word negatives (nē quis etc.) only with English two-word negatives."
+          "text": "anyone’ etc.) according to what sounds best in English; it is not a good idea to try to translate Latin one-word negatives (nēmō etc.) only with English one-word negatives and Latin two-word negatives (nē quis etc.) only with English two-word negatives."
         },
         {
           "t": "p",
           "text": "When translating from English to Latin it is vital to be ready to translate either type of English negative with either type of Latin negative, according to what is needed in Latin: the Latin oneword negatives are used in contexts where the simple negative would be nōn, and the two-word negatives in contexts where the simple negative would be nē."
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "latin": "40.5 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "Nouns nēmō (m.) ‘no-one’, ‘not . . . anyone’ nē quid (n.) ‘nothing’, ‘not . . . anything’ nē quis (m.) ‘no-one’, ‘not . . . anyone’ nihil (n.) ‘nothing’, ‘not . . ."
+        },
+        {
+          "t": "example",
+          "text": "anything’ Adjectives difficilior, difficilius ‘more difficult’, ‘rather difficult’ difficillimus, difficillima, difficillimum ‘most difficult’, ‘very difficult’ facilior, facilius ‘easier’, ‘rather easy’ facillimus, facillima, facillimum ‘easiest’, ‘very easy’ maior, maius ‘bigger’, ‘rather big’ maximus, maxima, maximum ‘biggest’, ‘very big’ melior, melius ‘better’, ‘rather good’ minimus, minima, minimum ‘smallest’, ‘very small’ minor, minus ‘smaller’, ‘rather small’ nē ūllus, nē ūlla, nē ūllum ‘no’, ‘none’ nūllus, nūlla, nūllum ‘no’, ‘none’ optimus, optima, optimum ‘best’, ‘very good’ peior, peius ‘worse’, ‘rather bad’ pessimus, pessima, pessimum ‘worst’, ‘very bad’ plūrēs, plūra ‘more’, ‘rather many’ plūrimī, plūrimae, plūrima ‘most’, ‘very many’ similior, similius ‘more like’, ‘rather like’ simillimus, simillima, simillimum ‘most like’, ‘very like’"
         }
       ]
     }
@@ -274,114 +258,84 @@ const chapter = {
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "nēmō (m.)",
-      "english": "no-one, not . . . anyone",
-      "group": "Nōmina"
+      "latin": "disertus, -a, -um",
+      "english": "eloquent",
+      "group": "Vocābula"
     },
     {
-      "latin": "nē quid (n.)",
-      "english": "nothing, not . . . anything",
-      "group": "Nōmina"
+      "latin": "post",
+      "english": "later",
+      "group": "Vocābula"
     },
     {
-      "latin": "nē quis (m.)",
-      "english": "no-one, not . . . anyone",
-      "group": "Nōmina"
+      "latin": "poet fuēre = fuērunt agō can also mean",
+      "english": "give",
+      "group": "Vocābula"
     },
     {
-      "latin": "nihil (n.)",
-      "english": "nothing, not . . . anything",
-      "group": "Nōmina"
+      "latin": "tantō . . . quantō",
+      "english": "by as much . . . as",
+      "group": "Vocābula"
     },
     {
-      "latin": "difficilior, difficilius",
-      "english": "more difficult, rather difficult",
-      "group": "Adiectīva"
+      "latin": "narrō, narrāre, narrāvī, narrātum",
+      "english": "say",
+      "group": "Vocābula"
     },
     {
-      "latin": "difficillimus, difficillima, difficillimum",
-      "english": "most difficult, very difficult",
-      "group": "Adiectīva"
+      "latin": "quidquid",
+      "english": "whatever",
+      "group": "Vocābula"
     },
     {
-      "latin": "facilior, facilius",
-      "english": "easier, rather easy",
-      "group": "Adiectīva"
+      "latin": "negō, negāre, negāvī, negātum",
+      "english": "refuse",
+      "group": "Vocābula"
     },
     {
-      "latin": "facillimus, facillima, facillimum",
-      "english": "easiest, very easy",
-      "group": "Adiectīva"
+      "latin": "improbus, -a, -um",
+      "english": "reprobate",
+      "group": "Vocābula"
     },
     {
-      "latin": "maior, maius",
-      "english": "bigger, rather big",
-      "group": "Adiectīva"
+      "latin": "pār, gen. paris",
+      "english": "equal",
+      "group": "Vocābula"
     },
     {
-      "latin": "maximus, maxima, maximum",
-      "english": "biggest, very big",
-      "group": "Adiectīva"
+      "latin": "mīror, mīrārī, mīrātus sum",
+      "english": "be amazed vītā",
+      "group": "Vocābula"
     },
     {
-      "latin": "melior, melius",
-      "english": "better, rather good",
-      "group": "Adiectīva"
+      "latin": "in your life",
+      "english": "that",
+      "group": "Vocābula"
     },
     {
-      "latin": "minimus, minima, minimum",
-      "english": "smallest, very small",
-      "group": "Adiectīva"
+      "latin": "convenīre vōbīs",
+      "english": "(you) suit each other",
+      "group": "Vocābula"
     },
     {
-      "latin": "minor, minus",
-      "english": "smaller, rather small",
-      "group": "Adiectīva"
+      "latin": "secundus, -a, -um",
+      "english": "second-best",
+      "group": "Vocābula"
     },
     {
-      "latin": "nē ūllus, nē ūlla, nē ūllum",
-      "english": "no, none",
-      "group": "Adiectīva"
+      "latin": "maior can also mean",
+      "english": "superior",
+      "group": "Vocābula"
     },
     {
-      "latin": "nūllus, nūlla, nūllum",
-      "english": "no, none",
-      "group": "Adiectīva"
+      "latin": "gravis can also mean",
+      "english": "difficult to bear",
+      "group": "Vocābula"
     },
     {
-      "latin": "optimus, optima, optimum",
-      "english": "best, very good",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "peior, peius",
-      "english": "worse, rather bad",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "pessimus, pessima, pessimum",
-      "english": "worst, very bad",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "plūrēs, plūra",
-      "english": "more, rather many",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "plūrimī, plūrimae, plūrima",
-      "english": "most, very many",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "similior, similius",
-      "english": "more like, rather like",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "simillimus, simillima, simillimum",
-      "english": "most like, very like",
-      "group": "Adiectīva"
+      "latin": "minor can also mean",
+      "english": "inferior",
+      "group": "Vocābula"
     }
   ],
   "pensa": [
@@ -606,23 +560,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "1 Catullus 49: the poet praises Cicero (first century bc ). Disertissime Romuli nepotum, quot sunt quotque fuere, Marce Tulli, quotque post aliis erunt in annis, gratias tibi maximas Catullus agit pessimus omnium poeta, tanto pessimus omnium poeta, quanto tu optimus omnium patronus. Vocabulary disertus, -a, -um ‘eloquent’ post ‘later’ Rōmulus, Rōmulī (m.) name of an alius, alia, aliud ‘other’ (i.e. future) ancestor of the Romans grātiae, grātiārum (f. plural) ‘thanks’ nepōs, nepōtis (m.) ‘descendant’ Catullus, Catullī (m.) name of the quot (indeclinable) ‘as many as’ poet fuēre = fuērunt agō can also mean ‘give’ Mārcus Tullius, Mārcī Tulliī (m.) tantō . . . quantō ‘by as much . . . as’ ‘Cicero’ (his full name was Mārcus patrōnus, patrōnī (m.) ‘patron’ (supply Tullius Cicerō) es with this)",
-          "a": ""
-        },
-        {
-          "q": "2 Martial 3.9: the poet disparages a rival (first century ad). Versiculos in me narratur scribere Cinna. non scribit, cuius carmina nemo legit. Vocabulary versiculus, versiculī (m.) ‘little verse’ Cinna, Cinnae (m.) name of a poet in can also mean ‘against’ carmen, carminis (n.) ‘poem’ narrō, narrāre, narrāvī, narrātum ‘say’",
-          "a": ""
-        },
-        {
-          "q": "3 Martial 3.61: further disparagement (first century ad). Esse nihil dicis quidquid petis, improbe Cinna: si nil, Cinna, petis, nil tibi, Cinna, nego. Vocabulary quidquid ‘whatever’ (neuter accusative Cinna, Cinnae (m.) name of a poet singular) negō, negāre, negāvī, negātum ‘refuse’ improbus, -a, -um ‘reprobate’",
-          "a": ""
-        },
-        {
-          "q": "4 Martial 8.35: a bad marriage (first century ad). Cum sitis similes paresque vita, uxor pessima, pessimus maritus, miror non bene convenire vobis. Vocabulary cum (+ subjunctive) ‘since’ marītus, marītī (m.) ‘husband’ pār, gen. paris ‘equal’ mīror, mīrārī, mīrātus sum ‘be amazed vītā ‘in your life’ that’ uxor, uxōris (f.) ‘wife’ convenīre vōbīs ‘(you) suit each other’",
-          "a": ""
-        },
-        {
-          "q": "5 Martial, De spectaculis 36: the thoughts of a loser at the games (first century ad). Cedere maiori virtutis fama secunda est. illa gravis palma est, quam minor hostis habet. Vocabulary cēdō, cēdere, cessī, cessum (+ dative) secundus, -a, -um ‘second-best’ (i.e. the ‘yield to’ next best thing after winning) maior can also mean ‘superior’ gravis can also mean ‘difficult to bear’ virtūtis (f. genitive) ‘in excellence’ palma, palmae (f.) ‘prize’ fāma, fāmae (f.) ‘glory’ minor can also mean ‘inferior’ hostis, hostis (m.) ‘competitor’",
+          "q": "1 Catullus 49: the poet praises Cicero (first century bc ). Disertissime Romuli nepotum, quot sunt quotque fuere, Marce Tulli, quotque post aliis erunt in annis, gratias tibi maximas Catullus agit pessimus omnium poeta, tanto pessimus omnium poeta, quanto tu optimus omnium patronus.",
           "a": ""
         }
       ],

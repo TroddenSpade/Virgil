@@ -219,6 +219,18 @@ const chapter = {
           "text": "We add ‘things’ because bona is neuter plural.)"
         }
       ]
+    },
+    {
+      "id": "section-3",
+      "latin": "8.4 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "Nouns ager, agrī (m.) ‘field’ fīlius, fīliī (m.) ‘son’ liber, librī (m.) ‘book’ magister, magistrī (m.) ‘teacher’ puer, puerī (m.) ‘boy’ vir, virī (m.) ‘man’ Adjectives asper, aspera, asperum ‘rough’ Graecus, Graeca, Graecum ‘Greek’ līber, lībera, līberum ‘free’ miser, misera, miserum ‘miserable’ niger, nigra, nigrum ‘black’ noster, nostra, nostrum ‘our’ pulcher, pulchra, pulchrum ‘beautiful’ Rōmānus, Rōmāna, Rōmānum ‘Roman’ tener, tenera, tenerum ‘tender’ vester, vestra, vestrum ‘your’ (plural ‘you’)"
+        }
+      ]
     }
   ],
   "readings": [
@@ -243,93 +255,7 @@ const chapter = {
     }
   ],
   "grammar": [],
-  "vocabulary": [
-    {
-      "latin": "22 pulchras petimus; ubi sunt? 25 miseris pecuniam dedi. 23 servos meos vidi, sed tuos non 26 nostri Romanos vincent. vidi. 27 Romanos laudare non 24 bona nunc habemus, quia potuerunt. Romani hic sunt. 28 castra Romanorum petivit. Nouns ager, agrī (m.)",
-      "english": "field",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "fīlius, fīliī (m.)",
-      "english": "son",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "liber, librī (m.)",
-      "english": "book",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "magister, magistrī (m.)",
-      "english": "teacher",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "puer, puerī (m.)",
-      "english": "boy",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "vir, virī (m.)",
-      "english": "man",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "asper, aspera, asperum",
-      "english": "rough",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "Graecus, Graeca, Graecum",
-      "english": "Greek",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "līber, lībera, līberum",
-      "english": "free",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "miser, misera, miserum",
-      "english": "miserable",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "niger, nigra, nigrum",
-      "english": "black",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "noster, nostra, nostrum",
-      "english": "our",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "pulcher, pulchra, pulchrum",
-      "english": "beautiful",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "Rōmānus, Rōmāna, Rōmānum",
-      "english": "Roman",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "tener, tenera, tenerum",
-      "english": "tender",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "vester, vestra, vestrum",
-      "english": "your",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "(plural",
-      "english": "you",
-      "group": "Adiectīva"
-    }
-  ],
+  "vocabulary": [],
   "pensa": [
     {
       "latinLabel": "PRACTICE A",

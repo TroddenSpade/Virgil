@@ -131,24 +131,16 @@ const chapter = {
           "text": "Present passive subjunctive Translation of the present subjunctive depends on the context and construction and cannot be given in isolation, but the following are examples: amētur ‘may he be loved!’ (hortatory subjunctive) amēmur ‘let’s be loved!’ (hortatory subjunctive) veniet ut amētur. ‘He will come in order to be loved.’ / ‘ He will come so that he will"
         },
         {
-          "t": "h",
-          "text": "be loved.’ (purpose clause)"
-        },
-        {
-          "t": "h",
-          "text": "timeō nē amētur. ‘I am afraid that he will be loved.’ (fear clause)"
+          "t": "p",
+          "text": "be loved.’ (purpose clause) timeō nē amētur. ‘I am afraid that he will be loved.’ (fear clause)"
         },
         {
           "t": "pre",
           "text": "Imperfect passive subjunctive Translation of the imperfect subjunctive depends on the context and contruction and cannot be given in isolation, but the following are examples: vēnit ut amārētur. ‘He came in order to be loved.’ / ‘He came so that he would be"
         },
         {
-          "t": "h",
-          "text": "loved.’ (purpose clause)"
-        },
-        {
           "t": "example",
-          "text": "timuī nē amārētur. ‘I was afraid that he would be loved.’ (fear clause) Imperative passive amāre ‘be loved!’ (singular) amāminī ‘be loved!’ (plural) Perfect passive participle amātus, -a, -um ‘having been loved’, ‘loved’"
+          "text": "loved.’ (purpose clause) timuī nē amārētur. ‘I was afraid that he would be loved.’ (fear clause) Imperative passive amāre ‘be loved!’ (singular) amāminī ‘be loved!’ (plural) Perfect passive participle amātus, -a, -um ‘having been loved’, ‘loved’"
         },
         {
           "t": "pre",
@@ -211,7 +203,153 @@ const chapter = {
     }
   ],
   "grammar": [],
-  "vocabulary": [],
+  "vocabulary": [
+    {
+      "latin": "surgō, surgere, surrēxī, surrēctum",
+      "english": "get enim",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "māne",
+      "english": "in the morning",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "calceō, calceāre, calceāvī, calceātum aperiō, aperīre, aperuī, apertum",
+      "english": "shoe",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ergō",
+      "english": "so",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cito",
+      "english": "quickly",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "poscō, poscere, poposcī, –",
+      "english": "ask for",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "erat",
+      "english": "it was",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "mundus, munda, mundum",
+      "english": "clean",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "afferō, afferre, attulī, allātum",
+      "english": "bring",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "quā",
+      "english": "with which",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "inūtilis, inūtile",
+      "english": "useless",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "prīmum",
+      "english": "first",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ēmungō, ēmungere, ēmūnxī, manūs",
+      "english": "hands",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ēmūnctum",
+      "english": "blow or wipe the nose",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "deinde",
+      "english": "then",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "lavō, lavāre, lāvī, lautum",
+      "english": "wash",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "tergō, tergere, tersī, tersum",
+      "english": "dry",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "fricō, fricāre, fricuī, frictum",
+      "english": "brush",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "prōcessum",
+      "english": "go out",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "appellō, -āre, -āvī, -ātum",
+      "english": "call",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ūnus, ūna, ūnum",
+      "english": "one",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "incolō, incolere, incoluī, –",
+      "english": "inhabit",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "alius, alia, aliud",
+      "english": "another",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "tertius, tertia, tertium",
+      "english": "third",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "fortissimus, -a, -um",
+      "english": "bravest",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "nāscor, nāscī, nātus sum",
+      "english": "be born",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cum: translate before magnō pandō, pandere, pandī, pānsum",
+      "english": "reveal",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cognōscō, cognōscere, cognōvī, caedō, caedere, cecīdī, caesum",
+      "english": "kill",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cognitum",
+      "english": "recognize",
+      "group": "Vocābula"
+    }
+  ],
   "pensa": [
     {
       "latinLabel": "PRACTICE A",
@@ -583,23 +721,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "1 Colloquium Stephani, 3a–6a (adapted): an unusually clean Roman boy describes the start of his day (probably first to third century ad). Immediately after this passage he leaves for school: what crucial element of the usual morning routine has he omitted? Surrexi mane expergefactus, et vocavi puerum. imperavi ut fenestram aperiret; aperuit cito. poposci calceamenta et ocreas; erat enim frigus. calceatus ergo accepi linteum: porrectum est mundum. allata est aqua in urceolo, qua primum manus, deinde faciem lavi. dentes fricui et gingivas; exspui inutilia et emunxi me. tersi manus, deinde bracchia et faciem, ut mundus procederem. Vocabulary surgō, surgere, surrēxī, surrēctum ‘get enim ‘for’ (in the sense of ‘because’; up’ translate one word earlier than māne ‘in the morning’ where it appears in Latin) expergēfaciō (like faciō) ‘awaken’ frīgus, frīgoris (n.) ‘cold’ fenestra, fenestrae (f.) ‘window’ calceō, calceāre, calceāvī, calceātum aperiō, aperīre, aperuī, apertum ‘shoe’ (i.e. put shoes on) ‘open’ ergō ‘so’ (translate one word earlier cito ‘quickly’ than where it appears in Latin) poscō, poscere, poposcī, – ‘ask for’ linteum, linteī (n.) ‘linen towel’ calceāmentum, -ī (n.) ‘shoe’ porrigō, porrigere, porrēxī, porrēctum ocrea, ocreae (f.) ‘legging’ ‘pass’ erat ‘it was’ mundus, munda, mundum ‘clean’ afferō, afferre, attulī, allātum ‘bring’ exspuō, exspuere, exspuī, exspūtum urceolus, urceolī (m.) ‘little jug’ ‘spit out’ quā ‘with which’ inūtilis, inūtile ‘useless’ prīmum ‘first’ ēmungō, ēmungere, ēmūnxī, manūs ‘hands’ (accusative plural) ēmūnctum ‘blow or wipe the nose’ deinde ‘then’ (with accusative of person whose faciem ‘face’ (accusative) nose is blown or wiped) lavō, lavāre, lāvī, lautum ‘wash’ tergō, tergere, tersī, tersum ‘dry’ dēns, dentis, dentium (m.) ‘tooth’ bracchium, bracchiī (n.) ‘arm’ fricō, fricāre, fricuī, frictum ‘brush’ prōcēdō, prōcēdere, prōcessī, gingīva, gingīvae (f.) ‘gum’ prōcessum ‘go out’",
-          "a": ""
-        },
-        {
-          "q": "2 Caesar, De bello Gallico 1.1.1–2: the geography of Gaul (first century bc ). Some words are left implied: can you supply them from nearby clauses? Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur. hi omnes lingua, institutis, legibus inter se differunt. Gallos ab Aquitanis Garumna flumen, a Belgis Matrona et Sequana dividit. horum omnium fortissimi sunt Belgae. Vocabulary Gallia, Galliae (f.) ‘Gaul’ Celtae, Celtārum (m. plural) the name dīvidō, dīvidere, dīvīsī, dīvīsum of a Gaulish people ‘divide’ Gallī, Gallōrum (m. plural) the name pars, partis, partium (f.) ‘part’ of a Gaulish people trēs, tria ‘three’ appellō, -āre, -āvī, -ātum ‘call’ ūnus, ūna, ūnum ‘one’ (translate the ablatives here with ‘in’) incolō, incolere, incoluī, – ‘inhabit’ īnstitūtum, -ī (n.) ‘custom’ Belgae, Belgārum (m. plural) the lēx, lēgis (f.) ‘law’ name of a Gaulish people inter (+ accusative) ‘between’, ‘among’ alius, alia, aliud ‘another’ differō, differre, distulī, dīlātum (third Aquītānī, -ōrum (m. plural) the name conjugation) ‘differ’ of a Gaulish people Garumna, -ae (f.) the name of a river tertius, tertia, tertium ‘third’ Mātrona, -ae (f.) the name of a river ipsōrum = suā (here, but not usually) Sēquana, -ae (f.) the name of a river lingua, linguae (f.) ‘language’, fortissimus, -a, -um ‘bravest’ ‘tongue’",
-          "a": ""
-        },
-        {
-          "q": "3 Corpus Inscriptionum Latinarum vi .889: inscription from Rome (ad 12). Gaius Caesar, Germanici Caesaris filius, hic crematus est. Vocabulary Caesar, Caesaris (m.) was at this period Germānicus, -ī (m.) the individual an inherited name of the imperial name of a member of the imperial family family cremō, cremāre, cremāvī, cremātum ‘cremate’",
-          "a": ""
-        },
-        {
-          "q": "4 Martial 14.42: in praise of a wax candle (first century ad). Hic tibi nocturnos praestabit cereus ignis: subducta est puero namque lucerna tuo. Vocabulary nocturnus, -a, -um ‘at night’ subdūcō (like dūcō) ‘steal from’ praestō, -stāre, -stitī, -stitum ‘provide’ (+ ablative) cēreus, cēreī (m.) ‘wax candle’ namque ‘for’ (translate at start ignis, ignis, ignium (m.) ‘light’ (here of second line) accusative plural) lucerna, lucernae (f.) ‘lamp’",
-          "a": ""
-        },
-        {
-          "q": "5 Puer nobis nascitur (verses 1–3): medieval Christmas carol. Puer nobis nascitur, rector angelorum; in hoc mundo panditur dominus dominorum. In praesepe positum, sub faeno asinorum, cognoverunt dominum Christum regem caelorum. Hunc Herodes timuit magno cum tremore; in infantes irruit, hos caedens in furore. Vocabulary nāscor, nāscī, nātus sum ‘be born’ Chrīstus, -ī (m.) ‘Christ’ rēctor, rēctōris (m.) ‘ruler’ caelum, caelī (n.) ‘heaven’ angelus, angelī (m.) ‘angel’ Hērōdēs, Hērōdis (m.) ‘king Herod’ mundus, mundī (m.) ‘world’ cum: translate before magnō pandō, pandere, pandī, pānsum ‘reveal’ tremor, tremōris (m.) ‘trembling’ praesēpe, praesēpis (n.) ‘stall’ īnfāns, īnfantis (m.) ‘little child’ faenum, faenī (n.) ‘hay’ irruō, irruere, irruī, – (+ in + accusative) asinus, asinī (m.) ‘donkey’ ‘attack’ cognōscō, cognōscere, cognōvī, caedō, caedere, cecīdī, caesum ‘kill’ cognitum ‘recognize’ furor, furōris (m.) ‘fury’",
+          "q": "1 Colloquium Stephani, 3a–6a (adapted): an unusually clean Roman boy describes the start of his day (probably first to third century ad). Immediately after this passage he leaves for school: what crucial element of the usual morning routine has he omitted? Surrexi mane expergefactus, et vocavi puerum. imperavi ut fenestram aperiret; aperuit cito. poposci calceamenta et ocreas; erat enim frigus. calceatus ergo accepi linteum: porrectum est mundum. allata est aqua in urceolo, qua primum manus, deinde faciem lavi. dentes fricui et gingivas; exspui inutilia et emunxi me. tersi manus, deinde bracchia et faciem, ut mundus procederem.",
           "a": ""
         }
       ],

@@ -20,27 +20,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "In formal English, some types of conditional sentence present a condition without saying anything about whether it is or has been fulfilled: Past simple: 1a) ‘If John went to Rome, he had a great time.’ (We do not know"
-        },
-        {
-          "t": "h",
-          "text": "whether John went to Rome.)"
-        },
-        {
-          "t": "h",
-          "text": "1b) ‘If John was in Rome yesterday, he missed seeing the queen.’"
-        },
-        {
-          "t": "h",
-          "text": "(We do not know where John was.)"
-        },
-        {
-          "t": "h",
-          "text": "1c) ‘If they were in Rome yesterday, they missed seeing the queen.’"
-        },
-        {
-          "t": "h",
-          "text": "(We do not know where they were.)"
+          "text": "In formal English, some types of conditional sentence present a condition without saying anything about whether it is or has been fulfilled: Past simple: 1a) ‘If John went to Rome, he had a great time.’ (We do not know whether John went to Rome.) 1b) ‘If John was in Rome yesterday, he missed seeing the queen.’ (We do not know where John was.) 1c) ‘If they were in Rome yesterday, they missed seeing the queen.’ (We do not know where they were.)"
         },
         {
           "t": "pre",
@@ -55,68 +35,20 @@ const chapter = {
           "text": "Future more 3) ‘If John goes to Rome, he will have a great time.’ (We do not"
         },
         {
-          "t": "h",
-          "text": "vivid: know whether John will go to Rome.)"
-        },
-        {
           "t": "p",
-          "text": "But the following types tell us that the condition has not been fulfilled and that therefore the statement in the main clause is not true: Past contrary to 4a) ‘If John had gone to Rome, he would have had a great time.’"
-        },
-        {
-          "t": "h",
-          "text": "fact: (John did not go to Rome.)"
-        },
-        {
-          "t": "h",
-          "text": "4b) ‘If John had been in Rome yesterday, he would have missed"
-        },
-        {
-          "t": "h",
-          "text": "seeing the queen.’ (John was not in Rome.)"
+          "text": "vivid: know whether John will go to Rome.) But the following types tell us that the condition has not been fulfilled and that therefore the statement in the main clause is not true: Past contrary to 4a) ‘If John had gone to Rome, he would have had a great time.’ fact: (John did not go to Rome.) 4b) ‘If John had been in Rome yesterday, he would have missed seeing the queen.’ (John was not in Rome.)"
         },
         {
           "t": "pre",
           "text": "Present contrary 5a) ‘If John were in Rome, he would be having a great time.’ (John"
         },
         {
-          "t": "h",
-          "text": "to fact: is not in Rome.)"
-        },
-        {
-          "t": "h",
-          "text": "5b) ‘If they were in Rome, they would be having a great time.’"
-        },
-        {
-          "t": "h",
-          "text": "(They are not in Rome.)"
-        },
-        {
-          "t": "h",
-          "text": "5c) ‘If she loved him, she would not be treating him like that.’ (She"
-        },
-        {
-          "t": "h",
-          "text": "does not love him.)"
-        },
-        {
-          "t": "h",
-          "text": "5d) ‘If Martha were doing her job properly, we would not have this"
-        },
-        {
-          "t": "h",
-          "text": "problem.’ (Martha is not doing her job properly.)"
-        },
-        {
           "t": "p",
-          "text": "For the future one cannot say positively that a condition has not been fulfilled, since the fulfilment or non-fulfilment has not yet happened, but it is still possible to indicate that it is unlikely to be fulfilled, as follows: Future less 6a) ‘If John should1 go to Rome, he would have a great time.’ vivid: (John might go to Rome, but it is not likely.) 6b) ‘If John were to go to Rome, he would have a great time.’"
+          "text": "to fact: is not in Rome.) 5b) ‘If they were in Rome, they would be having a great time.’ (They are not in Rome.) 5c) ‘If she loved him, she would not be treating him like that.’ (She does not love him.) 5d) ‘If Martha were doing her job properly, we would not have this problem.’ (Martha is not doing her job properly.) For the future one cannot say positively that a condition has not been fulfilled, since the fulfilment or non-fulfilment has not yet happened, but it is still possible to indicate that it is unlikely to be fulfilled,"
         },
         {
-          "t": "h",
-          "text": "(John might go to Rome, but it is not likely.)"
-        },
-        {
-          "t": "p",
-          "text": "There is much more consistency in the main clauses than in the subordinate clauses: in English most of the meaning of a conditional sentence is carried by the verb of the main clause, so that for example sentences 4–6 (the ones in which fulfilment of the condition is impossible or doubtful) all have ‘would’ in the main clause, while sentences 1–3 (the ones in which fulfilment of the conditional is left open) do not have ‘would’."
+          "t": "example",
+          "text": "Future less 6a) ‘If John should1 go to Rome, he would have a great time.’ vivid: (John might go to Rome, but it is not likely.) 6b) ‘If John were to go to Rome, he would have a great time.’ (John might go to Rome, but it is not likely.) There is much more consistency in the main clauses than in the subordinate clauses: in English most of the meaning of a conditional sentence is carried by the verb of the main clause, so that for example sentences 4–6 (the ones in which fulfilment of the condition is impossible or doubtful) all have ‘would’ in the main clause, while sentences 1–3 (the ones in which fulfilment of the conditional is left open) do not have ‘would’."
         },
         {
           "t": "p",
@@ -164,55 +96,39 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "‘If the king spoke, the citizens listened.’ 2) Indicative condition, present (= present simple): present indicative sī Rōmae est, fēlīx est. ‘If he is in Rome, he is happy.’ sī rēx loquitur, cīvēs audiuntur. ‘If the king speaks, the citizens listen.’ / ‘If the king is speaking, the citizens are listening.’ 3) Indicative condition, future (= future more vivid): future indicative in both"
-        },
-        {
-          "t": "h",
-          "text": "clauses"
+          "text": "‘If the king spoke, the citizens listened.’ 2) Indicative condition, present (= present simple): present indicative sī Rōmae est, fēlīx est. ‘If he is in Rome, he is happy.’ sī rēx loquitur, cīvēs audiuntur. ‘If the king speaks, the citizens listen.’ / ‘If the king is speaking, the citizens are listening.’ 3) Indicative condition, future (= future more vivid): future indicative in both clauses sī Rōmae erit, fēlīx erit."
         },
         {
           "t": "p",
-          "text": "sī Rōmae erit, fēlīx erit. ‘If he is in Rome, he will be happy.’ (literally ‘If he will be in"
-        },
-        {
-          "t": "h",
-          "text": "Rome, he will be happy.’)"
+          "text": "‘If he is in Rome, he will be happy.’ (literally ‘If he will be in Rome, he will be happy.’) sī rēx loquētur, cīvēs audientur. ‘If the king speaks, the citizens will listen.’ (literally ‘If the king will speak, the citizens will listen.’) 4) Subjunctive condition, past (= past contrary to fact): pluperfect subjunctive in both clauses sī Rōmae fuisset, fēlīx fuisset."
         },
         {
           "t": "p",
-          "text": "sī rēx loquētur, cīvēs audientur. ‘If the king speaks, the citizens will listen.’ (literally"
-        },
-        {
-          "t": "h",
-          "text": "‘If the king will speak, the citizens will listen.’)"
+          "text": "‘If he had been in Rome, he would have been happy.’ sī rēx locūtus esset, cīvēs audīvissent. ‘If the king had spoken, the citizens would have listened.’ 5) Subjunctive condition, present (= present contrary to fact): imperfect subjunctive in both clauses sī Rōmae esset, fēlīx esset. ‘If he were in Rome, he would be happy.’ sī rēx loquerētur, cīvēs audīrent."
         },
         {
           "t": "p",
-          "text": "4) Subjunctive condition, past (= past contrary to fact): pluperfect subjunctive in"
-        },
-        {
-          "t": "h",
-          "text": "both clauses"
+          "text": "‘If the king were speaking, the citizens would be listening.’ 6) Subjunctive condition, future (= future less vivid): present subjunctive in both clauses sī Rōmam eat, fēlīx sit. ‘If he should go to Rome, he would be happy.’ / ‘If he were to go to Rome, he would be happy.’ sī rēx loquātur, cīvēs audiant."
         },
         {
           "t": "p",
-          "text": "sī Rōmae fuisset, fēlīx fuisset. ‘If he had been in Rome, he would have been happy.’ sī rēx locūtus esset, cīvēs audīvissent. ‘If the king had spoken, the citizens would have listened.’ 5) Subjunctive condition, present (= present contrary to fact): imperfect subjunctive"
-        },
+          "text": "‘If the king should speak, the citizens would listen.’ / ‘If the king were to speak, the citizens would listen.’ But see the next chapter for the use of the future perfect."
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "latin": "50.4 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
         {
-          "t": "h",
-          "text": "in both clauses"
+          "t": "example",
+          "text": "Verbs cōgitō, cōgitāre, cōgitāvī, cōgitātum ‘think’ cūrō, cūrāre, cūrāvī, cūrātum ‘take care (of)’ (object in accusative despite English ‘of’) līberō, līberāre, līberāvī, līberātum ‘free’ putō, putāre, putāvī, putātum ‘think’ servō, servāre, servāvī, servātum ‘save’ Nouns dīvitiae, dīvitiārum (f."
         },
         {
           "t": "p",
-          "text": "sī Rōmae esset, fēlīx esset. ‘If he were in Rome, he would be happy.’ sī rēx loquerētur, cīvēs audīrent. ‘If the king were speaking, the citizens would be listening.’ 6) Subjunctive condition, future (= future less vivid): present subjunctive in both"
-        },
-        {
-          "t": "h",
-          "text": "clauses"
-        },
-        {
-          "t": "p",
-          "text": "sī Rōmam eat, fēlīx sit. ‘If he should go to Rome, he would be happy.’ / ‘If he were to go to Rome, he would be happy.’ sī rēx loquātur, cīvēs audiant. ‘If the king should speak, the citizens would listen.’ / ‘If the king were to speak, the citizens would listen.’ But see the next chapter for the use of the future perfect."
+          "text": "plural) ‘wealth’ dōnum, dōnī (n.) ‘gift’ inimīcus, inimīcī (m.) ‘enemy’ (inimīcus is a personal enemy; hostēs are a public enemy, the other side in a war) Adjective summus, summa, summum ‘very great’ Conjunctions nisī ‘if not’, ‘unless’ sī ‘if’ vel ‘or’"
         }
       ]
     }
@@ -233,69 +149,74 @@ const chapter = {
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "cōgitō, cōgitāre, cōgitāvī, cōgitātum",
+      "latin": "quōmodo",
+      "english": "how",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cūrō, cūrāre, cūrāvi, cūrātum",
+      "english": "take care of",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "Libycus, -a, -um",
+      "english": "Libyan",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "bird",
+      "english": "was a guinea fowl) chōrs, chōrtis (f.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "Phāsis, gen. Phāsidis",
+      "english": "Colchian",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "Sex sestertia si statim dedisses, cum dixti mihi",
+      "english": "sume, tolle, dono",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "at",
+      "english": "but",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dīxtī = dīxistī putō, putāre, putāvī, putātum",
       "english": "think",
-      "group": "Verba"
+      "group": "Vocābula"
     },
     {
-      "latin": "cūrō, cūrāre, cūrāvī, cūrātum",
-      "english": "take care (of)",
-      "group": "Verba"
+      "latin": "sūmō, sūmere, sūmpsī, sūmptum",
+      "english": "take",
+      "group": "Vocābula"
     },
     {
-      "latin": "(object in accusative despite English",
-      "english": "of",
-      "group": "Verba"
-    },
-    {
-      "latin": ") līberō, līberāre, līberāvī, līberātum",
-      "english": "free",
-      "group": "Verba"
-    },
-    {
-      "latin": "putō, putāre, putāvī, putātum",
-      "english": "think",
-      "group": "Verba"
-    },
-    {
-      "latin": "servō, servāre, servāvī, servātum",
-      "english": "save",
-      "group": "Verba"
-    },
-    {
-      "latin": "dīvitiae, dīvitiārum (f. plural)",
-      "english": "wealth",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "dōnum, dōnī (n.)",
-      "english": "gift",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "inimīcus, inimīcī (m.)",
-      "english": "enemy",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "(inimīcus is a personal enemy; hostēs are a public enemy, the other side in a war) Adjective summus, summa, summum",
-      "english": "very great",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "nisī",
-      "english": "if not, unless",
-      "group": "Coniūnctiōnēs"
-    },
-    {
-      "latin": "sī",
-      "english": "if",
-      "group": "Coniūnctiōnēs"
+      "latin": "tollō can also mean",
+      "english": "carry away",
+      "group": "Vocābula"
     },
     {
       "latin": "vel",
       "english": "or",
-      "group": "Coniūnctiōnēs"
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dōnō, dōnāre, dōnāvī, dōnātum",
+      "english": "give",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "month",
+      "english": "(here effectively",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "perdō, perdere, perdidī, perditum ducentī, ducentae, ducenta",
+      "english": "waste",
+      "group": "Vocābula"
     }
   ],
   "pensa": [
@@ -681,23 +602,24 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "48 bc . Three verbs (scrīberem, sint, sim affectus) are subjunctive for reasons we have not yet discussed; the first can be translated ‘I might write’ and the second two with indicatives. Tullius Terentiae suae salutem dicit. si vales bene est; ego valeo. si quid haberem, quod ad te scriberem, facerem id et pluribus verbis et saepius. nunc quae sint negotia vides. ego autem quomodo sim affectus, ex Lepta et Trebatio poteris cognoscere. tu fac ut tuam et Tulliae valetudinem cures. vale. Vocabulary quid ‘anything’ (neuter accusative) cognōscō, -nōscere, -nōvī, -nitum negōtia, negōtiōrum (n. plural) ‘find out’ ‘business’ faciō (+ ut + subjunctive) can also mean quōmodo ‘how’ ‘see to it that’ afficiō, afficere, affēcī, affectum valētūdō, valētūdinis (f.) ‘health’ ‘affect’ cūrō, cūrāre, cūrāvi, cūrātum ‘take care of’",
-          "a": ""
-        },
-        {
-          "q": "2 Martial 13.45: the poet sends a humble gift of chickens (first century ad ). Note the dative of possession in the first line: nōbīs essent + nominative = habērēmus + accusative Si Libycae nobis volucres et Phasides essent, acciperes; at nunc accipe chortis aves. Vocabulary Libycus, -a, -um ‘Libyan’ (the ‘Libyan at ‘but’ bird’ was a guinea fowl) chōrs, chōrtis (f.) ‘farmyard’ volucer, volucris (f.) ‘bird’ avis, avis, avium (f.) ‘bird’ Phāsis, gen. Phāsidis ‘Colchian’ (the ‘Colchian bird’ was a pheasant)",
-          "a": ""
-        },
-        {
-          "q": "3 Martial 6.30: a delayed gift earns the giver no gratitude (first century ad). In line",
-          "a": ""
-        },
-        {
-          "q": "6 note the omission of ut: thus vīs dīcam = velīs ut dīcam (cf. chapter 28.3). Sex sestertia si statim dedisses, cum dixti mihi ‘sume, tolle, dono’, deberem tibi, Paete, pro ducentis. at nunc cum dederis diu moratus, post septem, puto, vel novem Kalendas, vis dicam tibi veriora veris? sex sesteria, Paete, perdidisti. Vocabulary sēstertia, sēstertiōrum (n. plural) at ‘but’ ‘thousand sesterces’ post (+ accusative) ‘after’ dīxtī = dīxistī putō, putāre, putāvī, putātum ‘think’ sūmō, sūmere, sūmpsī, sūmptum ‘take’ novem (indeclinable) ‘nine’ tollō can also mean ‘carry away’ vel ‘or’ dōnō, dōnāre, dōnāvī, dōnātum ‘give’ Kalendae, Kalendārum (f. plural) dēbeō, dēbēre, dēbuī, dēbitum ‘festival on the first day of the ‘owe’, ‘feel gratitude’ month’ (here effectively ‘month’) prō (+ ablative) ‘for’ perdō, perdere, perdidī, perditum ducentī, ducentae, ducenta ‘waste’ ‘two hundred’ (thousand sesterces)",
+          "q": "48 bc . Three verbs (scrīberem, sint, sim affectus) are subjunctive for reasons we have not yet discussed; the first can be translated ‘I might write’ and the second two with indicatives. Tullius Terentiae suae salutem dicit. si vales bene est; ego valeo. si quid haberem, quod ad te scriberem, facerem id et pluribus verbis et saepius. nunc quae sint negotia vides. ego autem quomodo sim affectus, ex Lepta et Trebatio poteris cognoscere. tu fac ut tuam et Tulliae valetudinem cures. vale.",
           "a": ""
         }
       ],
       "id": "practice-50-d"
+    },
+    {
+      "id": "translate-50",
+      "latinLabel": "TRANSLATE INTO LATIN",
+      "title": "Translate into Latin",
+      "instruction": "",
+      "type": "questions",
+      "items": [
+        {
+          "q": "Three verbs (scrīberem, sint, sim affectus) are subjunctive for reasons we have not yet discussed; the first can be translated ‘I might write’ and the second two with indicatives.",
+          "a": ""
+        }
+      ]
     }
   ]
 }

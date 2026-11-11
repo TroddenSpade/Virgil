@@ -36,15 +36,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "ferēs ferēris feret ferētur ferēmus ferēmur ferētis ferēminī ferent ferentur"
-        },
-        {
-          "t": "h",
-          "text": "Perfect tulī lātus, -a, -um sum tulerim lātus, -a, -um sim"
-        },
-        {
-          "t": "p",
-          "text": "tulistī lātus, -a, -um es tulerīs lātus, -a, -um sīs tulit lātus, -a, -um est tulerit lātus, -a, -um sit tulimus lātī, -ae, -a sumus tulerīmus lātī, -ae, -a sīmus tulistis lātī, -ae, -a estis tulerītis lātī, -ae, -a sītis tulērunt lātī, -ae, -a sunt tulerint lātī, -ae, -a sint"
+          "text": "ferēs ferēris feret ferētur ferēmus ferēmur ferētis ferēminī ferent ferentur Perfect tulī lātus, -a, -um sum tulerim lātus, -a, -um sim tulistī lātus, -a, -um es tulerīs lātus, -a, -um sīs tulit lātus, -a, -um est tulerit lātus, -a, -um sit tulimus lātī, -ae, -a sumus tulerīmus lātī, -ae, -a sīmus tulistis lātī, -ae, -a estis tulerītis lātī, -ae, -a sītis tulērunt lātī, -ae, -a sunt tulerint lātī, -ae, -a sint"
         },
         {
           "t": "pre",
@@ -59,12 +51,8 @@ const chapter = {
           "text": "Indicative Subjunctive Active Passive Active Passive"
         },
         {
-          "t": "h",
-          "text": "Pluperfect tuleram lātus, -a, -um eram tulissem lātus, -a, -um essem"
-        },
-        {
           "t": "p",
-          "text": "tulerās lātus, -a, -um erās tulissēs lātus, -a, -um essēs tulerat lātus, -a, -um erat tulisset lātus, -a, -um esset tulerāmus lātī, -ae, -a erāmus tulissēmus lātī, -ae, -a essēmus tulerātis lātī, -ae, -a erātis tulissētis lātī, -ae, -a essētis tulerant lātī, -ae, -a erant tulissent lātī, -ae, -a essent"
+          "text": "Pluperfect tuleram lātus, -a, -um eram tulissem lātus, -a, -um essem tulerās lātus, -a, -um erās tulissēs lātus, -a, -um essēs tulerat lātus, -a, -um erat tulisset lātus, -a, -um esset tulerāmus lātī, -ae, -a erāmus tulissēmus lātī, -ae, -a essēmus tulerātis lātī, -ae, -a erātis tulissētis lātī, -ae, -a essētis tulerant lātī, -ae, -a erant tulissent lātī, -ae, -a essent"
         },
         {
           "t": "pre",
@@ -99,10 +87,6 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "1 Oxyrhynchus Papyri v i i .1022.1–23 (adapted): a letter to a cohort of the Roman army"
-        },
-        {
           "t": "p",
           "text": "Roman names are declinable and fit into the Latin grammatical system; men’s names are masculine (and usually belong to the second or third declension), while women’s names are feminine (and usually belong to the first or third declension). Women are usually referred to by one name (in the Republic this is nearly always a first-declension word ending in -ia in the nominative), occasionally by two."
         },
@@ -120,7 +104,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Non-Romans and slaves usually had only one name, of unpredictable form and sometimes (particularly in the case of Jewish names found in the Bible) indeclinable. Names should always be put into the nominative case when translating into English. in Egypt, enrolling six new soldiers (ad 103). C. Minicius Italus Celsiano suo salutem dicit."
+          "text": "Non-Romans and slaves usually had only one name, of unpredictable form and sometimes (particularly in the case of Jewish names found in the Bible) indeclinable. Names should always be put into the nominative case when translating into English. 1 Oxyrhynchus Papyri v i i .1022.1–23 (adapted): a letter to a cohort of the Roman army in Egypt, enrolling six new soldiers (ad 103). C. Minicius Italus Celsiano suo salutem dicit."
         },
         {
           "t": "p",
@@ -137,98 +121,18 @@ const chapter = {
         {
           "t": "p",
           "text": "Antonium Valentem, annorum XXII, iconismus frontis parte dextra."
-        },
-        {
-          "t": "h",
-          "text": "Vocabulary"
-        },
-        {
-          "t": "p",
-          "text": "tīrō, tīrōnis (m.) ‘recruit’ (i.e. new (first) of March’: February had 28"
-        },
-        {
-          "t": "h",
-          "text": "entrant to the army) days and the Romans counted"
-        },
-        {
-          "t": "h",
-          "text": "probō, probāre, probāvī, probātum inclusively)"
-        },
-        {
-          "t": "h",
-          "text": "‘approve’ īconismus, īconismī (m.)"
-        },
-        {
-          "t": "h",
-          "text": "cohors, cohortis (f.) ‘cohort’ (a unit ‘distinguishing mark’"
-        },
-        {
-          "t": "h",
-          "text": "of the Roman army) (e.g. a birthmark)"
-        },
-        {
-          "t": "p",
-          "text": "praesum (like sum) (+ dative) ‘be in subiciō, subicere, subiēcī, subiectum"
-        },
-        {
-          "t": "h",
-          "text": "charge of’ ‘append to’ (+ accusative of thing"
-        },
-        {
-          "t": "h",
-          "text": "2 Corpus Inscriptionum Latinarum iv .429 and iv.3640 (both adapted): Campaign"
-        },
-        {
-          "t": "p",
-          "text": "referō (like ferō) in numerōs ‘enrol’ appended and dative of thing to iubeō, iubēre, iussī, iussum ‘order’ which appended) (takes accusative and infinitive annōrum ‘aged’ (literally ‘of years’) rather than the usual indirect superciliō (ablative) ‘on his eyebrow’ command construction) sinister, sinistra, sinistrum ‘left’ ex ‘starting from’ frōns, frontis, frontium (f.) ‘forehead’ XI Kalendās Mārtiās ‘19 February’ parte (ablative) ‘on the side’ (literally ‘11 days before the Kalends dexter, dextra, dextrum ‘right’ notices from Pompeii (first century ad)."
-        },
-        {
-          "t": "p",
-          "text": "C. Iulium Polybium oro ut vos aedilem faciatis: panem bonum affert. Cn. Helvium Sabinum oro ut vos aedilem faciatis. Thyrsus hoc fecit."
-        },
-        {
-          "t": "h",
-          "text": "Vocabulary"
-        },
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "latin": "49.4 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
         {
           "t": "example",
-          "text": "ōrō, ōrāre, ōrāvī, ōrātum ‘beg’ faciō can also mean ‘vote for’, ‘elect’ aedīlis, aedīlis, aedīlium (m.) ‘aedile’ (an pānis, pānis, pānium (m.) ‘bread’"
-        },
-        {
-          "t": "h",
-          "text": "elected official)"
-        },
-        {
-          "t": "h",
-          "text": "3 Roman Inscriptions of Britain 10, 959, 934, 560, 363, 369, 594 (all adapted): inscrip-"
-        },
-        {
-          "t": "p",
-          "text": "tions on imperial-period tombstones found in Britain. a. M. Aurelio Eucarpo filio piissimo, qui vixit annos XV et menses VI, Aurelia Eucarpia mater hoc posuit. b. Dis manibus. Aurelia Aureliana vixit annos XXXXI. Ulpius Apollinaris coniugi carissimae hoc posuit. c. Dis manibus. Crotilo Germanus vixit annos XXVI. Graeca vixit annos IIII. Vindicianus frater titulum posuit. d. Dis manibus."
-        },
-        {
-          "t": "p",
-          "text": "Atiliana annorum I, Atilianus annorum X, Protus annorum XII. Pompeius Optatus dominus titulum posuit. e. Dis manibus. Iulius Valens, veteranus legionis II, vixit annos C. Iulia Secundina coniunx et Iulius Martinus filius hanc memoriam posuerunt. f. Dis manibus. Tadia Vallaunia vixit annos LXV, et Tadius Exuperatus filius vixit annos XXXVII, defunctus in expeditione Germanica."
-        },
-        {
-          "t": "p",
-          "text": "Tadia Exuperata filia piissima matri et fratri hoc prope tumulum patris posuit. g. His terris tegitur Aelia Matrona, quae vixit annos XXVIII menses II dies VIII, et M. Iulius Maximus filius, qui vixit annos VI menses III dies XX, et Campania Dubitata mater, quae vixit annos LIII. Iulius Maximus, singularis consularis alae Sarmatarum, coniunx, coniugi incomparabili et filio piissimo et socrui tenacissimae hanc memoriam posuit."
-        },
-        {
-          "t": "h",
-          "text": "Vocabulary"
-        },
-        {
-          "t": "example",
-          "text": "pius, pia, pium ‘devoted’ prope (+ accusative) ‘near’ mēnsis, mēnsis (m.) ‘month’ tumulus, tumulī (m.) ‘tomb’ pōnō can also mean ‘set up’ terrae, terrārum (f. plural) ‘earth’ dīs mānibus ‘to the divine spirits’ tegō, tegere, tēxī, tēctum ‘cover’ coniūnx, coniugis (m."
-        },
-        {
-          "t": "example",
-          "text": "or f.) ‘spouse’ singulāris cōnsulāris (nominative) titulus, titulī (m.) ‘inscription’ ‘officer’\nannōrum ‘aged’ (literally ‘of years’) āla, ālae (f.) ‘cavalry regiment’ veterānus, veteranī (m.) ‘veteran’ Sarmatae, Sarmatārum (m."
-        },
-        {
-          "t": "p",
-          "text": "plural) legiō, legiōnis (f.) ‘legion’ ‘Sarmatians’ (a people living in the memoria, memoriae (f.) ‘memorial’ eastern empire, near the Black Sea) dēfungor, dēfungī, dēfūnctus sum ‘die’ incomparābilis, -e ‘incomparable’ expedītiō, expedītiōnis (f.) ‘expedition’ socrus, socrūs (f.) ‘mother in law’ Germānicus, -a, -um ‘German’ (i.e to tenāx, gen. tenācis Germany) ‘steadfast’"
+          "text": "Verbs afferō, afferre, attulī, allātum ‘bring’ auferō, auferre, abstulī, ablātum ‘carry off’ ferō, ferre, tulī, lātum ‘carry’"
         }
       ]
     }
@@ -237,19 +141,74 @@ const chapter = {
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "afferō, afferre, attulī, allātum",
-      "english": "bring",
-      "group": "Verba"
+      "latin": "in numerōs",
+      "english": "enrol",
+      "group": "Vocābula"
     },
     {
-      "latin": "auferō, auferre, abstulī, ablātum",
-      "english": "carry off",
-      "group": "Verba"
+      "latin": "sinister, sinistra, sinistrum",
+      "english": "left",
+      "group": "Vocābula"
     },
     {
-      "latin": "ferō, ferre, tulī, lātum",
-      "english": "carry",
-      "group": "Verba"
+      "latin": "ex",
+      "english": "starting from",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "XI Kalendās Mārtiās",
+      "english": "19 February",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ōrō, ōrāre, ōrāvī, ōrātum",
+      "english": "beg",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "faciō can also mean",
+      "english": "vote for",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "pius, pia, pium",
+      "english": "devoted",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "pōnō can also mean",
+      "english": "set up",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dīs mānibus",
+      "english": "to the divine spirits",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "tegō, tegere, tēxī, tēctum",
+      "english": "cover",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "annōrum",
+      "english": "aged",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dēfungor, dēfungī, dēfūnctus sum",
+      "english": "die",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "incomparābilis, -e",
+      "english": "incomparable",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "Germānicus, -a, -um",
+      "english": "German",
+      "group": "Vocābula"
     }
   ],
   "pensa": [

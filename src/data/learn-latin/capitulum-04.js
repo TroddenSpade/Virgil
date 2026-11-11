@@ -71,6 +71,22 @@ const chapter = {
           "text": "In verbs where there is ambiguity between present and perfect stems this form can sometimes be confused with the present infinitive. This alternative form will not generally be used in this book, but it is worth remembering."
         }
       ]
+    },
+    {
+      "id": "section-4",
+      "latin": "4.4 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Since principal parts need to be learned for each verb before one can form all its tenses, it is now necessary to re-learn the chapter 1 vocabulary."
+        },
+        {
+          "t": "example",
+          "text": "Verbs currō, currere, cucurrī, cursum ‘run’ dūcō, dūcere, dūxī, ductum ‘lead’ emō, emere, ēmī, ēmptum ‘buy’ legō, legere, lēgī, lēctum ‘read’ mittō, mittere, mīsī, missum ‘send’ petō, petere, petīvī, petītum ‘seek’ pōnō, pōnere, posuī, positum ‘put’ regō, regere, rēxī, rēctum ‘rule’ scrībō, scrībere, scrīpsī, scrīptum ‘write’ vincō, vincere, vīcī, victum ‘conquer’"
+        }
+      ]
     }
   ],
   "readings": [
@@ -87,58 +103,7 @@ const chapter = {
     }
   ],
   "grammar": [],
-  "vocabulary": [
-    {
-      "latin": "44 equum magnum puella non 49 amice, misistine tuum servum? emet. 50 poetae boni verba non 45 equos novos agricolae emerunt. scripserunt. 46 amici, petetisne puellas bonas? 51 agricolae verba mea non 47 amice, petisne nova bella? legerunt. 48 servum tuum non emam. 52 bone serve, cucurristine? Since principal parts need to be learned for each verb before one can form all its tenses, it is now necessary to re-learn the chapter 1 vocabulary. Verbs currō, currere, cucurrī, cursum",
-      "english": "run",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "dūcō, dūcere, dūxī, ductum",
-      "english": "lead",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "emō, emere, ēmī, ēmptum",
-      "english": "buy",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "legō, legere, lēgī, lēctum",
-      "english": "read",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "mittō, mittere, mīsī, missum",
-      "english": "send",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "petō, petere, petīvī, petītum",
-      "english": "seek",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "pōnō, pōnere, posuī, positum",
-      "english": "put",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "regō, regere, rēxī, rēctum",
-      "english": "rule",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "scrībō, scrībere, scrīpsī, scrīptum",
-      "english": "write",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "vincō, vincere, vīcī, victum",
-      "english": "conquer",
-      "group": "Vocābula"
-    }
-  ],
+  "vocabulary": [],
   "pensa": [
     {
       "latinLabel": "PRACTICE A",
@@ -743,6 +708,19 @@ const chapter = {
         }
       ],
       "id": "practice-4-h"
+    },
+    {
+      "id": "translate-4",
+      "latinLabel": "TRANSLATE INTO LATIN",
+      "title": "Translate into Latin",
+      "instruction": "",
+      "type": "questions",
+      "items": [
+        {
+          "q": "5 you (singular) will buy 11 you (singular) will conquer 6 you (plural) will read 12 I shall run",
+          "a": ""
+        }
+      ]
     }
   ]
 }

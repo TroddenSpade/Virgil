@@ -33,78 +33,6 @@ const chapter = {
         {
           "t": "p",
           "text": "(to bath attendant) bene nos lavisti, bene tibi sit."
-        },
-        {
-          "t": "h",
-          "text": "Vocabulary"
-        },
-        {
-          "t": "example",
-          "text": "dēferte (imperative plural) ‘carry down’ sphaeristērium, -ī (n.) ‘ball-court’ sabanum, sabanī (n.) ‘towel’ exerceō, -cēre, -cuī, -citum ‘train’ balneum, balneī (n.) ‘bath’ cērōma, cērōmatis (n.) ‘wrestlingstrigilis, strigilis, strigilium (f.) ground’ ‘strigil’ (scraper for removing dirt, luctor, luctārī, luctātus sum ‘wrestle’ oil, and sweat from skin) ūnō mōmentō ‘just a moment’ faciāle, faciālis, faciālium (n.) ‘face-cloth’ nesciō, nescīre, nescīvī, nescītum ‘not pedāle, pedālis, pedālium (n.) ‘foot-cloth’ know’ ampulla, ampullae (f.) ‘flask of oil’ num (+ subjunctive) ‘whether’ aphronitrum, aphronitrī (n.) ‘soap’\nōlim ‘long ago’ antecēdō, -cēdere, -cessī, -cessum ‘go cessō, cessāre, cessāvī, cessātum ‘cease’"
-        },
-        {
-          "t": "h",
-          "text": "ahead’ temptō, temptāre, temptāvī, temptātum"
-        },
-        {
-          "t": "example",
-          "text": "occupō, -āre, -āvī, -ātum ‘occupy’, i.e. ‘try’ ‘get us’\nleviter ‘easily’\nquō ‘where’ (with verbs of motion fatīgō, fatīgāre, fatīgāvī, fatīgātum ‘tire towards) out’ thermae, thermārum (f. plural) ‘public introeō (like eō) ‘go in’ baths’ cella, cellae (f.) ‘room’ prīvātum (i.e."
-        },
-        {
-          "t": "p",
-          "text": "balneum), prīvātī (n.) tepidārium, tepidāriī (n.) ‘warm room’ ‘private bathing establishment’ balneātor, balneātōris (m.) ‘bath (open to the public but privately attendant’ owned and run) nummus, nummī (m.) ‘coin’ (there was tantum ‘just’ a small admission charge to the surgō, surgere, surrēxī, surrēctum ‘get public baths, which was often paid"
-        },
-        {
-          "t": "h",
-          "text": "up’ not at the entrance to the whole"
-        },
-        {
-          "t": "p",
-          "text": "sēcessus, sēcessūs (m.) ‘toilet’ complex but at the entrance to the admoneō, -ēre, -uī, -itum ‘advise’ heated rooms) venter, ventris (m.) ‘belly’ recipiō (like capiō) ‘take’, ‘get’ cōgō, cōgere, coēgī, coāctum ‘compel’ reliquum, reliquī (n.) ‘change’ exspoliō, -āre, -āvī, -ātum ‘undress’ ungō, ungere, ūnxī, ūnctum ‘anoint’ discalceō, -āre, -āvī, -ātum ‘take off the (= put oil on) shoes of’ fricō, fricāre, fricuī, frictum ‘rub’ compōnō (like pōnō) ‘put together’ sūdātōrium, -ī (n.) ‘sweat room’ vestīmentum, vestīmentī (n.) ‘clothes’ sūdō, sūdāre, sūdāvī, sūdātum ‘sweat’ cooperiō, -perīre, -peruī, -pertum lassus, lassa, lassum ‘exhausted’ ‘cover’ solium, soliī (n.) ‘hot pool’ servō, servāre, servāvī, servātum ‘watch’ dēscendo, dēscendere, dēscendī, nōlī obdormīre ‘don’t doze off’ dēscēnsum ‘go down’ fūr, fūris (m.) ‘thief’ assa, assōrum (n."
-        },
-        {
-          "t": "example",
-          "text": "plural) ‘dry heat pila, pilae (f.) ‘ball’ room’ lūdō, lūdere, lūsī, lūsum ‘play’\nsīc ‘that way’ (i.e."
-        },
-        {
-          "t": "example",
-          "text": "using that route) fōmentō, -āre, -āvī, -ātum ‘pour hot dētergō, dētergere, dētersī, dētersum water over’ ‘dry off’\niam ‘now’ cingō, cingere, cīnxī, cīnctum ‘wrap mittō can also mean ‘throw’ around (me)’ piscīna, piscīnae (f.) ‘swimming pool’ tergō, tergere, tersī, tersum ‘dry’ subdīvālis, subdīvāle ‘open-air’ caligula, caligulae (f.) ‘shoe’, ‘boot’ natō, natāre, natāvī, natātum ‘swim’ calceō, calceāre, calceāvī, calceātum ‘put accēdō, accēdere, accessī, accessum ‘go on shoes’"
-        },
-        {
-          "t": "h",
-          "text": "over’ dalmatica, dalmaticae (f.) ‘Dalmatian"
-        },
-        {
-          "t": "p",
-          "text": "lūtēr, lūtēris (m.) ‘shower’ (for washing tunic’ off grime from dirty communal bath pallium, palliī (n.) ‘mantle’ (a type of water; it may not have been very outer garment consisting of a large effective, as the bathers still need to square of cloth) use the strigil to scrape off the colligō, colligere, collēgī, collēctum remaining grime before drying ‘gather up’ themselves) minūtālia, minūtālium (n."
-        },
-        {
-          "t": "example",
-          "text": "plural) perfundō, -fundere, -fūdī, -fūsum ‘chopped food’ ‘pour water over’ lupīnus, lupīnī (m.) ‘lupin seed’ resūmō, resūmere, resūmpsī, faba, fabae (f.) ‘bean’\nresūmptum ‘hang (it) up’ acētātus, -a, -um ‘served in vinegar’ porrigō, porrigere, porrēxī, porrēctum lavō, lavāre, lāvī, lautum ‘bathe’ ‘pass’"
-        }
-      ]
-    },
-    {
-      "id": "section-2",
-      "latin": "36.2 Translate into Latin",
-      "english": "Grammar",
-      "kind": "commentary",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "father: Son, come! Grab a towel and soap: let’s go to the bath. son : To the public baths or to the private one? father: We are not in Rome, where (there) are many public baths; we are in London, where (there) are not public baths. We shall go to the private bath. son : Why did we leave Rome and come to London? A private bath is small; I want to go to public baths with a big ball-court and an open-air pool!"
-        },
-        {
-          "t": "p",
-          "text": "I want to go to Rome! I want to go home! father: You are at home: your home is now in London. We shall be here for many days, and we cannot be always dirty. The bath in London is so small that it does not have a ball-court. But it has water, and we are dirty. Let’s go!"
-        },
-        {
-          "t": "h",
-          "text": "Additional Vocabulary"
-        },
-        {
-          "t": "h",
-          "text": "sordidus, -a, -um ‘dirty’"
         }
       ]
     },
@@ -117,34 +45,274 @@ const chapter = {
         {
           "t": "p",
           "text": "Juno gets cross (continuation of passages in chapter 31): Vix e conspectu Siculae telluris in altum vela dabant laeti et spumas salis aere ruebant, cum Iuno aeternum servans sub pectore vulnus haec secum: ‘mene incepto desistere victam nec posse Italia Teucrorum avertere regem?’"
-        },
-        {
-          "t": "h",
-          "text": "Vocabulary"
-        },
-        {
-          "t": "p",
-          "text": "vix ‘scarcely’ vulnus, vulneris (n.) ‘wound’, cōnspectus, cōnspectūs (m.) ‘sight’ ‘grievance’ Siculus, -a, -um ‘Sicilian’ haec secum: supply dīxit here tellūs, tellūris (f.) ‘land’ mēne = mē + -ne (the mē is the altum, altī (n.) ‘open sea’ accusative subject of the following vēlum, vēlī (n.) ‘sail’ infinitives, as this quotation is in dabant ‘(they) were setting’ accusative and infinitive, though not laetus, laeta, laetum ‘joyful’ in indirect statement) spūma, spūmae (f.) ‘foam’ inceptum, inceptī (n.) ‘undertaking’ sāl, salis (m.) ‘salt sea’ dēsistō, dēsistere, dēstitī, dēstitum (+ aes, aeris (n.) ‘bronze (prows of the ablative) ‘desist from’ (translate the"
-        },
-        {
-          "t": "h",
-          "text": "ships)’ infinitive as if it were a deliberative"
-        },
-        {
-          "t": "p",
-          "text": "ruēbant ‘they were churning up’ subjunctive) cum ‘when’ nec ‘and not’ Iūnō, Iūnōnis (f.) ‘Juno’ Italia, Italiae (f.) ‘Italy’ (supply ab here; aeternus, -a, -um ‘eternal’ the first vowel of Italia can be either servō, servāre, servāvī, servātum ‘keep’ long or short) sub (+ ablative) ‘deep inside’ (literally āvertō, āvertere, āvertī, āversum ‘turn ‘under’) away’ pectus, pectoris (n.) ‘heart’ Teucrī, Teucrōrum (m."
-        },
-        {
-          "t": "p",
-          "text": "plural) ‘Trojans’ A possible prose order of the above would be: Vix e conspectu Siculae telluris, laeti in altum vela dabant et spumas salis aere ruebant, cum Iuno aeternum vulnus sub pectore servans haec secum: ‘mene victam incepto desistere nec posse regem Teucrorum Italia avertere?’"
         }
       ]
     }
   ],
   "readings": [],
   "grammar": [],
-  "vocabulary": [],
-  "pensa": []
+  "vocabulary": [
+    {
+      "latin": "exerceō, -cēre, -cuī, -citum",
+      "english": "train",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ūnō mōmentō",
+      "english": "just a moment",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "nesciō, nescīre, nescīvī, nescītum",
+      "english": "not pedāle, pedālis, pedālium (n.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "foot-cloth",
+      "english": "know",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ōlim",
+      "english": "long ago",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "antecēdō, -cēdere, -cessī, -cessum",
+      "english": "go cessō, cessāre, cessāvī, cessātum",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "occupō, -āre, -āvī, -ātum",
+      "english": "occupy",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "i.e",
+      "english": "try",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "leviter",
+      "english": "easily",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "quō",
+      "english": "where",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "baths",
+      "english": "cella, cellae (f.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "tantum",
+      "english": "just",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cōgō, cōgere, coēgī, coāctum",
+      "english": "compel",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "exspoliō, -āre, -āvī, -ātum",
+      "english": "undress",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ungō, ungere, ūnxī, ūnctum",
+      "english": "anoint",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sūdō, sūdāre, sūdāvī, sūdātum",
+      "english": "sweat",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cooperiō, -perīre, -peruī, -pertum lassus, lassa, lassum",
+      "english": "exhausted",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "servō, servāre, servāvī, servātum",
+      "english": "watch",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dēscendo, dēscendere, dēscendī, nōlī obdormīre",
+      "english": "don",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "t doze off",
+      "english": "dēscēnsum",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "go down",
+      "english": "fūr, fūris (m.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "thief",
+      "english": "assa, assōrum (n. plural)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "room",
+      "english": "lūdō, lūdere, lūsī, lūsum",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "play",
+      "english": "sīc",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "iam",
+      "english": "now",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cingō, cingere, cīnxī, cīnctum",
+      "english": "wrap mittō can also mean",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "throw",
+      "english": "around (me)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "tergō, tergere, tersī, tersum",
+      "english": "dry",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "subdīvālis, subdīvāle",
+      "english": "open-air",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "natō, natāre, natāvī, natātum",
+      "english": "swim",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "calceō, calceāre, calceāvī, calceātum",
+      "english": "put accēdō, accēdere, accessī, accessum",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "over",
+      "english": "dalmatica, dalmaticae (f.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "perfundō, -fundere, -fūdī, -fūsum",
+      "english": "chopped food",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "resūmptum",
+      "english": "hang (it) up",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "acētātus, -a, -um",
+      "english": "served in vinegar",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "porrigō, porrigere, porrēxī, porrēctum lavō, lavāre, lāvī, lautum",
+      "english": "bathe",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "vix",
+      "english": "scarcely",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "Siculus, -a, -um",
+      "english": "Sicilian",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ruēbant",
+      "english": "they were churning up",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cum",
+      "english": "when",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "nec",
+      "english": "and not",
+      "group": "Vocābula"
+    }
+  ],
+  "pensa": [
+    {
+      "id": "translate-36",
+      "latinLabel": "36.2 TRANSLATE INTO LATIN",
+      "title": "36.2 Translate into Latin",
+      "instruction": "",
+      "type": "questions",
+      "items": [
+        {
+          "q": "Grab a towel and soap: let’s go to the bath.",
+          "a": ""
+        },
+        {
+          "q": "son : To the public baths or to the private one?",
+          "a": ""
+        },
+        {
+          "q": "father: We are not in Rome, where (there) are many public baths; we are in London, where (there) are not public baths.",
+          "a": ""
+        },
+        {
+          "q": "We shall go to the private bath.",
+          "a": ""
+        },
+        {
+          "q": "son : Why did we leave Rome and come to London?",
+          "a": ""
+        },
+        {
+          "q": "A private bath is small; I want to go to public baths with a big ball-court and an open-air pool!",
+          "a": ""
+        },
+        {
+          "q": "I want to go to Rome!",
+          "a": ""
+        },
+        {
+          "q": "father: You are at home: your home is now in London.",
+          "a": ""
+        },
+        {
+          "q": "We shall be here for many days, and we cannot be always dirty.",
+          "a": ""
+        },
+        {
+          "q": "The bath in London is so small that it does not have a ball-court.",
+          "a": ""
+        },
+        {
+          "q": "But it has water, and we are dirty.",
+          "a": ""
+        }
+      ]
+    }
+  ]
 }
 
 export default chapter

@@ -114,105 +114,13 @@ const chapter = {
     },
     {
       "id": "section-1",
-      "latin": "Deponent Verbs: Forms from First Two Principal Parts",
-      "english": "Chapter",
+      "latin": "27.3 Vocabulary to Learn",
+      "english": "Grammar",
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "Principal Parts"
-        },
-        {
-          "t": "p",
-          "text": "In addition to the five conjugations of regular verbs we have so far seen, there are five conjugations of deponent verbs. Deponent verbs use a completely different set of endings, but in other respects they function exactly like the verbs we have so far seen. The paradigm verbs for the deponents are the following:"
-        },
-        {
           "t": "example",
-          "text": "First conjugation vēnor, vēnārī, vēnātus sum ‘hunt’ Second conjugation vereor, verērī, veritus sum (+ accusative) ‘fear’, ‘be afraid (of)’ Third conjugation ūtor, ūtī, ūsus sum (+ ablative) ‘use’ Fourth conjugation partior, partīrī, partītus sum ‘divide’ Mixed conjugation morior, morī, mortuus sum ‘die’"
-        },
-        {
-          "t": "p",
-          "text": "As you can see, deponent verbs have only three principal parts, and their third principal part is periphrastic (i.e. it consists of two words, as vēnātus sum); this is because deponent verbs cannot be made passive and so cannot have the kind of fourth principal part that regular verbs do (see chapter 6.2). The use of the third principal part of deponent verbs will be explained in chapter 29. Deponent verbs belonging to each conjugation can be identified as follows: first-conjugation verbs have a second principal part in -ārī, second-conjugation verbs have a second principal part in -ērī, thirdconjugation verbs have a second principal part in -ī and a first principal part that does not end in -ior, fourth-conjugation verbs have a second principal part in -īrī, and mixed-conjugation verbs have a second principal part in -ī and a first principal part in -ior. Deponents are conjugated as shown in the table below:"
-        },
-        {
-          "t": "p",
-          "text": "First Second Third Fourth Mixed conjugation conjugation conjugation conjugation conjugation"
-        },
-        {
-          "t": "pre",
-          "text": "Present vēnor vereor ūtor partior morior indicative vēnāris verēris ūteris partīris moreris"
-        },
-        {
-          "t": "p",
-          "text": "vēnātur verētur ūtitur partītur moritur vēnāmur verēmur ūtimur partīmur morimur vēnāminī verēminī ūtiminī partīminī moriminī vēnantur verentur ūtuntur partiuntur moriuntur"
-        },
-        {
-          "t": "p",
-          "text": "First Second Third Fourth Mixed conjugation conjugation conjugation conjugation conjugation"
-        },
-        {
-          "t": "pre",
-          "text": "Future vēnābor verēbor ūtar partiar moriar indicative vēnāberis verēberis ūtēris partiēris moriēris"
-        },
-        {
-          "t": "p",
-          "text": "vēnābitur verēbitur ūtētur partiētur moriētur vēnābimur verēbimur ūtēmur partiēmur moriēmur vēnābiminī verēbiminī ūtēminī partiēminī moriēminī vēnābuntur verēbuntur ūtentur partientur morientur"
-        },
-        {
-          "t": "p",
-          "text": "Perfect in chapter 29 indicative Present vēner verear ūtar partiar moriar subjunctive vēnēris vereāris ūtāris partiāris moriāris"
-        },
-        {
-          "t": "p",
-          "text": "vēnētur vereātur ūtātur partiātur moriātur vēnēmur vereāmur ūtāmur partiāmur moriāmur vēnēminī vereāminī ūtāminī partiāminī moriāminī vēnentur vereantur ūtantur partiantur moriāntur"
-        },
-        {
-          "t": "pre",
-          "text": "Imperfect vēnārer verērer ūterer partīrer morerer subjunctive vēnārēris verērēris ūterēris partīrēris morerēris"
-        },
-        {
-          "t": "p",
-          "text": "vēnārētur verērētur ūterētur partīrētur morerētur vēnārēmur verērēmur ūterēmur partīrēmur morerēmur vēnārēminī verērēminī ūterēminī partīrēminī morerēminī vēnārentur verērentur ūterentur partīrentur morerentur"
-        },
-        {
-          "t": "h",
-          "text": "Imperative vēnāre verēre ūtere partīre morere"
-        },
-        {
-          "t": "h",
-          "text": "vēnāminī verēminī ūtiminī partīminī moriminī"
-        },
-        {
-          "t": "pre",
-          "text": "Present vēnāns, gen. verēns, gen. ūtēns, gen. partiēns, gen. moriēns, gen. participle vēnantis verentis ūtentis partientis morientis Perfect in chapter 29 participle Future in chapter 29 participle Present vēnārī verērī ūtī partīrī morī infinitive Perfect in chapter 29 infinitive Future in chapter 29 infinitive"
-        },
-        {
-          "t": "p",
-          "text": "The following observations can be made about these forms:"
-        },
-        {
-          "t": "p",
-          "text": "1) Although the deponents use a different set of personal endings from the"
-        },
-        {
-          "t": "p",
-          "text": "regular verbs, they are consistent in using those forms: it is always the same set of endings."
-        },
-        {
-          "t": "p",
-          "text": "2) The stem vowels before the endings, and indeed the entire stem apart from"
-        },
-        {
-          "t": "p",
-          "text": "the endings, behave exactly as the equivalent regular paradigms would behave: it is only the endings that are different."
-        },
-        {
-          "t": "p",
-          "text": "3) The present participles are identical to those of regular verbs. 4) The imperfect subjunctive is formed not from the actual present infinitive of"
-        },
-        {
-          "t": "p",
-          "text": "a deponent verb, but from what would be the present infinitive if the verb were not deponent."
+          "text": "Verbs morior, morī, mortuus sum ‘die’ partior, partīrī, partītus sum ‘divide’ ūtor, ūtī, ūsus sum (+ ablative) ‘use’ vēnor, vēnārī, vēnātus sum ‘hunt’ vereor, verērī, veritus sum ‘fear’, ‘be afraid (of)’ (takes accusative object despite English ‘of’)"
         }
       ]
     }
@@ -221,18 +129,53 @@ const chapter = {
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "Silvānus, -ī (m.) the name of a minor aper, aprī (m.)",
-      "english": "wild boar",
+      "latin": "quot",
+      "english": "how many",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dōnec",
+      "english": "until",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "octō",
+      "english": "eight",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "nōbīs",
+      "english": "for us",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "nūntiō, nūntiāre, nūntiāvī, nūntiātum salūtō, -āre, -āvī, -ātum",
+      "english": "greet",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "seller Tigillīnus, -a, -um",
+      "english": "Tigilline",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sequor, sequī, secūtus sum",
+      "english": "follow",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sufficiō, sufficere, suffēcī, suffectum loquor, loquī, locūtus sum",
+      "english": "talk",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "autem",
+      "english": "however",
       "group": "Vocābula"
     },
     {
       "latin": "deity eximiae fōrmae",
       "english": "of exceptional form",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "invictus, invicta, invictum antecessor, antecessōris (m.)",
-      "english": "unconquerable, predecessor",
       "group": "Vocābula"
     },
     {
@@ -251,63 +194,8 @@ const chapter = {
       "group": "Vocābula"
     },
     {
-      "latin": "in fulfilment of his vow",
-      "english": "praefectus, praefectī (m.)",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "prefect",
-      "english": "libēns, gen. libentis",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "willing(ly)",
-      "english": "āla Sebosiāna, ālae Sebosiānae (f.) pōnō can also mean",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "set (this",
-      "english": "Sebosian cavalry regiment",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "inscription) up",
-      "english": "ob (+ accusative)",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "on account of",
-      "english": "Verbs morior, morī, mortuus sum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "die",
-      "english": "partior, partīrī, partītus sum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "divide",
-      "english": "ūtor, ūtī, ūsus sum (+ ablative)",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "use",
-      "english": "vēnor, vēnārī, vēnātus sum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "hunt",
-      "english": "vereor, verērī, veritus sum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "fear",
-      "english": ",",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "be afraid (of)",
-      "english": "(takes accusative object despite English",
+      "latin": "libēns, gen. libentis",
+      "english": "willing(ly)",
       "group": "Vocābula"
     }
   ],
@@ -622,23 +510,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "1 Colloquium Montepessulanum 13g–15a (adapted): preparing for a trip to the baths (probably third century ad). lucius: quot sunt horae? slave : iam octo. lucius: eat aliquis et nuntiet me venturum esse in balneum Tigillinum. (to servant) sequere nos. tibi loquor, purgamentum! ego autem, donec locum invenitis nobis, unguentarium salutabo. (to ointment-seller) Iuli, ave: saluto te. da mihi tus et unguentum hodie quod sufficit ad homines viginti. Vocabulary quot ‘how many’ dōnec ‘until’ hōra, hōrae (f.) ‘hour’",
-          "a": ""
-        },
-        {
-          "q": "1 locus, locī (m.) ‘place’ (i.e. seats in the iam ‘already’ crowded bath-house) octō ‘eight’ nōbīs ‘for us’ aliquis (like quis) ‘someone’ unguentārius, -ī (m.) ‘ointment-seller’ nūntiō, nūntiāre, nūntiāvī, nūntiātum salūtō, -āre, -āvī, -ātum ‘greet’ ‘announce’ Iūlius, Iūliī (m.) name of the ointment- balneum, balneī (n.) ‘baths’ seller Tigillīnus, -a, -um ‘Tigilline’ (i.e. named avē ‘hello’ after C. Sofonius Tigellinus, a friend tūs, tūris (n.) ‘frankincense’ of the emperor Nero) unguentum, unguentī (n.) ‘ointment’",
-          "a": ""
-        },
-        {
-          "q": "2 sequor, sequī, secūtus sum ‘follow’ sufficiō, sufficere, suffēcī, suffectum loquor, loquī, locūtus sum ‘talk’ ‘suffice’ pūrgāmentum, -ī (n.) ‘scum’ vīgintī (indeclinable) ‘twenty’ autem ‘however’",
-          "a": ""
-        },
-        {
-          "q": "2 Corpus Inscriptionum Latinarum vii.451: inscription from a dedication to the god Silvanus (imperial period; found at Stanhope, County Durham). Silvano invicto sacrum. Gaius Tetius Veturius Micianus, praefectus alae Sebosianae, ob aprum eximiae formae captum, quem multi antecessores eius praedari non potuerunt, voto suscepto libens posuit. The Romans calculated time on a system whereby the hours of daylight and the hours of darkness were each divided into twelve equal hours; the first hour of the day was at sunrise and the sixth at our noon, so the eighth would have been around our",
-          "a": ""
-        },
-        {
-          "q": "2 pm (a bit earlier or later depending on the season). As part of the bathing process, Romans were anointed with perfumed oils and other ointments.",
+          "q": "1 Colloquium Montepessulanum 13g–15a (adapted): preparing for a trip to the baths (probably third century ad). lucius: quot sunt horae? slave : iam octo. lucius: eat aliquis et nuntiet me venturum esse in balneum Tigillinum. (to servant) sequere nos. tibi loquor, purgamentum! ego autem, donec locum invenitis nobis, unguentarium salutabo. (to ointment-seller) Iuli, ave: saluto te. da mihi tus et unguentum hodie quod sufficit ad homines viginti.",
           "a": ""
         }
       ],

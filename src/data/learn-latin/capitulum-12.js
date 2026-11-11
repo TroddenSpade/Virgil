@@ -39,6 +39,26 @@ const chapter = {
           "text": "But with the numbers, which are indeclinable, the phrase as a whole becomes ambiguous as to case: quattuor Rōmānōrum could be either the subject or the object of a sentence."
         }
       ]
+    },
+    {
+      "id": "section-2",
+      "latin": "12.4 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "22 We will give you (singular) 29 The gods are helping us. money. 30 This girl loves me. 23 I am not able to help you (plural). 31 Seven of us are teachers. 24 Are you (plural) giving us 32 Go (plural) with us to the town. money? 33 Lead (singular) this boy with you 25 We cannot see you (plural). to the camp. 26 I am giving you (plural) good 34 Those men will give us horses. horses."
+        },
+        {
+          "t": "p",
+          "text": "35 Those men’s slaves will go with 27 These men cannot see us. you (plural). 28 These men can give you (singu- 36 Our slaves do not love us. lar) money. Colloquium Harleianum 13a–b (adapted): an encounter in a temple (second or third century ad). m a r c u s : salutavi te nudius tertius sursum in templo, sed me non salutavisti. g a i u s : ego adorabam. m a r c u s : et amicum tuum tecum vidi."
+        },
+        {
+          "t": "example",
+          "text": "Verbs abeō, abīre, abiī/abīvī, abitum (conjugated like eō) ‘go away’ absum, abesse, āfuī, āfutūrus (conjugated like sum) ‘be absent’ adsum, adesse, adfuī, adfutūrus (conjugated like sum) ‘be present’ exeō, exīre, exiī/exīvī, exitum (conjugated like eō) ‘go out’ timeō, timēre, timuī, – ‘fear’, ‘be afraid of’ (object is in accusative despite ‘of’)"
+        }
+      ]
     }
   ],
   "readings": [
@@ -59,109 +79,44 @@ const chapter = {
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "money. 30 This girl loves me. money? 33 Lead (singular) this boy with you horses. 35 Those men",
-      "english": "s slaves will go with lar) money. Colloquium Harleianum 13a–b (adapted): an encounter in a temple (second or third century ad). m a r c u s : salutavi te nudius tertius sursum in templo, sed me non salutavisti. g a i u s : ego adorabam. m a r c u s : et amicum tuum tecum vidi. Vocabulary salūtō, salūtāre, salūtāvī, salūtātum templum, templī (n.)",
+      "latin": "sūrsum",
+      "english": "up",
       "group": "Vocābula"
     },
     {
-      "latin": "temple",
-      "english": "",
-      "group": "Vocābula"
+      "latin": "malus, mala, malum",
+      "english": "bad",
+      "group": "Adiectīva"
     },
     {
-      "latin": "greet",
-      "english": "adōrābam (imperfect tense of adōrō nudius tertius (indeclinable)",
-      "group": "Vocābula"
+      "latin": "multī, multae, multa",
+      "english": "many",
+      "group": "Adiectīva"
     },
     {
-      "latin": "two days",
-      "english": "worship, I was worshipping",
-      "group": "Vocābula"
+      "latin": "paucī, paucae, pauca",
+      "english": "few",
+      "group": "Adiectīva"
     },
     {
-      "latin": "ago",
-      "english": "sūrsum",
-      "group": "Vocābula"
+      "latin": "Numbers quattuor",
+      "english": "four",
+      "group": "Adiectīva"
     },
     {
-      "latin": "up",
-      "english": "Verbs abeō, abīre, abiī/abīvī, abitum (conjugated like eō)",
-      "group": "Vocābula"
+      "latin": "quīnque",
+      "english": "five",
+      "group": "Adiectīva"
     },
     {
-      "latin": "go away",
-      "english": "absum, abesse, āfuī, āfutūrus (conjugated like sum)",
-      "group": "Vocābula"
+      "latin": "sex",
+      "english": "six",
+      "group": "Adiectīva"
     },
     {
-      "latin": "be absent",
-      "english": "adsum, adesse, adfuī, adfutūrus (conjugated like sum)",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "be present",
-      "english": "exeō, exīre, exiī/exīvī, exitum (conjugated like eō)",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "go out",
-      "english": "timeō, timēre, timuī, –",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "fear",
-      "english": ",",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "be afraid of",
-      "english": "(object is in accusative despite",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "of",
-      "english": ") Vocabulary continues. Nouns odium, odiī (n.)",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "hatred",
-      "english": "vīta, vītae (f.)",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "life",
-      "english": "Adjectives malus, mala, malum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "bad",
-      "english": "multī, multae, multa",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "many",
-      "english": "paucī, paucae, pauca",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "few",
-      "english": "Numbers quattuor",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "four",
-      "english": "quīnque",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "five",
-      "english": "sex",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "six",
-      "english": "septem",
-      "group": "Vocābula"
+      "latin": "septem",
+      "english": "seven",
+      "group": "Adiectīva"
     }
   ],
   "pensa": [
@@ -520,6 +475,27 @@ const chapter = {
         }
       ],
       "id": "practice-12-d"
+    },
+    {
+      "id": "translate-12",
+      "latinLabel": "TRANSLATE INTO LATIN",
+      "title": "Translate into Latin",
+      "instruction": "",
+      "type": "questions",
+      "items": [
+        {
+          "q": "In the accusative and dative these pronouns are used like other words so far encountered, but in the other cases they are somewhat different.",
+          "a": ""
+        },
+        {
+          "q": "1) The nominatives of the personal pronouns are normally omitted, as we have seen, but can be used for emphasis: amō means ‘I love’, and ego amō means ‘I love’.",
+          "a": ""
+        },
+        {
+          "q": "2) The genitives of personal pronouns are not used as possessives (the English 3) When the ablative of a personal pronoun is used with the preposition cum, it",
+          "a": ""
+        }
+      ]
     }
   ]
 }

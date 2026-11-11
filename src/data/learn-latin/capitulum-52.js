@@ -92,15 +92,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "‘They saw (the man) himself.’ rēx sē vīdit. ‘The king saw rēx ipse vīdit. ‘The king himself saw (it).’ himself.’ rēgem ipse vīdit. ‘He himself saw the king.’ rēgem ipsum vīdit. ‘He saw the king himself.’ rēgem suum vīdērunt. ‘They rēgem ipsum vīdērunt. ‘They saw the king himself.’ saw their own king.’ fīliōs suōs docet. ‘He teaches fīliōs ipsōs docet. ‘He teaches the sons themselves.’"
-        },
-        {
-          "t": "h",
-          "text": "his own sons.’ fīliōs ipsīus docet. ‘He teaches the sons of that man"
+          "text": "‘They saw (the man) himself.’ rēx sē vīdit. ‘The king saw rēx ipse vīdit. ‘The king himself saw (it).’ himself.’ rēgem ipse vīdit. ‘He himself saw the king.’ rēgem ipsum vīdit. ‘He saw the king himself.’ rēgem suum vīdērunt. ‘They rēgem ipsum vīdērunt. ‘They saw the king himself.’ saw their own king.’ fīliōs suōs docet. ‘He teaches fīliōs ipsōs docet. ‘He teaches the sons themselves.’ his own sons.’ fīliōs ipsīus docet."
         },
         {
           "t": "p",
-          "text": "himself.’ fīliōs ipse docet. ‘He teaches his sons himself.’ dīxit sē āfuisse. ‘He said he dīxit ipsum āfuisse. ‘He said that that man himself had had been away.’ (man been away’ (man away is not the same as the away is same as speaker) speaker) in aquā mē vīdī. ‘I saw ipse aquam vīdī. ‘I myself saw the water.’ myself in the water.’ vīdistīne tē? ‘Did you see vīdistīne ipsum?"
+          "text": "‘He teaches the sons of that man himself.’ fīliōs ipse docet. ‘He teaches his sons himself.’ dīxit sē āfuisse. ‘He said he dīxit ipsum āfuisse. ‘He said that that man himself had had been away.’ (man been away’ (man away is not the same as the away is same as speaker) speaker) in aquā mē vīdī. ‘I saw ipse aquam vīdī. ‘I myself saw the water.’ myself in the water.’ vīdistīne tē? ‘Did you see vīdistīne ipsum?"
         },
         {
           "t": "example",
@@ -111,64 +107,32 @@ const chapter = {
           "text": "Practice"
         },
         {
-          "t": "h",
-          "text": "1 She loved herself dearly. 14 The king saw it himself."
-        },
-        {
-          "t": "h",
-          "text": "2 She came herself to see it. 15 The king saw himself."
-        },
-        {
-          "t": "h",
-          "text": "3 I love myself. 16 We helped ourselves."
-        },
-        {
-          "t": "h",
-          "text": "4 I myself discovered this. 17 We ourselves helped them."
-        },
-        {
-          "t": "h",
-          "text": "5 They made it all themselves. 18 I heard the man himself."
-        },
-        {
-          "t": "h",
-          "text": "6 They admired themselves 19 I myself shall do it."
-        },
-        {
-          "t": "h",
-          "text": "7 He wrote this himself. 21 She knew herself very well."
-        },
-        {
-          "t": "h",
-          "text": "8 The baby cannot feed itself. 22 She knew it herself."
-        },
-        {
-          "t": "h",
-          "text": "9 If you want more food, help 23 The queen gave it to me herself."
+          "t": "p",
+          "text": "A State whether the underlined words are reflexives or intensives and whether they would be expressed in Latin with sē, ipse, or a personal pronoun. 1 She loved herself dearly. 14 The king saw it himself. 2 She came herself to see it. 15 The king saw himself. 3 I love myself. 16 We helped ourselves. 4 I myself discovered this. 17 We ourselves helped them. 5 They made it all themselves. 18 I heard the man himself."
         },
         {
           "t": "p",
-          "text": "A State whether the underlined words are reflexives or intensives and whether they would be expressed in Latin with sē, ipse, or a personal pronoun. greatly. 20 I want to do it myself."
+          "text": "6 They admired themselves 19 I myself shall do it. greatly. 20 I want to do it myself. 7 He wrote this himself. 21 She knew herself very well. 8 The baby cannot feed itself. 22 She knew it herself. 9 If you want more food, help 23 The queen gave it to me herself. yourself! 24 I got this dress from the queen 10 Do not kill yourself! herself. 11 They expressed themselves well. 25 The queen herself gave it to me."
         },
         {
-          "t": "h",
-          "text": "yourself! 24 I got this dress from the queen"
+          "t": "p",
+          "text": "12 They said so themselves. 26 The queen cannot dress herself. 13 We saw the king himself."
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "latin": "52.4 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "focus, focī (m.) ‘hearth’ dēficiō, dēficere, dēfēcī, dēfectum ‘run reservō, -āre, -āvī, -ātum out’ ‘preserve’ lignum, lignī (n.) ‘wood’"
         },
         {
-          "t": "h",
-          "text": "10 Do not kill yourself! herself."
-        },
-        {
-          "t": "h",
-          "text": "11 They expressed themselves well. 25 The queen herself gave it to me."
-        },
-        {
-          "t": "h",
-          "text": "12 They said so themselves. 26 The queen cannot dress herself."
-        },
-        {
-          "t": "h",
-          "text": "13 We saw the king himself."
+          "t": "p",
+          "text": "Adjectives/Pronouns ipse, ipsa, ipsum ‘-self’ iste, ista, istud ‘that of yours’"
         }
       ]
     }
@@ -194,29 +158,69 @@ const chapter = {
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "focus, focī (m.)",
-      "english": "hearth",
+      "latin": "ubīque",
+      "english": "everywhere",
       "group": "Vocābula"
     },
     {
-      "latin": "dēficiō, dēficere, dēfēcī, dēfectum",
-      "english": "run reservō, -āre, -āvī, -ātum out, preserve",
+      "latin": "lūceō, lūcēre, lūxī, –",
+      "english": "shine",
       "group": "Vocābula"
     },
     {
-      "latin": "lignum, lignī (n.)",
-      "english": "wood",
+      "latin": "sīc",
+      "english": "thus",
       "group": "Vocābula"
     },
     {
-      "latin": "/Pronouns ipse, ipsa, ipsum",
-      "english": "-self",
-      "group": "Adiectīva"
+      "latin": "nī = nisī -ve",
+      "english": "or",
+      "group": "Vocābula"
     },
     {
-      "latin": "iste, ista, istud",
-      "english": "that of yours",
-      "group": "Adiectīva"
+      "latin": "iūcundus, -a, -um",
+      "english": "pleasant",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cūr perderēs",
+      "english": "to justify your destroying mūnus, mūneris (n.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "gift",
+      "english": "me",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ōdī, ōdisse, ōsum",
+      "english": "hate",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "Vatīniānus, -a, -um",
+      "english": "like that of tantum impiōrum",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "Vatinius",
+      "english": "(i.e. in this case, very writing",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "beātus, beāta, beātum",
+      "english": "fertile",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "rārus, rāra, rārum",
+      "english": "sparse",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "fūrāx, gen. fūrācis",
+      "english": "thieving",
+      "group": "Vocābula"
     }
   ],
   "pensa": [
@@ -458,27 +462,28 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "1 Corpus Inscriptionum Latinarum iv.8364 (adapted): graffiti from the walls of Pompeii (first century ad ). Secundus Primae suae ubique ipse salutem dicit. rogo, domina, ut me ames. Vocabulary ubīque ‘everywhere’",
-          "a": ""
-        },
-        {
-          "q": "2 Vulgate version of the Bible, John 1:1–",
-          "a": ""
-        },
-        {
-          "q": "5 (adapted): a metaphysical account of creation (translated in the fourth century ad from an earlier Greek version). In principio erat verbum, et verbum erat apud deum, et deus erat verbum. sic erat in principio apud deum: omnia ab ipso facta sunt, et sine ipso factum est nihil quod factum est; in ipso vita erat, et vita erat lux hominum, et lux in tenebris lucebat, et tenebrae eam non conprehenderunt. Vocabulary prīncipium, prīncipiī (n.) tenebrae, tenebrārum (f. plural) ‘beginning’ ‘darkness’ apud (+ accusative) lūceō, lūcēre, lūxī, – ‘shine’ ‘with’ comprehendō, -hendere, -hendī, sīc ‘thus’, ‘in this way’ -hēnsum ‘comprehend’, ‘grasp’, lūx, lūcis (f.) ‘light’ ‘contain’",
-          "a": ""
-        },
-        {
-          "q": "3 Catullus 14.1–7: the poet is not grateful for the gift of a book of bad poetry (first century bc ). To love someone more than one’s own eyes was in Latin an expression of great affection. Ni te plus oculis meis amarem, iucundissime Calve, munere isto odissem te odio Vatiniano: nam quid feci ego quidve sum locutus, cur me tot male perderes poetis? isti di mala multa dent clienti qui tantum tibi misit impiorum. Vocabulary nī = nisī -ve ‘or’ (translate before the word to oculus, oculī (m.) ‘eye’ which it is attached) iūcundus, -a, -um ‘pleasant’ cūr perderēs ‘to justify your destroying mūnus, mūneris (n.) ‘gift’ me’ ōdī, ōdisse, ōsum ‘hate’ (perfect istī goes with clientī in form but present in dī = dei meaning) cliēns, clientis (m.) ‘inferior friend’ Vatīniānus, -a, -um ‘like that of tantum impiōrum ‘so much shameless Vatinius’ (i.e. in this case, very writing’ (literally ‘so much of great) shameless (poets)’)",
-          "a": ""
-        },
-        {
-          "q": "4 Martial 8.40: the poet threatens a wooden statue of the god Priapus that protects the grove from which he takes his firewood (first century ad ). Non horti neque palmitis beati sed rari nemoris, Priape, custos, ex quo natus es et potes renasci, furaces moneo manus repellas et silvam domini focis reserves: si defecerit haec, et ipse lignum es. Vocabulary hortus, hortī (m.) ‘garden’ nāscor, nāscī, nātus sum palmes, palmitis (m.) ‘vineyard’ ‘be born’ beātus, beāta, beātum ‘fertile’ renāscor (like nāscor) ‘be reborn’ rārus, rāra, rārum ‘sparse’ fūrāx, gen. fūrācis ‘thieving’ nemus, nemoris (n.) ‘grove’, moneō: supply tē and ut here ‘wood-lot’ repellō, repellere, reppulī, repulsum custōs, custōdis (m.) ‘guardian’ ‘repel’, ‘keep off’",
+          "q": "1 Corpus Inscriptionum Latinarum iv.8364 (adapted): graffiti from the walls of Pompeii (first century ad ). Secundus Primae suae ubique ipse salutem dicit. rogo, domina, ut me ames.",
           "a": ""
         }
       ],
       "id": "practice-52-e"
+    },
+    {
+      "id": "translate-52",
+      "latinLabel": "TRANSLATE INTO LATIN",
+      "title": "Translate into Latin",
+      "instruction": "",
+      "type": "questions",
+      "items": [
+        {
+          "q": "yourself would have become our books; they carry the books of (personal) enemy.",
+          "a": ""
+        },
+        {
+          "q": "ourselves were slaves, we would own book but the book of the carry books.",
+          "a": ""
+        }
+      ]
     }
   ]
 }

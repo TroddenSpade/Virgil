@@ -36,23 +36,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "regentis rēctūrus, -a, -um ‘being conjugation ‘having been ruled’ ‘ruling’ about to rule’ Fourth audītus, -a, -um ‘heard’, audiēns, gen. audientis audītūrus, -a, -um ‘being conjugation ‘having been heard’ ‘hearing’ about to hear’ Mixed captus, -a, -um ‘captured’, capiēns, gen. capientis captūrus, -a, -um ‘being conjugation ‘having been captured’ ‘capturing’ about to capture’"
+          "text": "regentis rēctūrus, -a, -um ‘being conjugation ‘having been ruled’ ‘ruling’ about to rule’ Fourth audītus, -a, -um ‘heard’, audiēns, gen. audientis audītūrus, -a, -um ‘being conjugation ‘having been heard’ ‘hearing’ about to hear’ Mixed captus, -a, -um ‘captured’, capiēns, gen."
         },
         {
-          "t": "h",
-          "text": "Sum – – futūrus, -a, -um ‘being"
-        },
-        {
-          "t": "h",
-          "text": "about to be’"
-        },
-        {
-          "t": "h",
-          "text": "Eō – iēns, gen. euntis ‘going’ itūrus, -a, -um ‘being"
-        },
-        {
-          "t": "h",
-          "text": "about to go’"
+          "t": "p",
+          "text": "capientis captūrus, -a, -um ‘being conjugation ‘having been captured’ ‘capturing’ about to capture’ Sum – – futūrus, -a, -um ‘being about to be’ Eō – iēns, gen. euntis ‘going’ itūrus, -a, -um ‘being about to go’"
         }
       ]
     },
@@ -115,6 +103,18 @@ const chapter = {
           "text": "Thus ovēs in agrō stantēs vīdī ‘I saw the sheep that were standing in the field’ or ‘I saw the sheep when they were standing in the field’ (present participle in Latin, but past tense in English, because the standing happened at the same time as the seeing, both of which are now in the past) and hostēs rēgem interfectūrōs vīdī ‘I saw the enemies when they were about to kill the king’ or ‘I saw the enemies who were about to kill the king’."
         }
       ]
+    },
+    {
+      "id": "section-3",
+      "latin": "24.4 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "Verbs dēfendō, dēfendere, dēfendī, dēfēnsum ‘defend’ discēdō, discēdere, discessī, discessum ‘leave’ (in the intransive sense, i.e. ‘depart’) intellegō, intellegere, intellēxī, intellēctum ‘understand’ oppugnō, oppugnāre, oppugnāvī, oppugnātum ‘attack’ relinquō, relinquere, relīquī, relictum ‘leave behind’, ‘abandon’ sedeō, sedēre, sēdī, sessum ‘sit’ volō, velle, voluī, – ‘want’, ‘wish’"
+        }
+      ]
     }
   ],
   "readings": [
@@ -146,11 +146,6 @@ const chapter = {
       "group": "Vocābula"
     },
     {
-      "latin": "cursus, cursūs (m.)",
-      "english": "race",
-      "group": "Vocābula"
-    },
-    {
       "latin": "vīs",
       "english": "you wish",
       "group": "Vocābula"
@@ -163,11 +158,6 @@ const chapter = {
     {
       "latin": "autem",
       "english": "however",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "lūdus, lūdī (m.)",
-      "english": "game",
       "group": "Vocābula"
     },
     {
@@ -191,23 +181,8 @@ const chapter = {
       "group": "Vocābula"
     },
     {
-      "latin": "(in the sense of",
-      "english": "because",
-      "group": "Vocābula"
-    },
-    {
       "latin": "ergō",
       "english": "so",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "(translate one word earlier translate one word earlier than than where it appears in Latin) where it appears in Latin) spectō, spectāre, spectāvī, spectātum balneum, balneī (n.)",
-      "english": "bath-house, watch",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "rixa, rixae (f.)",
-      "english": "brawl",
       "group": "Vocābula"
     },
     {
@@ -216,18 +191,13 @@ const chapter = {
       "group": "Vocābula"
     },
     {
-      "latin": "(i.e. commūniter) cōgō, cōgere, coēgī, coāctum",
+      "latin": "cōgō, cōgere, coēgī, coāctum",
       "english": "force",
       "group": "Vocābula"
     },
     {
       "latin": "lavēmur",
       "english": "let",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "s go to the baths",
-      "english": "ēbrius, ēbria, ēbrium",
       "group": "Vocābula"
     },
     {
@@ -248,91 +218,6 @@ const chapter = {
     {
       "latin": "go out",
       "english": "spectāculum, -ī (n.)",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "show",
-      "english": "cōnfunditur",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "he is embarrassed",
-      "english": "Adeste, fideles, laeti triumphantes, venite, venite in Bethlehem: natum videte, regem angelorum. venite adoremus, venite adoremus, venite adoremus dominum. Vocabulary fidēlis, fidēle",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "faithful",
-      "english": "nātus, nātī (m.)",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "baby",
-      "english": "laetus, laeta, laetum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "joyful",
-      "english": "angelus, angelī (m.)",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "angel",
-      "english": "triumphō, -āre, -āvī, -ātum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "triumph",
-      "english": "adōrō, adōrāre, adōrāvī, adōrātum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "adore",
-      "english": "Verbs dēfendō, dēfendere, dēfendī, dēfēnsum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "defend",
-      "english": "discēdō, discēdere, discessī, discessum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "leave",
-      "english": "(in the intransive sense, i.e.",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "depart",
-      "english": ") intellegō, intellegere, intellēxī, intellēctum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "understand",
-      "english": "oppugnō, oppugnāre, oppugnāvī, oppugnātum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "attack",
-      "english": "relinquō, relinquere, relīquī, relictum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "leave behind",
-      "english": ",",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "abandon",
-      "english": "sedeō, sedēre, sēdī, sessum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "sit",
-      "english": "volō, velle, voluī, –",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "want",
-      "english": ",",
       "group": "Vocābula"
     }
   ],
@@ -820,6 +705,39 @@ const chapter = {
         }
       ],
       "id": "practice-24-d"
+    },
+    {
+      "id": "translate-24",
+      "latinLabel": "TRANSLATE INTO LATIN",
+      "title": "Translate into Latin",
+      "instruction": "",
+      "type": "questions",
+      "items": [
+        {
+          "q": "4 (When he was) repairing the 14 (When he is) about to teach girls, walls of the city, he found a lost this teacher is afraid.",
+          "a": ""
+        },
+        {
+          "q": "possess) captured 6 (When they were) about to repair the town into that forest.",
+          "a": ""
+        },
+        {
+          "q": "the walls of the town, the citizens 17 (When they are) about to write sought stones.",
+          "a": ""
+        },
+        {
+          "q": "g a i u s: tertio die cursus equorum erit, et postea ludi gladiatorum.",
+          "a": ""
+        },
+        {
+          "q": "communiter l u c i u s: quomodo vis.",
+          "a": ""
+        },
+        {
+          "q": "g a i u s: frater autem meus excusavit; heri enim in balneo rixam fecit, coactus ab",
+          "a": ""
+        }
+      ]
     }
   ]
 }

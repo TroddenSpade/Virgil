@@ -123,24 +123,8 @@ const chapter = {
           "text": "Present active indicative Future active indicative Perfect active indicative"
         },
         {
-          "t": "example",
-          "text": "possum ‘I am able to’, poterō ‘I will be able to’, potuī ‘I have been able ‘I can’ ‘I shall be able to’ to’, ‘I could’\npotes ‘you (singular) are poteris ‘you (singular) will potuistī ‘you (singular)"
-        },
-        {
-          "t": "h",
-          "text": "able to’, ‘you can’ be able to’, ‘you have been able to’,"
-        },
-        {
           "t": "p",
-          "text": "(singular) shall be ‘you (singular) able to’ could’ potest ‘he/she/it is able to’, poterit ‘he/she/it will be able potuit ‘he/she/it has been ‘he/she/it can’, ‘is to’, ‘he/she/it shall be able to’, ‘he/she/it able to’, ‘can’ able to’, ‘will be able could’, ‘has been to’, ‘shall be able to’ able to’, ‘could’ possumus ‘we are able to’, ‘we poterimus ‘we will be able to’, potuimus ‘we have been able can’ ‘we shall be able to’ to’, ‘we could’ potestis ‘you (plural) are able poteritis ‘you (plural) will be potuistis ‘you (plural) have"
-        },
-        {
-          "t": "h",
-          "text": "to’, ‘you can’ able to’, ‘you (plural) been able to’, ‘you"
-        },
-        {
-          "t": "p",
-          "text": "shall be able to’ (plural) could’ possunt ‘they are able to’, poterunt ‘they will be able to’, potuērunt ‘they have been ‘they can’, ‘are able ‘they shall be able to’, able to’, ‘they to’, ‘can’ ‘will be able to’, ‘shall could’, ‘have been be able to’ able to’, ‘could’ Because of its meaning possum is usually accompanied by another verb, like English ‘can’ as in ‘I can run’ (= ‘I am able to run’)."
+          "text": "possum ‘I am able to’, poterō ‘I will be able to’, potuī ‘I have been able ‘I can’ ‘I shall be able to’ to’, ‘I could’ potes ‘you (singular) are poteris ‘you (singular) will potuistī ‘you (singular) able to’, ‘you can’ be able to’, ‘you have been able to’, (singular) shall be ‘you (singular) able to’ could’ potest ‘he/she/it is able to’, poterit ‘he/she/it will be able potuit ‘he/she/it has been ‘he/she/it can’, ‘is to’, ‘he/she/it shall be able to’, ‘he/she/it able to’, ‘can’ able to’, ‘will be able could’, ‘has been to’, ‘shall be able to’ able to’, ‘could’ possumus ‘we are able to’, ‘we poterimus ‘we will be able to’, potuimus ‘we have been able can’ ‘we shall be able to’ to’, ‘we could’ potestis ‘you (plural) are able poteritis ‘you (plural) will be potuistis ‘you (plural) have to’, ‘you can’ able to’, ‘you (plural) been able to’, ‘you shall be able to’ (plural) could’ possunt ‘they are able to’, poterunt ‘they will be able to’, potuērunt ‘they have been ‘they can’, ‘are able ‘they shall be able to’, able to’, ‘they to’, ‘can’ ‘will be able to’, ‘shall could’, ‘have been be able to’ able to’, ‘could’ Because of its meaning possum is usually accompanied by another verb, like English ‘can’ as in ‘I can run’ (= ‘I am able to run’)."
         },
         {
           "t": "p",
@@ -150,6 +134,18 @@ const chapter = {
     },
     {
       "id": "section-4",
+      "latin": "7.5 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "Verbs possum, posse, potuī, – ‘can’, ‘be able to’ Nouns aqua, aquae (f.) ‘water’ castra, castrōrum (n. plural) ‘camp’ (in the military sense) gladius, gladiī (m.) ‘sword’ saxum, saxī (n.) ‘rock’, ‘stone’ silva, silvae (f.) ‘forest’"
+        }
+      ]
+    },
+    {
+      "id": "section-5",
       "latin": "7.4 Additional Exercises",
       "english": "Grammar",
       "kind": "commentary",
@@ -165,84 +161,54 @@ const chapter = {
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "possum, posse, potuī, –",
-      "english": "can, be able to",
-      "group": "Verba"
-    },
-    {
-      "latin": "aqua, aquae (f.)",
-      "english": "water",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "castra, castrōrum (n. plural)",
-      "english": "camp",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "(in the military sense) gladius, gladiī (m.)",
-      "english": "sword",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "saxum, saxī (n.)",
-      "english": "rock, stone",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "silva, silvae (f.)",
-      "english": "forest",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "continues overleaf. Another exercise of this type, with an answer key, can be found in chapter 63.6. Adverbs bene",
+      "latin": "bene",
       "english": "well",
-      "group": "Nōmina"
+      "group": "Adverbia"
     },
     {
       "latin": "crās",
       "english": "tomorrow",
-      "group": "Nōmina"
+      "group": "Adverbia"
     },
     {
       "latin": "cūr",
       "english": "why?",
-      "group": "Nōmina"
+      "group": "Adverbia"
     },
     {
       "latin": "herī",
       "english": "yesterday",
-      "group": "Nōmina"
+      "group": "Adverbia"
     },
     {
       "latin": "hīc",
       "english": "here",
-      "group": "Nōmina"
+      "group": "Adverbia"
     },
     {
       "latin": "hodiē",
       "english": "today",
-      "group": "Nōmina"
+      "group": "Adverbia"
     },
     {
       "latin": "male",
       "english": "badly",
-      "group": "Nōmina"
+      "group": "Adverbia"
     },
     {
       "latin": "nunc",
       "english": "now",
-      "group": "Nōmina"
+      "group": "Adverbia"
     },
     {
       "latin": "paene",
       "english": "almost",
-      "group": "Nōmina"
+      "group": "Adverbia"
     },
     {
       "latin": "ubi",
       "english": "where",
-      "group": "Nōmina"
+      "group": "Adverbia"
     },
     {
       "latin": "quia",

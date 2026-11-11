@@ -47,24 +47,28 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "iterum attulit. 12 eidem filiae pecuniam dedi, non"
-        },
-        {
           "t": "p",
           "text": "To express a price, Latin uses the ablative without a preposition: tribus dēnāriīs hoc ēmī ‘I bought this for three denarii.’ For value, however, the genitive is normally used rather than the ablative: illum magnī aestimō ‘I value him greatly.’ The distinction between price and value is not absolute, but price expressed in monetary terms is nearly always ablative, while indefinite expressions like quantī ‘how much?’, magnī ‘greatly’, and parvī ‘a little’ are normally genitive."
         },
         {
           "t": "p",
-          "text": "Also, verbs of buying and selling (e.g. emō and vendō) are more likely to take the ablative and verbs of valuing (e.g. aestimō) to take the genitive. Note the following vocabulary: dēnārius, -ī (m.) ‘denarius’ (a coin of significant value) sēstertius, -ī (m.) ‘sestertius’ (English plural ‘sesterces’) (a coin worth a quarter of"
-        },
-        {
-          "t": "h",
-          "text": "a denarius)"
+          "text": "Also, verbs of buying and selling (e.g. emō and vendō) are more likely to take the ablative and verbs of valuing (e.g. aestimō) to take the genitive."
         },
         {
           "t": "p",
-          "text": "as, assis (m.) ‘as’ (a coin worth one-tenth or, later, one-sixteenth of a denarius) aestimō, -āre, -āvī, -ātum ‘value’ faciō ‘value’ (nōn) floccī faciō ‘I consider to be of no value’ (literally ‘I (don’t) value at the rate of a tuft of wool’)."
+          "text": "Note the following vocabulary: dēnārius, -ī (m.) ‘denarius’ (a coin of significant value) sēstertius, -ī (m.) ‘sestertius’ (English plural ‘sesterces’) (a coin worth a quarter of a denarius) as, assis (m.) ‘as’ (a coin worth one-tenth or, later, one-sixteenth of a denarius) aestimō, -āre, -āvī, -ātum ‘value’ faciō ‘value’ (nōn) floccī faciō ‘I consider to be of no value’ (literally ‘I (don’t) value at the rate of a tuft of wool’)."
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "latin": "58.4 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "Verbs aestimō, aestimāre, aestimāvī, aestimātum ‘value’ cōgō, cōgere, coēgī, coāctum ‘force’, ‘drive together’ cōnor, cōnārī, cōnātus sum ‘try’ nāscor, nāscī, nātus sum ‘be born’ nūntiō, nūntiāre, nūntiāvī, nūntiātum ‘announce’, ‘report’ ostendō, ostendere, ostendī, ostentum ‘show’ parō, parāre, parāvī, parātum ‘prepare’ perficiō, perficere, perfēcī, perfectum ‘accomplish’ Nouns as, assis (m.) ‘as’ (1∕10 or 1∕16 denarius) dēnārius, dēnāriī (m.) ‘denarius’ floccus, floccī (m.) ‘tuft of wool’ lectus, lectī (m.) ‘bed’ nāvis, nāvis, nāvium (f.) ‘ship’ nūntius, nūntiī (m.) ‘messenger’ senex, senis (m.) ‘old man’ sēstertius, sēstertiī (m.) ‘sestertius’ (¼ denarius) Adjective/Pronoun īdem, eadem, idem ‘same’"
         }
       ]
     }
@@ -89,89 +93,104 @@ const chapter = {
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "aestimō, aestimāre, aestimāvī, aestimātum",
-      "english": "value",
-      "group": "Verba"
+      "latin": "dūcō mē = eō cōnstat",
+      "english": "it costs",
+      "group": "Vocābula"
     },
     {
-      "latin": "cōgō, cōgere, coēgī, coāctum",
-      "english": "force, drive together",
-      "group": "Verba"
+      "latin": "hooded cape",
+      "english": "linteum, linteī (n.)",
+      "group": "Vocābula"
     },
     {
-      "latin": "cōnor, cōnārī, cōnātus sum",
-      "english": "try",
-      "group": "Verba"
+      "latin": "linen towel",
+      "english": "ducentī, -ae, -a",
+      "group": "Vocābula"
     },
     {
-      "latin": "nāscor, nāscī, nātus sum",
-      "english": "be born",
-      "group": "Verba"
+      "latin": "two hundred",
+      "english": "trecentī, -ae, -a",
+      "group": "Vocābula"
     },
     {
-      "latin": "nūntiō, nūntiāre, nūntiāvī, nūntiātum",
-      "english": "announce, report",
-      "group": "Verba"
+      "latin": "three hundred",
+      "english": "potest can also mean",
+      "group": "Vocābula"
     },
     {
-      "latin": "ostendō, ostendere, ostendī, ostentum",
-      "english": "show",
-      "group": "Verba"
+      "latin": "owner bibō, bibere, bibī, –",
+      "english": "drink",
+      "group": "Vocābula"
     },
     {
-      "latin": "parō, parāre, parāvī, parātum",
-      "english": "prepare",
-      "group": "Verba"
+      "latin": "multiple drinks suggested by Falernus, -a, -um",
+      "english": "Falernian",
+      "group": "Vocābula"
     },
     {
-      "latin": "perficiō, perficere, perfēcī, perfectum",
-      "english": "accomplish",
-      "group": "Verba"
+      "latin": "usque",
+      "english": "as much as",
+      "group": "Vocābula"
     },
     {
-      "latin": "as, assis (m.)",
-      "english": "as",
-      "group": "Nōmina"
+      "latin": "semel",
+      "english": "once",
+      "group": "Vocābula"
     },
     {
-      "latin": "(1∕10 or 1∕16 denarius) dēnārius, dēnāriī (m.)",
-      "english": "denarius",
-      "group": "Nōmina"
+      "latin": "conturbō, -āre, -āvī, -ātum",
+      "english": "mix up",
+      "group": "Vocābula"
     },
     {
-      "latin": "floccus, floccī (m.)",
-      "english": "tuft of wool",
-      "group": "Nōmina"
+      "latin": "invideō, invidēre, invīdī, invīsum",
+      "english": "be perpetuus, -a, -um",
+      "group": "Vocābula"
     },
     {
-      "latin": "lectus, lectī (m.)",
-      "english": "bed",
-      "group": "Nōmina"
+      "latin": "eternal",
+      "english": "envious",
+      "group": "Vocābula"
     },
     {
-      "latin": "nāvis, nāvis, nāvium (f.)",
-      "english": "ship",
-      "group": "Nōmina"
+      "latin": "iūcundus, -a, -um",
+      "english": "pleasant",
+      "group": "Vocābula"
     },
     {
-      "latin": "nūntius, nūntiī (m.)",
-      "english": "messenger",
-      "group": "Nōmina"
+      "latin": "acerbus, -a, -um",
+      "english": "bitter",
+      "group": "Vocābula"
     },
     {
-      "latin": "senex, senis (m.)",
-      "english": "old man",
-      "group": "Nōmina"
+      "latin": "lucrī faciō",
+      "english": "make a profit",
+      "group": "Vocābula"
     },
     {
-      "latin": "sēstertius, sēstertiī (m.)",
-      "english": "sestertius",
-      "group": "Nōmina"
+      "latin": "inquis",
+      "english": "you say",
+      "group": "Vocābula"
     },
     {
-      "latin": "(¼ denarius) Adjective/Pronoun īdem, eadem, idem",
-      "english": "same",
-      "group": "Nōmina"
+      "latin": "immō",
+      "english": "yes indeed",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "Tyrius, Tyria, Tyrium",
+      "english": "purple",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "solvō, solvere, solvī, solūtum",
+      "english": "pay",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "colōris optimī",
+      "english": "of excellent colour",
+      "group": "Vocābula"
     }
   ],
   "pensa": [
@@ -548,27 +567,28 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "1 Colloquium Montepessulanum 13b–f (adapted): shopping for clothes (probably third century ad ). Ego duco me ad vestiarium. buyer : quanti pallium? seller : centum denariis. buyer : quanti paenula? s e l l e r: ducentis denariis. buyer: multum dicis; accipe centum denarios. s e l l e r: non potest tanti; tanti constat de infertoribus. buyer: udones emam. quid dabo? s e l l e r: quod vis. buyer (to servant carrying his purse): da illi XXV denarios. eamus et ad lintearium. confer et illi. s e r v a n t (to seller): da nobis quattuor lintea. quanti omnia? s e l l e r: trecentis denariis. Vocabulary dūcō mē = eō cōnstat ‘it costs’ vestiārius, vestiāriī (m.) ‘garment seller’ īnfertor, īnfertōris (m.) ‘importer’ pallium, palliī (n.) ‘mantle’ (a type of ūdō, ūdōnis (m.) ‘sock’ outer garment consisting of a large linteārius, linteāriī (m.) ‘linen seller’ square of cloth) cōnferō (like ferō) (+ dative) ‘bargain centum (indeclinable) ‘one hundred’ with’ paenula, paenulae (f.) ‘hooded cape’ linteum, linteī (n.) ‘linen towel’ ducentī, -ae, -a ‘two hundred’ trecentī, -ae, -a ‘three hundred’ potest can also mean ‘it is possible’",
-          "a": ""
-        },
-        {
-          "q": "2 Corpus Inscriptionum Latinarum iv.1679 (adapted): sign advertising prices at a tavern in Pompeii (first century ad). Hedone dicit: assibus hic bibitur; dupondium si dederis, meliora bibes; quattuor si dederis, vina Falerna bibes. Vocabulary Hēdonē (nominative singular) is the bibitur ‘one can have drinks’ (impersonal Greek word for ‘pleasure’ and passive, so literally ‘it is drunk’) perhaps the name of the tavern dupondius, dupondiī (m.) ‘two asses’ owner bibō, bibere, bibī, – ‘drink’ assibus: the plural goes with the vīnum, vīnī (n.) ‘wine’ multiple drinks suggested by Falernus, -a, -um ‘Falernian’ (a bibitur, so the price given is just one as particularly good kind of wine)",
-          "a": ""
-        },
-        {
-          "q": "3 Catullus 5: the joys of love (first century b c). Vivamus, mea Lesbia, atque amemus, rumoresque senum severiorum omnes unius aestimemus assis. soles occidere et redire possunt: nobis, cum semel occidit brevis lux, nox est perpetua una dormienda. da mi basia mille, deinde centum, dein mille altera, dein secunda centum, deinde usque altera mille, deinde centum. dein, cum milia multa fecerimus, conturbabimus illa, ne sciamus, aut ne quis malus invidere possit, cum tantum sciat esse basiorum. Vocabulary rūmor, rūmōris (m.) ‘calumny’ bāsium, bāsiī (n.) ‘kiss’ senex, senis (m.) ‘old man’ mīlle (n., indeclinable in singular, sevērus, -a, -um ‘strict’ plural mīlia, mīlium) ‘thousand’ sōl, sōlis (m.) ‘sun’ dein/deinde ‘then’ occidō, occidere, occidī, occāsum centum (indeclinable) ‘a hundred’ ‘set’, ‘die’ usque ‘as much as’ semel ‘once’ conturbō, -āre, -āvī, -ātum ‘mix up’ lūx, lūcis (f.) ‘light’ invideō, invidēre, invīdī, invīsum ‘be perpetuus, -a, -um ‘eternal’ envious’ mī = mihi",
-          "a": ""
-        },
-        {
-          "q": "4 Martial 12.46: the difficulties of love (first century ad ). Difficilis facilis, iucundus acerbus es idem: nec tecum possum vivere nec sine te. Vocabulary iūcundus, -a, -um ‘pleasant’ acerbus, -a, -um ‘bitter’",
-          "a": ""
-        },
-        {
-          "q": "5 Martial 8.10: how to get rich by buying fancy clothes (first century ad ). Emit lacernas milibus decem Bassus Tyrias coloris optimi. lucri fecit. ‘adeo bene emit?’ inquis. immo non solvit. Vocabulary lacerna, lacernae (f.) ‘cloak’ lucrī faciō ‘make a profit’ mīlia, mīlium (n. plural) ‘thousands’ inquis ‘you say’ decem (indeclinable) ‘ten’ immō ‘yes indeed’ Tyrius, Tyria, Tyrium ‘purple’ solvō, solvere, solvī, solūtum ‘pay’ colōris optimī ‘of excellent colour’",
+          "q": "1 Colloquium Montepessulanum 13b–f (adapted): shopping for clothes (probably third century ad ). Ego duco me ad vestiarium. buyer : quanti pallium? seller : centum denariis. buyer : quanti paenula? s e l l e r: ducentis denariis. buyer: multum dicis; accipe centum denarios. s e l l e r: non potest tanti; tanti constat de infertoribus. buyer: udones emam. quid dabo? s e l l e r: quod vis. buyer (to servant carrying his purse): da illi XXV denarios. eamus et ad lintearium. confer et illi. s e r v a n t (to seller): da nobis quattuor lintea. quanti omnia? s e l l e r: trecentis denariis.",
           "a": ""
         }
       ],
       "id": "practice-58-g"
+    },
+    {
+      "id": "translate-58",
+      "latinLabel": "TRANSLATE INTO LATIN",
+      "title": "Translate into Latin",
+      "instruction": "",
+      "type": "questions",
+      "items": [
+        {
+          "q": "to flight, our men returned to the 10 We don’t know where we are, same camp.",
+          "a": ""
+        },
+        {
+          "q": "(2 ways) since we have arrived again at",
+          "a": ""
+        }
+      ]
     }
   ]
 }

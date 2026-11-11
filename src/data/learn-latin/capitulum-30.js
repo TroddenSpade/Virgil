@@ -87,7 +87,178 @@ const chapter = {
   ],
   "readings": [],
   "grammar": [],
-  "vocabulary": [],
+  "vocabulary": [
+    {
+      "latin": "quoniam",
+      "english": "since",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "Latīnē",
+      "english": "in Latin",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "Graecē",
+      "english": "in Greek",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sīcut",
+      "english": "as",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "neque",
+      "english": "and . . . not",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ipsa rēs",
+      "english": "the matter itself",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "facile",
+      "english": "easily",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "postulō, -āre, -āvī, -ātum",
+      "english": "demand",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "effort",
+      "english": "sake of",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "parcō, parcere, pepercī, parsūrus",
+      "english": "spare",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "audeō, audēre, ausus sum",
+      "english": "dare",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "plūra",
+      "english": "more",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "tribus",
+      "english": "three",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "palam",
+      "english": "clear",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "enim",
+      "english": "for",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "exquīsītius",
+      "english": "more meticulously",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cōnor, cōnārī, cōnātus sum",
+      "english": "try",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "facillimē",
+      "english": "very easily",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "necessārius, -a, -um",
+      "english": "necessary",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "discō, discere, didicī, –",
+      "english": "learn",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "idcircō",
+      "english": "for that reason",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "subiectus, -a, -um",
+      "english": "below",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cottīdiānus, -a, -um",
+      "english": "daily",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "rem pūblicam",
+      "english": "state",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "summus, summa, summum",
+      "english": "very great",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ac",
+      "english": "and",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "atque",
+      "english": "and",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "clārissimus, -a, -um",
+      "english": "most glorious",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ēripiō, ēripere, ēripuī, ēreptum",
+      "english": "snatch imperium, imperiī (n.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "empire",
+      "english": "away",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "fortūnātissimus, -a, -um",
+      "english": "most cōnservō, -āre, -āvī, -ātum",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "pulcherrimus, -a, -um",
+      "english": "most beautiful",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "restituō, restituere, restituī, restitūtum hodiernō diē = hodiē",
+      "english": "restore",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "reason",
+      "english": "; fīnis, -is, -ium (f.)",
+      "group": "Vocābula"
+    }
+  ],
   "pensa": [
     {
       "latinLabel": "PRACTICE A",
@@ -333,11 +504,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "1 Colloquia Monacensia–Einsidlensia, 1b–q (adapted): the author’s preface to the work (perhaps first century ad ). Quoniam video multos velle Latine loqui et Graece, neque facile posse propter difficultatem et multitudinem verborum, meo labori et industriae non peperci, ut in tribus libris interpretamentorum omnia verba scriberem. multos enim video conatos esse, non pro dignitate sicut ipsa res postulat, sed suae cupiditatis et exercitationis causa. propter quam causam non audeo plura verba facere, sed volo omnibus palam facere, neminem melius neque exquisitius interpretatum esse quam me in tribus libris quos scripsi; quorum hic liber primus erit. Quoniam parvis pueris incipientibus doceri necessariam vidi esse auditionem interpretamentorum sermonis cottidiani, ut facillime Latine et Graece loqui discant: idcirco paucis verbis de sermone cottidiano scripsi haec quae subiecta sunt. Vocabulary (in order of first appearance; words that appear more than once are in bold) quoniam ‘since’ prō (+ ablative) ‘in accordance with’ Latīnē ‘in Latin’ dignitās, dignitātis (f.) ‘worth’ Graecē ‘in Greek’ sīcut ‘as’ neque ‘and . . . not’, ‘nor’ ipsa rēs ‘the matter itself’ (nominative) facile ‘easily’ postulō, -āre, -āvī, -ātum ‘demand’ propter (+ accusative) ‘on account of’ cupiditās, cupiditātis (f.) ‘gratification’ difficultās, -tātis (f.) ‘difficulty’ exercitātiō, -ōnis (f.) ‘practice’ multitūdō, -tūdinis (f.) ‘large number’ causā (+ preceding genitive) ‘for the labor, labōris (m.) ‘effort’ sake of’ industria, industriae (f.) ‘industry’ causa, causae (f.) ‘reason’ parcō, parcere, pepercī, parsūrus ‘spare’ audeō, audēre, ausus sum ‘dare’ (takes object in dative) plūra ‘more’ (neuter plural) tribus ‘three’ (ablative) palam ‘clear’ (indeclinable) interpretāmentum, -ī (n.) ‘language nēminem ‘no-one’ (accusative) textbook’ melius ‘better’ (adverb) enim ‘for’ (in the sense of ‘because’; exquīsītius ‘more meticulously’ translate one word earlier than interpretor, -ārī, -ātus sum ‘produce where it appears in Latin) translations’ cōnor, cōnārī, cōnātus sum ‘try’ quam (+ accusative) ‘than’ incipiō (like capiō) ‘begin’ facillimē ‘very easily’ necessārius, -a, -um ‘necessary’ discō, discere, didicī, – ‘learn’ audītiō, audītiōnis (f.) ‘hearing’ idcircō ‘for that reason’ sermō, sermōnis (m.) ‘speech’ subiectus, -a, -um ‘below’ cottīdiānus, -a, -um ‘daily’",
-          "a": ""
-        },
-        {
-          "q": "2 Cicero, In Catilinam 3.1: Cicero explains to the Roman populace that he has saved them from a revolutionary plot and they should be grateful to him (beginning of a speech delivered in 63 bc ). Rem publicam, Quirites, vitamque omnium vestrum, bona, fortunas, coniuges liberosque vestros atque hoc domicilium clarissimi imperi, fortunatissimam pulcherrimamque urbem, hodierno die deorum immortalium summo erga vos amore, laboribus, consiliis, periculis meis e flamma atque ferro ac paene ex faucibus fati ereptam et vobis conservatam ac restitutam videtis. Vocabulary (in order of first appearance; words that appear more than once are in bold) rem pūblicam ‘state’ (accusative (translate the ablatives with ‘by’) singular) summus, summa, summum ‘very great’ Quirītēs, Quirītum (m. plural) ergā (+ accusative) ‘towards’ ‘Romans’ amor, amōris (m.) ‘love’ -que ‘and’ (translate before the word to labor, labōris (m.) ‘labour’ which it is attached) perīculum, perīculī (n.) ‘danger’ fortūna, fortūnae (f.) ‘fortune’ flamma, flammae (f.) ‘fire’ coniūnx, coniugis (f.) ‘wife’ ferrum, ferrī (n.) ‘sword’ līberī, līberōrum (m. plural) ‘children’ ac ‘and’ atque ‘and’ faucēs, faucium (f.) ‘jaws’ domicilium, domiciliī (n.) ‘seat’ fātum, fātī (n.) ‘fate’ clārissimus, -a, -um ‘most glorious’ ēripiō, ēripere, ēripuī, ēreptum ‘snatch imperium, imperiī (n.) ‘empire’ away’ fortūnātissimus, -a, -um ‘most cōnservō, -āre, -āvī, -ātum ‘preserve’, fortunate’ ‘save’ pulcherrimus, -a, -um ‘most beautiful’ restituō, restituere, restituī, restitūtum hodiernō diē = hodiē ‘restore’ Note: with this speech began a praise of Cicero’s actions that contemporaries found so wearying that his consulship was called nōn sine causā sed sine fīne laudātus (causa, -ae (f.) ‘reason’; fīnis, -is, -ium (f.) ‘end’).",
+          "q": "1 Colloquia Monacensia–Einsidlensia, 1b–q (adapted): the author’s preface to the work (perhaps first century ad ). Quoniam video multos velle Latine loqui et Graece, neque facile posse propter difficultatem et multitudinem verborum, meo labori et industriae non peperci, ut in tribus libris interpretamentorum omnia verba scriberem. multos enim video conatos esse, non pro dignitate sicut ipsa res postulat, sed suae cupiditatis et exercitationis causa. propter quam causam non audeo plura verba facere, sed volo omnibus palam facere, neminem melius neque exquisitius interpretatum esse quam me in tribus libris quos scripsi; quorum hic liber primus erit. Quoniam parvis pueris incipientibus doceri necessariam vidi esse auditionem interpretamentorum sermonis cottidiani, ut facillime Latine et Graece loqui discant: idcirco paucis verbis de sermone cottidiano scripsi haec quae subiecta sunt.",
           "a": ""
         }
       ],

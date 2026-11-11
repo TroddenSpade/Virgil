@@ -99,6 +99,26 @@ const chapter = {
           "text": "Thus puella ā poētā amāta ‘the girl loved by the poet’, equus ā puerō ductus ‘the horse led by the boy’. This construction can be used only when the doer is a person, god, or other animate being; for inanimate agents (e.g. ‘he was killed by a landslide’) a different construction is used (to be discussed in chapter 32.3)."
         }
       ]
+    },
+    {
+      "id": "section-4",
+      "latin": "23.5 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "9 the book written by the king 11 the words said by the citizens 10 the walls seen by the poet 12 the boy sought by the teacher Colloquium Celtis 4–7 (adapted): a child with his own personal slave boy describes the beginning of his day (probably first to third century ad). Mane cum coepi vigilare, surrexi de lecto et hoc primum feci: deposui dormitoria et sumpsi tunicam et reliqua vestimenta. tunc ergo excitavi meum puerum."
+        },
+        {
+          "t": "p",
+          "text": "dixi ei, ‘surge, puer, et vide num iam luceat; aperi ostium et fenestram.’ et ita fecit. tunc ei dixi, ‘porrige mihi calceamenta.’"
+        },
+        {
+          "t": "p",
+          "text": "Prepositions ā, ab (+ ablative) ‘by’ Pronouns is, ea, id ‘he’, ‘she’, ‘it’, ‘they’ eius ‘his’, ‘her’, ‘its’ (genitive singular of is) eōrum, eārum ‘their’ (genitive plural of is)"
+        }
+      ]
     }
   ],
   "readings": [
@@ -119,17 +139,7 @@ const chapter = {
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "9 the book written by the king 11 the words said by the citizens 10 the walls seen by the poet 12 the boy sought by the teacher Colloquium Celtis 4–7 (adapted): a child with his own personal slave boy describes the beginning of his day (probably first to third century ad). Mane cum coepi vigilare, surrexi de lecto et hoc primum feci: deposui dormitoria et sumpsi tunicam et reliqua vestimenta. tunc ergo excitavi meum puerum. dixi ei",
-      "english": "surge, puer, et vide num iam luceat; aperi ostium et fenestram.",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "et ita fecit. tunc ei dixi",
-      "english": "porrige mihi calceamenta.",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "(in order of first appearance; words that appear more than once are in bold) māne",
+      "latin": "māne",
       "english": "in the morning",
       "group": "Vocābula"
     },
@@ -149,12 +159,7 @@ const chapter = {
       "group": "Vocābula"
     },
     {
-      "latin": "(translate one word earlier than coepī",
-      "english": "I began",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "where it appears in Latin) vigilō, -āre, -āvī, -ātum",
+      "latin": "vigilō, -āre, -āvī, -ātum",
       "english": "be awake",
       "group": "Vocābula"
     },
@@ -164,18 +169,8 @@ const chapter = {
       "group": "Vocābula"
     },
     {
-      "latin": "surgō, surgere, surrēxī, surrēctum num (+ subjunctive)",
-      "english": "whether, get up",
-      "group": "Vocābula"
-    },
-    {
       "latin": "iam",
       "english": "already",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "lectus, lectī (m.)",
-      "english": "bed",
       "group": "Vocābula"
     },
     {
@@ -194,26 +189,6 @@ const chapter = {
       "group": "Vocābula"
     },
     {
-      "latin": "dēpōnō (like pōnō)",
-      "english": "take off",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "ōstium, ōstiī (n.)",
-      "english": "door",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "dormītōrium, -ī (n.)",
-      "english": "nightgown",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "fenestra, fenestrae (f.)",
-      "english": "window",
-      "group": "Vocābula"
-    },
-    {
       "latin": "sūmō, sūmere, sūmpsī, sūmptum",
       "english": "take",
       "group": "Vocābula"
@@ -224,39 +199,9 @@ const chapter = {
       "group": "Vocābula"
     },
     {
-      "latin": "tunica, tunicae (f.)",
-      "english": "tunic",
-      "group": "Vocābula"
-    },
-    {
       "latin": "porrigō, porrigere, porrēxī, porrēctum reliquus, -a, -um",
-      "english": "remaining, pass",
+      "english": "remaining",
       "group": "Vocābula"
-    },
-    {
-      "latin": "vestīmenta, vestīmentōrum (n. plural) calceāmentum, -ī (n.)",
-      "english": "shoe, clothes",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "ā, ab (+ ablative)",
-      "english": "by",
-      "group": "Praepositiōnēs"
-    },
-    {
-      "latin": "is, ea, id",
-      "english": "he, she, it, they",
-      "group": "Prōnōmina"
-    },
-    {
-      "latin": "eius",
-      "english": "his, her, its",
-      "group": "Prōnōmina"
-    },
-    {
-      "latin": "(genitive singular of is) eōrum, eārum",
-      "english": "their",
-      "group": "Prōnōmina"
     }
   ],
   "pensa": [
@@ -736,6 +681,19 @@ const chapter = {
         }
       ],
       "id": "practice-23-e"
+    },
+    {
+      "id": "translate-23",
+      "latinLabel": "TRANSLATE INTO LATIN",
+      "title": "Translate into Latin",
+      "instruction": "",
+      "type": "questions",
+      "items": [
+        {
+          "q": "(different people) would rule 11 He wrote to me so that I would well.",
+          "a": ""
+        }
+      ]
     }
   ]
 }

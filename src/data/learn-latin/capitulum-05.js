@@ -151,36 +151,12 @@ const chapter = {
           "text": "Present active indicative Future active indicative Perfect active indicative"
         },
         {
-          "t": "example",
-          "text": "sum ‘I am’\nerō ‘I will be’, ‘I shall be’\nfuī ‘I have been’, ‘I was’\nes ‘you (singular) eris ‘you (singular) will fuistī ‘you (singular) have"
-        },
-        {
-          "t": "h",
-          "text": "are’ be’, ‘you (singular) been’, ‘you (singular)"
+          "t": "p",
+          "text": "sum ‘I am’ erō ‘I will be’, ‘I shall be’ fuī ‘I have been’, ‘I was’ es ‘you (singular) eris ‘you (singular) will fuistī ‘you (singular) have are’ be’, ‘you (singular) been’, ‘you (singular) shall be’ were’ est ‘he/she/it is’, ‘is’ erit ‘he/she/it will be’, fuit ‘he/she/it has ‘he/she/it shall be’, been’, ‘he/she/it ‘will be’, ‘shall be’ was’, ‘has been’, ‘was’ sumus ‘we are’ erimus ‘we will be’, ‘we shall fuimus ‘we have been’, ‘we be’ were’ estis ‘you (plural) eritis ‘you (plural) will be’, fuistis ‘you (plural) have are’ ‘you (plural) shall be’ been’, ‘you (plural) were’ sunt ‘they are’, erunt ‘they will be’, ‘they fuērunt ‘they have been’, ‘they ‘are’ shall be’, ‘will be’, were’, ‘have been’, ‘shall be’ ‘were’ The fourth principal part ends in -s because it is a different kind of form from other fourth parts you have seen; this will be explained in chapter 24."
         },
         {
           "t": "p",
-          "text": "shall be’ were’ est ‘he/she/it is’, ‘is’ erit ‘he/she/it will be’, fuit ‘he/she/it has ‘he/she/it shall be’, been’, ‘he/she/it ‘will be’, ‘shall be’ was’, ‘has been’, ‘was’ sumus ‘we are’ erimus ‘we will be’, ‘we shall fuimus ‘we have been’, ‘we be’ were’ estis ‘you (plural) eritis ‘you (plural) will be’, fuistis ‘you (plural) have"
-        },
-        {
-          "t": "h",
-          "text": "are’ ‘you (plural) shall be’ been’, ‘you (plural)"
-        },
-        {
-          "t": "example",
-          "text": "were’\nsunt ‘they are’, erunt ‘they will be’, ‘they fuērunt ‘they have been’, ‘they"
-        },
-        {
-          "t": "h",
-          "text": "‘are’ shall be’, ‘will be’, were’, ‘have been’,"
-        },
-        {
-          "t": "p",
-          "text": "‘shall be’ ‘were’ The fourth principal part ends in -s because it is a different kind of form from other fourth parts you have seen; this will be explained in chapter 24. The verb sum ‘be’ does not take an object, because ‘be’ does not indicate any action; it shows that the two words it joins are the same thing."
-        },
-        {
-          "t": "p",
-          "text": "So a form of sum takes a word in the same case as its subject, which of course is normally nominative: ‘The girl is a poet’ is puella poēta est (or puella est poēta, etc.).4 This is sometimes called a ‘predicate nominative’."
+          "text": "The verb sum ‘be’ does not take an object, because ‘be’ does not indicate any action; it shows that the two words it joins are the same thing. So a form of sum takes a word in the same case as its subject, which of course is normally nominative: ‘The girl is a poet’ is puella poēta est (or puella est poēta, etc.).4 This is sometimes called a ‘predicate nominative’."
         },
         {
           "t": "p",
@@ -197,6 +173,18 @@ const chapter = {
         {
           "t": "p",
           "text": "The sentences below provide extra practice in distinguishing predicate nominatives from accusatives."
+        }
+      ]
+    },
+    {
+      "id": "section-5",
+      "latin": "5.5 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Verb sum, esse, fuī, futūrus ‘be’ Nouns cōnsilium, cōnsiliī (n.) ‘advice’, ‘plan’ epistula, epistulae (f.) ‘letter’ pecūnia, pecūniae (f.) ‘money’ If you have difficulty with this exercise, first try the ones on the same point in chapter 63.3–5, which have an answer key."
         }
       ]
     }
@@ -231,28 +219,7 @@ const chapter = {
     }
   ],
   "grammar": [],
-  "vocabulary": [
-    {
-      "latin": "sum, esse, fuī, futūrus",
-      "english": "be",
-      "group": "Verba"
-    },
-    {
-      "latin": "cōnsilium, cōnsiliī (n.)",
-      "english": "advice, plan",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "epistula, epistulae (f.)",
-      "english": "letter",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "pecūnia, pecūniae (f.)",
-      "english": "money",
-      "group": "Nōmina"
-    }
-  ],
+  "vocabulary": [],
   "pensa": [
     {
       "latinLabel": "PRACTICE A",

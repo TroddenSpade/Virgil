@@ -91,24 +91,12 @@ const chapter = {
           "text": "We have already seen a range of interrogative words, all of which can be used in -ne (indirect version num): used for questions answerable with ‘yes’ or ‘no’ quis ‘who?’ quid (neuter of quis) ‘what?’ quī, quae, quod (adjective) ‘which?’ cūr ‘why?’ ubi ‘where?’ (when motion is not involved: ubi est ‘Where is he?’) There are also a number of other interrogative words not seen so far, including the following: quō ‘to where?’, ‘where?’ (when motion towards a place is involved: quō currit?"
         },
         {
-          "t": "h",
-          "text": "‘Where"
-        },
-        {
-          "t": "h",
-          "text": "is he running to?’, quō īvit? ‘Where did he go?’)"
-        },
-        {
-          "t": "example",
-          "text": "unde ‘from where?’ (unde vēnit? ‘Where did he come from?’) quot ‘how many?’\nquandō ‘when?’ (only usable in questions and to be clearly distinguished from cum"
-        },
-        {
-          "t": "h",
-          "text": "‘when’, which is only used in temporal clauses)"
+          "t": "p",
+          "text": "‘Where is he running to?’, quō īvit? ‘Where did he go?’) unde ‘from where?’ (unde vēnit? ‘Where did he come from?’) quot ‘how many?’ quandō ‘when?’ (only usable in questions and to be clearly distinguished from cum ‘when’, which is only used in temporal clauses) quōmodo ‘how?’ quantus, -a, -um ‘how big?’ utrum . . ."
         },
         {
           "t": "p",
-          "text": "quōmodo ‘how?’ quantus, -a, -um ‘how big?’ utrum . . . an (used for double questions, where utrum has no translation and an is equivalent to ‘or’: utrum hoc an illud vīs? ‘Do you want this or that?’)"
+          "text": "an (used for double questions, where utrum has no translation and an is equivalent to ‘or’: utrum hoc an illud vīs? ‘Do you want this or that?’)"
         }
       ]
     },
@@ -123,80 +111,145 @@ const chapter = {
           "text": "quaerere, quaesīvī, quaesītum, which also means ‘ask’) but also after verbs expressing related concepts such as wondering or not knowing. Thus nesciō num currat ‘I don’t know whether he is running’ / ‘I don’t know if he is running’ is also an indirect question."
         }
       ]
+    },
+    {
+      "id": "section-5",
+      "latin": "54.8 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Verbs audeō, audēre, ausus sum ‘dare’ (semideponent, i.e."
+        },
+        {
+          "t": "p",
+          "text": "deponent in perfect tenses but not in present, future, or imperfect tenses) crēdō, crēdere, crēdidī, crēditum (+ dative) ‘believe’, ‘trust’ quaerō, quaerere, quaesīvī, quaesītum ‘ask’, ‘seek’ Nouns ars, artis, artium (f.) ‘art’, ‘skill’ iūs, iūris (n.) ‘right’, ‘law’ Adjectives quantus, quanta, quantum ‘how big?’ quot (indeclinable) ‘how many?’ Adverbs iterum ‘again’ quandō ‘when?’ quō ‘to where?’, ‘where?’ (with motion towards) quōmodo ‘how?’ unde ‘from where?’ Conjunctions num ‘whether’, ‘if’ (in indirect questions) utrum ."
+        },
+        {
+          "t": "h",
+          "text": ". . an ‘or’ (in double questions)"
+        }
+      ]
     }
   ],
   "readings": [],
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "audeō, audēre, ausus sum",
-      "english": "dare",
-      "group": "Verba"
+      "latin": "habitō, -āre, -āvī, -ātum",
+      "english": "live, dwell",
+      "group": "Vocābula"
     },
     {
-      "latin": "(semideponent, i.e. deponent in perfect tenses but not in present, future, or imperfect tenses) crēdō, crēdere, crēdidī, crēditum (+ dative)",
-      "english": "believe, trust",
-      "group": "Verba"
+      "latin": "antecēdō, -cēdere, -cessī, -cessum",
+      "english": "go ahead of",
+      "group": "Vocābula"
     },
     {
-      "latin": "quaerō, quaerere, quaesīvī, quaesītum",
-      "english": "ask, seek",
-      "group": "Verba"
+      "latin": "rūrsus",
+      "english": "back",
+      "group": "Vocābula"
     },
     {
-      "latin": "ars, artis, artium (f.)",
-      "english": "art, skill",
-      "group": "Nōmina"
+      "latin": "cēterus, -a, -um",
+      "english": "other",
+      "group": "Vocābula"
     },
     {
-      "latin": "iūs, iūris (n.)",
-      "english": "right, law",
-      "group": "Nōmina"
+      "latin": "accēdō, accēdere, accessī, accessum",
+      "english": "be omnīnō",
+      "group": "Vocābula"
     },
     {
-      "latin": "quantus, quanta, quantum",
-      "english": "how big?",
-      "group": "Adiectīva"
+      "latin": "tandem",
+      "english": "finally",
+      "group": "Vocābula"
     },
     {
-      "latin": "quot (indeclinable)",
-      "english": "how many?",
-      "group": "Adiectīva"
+      "latin": "exspectō, -āre, -āvī, -ātum",
+      "english": "wait for",
+      "group": "Vocābula"
     },
     {
-      "latin": "iterum",
-      "english": "again",
-      "group": "Adverbia"
+      "latin": "satis",
+      "english": "reasonably",
+      "group": "Vocābula"
     },
     {
-      "latin": "quandō",
-      "english": "when?",
-      "group": "Adverbia"
+      "latin": "certiōrem faciō",
+      "english": "inform",
+      "group": "Vocābula"
     },
     {
-      "latin": "quō",
-      "english": "to where?, where?",
-      "group": "Adverbia"
+      "latin": "līberālis, -e",
+      "english": "generous",
+      "group": "Vocābula"
     },
     {
-      "latin": "(with motion towards) quōmodo",
-      "english": "how?",
-      "group": "Adverbia"
+      "latin": "opīniōne celerius",
+      "english": "sooner than (one of Cicero",
+      "group": "Vocābula"
     },
     {
-      "latin": "unde",
-      "english": "from where?",
-      "group": "Adverbia"
+      "latin": "thought",
+      "english": "quam prīmum",
+      "group": "Vocābula"
     },
     {
-      "latin": "num",
-      "english": "whether, if",
-      "group": "Coniūnctiōnēs"
+      "latin": "satis superque",
+      "english": "enough and more than tam multa",
+      "group": "Vocābula"
     },
     {
-      "latin": "(in indirect questions) utrum . . . an",
-      "english": "or",
-      "group": "Coniūnctiōnēs"
+      "latin": "enough",
+      "english": "bāsium, bāsiī (n.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "quam multa",
+      "english": "as many . . . as",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "bāsiō, bāsiāre, bāsiāvī, bāsiātum",
+      "english": "kiss",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "vēsānus, -a, -um",
+      "english": "mad (with love)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "taceō, tacēre, tacuī, tacitum",
+      "english": "be silent",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "Catullōst = Catullō est fūrtīvus, -a, -um",
+      "english": "secret",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "quārē = cūr excruciō, -āre, -āvī, -ātum",
+      "english": "torture",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "fortasse",
+      "english": "perhaps",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "disputō, -āre, -āvī, -ātum",
+      "english": "discuss",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "fācundus, -a, -um",
+      "english": "eloquent",
+      "group": "Vocābula"
     }
   ],
   "pensa": [
@@ -559,47 +612,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "1 Colloquium Montepessulanum 7a–b (adapted): setting up a visit to a friend (probably third century ad). master (to slave): scis ubi habitet amicus meus Lucius, vir fortis: antecede me, disce num domi sit, rursus veni, dic mihi ubi sit. Vocabulary habitō, -āre, -āvī, -ātum ‘live, dwell’ antecēdō, -cēdere, -cessī, -cessum ‘go ahead of’ rūrsus ‘back’",
-          "a": ""
-        },
-        {
-          "q": "2 Cicero, Epistulae ad familiares 14.",
-          "a": ""
-        },
-        {
-          "q": "9 (adapted): Cicero writes to his wife about his worries in",
-          "a": ""
-        },
-        {
-          "q": "48 bc . Dolabella (a first-declension masculine, like agricola) was the husband of their daughter Tullia. Note that faciam is an original deliberative question (quid faciam? ‘What should I do?’). Tullius Terentiae suae salutem plurimam dicit. ad ceteras meas miserias accessit dolor et de Dolabellae valetudine et de Tulliae. omnino de omnibus rebus quid faciam nescio. tu velim ut tuam et Tulliae valetudinem cures. vale. Vocabulary cēterus, -a, -um ‘other’ dolor, dolōris (m.) ‘sorrow’ miseria, miseriae (f.) ‘misery’ valētūdō, valētūdinis (f.) ‘health’ accēdō, accēdere, accessī, accessum ‘be omnīnō ‘entirely’ added’",
-          "a": ""
-        },
-        {
-          "q": "3 Cicero, Epistulae ad familiares 14.",
-          "a": ""
-        },
-        {
-          "q": "23 (adapted): Cicero writes to his wife about Caesar in",
-          "a": ""
-        },
-        {
-          "q": "47 bc . Note that prōgrediar and exspectem are original deliberative questions (‘whether I should advance’, etc.) Tullius Terentiae suae salutem dicit. si vales bene est; ego valeo. reddita mihi tandem est a Caesare epistula satis liberalis, et ipse opinione celerius venturus esse dicitur; cum constituero utrum obviam ei progrediar an hic eum exspectem, faciam te certiorem. velim ut tabellarios mihi quam primum remittas. valetudinem tuam cura diligenter. vale. Vocabulary tandem ‘finally’ exspectō, -āre, -āvī, -ātum ‘wait for’ satis ‘reasonably’ certiōrem faciō ‘inform’ līberālis, -e ‘generous’ tabellārius, tabellāriī (m.) ‘letter carrier’ opīniōne celerius ‘sooner than (one of Cicero’s slaves) (previously) thought’ quam prīmum ‘as soon as possible’ cōnstituō, -stituere, -stituī, -stitūtum remittō (like mittō) ‘send back’ ‘decide’ valētūdō, valētūdinis (f.) ‘health’ obviam (+ dative) ‘to meet’",
-          "a": ""
-        },
-        {
-          "q": "4 Catullus",
-          "a": ""
-        },
-        {
-          "q": "7 (extract): the poet expresses his love for Lesbia (first century bc ). Quaeris, quot mihi basiationes tuae, Lesbia, sint satis superque. . . . quam sidera multa, cum tacet nox, furtivos hominum vident amores, tam te basia multa basiare vesano satis et super Catullost. Vocabulary bāsiātiō, bāsiātiōnis (f.) ‘kiss’ amor, amōris (m.) ‘love affair’ satis superque ‘enough and more than tam multa ‘so many’ enough’ bāsium, bāsiī (n.) ‘kiss’ quam multa ‘as many . . . as’ bāsiō, bāsiāre, bāsiāvī, bāsiātum ‘kiss’ sīdus, sīderis (n.) ‘star’ vēsānus, -a, -um ‘mad (with love)’ taceō, tacēre, tacuī, tacitum ‘be silent’ Catullōst = Catullō est fūrtīvus, -a, -um ‘secret’",
-          "a": ""
-        },
-        {
-          "q": "5 Catullus 85: the poet reflects on his emotions (first century bc ). Odi et amo. quare id faciam, fortasse requiris: nescio, sed fieri sentio et excrucior. Vocabulary ōdī, ōdisse, ōsum (perfect in form but requīrō, requīrere, requīsīvī, requīsītum present in meaning) ‘hate’ ‘ask’ quārē = cūr excruciō, -āre, -āvī, -ātum ‘torture’ fortasse ‘perhaps’",
-          "a": ""
-        },
-        {
-          "q": "6 Martial 9.77 (extract): the best kind of dinner party for a hater of music (first century ad ). Quod optimum sit disputat convivium facunda Prisci pagina . . . quod optimum sit quaeritis convivium? in quo choraules non erit. Vocabulary disputō, -āre, -āvī, -ātum ‘discuss’ pāgina, pāginae (f.) ‘page’ (i.e. writings) convīvium, convīviī (n.) ‘dinner party’ choraulēs, choraulae (m.) ‘flute player’ fācundus, -a, -um ‘eloquent’",
+          "q": "1 Colloquium Montepessulanum 7a–b (adapted): setting up a visit to a friend (probably third century ad). master (to slave): scis ubi habitet amicus meus Lucius, vir fortis: antecede me, disce num domi sit, rursus veni, dic mihi ubi sit.",
           "a": ""
         }
       ],

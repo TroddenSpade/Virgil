@@ -72,59 +72,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Thus the following are examples of adverbs corresponding to adjectives with a regular comparison: Positive Comparative Superlative longē ‘(by) far’ longius ‘(by) farther’ longissimē ‘(by) farthest’ (adjective longus, (adjective longior, (adjective -a, -um ‘long’) longius ‘longer’, longissimus, -a,"
-        },
-        {
-          "t": "h",
-          "text": "‘rather long’) -um ‘longest’,"
-        },
-        {
-          "t": "h",
-          "text": "‘very long’)"
-        },
-        {
-          "t": "h",
-          "text": "breviter ‘briefly’ brevius ‘more briefly’, brevissimē ‘most briefly’,"
-        },
-        {
-          "t": "example",
-          "text": "(adjective brevis, ‘rather briefly’ ‘very briefly’ -e ‘short’) (adjective brevior, (adjective"
-        },
-        {
-          "t": "h",
-          "text": "-ius ‘shorter’, brevissimus, -a, ‘rather short’) -um ‘shortest’,"
-        },
-        {
-          "t": "h",
-          "text": "‘very short’)"
-        },
-        {
-          "t": "example",
-          "text": "tenerē ‘tenderly’\ntenerius ‘more tenderly’, tenerrimē ‘most tenderly’, (adjective tener, rather tenderly’ ‘very tenderly’ -era, -erum (adjective tenerior, (adjective ‘tender’) -ius ‘tenderer’, tenerrimus, -a, -um"
-        },
-        {
-          "t": "h",
-          "text": "‘rather tender’) ‘tenderest’,"
-        },
-        {
-          "t": "h",
-          "text": "‘very tender’)"
-        },
-        {
-          "t": "h",
-          "text": "ācriter ‘keenly’ ācrius ‘more keenly’, ācerrimē ‘most keenly’,"
-        },
-        {
-          "t": "example",
-          "text": "(adjective ācer, ‘rather keenly’ ‘very keenly’ ācris, ācre ‘keen’) (adjective ācrior, (adjective"
-        },
-        {
-          "t": "h",
-          "text": "-ius ‘keener’, ācerrimus, -a, -um ‘rather keen’) ‘keenest’,"
-        },
-        {
-          "t": "h",
-          "text": "‘very keen’)"
+          "text": "Thus the following are examples of adverbs corresponding to adjectives with a regular comparison: Positive Comparative Superlative longē ‘(by) far’ longius ‘(by) farther’ longissimē ‘(by) farthest’ (adjective longus, (adjective longior, (adjective -a, -um ‘long’) longius ‘longer’, longissimus, -a, ‘rather long’) -um ‘longest’, ‘very long’) breviter ‘briefly’ brevius ‘more briefly’, brevissimē ‘most briefly’, (adjective brevis, ‘rather briefly’ ‘very briefly’ -e ‘short’) (adjective brevior, (adjective -ius ‘shorter’, brevissimus, -a, ‘rather short’) -um ‘shortest’, ‘very short’) tenerē ‘tenderly’ tenerius ‘more tenderly’, tenerrimē ‘most tenderly’, (adjective tener, rather tenderly’ ‘very tenderly’ -era, -erum (adjective tenerior, (adjective ‘tender’) -ius ‘tenderer’, tenerrimus, -a, -um ‘rather tender’) ‘tenderest’, ‘very tender’) ācriter ‘keenly’ ācrius ‘more keenly’, ācerrimē ‘most keenly’, (adjective ācer, ‘rather keenly’ ‘very keenly’ ācris, ācre ‘keen’) (adjective ācrior, (adjective -ius ‘keener’, ācerrimus, -a, -um ‘rather keen’) ‘keenest’, ‘very keen’)"
         }
       ]
     },
@@ -155,105 +103,122 @@ const chapter = {
           "text": "Comparative adverbs can take most of the constructions used by comparative adjectives (see chapter 38.4). tū celerius currēbās quam ego. ‘You were running faster than I.’ celerrimē omnium cucurrī. ‘I ran the fastest of all.’ quam celerrimē cucurrit. ‘He ran as fast as possible.’"
         }
       ]
+    },
+    {
+      "id": "section-6",
+      "latin": "43.8 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "Adverbs facile ‘easily’\nfacilius ‘more easily’, ‘rather easily’\nfacillimē ‘most easily’, ‘very easily’\nmagis ‘more greatly’, ‘rather greatly’\nmagnopere ‘greatly’\nmaximē ‘most greatly’, ‘very greatly’\nmelius ‘better’, ‘rather well’\nminimē ‘least’, ‘very little’\nminus ‘less’, ‘rather little’\nmultum ‘much’\noptimē ‘excellently’, ‘very well’\npaulum ‘little’\npeius ‘more badly’, ‘rather badly’\npessimē ‘worst’, ‘very badly’\nplūrimum ‘most’, ‘very much’\nplūs ‘more’\nsimiliter ‘similarly’\nsimilius ‘more similarly’, ‘rather similarly’\nsimillimē ‘most similarly’, ‘very similarly’"
+        }
+      ]
     }
   ],
   "readings": [],
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "facile",
-      "english": "easily",
-      "group": "Adverbia"
+      "latin": "et . . . et",
+      "english": "both . . . and",
+      "group": "Vocābula"
     },
     {
-      "latin": "facilius",
-      "english": "more easily, rather easily",
-      "group": "Adverbia"
+      "latin": "questions",
+      "english": "sēnsus, sēnsūs (m.)",
+      "group": "Vocābula"
     },
     {
-      "latin": "facillimē",
-      "english": "most easily, very easily",
-      "group": "Adverbia"
+      "latin": "respōnsō acceptō",
+      "english": "when I had received auctor, auctōris (m.)",
+      "group": "Vocābula"
     },
     {
-      "latin": "magis",
-      "english": "more greatly, rather greatly",
-      "group": "Adverbia"
+      "latin": "ab oculō",
+      "english": "at sight",
+      "group": "Vocābula"
     },
     {
-      "latin": "magnopere",
-      "english": "greatly",
-      "group": "Adverbia"
+      "latin": "ignōtus, -a, -um",
+      "english": "unfamiliar",
+      "group": "Vocābula"
     },
     {
-      "latin": "maximē",
-      "english": "most greatly, very greatly",
-      "group": "Adverbia"
+      "latin": "rārus, rāra, rārum",
+      "english": "infrequent",
+      "group": "Vocābula"
     },
     {
-      "latin": "melius",
-      "english": "better, rather well",
-      "group": "Adverbia"
+      "latin": "Etrūscus, -a, -um",
+      "english": "Etruscan",
+      "group": "Vocābula"
     },
     {
-      "latin": "minimē",
-      "english": "least, very little",
-      "group": "Adverbia"
+      "latin": "propior, propius",
+      "english": "nearer",
+      "group": "Vocābula"
     },
     {
-      "latin": "minus",
-      "english": "less, rather little",
-      "group": "Adverbia"
+      "latin": "marī",
+      "english": "on the sea",
+      "group": "Vocābula"
     },
     {
-      "latin": "multum",
-      "english": "much",
-      "group": "Adverbia"
+      "latin": "polleō, pollēre, –, –",
+      "english": "be powerful",
+      "group": "Vocābula"
     },
     {
-      "latin": "optimē",
-      "english": "excellently, very well",
-      "group": "Adverbia"
+      "latin": "quid",
+      "english": "why",
+      "group": "Vocābula"
     },
     {
-      "latin": "paulum",
-      "english": "little",
-      "group": "Adverbia"
+      "latin": "exerceō, -cēre, -cuī, -citum",
+      "english": "provides pereō (like eō)",
+      "group": "Vocābula"
     },
     {
-      "latin": "peius",
-      "english": "more badly, rather badly",
-      "group": "Adverbia"
+      "latin": "be wasted",
+      "english": "exercise for",
+      "group": "Vocābula"
     },
     {
-      "latin": "pessimē",
-      "english": "worst, very badly",
-      "group": "Adverbia"
+      "latin": "fodiō, fodere, fōdī, fossum",
+      "english": "dig up",
+      "group": "Vocābula"
     },
     {
-      "latin": "plūrimum",
-      "english": "most, very much",
-      "group": "Adverbia"
+      "latin": "heia",
+      "english": "come on!",
+      "group": "Vocābula"
     },
     {
-      "latin": "plūs",
-      "english": "more",
-      "group": "Adverbia"
+      "latin": "mīrandum est",
+      "english": "it is surprising",
+      "group": "Vocābula"
     },
     {
-      "latin": "similiter",
-      "english": "similarly",
-      "group": "Adverbia"
+      "latin": "age",
+      "english": "lēnis, lēne",
+      "group": "Vocābula"
     },
     {
-      "latin": "similius",
-      "english": "more similarly, rather similarly",
-      "group": "Adverbia"
+      "latin": "mild",
+      "english": "itidem",
+      "group": "Vocābula"
     },
     {
-      "latin": "simillimē",
-      "english": "most similarly, very similarly",
-      "group": "Adverbia"
+      "latin": "angry",
+      "english": "being young",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sapiō, sapere, sapīvī, –",
+      "english": "be wise",
+      "group": "Vocābula"
     }
   ],
   "pensa": [
@@ -653,31 +618,24 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "1 Colloquium Stephani 16a–17d (adapted): lessons at school (probably first to third century ad). Consedi meo loco; librum accepi et scripsi cottidiana. interrogavi, et responso accepto legi lectionem meam, quam mihi magister diligenter exposuit, donec intellegerem et personas et sensum verborum auctoris. deinde ab oculo celeriter legi versus ignotos qui rare leguntur. Vocabulary cōnsedeō (like sedeō) ‘sit down’ et . . . et ‘both . . . and’ cottīdiānum, cottīdiānī (n.) persōna, persōnae (f.) ‘speaker’ (i.e. who ‘conversational phrase’ speaks which lines of a dramatic interrogō, -āre, -āvī, -ātum ‘ask text) questions’ sēnsus, sēnsūs (m.) ‘meaning’ respōnsō acceptō ‘when I had received auctor, auctōris (m.) ‘author’ the answer’ deinde ‘then’ lēctiō, lēctiōnis (f.) ‘reading assignment’ ab oculō ‘at sight’ (i.e. without dīligenter ‘carefully’ preparation) expōnō (like pōnō) ‘explain’ ignōtus, -a, -um ‘unfamiliar’ dōnec (+ subjunctive) ‘until’ rārus, rāra, rārum ‘infrequent’",
-          "a": ""
-        },
-        {
-          "q": "2 Livy, Ab urbe condita 1.23.88 (adapted): the leader of the Albans warns the king of Rome about the dangers posed by the Etruscans (written in the first century bc about a much earlier and partly mythical period). Illud te, Tulle, monere velim. Etruscam rem periculosam esse nobis vobisque maxime, magis scitis quam nos quo propiores estis. multum illi terra, plurimum mari pollent. Vocabulary Tullus, -ī (m.) name of a Roman king quō ‘in proportion as’ Etrūscus, -a, -um ‘Etruscan’ propior, propius ‘nearer’ (i.e. to the rēs can also mean ‘state’ Etruscans) perīculōsus, -a, -um (+ dative) marī ‘on the sea’ (i.e. with their navy) ‘dangerous (to)’ polleō, pollēre, –, – ‘be powerful’",
-          "a": ""
-        },
-        {
-          "q": "3 Martial 7.85: the difficulty of poetry (first century ad). Quod non insulse scribis tetrasticha quaedam, disticha quod belle pauca, Sabelle, facis, laudo nec admiror. facile est epigrammata belle scribere, sed librum scribere difficile est. 284 Adverbs Vocabulary quod ‘because’ Sabellus, Sabellī (m.) name of a rival īnsulsus, -a, -um ‘without wit’ poet tetrastichum, -ī (n.) ‘four-line poem’ nec ‘but not’ quīdam, quaedam, quoddam ‘some’ admīror, -ārī, -ātus sum ‘be surprised’ distichum, -ī (n.) ‘two-line poem’ epigramma, epigrammatis (n.) bellus, bella, bellum ‘pretty’ ‘epigram’ (a kind of short poem)",
-          "a": ""
-        },
-        {
-          "q": "4 Martial 14.49: the poet’s contempt for those who exercise instead of doing useful work with their muscles (first century ad ). Quid pereunt stulto fortes haltere lacerti? exercet melius vinea fossa viros. Vocabulary quid ‘why’ exerceō, -cēre, -cuī, -citum ‘provides pereō (like eō) ‘be wasted’ exercise for’ haltēr, haltēris (m.) ‘weight-lifting’ vīnea, vīneae (f.) ‘vineyard’ lacertus, lacertī (m.) ‘arm’ fodiō, fodere, fōdī, fossum ‘dig up’ (i.e. cultivate)",
-          "a": ""
-        },
-        {
-          "q": "5 Plautus, Bacchides 408–",
-          "a": ""
-        },
-        {
-          "q": "10 (adapted): a tolerant father reacts to a negative report on his teenage son’s activities (second century bc ). heia, Lyde, leniter qui saeviunt sapiunt magis. minus mirandum est si illa aetate haec facit quam si non facit. feci ego talia itidem in adulescentia. Vocabulary heia ‘come on!’ mīrandum est ‘it is surprising’ Lyˉdus, -ī (m.) name of the speaker’s slave aetās, aetātis (f.) ‘age’ lēnis, lēne ‘mild’ itidem ‘exactly the same way’ saeviō, saevīre, saeviī, saevītum ‘get adulēscentia, -ae (f.) ‘youth’, ‘time of angry’ being young’ sapiō, sapere, sapīvī, – ‘be wise’",
+          "q": "1 Colloquium Stephani 16a–17d (adapted): lessons at school (probably first to third century ad). Consedi meo loco; librum accepi et scripsi cottidiana. interrogavi, et responso accepto legi lectionem meam, quam mihi magister diligenter exposuit, donec intellegerem et personas et sensum verborum auctoris. deinde ab oculo celeriter legi versus ignotos qui rare leguntur.",
           "a": ""
         }
       ],
       "id": "practice-43-f"
+    },
+    {
+      "id": "translate-43",
+      "latinLabel": "TRANSLATE INTO LATIN",
+      "title": "Translate into Latin",
+      "instruction": "",
+      "type": "questions",
+      "items": [
+        {
+          "q": "The same principle applies for most adverbs corresponding to irregular adjectives, but some additional irregularities can be found.",
+          "a": ""
+        }
+      ]
     }
   ]
 }

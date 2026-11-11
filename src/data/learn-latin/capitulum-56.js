@@ -72,15 +72,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The available participle forms are: Perfect Perfect Present Future passive active active active participle participle participle participle First amātus, -a, -um amāns, amantis amātūrus, -a, conjugation ‘(having been) – ‘loving’ -um ‘(being) loved’ about to love’ First vēnātus, -a, vēnāns, vēnantis vēnātūrus, -a, conjugation – -um ‘having ‘hunting’ -um ‘(being) deponent hunted’ about to hunt’ Second monitus, -a, monēns, monitūrus, -a, conjugation -um ‘(having – monentis -um ‘(being) been) advised’ ‘advising’ about to advise’ Second veritus, -a, verēns, verentis veritūrus, -a, conjugation – -um ‘having ‘fearing’ -um ‘(being) deponent feared’ about to fear’ Third rēctus, -a, regēns, regentis rēctūrus, -a, conjugation -um ‘(having – ‘ruling’ -um ‘(being) been) ruled’ about to rule’ Third ūsus, -a, -um ūtēns, ūtentis ūsūrus, -a, conjugation – ‘having used’ ‘using’ -um ‘(being) deponent about to use’ Perfect Perfect Present Future passive active active active participle participle participle participle Fourth audītus, -a, audiēns, audītūrus, -a, conjugation -um ‘(having – audientis -um ‘(being) been) heard’ ‘hearing’ about to hear’ Fourth partītus, -a, partiēns, partītūrus, -a, conjugation – -um ‘having partientis -um ‘(being) deponent divided’ ‘dividing’ about to divide’ Mixed captus, -a, capiēns, captūrus, -a, conjugation -um ‘(having – capientis -um ‘(being)"
-        },
-        {
-          "t": "h",
-          "text": "been) captured’ ‘capturing’ about to"
-        },
-        {
-          "t": "example",
-          "text": "capture’ Mixed mortuus, -a, moriēns, moritūrus, -a, conjugation – -um ‘having morientis -um ‘(being) deponent died’ ‘dying’ about to die’"
+          "text": "The available participle forms are: Perfect Perfect Present Future passive active active active participle participle participle participle First amātus, -a, -um amāns, amantis amātūrus, -a, conjugation ‘(having been) – ‘loving’ -um ‘(being) loved’ about to love’ First vēnātus, -a, vēnāns, vēnantis vēnātūrus, -a, conjugation – -um ‘having ‘hunting’ -um ‘(being) deponent hunted’ about to hunt’ Second monitus, -a, monēns, monitūrus, -a, conjugation -um ‘(having – monentis -um ‘(being) been) advised’ ‘advising’ about to advise’ Second veritus, -a, verēns, verentis veritūrus, -a, conjugation – -um ‘having ‘fearing’ -um ‘(being) deponent feared’ about to fear’ Third rēctus, -a, regēns, regentis rēctūrus, -a, conjugation -um ‘(having – ‘ruling’ -um ‘(being) been) ruled’ about to rule’ Third ūsus, -a, -um ūtēns, ūtentis ūsūrus, -a, conjugation – ‘having used’ ‘using’ -um ‘(being) deponent about to use’ Perfect Perfect Present Future passive active active active participle participle participle participle Fourth audītus, -a, audiēns, audītūrus, -a, conjugation -um ‘(having – audientis -um ‘(being) been) heard’ ‘hearing’ about to hear’ Fourth partītus, -a, partiēns, partītūrus, -a, conjugation – -um ‘having partientis -um ‘(being) deponent divided’ ‘dividing’ about to divide’ Mixed captus, -a, capiēns, captūrus, -a, conjugation -um ‘(having – capientis -um ‘(being) been) captured’ ‘capturing’ about to capture’ Mixed mortuus, -a, moriēns, moritūrus, -a, conjugation – -um ‘having morientis -um ‘(being) deponent died’ ‘dying’ about to die’"
         },
         {
           "t": "h",
@@ -88,11 +80,7 @@ const chapter = {
         },
         {
           "t": "h",
-          "text": "– – – -um ‘(being)"
-        },
-        {
-          "t": "h",
-          "text": "about to be’"
+          "text": "– – – -um ‘(being) about to be’"
         },
         {
           "t": "h",
@@ -100,15 +88,7 @@ const chapter = {
         },
         {
           "t": "h",
-          "text": "– –"
-        },
-        {
-          "t": "h",
-          "text": "‘going’ -um ‘(being)"
-        },
-        {
-          "t": "h",
-          "text": "about to go’"
+          "text": "– – ‘going’ -um ‘(being) about to go’"
         },
         {
           "t": "h",
@@ -116,11 +96,7 @@ const chapter = {
         },
         {
           "t": "h",
-          "text": "– – –"
-        },
-        {
-          "t": "h",
-          "text": "‘wanting’"
+          "text": "– – – ‘wanting’"
         },
         {
           "t": "h",
@@ -128,27 +104,15 @@ const chapter = {
         },
         {
           "t": "h",
-          "text": "– – –"
-        },
-        {
-          "t": "h",
-          "text": "‘not wanting’"
+          "text": "– – – ‘not wanting’"
         },
         {
           "t": "h",
           "text": "Ferō lātus, -a, -um ferēns, ferentis lātūrus, -a,"
         },
         {
-          "t": "h",
-          "text": "–"
-        },
-        {
-          "t": "h",
-          "text": "376 Relative Clauses with the Subjunctive, Participles"
-        },
-        {
           "t": "p",
-          "text": "‘(having been) ‘carrying’ -um ‘(being) carried’ about to carry’ The perfect participles, being first/second-declension adjectives, are declined as follows; future participles are declined the same way but have -ūrbefore the ending."
+          "text": "– ‘(having been) ‘carrying’ -um ‘(being) carried’ about to carry’ The perfect participles, being first/second-declension adjectives, are declined as follows; future participles are declined the same way but have -ūrbefore the ending. 376 Relative Clauses with the Subjunctive, Participles"
         },
         {
           "t": "h",
@@ -222,7 +186,133 @@ const chapter = {
     }
   ],
   "grammar": [],
-  "vocabulary": [],
+  "vocabulary": [
+    {
+      "latin": "iam",
+      "english": "at that time",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "rēs can also mean",
+      "english": "state",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "validus, -a, -um",
+      "english": "strong",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "quīlibet, quaelibet, quidlibet (declines dūrō, dūrāre, dūrāvī, dūrātum",
+      "english": "endure",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "fīnitimus, -a, -um",
+      "english": "neighbouring",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "pār, gen. paris",
+      "english": "equal",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "tum",
+      "english": "then",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "pater can also mean",
+      "english": "senator",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "vīcīnus, -a, -um",
+      "english": "neighbouring",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "possīs",
+      "english": "you may",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "recitō, -āre, -āvī, -ātum",
+      "english": "recite",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "iūre",
+      "english": "rightly",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "plānē",
+      "english": "absolutely",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "reliquus, -a, -um",
+      "english": "remaining",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cupiō, cupere, cupīvī, cupītum",
+      "english": "desire",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "proficīscor, proficīscī, profectus sum dēditā operā",
+      "english": "by special messenger",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "commodē",
+      "english": "conveniently",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cuique",
+      "english": "each",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "certiōrem faciō",
+      "english": "inform",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ecquī",
+      "english": "whether any",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "out",
+      "english": "cōnsul, cōnsulis (m.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "pauper et ūnus erat",
+      "english": "there was only one prope",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "almost",
+      "english": "man, a pauper",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "holy",
+      "english": "the help of",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "colō, colere, coluī, cultum",
+      "english": "honour",
+      "group": "Vocābula"
+    }
+  ],
   "pensa": [
     {
       "latinLabel": "PRACTICE A",
@@ -439,27 +529,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "1 Livy, Ab urbe condita 1.9.1–2: the historian explains the problems that led the early Romans to steal the Sabine women (written in the first century bc about a much earlier and partly mythical period). Iam res Romana adeo erat valida, ut cuilibet finitimarum civitatum bello par esset; sed penuria mulierum hominis aetatem duratura magnitudo erat, quippe quibus nec domi spes prolis nec cum finitimis conubia essent. tum ex consilio patrum Romulus legatos circa vicinas gentes misit, qui societatem conubiumque novo populo peterent. Vocabulary iam ‘at that time’ pēnūria, pēnūriae (f.) ‘scarcity’ rēs can also mean ‘state’ mulier, mulieris (f.) ‘woman’ validus, -a, -um ‘strong’ aetās, aetātis (f.) ‘lifespan’ quīlibet, quaelibet, quidlibet (declines dūrō, dūrāre, dūrāvī, dūrātum ‘endure’ like quī) ‘any one’ magnitūdō, magnitūdinis (f.) fīnitimus, -a, -um ‘neighbouring’ ‘greatness’ cīvitās, cīvitātis (f.) ‘state’ prōlēs, prōlis (f.) ‘children’ pār, gen. paris ‘equal’ cōnūbium, cōnūbiī (n.) ‘marriage’ 378 Relative Clauses with the Subjunctive, Participles tum ‘then’ gēns, gentis, gentium (f.) ‘tribe’ pater can also mean ‘senator’ societās, societātis (f.) ‘alliance’ lēgātus, lēgātī (m.) ‘envoy’ populus, populī (m.) ‘people’ (i.e. the circā (+ accusative) ‘around’ Romans) vīcīnus, -a, -um ‘neighbouring’",
-          "a": ""
-        },
-        {
-          "q": "2 Martial 2.20: another way to become a poet (first century ad). Carmina Paulus emit. recitat sua carmina Paulus. nam quod emas possis iure vocare tuum. Vocabulary carmen, carminis (n.) ‘poem’ possīs ‘you may’ recitō, -āre, -āvī, -ātum ‘recite’ iūre ‘rightly’",
-          "a": ""
-        },
-        {
-          "q": "3 Cicero, Epistulae ad Atticum 10.",
-          "a": ""
-        },
-        {
-          "q": "3 (adapted): Cicero asks his friend Atticus anxious questions about the war between Caesar and Pompey in",
-          "a": ""
-        },
-        {
-          "q": "49 bc . Cicero Attico salutem dicit. cum quod scriberem plane nihil haberem, haec autem reliqua essent quae scire cuperem: num Caesar profectus esset, quo in statu urbem reliquisset, in ipsa Italia quem cuique regioni aut negotio praefecisset, ecqui essent ad Pompeium et ad consules ex senatus consulto de pace legati – cum igitur haec scire cuperem dedita opera has ad te litteras misi. feceris igitur commode mihique gratum si me de his rebus et si quid erit aliud quod scire opus sit feceris certiorem. ego in Arcano opperior dum ista cognosco. Vocabulary plānē ‘absolutely’ cōnsultum, cōnsultī (n.) ‘decree’ reliquus, -a, -um ‘remaining’ pāx, pācis (f.) ‘peace’ cupiō, cupere, cupīvī, cupītum ‘desire’ lēgātus, lēgātī (m.) ‘envoy’ proficīscor, proficīscī, profectus sum dēditā operā ‘by special messenger’ ‘set out’ litterae, litterārum (f. plural) ‘letter’ status, statūs (m.) ‘condition’ commodē ‘conveniently’ cuique ‘each’ (dative singular adjective) opus est (+ infinitive) ‘it is necessary to’ regiō, regiōnis (f.) ‘region’ certiōrem faciō ‘inform’ negōtium, negōtiī (n.) ‘task’ Arcānum, Arcānī (n.) name of Cicero’s praeficiō, praeficere, praefēcī, brother’s estate praefectum (+ X accusative and opperior, opperīrī, oppertus sum ‘wait’ Y dative) ‘put X in charge of Y’ cognōscō, -nōscere, -nōvī, -nitum ‘find ecquī ‘whether any’ (agrees with lēgātī) out’ cōnsul, cōnsulis (m.) ‘consul’",
-          "a": ""
-        },
-        {
-          "q": "4 Martial 11.50: the reputation of Virgil in the later first century ad. Silius Italicus was an important composer of imperial-period Latin epic. Iam prope desertos cineres et sancta Maronis nomina qui coleret pauper et unus erat. Silius orbatae succurrere censuit umbrae, et vatem vates non minor ipse colit. Vocabulary iam ‘now’ pauper et ūnus erat ‘there was only one prope ‘almost’ man, a pauper’ dēserō, dēserere, dēseruī, dēsertum orbō, orbāre, orbāvī, orbātum ‘make ‘desert, abandon’ destitute’ cinis, cineris (m.) ‘ashes’ succurrō (like currō) (+ dative) ‘come to sānctus, -a, -um ‘holy’ the help of’ Marō, Marōnis (m.) was the cognomen cēnseo, cēnsēre, cēnsuī, cēnsum ‘decide’ of P. Vergilius Maro, now known as umbra, umbrae (f.) ‘ghost’ ‘Virgil’ vātēs, vātis, vātium (m.) ‘poet’ colō, colere, coluī, cultum ‘honour’",
+          "q": "1 Livy, Ab urbe condita 1.9.1–2: the historian explains the problems that led the early Romans to steal the Sabine women (written in the first century bc about a much earlier and partly mythical period). Iam res Romana adeo erat valida, ut cuilibet finitimarum civitatum bello par esset; sed penuria mulierum hominis aetatem duratura magnitudo erat, quippe quibus nec domi spes prolis nec cum finitimis conubia essent. tum ex consilio patrum Romulus legatos circa vicinas gentes misit, qui societatem conubiumque novo populo peterent.",
           "a": ""
         }
       ],

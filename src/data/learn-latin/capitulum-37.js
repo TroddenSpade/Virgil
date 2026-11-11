@@ -16,11 +16,7 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "The verb volō (‘wish’, ‘want’: see chapter 25.3) has two compounds. Nōlō is formed from nōn + volō and means ‘I do not want’, and mālō is formed from magis ‘more’ + volō and means ‘I prefer’ (i.e. ‘I want more’). Like volō, they have no passive. These verbs are conjugated as follows (volō is given for comparison):"
-        },
-        {
-          "t": "h",
-          "text": "Volō, velle, voluī, – Nōlō, nōlle, nōluī, – Mālō, mālle, māluī, –"
+          "text": "The verb volō (‘wish’, ‘want’: see chapter 25.3) has two compounds. Nōlō is formed from nōn + volō and means ‘I do not want’, and mālō is formed from magis ‘more’ + volō and means ‘I prefer’ (i.e. ‘I want more’). Like volō, they have no passive. These verbs are conjugated as follows (volō is given for comparison): Volō, velle, voluī, – Nōlō, nōlle, nōluī, – Mālō, mālle, māluī, –"
         },
         {
           "t": "pre",
@@ -75,14 +71,126 @@ const chapter = {
           "text": "The imperatives nōlī and nōlīte are used with infinitives to make negative commands; originally this was a polite construction, but in Classical Latin it is simply a negative command and not noticeably polite. nōlī venīre ‘do not come!’ (literally ‘do not want to come!’) nōlīte scrībere ‘do not write!’ (literally ‘do not want to write!’)"
         }
       ]
+    },
+    {
+      "id": "section-3",
+      "latin": "37.4 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "Verbs mālō, mālle, māluī, – ‘prefer’ nōlō, nōlle, nōluī, – ‘not want’ Conjunction quam ‘than’, ‘rather than’"
+        }
+      ]
     }
   ],
   "readings": [],
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "lēctor, lēctōris (m.)",
-      "english": "reader",
+      "latin": "addressee minimus, minima, minimum",
+      "english": "tiny",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "grātissimus, -a, -um",
+      "english": "very pleasing",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "etsī",
+      "english": "although",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "quārē",
+      "english": "for which reason",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "iūstus, iūsta, iūstum",
+      "english": "fair",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cum . . . dēsīderem",
+      "english": "since I desire",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "idōneus, idōnea, idōneum",
+      "english": "suitable",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "in prīmīs",
+      "english": "above all",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "potius . . . quam",
+      "english": "rather . . . than",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "saepius",
+      "english": "more often",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "certior fīō",
+      "english": "I am informed",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cum essent",
+      "english": "when they were",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "pariō, parere, peperī, partum",
+      "english": "give profiteor, profitērī, professus sum birth (to)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "prīmōgenitus, -a, -um",
+      "english": "first-born",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "singulus, singula, singulum",
+      "english": "each one",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "reclīnō, -āre, -āvī, -ātum",
+      "english": "lay",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "erant",
+      "english": "there were",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "vigilō, -āre, -āvī, -ātum",
+      "english": "stay awake",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "erat",
+      "english": "(he) was",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dēspōnsum",
+      "english": "engage",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "praegnāns, gen. praegnantis",
+      "english": "pregnant",
       "group": "Vocābula"
     },
     {
@@ -91,22 +199,12 @@ const chapter = {
       "group": "Vocābula"
     },
     {
-      "latin": "audītor, audītōris (m.)",
-      "english": "hearer",
-      "group": "Vocābula"
-    },
-    {
       "latin": "cūrō, cūrāre, cūrāvī, cūrātum probō, probāre, probāvī, probātum",
-      "english": "care, approve",
+      "english": "care",
       "group": "Vocābula"
     },
     {
-      "latin": "cēna, cēnae (f.)",
-      "english": "dinner",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "Aulus, -ī (m.) a man",
+      "latin": "a man",
       "english": "s name ferculum, ferculī (n.)",
       "group": "Vocābula"
     },
@@ -116,53 +214,13 @@ const chapter = {
       "group": "Vocābula"
     },
     {
-      "latin": "little book",
-      "english": "(of a meal) quīdam, quaedam, quoddam convīva, convīvae (m.) (declines like quī)",
+      "latin": "exāctus, exācta, exāctum",
+      "english": "polished",
       "group": "Vocābula"
     },
     {
-      "latin": "a certain",
-      "english": "",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "dinner guest",
-      "english": "exāctus, exācta, exāctum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "polished",
-      "english": "placeō, placēre, placuī, placitum negō, negāre, negāvī, negātum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "say (+ dative)",
-      "english": "please",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "that . . . not",
-      "english": "cocus, cocī (m.)",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "cook",
-      "english": "Verbs mālō, mālle, māluī, –",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "prefer",
-      "english": "nōlō, nōlle, nōluī, –",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "not want",
-      "english": "Conjunction quam",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "than",
-      "english": ",",
+      "latin": "placeō, placēre, placuī, placitum negō, negāre, negāvī, negātum",
+      "english": "say (+ dative)",
       "group": "Vocābula"
     }
   ],
@@ -347,23 +405,36 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "44 bc ). Cicero filius Tironi suo salutem dicit. etsi iusta et idonea usus es excusatione intermissionis epistularum tuarum, tamen id ne saepius facias rogo. nam etsi de re publica rumoribus et nuntiis certior fio, et semper ad me perscribit pater, tamen de quavis minima re scripta a te ad me epistula semper fuit gratissima. quare cum in primis tuas desiderem epistulas, noli committere, ut excusatione potius expleas officium scribendi, quam assiduitate epistularum. vale. Vocabulary Cicerō, Cicerōnis (m.) name perscrībō (like scrībō) ‘write of the writer thoroughly’ Tīrō, Tīrōnis (m.) name of the quāvīs (ablative) ‘any’ addressee minimus, minima, minimum ‘tiny’ salūs, salūtis (f.) ‘greetings’ grātissimus, -a, -um ‘very pleasing’ etsī ‘although’ quārē ‘for which reason’ iūstus, iūsta, iūstum ‘fair’ cum . . . dēsīderem ‘since I desire’ idōneus, idōnea, idōneum ‘suitable’ in prīmīs ‘above all’ excūsātiō, excūsātiōnis (f.) ‘excuse’ committō (like mittō) ‘commit intermissiō, intermissiōnis (f.) (the offence)’ ‘stopping’ potius . . . quam ‘rather . . . than’ saepius ‘more often’ expleō, explēre, explēvī, explētum rēs pūblica, reī pūblicae (f.) ‘state’ ‘fulfill’ rūmor, rūmōris (m.) ‘rumour’ officium, officiī (n.) ‘duty’ nūntium, nūntiī (n.) ‘message’ scrībendum, scrībendī (n.) ‘writing’ certior fīō ‘I am informed’ assiduitās, assiduitātis (f.) ‘frequency’",
-          "a": ""
-        },
-        {
-          "q": "2 Vulgate version of the Bible, Luke 2:1–",
-          "a": ""
-        },
-        {
-          "q": "10 (adapted): the Christmas story (translated in the fourth century ad from an earlier Greek version). Diebus illis exiit edictum a Caesare Augusto ut describerentur omnes homines, et iverunt omnes ut profiterentur, singuli in suam urbem. ascendit igitur Ioseph a Galilaea de urbe Nazareth in Iudaeam, in urbem David quae vocatur Bethleem, quia erat de familia David, ut profiteretur cum Maria desponsa sibi uxore praegnante. et cum essent ibi impleti sunt dies ut pareret, et peperit filium suum primogenitum, et pannis eum involvit, et reclinavit eum in praesepio, quia non erat eis locus in deversorio. et pastores erant in illa regione vigilantes et custodientes oves suas, ad quos venit angelus domini. lux dei circumfulsit eos, et timuerunt timore magno, sed dixit eis angelus ‘nolite timere!’ Vocabulary ēdictum, ēdictī (n.) ‘edict’ cum essent ‘when they were’ Caesar Augustus, Caesaris Augustī (m.) impleō, implēre, implēvī, implētum ‘the emperor’ ‘fulfil’ (i.e. come to the end of) dēscrībō (like scrībō) ‘register’ pariō, parere, peperī, partum ‘give profiteor, profitērī, professus sum birth (to)’, ‘bear’ ‘enrol oneself’ prīmōgenitus, -a, -um ‘first-born’ singulus, singula, singulum ‘each one’ pannus, pannī (m.) ‘rag’, ‘swaddling ascendō, ascendere, ascendī, ascēnsum cloth’ ‘go up’ involvō, involvere, involvī, involūtum Iōsēph (indeclinable) ‘Joseph’ ‘wrap up’ Galilaea, Galilaeae (f.) ‘Galilee’ reclīnō, -āre, -āvī, -ātum ‘lay’ (a region) praesēpium, praesēpiī (n.) ‘manger’ Nāzareth (indeclinable) ‘Nazareth’ dēversōrium, dēversōriī (n.) ‘inn’ Iūdaea, Iūdaeae (f.) ‘Judea’ (a region) pāstor, pāstōris (m.) ‘shepherd’ Dāvīd (indeclinable) ‘of David’ erant ‘there were’ (an earlier king) regiō, regiōnis (f.) ‘region’ Bēthleem (indeclinable) ‘Bethlehem’ vigilō, -āre, -āvī, -ātum ‘stay awake’ erat ‘(he) was’ custōdiō, -īre, -īvī, -ītum familia, familiae (f.) ‘family’ ‘watch over’ Marīa, Marīae (f.) ‘Mary’ angelus, angelī (m.) ‘angel’ dēspondeō, dēspondēre, dēspondī, lūx, lūcis (f.) ‘light’ dēspōnsum ‘engage’ (to marry) circumfulgeō, -fulgēre, -fulsī, -fulsum uxor, uxōris (f.) ‘wife’ ‘shine around’ praegnāns, gen. praegnantis ‘pregnant’ timor, timōris (m.) ‘fear’",
-          "a": ""
-        },
-        {
-          "q": "3 Martial 9.81: the poet responds to criticism of his work by comparing it to a dinner party (first century ad ). Lector et auditor nostros probat, Aule, libellos, sed quidam exactos esse poeta negat. non nimium curo: nam cenae fercula nostrae malim convivis quam placuisse cocis.",
+          "q": "44 bc ). Cicero filius Tironi suo salutem dicit. etsi iusta et idonea usus es excusatione intermissionis epistularum tuarum, tamen id ne saepius facias rogo. nam etsi de re publica rumoribus et nuntiis certior fio, et semper ad me perscribit pater, tamen de quavis minima re scripta a te ad me epistula semper fuit gratissima. quare cum in primis tuas desiderem epistulas, noli committere, ut excusatione potius expleas officium scribendi, quam assiduitate epistularum. vale.",
           "a": ""
         }
       ],
       "id": "practice-37-b"
+    },
+    {
+      "id": "translate-37",
+      "latinLabel": "TRANSLATE INTO LATIN",
+      "title": "Translate into Latin",
+      "instruction": "",
+      "type": "questions",
+      "items": [
+        {
+          "q": "the Roman senate rather than to 9 My brother will prefer to stay in the Greeks.",
+          "a": ""
+        },
+        {
+          "q": "verses that all men are poets defended by you (singular).",
+          "a": ""
+        },
+        {
+          "q": "14 Friends, do not hunt in this for- home rather than to be seen by 15 I do not want to write verses in that farmer.",
+          "a": ""
+        },
+        {
+          "q": "Athens; I prefer to go to Syracuse",
+          "a": ""
+        }
+      ]
     }
   ]
 }

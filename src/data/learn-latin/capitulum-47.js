@@ -72,27 +72,15 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "‘When I go to the city I shall buy many things.’ (literally ‘When I shall have gone to the city I shall buy many things.’ The going to the city happens before the buying, so Latin uses the future perfect.) cum amābit, amābitur. ‘When he loves, he will be loved.’ (literally ‘When he will love,"
-        },
-        {
-          "t": "h",
-          "text": "he will be loved.’)"
+          "text": "‘When I go to the city I shall buy many things.’ (literally ‘When I shall have gone to the city I shall buy many things.’ The going to the city happens before the buying, so Latin uses the future perfect.) cum amābit, amābitur. ‘When he loves, he will be loved.’ (literally ‘When he will love, he will be loved.’) cum mortuus erit, sepeliētur."
         },
         {
           "t": "p",
-          "text": "cum mortuus erit, sepeliētur. ‘When he dies he will be buried.’ (literally ‘When he will"
-        },
-        {
-          "t": "h",
-          "text": "have died he will be buried.’)"
+          "text": "‘When he dies he will be buried.’ (literally ‘When he will have died he will be buried.’) This distinction is effectively the same one that in past time is made using sequence of tenses. cum ad urbem īvissem, multa ēmī."
         },
         {
           "t": "p",
-          "text": "This distinction is effectively the same one that in past time is made using sequence of tenses. cum ad urbem īvissem, multa ēmī. ‘When I had gone (or ‘when I went’) to the city, I bought many things.’ (The going to the city happens before the buying, and this is reflected in the use of the pluperfect subjunctive; see chapter 46.3.) cum in urbe essem, multa ēmī."
-        },
-        {
-          "t": "p",
-          "text": "‘When I was in the city I bought many things.’ (The being in the city and the buying happen at the same time, and this is reflected in the use of the imperfect subjunctive; see chapter 46.3.)"
+          "text": "‘When I had gone (or ‘when I went’) to the city, I bought many things.’ (The going to the city happens before the buying, and this is reflected in the use of the pluperfect subjunctive; see chapter 46.3.) cum in urbe essem, multa ēmī. ‘When I was in the city I bought many things.’ (The being in the city and the buying happen at the same time, and this is reflected in the use of the imperfect subjunctive; see chapter 46.3.)"
         },
         {
           "t": "p",
@@ -104,15 +92,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "With all three types of cum clause a subjunctive verb will always be translated with an indicative in English: it is the translation of the conjunction cum, not the translation of the verb, that reflects in English whether the Latin verb is subjunctive. cum māter abest, puer timet. ‘When his mother is away, the boy is afraid.’ (The verb of"
-        },
-        {
-          "t": "h",
-          "text": "the cum clause is indicative, so cum must mean ‘when’.)"
+          "text": "With all three types of cum clause a subjunctive verb will always be translated with an indicative in English: it is the translation of the conjunction cum, not the translation of the verb, that reflects in English whether the Latin verb is subjunctive. cum māter abest, puer timet."
         },
         {
           "t": "p",
-          "text": "cum māter absit, tamen puer nōn timet. ‘Although his mother is away, nevertheless the boy is not afraid.’ (The verb of the cum clause is present subjunctive, so cum must mean ‘since’ or ‘although’; the context indicates ‘although’.) cum māter absit, puer timet."
+          "text": "‘When his mother is away, the boy is afraid.’ (The verb of the cum clause is indicative, so cum must mean ‘when’.) cum māter absit, tamen puer nōn timet. ‘Although his mother is away, nevertheless the boy is not afraid.’ (The verb of the cum clause is present subjunctive, so cum must mean ‘since’ or ‘although’; the context indicates ‘although’.) cum māter absit, puer timet."
         },
         {
           "t": "p",
@@ -155,6 +139,18 @@ const chapter = {
           "text": "dummodo nē discēdās, rēgīnam vidēbis. ‘Provided that you don’t leave, you will see the queen.’"
         }
       ]
+    },
+    {
+      "id": "section-5",
+      "latin": "47.6 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Verbs adveniō, advenīre, advēnī, adventum ‘arrive’ egeō, egēre, eguī, – (+ genitive or ablative) ‘need’, ‘lack’ reddō, reddere, reddidī, redditum ‘give back’, ‘return’ (in the sense of ‘give back’) redeō, redīre, rediī, reditum (like eō) ‘go back’, ‘come back’, ‘return’ (in the sense of ‘go back’) surgō, surgere, surrēxī, surrēctum ‘get up’ tollō, tollere, sustulī, sublātum ‘lift’, ‘pick up’"
+        }
+      ]
     }
   ],
   "readings": [
@@ -173,33 +169,98 @@ const chapter = {
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "tunc",
-      "english": "then",
+      "latin": "coepī",
+      "english": "I began",
       "group": "Vocābula"
     },
     {
-      "latin": "dōnum, dōnī (n.)",
-      "english": "gift",
+      "latin": "ad numerum",
+      "english": "in their proper rhythm",
       "group": "Vocābula"
     },
     {
-      "latin": "triplicēs",
-      "english": "three leaves",
+      "latin": "ēmendō, -āre, -āvī, -ātum",
+      "english": "correct",
       "group": "Vocābula"
     },
     {
-      "latin": "(accusative putō, putāre, putāvī, putātum",
-      "english": "think",
+      "latin": "distīnctum",
+      "english": "with pauses at the ends vōx, vōcis (f.)",
       "group": "Vocābula"
     },
     {
-      "latin": "plural) ventūram = ventūram esse vīlis, vīle",
+      "latin": "gaudeō, gaudēre, gāvīsus sum",
+      "english": "rejoice",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "young man",
+      "english": "below",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "iūcundus, -a, -um",
+      "english": "pleasant",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "brevī",
+      "english": "in a short time",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "fīniō, fīnīre, fīnīvī, fīnītum",
+      "english": "finish",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "molestus, -a, -um",
+      "english": "unpleasant",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "vēlōx, gen. vēlōcis",
+      "english": "swift",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "atrōx, gen. atrōcis",
+      "english": "dreadful",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "nēminī parcētur",
+      "english": "no-one will be spared",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "vādō, vādere, –, –",
+      "english": "go",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "above",
+      "english": "(i.e. the dead who have gone quīlibet, quaelibet, quodlibet",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "praestō, -stāre, -stitī, -stitum",
+      "english": "fulfil",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "tōtus, tōta, tōtum",
+      "english": "whole",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "drink",
+      "english": "addressee māne",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "vīlis, vīle",
       "english": "poor",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "amīca, amīcae (f.)",
-      "english": "girlfriend",
       "group": "Vocābula"
     },
     {
@@ -208,23 +269,8 @@ const chapter = {
       "group": "Vocābula"
     },
     {
-      "latin": "); this is unusual. Fur notae nimium rapacitatis compilare Cilix volebat hortum, ingenti sed erat, Fabulle, in horto praeter marmoreum nihil Priapum. dum non vult vacua manu redire, ipsum surripuit Cilix Priapum. Vocabulary fūr, fūris (m.)",
-      "english": "thief",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "Priāpus, Priāpī (m.)",
-      "english": "statue of Priapus",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "nōtae nimium rapācitātis",
-      "english": "of well- (a god) known extreme rapacity",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "vacuus, vacua, vacuum",
-      "english": "empty",
+      "latin": "known extreme rapacity",
+      "english": "vacuus, vacua, vacuum",
       "group": "Vocābula"
     },
     {
@@ -233,12 +279,7 @@ const chapter = {
       "group": "Vocābula"
     },
     {
-      "latin": "redeō (like eō)",
-      "english": "return",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "Cilix, Cilicis (m.) a man",
+      "latin": "a man",
       "english": "s name ipsum",
       "group": "Vocābula"
     },
@@ -258,119 +299,49 @@ const chapter = {
       "group": "Vocābula"
     },
     {
-      "latin": "except for",
-      "english": "",
-      "group": "Vocābula"
-    },
-    {
       "latin": "snatch secretly",
       "english": "marmoreus, -a, -um",
       "group": "Vocābula"
     },
     {
-      "latin": "made of marble",
-      "english": "Verbs adveniō, advenīre, advēnī, adventum",
-      "group": "Vocābula"
+      "latin": "dīligēns, gen. dīligentis",
+      "english": "careful",
+      "group": "Adiectīva"
     },
     {
-      "latin": "arrive",
-      "english": "egeō, egēre, eguī, – (+ genitive or ablative)",
-      "group": "Vocābula"
+      "latin": "Latīnus, Latīna, Latīnum",
+      "english": "Latin",
+      "group": "Adiectīva"
     },
     {
-      "latin": "need",
-      "english": ",",
-      "group": "Vocābula"
+      "latin": "ūtilis, ūtile",
+      "english": "useful",
+      "group": "Adiectīva"
     },
     {
-      "latin": "lack",
-      "english": "reddō, reddere, reddidī, redditum",
-      "group": "Vocābula"
+      "latin": "antequam",
+      "english": "before",
+      "group": "Coniūnctiōnēs"
     },
     {
-      "latin": "give back",
-      "english": ",",
-      "group": "Vocābula"
+      "latin": "cum",
+      "english": "since",
+      "group": "Coniūnctiōnēs"
     },
     {
-      "latin": "return",
-      "english": "(in the sense of",
-      "group": "Vocābula"
+      "latin": "dum",
+      "english": "while",
+      "group": "Coniūnctiōnēs"
     },
     {
-      "latin": "go back",
-      "english": ",",
-      "group": "Vocābula"
+      "latin": "dummodo",
+      "english": "provided that",
+      "group": "Coniūnctiōnēs"
     },
     {
-      "latin": "come back",
-      "english": ",",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "get up",
-      "english": "tollō, tollere, sustulī, sublātum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "lift",
-      "english": ",",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "pick up",
-      "english": "Vocabulary continues overleaf. Adjectives dīligēns, gen. dīligentis",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "careful",
-      "english": "Latīnus, Latīna, Latīnum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "Latin",
-      "english": "ūtilis, ūtile",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "useful",
-      "english": "Conjunctions antequam",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "before",
-      "english": "cum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "since",
-      "english": ",",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "although",
-      "english": ",",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "when",
-      "english": "dum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "while",
-      "english": ",",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "until",
-      "english": "dummodo",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "provided that",
-      "english": "postquam",
-      "group": "Vocābula"
+      "latin": "postquam",
+      "english": "after",
+      "group": "Coniūnctiōnēs"
     }
   ],
   "pensa": [
@@ -672,19 +643,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "15 (adapted): a boy does his schoolwork (probably first to third century ad). Cum vocatus essem, ad praeceptorem accessi et tabulam, in qua erat lectio mea, ei dedi. et coepi reddere memoria quae acceperam ut discerem: versus ad numerum et distinctum et clausulam, cum aspiratione ubi oportebat, et versuum metaphrasin dedi. dum reddo emendatus sum a praeceptore, ut vocem praeparem bonam. Vocabulary praeceptor, praeceptōris (m.) (ad) clausulam ‘with pauses for ‘instructor’ commas’ accēdō, accēdere, accessī, accessum aspīrātiō, aspīrātiōnis (f.) ‘approach’ ‘pronunciation of h’ (uneducated tabula, tabulae (f.) ‘writing-tablet’ Romans often did not pronounce lēctiō, lēctiōnis (f.) ‘reading assignment’ this letter) coepī ‘I began’ metaphrasin (accusative) ‘paraphrase’ reddō, reddere, reddidī, redditum (i.e. the boy summarizes the verses ‘recite’ in his own words to show that he has memoria, memoriae (f.) ‘memory’ understood them) ad numerum ‘in their proper rhythm’ ēmendō, -āre, -āvī, -ātum ‘correct’ (ad) distīnctum ‘with pauses at the ends vōx, vōcis (f.) ‘style of speaking’ of sentences’ praeparō, -āre, -āvī, -ātum ‘develop’",
-          "a": ""
-        },
-        {
-          "q": "2 Gaudeamus igitur (verses 1–4): medieval students’ song. Gaudeamus igitur, iuvenes dum sumus! post iucundam iuventutem, post molestam senectutem, nos habebit humus. Ubi sunt qui ante nos in mundo fuere? vadite ad superos, transite in inferos, hos si vis videre. Vita nostra brevis est, brevi finietur. venit mors velociter, rapit nos atrociter, nemini parcetur. Vivat academia, vivant professores! vivat membrum quodlibet, vivant membra quaelibet, semper sint in flore. Vocabulary gaudeō, gaudēre, gāvīsus sum ‘rejoice’ īnferī, īnferōrum (m. plural) ‘those iuvenis, iuvenis (m.) ‘young man’ below’ (i.e. the dead who have gone post (+ accusative) ‘after’ to hell) iūcundus, -a, -um ‘pleasant’ brevī ‘in a short time’ iuventūs, iuventūtis (f.) ‘youth’ fīniō, fīnīre, fīnīvī, fīnītum ‘finish’ molestus, -a, -um ‘unpleasant’ mors, mortis, mortium (f.) ‘death’ senectūs, senectūtis (f.) ‘old age’ vēlōx, gen. vēlōcis ‘swift’ humus, humī (f.) ‘earth’ (i.e. the grave) atrōx, gen. atrōcis ‘dreadful’ ante (+ accusative) ‘before’ nēminī parcētur ‘no-one will be spared’ mundus, mundī (m.) ‘world’ (literally ‘it will be spared to no-one’) fuēre = fuērunt acadēmīa, acadēmīae (f.) ‘university’ vādō, vādere, –, – ‘go’ professor, professōris (m.) ‘professor’ superī, superōrum (m. plural) ‘those membrum, membrī (n.) ‘member’ above’ (i.e. the dead who have gone quīlibet, quaelibet, quodlibet ‘any one to heaven) you please’ trānseō (like eō) ‘cross over’ flōs, flōris (m.) ‘flower’, ‘prime of life’",
-          "a": ""
-        },
-        {
-          "q": "3 Martial 12.12: a frustrating drinking companion (first century ad). Omnia promittis cum tota nocte bibisti; mane nihil praestas. Pollio, mane bibe. Vocabulary prōmittō (like mittō) ‘promise’ praestō, -stāre, -stitī, -stitum ‘fulfil’ tōtus, tōta, tōtum ‘whole’ Pōlliō, Pōlliōnis (m.) name of the poem’s bibō, bibere, bibī, – ‘drink’ addressee māne ‘in the morning’",
-          "a": ""
-        },
-        {
-          "q": "4 Martial 14.6: praise of a three-leaved writing tablet (first century ad). Tunc triplices nostros non vilia dona putabis, cum se venturam scribet amica tibi.",
+          "q": "15 (adapted): a boy does his schoolwork (probably first to third century ad). Cum vocatus essem, ad praeceptorem accessi et tabulam, in qua erat lectio mea, ei dedi. et coepi reddere memoria quae acceperam ut discerem: versus ad numerum et distinctum et clausulam, cum aspiratione ubi oportebat, et versuum metaphrasin dedi. dum reddo emendatus sum a praeceptore, ut vocem praeparem bonam.",
           "a": ""
         }
       ],

@@ -9,6 +9,46 @@ const chapter = {
   "complete": true,
   "sections": [
     {
+      "id": "section-0",
+      "latin": "Introduction",
+      "english": "Introduction",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "sēdēs, sēdis (f.) ‘bottom’ ēripiō, ēripere, ēripuī, ēreptum ‘snatch īmus, īma, īmum ‘deepest’ away’\nūnā ‘together’\nsubitō ‘suddenly’ Eurus, Eurī (m.) ‘east wind’ nūbēs, nūbis, nūbium (f.) ‘cloud’ Notus, Notī (m.) ‘south wind’ caelum, caelī (n.) ‘sky’ crēber, crēbra, crēbrum (+ ablative) Teucrī, Teucrōrum (m. plural) ‘Trojans’"
+        },
+        {
+          "t": "h",
+          "text": "‘prolific in’, ‘frequent’ oculus, oculī (m.) ‘eye’"
+        },
+        {
+          "t": "example",
+          "text": "procella, procellae (f.) ‘storm’ pontus, pontī (m.) ‘sea’ Āfricus, Āfricī (m.) ‘south-west wind’ incubō, incubāre, incubuī, incubitum vāstus, vāsta, vāstum ‘enormous’ ‘broods over’ volvō, volvere, volvī, volūtum ‘turn’ āter, ātra, ātrum ‘black’ lītus, lītoris (n.) ‘shore’ intonō, intonāre, intonuī, intonātum flūctus, flūctūs (m.) ‘wave’ ‘thunder’ īnsequor (like sequor) ‘follow polus, polī (m.) ‘heaven’"
+        },
+        {
+          "t": "h",
+          "text": "immediately’ micō, micāre, micuī, – ‘flash’"
+        },
+        {
+          "t": "example",
+          "text": "clāmor, clāmōris (m.) ‘shouting’ aethēr, aetheris (m.) ‘sky’ virum = virōrum praesēns, gen. praesentis ‘immediate’ strīdor, strīdōris (m.) ‘creaking’ intentō, intentāre, intentāvī, intentātum rudentēs, rudentum (m. plural) ‘threaten’"
+        },
+        {
+          "t": "h",
+          "text": "‘rigging’ (on a sailing ship) mors, mortis, mortium (f.) ‘death’"
+        },
+        {
+          "t": "p",
+          "text": "A possible prose order of the above would be:"
+        },
+        {
+          "t": "p",
+          "text": "Aeolus haec (dixit) contra: ‘tuus, o regina, labor (est) explorare quid optes; mihi fas est iussa capessere. tu mihi quodcumque hoc regni (concilias), tu sceptra Iovemque concilias, tu (mihi) das epulis divum accumbere, nimborumque tempestatumque potentem (me) facis.’ ubi haec dicta (sunt), conversa cuspide cavum montem in latus impulit; ac venti, velut agmine facto, ruunt qua data (est) porta, et terras turbine perflant. incubuere mari, totumque (mare) a sedibus imis ruunt una Eurusque Notusque Africusque creber procellis, et vastos volvunt ad litora fluctus; insequitur clamorque virum stridorque rudentum. nubes caelumque diemque ex oculis Teucrorum subito eripiunt; ponto nox atra incubat. intonuere poli et crebris micat ignibus aether omniaque viris praesentem mortem intentant."
+        }
+      ]
+    },
+    {
       "id": "section-1",
       "latin": "59.1 Colloquia Monacensia–Einsidlensia 11a–12d (adapted)",
       "english": "Grammar",
@@ -37,18 +77,6 @@ const chapter = {
         {
           "t": "p",
           "text": "diligenter sterne lectum. slaves: stravimus. lucius: cur igitur durus est? slaves: excussimus et pulvinum commollivimus. lucius: si cuius vocem audiero, non ei parcam. recipite vos, dormite et galli cantu excitate me, ut excurram."
-        },
-        {
-          "t": "h",
-          "text": "Vocabulary"
-        },
-        {
-          "t": "example",
-          "text": "cathedra, cathedrae (f.) ‘chair’ acētābulum, acētābulī (n.) ‘vinegar cup’ sella, sellae (f.) ‘seat’ ungella, ungellae (f.) ‘pig’s foot’ cervīcal, cervīcālis (n.) ‘cushion’ concīdō, -cīdere, -cīdī, -cīsum ‘cut up’ lavō, lavāre, lāvī, lautum ‘rinse out’ aquāliculum, aquāliculī (n.) ‘paunch’ calix, calicis (m.) ‘cup’ chorda, chordae (f.) ‘tripe’ vīnum, vīnī (n.) ‘wine’ ex aquā ‘boiled’ calidus, -a, -um ‘hot’ fīcātum, fīcātī (n.) ‘liver’ temperō, -āre, -āvī, -ātum ‘mix’ turdus, turdī (m.) ‘thrush’\nvaldē ‘extremely’ lactūca, lactūcae (f.) ‘lettuce’ sitiō, sitīre, –, – ‘be thirsty’ pānis, pānis, pānium (m.) ‘bread’ misceō, miscēre, miscuī, mixtum ‘mix’ frangō, frangere, frēgī, frāctum ‘break’ condītum, condītī (n.) ‘spiced wine’ canistellum, canistellī (n.) ‘basket’ carēnum, carēnī (n.) ‘sweet boiled wine’ īnferō (like ferō) ‘serve’ calidum, calidī (n.) ‘hot drink’ sardīna, sardīnae (f.) ‘pilchard’ fervēns, gen."
-        },
-        {
-          "t": "example",
-          "text": "ferventis ‘boiling’ cyˉma, cyˉmae (f.) ‘cabbage-sprout’ tepidus, -a, -um ‘lukewarm’ rāpātum, rāpātī (n.) ‘meat in grated temperātus, -a, -um ‘the right turnip’ temperature’ gallīna, gallīnae (f.) ‘chicken’ mittō can also mean ‘add’\nand ‘pour’ assus, assa, assum ‘roasted’ adiciō, adicere, adiēcī, adiectum ‘add’ porcellus, porcellī (m.) ‘suckling pig’ merum, merī (n.) ‘unmixed wine’ pōnō can also mean ‘set out’ discumbō, -cumbere, -cubuī, discus, discī (m.) ‘platter’ -cubitum ‘recline’ rādīx, rādīcis (f.) ‘radish’ liquāmen, liquāminis (n.) ‘garum’ menta, mentae (f.) ‘mint’ malva, malvae (f.) ‘mallow’ olīva, olīvae (f.) ‘olive’ porrigō, porrigere, porrēxī, porrēctum albus, alba, album ‘white’ ‘pass’ cāseus, cāseī (f.) ‘cheese’ mappa, mappae (f.) ‘napkin’ salsus, salsa, salsum ‘salted’ impēnsa, impēnsae (f.) ‘fish oil sauce’ fungus, fungī (m.) ‘mushroom’"
         }
       ]
     },
@@ -73,86 +101,323 @@ const chapter = {
         {
           "t": "p",
           "text": "insequitur clamorque virum stridorque rudentum; eripiunt subito nubes caelumque diemque Teucrorum ex oculis; ponto nox incubat atra; intonuere poli et crebris micat ignibus aether praesentemque viris intentant omnia mortem."
-        },
-        {
-          "t": "h",
-          "text": "Vocabulary"
-        },
-        {
-          "t": "example",
-          "text": "contrā ‘in reply’\nubi ‘when’ optō, optāre, optāvī, optātum ‘want’ cavus, cava, cavum ‘hollow’ explōrō, -āre, -āvī, -ātum ‘find out’ convertō, -vertere, -vertī, -versum labor, labōris (m.) ‘task’ (supply est here) ‘reverse’ iubeō, iubēre, iussī, iussum ‘order’ cuspis, cuspidis (f.) ‘spear’ capessō, capessere, capessīvī, impellō, impellere, impulī, impulsum capessītum ‘carry out’ ‘strike’ fās (n."
-        },
-        {
-          "t": "p",
-          "text": "indeclinable) ‘right’ latus, lateris (n.) ‘side’ quodcumque hoc rēgnī ‘this, whatever ac ‘and’ kingdom (is mine)’ ventus, ventī (m.) ‘wind’ scēptrum, scēptrī (n.) ‘royal power’ velut ‘as if’ Iuppiter, Iovis (m.) ‘Jupiter’ agmine factō ‘in military formation’ conciliō, -āre, -āvī, -ātum ‘procure’, quā ‘where’ (short for quā viā, so"
-        },
-        {
-          "t": "h",
-          "text": "‘make favourable’ literally ‘by which way’)"
-        },
-        {
-          "t": "p",
-          "text": "epulae, epulārum (f."
-        },
-        {
-          "t": "example",
-          "text": "plural) ‘feast’ porta, portae (f.) ‘gateway’ accumbō, accumbere, accubuī, ruō, ruere, ruī, rūtum ‘rush out’, accubitum (+ dative) ‘recline at’ ‘heave up’ (Roman banqueters reclined while terra, terrae (f.) ‘land’ eating, so this effectively means ‘join turbō, turbinis (m.) ‘whirlwind’ in feasting’) perflō, -āre, -āvī, -ātum ‘blow through’ dīvum = deōrum incubuēre = incubuērunt, from nimbus, nimbī (m.) ‘storm-cloud’ incumbō, incumbere, incubuī, -que ."
-        },
-        {
-          "t": "example",
-          "text": ". . -que ‘both . . . and’ incubitum (+ ablative) ‘swoop down tempestās, tempestātis (f.) ‘storm’ on, settle on’ potēns, gen."
-        },
-        {
-          "t": "example",
-          "text": "potentis (+ genitive) mare, maris, marium (n.) ‘sea’ ‘powerful over’ tōtus, tōta, tōtum ‘whole’ sēdēs, sēdis (f.) ‘bottom’ ēripiō, ēripere, ēripuī, ēreptum ‘snatch īmus, īma, īmum ‘deepest’ away’\nūnā ‘together’\nsubitō ‘suddenly’ Eurus, Eurī (m.) ‘east wind’ nūbēs, nūbis, nūbium (f.) ‘cloud’ Notus, Notī (m.) ‘south wind’ caelum, caelī (n.) ‘sky’ crēber, crēbra, crēbrum (+ ablative) Teucrī, Teucrōrum (m."
-        },
-        {
-          "t": "example",
-          "text": "plural) ‘Trojans’ ‘prolific in’, ‘frequent’ oculus, oculī (m.) ‘eye’ procella, procellae (f.) ‘storm’ pontus, pontī (m.) ‘sea’ Āfricus, Āfricī (m.) ‘south-west wind’ incubō, incubāre, incubuī, incubitum vāstus, vāsta, vāstum ‘enormous’ ‘broods over’ volvō, volvere, volvī, volūtum ‘turn’ āter, ātra, ātrum ‘black’ lītus, lītoris (n.) ‘shore’ intonō, intonāre, intonuī, intonātum flūctus, flūctūs (m.) ‘wave’ ‘thunder’ īnsequor (like sequor) ‘follow polus, polī (m.) ‘heaven’ immediately’ micō, micāre, micuī, – ‘flash’ clāmor, clāmōris (m.) ‘shouting’ aethēr, aetheris (m.) ‘sky’ virum = virōrum praesēns, gen."
-        },
-        {
-          "t": "example",
-          "text": "praesentis ‘immediate’ strīdor, strīdōris (m.) ‘creaking’ intentō, intentāre, intentāvī, intentātum rudentēs, rudentum (m. plural) ‘threaten’ ‘rigging’ (on a sailing ship) mors, mortis, mortium (f.) ‘death’ A possible prose order of the above would be: Aeolus haec (dixit) contra: ‘tuus, o regina, labor (est) explorare quid optes; mihi fas est iussa capessere."
-        },
-        {
-          "t": "p",
-          "text": "tu mihi quodcumque hoc regni (concilias), tu sceptra Iovemque concilias, tu (mihi) das epulis divum accumbere, nimborumque tempestatumque potentem (me) facis.’ ubi haec dicta (sunt), conversa cuspide cavum montem in latus impulit; ac venti, velut agmine facto, ruunt qua data (est) porta, et terras turbine perflant."
-        },
-        {
-          "t": "p",
-          "text": "incubuere mari, totumque (mare) a sedibus imis ruunt una Eurusque Notusque Africusque creber procellis, et vastos volvunt ad litora fluctus; insequitur clamorque virum stridorque rudentum. nubes caelumque diemque ex oculis Teucrorum subito eripiunt; ponto nox atra incubat. intonuere poli et crebris micat ignibus aether omniaque viris praesentem mortem intentant."
-        }
-      ]
-    },
-    {
-      "id": "section-3",
-      "latin": "59.2 Translate into Latin",
-      "english": "Grammar",
-      "kind": "commentary",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "g a i u s: Lucius, we dined very well yesterday; you received us well. l u c i u s: I give you thanks. But I am sad since Marcus is saying bad things about my dinner. g a i u s: What? There is nothing bad that you could say about that dinner; it must be praised. We had very good pigs’ feet, very good liver, very good pilchards, a very good cabbage sprout, very good fish sauce. If your cook is a slave, free him!"
-        },
-        {
-          "t": "p",
-          "text": "l u c i u s: But Marcus had nothing; he asked and no-one gave (anything) to him. I am ashamed. The waiters served so badly that I must sell them all."
-        },
-        {
-          "t": "h",
-          "text": "Additional Vocabulary"
-        },
-        {
-          "t": "example",
-          "text": "agō can also mean ‘give’ (and is so used in ‘give thanks’) grātiae, grātiārum (f. plural) ‘thanks’"
         }
       ]
     }
   ],
   "readings": [],
   "grammar": [],
-  "vocabulary": [],
-  "pensa": []
+  "vocabulary": [
+    {
+      "latin": "s foot",
+      "english": "cervīcal, cervīcālis (n.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cushion",
+      "english": "concīdō, -cīdere, -cīdī, -cīsum",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cut up",
+      "english": "lavō, lavāre, lāvī, lautum",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "rinse out",
+      "english": "aquāliculum, aquāliculī (n.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "paunch",
+      "english": "calix, calicis (m.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cup",
+      "english": "chorda, chordae (f.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "tripe",
+      "english": "vīnum, vīnī (n.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "wine",
+      "english": "ex aquā",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "boiled",
+      "english": "calidus, -a, -um",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "hot",
+      "english": "fīcātum, fīcātī (n.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "liver",
+      "english": "temperō, -āre, -āvī, -ātum",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "mix",
+      "english": "turdus, turdī (m.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "thrush",
+      "english": "valdē",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "extremely",
+      "english": "lactūca, lactūcae (f.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "lettuce",
+      "english": "sitiō, sitīre, –, –",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "be thirsty",
+      "english": "pānis, pānis, pānium (m.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "bread",
+      "english": "misceō, miscēre, miscuī, mixtum",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "break",
+      "english": "condītum, condītī (n.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "spiced wine",
+      "english": "canistellum, canistellī (n.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "basket",
+      "english": "carēnum, carēnī (n.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sweet boiled wine",
+      "english": "īnferō (like ferō)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "serve",
+      "english": "calidum, calidī (n.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "hot drink",
+      "english": "sardīna, sardīnae (f.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "pilchard",
+      "english": "fervēns, gen. ferventis",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "boiling",
+      "english": "cyˉma, cyˉmae (f.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cabbage-sprout",
+      "english": "tepidus, -a, -um",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "lukewarm",
+      "english": "rāpātum, rāpātī (n.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "meat in grated temperātus, -a, -um",
+      "english": "the right turnip",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "temperature",
+      "english": "gallīna, gallīnae (f.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "mittō can also mean",
+      "english": "add",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "assus, assa, assum",
+      "english": "roasted",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "adiciō, adicere, adiēcī, adiectum",
+      "english": "add",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "pōnō can also mean",
+      "english": "set out",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "porrigō, porrigere, porrēxī, porrēctum albus, alba, album",
+      "english": "white",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "salsus, salsa, salsum",
+      "english": "salted",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "contrā",
+      "english": "in reply",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ubi",
+      "english": "when",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "optō, optāre, optāvī, optātum",
+      "english": "want",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cavus, cava, cavum",
+      "english": "hollow",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "explōrō, -āre, -āvī, -ātum",
+      "english": "find out",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "iubeō, iubēre, iussī, iussum",
+      "english": "order",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "capessītum",
+      "english": "carry out",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "quodcumque hoc rēgnī",
+      "english": "this, whatever ac",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "velut",
+      "english": "as if",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "agmine factō",
+      "english": "in military formation",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "conciliō, -āre, -āvī, -ātum",
+      "english": "procure",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "quā",
+      "english": "where",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "literally",
+      "english": "by which way",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "accumbō, accumbere, accubuī, ruō, ruere, ruī, rūtum",
+      "english": "rush out",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "whirlwind",
+      "english": "in feasting",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "perflō, -āre, -āvī, -ātum",
+      "english": "blow through",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "incumbō, incumbere, incubuī, -que . . . -que",
+      "english": "both . . . and",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "storm",
+      "english": "on, settle on",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "tōtus, tōta, tōtum",
+      "english": "whole",
+      "group": "Vocābula"
+    }
+  ],
+  "pensa": [
+    {
+      "id": "translate-59",
+      "latinLabel": "59.2 TRANSLATE INTO LATIN",
+      "title": "59.2 Translate into Latin",
+      "instruction": "",
+      "type": "questions",
+      "items": [
+        {
+          "q": "g a i u s: Lucius, we dined very well yesterday; you received us well.",
+          "a": ""
+        },
+        {
+          "q": "l u c i u s: I give you thanks.",
+          "a": ""
+        },
+        {
+          "q": "But I am sad since Marcus is saying bad things about my dinner.",
+          "a": ""
+        },
+        {
+          "q": "There is nothing bad that you could say about that dinner; it must be praised.",
+          "a": ""
+        },
+        {
+          "q": "We had very good pigs’ feet, very good liver, very good pilchards, a very good cabbage sprout, very good fish sauce.",
+          "a": ""
+        },
+        {
+          "q": "l u c i u s: But Marcus had nothing; he asked and no-one gave (anything) to him.",
+          "a": ""
+        },
+        {
+          "q": "The waiters served so badly that I must sell them all.",
+          "a": ""
+        }
+      ]
+    }
+  ]
 }
 
 export default chapter

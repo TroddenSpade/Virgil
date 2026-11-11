@@ -39,16 +39,8 @@ const chapter = {
           "text": "Future fīam"
         },
         {
-          "t": "h",
-          "text": "fīēs fīet fīēmus fīētis fīent"
-        },
-        {
-          "t": "h",
-          "text": "Perfect factus, -a, -um sum factus, -a, -um sim"
-        },
-        {
           "t": "p",
-          "text": "factus, -a, -um es factus, -a, -um sīs factus, -a, -um est factus, -a, -um sit factī, -ae, -a sumus factī, -ae, -a sīmus factī, -ae, -a estis factī, -ae, -a sītis factī, -ae, -a sunt factī, -ae, -a sint"
+          "text": "fīēs fīet fīēmus fīētis fīent Perfect factus, -a, -um sum factus, -a, -um sim factus, -a, -um es factus, -a, -um sīs factus, -a, -um est factus, -a, -um sit factī, -ae, -a sumus factī, -ae, -a sīmus factī, -ae, -a estis factī, -ae, -a sītis factī, -ae, -a sunt factī, -ae, -a sint"
         },
         {
           "t": "pre",
@@ -63,12 +55,8 @@ const chapter = {
           "text": "Indicative Subjunctive"
         },
         {
-          "t": "h",
-          "text": "Pluperfect factus, -a, -um eram factus, -a, -um essem"
-        },
-        {
           "t": "p",
-          "text": "factus, -a, -um erās factus, -a, -um essēs factus, -a, -um erat factus, -a, -um esset factī, -ae, -a erāmus factī, -ae, -a essēmus factī, -ae, -a erātis factī, -ae, -a essētis factī, -ae, -a erant factī, -ae, -a essent"
+          "text": "Pluperfect factus, -a, -um eram factus, -a, -um essem factus, -a, -um erās factus, -a, -um essēs factus, -a, -um erat factus, -a, -um esset factī, -ae, -a erāmus factī, -ae, -a essēmus factī, -ae, -a erātis factī, -ae, -a essētis factī, -ae, -a erant factī, -ae, -a essent"
         },
         {
           "t": "pre",
@@ -91,6 +79,18 @@ const chapter = {
           "text": "In addition to the ‘be made’, ‘be done’ meanings that come with being the passive of faciō, fīō can mean ‘become’ or ‘come to be’; when it has these meanings it takes a complement in the nominative, like the verb ‘be’. rēgīna fīet ‘she will become queen’ cīvis factus est ‘he became a citizen’ fīat lūx ‘let there be light’ (lūx, lūcis (f.) ‘light’) (literally ‘may light come to be’)"
         }
       ]
+    },
+    {
+      "id": "section-3",
+      "latin": "51.5 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "h",
+          "text": "Verb fīō, fierī, factus sum ‘become’, ‘be made’, ‘be done’"
+        }
+      ]
     }
   ],
   "readings": [
@@ -111,9 +111,114 @@ const chapter = {
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "fīō, fierī, factus sum",
-      "english": "become, be made, be done",
-      "group": "Verba"
+      "latin": "dīligō, dīligere, dīlēxī, dīlēctum exspectō, -āre, -āvī, -ātum",
+      "english": "wait for",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "name cōnfirmō, -āre, -āvī, -ātum",
+      "english": "recover",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "item",
+      "english": "also",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "nūntio, nūntiāre, nūntiāvī, nūntiātum posthāc",
+      "english": "afterwards",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "subitō",
+      "english": "suddenly",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "incidō, incidere, incidī, –",
+      "english": "fall into",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "accidō, accidere, accidī, –",
+      "english": "happen",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "certiōrem faciō",
+      "english": "inform",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "creō, creāre, creāvī, creātum",
+      "english": "create",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "quod esset",
+      "english": "that it was",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "inānis, ināne",
+      "english": "empty",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dīvidō, dīvidere, dīvīsī, dīvīsum",
+      "english": "divide",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "vacuus, vacua, vacuum",
+      "english": "vacant",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ac",
+      "english": "and",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "appellō, -āre, -āvī, -ātum",
+      "english": "call",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ūnus, ūna, ūnum",
+      "english": "one",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cobwebs",
+      "english": "implies",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cēnō, cēnāre, cēnāvī, cēnātum",
+      "english": "dine",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dī = dei inquam",
+      "english": "I tell you",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "venustus, -a, -um",
+      "english": "charming",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "plēnus, -a, -um",
+      "english": "full",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "candidus, -a, -um",
+      "english": "pretty",
+      "group": "Vocābula"
     }
   ],
   "pensa": [
@@ -508,35 +613,80 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "53 bc ). Tullius Tironi salutem dicit. omnia a te data esse mihi putabo, si te valentem videro. summa cura exspectabam adventum Andrici, quem ad te miseram. si me diligis, cura ut valeas et ad nos venias cum te bene confirmaris. vale. Vocabulary cūra, cūrae (f.) ‘anxiety’ dīligō, dīligere, dīlēxī, dīlēctum exspectō, -āre, -āvī, -ātum ‘wait for’ ‘be fond of’ adventus, adventūs (m.) ‘arrival’ cōnfirmāris = cōnfirmāveris, from Andrīcus, Andrīcī (m.) name cōnfirmō, -āre, -āvī, -ātum ‘recover’ of the letter carrier",
-          "a": ""
-        },
-        {
-          "q": "2 Cicero, Epistulae ad familiares 14.",
-          "a": ""
-        },
-        {
-          "q": "8 (adapted): Cicero writes to his wife in",
-          "a": ""
-        },
-        {
-          "q": "47 bc . Tullius Terentiae suae salutem dicit. si vales, bene est; ego valeo. valetudinem tuam velim ut cures diligentissime. nam mihi et scriptum et nuntiatum est, te in febrem subito incidisse. quia celeriter me fecisti de Caesaris epistula certiorem, fecisti mihi gratum. item posthac, si quid opus erit, si quid acciderit novi, cura ut sciam. cura ut valeas. vale. Vocabulary valētūdō, valētūdinis (f.) ‘health’ item ‘also’ nūntio, nūntiāre, nūntiāvī, nūntiātum posthāc ‘afterwards’ ‘report orally’ quid (neuter nominative singular) febris, febris, febrium (f.) ‘fever’ ‘any’, ‘anything’ subitō ‘suddenly’ opus, operis (n.) ‘need’ incidō, incidere, incidī, – ‘fall into’ accidō, accidere, accidī, – ‘happen’ certiōrem faciō ‘inform’ (literally ‘make novī translate as if it were novum more certain’)",
-          "a": ""
-        },
-        {
-          "q": "3 Vulgate version of the Bible, Genesis 1:1–",
-          "a": ""
-        },
-        {
-          "q": "5 (adapted): the creation of the world (translated in the fourth century ad from a much earlier Hebrew version). In principio creavit deus caelum et terram; terra autem erat inanis et vacua, et tenebrae erant super faciem abyssi, et spiritus dei ferebatur super aquas, dixitque deus ‘fiat lux’ et facta est lux, et vidit deus lucem quod esset bona, et divisit lucem ac tenebras, appellavitque lucem diem et tenebras noctem, factusque est dies unus vespere et mane. Vocabulary prīncipium, prīncipiī (n.) ‘beginning’ abyssus, abyssī (f.) ‘abyss’ creō, creāre, creāvī, creātum ‘create’ spīritus, spīritūs (m.) ‘spirit’ caelum, caelī (n.) ‘heaven’ lūx, lūcis (f.) ‘light’ terra, terrae (f.) ‘earth’ quod esset ‘that it was’ inānis, ināne ‘empty’ dīvidō, dīvidere, dīvīsī, dīvīsum ‘divide’ vacuus, vacua, vacuum ‘vacant’ ac ‘and’ tenebrae, tenebrārum (f. plural) appellō, -āre, -āvī, -ātum ‘call’ ‘darkness’ ūnus, ūna, ūnum ‘one’ super (+ accusative) ‘upon’ vesper, vesperis (m.) ‘evening’ faciēs, faciēī (f.) ‘face’, ‘surface’ māne (indeclinable) ‘morning’",
-          "a": ""
-        },
-        {
-          "q": "4 Catullus 13.1–8: an invitation to a poor man’s dinner (first century bc ). ‘Full of cobwebs’ implies ‘empty of anything else’. Cenabis bene, mi Fabulle, apud me paucis, si tibi di favent, diebus, si tecum attuleris bonam atque magnam cenam, non sine candida puella et vino et sale et omnibus cachinnis. haec si, inquam, attuleris, venuste noster, cenabis bene; nam tui Catulli plenus sacculus est aranearum. Vocabulary cēnō, cēnāre, cēnāvī, cēnātum ‘dine’ vīnum, vīnī (n.) ‘wine’ mī is the vocative of meus sāl, salis (m.) ‘salt’ apud (+ accusative) ‘at the house of’ cachinnus, cachinnī (m.) ‘laugh’ dī = dei inquam ‘I tell you’ faveō, favēre, fāvī, fautum (+ dative) venustus, -a, -um ‘charming’ ‘favour’ plēnus, -a, -um ‘full’ cēna, cēnae (f.) ‘dinner’ sacculus, sacculī (m.) ‘purse’ candidus, -a, -um ‘pretty’ arānea, arāneae (f.) ‘cobweb’",
+          "q": "53 bc ). Tullius Tironi salutem dicit. omnia a te data esse mihi putabo, si te valentem videro. summa cura exspectabam adventum Andrici, quem ad te miseram. si me diligis, cura ut valeas et ad nos venias cum te bene confirmaris. vale.",
           "a": ""
         }
       ],
       "id": "practice-51-e"
+    },
+    {
+      "id": "translate-51",
+      "latinLabel": "TRANSLATE INTO LATIN",
+      "title": "Translate into Latin",
+      "instruction": "",
+      "type": "questions",
+      "items": [
+        {
+          "q": "The straightforward conditional sentences seen in the last chapter are not very common in Latin, for there are a number of complications that frequently occur.",
+          "a": ""
+        },
+        {
+          "q": "The most common of these are the following: Order of Clauses The if-clause does not necessarily come before the main clause of a conditional sentence; in both English and Latin the main clause often precedes.",
+          "a": ""
+        },
+        {
+          "q": "Negatives A negative in the main clause of a conditional sentence is expressed with nōn in all types of condition.",
+          "a": ""
+        },
+        {
+          "q": "But a negative in the subordinate clause (the if-clause) combines with the sī to produce nisī ‘if not’, which is often best translated ‘unless’.",
+          "a": ""
+        },
+        {
+          "q": "Mixed Conditions Sometimes, both in English and Latin, a conditional sentence has one clause in present time and the other in past time; this can occur with either indicative or subjunctive conditions.",
+          "a": ""
+        },
+        {
+          "q": "‘If he has gone to Rome, he is not here.’ (indicative mixed: Future Perfect If the action of the if-clause of a future indicative (= future more vivid) condition logically occurs before the action of the main clause, the future perfect is used in the if-clause.",
+          "a": ""
+        },
+        {
+          "q": "This is the same phenomenon we have seen in temporal clauses; see chapter 47.",
+          "a": ""
+        },
+        {
+          "q": "Imperatives Sometimes the main clause of a future indicative (= future more vivid) condition does not actually have a future indicative, but rather an imperative, since imperatives inherently refer to future time.",
+          "a": ""
+        },
+        {
+          "q": "Practice C Without translating, indicate the following for each sentence: whether the ifclause comes first or second, whether it would be introduced by sī or by nisī in Latin, and what mood and tense would be used for each verb in Latin.1 robbery, why did you confess?",
+          "a": ""
+        },
+        {
+          "q": "13 If Martha is saying that, she has today if he weren’t already in 14 If I hadn’t seen the robbery, custody on other charges.",
+          "a": ""
+        },
+        {
+          "q": "I wouldn’t be here to report it.",
+          "a": ""
+        },
+        {
+          "q": "would undoubtedly have a good country unless you are prepared reason.",
+          "a": ""
+        },
+        {
+          "q": "unless he had seen the murder 17 If I were to succeed in getting happen.",
+          "a": ""
+        },
+        {
+          "q": "a driving licence, I would throw unless they have finished their 18 If we weren’t so old and dignified homework.",
+          "a": ""
+        },
+        {
+          "q": "we would be playing with those soldiers, they would have been 20 If the farmer hadn’t sold the defeated.",
+          "a": ""
+        }
+      ]
     }
   ]
 }

@@ -115,6 +115,18 @@ const chapter = {
           "text": "But in practice the future imperative is rarely used except in the case of estō (and a few other verbs we have not yet seen), and the present imperative es is very rarely used, being effectively replaced by estō. There are some other irregular imperatives, which we shall see in later chapters."
         }
       ]
+    },
+    {
+      "id": "section-3",
+      "latin": "10.4 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "Irregular Imperatives dīc ‘say!’ (singular) dūc ‘lead!’ (singular) estō ‘be!’ (singular) este ‘be!’ (plural) ī ‘go!’ (singular) īte ‘go!’ (plural) Adjectives/Pronouns hic, haec, hoc ‘this’, ‘these’ ille, illa, illud ‘that’, ‘those’"
+        }
+      ]
     }
   ],
   "readings": [
@@ -138,48 +150,7 @@ const chapter = {
     }
   ],
   "grammar": [],
-  "vocabulary": [
-    {
-      "latin": "Irregular Imperatives dīc",
-      "english": "say!",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "(singular) dūc",
-      "english": "lead!",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "(singular) estō",
-      "english": "be!",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "(singular) este",
-      "english": "be!",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "(plural) ī",
-      "english": "go!",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "(singular) īte",
-      "english": "go!",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "(plural) Adjectives/Pronouns hic, haec, hoc",
-      "english": "this, these",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "ille, illa, illud",
-      "english": "that, those",
-      "group": "Vocābula"
-    }
-  ],
+  "vocabulary": [],
   "pensa": [
     {
       "latinLabel": "PRACTICE A",

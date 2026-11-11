@@ -123,6 +123,18 @@ const chapter = {
           "text": "Thus a proper dictionary or vocabulary entry for bonus would be ‘bonus, bona, bonum “good”’ (sometimes abbreviated to ‘bonus, -a, -um “good”’). Again it is necessary to memorize this information along with the words themselves. The vocabulary from the previous chapter is therefore repeated here, for re-learning with this additional information."
         }
       ]
+    },
+    {
+      "id": "section-5",
+      "latin": "3.5 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "Nouns agricola, agricolae (m.) ‘farmer’ amīcus, amīcī (m.) ‘friend’ bellum, bellī (n.) ‘war’ dea, deae (f.) ‘goddess’ deus, deī (m.) ‘god’ equus, equī (m.) ‘horse’ oppidum, oppidī (n.) ‘town’ poēta, poētae (m.) ‘poet’ puella, puellae (f.) ‘girl’ servus, servī (m.) ‘slave’ verbum, verbī (n.) ‘word’ Adjectives bonus, bona, bonum ‘good’ magnus, magna, magnum ‘big’ meus, mea, meum ‘my’ novus, nova, novum ‘new’ tuus, tua, tuum ‘your’ (singular ‘you’)"
+        }
+      ]
     }
   ],
   "readings": [
@@ -141,93 +153,7 @@ const chapter = {
     }
   ],
   "grammar": [],
-  "vocabulary": [
-    {
-      "latin": "agricola, agricolae (m.)",
-      "english": "farmer",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "amīcus, amīcī (m.)",
-      "english": "friend",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "bellum, bellī (n.)",
-      "english": "war",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "dea, deae (f.)",
-      "english": "goddess",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "deus, deī (m.)",
-      "english": "god",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "equus, equī (m.)",
-      "english": "horse",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "oppidum, oppidī (n.)",
-      "english": "town",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "poēta, poētae (m.)",
-      "english": "poet",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "puella, puellae (f.)",
-      "english": "girl",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "servus, servī (m.)",
-      "english": "slave",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "um, verbī (n.)",
-      "english": "word",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "bonus, bona, bonum",
-      "english": "good",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "magnus, magna, magnum",
-      "english": "big",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "meus, mea, meum",
-      "english": "my",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "novus, nova, novum",
-      "english": "new",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "tuus, tua, tuum",
-      "english": "your",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "(singular",
-      "english": "you",
-      "group": "Adiectīva"
-    }
-  ],
+  "vocabulary": [],
   "pensa": [
     {
       "latinLabel": "PRACTICE A",

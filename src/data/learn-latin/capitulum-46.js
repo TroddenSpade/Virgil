@@ -59,7 +59,28 @@ const chapter = {
   ],
   "readings": [],
   "grammar": [],
-  "vocabulary": [],
+  "vocabulary": [
+    {
+      "latin": "impūne",
+      "english": "with impunity",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "restoring",
+      "english": "ferō, ferre, tulī, lātum",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "putō, putāre, putāvī, putātum",
+      "english": "think",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "multō plūris",
+      "english": "for much more (than wine)",
+      "group": "Vocābula"
+    }
+  ],
   "pensa": [
     {
       "latinLabel": "PRACTICE A",
@@ -306,15 +327,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "46 bc ). Dionysius, servus meus, qui meam bibliothecam pretiosam tractavit, cum multos libros surripuisset nec se impune laturum esse putaret, aufugit. is est in provincia tua. eum et Marcus Bolanus, familiaris meus, et multi alii Naronae viderunt. . . . hunc tu si mihi restituendum curaris, non possum dicere, quam mihi gratum futurum sit. Vocabulary Dionyˉsius, Dionyˉsiī (m.) name of aufugiō (like fugiō) ‘run away’ a slave prōvincia, prōvinciae (f.) ‘province’ bibliothēca, bibliothēcae (f.) ‘library’ Mārcus Bōlānus, -ī (m.) name of the pretiōsus, -a, -um ‘valuable’ writer’s friend tractō, tractāre, tractāvī, tractātum familiāris, familiāris, familiārium (m.) ‘manage’ ‘acquaintance’ surripiō, surripere, surripuī, surreptum Narōna, Narōnae (f.) name of a town ‘steal’ restituendum cūrāris ‘take care of impūne ‘with impunity’ restoring’ ferō, ferre, tulī, lātum ‘carry off (the quam ‘how’ thefts)’ futūrum sit ‘it will be’ putō, putāre, putāvī, putātum ‘think’",
-          "a": ""
-        },
-        {
-          "q": "2 Tabulae Vindolandenses ii.248 (adapted): soldiers stationed in northern Britain wish each other good luck (c. ad 100). Niger et Brocchus Ceriali suo salutem dicit. optamus, frater: id quod ages, felicissimum sit. erit autem, cum et votis nostris conveniat hoc pro te precari et tu sis dignissimus. optamus, domine frater, te bene valere. Vocabulary Niger, Nigrī (m.) name of one of the optō, optāre, optāvī, optātum ‘hope’ writers (can take indirect statement) Brocchus, Brocchī (m.) name of one of fēlīx can also mean ‘successful’ the writers vōtum, vōtī (n.) ‘wish’ Ceriālis, Ceriālis (m.) name of the conveniō (like veniō) ‘agree’ addressee, not actually a brother of prō (+ ablative) ‘on behalf of’ the writers precor, precārī, precātus sum ‘pray for’",
-          "a": ""
-        },
-        {
-          "q": "3 Martial 3.56: a water shortage at Ravenna (first century ad). Note the dative of possession: sit mihi + nominative = habeam + accusative. The subjunctive sit is dependent on mālō: ‘I prefer that . . . ’ Sit cisterna mihi quam vinea malo Ravennae, cum possim multo vendere pluris aquam. Vocabulary cisterna, cisternae (f.) ‘water Ravenna, Ravennae (f.) name of a town tank’ in northern Italy vīnea, vīneae (f.) ‘vineyard’ multō plūris ‘for much more (than wine)’",
+          "q": "46 bc ). Dionysius, servus meus, qui meam bibliothecam pretiosam tractavit, cum multos libros surripuisset nec se impune laturum esse putaret, aufugit. is est in provincia tua. eum et Marcus Bolanus, familiaris meus, et multi alii Naronae viderunt. . . . hunc tu si mihi restituendum curaris, non possum dicere, quam mihi gratum futurum sit.",
           "a": ""
         }
       ],

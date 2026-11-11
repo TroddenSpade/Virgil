@@ -45,6 +45,18 @@ const chapter = {
         {
           "t": "p",
           "text": "pudet mē factī ‘I am ashamed of (my) deed’ (literally ‘it shames me of the deed’)"
+        },
+        {
+          "t": "example",
+          "text": "Nouns lingua, linguae (f.) ‘tongue’, ‘language’ nox, noctis, noctium (f.) ‘night’ patria, patriae (f.) ‘homeland’, ‘fatherland’ rēgīna, rēgīnae (f.) ‘queen’"
+        },
+        {
+          "t": "example",
+          "text": "Adjectives dignus, digna, dignum (+ ablative) ‘worthy (of)’ idōneus, idōnea, idōneum ‘suitable’ secundus, secunda, secundum ‘second’ tertius, tertia, tertium ‘third’"
+        },
+        {
+          "t": "p",
+          "text": "Adverbs and Conjunctions atque ‘and’ deinde ‘then’ et ‘also’, ‘even’ et . . . et ‘both . . . and’ nec ‘neither’, ‘nor’, ‘and . . . not’ neque ‘neither’, ‘nor’, ‘and . . . not’ sīc ‘thus’, ‘in this way’ statim ‘at once’"
         }
       ]
     },
@@ -60,47 +72,35 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The best way to translate these constructions is to turn them around so that the dative is the subject and the verb is preceded by ‘must’ or ‘have to’ (see chapter 41); it is, however, also possible to translate them impersonally with English ‘it is necessary’. eundum est mihi ‘I must go’, ‘I have to go’, ‘it is necessary for me to go’ (literally ‘it is"
-        },
-        {
-          "t": "h",
-          "text": "having-to-be-gone by me’)"
-        },
-        {
-          "t": "example",
-          "text": "iuvandum erat nōbīs ‘we had to help’, ‘it was necessary for us to help’ (literally ‘it was"
-        },
-        {
-          "t": "h",
-          "text": "having-to-be-helped by us’)"
+          "text": "The best way to translate these constructions is to turn them around so that the dative is the subject and the verb is preceded by ‘must’ or ‘have to’ (see chapter 41); it is, however, also possible to translate them impersonally with English ‘it is necessary’."
         },
         {
           "t": "p",
-          "text": "Compare the personal construction illī iuvandī erant nōbīs ‘we had to help those men’ (literally ‘those men had to be helped by us’). If there is no agent expressed, impersonal gerundives can be translated with ‘it is necessary’ or with the generic English ‘one’. bene vīvendum est ‘it is necessary to live well’, ‘one must live well’ (literally ‘it is having-"
-        },
-        {
-          "t": "h",
-          "text": "to-be-lived well’)"
-        },
-        {
-          "t": "example",
-          "text": "nunc timendum est ‘now it is necessary to fear’, ‘now one must fear’ (literally ‘now it is"
-        },
-        {
-          "t": "h",
-          "text": "having-to-be-feared’)"
+          "text": "eundum est mihi ‘I must go’, ‘I have to go’, ‘it is necessary for me to go’ (literally ‘it is having-to-be-gone by me’) iuvandum erat nōbīs ‘we had to help’, ‘it was necessary for us to help’ (literally ‘it was having-to-be-helped by us’) Compare the personal construction illī iuvandī erant nōbīs ‘we had to help those men’ (literally ‘those men had to be helped by us’)."
         },
         {
           "t": "p",
-          "text": "Verbs that take an object in a case other than the accusative use the impersonal construction for the gerundive as well; the object remains in its usual case. aquā nōbīs ūtendum erit ‘we shall have to use water’, ‘it will be necessary for us to use"
-        },
-        {
-          "t": "h",
-          "text": "water’ (literally ‘it will be having-to-be-used water by us’)"
+          "text": "If there is no agent expressed, impersonal gerundives can be translated with ‘it is necessary’ or with the generic English ‘one’."
         },
         {
           "t": "p",
-          "text": "persuādendum est rēgī ‘the king must be persuaded’, ‘the king has to be persuaded’, ‘it will be necessary to persuade the king’ (literally ‘it will be having-to-bepersuaded the king’); in the right context this sentence could also mean ‘the king must persuade’.1"
+          "text": "bene vīvendum est ‘it is necessary to live well’, ‘one must live well’ (literally ‘it is having- to-be-lived well’) nunc timendum est ‘now it is necessary to fear’, ‘now one must fear’ (literally ‘now it is having-to-be-feared’) Verbs that take an object in a case other than the accusative use the impersonal construction for the gerundive as well; the object remains in its usual case."
+        },
+        {
+          "t": "p",
+          "text": "aquā nōbīs ūtendum erit ‘we shall have to use water’, ‘it will be necessary for us to use water’ (literally ‘it will be having-to-be-used water by us’) persuādendum est rēgī ‘the king must be persuaded’, ‘the king has to be persuaded’, ‘it will be necessary to persuade the king’ (literally ‘it will be having-to-bepersuaded the king’); in the right context this sentence could also mean ‘the king must persuade’.1"
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "latin": "45.4 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Verbs decet, decēre, decuit, – ‘it is fitting’ (+ accusative and infinitive) ignōscō, ignōscere, ignōvī, ignōtum ‘forgive’ (+ dative) licet, licēre, licuit, – ‘it is allowed’, ‘may’ (in the sense of ‘is (+ dative and infinitive) allowed to’) nesciō, nescīre, nescīvī/nesciī, nescītum ‘not know’, ‘be ignorant (of)’ oportet, oportēre, oportuit, – ‘it is right’, ‘ought to’ (+ accusative and infinitive) paenitet, paenitēre, paenituit, – ‘it repents’, ‘sorry’ (+ accusative of person and genitive of cause) pluit, pluere, pluit, – ‘it is raining’ pudet, pudēre, puduit, – ‘it shames’, ‘be ashamed’ (+ accusative of person and genitive of cause) sciō, scīre, scīvī/sciī, scītum ‘know’"
         }
       ]
     }
@@ -126,134 +126,64 @@ const chapter = {
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "decet, decēre, decuit, –",
-      "english": "it is fitting",
-      "group": "Verba"
+      "latin": "cum vēnissem",
+      "english": "when I had come",
+      "group": "Vocābula"
     },
     {
-      "latin": "(+ accusative and infinitive) ignōscō, ignōscere, ignōvī, ignōtum",
-      "english": "forgive",
-      "group": "Verba"
+      "latin": "dēmulceō, dēmulcēre, dēmulsī, per gradūs",
+      "english": "one step at a time",
+      "group": "Vocābula"
     },
     {
-      "latin": "(+ dative) licet, licēre, licuit, –",
-      "english": "it is allowed, may",
-      "group": "Verba"
+      "latin": "ēlevātō centōne",
+      "english": "lifting the curtain (that sīcut",
+      "group": "Vocābula"
     },
     {
-      "latin": "(in the sense of",
-      "english": "is (+ dative and infinitive) allowed to",
-      "group": "Verba"
+      "latin": "nisi",
+      "english": "except",
+      "group": "Vocābula"
     },
     {
-      "latin": ") nesciō, nescīre, nescīvī/nesciī, nescītum",
-      "english": "not know, be ignorant (of)",
-      "group": "Verba"
+      "latin": "vīlis, vīle",
+      "english": "cheap",
+      "group": "Vocābula"
     },
     {
-      "latin": "oportet, oportēre, oportuit, –",
-      "english": "it is right, ought to",
-      "group": "Verba"
+      "latin": "flāvus, flāva, flāvum",
+      "english": "golden",
+      "group": "Vocābula"
     },
     {
-      "latin": "(+ accusative and infinitive) paenitet, paenitēre, paenituit, –",
-      "english": "it repents, sorry",
-      "group": "Verba"
+      "latin": "impleō, implēre, implēvī, implētum",
+      "english": "fill",
+      "group": "Vocābula"
     },
     {
-      "latin": "(+ accusative of person and genitive of cause) pluit, pluere, pluit, –",
-      "english": "it is raining",
-      "group": "Verba"
+      "latin": "fīat",
+      "english": "may it happen",
+      "group": "Vocābula"
     },
     {
-      "latin": "pudet, pudēre, puduit, –",
-      "english": "it shames, be ashamed",
-      "group": "Verba"
+      "latin": "uterque, utraque, utrumque",
+      "english": "both",
+      "group": "Vocābula"
     },
     {
-      "latin": "(+ accusative of person and genitive of cause) sciō, scīre, scīvī/sciī, scītum",
-      "english": "know",
-      "group": "Verba"
+      "latin": "prohibeō, -bēre, -buī, -bitum",
+      "english": "forbid",
+      "group": "Vocābula"
     },
     {
-      "latin": "continues. Nouns lingua, linguae (f.)",
-      "english": "tongue, language",
-      "group": "Verba"
+      "latin": "moneō can also mean",
+      "english": "order",
+      "group": "Vocābula"
     },
     {
-      "latin": "nox, noctis, noctium (f.)",
-      "english": "night",
-      "group": "Verba"
-    },
-    {
-      "latin": "patria, patriae (f.)",
-      "english": "homeland, fatherland",
-      "group": "Verba"
-    },
-    {
-      "latin": "rēgīna, rēgīnae (f.)",
-      "english": "queen",
-      "group": "Verba"
-    },
-    {
-      "latin": "dignus, digna, dignum (+ ablative)",
-      "english": "worthy (of)",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "idōneus, idōnea, idōneum",
-      "english": "suitable",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "secundus, secunda, secundum",
-      "english": "second",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "tertius, tertia, tertium",
-      "english": "third",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "and Conjunctions atque",
-      "english": "and",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "deinde",
-      "english": "then",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "et",
-      "english": "also, even",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "et . . . et",
-      "english": "both . . . and",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "nec",
-      "english": "neither, nor, and . . . not",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "neque",
-      "english": "neither, nor, and . . . not",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "sīc",
-      "english": "thus, in this way",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "statim",
-      "english": "at once",
-      "group": "Adverbia"
+      "latin": "datō",
+      "english": "give a gift",
+      "group": "Vocābula"
     }
   ],
   "pensa": [
@@ -547,15 +477,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "1 Colloquium Stephani 9a–10a (adapted): a boy’s arrival at school (probably first to third century ad). Ergo cum venissem ad scalas, ascendi per gradus, otio, sicut oportebat. et in proscholio deposui birrum, et demulsi capillos. tum elevato centone ingressus sum, et primum salutavi magistros et condiscipulos. Vocabulary cum vēnissem ‘when I had come’ birrus, birrī (m.) ‘cloak’ scālae, scālārum (f. plural) ‘stairs’ dēmulceō, dēmulcēre, dēmulsī, per gradūs ‘one step at a time’ (i.e. not dēmulsum ‘smooth down’ running) capillus, capillī (m.) ‘hair’ ōtium, ōtiī (n.) ‘leisure’ ēlevātō centōne ‘lifting the curtain (that sīcut ‘as’ served as a door)’ proscholium, -ī (n.) ‘school vestibule’ prīmum (here an adverb) ‘first’ dēpōnō (like pōnō) ‘take off’ condiscipulus, -ī (m.) ‘fellow student’",
-          "a": ""
-        },
-        {
-          "q": "2 Martial 14.12: praise of ivory cashboxes (first century ad). Hos nisi de flava loculos implere moneta non decet: argentum vilia ligna ferant. Vocabulary nisi ‘except’ vīlis, vīle ‘cheap’ flāvus, flāva, flāvum ‘golden’ lignum, lignī (n.) ‘wooden box’ loculus, loculī, (m.) ‘cashbox’ (unusually) impleō, implēre, implēvī, implētum ‘fill’ ferō (third conjugation) ‘hold’ monēta, monētae (f.) ‘money’",
-          "a": ""
-        },
-        {
-          "q": "3 Martial 9.53: the poet suggests to his friend Quintus an agreement over birthday presents (first century ad ). Natali tibi, Quinte, tuo dare parva volebam munera; tu prohibes: imperiosus homo es. parendum est monitis; fiat quod uterque volemus et quod utrumque iuvat: tu mihi, Quinte, dato. Vocabulary nātālis, nātālis, nātālium (m.) ‘birthday’ fīat ‘may it happen’, ‘let us do’ mūnus, mūneris (n.) ‘gift’ uterque, utraque, utrumque ‘both’ prohibeō, -bēre, -buī, -bitum ‘forbid’ (singular in form but plural in imperiōsus, -a, -um ‘imperious’ meaning, so the nominative singular pāreō, pārēre, pāruī, – (+ dative) ‘obey’ can be the subject of a plural verb) moneō can also mean ‘order’ datō ‘give a gift’ (imperative)",
+          "q": "1 Colloquium Stephani 9a–10a (adapted): a boy’s arrival at school (probably first to third century ad). Ergo cum venissem ad scalas, ascendi per gradus, otio, sicut oportebat. et in proscholio deposui birrum, et demulsi capillos. tum elevato centone ingressus sum, et primum salutavi magistros et condiscipulos.",
           "a": ""
         }
       ],

@@ -107,6 +107,22 @@ const chapter = {
           "text": "When a first/second-declension adjective like bonus modifies a third-declension noun such as mīles, the endings of noun and adjective are usually completely different, but the adjective nevertheless agrees with the noun in gender, number, and case: bonus mīles nominative singular, bonī mīlitēs nominative plural, bonī mīlitis genitive singular, bonō mīlitī dative singular, etc."
         }
       ]
+    },
+    {
+      "id": "section-2",
+      "latin": "14.4 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "Nouns animal, animālis, animālium (n.) ‘animal’ cīvis, cīvis, cīvium (m.) ‘citizen’ classis, classis, classium (f.) ‘fleet’ corpus, corporis (n.) ‘body’ flūmen, flūminis (n.) ‘river’ frāter, frātris (m.) ‘brother’ hostēs, hostium (m. plural) ‘enemy’ māter, mātris (f.) ‘mother’ mīles, mīlitis (m.) ‘soldier’ moenia, moenium (n."
+        },
+        {
+          "t": "example",
+          "text": "plural) ‘walls’ nōmen, nōminis (n.) ‘name’ opus, operis (n.) ‘work’ ovis, ovis, ovium (f.) ‘sheep’ pater, patris (m.) ‘father’ rēx, rēgis (m.) ‘king’ soror, sorōris (f.) ‘sister’ urbs, urbis, urbium (f.) ‘city’"
+        }
+      ]
     }
   ],
   "readings": [
@@ -132,89 +148,49 @@ const chapter = {
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "animal, animālis, animālium (n.)",
-      "english": "animal",
-      "group": "Nōmina"
+      "latin": "avē",
+      "english": "hello",
+      "group": "Vocābula"
     },
     {
-      "latin": "cīvis, cīvis, cīvium (m.)",
-      "english": "citizen",
-      "group": "Nōmina"
+      "latin": "ecce",
+      "english": "look!",
+      "group": "Vocābula"
     },
     {
-      "latin": "classis, classis, classium (f.)",
-      "english": "fleet",
-      "group": "Nōmina"
+      "latin": "studeō, studēre, studuī, –",
+      "english": "work hard",
+      "group": "Vocābula"
     },
     {
-      "latin": "corpus, corporis (n.)",
-      "english": "body",
-      "group": "Nōmina"
+      "latin": "ut",
+      "english": "as",
+      "group": "Vocābula"
     },
     {
-      "latin": "flūmen, flūminis (n.)",
-      "english": "river",
-      "group": "Nōmina"
+      "latin": "volō, velle, voluī, –",
+      "english": "want",
+      "group": "Vocābula"
     },
     {
-      "latin": "frāter, frātris (m.)",
-      "english": "brother",
-      "group": "Nōmina"
+      "latin": "decet",
+      "english": "suits",
+      "group": "Vocābula"
     },
     {
-      "latin": "hostēs, hostium (m. plural)",
-      "english": "enemy",
-      "group": "Nōmina"
+      "latin": "ergō",
+      "english": "therefore",
+      "group": "Vocābula"
     },
     {
-      "latin": "māter, mātris (f.)",
-      "english": "mother",
-      "group": "Nōmina"
+      "latin": "Latīnē",
+      "english": "in Latin",
+      "group": "Vocābula"
     },
     {
-      "latin": "mīles, mīlitis (m.)",
-      "english": "soldier",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "moenia, moenium (n. plural)",
-      "english": "walls",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "nōmen, nōminis (n.)",
-      "english": "name",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "opus, operis (n.)",
-      "english": "work",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "ovis, ovis, ovium (f.)",
-      "english": "sheep",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "pater, patris (m.)",
-      "english": "father",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "rēx, rēgis (m.)",
-      "english": "king",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "soror, sorōris (f.)",
-      "english": "sister",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "urbs, urbis, urbium (f.)",
-      "english": "city",
-      "group": "Nōmina"
+      "latin": "loquī",
+      "english": "to speak",
+      "group": "Vocābula"
     }
   ],
   "pensa": [
@@ -632,15 +608,28 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "1 Colloquium Harleianum 4a–e (adapted): continuation of the school scene in the preceding chapter. p u p i l : ave, domine magister, bene tibi sit. ab hodie studere volo. rogo te ergo, doce me Latine loqui. t e a c he r: docebo te, si me attendes. p u p i l : ecce, attendo. t e a c he r: bene dixisti, ut decet ingenuitatem tuam. Vocabulary avē ‘hello’ attendō, attendere, attendī, attentum dominus, dominī (m.) ‘sir’ ‘pay attention (to)’ sit: the subject is an impersonal ‘it’ ecce ‘look!’ studeō, studēre, studuī, – ‘work hard’ ut ‘as’ volō, velle, voluī, – ‘want’ decet ‘suits’, ‘befits’ (impersonal verb, rogō, rogāre, rogāvī, rogātum ‘ask’ no subject – see chapter 45) ergō ‘therefore’ ingenuitās, ingenuitātis (f.) ‘free birth’, Latīnē ‘in Latin’ ‘noble character’ loquī ‘to speak’ (infinitive)",
-          "a": ""
-        },
-        {
-          "q": "2 Corpus Inscriptionum Latinarum x .877: a mosaic from Pompeii (first century ad ). Cave canem! Vocabulary caveō, cavēre, cāvī, cautum (+ accusative) ‘beware of’ canis, canis (m.) ‘dog’",
+          "q": "1 Colloquium Harleianum 4a–e (adapted): continuation of the school scene in the preceding chapter. p u p i l : ave, domine magister, bene tibi sit. ab hodie studere volo. rogo te ergo, doce me Latine loqui. t e a c he r: docebo te, si me attendes. p u p i l : ecce, attendo. t e a c he r: bene dixisti, ut decet ingenuitatem tuam.",
           "a": ""
         }
       ],
       "id": "practice-14-d"
+    },
+    {
+      "id": "translate-14",
+      "latinLabel": "TRANSLATE INTO LATIN",
+      "title": "Translate into Latin",
+      "instruction": "",
+      "type": "questions",
+      "items": [
+        {
+          "q": "p u p i l : ave, domine magister, bene tibi sit.",
+          "a": ""
+        },
+        {
+          "q": "p u p i l : ecce, attendo.",
+          "a": ""
+        }
+      ]
     }
   ]
 }

@@ -91,12 +91,8 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "23 milites hortor ne fugiant, sed 25 magister pueris persuadebit ne"
-        },
-        {
           "t": "p",
-          "text": "fugiunt. vereantur. 24 in silva venantur ut multa 26 velim ut me iuves. animalia capiant."
+          "text": "23 milites hortor ne fugiant, sed 25 magister pueris persuadebit ne fugiunt. vereantur. 24 in silva venantur ut multa 26 velim ut me iuves. animalia capiant."
         },
         {
           "t": "p",
@@ -115,75 +111,102 @@ const chapter = {
           "text": "And if the verb on which the English infinitive depends turns out to be one that takes neither of these constructions, then (for now – but we have not yet seen the full range of constructions) the English infinitive needs to be translated with a Latin purpose clause."
         }
       ]
+    },
+    {
+      "id": "section-4",
+      "latin": "28.6 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "Verbs arbitror, arbitrārī, arbitrātus sum ‘think’ hortor, hortārī, hortātus sum ‘urge’, ‘encourage’ imperō, imperāre, imperāvī, imperātum (+ dative) ‘order’ loquor, loquī, locūtus sum ‘speak’ moror, morārī, morātus sum ‘delay’ orior, orīrī, ortus sum ‘arise’ ōrō, ōrāre, ōrāvī, ōrātum ‘beg’ patior, patī, passus sum ‘suffer’, ‘endure’ persuādeō, persuādēre, persuāsī, persuāsum (+ dative) ‘persuade’ polliceor, pollicērī, pollicitus sum ‘promise’ prōgredior, prōgredī, prōgressus sum ‘advance’ rogō, rogāre, rogāvī, rogātum ‘ask’ sequor, sequī, secūtus sum ‘follow’"
+        }
+      ]
     }
   ],
   "readings": [],
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "arbitror, arbitrārī, arbitrātus sum",
-      "english": "think",
-      "group": "Verba"
+      "latin": "quoniam",
+      "english": "since",
+      "group": "Vocābula"
     },
     {
-      "latin": "hortor, hortārī, hortātus sum",
-      "english": "urge, encourage",
-      "group": "Verba"
+      "latin": "parō, parāre, parāvī, parātum",
+      "english": "prepare",
+      "group": "Vocābula"
     },
     {
-      "latin": "imperō, imperāre, imperāvī, imperātum (+ dative)",
-      "english": "order",
-      "group": "Verba"
+      "latin": "sternō, sternere, strāvī, strātum",
+      "english": "arrange",
+      "group": "Vocābula"
     },
     {
-      "latin": "loquor, loquī, locūtus sum",
-      "english": "speak",
-      "group": "Verba"
+      "latin": "necessārius, -a, -um",
+      "english": "necessary",
+      "group": "Vocābula"
     },
     {
-      "latin": "moror, morārī, morātus sum",
-      "english": "delay",
-      "group": "Verba"
+      "latin": "afferte",
+      "english": "bring!",
+      "group": "Vocābula"
     },
     {
-      "latin": "orior, orīrī, ortus sum",
-      "english": "arise",
-      "group": "Verba"
+      "latin": "condiō, condīre, condīvī, condītum tollō, tollere, sustulī, sublātum",
+      "english": "pick up",
+      "group": "Vocābula"
     },
     {
-      "latin": "ōrō, ōrāre, ōrāvī, ōrātum",
-      "english": "beg",
-      "group": "Verba"
+      "latin": "hūc",
+      "english": "here",
+      "group": "Vocābula"
     },
     {
-      "latin": "patior, patī, passus sum",
-      "english": "suffer, endure",
-      "group": "Verba"
+      "latin": "considered",
+      "english": "here",
+      "group": "Vocābula"
     },
     {
-      "latin": "persuādeō, persuādēre, persuāsī, persuāsum (+ dative)",
-      "english": "persuade",
-      "group": "Verba"
+      "latin": "scindō, scindere, scidī, scissum",
+      "english": "split",
+      "group": "Vocābula"
     },
     {
-      "latin": "polliceor, pollicērī, pollicitus sum",
-      "english": "promise",
-      "group": "Verba"
+      "latin": "dūcō can also mean",
+      "english": "pull along",
+      "group": "Vocābula"
     },
     {
-      "latin": "prōgredior, prōgredī, prōgressus sum",
-      "english": "advance",
-      "group": "Verba"
+      "latin": "lavō, lavāre, lāvī, lautum",
+      "english": "wash",
+      "group": "Vocābula"
     },
     {
-      "latin": "rogō, rogāre, rogāvī, rogātum",
-      "english": "ask",
-      "group": "Verba"
+      "latin": "region",
+      "english": "Brigōnus, Brigōnī (m.) man",
+      "group": "Vocābula"
     },
     {
-      "latin": "sequor, sequī, secūtus sum",
-      "english": "follow",
-      "group": "Verba"
+      "latin": "s name Luguvalius, -a, -um",
+      "english": "at Luguvalium",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "commendō, -āre, -āvī, -ātum optō, optāre, optāvī, optātum",
+      "english": "hope",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ergō",
+      "english": "therefore",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "valeō, valēre, valuī, valitum",
+      "english": "be dignor, dignārī, dignātus sum",
+      "group": "Vocābula"
     }
   ],
   "pensa": [
@@ -627,11 +650,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "1 Colloquium Montepessulanum 11a–12d (adapted): preparing for a dinner party (probably third century ad). host (to caterer): quoniam amicos ad cenam invitavi, veni ad me et para nobis omnia quae necessaria sunt, et coquo impera ut pulmentaria bene condiat. (to slaves) venite huc, excutite pulvinum, operite stragula, ducite scopam, spargite aquam, sternite triclinium, afferte calices et argentum. tu, puer, tolle lagenam et imple aqua, scinde ligna, exterge mensam et pone in medium. ego vinum proferam. lavate calices. Vocabulary (in order of first appearance; words that appear more than once are in bold) quoniam ‘since’ spargō, spargere, sparsī, sparsum cēna, cēnae (f.) ‘dinner’ ‘sprinkle’ (on the packed earth outside invītō, -āre, -āvī, -ātum ‘invite’ the door, to keep the dust down) parō, parāre, parāvī, parātum ‘prepare’ sternō, sternere, strāvī, strātum ‘arrange’ necessārius, -a, -um ‘necessary’ trīclīnium, trīclīniī (n.) ‘dining room’ coquus, coquī (m.) ‘cook’ afferte ‘bring!’ (plural imperative) pulmentārium, pulmentāriī (n.) ‘relish’ calix, calicis (m.) ‘cup’ (i.e. tasty food to be eaten with bread) argentum, argentī (n.) ‘silverware’ condiō, condīre, condīvī, condītum tollō, tollere, sustulī, sublātum ‘pick up’ ‘season’ lagēna, lagēnae (f.) ‘flask’ hūc ‘here’ (used instead of hīc when impleō, implēre, implēvī, implētum ‘fill’ there is motion towards the place aquā ‘with water’ considered ‘here’) scindō, scindere, scidī, scissum ‘split’ excutiō, excutere, excussī, excussum lignum, lignī (n.) ‘firewood’ ‘shake out’ extergeō, extergēre, extersī, extersum pulvīnus, pulvīnī (m.) ‘cushion’ ‘wipe clean’ operiō, operīre, operuī, opertum mēnsa, mēnsae (f.) ‘table’ ‘drape’, ‘spread out’ medium, mediī (n.) ‘middle’ strāgulum, strāgulī (n.) ‘couch-cover’ vīnum, vīnī (n.) ‘wine’ dūcō can also mean ‘pull along’ prōfero, prōferre, prōtulī, prōlātum scōpa, scōpae (f.) ‘broom’ (third conjugation) ‘bring out’ lavō, lavāre, lāvī, lautum ‘wash’",
-          "a": ""
-        },
-        {
-          "q": "2 Tabulae Vindolandenses ii.250 (adapted): letter from a military officer stationed in northern Britain to another officer (c. ad 100). Claudius Karus Ceriali suo salutem dicit. Brigonus me rogat, domine, ut se tibi commendarem. rogo te ergo, domine, ut des ei quod a te petit. rogo te ut eum commendare digneris Annio Equestri centurioni regionario Luguvalio. . . . opto te felicem esse et bene valere. vale, frater. Vocabulary (in order of first appearance; words that appear more than once are in bold) Claudius Kārus, -ī (m.) name of the Annius Equester, Anniī Equestrī (m.) writer of the letter name of an army officer Ceriālis, Ceriālis (m.) name of the centuriō, centuriōnis (m.) recipient of the letter, a friend of the ‘centurion’ writer but not actually his brother regiōnārius, -a, -um ‘in charge of the salūs, salūtis (f.) ‘health’, ‘greetings’ region’ Brigōnus, Brigōnī (m.) man’s name Luguvalius, -a, -um ‘at Luguvalium’ commendō, -āre, -āvī, -ātum optō, optāre, optāvī, optātum ‘hope’ ‘recommend’ (takes indirect statement) ergō ‘therefore’ valeō, valēre, valuī, valitum ‘be dignor, dignārī, dignātus sum ‘think it healthy’ right’",
+          "q": "1 Colloquium Montepessulanum 11a–12d (adapted): preparing for a dinner party (probably third century ad). host (to caterer): quoniam amicos ad cenam invitavi, veni ad me et para nobis omnia quae necessaria sunt, et coquo impera ut pulmentaria bene condiat. (to slaves) venite huc, excutite pulvinum, operite stragula, ducite scopam, spargite aquam, sternite triclinium, afferte calices et argentum. tu, puer, tolle lagenam et imple aqua, scinde ligna, exterge mensam et pone in medium. ego vinum proferam. lavate calices.",
           "a": ""
         }
       ],

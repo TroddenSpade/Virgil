@@ -107,7 +107,38 @@ const chapter = {
     }
   ],
   "grammar": [],
-  "vocabulary": [],
+  "vocabulary": [
+    {
+      "latin": "dealbō, -āre, -āvī, -ātum",
+      "english": "whiten",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ecce",
+      "english": "look!",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "acūtus, acūta, acūtum",
+      "english": "sharp",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dīs mānibus",
+      "english": "to the divine spirits",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "diēs",
+      "english": "for days",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "annōs",
+      "english": "for years",
+      "group": "Vocābula"
+    }
+  ],
   "pensa": [
     {
       "latinLabel": "PRACTICE A",
@@ -444,23 +475,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "2 : acutum vis? cur? Vocabulary dealbō, -āre, -āvī, -ātum ‘whiten’ (to porrigō, porrigere, porrēxī, porrēctum make a good writing surface) ‘pass’ tabula, tabulae (f.) ‘writing tablet’ canna, cannae (f.) ‘pen’ apex, apicis (m.) ‘macron’ (mark scalpellum, scalpellī (n.) ‘pen-knife’ indicating a long vowel) (knife used for sharpening pens, littera, litterae (f.) ‘letter’ a process necessary at frequent ātrāmentum, -ī (n.) ‘ink’ intervals when using a pen made paucus, pauca, paucum ‘a little’ from a reed or feather) ecce ‘look!’ acūtus, acūta, acūtum ‘sharp’",
-          "a": ""
-        },
-        {
-          "q": "2 Roman Inscriptions of Britain 164 (adapted): funerary inscription from Bath (imperial period). Dis manibus Successae Petroniae, quae vixit annos III et menses IIII et dies IX. Vettius Romulus et Victoria Sabina filiae carissimae hoc fecerunt. Vocabulary dīs mānibus ‘to the divine spirits’ diēs ‘for days’ Successa Petrōnia, -ae (f.) the name of the IX =",
-          "a": ""
-        },
-        {
-          "q": "9 dead person (possessive genitive Vettius Rōmulus, -ī (m.) the name of the with mānibus) dead person’s father annōs ‘for years’ Victōria Sabīna, -ae (f.) the name of the III =",
-          "a": ""
-        },
-        {
-          "q": "3 dead person’s mother mēnsēs ‘for months’ fīlia, fīliae (f.) ‘daughter’ IIII =",
-          "a": ""
-        },
-        {
-          "q": "4 cārissimus, -a, -um ‘dearest’",
+          "q": "2 : acutum vis? cur?",
           "a": ""
         }
       ],

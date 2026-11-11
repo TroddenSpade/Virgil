@@ -207,20 +207,20 @@ const chapter = {
           "text": "Present active indicative Future active indicative Perfect active indicative"
         },
         {
-          "t": "h",
-          "text": "eō ‘I go’, ‘I am going’ ībō ‘I will go’, iī, īvī ‘I went’, ‘I have"
-        },
-        {
-          "t": "example",
-          "text": "‘I shall go’ gone’\nīs ‘you (singular) go’, ībis ‘you (singular) īstī, īvistī ‘you (singular) ‘you (singular) are will go’, ‘you went’, you going’ (singular) shall (singular) have gone’ go’"
-        },
-        {
-          "t": "h",
-          "text": "it ‘he/she/it goes’, ībit ‘he/she/it will iit, īvit ‘he/she/it went’,"
-        },
+          "t": "p",
+          "text": "eō ‘I go’, ‘I am going’ ībō ‘I will go’, iī, īvī ‘I went’, ‘I have ‘I shall go’ gone’ īs ‘you (singular) go’, ībis ‘you (singular) īstī, īvistī ‘you (singular) ‘you (singular) are will go’, ‘you went’, you going’ (singular) shall (singular) have gone’ go’ it ‘he/she/it goes’, ībit ‘he/she/it will iit, īvit ‘he/she/it went’, ‘he/she/it is go’, ‘he/she/it ‘he/she/it has going’, ‘goes’, ‘is shall go’, ‘will gone’, ‘went’, going’ go’, ‘shall go’ ‘has gone’ īmus ‘we go’, ‘we are ībimus ‘we will go’, iimus, īvimus ‘we went’, ‘we going’ ‘we shall go’ have gone’ ītis ‘you (plural) go’, ībitis ‘you (plural) īstis, īvistis ‘you (plural) ‘you (plural) are will go’, ‘you went’, ‘you going’ (plural) shall (plural) have go’ gone’ eunt ‘they go’, ‘they are ībunt ‘they will go’, iērunt, ‘they went’, ‘they going’, ‘go’, ‘are ‘they shall go’, īvērunt have gone’, going’ ‘will go’, ‘shall ‘went’, ‘have go’ gone’"
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "latin": "9.4 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
         {
           "t": "p",
-          "text": "‘he/she/it is go’, ‘he/she/it ‘he/she/it has going’, ‘goes’, ‘is shall go’, ‘will gone’, ‘went’, going’ go’, ‘shall go’ ‘has gone’ īmus ‘we go’, ‘we are ībimus ‘we will go’, iimus, īvimus ‘we went’, ‘we going’ ‘we shall go’ have gone’ ītis ‘you (plural) go’, ībitis ‘you (plural) īstis, īvistis ‘you (plural) ‘you (plural) are will go’, ‘you went’, ‘you going’ (plural) shall (plural) have go’ gone’ eunt ‘they go’, ‘they are ībunt ‘they will go’, iērunt, ‘they went’, ‘they going’, ‘go’, ‘are ‘they shall go’, īvērunt have gone’, going’ ‘will go’, ‘shall ‘went’, ‘have go’ gone’"
+          "text": "Verb eō, īre, iī/īvī, itum ‘go’ Prepositions ā, ab (+ ablative) ‘from’, ‘away from’ ad (+ accusative) ‘to’ cum (+ ablative) ‘with’ dē (+ ablative) ‘from’, ‘about’ ē, ex (+ ablative) ‘out of’ in (+ ablative) ‘in’, ‘on’ in (+ accusative) ‘into’, ‘onto’ per (+ accusative) ‘through’ sine (+ ablative) ‘without’ trāns (+ accusative) ‘across’"
         }
       ]
     }
@@ -241,63 +241,7 @@ const chapter = {
     }
   ],
   "grammar": [],
-  "vocabulary": [
-    {
-      "latin": "eō, īre, iī/īvī, itum",
-      "english": "go",
-      "group": "Verba"
-    },
-    {
-      "latin": "ā, ab (+ ablative)",
-      "english": "from, away from",
-      "group": "Praepositiōnēs"
-    },
-    {
-      "latin": "ad (+ accusative)",
-      "english": "to",
-      "group": "Praepositiōnēs"
-    },
-    {
-      "latin": "cum (+ ablative)",
-      "english": "with",
-      "group": "Praepositiōnēs"
-    },
-    {
-      "latin": "dē (+ ablative)",
-      "english": "from, about",
-      "group": "Praepositiōnēs"
-    },
-    {
-      "latin": "ē, ex (+ ablative)",
-      "english": "out of",
-      "group": "Praepositiōnēs"
-    },
-    {
-      "latin": "in (+ ablative)",
-      "english": "in, on",
-      "group": "Praepositiōnēs"
-    },
-    {
-      "latin": "in (+ accusative)",
-      "english": "into, onto",
-      "group": "Praepositiōnēs"
-    },
-    {
-      "latin": "per (+ accusative)",
-      "english": "through",
-      "group": "Praepositiōnēs"
-    },
-    {
-      "latin": "sine (+ ablative)",
-      "english": "without",
-      "group": "Praepositiōnēs"
-    },
-    {
-      "latin": "trāns (+ accusative)",
-      "english": "across",
-      "group": "Praepositiōnēs"
-    }
-  ],
+  "vocabulary": [],
   "pensa": [
     {
       "latinLabel": "PRACTICE A",

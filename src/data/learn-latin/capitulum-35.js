@@ -9,6 +9,22 @@ const chapter = {
   "complete": true,
   "sections": [
     {
+      "id": "section-0",
+      "latin": "Introduction",
+      "english": "Introduction",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "Adjectives prīmus, prīma, prīmum ‘first’ quārtus, quārta, quārtum ‘fourth’ quīntus, quīnta, quīntum ‘fifth’ sextus, sexta, sextum ‘sixth’ septimus, septima, septimum ‘seventh’"
+        },
+        {
+          "t": "h",
+          "text": "Prepositions propter (+ accusative) ‘on account of’"
+        }
+      ]
+    },
+    {
       "id": "section-1",
       "latin": "35.1 Locative",
       "english": "Grammar",
@@ -99,24 +115,8 @@ const chapter = {
           "text": "(There are also further constructions using prepositions, such as the ablatives of agent and accompaniment, but these are much easier to identify because of the preposition.) The constructions taking an ablative (or apparent ablative) without a preposition are: Name Distinguishing characteristics Translation Locative having the The word that appears to be ablative is ‘in’, ‘at’ same form as an the name of a city or town, and is ablative plural and/or belongs to the third declension; no motion is indicated."
         },
         {
-          "t": "h",
-          "text": "Ablative of motion The word in the ablative is domus or ‘from’"
-        },
-        {
-          "t": "h",
-          "text": "from the name of a city or town; the verb"
-        },
-        {
           "t": "p",
-          "text": "indicates motion."
-        },
-        {
-          "t": "h",
-          "text": "Ablative of time The word in the ablative indicates ‘in’, ‘on’, ‘at’,"
-        },
-        {
-          "t": "p",
-          "text": "a date or time. ‘within’ Ablative with verbs The word in the ablative is near a verb translate as a direct known to take the ablative case (at object (no present, only ūtor). preposition in"
+          "text": "Ablative of motion The word in the ablative is domus or ‘from’ from the name of a city or town; the verb indicates motion. Ablative of time The word in the ablative indicates ‘in’, ‘on’, ‘at’, a date or time. ‘within’ Ablative with verbs The word in the ablative is near a verb translate as a direct known to take the ablative case (at object (no present, only ūtor). preposition in"
         },
         {
           "t": "h",
@@ -135,180 +135,32 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "1 Corpus Inscriptionum Latinarum iv .3881, 1190, 7994, and 3884 (all adapted): signs"
-        },
-        {
           "t": "p",
           "text": "When Romans used signs for numbers rather than writing out the names of the numbers, they used Roman numerals. I 1 IX or VIIII 9 XVII 17 II 2 X 10 XVIII 18 III 3 XI 11 XIX or XVIIII 19 IV or IIII 4 XII 12 XX 20 V 5 XIII 13 XXX 30 VI 6 XIV or XIIII 14 XL 40 VII 7 XV 15 L 50 VIII 8 XVI 16 C 100 These numerals are strung together in order from largest to smallest. Thus 236 is c cx x x v i, and 349 is cccxlix ."
         },
         {
           "t": "p",
-          "text": "advertising gladiatorial shows, from the walls of Pompeii (first century ad ). Gladiatorum paria XX Quinti Monni Rufi pugnabunt Nolae Kalendis Maiis, et venatio erit. Auli Suetti Certi aedilis familia gladiatoria pugnabit Pompeis pridie Kalendas Iunias; venatio et vela erunt. Gladiatorium paria XLIX familiae Capiniae muneribus Augustorum pugnabunt Puteolis ante diem XVII et XV Kalendas Iunias; vela erunt. Magus hoc scripsit."
+          "text": "1 Corpus Inscriptionum Latinarum iv .3881, 1190, 7994, and 3884 (all adapted): signs advertising gladiatorial shows, from the walls of Pompeii (first century ad ). Gladiatorum paria XX Quinti Monni Rufi pugnabunt Nolae Kalendis Maiis, et venatio erit. Auli Suetti Certi aedilis familia gladiatoria pugnabit Pompeis pridie Kalendas Iunias; venatio et vela erunt."
         },
         {
           "t": "p",
-          "text": "Decimi Lucreti Satri Valentis, flaminis Neronis Caesaris, gladiatorum paria XX, et Decimi Lucreti Valentis, filii, gladiatorum paria X pugnabunt Pompeis pridie Idus Apriles; venatio et vela erunt. scripsit Aemilius Celer singulus ad lunam."
-        },
+          "text": "Gladiatorium paria XLIX familiae Capiniae muneribus Augustorum pugnabunt Puteolis ante diem XVII et XV Kalendas Iunias; vela erunt. Magus hoc scripsit. Decimi Lucreti Satri Valentis, flaminis Neronis Caesaris, gladiatorum paria XX, et Decimi Lucreti Valentis, filii, gladiatorum paria X pugnabunt Pompeis pridie Idus Apriles; venatio et vela erunt. scripsit Aemilius Celer singulus ad lunam."
+        }
+      ]
+    },
+    {
+      "id": "section-7",
+      "latin": "35.8 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
         {
-          "t": "h",
-          "text": "Vocabulary"
-        },
-        {
-          "t": "p",
-          "text": "gladiātor, gladiātōris (m.) ‘gladiator’ vēnātiō, vēnātiōnis (f.) ‘hunt’ pār, paris, parium (n.) ‘pair’ Aulus Suēttius Certus, -ī (m.) name of Quīntus Monnius Rūfus, -ī (m.) name an owner of gladiators of an owner of gladiators aedīlis, aedīlis, aedīlium (m.) ‘aedile’ Nōla, Nōlae (f.) name of a town (an elected official) Kalendae Maiae, Kalendārum Maiārum familia, familiae (f.) ‘troupe’, ‘family’ (f."
+          "t": "example",
+          "text": "Verbs maneō, manēre, mānsī, mānsum ‘remain’, ‘stay’, ‘wait’ rapiō, rapere, rapuī, raptum ‘seize’, ‘grab’, ‘carry off’ valeō, valēre, valuī, valitum ‘be well’, ‘be healthy’ Nouns annus, annī (m.) ‘year’ Athēnae, Athēnārum (f. plural) ‘Athens’ Carthāgō, Carthāginis (f.) ‘Carthage’ Corinthus, Corinthī (f.) ‘Corinth’ Delphī, Delphōrum (m. plural) ‘Delphi’ hōra, hōrae (f.) ‘hour’ locus, locī (m., also n."
         },
         {
           "t": "example",
-          "text": "plural) ‘the first of May’ (literally gladiātōrius, -a, -um ‘gladiatorial’ ‘the Kalends of May’)"
-        },
-        {
-          "t": "h",
-          "text": "Pompeiī, Pompeiōrum (m. plural) Magus, Magī (m.) name of a"
-        },
-        {
-          "t": "h",
-          "text": "name of a town sign-painter"
-        },
-        {
-          "t": "p",
-          "text": "prīdiē Kalendās Iūniās ‘on the last day Decimus Lucrētius Satrius Valēns, of May’ (literally the day before the Decimī Lucrētiī Satriī Valentis (m.) Kalends (first) of June) name of a priest vēlum, vēlī (n.) ‘awning’ (over the flāmen, flāminis (m.) ‘priest’ spectators at the games, to keep off Nerō, Nerōnis (m.) name of the emperor hot sun or rain) Caesar, Caesaris (m.) ‘emperor’"
-        },
-        {
-          "t": "h",
-          "text": "Capinius, -a, -um ‘Capinian’ (i.e. Decimus Lucrētius Valēns, Decimī"
-        },
-        {
-          "t": "h",
-          "text": "belonging to Capinius) Lucrētiī Valentis (m.) name of the"
-        },
-        {
-          "t": "h",
-          "text": "mūneribus Augustōrum ‘at the games priest’s son"
-        },
-        {
-          "t": "p",
-          "text": "of the Augusti’ prīdiē Īdūs Aprīlēs ‘on 12 April’ Puteolī, Puteolōrum (m. plural) name (literally the day before the Ides"
-        },
-        {
-          "t": "h",
-          "text": "of a town (13th) of April)"
-        },
-        {
-          "t": "h",
-          "text": "2 Cicero, Epistulae ad Atticum 8.11c: a letter from Pompey to Cicero preserved with"
-        },
-        {
-          "t": "p",
-          "text": "ante diem + (number) + Kalendās Aemilius Celer, Aemiliī Celeris (m.): Iūniās ‘(number) days before the name of a sign-painter Kalends (first) of June’ (i.e. 16 and singulus, singula, singulum ‘alone’, ‘by inclusively and May had 31 days) ad lūnam ‘by moonlight’ Cicero’s correspondence (written in 49 bc ). Cn. Magnus proconsul salutem dicit M. Ciceroni imperatori. si vales, bene est."
-        },
-        {
-          "t": "p",
-          "text": "tuas litteras libenter legi; recognovi enim tuam pristinam virtutem etiam in salute communi. consules ad eum exercitum, quem in Apulia habui, venerunt. magno opere te hortor pro tuo singulari perpetuoque studio in rem publicam, ut te ad nos conferas, ut communi consilio rei publicae afflictae opem atque auxilium feramus. censeo, via Appia iter facias et celeriter Brundisium venias."
-        },
-        {
-          "t": "h",
-          "text": "Vocabulary"
-        },
-        {
-          "t": "p",
-          "text": "Cn."
-        },
-        {
-          "t": "p",
-          "text": "Magnus = Gnaeus Pompeius Magnus libenter ‘with pleasure’ (Pompey, the writer of the letter; the recognōscō, -nōscere, -nōvī, -nitum use of first and last names while ‘recognize’ omitting the middle one was an prīstinus, -a, -um ‘former’ aristocratic convention also applied virtūs, virtūtis (f.) ‘excellent here to M(arcus) (Tullius) Cicero) disposition’ prōcōnsul, prōcōnsulis (m.) ‘proconsul’ etiam ‘still’ (a Roman official) in can also mean ‘for’ salūs, salūtis (f.) ‘greetings’, ‘welfare’ commūnis, commūne ‘shared’ (i.e."
-        },
-        {
-          "t": "h",
-          "text": "‘of imperātor, imperātōris (m.) ‘man with us all’)"
-        },
-        {
-          "t": "h",
-          "text": "military authority’, ‘general’ cōnsul, cōnsulis (m.) ‘consul’ (the"
-        },
-        {
-          "t": "p",
-          "text": "litterae, litterārum (f."
-        },
-        {
-          "t": "p",
-          "text": "plural) ‘letter’ leaders of the Roman Republic) Āpulia, Āpuliae (f.) ‘Apulia’ ops, opis (f.) ‘help’ (a region of Italy) atque ‘and’ prō ‘by’ auxilium, auxiliī (n.) ‘support’ singulāris, singulāre ‘outstanding’ ferō, ferre, tulī, lātum (third perpetuus, -a, -um ‘unchanging’ conjugation) ‘bring’ studium, studiī (n.) ‘zeal’ cēnseō, cēnsēre, cēnsuī, cēnsum ‘think in (+ accusative) ‘for’ it best’ (parenthetical here) rēs pūblica, reī pūblicae (f.) ‘state’ viā Appiā ‘on the Appian way’ tē ."
-        },
-        {
-          "t": "example",
-          "text": ". . cōnferās (present subjunctive) iter, itineris (n.) ‘journey’ ‘come’ (literally ‘bring yourself’) celeriter ‘quickly’ afflīgō, afflīgere, afflīxī, afflīctum Brundisium, -ī (n.) ‘Brundisium’ (a port"
-        },
-        {
-          "t": "h",
-          "text": "‘batter’, ‘afflict’ town)"
-        },
-        {
-          "t": "h",
-          "text": "3 Cicero, Epistulae ad Atticum 7.24 (adapted): Cicero sends Atticus news about the"
-        },
-        {
-          "t": "p",
-          "text": "progress of the civil wars in 49 bc . Cicero Attico salutem dicit. Philotimi litterae me quidem non nimis, sed eos, qui in his locis erant, admodum delectaverunt. ecce postridie intelleximus de litteris missis Capua a Lucretio Nigidium a Domitio Capuam venisse. . . . idem scripsit Capua consules discessisse. non dubito quin Gnaeus in fuga sit: modo effugiat."
-        },
-        {
-          "t": "h",
-          "text": "Vocabulary"
-        },
-        {
-          "t": "h",
-          "text": "Cicerō, Cicerōnis (m.) name Lucrētius, -ī (m.) name of a person"
-        },
-        {
-          "t": "h",
-          "text": "of the writer currently in Capua"
-        },
-        {
-          "t": "h",
-          "text": "Atticus, Atticī (m.) name Nigidius, -ī (m.) name of an envoy"
-        },
-        {
-          "t": "h",
-          "text": "of a friend Domitius, -ī (m.) name of the"
-        },
-        {
-          "t": "p",
-          "text": "salūs, salūtis (f.) ‘greetings’ commander of some of Pompey’s Philotīmus, -ī (m.) name of another forces"
-        },
-        {
-          "t": "h",
-          "text": "correspondent īdem ‘the same man’ (nominative"
-        },
-        {
-          "t": "h",
-          "text": "4 Corpus Inscriptionum Latinarum iv.1136 (adapted): a notice from a wall in Pompeii"
-        },
-        {
-          "t": "p",
-          "text": "litterae, litterārum (f."
-        },
-        {
-          "t": "p",
-          "text": "plural) ‘letter’ singular) quidem ‘indeed’ cōnsul, cōnsulis (m.) ‘consul’ (the nimis ‘too much’ leaders of the Roman Republic) erant ‘were’ dubitō, -āre, -āvī, -ātum ‘doubt’ locus, locī (m.) ‘place’ quīn (+ subjunctive) ‘that’ admodum ‘very much’ Gnaeus, Gnaeī (m.) ‘Pompey’ (‘Gnaeus’ dēlectō, -āre, -āvī, -ātum ‘delight’ was his first name) ecce ‘look!’ fuga, fugae (f.) ‘retreat’ postrīdiē ‘on the next day’ modo ‘only’ Capua, Capuae (f.) name of a town effugiō (like fugiō) ‘escape’ about property for rent (first century ad)."
-        },
-        {
-          "t": "p",
-          "text": "In praediis Iuliae Spuri filiae Felicis locantur balneum, tabernae, pergulae, cenacula; ex Idibus Augustis primis in Augustas sextas, annos continuos quinque. si quis desiderabit, locatrici dicat."
-        },
-        {
-          "t": "h",
-          "text": "Vocabulary"
-        },
-        {
-          "t": "p",
-          "text": "praedium, praediī (n.) ‘estate’ pergula, pergulae (f.) ‘balcony’ Iūlia Fēlīx, Iūliae Fēlīcis (f.) name of cēnāculum, cēnāculī (n.) ‘dining room’ a property owner (the two names Īdibus Augustīs ‘Ides (13th) of August’ should be put next to each other in prīmus can also mean ‘next’ English) Augustās sextās ‘(Ides of) the Spurius, Spuriī (m.) man’s name sixth August (from now)’ fīlia, fīliae (f.) ‘daughter’ continuus, -a, -um ‘continuous’ locō, locāre, locāvī, locātum ‘offer to be quis ‘anyone’"
-        },
-        {
-          "t": "h",
-          "text": "rented’ dēsīderō, -āre, -āvī, -ātum ‘desire (this"
-        },
-        {
-          "t": "example",
-          "text": "balneum, balneī (n.) ‘bath-house’ property)’ taberna, tabernae (f.) ‘shop’ locātrīx, locātrīcis (f.) ‘landlady’"
+          "text": "in plural) ‘place’ Londinium, Londiniī (n.) ‘London’ pēs, pedis (m.) ‘foot’ Rōma, Rōmae (f.) ‘Rome’ Syrācūsae, Syrācūsārum (f. plural) ‘Syracuse’"
         }
       ]
     }
@@ -329,104 +181,154 @@ const chapter = {
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "maneō, manēre, mānsī, mānsum",
-      "english": "remain, stay, wait",
-      "group": "Verba"
+      "latin": "Capinius, -a, -um",
+      "english": "Capinian",
+      "group": "Vocābula"
     },
     {
-      "latin": "rapiō, rapere, rapuī, raptum",
-      "english": "seize, grab, carry off",
-      "group": "Verba"
+      "latin": "mūneribus Augustōrum",
+      "english": "at the games priest",
+      "group": "Vocābula"
     },
     {
-      "latin": "valeō, valēre, valuī, valitum",
-      "english": "be well, be healthy",
-      "group": "Verba"
+      "latin": "Iūniās",
+      "english": "(number) days before the name of a sign-painter Kalends (first) of June",
+      "group": "Vocābula"
     },
     {
-      "latin": "annus, annī (m.)",
-      "english": "year",
-      "group": "Nōmina"
+      "latin": "ad lūnam",
+      "english": "by moonlight",
+      "group": "Vocābula"
     },
     {
-      "latin": "Athēnae, Athēnārum (f. plural)",
-      "english": "Athens",
-      "group": "Nōmina"
+      "latin": "Cn. Magnus = Gnaeus Pompeius Magnus libenter",
+      "english": "with pleasure",
+      "group": "Vocābula"
     },
     {
-      "latin": "Carthāgō, Carthāginis (f.)",
-      "english": "Carthage",
-      "group": "Nōmina"
+      "latin": "etiam",
+      "english": "still",
+      "group": "Vocābula"
     },
     {
-      "latin": "Corinthus, Corinthī (f.)",
-      "english": "Corinth",
-      "group": "Nōmina"
+      "latin": "in can also mean",
+      "english": "for",
+      "group": "Vocābula"
     },
     {
-      "latin": "Delphī, Delphōrum (m. plural)",
-      "english": "Delphi",
-      "group": "Nōmina"
+      "latin": "commūnis, commūne",
+      "english": "shared",
+      "group": "Vocābula"
     },
     {
-      "latin": "hōra, hōrae (f.)",
-      "english": "hour",
-      "group": "Nōmina"
+      "latin": "general",
+      "english": "cōnsul, cōnsulis (m.)",
+      "group": "Vocābula"
     },
     {
-      "latin": "locus, locī (m., also n. in plural)",
-      "english": "place",
-      "group": "Nōmina"
+      "latin": "atque",
+      "english": "and",
+      "group": "Vocābula"
     },
     {
-      "latin": "Londinium, Londiniī (n.)",
-      "english": "London",
-      "group": "Nōmina"
+      "latin": "prō",
+      "english": "by",
+      "group": "Vocābula"
     },
     {
-      "latin": "pēs, pedis (m.)",
-      "english": "foot",
-      "group": "Nōmina"
+      "latin": "singulāris, singulāre",
+      "english": "outstanding",
+      "group": "Vocābula"
     },
     {
-      "latin": "Rōma, Rōmae (f.)",
-      "english": "Rome",
-      "group": "Nōmina"
+      "latin": "ferō, ferre, tulī, lātum (third perpetuus, -a, -um",
+      "english": "unchanging",
+      "group": "Vocābula"
     },
     {
-      "latin": "Syrācūsae, Syrācūsārum (f. plural)",
-      "english": "Syracuse",
-      "group": "Nōmina"
+      "latin": "cēnseō, cēnsēre, cēnsuī, cēnsum",
+      "english": "think in (+ accusative)",
+      "group": "Vocābula"
     },
     {
-      "latin": "continues. Adjectives prīmus, prīma, prīmum",
-      "english": "first",
-      "group": "Nōmina"
+      "latin": "viā Appiā",
+      "english": "on the Appian way",
+      "group": "Vocābula"
     },
     {
-      "latin": "quārtus, quārta, quārtum",
-      "english": "fourth",
-      "group": "Nōmina"
+      "latin": "celeriter",
+      "english": "quickly",
+      "group": "Vocābula"
     },
     {
-      "latin": "quīntus, quīnta, quīntum",
-      "english": "fifth",
-      "group": "Nōmina"
+      "latin": "correspondent īdem",
+      "english": "the same man",
+      "group": "Vocābula"
     },
     {
-      "latin": "sextus, sexta, sextum",
-      "english": "sixth",
-      "group": "Nōmina"
+      "latin": "quidem",
+      "english": "indeed",
+      "group": "Vocābula"
     },
     {
-      "latin": "septimus, septima, septimum",
-      "english": "seventh",
-      "group": "Nōmina"
+      "latin": "erant",
+      "english": "were",
+      "group": "Vocābula"
     },
     {
-      "latin": "propter (+ accusative)",
-      "english": "on account of",
-      "group": "Praepositiōnēs"
+      "latin": "dubitō, -āre, -āvī, -ātum",
+      "english": "doubt",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "admodum",
+      "english": "very much",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dēlectō, -āre, -āvī, -ātum",
+      "english": "delight",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ecce",
+      "english": "look!",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "postrīdiē",
+      "english": "on the next day",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "modo",
+      "english": "only",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "man",
+      "english": "s name sixth August (from now)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "continuus, -a, -um",
+      "english": "continuous",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "locō, locāre, locāvī, locātum",
+      "english": "offer to be quis",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "rented",
+      "english": "dēsīderō, -āre, -āvī, -ātum",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "shop",
+      "english": "locātrīx, locātrīcis (f.)",
+      "group": "Vocābula"
     }
   ],
   "pensa": [

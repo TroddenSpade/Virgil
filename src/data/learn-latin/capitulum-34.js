@@ -131,140 +131,20 @@ const chapter = {
           "text": "Practice"
         },
         {
-          "t": "h",
-          "text": "1 He came with his brother. 14 She struck me with her fist."
-        },
-        {
-          "t": "h",
-          "text": "2 They tricked him with a fake ID. 15 May I come with you?"
-        },
-        {
-          "t": "h",
-          "text": "3 Did you work with Mike? 16 Jane lives with John."
-        },
-        {
-          "t": "h",
-          "text": "4 We work by stealth. 17 We were seen by everyone."
-        },
-        {
-          "t": "h",
-          "text": "5 We shall not be defeated by the 18 They won by trickery."
-        },
-        {
-          "t": "h",
-          "text": "6 The temple was buried by a 20 Our son always plays with"
-        },
-        {
-          "t": "h",
-          "text": "7 Our men fought with javelins. 21 I sewed it up with a shoelace."
-        },
-        {
-          "t": "h",
-          "text": "8 Our men fought with the enemy. 22 She’s walking with Mary."
-        },
-        {
-          "t": "h",
-          "text": "9 I like to chat with Jim. 23 The police caught him with"
-        },
-        {
-          "t": "h",
-          "text": "10 I bought it with the money he a hidden camera."
+          "t": "p",
+          "text": "E State whether the underlined words in each sentence should be translated into Latin with ā/ab (+ ablative), cum (+ ablative), or an ablative without a preposition. 1 He came with his brother. 14 She struck me with her fist. 2 They tricked him with a fake ID. 15 May I come with you? 3 Did you work with Mike? 16 Jane lives with John. 4 We work by stealth. 17 We were seen by everyone."
         },
         {
           "t": "p",
-          "text": "E State whether the underlined words in each sentence should be translated into Latin with ā/ab (+ ablative), cum (+ ablative), or an ablative without a preposition. Parthians. 19 With your help we can do it. landslide. Jimmy."
-        },
-        {
-          "t": "h",
-          "text": "gave me. 24 The police caught him with his"
-        },
-        {
-          "t": "h",
-          "text": "11 We are saddened by his early accomplice."
-        },
-        {
-          "t": "h",
-          "text": "death. 25 We shall win by hook or by"
-        },
-        {
-          "t": "h",
-          "text": "12 She was mistreated by her crook."
-        },
-        {
-          "t": "h",
-          "text": "husband. 26 These poems will be read by"
-        },
-        {
-          "t": "h",
-          "text": "13 He is over there with the soldiers. posterity."
-        },
-        {
-          "t": "h",
-          "text": "1 Cicero, Epistulae ad Atticum 7.13.1 (adapted): Cicero writes to his friend T. Pomponius"
+          "text": "5 We shall not be defeated by the 18 They won by trickery. Parthians. 19 With your help we can do it. 6 The temple was buried by a 20 Our son always plays with landslide. Jimmy. 7 Our men fought with javelins. 21 I sewed it up with a shoelace. 8 Our men fought with the enemy. 22 She’s walking with Mary. 9 I like to chat with Jim. 23 The police caught him with 10 I bought it with the money he a hidden camera. gave me."
         },
         {
           "t": "p",
-          "text": "Atticus about the dangers posed by Caesar (part of a letter written in 49 bc ). Amo etiam Pisonem, cuius iudicium de genero suspicor visum iri grave – quamquam genus belli vides. ita civile est ut non ex civium dissensione, sed ex unius perditi civis audacia natum sit. is autem valet exercitu, tenet multos spe et promissis, omnia omnium concupivit."
-        },
-        {
-          "t": "h",
-          "text": "Vocabulary"
+          "text": "24 The police caught him with his 11 We are saddened by his early accomplice. death. 25 We shall win by hook or by 12 She was mistreated by her crook. husband. 26 These poems will be read by 13 He is over there with the soldiers. posterity. 1 Cicero, Epistulae ad Atticum 7.13.1 (adapted): Cicero writes to his friend T. Pomponius Atticus about the dangers posed by Caesar (part of a letter written in 49 bc )."
         },
         {
           "t": "p",
-          "text": "etiam ‘even’ dissēnsiō, dissēnsiōnis (f.) Pīsō, Pīsōnis (m.) name of Caesar’s ‘disagreement’"
-        },
-        {
-          "t": "h",
-          "text": "father-in-law ūnīus ‘one’ (genitive singular)"
-        },
-        {
-          "t": "h",
-          "text": "2 St Thomas Aquinas, first verse of hymn Pange lingua: the saint speaks to his own"
-        },
-        {
-          "t": "h",
-          "text": "3 Apicius, De re coquinaria 7.7.1 (adapted): from an ancient cookbook, the recipe for"
-        },
-        {
-          "t": "p",
-          "text": "iūdicium, iūdiciī (n.) ‘judgement’ perditus, -a, -um ‘abandoned’ (i.e."
-        },
-        {
-          "t": "example",
-          "text": "lost gener, generī (m.) ‘son-in-law’ to all good sense) suspicor, suspicārī, suspicātus sum audācia, audāciae (f.) ‘audacity’ ‘suspect’ nātus, nāta, nātum ‘born from’ videor (passive of videō) ‘be seen as’ valeō, valēre, valuī, valitum ‘be strong gravis can also mean ‘important’ in’ (+ ablative) quamquam ‘although’ teneō, tenēre, tenuī, tentum ‘hold’ genus, generis (n.) ‘type’ prōmissum, prōmissī (n.) ‘promise’ cīvīlis, cīvīle ‘civil’ concupīscō, -pīscere, -pīvī, -pītum ‘desire’ tongue (thirteenth century)."
-        },
-        {
-          "t": "p",
-          "text": "The ‘king of peoples’ refers to Christ. Pange, lingua, gloriosi corporis mysterium, sanguinisque pretiosi quem in mundi pretium fructus ventris generosi rex effudit gentium."
-        },
-        {
-          "t": "p",
-          "text": "Vocabulary pangō, pangere, pepigī, pāctum ‘fix’, mundus, mundī (m.) ‘world’ ‘celebrate in poetry’ pretium, pretiī (n.) ‘price’ lingua, linguae (f.) ‘tongue’ frūctus, frūctūs (m.) ‘produce’ glōriōsus, -a, -um ‘glorious’ venter, ventris (m.) ‘womb’ mystērium, -ī (n.) ‘mystery’ generōsus, -a, -um ‘noble’ sanguis, sanguinis (m.) ‘blood’ effundō, effundere, effūdī, effūsum pretiōsus, -a, -um ‘precious’ ‘pour out’ in (+ accusative) ‘as’ gēns, gentis, gentium (f.) ‘people’ cooking a pig’s stomach (perhaps fifth century ad)."
-        },
-        {
-          "t": "p",
-          "text": "Ventrem porcinum bene evacuas, lavas aceto et sale et postea aqua, et hanc impensam imples: pulpam porcinam tonsam et ita tritam ut enervata commisceas cerebella tria et ova cruda, cui nucleos infundis et piper integrum mittis et hoc iure temperas: teris piper, silphium, anisum, zingiberi, rutam modicam, liquamen optimum, et oleum modicum. ventrem ita reples ut laxamentum habeat, ne dissiliat in coctura."
-        },
-        {
-          "t": "p",
-          "text": "surculas ambas et in ollam bullientem mittis. levas et pungis acu, ne crepet. cum ad dimidias coctum fuerit, levas et in fumum suspendis ut coloretur, et denuo eum perelixabis ut coqui possit. deinde liquamen, merum, oleum modicum mittis, et cultello aperis et cum liquamine apponis."
-        },
-        {
-          "t": "example",
-          "text": "Vocabulary venter, ventris (m.) ‘stomach’ optimus, optima, optimum ‘bestporcīnus, -a, -um ‘of a pig’, ‘pork’ quality’ ēvacuō, -āre, -āvī, -ātum ‘empty’ oleum, oleī (n.) ‘olive oil’ lavō, lavāre, lāvī, lautum ‘wash’ repleō, replēre, replēvī, replētum ‘fill up’ acētum, acētī (n.) ‘vinegar’ laxāmentum, laxāmentī (n.) ‘spare sāl, salis (m.) ‘salt’ space’\nposteā ‘afterwards’ dissiliō, dissilīre, dissiluī, dissultum impēnsa, impēnsae (f.) ‘stuffing’ ‘burst’ impleō, implēre, implēvī, implētum coctūra, coctūrae (f.) ‘cooking’ ‘stuff into it’ surculō, -āre, -āvī, -ātum ‘tie up’ pulpa, pulpae (f.) ‘meat’\nambās ‘both ends’ (accusative) tondeō, tondēre, totondī, tōnsum ‘cut up’ ōlla, ōllae (f.) ‘pot’ terō, terere, trīvī, trītum ‘pound’ bulliō, -īre, -īvī, -ītum ‘boil’ ēnervō, -āre, -āvī, -ātum ‘remove the levō, levāre, levāvī, levātum ‘lift it out’"
-        },
-        {
-          "t": "h",
-          "text": "sinews of’ pungō, pungere, pupugī, pūnctum"
-        },
-        {
-          "t": "p",
-          "text": "commisceō, -miscēre, -miscuī, -mixtum ‘puncture’ ‘mix in’ acus, acūs (f.) ‘needle’ cerebellum, cerebellī (n.) ‘brain’ crepō, crepāre, crepuī, crepitum ‘rattle’ trēs, tria ‘three’ (from bubbles of air) ōvum, ōvī (n.) ‘egg’ cum ad dīmidiās coctum fuerit ‘when it crūdus, crūda, crūdum ‘raw’ is half cooked’ nucleus, nucleī (m.) ‘nut’ fūmus, fūmī (m.) ‘smoke’ īnfundō, īnfundere, īnfūdī, īnfūsum (+ suspendō, -pendere, -pendī, -pēnsum dative) ‘pour in to’ ‘hang up’ piper, piperis (n.) ‘peppercorn’ colōrō, -āre, -āvī, -ātum ‘colour’ integer, integra, integrum ‘whole’, ‘intact’ dēnuō ‘once again’ mittō can also mean ‘put in’ perēlixō, -āre, -āvī, -ātum ‘boil iūs, iūris (n.) ‘juice’, ‘sauce’ thoroughly’ temperō, -āre, -āvī, -ātum ‘blend’ coquō, coquere, coxī, coctum ‘cook’ silphium, silphiī (n.) ‘silphium’ (a plant) deinde ‘then’ anīsum, anīsī (n.) ‘anise’ merum, merī (n.) ‘pure wine’ (i.e."
-        },
-        {
-          "t": "p",
-          "text": "not zingiberi, zingiberis (n.) ‘ginger’ mixed with water) rūta, rūtae (f.) ‘rue’ cultellus, cultellī (m.) ‘small knife’ modicus, -a, -um ‘a little’ aperiō, aperīre, aperuī, apertum ‘open’ liquāmen, liquāminis (n.) ‘garum’ appōnō (like pōnō) ‘serve’ (understood (sauce made by leaving fish in the object: the stomach) sun for 3 months)"
+          "text": "Amo etiam Pisonem, cuius iudicium de genero suspicor visum iri grave – quamquam genus belli vides. ita civile est ut non ex civium dissensione, sed ex unius perditi civis audacia natum sit. is autem valet exercitu, tenet multos spe et promissis, omnia omnium concupivit."
         }
       ]
     },
@@ -304,7 +184,178 @@ const chapter = {
     }
   ],
   "grammar": [],
-  "vocabulary": [],
+  "vocabulary": [
+    {
+      "latin": "etiam",
+      "english": "even",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "father-in-law ūnīus",
+      "english": "one",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "perditus, -a, -um",
+      "english": "abandoned",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "nātus, nāta, nātum",
+      "english": "born from",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "valeō, valēre, valuī, valitum",
+      "english": "be strong gravis can also mean",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "important",
+      "english": "in",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "quamquam",
+      "english": "although",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "teneō, tenēre, tenuī, tentum",
+      "english": "hold",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cīvīlis, cīvīle",
+      "english": "civil",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "glōriōsus, -a, -um",
+      "english": "glorious",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "generōsus, -a, -um",
+      "english": "noble",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "effundō, effundere, effūdī, effūsum pretiōsus, -a, -um",
+      "english": "precious",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "surculō, -āre, -āvī, -ātum",
+      "english": "tie up",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ambās",
+      "english": "both ends",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "tondeō, tondēre, totondī, tōnsum",
+      "english": "cut up",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "terō, terere, trīvī, trītum",
+      "english": "pound",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "bulliō, -īre, -īvī, -ītum",
+      "english": "boil",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ēnervō, -āre, -āvī, -ātum",
+      "english": "remove the levō, levāre, levāvī, levātum",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "commisceō, -miscēre, -miscuī, -mixtum",
+      "english": "puncture",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "crepō, crepāre, crepuī, crepitum",
+      "english": "rattle",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "trēs, tria",
+      "english": "three",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cum ad dīmidiās coctum fuerit",
+      "english": "when it crūdus, crūda, crūdum",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "raw",
+      "english": "is half cooked",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "colōrō, -āre, -āvī, -ātum",
+      "english": "colour",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "integer, integra, integrum",
+      "english": "whole",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dēnuō",
+      "english": "once again",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "mittō can also mean",
+      "english": "put in",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "perēlixō, -āre, -āvī, -ātum",
+      "english": "boil iūs, iūris (n.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sauce",
+      "english": "thoroughly",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "temperō, -āre, -āvī, -ātum",
+      "english": "blend",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "coquō, coquere, coxī, coctum",
+      "english": "cook",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "deinde",
+      "english": "then",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "modicus, -a, -um",
+      "english": "a little",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "aperiō, aperīre, aperuī, apertum",
+      "english": "open",
+      "group": "Vocābula"
+    }
+  ],
   "pensa": [
     {
       "latinLabel": "PRACTICE A",

@@ -29,46 +29,6 @@ const chapter = {
         {
           "t": "p",
           "text": "(on arrival at court) sicut constituimus, adest Gaius. convocemus eum in consilium. hic habemus instrumenta. g a i u s : denuntiavistine illi? l u c i u s : denuntiavi. g a i u s : testatusne es? l u c i u s : testatus sum. tacete, audiamus sententiam. audivistine nos vicisse, Gai?"
-        },
-        {
-          "t": "h",
-          "text": "Vocabulary"
-        },
-        {
-          "t": "p",
-          "text": "avē ‘hello’ cōnstituō, -ere, cōnstituī, cōnstitūtum quid ‘how’ ‘agree about a meeting’ rēctē ‘rightly’, ‘as it should’ circā (+ accusative) ‘around’ habeō with a reflexive is equivalent to forum, forī (n.) ‘forum’, ‘marketplace’ ‘be’ porticus, porticūs (f.) ‘colonnade’ quōmodo ‘how’ iuxtā (+ accusative) ‘next to’ grātulor, -ārī, -ātus sum (+ dative) stoa, stoae (f.) ‘stoa’ (a building) ‘rejoice for’ Victōria, Victōriae (f.) ‘Victory’ sīcut ‘just as’ (personified) iūdicium, iūdiciī (n.) ‘court case’ post (+ accusative) ‘after’ ad (+ accusative) ‘before’ (i.e."
-        },
-        {
-          "t": "p",
-          "text": "in the modicum, modicī (n.) ‘a little while’ court of) mēns, mentis, mentium (f.) ‘mind’ quaestor, quaestōris (m.) ‘quaestor’ sēcūrus, -a, -um ‘free from worry’ (kind of official) pertinet (+ dative) ‘it matters to’"
-        },
-        {
-          "t": "h",
-          "text": "prōcōnsul, prōcōnsulis (m.) ‘proconsul’ nummulārius, nummulāriī (m.)"
-        },
-        {
-          "t": "example",
-          "text": "(kind of official) ‘banker’\nquāle ‘what sort of thing?’ dēnārius, dēnāriī (m.) ‘denarius’ (a ipse, ipsa, ipsum ‘itself’ coin) valdē ‘very’ centum (indeclinable) ‘hundred’ pecūniārius, -a, -um ‘financial’ causidicus, causidicī (m.) ‘barrister’, vacat tibi ‘you have leisure’ (literally ‘it ‘lawyer’"
-        },
-        {
-          "t": "h",
-          "text": "is vacant to you’) iūris perītus, iūris perītī (m.) ‘legal"
-        },
-        {
-          "t": "p",
-          "text": "diēs, diēī (f.) ‘appointed date’ (note expert’ (literally ‘skilled in law’) gender in this meaning!) convocō (like vocō) ‘call together’ sententia, sententiae (f.) ‘verdict’ cōnsilium, cōnsiliī (n.) ‘consultation’ quārē ‘for which reason’ īnstrūmentum, īnstrūmentī (n.) tē praesente ‘in your presence’ ‘evidence’ tractō, tractāre, tractāvī, tractātum dēnūntiō, -āre, -āvī, -ātum (+ dative) ‘discuss’ ‘serve a summons to’ adhibeō, adhibēre, adhibuī, testor, testārī, testātus sum ‘testify’ adhibitum ‘call in’ taceō, tacēre, tacuī, tacitum ‘keep silent’"
-        }
-      ]
-    },
-    {
-      "id": "section-2",
-      "latin": "48.2 Translate into Latin",
-      "english": "Grammar",
-      "kind": "commentary",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "gaius: Hello, Lucius. lucius: How are you doing, Gaius? gaius: Very badly: I must go to the forum today to help my friend Marcus. lucius: Why? gaius: He has a court case before the quaestor, since he owes many denarii. lucius: But Marcus bought a new house yesterday."
         }
       ]
     },
@@ -97,34 +57,197 @@ const chapter = {
         {
           "t": "p",
           "text": "illi indignantes magno cum murmure montis circum claustra fremunt; celsa sedet Aeolus arce sceptra tenens mollitque animos et temperat iras; ni faciat, maria ac terras caelumque profundum quippe ferant rapidi secum verrantque per auras."
-        },
-        {
-          "t": "h",
-          "text": "Vocabulary"
-        },
-        {
-          "t": "p",
-          "text": "flammō, -āre, -āvī, -ātum ‘inflame’ ventus, ventī (m.) ‘wind’ cor, cordis (n.) ‘heart’ tempestās, tempestātis (f.) ‘tempest’ volūtō, -āre, -āvī, -ātum ‘turn over’ sonōrus, -a, -um ‘noisy’ nimbus, nimbī (m.) ‘stormcloud’ imperium, imperiī (n.) ‘rule’, ‘power’ fētus, fēta, fētum (+ ablative) ‘breeding’, premō, premere, pressī, pressum ‘teeming with’ ‘oppress’ furō, furere, –, – ‘rage’ ac ‘and’ Auster, Austrī (m.) ‘storm-wind’ vinclum, vinclī (n.) ‘chain’ Aeolia, Aeoliae (f.) name of a place carcer, carceris (m.) ‘prison’ vāstus, vāsta, vāstum ‘vast’ frēnō, -āre, -āvī, -ātum ‘restrain’ Aeolus, Aeolī (m.) name of the god of indignor, -ārī, -ātus sum ‘be angry’ the winds murmur, murmuris (n.) ‘growl’ antrum, antrī (n.) ‘cave’ (supply in) mōns, montis, montium (m.) luctor, luctārī, luctātus sum ‘struggle’ ‘mountain’ circum (+ accusative) ‘around’ temperō, -āre, -āvī, -ātum ‘moderate’ claustra, claustrōrum (n."
-        },
-        {
-          "t": "p",
-          "text": "plural) īra, īrae (f.) ‘anger’ ‘defences’ nī ‘if not’ fremō, fremere, fremuī, fremitum ‘roar’ mare, maris, marium (n.) ‘sea’ celsus, celsa, celsum ‘lofty’ terra, terrae (f.) ‘land’ arx, arcis, arcium (f.) ‘citadel’ (supply in) caelum, caelī (n.) ‘heaven’ scēptrum, scēptrī (n.) ‘sceptre’ profundus, -a, -um ‘boundless’ teneō, tenēre, tenuī, tentum ‘hold’ quippe ‘indeed’ molliō, mollīre, mollīvī, mollītum rapidus, -a, -um ‘swift’ ‘soften’ verrō, verrere, –, versum ‘sweep’ animus, animī (m.) ‘spirit’ aura, aurae (f.) ‘air’ A possible prose order of the above would be: Talia flammato corde secum volutans dea in patriam nimborum, loca feta furentibus Austris, Aeoliam venit."
-        },
-        {
-          "t": "p",
-          "text": "hic vasto antro rex Aeolus ventos luctantis tempestatesque sonoras imperio premit ac vinclis et carcere frenat. illi indignantes cum magno murmure circum claustra montis fremunt; celsa arce sedet Aeolus sceptra tenens mollitque animos et iras temperat; ni faciat, maria ac terras caelumque profundum quippe rapidi secum ferant perque auras verrant."
-        },
-        {
-          "t": "h",
-          "text": "PART V"
         }
       ]
     }
   ],
   "readings": [],
   "grammar": [],
-  "vocabulary": [],
-  "pensa": []
+  "vocabulary": [
+    {
+      "latin": "avē",
+      "english": "hello",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cōnstituō, -ere, cōnstituī, cōnstitūtum quid",
+      "english": "how",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "rēctē",
+      "english": "rightly",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "quōmodo",
+      "english": "how",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sīcut",
+      "english": "just as",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sēcūrus, -a, -um",
+      "english": "free from worry",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "quāle",
+      "english": "what sort of thing?",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "valdē",
+      "english": "very",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "pecūniārius, -a, -um",
+      "english": "financial",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "vacat tibi",
+      "english": "you have leisure",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "quārē",
+      "english": "for which reason",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "tē praesente",
+      "english": "in your presence",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "adhibeō, adhibēre, adhibuī, testor, testārī, testātus sum",
+      "english": "testify",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "adhibitum",
+      "english": "call in",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "taceō, tacēre, tacuī, tacitum",
+      "english": "keep silent",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "flammō, -āre, -āvī, -ātum",
+      "english": "inflame",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "volūtō, -āre, -āvī, -ātum",
+      "english": "turn over",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sonōrus, -a, -um",
+      "english": "noisy",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "furō, furere, –, –",
+      "english": "rage",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ac",
+      "english": "and",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "vāstus, vāsta, vāstum",
+      "english": "vast",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "frēnō, -āre, -āvī, -ātum",
+      "english": "restrain",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "luctor, luctārī, luctātus sum",
+      "english": "struggle",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "temperō, -āre, -āvī, -ātum",
+      "english": "moderate",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "nī",
+      "english": "if not",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "fremō, fremere, fremuī, fremitum",
+      "english": "roar",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "celsus, celsa, celsum",
+      "english": "lofty",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "profundus, -a, -um",
+      "english": "boundless",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "teneō, tenēre, tenuī, tentum",
+      "english": "hold",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "quippe",
+      "english": "indeed",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "molliō, mollīre, mollīvī, mollītum rapidus, -a, -um",
+      "english": "swift",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "verrō, verrere, –, versum",
+      "english": "sweep",
+      "group": "Vocābula"
+    }
+  ],
+  "pensa": [
+    {
+      "id": "translate-48",
+      "latinLabel": "48.2 TRANSLATE INTO LATIN",
+      "title": "48.2 Translate into Latin",
+      "instruction": "",
+      "type": "questions",
+      "items": [
+        {
+          "q": "lucius: How are you doing, Gaius?",
+          "a": ""
+        },
+        {
+          "q": "gaius: Very badly: I must go to the forum today to help my friend Marcus.",
+          "a": ""
+        },
+        {
+          "q": "gaius: He has a court case before the quaestor, since he owes many denarii.",
+          "a": ""
+        }
+      ]
+    }
+  ]
 }
 
 export default chapter

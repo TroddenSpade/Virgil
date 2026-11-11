@@ -49,38 +49,6 @@ const chapter = {
       ]
     },
     {
-      "id": "section-4",
-      "latin": "60.3 Distinguishing Gerunds from Other Words Translated with ‘-ing’",
-      "english": "Grammar",
-      "kind": "commentary",
-      "blocks": [
-        {
-          "t": "h",
-          "text": "in English"
-        },
-        {
-          "t": "p",
-          "text": "The fact that the infinitive is the nominative of the gerund means that in an English sentence like ‘Swimming is fun’ the word in ‘-ing’ is equivalent to a Latin infinitive. In fact the full range of Latin possibilities for English words in ‘-ing’ is four, because some such words are part of verbs. ‘Ruling well is good.’ bene regere bonum est. (English gerund, Latin infinitive acting as"
-        },
-        {
-          "t": "h",
-          "text": "gerund in the nominative)"
-        },
-        {
-          "t": "example",
-          "text": "‘You will conquer by ruling well.’ bene regendō vincēs. (English gerund, Latin gerund) ‘The ruling men are happy.’ (virī) regentēs fēlīcēs sunt. (English participle, Latin"
-        },
-        {
-          "t": "h",
-          "text": "participle)"
-        },
-        {
-          "t": "example",
-          "text": "‘You are ruling well.’ bene regis. (English participle as part of a present periphrastic verb; Latin finite verb). Cf. ‘you were ruling well’ bene regēbās, ‘you will be ruling well’ bene regēs."
-        }
-      ]
-    },
-    {
       "id": "section-5",
       "latin": "60.4 Use of the Gerund",
       "english": "Grammar",
@@ -97,6 +65,22 @@ const chapter = {
         {
           "t": "p",
           "text": "Thus laudāre bonum est ‘praising is good’, ‘it is good to praise’. A gerund may be modified by an adverb and may take an object, as bene laudandī causā ‘for the sake of praising well’ or eōs laudandī causā ‘for the sake of praising them’. But the use of objects with gerunds is rare (cf. chapter 61)."
+        }
+      ]
+    },
+    {
+      "id": "section-6",
+      "latin": "60.6 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "Verbs bibō, bibere, bibī, – ‘drink’ coquō, coquere, coxī, coctum ‘cook’, ‘bake’ tangō, tangere, tetigī, tāctum ‘touch’ Nouns amor, amōris (m.) ‘love’ hospes, hospitis (m.) ‘guest’, ‘host’ īnsula, īnsulae (f.) ‘island’ īra, īrae (f.) ‘anger’ iter, itineris (n.) ‘journey’ Iuppiter, Iovis (m.) ‘Jupiter’ lūdus, lūdī (m.) ‘game’ mare, maris, marium (n.) ‘sea’ mōns, montis, montium (m.) ‘mountain’ mulier, mulieris (f.) ‘woman’ porta, portae (f.) ‘gate’ tēctum, tēctī (n.) ‘roof’ Adjective vetus, gen."
+        },
+        {
+          "t": "h",
+          "text": "veteris ‘old’"
         }
       ]
     }
@@ -121,84 +105,179 @@ const chapter = {
   "grammar": [],
   "vocabulary": [
     {
+      "latin": "concertō, -āre, -āvī, -ātum",
+      "english": "quarrel",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "erō, -āre, -āvī, -ātum",
+      "english": "beat",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "usque",
+      "english": "until",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "inīquus, inīqua, inīquum",
+      "english": "unequal",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dēfetīscor, dēfetīscī, dēfessus sum",
+      "english": "get comparō, -āre, -āvī, -ātum",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "match",
+      "english": "tired",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "vāpulō, -āre, -āvī, -ātum",
+      "english": "be beaten",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dūcō can also mean",
+      "english": "marry",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "heia",
+      "english": "alas",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "optō, optāre, optāvī, optātum",
+      "english": "wish",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "studeō, studēre, studuī, –",
+      "english": "make an mors, mortis, mortium (f.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "effort",
+      "english": "exspectō, -āre, -āvī, -ātum",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "conterō, -terere, -trīvī, -trītum",
+      "english": "wear to",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "away",
+      "english": "scīlicet",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "quaerō can also mean",
+      "english": "try",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ēdūcō, ēdūcere, ēdūxī, ēductum",
+      "english": "bring aetās, aetātis (f.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "exigō, exigere, exēgī, exāctum",
+      "english": "finish",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "age",
+      "english": "come on!",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "experior, experīrī, expertus sum",
+      "english": "try",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "contrā",
+      "english": "on the other side",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "patrius, patria, patrium",
+      "english": "associated with blandus, -a, -um",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "fatherhood",
+      "english": "benignus, -a, -um",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "potior, potīrī, potītus sum quoque",
+      "english": "too",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "fugitō, -āre, -āvī, -ātum",
+      "english": "avoid",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dīligō, dīligere, dīlēxī, dīlēctum",
+      "english": "esteem",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "wine",
+      "english": "recēns, gen. recentis",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "tertiō can also mean",
+      "english": "for a third time",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "percōlō, -āre, -āvī, -ātum",
+      "english": "strain",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "albus, alba, album",
+      "english": "white part",
+      "group": "Vocābula"
+    },
+    {
       "latin": "bibō, bibere, bibī, –",
       "english": "drink",
-      "group": "Verba"
+      "group": "Vocābula"
     },
     {
-      "latin": "coquō, coquere, coxī, coctum",
-      "english": "cook, bake",
-      "group": "Verba"
+      "latin": "tollō can also mean",
+      "english": "remove",
+      "group": "Vocābula"
     },
     {
-      "latin": "tangō, tangere, tetigī, tāctum",
-      "english": "touch",
-      "group": "Verba"
+      "latin": "addō, addere, addidī, additum",
+      "english": "add",
+      "group": "Vocābula"
     },
     {
-      "latin": "amor, amōris (m.)",
-      "english": "love",
-      "group": "Nōmina"
+      "latin": "īnserō, īnserere, īnseruī, īnsertum cōnficiō, -ficere, -fēcī, -fectum",
+      "english": "finish",
+      "group": "Vocābula"
     },
     {
-      "latin": "hospes, hospitis (m.)",
-      "english": "guest, host",
-      "group": "Nōmina"
+      "latin": "sūtilis, sūtile",
+      "english": "strung together",
+      "group": "Vocābula"
     },
     {
-      "latin": "īnsula, īnsulae (f.)",
-      "english": "island",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "īra, īrae (f.)",
-      "english": "anger",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "iter, itineris (n.)",
-      "english": "journey",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "Iuppiter, Iovis (m.)",
-      "english": "Jupiter",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "lūdus, lūdī (m.)",
-      "english": "game",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "mare, maris, marium (n.)",
-      "english": "sea",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "mōns, montis, montium (m.)",
-      "english": "mountain",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "mulier, mulieris (f.)",
-      "english": "woman",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "porta, portae (f.)",
-      "english": "gate",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "tēctum, tēctī (n.)",
-      "english": "roof",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "vetus, gen. veteris",
-      "english": "old",
-      "group": "Adiectīva"
+      "latin": "temperō, -āre, -āvī, -ātum",
+      "english": "mix",
+      "group": "Vocābula"
     }
   ],
   "pensa": [
@@ -473,19 +552,24 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "14 (adapted): Sannio has a bad experience with the master of the slave Syrus (second century bc ). syrus : quid istud, Sannio, est quod audio te concertavisse cum ero? sannio: numquam vidi certationem iniquius comparatam, quam quae hodie inter nos fuit: ego vapulando, ille verberando, usque ambo defessi sumus. syrus : tua culpa. Vocabulary concertō, -āre, -āvī, -ātum ‘quarrel’ verberō, -āre, -āvī, -ātum ‘beat’ erus, erī (m.) ‘master’ usque ‘until’ certātiō, certātiōnis (f.) ‘quarrel’ ambō (nominative) ‘both’ inīquus, inīqua, inīquum ‘unequal’ dēfetīscor, dēfetīscī, dēfessus sum ‘get comparō, -āre, -āvī, -ātum ‘match’ tired’ inter (+ accusative) ‘between’ culpa, culpae (f.) ‘fault’ vāpulō, -āre, -āvī, -ātum ‘be beaten’",
-          "a": ""
-        },
-        {
-          "q": "2 Terence, Adelphi 867–80 (adapted): an old man complains about his hard life (second century bc ). Duxi uxorem: quam ibi miseriam vidi! nati sunt filii: alia cura. heia, dum studeo ut illis quam plurimum facerem, contrivi in quaerendo vitam et aetatem meam. nunc exacta aetate hunc fructum pro labore ab eis accipio: odium. et frater meus sine labore commoda patria potitur. illum amant, me fugitant; illi credunt consilia omnia, illum diligunt, apud illum sunt ambo, ego desertus sum; illum ut uiuat optant, meam autem mortem exspectant scilicet. ita eos meo labore maximo eductos hic fecit suos parvo sumptu: ego miseriam omnem capio, hic potitur gaudia. age age, nunc experiamur contra num ego possim blande dicere aut benigne facere. ego quoque a meis me amari et magni pendi postulo. si id fit dando atque obsequendo, faciam. Vocabulary dūcō can also mean ‘marry’ apud (+ accusative) ‘at the house of’ uxor, uxōris (f.) ‘wife’ ambō (nominative) ‘both’ miseria, miseriae (f.) ‘misery’ dēserō, dēserere, dēseruī, dēsertum cūra, cūrae (f.) ‘care’ ‘abandon’ heia ‘alas’ optō, optāre, optāvī, optātum ‘wish’ studeō, studēre, studuī, – ‘make an mors, mortis, mortium (f.) ‘death’ effort’ exspectō, -āre, -āvī, -ātum ‘look forward conterō, -terere, -trīvī, -trītum ‘wear to’ away’ scīlicet ‘certainly’ quaerō can also mean ‘try’ ēdūcō, ēdūcere, ēdūxī, ēductum ‘bring aetās, aetātis (f.) ‘prime of life’ up’ exigō, exigere, exēgī, exāctum ‘finish’ sūmptus, sūmptūs (m.) ‘expense’ frūctus, frūctūs (m.) ‘reward’ gaudium, gaudiī (n.) ‘joy’ prō (+ ablative) ‘for’ age ‘come on!’ labor, labōris (m.) ‘work’, ‘effort’ experior, experīrī, expertus sum ‘try’ commodum, commodī (n.) ‘benefit’ contrā ‘on the other side’ patrius, patria, patrium ‘associated with blandus, -a, -um ‘flattering’ fatherhood’ benignus, -a, -um ‘kind’ potior, potīrī, potītus sum quoque ‘too’, ‘also’ (+ accusative) ‘get possession of’ pendō, pendere, pependī, pēnsum fugitō, -āre, -āvī, -ātum ‘avoid’ ‘value’ crēdō, crēdere, crēdidī, crēditum postulō, -āre, -āvī, -ātum (+ accusative (+ dative) ‘entrust’ and infinitive) ‘ask’ dīligō, dīligere, dīlēxī, dīlēctum ‘esteem’ obsequor (like sequor) ‘be compliant’",
-          "a": ""
-        },
-        {
-          "q": "3 Apicius, De re coquinaria 1.3: a recipe for rose-flavoured wine (perhaps fifth century ad). Rosatum sic facies: folia rosarum, albo sublato, lino inseres ut sutiles facias, et vino quam plurima infundes, ut septem dies in vino sint. post septem dies, rosas de vino tolles et alias rosas recentes similiter sutiles infundes, ut dies septem in vino maneant, et rosas tolles. similiter et tertio facies et rosas tolles, et vinum percolabis, et cum ad bibendum uti voles, addito melle rosatum conficies. similiter et de violis violacium facies, et eodem modo melle temperabis. 406 Gerunds I Vocabulary rosātum, rosātī (n.) ‘rose-flavoured post (+ accusative) ‘after’ wine’ recēns, gen. recentis ‘fresh’ folium, foliī (n.) ‘petal’ tertiō can also mean ‘for a third time’ rosa, rosae (f.) ‘rose’ percōlō, -āre, -āvī, -ātum ‘strain’, ‘filter’ albus, alba, album ‘white part’ bibō, bibere, bibī, – ‘drink’ tollō can also mean ‘remove’ addō, addere, addidī, additum ‘add’ līnum, līnī (n.) ‘thread’ mel, mellis (n.) ‘honey’ īnserō, īnserere, īnseruī, īnsertum cōnficiō, -ficere, -fēcī, -fectum ‘finish’ ‘string’ viola, violae (f.) ‘violet’ sūtilis, sūtile ‘strung together’ violācium, violāciī (n.) ‘violet-flavoured vīnum, vīnī (n.) ‘wine’ wine’ īnfundō, īnfundere, īnfūdī, īnfūsum modus, modī (m.) ‘way’ (+ dative) ‘pour into’ temperō, -āre, -āvī, -ātum ‘mix’",
+          "q": "14 (adapted): Sannio has a bad experience with the master of the slave Syrus (second century bc ). syrus : quid istud, Sannio, est quod audio te concertavisse cum ero? sannio: numquam vidi certationem iniquius comparatam, quam quae hodie inter nos fuit: ego vapulando, ille verberando, usque ambo defessi sumus. syrus : tua culpa.",
           "a": ""
         }
       ],
       "id": "practice-60-e"
+    },
+    {
+      "id": "translate-60",
+      "latinLabel": "60.3 DISTINGUISHING GERUNDS FROM OTHER WORDS TRANSLATED WITH ‘-ING’",
+      "title": "60.3 Distinguishing Gerunds from Other Words Translated with ‘-ing’",
+      "instruction": "",
+      "type": "questions",
+      "items": [
+        {
+          "q": "‘you were ruling well’ bene regēbās, ‘you will be ruling well’ bene regēs.",
+          "a": ""
+        }
+      ]
     }
   ]
 }

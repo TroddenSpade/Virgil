@@ -147,24 +147,8 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "11 Brave men always fight well. 15 Is your sword sharp?"
-        },
-        {
-          "t": "h",
-          "text": "12 I am not brave. 16 The immortals are always"
-        },
-        {
-          "t": "h",
-          "text": "13 These women love that brave happy."
-        },
-        {
-          "t": "h",
-          "text": "14 Every girl here is beautiful. 18 May you (plural) be happy!"
-        },
-        {
           "t": "p",
-          "text": "man. 17 Give these to the sad boys."
+          "text": "11 Brave men always fight well. 15 Is your sword sharp? 12 I am not brave. 16 The immortals are always 13 These women love that brave happy. man. 17 Give these to the sad boys. 14 Every girl here is beautiful. 18 May you (plural) be happy!"
         },
         {
           "t": "p",
@@ -173,6 +157,22 @@ const chapter = {
         {
           "t": "example",
           "text": "regentis ‘ruling’ Fourth conjugation audiēns, gen. audientis ‘hearing’ Mixed conjugation capiēns, gen. capientis ‘taking’ Eō iēns, gen. euntis ‘going’"
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "latin": "21.5 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "labor, labōris (m.) ‘hard work’ prōficio, prōficere, prōfēcī, prōfectum litterae, litterārum (f. plural) ‘literary ‘make progress’ study’ plūs, plūris, plūrium (n.) ‘more’ cum (+ subjunctive) ‘even when’ supersum (like sum) ‘be left to do’\nmultum ‘a lot’ summus, summa, summum ‘greatest’"
+        },
+        {
+          "t": "example",
+          "text": "Adjectives ācer, ācris, ācre ‘sharp’, ‘keen’ brevis, breve ‘short’, ‘brief’ celer, celeris, celere ‘fast’, ‘swift’ difficilis, difficile ‘difficult’ facilis, facile ‘easy’ fēlīx, gen. fēlīcis ‘happy’, ‘fortunate’ fortis, forte ‘strong’, ‘brave’ gravis, grave ‘heavy’, ‘serious’ immortālis, immortāle ‘immortal’ omnis, omne ‘all’, ‘every’, ‘whole’ trīstis, trīste ‘sad’"
         }
       ]
     }
@@ -198,99 +198,49 @@ const chapter = {
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "labor, labōris (m.)",
-      "english": "hard work",
+      "latin": "acta sunt",
+      "english": "were done",
       "group": "Vocābula"
     },
     {
-      "latin": "prōficio, prōficere, prōfēcī, prōfectum litterae, litterārum (f. plural)",
-      "english": "literary",
+      "latin": "enim",
+      "english": "for",
       "group": "Vocābula"
     },
     {
-      "latin": "make progress",
+      "latin": "per singulōs",
+      "english": "individually",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ūnīus cuiusque",
+      "english": "of each person",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "et . . . et",
+      "english": "both . . . and",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "varius, varia, varium",
+      "english": "varied",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "studeō, studēre, studuī",
       "english": "study",
       "group": "Vocābula"
     },
     {
-      "latin": "plūs, plūris, plūrium (n.)",
-      "english": "more",
+      "latin": "add",
+      "english": "people",
       "group": "Vocābula"
     },
     {
-      "latin": "cum (+ subjunctive)",
-      "english": "even when",
+      "latin": "sunt",
+      "english": "there are",
       "group": "Vocābula"
-    },
-    {
-      "latin": "supersum (like sum)",
-      "english": "be left to do",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "multum",
-      "english": "a lot",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "summus, summa, summum",
-      "english": "greatest",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "ācer, ācris, ācre",
-      "english": "sharp, keen",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "brevis, breve",
-      "english": "short, brief",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "celer, celeris, celere",
-      "english": "fast, swift",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "difficilis, difficile",
-      "english": "difficult",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "facilis, facile",
-      "english": "easy",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "fēlīx, gen. fēlīcis",
-      "english": "happy, fortunate",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "fortis, forte",
-      "english": "strong, brave",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "gravis, grave",
-      "english": "heavy, serious",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "immortālis, immortāle",
-      "english": "immortal",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "omnis, omne",
-      "english": "all, every, whole",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "trīstis, trīste",
-      "english": "sad",
-      "group": "Adiectīva"
     }
   ],
   "pensa": [
@@ -823,7 +773,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "24 the fighting soldier (dative) Colloquium Stephani 18a–19d (adapted): the author tells teachers using his work that lessons should be individually tailored to particular students (probably first to third century ad ). Haec acta sunt per singulos iuxta unius cuiusque vires et profectum, et aetatem discipulorum. sunt enim et naturae variae studentium, et difficiles voluntates ad laborem litterarum, in quibus cum multum proficias, plus superest ut ad summum profectum venias. Vocabulary (in order of first appearance; words that appear more than once are in bold) acta sunt ‘were done’ enim ‘for’ (in the sense of ‘because’; per singulōs ‘individually’ translate one word earlier than where iuxtā (+ accusative) ‘according to’ it appears in Latin) ūnīus cuiusque ‘of each person’ et . . . et ‘both . . . and’ vīrēs, vīrium (f. plural) ‘strength’ nātūra, nātūrae (f.) ‘nature’ prōfectum, prōfectī (n.) varius, varia, varium ‘varied’ ‘advancement’ studeō, studēre, studuī ‘study’ aetās, aetātis (f.) ‘age’ (substantivized adjective here, so discipulus, discipulī (m.) ‘student’ add ‘people’) sunt ‘there are’ voluntās, voluntātis (f.) ‘disposition’ ad (+ accusative) ‘towards’",
+          "q": "24 the fighting soldier (dative) Colloquium Stephani 18a–19d (adapted): the author tells teachers using his work that lessons should be individually tailored to particular students (probably first to third century ad ). Haec acta sunt per singulos iuxta unius cuiusque vires et profectum, et aetatem discipulorum. sunt enim et naturae variae studentium, et difficiles voluntates ad laborem litterarum, in quibus cum multum proficias, plus superest ut ad summum profectum venias.",
           "a": ""
         }
       ],

@@ -78,69 +78,21 @@ const chapter = {
     },
     {
       "id": "section-1",
-      "latin": "Sequence of Tenses",
-      "english": "Chapter",
+      "latin": "16.3 Vocabulary to Learn",
+      "english": "Grammar",
       "kind": "commentary",
       "blocks": [
         {
           "t": "p",
-          "text": "The imperfect subjunctive, like the present subjunctive, does not have a fixed translation; its meaning depends on its construction. One construction in which the imperfect subjunctive is often used is the purpose clauses discussed in chapter 15.2: these use either present or imperfect subjunctive for the subordinate clause depending on the tense of the main verb. This relationship between the tense of the main verb and the tense of the subjunctive is called ‘sequence of tenses’ and is one of the most important rules of Latin syntax. Indicative tenses fall into two groups, primary and historic (also called primary and secondary); primary tenses in the main verb result in present subjunctives in the subordinate clause, and historic tenses in the main verb result in imperfect subjunctives in the subordinate clause. Of the tenses we have so far seen, the present and future are primary; the imperative, deliberative subjunctive, and hortatory subjunctive (though not strictly speaking tenses at all) also function as primary tenses. The only historic tense we have so far seen is the perfect.1 Therefore:"
-        },
-        {
-          "t": "p",
-          "text": "Main verb Subordinate verb Present indicative, future → Present subjunctive"
+          "text": "22 The slave is leading the sheep 23 Slave, lead the sheep away from away from the river so that they the river so that they will not run will not run into the water. into the water! Colloquium Harleianum 6a–c (adapted): continuation of the school scene in the preceding chapter. teacher: nonne mercedem attulisti? p u p i l : petivi patrem, et dixit, ‘ego ipse ad scholam hodie veniam cum pecunia."
         },
         {
           "t": "h",
-          "text": "indicative, imperative, subjunctive"
+          "text": "volo enim et experimentum accipere.’"
         },
         {
-          "t": "h",
-          "text": "Perfect indicative → Imperfect subjunctive"
-        },
-        {
-          "t": "p",
-          "text": "The tense of the subordinate verb can sometimes help resolve an ambiguous main"
-        },
-        {
-          "t": "p",
-          "text": "verb. For example, in a text where long vowels are not marked librum emit might mean either ‘he is buying the book’ (emit with short e) or ‘he bought the book’ (ēmit), but librum emit ut nobis daret has to mean ‘he bought the book to give it to us’ (daret is an imperfect subjunctive, so the main verb must be a perfect indicative)."
-        },
-        {
-          "t": "p",
-          "text": "English also has a sequence of tenses, though it does not work quite like the Latin"
-        },
-        {
-          "t": "p",
-          "text": "sequence, and therefore when a purpose clause has a historic main verb and an imperfect subjunctive the translation pattern is different from that seen in the last chapter: such purpose clauses are translated with an infinitive or with a clause beginning ‘in order to’, ‘in order that . . . would’, or ‘so that . . . would’, rather than with ‘will’."
-        },
-        {
-          "t": "p",
-          "text": "This is an oversimplification, for sometimes the perfect can function as a primary tense. This occurs only in contexts where it would be translated with ‘have’ in English (e.g. ‘I have ruled’); such situations will not arise in this book."
-        },
-        {
-          "t": "p",
-          "text": "The infinitive and ‘in order to’ can be used only if the subject of the subjunctive is the same as the subject of the sentence’s main verb. For example:"
-        },
-        {
-          "t": "p",
-          "text": "ad urbem īvit ut rēgem videret. ‘He went to the city to see the king.’ / ‘He went to the"
-        },
-        {
-          "t": "h",
-          "text": "city in order to see the king.’"
-        },
-        {
-          "t": "p",
-          "text": "ad urbem īvit nē rēgem videret. ‘He went to the city in order not to see the king.’ haec scrīpsit ut legerēmus. ‘He wrote these things so that we would read them.’ puerō pecūniam dedērunt nē miser esset. ‘They gave money to the boy so that he would"
-        },
-        {
-          "t": "h",
-          "text": "not be miserable.’"
-        },
-        {
-          "t": "h",
-          "text": "Practice"
+          "t": "example",
+          "text": "Verbs impediō, impedīre, impedīvī, impedītum ‘hinder’ interficiō, interficere, interfēcī, interfectum ‘kill’ inveniō, invenīre, invēnī, inventum ‘find’ reficiō, reficere, refēcī, refectum ‘repair’ sentiō, sentīre, sēnsī, sēnsum ‘perceive’, ‘feel’ sepeliō, sepelīre, sepelīvī, sepultum ‘bury’ vendō, vendere, vendidī, venditum ‘sell’ veniō, venīre, vēnī, ventum ‘come’ vīvō, vīvere, vīxī, vīctum ‘live’"
         }
       ]
     }
@@ -149,28 +101,8 @@ const chapter = {
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "away from the river so that they the river so that they will not run will not run into the water. into the water! Colloquium Harleianum 6a–c (adapted): continuation of the school scene in the preceding chapter. teacher: nonne mercedem attulisti? p u p i l : petivi patrem, et dixit",
-      "english": "ego ipse ad scholam hodie veniam cum pecunia. volo enim et experimentum accipere.",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "nōnne = nōn + ne volō, velle, voluī, –",
-      "english": "want",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "mercēs, mercēdis (f.)",
-      "english": "tuition payment",
-      "group": "Vocābula"
-    },
-    {
       "latin": "enim",
       "english": "for",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "(in the sense of",
-      "english": "because",
       "group": "Vocābula"
     },
     {
@@ -179,79 +111,19 @@ const chapter = {
       "group": "Vocābula"
     },
     {
-      "latin": "translate one word earlier than petō can also mean",
-      "english": "ask",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "where it appears in Latin) ipse",
+      "latin": "ipse",
       "english": "myself",
       "group": "Vocābula"
     },
     {
-      "latin": "(nominative) et",
+      "latin": "et",
       "english": "also",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "schola, scholae (f.)",
-      "english": "school",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "experīmentum, -ī (n.)",
-      "english": "demonstration veniam",
       "group": "Vocābula"
     },
     {
       "latin": "I shall come",
       "english": "(of your progress)",
       "group": "Vocābula"
-    },
-    {
-      "latin": "impediō, impedīre, impedīvī, impedītum",
-      "english": "hinder",
-      "group": "Verba"
-    },
-    {
-      "latin": "interficiō, interficere, interfēcī, interfectum",
-      "english": "kill",
-      "group": "Verba"
-    },
-    {
-      "latin": "inveniō, invenīre, invēnī, inventum",
-      "english": "find",
-      "group": "Verba"
-    },
-    {
-      "latin": "reficiō, reficere, refēcī, refectum",
-      "english": "repair",
-      "group": "Verba"
-    },
-    {
-      "latin": "sentiō, sentīre, sēnsī, sēnsum",
-      "english": "perceive, feel",
-      "group": "Verba"
-    },
-    {
-      "latin": "sepeliō, sepelīre, sepelīvī, sepultum",
-      "english": "bury",
-      "group": "Verba"
-    },
-    {
-      "latin": "vendō, vendere, vendidī, venditum",
-      "english": "sell",
-      "group": "Verba"
-    },
-    {
-      "latin": "veniō, venīre, vēnī, ventum",
-      "english": "come",
-      "group": "Verba"
-    },
-    {
-      "latin": "vīvō, vīvere, vīxī, vīctum",
-      "english": "live",
-      "group": "Verba"
     }
   ],
   "pensa": [
@@ -661,6 +533,27 @@ const chapter = {
         }
       ],
       "id": "practice-16-d"
+    },
+    {
+      "id": "translate-16",
+      "latinLabel": "TRANSLATE INTO LATIN",
+      "title": "Translate into Latin",
+      "instruction": "",
+      "type": "questions",
+      "items": [
+        {
+          "q": "that he would see the soldiers.",
+          "a": ""
+        },
+        {
+          "q": "20 The slave will lead the sheep king so that he will give us will not run into the water.",
+          "a": ""
+        },
+        {
+          "q": "21 Let the slave lead the sheep away",
+          "a": ""
+        }
+      ]
     }
   ]
 }

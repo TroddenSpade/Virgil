@@ -9,6 +9,58 @@ const chapter = {
   "complete": true,
   "sections": [
     {
+      "id": "section-0",
+      "latin": "Introduction",
+      "english": "Introduction",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "multum ‘much’ (adverbial) dum (+ subjunctive) ‘until (he) could’ et . . . et ‘both . . . and’ condō, condere, condidī, conditum terra, terrae (f.) ‘land’ (translate here as ‘found’"
+        },
+        {
+          "t": "h",
+          "text": "if it were in terrīs) īnferō, īnferre, intulī, illātum ‘bring in’"
+        },
+        {
+          "t": "p",
+          "text": "iactō, iactāre, iactāvī, iactātum ‘throw Latiō ‘to Latium’ (the region of Italy"
+        },
+        {
+          "t": "h",
+          "text": "around’ around Rome)"
+        },
+        {
+          "t": "p",
+          "text": "altō ‘on the seas’ genus, generis (n.) ‘race’ vī superum ‘by the force of the gods’ unde ‘from which (came)’ saevus, saeva, saevum ‘savage’ Latīnus, -a, -um ‘Latin’ (i.e. Roman) memor, gen. memoris ‘implacable’ Albānus, -a, -um ‘Alban’ (i.e. from the Iūnō, Iūnōnis (f.) ‘Juno’ town of Alba Longa, which provided ob (+ accusative) ‘on account of’ some of Rome’s first settlers) īra, īrae (f.) ‘anger’ atque ‘and’ quoque ‘also’ altus, alta, altum ‘high’, ‘lofty’ bellō: translate as if it were in bellō Rōma, Rōmae (f.) ‘Rome’"
+        },
+        {
+          "t": "p",
+          "text": "A possible prose order of the above would be:"
+        },
+        {
+          "t": "p",
+          "text": "arma virumque cano, qui primus ab oris Troiae fato profugus Italiam Laviniaque litora venit, ille multum iactatus et terris et alto vi superum, ob iram memorem Iunonis saevae, et multa quoque bello passus, dum urbem conderet inferretque deos Latio; unde genus Latinum Albanique patres atque moenia Romae altae."
+        },
+        {
+          "t": "p",
+          "text": "Musa, mihi causas memora, quo numine laeso quidve dolens regina deum tot volvere casus insignem pietate virum, tot adire labores impulerit. tantaene animis caelestibus irae?"
+        },
+        {
+          "t": "p",
+          "text": "Progeniem sed enim Troiano a sanguine duci audierat Tyrias olim quae verteret arces; hinc populum late regem belloque superbum venturum excidio Libyae; sic volvere Parcas."
+        },
+        {
+          "t": "p",
+          "text": "A possible prose order of the above would be:"
+        },
+        {
+          "t": "p",
+          "text": "Saturnia, id metuens memorque veteris belli, quod prima ad Troiam pro caris Argis gesserat (necdum etiam causae irarum saevique dolores exciderant animo; manet alta mente repostum iudicium Paridis iniuriaque spretae formae et genus invisum et honores rapti Ganymedis) – his accensa Troas, reliquias Danaum atque immitis Achilli, iactatos super aequore toto arcebat longe Latio, perque multos annos, acti fatis, circum maria omnia errabant. tantae molis gentem Romanam condere erat. PART IV"
+        }
+      ]
+    },
+    {
       "id": "section-1",
       "latin": "31.1 Tips for Reading Latin Poetry",
       "english": "Grammar",
@@ -35,203 +87,311 @@ const chapter = {
       "kind": "commentary",
       "blocks": [
         {
-          "t": "h",
-          "text": "1 Virgil, Aeneid 1.1–7: the beginning of the epic."
-        },
-        {
           "t": "p",
-          "text": "Arma virumque cano, Troiae qui primus ab oris Italiam fato profugus Laviniaque venit litora, multum ille et terris iactatus et alto vi superum, saevae memorem Iunonis ob iram, multa quoque et bello passus, dum conderet urbem inferretque deos Latio; genus unde Latinum Albanique patres atque altae moenia Romae. Vocabulary (in order of first appearance; words that appear more than once are in bold) arma, armōrum (n."
-        },
-        {
-          "t": "h",
-          "text": "plural) ‘weapons’, Italia, Italiae (f.) ‘Italy’ (translate here"
-        },
-        {
-          "t": "h",
-          "text": "‘arms’ as if it were ad Italiam; the first"
-        },
-        {
-          "t": "p",
-          "text": "-que ‘and’ (translate before the word to vowel can be either long or short) which it is attached) fātō ‘by fate’ canō, canere, cecinī, cantum ‘sing of’ profugus ‘banished’ Troia, Troiae (f.) ‘Troy’ Lāvīnius, -a, -um ‘of Lavinium’ (an old prīmus, prīma, prīmum ‘first’ settlement in Italy) ōra, ōrae (f.) ‘shore’ lītus, lītoris (n.) ‘coast’ (translate as if it"
-        },
-        {
-          "t": "h",
-          "text": "were ad lītora)"
-        },
-        {
-          "t": "p",
-          "text": "multum ‘much’ (adverbial) dum (+ subjunctive) ‘until (he) could’ et . . . et ‘both . . . and’ condō, condere, condidī, conditum terra, terrae (f.) ‘land’ (translate here as ‘found’ if it were in terrīs) īnferō, īnferre, intulī, illātum ‘bring in’ iactō, iactāre, iactāvī, iactātum ‘throw Latiō ‘to Latium’ (the region of Italy"
-        },
-        {
-          "t": "h",
-          "text": "around’ around Rome)"
-        },
-        {
-          "t": "h",
-          "text": "2 Virgil, Aeneid 1.8–11: continuation of passage 1."
-        },
-        {
-          "t": "p",
-          "text": "altō ‘on the seas’ genus, generis (n.) ‘race’ vī superum ‘by the force of the gods’ unde ‘from which (came)’ saevus, saeva, saevum ‘savage’ Latīnus, -a, -um ‘Latin’ (i.e. Roman) memor, gen. memoris ‘implacable’ Albānus, -a, -um ‘Alban’ (i.e."
-        },
-        {
-          "t": "p",
-          "text": "from the Iūnō, Iūnōnis (f.) ‘Juno’ town of Alba Longa, which provided ob (+ accusative) ‘on account of’ some of Rome’s first settlers) īra, īrae (f.) ‘anger’ atque ‘and’ quoque ‘also’ altus, alta, altum ‘high’, ‘lofty’ bellō: translate as if it were in bellō Rōma, Rōmae (f.) ‘Rome’ A possible prose order of the above would be: arma virumque cano, qui primus ab oris Troiae fato profugus Italiam Laviniaque litora venit, ille multum iactatus et terris et alto vi superum, ob iram memorem Iunonis saevae, et multa quoque bello passus, dum urbem conderet inferretque deos Latio; unde genus Latinum Albanique patres atque moenia Romae altae."
-        },
-        {
-          "t": "p",
-          "text": "Musa, mihi causas memora, quo numine laeso quidve dolens regina deum tot volvere casus insignem pietate virum, tot adire labores impulerit. tantaene animis caelestibus irae?"
-        },
-        {
-          "t": "p",
-          "text": "Vocabulary (in order of first appearance; words that appear more than once are in bold, and words in bold in the preceding vocabulary are not included) mūsa, mūsae (f.) ‘muse’ (goddess of song) cāsūs ‘hardships’ (accusative plural!) causa, causae (f.) ‘reason’ īnsignis, īnsigne ‘outstanding’ memorō, -āre, -āvī, -ātum ‘declare’ pietāte ‘for piety’ quō nūmine laesō ‘through what slight adeō (like eō) ‘undertake’ to her divinity’ labor, labōris (m.) ‘labour’ -ve ‘or’ (translate before the word to impulerit ‘compelled’ which it is attached) tantus, tanta, tantum ‘so great’ doleō, dolēre, doluī, dolitum ‘be upset animīs ‘spirits’ (dative of possession:"
-        },
-        {
-          "t": "h",
-          "text": "about’ nominative X + dative Y can have"
-        },
-        {
-          "t": "h",
-          "text": "3 Virgil, Aeneid 1.12–18: continuation of passage 2."
-        },
-        {
-          "t": "p",
-          "text": "rēgīna, rēgīnae (f.) ‘queen’ the same meaning as nominative deum: for deōrum Y + habeō + accusative X) tot ‘so many’ caelestis, caeleste ‘heavenly’ volvō, volvere, volvī, volūtum ‘undergo’ A possible prose order of the above would be: musa, causas mihi memora, quo numine laeso quidve dolens regina deum impulerit virum insignem pietate tot volvere casus, tot adire labores. tantaene (sunt) irae animis caelestibus?"
-        },
-        {
-          "t": "p",
-          "text": "Urbs antiqua fuit (Tyrii tenuere coloni) Carthago, Italiam contra Tiberinaque longe ostia, dives opum studiisque asperrima belli, quam Iuno fertur terris magis omnibus unam posthabita coluisse Samo. hic illius arma, hic currus fuit; hoc regnum dea gentibus esse, si qua fata sinant, iam tum tenditque fovetque."
-        },
-        {
-          "t": "p",
-          "text": "Vocabulary (in order of first appearance; words that appear more than once are in bold, and words in bold in the preceding vocabularies are not included) antīquus, antīqua, antīquum ‘ancient’ magis ‘more than’ Tyrius, Tyria, Tyrium ‘from Tyre’ (a ūnus, ūna, ūnum ‘alone’"
-        },
-        {
-          "t": "h",
-          "text": "Phoenician city) posthabitā Samō ‘with even Samos"
-        },
-        {
-          "t": "p",
-          "text": "tenuēre: for tenuērunt, from teneō, coming second’ tenēre, tenuī, tentum ‘hold’ colō, colere, coluī, cultum ‘cherish’ colōnus, colōnī (m.) ‘colonist’ currus, currūs (m.) ‘chariot’ Carthāgō, Carthāginis (f.) ‘Carthage’ (a rēgnum, rēgnī (n.) ‘kingdom’ city the Romans hated) gentibus ‘for the world’ contrā (+ accusative) ‘opposite’ sī ‘if’ Tiberīnus, -a, -um ‘of the Tiber’ (the quā ‘somehow’ river of Rome) fātum, fātī (n.) ‘fate’ longē ‘far’ sinant ‘might allow’ (subjunctive) ōstia, ōstiōrum (n."
-        },
-        {
-          "t": "p",
-          "text": "plural) ‘mouth’ iam ‘already’ dīves, gen. dīvitis ‘rich’ tum ‘then’ opum ‘in resources’ tendō, tendere, tetendī, tentum studiīs (+ genitive) ‘in eagerness for’ ‘intend’ asperrimus, -a, -um ‘very keen’ -que . . . -que ‘both . . . and’ fertur ‘is said’ (takes nominative and foveō, fovēre, fōvī, fōtum ‘nurture’"
-        },
-        {
-          "t": "h",
-          "text": "infinitive)"
-        },
-        {
-          "t": "h",
-          "text": "4 Virgil, Aeneid 1.19–22: continuation of passage 3."
-        },
-        {
-          "t": "h",
-          "text": "5 Virgil, Aeneid 1.23–33: continuation of passage 4."
-        },
-        {
-          "t": "p",
-          "text": "A possible prose order of the above would be: Carthago urbs antiqua fuit (Tyrii coloni tenuere), longe contra Italiam Tiberinaque ostia, dives opum asperrimaque studiis belli, quam unam Iuno fertur coluisse magis terris omnibus, posthabita Samo: hic illius arma fuit, hic currus; hoc dea iam tum tenditque fovetque esse regnum gentibus, si qua fata sinant."
-        },
-        {
-          "t": "p",
-          "text": "Progeniem sed enim Troiano a sanguine duci audierat Tyrias olim quae verteret arces; hinc populum late regem belloque superbum venturum excidio Libyae; sic volvere Parcas."
-        },
-        {
-          "t": "p",
-          "text": "Vocabulary (in order of first appearance; words in bold in the preceding vocabularies are not included) prōgeniēs, prōgeniēī (f.) ‘offspring’ populus, populī (m.) ‘people’ (here accusative plural) lātē ‘widely’ enim ‘indeed’ rēgem ‘ruling’ (literally ‘being king’) Troiānus, -a, -um ‘Trojan’ bellō ‘in war’ sanguis, sanguinis (n.) ‘blood’ superbus, -a, -um ‘proud’ dūcī: present passive infinitive of dūcō in ventūrum: for ventūrum esse indirect statement; translate ‘was excidiō ‘for the ruin’ being established’ Libya, Libyae (f.) ‘Libya’ (an ancient audierat ‘she had heard (that)’ name for the region where Carthage ōlim ‘some day’ was located, though in modern terms vertō, vertere, vertī, versum ‘overturn’ the site of the city is in Tunisia) (subjunctive; translate with ‘would’) sīc ‘thus’ arx, arcis, arcium (f.) ‘citadel’ volvō, volvere, volvī, volūtum ‘decree’ hinc ‘from this (race)’ Parcae, Parcārum (f."
-        },
-        {
-          "t": "p",
-          "text": "plural) ‘Fates’ A possible prose order of the above would be: sed enim audierat progeniem a sanguine Troiano duci quae Tyrias arces olim verteret; hinc populum late regem belloque superbum venturum excidio Libyae; sic volvere Parcas."
-        },
-        {
-          "t": "p",
-          "text": "Id metuens veterisque memor Saturnia belli, prima quod ad Troiam pro caris gesserat Argis (necdum etiam causae irarum saevique dolores exciderant animo; manet alta mente repostum iudicium Paridis spretaeque iniuria formae et genus invisum et rapti Ganymedis honores) – his accensa super iactatos aequore toto Troas, reliquias Danaum atque immitis Achilli, arcebat longe Latio, multosque per annos errabant acti fatis maria omnia circum."
-        },
-        {
-          "t": "p",
-          "text": "tantae molis erat Romanam condere gentem. Vocabulary (in order of first appearance; words in bold in the preceding vocabularies are not included) metuō, metuere, metuī, – ‘dread’ rapiō, rapere, rapuī, raptum ‘snatch vetus, gen. veteris ‘former’ away’ memor, gen. memoris (+ genitive) Ganymēdēs, -is (m.) ‘Ganymede’ (a"
-        },
-        {
-          "t": "h",
-          "text": "‘mindful of’ Trojan boy whom Jupiter abducted"
-        },
-        {
-          "t": "p",
-          "text": "Sāturnia, Sāturniae (f.) ‘daughter of and kept as a lover, to the annoyance"
-        },
-        {
-          "t": "h",
-          "text": "Saturn’ (i.e. Juno) of his wife Juno)"
-        },
-        {
-          "t": "example",
-          "text": "prō (+ ablative) ‘on behalf of’ honor, honōris (m.) ‘honour’ cārus, cāra, cārum ‘dear’ accendō, accendere, accendī, accēnsum gesserat ‘(she) had waged’ ‘enrage’ Argus, Arga, Argum ‘Argive’ (i.e. super (+ ablative) ‘across’ Greek) iactō, -āre, -āvī, -ātum ‘drive’, ‘toss’\nnecdum ‘nor yet’ aequor, aequoris (n.) ‘sea’\netiam ‘indeed’ tōtus, tōta, tōtum ‘whole’ dolor, dolōris (m.) ‘grief’\nTrōas ‘Trojans’ (m."
-        },
-        {
-          "t": "h",
-          "text": "plural exciderant (+ ablative) ‘had departed accusative)"
-        },
-        {
-          "t": "h",
-          "text": "from’ reliquiae, reliquiārum (f. plural)"
-        },
-        {
-          "t": "h",
-          "text": "animus, animī (m.) ‘mind’ (referring ‘remnants from (the attacks of)’"
-        },
-        {
-          "t": "h",
-          "text": "here to Juno’s mind) (scans as relliquiae)"
-        },
-        {
-          "t": "h",
-          "text": "maneō, manēre, mānsī, mānsum Danaum ‘Greeks’ (genitive plural)"
-        },
-        {
-          "t": "example",
-          "text": "‘remain’ immītis, immīte ‘pitiless’ altā mente repostum ‘stored deep in her Achillī ‘Achilles’ (genitive singular)"
-        },
-        {
-          "t": "h",
-          "text": "mind’ (agrees with iūdicium) arcēbat ‘she was pursuing’ (imperfect of"
-        },
-        {
-          "t": "p",
-          "text": "iūdicium, iūdiciī (n.) ‘judgement’ arceō) Paris, Paridis (m.) name of a Trojan Latiō ‘from Latium’ (the region of"
-        },
-        {
-          "t": "h",
-          "text": "prince Rome)"
-        },
-        {
-          "t": "p",
-          "text": "spernō, spernere, sprēvī, sprētum annus, annī (m.) ‘year’ ‘slight’, ‘insult’ errābant ‘they were wandering’ iniūria, iniūriae (f.) ‘injury’ (imperfect of errō) fōrma, fōrmae (f.) ‘beauty’ (referring fātīs ‘by the fates’ here to Juno’s beauty, implicitly mare, maris, marium (n.) ‘sea’ insulted by Paris when he judged circum (+ accusative) ‘around’ Venus the most beautiful goddess) mōlēs, mōlis, mōlium (f.) ‘effort’ invīsus, -a, -um ‘hateful’ (i.e."
-        },
-        {
-          "t": "h",
-          "text": "the gēns, gentis, gentium (f.) ‘nation’"
-        },
-        {
-          "t": "h",
-          "text": "Trojans, whom Juno hated)"
-        },
-        {
-          "t": "p",
-          "text": "A possible prose order of the above would be: Saturnia, id metuens memorque veteris belli, quod prima ad Troiam pro caris Argis gesserat (necdum etiam causae irarum saevique dolores exciderant animo; manet alta mente repostum iudicium Paridis iniuriaque spretae formae et genus invisum et honores rapti Ganymedis) – his accensa Troas, reliquias Danaum atque immitis Achilli, iactatos super aequore toto arcebat longe Latio, perque multos annos, acti fatis, circum maria omnia errabant."
-        },
-        {
-          "t": "h",
-          "text": "tantae molis gentem Romanam condere erat. PART IV"
+          "text": "1 Virgil, Aeneid 1.1–7: the beginning of the epic. Arma virumque cano, Troiae qui primus ab oris Italiam fato profugus Laviniaque venit litora, multum ille et terris iactatus et alto vi superum, saevae memorem Iunonis ob iram, multa quoque et bello passus, dum conderet urbem inferretque deos Latio; genus unde Latinum Albanique patres atque altae moenia Romae."
         }
       ]
     }
   ],
   "readings": [],
   "grammar": [],
-  "vocabulary": [],
+  "vocabulary": [
+    {
+      "latin": "fātō",
+      "english": "by fate",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "canō, canere, cecinī, cantum",
+      "english": "sing of",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "profugus",
+      "english": "banished",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "Lāvīnius, -a, -um",
+      "english": "of Lavinium",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cāsūs",
+      "english": "hardships",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "īnsignis, īnsigne",
+      "english": "outstanding",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "memorō, -āre, -āvī, -ātum",
+      "english": "declare",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "pietāte",
+      "english": "for piety",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "quō nūmine laesō",
+      "english": "through what slight adeō (like eō)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "tantus, tanta, tantum",
+      "english": "so great",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "doleō, dolēre, doluī, dolitum",
+      "english": "be upset animīs",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "tot",
+      "english": "so many",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "caelestis, caeleste",
+      "english": "heavenly",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "volvō, volvere, volvī, volūtum",
+      "english": "undergo",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "antīquus, antīqua, antīquum",
+      "english": "ancient",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "magis",
+      "english": "more than",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "Tyrius, Tyria, Tyrium",
+      "english": "from Tyre",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "tenēre, tenuī, tentum",
+      "english": "hold",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "colō, colere, coluī, cultum",
+      "english": "cherish",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "gentibus",
+      "english": "for the world",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sī",
+      "english": "if",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "Tiberīnus, -a, -um",
+      "english": "of the Tiber",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "longē",
+      "english": "far",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sinant",
+      "english": "might allow",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "iam",
+      "english": "already",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dīves, gen. dīvitis",
+      "english": "rich",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "tum",
+      "english": "then",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "opum",
+      "english": "in resources",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "asperrimus, -a, -um",
+      "english": "very keen",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "fertur",
+      "english": "is said",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "lātē",
+      "english": "widely",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "enim",
+      "english": "indeed",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "rēgem",
+      "english": "ruling",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "Troiānus, -a, -um",
+      "english": "Trojan",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "bellō",
+      "english": "in war",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "superbus, -a, -um",
+      "english": "proud",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "indirect statement; translate",
+      "english": "was excidiō",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "audierat",
+      "english": "she had heard (that)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sīc",
+      "english": "thus",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "hinc",
+      "english": "from this (race)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "metuō, metuere, metuī, –",
+      "english": "dread",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "rapiō, rapere, rapuī, raptum",
+      "english": "snatch vetus, gen. veteris",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "former",
+      "english": "away",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cārus, cāra, cārum",
+      "english": "dear",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "accendō, accendere, accendī, accēnsum gesserat",
+      "english": "(she) had waged",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "Argus, Arga, Argum",
+      "english": "Argive",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "iactō, -āre, -āvī, -ātum",
+      "english": "drive",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "necdum",
+      "english": "nor yet",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "etiam",
+      "english": "indeed",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "tōtus, tōta, tōtum",
+      "english": "whole",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "Trōas",
+      "english": "Trojans",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "maneō, manēre, mānsī, mānsum Danaum",
+      "english": "Greeks",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "immītis, immīte",
+      "english": "pitiless",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "altā mente repostum",
+      "english": "stored deep in her Achillī",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "mind",
+      "english": "(agrees with iūdicium) arcēbat",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "errābant",
+      "english": "they were wandering",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sea",
+      "english": "insulted by Paris when he judged circum (+ accusative)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "around",
+      "english": "Venus the most beautiful goddess) mōlēs, mōlis, mōlium (f.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "invīsus, -a, -um",
+      "english": "hateful",
+      "group": "Vocābula"
+    }
+  ],
   "pensa": []
 }
 

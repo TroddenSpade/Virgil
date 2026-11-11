@@ -20,15 +20,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "First conjugation amandus, -a, -um ‘having to be loved’ Second conjugation monendus, -a, -um ‘having to be warned’ Third conjugation regendus, -a, -um ‘having to be ruled’ Fourth conjugation audiendus, -a, -um ‘having to be heard’ Mixed conjugation capiendus, -a, -um ‘having to be captured’ First conjugation deponent vēnandus, -a, -um ‘having to be hunted’ Second conjugation deponent verendus, -a, -um ‘having to be feared’ Third conjugation deponent ūtendus, -a, -um ‘having to be used’ Fourth conjugation deponent partiendus, -a, -um ‘having to be divided’ Mixed conjugation deponent moriendus, -a, -um (no literal translation"
-        },
-        {
-          "t": "h",
-          "text": "available)"
-        },
-        {
-          "t": "p",
-          "text": "Sum – Possum – Eō eundus, -a, -um (no literal translation available) Volō volendus, -a, -um ‘having to be wanted’ Nōlō nōlendus, -a, -um ‘having to be not wanted’ Mālō – The translations are provided only as an indication of the basic meaning of these forms; in practice such translations are almost never used, because a number of more idiomatic English expressions work better in different contexts (see below)."
+          "text": "First conjugation amandus, -a, -um ‘having to be loved’ Second conjugation monendus, -a, -um ‘having to be warned’ Third conjugation regendus, -a, -um ‘having to be ruled’ Fourth conjugation audiendus, -a, -um ‘having to be heard’ Mixed conjugation capiendus, -a, -um ‘having to be captured’ First conjugation deponent vēnandus, -a, -um ‘having to be hunted’ Second conjugation deponent verendus, -a, -um ‘having to be feared’ Third conjugation deponent ūtendus, -a, -um ‘having to be used’ Fourth conjugation deponent partiendus, -a, -um ‘having to be divided’ Mixed conjugation deponent moriendus, -a, -um (no literal translation available) Sum – Possum – Eō eundus, -a, -um (no literal translation available) Volō volendus, -a, -um ‘having to be wanted’ Nōlō nōlendus, -a, -um ‘having to be not wanted’ Mālō – The translations are provided only as an indication of the basic meaning of these forms; in practice such translations are almost never used, because a number of more idiomatic English expressions work better in different contexts (see below)."
         },
         {
           "t": "p",
@@ -87,6 +79,26 @@ const chapter = {
           "text": "The gerundive can also be used in a past or future tense, by changing the tense of sum: ille liber legendus erit mihi means ‘I will have to read that book’ and ille liber legendus erat mihi means ‘I had to read that book’. Notice that in English ‘must’ cannot be used in the past or future, so only ‘have to’ is available to translate such sentences."
         }
       ]
+    },
+    {
+      "id": "section-4",
+      "latin": "41.5 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "3 Terence, Heauton timorumenos 322–6: advice for a young man in love (second century bc ). Vis amare, vis potiri, vis quod des illi effici; tuum esse in potiundo periclum non vis: haud stulte sapis, siquidem id sapere est, velle te id quod non potest contingere. aut haec cum illis sunt habenda, aut illa cum his mittenda sunt. harum duarum condicionum nunc utram malis vide."
+        },
+        {
+          "t": "example",
+          "text": "Verbs ascendō, ascendere, ascendī, ascēnsum ‘go up’ dēscendō, dēscendere, dēscendī, dēscēnsum ‘go down’ discō, discere, didicī, – ‘learn’ ingredior, ingredī, ingressus sum ‘enter’ salūtō, salūtāre, salūtāvī, salūtātum ‘greet’ Nouns advocātus, advocātī (m.) ‘advocate’ (i.e."
+        },
+        {
+          "t": "example",
+          "text": "lawyer) argentum, argentī (n.) ‘silver’ aurum, aurī (n.) ‘gold’ causa, causae (f.) ‘case’, ‘reason’ fāma, fāmae (f.) ‘fame’, ‘reputation’, ‘rumour’ fīnis, fīnis, fīnium (f.) ‘end’ iūdex, iūdicis (m.) ‘judge’ salūs, salūtis (f.) ‘health’, ‘greetings’ vōx, vōcis (f.) ‘voice’"
+        }
+      ]
     }
   ],
   "readings": [
@@ -119,18 +131,83 @@ const chapter = {
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "century bc ). Vis amare, vis potiri, vis quod des illi effici; tuum esse in potiundo periclum non vis: haud stulte sapis, siquidem id sapere est, velle te id quod non potest contingere. aut haec cum illis sunt habenda, aut illa cum his mittenda sunt. harum duarum condicionum nunc utram malis vide. Vocabulary potior, potīri, potītus sum",
+      "latin": "youth who speaks these lines saltem",
+      "english": "even",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "parō, parāre, parāvī, parātum",
+      "english": "get ready",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "falsus, falsa, falsum",
+      "english": "false",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "inīquus, inīqua, inīquum",
+      "english": "unjust",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cito",
+      "english": "at once",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "iam",
+      "english": "now",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dīripiendam",
+      "english": "to be plundered",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cōnsilium can also mean",
+      "english": "decision",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "only",
+      "english": "daughter",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ipse, ipsa, ipsum",
+      "english": "himself",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "rēctē",
+      "english": "all right",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "satis",
+      "english": "adequately",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "circumstances",
+      "english": "etiam",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sīn",
+      "english": "but if",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "āmēns, gen. āmentis",
+      "english": "reckless",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "potior, potīri, potītus sum",
       "english": "possess (the sapiō, sapere, sapīvī, –",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "think",
-      "english": "girl you love)",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "siquidem",
-      "english": "if indeed",
       "group": "Vocābula"
     },
     {
@@ -139,33 +216,13 @@ const chapter = {
       "group": "Vocābula"
     },
     {
-      "latin": "be possible",
-      "english": "give her",
+      "latin": "give her",
+      "english": "contingō, -tingere, -tigī, -tāctum",
       "group": "Vocābula"
     },
     {
-      "latin": "contingō, -tingere, -tigī, -tāctum",
-      "english": "get",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "potiundum, potiundī (n.)",
-      "english": "getting aut . . . aut",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "either . . . or",
-      "english": "possession",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "mittō can also mean",
-      "english": "let go, pass up",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "perīc(u)lum, perīc(u)lī (n.)",
-      "english": "danger",
+      "latin": "possession",
+      "english": "mittō can also mean",
       "group": "Vocābula"
     },
     {
@@ -179,11 +236,6 @@ const chapter = {
       "group": "Vocābula"
     },
     {
-      "latin": "condiciō, condiciōnis (f.)",
-      "english": "condition",
-      "group": "Vocābula"
-    },
-    {
       "latin": "stultē",
       "english": "foolishly",
       "group": "Vocābula"
@@ -192,76 +244,6 @@ const chapter = {
       "latin": "uter, utra, utrum",
       "english": "which?",
       "group": "Vocābula"
-    },
-    {
-      "latin": "ascendō, ascendere, ascendī, ascēnsum",
-      "english": "go up",
-      "group": "Verba"
-    },
-    {
-      "latin": "dēscendō, dēscendere, dēscendī, dēscēnsum",
-      "english": "go down",
-      "group": "Verba"
-    },
-    {
-      "latin": "discō, discere, didicī, –",
-      "english": "learn",
-      "group": "Verba"
-    },
-    {
-      "latin": "ingredior, ingredī, ingressus sum",
-      "english": "enter",
-      "group": "Verba"
-    },
-    {
-      "latin": "salūtō, salūtāre, salūtāvī, salūtātum",
-      "english": "greet",
-      "group": "Verba"
-    },
-    {
-      "latin": "advocātus, advocātī (m.)",
-      "english": "advocate",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "(i.e. lawyer) argentum, argentī (n.)",
-      "english": "silver",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "aurum, aurī (n.)",
-      "english": "gold",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "causa, causae (f.)",
-      "english": "case, reason",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "fāma, fāmae (f.)",
-      "english": "fame, reputation, rumour",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "fīnis, fīnis, fīnium (f.)",
-      "english": "end",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "iūdex, iūdicis (m.)",
-      "english": "judge",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "salūs, salūtis (f.)",
-      "english": "health, greetings",
-      "group": "Nōmina"
-    },
-    {
-      "latin": "vōx, vōcis (f.)",
-      "english": "voice",
-      "group": "Nōmina"
     }
   ],
   "pensa": [
@@ -696,15 +678,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "7 (adapted): a youth complains of his father’s treatment of him (second century bc ). Nam quid ego dicam de patre? tantam rem tam neglegenter agit! praeteriens modo mihi in foro dixit ‘uxor tibi ducenda est, Pamphile, hodie: para, abi domum.’ visus est mihi dicere ‘abi cito et suspende te.’ obstupui. arbitrarisne me verbum potuisse ullum loqui? aut ullam causam, ineptam saltem falsam iniquam? obmutui. Vocabulary neglegenter ‘casually’ suspendō, suspendere, suspendī, praetereō (like eō) ‘go past’ suspēnsum ‘hang’ modo ‘just now’ obstupēscō, obstupēscere, obstupuī, – forum, forī (n.) ‘forum’, ‘marketplace’ ‘be struck dumb’ uxor, uxōris (f.) ‘wife’ ūllus, ūlla, ūllum ‘any’ dūcō can also mean ‘marry’ causa, causae (f.) ‘excuse’ Pamphilus, Pamphilī (m.) name of the ineptus, inepta, ineptum ‘inadequate’ youth who speaks these lines saltem ‘even’ parō, parāre, parāvī, parātum ‘get ready’ falsus, falsa, falsum ‘false’ videor (passive of videō) ‘seem’ inīquus, inīqua, inīquum ‘unjust’ cito ‘at once’ obmūtēscō, obmūtēscere, obmūtuī, – ‘be silent’",
-          "a": ""
-        },
-        {
-          "q": "2 Cicero, Epistulae ad familiares 14.14.1: Cicero writes to his wife and daughter about whether they should flee Rome at Caesar’s approach (part of a letter written in",
-          "a": ""
-        },
-        {
-          "q": "49 bc ). Si vos valetis, nos valemus. vestrum iam consilium est, non solum meum, quid sit vobis faciendum. si ille Romam modeste venturus est, recte in praesentia domi esse potestis; sin homo amens diripiendam urbem daturus est, vereor ut Dolabella ipse satis nobis prodesse possit. . . . etiam illud verendum est, ne brevi tempore fames in urbe sit. Vocabulary iam ‘now’ dīripiendam ‘to be plundered’ cōnsilium can also mean ‘decision’ Dolābella, -ae (m.) name of Cicero’s sōlum ‘only’ daughter’s husband, a close friend of sit: translate as indicative Caesar modestē ‘with moderation’ ipse, ipsa, ipsum ‘himself’ rēctē ‘all right’ satis ‘adequately’ praesentia, praesentiae (f.) ‘present prōsum, prōdesse (like sum) ‘be of help’ circumstances’ etiam ‘also’ sīn ‘but if’ tempus, temporis (n.) ‘time’ āmēns, gen. āmentis ‘reckless’ famēs, famis (f.) ‘famine’",
+          "q": "7 (adapted): a youth complains of his father’s treatment of him (second century bc ). Nam quid ego dicam de patre? tantam rem tam neglegenter agit! praeteriens modo mihi in foro dixit ‘uxor tibi ducenda est, Pamphile, hodie: para, abi domum.’ visus est mihi dicere ‘abi cito et suspende te.’ obstupui. arbitrarisne me verbum potuisse ullum loqui? aut ullam causam, ineptam saltem falsam iniquam? obmutui.",
           "a": ""
         }
       ],

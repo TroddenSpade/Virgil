@@ -195,7 +195,28 @@ const chapter = {
   ],
   "readings": [],
   "grammar": [],
-  "vocabulary": [],
+  "vocabulary": [
+    {
+      "latin": "ergō",
+      "english": "therefore",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dīligenter",
+      "english": "diligently",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "parātus, parāta, parātum",
+      "english": "ready",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "incendō, incendere, incendī, incēnsum nocte",
+      "english": "at night",
+      "group": "Vocābula"
+    }
+  ],
   "pensa": [
     {
       "latinLabel": "PRACTICE A",
@@ -575,11 +596,40 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "11 Let the soldiers repair our walls in order to hinder the enemy. Colloquium Harleianum 6d–f (adapted): continuation of the school scene in the preceding chapter. teacher: age ergo diligenter, ut paratus sis. p u p i l : paratus sum; incendi enim lucernam et nocte legi. teacher: bene fecisti; te laudo. Vocabulary ergō ‘therefore’ (translate one word enim ‘for’ (in the sense of ‘because’; earlier than where it appears in Latin) translate one word earlier than dīligenter ‘diligently’ where it appears in Latin) parātus, parāta, parātum ‘ready’ lucerna, lucernae (f.) ‘lamp’ incendō, incendere, incendī, incēnsum nocte ‘at night’ ‘light’",
+          "q": "11 Let the soldiers repair our walls in order to hinder the enemy. Colloquium Harleianum 6d–f (adapted): continuation of the school scene in the preceding chapter. teacher: age ergo diligenter, ut paratus sis. p u p i l : paratus sum; incendi enim lucernam et nocte legi. teacher: bene fecisti; te laudo.",
           "a": ""
         }
       ],
       "id": "practice-17-d"
+    },
+    {
+      "id": "translate-17",
+      "latinLabel": "TRANSLATE INTO LATIN",
+      "title": "Translate into Latin",
+      "instruction": "",
+      "type": "questions",
+      "items": [
+        {
+          "q": "in order to hear the king’s 13 Who killed this soldier?",
+          "a": ""
+        },
+        {
+          "q": "Colloquium Harleianum 6d–f (adapted): continuation of the school scene in the preceding chapter.",
+          "a": ""
+        },
+        {
+          "q": "teacher: age ergo diligenter, ut paratus sis.",
+          "a": ""
+        },
+        {
+          "q": "p u p i l : paratus sum; incendi enim lucernam et nocte legi.",
+          "a": ""
+        },
+        {
+          "q": "teacher: bene fecisti; te laudo.",
+          "a": ""
+        }
+      ]
     }
   ]
 }

@@ -33,14 +33,6 @@ const chapter = {
         {
           "t": "p",
           "text": "m a r c u s: nondum venit? vade, dic ei, ‘sero nos facis prandere’. ecce adest; huc venit."
-        },
-        {
-          "t": "p",
-          "text": "Vocabulary (in order of first appearance; words that appear more than once are in bold) quō ‘to where?’ holus, holeris (n.) ‘vegetable’ vādō, vādere, –, – ‘go’ necessārius, -a, -um ‘necessary’ domum ‘(to) home’ pōmum, pōmī (n.) ‘fruit’ festīnō, -āre, -āvī, -ātum ‘hurry’ mōrum, mōrī (n.) ‘mulberry’ inquīrō, inquīrere, inquīsīvī, mālum Persicum, mālī Persicī (n.) inquīsītum ‘ask’ ‘peach’ sī ‘if’ pirum, pirī (n.) ‘pear’ suāvis, suāve ‘attractive’ ecce ‘look!’ apud (+ accusative) ‘at the house of’ aliquis (like quis) ‘someone’ prandeō, prandēre, prandī, prānsum coquus, coquī (m.) ‘cook’ ‘have lunch’ sūrsum ‘upstairs’ vīnum, vīnī (n.) ‘wine’ ascendō, ascendere, ascendī, ascēnsum domesticus, -a, -um ‘from our own ‘go up’ estate’ ibi ‘there’ sīc ‘in this way’, ‘thus’ dēscendō, dēscendere, dēscendī, fīat ‘let it be (done)’, ‘let it become’ dēscēnsum ‘come down’ (subjunctive) hūc ‘to here’ temperī ‘punctually’ tollō, tollere, sustulī, sublātum ‘take’ ergō ‘therefore’ (translate one word coquō, coquere, coxī, coctum ‘cook’ earlier than where it appears in dīligenter ‘carefully’ Latin) aperiō, aperīre, aperuī, apertum ‘open’ cum ‘when’ loculum, loculī (n.) ‘casket’ domī ‘at home’ ēiciō, ēicere, ēiēcī, ēiectum ‘take out’ sequere ‘follow!’ (imperative) clāvis, clāvis, clāvium ‘key’ macellum, macellī (n.) ‘market’ cellārium, cellāriī (n.) ‘cellar’ aliquid ‘something’ prōfer ‘bring out’ (imperative) ad ‘for’ sāl, salis (m.) ‘salt’ prandium, prandiī (n.) ‘lunch’ oleum, oleī (n.) ‘oil’ quantī ‘how much’ (understand ‘is’) liquāmen, liquāminis (n.) ‘garum’ piscis, piscis, piscium (m.) ‘fish’ (sauce made by leaving fish in the dēnārius, dēnāriī (m.) ‘denarius’ (unit sun for three months) of money) acētum, acētī (n.) ‘vinegar’ decem ‘ten’ (indeclinable) albus, alba, album ‘white’ refer ‘carry’ (imperative) lignum, lignī (n.) ‘piece of firewood’ holerārius, holerāriī (m.) ‘grocer’ siccus, sicca, siccum ‘dry’ prūna, prūnae (f.) ‘burning ember’ (for compōnō (like pōnō) ‘set out’ lighting the fire) vitreāmen, vitreāminis (n.) ‘glass’ aliud ‘else’ (n."
-        },
-        {
-          "t": "example",
-          "text": "singular) aerāmentum, aerāmentī (n.) ‘bronze tantum ‘only’ utensil’\ncito ‘quickly’ sternō, sternere, strāvī, strātum nihil ‘not at all’ ‘arrange’\ntardē ‘slowly’ trīclīnium, trīclīniī (n.) ‘dining room’\nvēlōciter ‘quickly’\niam ‘already’ exspectō, -āre, -āvī, -ātum ‘wait for’ parātus, -a, -um ‘ready’\nsequar ‘I shall follow’\nnōndum ‘not yet’\niterum ‘again’\nsērō ‘late’\ninterim ‘meanwhile’"
         }
       ]
     },
@@ -56,51 +48,343 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "ideo ergo festina mihi afferre prandium.’ satis prandeo et bibo. sed dicit mihi meus paedagogus: ‘quid pateris hodie?"
-        },
-        {
-          "t": "p",
-          "text": "nihil gustavisti.’ Vocabulary (in order of first appearance; words that appear more than once are in bold, and those in bold in the preceding vocabulary list are omitted) dīmittō (like mittō) ‘dismiss’ mantēle, mantēlis, mantēlium (n.) regredior ‘I return’ ‘tablecloth’ intrō, intrāre, intrāvī, intrātum ‘enter’ mappa, mappae (f.) ‘napkin’ exuō, exuere, exuī, exūtum ‘take off’ afferō, afferre, attulī, allātum ‘bring’ vestīmenta, vestīmentōrum (n."
-        },
-        {
-          "t": "example",
-          "text": "plural) (third conjugation) ‘clothes’ pānis, pānis, pānium (m.) ‘bread’\nmundiōra ‘finer’ (neuter plural) pulmentārium, -ī (n.) ‘relish’ (i.e."
-        },
-        {
-          "t": "p",
-          "text": "tasty induō, induere, induī, indūtum ‘put on’ food to be eaten with bread) cottīdiānus, -a, -um ‘ordinary’ iterum ‘again’ poscō, poscere, poposcī, – ‘ask for’ revertī ‘return’ (infinitive) ad manūs ‘to wash my hands’ dēbeō, dēbēre, dēbuī, dēbitum (+ quoniam ‘since’ infinitive) ‘have to’ ēsuriō, ēsurīre, –, – ‘be hungry’ ideō ‘for this reason’ pōnō can also mean ‘set out’ ergō ‘therefore’ mēnsa, mēnsae (f.) ‘table’ festīnō, -āre, -āvī, -ātum ‘hasten’"
-        }
-      ]
-    },
-    {
-      "id": "section-3",
-      "latin": "26.3 Translate into Latin",
-      "english": "Grammar",
-      "kind": "commentary",
-      "blocks": [
-        {
-          "t": "example",
-          "text": "satis ‘adequately’\npateris ‘you are suffering’ bibō, bibere, bibī, – ‘drink’ nihil (n.) ‘nothing’ paedagōgus, -ī (m.) ‘paedagogue’ gustō, gustāre, gustāvī, gustātum ‘taste’"
-        },
-        {
-          "t": "h",
-          "text": "(child-minder)"
-        },
-        {
-          "t": "p",
-          "text": "g a i u s: Because I had lunch at your house yesterday, have lunch at my house today. m a r c u s: Let it be thus. g a i u s: You, boy, go with me to the grocer so that I will be able to buy fruits, which are necessary. Carry these vegetables home. Cook, come here. Take this fish and cook it carefully. Boy, open the cellar and bring out these things: good oil, wine from our own estate, garum, pieces of wood."
-        },
-        {
-          "t": "p",
-          "text": "Arrange the dining room. You, boy, go to Marcus, who is not yet here. Say ‘Come! Lunch is ready!’"
+          "text": "ideo ergo festina mihi afferre prandium.’ satis prandeo et bibo. sed dicit mihi meus paedagogus: ‘quid pateris hodie? nihil gustavisti.’"
         }
       ]
     }
   ],
   "readings": [],
   "grammar": [],
-  "vocabulary": [],
-  "pensa": []
+  "vocabulary": [
+    {
+      "latin": "quō",
+      "english": "to where?",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "vādō, vādere, –, –",
+      "english": "go",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "necessārius, -a, -um",
+      "english": "necessary",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "domum",
+      "english": "(to) home",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "festīnō, -āre, -āvī, -ātum",
+      "english": "hurry",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "inquīsītum",
+      "english": "ask",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sī",
+      "english": "if",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "suāvis, suāve",
+      "english": "attractive",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ecce",
+      "english": "look!",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sūrsum",
+      "english": "upstairs",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ascendō, ascendere, ascendī, ascēnsum domesticus, -a, -um",
+      "english": "from our own",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "estate",
+      "english": "ibi",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sīc",
+      "english": "in this way",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dēscendō, dēscendere, dēscendī, fīat",
+      "english": "let it be (done)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dēscēnsum",
+      "english": "come down",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "hūc",
+      "english": "to here",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "temperī",
+      "english": "punctually",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "tollō, tollere, sustulī, sublātum",
+      "english": "take",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ergō",
+      "english": "therefore",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "earlier than where it appears in dīligenter",
+      "english": "carefully",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "aperiō, aperīre, aperuī, apertum",
+      "english": "open",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cum",
+      "english": "when",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "domī",
+      "english": "at home",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ēiciō, ēicere, ēiēcī, ēiectum",
+      "english": "take out",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sequere",
+      "english": "follow!",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "clāvis, clāvis, clāvium",
+      "english": "key",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "aliquid",
+      "english": "something",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "prōfer",
+      "english": "bring out",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ad",
+      "english": "for",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "quantī",
+      "english": "how much",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "decem",
+      "english": "ten",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "albus, alba, album",
+      "english": "white",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "refer",
+      "english": "carry",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "siccus, sicca, siccum",
+      "english": "dry",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "aliud",
+      "english": "else",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "only",
+      "english": "utensil",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cito",
+      "english": "quickly",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sternō, sternere, strāvī, strātum nihil",
+      "english": "not at all",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "tardē",
+      "english": "slowly",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "vēlōciter",
+      "english": "quickly",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "iam",
+      "english": "already",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "exspectō, -āre, -āvī, -ātum",
+      "english": "wait for",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "parātus, -a, -um",
+      "english": "ready",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sequar",
+      "english": "I shall follow",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "nōndum",
+      "english": "not yet",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "iterum",
+      "english": "again",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "sērō",
+      "english": "late",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "interim",
+      "english": "meanwhile",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "regredior",
+      "english": "I return",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "intrō, intrāre, intrāvī, intrātum",
+      "english": "enter",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "exuō, exuere, exuī, exūtum",
+      "english": "take off",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "afferō, afferre, attulī, allātum",
+      "english": "bring",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "mundiōra",
+      "english": "finer",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "cottīdiānus, -a, -um",
+      "english": "ordinary",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "poscō, poscere, poposcī, –",
+      "english": "ask for",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "revertī",
+      "english": "return",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ad manūs",
+      "english": "to wash my hands",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dēbeō, dēbēre, dēbuī, dēbitum (+ quoniam",
+      "english": "since",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ēsuriō, ēsurīre, –, –",
+      "english": "be hungry",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ideō",
+      "english": "for this reason",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "pōnō can also mean",
+      "english": "set out",
+      "group": "Vocābula"
+    }
+  ],
+  "pensa": [
+    {
+      "id": "translate-26",
+      "latinLabel": "26.3 TRANSLATE INTO LATIN",
+      "title": "26.3 Translate into Latin",
+      "instruction": "",
+      "type": "questions",
+      "items": [
+        {
+          "q": "g a i u s: Because I had lunch at your house yesterday, have lunch at my house today.",
+          "a": ""
+        },
+        {
+          "q": "g a i u s: You, boy, go with me to the grocer so that I will be able to buy fruits, which are necessary.",
+          "a": ""
+        },
+        {
+          "q": "Arrange the dining room.",
+          "a": ""
+        }
+      ]
+    }
+  ]
 }
 
 export default chapter

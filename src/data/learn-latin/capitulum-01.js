@@ -119,6 +119,18 @@ const chapter = {
           "text": "The exercises below offer further practice on all the material covered in this chapter."
         }
       ]
+    },
+    {
+      "id": "section-5",
+      "latin": "1.5 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "example",
+          "text": "Verbs currō ‘run’\ndūcō ‘lead’\nemō ‘buy’\nlegō ‘read’\nmittō ‘send’\npetō ‘seek’\npōnō ‘put’\nregō ‘rule’\nscrībō ‘write’\nvincō ‘conquer’, ‘defeat’ Other words et ‘and’ -ne introduces questions nōn ‘not’"
+        }
+      ]
     }
   ],
   "readings": [
@@ -136,68 +148,7 @@ const chapter = {
     }
   ],
   "grammar": [],
-  "vocabulary": [
-    {
-      "latin": "currō",
-      "english": "run",
-      "group": "Verba"
-    },
-    {
-      "latin": "dūcō",
-      "english": "lead",
-      "group": "Verba"
-    },
-    {
-      "latin": "emō",
-      "english": "buy",
-      "group": "Verba"
-    },
-    {
-      "latin": "legō",
-      "english": "read",
-      "group": "Verba"
-    },
-    {
-      "latin": "mittō",
-      "english": "send",
-      "group": "Verba"
-    },
-    {
-      "latin": "petō",
-      "english": "seek",
-      "group": "Verba"
-    },
-    {
-      "latin": "pōnō",
-      "english": "put",
-      "group": "Verba"
-    },
-    {
-      "latin": "regō",
-      "english": "rule",
-      "group": "Verba"
-    },
-    {
-      "latin": "scrībō",
-      "english": "write",
-      "group": "Verba"
-    },
-    {
-      "latin": "vincō",
-      "english": "conquer, defeat",
-      "group": "Verba"
-    },
-    {
-      "latin": "et",
-      "english": "and",
-      "group": "Verba"
-    },
-    {
-      "latin": "-ne introduces questions nōn",
-      "english": "not",
-      "group": "Verba"
-    }
-  ],
+  "vocabulary": [],
   "pensa": [
     {
       "latinLabel": "PRACTICE A",

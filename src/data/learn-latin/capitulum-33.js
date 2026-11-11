@@ -25,6 +25,30 @@ const chapter = {
         {
           "t": "p",
           "text": "nostrī tam fortēs sunt ut nōn fugiant. ‘Our men are so brave that they are not fleeing.’"
+        },
+        {
+          "t": "h",
+          "text": "ita ‘so’, ‘thus’, ‘in such a way’ (used with adjectives, adverbs,"
+        },
+        {
+          "t": "h",
+          "text": "and verbs)"
+        },
+        {
+          "t": "h",
+          "text": "nam ‘for’ (the conjunction ‘for’ in ‘for he’s a jolly good fellow’,"
+        },
+        {
+          "t": "h",
+          "text": "not the preposition ‘for’ in ‘he stayed for two days’)"
+        },
+        {
+          "t": "example",
+          "text": "-que (postpositive) ‘and’\nsī ‘if’\ntam ‘so’ (i.e. to such a degree, used with adjectives and adverbs) tamen ‘nevertheless’"
+        },
+        {
+          "t": "p",
+          "text": "Note: ‘postpositive’ means that the word in question does not come first in a clause or phrase and usually needs to be translated in English one word earlier than where it appears. Thus puerī enim vēnērunt means ‘for the boys came’, not ‘the boys for came’, and puerī puellaeque means ‘boys and girls’, not ‘boys girls and’. Autem and igitur can be translated either where they appear in Latin or one place to the left, depending on one’s English style: puerī autem vēnērunt = ‘The boys, however, came’ or ‘However, the boys came’; puerī igitur vēnērunt = ‘The boys, therefore, came’ or ‘Therefore, the boys came’."
         }
       ]
     },
@@ -36,11 +60,7 @@ const chapter = {
       "blocks": [
         {
           "t": "p",
-          "text": "The four types of subordinate clause with subjunctive that we have so far seen are distinguished by the following features:"
-        },
-        {
-          "t": "h",
-          "text": "Subordinate clause introduced by (if no negative in (if negative in"
+          "text": "The four types of subordinate clause with subjunctive that we have so far seen are distinguished by the following features: Subordinate clause introduced by (if no negative in (if negative in"
         },
         {
           "t": "h",
@@ -48,43 +68,35 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Construction main clause clause) clause) Result clause tantus, tam, etc. ut ut . . . nōn Fear clause verb of fearing nē ut (or nē . . . nōn) Indirect verb of asking, etc. ut nē"
-        },
-        {
-          "t": "h",
-          "text": "command"
+          "text": "Construction main clause clause) clause) Result clause tantus, tam, etc. ut ut . . . nōn Fear clause verb of fearing nē ut (or nē . . . nōn) Indirect verb of asking, etc. ut nē command Purpose clause none ut nē Their translations are different as follows (only the most common translations are listed here; many others are possible): Construction Translation Example Result clause 1."
         },
         {
           "t": "p",
-          "text": "Purpose clause none ut nē Their translations are different as follows (only the most common translations are listed here; many others are possible): Construction Translation Example Result clause 1. ‘that’ + present indicative (if in primary adeō timet ut fugiat. ‘He is so frightened that he is sequence) fleeing.’ 2. ‘that’ + past indicative (if in historic sequence) adeō timuit ut fugeret. ‘He was so frightened that"
-        },
-        {
-          "t": "h",
-          "text": "he fled.’ historic sequence)"
+          "text": "‘that’ + present indicative (if in primary adeō timet ut fugiat. ‘He is so frightened that he is sequence) fleeing.’ 2. ‘that’ + past indicative (if in historic sequence) adeō timuit ut fugeret. ‘He was so frightened that he fled.’ historic sequence) Fear clause 3. ‘that’ + future indicative (if in primary timeō nē veniat. ‘I am afraid that he will come.’ sequence) 4. ‘that’ + ‘would’ (if in historic sequence) timuī nē venīret."
         },
         {
           "t": "p",
-          "text": "Fear clause 3. ‘that’ + future indicative (if in primary timeō nē veniat. ‘I am afraid that he will come.’"
-        },
-        {
-          "t": "h",
-          "text": "sequence)"
-        },
-        {
-          "t": "p",
-          "text": "4. ‘that’ + ‘would’ (if in historic sequence) timuī nē venīret. ‘I was afraid that he would come.’ Indirect command 5. infinitive rogō eum ut veniat. ‘I am asking him to come.’ Purpose clause 6. infinitive (if both clauses have the same subject) discēdit ut veniat. ‘He is leaving (e.g. home) to come.’ 7. ‘in order to’ + infinitive (if both clauses have the discēdit ut veniat. ‘He is leaving in order to come.’"
-        },
-        {
-          "t": "h",
-          "text": "same subject)"
+          "text": "‘I was afraid that he would come.’ Indirect command 5. infinitive rogō eum ut veniat. ‘I am asking him to come.’ Purpose clause 6. infinitive (if both clauses have the same subject) discēdit ut veniat. ‘He is leaving (e.g. home) to come.’ 7. ‘in order to’ + infinitive (if both clauses have the discēdit ut veniat. ‘He is leaving in order to come.’ same subject) 8. ‘so that’ + future indicative (if in primary vocō eum ut veniat."
         },
         {
           "t": "example",
-          "text": "8. ‘so that’ + future indicative (if in primary vocō eum ut veniat. ‘I am calling him so that he sequence) will come.’ 9. ‘so that’ + ‘would’ (if in historic sequence) vocāvī eum ut venīret."
+          "text": "‘I am calling him so that he sequence) will come.’ 9. ‘so that’ + ‘would’ (if in historic sequence) vocāvī eum ut venīret."
         },
         {
           "t": "p",
           "text": "‘I called him so that he would come.’ The result of all this is that it is essential to look for the clues provided in the first table above before translating one of these subordinate clauses: one can only choose between the translations provided in the second table after working out which construction is present."
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "latin": "33.4 Vocabulary to Learn",
+      "english": "Grammar",
+      "kind": "commentary",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Nouns cornū, cornūs (n.) ‘horn’ diēs, diēī (m.) ‘day’ domus, domūs/domī (f.) ‘house’, ‘home’ exercitus, exercitūs (m.) ‘army’ fidēs, fideī (f.) ‘faith’, ‘trust’ genū, genūs (n.) ‘knee’ gradus, gradūs (m.) ‘step’ manus, manūs (f.) ‘hand’ metus, metūs (m.) ‘fear’ rēs, reī (f.) ‘matter’, ‘affair’, ‘thing’ senātus, senātūs (m.) ‘senate’ spēs, speī (f.) ‘hope’ versus, versūs (m.) ‘verse’ Adjectives tālis, -e ‘such’, ‘of such a sort’ tantus, -a, -um ‘so great’, ‘so big’ tot (indeclinable) ‘so many’ Adverbs and Conjunctions adeō ‘so’, ‘to such an extent’ (used with verbs) aut ‘or’ autem (postpositive) ‘however’ enim (postpositive) ‘for’ (the conjunction ‘for’ in ‘for he’s a jolly good fellow’, not the preposition ‘for’ in ‘he stayed for two days’) ergō ‘therefore’ ibi ‘there’ igitur (postpositive) ‘therefore’"
         }
       ]
     }
@@ -113,224 +125,194 @@ const chapter = {
   "grammar": [],
   "vocabulary": [
     {
-      "latin": "cornū, cornūs (n.)",
-      "english": "horn",
-      "group": "Nōmina"
+      "latin": "decet",
+      "english": "it is fitting (for)",
+      "group": "Vocābula"
     },
     {
-      "latin": "diēs, diēī (m.)",
-      "english": "day",
-      "group": "Nōmina"
+      "latin": "certē",
+      "english": "certainly",
+      "group": "Vocābula"
     },
     {
-      "latin": "domus, domūs/domī (f.)",
-      "english": "house, home",
-      "group": "Nōmina"
+      "latin": "sapiēns, gen. sapientis",
+      "english": "wise",
+      "group": "Vocābula"
     },
     {
-      "latin": "exercitus, exercitūs (m.)",
-      "english": "army",
-      "group": "Nōmina"
+      "latin": "valdē",
+      "english": "very much",
+      "group": "Vocābula"
     },
     {
-      "latin": "fidēs, fideī (f.)",
-      "english": "faith, trust",
-      "group": "Nōmina"
+      "latin": "paterfamiliās (declines like pater + pudet",
+      "english": "it embarrasses",
+      "group": "Vocābula"
     },
     {
-      "latin": "genū, genūs (n.)",
-      "english": "knee",
-      "group": "Nōmina"
+      "latin": "alius, alia, aliud",
+      "english": "other",
+      "group": "Vocābula"
     },
     {
-      "latin": "gradus, gradūs (m.)",
-      "english": "step",
-      "group": "Nōmina"
+      "latin": "turpius",
+      "english": "more shamefully",
+      "group": "Vocābula"
     },
     {
-      "latin": "manus, manūs (f.)",
-      "english": "hand",
-      "group": "Nōmina"
+      "latin": "maximus, maxima, maximum nec",
+      "english": "nor",
+      "group": "Vocābula"
     },
     {
-      "latin": "metus, metūs (m.)",
-      "english": "fear",
-      "group": "Nōmina"
+      "latin": "ignōminiōsius",
+      "english": "more ignominiously",
+      "group": "Vocābula"
     },
     {
-      "latin": "rēs, reī (f.)",
-      "english": "matter, affair, thing",
-      "group": "Nōmina"
+      "latin": "cumulō, -āre, -āvī, -ātum",
+      "english": "accumulate",
+      "group": "Vocābula"
     },
     {
-      "latin": "senātus, senātūs (m.)",
-      "english": "senate",
-      "group": "Nōmina"
+      "latin": "quam",
+      "english": "than",
+      "group": "Vocābula"
     },
     {
-      "latin": "spēs, speī (f.)",
-      "english": "hope",
-      "group": "Nōmina"
+      "latin": "posteā",
+      "english": "in the future",
+      "group": "Vocābula"
     },
     {
-      "latin": "versus, versūs (m.)",
-      "english": "verse",
-      "group": "Nōmina"
+      "latin": "nesciō, nescīre, nescīvī, nescītum",
+      "english": "not nūllī",
+      "group": "Vocābula"
     },
     {
-      "latin": "tālis, -e",
-      "english": "such, of such a sort",
-      "group": "Adiectīva"
+      "latin": "perturbātus, -a, -um",
+      "english": "upset",
+      "group": "Vocābula"
     },
     {
-      "latin": "tantus, -a, -um",
-      "english": "so great, so big",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "tot (indeclinable)",
-      "english": "so many",
-      "group": "Adiectīva"
-    },
-    {
-      "latin": "and Conjunctions adeō",
-      "english": "so, to such an extent",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "(used with verbs) aut",
-      "english": "or",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "autem (postpositive)",
-      "english": "however",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "enim (postpositive)",
+      "latin": "nam",
       "english": "for",
-      "group": "Adverbia"
+      "group": "Vocābula"
     },
     {
-      "latin": "(the conjunction",
-      "english": "for",
-      "group": "Adverbia"
+      "latin": "multum",
+      "english": "much",
+      "group": "Vocābula"
     },
     {
-      "latin": "in",
-      "english": "for he",
-      "group": "Adverbia"
+      "latin": "aliēnātus, -a, -um",
+      "english": "alienated",
+      "group": "Vocābula"
     },
     {
-      "latin": "s a jolly good fellow",
-      "english": ", not the preposition",
-      "group": "Adverbia"
+      "latin": "neque . . . neque",
+      "english": "neither . . . nor",
+      "group": "Vocābula"
     },
     {
-      "latin": "for",
-      "english": "in",
-      "group": "Adverbia"
+      "latin": "anything",
+      "english": "(neuter iniūria, iniūriae (f.)",
+      "group": "Vocābula"
     },
     {
-      "latin": "he stayed for two days",
-      "english": ") ergō",
-      "group": "Adverbia"
+      "latin": "injustice",
+      "english": "nominative singular; needs imperium, imperiī (n.)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "rule",
+      "english": "to be translated twice aut . . . aut",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "feeble",
+      "english": "videor (passive of videō)",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "quid malī",
+      "english": "what trouble",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "adferant",
+      "english": "(they) produce",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "lāmentor, -ārī, -ātus sum deinde",
+      "english": "finally",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "dulcis, dulce",
+      "english": "sweet",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "nōn . . . modo",
+      "english": "not only",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "fortissimus, -a, -um",
+      "english": "the bravest",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "etiam",
+      "english": "even",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "ēdiscō, ēdiscere, ēdidicī, –",
+      "english": "learn by fingō, fingere, fīnxī, fictum",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "heart",
+      "english": "cum . . . exquīreret",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "rēctē",
+      "english": "rightly",
+      "group": "Vocābula"
+    },
+    {
+      "latin": "investigating",
+      "english": "igitur",
+      "group": "Vocābula"
     },
     {
       "latin": "therefore",
-      "english": "ibi",
-      "group": "Adverbia"
+      "english": "optimus, optima, optimum",
+      "group": "Vocābula"
     },
     {
-      "latin": "there",
-      "english": "igitur (postpositive)",
-      "group": "Adverbia"
+      "latin": "best",
+      "english": "Platō, Platōnis (m.) name of a Greek mōs, mōris (m.)",
+      "group": "Vocābula"
     },
     {
-      "latin": "so",
-      "english": ",",
-      "group": "Adverbia"
+      "latin": "philosopher reī pūblicae",
+      "english": "of a state",
+      "group": "Vocābula"
     },
     {
-      "latin": "thus",
-      "english": ",",
-      "group": "Adverbia"
+      "latin": "ēiciō, ēicere, ēiēcī, ēiectum",
+      "english": "expel",
+      "group": "Vocābula"
     },
     {
-      "latin": "in such a way",
-      "english": "(used with adjectives, adverbs, and verbs) nam",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "for he",
-      "english": "s a jolly good fellow",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "not the preposition",
-      "english": "for",
-      "group": "Adverbia"
-    },
-    {
-      "latin": ") -que (postpositive)",
-      "english": "and",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "sī",
-      "english": "if",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "tam",
-      "english": "so",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "(i.e. to such a degree, used with adjectives and adverbs) tamen",
-      "english": "nevertheless",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "Note",
-      "english": "postpositive",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "means that the word in question does not come first in a clause or phrase and usually needs to be translated in English one word earlier than where it appears. Thus puerī enim vēnērunt means",
-      "english": "for the boys came",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "not",
-      "english": "the boys for came",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "and puerī puellaeque means",
-      "english": "boys and girls",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "Autem and igitur can be translated either where they appear in Latin or one place to the left, depending on one",
-      "english": "s English style: puerī autem vēnērunt =",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "The boys, however, came",
-      "english": "or",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "However, the boys came",
-      "english": "; puerī igitur vēnērunt =",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "The boys, therefore, came",
-      "english": "or",
-      "group": "Adverbia"
+      "latin": "statum",
+      "english": "condition",
+      "group": "Vocābula"
     }
   ],
   "pensa": [
@@ -596,23 +578,7 @@ const chapter = {
           "a": ""
         },
         {
-          "q": "1 Colloquium Celtis 66c–68b (adapted): coming home to a scolding after a party (probably second or third century ad ). wife: itane decet sapientem patremfamilias, qui aliis consilia dat, se regere? non potest turpius nec ignominiosius agere quam heri egisti. husband: me certe valde pudet. wife: quid dicunt alii in absentia tua? infamiam maximam tibi cumulavisti. rogo te ne postea talia facias. husband: nescio quid dicam; ita enim perturbatus sum ut rationem nulli possim reddere. Vocabulary decet ‘it is fitting (for)’ certē ‘certainly’ sapiēns, gen. sapientis ‘wise’ valdē ‘very much’ paterfamiliās (declines like pater + pudet ‘it embarrasses’ familiās) ‘head of a household’ absentia, absentiae (f.) ‘absence’ alius, alia, aliud ‘other’ īnfāmia, īnfāmiae (f.) ‘infamy’, ‘bad potest ‘it is possible’ reputation’ turpius ‘more shamefully’ maximus, maxima, maximum nec ‘nor’ ‘enormous’ ignōminiōsius ‘more ignominiously’ cumulō, -āre, -āvī, -ātum ‘accumulate’ quam ‘than’ posteā ‘in the future’ nesciō, nescīre, nescīvī, nescītum ‘not nūllī ‘to no-one’ (dative) know’ reddō, reddere, reddidī, redditum perturbātus, -a, -um ‘upset’ ‘give’ ratiō, ratiōnis (f.) ‘explanation’",
-          "a": ""
-        },
-        {
-          "q": "2 Cicero, Epistulae ad familiares 15.1.5: Cicero informs the Senate of the problems with Rome’s allies in Cilicia (part of a letter written in",
-          "a": ""
-        },
-        {
-          "q": "51 bc ). Nam sociorum auxilia propter acerbitatem atque iniurias imperi nostri aut ita imbecilla sunt, ut non multum nos iuvare possint, aut ita alienata a nobis, ut neque exspectandum ab iis neque committendum iis quicquam esse videatur. Vocabulary nam ‘for’ multum ‘much’ (adverb) socius, sociī (m.) ‘ally’ aliēnātus, -a, -um ‘alienated’ auxilia, auxiliōrum (n. plural) neque . . . neque ‘neither . . . nor’ ‘auxiliary troops’ exspectandus, -a, -um ‘able to be propter (+ accusative) ‘on expected’ account of’ committendus, -a, -um (+ dative) ‘able acerbitās, acerbitātis (f.) ‘harshness’ to be entrusted to’ atque ‘and’ quicquam ‘anything’ (neuter iniūria, iniūriae (f.) ‘injustice’ nominative singular; needs imperium, imperiī (n.) ‘rule’ to be translated twice aut . . . aut ‘either . . . or’ in English) imbēcillus, -a, -um ‘feeble’ videor (passive of videō) ‘seem’",
-          "a": ""
-        },
-        {
-          "q": "3 Cicero, Tusculan Disputations 2.11.",
-          "a": ""
-        },
-        {
-          "q": "27 (adapted): praise of Plato’s Republic (first century bc ). Sed videsne, poetae quid mali adferant? lamentantes inducunt fortissimos viros, molliunt animos nostros, ita sunt deinde dulces, ut non legantur modo, sed etiam ediscantur. . . . recte igitur a Platone eiciuntur ex ea civitate, quam finxit ille cum optimos mores et optimum rei publicae statum exquireret. Vocabulary quid malī ‘what trouble’ (literally molliō, mollīre, mollīvī, mollītum ‘what of trouble’) ‘soften’ adferant ‘(they) produce’ animus, animī (m.) ‘spirit’ lāmentor, -ārī, -ātus sum deinde ‘finally’ ‘lament’ dulcis, dulce ‘sweet’ indūcō (like dūcō) ‘portray’ nōn . . . modo ‘not only’ fortissimus, -a, -um ‘the bravest’ etiam ‘even’ ēdiscō, ēdiscere, ēdidicī, – ‘learn by fingō, fingere, fīnxī, fictum ‘invent’ heart’ cum . . . exquīreret ‘when he was rēctē ‘rightly’ investigating’ igitur ‘therefore’ optimus, optima, optimum ‘best’ Platō, Platōnis (m.) name of a Greek mōs, mōris (m.) ‘customs’ philosopher reī pūblicae ‘of a state’ ēiciō, ēicere, ēiēcī, ēiectum ‘expel’ statum ‘condition’ (accusative cīvitās, cīvitātis (f.) ‘state’ singular)",
+          "q": "1 Colloquium Celtis 66c–68b (adapted): coming home to a scolding after a party (probably second or third century ad ). wife: itane decet sapientem patremfamilias, qui aliis consilia dat, se regere? non potest turpius nec ignominiosius agere quam heri egisti. husband: me certe valde pudet. wife: quid dicunt alii in absentia tua? infamiam maximam tibi cumulavisti. rogo te ne postea talia facias. husband: nescio quid dicam; ita enim perturbatus sum ut rationem nulli possim reddere.",
           "a": ""
         }
       ],
