@@ -1,5 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
+import { getBook } from '../data/library.js'
+import { primaryKeywordLabels } from './KeywordChips.jsx'
 
 const ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII']
 
@@ -16,7 +18,9 @@ const WAY_GAP = 34
 const TOP_PAD = 36
 const BOTTOM_PAD = 76
 const TICK = 30 // lead from the road to a label
-const RAIL_WINDOW = 11 // lessons shown in the right-hand index
+const RAIL_ROWS = 11 // default lessons shown in the right-hand index
+const RAIL_ROWS_MIN = 7
+const RAIL_ROWS_MAX = 29
 
 const lessonKey = (lesson) => `${lesson.bookSlug}/${lesson.slug}`
 
@@ -135,6 +139,31 @@ export default function IterMap({ stages, isDone, nextLesson, onToggle }) {
     [layout],
   )
 
+  // Each lesson's place on the whole road: its number and the stage it sits in.
+  const lessonMeta = useMemo(() => {
+    const map = new Map()
+    let index = 0
+    for (const stage of stages) {
+      for (const lesson of stage.lessons) {
+        index += 1
+        map.set(lessonKey(lesson), { index, stage })
+      }
+    }
+    return map
+  }, [stages])
+
+  // How many lessons the right index can show, so it fills the viewport.
+  const [railRows, setRailRows] = useState(RAIL_ROWS)
+  useEffect(() => {
+    const compute = () => {
+      const rows = Math.floor((window.innerHeight - 150) / 26)
+      setRailRows(Math.max(RAIL_ROWS_MIN, Math.min(RAIL_ROWS_MAX, rows)))
+    }
+    compute()
+    window.addEventListener('resize', compute)
+    return () => window.removeEventListener('resize', compute)
+  }, [])
+
   // A stage hash (#casus …) scrolls to that stage's milestone on the road.
   useEffect(() => {
     if (!layout) return
@@ -213,7 +242,7 @@ export default function IterMap({ stages, isDone, nextLesson, onToggle }) {
   /* Show the hover card for a stop, opening above it when there is room
      between the sticky header and the stop, otherwise below — whichever
      side of the road actually has space in the viewport right now. */
-  const showTip = (item, lesson) => () => {
+  const showTip = (item, lesson, meta) => () => {
     const svg = svgRef.current
     if (!svg) return
     const box = svg.getBoundingClientRect()
@@ -221,7 +250,7 @@ export default function IterMap({ stages, isDone, nextLesson, onToggle }) {
     const anchorBottom = box.top + item.y + 8
     const roomAbove = anchorTop - 76 // sticky header + air
     const roomBelow = window.innerHeight - anchorBottom
-    const est = lesson.focus ? 205 : 185 // card + stem, estimated
+    const est = 330 // card + stem, estimated
     const place =
       roomAbove >= est
         ? 'above'
@@ -230,7 +259,7 @@ export default function IterMap({ stages, isDone, nextLesson, onToggle }) {
           : roomAbove >= roomBelow
             ? 'above'
             : 'below'
-    setTip({ item, lesson, place })
+    setTip({ item, lesson, place, meta })
   }
   const hideTip = () => setTip(null)
 
@@ -372,9 +401,9 @@ export default function IterMap({ stages, isDone, nextLesson, onToggle }) {
                   <g
                     className={stopClass}
                     key={key}
-                    onMouseEnter={showTip(item, lesson)}
+                    onMouseEnter={showTip(item, lesson, lessonMeta.get(key))}
                     onMouseLeave={hideTip}
-                    onFocus={showTip(item, lesson)}
+                    onFocus={showTip(item, lesson, lessonMeta.get(key))}
                     onBlur={hideTip}
                   >
                     <g
@@ -441,7 +470,7 @@ export default function IterMap({ stages, isDone, nextLesson, onToggle }) {
           {/* Hover card for the stop under the pointer, with what the
               chapter's own page shows: work and numeral, Latin title,
               English title, level, focus, and its tags. */}
-          {tip && <HoverCard tip={tip} width={width} isDone={isDone} />}
+          {tip && <HoverCard tip={tip} width={width} isDone={isDone} total={flatLessons.length} />}
         </div>
 
         {layout && (
@@ -450,6 +479,7 @@ export default function IterMap({ stages, isDone, nextLesson, onToggle }) {
             activeLesson={active.lesson}
             isDone={isDone}
             onJump={jumpToLesson}
+            rows={railRows}
           />
         )}
       </div>
@@ -462,101 +492,118 @@ export default function IterMap({ stages, isDone, nextLesson, onToggle }) {
 function StageRail({ stages, activeGate, isDone, onJump }) {
   return (
     <nav className="iter-map__rail iter-map__stages" aria-label="Stages of the itinerary">
-      <p className="iter-map__rail-title">
-        <span>Stages</span>
-        <span className="iter-map__rail-count">{ROMAN[stages.length - 1] || stages.length}</span>
-      </p>
-      <ol className="iter-map__rail-list">
-        {stages.map((stage, index) => {
-          const learned = stage.lessons.filter(isDone).length
-          const percent = stage.lessonCount
-            ? Math.round((learned / stage.lessonCount) * 100)
-            : 0
-          const current = activeGate === stage.id
-          return (
-            <li key={stage.id}>
-              <button
-                type="button"
-                className={`iter-map__stage${current ? ' is-active' : ''}`}
-                aria-current={current ? 'true' : undefined}
-                onClick={() => onJump(stage.id)}
-              >
-                <span className="iter-map__stage-num">{ROMAN[index] || index + 1}</span>
-                <span className="iter-map__stage-name latin">{stage.latin}</span>
-                <span className="iter-map__stage-meta">
-                  {learned} / {stage.lessonCount}
-                </span>
-                <span className="iter-map__stage-bar" aria-hidden="true">
-                  <span style={{ width: `${percent}%` }} />
-                </span>
-              </button>
-            </li>
-          )
-        })}
-      </ol>
+      <div className="iter-map__rail-inner">
+        <p className="iter-map__rail-title">
+          <span>Stages</span>
+          <span className="iter-map__rail-count">{ROMAN[stages.length - 1] || stages.length}</span>
+        </p>
+        <ol className="iter-map__rail-list">
+          {stages.map((stage, index) => {
+            const learned = stage.lessons.filter(isDone).length
+            const percent = stage.lessonCount
+              ? Math.round((learned / stage.lessonCount) * 100)
+              : 0
+            const current = activeGate === stage.id
+            return (
+              <li key={stage.id}>
+                <button
+                  type="button"
+                  className={`iter-map__stage${current ? ' is-active' : ''}`}
+                  aria-current={current ? 'true' : undefined}
+                  onClick={() => onJump(stage.id)}
+                >
+                  <span className="iter-map__stage-num">{ROMAN[index] || index + 1}</span>
+                  <span className="iter-map__stage-name latin">{stage.latin}</span>
+                  <span className="iter-map__stage-meta">
+                    {learned} / {stage.lessonCount}
+                  </span>
+                  <span className="iter-map__stage-bar" aria-hidden="true">
+                    <span style={{ width: `${percent}%` }} />
+                  </span>
+                </button>
+              </li>
+            )
+          })}
+        </ol>
+      </div>
     </nav>
   )
 }
 
-/* The right index: a moving window of lessons around the one in view, so the
-   reader always sees the next few stops without the whole 451-row roll. */
-function LessonRail({ items, activeLesson, isDone, onJump }) {
+/* The right index: a moving window of lessons around the one in view. The
+   window is as tall as the viewport allows, so the index fills the margin. */
+function LessonRail({ items, activeLesson, isDone, onJump, rows }) {
   const total = items.length
   const found = items.findIndex((item) => lessonKey(item.lesson) === activeLesson)
   const current = found >= 0 ? found : 0
-  const size = Math.min(RAIL_WINDOW, total)
+  const size = Math.min(rows, total)
   const start = Math.max(0, Math.min(current - Math.floor(size / 2), total - size))
   const shown = items.slice(start, start + size)
 
   return (
     <nav className="iter-map__rail iter-map__lessons" aria-label="Lessons at this point on the road">
-      <p className="iter-map__rail-title">
-        <span>Lectiō</span>
-        <span className="iter-map__rail-count">
-          {total ? current + 1 : 0} / {total}
-        </span>
-      </p>
-      <ol className="iter-map__rail-list">
-        {shown.map(({ lesson }) => {
-          const key = lessonKey(lesson)
-          const done = isDone(lesson)
-          const isCurrent = key === activeLesson
-          return (
-            <li key={key}>
-              <button
-                type="button"
-                className={`iter-map__lesson${isCurrent ? ' is-active' : ''}${done ? ' is-done' : ''}`}
-                aria-current={isCurrent ? 'true' : undefined}
-                onClick={() => onJump(key)}
-              >
-                <span className="iter-map__lesson-dot" aria-hidden="true" />
-                <span className="iter-map__lesson-num">{lesson.roman}</span>
-                <span className="iter-map__lesson-title latin">
-                  {lesson.latinTitle || lesson.title}
-                </span>
-              </button>
-            </li>
-          )
-        })}
-      </ol>
+      <div className="iter-map__rail-inner">
+        <p className="iter-map__rail-title">
+          <span>Lectiō</span>
+          <span className="iter-map__rail-count">
+            {total ? current + 1 : 0} / {total}
+          </span>
+        </p>
+        <ol className="iter-map__rail-list">
+          {shown.map(({ lesson }) => {
+            const key = lessonKey(lesson)
+            const done = isDone(lesson)
+            const isCurrent = key === activeLesson
+            return (
+              <li key={key}>
+                <button
+                  type="button"
+                  className={`iter-map__lesson${isCurrent ? ' is-active' : ''}${done ? ' is-done' : ''}`}
+                  aria-current={isCurrent ? 'true' : undefined}
+                  onClick={() => onJump(key)}
+                >
+                  <span className="iter-map__lesson-dot" aria-hidden="true" />
+                  <span className="iter-map__lesson-num">{lesson.roman}</span>
+                  <span className="iter-map__lesson-title latin">
+                    {lesson.latinTitle || lesson.title}
+                  </span>
+                </button>
+              </li>
+            )
+          })}
+        </ol>
+      </div>
     </nav>
   )
 }
 
-/* The card itself: parchment, a stem toward the stop, opening above or
-   below depending on the space measured when the hover began. */
-function HoverCard({ tip, width, isDone }) {
-  const { item, lesson, place } = tip
-  const tipW = Math.min(280, Math.max(170, width - 24))
+/* The card itself: the whole dossier the chapter's own page carries — work,
+   unit and numeral, both titles, its tagline, focus, what it contains, its
+   keywords and its state — opening above or below the stop as space allows. */
+function HoverCard({ tip, width, isDone, total }) {
+  const { item, lesson, place, meta } = tip
+  const tipW = Math.min(340, Math.max(220, width - 24))
   const left = Math.min(
     Math.max(item.x, tipW / 2 + 8),
     Math.max(tipW / 2 + 8, width - tipW / 2 - 8),
   )
   const done = isDone(lesson)
+  const book = getBook(lesson.bookSlug)
+  const chapter = book?.chapters.find((c) => c.slug === lesson.slug)
+  const isReader = book?.kind === 'reader' || book?.kind === 'workbook'
+  const unit = book?.unit || (isReader ? 'Colloquium' : 'Capitulum')
   const sameTitle =
     lesson.latinTitle &&
     lesson.title &&
     lesson.latinTitle.trim().toLowerCase() === lesson.title.trim().toLowerCase()
+
+  const contents = [
+    chapter?.grammar?.length && `${chapter.grammar.length} grammar`,
+    chapter?.vocabulary?.length && `${chapter.vocabulary.length} words`,
+    chapter?.pensa?.length && `${chapter.pensa.length} practices`,
+    chapter?.readings?.length && `${chapter.readings.length} reading${chapter.readings.length > 1 ? 's' : ''}`,
+  ].filter(Boolean)
+  const keywords = primaryKeywordLabels(chapter?.keywords || [], 3)
 
   return (
     <div
@@ -564,19 +611,44 @@ function HoverCard({ tip, width, isDone }) {
       style={{ left, top: item.y, width: tipW }}
       aria-hidden="true"
     >
-      <p className="iter-map__tip-meta">
-        <span className="iter-map__tip-book">
-          {lesson.bookMark || lesson.bookShort} · {lesson.roman}
+      <p className="iter-map__tip-band">
+        <span className="iter-map__tip-unit">
+          {book?.shortTitle || lesson.bookShort}
+          {lesson.roman && ` · ${unit} ${lesson.roman}`}
         </span>
         <span className="iter-map__tip-level" data-level={lesson.level}>
           {LEVEL_LABEL[lesson.level] || lesson.level}
         </span>
       </p>
+
       <p className="iter-map__tip-latin latin">{lesson.latinTitle || lesson.title}</p>
-      {!sameTitle && lesson.latinTitle && lesson.title && (
-        <p className="iter-map__tip-title">{lesson.title}</p>
+      {!sameTitle && lesson.title && <p className="iter-map__tip-title">{lesson.title}</p>}
+      {chapter?.tagline && <p className="iter-map__tip-tagline">{chapter.tagline}</p>}
+
+      {(lesson.focus || contents.length > 0) && (
+        <div className="iter-map__tip-facts">
+          {lesson.focus && (
+            <p className="iter-map__tip-focus">
+              <span className="iter-map__tip-key">Focus</span>
+              {lesson.focus}
+            </p>
+          )}
+          {contents.length > 0 && (
+            <p className="iter-map__tip-contents">{contents.join(' · ')}</p>
+          )}
+        </div>
       )}
-      {lesson.focus && <p className="iter-map__tip-focus">{lesson.focus}</p>}
+
+      {keywords.length > 0 && (
+        <p className="iter-map__tip-keywords">
+          {keywords.map((label) => (
+            <span key={label} className="iter-map__tip-keyword">
+              {label}
+            </span>
+          ))}
+        </p>
+      )}
+
       {(done || lesson.reading || lesson.alternative) && (
         <p className="iter-map__tip-tags">
           {done && <span className="iter-map__tip-tag is-learned">Learned</span>}
@@ -584,6 +656,13 @@ function HoverCard({ tip, width, isDone }) {
           {lesson.alternative && <span className="iter-map__tip-tag is-alt">Alternative</span>}
         </p>
       )}
+
+      <p className="iter-map__tip-foot">
+        <span className="iter-map__tip-pos">
+          {meta ? `Lesson ${meta.index} of ${total} · ${meta.stage.latin}` : `Lesson of ${total}`}
+        </span>
+        <span className="iter-map__tip-cta">Open chapter →</span>
+      </p>
     </div>
   )
 }

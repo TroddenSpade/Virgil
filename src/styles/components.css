@@ -3606,12 +3606,12 @@ button.lesson__keywords-label:focus-visible {
   margin-top: 1.5rem;
 }
 
-/* The road in the centre, its two marginal indexes flanking it. */
+/* The road in the centre; the two marginal indexes run its full height. */
 .iter-map__frame {
   display: grid;
   grid-template-columns: 156px minmax(0, 1fr) 200px;
   gap: 26px;
-  align-items: start;
+  align-items: stretch;
 }
 
 .iter-map__center {
@@ -3619,11 +3619,15 @@ button.lesson__keywords-label:focus-visible {
   min-width: 0;
 }
 
-/* A hairline before the road and after it: the edges of the scroll. */
+/* The rail is a full-height column; only its index rides along, sticky.
+   The hairline down its inner edge therefore runs the whole road. */
 .iter-map__rail {
+  min-width: 0;
+}
+
+.iter-map__rail-inner {
   position: sticky;
   top: 92px;
-  align-self: start;
   max-height: calc(100vh - 116px);
   overflow: hidden;
 }
@@ -4074,7 +4078,7 @@ button.lesson__keywords-label:focus-visible {
 .iter-map__tip {
   position: absolute;
   z-index: 30;
-  padding: 0.55rem 0.7rem 0.6rem;
+  padding: 0.7rem 0.8rem 0.65rem;
   background: var(--surface);
   border: 1px solid var(--line-strong);
   border-radius: 5px;
@@ -4123,19 +4127,23 @@ button.lesson__keywords-label:focus-visible {
   margin: 0;
 }
 
-.iter-map__tip-meta {
+/* Work · unit · numeral, with the level chip on the far edge. */
+.iter-map__tip-band {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 0.6rem;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid var(--line-soft);
 }
 
-.iter-map__tip-book {
+.iter-map__tip-unit {
   font-family: var(--font-ui);
-  font-size: 0.6rem;
+  font-size: 0.58rem;
   font-weight: 700;
   letter-spacing: 0.12em;
+  text-transform: uppercase;
   color: var(--bronze);
 }
 
@@ -4163,17 +4171,34 @@ button.lesson__keywords-label:focus-visible {
 
 .iter-map__tip-latin {
   font-family: var(--font-latin);
-  font-size: 0.95rem;
+  font-size: 1.02rem;
   font-weight: 700;
-  line-height: 1.25;
+  line-height: 1.22;
   color: var(--ink);
 }
 
 .iter-map__tip-title {
-  font-size: 0.78rem;
+  font-family: var(--font-serif);
+  font-size: 0.8rem;
   font-style: italic;
   color: var(--ink-soft);
   margin-top: 0.05rem;
+}
+
+.iter-map__tip-tagline {
+  font-family: var(--font-serif);
+  font-size: 0.8rem;
+  font-style: italic;
+  line-height: 1.45;
+  color: var(--ink-soft);
+  margin-top: 0.35rem;
+}
+
+/* Focus and what the chapter holds, under a dashed rule. */
+.iter-map__tip-facts {
+  margin-top: 0.5rem;
+  padding-top: 0.45rem;
+  border-top: 1px dashed var(--line);
 }
 
 .iter-map__tip-focus {
@@ -4181,16 +4206,49 @@ button.lesson__keywords-label:focus-visible {
   font-size: 0.68rem;
   letter-spacing: 0.02em;
   color: var(--ink-faint);
-  margin-top: 0.35rem;
-  padding-top: 0.35rem;
-  border-top: 1px dashed var(--line);
+}
+
+.iter-map__tip-key {
+  display: inline-block;
+  margin-right: 0.4rem;
+  font-size: 0.54rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--bronze);
+}
+
+.iter-map__tip-contents {
+  font-family: var(--font-ui);
+  font-size: 0.62rem;
+  letter-spacing: 0.02em;
+  color: var(--ink-faint);
+  margin-top: 0.28rem;
+}
+
+.iter-map__tip-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.26rem;
+  margin-top: 0.5rem;
+}
+
+.iter-map__tip-keyword {
+  font-family: var(--font-ui);
+  font-size: 0.58rem;
+  letter-spacing: 0.02em;
+  color: var(--ink-soft);
+  padding: 0.1rem 0.36rem;
+  border: 1px solid var(--line-soft);
+  border-radius: 2px;
+  background: var(--surface-2);
 }
 
 .iter-map__tip-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.3rem;
-  margin-top: 0.4rem;
+  margin-top: 0.5rem;
 }
 
 .iter-map__tip-tag {
@@ -4213,6 +4271,34 @@ button.lesson__keywords-label:focus-visible {
 .iter-map__tip-tag.is-alt {
   color: var(--bronze);
   border: 1px solid color-mix(in srgb, var(--bronze) 45%, transparent);
+}
+
+/* Where it sits on the road, and the way in. */
+.iter-map__tip-foot {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.6rem;
+  margin-top: 0.55rem;
+  padding-top: 0.45rem;
+  border-top: 1px solid var(--line-soft);
+}
+
+.iter-map__tip-pos {
+  font-family: var(--font-ui);
+  font-size: 0.58rem;
+  letter-spacing: 0.04em;
+  color: var(--ink-faint);
+}
+
+.iter-map__tip-cta {
+  font-family: var(--font-ui);
+  font-size: 0.56rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--bronze);
+  white-space: nowrap;
 }
 
 /* Below this the margins can't hold the indexes; the road keeps full width. */
