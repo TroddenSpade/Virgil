@@ -4,87 +4,133 @@
    Loaded after components.css so these are the final decisions.
    ============================================================ */
 
-/* ---------- Home · hero as a dedicatory inscription ---------- */
+/* ---------- Home · a dedicatory tabula ---------- */
 
 .hero {
+  padding: clamp(1.5rem, 4vw, 2.6rem) 0 0;
+  border-bottom: 0;
+  overflow: visible;
+}
+
+/* The old full-bleed ornaments give way to the framed leaf below. */
+.hero::before,
+.hero::after {
+  content: none;
+}
+
+/* The framed title leaf, as on the itinerary. */
+.hero__plate {
   position: relative;
-  padding: clamp(3.5rem, 8vw, 6.5rem) 0 clamp(3rem, 6vw, 5rem);
-  border-bottom: 1px solid var(--line-strong);
+  padding: clamp(1.8rem, 4.5vw, 3.2rem);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 3px var(--surface), inset 0 0 0 4px var(--line-soft), var(--shadow-sm);
   overflow: hidden;
 }
 
-/* Concentric guide-lines, like the compass marks on a coin die. */
-.hero::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: repeating-radial-gradient(
-    circle at 82% 44%,
-    transparent 0 26px,
-    color-mix(in srgb, var(--bronze) 10%, transparent) 26px 27px
-  );
-  -webkit-mask-image: radial-gradient(circle at 82% 44%, #000 0 290px, transparent 330px);
-  mask-image: radial-gradient(circle at 82% 44%, #000 0 290px, transparent 330px);
-  pointer-events: none;
-  opacity: 0.7;
-}
-
-.hero::after {
+/* A soft patina glow washes the leaf from one corner. */
+.hero__plate::after {
   content: '';
   position: absolute;
   inset: 0;
   background: radial-gradient(
-    620px 340px at 84% 28%,
-    color-mix(in srgb, var(--patina) 10%, transparent),
+    620px 340px at 84% 24%,
+    color-mix(in srgb, var(--patina) 12%, transparent),
     transparent 70%
   );
   pointer-events: none;
+  z-index: 0;
+}
+
+/* The gilded top edge of a carved tablet. */
+.hero__plate::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--bronze), var(--patina) 55%, transparent);
+  opacity: 0.85;
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* A giant, half-sunk inscription behind the leaf — the name, in capitals. */
+.hero__watermark {
+  position: absolute;
+  right: clamp(0.6rem, 4vw, 2.6rem);
+  top: 46%;
+  transform: translateY(-50%);
+  font-family: var(--font-display);
+  font-size: clamp(6rem, 15vw, 13rem);
+  line-height: 1;
+  letter-spacing: 0.06em;
+  color: var(--bronze);
+  opacity: 0.05;
+  pointer-events: none;
+  user-select: none;
+  white-space: nowrap;
+  z-index: 0;
+}
+
+.hero__plate > :not(.hero__watermark) {
+  position: relative;
+  z-index: 1;
 }
 
 .hero__inner {
-  position: relative;
-  z-index: 1;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 300px;
-  gap: clamp(2.5rem, 6vw, 5rem);
+  grid-template-columns: minmax(0, 1fr) 216px;
+  gap: clamp(1.6rem, 4vw, 3rem);
   align-items: center;
-  max-width: none;
 }
 
 .hero__copy {
-  max-width: 48rem;
+  max-width: 46rem;
 }
 
-.hero__inscription {
+/* The incipit: a small-caps label, a rule, and a Latin note. */
+.incipit {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  gap: 0.55rem;
-  margin: 0 0 1.5rem;
-  padding-bottom: 0.85rem;
-  border-bottom: 1px solid var(--line);
-  font-family: var(--font-ui);
-  font-size: 0.6rem;
-  font-weight: 700;
-  letter-spacing: 0.28em;
+  gap: 0.9rem;
+  margin-bottom: 0.7rem;
+}
+
+.incipit .eyebrow {
+  flex: none;
+  margin: 0;
+}
+
+.incipit__rule {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, var(--line-strong), transparent);
+}
+
+.incipit__note {
+  flex: none;
+  font-family: var(--font-display);
+  font-size: 0.62rem;
+  letter-spacing: 0.24em;
   text-transform: uppercase;
-  color: var(--bronze);
+  color: var(--ink-faint);
+  white-space: nowrap;
 }
 
 .hero__title {
-  font-size: clamp(2.5rem, 5.5vw, 4.4rem);
-  line-height: 0.96;
+  font-size: clamp(2.5rem, 5.4vw, 4.2rem);
+  line-height: 0.98;
   margin-bottom: 0.4em;
 }
 .hero__title em {
-  font-size: 1.08em;
   color: var(--oxblood);
 }
 
 .hero__lead {
-  max-width: 53ch;
-  margin-bottom: 1.7rem;
-  font-size: 1.18rem;
+  max-width: 52ch;
+  margin-bottom: 1.6rem;
+  font-size: 1.16rem;
 }
 
 .hero__actions {
@@ -94,30 +140,51 @@
   margin: 0;
 }
 
-.hero__meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.45rem 1.8rem;
-  list-style: none;
-  padding: 1.15rem 0 0;
-  margin: 2rem 0 0;
+/* The numbers: the whole project counted along one band. */
+.hero__stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin: clamp(1.6rem, 3.5vw, 2.4rem) 0 0;
+  padding-top: 1.35rem;
   border-top: 1px solid var(--line);
+}
+
+.hero__stat {
+  padding: 0 1.4rem;
+  border-left: 1px solid var(--line-soft);
+}
+.hero__stat:first-child {
+  padding-left: 0;
+  border-left: 0;
+}
+
+.hero__stat dt {
   font-family: var(--font-ui);
-  font-size: 0.72rem;
-  letter-spacing: 0.04em;
+  font-size: 0.63rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
   color: var(--ink-faint);
 }
-.hero__meta li {
-  display: flex;
-  align-items: baseline;
-  gap: 0.4rem;
-}
-.hero__meta strong {
+
+.hero__stat dd {
+  margin: 0.3rem 0 0;
   font-family: var(--font-display);
-  font-size: 1.3rem;
-  font-weight: 600;
+  font-size: clamp(1.6rem, 3vw, 2.1rem);
   line-height: 1;
   color: var(--ink);
+}
+
+.hero__note {
+  margin: 1.1rem 0 0;
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+  color: var(--ink-faint);
+}
+.hero__note em {
+  font-family: var(--font-serif);
+  color: var(--oxblood);
 }
 
 /* The portrait seal */
@@ -126,21 +193,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.1rem;
+  gap: 1rem;
 }
 
 .hero__portrait-frame {
   position: relative;
-  width: min(300px, 100%);
+  width: min(216px, 100%);
   aspect-ratio: 1;
-  padding: 9px;
+  padding: 8px;
   border-radius: 50%;
   border: 1px solid var(--line-strong);
   background: var(--surface);
   box-shadow:
-    0 0 0 6px var(--paper),
+    0 0 0 6px var(--surface),
     0 0 0 7px var(--line),
-    0 24px 44px -28px rgba(25, 22, 15, 0.75);
+    0 22px 40px -26px rgba(25, 22, 15, 0.7);
 }
 
 /* Four bronze registration marks, as on a printer's plate. */
@@ -182,19 +249,6 @@
   font-style: italic;
   font-size: 0.9rem;
   color: var(--ink-faint);
-}
-
-@media (max-width: 900px) {
-  .hero__inner {
-    grid-template-columns: 1fr;
-    gap: 2.5rem;
-  }
-  .hero__portrait {
-    justify-self: center;
-  }
-  .hero__portrait-frame {
-    width: min(240px, 64vw);
-  }
 }
 
 /* ---------- Feature plates ---------- */
@@ -268,31 +322,126 @@
   letter-spacing: 0.34em;
 }
 
-/* ---------- Roadmap: a row of milestone stones ---------- */
+/* ---------- Home · the featured texts ---------- */
 
-.roadmap__item::before {
+.book-feature-list {
+  display: grid;
+  gap: 1.6rem;
+  margin-top: 1.9rem;
+}
+
+.home-more {
+  margin: 2rem 0 0;
+}
+
+/* ---------- Home · the road: a column of milestones ---------- */
+
+.home-road {
+  position: relative;
+  list-style: none;
+  margin: 2rem 0 0;
+  padding: 0;
+}
+
+.home-road__stop {
+  position: relative;
+  display: grid;
+  grid-template-columns: 3.1rem minmax(0, 1fr);
+  gap: 1.2rem;
+  padding-bottom: 1.5rem;
+}
+
+/* The road itself, threaded between the stones. */
+.home-road__stop::before {
+  content: '';
+  position: absolute;
+  left: 1.55rem;
+  top: 3.1rem;
+  bottom: -0.1rem;
+  width: 1px;
   background: var(--line);
 }
-.roadmap__dot {
-  width: 10px;
-  height: 10px;
-  top: 7px;
-  left: 1px;
-  border-radius: 1px;
-  border: 1px solid var(--bronze);
+.home-road__stop:last-child::before {
+  display: none;
+}
+
+/* A square milestone, as on a Roman road. */
+.home-road__node {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: 3.1rem;
+  height: 3.1rem;
+  font-family: var(--font-display);
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: var(--oxblood);
   background: var(--surface);
-  transform: rotate(45deg);
+  border: 1px solid var(--bronze);
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 2px var(--surface), inset 0 0 0 3px var(--line-soft);
 }
-.roadmap__item.is-active .roadmap__dot {
-  border-color: var(--patina);
-  background: var(--patina);
-  box-shadow: 0 0 0 4px color-mix(in srgb, var(--patina) 14%, transparent);
+
+.home-road__body {
+  padding-top: 0.2rem;
 }
-.roadmap__title {
-  font-size: 1.2rem;
+
+.home-road__latin {
+  margin: 0;
+  font-family: var(--font-latin);
+  font-size: 1.06rem;
+  letter-spacing: 0.01em;
+  color: var(--bronze);
 }
-.roadmap__meta {
-  letter-spacing: 0.05em;
+
+.home-road__title {
+  margin: 0.1rem 0 0.35rem;
+  font-size: 1.28rem;
+}
+
+.home-road__blurb {
+  margin: 0 0 0.6rem;
+  max-width: 62ch;
+  color: var(--ink-soft);
+  font-size: 0.98rem;
+}
+
+.home-road__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem 1.2rem;
+  margin: 0;
+  font-family: var(--font-ui);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+.home-road__meta a {
+  color: var(--patina);
+  text-decoration: none;
+}
+.home-road__meta a:hover {
+  color: var(--patina-deep);
+  text-decoration: underline;
+}
+
+/* The destination at the end of the road. */
+.home-road__stop.is-goal .home-road__node {
+  color: var(--on-accent);
+  background: linear-gradient(160deg, var(--patina), var(--patina-deep));
+  border-color: var(--patina-deep);
+  box-shadow: inset 0 0 0 2px var(--patina-deep),
+    inset 0 0 0 3px color-mix(in srgb, var(--bronze) 60%, transparent);
+  outline: 1px solid var(--bronze);
+  outline-offset: 3px;
+}
+.home-road__stop.is-goal .home-road__latin {
+  color: var(--patina);
 }
 
 /* ---------- Library shelf ---------- */
@@ -870,14 +1019,24 @@
 /* ---------- Small screens ---------- */
 
 @media (max-width: 900px) {
-  .hero::before {
-    opacity: 0.4;
+  .hero__inner {
+    grid-template-columns: 1fr;
+    gap: 2.2rem;
+  }
+  .hero__portrait {
+    justify-self: center;
+  }
+  .hero__portrait-frame {
+    width: min(220px, 52vw);
+  }
+  .hero__watermark {
+    top: 30%;
   }
 }
 
 @media (max-width: 640px) {
   .hero {
-    padding-top: 2.8rem;
+    padding-top: 1rem;
   }
   .hero__title {
     font-size: clamp(2.35rem, 11vw, 3.4rem);
@@ -885,11 +1044,20 @@
   .hero__lead {
     font-size: 1.08rem;
   }
-  .hero__meta {
-    gap: 0.45rem 1.2rem;
+  .hero__stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.1rem 0;
   }
-  .hero__meta strong {
-    font-size: 1.1rem;
+  .hero__stat {
+    padding: 0 1rem 0 0;
+    border-left: 0;
+  }
+  .hero__stat:nth-child(even) {
+    padding-left: 1rem;
+    border-left: 1px solid var(--line-soft);
+  }
+  .hero__watermark {
+    font-size: clamp(4.5rem, 26vw, 8rem);
   }
   .lesson__numeral {
     min-width: 3.9rem;
