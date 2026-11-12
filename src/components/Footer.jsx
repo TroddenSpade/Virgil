@@ -16,6 +16,7 @@ export default function Footer() {
         <nav className="site-footer__nav" aria-label="Footer">
           <p className="site-footer__label">Index</p>
           <Link to="/library">Library</Link>
+          <Link to="/iter">Iter</Link>
           <Link to="/dictionary">Dictionary</Link>
           <Link to="/profile">Profile</Link>
           <Link to="/approach">Approach</Link>

@@ -34,6 +34,7 @@ function pageContext(pathname) {
     approach: 'Approach',
     profile: 'Profile',
     library: 'Library',
+    iter: 'Iter',
   }
   return { page: labels[parts[0]] || null }
 }
@@ -91,6 +92,7 @@ export default function Header() {
             Home
           </NavLink>
           <NavLink to="/library">Library</NavLink>
+          <NavLink to="/iter">Iter</NavLink>
           <NavLink to="/dictionary">Dictionary</NavLink>
           <NavLink to="/approach">Approach</NavLink>
           <NavLink to="/profile">Profile</NavLink>

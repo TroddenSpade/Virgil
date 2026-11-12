@@ -176,11 +176,11 @@ const GRAMMAR_RULES = [
   ['ablative-absolute', 'Ablative absolute', /\bablative absolute\b/],
   ['periphrastic', 'Periphrastic conjugation', /\bperiphrastic\b/],
   ['comparison', 'Comparison of adjectives and adverbs', /\bcomparison\b|\bcomparative\b|\bsuperlative\b|\blongior\b|\bissimus\b/],
-  ['numerals', 'Numbers and numerals', /\bcardinal\b|\bordinal\b|\broman numerals\b|\bnumbers?\b|\bthree and thousands\b|\btwo and a thousand\b/],
+  ['numerals', 'Numbers and numerals', /\bcardinal\b|\bordinal\b|\broman numerals\b|\bnumeral\b|\bthree and thousands\b|\btwo and a thousand\b/],
   ['time', 'Time and dates', /\bdates?\b|\btemporal\b|\bexpression of time\b|\bcases? of time\b/],
   ['place', 'Place and location', /\bplace\b|\blocative\b/],
   ['reflexive-pronouns', 'Reflexive pronouns', /\breflexive\b/],
-  ['demonstratives', 'Demonstrative pronouns', /\bthis and who\b|\bthis; these\b|\bthis: hic\b|\bthe same\b|\bthose\b|\bhic, haec\b|\bsuus and eius\b/],
+  ['demonstratives', 'Demonstrative pronouns', /\bdemonstratives?\b|\bthis and who\b|\bthis; these\b|\bthis: hic\b|\bthe same\b|\bthose\b|\bhic, haec\b|\bsuus and eius\b/],
   ['personal-pronouns', 'Personal pronouns', /\bpersonal pronouns?\b/],
   ['possession', 'Possession', /\bpossession\b|\bpossessive\b/],
   ['sequence-of-tenses', 'Sequence of tenses', /\bsequence of tenses\b/],
@@ -333,6 +333,85 @@ function sectionHeadings(chapter) {
   return { headings: headings.filter(Boolean).join(' '), prose: prose.filter(Boolean).join(' ') }
 }
 
+// Learn Latin from the Romans stores its grammar, readings and vocabulary
+// inside section blocks rather than the structured grammar/readings/vocabulary
+// fields, so those blocks need their own extraction pass.
+function sectionBlocks(chapter) {
+  const headings = []
+  const prose = []
+  const latin = []
+  for (const section of chapter.sections || []) {
+    for (const block of section.blocks || []) {
+      const t = block.t
+      if (t === 'h' || t === 'vhead' || t === 'vlabel') {
+        if (block.text) headings.push(block.text)
+      } else if (t === 'term') {
+        if (block.term) headings.push(block.term)
+        if (block.gloss) prose.push(block.gloss)
+      } else if (t === 'p' || t === 'note' || t === 'exlabel') {
+        if (block.text) prose.push(block.text)
+      } else if (t === 'passage') {
+        if (block.text) (block.lang === 'en' ? prose : latin).push(block.text)
+      } else if (t === 'ex') {
+        if (block.title) headings.push(block.title)
+        if (block.text) prose.push(block.text)
+      } else if (t === 'table') {
+        if (block.header) headings.push(...block.header.filter(Boolean))
+        for (const row of block.rows || []) {
+          for (const cell of row || []) {
+            if (cell) {
+              prose.push(cell)
+              latin.push(cell)
+            }
+          }
+        }
+      } else if (t === 'li') {
+        if (block.text) latin.push(block.text)
+      } else if (block.text) {
+        prose.push(block.text)
+      }
+    }
+  }
+  return {
+    headings: headings.filter(Boolean).join(' '),
+    prose: prose.filter(Boolean).join(' '),
+    latin: latin.filter(Boolean).join(' '),
+  }
+}
+
+// Reading-only editions (Caesar, Vergil, the readers) carry no grammar
+// metadata, so their grammatical constructions are detected from the Latin
+// itself. Only genuinely diagnostic cues are used: ubiquitous words such as
+// qui/quae/quod, cum and si appear in every Latin sentence and would tag every
+// chapter alike.
+const LATIN_GRAMMAR_CUES = [
+  ['subjunctive', 3, /\b(?:sit|sint|esset|essent|foret|forent|velit|velint|vellet|vellent|possit|possint|posset|possent|fiat|fiant|fieret|diceret|dicerent|dixisset|dixissent|veniret|venirent|faceret|facerent|haberet|haberent|ageret|agerent|veniat|veniant|mittat|mittant|uti|ne)\b/g],
+  ['participles', 4, /\b[a-z]+(?:ntis|ntem|nte|ntes|ntium|ntibus)\b/g],
+  ['gerundive', 2, /\b[a-z]+nd(?:us|a|um|i|o|ae|is|orum|arum)\b/g],
+  ['passive-voice', 5, /\b[a-z]+(?:atur|antur|itur|untur|etur|entur|batur|bantur|bitur|buntur|retur|rentur)\b/g],
+  ['imperfect-tense', 4, /\b[a-z]+(?:bat|bant|batur|bantur)\b/g],
+  ['pluperfect-tense', 3, /\b[a-z]+(?:erat|erant|issem|isset|issent|averat|averant)\b/g],
+  ['future-tense', 3, /\b[a-z]+(?:bit|bunt|bitur|buntur)\b/g],
+  ['perfect-tense', 6, /\b[a-z]+(?:avit|avimus|averunt|evit|evimus|everunt|ivit|ivimus|iverunt|erunt)\b/g],
+  ['comparison', 3, /\b[a-z]+(?:ior|ius|ioris|issimus|issima|issimum|issimi|issimae)\b/g],
+  ['ablative-absolute', 2, /\b[a-z]+(?:o|a|is|ibus) [a-z]+(?:nte|ntibus|to|ta|tis)\b/g],
+  ['indirect-statement', 2, /\b(?:dicit|dixit|dicunt|dixerunt|putat|putant|credit|credunt|arbitratur|arbitrantur|nuntiat|nuntiant|negat|negant|audit|audivit|sperat|sperant)\b[^.]*\b[a-z]+(?:are|ere|ire|isse|urum|uram)\b/g],
+]
+
+function readingGrammar(chapter) {
+  const text = norm(readingsLatin(chapter))
+  if (text.length < 120) return []
+  const scores = []
+  for (const [id, threshold, re] of LATIN_GRAMMAR_CUES) {
+    const hits = (text.match(re) || []).length
+    if (hits >= threshold) scores.push([id, hits])
+  }
+  return scores
+    .sort((a, b) => b[1] - a[1] || GRAMMAR_DEF.get(a[0]).order - GRAMMAR_DEF.get(b[0]).order)
+    .slice(0, 6)
+    .map(([id]) => id)
+}
+
 function readingsLatin(chapter) {
   const parts = []
   for (const reading of chapter.readings || []) {
@@ -379,12 +458,13 @@ function grammarTags(chapter) {
     }
   }
 
-  const { strong, weak } = grammarTitles(chapter)
+  const { strong } = grammarTitles(chapter)
   const sections = sectionHeadings(chapter)
+  const blocks = sectionBlocks(chapter)
   add(metadataText(chapter), 3)
   add(strong, 3)
   add(sections.headings, 2)
-  add(weak, 1)
+  add(blocks.headings, 2)
 
   return [...scores.entries()]
     .filter(([, score]) => score >= 2)
@@ -445,6 +525,9 @@ function themeAnalysis(chapter) {
   addLatin(vocabularyLatin(chapter), 2)
   addEnglish(readingsEnglish(chapter), 2)
   addLatin(readingsLatin(chapter), 2)
+  const blocks = sectionBlocks(chapter)
+  addEnglish(blocks.prose, 1)
+  addLatin(blocks.latin, 1)
   if (looksLatin(titleText(chapter))) addLatin(titleText(chapter), 6)
 
   // Score by distinct cues, not by how many fields mention the same cue.
@@ -682,10 +765,11 @@ for (const { book, chapter, ctx, core } of chapterRefs) {
   // Grammar: keep the chapter's own topics first, then borrow a few from the
   // core course chapter. Cap the result so every page stays readable.
   const ownGrammar = grammarTags(chapter)
+  const detectedGrammar = ownGrammar.length ? [] : readingGrammar(chapter)
   const inheritedGrammar = (inherited?.grammar || [])
     .filter((tag) => !ownGrammar.includes(tag))
     .slice(0, 4)
-  const grammar = [...ownGrammar, ...inheritedGrammar].slice(0, 10)
+  const grammar = [...ownGrammar, ...detectedGrammar, ...inheritedGrammar].slice(0, 10)
   for (const tag of grammar) addKeyword(tags, `grammar:${tag}`, 'grammar', GRAMMAR_DEF.get(tag).label)
 
   // Themes

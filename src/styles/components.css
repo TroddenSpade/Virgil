@@ -2918,3 +2918,400 @@ button.lesson__keywords-label:focus-visible {
     margin-bottom: 0.1rem;
   }
 }
+
+/* ============================================================
+   ITER · the learning path
+   ============================================================ */
+
+.iter__hero {
+  max-width: none;
+}
+
+.iter__title {
+  margin-bottom: 0.3rem;
+}
+
+.iter__lead {
+  max-width: 62ch;
+  color: var(--ink-soft);
+}
+
+.iter__summary {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1.5rem 2.5rem;
+  align-items: center;
+  margin: 1.75rem 0 1.25rem;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.iter__summary-progress .progress {
+  height: 7px;
+}
+
+.iter__summary-line {
+  margin: 0.7rem 0 0;
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.iter__summary-pct {
+  color: var(--ink-faint);
+}
+
+.iter__summary-stats {
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+}
+
+.iter__summary-stats div {
+  text-align: center;
+}
+
+.iter__summary-stats dt {
+  font-family: var(--font-ui);
+  font-size: 0.64rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+.iter__summary-stats dd {
+  margin: 0.15rem 0 0;
+  font-family: var(--font-display);
+  font-size: 1.7rem;
+  line-height: 1;
+  color: var(--ink);
+}
+
+.iter__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+/* The line itself */
+
+.iter__path {
+  list-style: none;
+  margin: 2.5rem 0 0;
+  padding: 0;
+}
+
+.iter-stage {
+  position: relative;
+  padding: 0 0 1.4rem 3.2rem;
+  counter-increment: iter;
+}
+
+.iter-stage::before {
+  content: '';
+  position: absolute;
+  left: 15px;
+  top: 34px;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(var(--line), var(--line-soft));
+}
+
+.iter-stage:last-child::before {
+  display: none;
+}
+
+.iter-stage__node {
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: 2px solid var(--line-strong);
+  background: var(--paper);
+  color: var(--ink-soft);
+  font-family: var(--font-display);
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
+  z-index: 1;
+}
+
+.iter-stage.is-current .iter-stage__node {
+  border-color: var(--oxblood);
+  color: var(--oxblood);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--oxblood) 14%, transparent);
+}
+
+.iter-stage__card {
+  border: 1px solid var(--line);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.iter-stage.is-current .iter-stage__card {
+  border-color: color-mix(in srgb, var(--oxblood) 40%, var(--line));
+}
+
+.iter-stage__head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1.25rem;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  padding: 1rem 1.2rem;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  color: inherit;
+  font: inherit;
+}
+
+.iter-stage__head:hover {
+  background: color-mix(in srgb, var(--ink) 3%, transparent);
+}
+
+.iter-stage__headings {
+  display: grid;
+  gap: 0.15rem;
+}
+
+.iter-stage__latin {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  letter-spacing: 0.02em;
+  color: var(--ink);
+}
+
+.iter-stage__title {
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--oxblood);
+}
+
+.iter-stage__blurb {
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+  max-width: 68ch;
+  margin-top: 0.2rem;
+}
+
+.iter-stage__meter {
+  display: grid;
+  justify-items: end;
+  gap: 0.4rem;
+  min-width: 9rem;
+}
+
+.iter-stage__count {
+  font-family: var(--font-ui);
+  font-size: 0.74rem;
+  color: var(--ink-soft);
+  white-space: nowrap;
+}
+
+.iter-stage__done-tag {
+  color: var(--patina);
+  font-weight: 700;
+}
+
+.iter-stage__bar {
+  display: block;
+  width: 100%;
+  height: 5px;
+  background: var(--line-soft);
+}
+
+.iter-stage__bar-fill {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, var(--patina), var(--bronze));
+}
+
+.iter-stage__chevron {
+  font-family: var(--font-ui);
+  font-size: 1rem;
+  color: var(--ink-faint);
+}
+
+/* Lessons */
+
+.iter-lessons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--line-soft);
+}
+
+.iter-lesson {
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr);
+  align-items: stretch;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.iter-lesson:last-child {
+  border-bottom: 0;
+}
+
+.iter-lesson.is-next {
+  background: color-mix(in srgb, var(--oxblood) 6%, transparent);
+}
+
+.iter-lesson__tick {
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-right: 1px solid var(--line-soft);
+  background: none;
+  cursor: pointer;
+  color: var(--patina);
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.iter-lesson__tick:hover {
+  background: color-mix(in srgb, var(--patina) 12%, transparent);
+}
+
+.iter-lesson.is-done .iter-lesson__tick {
+  background: color-mix(in srgb, var(--patina) 12%, transparent);
+}
+
+.iter-lesson__body {
+  display: grid;
+  grid-template-columns: 8.5rem 2.4rem minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 0.5rem 0.9rem;
+  padding: 0.6rem 1rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.iter-lesson__body:hover {
+  background: color-mix(in srgb, var(--ink) 3%, transparent);
+}
+
+.iter-lesson.is-done .iter-lesson__latin {
+  color: var(--ink-faint);
+}
+
+.iter-lesson__book {
+  font-family: var(--font-ui);
+  font-size: 0.66rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.iter-lesson__numeral {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  color: var(--oxblood);
+}
+
+.iter-lesson__text {
+  min-width: 0;
+}
+
+.iter-lesson__latin {
+  display: block;
+  font-size: 1.02rem;
+  line-height: 1.4;
+  color: var(--ink);
+}
+
+.iter-lesson__meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: flex-end;
+  white-space: nowrap;
+}
+
+.iter-lesson__level {
+  font-family: var(--font-ui);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.16rem 0.42rem;
+  border: 1px solid var(--line-strong);
+  color: var(--ink-soft);
+}
+
+.iter-lesson__level[data-level='beginner'] {
+  color: var(--patina);
+  border-color: color-mix(in srgb, var(--patina) 40%, transparent);
+}
+.iter-lesson__level[data-level='advanced'] {
+  color: var(--oxblood);
+  border-color: color-mix(in srgb, var(--oxblood) 38%, transparent);
+}
+
+.iter-lesson__focus {
+  font-family: var(--font-ui);
+  font-size: 0.66rem;
+  color: var(--ink-faint);
+}
+
+.iter-lesson__reading {
+  font-family: var(--font-ui);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.16rem 0.42rem;
+  color: var(--bronze);
+  border: 1px solid color-mix(in srgb, var(--bronze) 36%, transparent);
+}
+
+@media (max-width: 900px) {
+  .iter__summary {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .iter__summary-stats {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 720px) {
+  .iter-stage {
+    padding-left: 2.4rem;
+  }
+  .iter-stage__node {
+    width: 26px;
+    height: 26px;
+    font-size: 0.7rem;
+  }
+  .iter-stage::before {
+    left: 12px;
+  }
+  .iter-stage__head {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .iter-stage__meter {
+    justify-items: start;
+    min-width: 0;
+  }
+  .iter-lesson__body {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.2rem;
+  }
+  .iter-lesson__meta {
+    justify-content: flex-start;
+  }
+  .iter-lesson__numeral {
+    display: none;
+  }
+}

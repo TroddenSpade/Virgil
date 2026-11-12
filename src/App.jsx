@@ -9,6 +9,7 @@ import ChapterPage from './pages/ChapterPage.jsx'
 import ExtraPage from './pages/ExtraPage.jsx'
 import ReferencePage from './pages/ReferencePage.jsx'
 import Approach from './pages/Approach.jsx'
+import Iter from './pages/Iter.jsx'
 import NotFound from './pages/NotFound.jsx'
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
         <Route index element={<Home />} />
         <Route path="library" element={<Library />} />
         <Route path="dictionary" element={<Dictionary />} />
+        <Route path="iter" element={<Iter />} />
         <Route path="profile" element={<Profile />} />
         <Route path="library/:bookSlug" element={<BookPage />} />
         <Route path="library/:bookSlug/read/:chapterId" element={<ReferencePage />} />

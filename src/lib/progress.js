@@ -135,3 +135,29 @@ export function progressFingerprint(document) {
   const progress = normalizeProgress(document)
   return stableStringify({ version: progress.version, books: progress.books })
 }
+
+/**
+ * Reads one book's learned chapter numbers straight from local storage. This
+ * is used by the Iter, which spans every book (including ones outside the
+ * core TRACKED_BOOKS list, such as the Learn Latin course).
+ */
+export function readBookProgress(bookId) {
+  const value = readJson(progressKey(bookId), [])
+  if (!Array.isArray(value)) return []
+  const seen = new Set()
+  for (const item of value) {
+    const number = Number(item)
+    if (Number.isInteger(number)) seen.add(number)
+  }
+  return [...seen].sort((a, b) => a - b)
+}
+
+/** Marks (or unmarks) a single chapter as learned, preserving the book's list. */
+export function setChapterDone(bookId, number, done) {
+  const current = new Set(readBookProgress(bookId))
+  if (done) current.add(number)
+  else current.delete(number)
+  const next = [...current].sort((a, b) => a - b)
+  const ok = publish(progressKey(bookId), next)
+  return { ok, numbers: next }
+}
