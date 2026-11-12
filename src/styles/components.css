@@ -3336,3 +3336,293 @@ button.lesson__keywords-label:focus-visible {
     display: none;
   }
 }
+
+/* ---------- Iter: list / map view toggle ---------- */
+
+.iter__viewtoggle {
+  display: inline-flex;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.iter__viewtoggle button {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  padding: 0.62rem 1.05rem;
+  font-family: var(--font-ui);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  transition: color 0.15s ease, background 0.15s ease;
+}
+
+.iter__viewtoggle button + button {
+  border-left: 1px solid var(--line);
+}
+
+.iter__viewtoggle button:not(.is-active):hover {
+  color: var(--ink);
+}
+
+.iter__viewtoggle button.is-active {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.iter__viewtoggle button:focus-visible {
+  outline: 2px solid var(--oxblood);
+  outline-offset: -2px;
+}
+
+/* ---------- Iter: the road map ---------- */
+
+.iter-map {
+  margin-top: 2.5rem;
+}
+
+.iter-map__legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.3rem;
+  margin: 0 0 0.8rem;
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  color: var(--ink-soft);
+}
+
+.iter-map__legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.42rem;
+}
+
+.iter-map__legend .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1.5px solid var(--line-strong);
+  background: var(--surface);
+}
+
+.iter-map__legend .dot--done {
+  background: var(--gold);
+  border-color: var(--gold);
+}
+
+.iter-map__legend .dot--next {
+  border-color: var(--oxblood);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--oxblood) 16%, transparent);
+}
+
+.iter-map__legend .dot--reading {
+  border-style: dashed;
+}
+
+.iter-map__svg {
+  display: block;
+  overflow: visible;
+}
+
+/* Every label gets a parchment halo so the road never reads through it. */
+.iter-map text {
+  paint-order: stroke;
+  stroke: var(--paper);
+  stroke-width: 3px;
+  stroke-linejoin: round;
+}
+
+.iter-map__road {
+  fill: none;
+  stroke: var(--line-strong);
+  stroke-width: 3.5;
+  stroke-linecap: round;
+}
+
+.iter-map__road-dash {
+  fill: none;
+  stroke: var(--bronze);
+  stroke-width: 1.4;
+  stroke-dasharray: 1.5 9;
+  stroke-linecap: round;
+  opacity: 0.85;
+}
+
+.iter-map__gate {
+  cursor: pointer;
+}
+
+.iter-map__gate:focus-visible,
+.iter-map g[role='link']:focus-visible,
+.iter-map g[role='button']:focus-visible {
+  outline: 2px solid var(--oxblood);
+  outline-offset: 2px;
+}
+
+.iter-map__gate-disc {
+  fill: var(--paper);
+  stroke: var(--line-strong);
+  stroke-width: 2;
+  transition: stroke 0.15s ease;
+}
+
+.iter-map__gate:hover .iter-map__gate-disc {
+  stroke: var(--oxblood);
+}
+
+.iter-map__gate-num {
+  font-family: var(--font-display);
+  font-size: 12px;
+  fill: var(--ink-soft);
+  pointer-events: none;
+}
+
+.iter-map__gate-latin {
+  font-family: var(--font-latin);
+  font-size: 13.5px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  fill: var(--ink);
+  pointer-events: none;
+}
+
+.iter-map__gate-sub {
+  font-family: var(--font-ui);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  fill: var(--ink-faint);
+  pointer-events: none;
+}
+
+.iter-map__way-diamond {
+  fill: var(--surface);
+  stroke: var(--line-strong);
+  stroke-width: 1.6;
+}
+
+.iter-map__way-label {
+  font-family: var(--font-ui);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  fill: var(--ink-soft);
+}
+
+.iter-map__way.is-terminal .iter-map__way-diamond {
+  fill: var(--gold);
+  stroke: var(--gold);
+}
+
+.iter-map__way.is-terminal .iter-map__way-label {
+  fill: var(--bronze);
+}
+
+.iter-map__hit {
+  fill: transparent;
+  cursor: pointer;
+}
+
+.iter-map__dot {
+  fill: var(--surface);
+  stroke: var(--line-strong);
+  stroke-width: 1.8;
+  cursor: pointer;
+  transition: fill 0.15s ease, stroke 0.15s ease;
+}
+
+.iter-map__dot:hover {
+  stroke: var(--oxblood);
+}
+
+.iter-map__stop.is-done .iter-map__dot {
+  fill: var(--gold);
+  stroke: var(--gold);
+}
+
+.iter-map__stop.is-reading .iter-map__dot {
+  stroke-dasharray: 2.2 2;
+}
+
+.iter-map__check {
+  fill: none;
+  stroke: var(--paper);
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  pointer-events: none;
+}
+
+.iter-map__pulse {
+  fill: none;
+  stroke: var(--oxblood);
+  stroke-width: 2;
+  opacity: 0;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: iter-map-pulse 2.6s ease-out infinite;
+  pointer-events: none;
+}
+
+@keyframes iter-map-pulse {
+  0% {
+    transform: scale(0.55);
+    opacity: 0.9;
+  }
+  70%,
+  100% {
+    transform: scale(2.4);
+    opacity: 0;
+  }
+}
+
+.iter-map__tick {
+  stroke: var(--line-strong);
+  stroke-width: 1.2;
+  pointer-events: none;
+}
+
+.iter-map__tick.is-reading {
+  stroke-dasharray: 3 4;
+  opacity: 0.65;
+}
+
+.iter-map__mark {
+  font-family: var(--font-ui);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  fill: var(--ink-faint);
+}
+
+.iter-map__stop.is-alt .iter-map__mark {
+  fill: var(--bronze);
+}
+
+.iter-map__title {
+  font-family: var(--font-latin);
+  font-size: 12.5px;
+  fill: var(--ink-soft);
+}
+
+.iter-map__stop.is-done .iter-map__title {
+  fill: var(--ink-faint);
+}
+
+.iter-map__stop.is-next .iter-map__title {
+  fill: var(--ink);
+}
+
+.iter-map g[role='link'] {
+  cursor: pointer;
+}
+
+.iter-map g[role='link']:hover .iter-map__title {
+  fill: var(--oxblood);
+}

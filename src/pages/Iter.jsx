@@ -2,6 +2,8 @@ import { Fragment, useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { iterStages, iterLessonCount } from '../data/learning-path.generated.js'
 import { readBookProgress, setChapterDone } from '../lib/progress.js'
+import { useLocalStorage } from '../hooks/useLocalStorage.js'
+import IterMap from '../components/IterMap.jsx'
 
 const ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII']
 
@@ -18,6 +20,7 @@ function lessonKey(lesson) {
 
 export default function Iter() {
   const [revision, setRevision] = useState(0)
+  const [view, setView] = useLocalStorage('virgil:iter-view', 'list')
   const initialHash = () =>
     typeof window !== 'undefined' ? window.location.hash.replace('#', '') : ''
   const [open, setOpen] = useState(() => {
@@ -146,19 +149,47 @@ export default function Iter() {
                 You have reached the end — to the library →
               </Link>
             )}
-            <button
-              type="button"
-              className="btn btn--ghost"
-              onClick={() =>
-                setOpen(allOpen ? new Set() : new Set(iterStages.map((s) => s.id)))
-              }
-            >
-              {allOpen ? 'Collapse all' : 'Expand all'}
-            </button>
+            {view === 'list' && (
+              <button
+                type="button"
+                className="btn btn--ghost"
+                onClick={() =>
+                  setOpen(allOpen ? new Set() : new Set(iterStages.map((s) => s.id)))
+                }
+              >
+                {allOpen ? 'Collapse all' : 'Expand all'}
+              </button>
+            )}
+            <div className="iter__viewtoggle" role="group" aria-label="Layout of the itinerary">
+              <button
+                type="button"
+                className={view === 'list' ? 'is-active' : ''}
+                aria-pressed={view === 'list'}
+                onClick={() => setView('list')}
+              >
+                List
+              </button>
+              <button
+                type="button"
+                className={view === 'map' ? 'is-active' : ''}
+                aria-pressed={view === 'map'}
+                onClick={() => setView('map')}
+              >
+                Map
+              </button>
+            </div>
           </div>
         </header>
 
-        <ol className="iter__path">
+        {view === 'map' ? (
+          <IterMap
+            stages={iterStages}
+            isDone={done}
+            nextLesson={nextLesson?.lesson ?? null}
+            onToggle={toggle}
+          />
+        ) : (
+          <ol className="iter__path">
           {iterStages.map((stage, index) => {
             const learned = stage.lessons.filter(done).length
             const percent = stage.lessonCount
@@ -278,7 +309,8 @@ export default function Iter() {
               </li>
             )
           })}
-        </ol>
+          </ol>
+        )}
       </div>
     </section>
   )
