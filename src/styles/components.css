@@ -3759,9 +3759,9 @@ button.lesson__keywords-label:focus-visible {
 /* The lessons: a window of stops around the one in view. */
 .iter-map__lesson {
   display: grid;
-  grid-template-columns: 0.5rem 1.35rem minmax(0, 1fr);
+  grid-template-columns: 0.5rem minmax(1.55rem, auto) minmax(0, 1fr);
   align-items: center;
-  gap: 0.45rem;
+  gap: 0.55rem;
   width: 100%;
   padding: 0.32rem 0.3rem;
   border: 0;
@@ -3803,6 +3803,8 @@ button.lesson__keywords-label:focus-visible {
 .iter-map__lesson-num {
   font-family: var(--font-display);
   font-size: 0.62rem;
+  white-space: nowrap;
+  text-align: right;
   color: var(--ink-faint);
 }
 
