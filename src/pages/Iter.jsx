@@ -98,7 +98,18 @@ export default function Iter() {
     <section className="section iter">
       <div className="container">
         <header className="iter__hero rise">
-          <p className="eyebrow">Iter Latinum</p>
+          <span className="iter__watermark" aria-hidden="true">
+            VIA
+          </span>
+
+          <div className="iter__incipit">
+            <p className="eyebrow">Iter Latinum</p>
+            <span className="iter__incipit-rule" aria-hidden="true" />
+            <span className="iter__incipit-note" aria-hidden="true">
+              Tabula Itineris
+            </span>
+          </div>
+
           <h1 className="iter__title">The Itinerary</h1>
           <p className="lead iter__lead">
             One road through the whole library, following the route of <em>Lingua Latina</em> chapter by
@@ -140,55 +151,94 @@ export default function Iter() {
           </div>
 
           <div className="iter__actions">
-            {nextLesson ? (
-              <Link className="btn btn--primary" to={nextLesson.lesson.href}>
-                Continue · {nextLesson.lesson.bookShort} {nextLesson.lesson.roman} →
-              </Link>
-            ) : (
-              <Link className="btn btn--primary" to="/library">
-                You have reached the end — to the library →
-              </Link>
-            )}
-            {view === 'list' && (
-              <button
-                type="button"
-                className="btn btn--ghost"
-                onClick={() =>
-                  setOpen(allOpen ? new Set() : new Set(iterStages.map((s) => s.id)))
-                }
+            <div className="iter__actions-start">
+              {nextLesson ? (
+                <Link className="btn btn--primary" to={nextLesson.lesson.href}>
+                  Continue · {nextLesson.lesson.bookShort} {nextLesson.lesson.roman} →
+                </Link>
+              ) : (
+                <Link className="btn btn--primary" to="/library">
+                  You have reached the end — to the library →
+                </Link>
+              )}
+            </div>
+
+            <div className="iter__actions-center">
+              <div
+                className="iter__viewtoggle"
+                role="group"
+                aria-label="Layout of the itinerary"
+                data-view={view}
               >
-                {allOpen ? 'Collapse all' : 'Expand all'}
-              </button>
-            )}
-            <div className="iter__viewtoggle" role="group" aria-label="Layout of the itinerary">
-              <button
-                type="button"
-                className={view === 'list' ? 'is-active' : ''}
-                aria-pressed={view === 'list'}
-                onClick={() => setView('list')}
-              >
-                List
-              </button>
-              <button
-                type="button"
-                className={view === 'map' ? 'is-active' : ''}
-                aria-pressed={view === 'map'}
-                onClick={() => setView('map')}
-              >
-                Map
-              </button>
+                <span className="iter__viewtoggle-thumb" aria-hidden="true" />
+                <button
+                  type="button"
+                  className={view === 'list' ? 'is-active' : ''}
+                  aria-pressed={view === 'list'}
+                  onClick={() => setView('list')}
+                >
+                  <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+                    <path d="M3 4h10M3 8h10M3 12h6" />
+                    <circle cx="1.4" cy="4" r=".9" fill="currentColor" stroke="none" />
+                    <circle cx="1.4" cy="8" r=".9" fill="currentColor" stroke="none" />
+                    <circle cx="1.4" cy="12" r=".9" fill="currentColor" stroke="none" />
+                  </svg>
+                  <span>List</span>
+                </button>
+                <button
+                  type="button"
+                  className={view === 'map' ? 'is-active' : ''}
+                  aria-pressed={view === 'map'}
+                  onClick={() => setView('map')}
+                >
+                  <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+                    <path d="M4.3 14.3C4.3 11 11.7 11 11.7 8S4.3 5 4.3 1.7" />
+                    <rect x="3" y="13" width="2.6" height="2.6" rx=".5" fill="currentColor" stroke="none" />
+                    <rect x="10.4" y="6.7" width="2.6" height="2.6" rx=".5" fill="currentColor" stroke="none" />
+                  </svg>
+                  <span>Map</span>
+                </button>
+              </div>
+            </div>
+
+            <div className="iter__actions-end">
+              {view === 'list' && (
+                <button
+                  type="button"
+                  className="btn btn--ghost"
+                  onClick={() =>
+                    setOpen(allOpen ? new Set() : new Set(iterStages.map((s) => s.id)))
+                  }
+                >
+                  {allOpen ? 'Collapse all' : 'Expand all'}
+                </button>
+              )}
             </div>
           </div>
         </header>
+      </div>
 
-        {view === 'map' ? (
+      {view === 'map' ? (
+        <div className="iter__wide">
+          <div className="iter__via" aria-hidden="true">
+            <span className="iter__via-rule" />
+            <span className="iter__via-label">Via Latīna</span>
+            <span className="iter__via-rule" />
+          </div>
           <IterMap
             stages={iterStages}
             isDone={done}
             nextLesson={nextLesson?.lesson ?? null}
             onToggle={toggle}
           />
-        ) : (
+        </div>
+      ) : (
+        <div className="container">
+          <div className="iter__via" aria-hidden="true">
+            <span className="iter__via-rule" />
+            <span className="iter__via-label">Via Latīna</span>
+            <span className="iter__via-rule" />
+          </div>
           <ol className="iter__path">
           {iterStages.map((stage, index) => {
             const learned = stage.lessons.filter(done).length
@@ -310,8 +360,8 @@ export default function Iter() {
             )
           })}
           </ol>
-        )}
-      </div>
+        </div>
+      )}
     </section>
   )
 }

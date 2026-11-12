@@ -2924,11 +2924,84 @@ button.lesson__keywords-label:focus-visible {
    ============================================================ */
 
 .iter__hero {
+  position: relative;
   max-width: none;
+  margin-top: 1.4rem;
+  padding: clamp(2rem, 5vw, 3.4rem);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 3px var(--surface), inset 0 0 0 4px var(--line-soft),
+    var(--shadow-sm);
+  overflow: hidden;
+}
+
+/* The gilded top edge of a carved tablet. */
+.iter__hero::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--bronze), var(--patina) 55%, transparent);
+  opacity: 0.85;
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* A giant, half-sunk inscription behind the title leaf — VIA, the road. */
+.iter__watermark {
+  position: absolute;
+  right: clamp(0.5rem, 4vw, 2.6rem);
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--font-display);
+  font-size: clamp(7rem, 17vw, 15rem);
+  line-height: 1;
+  letter-spacing: 0.08em;
+  color: var(--bronze);
+  opacity: 0.055;
+  pointer-events: none;
+  user-select: none;
+  white-space: nowrap;
+  z-index: 0;
+}
+
+.iter__hero > :not(.iter__watermark) {
+  position: relative;
+  z-index: 1;
+}
+
+.iter__incipit {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin-bottom: 0.6rem;
+}
+
+.iter__incipit .eyebrow {
+  flex: none;
+  margin: 0;
+}
+
+.iter__incipit-rule {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, var(--line-strong), transparent);
+}
+
+.iter__incipit-note {
+  flex: none;
+  font-family: var(--font-display);
+  font-size: 0.62rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  white-space: nowrap;
 }
 
 .iter__title {
   margin-bottom: 0.3rem;
+  font-size: clamp(2.1rem, 5vw, 3.25rem);
 }
 
 .iter__lead {
@@ -2937,15 +3010,27 @@ button.lesson__keywords-label:focus-visible {
 }
 
 .iter__summary {
+  position: relative;
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   gap: 1.5rem 2.5rem;
   align-items: center;
-  margin: 1.75rem 0 1.25rem;
-  padding: 1.25rem 1.4rem;
+  margin: 1.9rem 0 0;
+  padding: 1.3rem 1.5rem 1.3rem 1.8rem;
   border: 1px solid var(--line);
-  background: var(--surface);
+  background: var(--surface-2);
   box-shadow: var(--shadow-sm);
+}
+
+/* A bronze-to-patina spine down the summary's edge. */
+.iter__summary::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(var(--bronze), var(--patina));
 }
 
 .iter__summary-progress .progress {
@@ -2965,12 +3050,23 @@ button.lesson__keywords-label:focus-visible {
 
 .iter__summary-stats {
   display: flex;
-  gap: 2rem;
+  gap: 0;
   margin: 0;
 }
 
 .iter__summary-stats div {
   text-align: center;
+  padding: 0 1.4rem;
+  border-right: 1px solid var(--line-soft);
+}
+
+.iter__summary-stats div:first-child {
+  padding-left: 0;
+}
+
+.iter__summary-stats div:last-child {
+  padding-right: 0;
+  border-right: 0;
 }
 
 .iter__summary-stats dt {
@@ -2989,17 +3085,81 @@ button.lesson__keywords-label:focus-visible {
   color: var(--ink);
 }
 
+/* Continue on the left, the view switch centred, Expand on the right. */
 .iter__actions {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(240px, 340px) minmax(0, 1fr);
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.6rem;
+}
+
+.iter__actions-start {
+  justify-self: start;
+  min-width: 0;
+}
+
+.iter__actions-center {
+  justify-self: stretch;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 0;
+}
+
+.iter__actions-end {
+  justify-self: end;
+  min-width: 0;
+}
+
+/* The map may run wider than the reading measure; the title leaf does not. */
+.iter__wide {
+  width: min(1720px, 100% - 2rem);
+  margin-inline: auto;
+}
+
+/* The rule that opens the road: VIA LATINA between two hairlines. */
+.iter__via {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 2.6rem 0 0;
+}
+
+.iter__via-rule {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--line-strong));
+}
+
+.iter__via-rule:last-child {
+  background: linear-gradient(90deg, var(--line-strong), transparent);
+}
+
+.iter__via-label {
+  display: inline-flex;
+  align-items: center;
   gap: 0.75rem;
+  font-family: var(--font-display);
+  font-size: 0.68rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--bronze);
+  white-space: nowrap;
+}
+
+.iter__via-label::before,
+.iter__via-label::after {
+  content: '◆';
+  font-size: 0.42rem;
+  letter-spacing: 0;
+  color: var(--line-strong);
 }
 
 /* The line itself */
 
 .iter__path {
   list-style: none;
-  margin: 2.5rem 0 0;
+  margin: 1.6rem 0 0;
   padding: 0;
 }
 
@@ -3031,9 +3191,10 @@ button.lesson__keywords-label:focus-visible {
   height: 32px;
   display: grid;
   place-items: center;
-  border-radius: 50%;
+  border-radius: 3px;
   border: 2px solid var(--line-strong);
   background: var(--paper);
+  box-shadow: inset 0 0 0 2px var(--paper), inset 0 0 0 3px var(--line-soft);
   color: var(--ink-soft);
   font-family: var(--font-display);
   font-size: 0.82rem;
@@ -3044,7 +3205,8 @@ button.lesson__keywords-label:focus-visible {
 .iter-stage.is-current .iter-stage__node {
   border-color: var(--oxblood);
   color: var(--oxblood);
-  box-shadow: 0 0 0 4px color-mix(in srgb, var(--oxblood) 14%, transparent);
+  box-shadow: inset 0 0 0 2px var(--paper), inset 0 0 0 3px var(--line-soft),
+    0 0 0 4px color-mix(in srgb, var(--oxblood) 14%, transparent);
 }
 
 .iter-stage__card {
@@ -3335,34 +3497,92 @@ button.lesson__keywords-label:focus-visible {
   .iter-lesson__numeral {
     display: none;
   }
+
+  /* The actions stack: Continue, then the view switch, then Expand. */
+  .iter__actions {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.7rem;
+    margin-top: 1.4rem;
+  }
+  .iter__actions-start,
+  .iter__actions-center,
+  .iter__actions-end {
+    justify-self: stretch;
+  }
+  .iter__actions-start .btn,
+  .iter__actions-end .btn {
+    width: 100%;
+    justify-content: center;
+  }
+  .iter__incipit-note {
+    display: none;
+  }
 }
 
 /* ---------- Iter: list / map view toggle ---------- */
 
 .iter__viewtoggle {
-  display: inline-flex;
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 4px;
   border: 1px solid var(--line);
-  background: var(--surface);
-  box-shadow: var(--shadow-sm);
+  border-radius: 3px;
+  background: var(--surface-2);
+  box-shadow: inset 0 1px 2px rgba(25, 22, 15, 0.07), var(--shadow-sm);
+  isolation: isolate;
+}
+
+/* The ink thumb slides under the active half. */
+.iter__viewtoggle-thumb {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  width: calc(50% - 4px);
+  border-radius: 2px;
+  background: linear-gradient(var(--ink), color-mix(in srgb, var(--ink) 88%, var(--bronze)));
+  box-shadow: 0 2px 6px -2px rgba(25, 22, 15, 0.5);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 0;
+}
+
+.iter__viewtoggle[data-view='map'] .iter__viewtoggle-thumb {
+  transform: translateX(100%);
 }
 
 .iter__viewtoggle button {
+  position: relative;
+  z-index: 1;
+  flex: 1 1 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
   appearance: none;
+  margin: 0;
   border: 0;
   background: transparent;
   cursor: pointer;
-  padding: 0.62rem 1.05rem;
+  padding: 0.62rem 0.75rem;
   font-family: var(--font-ui);
   font-size: 0.68rem;
   font-weight: 700;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--ink-soft);
-  transition: color 0.15s ease, background 0.15s ease;
+  transition: color 0.22s ease;
 }
 
-.iter__viewtoggle button + button {
-  border-left: 1px solid var(--line);
+.iter__viewtoggle svg {
+  width: 15px;
+  height: 15px;
+  flex: none;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .iter__viewtoggle button:not(.is-active):hover {
@@ -3370,20 +3590,240 @@ button.lesson__keywords-label:focus-visible {
 }
 
 .iter__viewtoggle button.is-active {
-  background: var(--ink);
   color: var(--paper);
 }
 
 .iter__viewtoggle button:focus-visible {
   outline: 2px solid var(--oxblood);
-  outline-offset: -2px;
+  outline-offset: -1px;
+  border-radius: 2px;
 }
 
 /* ---------- Iter: the road map ---------- */
 
 .iter-map {
   position: relative;
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
+}
+
+/* The road in the centre, its two marginal indexes flanking it. */
+.iter-map__frame {
+  display: grid;
+  grid-template-columns: 156px minmax(0, 1fr) 200px;
+  gap: 26px;
+  align-items: start;
+}
+
+.iter-map__center {
+  position: relative;
+  min-width: 0;
+}
+
+/* A hairline before the road and after it: the edges of the scroll. */
+.iter-map__rail {
+  position: sticky;
+  top: 92px;
+  align-self: start;
+  max-height: calc(100vh - 116px);
+  overflow: hidden;
+}
+
+.iter-map__stages {
+  border-right: 1px solid var(--line-soft);
+  padding-right: 1.1rem;
+}
+
+.iter-map__lessons {
+  border-left: 1px solid var(--line-soft);
+  padding-left: 1.1rem;
+}
+
+.iter-map__rail-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin: 0 0 0.6rem;
+  padding: 0 0 0.5rem;
+  border-bottom: 1px solid var(--line-soft);
+  font-family: var(--font-ui);
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+.iter-map__rail-count {
+  font-family: var(--font-display);
+  font-size: 0.66rem;
+  letter-spacing: 0.04em;
+  color: var(--bronze);
+}
+
+.iter-map__rail-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* The stages: each a milestone in the margin. */
+.iter-map__stage {
+  display: grid;
+  grid-template-columns: 1.4rem minmax(0, 1fr);
+  grid-template-areas:
+    'num name'
+    'num meta'
+    'bar bar';
+  align-items: baseline;
+  column-gap: 0.5rem;
+  row-gap: 0.05rem;
+  width: 100%;
+  padding: 0.42rem 0.35rem 0.45rem;
+  border: 0;
+  border-left: 2px solid transparent;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  color: var(--ink-faint);
+  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.iter-map__stage:hover {
+  color: var(--ink);
+  background: color-mix(in srgb, var(--ink) 3%, transparent);
+}
+
+.iter-map__stage.is-active {
+  border-left-color: var(--oxblood);
+  background: color-mix(in srgb, var(--oxblood) 6%, transparent);
+  color: var(--ink);
+}
+
+.iter-map__stage-num {
+  grid-area: num;
+  font-family: var(--font-display);
+  font-size: 0.66rem;
+  line-height: 1.35;
+  letter-spacing: 0.04em;
+  color: var(--ink-faint);
+}
+
+.iter-map__stage.is-active .iter-map__stage-num {
+  color: var(--oxblood);
+}
+
+.iter-map__stage-name {
+  grid-area: name;
+  font-family: var(--font-latin);
+  font-size: 0.86rem;
+  line-height: 1.2;
+  letter-spacing: 0.015em;
+  color: inherit;
+}
+
+.iter-map__stage.is-active .iter-map__stage-name {
+  font-weight: 700;
+}
+
+.iter-map__stage-meta {
+  grid-area: meta;
+  font-family: var(--font-ui);
+  font-size: 0.56rem;
+  letter-spacing: 0.06em;
+  color: var(--ink-faint);
+}
+
+.iter-map__stage.is-active .iter-map__stage-meta {
+  color: var(--ink-soft);
+}
+
+.iter-map__stage-bar {
+  grid-area: bar;
+  display: block;
+  height: 2px;
+  margin-top: 0.32rem;
+  background: var(--line-soft);
+}
+
+.iter-map__stage-bar span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, var(--patina), var(--bronze));
+}
+
+/* The lessons: a window of stops around the one in view. */
+.iter-map__lesson {
+  display: grid;
+  grid-template-columns: 0.5rem 1.35rem minmax(0, 1fr);
+  align-items: center;
+  gap: 0.45rem;
+  width: 100%;
+  padding: 0.32rem 0.3rem;
+  border: 0;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  color: var(--ink-faint);
+  transition: color 0.2s ease, background 0.2s ease;
+}
+
+.iter-map__lesson:hover {
+  color: var(--ink);
+  background: color-mix(in srgb, var(--ink) 3%, transparent);
+}
+
+.iter-map__lesson.is-active {
+  color: var(--ink);
+  background: color-mix(in srgb, var(--oxblood) 6%, transparent);
+}
+
+.iter-map__lesson-dot {
+  width: 5px;
+  height: 5px;
+  border: 1px solid var(--line-strong);
+  border-radius: 1px;
+  background: var(--surface);
+}
+
+.iter-map__lesson.is-done .iter-map__lesson-dot {
+  background: var(--gold);
+  border-color: var(--gold);
+}
+
+.iter-map__lesson.is-active .iter-map__lesson-dot {
+  border-color: var(--oxblood);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--oxblood) 18%, transparent);
+}
+
+.iter-map__lesson-num {
+  font-family: var(--font-display);
+  font-size: 0.62rem;
+  color: var(--ink-faint);
+}
+
+.iter-map__lesson.is-active .iter-map__lesson-num {
+  color: var(--oxblood);
+}
+
+.iter-map__lesson-title {
+  font-family: var(--font-latin);
+  font-size: 0.76rem;
+  line-height: 1.25;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.iter-map__lesson.is-active .iter-map__lesson-title {
+  font-weight: 700;
+}
+
+/* Align the legend with the centre column once the rails are out. */
+@media (min-width: 1081px) {
+  .iter-map__legend {
+    padding-left: 182px;
+  }
 }
 
 .iter-map__legend {
@@ -3773,6 +4213,18 @@ button.lesson__keywords-label:focus-visible {
 .iter-map__tip-tag.is-alt {
   color: var(--bronze);
   border: 1px solid color-mix(in srgb, var(--bronze) 45%, transparent);
+}
+
+/* Below this the margins can't hold the indexes; the road keeps full width. */
+@media (max-width: 1080px) {
+  .iter-map__frame {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+  }
+
+  .iter-map__rail {
+    display: none;
+  }
 }
 
 /* On phones the labels have less room outside the road */
