@@ -2,117 +2,400 @@ const chapter = {
   "number": 5,
   "roman": "V",
   "slug": "capitulum-05",
-  "latinTitle": "CAPVT V",
   "title": "Genitive Case, Sum",
-  "tagline": "Grammar, vocabulary and practice",
   "status": "complete",
   "complete": true,
   "sections": [
     {
       "id": "section-1",
       "latin": "5.1 Genitive",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "5.1",
       "blocks": [
         {
           "t": "p",
-          "text": "The nominative, vocative, and accusative are only three of the six cases in Latin. Another is the genitive, whose singular endings you have already seen in the vocabulary entries."
+          "text": "The nominative, vocative, and accusative are only three of the six cases in Latin."
         },
         {
           "t": "p",
-          "text": "The genitive is traditionally used in dictionary entries because it was the second case (after the nominative) in the order that the Romans themselves used, and many modern Classicists (especially in North America) follow this ancient order.1 British Classicists, however, tend to learn the cases in a revised order that puts similar endings together and therefore makes the paradigms easier to learn."
+          "text": "Another is the genitive, whose singular endings you have already seen in the vocabulary entries. The genitive is traditionally used in dictionary entries because it was the second case (after the nominative) in the order that the Romans themselves used, and many modern Classicists (especially in North America) follow this ancient order.1 British Classicists, however, tend to learn the cases in a revised order that puts similar endings together and therefore makes the paradigms easier to learn. In order to accommodate both traditions, this book will give all declensions twice, first in the British order and then in the ancient order. It is recommended that any given class choose one order and stick to it consistently throughout the course, to avoid confusion."
         },
         {
           "t": "p",
-          "text": "In order to accommodate both traditions, this book will give all declensions twice, first in the British order and then in the ancient order. It is recommended that any given class choose one order and stick to it consistently throughout the course, to avoid confusion. In the British order, the first four cases of the nouns are as follows:"
+          "text": "In the British order, the first four cases of the nouns are as follows:"
         },
         {
-          "t": "h",
+          "t": "p",
           "text": "British Case Order"
         },
         {
-          "t": "example",
-          "text": "First declension Second declension Second declension"
-        },
-        {
-          "t": "h",
-          "text": "masculine neuter"
-        },
-        {
-          "t": "pre",
-          "text": "Singular Plural Singular Plural Singular Plural"
+          "t": "table",
+          "header": [
+            "",
+            "First declension Singular Plural",
+            "",
+            "Second declension masculine Singular Plural",
+            "",
+            "Second declension neuter Singular Plural",
+            ""
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "puella",
+              "puellae",
+              "servus",
+              "servī",
+              "bellum",
+              "bella"
+            ],
+            [
+              "Vocative",
+              "puella",
+              "puellae",
+              "serve",
+              "servī",
+              "bellum",
+              "bella"
+            ],
+            [
+              "Accusative",
+              "puellam",
+              "puellās",
+              "servum",
+              "servōs",
+              "bellum",
+              "bella"
+            ],
+            [
+              "Genitive",
+              "puellae",
+              "puellārum",
+              "servī",
+              "servōrum",
+              "bellī",
+              "bellōrum"
+            ]
+          ]
         },
         {
           "t": "p",
-          "text": "Nominative puella puellae servus servī bellum bella Vocative puella puellae serve servī bellum bella Accusative puellam puellās servum servōs bellum bella Genitive puellae puellārum servī servōrum bellī bellōrum The adjectives form their genitives in the same way. For the fascinating story of the history of the different orders of the cases see W. S. Allen and C. O."
+          "text": "The adjectives form their genitives in the same way."
+        },
+        {
+          "t": "note",
+          "n": 1,
+          "text": "For the fascinating story of the history of the different orders of the cases see W. S. Allen and C. O. Brink, ‘The Old Order and the New: A Case History’, Lingua 50 (1980), pp. 61–100."
+        },
+        {
+          "t": "table",
+          "header": [
+            "",
+            "Singular Masculine",
+            "Feminine Neuter",
+            "",
+            "Plural Masculine",
+            "Feminine Neuter",
+            ""
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "bonus",
+              "bona",
+              "bonum",
+              "bonī",
+              "bonae",
+              "bona"
+            ],
+            [
+              "Vocative",
+              "bone",
+              "bona",
+              "bonum",
+              "bonī",
+              "bonae",
+              "bona"
+            ],
+            [
+              "Accusative",
+              "bonum",
+              "bonam",
+              "bonum",
+              "bonōs",
+              "bonās",
+              "bona"
+            ],
+            [
+              "Genitive",
+              "bonī",
+              "bonae",
+              "bonī",
+              "bonōrum",
+              "bonārum",
+              "bonōrum"
+            ]
+          ]
         },
         {
           "t": "p",
-          "text": "Brink, ‘The Old Order and the New: A Case History’, Lingua 50 (1980), pp. 61–100."
-        },
-        {
-          "t": "pre",
-          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+          "text": "In the ancient order, these are arranged as follows:"
         },
         {
           "t": "p",
-          "text": "Nominative bonus bona bonum bonī bonae bona Vocative bone bona bonum bonī bonae bona Accusative bonum bonam bonum bonōs bonās bona Genitive bonī bonae bonī bonōrum bonārum bonōrum In the ancient order, these are arranged as follows:"
-        },
-        {
-          "t": "h",
           "text": "Ancient Case Order"
         },
         {
-          "t": "example",
-          "text": "First declension Second declension Second declension"
-        },
-        {
-          "t": "h",
-          "text": "masculine neuter"
-        },
-        {
-          "t": "pre",
-          "text": "Singular Plural Singular Plural Singular Plural"
+          "t": "table",
+          "header": [
+            "",
+            "First declension Singular",
+            "Plural",
+            "Second declension masculine Singular Plural",
+            "",
+            "Second declension neuter Singular Plural",
+            ""
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "puella",
+              "puellae",
+              "servus",
+              "servī",
+              "bellum",
+              "bella"
+            ],
+            [
+              "Genitive",
+              "puellae",
+              "puellārum",
+              "servī",
+              "servōrum",
+              "bellī",
+              "bellōrum"
+            ],
+            [
+              "Accusative",
+              "puellam",
+              "puellās",
+              "servum",
+              "servōs",
+              "bellum",
+              "bella"
+            ],
+            [
+              "Vocative",
+              "puella",
+              "puellae",
+              "serve",
+              "servī",
+              "bellum",
+              "bella"
+            ]
+          ]
         },
         {
           "t": "p",
-          "text": "Nominative puella puellae servus servī bellum bella Genitive puellae puellārum servī servōrum bellī bellōrum Accusative puellam puellās servum servōs bellum bella Vocative puella puellae serve servī bellum bella And the adjectives have a similar pattern:"
+          "text": "And the adjectives have a similar pattern:"
         },
         {
-          "t": "pre",
-          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+          "t": "table",
+          "header": [
+            "",
+            "Singular Masculine",
+            "Feminine",
+            "Neuter",
+            "Plural Masculine",
+            "Feminine",
+            "Neuter"
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "bonus",
+              "bona",
+              "bonum",
+              "bonī",
+              "bonae",
+              "bona"
+            ],
+            [
+              "Genitive",
+              "bonī",
+              "bonae",
+              "bonī",
+              "bonōrum",
+              "bonārum",
+              "bonōrum"
+            ],
+            [
+              "Accusative",
+              "bonum",
+              "bonam",
+              "bonum",
+              "bonōs",
+              "bonās",
+              "bona"
+            ],
+            [
+              "Vocative",
+              "bone",
+              "bona",
+              "bonum",
+              "bonī",
+              "bonae",
+              "bona"
+            ]
+          ]
         },
         {
-          "t": "p",
-          "text": "Nominative bonus bona bonum bonī bonae bona Genitive bonī bonae bonī bonōrum bonārum bonōrum Accusative bonum bonam bonum bonōs bonās bona Vocative bone bona bonum bonī bonae bona"
+          "t": "practice"
+        },
+        {
+          "t": "ex",
+          "letter": "A",
+          "text": "Decline the following, in these four cases of the forms indicated:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "agricola, plural",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "amīcus, singular"
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "novus, neuter plural"
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "meus, feminine singular"
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "verbum, plural"
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "equus, singular"
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "tuus, masculine plural"
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "magnus, neuter singular"
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "dea, plural"
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "oppidum, singular"
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "poēta, plural"
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "novus, feminine singular"
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "agricola, singular"
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "amīcus, plural"
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "novus, neuter singular"
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "meus, feminine plural"
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "verbum, singular"
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "equus, plural"
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "tuus, masculine singular"
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "magnus, neuter plural"
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "dea, singular"
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "oppidum, plural"
+        },
+        {
+          "t": "li",
+          "n": 23,
+          "text": "poēta, singular"
+        },
+        {
+          "t": "li",
+          "n": 24,
+          "text": "novus, feminine plural"
         }
       ]
     },
     {
       "id": "section-2",
       "latin": "5.2 Use of the Genitive",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "5.2",
       "blocks": [
         {
           "t": "p",
-          "text": "The genitive case is used for possession. It is the only case that survives with distinctive endings in English nouns: words ending in an apostrophe + s, or s + apostrophe, are normally genitives in English. Thus girl’s in ‘that girl’s book is on the desk’ is a genitive, as is girls’ in ‘those girls’ books are on the desk’;2 puellae servī is ‘the girl’s slaves’ and puellārum servī is ‘the girls’ slaves’."
+          "text": "The genitive case is used for possession. It is the only case that survives with distinctive endings in English nouns: words ending in an apostrophe + s, or s + apostrophe, are normally genitives in English. Thus girl’s in ‘that girl’s book is on the desk’ is a genitive, as is girls’ in ‘those girls’ books are on the desk’;2 puellae servī is ‘the girl’s slaves’ and puellārum servī is ‘the girls’ slaves’. A genitive phrase of this sort can be the subject or the object of a sentence: puellae servus currit ‘The girl’s slave is running’ versus puellae servum dūcō ‘I lead the girl’s slave’. Notice that in these two sentences the case of ‘slave’ changes according to whether the slave is the subject or the object, but ‘girl’ remains in the genitive case in both, since in both sentences the girl is neither subject nor object, but the possessor of the slave. There is sometimes a temptation to mix up which word in a phrase is the genitive, i.e. to mistranslate puellae servus as ‘the slave’s girl’. To avoid this temptation, remember that the word that gets the apostrophe in English is the same word as the one that gets the genitive ending in Latin."
         },
         {
           "t": "p",
-          "text": "A genitive phrase of this sort can be the subject or the object of a sentence: puellae servus currit ‘The girl’s slave is running’ versus puellae servum dūcō ‘I lead the girl’s slave’."
+          "text": "Sometimes a Latin genitive is best translated with English ‘of’; thus puellae servus can mean ‘the slave of the girl’ as well as ‘the girl’s slave’. Here as well there is a temptation to mix up which word is the genitive, and to mistranslate puellae servus as ‘the girl of the slave’. That temptation can be avoided by remembering that the word after the ‘of’ in English is the genitive in Latin."
         },
         {
-          "t": "p",
-          "text": "Notice that in these two sentences the case of ‘slave’ changes according to whether the slave is the subject or the object, but ‘girl’ remains in the genitive case in both, since in both sentences the girl is neither subject nor object, but the possessor of the slave. There is sometimes a temptation to mix up which word in a phrase is the genitive, i.e. to mistranslate puellae servus as ‘the slave’s girl’."
-        },
-        {
-          "t": "p",
-          "text": "To avoid this temptation, remember that the word that gets the apostrophe in English is the same word as the one that gets the genitive ending in Latin. Sometimes a Latin genitive is best translated with English ‘of’; thus puellae servus can mean ‘the slave of the girl’ as well as ‘the girl’s slave’."
-        },
-        {
-          "t": "p",
-          "text": "Here as well there is a temptation to mix up which word is the genitive, and to mistranslate puellae servus as ‘the girl of the slave’. That temptation can be avoided by remembering that the word after the ‘of’ in English is the genitive in Latin."
+          "t": "note",
+          "n": 2,
+          "text": "The following distinctions apply in correct written English but are not always observed in practice; you will need to follow them if you want to translate Latin correctly:"
         },
         {
           "t": "p",
@@ -120,11 +403,15 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "The following distinctions apply in correct written English but are not always observed in practice; you will need to follow them if you want to translate Latin correctly: girl = one girl, nominative or accusative girl’s = one girl, genitive girls = two or more girls, nominative or accusative girls’ = two or more girls, genitive Thus: ‘The girls saw me’, ‘I saw the girls’, ‘I saw the girl’s book’ (one girl owns it), ‘I saw the girls’ book’ (two girls own it jointly)."
+          "text": "girl = one girl, nominative or accusative girl’s = one girl, genitive girls = two or more girls, nominative or accusative girls’ = two or more girls, genitive"
         },
         {
           "t": "p",
-          "text": "But note also that apostrophe + s can sometimes be short for ‘is’, as in ‘He’s not here.’ With the word ‘it’, an apostrophe is used before ‘s’ when ‘it’s’ stands for ‘it is’, but no apostrophe is used when ‘its’ is a genitive."
+          "text": "Thus: ‘The girls saw me’, ‘I saw the girls’, ‘I saw the girl’s book’ (one girl owns it), ‘I saw the girls’ book’"
+        },
+        {
+          "t": "p",
+          "text": "(two girls own it jointly). But note also that apostrophe + s can sometimes be short for ‘is’, as in ‘He’s not here.’ With the word ‘it’, an apostrophe is used before ‘s’ when ‘it’s’ stands for ‘it is’, but no apostrophe is used when ‘its’ is a genitive."
         },
         {
           "t": "p",
@@ -132,735 +419,824 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Since adjectives agree with the nouns they modify in gender, number, and case, any adjectives modifying nouns in the genitive will also be in the genitive case. Thus servī bonī equus ‘the good slave’s horse’. The possessive adjectives meus ‘my’ and tuus ‘your’ are not genitives, but a different way of expressing possession."
+          "text": "Since adjectives agree with the nouns they modify in gender, number, and case, any adjectives modifying nouns in the genitive will also be in the genitive case. Thus servī bonī equus ‘the good slave’s horse’."
+        },
+        {
+          "t": "p",
+          "text": "The possessive adjectives meus ‘my’ and tuus ‘your’ are not genitives, but a different way of expressing possession."
+        },
+        {
+          "t": "practice"
+        },
+        {
+          "t": "ex",
+          "letter": "B",
+          "text": "Identify the words in the following English sentences that would be genitives in Latin:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "John’s house is enormous.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "I’ve never met Mary’s brother."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "The laws of the gods are immutable."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "Two of the wooden chairs are broken."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "The big chair’s legs are uneven."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "I can’t find the problem with its legs."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "Jim has one of the books."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "The father of the bride will not attend."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "It’s dreadful to see Roger’s injuries."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "He’s bringing Jane’s dictionary."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "John’s got one of them."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "The mother of those little boys is overworked."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "Peter’s wearing Mike’s shoes."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "Those cars’ tyres are all rotten."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "Every single one of the neighbours is delighted."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "Who is the owner of this dog?"
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "Peter’s cat just had kittens."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "The father of a dozen children has a hard life."
+        },
+        {
+          "t": "ex",
+          "letter": "C",
+          "text": "Translate:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "Marci equum emam.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "verba Iuliae scripsi."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "servus poetae equum duxit."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "servus Quinti cucurrit."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "agricolarum servos petemus."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "puellarum verba legemus."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "poetarum amicus equum emit."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "amicus Marci oppidum meum petit."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "verba dei scripsimus."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "legistine deorum verba?"
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "Mariae servus amicos petit."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "servi puellarum Quintum petiverunt."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "poetarum equos emi."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "Marci servum mittemus."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "equum Iuliae ducit."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "servum poetae misit."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "agricolae servos ducunt."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "amici equos emerunt."
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "servus poetae boni equum duxit."
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "servum poetae novi misit."
+        },
+        {
+          "t": "ex",
+          "letter": "D",
+          "text": "Translate into Latin:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "I have bought Julia’s slave.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "I shall write Marcus’ words."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "The girl’s slave will lead the horses."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "The poets’ slaves are running."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "We sought the farmers’ horses."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "We have read the poet’s words."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "The poet’s friend will buy your horse."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "Julia’s friends are seeking the slave."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "He will write the words of the gods."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "Will you (singular) read the god’s words?"
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "Quintus’ slaves are seeking your horse."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "The farmer’s slave sought the horse."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "Will you (plural) buy the poets’ slaves?"
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "I sent Maria’s slaves."
         }
       ]
     },
     {
       "id": "section-3",
       "latin": "5.3 Sum",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "5.3",
       "blocks": [
         {
           "t": "p",
           "text": "The verb sum ‘be’ is irregular in Latin as in English; its principal parts are sum, esse, fuī, and futūrus.3 It is conjugated as follows:"
         },
         {
-          "t": "pre",
-          "text": "Present active indicative Future active indicative Perfect active indicative"
+          "t": "note",
+          "n": 3,
+          "text": "The fourth principal part ends in -s because it is a different kind of form from other fourth parts you have seen; this will be explained in chapter 24."
+        },
+        {
+          "t": "table",
+          "header": [
+            "Present active indicative",
+            "",
+            "Future active indicative",
+            "",
+            "Perfect active indicative",
+            ""
+          ],
+          "rows": [
+            [
+              "sum",
+              "‘I am’",
+              "erō",
+              "‘I will be’, ‘I shall be’",
+              "fuī",
+              "‘I have been’, ‘I was’"
+            ],
+            [
+              "es",
+              "‘you (singular)",
+              "eris",
+              "‘you (singular) will",
+              "fuistī",
+              "‘you (singular) have"
+            ],
+            [
+              "",
+              "are’",
+              "",
+              "be’, ‘you (singular)",
+              "",
+              "been’, ‘you (singular)"
+            ],
+            [
+              "",
+              "",
+              "",
+              "shall be’",
+              "",
+              "were’"
+            ],
+            [
+              "est",
+              "‘he/she/it is’, ‘is’",
+              "erit",
+              "‘he/she/it will be’,",
+              "fuit",
+              "‘he/she/it has"
+            ],
+            [
+              "",
+              "",
+              "",
+              "‘he/she/it shall be’,",
+              "",
+              "been’, ‘he/she/it"
+            ],
+            [
+              "",
+              "",
+              "",
+              "‘will be’, ‘shall be’",
+              "",
+              "was’, ‘has been’, ‘was’ were’"
+            ],
+            [
+              "sumus",
+              "‘we are’",
+              "erimus ‘we will be’, ‘we shall",
+              "",
+              "fuimus ‘we have been’, ‘we",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "be’",
+              "",
+              ""
+            ],
+            [
+              "estis",
+              "‘you (plural)",
+              "eritis",
+              "‘you (plural) will be’,",
+              "fuistis",
+              "‘you (plural) have"
+            ],
+            [
+              "",
+              "are’",
+              "",
+              "‘you (plural) shall be’ shall be’, ‘will be’, ‘shall be’",
+              "",
+              "been’, ‘you (plural)"
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "were’"
+            ],
+            [
+              "sunt",
+              "‘they are’,",
+              "erunt ‘they will be’, ‘they",
+              "",
+              "fuērunt ‘they have been’, ‘they",
+              ""
+            ],
+            [
+              "",
+              "‘are’",
+              "",
+              "",
+              "",
+              "were’, ‘have been’,"
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "‘were’"
+            ]
+          ]
         },
         {
           "t": "p",
-          "text": "sum ‘I am’ erō ‘I will be’, ‘I shall be’ fuī ‘I have been’, ‘I was’ es ‘you (singular) eris ‘you (singular) will fuistī ‘you (singular) have are’ be’, ‘you (singular) been’, ‘you (singular) shall be’ were’ est ‘he/she/it is’, ‘is’ erit ‘he/she/it will be’, fuit ‘he/she/it has ‘he/she/it shall be’, been’, ‘he/she/it ‘will be’, ‘shall be’ was’, ‘has been’, ‘was’ sumus ‘we are’ erimus ‘we will be’, ‘we shall fuimus ‘we have been’, ‘we be’ were’ estis ‘you (plural) eritis ‘you (plural) will be’, fuistis ‘you (plural) have are’ ‘you (plural) shall be’ been’, ‘you (plural) were’ sunt ‘they are’, erunt ‘they will be’, ‘they fuērunt ‘they have been’, ‘they ‘are’ shall be’, ‘will be’, were’, ‘have been’, ‘shall be’ ‘were’ The fourth principal part ends in -s because it is a different kind of form from other fourth parts you have seen; this will be explained in chapter 24."
+          "text": "The verb sum ‘be’ does not take an object, because ‘be’ does not indicate any action; it shows that the two words it joins are the same thing. So a form of sum takes a word in the same case as its subject, which of course is normally nominative: ‘The girl is a poet’ is puella poēta est (or puella est poēta, etc.).4 This is sometimes called a ‘predicate nominative’. Notice that because Latin does not have words for ‘the’ or ‘a’, and because both nouns are nominative, there is no clear distinction between ‘The girl is a poet’ and ‘The poet is a girl’; if a Roman wanted to make such a distinction, he needed to use additional words such as hic ‘this’. Similarly a sentence like poēta est can mean either ‘He is a poet’ or (less likely, but in certain contexts not impossible) ‘The poet is.’"
         },
         {
-          "t": "p",
-          "text": "The verb sum ‘be’ does not take an object, because ‘be’ does not indicate any action; it shows that the two words it joins are the same thing. So a form of sum takes a word in the same case as its subject, which of course is normally nominative: ‘The girl is a poet’ is puella poēta est (or puella est poēta, etc.).4 This is sometimes called a ‘predicate nominative’."
+          "t": "practice"
         },
         {
-          "t": "p",
-          "text": "Notice that because Latin does not have words for ‘the’ or ‘a’, and because both nouns are nominative, there is no clear distinction between ‘The girl is a poet’ and ‘The poet is a girl’; if a Roman wanted to make such a distinction, he needed to use additional words such as hic ‘this’. Similarly a sentence like poēta est can mean either ‘He is a poet’ or (less likely, but in certain contexts not impossible) ‘The poet is.’"
+          "t": "ex",
+          "letter": "E",
+          "text": "Translate:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "poeta non sum.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "agricola eris."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "estisne agricolae?"
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "agricola non sum."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "poetae sumus."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "esne poeta?"
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "esne servus?"
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "equus tuus bonus non est."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "poeta bonus fuit."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "amici tui fuimus."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "servi tui erimus."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "equus meus bonus fuit."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "dei boni sunt."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "deus magnus est."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "servus Marci novus est."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "agricolae boni sunt."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "agricolarum equi magni sunt."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "servus meus bonus est."
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "servus puellae non ero."
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "servus novus bonus non erit."
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "Iuliae equus bonus est."
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "agricolae fuimus."
+        },
+        {
+          "t": "li",
+          "n": 23,
+          "text": "servus dei sum."
+        },
+        {
+          "t": "li",
+          "n": 24,
+          "text": "dei agricolarum boni sunt."
+        },
+        {
+          "t": "li",
+          "n": 25,
+          "text": "poetae equus magnus non fuit."
+        },
+        {
+          "t": "li",
+          "n": 26,
+          "text": "servi poetae boni non sunt."
+        },
+        {
+          "t": "ex",
+          "letter": "F",
+          "text": "Translate into Latin: 1 I am a farmer."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "The girls’ horses are not big. 2 Are you a goddess?"
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "The gods of the town are good. 3 We are gods."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "We are the slaves of the gods. 4 I shall be a good poet."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "Were you a farmer’s slave? 5 The goddesses are good."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "Are you a new slave? 6 Were you slaves?"
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "I shall be a friend of the farmer. 7 The farmer’s horse is big."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "We are friends of the poet. 8 The poet’s words will be good."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "He has been a farmer."
+        },
+        {
+          "t": "note",
+          "n": 4,
+          "text": "The rule that ‘sum takes the nominative’ is an oversimplification but will work until chapter 19."
         }
       ]
     },
     {
       "id": "section-4",
       "latin": "5.4 Additional Exercises",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "5.4",
       "blocks": [
         {
           "t": "p",
           "text": "The sentences below provide extra practice in distinguishing predicate nominatives from accusatives."
+        },
+        {
+          "t": "practice"
+        },
+        {
+          "t": "ex",
+          "letter": "G",
+          "text": "Identify all words in these sentences that would be nominatives or accusatives in Latin:5"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "I would like some cabbage.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "He is a prince."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "You are a saint!"
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "Jack detests fish."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "Who are you?"
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "Mary saw us at the theatre."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "Where did you put the mustard?"
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "What is your name?"
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "The king is now a prisoner."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "Scholars like to write books."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "They are desperately hungry."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "My name is Michael."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "Julia can carry the canoe."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "Sally was a baby."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "My little darling is now a politician!"
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "I love you."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "You are beautiful."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "This is Christopher."
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "I have bought a new bicycle."
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "Whom did you see yesterday?"
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "I shall be rich in ten years’ time."
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "Who is that man?"
+        },
+        {
+          "t": "li",
+          "n": 23,
+          "text": "He is the Prime Minister."
+        },
+        {
+          "t": "li",
+          "n": 24,
+          "text": "Why did you do that?"
+        },
+        {
+          "t": "li",
+          "n": 25,
+          "text": "What did he want?"
+        },
+        {
+          "t": "li",
+          "n": 26,
+          "text": "I shall never be a traitor."
         }
       ]
     },
     {
       "id": "section-5",
       "latin": "5.5 Vocabulary to Learn",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "5.5",
       "blocks": [
         {
+          "t": "vhead",
+          "text": "Verb"
+        },
+        {
           "t": "p",
-          "text": "Verb sum, esse, fuī, futūrus ‘be’ Nouns cōnsilium, cōnsiliī (n.) ‘advice’, ‘plan’ epistula, epistulae (f.) ‘letter’ pecūnia, pecūniae (f.) ‘money’ If you have difficulty with this exercise, first try the ones on the same point in chapter 63.3–5, which have an answer key."
+          "text": "sum, esse, fuī, futūrus ‘be’"
+        },
+        {
+          "t": "vhead",
+          "text": "Nouns"
+        },
+        {
+          "t": "p",
+          "text": "cōnsilium, cōnsiliī (n.) ‘advice’, ‘plan’"
+        },
+        {
+          "t": "p",
+          "text": "epistula, epistulae (f.) ‘letter’"
+        },
+        {
+          "t": "p",
+          "text": "pecūnia, pecūniae (f.) ‘money’"
+        },
+        {
+          "t": "note",
+          "n": 5,
+          "text": "If you have difficulty with this exercise, first try the ones on the same point in chapter 63.3–5, which have an answer key."
         }
       ]
     }
-  ],
-  "readings": [
-    {
-      "id": "lectio-5",
-      "latinTitle": "SENTENTIAE LATĪNAE",
-      "title": "Latin sentences from this chapter",
-      "paragraphs": [
-        "servus poetae equum duxit.",
-        "Mariae servus amicos petit.",
-        "servus Quinti cucurrit.",
-        "equum Iuliae ducit. petit.",
-        "servus poetae boni equum duxit.",
-        "deus magnus est.",
-        "servus Marci novus est.",
-        "agricolae boni sunt.",
-        "agricolarum equi magni sunt.",
-        "servus meus bonus est.",
-        "servus puellae non ero.",
-        "esne servus?",
-        "servus novus bonus non erit.",
-        "equus tuus bonus non est.",
-        "Iuliae equus bonus est.",
-        "servus dei sum.",
-        "dei agricolarum boni sunt.",
-        "dei boni sunt.",
-        "servi poetae boni non sunt."
-      ],
-      "notes": []
-    }
-  ],
-  "grammar": [],
-  "vocabulary": [],
-  "pensa": [
-    {
-      "latinLabel": "PRACTICE A",
-      "title": "Practice A",
-      "instruction": "Practice A Decline the following, in these four cases of the forms indicated:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 agricola, plural",
-          "a": ""
-        },
-        {
-          "q": "8 magnus, neuter singular",
-          "a": ""
-        },
-        {
-          "q": "2 amīcus, singular",
-          "a": ""
-        },
-        {
-          "q": "9 dea, plural",
-          "a": ""
-        },
-        {
-          "q": "3 novus, neuter plural",
-          "a": ""
-        },
-        {
-          "q": "10 oppidum, singular",
-          "a": ""
-        },
-        {
-          "q": "4 meus, feminine singular",
-          "a": ""
-        },
-        {
-          "q": "11 poēta, plural",
-          "a": ""
-        },
-        {
-          "q": "5 verbum, plural",
-          "a": ""
-        },
-        {
-          "q": "12 novus, feminine singular",
-          "a": ""
-        },
-        {
-          "q": "6 equus, singular",
-          "a": ""
-        },
-        {
-          "q": "13 agricola, singular",
-          "a": ""
-        },
-        {
-          "q": "7 tuus, masculine plural",
-          "a": ""
-        },
-        {
-          "q": "14 amīcus, plural",
-          "a": ""
-        },
-        {
-          "q": "15 novus, neuter singular",
-          "a": ""
-        },
-        {
-          "q": "20 magnus, neuter plural",
-          "a": ""
-        },
-        {
-          "q": "16 meus, feminine plural",
-          "a": ""
-        },
-        {
-          "q": "21 dea, singular",
-          "a": ""
-        },
-        {
-          "q": "17 verbum, singular",
-          "a": ""
-        },
-        {
-          "q": "22 oppidum, plural",
-          "a": ""
-        },
-        {
-          "q": "18 equus, plural",
-          "a": ""
-        },
-        {
-          "q": "23 poēta, singular",
-          "a": ""
-        },
-        {
-          "q": "19 tuus, masculine singular",
-          "a": ""
-        },
-        {
-          "q": "24 novus, feminine plural",
-          "a": ""
-        }
-      ],
-      "id": "practice-5-a"
-    },
-    {
-      "latinLabel": "PRACTICE B",
-      "title": "Practice B",
-      "instruction": "Practice B Identify the words in the following English sentences that would be genitives in Latin:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 John’s house is enormous.",
-          "a": ""
-        },
-        {
-          "q": "10 He’s bringing Jane’s dictionary.",
-          "a": ""
-        },
-        {
-          "q": "2 I’ve never met Mary’s brother.",
-          "a": ""
-        },
-        {
-          "q": "11 John’s got one of them.",
-          "a": ""
-        },
-        {
-          "q": "3 The laws of the gods are",
-          "a": ""
-        },
-        {
-          "q": "12 The mother of those little boys is immutable. overworked.",
-          "a": ""
-        },
-        {
-          "q": "4 Two of the wooden chairs are",
-          "a": ""
-        },
-        {
-          "q": "13 Peter’s wearing Mike’s shoes. broken.",
-          "a": ""
-        },
-        {
-          "q": "14 Those cars’ tyres are all",
-          "a": ""
-        },
-        {
-          "q": "5 The big chair’s legs are uneven. rotten.",
-          "a": ""
-        },
-        {
-          "q": "6 I can’t find the problem with its",
-          "a": ""
-        },
-        {
-          "q": "15 Every single one of the neigh- legs. bours is delighted.",
-          "a": ""
-        },
-        {
-          "q": "7 Jim has one of the books.",
-          "a": ""
-        },
-        {
-          "q": "16 Who is the owner of this dog?",
-          "a": ""
-        },
-        {
-          "q": "8 The father of the bride will not",
-          "a": ""
-        },
-        {
-          "q": "17 Peter’s cat just had kittens. attend.",
-          "a": ""
-        },
-        {
-          "q": "18 The father of a dozen children",
-          "a": ""
-        },
-        {
-          "q": "9 It’s dreadful to see Roger’s injuries. has a hard life.",
-          "a": ""
-        }
-      ],
-      "id": "practice-5-b"
-    },
-    {
-      "latinLabel": "PRACTICE C",
-      "title": "Practice C",
-      "instruction": "C Translate:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 Marci equum emam.",
-          "a": ""
-        },
-        {
-          "q": "9 verba dei scripsimus.",
-          "a": ""
-        },
-        {
-          "q": "2 verba Iuliae scripsi.",
-          "a": ""
-        },
-        {
-          "q": "10 legistine deorum verba?",
-          "a": ""
-        },
-        {
-          "q": "3 servus poetae equum duxit.",
-          "a": ""
-        },
-        {
-          "q": "11 Mariae servus amicos petit.",
-          "a": ""
-        },
-        {
-          "q": "4 servus Quinti cucurrit.",
-          "a": ""
-        },
-        {
-          "q": "12 servi puellarum Quintum",
-          "a": ""
-        },
-        {
-          "q": "5 agricolarum servos petemus. petiverunt.",
-          "a": ""
-        },
-        {
-          "q": "6 puellarum verba legemus.",
-          "a": ""
-        },
-        {
-          "q": "13 poetarum equos emi.",
-          "a": ""
-        },
-        {
-          "q": "7 poetarum amicus equum emit.",
-          "a": ""
-        },
-        {
-          "q": "14 Marci servum mittemus.",
-          "a": ""
-        },
-        {
-          "q": "8 amicus Marci oppidum meum",
-          "a": ""
-        },
-        {
-          "q": "15 equum Iuliae ducit. petit.",
-          "a": ""
-        },
-        {
-          "q": "16 servum poetae misit.",
-          "a": ""
-        },
-        {
-          "q": "17 agricolae servos ducunt.",
-          "a": ""
-        },
-        {
-          "q": "19 servus poetae boni equum duxit.",
-          "a": ""
-        },
-        {
-          "q": "18 amici equos emerunt.",
-          "a": ""
-        },
-        {
-          "q": "20 servum poetae novi misit.",
-          "a": ""
-        }
-      ],
-      "id": "practice-5-c"
-    },
-    {
-      "latinLabel": "PRACTICE D",
-      "title": "Practice D",
-      "instruction": "D Translate into Latin:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 I have bought Julia’s slave.",
-          "a": ""
-        },
-        {
-          "q": "9 He will write the words of the",
-          "a": ""
-        },
-        {
-          "q": "2 I shall write Marcus’ words. gods.",
-          "a": ""
-        },
-        {
-          "q": "3 The girl’s slave will lead the",
-          "a": ""
-        },
-        {
-          "q": "10 Will you (singular) read the horses. god’s words?",
-          "a": ""
-        },
-        {
-          "q": "4 The poets’ slaves are running.",
-          "a": ""
-        },
-        {
-          "q": "11 Quintus’ slaves are seeking your",
-          "a": ""
-        },
-        {
-          "q": "5 We sought the farmers’ horses. horse.",
-          "a": ""
-        },
-        {
-          "q": "6 We have read the poet’s words.",
-          "a": ""
-        },
-        {
-          "q": "12 The farmer’s slave sought the",
-          "a": ""
-        },
-        {
-          "q": "7 The poet’s friend will buy your horse. horse.",
-          "a": ""
-        },
-        {
-          "q": "13 Will you (plural) buy the poets’",
-          "a": ""
-        },
-        {
-          "q": "8 Julia’s friends are seeking the slaves? slave.",
-          "a": ""
-        },
-        {
-          "q": "14 I sent Maria’s slaves.",
-          "a": ""
-        }
-      ],
-      "id": "practice-5-d"
-    },
-    {
-      "latinLabel": "PRACTICE E",
-      "title": "Practice E",
-      "instruction": "Practice E Translate:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 poeta non sum.",
-          "a": ""
-        },
-        {
-          "q": "14 deus magnus est.",
-          "a": ""
-        },
-        {
-          "q": "2 agricola eris.",
-          "a": ""
-        },
-        {
-          "q": "15 servus Marci novus est.",
-          "a": ""
-        },
-        {
-          "q": "3 estisne agricolae?",
-          "a": ""
-        },
-        {
-          "q": "16 agricolae boni sunt.",
-          "a": ""
-        },
-        {
-          "q": "4 agricola non sum.",
-          "a": ""
-        },
-        {
-          "q": "17 agricolarum equi magni sunt.",
-          "a": ""
-        },
-        {
-          "q": "5 poetae sumus.",
-          "a": ""
-        },
-        {
-          "q": "18 servus meus bonus est.",
-          "a": ""
-        },
-        {
-          "q": "6 esne poeta?",
-          "a": ""
-        },
-        {
-          "q": "19 servus puellae non ero.",
-          "a": ""
-        },
-        {
-          "q": "7 esne servus?",
-          "a": ""
-        },
-        {
-          "q": "20 servus novus bonus non erit.",
-          "a": ""
-        },
-        {
-          "q": "8 equus tuus bonus non est.",
-          "a": ""
-        },
-        {
-          "q": "21 Iuliae equus bonus est.",
-          "a": ""
-        },
-        {
-          "q": "9 poeta bonus fuit.",
-          "a": ""
-        },
-        {
-          "q": "22 agricolae fuimus.",
-          "a": ""
-        },
-        {
-          "q": "10 amici tui fuimus.",
-          "a": ""
-        },
-        {
-          "q": "23 servus dei sum.",
-          "a": ""
-        },
-        {
-          "q": "11 servi tui erimus.",
-          "a": ""
-        },
-        {
-          "q": "24 dei agricolarum boni sunt.",
-          "a": ""
-        },
-        {
-          "q": "12 equus meus bonus fuit.",
-          "a": ""
-        },
-        {
-          "q": "25 poetae equus magnus non fuit.",
-          "a": ""
-        },
-        {
-          "q": "13 dei boni sunt.",
-          "a": ""
-        },
-        {
-          "q": "26 servi poetae boni non sunt.",
-          "a": ""
-        }
-      ],
-      "id": "practice-5-e"
-    },
-    {
-      "latinLabel": "PRACTICE F",
-      "title": "Practice F",
-      "instruction": "F Translate into Latin:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 I am a farmer.",
-          "a": ""
-        },
-        {
-          "q": "9 The girls’ horses are not big.",
-          "a": ""
-        },
-        {
-          "q": "2 Are you a goddess?",
-          "a": ""
-        },
-        {
-          "q": "10 The gods of the town are good.",
-          "a": ""
-        },
-        {
-          "q": "3 We are gods.",
-          "a": ""
-        },
-        {
-          "q": "11 We are the slaves of the gods.",
-          "a": ""
-        },
-        {
-          "q": "4 I shall be a good poet.",
-          "a": ""
-        },
-        {
-          "q": "12 Were you a farmer’s slave?",
-          "a": ""
-        },
-        {
-          "q": "5 The goddesses are good.",
-          "a": ""
-        },
-        {
-          "q": "13 Are you a new slave?",
-          "a": ""
-        },
-        {
-          "q": "6 Were you slaves?",
-          "a": ""
-        },
-        {
-          "q": "14 I shall be a friend of the farmer.",
-          "a": ""
-        },
-        {
-          "q": "7 The farmer’s horse is big.",
-          "a": ""
-        },
-        {
-          "q": "15 We are friends of the poet.",
-          "a": ""
-        },
-        {
-          "q": "8 The poet’s words will be good.",
-          "a": ""
-        },
-        {
-          "q": "16 He has been a farmer. The rule that ‘sum takes the nominative’ is an oversimplification but will work until chapter 19.",
-          "a": ""
-        }
-      ],
-      "id": "practice-5-f"
-    },
-    {
-      "latinLabel": "PRACTICE G",
-      "title": "Practice G",
-      "instruction": "Practice G Identify all words in these sentences that would be nominatives or accusatives in Latin:5",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 I would like some cabbage.",
-          "a": ""
-        },
-        {
-          "q": "15 My little darling is now",
-          "a": ""
-        },
-        {
-          "q": "2 He is a prince. a politician!",
-          "a": ""
-        },
-        {
-          "q": "3 You are a saint!",
-          "a": ""
-        },
-        {
-          "q": "16 I love you.",
-          "a": ""
-        },
-        {
-          "q": "4 Jack detests fish.",
-          "a": ""
-        },
-        {
-          "q": "17 You are beautiful.",
-          "a": ""
-        },
-        {
-          "q": "5 Who are you?",
-          "a": ""
-        },
-        {
-          "q": "18 This is Christopher.",
-          "a": ""
-        },
-        {
-          "q": "6 Mary saw us at the theatre.",
-          "a": ""
-        },
-        {
-          "q": "19 I have bought a new bicycle.",
-          "a": ""
-        },
-        {
-          "q": "7 Where did you put the mustard?",
-          "a": ""
-        },
-        {
-          "q": "20 Whom did you see yesterday?",
-          "a": ""
-        },
-        {
-          "q": "8 What is your name?",
-          "a": ""
-        },
-        {
-          "q": "21 I shall be rich in ten years’ time.",
-          "a": ""
-        },
-        {
-          "q": "9 The king is now a prisoner.",
-          "a": ""
-        },
-        {
-          "q": "22 Who is that man?",
-          "a": ""
-        },
-        {
-          "q": "10 Scholars like to write books.",
-          "a": ""
-        },
-        {
-          "q": "23 He is the Prime Minister.",
-          "a": ""
-        },
-        {
-          "q": "11 They are desperately hungry.",
-          "a": ""
-        },
-        {
-          "q": "24 Why did you do that?",
-          "a": ""
-        },
-        {
-          "q": "12 My name is Michael.",
-          "a": ""
-        },
-        {
-          "q": "25 What did he want?",
-          "a": ""
-        },
-        {
-          "q": "13 Julia can carry the canoe.",
-          "a": ""
-        },
-        {
-          "q": "26 I shall never be a traitor.",
-          "a": ""
-        },
-        {
-          "q": "14 Sally was a baby.",
-          "a": ""
-        }
-      ],
-      "id": "practice-5-g"
-    }
   ]
-}
+};
 
 export default chapter

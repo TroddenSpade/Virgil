@@ -2,17 +2,14 @@ const chapter = {
   "number": 63,
   "roman": "LXIII",
   "slug": "capitulum-63",
-  "latinTitle": "CAPVT LXIII",
   "title": "Further Grammatical Explanations and Exercises",
-  "tagline": "Grammar, vocabulary and practice",
   "status": "complete",
   "complete": true,
   "sections": [
     {
       "id": "section-1",
       "latin": "63.1 Parts of Speech",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "63.1",
       "blocks": [
         {
           "t": "p",
@@ -20,1798 +17,2765 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Verbs are traditionally defined as action words, but the ‘action’ they describe can be fairly inactive: ‘run’, ‘sit’, ‘sleep’, and ‘think’ are all verbs. Another way verbs can be identified is as words that can inflect (i.e. change form) to indicate past or present action: in English ‘run’ changes to ‘ran’ to indicate past time, and similarly ‘sit’ becomes ‘sat’, ‘sleep’ becomes ‘slept’, and ‘think’ becomes ‘thought’."
+          "text": "Verbs are traditionally defined as action words, but the ‘action’ they describe can be fairly inactive: ‘run’, ‘sit’, ‘sleep’, and ‘think’ are all verbs. Another way verbs can be identified is as words that can inflect (i.e. change form) to indicate past or present action: in English ‘run’ changes to ‘ran’ to indicate past time, and similarly ‘sit’ becomes ‘sat’, ‘sleep’ becomes ‘slept’, and ‘think’ becomes ‘thought’. Alternatively, you can think of verbs as words that become singular (referring to only one subject) when you add ‘-s’: in the plural ‘they run’, ‘they sit’, ‘they sleep’, and ‘they think’, but in the singular ‘he runs’, ‘he sits’, ‘he sleeps’, and ‘he thinks’. However you do it, it is essential to be able to identify verbs, as they are the most important parts of speech: there is at least one in every sentence, and the sentence is built around the verb(s)."
         },
         {
           "t": "p",
-          "text": "Alternatively, you can think of verbs as words that become singular (referring to only one subject) when you add ‘-s’: in the plural ‘they run’, ‘they sit’, ‘they sleep’, and ‘they think’, but in the singular ‘he runs’, ‘he sits’, ‘he sleeps’, and ‘he thinks’."
+          "text": "Sometimes a single verb form is made up of more than one word (see section 63.2, ‘periphrastic verbs’)."
         },
         {
           "t": "p",
-          "text": "However you do it, it is essential to be able to identify verbs, as they are the most important parts of speech: there is at least one in every sentence, and the sentence is built around the verb(s). Sometimes a single verb form is made up of more than one word (see section 63.2, ‘periphrastic verbs’)."
+          "text": "Nouns are traditionally defined as words that name a person, place, or thing; ‘Julia’, ‘London’, ‘beauty’, and ‘turnip’ are all nouns. In English, most nouns inflect for number: they become plural (i.e. they indicate two or more items) when an ‘-s’ is added to them. Thus ‘beauties’ and ‘turnips’ are easily recognizable, and while you may never have seen ‘Julias’ or ‘Londons’, you can nevertheless tell that they would refer to two women named ‘Julia’ or two places named ‘London’. Some nouns take a different plural ending, or change their vowels when they are plural: thus the plural of ‘child’ is ‘children’, the plural of ‘foot’ is ‘feet’, and the plural of ‘man’ is ‘men’. Most English nouns also form a genitive by adding apostrophe + s: ‘Julia’s dog’, ‘London’s crowds’, ‘beauty’s disappearance’, and ‘the turnip’s colour’ are all possible possessive phrases."
         },
         {
           "t": "p",
-          "text": "Nouns are traditionally defined as words that name a person, place, or thing; ‘Julia’, ‘London’, ‘beauty’, and ‘turnip’ are all nouns. In English, most nouns inflect for number: they become plural (i.e. they indicate two or more items) when an ‘-s’ is added to them."
+          "text": "Adjectives are words that modify (i.e. describe) nouns: ‘big’, ‘many’, and ‘beautiful’ are all adjectives. In English, adjectives do not inflect (i.e. change their form): you cannot add ‘-s’ to them. Thus ‘*bigs’, ‘*manies’, and ‘*beautifuls’ do not exist (* is used to indicate words that do not exist)."
         },
         {
           "t": "p",
-          "text": "Thus ‘beauties’ and ‘turnips’ are easily recognizable, and while you may never have seen ‘Julias’ or ‘Londons’, you can nevertheless tell that they would refer to two women named ‘Julia’ or two places named ‘London’. Some nouns take a different plural ending, or change their vowels when they are plural: thus the plural of ‘child’ is ‘children’, the plural of ‘foot’ is ‘feet’, and the plural of ‘man’ is ‘men’."
+          "text": "Pronouns are short words that stand for a noun; most languages have only a few different pronouns and use each one frequently. Common types of pronouns include personal pronouns such as ‘I’, ‘we’, and ‘you’; demonstrative pronouns such as ‘this’ and ‘that’; and relative pronouns such as ‘who’ and ‘what’. English pronouns contain remnants of our language’s original inflection system that are no longer visible elsewhere: they inflect for gender (‘he’ versus ‘she’), number (‘he’ and ‘she’ versus ‘they’, ‘I’ versus ‘we’), and case (nominative ‘I’, ‘he’, ‘she’, ‘they’; accusative ‘me’, ‘him’, ‘her’, ‘them’)."
         },
         {
           "t": "p",
-          "text": "Most English nouns also form a genitive by adding apostrophe + s: ‘Julia’s dog’, ‘London’s crowds’, ‘beauty’s disappearance’, and ‘the turnip’s colour’ are all possible possessive phrases. Adjectives are words that modify (i.e. describe) nouns: ‘big’, ‘many’, and ‘beautiful’ are all adjectives. In English, adjectives do not inflect (i.e. change their form): you cannot add ‘-s’ to them."
+          "text": "Adverbs are words that modify verbs and/or adjectives; very often they describe how or when something is done. In English many adverbs end in ‘-ly’ (e.g. ‘quickly’, ‘kindly’, ‘enormously’), but this is not a secure way of identifying adverbs since some very common ones have other endings (e.g. ‘very’, ‘tomorrow’)."
         },
         {
           "t": "p",
-          "text": "Thus ‘*bigs’, ‘*manies’, and ‘*beautifuls’ do not exist (* is used to indicate words that do not exist). Pronouns are short words that stand for a noun; most languages have only a few different pronouns and use each one frequently. Common types of pronouns include personal pronouns such as ‘I’, ‘we’, and ‘you’; demonstrative pronouns such as ‘this’ and ‘that’; and relative pronouns such as ‘who’ and ‘what’."
+          "text": "Prepositions are words like ‘to’, ‘in’, ‘at’, ‘by’, ‘from’, etc.: little words that have to be followed by nouns or pronouns. Thus ‘to London’, ‘in consideration’, ‘at school’, ‘by Julia’, ‘from work’, etc. are preposition + noun groups known as prepositional phrases."
         },
         {
           "t": "p",
-          "text": "English pronouns contain remnants of our language’s original inflection system that are no longer visible elsewhere: they inflect for gender (‘he’ versus ‘she’), number (‘he’ and ‘she’ versus ‘they’, ‘I’ versus ‘we’), and case (nominative ‘I’, ‘he’, ‘she’, ‘they’; accusative ‘me’, ‘him’, ‘her’, ‘them’). Adverbs are words that modify verbs and/or adjectives; very often they describe how or when something is done."
+          "text": "Sometimes adjectives and/or other modifiers come between the preposition and the noun and form part of the prepositional phrase, as ‘in a red dress’."
         },
         {
           "t": "p",
-          "text": "In English many adverbs end in ‘-ly’ (e.g. ‘quickly’, ‘kindly’, ‘enormously’), but this is not a secure way of identifying adverbs since some very common ones have other endings (e.g. ‘very’, ‘tomorrow’). Prepositions are words like ‘to’, ‘in’, ‘at’, ‘by’, ‘from’, etc.: little words that have to be followed by nouns or pronouns. Thus ‘to London’, ‘in consideration’, ‘at school’, ‘by Julia’, ‘from work’, etc."
+          "text": "Conjunctions are words that join other words or sentences together. They are divided into co-ordinating conjunctions (‘and’, ‘but’, and ‘or’) and subordinating conjunctions (‘if’, ‘when’, ‘because’, ‘since’, etc.). (For subordination see chapter 15.)"
         },
         {
           "t": "p",
-          "text": "are preposition + noun groups known as prepositional phrases. Sometimes adjectives and/or other modifiers come between the preposition and the noun and form part of the prepositional phrase, as ‘in a red dress’. Conjunctions are words that join other words or sentences together. They are divided into co-ordinating conjunctions (‘and’, ‘but’, and ‘or’) and subordinating conjunctions (‘if’, ‘when’, ‘because’, ‘since’, etc.)."
+          "text": "Articles are a part of speech that exists in English but not in Latin: the English articles are ‘the’ and ‘a’. ‘The’ is known as the ‘definite article’ and ‘a’ as the ‘indefinite article’, but this distinction is irrelevant for Latin."
         },
         {
           "t": "p",
-          "text": "(For subordination see chapter 15.) Articles are a part of speech that exists in English but not in Latin: the English articles are ‘the’ and ‘a’. ‘The’ is known as the ‘definite article’ and ‘a’ as the ‘indefinite article’, but this distinction is irrelevant for Latin. There are also a few words that belong to other parts of speech, including interjec- tions (exclamations like ‘oh!’ and ‘ouch!’)."
+          "text": "There are also a few words that belong to other parts of speech, including interjections (exclamations like ‘oh!’ and ‘ouch!’). These parts of speech are not discussed in this book."
         },
         {
           "t": "p",
-          "text": "These parts of speech are not discussed in this book. A difficulty with identifying parts of speech in English is that sometimes the same word can function in more than one way, depending on the context. Thus for example ‘cut’ can be a verb, a noun, or an adjective, but in any particular sentence it can be only one of those."
+          "text": "A difficulty with identifying parts of speech in English is that sometimes the same word can function in more than one way, depending on the context. Thus for example ‘cut’ can be a verb, a noun, or an adjective, but in any particular sentence it can be only one of those. In ‘He cut the bread’ it is a verb, in ‘She has a nasty-looking cut on her finger’ it is a noun, and in ‘There is some cut cheese in the refrigerator’ it is an adjective."
         },
         {
           "t": "p",
-          "text": "In ‘He cut the bread’ it is a verb, in ‘She has a nasty-looking cut on her finger’ it is a noun, and in ‘There is some cut cheese in the refrigerator’ it is an adjective. Likewise ‘that’ is a pronoun in ‘I didn’t know that’, an adjective in ‘That house is enormous’, and a conjunction in ‘He said that she was away.’ So it is important to work out what a word’s function in a particular sentence is."
+          "text": "Likewise ‘that’ is a pronoun in ‘I didn’t know that’, an adjective in ‘That house is enormous’, and a conjunction in ‘He said that she was away.’ So it is important to work out what a word’s function in a particular sentence is."
         },
         {
           "t": "p",
-          "text": "An English sentence can be broken up into different parts of speech as follows: ‘Jim’s friend Mike is coming to dinner tonight, and we have a huge roast in the oven.’ Jim’s noun friend noun Mike noun is coming verb to preposition dinner noun tonight adverb and conjunction we pronoun have verb a article huge adjective roast noun in preposition the article oven noun"
+          "text": "An English sentence can be broken up into different parts of speech as follows:"
         },
         {
-          "t": "h",
-          "text": "Practice"
+          "t": "p",
+          "text": "‘Jim’s friend Mike is coming to dinner tonight, and we have a huge roast in the oven.’"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "Jim’s",
+              "noun"
+            ],
+            [
+              "friend",
+              "noun"
+            ],
+            [
+              "Mike",
+              "noun"
+            ],
+            [
+              "is coming",
+              "verb"
+            ],
+            [
+              "to",
+              "preposition"
+            ],
+            [
+              "dinner",
+              "noun"
+            ],
+            [
+              "tonight",
+              "adverb"
+            ],
+            [
+              "and",
+              "conjunction"
+            ],
+            [
+              "we",
+              "pronoun"
+            ],
+            [
+              "have",
+              "verb"
+            ],
+            [
+              "a",
+              "article"
+            ],
+            [
+              "huge",
+              "adjective"
+            ],
+            [
+              "roast",
+              "noun"
+            ],
+            [
+              "in",
+              "preposition"
+            ],
+            [
+              "the",
+              "article"
+            ],
+            [
+              "oven",
+              "noun"
+            ]
+          ]
+        },
+        {
+          "t": "practice"
+        },
+        {
+          "t": "ex",
+          "letter": "A",
+          "text": "Identify the part of speech of each underlined word or group of words in the following English paragraphs: Romulus and Remus, the founders of Rome, had a doubtful ancestry. Their father was unknown: legend has it that he was the god of war, Mars, but even in antiquity that story was viewed with suspicion. Their mother was Rhea Silvia, daughter of Numitor, rightful king of Alba Longa. Numitor’s evil brother, Amulius, seized the throne from him, and in order to make sure that the legitimate king had no male heirs (female heirs did not count in antiquity, which was lucky for Rhea Silvia as otherwise Numitor would have killed her as he allegedly killed her brother), he ordered Rhea to become a Vestal Virgin. It was a serious crime for a Vestal Virgin to have a child, and when the twins were born, Amulius was furious. He took them away from their mother and dumped them in a river in hopes that they would drown. But they did not drown; the basket containing the twins drifted to shore, where they were rescued and fed by a wolf. Later a shepherd found the babies and took them home to his wife, who raised them until they became unruly teenagers. As teenagers Romulus and Remus caused more trouble than most: they not only robbed people, but also gathered a band of followers and became powerful bandits. Eventually Remus was captured and brought to the king, at which point he was recognized by his grandfather, Numitor. Romulus and his men came to rescue Remus, and with Numitor’s help they killed the king. Numitor then became king of Alba, and Romulus and Remus, who were not used to the restraint and decorum required of princes in Alba, went off to found Rome."
+        },
+        {
+          "t": "p",
+          "text": "Now an ancient city can have only one founder, so the story was bound to end badly: they had a quarrel over who was to be king, and Romulus killed Remus."
         }
       ]
     },
     {
       "id": "section-2",
       "latin": "63.2 Periphrastic Verb Forms",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "63.2",
       "blocks": [
         {
           "t": "p",
-          "text": "Now an ancient city can have only one founder, so the story was bound to end badly: they had a quarrel over who was to be king, and Romulus killed Remus."
+          "text": "Some English verbs have two parts: ‘he is coming’, ‘he was coming’, ‘did he come?’, ‘he has come’, ‘has he come?’, ‘he has been coming’, ‘he will come’, ‘will he come?’, ‘he will be coming’, ‘he wants to come’, etc. These verb forms function as a single unit in English and must be translated with a single word in Latin, so it is important to be able to identify them. Generally speaking any form of English ‘be’, ‘do’, ‘have’, ‘will’, ‘shall’, or ‘would’ that is followed by another verb form makes up a periphrastic unit; the two elements need not be exactly next to each other. Infinitives are also periphrastic and consist of ‘to’ plus a verb, for example ‘to be’. It is often stated that English infinitives should not be split, i.e. that nothing should come between ‘to’ and ‘be’, but in practice English infinitives are often split (e.g. ‘to boldly go where no-one has gone before’, where the infinitive ‘to go’ is split by the adverb ‘boldly’), so it is useful to be alert to this possibility when trying to identify them."
         },
         {
           "t": "p",
-          "text": "Some English verbs have two parts: ‘he is coming’, ‘he was coming’, ‘did he come?’, ‘he has come’, ‘has he come?’, ‘he has been coming’, ‘he will come’, ‘will he come?’, ‘he will be coming’, ‘he wants to come’, etc. These verb forms function as a single unit in English and must be translated with a single word in Latin, so it is important to be able to identify them."
+          "text": "Not all groups of verb forms are periphrastic units; often several different verbs are involved. If the different verb forms do not combine to express one idea, but instead express separate ideas, they are separate entities rather than a single periphrastic unit:"
         },
         {
           "t": "p",
-          "text": "Generally speaking any form of English ‘be’, ‘do’, ‘have’, ‘will’, ‘shall’, or ‘would’ that is followed by another verb form makes up a periphrastic unit; the two elements need not be exactly next to each other. Infinitives are also periphrastic and consist of ‘to’ plus a verb, for example ‘to be’. It is often stated that English infinitives should not be split, i.e."
+          "text": "‘he came, saw, and conquered’ has three verbs, while ‘he has been conquering’ has one periphrastic verb form in three parts. A verb form and a following infinitive count as two separate entities: ‘he wants to come’, ‘he likes to argue’, and ‘he hates to be wrong’ are each composed of two verb forms. There is a grey area with verbs that take an infinitive without ‘to’, such as ‘can’ and ‘could’: from an English perspective one could certainly think of ‘he can come’ as a single periphrastic verb form, but that analysis would be unhelpful in dealing with Latin, where two verbs are involved. And the main advantage of the concept of periphrastic verb forms is that it allows one to identify English multi-word groupings that are equivalent to a single word in Latin (and Latin multi-word groupings that are equivalent to a single word in English). It is therefore easiest to think of ‘can’ and ‘could’ as separate verbs from what follows them, not as parts of periphrastic units."
         },
         {
           "t": "p",
-          "text": "that nothing should come between ‘to’ and ‘be’, but in practice English infinitives are often split (e.g. ‘to boldly go where no-one has gone before’, where the infinitive ‘to go’ is split by the adverb ‘boldly’), so it is useful to be alert to this possibility when trying to identify them. Not all groups of verb forms are periphrastic units; often several different verbs are involved."
+          "text": "The simplest rule to follow is that English periphrastic verb forms can only begin with forms of ‘be’, ‘do’, ‘have’, ‘will’, ‘shall’, and ‘would’ (or, for infinitives, with ‘to’): when a group of verb forms starts off with any other verb (‘want’, ‘can’, ‘need’, etc.) two separate verbs are involved. And when punctuation intervenes, separate verbs are always involved. Thus ‘he was, is, and always will be a scoundrel’ contains three separate verbs, of which the third is periphrastic, and ‘he would like to see you’ contains two separate verbs, both periphrastic."
         },
         {
-          "t": "p",
-          "text": "If the different verb forms do not combine to express one idea, but instead express separate ideas, they are separate entities rather than a single periphrastic unit: ‘he came, saw, and conquered’ has three verbs, while ‘he has been conquering’ has one periphrastic verb form in three parts."
+          "t": "practice"
         },
         {
-          "t": "p",
-          "text": "A verb form and a following infinitive count as two separate entities: ‘he wants to come’, ‘he likes to argue’, and ‘he hates to be wrong’ are each composed of two verb forms."
+          "t": "ex",
+          "letter": "B",
+          "text": "Each of these sentences contains one periphrastic verb. Identify it and find all its parts:"
         },
         {
-          "t": "p",
-          "text": "There is a grey area with verbs that take an infinitive without ‘to’, such as ‘can’ and ‘could’: from an English perspective one could certainly think of ‘he can come’ as a single periphrastic verb form, but that analysis would be unhelpful in dealing with Latin, where two verbs are involved."
+          "t": "li",
+          "n": 1,
+          "text": "I was giving the dog a bath.",
+          "cols": 2
         },
         {
-          "t": "p",
-          "text": "And the main advantage of the concept of periphrastic verb forms is that it allows one to identify English multi-word groupings that are equivalent to a single word in Latin (and Latin multi-word groupings that are equivalent to a single word in English). It is therefore easiest to think of ‘can’ and ‘could’ as separate verbs from what follows them, not as parts of periphrastic units."
+          "t": "li",
+          "n": 2,
+          "text": "He will do it."
         },
         {
-          "t": "p",
-          "text": "The simplest rule to follow is that English periphrastic verb forms can only begin with forms of ‘be’, ‘do’, ‘have’, ‘will’, ‘shall’, and ‘would’ (or, for infinitives, with ‘to’): when a group of verb forms starts off with any other verb (‘want’, ‘can’, ‘need’, etc.) two separate verbs are involved. And when punctuation intervenes, separate verbs are always involved."
+          "t": "li",
+          "n": 3,
+          "text": "We are coming as fast as we can."
         },
         {
-          "t": "p",
-          "text": "Thus ‘he was, is, and always will be a scoundrel’ contains three separate verbs, of which the third is periphrastic, and ‘he would like to see you’ contains two separate verbs, both periphrastic."
+          "t": "li",
+          "n": 4,
+          "text": "Have you seen this?"
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "I want to learn Latin."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "Has he been doing that all day?"
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "Were they carrying it up the hill?"
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "Will you be staying long?"
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "They did not come after all."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "I shall never forget that."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "They have been sitting here since noon."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "No-one has ever seen this before."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "They will be handling this case."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "It is very difficult to be perfect."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "Will they give us anything?"
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "Did you really say that?"
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "We were not just standing there."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "Have you been waiting long?"
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "Has he turned up yet?"
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "I shall be coming next week."
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "He wants to go home."
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "He has not said anything all year."
+        },
+        {
+          "t": "li",
+          "n": 23,
+          "text": "He will be sitting in the back."
+        },
+        {
+          "t": "li",
+          "n": 24,
+          "text": "You were praising him too much."
+        },
+        {
+          "t": "li",
+          "n": 25,
+          "text": "We shall come next week."
+        },
+        {
+          "t": "li",
+          "n": 26,
+          "text": "They will be living here all year."
+        },
+        {
+          "t": "li",
+          "n": 27,
+          "text": "What were you doing there?"
+        },
+        {
+          "t": "li",
+          "n": 28,
+          "text": "It is impossible not to believe her."
+        },
+        {
+          "t": "li",
+          "n": 29,
+          "text": "Will you look at this for me?"
+        },
+        {
+          "t": "li",
+          "n": 30,
+          "text": "Are you going to the party?"
+        },
+        {
+          "t": "li",
+          "n": 31,
+          "text": "Who is helping him this year?"
+        },
+        {
+          "t": "li",
+          "n": 32,
+          "text": "No-one wants to do it."
+        },
+        {
+          "t": "ex",
+          "letter": "C",
+          "text": "Some of these sentences contain periphrastic verbs; others just contain two or more separate verbs. Some contain several periphrastic verbs. Identify the periphrastic verbs and find all their parts: recognize him because he will be"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "Which of you has been sitting here the longest?",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "We are going very carefully on this cliff because many climbers have fallen off it."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "They are not coming after all, because they did not want to wait any longer."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "I cannot believe that the train has already arrived!"
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "I came, I saw, I conquered, and then I wrote a book about it."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "They have not done anything to deserve such an awful fate."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "Who can tell what will happen next?"
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "Robin Hood was an outlaw who lived in Sherwood forest and was kind to the poor."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "They could not identify the man who had attacked them, because he was wearing a mask."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "Come and see the chairman once you’ve settled in; you will"
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "I would think twice before deciding to buy a used car, because many people have been tricked by car salesmen."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "Who knows whether we shall ever see our homeland again? No-one who has come this way has ever returned to tell the tale of his adventures."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "The captain could not see the other ship, so he did not try to steer away from it."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "People have been learning Latin asleep in the lounge. as a foreign language for more than two thousand years."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "I can see something, but I have no idea what it is."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "I wanted to be an Olympic swimmer, but it didn’t work out, so I decided to be a writer instead."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "No-one can be sure who will win that race, but we all know that the winner will not be Martin."
         }
       ]
     },
     {
       "id": "section-3",
       "latin": "63.3 Subjects and Objects",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "63.3",
       "blocks": [
         {
           "t": "p",
-          "text": "recognize him because he will be 14 People have been learning Latin asleep in the lounge. as a foreign language for more deciding to buy a used car, 15 I can see something, but I have because many people have been no idea what it is. tricked by car salesmen. 16 I wanted to be an Olympic 12 Who knows whether we shall swimmer, but it didn’t work out, ever see our homeland again?"
+          "text": "Every sentence consists of, at a minimum, one verb and a subject for that verb, that is, an indication of who or what performs the action of the verb. In Latin the subject may be understood rather than expressed, but in English it has to be expressed (except in the case of imperatives). Subjects can be nouns or pronouns: in ‘Julia runs’, ‘London is crowded’, ‘The cat wants to come in’, or ‘Beauty is truth’, the subjects (underlined) are nouns; in ‘He saw it’, ‘You know her’, and ‘They have a big dog’, the subjects are pronouns."
         },
         {
           "t": "p",
-          "text": "so I decided to be a writer No-one who has come this way instead. has ever returned to tell the tale 17 No-one can be sure who will win of his adventures. that race, but we all know 13 The captain could not see the that the winner will not be other ship, so he did not try to Martin. steer away from it."
+          "text": "The subject is often the first word or phrase in an English sentence, but not always."
         },
         {
           "t": "p",
-          "text": "Every sentence consists of, at a minimum, one verb and a subject for that verb, that is, an indication of who or what performs the action of the verb. In Latin the subject may be understood rather than expressed, but in English it has to be expressed (except in the case of imperatives)."
+          "text": "Sometimes an adverb or prepositional phrase precedes the subject, as ‘Tomorrow we shall go shopping’ or ‘In spring this wood is full of bluebells’. In questions an interrogative word and/or a verb usually comes first, forcing the subject into a later position, as ‘Do you know him?’, ‘Whom did you see?’, ‘Which one did he buy?’, ‘Have you seen Mary?’. (If the interrogative word happens to be the subject, then it continues to come first: ‘Who saw them?’)"
         },
         {
           "t": "p",
-          "text": "Subjects can be nouns or pronouns: in ‘Julia runs’, ‘London is crowded’, ‘The cat wants to come in’, or ‘Beauty is truth’, the subjects (underlined) are nouns; in ‘He saw it’, ‘You know her’, and ‘They have a big dog’, the subjects are pronouns. The subject is often the first word or phrase in an English sentence, but not always."
+          "text": "Sometimes several verbs connected by a conjunction share the same subject, as in ‘He comes and goes’, where ‘he’ is the subject of both ‘comes’ and ‘goes’. Some verbs depend directly on another verb and do not have expressed subjects: for example, in ‘I want to go to Paris’ the main verb is ‘want’, which has the subject ‘I’, but the dependent verb ‘to go’ does not have an expressed subject."
         },
         {
           "t": "p",
-          "text": "Sometimes an adverb or prepositional phrase precedes the subject, as ‘Tomorrow we shall go shopping’ or ‘In spring this wood is full of bluebells’. In questions an interrogative word and/or a verb usually comes first, forcing the subject into a later position, as ‘Do you know him?’, ‘Whom did you see?’, ‘Which one did he buy?’, ‘Have you seen Mary?’."
-        },
-        {
-          "t": "p",
-          "text": "(If the interrogative word happens to be the subject, then it continues to come first: ‘Who saw them?’) Sometimes several verbs connected by a conjunction share the same subject, as in ‘He comes and goes’, where ‘he’ is the subject of both ‘comes’ and ‘goes’."
-        },
-        {
-          "t": "p",
-          "text": "Some verbs depend directly on another verb and do not have expressed subjects: for example, in ‘I want to go to Paris’ the main verb is ‘want’, which has the subject ‘I’, but the dependent verb ‘to go’ does not have an expressed subject. Many, but not all, verbs have objects. An object is a noun or pronoun that receives the action of the verb; in English objects normally come after verbs. Some verbs have more than one object."
-        },
-        {
-          "t": "p",
-          "text": "The objects are underlined in the following sentences: ‘I love John’, ‘John loves me’, ‘We saw an enormous rattlesnake’, ‘They gave her flowers’ (here ‘her’ is an indirect object and ‘flowers’ is a direct object; see chapter 7.2), ‘They had cake, ice cream, and candied fruit’."
+          "text": "Many, but not all, verbs have objects. An object is a noun or pronoun that receives the action of the verb; in English objects normally come after verbs. Some verbs have more than one object. The objects are underlined in the following sentences: ‘I love John’, ‘John loves me’, ‘We saw an enormous rattlesnake’, ‘They gave her flowers’ (here ‘her’ is an indirect object and ‘flowers’ is a direct object; see chapter 7.2), ‘They had cake, ice cream, and candied fruit’."
         },
         {
           "t": "p",
           "text": "Verbs expressing identity, such as ‘be’, ‘become’, or ‘be called’, do not have objects since the thing that comes after them is stated to be the same thing as the subject. Thus ‘He has become famous’, ‘We are hungry’, and ‘He is named Jim’ are sentences without objects."
+        },
+        {
+          "t": "practice"
+        },
+        {
+          "t": "ex",
+          "letter": "D",
+          "text": "Find the subjects of these sentences, and the objects where they exist; although a subject or object may consist of more than one word, try to identify just the one word that is the core of each."
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "I am Canadian.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "What do you see?"
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "Oliver’s sister is a chemist."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "Where is Jane going?"
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "His work is very good."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "You are brilliant."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "Who knows that?"
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "A student’s life can be exhausting."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "Whom do you choose?"
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "Jane doesn’t love John."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "Martin’s dog is overweight."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "What is in the box?"
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "In December the lights are lit."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "Mark works here."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "In which house are the children?"
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "Sometimes I wonder."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "Where are you?"
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "Rarely have I been so frightened."
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "In what direction did he go?"
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "Jim bought the last one."
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "That boy’s father is a fireman."
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "The mother of this girl is very rich."
+        },
+        {
+          "t": "ex",
+          "letter": "E",
+          "text": "For every underlined verb in the paragraphs below, find its subject or identify it as an infinitive. Work out which verbs have objects and what those objects are. Be sure to identify the actual word that is the grammatical subject or object, not the idea behind that word: for example, in the sentence ‘Bob, who is a surgeon, works long hours’, the subject of ‘works’ is ‘Bob’, but the subject of ‘is’ is ‘who’, not ‘Bob’. Although logically ‘who’ is the same person as ‘Bob’, grammatically only ‘who’ can be the subject of ‘is’; this point is important for some aspects of Latin. Romulus and Remus, the founders of Rome, had a doubtful ancestry. Their father was unknown: legend has it that he was the god of war, Mars, but even in antiquity that story was viewed with suspicion. Their mother was Rhea Silvia, daughter of Numitor, rightful king of Alba Longa. Numitor’s evil brother, Amulius, seized the throne from him, and in order to make sure that the legitimate king had no male heirs (female heirs did not count in antiquity,"
+        },
+        {
+          "t": "p",
+          "text": "which was lucky for Rhea Silvia as otherwise Numitor would have killed her as he allegedly killed her brother), he ordered Rhea to become a Vestal Virgin."
+        },
+        {
+          "t": "p",
+          "text": "It was a serious crime for a Vestal Virgin to have a child, and when the twins were born, Amulius was furious. He took them away from their mother and dumped them in a river in hopes that they would drown. But they did not drown; the basket containing the twins drifted to shore, where they were rescued and fed by a wolf. Later a shepherd found the babies and took them home to his wife, who raised them until they became unruly teenagers."
+        },
+        {
+          "t": "p",
+          "text": "As teenagers Romulus and Remus caused more trouble than most: they not only robbed people, but also gathered a band of followers and became powerful bandits. Eventually Remus was captured and brought to the king, at which point he was recognized by his grandfather, Numitor. Romulus and his men came to rescue Remus, and with Numitor’s help they killed the king. Numitor then became king of Alba, and Romulus and Remus, who were not used to the restraint and decorum required of princes in Alba, went off to found Rome."
+        },
+        {
+          "t": "p",
+          "text": "Now an ancient city can have only one founder, so the story was bound to end badly: they had a quarrel over who was to be king, and Romulus killed Remus."
         }
       ]
     },
     {
       "id": "section-4",
       "latin": "63.4 Nominatives and Accusatives",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "63.4",
       "blocks": [
         {
           "t": "p",
-          "text": "which was lucky for Rhea Silvia as otherwise Numitor would have killed her as he allegedly killed her brother), he ordered Rhea to become a Vestal Virgin. It was a serious crime for a Vestal Virgin to have a child, and when the twins were born, Amulius was furious. He took them away from their mother and dumped them in a river in hopes that they would drown."
+          "text": "The subject of a sentence is in the nominative case in Latin, and the direct object is in the accusative (see section 63.3 above for subjects and objects). Words connected to the subject by a verb indicating identity, such as ‘be’, ‘become’, or ‘be called’, are also in the nominative: thus in these sentences the underlined words are all nominatives even though they are not subjects: ‘He has become famous’, ‘We are hungry’, and ‘He is named John’."
         },
         {
-          "t": "p",
-          "text": "But they did not drown; the basket containing the twins drifted to shore, where they were rescued and fed by a wolf. Later a shepherd found the babies and took them home to his wife, who raised them until they became unruly teenagers. As teenagers Romulus and Remus caused more trouble than most: they not only robbed people, but also gathered a band of followers and became powerful bandits."
+          "t": "practice"
         },
         {
-          "t": "p",
-          "text": "Eventually Remus was captured and brought to the king, at which point he was recognized by his grandfather, Numitor. Romulus and his men came to rescue Remus, and with Numitor’s help they killed the king. Numitor then became king of Alba, and Romulus and Remus, who were not used to the restraint and decorum required of princes in Alba, went off to found Rome."
+          "t": "ex",
+          "letter": "F",
+          "text": "Identify all the words in these sentences that would be nominatives or accusatives in Latin:"
         },
         {
-          "t": "p",
-          "text": "Now an ancient city can have only one founder, so the story was bound to end badly: they had a quarrel over who was to be king, and Romulus killed Remus."
+          "t": "li",
+          "n": 1,
+          "text": "Jane likes fish.",
+          "cols": 2
         },
         {
-          "t": "p",
-          "text": "The subject of a sentence is in the nominative case in Latin, and the direct object is in the accusative (see section 63.3 above for subjects and objects)."
+          "t": "li",
+          "n": 2,
+          "text": "You are wonderful."
         },
         {
-          "t": "p",
-          "text": "Words connected to the subject by a verb indicating identity, such as ‘be’, ‘become’, or ‘be called’, are also in the nominative: thus in these sentences the underlined words are all nominatives even though they are not subjects: ‘He has become famous’, ‘We are hungry’, and ‘He is named John’."
+          "t": "li",
+          "n": 3,
+          "text": "Jim doesn’t eat meat."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "I am a doctor."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "I need a doctor."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "What is it?"
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "Mark is carrying a book."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "The house is pink."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "Jane wrote a book."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "Rachel is beautiful."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "I see you."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "He is a prisoner."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "I’d like oatmeal."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "We are all hungry."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "Where did he put it?"
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "Who did it?"
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "Who are you?"
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "Whom did you ask?"
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "How did you learn that?"
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "John is a banker."
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "What do you want?"
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "Who is it?"
         }
       ]
     },
     {
       "id": "section-5",
       "latin": "63.5 Nominatives and Accusatives Continued",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "63.5",
       "blocks": [
         {
           "t": "p",
           "text": "Adjectives agree in case with the nouns they relate to (see chapter 3.3). Therefore if an adjective agrees with the subject of a sentence, it is nominative like the subject; if it agrees with the object, it is accusative like the object."
+        },
+        {
+          "t": "practice"
+        },
+        {
+          "t": "ex",
+          "letter": "G",
+          "text": "Identify all the words in these sentences that would be nominatives or accusatives in Latin:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "Jane likes fried fish.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "This book is short."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "True vegetarians do not eat any meat."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "I am a good doctor."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "I need a good doctor."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "What is that thing?"
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "The little boy is carrying a big book."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "My house is pink."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "These two authors wrote long books."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "Our sister is beautiful but vain."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "Some people cannot see certain colours."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "This man is a model prisoner."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "I’d like some more oatmeal."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "The little boys are all happy."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "Where did your brother put those glasses?"
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "Who committed that dreadful murder?"
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "Who is the current president?"
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "Which people did you ask?"
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "How did those girls learn that?"
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "Many people are good workers."
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "Which piece did the little girl choose?"
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "Who is that man?"
+        },
+        {
+          "t": "ex",
+          "letter": "H",
+          "text": "For every underlined word in the paragraphs below, state whether it would be nominative or accusative in Latin. Romulus and Remus, the founders of Rome, had a doubtful ancestry. Their father was unknown: legend has it that he was the god of war, Mars, but even in antiquity that story was viewed with suspicion. Their mother was Rhea Silvia, daughter of Numitor, rightful king of Alba Longa. Numitor’s evil brother, Amulius, seized the throne from him, and in order to make sure that the legitimate king had no male heirs (female heirs did not count in antiquity,"
+        },
+        {
+          "t": "p",
+          "text": "which was lucky for Rhea Silvia as otherwise Numitor would have killed her as he allegedly killed her brother), he ordered Rhea to become a Vestal Virgin."
+        },
+        {
+          "t": "p",
+          "text": "It was a serious crime for a Vestal Virgin to have a child, and when the twins were born, Amulius was furious. He took them away from their mother and dumped them in a river in hopes that they would drown. But they did not drown; the basket containing the twins drifted to shore, where they were rescued and fed by a wolf. Later a shepherd found the babies and took them home to his wife, who raised them until they became unruly teenagers."
+        },
+        {
+          "t": "p",
+          "text": "As teenagers Romulus and Remus caused more trouble than most: they not only robbed people, but also gathered a band of followers and became powerful bandits. Eventually Remus was captured and brought to the king, at which point he was recognized by his grandfather, Numitor. Romulus and his men came to rescue Remus, and with Numitor’s help they killed the king. Numitor then became king of Alba, and Romulus and Remus, who were not used to the restraint and decorum required of princes in Alba, went off to found Rome."
+        },
+        {
+          "t": "p",
+          "text": "Now an ancient city can have only one founder, so the story was bound to end badly: they had a quarrel over who was to be king, and Romulus killed Remus."
         }
       ]
     },
     {
       "id": "section-6",
       "latin": "63.6 Genitives and Datives",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "63.6",
       "blocks": [
         {
           "t": "p",
-          "text": "which was lucky for Rhea Silvia as otherwise Numitor would have killed her as he allegedly killed her brother), he ordered Rhea to become a Vestal Virgin. It was a serious crime for a Vestal Virgin to have a child, and when the twins were born, Amulius was furious. He took them away from their mother and dumped them in a river in hopes that they would drown."
+          "text": "Genitives are used in Latin for words that in English have an apostrophe with ‘s’ and for phrases beginning with ‘of’ (see chapter 5.2); thus ‘girls’ would be genitive both in ‘The girls’ father is over there’ and in ‘One of the girls has left’ (but ‘father’ and ‘one’ would be nominative). Datives are used for indirect objects, that is, the recipient with the verb ‘give’: in ‘I gave him a book’, ‘him’ is dative and ‘book’, the thing actually given, is accusative (see chapter 7.2)."
         },
         {
-          "t": "p",
-          "text": "But they did not drown; the basket containing the twins drifted to shore, where they were rescued and fed by a wolf. Later a shepherd found the babies and took them home to his wife, who raised them until they became unruly teenagers. As teenagers Romulus and Remus caused more trouble than most: they not only robbed people, but also gathered a band of followers and became powerful bandits."
+          "t": "practice"
         },
         {
-          "t": "p",
-          "text": "Eventually Remus was captured and brought to the king, at which point he was recognized by his grandfather, Numitor. Romulus and his men came to rescue Remus, and with Numitor’s help they killed the king. Numitor then became king of Alba, and Romulus and Remus, who were not used to the restraint and decorum required of princes in Alba, went off to found Rome."
+          "t": "ex",
+          "letter": "I",
+          "text": "Identify all the words in these sentences that would be nominatives, accusatives, genitives, or datives in Latin:"
         },
         {
-          "t": "p",
-          "text": "Now an ancient city can have only one founder, so the story was bound to end badly: they had a quarrel over who was to be king, and Romulus killed Remus."
+          "t": "li",
+          "n": 1,
+          "text": "I shall not give him a penny.",
+          "cols": 2
         },
         {
-          "t": "p",
-          "text": "Genitives are used in Latin for words that in English have an apostrophe with ‘s’ and for phrases beginning with ‘of’ (see chapter 5.2); thus ‘girls’ would be genitive both in ‘The girls’ father is over there’ and in ‘One of the girls has left’ (but ‘father’ and ‘one’ would be nominative)."
+          "t": "li",
+          "n": 2,
+          "text": "Those men sell children’s toys."
         },
         {
-          "t": "p",
-          "text": "Datives are used for indirect objects, that is, the recipient with the verb ‘give’: in ‘I gave him a book’, ‘him’ is dative and ‘book’, the thing actually given, is accusative (see chapter 7.2)."
+          "t": "li",
+          "n": 3,
+          "text": "A mother of quadruplets has a busy life."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "Who gave Martha’s hat to Jane?"
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "Children of rich parents often have expensive clothes."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "Those children gave lovely presents to Mark’s son."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "In this country even the daughter of a pauper can enter politics."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "In that country only the sons of rich men enter politics."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "We all gave generous tips to the superb staff."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "Are artists’ houses always well painted?"
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "Many people gave him something, but no-one gave him much."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "The houses of famous people attract tourists."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "Mike’s brother gave flowers to Julia’s sister."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "Would you give ten dollars to a good cause?"
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "The father of ten children needs a good income."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "That man’s son knew the right answer."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "The son of a king should give generously to charity."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "Unaccompanied minors need to have suitable insurance."
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "What did those women give you?"
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "When will we see Jane’s new baby?"
         }
       ]
     },
     {
       "id": "section-7",
       "latin": "63.7 Case Usage: Advanced",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "63.7",
       "blocks": [
         {
           "t": "p",
-          "text": "In addition to the case usages mentioned above, accusatives are used for the subjects of indirect statements (see chapter 19.1), for indicating an extent of time or space (see chapter 35.3), and after certain prepositions such as ad ‘to’ and in ‘into’. Verbs meaning ‘be’ and ‘become’, since they take a word in the same case as their subjects, also take an accusative if their subjects are accusative (i.e."
+          "text": "In addition to the case usages mentioned above, accusatives are used for the subjects of indirect statements (see chapter 19.1), for indicating an extent of time or space (see chapter 35.3), and after certain prepositions such as ad ‘to’ and in ‘into’. Verbs meaning ‘be’ and ‘become’, since they take a word in the same case as their subjects, also take an accusative if their subjects are accusative (i.e. in indirect statement: see chapter 19.1)."
         },
         {
           "t": "p",
-          "text": "in indirect statement: see chapter 19.1). Although usually English words that have an apostrophe and ‘s’ (in either order) are genitives and ones that have the ‘s’ without an apostrophe are not genitives (unless they are part of a phrase with ‘of’), two words use the apostrophe differently: ‘whose’ and ‘its’ are genitives, while ‘who’s’ and ‘it’s’ are not."
-        },
-        {
-          "t": "p",
-          "text": "(These latter forms are contractions of ‘who is’ and ‘it is’.) Datives are used after verbs that take an object in the dative, such as persuādeō ‘persuade’ (see chapter 28.3). Ablatives are used after prepositions such as cum ‘with’, ā/ab ‘by’ and ‘from’, and in ‘in’; after verbs that take an object in the ablative, such as ūtor ‘use’; and in a number of other constructions (see chapter 35)."
+          "text": "Although usually English words that have an apostrophe and ‘s’ (in either order) are genitives and ones that have the ‘s’ without an apostrophe are not genitives (unless they are part of a phrase with ‘of’), two words use the apostrophe differently: ‘whose’ and ‘its’ are genitives, while ‘who’s’ and ‘it’s’ are not. (These latter forms are contractions of ‘who is’ and ‘it is’.) Datives are used after verbs that take an object in the dative, such as persuādeō ‘persuade’ (see chapter 28.3). Ablatives are used after prepositions such as cum ‘with’, ā/ab ‘by’ and ‘from’, and in ‘in’; after verbs that take an object in the ablative, such as ūtor ‘use’; and in a number of other constructions (see chapter 35)."
         },
         {
           "t": "p",
           "text": "Relative pronouns take their case from their own clause, not from the main clause (see chapter 25.2)."
+        },
+        {
+          "t": "practice"
+        },
+        {
+          "t": "ex",
+          "letter": "J",
+          "text": "Identify the cases that the underlined words would have in Latin, and explain the reason for each case."
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "Who saw the robbery?",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "John thinks that we will give our money to charity."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "Whose coat is this?"
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "I like people who love dogs."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "Which students are ill?"
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "Martha is now a neurosurgeon, but when I last saw her she was a little girl."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "Jane said that she had come from Corinth."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "John will never persuade Julia to leave Rome; she has lived there for twenty years."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "What are you running away from?"
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "The dog that Maria bought is eating all her socks."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "Which books did the teacher borrow?"
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "Mary thinks that poets are boring."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "Mark has not yet used the money that his grandfather gave him for Christmas."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "Who did you go to the play with?"
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "Jane is sad because she doesn’t know what to do."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "Who did Martin give his cloak to?"
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "Rome is overrun by people who write bad poetry."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "To whom is Martha giving all that money?"
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "Mary fixed the lawnmower with a rubber band that she found in the bottom drawer."
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "Who knows the answer?"
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "Jim says that he is not a poet."
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "Martin’s sister is a doctor who works in London."
+        },
+        {
+          "t": "li",
+          "n": 23,
+          "text": "Whose dissertation won the prize?"
+        },
+        {
+          "t": "li",
+          "n": 24,
+          "text": "Joshua knows the girl whose hat that is."
+        },
+        {
+          "t": "li",
+          "n": 25,
+          "text": "Can Jane persuade her mother to buy her a new phone?"
+        },
+        {
+          "t": "li",
+          "n": 26,
+          "text": "What did the fishermen catch today?"
+        },
+        {
+          "t": "li",
+          "n": 27,
+          "text": "Jonathan saw the men who had burgled the shop."
+        },
+        {
+          "t": "li",
+          "n": 28,
+          "text": "Julia thinks that we will stay in Rome."
+        },
+        {
+          "t": "li",
+          "n": 29,
+          "text": "Whom did James see in town?"
+        },
+        {
+          "t": "li",
+          "n": 30,
+          "text": "The father of these boys is unemployed, but he is trying hard to find a job."
+        },
+        {
+          "t": "li",
+          "n": 31,
+          "text": "What will Marcia use to fix the window?"
+        },
+        {
+          "t": "li",
+          "n": 32,
+          "text": "Which beggar did you give your sandwich to?"
+        },
+        {
+          "t": "li",
+          "n": 33,
+          "text": "Mark’s father said that the boys had given him an apple."
+        },
+        {
+          "t": "li",
+          "n": 34,
+          "text": "Those children are always happy; all day I see them laughing."
+        },
+        {
+          "t": "li",
+          "n": 35,
+          "text": "Who persuaded Jim to come to the party?"
         }
       ]
     },
     {
       "id": "section-8",
       "latin": "63.8 Distinguishing Different Constructions I",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "63.8",
       "blocks": [
         {
           "t": "p",
-          "text": "6 Martha is now a neurosurgeon, 20 Who knows the answer? but when I last saw her she was 21 Jim says that he is not a poet. a little girl. 22 Martin’s sister is a doctor who 7 Jane said that she had come from works in London."
-        },
-        {
-          "t": "h",
-          "text": "Corinth. 23 Whose dissertation won the"
+          "text": "One of the most important aspects of Latin grammar is the different constructions used; it is necessary to learn to distinguish these both in Latin and in English if one is to be able to translate successfully between the two languages."
         },
         {
           "t": "p",
-          "text": "8 John will never persuade Julia to prize? leave Rome; she has lived there 24 Joshua knows the girl whose hat for twenty years. that is. 9 What are you running away 25 Can Jane persuade her mother to from? buy her a new phone? 10 The dog that Maria bought is 26 What did the fishermen catch eating all her socks. today? 11 Which books did the teacher 27 Jonathan saw the men who had borrow? burgled the shop."
+          "text": "The exercise below concentrates on indirect statement and purpose clauses; as these are covered in chapters 15, 16, and 19 the exercise can be done at any point after chapter 19."
         },
         {
-          "t": "p",
-          "text": "12 Mary thinks that poets are 28 Julia thinks that we will stay in boring. Rome. 13 Mark has not yet used the money 29 Whom did James see in town? that his grandfather gave him for 30 The father of these boys is Christmas. unemployed, but he is trying 14 Who did you go to the play with? hard to find a job. 15 Jane is sad because she doesn’t 31 What will Marcia use to fix the know what to do. window?"
+          "t": "practice"
         },
         {
-          "t": "p",
-          "text": "16 Who did Martin give his cloak 32 Which beggar did you give your to? sandwich to? 17 Rome is overrun by people who 33 Mark’s father said that the boys write bad poetry. had given him an apple. 18 To whom is Martha giving all 34 Those children are always that money? happy; all day I see them 19 Mary fixed the lawnmower with laughing. a rubber band that she found in 35 Who persuaded Jim to come to the bottom drawer. the party?"
+          "t": "ex",
+          "letter": "K",
+          "text": "Without translating, do the following for each underlined verb: name its construction, state whether it would be indicative, subjunctive, or infinitive in Latin; give its tense in Latin; state whether its subject would be nominative or accusative; and state whether it would be introduced by ut, nē, or no conjunction."
         },
         {
-          "t": "p",
-          "text": "One of the most important aspects of Latin grammar is the different constructions used; it is necessary to learn to distinguish these both in Latin and in English if one is to be able to translate successfully between the two languages. The exercise below concentrates on indirect statement and purpose clauses; as these are covered in chapters 15, 16, and 19 the exercise can be done at any point after chapter 19."
+          "t": "li",
+          "n": 1,
+          "text": "My mother said that she had seen a snake in the kitchen.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "She said it had slithered under the refrigerator."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "My father came to find the snake."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "My mother said it would go away by itself if we left it alone."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "But my father said it would not be able to get out of the house on its own."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "My mother said she didn’t want to find it in our bedrooms."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "I sat down to watch my father look for the snake."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "My brother arrived to join us."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "My sister will be here any minute, so that she won’t be separated from us."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "My father asked us all to leave so that he could search in peace."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "He said that we were distracting him."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "We went outside to look through the window."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "We hurried in order not to miss anything."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "My brother said he was too short to see properly."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "He said I needed to let him sit on my shoulders."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "He only did it to be annoying, as he’s nearly as tall as I am."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "I went away in order not to be annoyed by him, so he watched by himself."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "He said afterwards that my father had moved the table and all the chairs out of the kitchen."
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "He did that in order not to have to lie under the table while looking under the refrigerator."
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "Then he found a long spoon to fish under the refigerator with."
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "My brother says my father fished many things out from under the refrigerator."
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "He says among them was a book he lost weeks ago."
+        },
+        {
+          "t": "li",
+          "n": 23,
+          "text": "He says that next time he will think more carefully about where he leaves his books."
+        },
+        {
+          "t": "li",
+          "n": 24,
+          "text": "Then my father shouted, saying that the snake had slithered up his trouser leg."
+        },
+        {
+          "t": "li",
+          "n": 25,
+          "text": "We all came rushing in to help him."
+        },
+        {
+          "t": "li",
+          "n": 26,
+          "text": "Also, we ran in order not to miss seeing the snake."
+        },
+        {
+          "t": "li",
+          "n": 27,
+          "text": "When we came in, my father said the snake was no longer up his trousers."
+        },
+        {
+          "t": "li",
+          "n": 28,
+          "text": "He said it had gone down a hole in the floor."
+        },
+        {
+          "t": "li",
+          "n": 29,
+          "text": "My mother said it would probably come up again."
+        },
+        {
+          "t": "li",
+          "n": 30,
+          "text": "She said she did not want to be in the kitchen when it returned."
+        },
+        {
+          "t": "li",
+          "n": 31,
+          "text": "My father said it would not come up again."
+        },
+        {
+          "t": "li",
+          "n": 32,
+          "text": "He said it probably did not want to be in the kitchen with her either."
+        },
+        {
+          "t": "li",
+          "n": 33,
+          "text": "We put a brick over the hole so it wouldn’t return."
         }
       ]
     },
     {
       "id": "section-9",
       "latin": "63.9 Distinguishing Different Constructions II",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "63.9",
       "blocks": [
         {
           "t": "p",
-          "text": "32 He said it probably did not want 33 We put a brick over the hole so it to be in the kitchen with her wouldn’t return. either."
+          "text": "Indirect commands and purpose clauses look similar to each other in Latin but mean different things and must therefore be translated differently in English. In order to distinguish them, one looks for a verb that introduces an indirect command: if such a verb is present, the following subjunctive has to be translated as an indirect command, and if not, it can be translated as a purpose clause. See chapter 28.3; this exercise is designed to be done any time after chapter 29."
         },
         {
-          "t": "p",
-          "text": "different things and must therefore be translated differently in English. In order to distinguish them, one looks for a verb that introduces an indirect command: if such a verb is present, the following subjunctive has to be translated as an indirect command, and if not, it can be translated as a purpose clause. See chapter 28.3; this exercise is designed to be done any time after chapter 29."
+          "t": "practice"
+        },
+        {
+          "t": "ex",
+          "letter": "L",
+          "text": "Identify the constructions (indirect command, purpose clause, indirect statement, none of the above) and translate:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "rex militibus imperavit ut progrederentur.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "amicos suos oravit ne morarentur."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "servo meo imperavi ut sequeretur."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "servum meum rogabo ne moretur."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "amicos suos oraverunt ut pollicerentur."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "velim ut mecum in urbe moreris."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "pater filio imperat ut sequatur."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "dixit se tibi persuasisse ut sequereris."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "venati sunt ut animalia caperent."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "velim ut me sequaris."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "rex militibus imperavit ut sequerentur."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "mater filium oravit ne moraretur."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "dixerunt se voluisse te sequi."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "regem sequentes, milites e castris progressi sunt."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "arbitratus sum eos nobis persuadere velle ut secum loqueremur."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "dominum sequentes, servi ex oppido progressi sunt."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "milites e castris progressi non sunt ne hostes se caperent."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "pollicitus sum me te oraturum non esse ut me defenderes."
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "servis imperantes ut nos sequantur, ex oppido progressi sumus."
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "milites quibus imperavit rex ut se sequerentur ex oppido progressi sunt."
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "arbitror eos nobis persuadere velle ut secum loquamur."
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "pueri quibus non persuadebo ne loquantur multa patientur."
+        },
+        {
+          "t": "li",
+          "n": 23,
+          "text": "filium tuum, cui imperavisti ne cum militibus loqueretur, in castris hodie vidi."
+        },
+        {
+          "t": "li",
+          "n": 24,
+          "text": "milites qui polliciti sunt se nos secuturos esse e castris non progrediuntur."
+        },
+        {
+          "t": "ex",
+          "letter": "M",
+          "text": "Additional exercises with indirect commands, purpose clauses, indirect statements, and infinitives. Translate into Latin:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "Her father will ask her to speak.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "She came in order to speak with you."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "Her father is begging her to speak."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "Her father ordered her to speak."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "Her father thinks that she is speaking."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "Her father persuaded her not to speak."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "She wants to speak."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "I would like her to speak."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "We order you (singular) to promise."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "Did we persuade you (plural) to promise?"
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "We thought you (singular) had promised."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "We shall ask you (plural) not to promise."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "We would like you (singular) to promise."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "Do you (plural) want to promise?"
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "I thought you (singular) would promise."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "Are you (plural) able to promise?"
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "We spoke often with the king, asking him to help us."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "Having urged the king to help us, we left."
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "You (singular) think that that man will follow you, but we shall persuade him to follow us."
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "Having promised that he would help us, the king led his soldiers to our town."
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "The girl who wanted to speak with us is now asking us not to come."
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "Having promised that they would not attack us, the soldiers departed."
+        },
+        {
+          "t": "li",
+          "n": 23,
+          "text": "The king who urged us to come is now ordering us to leave."
         }
       ]
     },
     {
       "id": "section-10",
       "latin": "63.10 Distinguishing Different Constructions III",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "63.10",
       "blocks": [
         {
           "t": "p",
-          "text": "On the following page is a chart listing the different possible constructions for Latin infinitives, participles, and subjunctives introduced in chapters 1– 35, followed by some practice exercises."
+          "text": "On the following page is a chart listing the different possible constructions for Latin infinitives, participles, and subjunctives introduced in chapters 1– 35, followed by some practice exercises. If you have trouble working out how to translate such verb forms, it is recommended that you use the chart for each sentence: first identify the construction using the two left-hand columns and then translate it using the right-hand column."
         },
         {
           "t": "p",
-          "text": "If you have trouble working out how to translate such verb forms, it is recommended that you use the chart for each sentence: first identify the construction using the two left-hand columns and then translate it using the right-hand column. Practice translating this way should enable you to internalize the identification process and learn to translate these constructions without such help."
+          "text": "Practice translating this way should enable you to internalize the identification process and learn to translate these constructions without such help."
         },
         {
-          "t": "h",
+          "t": "p",
           "text": "Other words (or other types"
         },
         {
-          "t": "p",
-          "text": "Latin Verb Form of clue) nearby Construction and Translation Present infinitive possum, volō, nōlō, mālō Translate with English infinitive. potest Rōmam īre. ‘He is able to go to Rome.’ volō Rōmam īre. ‘I want to go to Rome.’ Infinitive (any tense) dīcō, arbitror, other verb of Indirect statement: translate with indicative verb in the tense of the saying or thinking infinitive. dīcit sē Rōmam itūrum esse."
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "Latin Verb Form",
+              "of clue) nearby",
+              "Construction and Translation"
+            ],
+            [
+              "Present infinitive",
+              "possum, volō, nōlō, mālō",
+              "Translate with English infinitive."
+            ],
+            [
+              "",
+              "",
+              "potest Rōmam īre. ‘He is able to go to Rome.’"
+            ],
+            [
+              "",
+              "",
+              "volō Rōmam īre. ‘I want to go to Rome.’"
+            ],
+            [
+              "Infinitive (any tense)",
+              "dīcō, arbitror, other verb of saying or thinking",
+              "Indirect statement: translate with indicative verb in the tense of the"
+            ],
+            [
+              "",
+              "",
+              "infinitive."
+            ],
+            [
+              "",
+              "",
+              "dīcit sē Rōmam itūrum esse. ‘He says he will go to Rome.’"
+            ],
+            [
+              "",
+              "",
+              "dīcit sē Rōmam īre. ‘He says he is going to Rome.’"
+            ],
+            [
+              "",
+              "",
+              "dīcit sē Rōmam īvisse. ‘He says he went to Rome.’"
+            ],
+            [
+              "Perfect participle",
+              "The participle is near a form of",
+              "Translate the participle and the form of sum together as a past indicative (active if the verb is deponent, otherwise passive)."
+            ],
+            [
+              "",
+              "sum.",
+              ""
+            ],
+            [
+              "",
+              "",
+              "ille vēnātus est. ‘That man hunted.’"
+            ],
+            [
+              "",
+              "",
+              "ille amātus est. ‘That man was loved.’"
+            ],
+            [
+              "Perfect participle",
+              "The participle is not near",
+              "Translate with an English past active participle (‘having loved’) if"
+            ],
+            [
+              "",
+              "a form of sum.",
+              "the verb is deponent, otherwise with a past passive participle"
+            ],
+            [
+              "",
+              "",
+              "(‘loved’, ‘having been loved’), or translate with a subordinate"
+            ],
+            [
+              "",
+              "",
+              "clause with a similar meaning."
+            ],
+            [
+              "",
+              "",
+              "vēnātus Rōmam īvit. ‘Having hunted, he went to Rome.’ / ‘After he"
+            ],
+            [
+              "",
+              "",
+              "hunted, he went to Rome.’"
+            ],
+            [
+              "",
+              "",
+              "amātus Rōmam ībit. ‘Since/if/when he is loved, he will go to Rome.’"
+            ],
+            [
+              "",
+              "",
+              "puella amāta discessit. ‘The beloved girl has left.’"
+            ]
+          ]
         },
         {
           "t": "p",
-          "text": "‘He says he will go to Rome.’ dīcit sē Rōmam īre. ‘He says he is going to Rome.’ dīcit sē Rōmam īvisse. ‘He says he went to Rome.’ Perfect participle The participle is near a form of Translate the participle and the form of sum together as a past sum. indicative (active if the verb is deponent, otherwise passive). ille vēnātus est. ‘That man hunted.’ ille amātus est."
-        },
-        {
-          "t": "p",
-          "text": "‘That man was loved.’ Perfect participle The participle is not near Translate with an English past active participle (‘having loved’) if a form of sum. the verb is deponent, otherwise with a past passive participle (‘loved’, ‘having been loved’), or translate with a subordinate clause with a similar meaning. vēnātus Rōmam īvit. ‘Having hunted, he went to Rome.’ / ‘After he hunted, he went to Rome.’ amātus Rōmam ībit."
-        },
-        {
-          "t": "example",
-          "text": "‘Since/if/when he is loved, he will go to Rome.’ puella amāta discessit. ‘The beloved girl has left.’"
-        },
-        {
-          "t": "h",
           "text": "Other words (or other types"
         },
         {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "Latin Verb Form",
+              "of clue) nearby",
+              "Construction and Translation"
+            ],
+            [
+              "Present participle",
+              "–",
+              "Translate with an English present participle (‘loving’), or with"
+            ],
+            [
+              "",
+              "",
+              "a subordinate clause with a similar meaning."
+            ],
+            [
+              "",
+              "",
+              "servōs dūcēns Rōmam ībit. ‘He will go to Rome leading slaves.’"
+            ],
+            [
+              "Future participle",
+              "–",
+              "Translate with ‘being about to’ or with a subordinate clause having"
+            ],
+            [
+              "",
+              "",
+              "a similar meaning."
+            ],
+            [
+              "",
+              "",
+              "dictūrus impedītus est. ‘Being about to speak, he was hindered.’ /"
+            ],
+            [
+              "",
+              "",
+              "‘He was hindered when he was about to speak.’"
+            ],
+            [
+              "Present subjunctive",
+              "The subjunctive is the only or",
+              "Deliberative subjunctive: translate with ‘should. . . ?’."
+            ],
+            [
+              "",
+              "main verb of the sentence,",
+              "eāmusne Rōmam? ‘Should we go to Rome?’"
+            ],
+            [
+              "",
+              "the sentence is a question,",
+              ""
+            ],
+            [
+              "",
+              "and the subjunctive is in the",
+              ""
+            ],
+            [
+              "",
+              "first person.",
+              ""
+            ],
+            [
+              "Present subjunctive",
+              "The subjunctive is the only or",
+              "Hortatory subjunctive: translate with ‘let’s’ if first person, otherwise"
+            ],
+            [
+              "",
+              "main verb of the sentence,",
+              "with ‘may’ before the subject."
+            ],
+            [
+              "",
+              "and the sentence is not",
+              "Rōmam eāmus. ‘Let’s go to Rome.’"
+            ],
+            [
+              "",
+              "a question.",
+              "Rōmam eat. ‘May he go to Rome.’ (not ‘He may go to Rome.’)"
+            ],
+            [
+              "",
+              "",
+              "nē Rōmam eant. ‘May they not go to Rome.’ (not ‘They may not"
+            ],
+            [
+              "",
+              "",
+              "go. . .’)"
+            ],
+            [
+              "Subjunctive (any tense)",
+              "Subjunctive is in a clause",
+              "Result clause: translate with ‘that’ and present or past indicative"
+            ],
+            [
+              "",
+              "opened by ut, and in the",
+              "according to sequence."
+            ],
+            [
+              "",
+              "main clause there is tantus,",
+              "tam fortis est ut Rōmam eat. ‘He’s so brave that he’s going to Rome.’"
+            ],
+            [
+              "",
+              "tam, etc.",
+              "tam fortis erat ut Rōmam īret. ‘He was so brave that he went to"
+            ]
+          ]
+        },
+        {
           "t": "p",
-          "text": "Latin Verb Form of clue) nearby Construction and Translation Present participle – Translate with an English present participle (‘loving’), or with a subordinate clause with a similar meaning. servōs dūcēns Rōmam ībit. ‘He will go to Rome leading slaves.’"
+          "text": "Rome.’"
         },
         {
-          "t": "pre",
-          "text": "Future participle – Translate with ‘being about to’ or with a subordinate clause having"
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "Subjunctive (any tense)",
+              "Subjunctive is in a clause",
+              "Fear clause: translate with ‘that’ and future indicative or ‘would’,"
+            ],
+            [
+              "",
+              "opened by ut or nē,",
+              "with negative if ut and no negative if nē."
+            ],
+            [
+              "",
+              "dependent on a verb of",
+              "timeō ut Rōmam eat. ‘I’m afraid that he will not go to Rome.’"
+            ],
+            [
+              "",
+              "fearing.",
+              "timuī nē Rōmam īret. ‘I was afraid that he would go to Rome.’"
+            ],
+            [
+              "Subjunctive (any tense)",
+              "Subjunctive is in a clause",
+              "Indirect command: translate with infinitive."
+            ],
+            [
+              "",
+              "opened by ut or nē,",
+              "rogō eum ut Rōmam eat. ‘I’m asking him to go to Rome.’"
+            ],
+            [
+              "",
+              "dependent on a verb of",
+              "imperāvī eī nē Rōmam īret. ‘I ordered him not to go to Rome.’"
+            ],
+            [
+              "",
+              "asking, ordering, etc.",
+              ""
+            ],
+            [
+              "Subjunctive (any tense)",
+              "Subjunctive is in a clause",
+              "Purpose clause: translate with ‘so that’ or ‘(in order) to’."
+            ],
+            [
+              "",
+              "opened by ut or nē, with",
+              "discessit ut Rōmam īret. ‘He left (in order) to go to Rome.’"
+            ],
+            [
+              "",
+              "none of the above clues",
+              "impediam eum nē Rōmam eat. ‘I shall hinder him so that he doesn’t"
+            ],
+            [
+              "",
+              "present.",
+              "go to Rome.’"
+            ]
+          ]
         },
         {
-          "t": "p",
-          "text": "a similar meaning. dictūrus impedītus est. ‘Being about to speak, he was hindered.’ / ‘He was hindered when he was about to speak.’"
+          "t": "practice"
         },
         {
-          "t": "pre",
-          "text": "Present subjunctive The subjunctive is the only or Deliberative subjunctive: translate with ‘should. . . ?’."
+          "t": "ex",
+          "letter": "N",
+          "text": "For each of the sentences below, identify the construction and translate the sentence."
         },
         {
-          "t": "p",
-          "text": "main verb of the sentence, eāmusne Rōmam? ‘Should we go to Rome?’ the sentence is a question, and the subjunctive is in the first person."
+          "t": "li",
+          "n": 1,
+          "text": "pecuniam meam rapturus ille a fratre meo impeditus est.",
+          "cols": 2
         },
         {
-          "t": "pre",
-          "text": "Present subjunctive The subjunctive is the only or Hortatory subjunctive: translate with ‘let’s’ if first person, otherwise"
+          "t": "li",
+          "n": 2,
+          "text": "defendantur nostri a deis."
         },
         {
-          "t": "p",
-          "text": "main verb of the sentence, with ‘may’ before the subject. and the sentence is not Rōmam eāmus. ‘Let’s go to Rome.’ a question. Rōmam eat. ‘May he go to Rome.’ (not ‘He may go to Rome.’) nē Rōmam eant. ‘May they not go to Rome.’ (not ‘They may not go. . .’) Subjunctive (any tense) Subjunctive is in a clause Result clause: translate with ‘that’ and present or past indicative opened by ut, and in the according to sequence."
+          "t": "li",
+          "n": 3,
+          "text": "pecuniam amissam invenire non potuimus."
         },
         {
-          "t": "p",
-          "text": "main clause there is tantus, tam fortis est ut Rōmam eat. ‘He’s so brave that he’s going to Rome.’ tam, etc. tam fortis erat ut Rōmam īret. ‘He was so brave that he went to Rome.’ Subjunctive (any tense) Subjunctive is in a clause Fear clause: translate with ‘that’ and future indicative or ‘would’, opened by ut or nē, with negative if ut and no negative if nē. dependent on a verb of timeō ut Rōmam eat."
+          "t": "li",
+          "n": 4,
+          "text": "arbitror eos visum iri."
         },
         {
-          "t": "p",
-          "text": "‘I’m afraid that he will not go to Rome.’ fearing. timuī nē Rōmam īret. ‘I was afraid that he would go to Rome.’ Subjunctive (any tense) Subjunctive is in a clause Indirect command: translate with infinitive. opened by ut or nē, rogō eum ut Rōmam eat. ‘I’m asking him to go to Rome.’ dependent on a verb of imperāvī eī nē Rōmam īret. ‘I ordered him not to go to Rome.’ asking, ordering, etc."
+          "t": "li",
+          "n": 5,
+          "text": "adeo laudati sunt ut omnes eos amarent."
         },
         {
-          "t": "p",
-          "text": "Subjunctive (any tense) Subjunctive is in a clause Purpose clause: translate with ‘so that’ or ‘(in order) to’. opened by ut or nē, with discessit ut Rōmam īret. ‘He left (in order) to go to Rome.’ none of the above clues impediam eum nē Rōmam eat. ‘I shall hinder him so that he doesn’t present. go to Rome.’"
+          "t": "li",
+          "n": 6,
+          "text": "veritine estis ne Londinii moraremur?"
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "rogaverunt nos ne Carthaginem iremus."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "timentes domum venerunt."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "quam urbem defendamus?"
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "dixerunt se ab hostibus oppugnatos esse."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "venantes trans silvam ibunt."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "cum his militibus ne pugnemus."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "nobiscum sessurum puerum mater vocavit."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "dicit se flumine impediri."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "Londinii manemus ne inveniamur a patribus."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "tanta est spes nostra ut tristes non simus."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "vocati a matre, pueri domum venerunt."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "tantus est metus eius ut fugiat."
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "arbitratus sum pueros a magistro doceri."
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "ubi sedeam?"
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "te vidimus venantem."
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "timuerunt ne hodie domi maneremus."
+        },
+        {
+          "t": "li",
+          "n": 23,
+          "text": "dei nos iuvent."
+        },
+        {
+          "t": "li",
+          "n": 24,
+          "text": "imperabimus servis ut Londinii maneant."
+        },
+        {
+          "t": "li",
+          "n": 25,
+          "text": "urbs a nobis defensa numquam ab hostibus capietur."
+        },
+        {
+          "t": "li",
+          "n": 26,
+          "text": "Athenis multos dies maneamus."
+        },
+        {
+          "t": "li",
+          "n": 27,
+          "text": "numquam dicent se a nobis defensos esse."
+        },
+        {
+          "t": "li",
+          "n": 28,
+          "text": "veritus sum ut Athenas ires."
+        },
+        {
+          "t": "li",
+          "n": 29,
+          "text": "moenia refecturi cives saxa petunt."
+        },
+        {
+          "t": "li",
+          "n": 30,
+          "text": "quid dicam?"
+        },
+        {
+          "t": "li",
+          "n": 31,
+          "text": "domum venerunt ut matres viderent."
+        },
+        {
+          "t": "li",
+          "n": 32,
+          "text": "arbitrabuntur se a nobis laudari."
+        },
+        {
+          "t": "li",
+          "n": 33,
+          "text": "animalia ab hoc agricola vendita numquam bona sunt."
+        },
+        {
+          "t": "li",
+          "n": 34,
+          "text": "exercitus hostium tantus est ut nostri vincantur."
+        },
+        {
+          "t": "li",
+          "n": 35,
+          "text": "matri persuadeamus."
+        },
+        {
+          "t": "li",
+          "n": 36,
+          "text": "pecuniam in illo agro sepultam invenire volumus."
+        },
+        {
+          "t": "li",
+          "n": 37,
+          "text": "rogavit ut secum maneremus."
+        },
+        {
+          "t": "li",
+          "n": 38,
+          "text": "Athenis discessurus ab amicis impedior."
+        },
+        {
+          "t": "li",
+          "n": 39,
+          "text": "dixistine te a servis tuis Delphis relictum esse?"
+        },
+        {
+          "t": "li",
+          "n": 40,
+          "text": "quem sequamur?"
+        },
+        {
+          "t": "li",
+          "n": 41,
+          "text": "domus eorum tanta est ut multi homines in ea sint."
+        },
+        {
+          "t": "li",
+          "n": 42,
+          "text": "multa passi tristes sunt."
+        },
+        {
+          "t": "li",
+          "n": 43,
+          "text": "timebit ne Corinthum veniamus."
+        },
+        {
+          "t": "li",
+          "n": 44,
+          "text": "te cum rege locuturum vidi."
+        },
+        {
+          "t": "li",
+          "n": 45,
+          "text": "tot annos Romae mansit ut numquam domum veniret."
+        },
+        {
+          "t": "li",
+          "n": 46,
+          "text": "nostri Corinthum iverunt ne ab hostibus oppugnaretur."
+        },
+        {
+          "t": "li",
+          "n": 47,
+          "text": "hostes saxis impediti nostros oppugnare non potuerunt."
+        },
+        {
+          "t": "li",
+          "n": 48,
+          "text": "saxis impediti nostri hostes oppugnare non potuerunt."
+        },
+        {
+          "t": "li",
+          "n": 49,
+          "text": "imperavi militibus ne Athenas irent."
+        },
+        {
+          "t": "li",
+          "n": 50,
+          "text": "timui ne multas horas domi maneres."
+        },
+        {
+          "t": "li",
+          "n": 51,
+          "text": "milites ab hostibus oppugnatos iuvemus."
+        },
+        {
+          "t": "li",
+          "n": 52,
+          "text": "quos milites oppugnem?"
+        },
+        {
+          "t": "li",
+          "n": 53,
+          "text": "multos dies ibi manserunt ne se videremus."
+        },
+        {
+          "t": "li",
+          "n": 54,
+          "text": "dixit vos regem rogaturas esse."
+        },
+        {
+          "t": "li",
+          "n": 55,
+          "text": "Athenis tot dies morati sunt ut Corinthum numquam irent."
+        },
+        {
+          "t": "li",
+          "n": 56,
+          "text": "tot horas Londinii manebimus ut cras domum veniamus."
+        },
+        {
+          "t": "li",
+          "n": 57,
+          "text": "Romam venimus ut senatum audiremus."
+        },
+        {
+          "t": "li",
+          "n": 58,
+          "text": "dicit te Delphos ire."
+        },
+        {
+          "t": "li",
+          "n": 59,
+          "text": "milites hortabimur ut nobiscum ad senatum veniant."
+        },
+        {
+          "t": "li",
+          "n": 60,
+          "text": "verentur ne Carthaginem eamus."
+        },
+        {
+          "t": "li",
+          "n": 61,
+          "text": "hostes Corinthum progressi a nostris impediti sunt."
+        },
+        {
+          "t": "li",
+          "n": 62,
+          "text": "defendamus filios nostros."
+        },
+        {
+          "t": "li",
+          "n": 63,
+          "text": "dixit illam puellam ab omnibus amatum iri."
+        },
+        {
+          "t": "li",
+          "n": 64,
+          "text": "cum hostibus pugnaturi, nostri non timent."
+        },
+        {
+          "t": "li",
+          "n": 65,
+          "text": "timuit ne poeta versus suos legeret."
+        },
+        {
+          "t": "li",
+          "n": 66,
+          "text": "domi manentes regem non videbitis."
+        },
+        {
+          "t": "li",
+          "n": 67,
+          "text": "pollicearne?"
+        },
+        {
+          "t": "li",
+          "n": 68,
+          "text": "tecum locutus felix ero."
+        },
+        {
+          "t": "li",
+          "n": 69,
+          "text": "dixerunt se pecunia nostra usos esse."
+        },
+        {
+          "t": "li",
+          "n": 70,
+          "text": "timeo ne non defendar."
+        },
+        {
+          "t": "li",
+          "n": 71,
+          "text": "Athenis maneo ut versus scribam."
+        },
+        {
+          "t": "li",
+          "n": 72,
+          "text": "puellae discessurae hoc demus."
+        },
+        {
+          "t": "li",
+          "n": 73,
+          "text": "arbitror hunc servum cras venditum iri."
+        },
+        {
+          "t": "li",
+          "n": 74,
+          "text": "audiatur a rege."
+        },
+        {
+          "t": "li",
+          "n": 75,
+          "text": "rogatus ab amicis, pollicitus sum."
+        },
+        {
+          "t": "li",
+          "n": 76,
+          "text": "vereor ne multos dies hic maneant."
+        },
+        {
+          "t": "li",
+          "n": 77,
+          "text": "dicet se nos secuturum esse."
+        },
+        {
+          "t": "li",
+          "n": 78,
+          "text": "adeo amor ut semper felix sim."
+        },
+        {
+          "t": "li",
+          "n": 79,
+          "text": "vidi servos te sequentes."
+        },
+        {
+          "t": "li",
+          "n": 80,
+          "text": "vidi servos te sequentem."
+        },
+        {
+          "t": "li",
+          "n": 81,
+          "text": "relinquamusne hic equos nostros?"
+        },
+        {
+          "t": "li",
+          "n": 82,
+          "text": "matri persuasi ne me Corinthum mitteret."
+        },
+        {
+          "t": "li",
+          "n": 83,
+          "text": "ne impediamini saxis in agro."
+        },
+        {
+          "t": "li",
+          "n": 84,
+          "text": "arbitrata sum te nos sequi."
+        },
+        {
+          "t": "li",
+          "n": 85,
+          "text": "in silva relictus a patre, puer felix non est."
+        },
+        {
+          "t": "li",
+          "n": 86,
+          "text": "tanti sunt gradus ut ascendere non possimus."
+        },
+        {
+          "t": "li",
+          "n": 87,
+          "text": "rogemne patrem ut me iuvet?"
+        },
+        {
+          "t": "li",
+          "n": 88,
+          "text": "vos cum amicis loquentes audivimus."
+        },
+        {
+          "t": "li",
+          "n": 89,
+          "text": "Delphos imus ut cum deo loquamur."
+        },
+        {
+          "t": "li",
+          "n": 90,
+          "text": "ne pecuniam nostram amittant."
+        },
+        {
+          "t": "li",
+          "n": 91,
+          "text": "arbitrati sunt me Athenis mansisse."
+        },
+        {
+          "t": "li",
+          "n": 92,
+          "text": "pueri te secuti filii eius sunt."
+        },
+        {
+          "t": "li",
+          "n": 93,
+          "text": "quis tibi persuasit ut Athenas ires?"
+        },
+        {
+          "t": "li",
+          "n": 94,
+          "text": "timeo ne liber meus a poeta legatur."
+        },
+        {
+          "t": "li",
+          "n": 95,
+          "text": "Athenis domum venit ut 105 milites Corinthum oppugnaturi patrem sepeliret. a nostris oppugnati sunt."
+        },
+        {
+          "t": "li",
+          "n": 96,
+          "text": "amicum tuum in silva 106 pater moriens cum filiis locutus venaturum vidimus. est."
+        },
+        {
+          "t": "li",
+          "n": 97,
+          "text": "adeo veriti sunt ut fugerent. 107 senatum oravimus ut nos"
+        },
+        {
+          "t": "li",
+          "n": 98,
+          "text": "timentes ne viderentur, in iuvaret. silvam fugerunt. 108 arbitror nos quattuor dies"
+        },
+        {
+          "t": "li",
+          "n": 99,
+          "text": "ne hunc exercitum Romae mansuros esse. oppugnemus. 109 Carthagine multos annos 100 arbitrabitur me tibi persuasisse. manentes multa viderunt. 101 maneamusne Romae multos 110 eamus ad senatum ut dies? a Romanis iuvemur. 102 verebuntur ut secum eamus. 111 discedamusne Athenis? 103 senatum hortatus domum ibo. 112 militem fugiturum 104 mater mihi persuasit ut tecum impediverunt. Delphos irem."
         }
       ]
     },
     {
       "id": "section-11",
-      "latin": "63.12 Where to Find Additional Exercises in Grammatical Analysis in",
-      "english": "Grammar",
-      "kind": "commentary",
+      "latin": "63.11 Conditional Clauses",
+      "num": "63.11",
       "blocks": [
         {
-          "t": "h",
+          "t": "p",
+          "text": "The formation of conditional clauses is discussed in chapters 50 and 51.3. Here are some additional exercises on that topic."
+        },
+        {
+          "t": "practice"
+        },
+        {
+          "t": "ex",
+          "letter": "O",
+          "text": "Take the following sentences and change their tenses to express, in formal English, the circumstances given. Example: given the sentence ‘If Mary is there, she is protesting’ and asked to change it to the past, under the circumstances that we do not know whether Mary was there, one would say ‘If Mary was there, she was protesting’ or ‘If Mary was there, she protested’; if asked to change it to the past, under the circumstances that Mary was not there, one would say ‘If Mary had been there, she would have protested.’ If you find this exercise difficult, use the chapter 50 sample sentences whose numbers are given in parentheses as models. ‘If they are under 18 they are not allowed to buy that.’ ‘No doubt Mark got job offers if he submitted applications.’"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "past: we don’t know whether they were under 18 (1)",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "We would not have to do this exercise now if we had done it yesterday."
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "past: they were not under 18 (4)"
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "If I forget, remind me."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "future: we don’t know whether they will be under 18 (3)"
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "If Julia was in Athens yesterday, she is probably still there."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "future: they are unlikely to be under 18 (6)"
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "If you find any problems, alert the supervisor."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "future: we don’t know if Mark will submit applications (3)"
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "Caesar will be assassinated unless someone warns him about the plot."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "future: Mark is unlikely to submit applications (6)"
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "If we were Romans, we would have learned these constructions as children."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "present: we don’t know if Mark is submitting applications (2) P Without translating, indicate the following for each sentence: whether the ifclause comes first or second, whether it would be introduced by sī or by nisī in Latin, and what mood and tense would be used for each verb in Latin."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "If your dog made that mess, you ought to clean it up."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "present: Mark is not submitting applications (5)"
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "I shall get a job as a cowherd in the Alps if things do not improve here."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "past: we don’t know if Mark submitted applications (1)"
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "What would happen if we should all fall asleep in class?"
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "past: Mark did not submit applications (4)"
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "If the sun is shining tomorrow, we shall have a picnic."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "If he learns these rules well, he will know them for at least a week."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "I would not have done that if I were you."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "You will never succeed unless you try."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "If I should see anything, naturally I would say something."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "If we had been sensible about our search we would never have found the treasure."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "We would not have been so cold this morning if we were in Egypt."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "If Troy is not destroyed Juno will be very sad."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "I would be paying more attention if these sentences weren’t so silly."
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "If that fire was caused by the match you tossed, you ought to be ashamed of yourself."
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "If the queen comes to town, we shall see her."
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "If I had not seen it myself, I would not believe it."
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "The Greek heroes would not have had such entertaining adventures if their gods had been more sensible."
+        },
+        {
+          "t": "li",
+          "n": 23,
+          "text": "Catiline will take over the city unless someone stops him."
+        },
+        {
+          "t": "li",
+          "n": 24,
+          "text": "They would not have drowned if the Romans had been less they had learned to swim. power-hungry."
+        },
+        {
+          "t": "li",
+          "n": 25,
+          "text": "You will be eaten by a shark if you try to swim here."
+        },
+        {
+          "t": "li",
+          "n": 26,
+          "text": "I would be amazed if she should fail the exam."
+        },
+        {
+          "t": "li",
+          "n": 27,
+          "text": "We would be able to learn Carthaginian as well as Latin if"
+        },
+        {
+          "t": "li",
+          "n": 28,
+          "text": "The milk will go sour unless you put it somewhere cool."
+        },
+        {
+          "t": "li",
+          "n": 29,
+          "text": "Call the fire brigade at once if you see a fire."
+        },
+        {
+          "t": "li",
+          "n": 30,
+          "text": "If the sun is shining tomorrow, we shall definitely go to the park."
+        }
+      ]
+    },
+    {
+      "id": "section-12",
+      "latin": "63.12 Where to Find Additional Exercises in Grammatical Analysis in",
+      "num": "63.12",
+      "blocks": [
+        {
+          "t": "p",
           "text": "This Book"
         },
         {
           "t": "p",
-          "text": "Chapter 5, exercise B: identification of genitives. Chapter 5, exercise G: identification of nominatives and accusatives (like exercises F and G above). Chapter 7, exercise B: identification of datives. Chapter 7, exercise G: identification of nominatives, accusatives, genitives, and datives (like exercise I above)."
+          "text": "Chapter 5, exercise B: identification of genitives."
         },
         {
           "t": "p",
-          "text": "Chapter 15, exercise A: division of sentences into clauses; identification of conjunctions, main clauses, and subordinate clauses. Chapter 25, exercise A: identification of relative clauses. Chapter 28, exercise E: distinguishing the different Latin translations of English infinitives. Chapter 30, exercises C and D: dividing long sentences into clauses. Chapter 34, exercise E: identifying different types of ablative."
+          "text": "Chapter 5, exercise G: identification of nominatives and accusatives (like exercises F and G above)."
         },
         {
           "t": "p",
-          "text": "Chapter 35, exercise E: identifying different types of ablative. Chapter 50, exercise A: manipulation of English conditional clauses (like exercise O above). Chapter 50, exercise B, and chapter 51, exercise C: identification of conditional clauses (like exercise P above)."
+          "text": "Chapter 7, exercise B: identification of datives."
+        },
+        {
+          "t": "p",
+          "text": "Chapter 7, exercise G: identification of nominatives, accusatives, genitives, and datives (like exercise I above)."
+        },
+        {
+          "t": "p",
+          "text": "Chapter 15, exercise A: division of sentences into clauses; identification of conjunctions, main clauses, and subordinate clauses."
+        },
+        {
+          "t": "p",
+          "text": "Chapter 25, exercise A: identification of relative clauses."
+        },
+        {
+          "t": "p",
+          "text": "Chapter 28, exercise E: distinguishing the different Latin translations of English infinitives."
+        },
+        {
+          "t": "p",
+          "text": "Chapter 30, exercises C and D: dividing long sentences into clauses."
+        },
+        {
+          "t": "p",
+          "text": "Chapter 34, exercise E: identifying different types of ablative."
+        },
+        {
+          "t": "p",
+          "text": "Chapter 35, exercise E: identifying different types of ablative."
+        },
+        {
+          "t": "p",
+          "text": "Chapter 50, exercise A: manipulation of English conditional clauses (like exercise O above)."
+        },
+        {
+          "t": "p",
+          "text": "Chapter 50, exercise B, and chapter 51, exercise C: identification of conditional clauses (like exercise P above)."
         }
       ]
     }
-  ],
-  "readings": [
-    {
-      "id": "lectio-63",
-      "latinTitle": "SENTENTIAE LATĪNAE",
-      "title": "Latin sentences from this chapter",
-      "paragraphs": [
-        "servo meo imperavi ut oppido progressi sunt. sequeretur.",
-        "servum meum rogabo ne sunt ne hostes se caperent. moretur.",
-        "velim ut me sequaris. progressi sunt.",
-        "regem sequentes, milites e castris patientur. progressi sunt.",
-        "imperabimus servis ut Londinii a fratre meo impeditus est. maneant.",
-        "adeo laudati sunt ut omnes eos defensos esse. amarent.",
-        "animalia ab hoc agricola vendita oppugnatos esse. numquam bona sunt.",
-        "tanta est spes nostra ut tristes impedior. non simus.",
-        "tantus est metus eius ut fugiat.",
-        "multa passi tristes sunt."
-      ],
-      "notes": []
-    }
-  ],
-  "grammar": [],
-  "vocabulary": [],
-  "pensa": [
-    {
-      "latinLabel": "PRACTICE A",
-      "title": "Practice A",
-      "instruction": "",
-      "type": "questions",
-      "items": [
-        {
-          "q": "A Identify the part of speech of each underlined word or group of words in the following English paragraphs: Romulus and Remus, the founders of Rome, had a doubtful ancestry. Their father was unknown: legend has it that he was the god of war, Mars, but even in antiquity that story was viewed with suspicion. Their mother was Rhea Silvia, daughter of Numitor, rightful king of Alba Longa. Numitor’s evil brother, Amulius, seized the throne from him, and in order to make sure that the legitimate king had no male heirs (female heirs did not count in antiquity, which was lucky for Rhea Silvia as otherwise Numitor would have killed her as he allegedly killed her brother), he ordered Rhea to become a Vestal Virgin. It was a serious crime for a Vestal Virgin to have a child, and when the twins were born, Amulius was furious. He took them away from their mother and dumped them in a river in hopes that they would drown. But they did not drown; the basket containing the twins drifted to shore, where they were rescued and fed by a wolf. Later a shepherd found the babies and took them home to his wife, who raised them until they became unruly teenagers. As teenagers Romulus and Remus caused more trouble than most: they not only robbed people, but also gathered a band of followers and became powerful bandits. Eventually Remus was captured and brought to the king, at which point he was recognized by his grandfather, Numitor. Romulus and his men came to rescue Remus, and with Numitor’s help they killed the king. Numitor then became king of Alba, and Romulus and Remus, who were not used to the restraint and decorum required of princes in Alba, went off to found Rome.",
-          "a": ""
-        }
-      ],
-      "id": "practice-63-a"
-    },
-    {
-      "latinLabel": "PRACTICE B",
-      "title": "Practice B",
-      "instruction": "Practice B Each of these sentences contains one periphrastic verb. Identify it and find all its parts:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 I was giving the dog a bath.",
-          "a": ""
-        },
-        {
-          "q": "18 Have you been waiting long?",
-          "a": ""
-        },
-        {
-          "q": "2 He will do it.",
-          "a": ""
-        },
-        {
-          "q": "19 Has he turned up yet?",
-          "a": ""
-        },
-        {
-          "q": "3 We are coming as fast as we can.",
-          "a": ""
-        },
-        {
-          "q": "20 I shall be coming next week.",
-          "a": ""
-        },
-        {
-          "q": "4 Have you seen this?",
-          "a": ""
-        },
-        {
-          "q": "21 He wants to go home.",
-          "a": ""
-        },
-        {
-          "q": "5 I want to learn Latin.",
-          "a": ""
-        },
-        {
-          "q": "22 He has not said anything",
-          "a": ""
-        },
-        {
-          "q": "6 Has he been doing that all day? all year.",
-          "a": ""
-        },
-        {
-          "q": "7 Were they carrying it up the hill?",
-          "a": ""
-        },
-        {
-          "q": "23 He will be sitting in the back.",
-          "a": ""
-        },
-        {
-          "q": "8 Will you be staying long?",
-          "a": ""
-        },
-        {
-          "q": "24 You were praising him too",
-          "a": ""
-        },
-        {
-          "q": "9 They did not come after all. much.",
-          "a": ""
-        },
-        {
-          "q": "10 I shall never forget that.",
-          "a": ""
-        },
-        {
-          "q": "25 We shall come next week.",
-          "a": ""
-        },
-        {
-          "q": "11 They have been sitting here since",
-          "a": ""
-        },
-        {
-          "q": "26 They will be living here all year. noon.",
-          "a": ""
-        },
-        {
-          "q": "27 What were you doing there?",
-          "a": ""
-        },
-        {
-          "q": "12 No-one has ever seen this before.",
-          "a": ""
-        },
-        {
-          "q": "28 It is impossible not to believe",
-          "a": ""
-        },
-        {
-          "q": "13 They will be handling this case. her.",
-          "a": ""
-        },
-        {
-          "q": "14 It is very difficult to be perfect.",
-          "a": ""
-        },
-        {
-          "q": "29 Will you look at this for me?",
-          "a": ""
-        },
-        {
-          "q": "15 Will they give us anything?",
-          "a": ""
-        },
-        {
-          "q": "30 Are you going to the party?",
-          "a": ""
-        },
-        {
-          "q": "16 Did you really say that?",
-          "a": ""
-        },
-        {
-          "q": "31 Who is helping him this year?",
-          "a": ""
-        },
-        {
-          "q": "17 We were not just standing there.",
-          "a": ""
-        },
-        {
-          "q": "32 No-one wants to do it. C Some of these sentences contain periphrastic verbs; others just contain two or more separate verbs. Some contain several periphrastic verbs. Identify the periphrastic verbs and find all their parts:",
-          "a": ""
-        },
-        {
-          "q": "1 Which of you has been sitting",
-          "a": ""
-        },
-        {
-          "q": "6 They have not done anything to here the longest? deserve such an awful fate.",
-          "a": ""
-        },
-        {
-          "q": "2 We are going very carefully on",
-          "a": ""
-        },
-        {
-          "q": "7 Who can tell what will happen this cliff because many climbers next? have fallen off it.",
-          "a": ""
-        },
-        {
-          "q": "8 Robin Hood was an outlaw who",
-          "a": ""
-        },
-        {
-          "q": "3 They are not coming after all, lived in Sherwood forest and was because they did not want to wait kind to the poor. any longer.",
-          "a": ""
-        },
-        {
-          "q": "9 They could not identify the man",
-          "a": ""
-        },
-        {
-          "q": "4 I cannot believe that the train has who had attacked them, because already arrived! he was wearing a mask.",
-          "a": ""
-        },
-        {
-          "q": "5 I came, I saw, I conquered,",
-          "a": ""
-        },
-        {
-          "q": "10 Come and see the chairman and then I wrote a book once you’ve settled in; you will about it.",
-          "a": ""
-        }
-      ],
-      "id": "practice-63-b"
-    },
-    {
-      "latinLabel": "PRACTICE D",
-      "title": "Practice D",
-      "instruction": "Practice D Find the subjects of these sentences, and the objects where they exist; although a subject or object may consist of more than one word, try to identify just the one word that is the core of each.",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 I am Canadian.",
-          "a": ""
-        },
-        {
-          "q": "12 What is in the box?",
-          "a": ""
-        },
-        {
-          "q": "2 What do you see?",
-          "a": ""
-        },
-        {
-          "q": "13 In December the lights are lit.",
-          "a": ""
-        },
-        {
-          "q": "3 Oliver’s sister is a chemist.",
-          "a": ""
-        },
-        {
-          "q": "14 Mark works here.",
-          "a": ""
-        },
-        {
-          "q": "4 Where is Jane going?",
-          "a": ""
-        },
-        {
-          "q": "15 In which house are the children?",
-          "a": ""
-        },
-        {
-          "q": "5 His work is very good.",
-          "a": ""
-        },
-        {
-          "q": "16 Sometimes I wonder.",
-          "a": ""
-        },
-        {
-          "q": "6 You are brilliant.",
-          "a": ""
-        },
-        {
-          "q": "17 Where are you?",
-          "a": ""
-        },
-        {
-          "q": "7 Who knows that?",
-          "a": ""
-        },
-        {
-          "q": "18 Rarely have I been so frightened.",
-          "a": ""
-        },
-        {
-          "q": "8 A student’s life can be",
-          "a": ""
-        },
-        {
-          "q": "19 In what direction did he go? exhausting.",
-          "a": ""
-        },
-        {
-          "q": "20 Jim bought the last one.",
-          "a": ""
-        },
-        {
-          "q": "9 Whom do you choose?",
-          "a": ""
-        },
-        {
-          "q": "21 That boy’s father is a fireman.",
-          "a": ""
-        },
-        {
-          "q": "10 Jane doesn’t love John.",
-          "a": ""
-        },
-        {
-          "q": "22 The mother of this girl is very",
-          "a": ""
-        },
-        {
-          "q": "11 Martin’s dog is overweight. rich. E For every underlined verb in the paragraphs below, find its subject or identify it as an infinitive. Work out which verbs have objects and what those objects are. Be sure to identify the actual word that is the grammatical subject or object, not the idea behind that word: for example, in the sentence ‘Bob, who is a surgeon, works long hours’, the subject of ‘works’ is ‘Bob’, but the subject of ‘is’ is ‘who’, not ‘Bob’. Although logically ‘who’ is the same person as ‘Bob’, grammatically only ‘who’ can be the subject of ‘is’; this point is important for some aspects of Latin. Romulus and Remus, the founders of Rome, had a doubtful ancestry. Their father was unknown: legend has it that he was the god of war, Mars, but even in antiquity that story was viewed with suspicion. Their mother was Rhea Silvia, daughter of Numitor, rightful king of Alba Longa. Numitor’s evil brother, Amulius, seized the throne from him, and in order to make sure that the legitimate king had no male heirs (female heirs did not count in antiquity,",
-          "a": ""
-        }
-      ],
-      "id": "practice-63-d"
-    },
-    {
-      "latinLabel": "PRACTICE F",
-      "title": "Practice F",
-      "instruction": "Practice F Identify all the words in these sentences that would be nominatives or accusatives in Latin:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 Jane likes fish.",
-          "a": ""
-        },
-        {
-          "q": "9 Jane wrote a book.",
-          "a": ""
-        },
-        {
-          "q": "2 You are wonderful.",
-          "a": ""
-        },
-        {
-          "q": "10 Rachel is beautiful.",
-          "a": ""
-        },
-        {
-          "q": "3 Jim doesn’t eat meat.",
-          "a": ""
-        },
-        {
-          "q": "11 I see you.",
-          "a": ""
-        },
-        {
-          "q": "4 I am a doctor.",
-          "a": ""
-        },
-        {
-          "q": "12 He is a prisoner.",
-          "a": ""
-        },
-        {
-          "q": "5 I need a doctor.",
-          "a": ""
-        },
-        {
-          "q": "13 I’d like oatmeal.",
-          "a": ""
-        },
-        {
-          "q": "6 What is it?",
-          "a": ""
-        },
-        {
-          "q": "14 We are all hungry.",
-          "a": ""
-        },
-        {
-          "q": "7 Mark is carrying a book.",
-          "a": ""
-        },
-        {
-          "q": "15 Where did he put it?",
-          "a": ""
-        },
-        {
-          "q": "8 The house is pink.",
-          "a": ""
-        },
-        {
-          "q": "16 Who did it?",
-          "a": ""
-        },
-        {
-          "q": "17 Who are you?",
-          "a": ""
-        },
-        {
-          "q": "20 John is a banker.",
-          "a": ""
-        },
-        {
-          "q": "18 Whom did you ask?",
-          "a": ""
-        },
-        {
-          "q": "21 What do you want?",
-          "a": ""
-        },
-        {
-          "q": "19 How did you learn that?",
-          "a": ""
-        },
-        {
-          "q": "22 Who is it?",
-          "a": ""
-        }
-      ],
-      "id": "practice-63-f"
-    },
-    {
-      "latinLabel": "PRACTICE G",
-      "title": "Practice G",
-      "instruction": "Practice G Identify all the words in these sentences that would be nominatives or accusatives in Latin:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 Jane likes fried fish.",
-          "a": ""
-        },
-        {
-          "q": "12 This man is a model prisoner.",
-          "a": ""
-        },
-        {
-          "q": "2 This book is short.",
-          "a": ""
-        },
-        {
-          "q": "13 I’d like some more oatmeal.",
-          "a": ""
-        },
-        {
-          "q": "3 True vegetarians do not eat any",
-          "a": ""
-        },
-        {
-          "q": "14 The little boys are all happy. meat.",
-          "a": ""
-        },
-        {
-          "q": "15 Where did your brother put",
-          "a": ""
-        },
-        {
-          "q": "4 I am a good doctor. those glasses?",
-          "a": ""
-        },
-        {
-          "q": "5 I need a good doctor.",
-          "a": ""
-        },
-        {
-          "q": "16 Who committed that dreadful",
-          "a": ""
-        },
-        {
-          "q": "6 What is that thing? murder?",
-          "a": ""
-        },
-        {
-          "q": "7 The little boy is carrying a big",
-          "a": ""
-        },
-        {
-          "q": "17 Who is the current president? book.",
-          "a": ""
-        },
-        {
-          "q": "18 Which people did you ask?",
-          "a": ""
-        },
-        {
-          "q": "8 My house is pink.",
-          "a": ""
-        },
-        {
-          "q": "19 How did those girls learn that?",
-          "a": ""
-        },
-        {
-          "q": "9 These two authors wrote long",
-          "a": ""
-        },
-        {
-          "q": "20 Many people are good workers. books.",
-          "a": ""
-        },
-        {
-          "q": "21 Which piece did the little girl",
-          "a": ""
-        },
-        {
-          "q": "10 Our sister is beautiful but vain. choose?",
-          "a": ""
-        },
-        {
-          "q": "11 Some people cannot see certain",
-          "a": ""
-        },
-        {
-          "q": "22 Who is that man? colours. H For every underlined word in the paragraphs below, state whether it would be nominative or accusative in Latin. Romulus and Remus, the founders of Rome, had a doubtful ancestry. Their father was unknown: legend has it that he was the god of war, Mars, but even in antiquity that story was viewed with suspicion. Their mother was Rhea Silvia, daughter of Numitor, rightful king of Alba Longa. Numitor’s evil brother, Amulius, seized the throne from him, and in order to make sure that the legitimate king had no male heirs (female heirs did not count in antiquity,",
-          "a": ""
-        }
-      ],
-      "id": "practice-63-g"
-    },
-    {
-      "latinLabel": "PRACTICE I",
-      "title": "Practice I",
-      "instruction": "Practice I Identify all the words in these sentences that would be nominatives, accusatives, genitives, or datives in Latin:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 I shall not give him a penny.",
-          "a": ""
-        },
-        {
-          "q": "6 Those children gave lovely",
-          "a": ""
-        },
-        {
-          "q": "2 Those men sell children’s toys. presents to Mark’s son.",
-          "a": ""
-        },
-        {
-          "q": "3 A mother of quadruplets has",
-          "a": ""
-        },
-        {
-          "q": "7 In this country even the daughter a busy life. of a pauper can enter politics.",
-          "a": ""
-        },
-        {
-          "q": "4 Who gave Martha’s hat to",
-          "a": ""
-        },
-        {
-          "q": "8 In that country only the Jane? sons of rich men enter politics.",
-          "a": ""
-        },
-        {
-          "q": "5 Children of rich parents often",
-          "a": ""
-        },
-        {
-          "q": "9 We all gave generous tips to the have expensive clothes. superb staff.",
-          "a": ""
-        },
-        {
-          "q": "10 Are artists’ houses always well",
-          "a": ""
-        },
-        {
-          "q": "15 The father of ten children needs painted? a good income.",
-          "a": ""
-        },
-        {
-          "q": "11 Many people gave him",
-          "a": ""
-        },
-        {
-          "q": "16 That man’s son knew the right something, but no-one gave him answer. much.",
-          "a": ""
-        },
-        {
-          "q": "17 The son of a king should give",
-          "a": ""
-        },
-        {
-          "q": "12 The houses of famous people generously to charity. attract tourists.",
-          "a": ""
-        },
-        {
-          "q": "18 Unaccompanied minors need to",
-          "a": ""
-        },
-        {
-          "q": "13 Mike’s brother gave flowers to have suitable insurance. Julia’s sister.",
-          "a": ""
-        },
-        {
-          "q": "19 What did those women give",
-          "a": ""
-        },
-        {
-          "q": "14 Would you give ten dollars to you? a good cause?",
-          "a": ""
-        },
-        {
-          "q": "20 When will we see Jane’s new baby?",
-          "a": ""
-        }
-      ],
-      "id": "practice-63-i"
-    },
-    {
-      "latinLabel": "PRACTICE J",
-      "title": "Practice J",
-      "instruction": "Practice J Identify the cases that the underlined words would have in Latin, and explain the reason for each case.",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 Who saw the robbery?",
-          "a": ""
-        },
-        {
-          "q": "3 Whose coat is this?",
-          "a": ""
-        },
-        {
-          "q": "2 John thinks that we will give our",
-          "a": ""
-        },
-        {
-          "q": "4 I like people who love dogs. money to charity.",
-          "a": ""
-        },
-        {
-          "q": "5 Which students are ill?",
-          "a": ""
-        }
-      ],
-      "id": "practice-63-j"
-    },
-    {
-      "latinLabel": "PRACTICE K",
-      "title": "Practice K",
-      "instruction": "Practice K Without translating, do the following for each underlined verb: name its construction, state whether it would be indicative, subjunctive, or infinitive in Latin; give its tense in Latin; state whether its subject would be nominative or accusative; and state whether it would be introduced by ut, nē, or no conjunction.",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 My mother said that she had",
-          "a": ""
-        },
-        {
-          "q": "18 He said afterwards that my seen a snake in the kitchen. father had moved the table and",
-          "a": ""
-        },
-        {
-          "q": "2 She said it had slithered under all the chairs out of the kitchen. the refrigerator.",
-          "a": ""
-        },
-        {
-          "q": "19 He did that in order not to have",
-          "a": ""
-        },
-        {
-          "q": "3 My father came to find the snake. to lie under the table while",
-          "a": ""
-        },
-        {
-          "q": "4 My mother said it would go looking under the refrigerator. away by itself if we left it alone.",
-          "a": ""
-        },
-        {
-          "q": "20 Then he found a long spoon to",
-          "a": ""
-        },
-        {
-          "q": "5 But my father said it would not be fish under the refigerator with. able to get out of the house on its",
-          "a": ""
-        },
-        {
-          "q": "21 My brother says my father fished own. many things out from under the",
-          "a": ""
-        },
-        {
-          "q": "6 My mother said she didn’t want refrigerator. to find it in our bedrooms.",
-          "a": ""
-        },
-        {
-          "q": "22 He says among them was a book",
-          "a": ""
-        },
-        {
-          "q": "7 I sat down to watch my father he lost weeks ago. look for the snake.",
-          "a": ""
-        },
-        {
-          "q": "23 He says that next time he will",
-          "a": ""
-        },
-        {
-          "q": "8 My brother arrived to join us. think more carefully about",
-          "a": ""
-        },
-        {
-          "q": "9 My sister will be here where he leaves his books. any minute, so that she won’t be",
-          "a": ""
-        },
-        {
-          "q": "24 Then my father shouted, saying separated from us. that the snake had slithered up",
-          "a": ""
-        },
-        {
-          "q": "10 My father asked us all to leave his trouser leg. so that he could search in peace.",
-          "a": ""
-        },
-        {
-          "q": "25 We all came rushing in to help",
-          "a": ""
-        },
-        {
-          "q": "11 He said that we were distracting him. him.",
-          "a": ""
-        },
-        {
-          "q": "26 Also, we ran in order not to miss",
-          "a": ""
-        },
-        {
-          "q": "12 We went outside to look through seeing the snake. the window.",
-          "a": ""
-        },
-        {
-          "q": "27 When we came in, my father",
-          "a": ""
-        },
-        {
-          "q": "13 We hurried in order not to miss said the snake was no longer up anything. his trousers.",
-          "a": ""
-        },
-        {
-          "q": "14 My brother said he was too short",
-          "a": ""
-        },
-        {
-          "q": "28 He said it had gone down a hole to see properly. in the floor.",
-          "a": ""
-        },
-        {
-          "q": "15 He said I needed to let him sit on",
-          "a": ""
-        },
-        {
-          "q": "29 My mother said it would my shoulders. probably come up again.",
-          "a": ""
-        },
-        {
-          "q": "16 He only did it to be annoying, as",
-          "a": ""
-        },
-        {
-          "q": "30 She said she did not want he’s nearly as tall as I am. to be in the kitchen when it",
-          "a": ""
-        },
-        {
-          "q": "17 I went away in order not to be returned. annoyed by him, so he watched",
-          "a": ""
-        },
-        {
-          "q": "31 My father said it would not come by himself. up again.",
-          "a": ""
-        }
-      ],
-      "id": "practice-63-k"
-    },
-    {
-      "latinLabel": "PRACTICE L",
-      "title": "Practice L",
-      "instruction": "Practice L Identify the constructions (indirect command, purpose clause, indirect statement, none of the above) and translate:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 rex militibus imperavit ut",
-          "a": ""
-        },
-        {
-          "q": "15 arbitratus sum eos nobis progrederentur. persuadere velle ut secum",
-          "a": ""
-        },
-        {
-          "q": "2 amicos suos oravit ne loqueremur. morarentur.",
-          "a": ""
-        },
-        {
-          "q": "16 dominum sequentes, servi ex",
-          "a": ""
-        },
-        {
-          "q": "3 servo meo imperavi ut oppido progressi sunt. sequeretur.",
-          "a": ""
-        },
-        {
-          "q": "17 milites e castris progressi non",
-          "a": ""
-        },
-        {
-          "q": "4 servum meum rogabo ne sunt ne hostes se caperent. moretur.",
-          "a": ""
-        },
-        {
-          "q": "18 pollicitus sum me te",
-          "a": ""
-        },
-        {
-          "q": "5 amicos suos oraverunt ut oraturum non esse ut me pollicerentur. defenderes.",
-          "a": ""
-        },
-        {
-          "q": "6 velim ut mecum in urbe moreris.",
-          "a": ""
-        },
-        {
-          "q": "19 servis imperantes ut nos",
-          "a": ""
-        },
-        {
-          "q": "7 pater filio imperat ut sequatur. sequantur, ex oppido progressi",
-          "a": ""
-        },
-        {
-          "q": "8 dixit se tibi persuasisse ut sumus. sequereris.",
-          "a": ""
-        },
-        {
-          "q": "20 milites quibus imperavit rex ut",
-          "a": ""
-        },
-        {
-          "q": "9 venati sunt ut animalia caperent. se sequerentur ex oppido",
-          "a": ""
-        },
-        {
-          "q": "10 velim ut me sequaris. progressi sunt.",
-          "a": ""
-        },
-        {
-          "q": "11 rex militibus imperavit ut",
-          "a": ""
-        },
-        {
-          "q": "21 arbitror eos nobis sequerentur. persuadere velle ut secum",
-          "a": ""
-        },
-        {
-          "q": "12 mater filium oravit ne loquamur. moraretur.",
-          "a": ""
-        },
-        {
-          "q": "22 pueri quibus non persuadebo",
-          "a": ""
-        },
-        {
-          "q": "13 dixerunt se voluisse te sequi. ne loquantur multa",
-          "a": ""
-        },
-        {
-          "q": "14 regem sequentes, milites e castris patientur. progressi sunt.",
-          "a": ""
-        },
-        {
-          "q": "23 filium tuum, cui imperavisti ne",
-          "a": ""
-        },
-        {
-          "q": "24 milites qui polliciti sunt se nos cum militibus loqueretur, in secuturos esse e castris non castris hodie vidi. progrediuntur. M Additional exercises with indirect commands, purpose clauses, indirect statements, and infinitives. Translate into Latin:",
-          "a": ""
-        },
-        {
-          "q": "1 Her father will ask her to speak.",
-          "a": ""
-        },
-        {
-          "q": "14 Do you (plural) want to promise?",
-          "a": ""
-        },
-        {
-          "q": "2 She came in order to speak with",
-          "a": ""
-        },
-        {
-          "q": "15 I thought you (singular) would you. promise.",
-          "a": ""
-        },
-        {
-          "q": "3 Her father is begging her to",
-          "a": ""
-        },
-        {
-          "q": "16 Are you (plural) able to promise? speak.",
-          "a": ""
-        },
-        {
-          "q": "17 We spoke often with the king,",
-          "a": ""
-        },
-        {
-          "q": "4 Her father ordered her to speak. asking him to help us.",
-          "a": ""
-        },
-        {
-          "q": "5 Her father thinks that she is",
-          "a": ""
-        },
-        {
-          "q": "18 Having urged the king to help us, speaking. we left.",
-          "a": ""
-        },
-        {
-          "q": "6 Her father persuaded her not to",
-          "a": ""
-        },
-        {
-          "q": "19 You (singular) think that that speak. man will follow you, but we shall",
-          "a": ""
-        },
-        {
-          "q": "7 She wants to speak. persuade him to follow us.",
-          "a": ""
-        },
-        {
-          "q": "8 I would like her to speak.",
-          "a": ""
-        },
-        {
-          "q": "20 Having promised that he would",
-          "a": ""
-        },
-        {
-          "q": "9 We order you (singular) to help us, the king led his soldiers promise. to our town.",
-          "a": ""
-        },
-        {
-          "q": "10 Did we persuade you (plural) to",
-          "a": ""
-        },
-        {
-          "q": "21 The girl who wanted to speak with promise? us is now asking us not to come.",
-          "a": ""
-        },
-        {
-          "q": "11 We thought you (singular) had",
-          "a": ""
-        },
-        {
-          "q": "22 Having promised that they promised. would not attack us, the soldiers",
-          "a": ""
-        },
-        {
-          "q": "12 We shall ask you (plural) not to departed. promise.",
-          "a": ""
-        },
-        {
-          "q": "23 The king who urged us to come",
-          "a": ""
-        },
-        {
-          "q": "13 We would like you (singular) to is now ordering us to leave. promise.",
-          "a": ""
-        }
-      ],
-      "id": "practice-63-l"
-    },
-    {
-      "latinLabel": "PRACTICE N",
-      "title": "Practice N",
-      "instruction": "Practice N For each of the sentences below, identify the construction and translate the sentence.",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 pecuniam meam rapturus ille",
-          "a": ""
-        },
-        {
-          "q": "24 imperabimus servis ut Londinii a fratre meo impeditus est. maneant.",
-          "a": ""
-        },
-        {
-          "q": "2 defendantur nostri a deis.",
-          "a": ""
-        },
-        {
-          "q": "25 urbs a nobis defensa numquam",
-          "a": ""
-        },
-        {
-          "q": "3 pecuniam amissam invenire non ab hostibus capietur. potuimus.",
-          "a": ""
-        },
-        {
-          "q": "26 Athenis multos dies maneamus.",
-          "a": ""
-        },
-        {
-          "q": "4 arbitror eos visum iri.",
-          "a": ""
-        },
-        {
-          "q": "27 numquam dicent se a nobis",
-          "a": ""
-        },
-        {
-          "q": "5 adeo laudati sunt ut omnes eos defensos esse. amarent.",
-          "a": ""
-        },
-        {
-          "q": "28 veritus sum ut Athenas ires.",
-          "a": ""
-        },
-        {
-          "q": "6 veritine estis ne Londinii",
-          "a": ""
-        },
-        {
-          "q": "29 moenia refecturi cives saxa moraremur? petunt.",
-          "a": ""
-        },
-        {
-          "q": "7 rogaverunt nos ne Carthaginem",
-          "a": ""
-        },
-        {
-          "q": "30 quid dicam? iremus.",
-          "a": ""
-        },
-        {
-          "q": "31 domum venerunt ut matres",
-          "a": ""
-        },
-        {
-          "q": "8 timentes domum venerunt. viderent.",
-          "a": ""
-        },
-        {
-          "q": "9 quam urbem defendamus?",
-          "a": ""
-        },
-        {
-          "q": "32 arbitrabuntur se a nobis laudari.",
-          "a": ""
-        },
-        {
-          "q": "10 dixerunt se ab hostibus",
-          "a": ""
-        },
-        {
-          "q": "33 animalia ab hoc agricola vendita oppugnatos esse. numquam bona sunt.",
-          "a": ""
-        },
-        {
-          "q": "11 venantes trans silvam ibunt.",
-          "a": ""
-        },
-        {
-          "q": "34 exercitus hostium tantus est ut",
-          "a": ""
-        },
-        {
-          "q": "12 cum his militibus ne pugnemus. nostri vincantur.",
-          "a": ""
-        },
-        {
-          "q": "13 nobiscum sessurum puerum",
-          "a": ""
-        },
-        {
-          "q": "35 matri persuadeamus. mater vocavit.",
-          "a": ""
-        },
-        {
-          "q": "36 pecuniam in illo agro sepultam",
-          "a": ""
-        },
-        {
-          "q": "14 dicit se flumine impediri. invenire volumus.",
-          "a": ""
-        },
-        {
-          "q": "15 Londinii manemus ne",
-          "a": ""
-        },
-        {
-          "q": "37 rogavit ut secum maneremus. inveniamur a patribus.",
-          "a": ""
-        },
-        {
-          "q": "38 Athenis discessurus ab amicis",
-          "a": ""
-        },
-        {
-          "q": "16 tanta est spes nostra ut tristes impedior. non simus.",
-          "a": ""
-        },
-        {
-          "q": "39 dixistine te a servis tuis Delphis",
-          "a": ""
-        },
-        {
-          "q": "17 vocati a matre, pueri domum relictum esse? venerunt.",
-          "a": ""
-        },
-        {
-          "q": "40 quem sequamur?",
-          "a": ""
-        },
-        {
-          "q": "18 tantus est metus eius ut fugiat.",
-          "a": ""
-        },
-        {
-          "q": "41 domus eorum tanta est ut multi",
-          "a": ""
-        },
-        {
-          "q": "19 arbitratus sum pueros a magistro homines in ea sint. doceri.",
-          "a": ""
-        },
-        {
-          "q": "42 multa passi tristes sunt.",
-          "a": ""
-        },
-        {
-          "q": "20 ubi sedeam?",
-          "a": ""
-        },
-        {
-          "q": "43 timebit ne Corinthum",
-          "a": ""
-        },
-        {
-          "q": "21 te vidimus venantem. veniamus.",
-          "a": ""
-        },
-        {
-          "q": "22 timuerunt ne hodie domi",
-          "a": ""
-        },
-        {
-          "q": "44 te cum rege locuturum vidi. maneremus.",
-          "a": ""
-        },
-        {
-          "q": "45 tot annos Romae mansit ut",
-          "a": ""
-        },
-        {
-          "q": "23 dei nos iuvent. numquam domum veniret.",
-          "a": ""
-        },
-        {
-          "q": "46 nostri Corinthum iverunt ne ab 69 dixerunt se pecunia nostra usos hostibus oppugnaretur. esse.",
-          "a": ""
-        },
-        {
-          "q": "47 hostes saxis impediti nostros 70 timeo ne non defendar. oppugnare non potuerunt. 71 Athenis maneo ut versus",
-          "a": ""
-        },
-        {
-          "q": "48 saxis impediti nostri hostes scribam. oppugnare non potuerunt. 72 puellae discessurae hoc demus.",
-          "a": ""
-        },
-        {
-          "q": "49 imperavi militibus ne Athenas 73 arbitror hunc servum cras irent. venditum iri.",
-          "a": ""
-        },
-        {
-          "q": "50 timui ne multas horas domi 74 audiatur a rege. maneres. 75 rogatus ab amicis, pollicitus",
-          "a": ""
-        },
-        {
-          "q": "51 milites ab hostibus oppugnatos sum. iuvemus. 76 vereor ne multos dies hic",
-          "a": ""
-        },
-        {
-          "q": "52 quos milites oppugnem? maneant.",
-          "a": ""
-        },
-        {
-          "q": "53 multos dies ibi manserunt ne se 77 dicet se nos secuturum esse. videremus. 78 adeo amor ut semper felix sim.",
-          "a": ""
-        },
-        {
-          "q": "54 dixit vos regem rogaturas esse. 79 vidi servos te sequentes.",
-          "a": ""
-        },
-        {
-          "q": "55 Athenis tot dies morati sunt ut 80 vidi servos te sequentem. Corinthum numquam irent. 81 relinquamusne hic equos",
-          "a": ""
-        },
-        {
-          "q": "56 tot horas Londinii manebimus nostros? ut cras domum veniamus. 82 matri persuasi ne me Corinthum",
-          "a": ""
-        },
-        {
-          "q": "57 Romam venimus ut senatum mitteret. audiremus. 83 ne impediamini saxis in agro.",
-          "a": ""
-        },
-        {
-          "q": "58 dicit te Delphos ire. 84 arbitrata sum te nos sequi.",
-          "a": ""
-        },
-        {
-          "q": "59 milites hortabimur ut 85 in silva relictus a patre, puer felix nobiscum ad senatum veniant. non est. 60 verentur ne Carthaginem 86 tanti sunt gradus ut ascendere eamus. non possimus. 61 hostes Corinthum progressi 87 rogemne patrem ut me iuvet? a nostris impediti sunt. 88 vos cum amicis loquentes 62 defendamus filios nostros. audivimus. 63 dixit illam puellam ab omnibus 89 Delphos imus ut cum deo amatum iri. loquamur. 64 cum hostibus pugnaturi, nostri 90 ne pecuniam nostram amittant. non timent. 91 arbitrati sunt me Athenis 65 timuit ne poeta versus suos mansisse. legeret. 92 pueri te secuti filii eius sunt. 66 domi manentes regem non 93 quis tibi persuasit ut Athenas videbitis. ires? 67 pollicearne? 94 timeo ne liber meus a poeta 68 tecum locutus felix ero. legatur. 95 Athenis domum venit ut 105 milites Corinthum oppugnaturi patrem sepeliret. a nostris oppugnati sunt. 96 amicum tuum in silva 106 pater moriens cum filiis locutus venaturum vidimus. est. 97 adeo veriti sunt ut fugerent. 107 senatum oravimus ut nos 98 timentes ne viderentur, in iuvaret. silvam fugerunt. 108 arbitror nos quattuor dies 99 ne hunc exercitum Romae mansuros esse. oppugnemus. 109 Carthagine multos annos 100 arbitrabitur me tibi persuasisse. manentes multa viderunt. 101 maneamusne Romae multos 110 eamus ad senatum ut dies? a Romanis iuvemur. 102 verebuntur ut secum eamus. 111 discedamusne Athenis? 103 senatum hortatus domum ibo. 112 militem fugiturum 104 mater mihi persuasit ut tecum impediverunt. Delphos irem. The formation of conditional clauses is discussed in chapters",
-          "a": ""
-        },
-        {
-          "q": "50 and 51.3. Here are some additional exercises on that topic.",
-          "a": ""
-        }
-      ],
-      "id": "practice-63-n"
-    },
-    {
-      "latinLabel": "PRACTICE O",
-      "title": "Practice O",
-      "instruction": "Practice O Take the following sentences and change their tenses to express, in formal English, the circumstances given. Example: given the sentence ‘If Mary is there, she is protesting’ and asked to change it to the past, under the circumstances that we do not know whether Mary was there, one would say ‘If Mary was there, she was protesting’ or ‘If Mary was there, she protested’; if asked to change it to the past, under the circumstances that Mary was not there, one would say ‘If Mary had been there, she would have protested.’ If you find this exercise difficult, use the chapter 50 sample sentences whose numbers are given in parentheses as models. ‘If they are under 18 they are not allowed to buy that.’",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 past: we don’t know whether they",
-          "a": ""
-        },
-        {
-          "q": "3 future: we don’t know whether were under",
-          "a": ""
-        },
-        {
-          "q": "18 (1) they will be under",
-          "a": ""
-        },
-        {
-          "q": "18 (3)",
-          "a": ""
-        },
-        {
-          "q": "2 past: they were not",
-          "a": ""
-        },
-        {
-          "q": "4 future: they are unlikely to be under",
-          "a": ""
-        },
-        {
-          "q": "18 (4) under",
-          "a": ""
-        },
-        {
-          "q": "18 (6) ‘No doubt Mark got job offers if he submitted applications.’",
-          "a": ""
-        },
-        {
-          "q": "5 future: we don’t know if Mark will",
-          "a": ""
-        },
-        {
-          "q": "8 present: Mark is not submitting submit applications (3) applications (5)",
-          "a": ""
-        },
-        {
-          "q": "6 future: Mark is unlikely to submit",
-          "a": ""
-        },
-        {
-          "q": "9 past: we don’t know if Mark applications (6) submitted applications (1)",
-          "a": ""
-        },
-        {
-          "q": "7 present: we don’t know if Mark is",
-          "a": ""
-        },
-        {
-          "q": "10 past: Mark did not submit submitting applications (2) applications (4) P Without translating, indicate the following for each sentence: whether the ifclause comes first or second, whether it would be introduced by sī or by nisī in Latin, and what mood and tense would be used for each verb in Latin.",
-          "a": ""
-        },
-        {
-          "q": "1 We would not have to do this",
-          "a": ""
-        },
-        {
-          "q": "13 You will never succeed unless exercise now if we had done it you try. yesterday.",
-          "a": ""
-        },
-        {
-          "q": "14 If I should see anything,",
-          "a": ""
-        },
-        {
-          "q": "2 If I forget, remind me. naturally I would say something.",
-          "a": ""
-        },
-        {
-          "q": "3 If Julia was in Athens yesterday,",
-          "a": ""
-        },
-        {
-          "q": "15 If we had been sensible about our she is probably still there. search we would never have",
-          "a": ""
-        },
-        {
-          "q": "4 If you find any problems, alert found the treasure. the supervisor.",
-          "a": ""
-        },
-        {
-          "q": "16 We would not have been so",
-          "a": ""
-        },
-        {
-          "q": "5 Caesar will be assassinated cold this morning if we were in unless someone warns him Egypt. about the plot.",
-          "a": ""
-        },
-        {
-          "q": "17 If Troy is not destroyed Juno will",
-          "a": ""
-        },
-        {
-          "q": "6 If we were Romans, we would be very sad. have learned these constructions",
-          "a": ""
-        },
-        {
-          "q": "18 I would be paying more as children. attention if these sentences",
-          "a": ""
-        },
-        {
-          "q": "7 If your dog made that mess, you weren’t so silly. ought to clean it up.",
-          "a": ""
-        },
-        {
-          "q": "19 If that fire was caused by the",
-          "a": ""
-        },
-        {
-          "q": "8 I shall get a job as a cowherd in match you tossed, you ought to the Alps if things do not improve be ashamed of yourself. here.",
-          "a": ""
-        },
-        {
-          "q": "20 If the queen comes to town, we",
-          "a": ""
-        },
-        {
-          "q": "9 What would happen if we shall see her. should all fall asleep in class?",
-          "a": ""
-        },
-        {
-          "q": "21 If I had not seen it myself,",
-          "a": ""
-        },
-        {
-          "q": "10 If the sun is shining tomorrow, I would not believe it. we shall have a picnic.",
-          "a": ""
-        },
-        {
-          "q": "22 The Greek heroes would not",
-          "a": ""
-        },
-        {
-          "q": "11 If he learns these rules well, he have had such entertaining will know them for at least adventures if their gods had a week. been more sensible.",
-          "a": ""
-        },
-        {
-          "q": "12 I would not have done that if",
-          "a": ""
-        },
-        {
-          "q": "23 Catiline will take over the city I were you. unless someone stops him.",
-          "a": ""
-        },
-        {
-          "q": "24 They would not have drowned if the Romans had been less they had learned to swim. power-hungry.",
-          "a": ""
-        },
-        {
-          "q": "25 You will be eaten by a shark if",
-          "a": ""
-        },
-        {
-          "q": "28 The milk will go sour unless you you try to swim here. put it somewhere cool.",
-          "a": ""
-        },
-        {
-          "q": "26 I would be amazed if she should",
-          "a": ""
-        },
-        {
-          "q": "29 Call the fire brigade at once if fail the exam. you see a fire.",
-          "a": ""
-        },
-        {
-          "q": "27 We would be able to learn",
-          "a": ""
-        },
-        {
-          "q": "30 If the sun is shining tomorrow, Carthaginian as well as Latin if we shall definitely go to the park.",
-          "a": ""
-        }
-      ],
-      "id": "practice-63-o"
-    }
   ]
-}
+};
 
 export default chapter

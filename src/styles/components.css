@@ -2571,3 +2571,350 @@ button.lesson__keywords-label:focus-visible {
   border-left: 3px solid var(--line-strong);
   background: var(--surface-2);
 }
+
+/* ============================================================
+   Learn Latin from the Romans — page-faithful re-typesetting.
+   The reading column mirrors the printed book: arabic chapter
+   number, numbered section heads, justified serif prose, ruled
+   paradigm tables, the Practice blocks, lettered exercises laid
+   out in their own column counts, footnotes, vocabulary grids,
+   reading passages and the glossary.
+   ============================================================ */
+.dickey {
+  padding-bottom: 4rem;
+}
+.dickey__container {
+  padding-top: 1.5rem;
+}
+
+/* ---- Chapter opener: 1 | Verbs: Inflection and Word Order ---- */
+.dickey__opener {
+  display: flex;
+  align-items: center;
+  gap: 1.15rem;
+  margin: 1.75rem 0 2.25rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--line-soft);
+}
+.dickey__opener-num {
+  font-family: var(--font-serif);
+  font-size: clamp(2.6rem, 6vw, 3.6rem);
+  font-weight: 500;
+  line-height: 0.9;
+  color: var(--ink);
+}
+.dickey__opener-rule {
+  width: 1px;
+  align-self: stretch;
+  min-height: 3rem;
+  background: var(--line-strong);
+}
+.dickey__opener-title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.7rem, 3.6vw, 2.5rem);
+  font-weight: 500;
+  line-height: 1.18;
+  margin: 0;
+  color: var(--ink);
+}
+.dickey .lesson__keywords {
+  margin: -0.75rem 0 1.75rem;
+}
+
+/* ---- Layout: rail + reading column ---- */
+.dickey__layout {
+  display: grid;
+  grid-template-columns: 15.5rem minmax(0, 1fr);
+  gap: 3.5rem;
+  align-items: start;
+}
+.dickey__main {
+  min-width: 0;
+  max-width: 46rem;
+}
+
+/* ---- Sections ---- */
+.dickey__section {
+  margin-top: 2.6rem;
+  scroll-margin-top: calc(var(--header-h) + 1.5rem);
+}
+.dickey__section:first-of-type {
+  margin-top: 0;
+}
+.dickey__section-head {
+  display: flex;
+  gap: 0.5rem;
+  align-items: baseline;
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin: 0 0 0.9rem;
+}
+.dickey__section-num {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.dickey__head {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 2rem 0 0.8rem;
+}
+
+/* ---- Prose ---- */
+.dickey__p {
+  font-family: var(--font-serif);
+  font-size: 1.06rem;
+  line-height: 1.72;
+  color: var(--ink);
+  text-align: justify;
+  hyphens: auto;
+  margin: 0 0 0.35rem;
+}
+.dickey__p + .dickey__p {
+  text-indent: 1.5em;
+}
+.dickey__p .latin,
+.dickey__p em {
+  font-family: var(--font-latin);
+}
+
+/* ---- Practice marker ---- */
+.dickey__practice {
+  font-family: var(--font-serif);
+  font-size: 1.06rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin: 1.9rem 0 0.9rem;
+}
+
+/* ---- Lettered exercise ---- */
+.dickey__ex {
+  display: flex;
+  gap: 0.75rem;
+  font-family: var(--font-serif);
+  font-size: 1.02rem;
+  line-height: 1.55;
+  color: var(--ink);
+  margin: 1.1rem 0 0.75rem;
+}
+.dickey__ex-letter {
+  flex: none;
+  font-weight: 600;
+  min-width: 1ch;
+}
+.dickey__ex-text {
+  flex: 1;
+}
+.dickey__exlabel {
+  font-family: var(--font-serif);
+  font-size: 1.02rem;
+  font-weight: 700;
+  margin: 1.6rem 0 0.6rem;
+}
+
+/* ---- Exercise items in the book's column counts ---- */
+.dickey__items {
+  display: grid;
+  gap: 0.2rem 2.2rem;
+  list-style: none;
+  margin: 0.4rem 0 1.4rem;
+  padding: 0;
+}
+.dickey__item {
+  display: flex;
+  gap: 0.55rem;
+  font-family: var(--font-serif);
+  font-size: 1.02rem;
+  line-height: 1.5;
+  color: var(--ink);
+  break-inside: avoid;
+}
+.dickey__item-num {
+  flex: none;
+  min-width: 1.6em;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-soft);
+}
+.dickey__item-text {
+  flex: 1;
+}
+.dickey__item-text .latin,
+.dickey__item-text em {
+  font-family: var(--font-latin);
+}
+
+/* ---- Paradigm tables ---- */
+.dickey__table-wrap {
+  margin: 1.1rem 0 1.5rem;
+  overflow-x: auto;
+}
+.dickey__table {
+  border-collapse: collapse;
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+.dickey__table th {
+  font-weight: 700;
+  text-align: left;
+  padding: 0.15rem 2rem 0.4rem 0;
+  border-bottom: 1px solid var(--line);
+  vertical-align: bottom;
+}
+.dickey__table th.is-blank {
+  border-bottom-color: transparent;
+}
+.dickey__table td {
+  padding: 0.12rem 2rem 0.12rem 0;
+  vertical-align: top;
+}
+.dickey__table td:last-child,
+.dickey__table th:last-child {
+  padding-right: 0;
+}
+.dickey__cell--label {
+  font-weight: 600;
+}
+.dickey__cell .latin,
+.dickey__cell em {
+  font-family: var(--font-latin);
+}
+
+/* ---- Vocabulary grids ---- */
+.dickey__vlabel {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  margin: 1.6rem 0 0.5rem;
+}
+.dickey__vlabel b,
+.dickey__vlabel strong {
+  color: var(--ink);
+}
+.dickey__vhead {
+  font-family: var(--font-serif);
+  font-size: 1.02rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin: 1.2rem 0 0.35rem;
+}
+.dickey__vhead + .dickey__table-wrap {
+  margin-top: 0.2rem;
+}
+
+/* ---- Glossary terms ---- */
+.dickey__term {
+  display: grid;
+  grid-template-columns: minmax(9rem, 13rem) minmax(0, 1fr);
+  gap: 0 1.2rem;
+  padding: 0.35rem 0;
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  line-height: 1.6;
+  border-bottom: 1px solid var(--line-soft);
+}
+.dickey__term-word {
+  font-weight: 700;
+  color: var(--ink);
+}
+.dickey__term-def {
+  color: var(--ink-soft);
+}
+
+/* ---- Reading passages ---- */
+.dickey__passages {
+  margin: 0.6rem 0 0.9rem;
+}
+.dickey__passage {
+  font-family: var(--font-latin);
+  font-size: 1.06rem;
+  line-height: 1.72;
+  color: var(--ink);
+  text-align: justify;
+  hyphens: auto;
+  margin: 0 0 0.5rem;
+}
+.dickey__passage.is-en {
+  font-family: var(--font-serif);
+  color: var(--ink);
+}
+.dickey__turn {
+  margin: 0 0 0.35rem;
+  line-height: 1.72;
+}
+.dickey__speaker {
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  letter-spacing: 0.26em;
+  text-transform: lowercase;
+  color: var(--ink);
+}
+.dickey__turn-colon {
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  color: var(--ink);
+}
+.dickey__turn-la {
+  font-family: var(--font-latin);
+  font-size: 1.06rem;
+  color: var(--ink);
+}
+.dickey__turn-en {
+  font-family: var(--font-serif);
+  font-size: 1.06rem;
+  color: var(--ink);
+}
+
+/* ---- Footnotes ---- */
+.dickey__notes {
+  margin-top: 2.2rem;
+}
+.dickey__notes-rule {
+  display: block;
+  width: 6rem;
+  border-top: 1px solid var(--line-strong);
+  margin-bottom: 0.7rem;
+}
+.dickey__notes-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.dickey__note {
+  display: flex;
+  gap: 0.5rem;
+  font-family: var(--font-serif);
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  margin-bottom: 0.35rem;
+}
+.dickey__note-num {
+  flex: none;
+  min-width: 1.2em;
+  text-align: right;
+}
+.dickey__note-text {
+  flex: 1;
+}
+
+@media (max-width: 900px) {
+  .dickey__layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+  .dickey__main {
+    max-width: none;
+  }
+  .dickey__term {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+  }
+  .dickey__term-word {
+    margin-bottom: 0.1rem;
+  }
+}

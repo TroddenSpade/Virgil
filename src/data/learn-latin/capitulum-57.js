@@ -2,17 +2,14 @@ const chapter = {
   "number": 57,
   "roman": "LVII",
   "slug": "capitulum-57",
-  "latinTitle": "CAPVT LVII",
   "title": "Ablative Absolute",
-  "tagline": "Grammar, vocabulary and practice",
   "status": "complete",
   "complete": true,
   "sections": [
     {
-      "id": "section-0",
-      "latin": "Introduction",
-      "english": "Introduction",
-      "kind": "commentary",
+      "id": "section-1",
+      "latin": "57.1 Ablative Absolute",
+      "num": "57.1",
       "blocks": [
         {
           "t": "p",
@@ -20,27 +17,11 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "But in Latin it is also possible for a participle and the word it modifies to have no"
+          "text": "But in Latin it is also possible for a participle and the word it modifies to have no grammatical relationship to the rest of the sentence; this is called an ‘absolute’ construction because it is not relative to anything else. When this occurs the participle and the word it modifies are put into the ablative, and the construction is therefore known as the ‘ablative absolute’. The ablative in question has one declensional peculiarity: present participles have an ablative singular in -e rather than -ī when used in the English can also use absolute constructions to a limited extent, and therefore some Latin ablatives absolute can be translated literally into English."
         },
         {
           "t": "p",
-          "text": "grammatical relationship to the rest of the sentence; this is called an ‘absolute’ construction because it is not relative to anything else. When this occurs the participle and the word it modifies are put into the ablative, and the construction is therefore known as the ‘ablative absolute’. The ablative in question has one declensional peculiarity: present participles have an ablative singular in -e rather than -ī when used in the"
-        },
-        {
-          "t": "p",
-          "text": "English can also use absolute constructions to a limited extent, and therefore some"
-        },
-        {
-          "t": "p",
-          "text": "Latin ablatives absolute can be translated literally into English."
-        },
-        {
-          "t": "p",
-          "text": "patre mortuō, frātrēs Rōmā discessērunt. ‘Their father having died, the brothers left"
-        },
-        {
-          "t": "h",
-          "text": "Rome.’"
+          "text": "patre mortuō, frātrēs Rōmā discessērunt. ‘Their father having died, the brothers left Rome.’"
         },
         {
           "t": "p",
@@ -52,11 +33,7 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "patre vēnante, frātrēs Rōmā discessērunt. ‘*Their father hunting, the brothers left"
-        },
-        {
-          "t": "h",
-          "text": "Rome.’ (* is used to indicate an impossible sentence.)"
+          "text": "patre vēnante, frātrēs Rōmā discessērunt. ‘*Their father hunting, the brothers left Rome.’ (* is used to indicate an impossible sentence.)"
         },
         {
           "t": "p",
@@ -64,497 +41,814 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "patre mortuō, frātrēs Rōmā discessērunt. ‘With their father having died, the brothers"
-        },
-        {
-          "t": "h",
-          "text": "left Rome.’ / ‘When their father (had) died, the brothers left Rome.’"
+          "text": "patre mortuō, frātrēs Rōmā discessērunt. ‘With their father having died, the brothers left Rome.’ / ‘When their father (had) died, the brothers left Rome.’ aurō inventō, omnēs fēlīcēs erant ‘With the gold having been found, everyone was happy.’ / ‘When the gold was found, everyone was happy.’"
         },
         {
           "t": "p",
-          "text": "aurō inventō, omnēs fēlīcēs erant ‘With the gold having been found, everyone was"
+          "text": "In dealing with an ablative absolute, one needs to understand the word that the participle agrees with as the subject of the verb that the participle comes from: thus in patre mortuō one needs to take the ablative patre as the subject of mortuō (which needs to be translated as a verb when using the ‘when’ translation: ‘when their father (had) died’). The tense of the participle is relative to that of the main verb, so because this ablative absolute uses a perfect participle, it means that the father died before the brothers left Rome. In the sentence patre mortuō frātrēs Rōmā discēdent the same ablative absolute would mean ‘When their father dies (or ‘has died’) the brothers will leave Rome’: the translation of the ablative absolute depends on the tense of the main verb. Likewise the sentence patre moriente frātrēs Rōmā discēdunt means ‘Since their father is dying the brothers are leaving Rome’, but patre moriente frātrēs Rōmā discessērunt means ‘When their father was dying, the brothers left Rome’ (or ‘With their father dying, the brothers left Rome’): the present participle means that the two actions occurred at the same time, but because of the English sequence of tenses (cf. chapters 19.4 and 24.2) it is translated with a past tense in English."
         },
         {
-          "t": "h",
-          "text": "happy.’ / ‘When the gold was found, everyone was happy.’"
+          "t": "practice"
         },
         {
-          "t": "p",
-          "text": "In dealing with an ablative absolute, one needs to understand the word that the participle agrees with as the subject of the verb that the participle comes from: thus in patre mortuō one needs to take the ablative patre as the subject of mortuō (which needs to be translated as a verb when using the ‘when’ translation: ‘when their father (had) died’). The tense of the participle is relative to that of the main verb, so because this ablative absolute uses a perfect participle, it means that the father died before the brothers left Rome. In the sentence patre mortuō frātrēs Rōmā discēdent the same leave Rome’: the translation of the ablative absolute depends on the tense of the main verb. Likewise the sentence patre moriente frātrēs Rōmā discēdunt means ‘Since their father is dying the brothers are leaving Rome’, but patre moriente frātrēs Rōmā discessērunt means ‘When their father was dying, the brothers left Rome’ (or ‘With their father dying, the brothers left Rome’): the present participle means that the two actions occurred at the same time, but because of the English sequence of tenses (cf. chapters 19.4 and 24.2) it is translated with a past tense in English."
-        }
-      ]
-    },
-    {
-      "id": "section-1",
-      "latin": "57.2 Additional Words Attached to an Ablative Absolute",
-      "english": "Grammar",
-      "kind": "commentary",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "An ablative absolute does not have to consist of only two words; other words that depend on those two can also be part of the construction. Often such words are also in the ablative case, because they are adjectives agreeing with the ablative absolute. iūvistī mē patre meō moriente. ‘You helped me when my father was dying.’ illō aurō inventō omnēs fēlīcēs erant."
+          "t": "ex",
+          "letter": "A",
+          "text": "Translate, using ‘when/since’ rather than ‘with’ for the ablatives absolute and making sure the tense of the main verb is reflected in your translation of the"
         },
         {
-          "t": "p",
-          "text": "‘When that gold was found everyone was happy.’ But often the words depending on an ablative absolute are in other cases, if they are the objects of the participle (see chapter 24.2 for the tendency of participles to take objects), a possessive genitive with the noun, or even a prepositional phrase. rēge mīlitēs hortātō ē castrīs prōgressī sumus."
+          "t": "li",
+          "n": 1,
+          "text": "amico veniente puer felix erat.",
+          "cols": 2
         },
         {
-          "t": "p",
-          "text": "‘When the king had encouraged the soldiers we advanced out of the camp.’ patre eius moriente nihil facere poteram. ‘When his father was dying I was unable to do anything.’ rēge ab hostibus interfectō miserrimī erāmus."
+          "t": "li",
+          "n": 2,
+          "text": "amico veniente puer felix erit."
         },
         {
-          "t": "p",
-          "text": "‘When the king was killed by the enemy we were very miserable.’ Very often, as in these examples, the additional words come between the two ablative words; words that belong to the main sentence rather than to the ablative absolute phrase are not normally found in this position."
+          "t": "li",
+          "n": 3,
+          "text": "auro ablato nihil habuimus."
         },
         {
-          "t": "p",
-          "text": "This positioning is therefore useful because it allows the reader to work out easily which extra words go with the ablative absolute and which with the main sentence, but it is also tricky because it makes the belong to the ablative absolute construction to occur before or after the two main words. rēge interfectō ab hostibus miserrimī erāmus. ‘When the king was killed by the enemy we were very miserable.’"
+          "t": "li",
+          "n": 4,
+          "text": "auro ablato nihil habemus."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "cives felices erunt illo regente."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "cives felices erant illo regente."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "urbe visa celerius cucurrimus."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "celerius curremus urbe visa."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "domum celeriter reficiemus amicis iuvantibus."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "amicis iuvantibus domum celeriter refecimus."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "hostibus victis urbs nostra servata est."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "urbs nostra servabitur hostibus victis."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "rege ipso ducente milites acrius pugnabant."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "milites acrius pugnabunt rege ipso ducente."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "servis liberatis dominus ipse saxa feret."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "dominus ipse saxa ferebat servis liberatis."
         }
       ]
     },
     {
       "id": "section-2",
-      "latin": "57.4 Vocabulary to Learn",
-      "english": "Grammar",
-      "kind": "commentary",
+      "latin": "57.2 Additional Words Attached to an Ablative Absolute",
+      "num": "57.2",
       "blocks": [
         {
-          "t": "example",
-          "text": "Verbs cadō, cadere, cecidī, cāsum ‘fall’ cēnō, cēnāre, cēnāvī, cēnātum ‘dine’, ‘have dinner’ dēleō, dēlēre, dēlēvī, dēlētum ‘destroy’ dormiō, dormīre, dormīvī, dormītum ‘sleep’ fugō, fugāre, fugāvī, fugātum ‘cause to flee’, ‘put to flight’ gerō, gerere, gessī, gestum ‘wear’, ‘wage (war)’, ‘conduct’ iaceō, iacēre, iacuī, – ‘lie’ (i.e."
+          "t": "p",
+          "text": "An ablative absolute does not have to consist of only two words; other words that depend on those two can also be part of the construction. Often such words are also in the ablative case, because they are adjectives agreeing with the ablative absolute."
         },
         {
-          "t": "example",
-          "text": "be horizontal) iaciō, iacere, iēcī, iactum ‘throw’ Nouns canis, canis (m., f.) ‘dog’ cēna, cēnae (f.) ‘dinner’ dux, ducis (m.) ‘leader’ fīlia, fīliae (f.) ‘daughter’ ignis, ignis, ignium (m.) ‘fire’ Adjectives altus, alta, altum ‘high’, ‘deep’ antīquus, antīqua, antīquum ‘ancient’ dīves, gen."
+          "t": "p",
+          "text": "iūvistī mē patre meō moriente. ‘You helped me when my father was dying.’"
         },
         {
-          "t": "example",
-          "text": "dīvitis ‘rich’ laetus, laeta, laetum ‘joyful’ Pronouns aliquis, aliquid (declines like quis) ‘someone’, ‘anyone’ (in neuter ‘something’, ‘anything’)"
+          "t": "p",
+          "text": "illō aurō inventō omnēs fēlīcēs erant. ‘When that gold was found everyone was happy.’"
+        },
+        {
+          "t": "p",
+          "text": "But often the words depending on an ablative absolute are in other cases, if they are the objects of the participle (see chapter 24.2 for the tendency of participles to take objects), a possessive genitive with the noun, or even a prepositional phrase."
+        },
+        {
+          "t": "p",
+          "text": "rēge mīlitēs hortātō ē castrīs prōgressī sumus. ‘When the king had encouraged the soldiers we advanced out of the camp.’ patre eius moriente nihil facere poteram. ‘When his father was dying I was unable to do anything.’ rēge ab hostibus interfectō miserrimī erāmus. ‘When the king was killed by the enemy we were very miserable.’"
+        },
+        {
+          "t": "p",
+          "text": "Very often, as in these examples, the additional words come between the two ablative words; words that belong to the main sentence rather than to the ablative absolute phrase are not normally found in this position. This positioning is therefore useful because it allows the reader to work out easily which extra words go with the ablative absolute and which with the main sentence, but it is also tricky because it makes the ablative absolute itself harder to spot in the first place. It is also possible for words that belong to the ablative absolute construction to occur before or after the two main words."
+        },
+        {
+          "t": "p",
+          "text": "rēge interfectō ab hostibus miserrimī erāmus. ‘When the king was killed by the enemy we were very miserable.’"
+        },
+        {
+          "t": "practice"
+        },
+        {
+          "t": "ex",
+          "letter": "B",
+          "text": "Translate:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "his verbis dictis omnes discesserunt.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "When the money was found everyone was happy."
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "Since the enemy was advancing, our men were afraid."
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "his verbis dictis omnes discedent."
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "When the money is found everyone will be happy."
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "The enemy was advancing since our men were afraid."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "militibus e castris progressis hostes visi sunt."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "Since everyone is afraid, we shall go home."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "The king died after this letter was written."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "militibus e castris progressis hostes oppugnabunt."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "Since everyone was afraid, we went home. D Translate into Latin using ablatives absolute where possible:"
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "This letter was written after the king had died."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "matre domum veniente pueros malos paenituit."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "Everyone was present when the king was dying."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "When our men were defeated that city was abandoned."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "matre domum veniente vos paenitebit."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "When the king had died everyone departed."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "When that city had been abandoned our men were defeated."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "multis libris scriptis magister clarissimus factus est."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "When my father was speaking those words I was in Rome."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "We shall come home when the walls have been repaired."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "multis libris scriptis ipse clarissimus fies."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "I saw it when the boys were speaking."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "patre ab hostibus capto filius aurum afferet."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "Since his father was coming to Rome, Marcus departed."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "patre capto ab hostibus filius aurum attulit."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "auro nostro ab illis ablato tristissimi eramus."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "tristes sumus auro nostro ablato ab illis."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "ovibus in agrum actis, agricola ad nos venit. (2 ways)"
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "omnes tristes erant his verbis auditis."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "hostibus visis a nostris, rex milites e castris duxit."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "quis aurum feret servis ab eo venditis? C Translate into Latin using ablatives absolute for the underlined clauses:"
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "hostes urbem defendebant nostris oppugnantibus."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "oppido nostro relicto, quo eamus?"
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "rege ipso interfecto omnes regere volebant."
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "deos laudemus moenibus nostris refectis."
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "pater tuus haec verba dixit omnibus in agro sedentibus."
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "his verbis scriptis vir doctus mortuus est."
+        },
+        {
+          "t": "li",
+          "n": 23,
+          "text": "auro nostro invento te iuvare poterimus."
+        },
+        {
+          "t": "li",
+          "n": 24,
+          "text": "patre vivente haec omnia fecerat."
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "latin": "57.3 Reading Practice",
+      "num": "57.3",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "1 Colloquium Stephani 38a–d: a schoolboy does an advanced Greek exercise (probably first to third century ad)."
+        },
+        {
+          "t": "p",
+          "text": "Sumptis ergo pugillaribus scripsi de oratione Demosthenis dictante praeceptore, quod sufficiebat et hora permittebat; et distinxi ut oportebat."
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "sūmō, sūmere, sūmpsī, sūmptum ‘take up’",
+              "sufficiō, sufficere, suffēcī, suffectum ‘suffice’"
+            ],
+            [
+              "pugillāris, pugillāris, pugillārium (m.) ‘writing-tablet’",
+              "hōra can also mean ‘time’"
+            ],
+            [
+              "",
+              "permittō (like mittō) ‘permit’"
+            ],
+            [
+              "ōrātiō, ōrātiōnis (f.) ‘speech’",
+              "distinguō, distinguere, distīnxī,"
+            ],
+            [
+              "Dēmosthenēs, Dēmosthenis (m.) name of a famous Greek orator",
+              "distīnctum ‘put in punctuation marks’"
+            ],
+            [
+              "dictō, dictāre, dictāvī, dictātum ‘dictate’",
+              "ut (+ indicative) ‘as’"
+            ],
+            [
+              "praeceptor, praeceptōris (m.) ‘instructor’",
+              ""
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "2 Colloquium Stephani 7a–8c (adapted): how a model child with his own personal slave boy goes to school (probably first to third century ad)."
+        },
+        {
+          "t": "p",
+          "text": "Graphium requisivi et membranam, et haec tradidi meo puero. paratus ergo in omnia, progressus sum domo sequente me paedagogo, recte per porticum quae ducebat ad scholam. cum mihi noti occurrissent, salutavi eos; et illi me resalutaverunt."
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "graphium, graphiī (n.) ‘stylus’",
+              "paedagōgus, paedagōgī (m.) ‘child- minder’"
+            ],
+            [
+              "requīrō, requīrere, requīsīvī, requīsītum ‘ask for’",
+              ""
+            ],
+            [
+              "",
+              "rēctē ‘straight’, ‘directly’"
+            ],
+            [
+              "membrāna, membrānae (f.) ‘parchment’",
+              "porticus, porticūs (f.) ‘colonnade’"
+            ],
+            [
+              "",
+              "schola, scholae (f.) ‘school’"
+            ],
+            [
+              "trādō, trādere, trādidī, trāditum ‘hand over’",
+              "nōtus, nōtī (m.) ‘acquaintance’"
+            ],
+            [
+              "",
+              "occurrō (like currō) (+ dative) ‘meet’"
+            ],
+            [
+              "parō, parāre, parāvī, parātum ‘prepare’",
+              "resalūtō, -āre, -āvī, -ātum ‘greet in return’"
+            ],
+            [
+              "in (+ accusative) can also mean ‘for’",
+              ""
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "3 Corpus Inscriptionum Latinarum vii.273: an inscription on a bath-house in Yorkshire (second century a d )."
+        },
+        {
+          "t": "p",
+          "text": "Deae Fortunae. Virius Lupus, legatus Augusti pro praetore, balineum vi ignis exustum cohorti I Thracum restituit, curante Valerio Frontone praefecto equitum alae Vettonum."
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "Fortūna, Fortūnae (f.) ‘fortune’ (a minor goddess)",
+              "restituō, restituere, restituī, restitūtum ‘rebuild’ (i.e. pay to have something rebuilt)"
+            ],
+            [
+              "lēgātus, lēgātī (m.) ‘legate’",
+              ""
+            ],
+            [
+              "Augustus, Augustī (m.) ‘emperor’",
+              "cūrō can also mean ‘have charge of the work’"
+            ],
+            [
+              "prō praetōre ‘propraetorian’ (i.e. having the powers of a praetor)",
+              ""
+            ],
+            [
+              "",
+              "praefectus, -a, -um ‘prefect’ (a grade of officer)"
+            ],
+            [
+              "balineum, balineī (n.) ‘bath-house’",
+              ""
+            ],
+            [
+              "vī (ablative singular) ‘violence’",
+              "equitēs, equitum (m. plural) ‘cavalry’"
+            ],
+            [
+              "ignis, ignis, ignium (m.) ‘fire’",
+              "āla, ālae (f.) ‘squadron’"
+            ],
+            [
+              "exūrō, exūrere, exussī, exustum ‘burn down’",
+              "Vettōnēs, Vettōnum ‘Vettonians’ (i.e. men from what is now Bettona in Italy)"
+            ],
+            [
+              "cohortī I Thrācum ‘for the First Cohort of Thracians’ (the army unit who used that bath-house)",
+              ""
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "4 Corpus Inscriptionum Latinarum iv .1842 (adapted): graffito from a wall in Pompeii (first century ad )."
+        },
+        {
+          "t": "p",
+          "text": "C. Pumidius Dipilus hic fuit, ante diem V Nonas Octobres M. Lepido et Q. Catulo consulibus."
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "ante diem V ‘five days before’",
+              "ablative absolute with the participle"
+            ],
+            [
+              "Nōnae, Nōnārum ‘Nones’ (a festival that in October fell on the seventh day of the month)",
+              "of sum understood; as sum has no participle this is the only way to form an ablative absolute involving"
+            ],
+            [
+              "Octōber, -bris, -bre ‘of October’",
+              "‘be’, and it is a very common way of"
+            ],
+            [
+              "cōnsulibus ‘being consuls’ (with the preceding names this forms an",
+              "giving dates)"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "5 Apicius, De re coquinaria 7.13.1 (adapted): from a Roman cookbook, a recipe for sweets made from dates (perhaps fifth century ad)."
+        },
+        {
+          "t": "p",
+          "text": "Dulcia domestica: palmulas vel dactilos excepto semine nucibus vel nucleis vel pipere trito infercies. sal foris continges, friges in melle cocto, et inferes."
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "domesticus, -a, -um ‘home-made’",
+              "sēmen, sēminis (n.) ‘pit, stone’"
+            ],
+            [
+              "palmula, palmulae (f.) ‘palm date’",
+              "nux, nucis (f.) ‘nut’"
+            ],
+            [
+              "dactilus, dactilī (m.) ‘date’",
+              "nucleus, nucleī (m.) ‘pine nut’"
+            ],
+            [
+              "excipiō, excipere, excēpī, exceptum ‘take out’",
+              "piper, piperis (n.) ‘pepper’"
+            ],
+            [
+              "",
+              "terō, terere, trīvī, trītum ‘grind’"
+            ],
+            [
+              "īnferciō, īnfercīre, īnfersī, īnfersum ‘stuff’",
+              "frīgō, frīgere, frīxī, frīctum ‘fry’"
+            ],
+            [
+              "",
+              "mel, mellis (n.) ‘honey’"
+            ],
+            [
+              "sāl, salis (m.) ‘salt’",
+              "coquō, coquere, coxī, coctum ‘cook’"
+            ],
+            [
+              "forīs ‘on the outside’",
+              "īnferō (like ferō) ‘serve’"
+            ],
+            [
+              "contingō, -tingere, -tigī, -tāctum ‘sprinkle’",
+              ""
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "6 Apicius, De re coquinaria 4.3.6 (adapted): a recipe for apricot stew (perhaps fifth century ad)."
+        },
+        {
+          "t": "p",
+          "text": "Minutal ex armeniacis: adicies in caccabum oleum, liquamen, vinum; concides cepam ascaloniam aridam; spatulam porcinam coctam tessellatim concides. his omnibus coctis teres piper, cuminum, mentam aridam, anethum; suffundes mel, liquamen, passum, acetum modice; temperabis. armeniaca enucleata adicies, facies ut ferveant donec percoquantur. piper asperges et inferes."
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "minūtal, minūtālis (n.) ‘stew’",
+              "cumīnum, cumīnī (n.) ‘cumin’"
+            ],
+            [
+              "armeniacum, armeniacī (n.) ‘apricot’",
+              "menta, mentae (f.) ‘mint’"
+            ],
+            [
+              "adiciō, adicere, adiēcī, adiectum ‘put in’",
+              "anēthum, anēthī (n.) ‘dill’"
+            ],
+            [
+              "",
+              "suffundō, suffundere, suffūdī, suffūsum"
+            ],
+            [
+              "caccabus, caccabī (m.) ‘pot’",
+              "‘pour in’"
+            ],
+            [
+              "oleum, oleī (n.) ‘olive oil’",
+              "mel, mellis (n.) ‘honey’"
+            ],
+            [
+              "liquāmen, liquāminis (n.) ‘garum’",
+              "passum, passī (n.) ‘raisin wine’"
+            ],
+            [
+              "vīnum, vīnī (n.) ‘wine’",
+              "acētum, acētī (n.) ‘vinegar’"
+            ],
+            [
+              "concīdō, -cīdere, -cīdī, -cīsum ‘cut up’",
+              "modicē ‘a little’"
+            ],
+            [
+              "cēpa, cēpae (f.) ‘onion’",
+              "temperō, -āre, -āvī, -ātum ‘blend’"
+            ],
+            [
+              "ascalōnius, -a, -um ‘Ascalonian’ (a variety of onion)",
+              "ēnucleātus, -a, -um ‘with the pit/stone removed’"
+            ],
+            [
+              "āridus, -a, -um ‘dried’",
+              "ferveō, fervēre, ferbuī, – ‘boil’"
+            ],
+            [
+              "spatula, spatulae (f.) ‘wide piece’",
+              "dōnec (+ subjunctive) ‘until’"
+            ],
+            [
+              "porcīnus, -a, -um ‘of pork’",
+              "percoquō (like coquō) ‘cook thoroughly’"
+            ],
+            [
+              "coquō, coquere, coxī, coctum ‘cook’",
+              "aspergō, aspergere, aspersī, aspersum"
+            ],
+            [
+              "tessellātim ‘in little squares’",
+              "‘sprinkle on’"
+            ],
+            [
+              "terō, terere, trīvī, trītum ‘grind’",
+              "īnferō (like ferō) ‘serve’"
+            ],
+            [
+              "piper, piperis (n.) ‘pepper’",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "latin": "57.4 Vocabulary to Learn",
+      "num": "57.4",
+      "blocks": [
+        {
+          "t": "vhead",
+          "text": "Verbs"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "cadō, cadere, cecidī, cāsum",
+              "‘fall’"
+            ],
+            [
+              "cēnō, cēnāre, cēnāvī, cēnātum",
+              "‘dine’, ‘have dinner’"
+            ],
+            [
+              "dēleō, dēlēre, dēlēvī, dēlētum",
+              "‘destroy’"
+            ],
+            [
+              "dormiō, dormīre, dormīvī, dormītum",
+              "‘sleep’"
+            ],
+            [
+              "fugō, fugāre, fugāvī, fugātum",
+              "‘cause to flee’, ‘put to flight’"
+            ],
+            [
+              "gerō, gerere, gessī, gestum",
+              "‘wear’, ‘wage (war)’, ‘conduct’"
+            ],
+            [
+              "iaceō, iacēre, iacuī, –",
+              "‘lie’ (i.e. be horizontal)"
+            ],
+            [
+              "iaciō, iacere, iēcī, iactum",
+              "‘throw’"
+            ]
+          ]
+        },
+        {
+          "t": "vhead",
+          "text": "Nouns"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "canis, canis (m., f.)",
+              "‘dog’"
+            ],
+            [
+              "cēna, cēnae (f.)",
+              "‘dinner’"
+            ],
+            [
+              "dux, ducis (m.)",
+              "‘leader’"
+            ],
+            [
+              "fīlia, fīliae (f.)",
+              "‘daughter’"
+            ],
+            [
+              "ignis, ignis, ignium (m.)",
+              "‘fire’"
+            ]
+          ]
+        },
+        {
+          "t": "vhead",
+          "text": "Adjectives"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "altus, alta, altum",
+              "‘high’, ‘deep’"
+            ],
+            [
+              "antīquus, antīqua, antīquum",
+              "‘ancient’"
+            ],
+            [
+              "dīves, gen. dīvitis",
+              "‘rich’"
+            ],
+            [
+              "laetus, laeta, laetum",
+              "‘joyful’"
+            ]
+          ]
+        },
+        {
+          "t": "vhead",
+          "text": "Pronouns"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "aliquis, aliquid (declines like quis)",
+              "‘someone’, ‘anyone’ (in neuter ‘something’, ‘anything’)"
+            ]
+          ]
         }
       ]
     }
-  ],
-  "readings": [
-    {
-      "id": "lectio-57",
-      "latinTitle": "SENTENTIAE LATĪNAE",
-      "title": "Latin sentences from this chapter",
-      "paragraphs": [
-        "amico veniente puer felix erit. servata est.",
-        "servis liberatis dominus ipse saxa amicis iuvantibus. feret.",
-        "dominus ipse saxa ferebat servis celeriter refecimus. liberatis.",
-        "multis libris scriptis magister hostes visi sunt. clarissimus factus est."
-      ],
-      "notes": []
-    }
-  ],
-  "grammar": [],
-  "vocabulary": [
-    {
-      "latin": "hōra can also mean",
-      "english": "time",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "dictō, dictāre, dictāvī, dictātum",
-      "english": "dictate",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "rēctē",
-      "english": "straight",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "trādō, trādere, trādidī, trāditum",
-      "english": "hand nōtus, nōtī (m.)",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "over",
-      "english": "occurrō (like currō) (+ dative)",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "parō, parāre, parāvī, parātum",
-      "english": "prepare",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "resalūtō, -āre, -āvī, -ātum",
-      "english": "greet in in (+ accusative) can also mean",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "cūrō can also mean",
-      "english": "have charge of the prō praetōre",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "propraetorian",
-      "english": "(i.e. having work",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "praefectus, -a, -um",
-      "english": "prefect",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "exūrō, exūrere, exussī, exustum",
-      "english": "burn Vettōnēs, Vettōnum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "ante diem V",
-      "english": "five days before",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "Octōber, -bris, -bre",
-      "english": "of October",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "domesticus, -a, -um",
-      "english": "home-made",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "terō, terere, trīvī, trītum",
-      "english": "grind",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "īnferciō, īnfercīre, īnfersī, īnfersum frīgō, frīgere, frīxī, frīctum",
-      "english": "fry",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "coquō, coquere, coxī, coctum",
-      "english": "cook",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "forīs",
-      "english": "on the outside",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "adiciō, adicere, adiēcī, adiectum",
-      "english": "put anēthum, anēthī (n.)",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "concīdō, -cīdere, -cīdī, -cīsum",
-      "english": "cut up",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "modicē",
-      "english": "a little",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "temperō, -āre, -āvī, -ātum",
-      "english": "blend",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "ascalōnius, -a, -um",
-      "english": "Ascalonian",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "āridus, -a, -um",
-      "english": "dried",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "ferveō, fervēre, ferbuī, –",
-      "english": "boil",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "porcīnus, -a, -um",
-      "english": "of pork",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "aspergō, aspergere, aspersī, aspersum tessellātim",
-      "english": "in little squares",
-      "group": "Vocābula"
-    }
-  ],
-  "pensa": [
-    {
-      "latinLabel": "PRACTICE A",
-      "title": "Practice A",
-      "instruction": "Practice A Translate, using ‘when/since’ rather than ‘with’ for the ablatives absolute and making sure the tense of the main verb is reflected in your translation of the",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 amico veniente puer felix erat.",
-          "a": ""
-        },
-        {
-          "q": "11 hostibus victis urbs nostra",
-          "a": ""
-        },
-        {
-          "q": "2 amico veniente puer felix erit. servata est.",
-          "a": ""
-        },
-        {
-          "q": "3 auro ablato nihil habuimus.",
-          "a": ""
-        },
-        {
-          "q": "12 urbs nostra servabitur hostibus",
-          "a": ""
-        },
-        {
-          "q": "4 auro ablato nihil habemus. victis.",
-          "a": ""
-        },
-        {
-          "q": "5 cives felices erunt illo regente.",
-          "a": ""
-        },
-        {
-          "q": "13 rege ipso ducente milites acrius",
-          "a": ""
-        },
-        {
-          "q": "6 cives felices erant illo regente. pugnabant.",
-          "a": ""
-        },
-        {
-          "q": "7 urbe visa celerius cucurrimus.",
-          "a": ""
-        },
-        {
-          "q": "14 milites acrius pugnabunt rege",
-          "a": ""
-        },
-        {
-          "q": "8 celerius curremus urbe visa. ipso ducente.",
-          "a": ""
-        },
-        {
-          "q": "9 domum celeriter reficiemus",
-          "a": ""
-        },
-        {
-          "q": "15 servis liberatis dominus ipse saxa amicis iuvantibus. feret.",
-          "a": ""
-        },
-        {
-          "q": "10 amicis iuvantibus domum",
-          "a": ""
-        },
-        {
-          "q": "16 dominus ipse saxa ferebat servis celeriter refecimus. liberatis.",
-          "a": ""
-        }
-      ],
-      "id": "practice-57-a"
-    },
-    {
-      "latinLabel": "PRACTICE B",
-      "title": "Practice B",
-      "instruction": "Practice B Translate:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 his verbis dictis omnes",
-          "a": ""
-        },
-        {
-          "q": "5 matre domum veniente pueros discesserunt. malos paenituit.",
-          "a": ""
-        },
-        {
-          "q": "2 his verbis dictis omnes",
-          "a": ""
-        },
-        {
-          "q": "6 matre domum veniente vos discedent. paenitebit.",
-          "a": ""
-        },
-        {
-          "q": "3 militibus e castris progressis",
-          "a": ""
-        },
-        {
-          "q": "7 multis libris scriptis magister hostes visi sunt. clarissimus factus est.",
-          "a": ""
-        },
-        {
-          "q": "4 militibus e castris progressis",
-          "a": ""
-        },
-        {
-          "q": "8 multis libris scriptis ipse hostes oppugnabunt. clarissimus fies.",
-          "a": ""
-        },
-        {
-          "q": "9 patre ab hostibus capto filius",
-          "a": ""
-        },
-        {
-          "q": "17 hostes urbem defendebant aurum afferet. nostris oppugnantibus.",
-          "a": ""
-        },
-        {
-          "q": "10 patre capto ab hostibus filius",
-          "a": ""
-        },
-        {
-          "q": "18 oppido nostro relicto, quo aurum attulit. eamus?",
-          "a": ""
-        },
-        {
-          "q": "11 auro nostro ab illis ablato",
-          "a": ""
-        },
-        {
-          "q": "19 rege ipso interfecto omnes tristissimi eramus. regere volebant.",
-          "a": ""
-        },
-        {
-          "q": "12 tristes sumus auro nostro ablato",
-          "a": ""
-        },
-        {
-          "q": "20 deos laudemus moenibus ab illis. nostris refectis.",
-          "a": ""
-        },
-        {
-          "q": "13 ovibus in agrum actis,",
-          "a": ""
-        },
-        {
-          "q": "21 pater tuus haec verba dixit agricola ad nos venit. (",
-          "a": ""
-        },
-        {
-          "q": "2 ways) omnibus in agro sedentibus.",
-          "a": ""
-        },
-        {
-          "q": "14 omnes tristes erant his verbis",
-          "a": ""
-        },
-        {
-          "q": "22 his verbis scriptis vir doctus auditis. mortuus est.",
-          "a": ""
-        },
-        {
-          "q": "15 hostibus visis a nostris, rex",
-          "a": ""
-        },
-        {
-          "q": "23 auro nostro invento te iuvare milites e castris duxit. poterimus.",
-          "a": ""
-        },
-        {
-          "q": "16 quis aurum feret servis ab eo",
-          "a": ""
-        },
-        {
-          "q": "24 patre vivente haec omnia venditis? fecerat.",
-          "a": ""
-        }
-      ],
-      "id": "practice-57-b"
-    },
-    {
-      "latinLabel": "PRACTICE C",
-      "title": "Practice C",
-      "instruction": "C Translate into Latin using ablatives absolute for the underlined clauses:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 When the money was found",
-          "a": ""
-        },
-        {
-          "q": "5 Everyone was present when the everyone was happy. king was dying.",
-          "a": ""
-        },
-        {
-          "q": "2 When the money is found",
-          "a": ""
-        },
-        {
-          "q": "6 When the king had died everyone everyone will be happy. departed.",
-          "a": ""
-        },
-        {
-          "q": "3 Since everyone is afraid, we shall",
-          "a": ""
-        },
-        {
-          "q": "7 When my father was speaking go home. those words I was in Rome.",
-          "a": ""
-        },
-        {
-          "q": "4 Since everyone was afraid, we went home.",
-          "a": ""
-        }
-      ],
-      "id": "practice-57-c"
-    },
-    {
-      "latinLabel": "PRACTICE D",
-      "title": "Practice D",
-      "instruction": "D Translate into Latin using ablatives absolute where possible:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 Since the enemy was advancing,",
-          "a": ""
-        },
-        {
-          "q": "6 When that city had been our men were afraid. abandoned our men were",
-          "a": ""
-        },
-        {
-          "q": "2 The enemy was advancing since defeated. our men were afraid.",
-          "a": ""
-        },
-        {
-          "q": "7 We shall come home when the",
-          "a": ""
-        },
-        {
-          "q": "3 The king died after this letter was walls have been repaired. written.",
-          "a": ""
-        },
-        {
-          "q": "8 I saw it when the boys were",
-          "a": ""
-        },
-        {
-          "q": "4 This letter was written after the speaking. king had died.",
-          "a": ""
-        },
-        {
-          "q": "9 Since his father was coming to",
-          "a": ""
-        },
-        {
-          "q": "5 When our men were defeated that Rome, Marcus departed. city was abandoned.",
-          "a": ""
-        },
-        {
-          "q": "1 Colloquium Stephani 38a–d: a schoolboy does an advanced Greek exercise (probably first to third century ad). Sumptis ergo pugillaribus scripsi de oratione Demosthenis dictante praeceptore, quod sufficiebat et hora permittebat; et distinxi ut oportebat.",
-          "a": ""
-        }
-      ],
-      "id": "practice-57-d"
-    }
   ]
-}
+};
 
 export default chapter

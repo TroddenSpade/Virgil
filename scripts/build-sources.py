@@ -22,6 +22,7 @@ import re
 import subprocess
 import sys
 import unicodedata
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -119,14 +120,22 @@ def reflow(entries: list[tuple[str, int]], heading_patterns: list[re.Pattern]) -
             para.clear()
         pid = None
 
-    for text, indent in entries:
-        text = clean_inline(text)
+    for raw, indent in entries:
+        # A line with a wide internal gap is a vocabulary entry or a table row
+        # (word / meaning, paradigm columns, a table of contents entry); keep it
+        # on its own line instead of running it into the surrounding prose.
+        is_row = re.search(r"\S[ \t]{3,}\S", raw) is not None
+        text = clean_inline(raw)
         if not text:
             flush()
             continue
         if is_heading(text, heading_patterns):
             flush()
             blocks.append({"t": "h", "text": text})
+            continue
+        if is_row:
+            flush()
+            blocks.append({"t": "p", "text": text})
             continue
         if not para:
             para.append(text)
@@ -391,22 +400,79 @@ def roman_to_int(s: str) -> int | None:
 # Shared: parse a book whose chapters are delimited by title lines
 # --------------------------------------------------------------------------- #
 
-def build_delimited(slug, lines, toc: list[tuple[int, str, str]], head_re_builder,
-                    noise_res: list[re.Pattern], section_types=None,
-                    extra_titles: list[str] | None = None) -> dict:
-    """toc: list of (number, roman, title). head_re_builder(number,title)->compiled re."""
-    # running headers repeat a chapter/part title (sometimes with a page number
-    # stuck to either side); collect them so we can drop such lines.
+def _find_heading(lines: list[str], phrase: str, start: int) -> int | None:
+    """Index of a line that consists of exactly this heading (case/accent-insensitive)."""
+    key = re.sub(r"\s+", " ", fold(phrase)).strip()
+    for i in range(start, len(lines)):
+        if re.sub(r"\s+", " ", fold(lines[i])).strip() == key:
+            return i
+    return None
+
+
+def _is_furniture_line(s: str, titles_lc: set[str]) -> bool:
+    """True for running heads that merely repeat a chapter/part title."""
+    core = re.sub(r"\d+", "", fold(s))
+    core = re.sub(r"\s+", " ", core).strip(" .·—-")
+    if len(core) < 12:
+        return False
+    return any(core in t or t in core for t in titles_lc if len(t) >= 12)
+
+
+def _is_running_head(s: str, title: str, titles_lc: set[str]) -> bool:
+    """True for a page number glued to a chapter title, e.g. "406 Gerunds I".
+
+    These are printed page headers, kept in the text layer but absent from
+    the book's body; unlike `_is_furniture_line` the titles here can be short.
+    """
+    if not any(c.isdigit() for c in s):
+        return False
+    core = re.sub(r"^\d{1,3}\s+", "", s)
+    core = re.sub(r"\s+\d{1,3}$", "", core)
+    core = core.strip(" .·—-")
+    if core == s.strip(" .·—-"):      # no page number at either edge
+        return False
+    fc = fold(core)
+    if not fc:
+        return False
+    return fc == fold(title).strip() or fc in titles_lc
+
+
+_HEADING_CELLS = {"word", "part of speech"}
+
+
+def _is_heading_row(row: list[str]) -> bool:
+    """True for a table's printed column headings, e.g. a row of "Word /
+    Part of speech" pairs repeated at each page break (chapter 64's Key)."""
+    cells = [c.strip().lower() for c in row if c.strip()]
+    return bool(cells) and all(c in _HEADING_CELLS for c in cells)
+
+
+def _looks_like_page_header(s: str) -> bool:
+    """True for a printed page header: a short label with a page number glued
+    to one edge, e.g. "406 Gerunds I" or "Exercise A 443"."""
+    core = re.sub(r"^\d{1,3}\s+", "", s)
+    core = re.sub(r"\s+\d{1,3}$", "", core)
+    if core == s:
+        return False
+    core = core.strip(" .·—-")
+    return bool(core) and len(core) <= 32 and not _phrase_end(core)
+
+
+def _delimited_sections(lines, toc: list[tuple[int, str, str]], head_re_builder,
+                        extra_titles: list[str] | None = None,
+                        back_sections: list[tuple[str, str, str, str]] | None = None):
+    """Locate where every chapter (and back-matter section) starts in `lines`.
+
+    Returns (sections, titles_lc): sections is a list of dicts with keys
+    line/id/number/roman/title; titles_lc is the lower-cased title set used to
+    recognise running heads.
+    """
     titles_lc = {fold(t).strip() for _, _, t in toc}
     for t in (extra_titles or []):
         titles_lc.add(fold(t).strip())
+    for _sid, _roman, t, _phrase in (back_sections or []):
+        titles_lc.add(fold(t).strip())
 
-    def is_furniture(s: str) -> bool:
-        core = re.sub(r"\d+", "", fold(s))
-        core = re.sub(r"\s+", " ", core).strip(" .·—-")
-        if len(core) < 12:
-            return False
-        return any(core.startswith(t) or t.startswith(core) for t in titles_lc if len(t) >= 12)
     # find the line index where each chapter body starts
     starts: list[tuple[int, int, str, str]] = []
     search_from = 0
@@ -427,10 +493,42 @@ def build_delimited(slug, lines, toc: list[tuple[int, str, str]], head_re_builde
         starts.append((found, number, roman, title))
         search_from = found + 1
 
+    # Locate the back matter, each section starting at its own heading.
+    last_start = starts[-1][0] if starts else 0
+    back: list[tuple[int, str, str, str]] = []
+    search_from = last_start
+    for sid, roman, title, phrase in (back_sections or []):
+        idx = _find_heading(lines, phrase, search_from)
+        if idx is None:
+            continue
+        back.append((idx, sid, roman, title))
+        search_from = idx + 1
+
+    # Chapters and back matter in reading order. The final chapter now ends
+    # where the first back section begins, instead of swallowing all of it.
+    secs = [(ln, f"ch-{n:02d}", n, r, t) for ln, n, r, t in starts]
+    secs += [(ln, sid, None, r, t) for ln, sid, r, t in back]
+    secs.sort(key=lambda s: s[0])
+    out = [{"line": ln, "id": sid, "number": n, "roman": r, "title": t}
+           for ln, sid, n, r, t in secs]
+    return out, titles_lc
+
+
+def build_delimited(slug, lines, toc: list[tuple[int, str, str]], head_re_builder,
+                    noise_res: list[re.Pattern], section_types=None,
+                    extra_titles: list[str] | None = None,
+                    back_sections: list[tuple[str, str, str, str]] | None = None) -> dict:
+    """toc: list of (number, roman, title). head_re_builder(number,title)->compiled re.
+
+    back_sections: (id, roman, title, heading) for the matter that follows the
+    final chapter (appendices, vocabularies, index...). Each becomes its own
+    browsable section instead of being folded into the last chapter."""
+    sections, _titles = _delimited_sections(lines, toc, head_re_builder, extra_titles, back_sections)
+
     chapters = []
-    for idx, (line_no, number, roman, title) in enumerate(starts):
-        end = starts[idx + 1][0] if idx + 1 < len(starts) else len(lines)
-        body = lines[line_no + 1:end]
+    for idx, sec in enumerate(sections):
+        end = sections[idx + 1]["line"] if idx + 1 < len(sections) else len(lines)
+        body = lines[sec["line"] + 1:end]
         entries: list[tuple[str, int]] = []
         for ln in strip_noise_lines(body):
             if not ln.strip():
@@ -438,13 +536,14 @@ def build_delimited(slug, lines, toc: list[tuple[int, str, str]], head_re_builde
                 continue
             if any(r.match(ln) for r in noise_res):
                 continue
-            if is_furniture(ln):
+            if _is_furniture_line(ln, _titles):
                 continue
             indent = len(ln) - len(ln.lstrip(" "))
             entries.append((ln, indent))
         blocks = reflow(entries, section_types or [])
         chapters.append(
-            {"id": f"ch-{number:02d}", "number": number, "roman": roman, "title": title, "blocks": blocks}
+            {"id": sec["id"], "number": sec["number"], "roman": sec["roman"],
+             "title": sec["title"], "blocks": blocks}
         )
 
     return {
@@ -552,6 +651,919 @@ DICKEY_NOISE = [
 
 
 # --------------------------------------------------------------------------- #
+# Dickey — Learn Latin from the Romans: faithful structural parse
+# --------------------------------------------------------------------------- #
+# The printed book's layout is preserved in the PDF text layer as column
+# positions: cells of a paradigm table, vocabulary grid, or two-column exercise
+# are separated by runs of 3+ spaces, and wrapped cells sit at a deeper indent
+# than the column they belong to.  This parser reads those positions and emits
+# the book's own block types:
+#
+#   h        "1.1 Inflection" section heading
+#   p        ordinary paragraph
+#   passage  italic Latin passage of a reading chapter (dialogue turns split
+#            at letter-spaced speakers like "m a r c u s :")
+#   practice the bold "Practice" label opening an exercise region
+#   ex       one lettered exercise instruction ({"letter": "E", "text": ...})
+#   li       one numbered exercise item ({"n": 1, "text": ...}, first item
+#            of a multi-column exercise carries "cols": N)
+#   table    paradigm/vocabulary grid ({"header": [...]|None, "rows": [[..]]})
+#   vhead    bold "Nouns"/"Verbs"/... label inside a Vocabulary to Learn list
+#   vlabel   "Vocabulary (in order of first appearance...)" label
+#   exlabel  "Exercise A" label of the appendix answer key
+#   note     numbered footnote ({"n": 1, "text": ...})
+#   term     glossary entry ({"term": "Ablative", "text": ...})
+
+DICKEY_SECTION_HEAD = re.compile(r"^(\d{1,2}\.\d{1,2})\s+(\S.*)$")
+# a section heading glued to a right-aligned page number: running head
+DICKEY_RUNNING_SECTION = re.compile(r"^\s{8,}\d{1,2}\.\d{1,2}\s+\S.*\s+\d{1,3}\s*$")
+DICKEY_EXERCISE_WORD = re.compile(r"^Exercise\s+\S+$")
+DICKEY_LETTER = re.compile(r"^([A-Z])\s+(\S.*)$")
+DICKEY_ITEM = re.compile(r"^(\d{1,2})\s+(\S.*)$")
+# speaker labels of the colloquium dialogues.  Two shapes occur in the PDF
+# text layer: letter-spaced ("m a r c u s :"), which is unambiguous, and
+# compact ("marcus:", "slave :", "father (to slaves):", "school o fficial :"),
+# which is only trusted when speech follows the colon on the same line.
+DICKEY_SPEAKER_SP = re.compile(r"^(?:[a-zāēīōūȳ][ \t]+){1,}[a-zāēīōūȳ][ \t]*:")
+DICKEY_SPEAKER_CP = re.compile(
+    r"^[a-zāēīōūȳ]{1,14}(?:[ \t]+[a-zāēīōūȳ]{1,14}){0,3}"
+    r"[ \t]*(?:\([^)]{0,48}\))?[ \t]*:(?=[ \t]+\S)")
+DICKEY_SPEAKER = re.compile(
+    r"^(?:[a-zāēīōūȳ][ \t]+){1,}[a-zāēīōūȳ][ \t]*:"
+    r"|^[a-zāēīōūȳ]{1,14}(?:[ \t]+[a-zāēīōūȳ]{1,14}){0,3}"
+    r"[ \t]*(?:\([^)]{0,48}\))?[ \t]*:(?=[ \t]+\S)")
+
+
+def dickey_speaker(label: str) -> str:
+    """Normalise a matched speaker label: 'm a r c u s' -> 'marcus'."""
+    lab = label.rstrip().rstrip(":").rstrip()
+    words = lab.split()
+    if words and all(len(w) == 1 for w in words):
+        return "".join(words)
+    return re.sub(r"[ \t]+", " ", lab)
+DICKEY_VOCAB_HEADS = {
+    "nouns", "adjectives", "verbs", "other words", "prepositions", "pronouns",
+    "adverbs", "expressions", "numerals", "conjunctions", "interjections",
+    "noun", "adjective", "verb", "other word", "preposition", "pronoun",
+    "adverb", "expression", "numeral", "conjunction", "interjection",
+}
+DICKEY_GLOSSARY_TERM = re.compile(r"^([A-Z][A-Za-zāēīōūȳ ()’'–-]{1,48}?):\s+(\S.*)$")
+TERMINAL_PUNCT = ".?!:’'\")"
+_ABBREV_TAILS = ("i.e.", "e.g.", "cf.", "viz.", "etc.")
+
+
+def _phrase_end(text: str) -> bool:
+    """True when a cell's text ends a phrase; an abbreviation tail does not."""
+    t = text.rstrip() if text else ""
+    return bool(t) and t[-1] in TERMINAL_PUNCT and not t.lower().endswith(_ABBREV_TAILS)
+
+
+def _unfinished(text: str) -> bool:
+    """True when a cell's text leaves a quote or parenthesis open and does
+    not itself end a phrase: the next cell in that column continues it."""
+    if not text or _phrase_end(text):
+        return False
+    return text.count("‘") > text.count("’") or text.count("(") > text.count(")")
+ROW_TOL = 2      # a cell this close to a column start opens a new entry
+MATCH_TOL = 6    # a row-open cell snaps onto a column start within this
+REBASE_TOL = 12  # a page break can shift a grid sideways by this much
+PARA_MARGIN = 70  # a justified line reaches at least this column
+DICKEY_LONG_LINE = 70
+
+DICKEY_EXTRA_TITLES = [
+    "PART I", "PART II", "PART III", "PART IV", "PART V",
+    "Introduction: What Latin Is", "The Pronunciation of Latin",
+    "Preface: What This Textbook Is", "Appendices", "Contents",
+    "Cumulative Vocabulary, Latin to English", "Cumulative Vocabulary, English to Latin",
+    "Index of Grammatical Topics Covered", "Index of Latin Passages Included",
+]
+
+DICKEY_BACK_SECTIONS = [
+    ("cumulative-vocabulary-latin-english", "L→E",
+     "Cumulative Vocabulary, Latin to English", "Cumulative Vocabulary, Latin to English"),
+    ("cumulative-vocabulary-english-latin", "E→L",
+     "Cumulative Vocabulary, English to Latin", "Cumulative Vocabulary, English to Latin"),
+    ("index-of-grammatical-topics", "Topics",
+     "Index of Grammatical Topics Covered", "Index of Grammatical Topics Covered"),
+    ("index-of-latin-passages", "Idx",
+     "Index of Latin Passages Included", "Index of Latin Passages Included"),
+]
+
+
+def split_cells(raw: str) -> list[tuple[int, str]]:
+    """Split a line into (position, text) cells at runs of 3+ spaces."""
+    cells = []
+    pos = 0
+    for m in re.finditer(r"[ \t]{3,}", raw):
+        seg = raw[pos:m.start()]
+        if seg.strip():
+            cells.append((pos + len(seg) - len(seg.lstrip()), seg.strip()))
+        pos = m.end()
+    seg = raw[pos:]
+    if seg.strip():
+        cells.append((pos + len(seg) - len(seg.lstrip()), seg.strip()))
+    return cells
+
+
+def _incomplete(text: str) -> bool:
+    """A label whose text does not end a sentence may continue on the next line."""
+    return not (text and text.rstrip()[-1] in TERMINAL_PUNCT)
+
+
+def read_lines_pages(name: str) -> list[str]:
+    """Like read_lines, but keeps form feeds so page breaks can be detected."""
+    text = (RAW / name).read_text(encoding="utf-8", errors="replace")
+    text = normalise_glyphs(text)
+    text = "".join(c for c in text if c == "\n" or c >= " " or c == "\x0c")
+    return text.split("\n")
+
+
+def dickey_blocks(body: list[str], title: str, titles_lc: set[str],
+                  number: int | None) -> list[dict]:
+    """Parse one chapter body into the book's own typed blocks."""
+    ftitle = fold(title)
+    chapter_reading = "reading" in ftitle or "aeneid" in ftitle
+    reading = False       # section-level: heads containing Reading/Colloquium
+    glossary = "glossary" in ftitle
+    vocab = number is None and "vocabulary" in ftitle
+    indexing = number is None and "index" in ftitle
+
+    blocks: list[dict] = []
+    para: list[str] = []
+    para_rc: list[int] = []       # right-hand column of each paragraph line
+    para_page_break = False       # an unfinished paragraph crossed a page break
+    pass_buf: list[str] = []
+    pass_spk: str | None = None   # speaker of the current dialogue turn
+    pass_ind = 0                  # base indent of the current dialogue
+    pass_lang: str | None = None  # "en" for roman English dialogue turns
+    pass_next = False             # a dialogue starts at the very next line
+    pass_on = False
+    pass_armed = False
+    fresh_pg = False              # we are on a page that began with a break
+    practice = False
+    prev_letter = ""
+    ex: dict | None = None
+    tab: dict | None = None
+    glos: dict | None = None
+    fresh = False          # a page break just happened: next wide-gap line rebases
+    page_top = False       # we are at the first non-blank line of a new page
+    item_ord = 0
+
+    def flush_para() -> None:
+        nonlocal para, para_rc, para_page_break, pass_armed
+        para_page_break = False
+        if para:
+            text = clean_inline(dehyphenate(" ".join(para)))
+            if text:
+                blocks.append({"t": "p", "text": text})
+                pass_armed = reading and text.endswith(":")
+            para = []
+            para_rc = []
+
+    def flush_pass() -> None:
+        nonlocal pass_buf, pass_spk
+        if pass_buf:
+            text = clean_inline(dehyphenate(" ".join(pass_buf)))
+            if text:
+                blk = {"t": "passage", "text": text}
+                if pass_spk:
+                    blk["speaker"] = pass_spk
+                if pass_lang:
+                    blk["lang"] = pass_lang
+                blocks.append(blk)
+            pass_buf = []
+            pass_spk = None
+
+    def close_pass() -> None:
+        nonlocal pass_on, pass_armed, pass_lang
+        flush_pass()
+        pass_on = False
+        pass_armed = False
+        pass_lang = None
+
+    def flush_tab() -> None:
+        nonlocal tab
+        if tab is None:
+            return
+        groups = tab["groups"]
+        tab = None
+        if not groups:
+            return
+        starts = sorted({g["c"] for g in groups})
+        idx_of = {p: i for i, p in enumerate(starts)}
+        width = len(starts)
+        rows: dict[int, list[str]] = {}
+        order: list[int] = []
+        for g in groups:
+            ln = g["l"]
+            if ln not in rows:
+                rows[ln] = [""] * width
+                order.append(ln)
+            cur = rows[ln][idx_of[g["c"]]]
+            rows[ln][idx_of[g["c"]]] = (cur + " " + g["t"]).strip() if cur else g["t"]
+        order.sort()
+        grid = [rows[k] for k in order]
+        nonempty = [sum(1 for t in r if t) for r in grid]
+        modal = Counter(nonempty).most_common(1)[0][0]
+        n_head = 0
+        while n_head < len(grid) and 0 < nonempty[n_head] < modal:
+            n_head += 1
+        header = None
+        if n_head:
+            header = [""] * width
+            for k in range(n_head):
+                for c, t in enumerate(grid[k]):
+                    if t:
+                        header[c] = (header[c] + " " + t).strip() if header[c] else t
+            body_rows = grid[n_head:]
+        elif not vocab and len(order) > 1 and any(
+            not body[k].strip() for k in range(order[0] + 1, order[1])
+        ):
+            header = grid[0][:]
+            body_rows = grid[1:]
+        else:
+            body_rows = grid
+        # the book repeats its column headings at page and column breaks;
+        # lift the first such row into the table header and drop the rest
+        heading_rows = [r for r in body_rows if _is_heading_row(r)]
+        if heading_rows:
+            if header is None:
+                header = heading_rows[0][:]
+            body_rows = [r for r in body_rows if not _is_heading_row(r)]
+        elif len(body_rows) > 2:
+            first = body_rows[0]
+            if first and all(len(c) <= 24 for c in first):
+                body_rows = [r for k, r in enumerate(body_rows)
+                             if k == 0 or r != first]
+        blocks.append({"t": "table", "header": header, "rows": body_rows})
+
+    def flush_ex() -> None:
+        nonlocal ex
+        if ex is None:
+            return
+        state = ex
+        ex = None
+        if state["letter"]:
+            blocks.append({"t": "ex", "letter": state["letter"],
+                           "text": clean_inline(dehyphenate(state["text"]))})
+        items = sorted(state["items"], key=lambda it: (it["n"], it["ord"]))
+        # an exercise may continue on a new page with re-anchored columns; the
+        # faithful column count is the widest single-page arrangement
+        ncols = max([len(state["starts"])] + state["segs"])
+        for k, it in enumerate(items):
+            blk = {"t": "li", "n": it["n"],
+                   "text": clean_inline(dehyphenate(it["t"]))}
+            if k == 0 and ncols > 1:
+                blk["cols"] = ncols
+            blocks.append(blk)
+        blocks.extend(state["notes"])
+
+    def emit_term() -> None:
+        nonlocal glos
+        if glos is None:
+            return
+        text = clean_inline(dehyphenate(" ".join(glos["parts"])))
+        blocks.append({"t": "term", "term": glos["term"], "text": text})
+        glos = None
+
+    def close_all() -> None:
+        nonlocal practice, pass_on, pass_armed, pass_next, pass_lang
+        flush_para()
+        flush_tab()
+        flush_pass()
+        flush_ex()
+        emit_term()
+        pass_on = False
+        pass_armed = False
+        pass_next = False
+        pass_lang = None
+        practice = False
+
+    def open_tab() -> dict:
+        return {"min": None, "starts": [], "groups": [], "last": {}}
+
+    def col_near(pos: int, tol: int, skip: set[int] | None = None) -> int | None:
+        """Position of the existing column start nearest `pos` within `tol`."""
+        best, bd = None, tol + 1
+        for s in tab["starts"]:
+            if skip and s in skip:
+                continue
+            d = abs(s - pos)
+            if d < bd:
+                best, bd = s, d
+        return best if bd <= tol else None
+
+    def col_group(pos: int, line: int, text: str) -> None:
+        g = {"c": pos, "l": line, "t": text}
+        tab["groups"].append(g)
+        tab["last"][pos] = g
+
+    def col_continue(pos: int, text: str, line: int) -> None:
+        best, bd = None, 10 ** 9
+        for s in tab["starts"]:
+            d = abs(s - pos)
+            if d < bd:
+                best, bd = s, d
+        g = tab["last"].get(best)
+        if g is None:
+            col_group(best, line, text)
+        else:
+            g["t"] = (g["t"] + " " + text).strip()
+
+    def row_complete() -> bool:
+        """True when every cell of the last table row ended a phrase; a row
+        still waiting for a wrapped gloss has none."""
+        return all(not g["t"] or _phrase_end(g["t"])
+                   for g in tab["last"].values())
+
+    def col_attach(pos: int, line: int, text: str, row_open: bool) -> None:
+        """Place `text` in the column whose start is `pos`: continue the entry
+        above it or open a new one.  The book's grids flow each column
+        independently, so the decision is per column, not per line."""
+        g = tab["last"].get(pos)
+        if g is not None and _unfinished(g["t"]):
+            # the entry above left a quote or parenthesis open
+            g["t"] = (g["t"] + " " + text).strip()
+        elif g is not None and not row_open and text[:1] in "‘(":
+            # a wrapped gloss or parenthetical belongs to the entry above
+            g["t"] = (g["t"] + " " + text).strip()
+        elif (g is not None and not row_open and vocab
+              and not _phrase_end(g["t"]) and text[:1].islower()
+              and "‘" not in text):
+            # a lowercase fragment continuing an entry that is still open
+            g["t"] = (g["t"] + " " + text).strip()
+        else:
+            col_group(pos, line, text)
+
+    def take_col_line(cells: list[tuple[int, str]], line: int) -> None:
+        nonlocal fresh
+        first_pos = cells[0][0]
+        if fresh:
+            fresh = False
+            if tab["starts"] and len(cells) >= 2:
+                tgt = col_near(first_pos, REBASE_TOL)
+                if (tgt is not None and abs(tgt - tab["min"]) <= MATCH_TOL
+                        and first_pos > tab["min"] + ROW_TOL):
+                    # the new page prints the same grid a few characters to
+                    # the side: rebase the rows onto this page's indent and
+                    # keep the previous page's column positions
+                    tab["min"] = first_pos
+                    cells = [(col_near(p, REBASE_TOL) if col_near(p, REBASE_TOL)
+                              is not None else p, t) for p, t in cells]
+            if tab["min"] is None or first_pos <= tab["min"] + ROW_TOL:
+                row_open = True
+                if tab["min"] is None or first_pos < tab["min"]:
+                    tab["min"] = first_pos
+            else:
+                row_open = False
+        elif tab["min"] is None or first_pos <= tab["min"] + ROW_TOL:
+            row_open = True
+            if tab["min"] is None or first_pos < tab["min"]:
+                tab["min"] = first_pos
+        else:
+            row_open = False
+        used: set[int] = set()
+        # a page after a break may have shifted every column sideways, so
+        # row cells attach to column starts within the wider tolerance
+        tol = REBASE_TOL if fresh_pg else MATCH_TOL
+        # vocabulary and index grids flow each column independently, so their
+        # wrapped cells join the entry above; ordinary (paradigm) tables keep
+        # strict geometry: a row-opening cell, or a cell landing on a column
+        # start, begins a new entry
+        flow = vocab or indexing
+        for pos, text in cells:
+            if row_open:
+                target = col_near(pos, tol, used)
+                if target is None:
+                    target = pos
+                    tab["starts"].append(target)
+                used.add(target)
+                if flow:
+                    col_attach(target, line, text, True)
+                else:
+                    col_group(target, line, text)
+            else:
+                target = col_near(pos, tol)
+                if target is None:
+                    if tab["starts"]:
+                        target = min(tab["starts"], key=lambda st: abs(st - pos))
+                    else:
+                        target = pos
+                        tab["starts"].append(target)
+                if flow:
+                    col_attach(target, line, text, False)
+                elif col_near(pos, ROW_TOL) is not None:
+                    col_group(col_near(pos, ROW_TOL), line, text)
+                else:
+                    col_continue(pos, text, line)
+
+    def take_ex_line(cells: list[tuple[int, str]]) -> None:
+        nonlocal item_ord
+        for pos, text in cells:
+            m = DICKEY_ITEM.match(text)
+            if m:
+                target, bd = None, MATCH_TOL + 1
+                for s in ex["starts"]:
+                    d = abs(s - pos)
+                    if d < bd:
+                        target, bd = s, d
+                if target is None or bd > MATCH_TOL:
+                    target = pos
+                    ex["starts"].append(target)
+                item_ord += 1
+                it = {"c": target, "n": int(m.group(1)), "t": m.group(2),
+                      "ord": item_ord}
+                ex["items"].append(it)
+                ex["last"][target] = it
+            elif ex["last"]:
+                best, bd = None, 10 ** 9
+                for s in ex["starts"]:
+                    d = abs(s - pos)
+                    if d < bd:
+                        best, bd = s, d
+                it = ex["last"].get(best)
+                if it is not None:
+                    it["t"] += " " + text
+                    continue
+                ex["text"] += " " + text
+            else:
+                ex["text"] += " " + text
+
+    # drop a wrapped second line of the chapter title, e.g. "of First and
+    # Second Declensions" under "Nouns: Nominative, Vocative, and Accusative"
+    ftitle_norm = re.sub(r"\s+", " ", ftitle).strip()
+    start = 0
+    while start < len(body) and not body[start].replace("\x0c", "").strip():
+        start += 1
+    if start < len(body):
+        first = re.sub(r"\s+", " ", fold(body[start])).strip()
+        if len(first) < len(ftitle_norm) and ftitle_norm.endswith(first):
+            start += 1
+
+    i = start
+    n = len(body)
+    while i < n:
+        raw = body[i]
+        if raw.startswith("\x0c"):
+            # page break: prose, dialogue, exercises and open tables all
+            # continue onto the next page.  If the next page prints a grid a
+            # few characters to the side, take_col_line re-anchors its rows
+            # on the first shifted row; the grid therefore stays one table.
+            fresh = True
+            fresh_pg = True
+            page_top = True
+            if para and not _phrase_end(para[-1]):
+                # the paragraph continues on the far side of the page break,
+                # past the running head and the page's blank margin
+                para_page_break = True
+            raw = raw[1:]
+            if ex is not None:
+                ex["segs"].append(len(ex["starts"]))
+                ex["starts"] = []
+                ex["last"] = {}
+        raw = raw.replace("\x0c", "")
+        indent = len(raw) - len(raw.lstrip(" "))
+        s = raw.strip()
+
+        if not s:
+            if not para_page_break:
+                flush_para()
+            i += 1
+            continue
+
+        if page_top:
+            page_top = False
+            # a printed page header repeating the book's furniture ("406
+            # Gerunds I", "Exercise A 443") is not part of the text
+            if (indent > 8 or not DICKEY_SECTION_HEAD.match(s)) and \
+                    _looks_like_page_header(s):
+                i += 1
+                continue
+
+        fm = DICKEY_SECTION_HEAD.match(s)
+        if fm and indent <= 8:
+            close_all()
+            blocks.append({"t": "h", "text": clean_inline(s)})
+            vocab = "vocabulary to learn" in fold(s)
+            fhead = fold(s)
+            reading = "reading" in fhead or "colloqui" in fhead
+            # a dialogue may open directly under the heading (e.g. the
+            # "Translate into Latin" sections built from dialogue turns)
+            j = i + 1
+            while j < n:
+                ln = body[j].replace("\x0c", "")
+                if not ln.strip() or DICKEY_RUNNING_SECTION.match(ln) or (
+                    _is_furniture_line(ln.strip(), titles_lc)
+                ):
+                    j += 1
+                    continue
+                break
+            nxt = body[j].replace("\x0c", "") if j < n else ""
+            nind = len(nxt) - len(nxt.lstrip(" "))
+            if nxt.strip() and nind <= 14 and DICKEY_SPEAKER.match(nxt.strip()):
+                pass_next = True
+                pass_lang = "en" if "translate" in fhead else None
+            i += 1
+            continue
+
+        # running heads: a section title glued to a page number, or a chapter
+        # title repeated at the top of the page
+        if DICKEY_RUNNING_SECTION.match(raw) or (
+            len(s) <= DICKEY_LONG_LINE and _is_furniture_line(s, titles_lc)
+        ) or _is_running_head(s, title, titles_lc):
+            i += 1
+            continue
+
+        if pass_next:
+            # the section heading promised a dialogue here
+            pass_next = False
+            sm = DICKEY_SPEAKER.match(s)
+            if sm:
+                pass_on = True
+                pass_ind = indent
+                pass_spk = dickey_speaker(sm.group(0))
+                rest = s[sm.end():].strip()
+                pass_buf = [rest] if rest else []
+                i += 1
+                continue
+
+        # a lone number is a footnote marker when the following non-blank line
+        # is indented deeper and starts with a letter (all 56 in the book are)
+        if re.fullmatch(r"\d{1,2}", s):
+            j = i + 1
+            while j < n and not body[j].replace("\x0c", "").strip():
+                j += 1
+            nxt = body[j].replace("\x0c", "") if j < n else ""
+            nind = len(nxt) - len(nxt.lstrip(" "))
+            if nxt.strip()[:1].isalpha() and nind >= indent + 2:
+                if pass_on:
+                    close_pass()
+                parts = []
+                k = j
+                while k < n:
+                    ln = body[k].replace("\x0c", "")
+                    if not ln.strip():
+                        break
+                    if len(ln) - len(ln.lstrip(" ")) < indent + 2:
+                        break
+                    if DICKEY_RUNNING_SECTION.match(ln) or _is_furniture_line(ln.strip(), titles_lc):
+                        break
+                    parts.append(ln.strip())
+                    k += 1
+                note = {"t": "note", "n": int(s),
+                        "text": clean_inline(dehyphenate(" ".join(parts)))}
+                if ex is not None:
+                    ex["notes"].append(note)
+                else:
+                    blocks.append(note)
+                i = k
+                continue
+            i += 1
+            continue
+
+        if fold(s) == "practice":
+            close_all()
+            blocks.append({"t": "practice"})
+            practice = True
+            prev_letter = ""
+            i += 1
+            continue
+
+        if vocab and fold(s) in DICKEY_VOCAB_HEADS:
+            close_all()
+            blocks.append({"t": "vhead", "text": clean_inline(s)})
+            i += 1
+            continue
+
+        if fold(s) == "vocabulary" or fold(s).startswith("vocabulary ("):
+            close_all()
+            vocab = True
+            label = [s]
+            k = i + 1
+            if "(" in s:      # parenthetical labels may wrap onto the next lines
+                while k < n and body[k].replace("\x0c", "").strip():
+                    nxt = body[k].replace("\x0c", "")
+                    nind = len(nxt) - len(nxt.lstrip(" "))
+                    if _incomplete(label[-1]) and nind >= indent:
+                        label.append(nxt.strip())
+                        k += 1
+                    else:
+                        break
+            blocks.append({"t": "vlabel", "text": clean_inline(" ".join(label))})
+            i = k
+            continue
+
+        if DICKEY_EXERCISE_WORD.match(s):
+            close_all()
+            blocks.append({"t": "exlabel", "text": clean_inline(s)})
+            i += 1
+            continue
+
+        if glossary:
+            tm = DICKEY_GLOSSARY_TERM.match(s)
+            if tm:
+                emit_term()
+                glos = {"term": clean_inline(tm.group(1)), "parts": [tm.group(2)]}
+                i += 1
+                continue
+            if glos is not None:
+                glos["parts"].append(s)
+                i += 1
+                continue
+            # pre-glossary prose falls through
+
+        # ---- Practice regions ---------------------------------------------- #
+        if practice:
+            lm = DICKEY_LETTER.match(s)
+            if lm and indent >= 4 and (not prev_letter or lm.group(1) > prev_letter):
+                flush_ex()
+                prev_letter = lm.group(1)
+                ex = {"letter": lm.group(1), "text": lm.group(2),
+                      "starts": [], "items": [], "last": {}, "notes": [],
+                      "segs": [], "indent": indent}
+                i += 1
+                continue
+            if ex is None:
+                cells0 = split_cells(raw)
+                if indent >= 4 and len(cells0) <= 1:
+                    # unlettered exercise instruction
+                    ex = {"letter": "", "text": s, "starts": [], "items": [],
+                          "last": {}, "notes": [], "segs": [], "indent": indent}
+                    i += 1
+                    continue
+                # dedented prose or a stray wide-gap line: fall through
+                if indent <= 3:
+                    practice = False
+            else:
+                cells = split_cells(raw)
+                numbered = any(DICKEY_ITEM.match(t) for _, t in cells)
+                if numbered or (cells and ex["items"]):
+                    take_ex_line(cells)
+                    i += 1
+                    continue
+                if not ex["items"] and indent >= ex["indent"] - 1:
+                    ex["text"] += " " + s      # wrapped instruction line
+                    i += 1
+                    continue
+                # prose at a shallower indent ends the exercise region
+                flush_ex()
+                practice = False
+                # fall through to the table/prose logic below
+
+        cells = split_cells(raw)
+        if vocab and len(cells) == 1 and "‘" in s and (
+            tab is None or indent <= tab["min"] + ROW_TOL
+        ) and (tab is None or row_complete()):
+            # a vocabulary row whose column gap collapsed below 3 spaces in
+            # the PDF text layer, e.g. "sum, esse, fuī, futūrus ‘be’":
+            # split at the opening quote — but only when the right-hand part
+            # really lands on the grid's next column, otherwise the quote is
+            # just the gloss of this single entry ("vāpulō … ‘be beaten’").
+            qp = s.index("‘")
+            if qp > 0 and tab is not None:
+                t = col_near(indent + qp, REBASE_TOL)
+                # only when the right-hand part really starts a *later*
+                # column; otherwise the quote is just this entry's gloss
+                if t is not None and t > indent + ROW_TOL:
+                    cells = [(indent, s[:qp].strip()), (indent + qp, s[qp:])]
+
+        # ---- Tables / vocabulary grids -------------------------------------- #
+        if len(cells) >= 2:
+            pass_armed = False
+            flush_para()
+            flush_pass()
+            if tab is None:
+                tab = open_tab()
+                fresh_pg = False   # a new grid defines its own columns
+            take_col_line(cells, i)
+            i += 1
+            continue
+        if tab is not None and cells:
+            pos0 = cells[0][0]
+            # a line that begins to the left of the grid's first column is
+            # outside it (a reading heading or a new paragraph): end the grid
+            close_grid = pos0 + ROW_TOL < tab["min"]
+            qm = (re.match(r"^(\S{1,12})[ \t]+‘", s)
+                  if not close_grid and pos0 <= tab["min"] + 2 else None)
+            if not close_grid and pos0 >= tab["min"] + 3 and not (
+                s[:1].isupper()
+                and any(_phrase_end(g["t"]) for g in tab["last"].values())
+            ):
+                # a deeper single cell continues the entry it belongs to
+                for pos, text in cells:
+                    if vocab or indexing:
+                        target = col_near(pos, REBASE_TOL if fresh_pg else MATCH_TOL)
+                        if target is None:
+                            target = (min(tab["starts"], key=lambda st: abs(st - pos))
+                                      if tab["starts"] else pos)
+                            if target not in tab["starts"]:
+                                tab["starts"].append(target)
+                        col_attach(target, i, text, False)
+                    elif col_near(pos, ROW_TOL) is not None:
+                        col_group(col_near(pos, ROW_TOL), i, text)
+                    else:
+                        col_continue(pos, text, i)
+                i += 1
+                continue
+            if not close_grid and qm:
+                # a row whose column gap collapsed below 3 spaces in the PDF
+                # text layer, e.g. "regimus ‘we rule’, ‘we are ruling’..."
+                # Only split when the right part really starts a later column,
+                # not when the quote is this entry's own gloss ("sīc ‘thus’").
+                qpos = raw.find("‘")
+                t = col_near(qpos, REBASE_TOL)
+                if t is not None and t > indent + ROW_TOL:
+                    cells = [(indent, qm.group(1)), (qpos, s[s.index("‘"):])]
+                    take_col_line(cells, i)
+                    i += 1
+                    continue
+            if (not close_grid and (vocab or indexing)
+                    and pos0 <= tab["min"] + ROW_TOL):
+                if row_complete() or s[:1].isupper():
+                    # a vocabulary/index entry whose other cells start on
+                    # later lines: open the row now, they join it below
+                    take_col_line(cells, i)
+                else:
+                    # a wrapped fragment of an entry that is still unfinished
+                    col_continue(pos0, s, i)
+                i += 1
+                continue
+            flush_tab()
+            # fall through: the line starts a fresh paragraph
+
+        # ---- Reading passages ----------------------------------------------- #
+        if pass_on:
+            # a new turn can only start after a finished utterance; a line
+            # whose predecessor ends mid-sentence is a wrap, not a label
+            prev_done = bool(pass_buf) and (
+                pass_buf[-1].rstrip()[-1:] in TERMINAL_PUNCT
+            )
+            sm = DICKEY_SPEAKER_SP.match(s) if prev_done else None
+            if sm is None and prev_done and indent <= pass_ind + 2:
+                sm = DICKEY_SPEAKER_CP.match(s)
+            if sm:
+                flush_pass()
+                pass_spk = dickey_speaker(sm.group(0))
+                rest = s[sm.end():].strip()
+                if rest:
+                    pass_buf = [rest]
+            else:
+                pass_buf.append(s)
+            i += 1
+            continue
+        if pass_armed and not para:
+            pass_on = True
+            pass_armed = False
+            pass_ind = indent
+            pass_lang = None
+            sm = DICKEY_SPEAKER.match(s)
+            if sm:
+                pass_spk = dickey_speaker(sm.group(0))
+                rest = s[sm.end():].strip()
+                pass_buf = [rest] if rest else []
+            else:
+                pass_buf = [s]
+            i += 1
+            continue
+
+        # ---- Ordinary paragraphs --------------------------------------------- #
+        text = clean_inline(s)
+        if reading:
+            # in a reading section a dialogue turn may follow the description
+            # paragraph (with or without a blank line between)
+            if para:
+                last_text = para[-1]
+            elif blocks and blocks[-1]["t"] == "p":
+                last_text = blocks[-1]["text"]
+            else:
+                last_text = ""
+            if last_text.rstrip() and last_text.rstrip()[-1] in TERMINAL_PUNCT:
+                sm = DICKEY_SPEAKER.match(s)
+                if sm:
+                    flush_para()
+                    pass_on = True
+                    pass_armed = False
+                    pass_ind = indent
+                    pass_lang = None
+                    pass_spk = dickey_speaker(sm.group(0))
+                    rest = s[sm.end():].strip()
+                    pass_buf = [rest] if rest else []
+                    i += 1
+                    continue
+        if not para:
+            para = [text]
+            para_rc = [indent + len(s)]
+        else:
+            # An indented line continues the paragraph when the line above
+            # stops mid-sentence; or when this line starts lowercase and is a
+            # justified wrap, i.e. the line above reaches the book's right
+            # margin and so does the line before it (justified prose wraps
+            # with no hyphen, so the sentence continues even though the
+            # previous line ends in a mark); or when this line itself stops
+            # mid-sentence.  Two complete short lines in a row are separate
+            # items: vocabulary entries, preposition lists, and the like.
+            last = para[-1]
+            rcol = indent + len(s)
+            last_rc = para_rc[-1] if para_rc else 0
+            wrapped = (
+                (len(para_rc) >= 2 and last_rc >= PARA_MARGIN
+                 and abs(last_rc - para_rc[-2]) <= 8)
+                or (len(para_rc) == 1 and last_rc >= 84)
+            )
+            if last and last[-1] not in TERMINAL_PUNCT:
+                para.append(text)
+                para_rc.append(rcol)
+            elif wrapped and text[:1].islower():
+                para.append(text)
+                para_rc.append(rcol)
+            elif text[:1].islower() and text[-1:] and text[-1] not in TERMINAL_PUNCT:
+                para.append(text)
+                para_rc.append(rcol)
+            else:
+                flush_para()
+                para = [text]
+                para_rc = [rcol]
+        i += 1
+
+    close_all()
+    return blocks
+
+
+def dickey_sections(blocks: list[dict], title: str) -> list[dict]:
+    """Group the flat block list into the book's own numbered sections."""
+    has_heads = any(b["t"] == "h" for b in blocks)
+    sections: list[dict] = []
+    current: dict | None = None
+
+    def new_section(latin: str, num: str | None) -> dict:
+        sec = {"id": f"section-{len(sections) + 1}", "latin": latin,
+               "num": num, "blocks": []}
+        sections.append(sec)
+        return sec
+
+    for block in blocks:
+        if block["t"] == "h":
+            text = block["text"]
+            num = text.split()[0] if text[:1].isdigit() else None
+            current = new_section(text, num)
+            continue
+        if current is None:
+            latin = title if not has_heads else "Introduction"
+            current = new_section(latin, None)
+        current["blocks"].append(block)
+    return [sec for sec in sections if sec["blocks"]]
+
+
+def build_learn_latin() -> dict:
+    raw_lines = read_lines_pages("learn-latin.txt")
+    clean = [ln.replace("\x0c", "") for ln in raw_lines]
+    sections, titles_lc = _delimited_sections(
+        clean, DICKEY_TOC, dickey_head, DICKEY_EXTRA_TITLES, DICKEY_BACK_SECTIONS,
+    )
+    chapters = []
+    for idx, sec in enumerate(sections):
+        end = sections[idx + 1]["line"] if idx + 1 < len(sections) else len(clean)
+        body = raw_lines[sec["line"] + 1:end]
+        blocks = dickey_blocks(body, sec["title"], titles_lc, sec["number"])
+        chapters.append({
+            "id": sec["id"],
+            "number": sec["number"],
+            "roman": sec["roman"],
+            "title": sec["title"],
+            "blocks": blocks,
+            "sections": dickey_sections(blocks, sec["title"]),
+        })
+    return {"index": {"title": "learn-latin"}, "chapters": chapters}
+
+
+def write_capitula(chapters: list[dict]) -> None:
+    """Refresh the hand-served capitulum modules from the faithful parse."""
+    out_dir = ROOT / "src" / "data" / "learn-latin"
+    written = 0
+    for ch in chapters:
+        number = ch.get("number")
+        if not number:
+            continue
+        data = {
+            "number": number,
+            "roman": ch["roman"],
+            "slug": f"capitulum-{number:02d}",
+            "title": ch["title"],
+            "status": "complete",
+            "complete": True,
+            "sections": ch["sections"],
+        }
+        path = out_dir / f"capitulum-{number:02d}.js"
+        path.write_text(
+            "const chapter = " + json.dumps(data, ensure_ascii=False, indent=2)
+            + ";\n\nexport default chapter\n",
+            encoding="utf-8",
+        )
+        written += 1
+    print(f"wrote {written} capitulum modules -> {out_dir}")
+
+
+# --------------------------------------------------------------------------- #
 # Neumann — A Companion to Familia Romana
 # --------------------------------------------------------------------------- #
 
@@ -631,15 +1643,45 @@ LVO_TOC = [
     (40, "XL", "Aeneas in Italia", "AENEAS IN ITALIA", None),
 ]
 
-LVO_INTRO_LINE = 62  # the "INTRODUCTION" heading
-
+# The back matter, in order. Each is located by its own heading (matched on the
+# letters only, so the table of contents and the running heads are ignored).
 LVO_BACK = [
-    (16594, "appendix-a", "A", "Appendix A"),
-    (17601, "appendix-b", "B", "Appendix B"),
-    (18339, "latin-english-vocabulary", "L–E", "Latin–English Vocabulary"),
-    (19627, "english-latin-vocabulary", "E–L", "English–Latin Vocabulary"),
-    (20108, "index", "Idx", "Index"),
+    ("appendix-a", "A", "Appendix A"),
+    ("appendix-b", "B", "Appendix B"),
+    ("latin-english-vocabulary", "L–E", "Latin–English Vocabulary"),
+    ("english-latin-vocabulary", "E–L", "English–Latin Vocabulary"),
+    ("index", "Idx", "Index"),
 ]
+
+LVO_JSONL = RAW / "latin-via-ovid.jsonl"
+
+
+def lvo_lines() -> list[str]:
+    """Reconstruct the book's lines from the faithful vision-OCR records.
+
+    The scanned edition's own text layer mangles every macron ("Eurōpa" ->
+    "Eurdpa", "Rōma" -> "R5ma"), so we read the page-by-page transcription
+    produced by scripts/ocr-book.py instead of the PDF text layer."""
+    if not LVO_JSONL.exists():
+        raise SystemExit(f"missing {LVO_JSONL} — run scripts/ocr-book.py first")
+    pages: dict[int, str] = {}
+    for line in LVO_JSONL.read_text(encoding="utf-8").splitlines():
+        if not line.strip():
+            continue
+        rec = json.loads(line)
+        pages[rec["page"]] = rec.get("text", "")
+    text = "\n".join(normalise_glyphs(pages[p]) for p in sorted(pages))
+    text = "".join(c for c in text if c == "\n" or c >= " ")
+    return text.splitlines()
+
+
+def lvo_find(lines: list[str], phrase: str, start: int = 0) -> int | None:
+    """Line index of a heading, matched on its letters (case/accent-insensitive)."""
+    key = lvo_letters(phrase)
+    for i in range(start, len(lines)):
+        if lvo_letters(lines[i]).startswith(key):
+            return i
+    return None
 
 LVO_SECTION_WORDS = re.compile(
     r"^(Verba|Structure|Etymology|Sententiae|Dialogue|Macrons|Vocabulary|"
@@ -652,7 +1694,9 @@ LVO_SECTION_WORDS = re.compile(
 LVO_NOISE = [
     re.compile(r"^\s*\d{1,3}\s*$"),
     re.compile(r"^\s*\d{1,3}\s+Latin via Ovid\s*$", re.I),
+    re.compile(r"^\s*[ivxlcdm]+\s+Latin via Ovid\s*$", re.I),
     re.compile(r"^\s*Latin via Ovid\s+\d{1,3}\s*$", re.I),
+    re.compile(r"^\s*Introduction\s+[ivxlcdm]+\s*$", re.I),
     re.compile(r"^\s*[IVXLC][IVXLC ]{0,12}\s+[A-Za-z].{0,70}\s\d{1,3}\s*$"),
     re.compile(r"^\s*Appendix [AB]\s+\d{1,3}\s*$", re.I),
     re.compile(r"^\s*(Latin|English)[-–—]?[Ll]atin Vocabulary\s+\d{1,3}\s*$"),
@@ -768,14 +1812,16 @@ def lvo_blocks(body_lines: list[str]) -> list[dict]:
 
 
 def build_latin_via_ovid() -> dict:
-    lines = read_lines("latin-via-ovid.txt")
+    lines = lvo_lines()
 
-    sections: list[dict] = [
-        {
+    sections: list[dict] = []
+    intro_start = lvo_find(lines, "INTRODUCTION")
+    if intro_start is not None:
+        sections.append({
             "id": "intro", "number": 0, "roman": "Intro", "title": "Introduction",
-            "latinTitle": None, "start": LVO_INTRO_LINE, "markers": {"INTRODUCTION"},
-        }
-    ]
+            "latinTitle": None, "start": intro_start, "markers": {"INTRODUCTION"},
+        })
+
     for start, num, roman, title, tok1, tok2 in lvo_chapter_starts(lines):
         lat = re.sub(r"\s+", " ", tok1.upper())
         if tok2:
@@ -787,11 +1833,17 @@ def build_latin_via_ovid() -> dict:
             "id": f"ch-{num:02d}", "number": num, "roman": roman,
             "title": title, "latinTitle": lat, "start": start, "markers": markers,
         })
-    for start, sid, roman, title in LVO_BACK:
+
+    search_from = sections[-1]["start"] if sections else 0
+    for sid, roman, title in LVO_BACK:
+        start = lvo_find(lines, title, search_from)
+        if start is None:
+            continue
         sections.append({
             "id": sid, "number": None, "roman": roman, "title": title,
             "latinTitle": None, "start": start, "markers": {lvo_letters(title)},
         })
+        search_from = start + 1
     sections.sort(key=lambda s: s["start"])
 
     chapters = []
@@ -1113,17 +2165,15 @@ BUILDERS = {
             "For the Instructor", "To the Student", "Familia Romana: Suggestions for the Classroom",
             "Lingua Latina as a Two-Semester Course",
         ],
-    ),
-    "learn-latin": lambda: build_delimited(
-        "learn-latin", read_lines("learn-latin.txt"), DICKEY_TOC, dickey_head, DICKEY_NOISE,
-        [re.compile(r"^\d+(\.\d+)?\s+[A-Z]")],
-        extra_titles=[
-            "PART I", "PART II", "PART III", "PART IV", "PART V",
-            "Introduction: What Latin Is", "The Pronunciation of Latin",
-            "Preface: What This Textbook Is", "Appendices", "Contents",
-            "Cumulative Vocabulary, Latin to English", "Cumulative Vocabulary, English to Latin",
+        back_sections=[
+            ("grammatica-latina", "Gram.", "Grammatica Latina", "Grammatica Latina"),
+            ("vocabulary-by-chapter", "Voc.", "Vocabulary by Chapter", "Vocabulary by Chapter"),
+            ("latin-english-vocabulary", "L–E", "Latin–English Vocabulary", "Latin–English Vocabulary"),
+            ("grammatical-terms", "Terms", "Grammatical Terms", "Grammatical Terms"),
+            ("index", "Idx", "Index", "Index"),
         ],
     ),
+    "learn-latin": build_learn_latin,
     "latin-via-ovid": build_latin_via_ovid,
     "exercitia": build_exercitia,
 }
@@ -1182,6 +2232,8 @@ def main():
         }
         built[slug_final] = write_book(slug_final, meta)
         print(f"{slug_final}: {len(built[slug_final]['chapters'])} chapters -> {OUT / slug_final}")
+        if slug == "learn-latin":
+            write_capitula(meta["chapters"])
 
     # Merge: keep the previously generated entries, replace only what we rebuilt.
     merged = {**existing, **built}

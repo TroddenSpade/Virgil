@@ -2,643 +2,962 @@ const chapter = {
   "number": 39,
   "roman": "XXXIX",
   "slug": "capitulum-39",
-  "latinTitle": "CAPVT XXXIX",
   "title": "Imperfect Tense",
-  "tagline": "Grammar, vocabulary and practice",
   "status": "complete",
   "complete": true,
   "sections": [
     {
       "id": "section-1",
       "latin": "39.1 Imperfect Indicative of Regular Verbs",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "39.1",
       "blocks": [
         {
           "t": "p",
           "text": "So far we have seen only one past indicative tense, the perfect, but Latin has an imperfect indicative as well. The imperfect is used to describe actions as ongoing in the past, such as ‘I was doing’ or ‘I used to do’. It is relatively simple to form, because all the different conjugations take exactly the same endings, and the only differences between them come from the stem vowels used before those endings."
         },
         {
-          "t": "p",
-          "text": "First Second Third Fourth Mixed conjugation conjugation conjugation conjugation conjugation"
-        },
-        {
-          "t": "pre",
-          "text": "Active amābam monēbam regēbam audiēbam capiēbam"
-        },
-        {
-          "t": "p",
-          "text": "amābās monēbās regēbās audiēbās capiēbās amābat monēbat regēbat audiēbat capiēbat amābāmus monēbāmus regēbāmus audiēbāmus capiēbāmus amābātis monēbātis regēbātis audiēbātis capiēbātis amābant monēbant regēbant audiēbant capiēbant"
-        },
-        {
-          "t": "pre",
-          "text": "Passive amābar monēbar regēbar audiēbar capiēbar"
-        },
-        {
-          "t": "p",
-          "text": "amābāris monēbāris regēbāris audiēbāris capiēbāris amābātur monēbātur regēbātur audiēbātur capiēbātur amābāmur monēbāmur regēbāmur audiēbāmur capiēbāmur amābāminī monēbāminī regēbāminī audiēbāminī capiēbāminī amābantur monēbantur regēbantur audiēbantur capiēbantur"
-        },
-        {
-          "t": "h",
-          "text": "Deponent vēnābar verēbar ūtēbar partiēbar moriēbar"
-        },
-        {
-          "t": "p",
-          "text": "vēnābāris verēbāris ūtēbāris partiēbāris moriēbāris vēnābātur verēbātur ūtēbātur partiēbātur moriēbātur vēnābāmur verēbāmur ūtēbāmur partiēbāmur moriēbāmur vēnābāminī verēbāminī ūtēbāminī partiēbāminī moriēbāminī vēnābantur verēbantur ūtēbantur partiēbantur moriēbantur"
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "",
+              "First",
+              "Second",
+              "Third",
+              "Fourth",
+              "Mixed"
+            ],
+            [
+              "",
+              "conjugation",
+              "conjugation",
+              "conjugation",
+              "conjugation",
+              "conjugation"
+            ],
+            [
+              "Active",
+              "amābam",
+              "monēbam",
+              "regēbam",
+              "audiēbam",
+              "capiēbam"
+            ],
+            [
+              "",
+              "amābās",
+              "monēbās",
+              "regēbās",
+              "audiēbās",
+              "capiēbās"
+            ],
+            [
+              "",
+              "amābat",
+              "monēbat",
+              "regēbat",
+              "audiēbat",
+              "capiēbat"
+            ],
+            [
+              "",
+              "amābāmus",
+              "monēbāmus",
+              "regēbāmus",
+              "audiēbāmus",
+              "capiēbāmus"
+            ],
+            [
+              "",
+              "amābātis",
+              "monēbātis",
+              "regēbātis",
+              "audiēbātis",
+              "capiēbātis"
+            ],
+            [
+              "",
+              "amābant",
+              "monēbant",
+              "regēbant",
+              "audiēbant",
+              "capiēbant"
+            ],
+            [
+              "Passive",
+              "amābar",
+              "monēbar",
+              "regēbar",
+              "audiēbar",
+              "capiēbar"
+            ],
+            [
+              "",
+              "amābāris",
+              "monēbāris",
+              "regēbāris",
+              "audiēbāris",
+              "capiēbāris"
+            ],
+            [
+              "",
+              "amābātur",
+              "monēbātur",
+              "regēbātur",
+              "audiēbātur",
+              "capiēbātur"
+            ],
+            [
+              "",
+              "amābāmur",
+              "monēbāmur",
+              "regēbāmur",
+              "audiēbāmur",
+              "capiēbāmur"
+            ],
+            [
+              "",
+              "amābāminī",
+              "monēbāminī",
+              "regēbāminī",
+              "audiēbāminī",
+              "capiēbāminī"
+            ],
+            [
+              "",
+              "amābantur",
+              "monēbantur",
+              "regēbantur",
+              "audiēbantur",
+              "capiēbantur"
+            ],
+            [
+              "Deponent",
+              "vēnābar",
+              "verēbar",
+              "ūtēbar",
+              "partiēbar",
+              "moriēbar"
+            ],
+            [
+              "",
+              "vēnābāris",
+              "verēbāris",
+              "ūtēbāris",
+              "partiēbāris",
+              "moriēbāris"
+            ],
+            [
+              "",
+              "vēnābātur",
+              "verēbātur",
+              "ūtēbātur",
+              "partiēbātur",
+              "moriēbātur"
+            ],
+            [
+              "",
+              "vēnābāmur",
+              "verēbāmur",
+              "ūtēbāmur",
+              "partiēbāmur",
+              "moriēbāmur"
+            ],
+            [
+              "",
+              "vēnābāminī",
+              "verēbāminī",
+              "ūtēbāminī",
+              "partiēbāminī",
+              "moriēbāminī"
+            ],
+            [
+              "",
+              "vēnābantur",
+              "verēbantur",
+              "ūtēbantur",
+              "partiēbantur",
+              "moriēbantur"
+            ]
+          ]
         }
       ]
     },
     {
       "id": "section-2",
       "latin": "39.2 Imperfect Indicative of Irregular Verbs",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "39.2",
       "blocks": [
         {
           "t": "p",
           "text": "Even the irregular verbs are mostly regular in the imperfect: eō, volō, nōlō, and mālō are completely regular, and sum and possum take the regular endings without the characteristic -b-."
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "Sum",
+              "Possum",
+              "Eō",
+              "Volō",
+              "Nōlō",
+              "Mālō"
+            ],
+            [
+              "eram",
+              "poteram",
+              "ībam",
+              "volēbam",
+              "nōlēbam",
+              "mālēbam"
+            ],
+            [
+              "erās",
+              "poterās",
+              "ībās",
+              "volēbās",
+              "nōlēbās",
+              "mālēbās"
+            ],
+            [
+              "erat",
+              "poterat",
+              "ībat",
+              "volēbat",
+              "nōlēbat",
+              "mālēbat"
+            ],
+            [
+              "erāmus",
+              "poterāmus",
+              "ībāmus",
+              "volēbāmus",
+              "nōlēbāmus",
+              "mālēbāmus"
+            ],
+            [
+              "erātis",
+              "poterātis",
+              "ībātis",
+              "volēbātis",
+              "nōlēbātis",
+              "mālēbātis"
+            ],
+            [
+              "erant",
+              "poterant",
+              "ībant",
+              "volēbant",
+              "nōlēbant",
+              "mālēbant"
+            ]
+          ]
+        },
+        {
+          "t": "practice"
+        },
+        {
+          "t": "ex",
+          "letter": "A",
+          "text": "Conjugate in the imperfect indicative:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "currō, active",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "laudō, passive"
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "absum"
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "faciō, active"
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "loquor"
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "abeō"
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "arbitror"
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "sentiō, passive"
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "prōgredior"
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "adsum"
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "vendō, active"
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "orior"
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "doceō, passive"
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "dō, active"
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "exeō"
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "dūcō, passive"
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "polliceor"
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "patior"
         }
       ]
     },
     {
       "id": "section-3",
       "latin": "39.3 Translation of the Imperfect Indicative",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "39.3",
       "blocks": [
         {
           "t": "p",
-          "text": "Sum Possum Eō Volō Nōlō Mālō eram poteram ībam volēbam nōlēbam mālēbam erās poterās ībās volēbās nōlēbās mālēbās erat poterat ībat volēbat nōlēbat mālēbat erāmus poterāmus ībāmus volēbāmus nōlēbāmus mālēbāmus erātis poterātis ībātis volēbātis nōlēbātis mālēbātis erant poterant ībant volēbant nōlēbant mālēbant"
+          "text": "The imperfect has two main translations, both of them periphrastic (involving more than one word in English). It is important to be able to recognize these English forms as equivalents of the Latin imperfect, as otherwise there is a temptation to translate ‘was doing’ with a form of sum and the present participle in Latin (which would not be correct), and to translate ‘used to do’ with a form of ūtor and the infinitive (which would be even more incorrect). For most verbs, actives and deponents are translated like amābam, and passives are translated like amābar."
         },
         {
           "t": "p",
-          "text": "The imperfect has two main translations, both of them periphrastic (involving more than one word in English)."
+          "text": "Active amābam ‘I was loving’, ‘I used to love’"
         },
         {
           "t": "p",
-          "text": "It is important to be able to recognize these English forms as equivalents of the Latin imperfect, as otherwise there is a temptation to translate ‘was doing’ with a form of sum and the present participle in Latin (which would not be correct), and to translate ‘used to do’ with a form of ūtor and the infinitive (which would be even more incorrect)."
+          "text": "amābās ‘you (singular) were loving’, ‘you (singular) used to love’ amābat ‘he was loving’, ‘she was loving’, ‘it was loving’, ‘was loving’, ‘he used to love’, ‘she used to love’, ‘it used to love’, ‘used to love’"
         },
         {
           "t": "p",
-          "text": "For most verbs, actives and deponents are translated like amābam, and passives are translated like amābar."
-        },
-        {
-          "t": "pre",
-          "text": "Active amābam ‘I was loving’, ‘I used to love’ amābās ‘you (singular) were loving’, ‘you (singular) used to love’ amābat ‘he was loving’, ‘she was loving’, ‘it was loving’, ‘was loving’, ‘he used to love’, ‘she used to love’, ‘it used to love’, ‘used to love’ amābāmus ‘we were loving’, ‘we used to love’ amābātis ‘you (plural) were loving’, ‘you (plural) used to love’ amābant ‘they were loving’, ‘they used to love’, ‘were loving’, ‘used to love’"
-        },
-        {
-          "t": "pre",
-          "text": "Passive"
+          "text": "amābāmus ‘we were loving’, ‘we used to love’"
         },
         {
           "t": "p",
-          "text": "amābar ‘I was being loved’, ‘I used to be loved’ amābāris ‘you (singular) were being loved’, ‘you (singular) used to be loved’ amābātur ‘he was being loved’, ‘she was being loved’, ‘it was being loved’, ‘was being loved’, ‘he used to be loved’, ‘she used to be loved’, ‘it used to be loved’, ‘used to be loved’ amābāmur ‘we were being loved’, ‘we used to be loved’ amābāminī ‘you were being loved’, ‘you used to be loved’ amābantur ‘they were being loved’, ‘they used to be loved’, ‘were being loved’, ‘used to be loved’ For a few verbs these English translations do not work; for example ‘I was being’ would usually be unfortunate as a translation of eram, as would ‘I was being able’ as a translation of poteram."
+          "text": "amābātis ‘you (plural) were loving’, ‘you (plural) used to love’"
         },
         {
           "t": "p",
-          "text": "For such verbs, in situations where the ‘used to’ translation does not work either, one has to use the simple past in English; thus ‘I was’ can be the translation either of fuī or of eram. In fact eram is more common than fuī in situations where an English speaker would say ‘I was’; the action of ‘being’ is one that is naturally continuous and so lends itself to the use of the imperfect tense."
+          "text": "amābant ‘they were loving’, ‘they used to love’, ‘were loving’, ‘used to love’"
         },
         {
           "t": "p",
-          "text": "The imperfect is a historic tense for the purposes of sequence of tenses (see chapter 16.1): if it is used in a main clause on which a subordinate clause with a subjunctive verb depends, the subjunctive in that clause is imperfect rather than present."
+          "text": "Passive amābar ‘I was being loved’, ‘I used to be loved’"
+        },
+        {
+          "t": "p",
+          "text": "amābāris ‘you (singular) were being loved’, ‘you (singular) used to be loved’ amābātur ‘he was being loved’, ‘she was being loved’, ‘it was being loved’, ‘was being loved’, ‘he used to be loved’, ‘she used to be loved’, ‘it used to be loved’, ‘used to be loved’"
+        },
+        {
+          "t": "p",
+          "text": "amābāmur ‘we were being loved’, ‘we used to be loved’"
+        },
+        {
+          "t": "p",
+          "text": "amābāminī ‘you were being loved’, ‘you used to be loved’ amābantur ‘they were being loved’, ‘they used to be loved’, ‘were being loved’, ‘used to be loved’"
+        },
+        {
+          "t": "p",
+          "text": "For a few verbs these English translations do not work; for example ‘I was being’ would usually be unfortunate as a translation of eram, as would ‘I was being able’ as a translation of poteram. For such verbs, in situations where the ‘used to’ translation does not work either, one has to use the simple past in English; thus ‘I was’ can be the translation either of fuī or of eram. In fact eram is more common than fuī in situations where an English speaker would say ‘I was’; the action of ‘being’ is one that is naturally The imperfect is a historic tense for the purposes of sequence of tenses (see chapter 16.1): if it is used in a main clause on which a subordinate clause with a subjunctive verb depends, the subjunctive in that clause is imperfect rather than present."
+        },
+        {
+          "t": "practice"
+        },
+        {
+          "t": "ex",
+          "letter": "B",
+          "text": "Translate, giving all possible meanings: C Translate into Latin:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "audiebat",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "I used to capture"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "ille poeta libros longissimos vendebat."
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "I was calling you for many hours."
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "audiebatur"
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "I used to be captured"
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "illa puella turpissima omnium erat."
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "The Roman senate was very powerful."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "regebant"
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "I used to hunt"
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "tot viri pugnabant ut multi interficerentur."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "We were being defended by many soldiers."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "regebantur"
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "we were hearing"
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "Athenas venturi, paucos dies Corinthi manebant."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "The Greeks were wiser than the Romans."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "utebamur"
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "we were being heard"
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "quis milites hortabatur ut bene pugnarent?"
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "That rather foolish man used to think that we were very famous."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "nolebas"
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "we were dying D Translate:"
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "dei Romani semper quam felicissimi erant."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "That girl was so sweet that she was loved by all men."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "eras"
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "he used to warn"
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "exercitus hostium progrediens a nostris impediebatur."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "We used to beg him to come to Syracuse, but he never came."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "capiebas"
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "he used to be warned"
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "arbitrabar me sapientissimum esse."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "My sister was so happy in Athens that she stayed there for many years."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "eratis"
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "he used to be able"
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "pueri et puellae a patribus defendebantur."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "You used to say that I was as sweet as possible."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "ibam"
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "they were ruling"
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "ille vir clarissimus mecum loquebatur. E Translate into Latin:"
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "We were hunting for so many hours that we killed many animals."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "regebamur"
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "they were being ruled"
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "domus nostrae a servis reficiebantur."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "The king was ordering the soldiers to go to London."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "capiebaris"
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "they were wanting"
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "servus stultissimus ab equo fugiebat."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "Whom were you calling?"
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "monebatis"
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "quis dicebat eum potentissimum esse?"
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "eram"
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "tantus erat exercitus ut nostri fugerent."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "monebamini"
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "hic equus nigrior erat quam ille."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "verebamur"
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "Romam ibamus ut patrem sepeliremus."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "ibat"
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "arbitrabantur nos durissimos esse."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "volebam"
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "Athenas ibant ut viros sapientiores invenirent."
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "nolebatis"
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "dicebamus filios tuos dulcissimos esse."
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "partiebar"
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "tam turpis erat ut numquam laudaretur."
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "ibas"
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "audiebam"
+        },
+        {
+          "t": "li",
+          "n": 23,
+          "text": "capiebant"
+        },
+        {
+          "t": "li",
+          "n": 24,
+          "text": "audiebar"
+        },
+        {
+          "t": "li",
+          "n": 25,
+          "text": "volebamus"
+        },
+        {
+          "t": "li",
+          "n": 26,
+          "text": "regebamus"
+        },
+        {
+          "t": "li",
+          "n": 27,
+          "text": "erant"
         }
       ]
-    }
-  ],
-  "readings": [],
-  "grammar": [],
-  "vocabulary": [
-    {
-      "latin": "cessō, cessāre, cessāvī, cessātum",
-      "english": "slack imperātor, imperātōris (m.)",
-      "group": "Vocābula"
     },
     {
-      "latin": "off",
-      "english": "statim",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "ascendō, ascendere, ascendī, ascēnsum lūdō, lūdere, lūsī, lūsum",
-      "english": "play",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "sacrifice",
-      "english": "mentior, mentīrī, mentītus sum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "lie",
-      "english": "prō (+ ablative)",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "town hall",
-      "english": "aeternus, -a, -um",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "eternal",
-      "english": "salūtō, -āre, -āvī, -ātum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "greet",
-      "english": "victōria, victōriae (f.)",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "inde",
-      "english": "then",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "praestrūxerant",
-      "english": "had built",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "discō, discere, didicī, –",
-      "english": "learn",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "quid ūtilitātis esset",
-      "english": "what the point was",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "ignōrō, -āre, -āvī, -ātum",
-      "english": "be ignorant",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "cōgō, cōgere, coēgi, coāctum sēgnis, sēgne",
-      "english": "lazy",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "multiplicō, -āre, -āvī, -ātum",
-      "english": "multiply",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "vāpulō, -āre, -āvī, -ātum",
-      "english": "be beaten",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "maior can also mean",
-      "english": "adult",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "quid",
-      "english": "why",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "an",
-      "english": "can it be that?",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "mīlia ducenta",
-      "english": "two hundred thousand",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "a man",
-      "english": "s name dispereō (like eō)",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "perish",
-      "english": "mīlia decem",
-      "group": "Vocābula"
-    }
-  ],
-  "pensa": [
-    {
-      "latinLabel": "PRACTICE A",
-      "title": "Practice A",
-      "instruction": "Practice A Conjugate in the imperfect indicative:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 currō, active",
-          "a": ""
-        },
-        {
-          "q": "10 adsum",
-          "a": ""
-        },
-        {
-          "q": "2 laudō, passive",
-          "a": ""
-        },
-        {
-          "q": "11 vendō, active",
-          "a": ""
-        },
-        {
-          "q": "3 absum",
-          "a": ""
-        },
-        {
-          "q": "12 orior",
-          "a": ""
-        },
-        {
-          "q": "4 faciō, active",
-          "a": ""
-        },
-        {
-          "q": "13 doceō, passive",
-          "a": ""
-        },
-        {
-          "q": "5 loquor",
-          "a": ""
-        },
-        {
-          "q": "14 dō, active",
-          "a": ""
-        },
-        {
-          "q": "6 abeō",
-          "a": ""
-        },
-        {
-          "q": "15 exeō",
-          "a": ""
-        },
-        {
-          "q": "7 arbitror",
-          "a": ""
-        },
-        {
-          "q": "16 dūcō, passive",
-          "a": ""
-        },
-        {
-          "q": "8 sentiō, passive",
-          "a": ""
-        },
-        {
-          "q": "17 polliceor",
-          "a": ""
-        },
-        {
-          "q": "9 prōgredior",
-          "a": ""
-        },
-        {
-          "q": "18 patior",
-          "a": ""
-        }
-      ],
-      "id": "practice-39-a"
-    },
-    {
-      "latinLabel": "PRACTICE B",
-      "title": "Practice B",
-      "instruction": "Practice B Translate, giving all possible meanings:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 audiebat",
-          "a": ""
-        },
-        {
-          "q": "15 monebamini",
-          "a": ""
-        },
-        {
-          "q": "2 audiebatur",
-          "a": ""
-        },
-        {
-          "q": "16 verebamur",
-          "a": ""
-        },
-        {
-          "q": "3 regebant",
-          "a": ""
-        },
-        {
-          "q": "17 ibat",
-          "a": ""
-        },
-        {
-          "q": "4 regebantur",
-          "a": ""
-        },
-        {
-          "q": "18 volebam",
-          "a": ""
-        },
-        {
-          "q": "5 utebamur",
-          "a": ""
-        },
-        {
-          "q": "19 nolebatis",
-          "a": ""
-        },
-        {
-          "q": "6 nolebas",
-          "a": ""
-        },
-        {
-          "q": "20 partiebar",
-          "a": ""
-        },
-        {
-          "q": "7 eras",
-          "a": ""
-        },
-        {
-          "q": "21 ibas",
-          "a": ""
-        },
-        {
-          "q": "8 capiebas",
-          "a": ""
-        },
-        {
-          "q": "22 audiebam",
-          "a": ""
-        },
-        {
-          "q": "9 eratis",
-          "a": ""
-        },
-        {
-          "q": "23 capiebant",
-          "a": ""
-        },
-        {
-          "q": "10 ibam",
-          "a": ""
-        },
-        {
-          "q": "24 audiebar",
-          "a": ""
-        },
-        {
-          "q": "11 regebamur",
-          "a": ""
-        },
-        {
-          "q": "25 volebamus",
-          "a": ""
-        },
-        {
-          "q": "12 capiebaris",
-          "a": ""
-        },
-        {
-          "q": "26 regebamus",
-          "a": ""
-        },
-        {
-          "q": "13 monebatis",
-          "a": ""
-        },
-        {
-          "q": "27 erant",
-          "a": ""
-        },
-        {
-          "q": "14 eram",
-          "a": ""
-        }
-      ],
-      "id": "practice-39-b"
-    },
-    {
-      "latinLabel": "PRACTICE C",
-      "title": "Practice C",
-      "instruction": "C Translate into Latin:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 I used to capture",
-          "a": ""
-        },
-        {
-          "q": "7 he used to warn",
-          "a": ""
-        },
-        {
-          "q": "2 I used to be captured",
-          "a": ""
-        },
-        {
-          "q": "8 he used to be warned",
-          "a": ""
-        },
-        {
-          "q": "3 I used to hunt",
-          "a": ""
-        },
-        {
-          "q": "9 he used to be able",
-          "a": ""
-        },
-        {
-          "q": "4 we were hearing",
-          "a": ""
-        },
-        {
-          "q": "10 they were ruling",
-          "a": ""
-        },
-        {
-          "q": "5 we were being heard",
-          "a": ""
-        },
-        {
-          "q": "11 they were being ruled",
-          "a": ""
-        },
-        {
-          "q": "6 we were dying",
-          "a": ""
-        },
-        {
-          "q": "12 they were wanting",
-          "a": ""
-        }
-      ],
-      "id": "practice-39-c"
-    },
-    {
-      "latinLabel": "PRACTICE D",
-      "title": "Practice D",
-      "instruction": "D Translate:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 ille poeta libros longissimos",
-          "a": ""
-        },
-        {
-          "q": "11 domus nostrae a servis vendebat. reficiebantur.",
-          "a": ""
-        },
-        {
-          "q": "2 illa puella turpissima omnium",
-          "a": ""
-        },
-        {
-          "q": "12 servus stultissimus ab equo erat. fugiebat.",
-          "a": ""
-        },
-        {
-          "q": "3 tot viri pugnabant ut multi",
-          "a": ""
-        },
-        {
-          "q": "13 quis dicebat eum potentissimum interficerentur. esse?",
-          "a": ""
-        },
-        {
-          "q": "4 Athenas venturi, paucos dies",
-          "a": ""
-        },
-        {
-          "q": "14 tantus erat exercitus ut nostri Corinthi manebant. fugerent.",
-          "a": ""
-        },
-        {
-          "q": "5 quis milites hortabatur ut bene",
-          "a": ""
-        },
-        {
-          "q": "15 hic equus nigrior erat quam ille. pugnarent?",
-          "a": ""
-        },
-        {
-          "q": "16 Romam ibamus ut patrem",
-          "a": ""
-        },
-        {
-          "q": "6 dei Romani semper quam felisepeliremus. cissimi erant.",
-          "a": ""
-        },
-        {
-          "q": "17 arbitrabantur nos durissimos",
-          "a": ""
-        },
-        {
-          "q": "7 exercitus hostium progrediens esse. a nostris impediebatur.",
-          "a": ""
-        },
-        {
-          "q": "18 Athenas ibant ut viros sapien-",
-          "a": ""
-        },
-        {
-          "q": "8 arbitrabar me sapientissimum tiores invenirent. esse.",
-          "a": ""
-        },
-        {
-          "q": "19 dicebamus filios tuos dulcissi-",
-          "a": ""
-        },
-        {
-          "q": "9 pueri et puellae a patribus mos esse. defendebantur.",
-          "a": ""
-        },
-        {
-          "q": "20 tam turpis erat ut numquam",
-          "a": ""
-        },
-        {
-          "q": "10 ille vir clarissimus mecum laudaretur. loquebatur.",
-          "a": ""
-        }
-      ],
-      "id": "practice-39-d"
-    },
-    {
-      "latinLabel": "PRACTICE E",
-      "title": "Practice E",
-      "instruction": "E Translate into Latin:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 I was calling you for many",
-          "a": ""
-        },
-        {
-          "q": "5 That rather foolish man used to hours. think that we were very famous.",
-          "a": ""
-        },
-        {
-          "q": "2 The Roman senate was very",
-          "a": ""
-        },
-        {
-          "q": "6 That girl was so sweet that she powerful. was loved by all men.",
-          "a": ""
-        },
-        {
-          "q": "3 We were being defended by many",
-          "a": ""
-        },
-        {
-          "q": "7 We used to beg him to come to soldiers. Syracuse, but he never came.",
-          "a": ""
-        },
-        {
-          "q": "4 The Greeks were wiser than the",
-          "a": ""
-        },
-        {
-          "q": "8 My sister was so happy in Athens Romans. that she stayed there for many years.",
-          "a": ""
-        },
-        {
-          "q": "9 You used to say that I was as",
-          "a": ""
-        },
-        {
-          "q": "11 The king was ordering the sol- sweet as possible. diers to go to London.",
-          "a": ""
-        },
-        {
-          "q": "10 We were hunting for so many",
-          "a": ""
-        },
-        {
-          "q": "12 Whom were you calling? hours that we killed many animals.",
-          "a": ""
-        },
-        {
-          "q": "1 Colloquium Harleianum 8a–9d (adapted): a boy refutes an accusation of truancy (perhaps first century ad). school official: heri cessabas et meridie domi ludebas. quaesivi te et audivi omnia quae fecisti a nutrice tua. boy: mentitur qui illud tibi dixit! duxit enim me pater secum in praetorium. salutatus est a magistratibus et epistulas accepit a domino meo imperatore; et statim ascendit in templum et immolavit pro aeterna victoria imperatoris.",
-          "a": ""
-        }
-      ],
-      "id": "practice-39-e"
-    },
-    {
-      "id": "translate-39",
-      "latinLabel": "TRANSLATE INTO LATIN",
-      "title": "Translate into Latin",
-      "instruction": "",
-      "type": "questions",
-      "items": [
-        {
-          "q": "4 we were hearing 10 they were ruling 5 we were being heard 11 they were being ruled 6 we were dying 12 they were wanting",
-          "a": ""
+      "id": "section-4",
+      "latin": "39.4 Reading Practice",
+      "num": "39.4",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "1 Colloquium Harleianum 8a–9d (adapted): a boy refutes an accusation of truancy (perhaps first century ad)."
+        },
+        {
+          "t": "passage",
+          "text": "heri cessabas et meridie domi ludebas. quaesivi te et audivi omnia quae fecisti a nutrice tua.",
+          "speaker": "school o fficial"
+        },
+        {
+          "t": "passage",
+          "text": "mentitur qui illud tibi dixit! duxit enim me pater secum in praetorium. salutatus est a magistratibus et epistulas accepit a domino meo imperatore; et statim ascendit in templum et immolavit pro aeterna victoria imperatoris.",
+          "speaker": "boy"
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "cessō, cessāre, cessāvī, cessātum ‘slack off’",
+              "imperātor, imperātōris (m.) ‘emperor’"
+            ],
+            [
+              "",
+              "statim ‘immediately’"
+            ],
+            [
+              "merīdiēs (like diēs) (m.) ‘midday’",
+              "ascendō, ascendere, ascendī, ascēnsum"
+            ],
+            [
+              "lūdō, lūdere, lūsī, lūsum ‘play’",
+              "‘go up’"
+            ],
+            [
+              "quaerō, quaerere, quaesīvī, quaesītum ‘look for’",
+              "templum, templī (n.) ‘temple’"
+            ],
+            [
+              "",
+              "immolō, -āre, -āvī, -ātum ‘offer a sacrifice’"
+            ],
+            [
+              "nūtrīx, nūtrīcis (f.) ‘nurse’",
+              ""
+            ],
+            [
+              "mentior, mentīrī, mentītus sum ‘lie’",
+              "prō (+ ablative) ‘for’"
+            ],
+            [
+              "praetōrium, praetōriī (n.) ‘town hall’",
+              "aeternus, -a, -um ‘eternal’"
+            ],
+            [
+              "salūtō, -āre, -āvī, -ātum ‘greet’",
+              "victōria, victōriae (f.) ‘victory’"
+            ],
+            [
+              "magistrātus, magistrātūs (m.) ‘magistrate’",
+              ""
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "2 St Augustine (fourth century ad), Confessions 1.9 (adapted): the saint describes his early school years."
+        },
+        {
+          "t": "p",
+          "text": "Inde in scholam missus sum, ut discerem litteras, in quibus quid utilitatis esset ignorabam miser. et tamen, si segnis in discendo eram, vapulabam. laudabatur enim hoc a maioribus, et multi ante nos vitam agentes praestruxerant aerumnosas vias, per quas vitam transire cogebamur multiplicato labore et dolore."
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "inde ‘then’",
+              "ante (+ accusative) ‘before’"
+            ],
+            [
+              "schola, scholae (f.) ‘school’",
+              "praestrūxerant ‘had built’"
+            ],
+            [
+              "discō, discere, didicī, – ‘learn’",
+              "(pluperfect tense)"
+            ],
+            [
+              "littera, litterae (f.) ‘letter’ (of the alphabet)",
+              "aerumnōsus, -a, -um ‘painful’"
+            ],
+            [
+              "",
+              "via, viae (f.) ‘road’, ‘route’"
+            ],
+            [
+              "quid ūtilitātis esset ‘what the point was’",
+              "trānseō (like eō) ‘go across’"
+            ],
+            [
+              "ignōrō, -āre, -āvī, -ātum ‘be ignorant’",
+              "cōgō, cōgere, coēgi, coāctum"
+            ],
+            [
+              "sēgnis, sēgne ‘lazy’",
+              "‘compel’"
+            ],
+            [
+              "discendum, discendī (n.) ‘learning’",
+              "multiplicō, -āre, -āvī, -ātum ‘multiply’"
+            ],
+            [
+              "vāpulō, -āre, -āvī, -ātum ‘be beaten’",
+              "labor, labōris (m.) ‘toil’"
+            ],
+            [
+              "maior can also mean ‘adult’, ‘grown up’",
+              "dolor, dolōris (m.) ‘pain’"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "3 Martial 5.82: the poet complains about someone who does not deliver on his promises (first century ad)."
+        },
+        {
+          "t": "p",
+          "text": "Quid promittebas mihi milia, Gaure, ducenta, si dare non poteras milia, Gaure, decem?"
+        },
+        {
+          "t": "p",
+          "text": "an potes et non vis? rogo: non est turpius istud?"
+        },
+        {
+          "t": "p",
+          "text": "i tibi, dispereas, Gaure: pusillus homo es."
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "quid ‘why’",
+              "an ‘can it be that?’"
+            ],
+            [
+              "prōmittō (like mittō) ‘promise’",
+              "istud (neuter nominative singular)"
+            ],
+            [
+              "mīlia ducenta ‘two hundred thousand (sesterces)’",
+              "‘that’"
+            ],
+            [
+              "",
+              "ī tibi ‘away with you!’"
+            ],
+            [
+              "Gaurus, Gaurī (m.) a man’s name",
+              "dispereō (like eō) ‘perish’"
+            ],
+            [
+              "mīlia decem ‘ten thousand (sesterces)’",
+              "pusillus, -a, -um ‘of no account’"
+            ]
+          ]
         }
       ]
     }
   ]
-}
+};
 
 export default chapter

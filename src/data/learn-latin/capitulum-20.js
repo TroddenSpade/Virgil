@@ -2,17 +2,14 @@ const chapter = {
   "number": 20,
   "roman": "XX",
   "slug": "capitulum-20",
-  "latinTitle": "CAPVT XX",
   "title": "Reflexives",
-  "tagline": "Grammar, vocabulary and practice",
   "status": "complete",
   "complete": true,
   "sections": [
     {
       "id": "section-1",
       "latin": "20.1 Reflexive Pronoun",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "20.1",
       "blocks": [
         {
           "t": "p",
@@ -20,534 +17,824 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "(Compare ‘He saw him in the mirror’, in which the person seen is different from the one seeing.) In Latin the firstand second-person reflexives are the same as the personal pronouns we have already seen; in other words a Roman said ‘me’, ‘you’, or ‘us’ where we would say ‘myself’, ‘yourself’, ‘ourselves’. Thus mē videō ‘I see myself ’, nōs vidēmus ‘we see ourselves’."
+          "text": "(Compare ‘He saw him in the mirror’, in which the person seen is different from the one seeing.) In Latin the firstand second-person reflexives are the same as the personal pronouns we have already seen; in other words a Roman said ‘me’, ‘you’, or ‘us’ where we would say ‘myself’, ‘yourself’, ‘ourselves’. Thus mē videō ‘I see myself ’, nōs vidēmus ‘we see ourselves’. In the third person the reflexive pronoun is sē, which has its own declension: it makes no distinction between singular and plural or between the three genders, but it does have distinct forms for different cases."
+        },
+        {
+          "t": "table",
+          "header": [
+            "British Case Order All numbers and genders",
+            "",
+            "Ancient Case Order All numbers and genders",
+            ""
+          ],
+          "rows": [
+            [
+              "Nom.",
+              "–",
+              "Nom./Voc.",
+              "–"
+            ],
+            [
+              "Voc.",
+              "–",
+              "Gen.",
+              "suī"
+            ],
+            [
+              "Acc.",
+              "sē/sēsē",
+              "Dat.",
+              "sibi"
+            ],
+            [
+              "Gen.",
+              "suī",
+              "Acc.",
+              "sē/sēsē"
+            ],
+            [
+              "Dat.",
+              "sibi",
+              "Abl.",
+              "sē/sēsē"
+            ],
+            [
+              "Abl.",
+              "sē/sēsē",
+              "",
+              ""
+            ]
+          ]
         },
         {
           "t": "p",
-          "text": "In the third person the reflexive pronoun is sē, which has its own declension: it makes no distinction between singular and plural or between the three genders, but it does have distinct forms for different cases. British Case Order Ancient Case Order All numbers and genders All numbers and genders"
-        },
-        {
-          "t": "pre",
-          "text": "Nom. – Nom./Voc. – Voc. – Gen. suī Acc. sē/sēsē Dat. sibi Gen. suī Acc. sē/sēsē Dat. sibi Abl. sē/sēsē Abl. sē/sēsē"
+          "text": "The reflexive pronoun has no nominative or vocative, because the nature of a reflexive means that it is never used in those cases. Apart from that, it bears a strong resemblance to the personal pronouns ego and tū, and that resemblance includes the peculiarities of usage of those pronouns: the genitive suī is not used for possession, only for other uses such as the partitive or objective genitive, and the ablative combines with cum to form sēcum."
         },
         {
           "t": "p",
-          "text": "The reflexive pronoun has no nominative or vocative, because the nature of a reflexive means that it is never used in those cases."
+          "text": "sē docuit. ‘He taught himself.’ or ‘She taught herself.’"
         },
         {
           "t": "p",
-          "text": "Apart from that, it bears a strong resemblance to the personal pronouns ego and tū, and that resemblance includes the peculiarities of usage of those pronouns: the genitive suī is not used for possession, only for other uses such as the partitive or objective genitive, and the ablative combines with cum to form sēcum. sē docuit. ‘He taught himself.’ or ‘She taught herself.’ sē docuērunt."
+          "text": "sē docuērunt. ‘They taught themselves.’"
         },
         {
-          "t": "example",
-          "text": "‘They taught themselves.’ laus suī mala est. ‘Praise of oneself is bad.’ sibi bona dedērunt. ‘They gave themselves good things.’ sēcum fīlium dūxit. ‘He led his son with himself.’ (i.e. ‘He brought his son with him.’)"
+          "t": "p",
+          "text": "laus suī mala est. ‘Praise of oneself is bad.’"
+        },
+        {
+          "t": "p",
+          "text": "sibi bona dedērunt. ‘They gave themselves good things.’"
+        },
+        {
+          "t": "p",
+          "text": "sēcum fīlium dūxit. ‘He led his son with himself.’ (i.e. ‘He brought his son with him.’)"
         }
       ]
     },
     {
       "id": "section-2",
       "latin": "20.2 Reflexive Possession",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "20.2",
       "blocks": [
         {
           "t": "p",
-          "text": "Reflexive possession (that is, possession by the subject of the sentence) is indicated by the adjective suus, sua, suum and translated in English either with an ordinary possessive (‘his’, ‘her’, ‘their’) or with a reflexive possessive (‘his own’, ‘her own’, ‘their own’). urbem suam amat. ‘He loves his city.’ / ‘He loves his own city.’ nōmina sua dīxērunt."
+          "text": "Reflexive possession (that is, possession by the subject of the sentence) is indicated by the adjective suus, sua, suum and translated in English either with an ordinary possessive (‘his’, ‘her’, ‘their’) or with a reflexive possessive (‘his own’, ‘her own’, ‘their own’). urbem suam amat. ‘He loves his city.’ / ‘He loves his own city.’"
         },
         {
           "t": "p",
-          "text": "‘They said their names.’ / ‘They said their own names.’ But reflexive possession is not normally expressed in Latin when the word for the possessed thing implies relationship; when reflexive possession is expressed with such words, it is always emphatic. patrem amat. ‘He loves his father.’ (possessive not necessary as ‘father’ implies relationship) patrem suum interfēcit."
+          "text": "nōmina sua dīxērunt. ‘They said their names.’ / ‘They said their own names.’"
         },
         {
           "t": "p",
-          "text": "‘He killed his own father.’ (possessive used despite the fact that ‘father’ implies relationship, in order to emphasize the horror of the crime)"
+          "text": "But reflexive possession is not normally expressed in Latin when the word for the possessed thing implies relationship; when reflexive possession is expressed with such words, it is always emphatic. patrem amat. ‘He loves his father.’ (possessive not necessary as ‘father’ implies relationship) patrem suum interfēcit. ‘He killed his own father.’ (possessive used despite the fact that ‘father’ implies relationship, in order to emphasize the horror of the crime)"
         },
         {
-          "t": "h",
-          "text": "Practice"
+          "t": "practice"
+        },
+        {
+          "t": "ex",
+          "letter": "A",
+          "text": "Translate:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "illi se laudant.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "illa se laudavit."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "verba sua audire non potuit."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "verba sua audire non possunt."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "sese in aqua vidit."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "sese in aqua vident."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "gladium suum sepelivit."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "patrem sepelivit."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "equum novum sibi dedit."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "equos novos sibi dabunt."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "cives regem suum interfecerunt."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "matrem vocavit."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "cives liberi se regunt."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "in agrum se duxit."
+        },
+        {
+          "t": "ex",
+          "letter": "B",
+          "text": "Translate into Latin:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "He cannot read his own book.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "This man loves himself."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "The sheep saw themselves in the river."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "The sheep sees itself in the river."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "They heard their own words."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "He will not hear his own words."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "Miserable (men) do not help themselves."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "This miserable (woman) will help herself."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "Our men are hindering themselves."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "He will hinder himself."
         }
       ]
     },
     {
       "id": "section-3",
       "latin": "20.3 Translation of the Reflexive",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "20.3",
       "blocks": [
         {
           "t": "p",
-          "text": "The Latin reflexive is not always translated with ‘-self’ in English, because it is not always equivalent to an English reflexive. In two situations it is regularly the equivalent of English ‘he’/‘him’, ‘she’/‘her’, ‘they’/‘them’: in indirect statement and in purpose clauses."
+          "text": "The Latin reflexive is not always translated with ‘-self’ in English, because it is not always equivalent to an English reflexive. In two situations it is regularly the equivalent of English ‘he’/‘him’, ‘she’/‘her’, ‘they’/‘them’: in indirect statement and in purpose clauses. In indirect statement reflexives are used when the subject of the reported statement is the same as the subject of the main verb; in other words, when the subject of the original direct statement was ‘I’/‘we’."
         },
         {
           "t": "p",
-          "text": "In indirect statement reflexives are used when the subject of the reported statement is the same as the subject of the main verb; in other words, when the subject of the original direct statement was ‘I’/‘we’. dīxit sē ad urbem īvisse. ‘He said that he had gone to the city.’ (original direct statement: ‘I have gone to the city.’) dīxērunt sē pecūniam inventūrōs esse."
+          "text": "dīxit sē ad urbem īvisse. ‘He said that he had gone to the city.’ (original direct statement:"
         },
         {
           "t": "p",
-          "text": "‘They said that they would find the money.’ (original direct statement: ‘We shall find the money.’) In purpose clauses reflexives are used in the subordinate clause to refer back to the subject of the main verb. vēnit ut sē laudārēmus. ‘He came so that we would praise him.’ illī mē iūvērunt ut sē iuvārem."
+          "text": "‘I have gone to the city.’)"
         },
         {
           "t": "p",
-          "text": "‘Those men helped me so that I would help them.’ Therefore it is important when translating sē to think about the construction in which it occurs: in a main clause it is normally equivalent to English ‘himself’ etc., but in a subordinate clause it is normally equivalent to English ‘him’ etc."
+          "text": "dīxērunt sē pecūniam inventūrōs esse. ‘They said that they would find the money.’"
         },
         {
-          "t": "h",
-          "text": "Practice"
+          "t": "p",
+          "text": "(original direct statement: ‘We shall find the money.’)"
+        },
+        {
+          "t": "p",
+          "text": "In purpose clauses reflexives are used in the subordinate clause to refer back to the subject of the main verb."
+        },
+        {
+          "t": "p",
+          "text": "vēnit ut sē laudārēmus. ‘He came so that we would praise him.’"
+        },
+        {
+          "t": "p",
+          "text": "illī mē iūvērunt ut sē iuvārem. ‘Those men helped me so that I would help them.’"
+        },
+        {
+          "t": "p",
+          "text": "Therefore it is important when translating sē to think about the construction in which it occurs: in a main clause it is normally equivalent to English ‘himself’ etc., but in a subordinate clause it is normally equivalent to English ‘him’ etc."
+        },
+        {
+          "t": "practice"
+        },
+        {
+          "t": "ex",
+          "letter": "C",
+          "text": "Translate:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "dixit se me amare.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "dixerunt se ad urbem cucurrisse."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "pater meus dixit se ovem interfecturum esse."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "ad vos ivit ut se moneretis."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "rex noster se interfecit."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "rex dixit se bene regere."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "venit ut se iuvaretis."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "milites dicent se hostes vicisse."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "multi se amant."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "hic dicit se moenia refecturum esse."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "deos laudavit ut se iuvarent."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "illi se regere non possunt."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "frater tuus dicit se oves venditurum esse."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "milites se impediverunt."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "servi dixerunt se capita ovium sepelivisse."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "ad nos veniet ut se iuvemus."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "multi homines se docere non possunt."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "pueri dixerunt se pecuniam invenisse."
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "in silvam iverunt ne se videremus."
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "mater mea se iuvare non potuit."
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "ille dixit se magistrum bonum esse."
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "vos iuverunt ut se laudaretis."
+        },
+        {
+          "t": "li",
+          "n": 23,
+          "text": "hostes dixerunt se nostros victuros esse."
+        },
+        {
+          "t": "li",
+          "n": 24,
+          "text": "multi se laudant."
+        },
+        {
+          "t": "li",
+          "n": 25,
+          "text": "ad urbem venit ut se doceremus."
+        },
+        {
+          "t": "li",
+          "n": 26,
+          "text": "nostri dicunt se classem hostium vicisse."
+        },
+        {
+          "t": "li",
+          "n": 27,
+          "text": "ad nos scripserunt ne se impediremus."
+        },
+        {
+          "t": "li",
+          "n": 28,
+          "text": "hic epistulas sibi mittit."
+        },
+        {
+          "t": "li",
+          "n": 29,
+          "text": "dicit se gladium habere."
+        },
+        {
+          "t": "li",
+          "n": 30,
+          "text": "frater meus non me audit, sed se audit."
+        },
+        {
+          "t": "li",
+          "n": 31,
+          "text": "ex urbe exivit ne hostes se interficerent."
+        },
+        {
+          "t": "li",
+          "n": 32,
+          "text": "rex dixit se cives iuturum esse."
+        },
+        {
+          "t": "ex",
+          "letter": "D",
+          "text": "Translate into Latin using forms of sē:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "He said he had bought a horse.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "They will see themselves."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "They said that they would rule well."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "He wrote to me so that I would write to him."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "He is afraid of himself."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "He said that he would help us."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "The boys ran so that we would not capture them."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "They said they were praising the gods."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "Our mother did not kill herself."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "He called (to) us so that we would not seek him."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "They say that they are seeking (their) mother."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "My sister does not praise herself."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "He will say that he is seeking (his) father."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "They gave you money so that you would teach them."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "He said he would see us here."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "He cannot send himself to the city."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "He said that so that we would praise him."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "She said she would teach those boys."
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "These men have taught themselves."
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "She said she could teach those boys."
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "They ran so that we would not see them."
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "Does God love himself?"
+        },
+        {
+          "t": "li",
+          "n": 23,
+          "text": "They said they did not have money."
+        },
+        {
+          "t": "li",
+          "n": 24,
+          "text": "He gave us money so that we would help him."
+        },
+        {
+          "t": "li",
+          "n": 25,
+          "text": "He cannot hear himself."
+        },
+        {
+          "t": "li",
+          "n": 26,
+          "text": "He said that he had found this in the forest."
         }
       ]
     },
     {
       "id": "section-4",
-      "latin": "20.5 Vocabulary to Learn",
-      "english": "Grammar",
-      "kind": "commentary",
+      "latin": "20.4 Reading Practice",
+      "num": "20.4",
       "blocks": [
         {
-          "t": "example",
-          "text": "Verbs āmittō, āmittere, āmīsī, āmissum ‘lose’ fugiō, fugere, fūgī, fugitūrus ‘flee’ pugnō, pugnāre, pugnāvī, pugnātum ‘fight’ Nouns domina, dominae (f.) ‘mistress’ dominus, dominī (m.) ‘master’ Pronoun sē ‘himself’, ‘herself’, ‘themselves’ Adjective suus, sua, suum ‘his (own)’, ‘her (own)’, ‘their (own)’ Adverbs numquam ‘never’\nsaepe ‘often’\nsemper ‘always’"
+          "t": "p",
+          "text": "1 Livy, Ab urbe condita 1.51.3–4 (adapted): a king tries to get rid of someone by means of a false accusation (written in the first century bc about a much earlier and partly mythical period)."
+        },
+        {
+          "t": "p",
+          "text": "Tarquinius paulo ante lucem accitis ad se principibus Latinorum, quasi re nova perturbatus, dicit moram suam hesternam saluti sibi et illis fuisse: Turnum se et primores interfecturum esse, ut Latinos solus regat. hunc hesterno die haec facere voluisse, sed non potuisse quia afuerit."
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary (in order of first appearance; words that appear more than once are in bold)"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "Tarquinius, -ī (m.) ‘Tarquin’ (the name of an early king of Rome)",
+              "mora, morae (f.) ‘delay’ (Tarquin had not appeared when he was expected)"
+            ],
+            [
+              "paulō ‘a little’",
+              "hesternus, hesterna, hesternum ‘on the previous day’"
+            ],
+            [
+              "ante (+ accusative) ‘before’",
+              ""
+            ],
+            [
+              "lūx, lūcis (f.) ‘daylight’",
+              "salūtī sum (+ dative) ‘be the salvation of’"
+            ],
+            [
+              "accītīs prīncipibus ‘when the leading men had been summoned’",
+              "Turnus, -ī (m.) the name of a man"
+            ],
+            [
+              "",
+              "Tarquin did not like"
+            ],
+            [
+              "Latīnus, Latīna, Latīnum ‘Roman’",
+              "prīmor, prīmōris (m.) ‘nobleman’"
+            ],
+            [
+              "quasi ‘as if’",
+              "sōlus, sōla, sōlum ‘by himself’"
+            ],
+            [
+              "rē novā ‘by an attempt at revolution’",
+              "hesternō diē ‘on the previous day’"
+            ],
+            [
+              "perturbō, -āre, -āvī, -ātum ‘alarm’",
+              "volō, velle, voluī, – ‘want’"
+            ],
+            [
+              "",
+              "āfuerit ‘he (Tarquin) was absent’"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "2 Colloquium Montepessulanum 6a–b (adapted): a panegyric of a god (probably third century ad )."
+        },
+        {
+          "t": "p",
+          "text": "s tu d e n t: laudem scripsi."
+        },
+        {
+          "t": "passage",
+          "text": "cuius? s tu d e n t: Iovis Capitolini.",
+          "speaker": "teacher"
+        },
+        {
+          "t": "passage",
+          "text": "lege. (afterwards) bene dixisti; tolle coronam. nemo tibi contradicit.",
+          "speaker": "teacher"
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "laus, laudis (f.) ‘praise’, ‘panegyric’",
+              "corōna, corōnae (f.) ‘crown’ (indicating victory in a competition)"
+            ],
+            [
+              "Iuppiter, Iovis (m.) ‘Jupiter’",
+              ""
+            ],
+            [
+              "Capitōlīnus, -a, -um ‘Capitolinus’ (a title of Jupiter in Rome)",
+              "nēmō (m.) ‘no-one’ (nominative)"
+            ],
+            [
+              "",
+              "contrādīcō (like dīcō) ‘speak in opposition’ (takes object in dative)"
+            ],
+            [
+              "tollō, tollere, sustulī, sublātum ‘take’",
+              ""
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "3 Colloquium Harleianum 26a–d (adapted): a rebuke (second or third century ad )."
+        },
+        {
+          "t": "p",
+          "text": "Quid est, frater? cur non venisti ad templum? ego te sustinui et propter te tarde prandi."
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "templum, templī (n.) ‘temple’",
+              "tardē (adverb) ‘late’"
+            ],
+            [
+              "sustineō, sustinēre, sustinuī, sustentum ‘wait for’",
+              "prandeō, prandēre, prandī, prānsum ‘eat lunch’"
+            ],
+            [
+              "propter (+ accusative) ‘on account of’",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-5",
+      "latin": "20.5 Vocabulary to Learn",
+      "num": "20.5",
+      "blocks": [
+        {
+          "t": "vhead",
+          "text": "Verbs"
+        },
+        {
+          "t": "p",
+          "text": "āmittō, āmittere, āmīsī, āmissum ‘lose’"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "fugiō, fugere, fūgī, fugitūrus pugnō, pugnāre, pugnāvī, pugnātum ‘fight’",
+              "‘flee’"
+            ]
+          ]
+        },
+        {
+          "t": "vhead",
+          "text": "Nouns"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "domina, dominae (f.)",
+              "‘mistress’"
+            ],
+            [
+              "dominus, dominī (m.)",
+              "‘master’"
+            ]
+          ]
+        },
+        {
+          "t": "vhead",
+          "text": "Pronoun"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "sē",
+              "‘himself’, ‘herself’, ‘themselves’"
+            ]
+          ]
+        },
+        {
+          "t": "vhead",
+          "text": "Adjective"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "suus, sua, suum",
+              "‘his (own)’, ‘her (own)’, ‘their (own)’"
+            ]
+          ]
+        },
+        {
+          "t": "vhead",
+          "text": "Adverbs"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "numquam",
+              "‘never’"
+            ],
+            [
+              "saepe",
+              "‘often’"
+            ],
+            [
+              "semper",
+              "‘always’"
+            ]
+          ]
         }
       ]
     }
-  ],
-  "readings": [],
-  "grammar": [],
-  "vocabulary": [
-    {
-      "latin": "paulō",
-      "english": "a little",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "hesternus, hesterna, hesternum",
-      "english": "on the ante (+ accusative)",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "before",
-      "english": "previous day",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "Latīnus, Latīna, Latīnum",
-      "english": "Roman",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "quasi",
-      "english": "as if",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "sōlus, sōla, sōlum",
-      "english": "by himself",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "rē novā",
-      "english": "by an attempt at revolution",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "hesternō diē",
-      "english": "on the previous day",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "perturbō, -āre, -āvī, -ātum",
-      "english": "alarm",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "volō, velle, voluī, –",
-      "english": "want",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "āfuerit",
-      "english": "he (Tarquin) was absent",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "Capitōlīnus, -a, -um",
-      "english": "Capitolinus",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "tollō, tollere, sustulī, sublātum",
-      "english": "take",
-      "group": "Vocābula"
-    }
-  ],
-  "pensa": [
-    {
-      "latinLabel": "PRACTICE A",
-      "title": "Practice A",
-      "instruction": "A Translate:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 illi se laudant.",
-          "a": ""
-        },
-        {
-          "q": "8 patrem sepelivit.",
-          "a": ""
-        },
-        {
-          "q": "2 illa se laudavit.",
-          "a": ""
-        },
-        {
-          "q": "9 equum novum sibi dedit.",
-          "a": ""
-        },
-        {
-          "q": "3 verba sua audire non potuit.",
-          "a": ""
-        },
-        {
-          "q": "10 equos novos sibi dabunt.",
-          "a": ""
-        },
-        {
-          "q": "4 verba sua audire non possunt.",
-          "a": ""
-        },
-        {
-          "q": "11 cives regem suum interfecerunt.",
-          "a": ""
-        },
-        {
-          "q": "5 sese in aqua vidit.",
-          "a": ""
-        },
-        {
-          "q": "12 matrem vocavit.",
-          "a": ""
-        },
-        {
-          "q": "6 sese in aqua vident.",
-          "a": ""
-        },
-        {
-          "q": "13 cives liberi se regunt.",
-          "a": ""
-        },
-        {
-          "q": "7 gladium suum sepelivit.",
-          "a": ""
-        },
-        {
-          "q": "14 in agrum se duxit.",
-          "a": ""
-        }
-      ],
-      "id": "practice-20-a"
-    },
-    {
-      "latinLabel": "PRACTICE B",
-      "title": "Practice B",
-      "instruction": "B Translate into Latin:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 He cannot read his own book.",
-          "a": ""
-        },
-        {
-          "q": "7 Miserable (men) do not help",
-          "a": ""
-        },
-        {
-          "q": "2 This man loves himself. themselves.",
-          "a": ""
-        },
-        {
-          "q": "3 The sheep saw themselves in the",
-          "a": ""
-        },
-        {
-          "q": "8 This miserable (woman) will river. help herself.",
-          "a": ""
-        },
-        {
-          "q": "4 The sheep sees itself in the river.",
-          "a": ""
-        },
-        {
-          "q": "9 Our men are hindering",
-          "a": ""
-        },
-        {
-          "q": "5 They heard their own words. themselves.",
-          "a": ""
-        },
-        {
-          "q": "6 He will not hear his own words.",
-          "a": ""
-        },
-        {
-          "q": "10 He will hinder himself.",
-          "a": ""
-        }
-      ],
-      "id": "practice-20-b"
-    },
-    {
-      "latinLabel": "PRACTICE C",
-      "title": "Practice C",
-      "instruction": "C Translate:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 dixit se me amare.",
-          "a": ""
-        },
-        {
-          "q": "13 frater tuus dicit se oves vendi2 dixerunt se ad urbem cucurrisse. turum esse.",
-          "a": ""
-        },
-        {
-          "q": "3 pater meus dixit se ovem",
-          "a": ""
-        },
-        {
-          "q": "14 milites se impediverunt. interfecturum esse.",
-          "a": ""
-        },
-        {
-          "q": "15 servi dixerunt se capita ovium",
-          "a": ""
-        },
-        {
-          "q": "4 ad vos ivit ut se moneretis. sepelivisse.",
-          "a": ""
-        },
-        {
-          "q": "5 rex noster se interfecit.",
-          "a": ""
-        },
-        {
-          "q": "16 ad nos veniet ut se iuvemus.",
-          "a": ""
-        },
-        {
-          "q": "6 rex dixit se bene regere.",
-          "a": ""
-        },
-        {
-          "q": "17 multi homines se docere non",
-          "a": ""
-        },
-        {
-          "q": "7 venit ut se iuvaretis. possunt.",
-          "a": ""
-        },
-        {
-          "q": "8 milites dicent se hostes vicisse.",
-          "a": ""
-        },
-        {
-          "q": "18 pueri dixerunt se pecuniam",
-          "a": ""
-        },
-        {
-          "q": "9 multi se amant. invenisse.",
-          "a": ""
-        },
-        {
-          "q": "10 hic dicit se moenia refecturum",
-          "a": ""
-        },
-        {
-          "q": "19 in silvam iverunt ne se videremus. esse.",
-          "a": ""
-        },
-        {
-          "q": "20 mater mea se iuvare non potuit.",
-          "a": ""
-        },
-        {
-          "q": "11 deos laudavit ut se iuvarent.",
-          "a": ""
-        },
-        {
-          "q": "21 ille dixit se magistrum bonum",
-          "a": ""
-        },
-        {
-          "q": "12 illi se regere non possunt. esse. 130 Reflexives",
-          "a": ""
-        },
-        {
-          "q": "22 vos iuverunt ut se laudaretis.",
-          "a": ""
-        },
-        {
-          "q": "28 hic epistulas sibi mittit.",
-          "a": ""
-        },
-        {
-          "q": "23 hostes dixerunt se nostros",
-          "a": ""
-        },
-        {
-          "q": "29 dicit se gladium habere. victuros esse.",
-          "a": ""
-        },
-        {
-          "q": "30 frater meus non me audit, sed se",
-          "a": ""
-        },
-        {
-          "q": "24 multi se laudant. audit.",
-          "a": ""
-        },
-        {
-          "q": "25 ad urbem venit ut se doceremus.",
-          "a": ""
-        },
-        {
-          "q": "31 ex urbe exivit ne hostes se",
-          "a": ""
-        },
-        {
-          "q": "26 nostri dicunt se classem hostium interficerent. vicisse.",
-          "a": ""
-        },
-        {
-          "q": "32 rex dixit se cives iuturum esse.",
-          "a": ""
-        },
-        {
-          "q": "27 ad nos scripserunt ne se impediremus.",
-          "a": ""
-        }
-      ],
-      "id": "practice-20-c"
-    },
-    {
-      "latinLabel": "PRACTICE D",
-      "title": "Practice D",
-      "instruction": "D Translate into Latin using forms of sē:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 He said he had bought a horse.",
-          "a": ""
-        },
-        {
-          "q": "15 He said he would see us here.",
-          "a": ""
-        },
-        {
-          "q": "2 They will see themselves.",
-          "a": ""
-        },
-        {
-          "q": "16 He cannot send himself to the",
-          "a": ""
-        },
-        {
-          "q": "3 They said that they would rule city. well.",
-          "a": ""
-        },
-        {
-          "q": "17 He said that so that we would",
-          "a": ""
-        },
-        {
-          "q": "4 He wrote to me so that I would praise him. write to him.",
-          "a": ""
-        },
-        {
-          "q": "18 She said she would teach those",
-          "a": ""
-        },
-        {
-          "q": "5 He is afraid of himself. boys.",
-          "a": ""
-        },
-        {
-          "q": "6 He said that he would help us.",
-          "a": ""
-        },
-        {
-          "q": "19 These men have taught",
-          "a": ""
-        },
-        {
-          "q": "7 The boys ran so that we would themselves. not capture them.",
-          "a": ""
-        },
-        {
-          "q": "20 She said she could teach those",
-          "a": ""
-        },
-        {
-          "q": "8 They said they were praising the boys. gods.",
-          "a": ""
-        },
-        {
-          "q": "21 They ran so that we would not",
-          "a": ""
-        },
-        {
-          "q": "9 Our mother did not kill herself. see them.",
-          "a": ""
-        },
-        {
-          "q": "10 He called (to) us so that we",
-          "a": ""
-        },
-        {
-          "q": "22 Does God love himself? would not seek him.",
-          "a": ""
-        },
-        {
-          "q": "23 They said they did not have",
-          "a": ""
-        },
-        {
-          "q": "11 They say that they are seeking money. (their) mother.",
-          "a": ""
-        },
-        {
-          "q": "24 He gave us money so that we",
-          "a": ""
-        },
-        {
-          "q": "12 My sister does not praise herself. would help him.",
-          "a": ""
-        },
-        {
-          "q": "13 He will say that he is seeking",
-          "a": ""
-        },
-        {
-          "q": "25 He cannot hear himself. (his) father.",
-          "a": ""
-        },
-        {
-          "q": "26 He said that he had found this in",
-          "a": ""
-        },
-        {
-          "q": "14 They gave you money so that the forest. you would teach them.",
-          "a": ""
-        },
-        {
-          "q": "1 Livy, Ab urbe condita 1.51.3–",
-          "a": ""
-        },
-        {
-          "q": "4 (adapted): a king tries to get rid of someone by means of a false accusation (written in the first century bc about a much earlier and partly mythical period). Tarquinius paulo ante lucem accitis ad se principibus Latinorum, quasi re nova perturbatus, dicit moram suam hesternam saluti sibi et illis fuisse: Turnum se et primores interfecturum esse, ut Latinos solus regat. hunc hesterno die haec facere voluisse, sed non potuisse quia afuerit.",
-          "a": ""
-        }
-      ],
-      "id": "practice-20-d"
-    }
   ]
-}
+};
 
 export default chapter

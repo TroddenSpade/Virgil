@@ -2,170 +2,346 @@ const chapter = {
   "number": 18,
   "roman": "XVIII",
   "slug": "capitulum-18",
-  "latinTitle": "CAPVT XVIII",
   "title": "Reading Practice",
-  "tagline": "Grammar, vocabulary and practice",
   "status": "complete",
   "complete": true,
   "sections": [
     {
       "id": "section-1",
       "latin": "18.1 Colloquia Monacensia–Einsidlensia 2g–l (adapted)",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "18.1",
       "blocks": [
         {
           "t": "p",
-          "text": "A boy goes to school (perhaps first century ad): Veni in scholam. intravi, dixi: ‘Ave, magister’, et ipse me osculatus est et resalutavit. porrexit mihi puer meus scriniarius tabulas, thecam graphiariam, praeductorium. loco meo sedens delevi. praeduxi ad praescriptum; postquam scripsi, ostendi magistro; emendavit. iussit me legere; legi. iussus librum alii puero dedi. didici interpretamenta, reddidi."
+          "text": "A boy goes to school (perhaps first century ad):"
         },
         {
-          "t": "example",
-          "text": "sed statim dictavit mihi condiscipulus. ‘Et tu’, dixit, ‘dicta mihi’. dixi ei: ‘Redde primo’. et dixit mihi: ‘Nonne vidisti, cum redderem prior te?’ et dixi: ‘Mentiris, non reddidisti.’ ‘Non mentior.’ ‘Si verum dicis, dictabo tibi.’"
+          "t": "passage",
+          "text": "Veni in scholam. intravi, dixi: ‘Ave, magister’, et ipse me osculatus est et resalutavit. porrexit mihi puer meus scriniarius tabulas, thecam graphiariam, praeductorium. loco meo sedens delevi. praeduxi ad praescriptum; postquam scripsi, ostendi magistro; emendavit. iussit me legere; legi. iussus librum alii puero dedi. didici interpretamenta, reddidi. sed statim dictavit mihi condiscipulus. ‘Et tu’, dixit, ‘dicta mihi’. dixi ei: ‘Redde primo’. et dixit mihi: ‘Nonne vidisti, cum redderem prior te?’ et dixi: ‘Mentiris, non reddidisti.’ ‘Non mentior.’ ‘Si verum dicis, dictabo tibi.’"
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary (in order of first appearance; words that appear more than once are in bold)"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "schola, scholae (f.) ‘school’",
+              "praeductōrium, -ī (n.) ‘ruler’"
+            ],
+            [
+              "intrō, intrāre, intrāvī, intrātum ‘enter’",
+              "locō ‘in place’"
+            ],
+            [
+              "avē ‘hello!’",
+              "sedēns ‘sitting’"
+            ],
+            [
+              "ipse ‘himself’ (masculine nominative)",
+              "dēleō, dēlēre, dēlēvī, dēlētum ‘erase’ (the previous day’s work)"
+            ],
+            [
+              "ōsculātus est ‘he kissed’",
+              ""
+            ],
+            [
+              "resalūtō, -āre, -āvī, -ātum ‘return the greeting’",
+              "praedūcō (like dūcō) ‘rule lines’"
+            ],
+            [
+              "",
+              "ad (+ accusative) ‘following’"
+            ],
+            [
+              "porrigō, porrigere, porrēxi, porrēctum ‘hand’, ‘pass’",
+              "praescrīptum, -ī (n.) ‘model’"
+            ],
+            [
+              "",
+              "postquam ‘after’"
+            ],
+            [
+              "scrīniārius, -a, -um ‘in charge of carrying writing materials’ (a Roman schoolboy often had a personal slave boy to carry his things to and from school)",
+              "ostendō, ostendere, ostendī, ostentum ‘show’"
+            ],
+            [
+              "",
+              "ēmendō, -āre, -āvī, -ātum ‘correct’"
+            ],
+            [
+              "",
+              "iubeō, iubēre, iussī, iussum ‘order’ (therefore iussus = ‘ordered’ (see chapter 6.2), but here it is best translated ‘when ordered’, i.e. when the teacher asked him)"
+            ],
+            [
+              "tabula, tabulae (f.) ‘writing tablet’ (made of wax-coated wood; one could write on the wax using a sharp-pointed stylus and then erase the writing by smoothing out the wax with the flat end of the same stylus)",
+              ""
+            ],
+            [
+              "",
+              "alius, alia, aliud ‘another’, ‘other’ (alii is a dative singular)"
+            ],
+            [
+              "",
+              "dedī: there is only one book in the"
+            ],
+            [
+              "thēca, thēcae (f.) ‘case’",
+              "classroom, and different boys read"
+            ],
+            [
+              "graphiārius, -a, -um ‘for styluses’",
+              "from it in turn."
+            ],
+            [
+              "discō, discere, didicī, – ‘learn’",
+              "et ‘too’"
+            ],
+            [
+              "interpretāmentum, -ī (n.) ‘elementary language textbook’",
+              "eī ‘to him’"
+            ],
+            [
+              "",
+              "prīmō ‘first’"
+            ],
+            [
+              "reddō, reddere, reddidī, redditum ‘produce’ (from memory), ‘recite’",
+              "nōnne = nōn + -ne"
+            ],
+            [
+              "",
+              "cum redderem ‘when I recited’"
+            ],
+            [
+              "statim ‘at once’",
+              "prior tē ‘before you’"
+            ],
+            [
+              "dictō, dictāre, dictāvī, dictātum ‘give dictation practice’",
+              "mentīris ‘you are lying’"
+            ],
+            [
+              "",
+              "mentior ‘I am lying’"
+            ],
+            [
+              "condiscipulus, condiscipulī (m.) ‘fellow student’",
+              "sī ‘if’"
+            ],
+            [
+              "",
+              "vērus, vēra, vērum ‘true’"
+            ]
+          ]
         }
       ]
     },
     {
       "id": "section-2",
       "latin": "18.2 Colloquia Monacensia–Einsidlensia 2m–u (adapted)",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "18.2",
       "blocks": [
         {
           "t": "p",
-          "text": "Continuation of passage 18.1: Inter haec iubente magistro surgunt pusilli ad elementa, et syllabas praebet eis unus maiorum. alii ad subdoctorem ordine reddunt, nomina scribunt, versus scribunt, et ego in prima classe dictatum excipio. deinde postquam sedimus, pertranseo commentarium, lexicon, artem. vocatus ad lectionem audio expositiones et sensus. interrogatus artificia respondeo: ‘Ad quem dicit?’ et ‘Quae pars orationis?’."
+          "text": "Continuation of passage 18.1:"
+        },
+        {
+          "t": "passage",
+          "text": "Inter haec iubente magistro surgunt pusilli ad elementa, et syllabas praebet eis unus maiorum. alii ad subdoctorem ordine reddunt, nomina scribunt, versus scribunt, et ego in prima classe dictatum excipio. deinde postquam sedimus, pertranseo commentarium, lexicon, artem. vocatus ad lectionem audio expositiones et sensus. interrogatus artificia respondeo: ‘Ad quem dicit?’ et ‘Quae pars orationis?’. declino nomina, partior versum. postquam haec egimus, magister nos ad prandium dimittit. dimissus venio domum. muto, accipio panem candidum, olivas, caseum, caricas, nuces. bibo aquam frigidam. pransus revertor iterum in scholam. invenio magistrum perlegentem, et dicit: ‘Incipite ab initio.’"
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary (in order of first appearance; words that appear more than once are in bold, and those in bold in the preceding vocabulary list are omitted)"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "inter (+ accusative) ‘during’",
+              "the older child writes down for them"
+            ],
+            [
+              "iubente magistrō ‘when the teacher orders’",
+              "to read aloud. Only after learning to read syllables did ancient children"
+            ],
+            [
+              "surgō, surgere, surrēxī, surrēctum ‘rise’",
+              "progress to reading whole words.)"
+            ],
+            [
+              "pusillus, pusilla, pusillum ‘little’ (substantivized here)",
+              "eīs ‘to them’"
+            ],
+            [
+              "",
+              "ūnus, ūna, ūnum ‘one’"
+            ],
+            [
+              "ad (+ accusative) ‘for’ (i.e. ‘to recite’, ‘to do’)",
+              "maiōrēs, maiōrum (m. plural) ‘bigger children’"
+            ],
+            [
+              "elementum, elementī (n.) ‘letter’ (of the alphabet)",
+              "subdoctor, subdoctōris (m.) ‘teacher’s assistant’"
+            ],
+            [
+              "syllaba, syllabae (f.) ‘syllable’",
+              "ōrdine ‘in order’"
+            ],
+            [
+              "praebeō, praebēre, praebuī, praebitum ‘give’ (The idea is that once the children can read the individual letters, they practise reading syllables such as ‘ba’ or ‘mo’, which excipiō, excipere, excēpī, exceptum ‘receive’ (as an assignment)",
+              "versus, versūs (m.) ‘verse’ (accusative plural versūs)"
+            ],
+            [
+              "",
+              "prīmus, prīma, prīmum ‘first’"
+            ],
+            [
+              "",
+              "classis, classis, classium (f.) ‘class’"
+            ],
+            [
+              "",
+              "dictātum, dictātī (n.) ‘exercise’"
+            ],
+            [
+              "",
+              "partior, partīrī, partītus sum ‘parse’ (i.e. find the subject, verb, object, etc.)"
+            ],
+            [
+              "deinde ‘then’",
+              "(the imperative would be partire)"
+            ],
+            [
+              "sedeō, sedēre, sēdī, sessum ‘sit down’",
+              "prandium, prandiī (n.) ‘lunch’"
+            ],
+            [
+              "pertrānseō (like eō) ‘go through’",
+              "dīmittō (like mittō) ‘dismiss’ (translate dīmissus following the pattern of iussus in extract 18.1)"
+            ],
+            [
+              "commentārius, commentāriī (m.) ‘commentary’",
+              ""
+            ],
+            [
+              "lexicon, lexicī (n.) ‘dictionary’",
+              "domum ‘(to) home’"
+            ],
+            [
+              "ars, artis, artium (f.) ‘grammar book’",
+              "mūtō, mūtāre, mūtāvī, mūtātum ‘change (clothes)’"
+            ],
+            [
+              "vocō, vocāre, vocāvī, vocātum ‘call’ (translate vocātus following the pattern of iussus in extract 18.1)",
+              ""
+            ],
+            [
+              "",
+              "pānis, pānis, pānium (m.) ‘bread’"
+            ],
+            [
+              "",
+              "candidus, candida, candidum ‘white’"
+            ],
+            [
+              "lēctiō, lēctiōnis (f.) ‘reading (aloud)’",
+              "olīva, olīvae (f.) ‘olive’"
+            ],
+            [
+              "expositiō, expositiōnis (f.) ‘explanation’",
+              "cāseus, cāseī (m.) ‘cheese’"
+            ],
+            [
+              "sēnsūs ‘meanings’ (accusative plural)",
+              "cārica, cāricae (f.) ‘dried fig’"
+            ],
+            [
+              "interrogō, -āre, -āvī, -ātum ‘ask’ (translate interrogātus following the pattern of iussus in extract 18.1)",
+              "nux, nucis (f.) ‘nut’"
+            ],
+            [
+              "",
+              "bibō, bibere, bibī, – ‘drink’"
+            ],
+            [
+              "",
+              "frīgidus, frīgida, frīgidum"
+            ],
+            [
+              "artificium, artificiī (n.) ‘grammatical question’",
+              "‘chilled’"
+            ],
+            [
+              "",
+              "prānsus, prānsa, prānsum ‘having eaten lunch’"
+            ],
+            [
+              "respondeō, respondēre, respondī,",
+              ""
+            ],
+            [
+              "respōnsum ‘answer’",
+              "revertor ‘I return’"
+            ],
+            [
+              "pars, partis (f.) ‘part’",
+              "iterum ‘again’"
+            ],
+            [
+              "ōrātiō, ōrātiōnis (f.) ‘speech’",
+              "perlegēns, gen. perlegentis ‘reading (something) over’"
+            ],
+            [
+              "dēclīnō, dēclīnāre, dēclīnāvī,",
+              ""
+            ],
+            [
+              "dēclīnātum ‘decline’",
+              "incipiō (like capiō) ‘begin’"
+            ],
+            [
+              "nōmen can also mean ‘noun’",
+              "initium, initiī (n.) ‘beginning’"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-3",
+      "latin": "18.3 Translate into Latin",
+      "num": "18.3",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Use the story above as a model, making adjustments for differences as needed."
         },
         {
           "t": "p",
-          "text": "declino nomina, partior versum. postquam haec egimus, magister nos ad prandium dimittit. dimissus venio domum. muto, accipio panem candidum, olivas, caseum, caricas, nuces. bibo aquam frigidam. pransus revertor iterum in scholam. invenio magistrum perlegentem, et dicit: ‘Incipite ab initio.’"
-        }
-      ]
-    }
-  ],
-  "readings": [],
-  "grammar": [],
-  "vocabulary": [
-    {
-      "latin": "intrō, intrāre, intrāvī, intrātum",
-      "english": "enter",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "locō",
-      "english": "in place",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "avē",
-      "english": "hello!",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "sedēns",
-      "english": "sitting",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "ipse",
-      "english": "himself",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "dēleō, dēlēre, dēlēvī, dēlētum",
-      "english": "erase",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "postquam",
-      "english": "after",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "discō, discere, didicī, –",
-      "english": "learn",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "et",
-      "english": "too",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "cum redderem",
-      "english": "when I recited",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "statim",
-      "english": "at once",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "prior tē",
-      "english": "before you",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "dictō, dictāre, dictāvī, dictātum",
-      "english": "give mentīris",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "surgō, surgere, surrēxī, surrēctum",
-      "english": "rise",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "pusillus, pusilla, pusillum",
-      "english": "little",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "eīs",
-      "english": "to them",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "ūnus, ūna, ūnum",
-      "english": "one",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "ōrdine",
-      "english": "in order",
-      "group": "Vocābula"
-    }
-  ],
-  "pensa": [
-    {
-      "id": "translate-18",
-      "latinLabel": "18.3 TRANSLATE INTO LATIN",
-      "title": "18.3 Translate into Latin",
-      "instruction": "",
-      "type": "questions",
-      "items": [
-        {
-          "q": "Use the story above as a model, making adjustments for differences as needed.",
-          "a": ""
+          "text": "I entered into the school and said, ‘Hello, teacher! Hello, fellow students!’ I sat in my place and received1 from my boy in-charge-of-carrying-writing-materials a tablet and a ruler."
         },
         {
-          "q": "I entered into the school and said, ‘Hello, teacher!",
-          "a": ""
+          "t": "p",
+          "text": "I wrote words on (= in) the tablet, I wrote a verse. I showed my tablet to the teacher; he corrected (it). When the teacher ordered,2 the bigger children rose for readings. They answered grammatical questions: ‘Decline this!’ ‘Parse this verse!’ One of those boys gave us little ones letters and syllables. Then we went home to lunch. I changed, I received bread and cheese from my slave. Having eaten lunch I went to school again."
         },
         {
-          "q": "I wrote words on (= in) the tablet, I wrote a verse.",
-          "a": ""
+          "t": "note",
+          "n": 1,
+          "text": "Use accipiō not excipiō here (and for the other instance of ‘receive’ in this passage)."
         },
         {
-          "q": "I showed my tablet to the teacher; he corrected (it).",
-          "a": ""
-        },
-        {
-          "q": "Use the phrase translated above with ‘when the teacher orders’; this takes its tense in English from the surrounding context and will therefore mean ‘when the teacher ordered’ here.",
-          "a": ""
+          "t": "note",
+          "n": 2,
+          "text": "Use the phrase translated above with ‘when the teacher orders’; this takes its tense in English from the surrounding context and will therefore mean ‘when the teacher ordered’ here."
         }
       ]
     }
   ]
-}
+};
 
 export default chapter

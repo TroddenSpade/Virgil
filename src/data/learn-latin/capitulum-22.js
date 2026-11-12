@@ -2,247 +2,388 @@ const chapter = {
   "number": 22,
   "roman": "XXII",
   "slug": "capitulum-22",
-  "latinTitle": "CAPVT XXII",
   "title": "Reading Practice",
-  "tagline": "Grammar, vocabulary and practice",
   "status": "complete",
   "complete": true,
   "sections": [
     {
       "id": "section-1",
       "latin": "22.1 Colloquia Monacensia–Einsidlensia 6b–j (adapted)",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "22.1",
       "blocks": [
         {
           "t": "p",
-          "text": "An attempted visit to a sick friend (second or third century ad): marcus: si vis, veni mecum. gaius: quo? marcus: ad amicum nostrum Lucium; visitemus eum. gaius: quid enim habet? marcus: aegrotat. gaius: a quando? marcus: intra paucos dies incurrit. gaius: ubi habitat? marcus: non longe; si vis, ambula. (after a short walk) haec est, puto, domus eius. haec est."
+          "text": "An attempted visit to a sick friend (second or third century ad):"
+        },
+        {
+          "t": "passage",
+          "text": "si vis, veni mecum.",
+          "speaker": "marcus"
+        },
+        {
+          "t": "passage",
+          "text": "quo?",
+          "speaker": "gaius"
+        },
+        {
+          "t": "passage",
+          "text": "ad amicum nostrum Lucium; visitemus eum.",
+          "speaker": "marcus"
+        },
+        {
+          "t": "passage",
+          "text": "quid enim habet?",
+          "speaker": "gaius"
+        },
+        {
+          "t": "passage",
+          "text": "aegrotat.",
+          "speaker": "marcus"
+        },
+        {
+          "t": "passage",
+          "text": "a quando?",
+          "speaker": "gaius"
+        },
+        {
+          "t": "passage",
+          "text": "intra paucos dies incurrit.",
+          "speaker": "marcus"
+        },
+        {
+          "t": "passage",
+          "text": "ubi habitat?",
+          "speaker": "gaius"
+        },
+        {
+          "t": "passage",
+          "text": "non longe; si vis, ambula. (after a short walk) haec est, puto, domus eius. haec est.",
+          "speaker": "marcus"
+        },
+        {
+          "t": "passage",
+          "text": "ecce ianitor; interroga illum num possimus intrare et videre amicum nostrum.",
+          "speaker": "gaius"
+        },
+        {
+          "t": "passage",
+          "text": "quem petitis?",
+          "speaker": "por ter"
+        },
+        {
+          "t": "passage",
+          "text": "dominum tuum Lucium; de salute eius venimus.",
+          "speaker": "marcus"
+        },
+        {
+          "t": "passage",
+          "text": "ascendite.",
+          "speaker": "por ter"
+        },
+        {
+          "t": "passage",
+          "text": "quot scalas?",
+          "speaker": "marcus"
+        },
+        {
+          "t": "passage",
+          "text": "duas; ad dextram portam pulsate.",
+          "speaker": "por ter"
+        },
+        {
+          "t": "passage",
+          "text": "pulsemus. vide, quis est?",
+          "speaker": "marcus"
+        },
+        {
+          "t": "passage",
+          "text": "avete omnes.",
+          "speaker": "slave (opening door)"
+        },
+        {
+          "t": "passage",
+          "text": "dominum tuum volumus visitare. si vigilat, nuntia nos.",
+          "speaker": "marcus"
+        },
+        {
+          "t": "passage",
+          "text": "non est hic.",
+          "speaker": "slave"
+        },
+        {
+          "t": "passage",
+          "text": "quid dicis? sed ubi est?",
+          "speaker": "marcus"
+        },
+        {
+          "t": "passage",
+          "text": "descendit ad lauretum ut ambularet.",
+          "speaker": "slave"
+        },
+        {
+          "t": "passage",
+          "text": "gratulamur illi. cum venerit, dic illi nos ad eum venisse de salute eius gratulantes, quia omnia bona sunt.",
+          "speaker": "marcus"
+        },
+        {
+          "t": "passage",
+          "text": "sic faciam.",
+          "speaker": "slave"
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary (in order of first appearance; words that appear more than once are in bold)"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "sī ‘if’",
+              "intrō, intrāre, intrāvī, intrātum ‘enter’"
+            ],
+            [
+              "vīs ‘you want’",
+              "salūs, salūtis (f.) ‘health’"
+            ],
+            [
+              "quō ‘where’, ‘whither’",
+              "ascendō, ascendere, ascendī, ascēnsum"
+            ],
+            [
+              "vīsitō, -āre, -āvī, -ātum ‘go see’",
+              "‘go up’"
+            ],
+            [
+              "eum ‘him’",
+              "quot ‘how many?’"
+            ],
+            [
+              "enim ‘for’ (best omitted in translation here)",
+              "scāla, scālae (f.) ‘flight of stairs’"
+            ],
+            [
+              "",
+              "duās (f. accusative plural) ‘two’"
+            ],
+            [
+              "aegrōtō, -āre, -āvī, -ātum ‘be ill’",
+              "dexter, dextra, dextrum ‘right-hand’"
+            ],
+            [
+              "quandō ‘when’",
+              "porta, portae (f.) ‘door’"
+            ],
+            [
+              "intrā paucōs diēs ‘a few days ago’",
+              "pulsō, pulsāre, pulsāvī, pulsātum"
+            ],
+            [
+              "incurrō (like currō) ‘fall ill’ (here a present where we would expect a past, because Latin uses the present for an action that began in the past but continues in the present)",
+              "‘knock on’"
+            ],
+            [
+              "",
+              "avēte ‘hello’"
+            ],
+            [
+              "",
+              "volumus ‘we want’"
+            ],
+            [
+              "",
+              "vigilō, vigilāre, vigilāvī, vigilātum ‘be awake’"
+            ],
+            [
+              "habitō, -āre, -āvī, -ātum ‘live, dwell’",
+              "nūntiō, nūntiāre, nūntiāvī, nūntiātum"
+            ],
+            [
+              "longē ‘far off’",
+              "‘announce’"
+            ],
+            [
+              "ambulō, -āre, -āvī, -ātum ‘walk’, ‘walk on’",
+              "dēscendō, dēscendere, dēscendī,"
+            ],
+            [
+              "",
+              "dēscēnsum ‘go down’"
+            ],
+            [
+              "putō, putāre, putāvī, putātum ‘think’",
+              "laurētum, laurētī (n.) ‘laurel grove’"
+            ],
+            [
+              "domus, domī (f.) ‘house’",
+              "grātulāmur (+ dative) ‘we congratulate’"
+            ],
+            [
+              "eius (indeclinable) ‘his’",
+              "cum vēnerit ‘when he comes’ (see chapter 47.2 for the construction)"
+            ],
+            [
+              "ecce ‘look!’",
+              ""
+            ],
+            [
+              "iānitor, iānitōris (m.) ‘doorman’",
+              "grātulantēs is a present participle of"
+            ],
+            [
+              "interrogō, -āre, -āvī, -ātum ‘ask’",
+              "grātulor ‘congratulate’"
+            ],
+            [
+              "num (+ subjunctive) ‘whether’",
+              "sīc ‘thus, so’"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-2",
+      "latin": "22.2 Colloquium Harleianum 12a–f (adapted)",
+      "num": "22.2",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "A very unrealistic representation of how a lawyer finds a job (perhaps third century ad). Because many people who learned Latin did so in order to become lawyers, ancient Latin teachers painted a rosy picture of the life of a lawyer in an effort to encourage people to study Latin."
         },
         {
           "t": "p",
-          "text": "gaius: ecce ianitor; interroga illum num possimus intrare et videre amicum nostrum. porter: quem petitis? marcus: dominum tuum Lucium; de salute eius venimus. porter: ascendite. marcus: quot scalas? porter: duas; ad dextram portam pulsate. marcus: pulsemus. vide, quis est? slave (opening door): avete omnes. marcus: dominum tuum volumus visitare. si vigilat, nuntia nos. slave: non est hic. marcus: quid dicis? sed ubi est?"
+          "text": "r i c h f r i en d : domine, salve."
         },
         {
-          "t": "p",
-          "text": "slave: descendit ad lauretum ut ambularet. marcus: gratulamur illi. cum venerit, dic illi nos ad eum venisse de salute eius gratulantes, quia omnia bona sunt. slave: sic faciam."
+          "t": "passage",
+          "text": "salvus sis semper, amice. r i c h f r i en d : quomodo sunt res tuae? omnia bene?",
+          "speaker": "lawyer"
+        },
+        {
+          "t": "passage",
+          "text": "quomodo dei volunt. r i c h f r i en d : quid nunc agis?",
+          "speaker": "lawyer"
+        },
+        {
+          "t": "passage",
+          "text": "agebam, nunc autem vacat mihi. r i c h f r i en d : volo tibi iniungere administrationem meae actionis. eamus; ambula et ego tibi dabo quod agas. omnium enim bonorum dignus es.",
+          "speaker": "lawyer"
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary (in order of first appearance; words that appear more than once are in bold, and those in bold in the preceding vocabulary list are omitted)"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "salvē ‘hello’",
+              "volō, velle, voluī, – ‘want’"
+            ],
+            [
+              "salvus, salva, salvum ‘well’",
+              "iniungō, iniungere, iniūnxī, iniūnctum"
+            ],
+            [
+              "quōmodo ‘how’, ‘as’",
+              "(+ dative and accusative) ‘hand over to’"
+            ],
+            [
+              "rēs tuae ‘your affairs’ (nominative plural)",
+              ""
+            ],
+            [
+              "",
+              "administrātiō, administrātiōnis (f.)"
+            ],
+            [
+              "volunt ‘(they) want’",
+              "‘management’"
+            ],
+            [
+              "agēbam ‘I was doing things’ (imperfect tense of agō)",
+              "āctiō, āctiōnis (f.) ‘court case’"
+            ],
+            [
+              "",
+              "quod agās ‘something for you to do’"
+            ],
+            [
+              "autem ‘however’ (translate one word earlier than where it appears in Latin)",
+              "enim ‘for’ (in the sense of ‘because’; translate one word earlier than where it appears in Latin)"
+            ],
+            [
+              "vacat mihi ‘I don’t have anything to do’",
+              "dignus, digna, dignum ‘worthy of’"
+            ]
+          ]
         }
       ]
     },
     {
       "id": "section-3",
-      "latin": "22.2 Colloquium Harleianum 12a–f (adapted)",
-      "english": "Grammar",
-      "kind": "commentary",
+      "latin": "22.3 Translate into Latin",
+      "num": "22.3",
       "blocks": [
         {
-          "t": "p",
-          "text": "A very unrealistic representation of how a lawyer finds a job (perhaps third century ad). Because many people who learned Latin did so in order to become lawyers, ancient Latin teachers painted a rosy picture of the life of a lawyer in an effort to encourage people to study Latin. rich friend: domine, salve. lawyer: salvus sis semper, amice. rich friend: quomodo sunt res tuae? omnia bene? lawyer: quomodo dei volunt."
+          "t": "passage",
+          "text": "Come with me in order to see Lucius.",
+          "speaker": "marcus",
+          "lang": "en"
         },
         {
-          "t": "p",
-          "text": "rich friend: quid nunc agis? lawyer: agebam, nunc autem vacat mihi. rich friend: volo tibi iniungere administrationem meae actionis. eamus; ambula et ego tibi dabo quod agas. omnium enim bonorum dignus es."
-        }
-      ]
-    }
-  ],
-  "readings": [],
-  "grammar": [],
-  "vocabulary": [
-    {
-      "latin": "sī",
-      "english": "if",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "intrō, intrāre, intrāvī, intrātum",
-      "english": "enter",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "vīs",
-      "english": "you want",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "quō",
-      "english": "where",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "ascendō, ascendere, ascendī, ascēnsum vīsitō, -āre, -āvī, -ātum",
-      "english": "go see",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "eum",
-      "english": "him",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "quot",
-      "english": "how many?",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "enim",
-      "english": "for",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "aegrōtō, -āre, -āvī, -ātum",
-      "english": "be ill",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "dexter, dextra, dextrum",
-      "english": "right-hand",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "quandō",
-      "english": "when",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "intrā paucōs diēs",
-      "english": "a few days ago",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "a present where we would expect avēte",
-      "english": "hello",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "habitō, -āre, -āvī, -ātum",
-      "english": "live, dwell",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "nūntiō, nūntiāre, nūntiāvī, nūntiātum longē",
-      "english": "far off",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "ambulō, -āre, -āvī, -ātum",
-      "english": "walk",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "dēscēnsum",
-      "english": "go down",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "putō, putāre, putāvī, putātum",
-      "english": "think",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "cum vēnerit",
-      "english": "when he comes",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "grātulor",
-      "english": "congratulate",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "sīc",
-      "english": "thus, so",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "salvē",
-      "english": "hello",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "volō, velle, voluī, –",
-      "english": "want",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "salvus, salva, salvum",
-      "english": "well",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "iniungō, iniungere, iniūnxī, iniūnctum quōmodo",
-      "english": "how",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "your affairs",
-      "english": "(nominative over to",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "volunt",
-      "english": "(they) want",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "agēbam",
-      "english": "I was doing things",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "quod agās",
-      "english": "something for you to do",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "autem",
-      "english": "however",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "vacat mihi",
-      "english": "I don",
-      "group": "Vocābula"
-    }
-  ],
-  "pensa": [
-    {
-      "id": "translate-22",
-      "latinLabel": "22.3 TRANSLATE INTO LATIN",
-      "title": "22.3 Translate into Latin",
-      "instruction": "",
-      "type": "questions",
-      "items": [
-        {
-          "q": "marcus: Come with me in order to see Lucius.",
-          "a": ""
+          "t": "passage",
+          "text": "Why?",
+          "speaker": "gaius",
+          "lang": "en"
         },
         {
-          "q": "marcus: He lives here; this is his house.",
-          "a": ""
+          "t": "passage",
+          "text": "He is ill.",
+          "speaker": "marcus",
+          "lang": "en"
         },
         {
-          "q": "gaius: Let’s knock on the door.",
-          "a": ""
+          "t": "passage",
+          "text": "Let’s go. Where does he live?",
+          "speaker": "gaius",
+          "lang": "en"
         },
         {
-          "q": "Whom are you seeking?",
-          "a": ""
+          "t": "passage",
+          "text": "He lives here; this is his house.",
+          "speaker": "marcus",
+          "lang": "en"
         },
         {
-          "q": "marcus: We are seeking your master.",
-          "a": ""
+          "t": "passage",
+          "text": "Let’s knock on the door.",
+          "speaker": "gaius",
+          "lang": "en"
         },
         {
-          "q": "We have heard that our friend Lucius is ill and we want to see him: is he awake?",
-          "a": ""
+          "t": "passage",
+          "text": "Hello! Whom are you seeking?",
+          "speaker": "por ter",
+          "lang": "en"
         },
         {
-          "q": "porter: Lucius does not live here; my master’s name is Titus.",
-          "a": ""
+          "t": "passage",
+          "text": "We are seeking your master. We have heard that our friend Lucius is ill and we want to see him: is he awake?",
+          "speaker": "marcus",
+          "lang": "en"
+        },
+        {
+          "t": "passage",
+          "text": "Lucius does not live here; my master’s name is Titus. PART III",
+          "speaker": "por ter",
+          "lang": "en"
         }
       ]
     }
   ]
-}
+};
 
 export default chapter

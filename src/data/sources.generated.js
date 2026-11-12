@@ -974,6 +974,34 @@ export const sources =
         "roman": "LXVI",
         "title": "The Metre of Virgil’s Aeneid",
         "latinTitle": null
+      },
+      {
+        "id": "cumulative-vocabulary-latin-english",
+        "number": null,
+        "roman": "L→E",
+        "title": "Cumulative Vocabulary, Latin to English",
+        "latinTitle": null
+      },
+      {
+        "id": "cumulative-vocabulary-english-latin",
+        "number": null,
+        "roman": "E→L",
+        "title": "Cumulative Vocabulary, English to Latin",
+        "latinTitle": null
+      },
+      {
+        "id": "index-of-grammatical-topics",
+        "number": null,
+        "roman": "Topics",
+        "title": "Index of Grammatical Topics Covered",
+        "latinTitle": null
+      },
+      {
+        "id": "index-of-latin-passages",
+        "number": null,
+        "roman": "Idx",
+        "title": "Index of Latin Passages Included",
+        "latinTitle": null
       }
     ]
   },

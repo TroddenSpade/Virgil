@@ -9,6 +9,7 @@ import Pensum from '../components/Pensum.jsx'
 import CommentarySection, { Inline } from '../components/Commentary.jsx'
 import CompanionVocabulary, { CompanionNotes } from '../components/CompanionVocabulary.jsx'
 import KeywordChips from '../components/KeywordChips.jsx'
+import DickeyChapter from '../components/DickeyChapter.jsx'
 
 const ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII']
 
@@ -18,6 +19,11 @@ export default function ChapterPage() {
   const chapter = book?.chapters.find((c) => c.slug === chapterSlug && c.complete)
 
   if (!book || !chapter) return <Navigate to={`/library/${bookSlug || ''}`} replace />
+
+  // Learn Latin from the Romans is re-typeset page-faithfully from the book.
+  if (book.slug === 'learn-latin-from-the-romans') {
+    return <DickeyChapter book={book} chapter={chapter} />
+  }
 
   return <Lesson book={book} chapter={chapter} />
 }

@@ -2,628 +2,798 @@ const chapter = {
   "number": 17,
   "roman": "XVII",
   "slug": "capitulum-17",
-  "latinTitle": "CAPVT XVII",
   "title": "Fourth and Mixed Conjugations",
-  "tagline": "Grammar, vocabulary and practice",
   "status": "complete",
   "complete": true,
   "sections": [
     {
-      "id": "section-0",
-      "latin": "Introduction",
-      "english": "Introduction",
-      "kind": "commentary",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "Latin verbs are divided into five conjugations; in addition to the three that you have already learned there is a fourth conjugation and a ‘mixed’ conjugation with characteristics of both third and fourth conjugations. The mixed conjugation is also called ‘third conjugation in -iō’ or ‘third conjugation i-stems’. These verbs are conjugated"
-        },
-        {
-          "t": "example",
-          "text": ""
-        },
-        {
-          "t": "example",
-          "text": "Third conjugation regō, regere, rēxī, Fourth conjugation Mixed conjugation rēctum ‘rule’ (for audiō, audīre, audīvī, capiō, capere, cēpī, comparison) audītum ‘hear’\ncaptum ‘take’, ‘capture’"
-        },
-        {
-          "t": "pre",
-          "text": "Present regō audiō capiō active regis audīs capis indicative regit audit capit"
-        },
-        {
-          "t": "p",
-          "text": "regimus audīmus capimus regitis audītis capitis regunt audiunt capiunt"
-        },
-        {
-          "t": "pre",
-          "text": "Future regam audiam capiam active regēs audiēs capiēs indicative reget audiet capiet"
-        },
-        {
-          "t": "p",
-          "text": "regēmus audiēmus capiēmus regētis audiētis capiētis regent audient capient"
-        },
-        {
-          "t": "p",
-          "text": "Perfect rēxī audīvī cēpī active rēxistī audīvistī cēpistī indicative rēxit audīvit cēpit"
-        },
-        {
-          "t": "p",
-          "text": "rēximus audīvimus cēpimus rēxistis audīvistis cēpistis rēxērunt audīvērunt cēpērunt"
-        },
-        {
-          "t": "h",
-          "text": "Imperative rege audī cape1"
-        },
-        {
-          "t": "h",
-          "text": "regite audīte capite"
-        },
-        {
-          "t": "p",
-          "text": "The imperative of faciō is irregular: fac, facite."
-        },
-        {
-          "t": "example",
-          "text": "Third conjugation regō, regere, rēxī, Fourth conjugation Mixed conjugation rēctum ‘rule’ (for audiō, audīre, audīvī, capiō, capere, cēpī, comparison) audītum ‘hear’\ncaptum ‘take’, ‘capture’"
-        },
-        {
-          "t": "pre",
-          "text": "Present regam audiam capiam active regās audiās capiās subjunctive regat audiat capiat"
-        },
-        {
-          "t": "p",
-          "text": "regāmus audiāmus capiāmus regātis audiātis capiātis regant audiant capiant"
-        },
-        {
-          "t": "pre",
-          "text": "Imperfect regerem audīrem caperem active regerēs audīrēs caperēs subjunctive regeret audīret caperet"
-        },
-        {
-          "t": "p",
-          "text": "regerēmus audīrēmus caperēmus regerētis audīrētis caperētis regerent audīrent caperent"
-        },
-        {
-          "t": "p",
-          "text": "As with the first and second conjugations, in the perfect indicative and imperfect"
-        },
-        {
-          "t": "p",
-          "text": "subjunctive these verbs take exactly the same endings as the third-conjugation verbs. In the present and future indicative and in the present subjunctive they also take the same endings, with the addition of an -iwherever there is not already an -i-."
-        },
-        {
-          "t": "p",
-          "text": "Like verbs of the first three conjugations, fourth-conjugation verbs can be identified"
-        },
-        {
-          "t": "p",
-          "text": "by their second principal parts: their infinitives end in -īre. Mixed-conjugation verbs are trickier to spot, since their second principal parts end in -ere like those of thirdconjugation verbs: one has to use the combination of a first principal part in -iō (which third-conjugation verbs never have, though fourth-conjugation ones do) and a second principal part in -ere (which fourth-conjugation verbs never have, though thirdconjugation ones do) to identify verbs of the mixed conjugation."
-        }
-      ]
-    },
-    {
       "id": "section-1",
-      "latin": "Fourth and Mixed Conjugations",
-      "english": "Chapter",
-      "kind": "commentary",
+      "latin": "17.1 Fourth and Mixed Conjugations",
+      "num": "17.1",
       "blocks": [
         {
           "t": "p",
-          "text": "Latin verbs are divided into five conjugations; in addition to the three that you have already learned there is a fourth conjugation and a ‘mixed’ conjugation with characteristics of both third and fourth conjugations. The mixed conjugation is also called ‘third conjugation in -iō’ or ‘third conjugation i-stems’. These verbs are conjugated"
-        },
-        {
-          "t": "example",
-          "text": ""
-        },
-        {
-          "t": "example",
-          "text": "Third conjugation regō, regere, rēxī, Fourth conjugation Mixed conjugation rēctum ‘rule’ (for audiō, audīre, audīvī, capiō, capere, cēpī, comparison) audītum ‘hear’\ncaptum ‘take’, ‘capture’"
-        },
-        {
-          "t": "pre",
-          "text": "Present regō audiō capiō active regis audīs capis indicative regit audit capit"
+          "text": "Latin verbs are divided into five conjugations; in addition to the three that you have already learned there is a fourth conjugation and a ‘mixed’ conjugation with characteristics of both third and fourth conjugations. The mixed conjugation is also called ‘third conjugation in -iō’ or ‘third conjugation i-stems’. These verbs are conjugated as follows:"
         },
         {
           "t": "p",
-          "text": "regimus audīmus capimus regitis audītis capitis regunt audiunt capiunt"
+          "text": "Third conjugation"
         },
         {
-          "t": "pre",
-          "text": "Future regam audiam capiam active regēs audiēs capiēs indicative reget audiet capiet"
-        },
-        {
-          "t": "p",
-          "text": "regēmus audiēmus capiēmus regētis audiētis capiētis regent audient capient"
-        },
-        {
-          "t": "p",
-          "text": "Perfect rēxī audīvī cēpī active rēxistī audīvistī cēpistī indicative rēxit audīvit cēpit"
-        },
-        {
-          "t": "p",
-          "text": "rēximus audīvimus cēpimus rēxistis audīvistis cēpistis rēxērunt audīvērunt cēpērunt"
-        },
-        {
-          "t": "h",
-          "text": "Imperative rege audī cape1"
-        },
-        {
-          "t": "h",
-          "text": "regite audīte capite"
-        },
-        {
-          "t": "p",
+          "t": "note",
+          "n": 1,
           "text": "The imperative of faciō is irregular: fac, facite."
         },
         {
-          "t": "example",
-          "text": "Third conjugation regō, regere, rēxī, Fourth conjugation Mixed conjugation rēctum ‘rule’ (for audiō, audīre, audīvī, capiō, capere, cēpī, comparison) audītum ‘hear’\ncaptum ‘take’, ‘capture’"
-        },
-        {
-          "t": "pre",
-          "text": "Present regam audiam capiam active regās audiās capiās subjunctive regat audiat capiat"
+          "t": "table",
+          "header": [
+            "",
+            "regō, regere, rēxī, rēctum ‘rule’ (for comparison)",
+            "",
+            "Fourth conjugation audiō, audīre, audīvī, audītum ‘hear’",
+            "Mixed conjugation capiō, capere, cēpī, captum ‘take’, ‘capture’"
+          ],
+          "rows": [
+            [
+              "Present",
+              "regō",
+              "",
+              "audiō",
+              "capiō"
+            ],
+            [
+              "active",
+              "regis",
+              "",
+              "audīs",
+              "capis"
+            ],
+            [
+              "indicative",
+              "regit",
+              "",
+              "audit",
+              "capit"
+            ],
+            [
+              "",
+              "regimus",
+              "",
+              "audīmus",
+              "capimus"
+            ],
+            [
+              "",
+              "regitis",
+              "",
+              "audītis",
+              "capitis"
+            ],
+            [
+              "",
+              "regunt",
+              "",
+              "audiunt",
+              "capiunt"
+            ],
+            [
+              "Future",
+              "regam",
+              "",
+              "audiam",
+              "capiam"
+            ],
+            [
+              "active",
+              "regēs",
+              "",
+              "audiēs",
+              "capiēs"
+            ],
+            [
+              "indicative",
+              "reget",
+              "",
+              "audiet",
+              "capiet"
+            ],
+            [
+              "",
+              "regēmus",
+              "",
+              "audiēmus",
+              "capiēmus"
+            ],
+            [
+              "",
+              "regētis",
+              "",
+              "audiētis",
+              "capiētis"
+            ],
+            [
+              "",
+              "regent",
+              "",
+              "audient",
+              "capient"
+            ],
+            [
+              "Perfect",
+              "rēxī",
+              "",
+              "audīvī",
+              "cēpī"
+            ],
+            [
+              "active",
+              "rēxistī",
+              "",
+              "audīvistī",
+              "cēpistī"
+            ],
+            [
+              "indicative",
+              "rēxit",
+              "",
+              "audīvit",
+              "cēpit"
+            ],
+            [
+              "",
+              "rēximus",
+              "",
+              "audīvimus",
+              "cēpimus"
+            ],
+            [
+              "",
+              "rēxistis",
+              "",
+              "audīvistis",
+              "cēpistis"
+            ],
+            [
+              "",
+              "rēxērunt",
+              "",
+              "audīvērunt",
+              "cēpērunt"
+            ],
+            [
+              "Imperative",
+              "rege",
+              "",
+              "audī",
+              "cape1"
+            ],
+            [
+              "",
+              "regite Third conjugation regō, regere, rēxī, rēctum ‘rule’ (for comparison)",
+              "",
+              "audīte Fourth conjugation audiō, audīre, audīvī, audītum ‘hear’",
+              "capite Mixed conjugation capiō, capere, cēpī, captum ‘take’, ‘capture’"
+            ],
+            [
+              "Present",
+              "regam",
+              "audiam",
+              "",
+              "capiam"
+            ],
+            [
+              "active",
+              "regās",
+              "audiās",
+              "",
+              "capiās"
+            ],
+            [
+              "subjunctive",
+              "regat regāmus regātis regant",
+              "audiat",
+              "",
+              "capiat capiāmus capiātis capiant"
+            ],
+            [
+              "",
+              "",
+              "audiāmus",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "audiātis",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "audiant",
+              "",
+              ""
+            ],
+            [
+              "Imperfect",
+              "regerem",
+              "audīrem",
+              "",
+              "caperem"
+            ],
+            [
+              "active",
+              "regerēs",
+              "audīrēs",
+              "",
+              "caperēs"
+            ],
+            [
+              "subjunctive",
+              "regeret regerēmus regerētis regerent",
+              "audīret",
+              "",
+              "caperet caperēmus caperētis caperent"
+            ],
+            [
+              "",
+              "",
+              "audīrēmus",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "audīrētis",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "audīrent",
+              "",
+              ""
+            ]
+          ]
         },
         {
           "t": "p",
-          "text": "regāmus audiāmus capiāmus regātis audiātis capiātis regant audiant capiant"
-        },
-        {
-          "t": "pre",
-          "text": "Imperfect regerem audīrem caperem active regerēs audīrēs caperēs subjunctive regeret audīret caperet"
+          "text": "As with the first and second conjugations, in the perfect indicative and imperfect subjunctive these verbs take exactly the same endings as the third-conjugation verbs."
         },
         {
           "t": "p",
-          "text": "regerēmus audīrēmus caperēmus regerētis audīrētis caperētis regerent audīrent caperent"
+          "text": "In the present and future indicative and in the present subjunctive they also take the same endings, with the addition of an -iwherever there is not already an -i-."
         },
         {
           "t": "p",
-          "text": "As with the first and second conjugations, in the perfect indicative and imperfect"
+          "text": "Like verbs of the first three conjugations, fourth-conjugation verbs can be identified by their second principal parts: their infinitives end in -īre. Mixed-conjugation verbs are trickier to spot, since their second principal parts end in -ere like those of thirdconjugation verbs: one has to use the combination of a first principal part in -iō (which third-conjugation verbs never have, though fourth-conjugation ones do) and a second principal part in -ere (which fourth-conjugation verbs never have, though thirdconjugation ones do) to identify verbs of the mixed conjugation."
         },
         {
-          "t": "p",
-          "text": "subjunctive these verbs take exactly the same endings as the third-conjugation verbs. In the present and future indicative and in the present subjunctive they also take the same endings, with the addition of an -iwherever there is not already an -i-."
+          "t": "practice"
         },
         {
-          "t": "p",
-          "text": "Like verbs of the first three conjugations, fourth-conjugation verbs can be identified"
+          "t": "ex",
+          "letter": "A",
+          "text": "Identify the conjugations to which each of these verbs belongs:"
         },
         {
-          "t": "p",
-          "text": "by their second principal parts: their infinitives end in -īre. Mixed-conjugation verbs are trickier to spot, since their second principal parts end in -ere like those of thirdconjugation verbs: one has to use the combination of a first principal part in -iō (which third-conjugation verbs never have, though fourth-conjugation ones do) and a second principal part in -ere (which fourth-conjugation verbs never have, though thirdconjugation ones do) to identify verbs of the mixed conjugation."
+          "t": "li",
+          "n": 1,
+          "text": "veniō, venīre, vēnī, ventum ‘come’",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "accipiō, accipere, accēpī, acceptum ‘receive’"
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "agō, agere, ēgī, āctum ‘drive’, ‘do’"
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "impediō, impedīre, impedīvī, impedītum ‘hinder’"
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "interficiō, interficere, interfēcī, interfectum ‘kill’"
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "inveniō, invenīre, invēnī, inventum ‘find’"
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "vīvō, vīvere, vīxī, vīctum ‘live’"
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "reficiō, reficere, refēcī, refectum ‘repair’"
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "sentiō, sentīre, sēnsī, sēnsum ‘perceive’, ‘feel’"
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "sepeliō, sepelīre, sepelīvī, sepultum ‘bury’"
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "vendō, vendere, vendidī, venditum ‘sell’"
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "faciō, facere, fēcī, factum ‘do’, ‘make’"
+        },
+        {
+          "t": "ex",
+          "letter": "B",
+          "text": "Conjugate in the form indicated:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "veniō, present active indicative",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "faciō, future active indicative"
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "impediō, perfect active indicative"
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "interficiō, present active subjunctive"
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "inveniō, imperative active"
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "accipiō, future active indicative"
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "reficiō, imperfect active subjunctive"
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "sentiō, present active subjunctive"
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "sepeliō, present active indicative"
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "vendō, future active indicative"
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "veniō, perfect active indicative"
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "vīvō, present active subjunctive"
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "agō, present active indicative"
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "audiō, future active indicative"
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "faciō, imperative active"
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "impediō, imperfect active subjunctive"
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "interficiō, present active indicative"
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "inveniō, present active subjunctive"
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "accipiō, imperative active"
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "reficiō, future active indicative"
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "sentiō, perfect active indicative"
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "sepeliō, present active subjunctive"
+        },
+        {
+          "t": "li",
+          "n": 23,
+          "text": "vendō, present active subjunctive"
+        },
+        {
+          "t": "li",
+          "n": 24,
+          "text": "veniō, future active indicative"
+        },
+        {
+          "t": "ex",
+          "letter": "C",
+          "text": "Translate:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "moenia reficiamus ne hostes urbem capiant.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "moenia refecimus ne hostes urbem caperent."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "moenia reficiemus ne hostes urbem capiant."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "quis oves bonas vendit?"
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "quem interfecit frater illius?"
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "cuius nomen audivisti?"
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "frater meus multas oves vendidit ut pecuniam haberet."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "frater meus multas oves vendet ut pecunicam habeat."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "frater, oves vende ut pecuniam habeas!"
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "oves vendamus ut pecuniam habeamus."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "quid invenisti?"
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "cui dedit rex hanc urbem?"
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "cum quibus regem audivisti?"
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "ad quod flumen venimus?"
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "ille ad urbem venit ut sororem inveniat."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "ille ad urbem venit ut sororem inveniret."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "hic ad urbem veniet ut sororem inveniat."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "hic ad urbem veniat ut sororem inveniat."
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "veniamus ad urbem ut sororem inveniamus."
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "veni ad urbem ut sororem invenias!"
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "quid audivistis?"
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "qui hostes veniunt?"
+        },
+        {
+          "t": "li",
+          "n": 23,
+          "text": "cui demus has ovis?"
+        },
+        {
+          "t": "li",
+          "n": 24,
+          "text": "quos interfecerunt hostes?"
+        },
+        {
+          "t": "li",
+          "n": 25,
+          "text": "cuius verba audivisti?"
+        },
+        {
+          "t": "li",
+          "n": 26,
+          "text": "quae moenia refecit ille?"
+        },
+        {
+          "t": "li",
+          "n": 27,
+          "text": "cuius fratrem in urbe invenisti?"
+        },
+        {
+          "t": "li",
+          "n": 28,
+          "text": "hi ad oppidum veniunt ut patrem sepeliant."
+        },
+        {
+          "t": "li",
+          "n": 29,
+          "text": "hi ad oppidum venerunt ut patrem sepelirent."
+        },
+        {
+          "t": "li",
+          "n": 30,
+          "text": "in quo agro sepelivistis patrem?"
+        },
+        {
+          "t": "li",
+          "n": 31,
+          "text": "has oves in agrum agamus."
+        },
+        {
+          "t": "li",
+          "n": 32,
+          "text": "illas oves ex agro agat."
+        },
+        {
+          "t": "ex",
+          "letter": "D",
+          "text": "Translate into Latin:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "The citizens came to the city to hear the king’s words.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "The citizens will come to the city in order to hear the king’s words."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "The citizens are coming to the city to hear the king’s words."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "Let the citizens come to the city to hear the king’s words."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "Citizens, come to the city to hear the king’s words!"
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "Who has repaired the walls? Let’s praise that man!"
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "What are you selling?"
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "To whom should I give those animals?"
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "Whose father did they bury?"
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "The soldiers repaired our walls to hinder the enemy."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "Let the soldiers repair our walls in order to hinder the enemy."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "The soldiers will repair our walls so that they will hinder the enemy."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "Who killed this soldier?"
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "Which soldier did he kill?"
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "Whose mother heard you? yours? mine?"
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "The enemy came across the river to conquer our men."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "The enemy is coming across the river to conquer our men."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "The enemy will come across the river in order to conquer our men."
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "To which brother did you give my book? You have five brothers!"
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "What have you buried in my field?"
         }
       ]
-    }
-  ],
-  "readings": [],
-  "grammar": [],
-  "vocabulary": [
-    {
-      "latin": "ergō",
-      "english": "therefore",
-      "group": "Vocābula"
     },
     {
-      "latin": "dīligenter",
-      "english": "diligently",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "parātus, parāta, parātum",
-      "english": "ready",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "incendō, incendere, incendī, incēnsum nocte",
-      "english": "at night",
-      "group": "Vocābula"
-    }
-  ],
-  "pensa": [
-    {
-      "latinLabel": "PRACTICE A",
-      "title": "Practice A",
-      "instruction": "Practice A Identify the conjugations to which each of these verbs belongs:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 veniō, venīre, vēnī, ventum ‘come’",
-          "a": ""
-        },
-        {
-          "q": "5 interficiō, interficere, interfēcī,",
-          "a": ""
-        },
-        {
-          "q": "2 accipiō, accipere, accēpī, accepinterfectum ‘kill’ tum ‘receive’",
-          "a": ""
-        },
-        {
-          "q": "6 inveniō, invenīre, invēnī, inven-",
-          "a": ""
-        },
-        {
-          "q": "3 agō, agere, ēgī, āctum ‘drive’, ‘do’ tum ‘find’",
-          "a": ""
-        },
-        {
-          "q": "4 impediō, impedīre, impedīvī,",
-          "a": ""
-        },
-        {
-          "q": "7 vīvō, vīvere, vīxī, vīctum ‘live’ impedītum ‘hinder’",
-          "a": ""
-        },
-        {
-          "q": "8 reficiō, reficere, refēcī, refectum ‘repair’",
-          "a": ""
-        },
-        {
-          "q": "9 sentiō, sentīre, sēnsī, sēnsum",
-          "a": ""
-        },
-        {
-          "q": "11 vendō, vendere, vendidī, vendi- ‘perceive’, ‘feel’ tum ‘sell’",
-          "a": ""
-        },
-        {
-          "q": "10 sepeliō, sepelīre, sepelīvī, sepul12 faciō, facere, fēcī, factum ‘do’, tum ‘bury’ ‘make’",
-          "a": ""
-        }
-      ],
-      "id": "practice-17-a"
-    },
-    {
-      "latinLabel": "PRACTICE B",
-      "title": "Practice B",
-      "instruction": "B Conjugate in the form indicated:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 veniō, present active indicative",
-          "a": ""
-        },
-        {
-          "q": "13 agō, present active indicative",
-          "a": ""
-        },
-        {
-          "q": "2 faciō, future active indicative",
-          "a": ""
-        },
-        {
-          "q": "14 audiō, future active indicative",
-          "a": ""
-        },
-        {
-          "q": "3 impediō, perfect active indicative",
-          "a": ""
-        },
-        {
-          "q": "15 faciō, imperative active",
-          "a": ""
-        },
-        {
-          "q": "4 interficiō, present active",
-          "a": ""
-        },
-        {
-          "q": "16 impediō, imperfect active subjunctive subjunctive",
-          "a": ""
-        },
-        {
-          "q": "5 inveniō, imperative active",
-          "a": ""
-        },
-        {
-          "q": "17 interficiō, present active indicative",
-          "a": ""
-        },
-        {
-          "q": "6 accipiō, future active indicative",
-          "a": ""
-        },
-        {
-          "q": "18 inveniō, present active",
-          "a": ""
-        },
-        {
-          "q": "7 reficiō, imperfect active subjunctive subjunctive",
-          "a": ""
-        },
-        {
-          "q": "19 accipiō, imperative active",
-          "a": ""
-        },
-        {
-          "q": "8 sentiō, present active subjunctive",
-          "a": ""
-        },
-        {
-          "q": "20 reficiō, future active indicative",
-          "a": ""
-        },
-        {
-          "q": "9 sepeliō, present active indicative",
-          "a": ""
-        },
-        {
-          "q": "21 sentiō, perfect active indicative",
-          "a": ""
-        },
-        {
-          "q": "10 vendō, future active indicative",
-          "a": ""
-        },
-        {
-          "q": "22 sepeliō, present active subjunctive",
-          "a": ""
-        },
-        {
-          "q": "11 veniō, perfect active indicative",
-          "a": ""
-        },
-        {
-          "q": "23 vendō, present active subjunctive",
-          "a": ""
-        },
-        {
-          "q": "12 vīvō, present active subjunctive",
-          "a": ""
-        },
-        {
-          "q": "24 veniō, future active indicative",
-          "a": ""
-        }
-      ],
-      "id": "practice-17-b"
-    },
-    {
-      "latinLabel": "PRACTICE C",
-      "title": "Practice C",
-      "instruction": "C Translate:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 moenia reficiamus ne hostes",
-          "a": ""
-        },
-        {
-          "q": "10 oves vendamus ut pecuniam urbem capiant. habeamus.",
-          "a": ""
-        },
-        {
-          "q": "2 moenia refecimus ne hostes",
-          "a": ""
-        },
-        {
-          "q": "11 quid invenisti? urbem caperent.",
-          "a": ""
-        },
-        {
-          "q": "12 cui dedit rex hanc urbem?",
-          "a": ""
-        },
-        {
-          "q": "3 moenia reficiemus ne hostes",
-          "a": ""
-        },
-        {
-          "q": "13 cum quibus regem audivisti? urbem capiant.",
-          "a": ""
-        },
-        {
-          "q": "14 ad quod flumen venimus?",
-          "a": ""
-        },
-        {
-          "q": "4 quis oves bonas vendit?",
-          "a": ""
-        },
-        {
-          "q": "15 ille ad urbem venit ut sororem",
-          "a": ""
-        },
-        {
-          "q": "5 quem interfecit frater inveniat. illius?",
-          "a": ""
-        },
-        {
-          "q": "16 ille ad urbem venit ut sororem",
-          "a": ""
-        },
-        {
-          "q": "6 cuius nomen audivisti? inveniret.",
-          "a": ""
-        },
-        {
-          "q": "7 frater meus multas oves vendidit",
-          "a": ""
-        },
-        {
-          "q": "17 hic ad urbem veniet ut sororem ut pecuniam haberet. inveniat.",
-          "a": ""
-        },
-        {
-          "q": "8 frater meus multas oves vendet",
-          "a": ""
-        },
-        {
-          "q": "18 hic ad urbem veniat ut sororem ut pecunicam habeat. inveniat.",
-          "a": ""
-        },
-        {
-          "q": "9 frater, oves vende ut pecuniam",
-          "a": ""
-        },
-        {
-          "q": "19 veniamus ad urbem ut sororem habeas! inveniamus.",
-          "a": ""
-        },
-        {
-          "q": "20 veni ad urbem ut sororem",
-          "a": ""
-        },
-        {
-          "q": "27 cuius fratrem in urbe invenisti? invenias!",
-          "a": ""
-        },
-        {
-          "q": "28 hi ad oppidum veniunt ut",
-          "a": ""
-        },
-        {
-          "q": "21 quid audivistis? patrem sepeliant.",
-          "a": ""
-        },
-        {
-          "q": "22 qui hostes veniunt?",
-          "a": ""
-        },
-        {
-          "q": "29 hi ad oppidum venerunt ut",
-          "a": ""
-        },
-        {
-          "q": "23 cui demus has ovis? patrem sepelirent.",
-          "a": ""
-        },
-        {
-          "q": "24 quos interfecerunt hostes?",
-          "a": ""
-        },
-        {
-          "q": "30 in quo agro sepelivistis patrem?",
-          "a": ""
-        },
-        {
-          "q": "25 cuius verba audivisti?",
-          "a": ""
-        },
-        {
-          "q": "31 has oves in agrum agamus.",
-          "a": ""
-        },
-        {
-          "q": "26 quae moenia refecit ille?",
-          "a": ""
-        },
-        {
-          "q": "32 illas oves ex agro agat.",
-          "a": ""
-        }
-      ],
-      "id": "practice-17-c"
-    },
-    {
-      "latinLabel": "PRACTICE D",
-      "title": "Practice D",
-      "instruction": "D Translate into Latin:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 The citizens came to the city to",
-          "a": ""
-        },
-        {
-          "q": "12 The soldiers will repair our walls hear the king’s words. so that they will hinder the",
-          "a": ""
-        },
-        {
-          "q": "2 The citizens will come to the city enemy. in order to hear the king’s",
-          "a": ""
-        },
-        {
-          "q": "13 Who killed this soldier? words.",
-          "a": ""
-        },
-        {
-          "q": "14 Which soldier did he kill?",
-          "a": ""
-        },
-        {
-          "q": "3 The citizens are coming to the",
-          "a": ""
-        },
-        {
-          "q": "15 Whose mother heard you? city to hear the king’s words. yours? mine?",
-          "a": ""
-        },
-        {
-          "q": "4 Let the citizens come to the city",
-          "a": ""
-        },
-        {
-          "q": "16 The enemy came across the river to hear the king’s words. to conquer our men.",
-          "a": ""
-        },
-        {
-          "q": "5 Citizens, come to the city to hear",
-          "a": ""
-        },
-        {
-          "q": "17 The enemy is coming across the the king’s words! river to conquer our men.",
-          "a": ""
-        },
-        {
-          "q": "6 Who has repaired the walls?",
-          "a": ""
-        },
-        {
-          "q": "18 The enemy will come across the Let’s praise that man! river in order to conquer our",
-          "a": ""
-        },
-        {
-          "q": "7 What are you selling? men.",
-          "a": ""
-        },
-        {
-          "q": "8 To whom should I give those",
-          "a": ""
-        },
-        {
-          "q": "19 To which brother did you give animals? my book? You have five",
-          "a": ""
-        },
-        {
-          "q": "9 Whose father did they bury? brothers!",
-          "a": ""
-        },
-        {
-          "q": "10 The soldiers repaired our walls",
-          "a": ""
-        },
-        {
-          "q": "20 What have you buried in my to hinder the enemy. field?",
-          "a": ""
-        },
-        {
-          "q": "11 Let the soldiers repair our walls in order to hinder the enemy. Colloquium Harleianum 6d–f (adapted): continuation of the school scene in the preceding chapter. teacher: age ergo diligenter, ut paratus sis. pupil: paratus sum; incendi enim lucernam et nocte legi. teacher: bene fecisti; te laudo.",
-          "a": ""
-        }
-      ],
-      "id": "practice-17-d"
-    },
-    {
-      "id": "translate-17",
-      "latinLabel": "TRANSLATE INTO LATIN",
-      "title": "Translate into Latin",
-      "instruction": "",
-      "type": "questions",
-      "items": [
-        {
-          "q": "in order to hear the king’s 13 Who killed this soldier?",
-          "a": ""
-        },
-        {
-          "q": "14 Which soldier did he kill?",
-          "a": ""
-        },
-        {
-          "q": "Colloquium Harleianum 6d–f (adapted): continuation of the school scene in the preceding chapter.",
-          "a": ""
+      "id": "section-2",
+      "latin": "17.2 Reading Practice",
+      "num": "17.2",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Colloquium Harleianum 6d–f (adapted): continuation of the school scene in the preceding chapter."
+        },
+        {
+          "t": "passage",
+          "text": "age ergo diligenter, ut paratus sis.",
+          "speaker": "teacher"
+        },
+        {
+          "t": "passage",
+          "text": "paratus sum; incendi enim lucernam et nocte legi.",
+          "speaker": "pupil"
+        },
+        {
+          "t": "passage",
+          "text": "bene fecisti; te laudo.",
+          "speaker": "teacher"
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "ergō ‘therefore’ (translate one word earlier than where it appears in Latin)",
+              "enim ‘for’ (in the sense of ‘because’; translate one word earlier than where it appears in Latin)"
+            ],
+            [
+              "dīligenter ‘diligently’",
+              ""
+            ],
+            [
+              "parātus, parāta, parātum ‘ready’",
+              "lucerna, lucernae (f.) ‘lamp’"
+            ],
+            [
+              "incendō, incendere, incendī, incēnsum ‘light’",
+              "nocte ‘at night’"
+            ]
+          ]
         }
       ]
     }
   ]
-}
+};
 
 export default chapter

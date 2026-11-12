@@ -2,270 +2,505 @@ const chapter = {
   "number": 53,
   "roman": "LIII",
   "slug": "capitulum-53",
-  "latinTitle": "CAPVT LIII",
   "title": "Reading Practice",
-  "tagline": "Grammar, vocabulary and practice",
   "status": "complete",
   "complete": true,
   "sections": [
     {
-      "id": "section-0",
-      "latin": "Introduction",
-      "english": "Introduction",
-      "kind": "commentary",
+      "id": "section-1",
+      "latin": "53.1 Colloquia Monacensia–Einsidlensia 5a–6a (adapted)",
+      "num": "53.1",
       "blocks": [
         {
           "t": "p",
-          "text": "Aeolus, Aeolī (m.) name of the king of puppis, puppis, puppium (f.) ‘ship’"
+          "text": "Two visits to a banker (second or third century ad ):"
         },
         {
-          "t": "h",
-          "text": "the winds dīversōs agō ‘drive apart’"
+          "t": "passage",
+          "text": "domine, quid velis?",
+          "speaker": "bank er"
         },
         {
-          "t": "p",
-          "text": "namque ‘(I speak to you) since’ dis(s)iciō, disicere, disiēcī, disiectum dīvum = deōrum ‘scatter’ mulceō, mulcēre, mulsī, mulsum ‘soothe’ corpus can also mean both ‘corpse’ dō can also mean ‘grant’ and ‘physical beauty’ flūctus, flūctūs (m.) ‘wave’ pontō ‘on the sea’ tollō can also mean ‘stir up’ sunt mihi + nominative = habeō + ventus, ventī (m.) ‘wind’ accusative gēns, gentis, gentium (f.) ‘clan, people’ bis septem ‘fourteen’ (literally ‘twice inimīcus, -a, -um ‘hateful’ seven’) Tyrrhēnus, -a, -um ‘near Rome’ praestāns, gen. praestantis ‘outstanding’ nāvigō, -āre, -āvī, -ātum ‘sail’ nympha, nymphae (f.) ‘nymph’ aequor, aequoris (n.) ‘sea’ fōrmā (ablative) ‘in form’ Īlium, Īliī (n.) ‘Troy’ cōnubiō ‘in marriage’ Italia, Italiae (f.) ‘Italy’ iungō, iungere, iūnxī, iūnctum ‘join’ portō, portāre, portāvī, portātum ‘carry’ stabilis, stabile ‘stable’, ‘long-lasting’ penātēs, penātium (m. plural) ‘gods’ propriam dicābō ‘I shall declare her to incutiō, incutere, incussī, incussum be your own’"
+          "t": "passage",
+          "text": "habesne pecuniam vacuam?",
+          "speaker": "lucius"
         },
         {
-          "t": "example",
-          "text": "‘instil (something in accusative) into meritum, meritī (n.) ‘merit’ (something in dative)’ prō (+ ablative) ‘in recompense for’"
+          "t": "passage",
+          "text": "quid vis mutuari?",
+          "speaker": "bank er"
         },
         {
-          "t": "example",
-          "text": "vim ‘force’ (accusative singular) exigō, exigere, exēgī, exāctum ‘pass’ summersās obrue ‘overwhelm and prōlēs, prōlis, prōlium (f.) ‘offspring’"
+          "t": "passage",
+          "text": "si habes, da mihi quinque sestertia.",
+          "speaker": "lucius"
         },
         {
-          "t": "h",
-          "text": "submerge’ (imperative) parēns, parentis (m.) ‘father’"
+          "t": "passage",
+          "text": "etsi non habuissem, undecumque explicavissem.",
+          "speaker": "bank er"
         },
         {
-          "t": "p",
-          "text": "A possible prose order of the above would be:"
+          "t": "passage",
+          "text": "pignusne vis?",
+          "speaker": "lucius"
         },
         {
-          "t": "p",
-          "text": "Hoc metuens (Iuppiter) molemque et montis altos insuper (ventis) imposuit, regemque (eis) dedit qui foedere certo sciret et premere habenas (eorum) et (habenas) laxas dare iussus. ad quem Iuno supplex his vocibus tum usa est: ‘Aeole, namque tibi pater divum atque rex hominum dedit et fluctus mulcere et (fluctus) vento tollere, gens inimica mihi Tyrrhenum aequor navigat, Ilium victosque penatis in Italiam portans: vim ventis incute summersasque puppis obrue, aut age (illos) diversos et corpora (eorum) ponto dissice. sunt mihi bis septem nymphae praestanti corpore, quarum (illa) quae forma pulcherrima (est, est) Deiopea: (illam tibi) conubio stabili iungam, propriamque dicabo, ut pro (tuis) talibus meritis omnis annos (suos) tecum exigat et pulchra prole te parentem faciat.’"
+          "t": "passage",
+          "text": "absit, nihil tibi dandum est. cave autem, scribens te accepisse.",
+          "speaker": "bank er"
+        },
+        {
+          "t": "passage",
+          "text": "sic faciam; quibus usuris?",
+          "speaker": "lucius"
+        },
+        {
+          "t": "passage",
+          "text": "usuris quas vis.1 lucius: cavi.",
+          "speaker": "bank er"
+        },
+        {
+          "t": "passage",
+          "text": "gratias tibi ago; signa.",
+          "speaker": "bank er"
+        },
+        {
+          "t": "passage",
+          "text": "signavi.",
+          "speaker": "lucius"
+        },
+        {
+          "t": "passage",
+          "text": "numero numera.",
+          "speaker": "bank er"
+        },
+        {
+          "t": "passage",
+          "text": "numeravi.",
+          "speaker": "lucius"
+        },
+        {
+          "t": "passage",
+          "text": "proba.",
+          "speaker": "bank er"
+        },
+        {
+          "t": "passage",
+          "text": "probavi.",
+          "speaker": "lucius"
+        },
+        {
+          "t": "passage",
+          "text": "sicut pecuniam accepisti, probam reddas.",
+          "speaker": "bank er"
+        },
+        {
+          "t": "passage",
+          "text": "cum eam tibi reddidero, satisfaciam. (later)",
+          "speaker": "lucius"
+        },
+        {
+          "t": "passage",
+          "text": "bono die venisti.",
+          "speaker": "bank er"
+        },
+        {
+          "t": "passage",
+          "text": "sic veni.",
+          "speaker": "lucius"
+        },
+        {
+          "t": "passage",
+          "text": "attulistine pecuniam? dedistine servo meo?",
+          "speaker": "bank er"
+        },
+        {
+          "t": "passage",
+          "text": "dedi.",
+          "speaker": "lucius"
+        },
+        {
+          "t": "passage",
+          "text": "caruisti.",
+          "speaker": "bank er"
+        },
+        {
+          "t": "passage",
+          "text": "estne aliud mihi faciendum?",
+          "speaker": "lucius"
+        },
+        {
+          "t": "passage",
+          "text": "valendum est tibi.",
+          "speaker": "bank er"
+        },
+        {
+          "t": "note",
+          "n": 1,
+          "text": "This startling flexibility is not to be taken at face value; it may be a display of politeness when a standard interest rate was known to both parties, or an indication to the original user of this book that he needed to fill in a number here."
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "vacuus, vacua, vacuum ‘available’",
+              "signō, signāre, signāvī, signātum ‘seal’"
+            ],
+            [
+              "mūtuor, mūtuārī, mūtuātus sum ‘borrow’",
+              "(i.e. impress a personal sealing ring on melted wax to identify the agreement as yours)"
+            ],
+            [
+              "sēstertia, sēstertiōrum (n. plural) ‘thousand sesterces’",
+              ""
+            ],
+            [
+              "",
+              "numerus, numerī (m.) ‘number’"
+            ],
+            [
+              "etsī ‘even if’ (et ‘even’ + sī)",
+              "numerō, -āre, -āvī, -ātum ‘count it out’"
+            ],
+            [
+              "undecumque ‘from somewhere or other’",
+              ""
+            ],
+            [
+              "explicō, -āre, -āvī, -ātum ‘sort out’",
+              "probō, probāre, probāvī, probātum"
+            ],
+            [
+              "pignus, pignoris (n.) ‘security’ (something valuable kept by the lender to ensure repayment)",
+              "‘examine and approve’ (i.e. check that the coins are not counterfeit or debased)"
+            ],
+            [
+              "absit ‘heaven forbid!’ (literally ‘may (the thought) be absent!’)",
+              "sīcut ‘just as’"
+            ],
+            [
+              "",
+              "probus, proba, probum ‘correct’, ‘in good coins’"
+            ],
+            [
+              "caveō, cavēre, cāvī, cautum ‘give a guarantee’",
+              ""
+            ],
+            [
+              "",
+              "satisfaciō (like faciō) ‘give satisfaction’"
+            ],
+            [
+              "ūsūrae, ūsūrārum (f. plural) ‘rate of interest’",
+              "bonus ‘auspicious’"
+            ],
+            [
+              "",
+              "careō, carēre, caruī, – ‘be discharged’"
+            ],
+            [
+              "grātiae, grātiārum (f. plural) ‘thanks’",
+              "aliud (n.) ‘something else’, ‘anything else’"
+            ],
+            [
+              "agō can also mean ‘give’",
+              ""
+            ]
+          ]
         }
       ]
     },
     {
-      "id": "section-1",
-      "latin": "53.1 Colloquia Monacensia–Einsidlensia 5a–6a (adapted)",
-      "english": "Grammar",
-      "kind": "commentary",
+      "id": "section-2",
+      "latin": "53.2 Translate into Latin",
+      "num": "53.2",
       "blocks": [
         {
-          "t": "p",
-          "text": "Two visits to a banker (second or third century ad): banker: domine, quid velis? lucius: habesne pecuniam vacuam? banker: quid vis mutuari? lucius: si habes, da mihi quinque sestertia. banker: etsi non habuissem, undecumque explicavissem. lucius: pignusne vis? banker: absit, nihil tibi dandum est. cave autem, scribens te accepisse. lucius: sic faciam; quibus usuris? banker: usuris quas vis.1 lucius: cavi."
+          "t": "passage",
+          "text": "Lucius, I need money; unless I am allowed to borrow from you yourself, I shall have to go to a banker.",
+          "speaker": "gaius",
+          "lang": "en"
         },
         {
-          "t": "p",
-          "text": "banker: gratias tibi ago; signa. lucius: signavi. banker: numero numera. lucius: numeravi. banker: proba. lucius: probavi. banker: sicut pecuniam accepisti, probam reddas. lucius: cum eam tibi reddidero, satisfaciam. (later) banker: bono die venisti. lucius: sic veni. banker: attulistine pecuniam? dedistine servo meo? lucius: dedi. banker: caruisti. lucius: estne aliud mihi faciendum? banker: valendum est tibi."
+          "t": "passage",
+          "text": "What would you like to borrow?",
+          "speaker": "lucius",
+          "lang": "en"
         },
         {
-          "t": "p",
-          "text": "This startling flexibility is not to be taken at face value; it may be a display of politeness when a standard interest rate was known to both parties, or an indication to the original user of this book that he needed to fill in a number here."
+          "t": "passage",
+          "text": "I need four or five thousand sesterces.",
+          "speaker": "gaius",
+          "lang": "en"
+        },
+        {
+          "t": "passage",
+          "text": "Heaven forbid! Even if I had that (sum of money) of yours, I would not be giving (it) to you. Are you not (attach the -ne to the nōn) ashamed when you ask such things?",
+          "speaker": "lucius",
+          "lang": "en"
+        },
+        {
+          "t": "passage",
+          "text": "I cannot do anything else; I have to find the money, since I want to become quaestor. When I become quaestor I shall have wealth, and I shall return the money to you at (= with) a great rate of interest, and I shall give satisfaction.",
+          "speaker": "gaius",
+          "lang": "en"
+        },
+        {
+          "t": "passage",
+          "text": "Will you give a guarantee and seal (it)? Will you return the money in good coins?",
+          "speaker": "lucius",
+          "lang": "en"
+        },
+        {
+          "t": "passage",
+          "text": "Yes (literally ‘I shall do in this way’), provided that you give me the money now.",
+          "speaker": "gaius",
+          "lang": "en"
+        },
+        {
+          "t": "passage",
+          "text": "I will not do (it), since I do not think (use arbitror not cōgitō) that you will become quaestor.",
+          "speaker": "lucius",
+          "lang": "en"
+        },
+        {
+          "t": "passage",
+          "text": "You have become my enemy, and you will be sorry when I am quaestor! Additional Vocabulary nummulārius, nummulāriī (m.) ‘banker’ quaestor, quaestōris (m.) ‘quaestor’",
+          "speaker": "gaius",
+          "lang": "en"
         }
       ]
     },
     {
       "id": "section-3",
       "latin": "53.3 Virgil, Aeneid 1.60–75",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "53.3",
       "blocks": [
         {
           "t": "p",
-          "text": "Continuation of the passage in chapter 48, where it is explained what damage the winds do when free. Note the repeated use of the -īs accusative plural ending of thirddeclension i-stem nouns. Sed pater omnipotens speluncis abdidit atris hoc metuens molemque et montis insuper altos imposuit, regemque dedit qui foedere certo et premere et laxas sciret dare iussus habenas."
+          "text": "Continuation of the passage in chapter 48, where it is explained what damage the winds do when free. Note the repeated use of the -īs accusative plural ending of thirddeclension i-stem nouns."
         },
         {
           "t": "p",
-          "text": "ad quem tum Iuno supplex his vocibus usa est: ‘Aeole, namque tibi divum pater atque hominum rex et mulcere dedit fluctus et tollere vento, gens inimica mihi Tyrrhenum navigat aequor Ilium in Italiam portans victosque penatis: incute vim ventis summersasque obrue puppis, aut age diversos et dissice corpora ponto."
+          "text": "Sed pater omnipotens speluncis abdidit atris hoc metuens molemque et montis insuper altos imposuit, regemque dedit qui foedere certo et premere et laxas sciret dare iussus habenas."
         },
         {
           "t": "p",
-          "text": "sunt mihi bis septem praestanti corpore Nymphae, quarum quae forma pulcherrima Deiopea, conubio iungam stabili propriamque dicabo, omnis ut tecum meritis pro talibus annos exigat et pulchra faciat te prole parentem.’"
-        }
-      ]
-    }
-  ],
-  "readings": [],
-  "grammar": [],
-  "vocabulary": [
-    {
-      "latin": "vacuus, vacua, vacuum",
-      "english": "available",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "signō, signāre, signāvī, signātum",
-      "english": "seal",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "etsī",
-      "english": "even if",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "numerō, -āre, -āvī, -ātum",
-      "english": "count it undecumque",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "explicō, -āre, -āvī, -ātum",
-      "english": "sort out",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "absit",
-      "english": "heaven forbid!",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "be absent!",
-      "english": ") probus, proba, probum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "caveō, cavēre, cāvī, cautum",
-      "english": "give good coins",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "a guarantee",
-      "english": "satisfaciō (like faciō)",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "interest",
-      "english": "careō, carēre, caruī, –",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "give",
-      "english": "else",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "omnipotēns, gen. omnipotentis",
-      "english": "allaltus, alta, altum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "powerful",
-      "english": "impōnō (like pōnō)",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "foedere certō",
-      "english": "under fixed rules",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "abdō, abdere, abdidī, abditum",
-      "english": "confine",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "āter, ātra, ātrum",
-      "english": "black",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "laxās dare",
-      "english": "loosen",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "metuō, metuere, metuī, –",
-      "english": "fear",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "iubeō, iubēre, iussī, iussum",
-      "english": "order",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "tum",
-      "english": "then",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "supplex, gen. supplicis",
-      "english": "as a suppliant",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "īnsuper",
-      "english": "on top (of the winds)",
-      "group": "Vocābula"
-    }
-  ],
-  "pensa": [
-    {
-      "id": "translate-53",
-      "latinLabel": "53.2 TRANSLATE INTO LATIN",
-      "title": "53.2 Translate into Latin",
-      "instruction": "",
-      "type": "questions",
-      "items": [
-        {
-          "q": "gaius: Lucius, I need money; unless I am allowed to borrow from you yourself, I shall have to go to a banker.",
-          "a": ""
+          "text": "ad quem tum Iuno supplex his vocibus usa est:"
         },
         {
-          "q": "lucius: What would you like to borrow?",
-          "a": ""
+          "t": "p",
+          "text": "‘Aeole, namque tibi divum pater atque hominum rex et mulcere dedit fluctus et tollere vento, gens inimica mihi Tyrrhenum navigat aequor Ilium in Italiam portans victosque penatis: incute vim ventis summersasque obrue puppis, aut age diversos et dissice corpora ponto. sunt mihi bis septem praestanti corpore Nymphae, quarum quae forma pulcherrima Deiopea, conubio iungam stabili propriamque dicabo, omnis ut tecum meritis pro talibus annos exigat et pulchra faciat te prole parentem.’"
         },
         {
-          "q": "gaius: I need four or five thousand sesterces.",
-          "a": ""
+          "t": "vlabel",
+          "text": "Vocabulary"
         },
         {
-          "q": "lucius: Heaven forbid!",
-          "a": ""
-        },
-        {
-          "q": "Even if I had that (sum of money) of yours, I would not be giving (it) to you.",
-          "a": ""
-        },
-        {
-          "q": "Are you not (attach the -ne to the nōn) ashamed when you ask such things?",
-          "a": ""
-        },
-        {
-          "q": "gaius: I cannot do anything else; I have to find the money, since I want to become quaestor.",
-          "a": ""
-        },
-        {
-          "q": "When I become quaestor I shall have wealth, and I shall return the money to you at (= with) a great rate of interest, and I shall give satisfaction.",
-          "a": ""
-        },
-        {
-          "q": "lucius: Will you give a guarantee and seal (it)?",
-          "a": ""
-        },
-        {
-          "q": "Will you return the money in good coins?",
-          "a": ""
-        },
-        {
-          "q": "gaius: Yes (literally ‘I shall do in this way’), provided that you give me the money now.",
-          "a": ""
-        },
-        {
-          "q": "lucius: I will not do (it), since I do not think (use arbitror not cōgitō) that you will become quaestor.",
-          "a": ""
-        },
-        {
-          "q": "gaius: You have become my enemy, and you will be sorry when I am quaestor!",
-          "a": ""
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "",
+              "omnipotēns, gen. omnipotentis ‘all- powerful’",
+              "altus, alta, altum ‘high’"
+            ],
+            [
+              "",
+              "",
+              "impōnō (like pōnō) ‘put’"
+            ],
+            [
+              "",
+              "spēlunca, spēluncae (f.) ‘cave’",
+              "foedere certō ‘under fixed rules’"
+            ],
+            [
+              "",
+              "abdō, abdere, abdidī, abditum ‘confine’ (understood object is ‘the winds’)",
+              "premō, premere, pressī, pressum ‘tighten’"
+            ],
+            [
+              "",
+              "āter, ātra, ātrum ‘black’",
+              "laxās dare ‘loosen’"
+            ],
+            [
+              "",
+              "metuō, metuere, metuī, – ‘fear’",
+              "iubeō, iubēre, iussī, iussum ‘order’"
+            ],
+            [
+              "",
+              "mōlēs, mōlis, mōlium (f.) ‘massive structure’",
+              "habēna, habēnae (f.) ‘reins’ (treating the winds as horses)"
+            ],
+            [
+              "",
+              "-que . . . -que ‘both . . . and’",
+              "tum ‘then’"
+            ],
+            [
+              "",
+              "mōns, montis, montium (m.) ‘mountain’",
+              "Iūnō, Iūnōnis (f.) ‘Juno’"
+            ],
+            [
+              "",
+              "",
+              "supplex, gen. supplicis ‘as a suppliant’"
+            ],
+            [
+              "",
+              "īnsuper ‘on top (of the winds)’",
+              "vōx, vōcis (f.) ‘word’"
+            ],
+            [
+              "Aeolus, Aeolī (m.) name of the king of the winds",
+              "",
+              "puppis, puppis, puppium (f.) ‘ship’"
+            ],
+            [
+              "",
+              "",
+              "dīversōs agō ‘drive apart’"
+            ],
+            [
+              "namque ‘(I speak to you) since’",
+              "",
+              "dis(s)iciō, disicere, disiēcī, disiectum"
+            ],
+            [
+              "dīvum = deōrum",
+              "",
+              "‘scatter’"
+            ],
+            [
+              "mulceō, mulcēre, mulsī, mulsum ‘soothe’",
+              "",
+              "corpus can also mean both ‘corpse’"
+            ],
+            [
+              "dō can also mean ‘grant’",
+              "",
+              "and ‘physical beauty’"
+            ],
+            [
+              "flūctus, flūctūs (m.) ‘wave’",
+              "",
+              "pontō ‘on the sea’"
+            ],
+            [
+              "tollō can also mean ‘stir up’",
+              "",
+              "sunt mihi + nominative = habeō +"
+            ],
+            [
+              "ventus, ventī (m.) ‘wind’",
+              "",
+              "accusative"
+            ],
+            [
+              "gēns, gentis, gentium (f.) ‘clan, people’",
+              "",
+              "bis septem ‘fourteen’ (literally ‘twice seven’)"
+            ],
+            [
+              "inimīcus, -a, -um ‘hateful’",
+              "",
+              ""
+            ],
+            [
+              "Tyrrhēnus, -a, -um ‘near Rome’",
+              "",
+              "praestāns, gen. praestantis ‘outstanding’"
+            ],
+            [
+              "nāvigō, -āre, -āvī, -ātum ‘sail’",
+              "",
+              "nympha, nymphae (f.) ‘nymph’"
+            ],
+            [
+              "aequor, aequoris (n.) ‘sea’",
+              "",
+              "fōrmā (ablative) ‘in form’"
+            ],
+            [
+              "Īlium, Īliī (n.) ‘Troy’",
+              "",
+              "cōnubiō ‘in marriage’"
+            ],
+            [
+              "Italia, Italiae (f.) ‘Italy’",
+              "",
+              "iungō, iungere, iūnxī, iūnctum ‘join’"
+            ],
+            [
+              "portō, portāre, portāvī, portātum ‘carry’",
+              "",
+              "stabilis, stabile ‘stable’, ‘long-lasting’"
+            ],
+            [
+              "penātēs, penātium (m. plural) ‘gods’",
+              "",
+              "propriam dicābō ‘I shall declare her to be your own’"
+            ],
+            [
+              "incutiō, incutere, incussī, incussum ‘instil (something in accusative) into (something in dative)’",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "meritum, meritī (n.) ‘merit’"
+            ],
+            [
+              "",
+              "",
+              "prō (+ ablative) ‘in recompense for’"
+            ],
+            [
+              "vim ‘force’ (accusative singular)",
+              "",
+              "exigō, exigere, exēgī, exāctum ‘pass’"
+            ],
+            [
+              "summersās obrue ‘overwhelm and submerge’ (imperative)",
+              "",
+              "prōlēs, prōlis, prōlium (f.) ‘offspring’"
+            ],
+            [
+              "",
+              "",
+              "parēns, parentis (m.) ‘father’"
+            ],
+            [
+              "A possible prose order of the above would be:",
+              "",
+              ""
+            ],
+            [
+              "Hoc metuens (Iuppiter) molemque et montis altos insuper (ventis) imposuit, regemque (eis)",
+              "",
+              ""
+            ],
+            [
+              "dedit qui foedere certo sciret et premere habenas (eorum) et (habenas) laxas dare iussus. ad quem Iuno supplex his vocibus tum usa est: ‘Aeole, namque tibi pater divum atque rex hominum dedit et fluctus mulcere et (fluctus) vento tollere, gens inimica mihi Tyrrhenum aequor navigat, Ilium victosque penatis in Italiam portans: vim ventis incute summersasque puppis obrue, aut age (illos) diversos et corpora (eorum) ponto dissice. sunt mihi bis septem nymphae praestanti corpore, quarum (illa) quae forma pulcherrima (est, est) Deiopea: (illam tibi) conubio stabili iungam, propriamque dicabo, ut pro (tuis) talibus meritis omnis annos (suos) tecum exigat et pulchra prole te parentem faciat.’",
+              "",
+              ""
+            ]
+          ]
         }
       ]
     }
   ]
-}
+};
 
 export default chapter

@@ -2,61 +2,124 @@ const chapter = {
   "number": 38,
   "roman": "XXXVIII",
   "slug": "capitulum-38",
-  "latinTitle": "CAPVT XXXVIII",
   "title": "Regular Comparison",
-  "tagline": "Grammar, vocabulary and practice",
   "status": "complete",
   "complete": true,
   "sections": [
     {
-      "id": "section-0",
-      "latin": "Introduction",
-      "english": "Introduction",
-      "kind": "commentary",
-      "blocks": [
-        {
-          "t": "example",
-          "text": "grātus, grāta, grātum ‘pleasing’, ‘grateful’ potēns, gen. potentis ‘powerful’ sapiēns, gen. sapientis ‘wise’ similis, simile (+ dative) ‘like’, ‘similar’ stultus, stulta, stultum ‘foolish’ turpis, turpe ‘shameful’"
-        },
-        {
-          "t": "h",
-          "text": "Adverb quam ‘as . . . as possible’"
-        }
-      ]
-    },
-    {
       "id": "section-1",
       "latin": "38.1 Comparison of Adjectives",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "38.1",
       "blocks": [
         {
           "t": "p",
-          "text": "Adjectives have three degrees of comparison: the positive, which we have already seen (indicating that a noun has a certain quality), the comparative (indicating that a noun has more of that quality), and the superlative (indicating that a noun has most of that quality)."
+          "text": "Adjectives have three degrees of comparison: the positive, which we have already seen (indicating that a noun has a certain quality), the comparative (indicating that a noun has more of that quality), and the superlative (indicating that a noun has most of that quality). In English these three degrees are formed with ‘-er’/‘-est’ or (for long words) with ‘more’/‘most’, as follows:"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "Positive",
+              "Comparative",
+              "Superlative"
+            ],
+            [
+              "long",
+              "longer",
+              "longest"
+            ],
+            [
+              "short",
+              "shorter",
+              "shortest"
+            ],
+            [
+              "beautiful",
+              "more beautiful",
+              "most beautiful"
+            ]
+          ]
         },
         {
           "t": "p",
-          "text": "In English these three degrees are formed with ‘-er’/‘-est’ or (for long words) with ‘more’/‘most’,"
+          "text": "In Latin the comparative ends in -ior (masculine nominative singular) and can be translated not only like the English comparative, but also with ‘rather’ when it is used in an absolute sense, rather than being used to compare two things. The superlative ends in -issimus or -errimus and can be translated not only like the English superlative, but also with ‘very’ (when it is used in an absolute sense). So from fortis ‘strong’ we have the comparatives fortior, which would be translated ‘stronger’ in a context like ‘This horse is fortior than that one’ but ‘rather strong’ in a context like ‘This horse is fortior.’ Likewise the superlative fortissimus would be translated ‘strongest’ in a context like ‘This horse is fortissimus of all the ones we have seen’ but ‘very strong’ in a context like ‘This horse is fortissimus’ (when no comparison with others was implied by the larger context)."
         },
         {
-          "t": "example",
-          "text": "Positive Comparative Superlative long longer longest short shorter shortest beautiful more beautiful most beautiful In Latin the comparative ends in -ior (masculine nominative singular) and can be translated not only like the English comparative, but also with ‘rather’ when it is used in an absolute sense, rather than being used to compare two things."
+          "t": "practice"
         },
         {
-          "t": "p",
-          "text": "The superlative ends in -issimus or -errimus and can be translated not only like the English superlative, but also with ‘very’ (when it is used in an absolute sense)."
+          "t": "ex",
+          "letter": "A",
+          "text": "Give both possible translations of each of these forms:"
         },
         {
-          "t": "p",
-          "text": "So from fortis ‘strong’ we have the comparatives fortior, which would be translated ‘stronger’ in a context like ‘This horse is fortior than that one’ but ‘rather strong’ in a context like ‘This horse is fortior.’ Likewise the superlative fortissimus would be translated ‘strongest’ in a context like ‘This horse is fortissimus of all the ones we have seen’ but ‘very strong’ in a context like ‘This horse is fortissimus’ (when no comparison with others was implied by the larger context)."
+          "t": "li",
+          "n": 1,
+          "text": "novissimus",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "miserior"
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "acerrimus"
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "tenerior"
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "acrior"
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "celerrimus"
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "gravissimus"
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "facilior"
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "miserrimus"
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "celerior"
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "tenerrimus"
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "gravior"
         }
       ]
     },
     {
-      "id": "section-3",
+      "id": "section-2",
       "latin": "38.2 Formation of Regular Comparatives and Superlatives",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "38.2",
       "blocks": [
         {
           "t": "p",
@@ -67,586 +130,852 @@ const chapter = {
           "text": "The superlative is formed by adding -issimus, -issima, -issimum to the stem of the adjective; this means that the superlative is a first/second-declension adjective (even when the positive was a third-declension adjective)."
         },
         {
-          "t": "p",
-          "text": "Positive Comparative Superlative longus, -a, -um longior, longius longissimus, -a, -um ‘long’ ‘longer’, ‘rather long’ ‘longest’, ‘very long’ brevis, breve brevior, brevius brevissimus, -a, -um ‘short’ ‘shorter’, ‘rather short’ ‘shortest’, ‘very short’ But adjectives with a masculine singular in -er (whether second or third declension) have superlatives in -errimus, -errima, -errimum."
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "Positive",
+              "Comparative",
+              "Superlative"
+            ],
+            [
+              "longus, -a, -um",
+              "longior, longius",
+              "longissimus, -a, -um"
+            ],
+            [
+              "‘long’",
+              "‘longer’, ‘rather long’",
+              "‘longest’, ‘very long’"
+            ],
+            [
+              "brevis, breve",
+              "brevior, brevius",
+              "brevissimus, -a, -um"
+            ],
+            [
+              "‘short’",
+              "‘shorter’, ‘rather short’",
+              "‘shortest’, ‘very short’"
+            ]
+          ]
         },
         {
           "t": "p",
-          "text": "In this superlative the e of the original -er remains regardless of whether it is part of the stem or not, but the comparatives of such adjectives contain the e only if it is part of the stem. Positive Comparative Superlative tener, tenera, tenerum tenerior, tenerius tenerrimus, -a, -um ācer, ācris, ācre ācrior, ācrius ācerrimus, -a, -um"
+          "text": "But adjectives with a masculine singular in -er (whether second or third declension) have superlatives in -errimus, -errima, -errimum. In this superlative the e of the original -er remains regardless of whether it is part of the stem or not, but the comparatives of such adjectives contain the e only if it is part of the stem."
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "Positive",
+              "Comparative",
+              "Superlative"
+            ],
+            [
+              "tener, tenera, tenerum",
+              "tenerior, tenerius",
+              "tenerrimus, -a, -um"
+            ],
+            [
+              "ācer, ācris, ācre",
+              "ācrior, ācrius",
+              "ācerrimus, -a, -um"
+            ]
+          ]
+        },
+        {
+          "t": "practice"
+        },
+        {
+          "t": "ex",
+          "letter": "B",
+          "text": "Find the stems of these adjectives: 1 asper, aspera, asperum"
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "stultus, stulta, stultum ‘foolish’ 2 fortis, forte"
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "dulcis, dulce ‘sweet’ 3 turpis, turpe ‘shameful’"
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "grātus, grāta, grātum ‘pleasing’, 4 trīstis, trīste ‘grateful’ 5 pulcher, pulchra, pulchrum"
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "sapiēns, gen. sapientis ‘wise’ 6 līber, lībera, līberum"
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "dūrus, dūra, dūrum ‘hard’, 7 niger, nigra, nigrum ‘harsh’ 8 fēlīx, gen. fēlīcis"
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "potēns, gen. potentis ‘powerful’ 9 certus, certa, certum ‘certain’,"
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "clārus, clāra, clārum ‘bright’, ‘reliable’ ‘famous’"
+        },
+        {
+          "t": "ex",
+          "letter": "C",
+          "text": "Give the comparatives of the adjectives in exercise B, and all translations of the resulting forms."
+        },
+        {
+          "t": "ex",
+          "letter": "D",
+          "text": "Give the superlatives of the adjectives in exercise B, and all translations of the resulting forms."
         }
       ]
     },
     {
-      "id": "section-4",
+      "id": "section-3",
       "latin": "38.3 Declension of Comparatives",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "38.3",
       "blocks": [
         {
           "t": "p",
           "text": "The genitive of comparative adjectives ends in -iōris, so their stem ends in -iōr-. Unlike most other third-declension adjectives (see chapter 21.1), comparatives are not i-stems: they therefore decline like mīles and flūmen (cf. chapter 14.1)."
         },
         {
-          "t": "h",
+          "t": "p",
           "text": "British Case Order"
         },
         {
-          "t": "pre",
-          "text": "Singular Plural Masculine and Masculine and feminine Neuter feminine Neuter"
+          "t": "table",
+          "header": [
+            "",
+            "Singular Masculine and feminine",
+            "Neuter",
+            "Plural Masculine and feminine",
+            "Neuter"
+          ],
+          "rows": [
+            [
+              "Nom.",
+              "trīstior",
+              "trīstius",
+              "trīstiōrēs",
+              "trīstiōra"
+            ],
+            [
+              "Voc.",
+              "trīstior",
+              "trīstius",
+              "trīstiōrēs",
+              "trīstiōra"
+            ],
+            [
+              "Acc.",
+              "trīstiōrem",
+              "trīstius",
+              "trīstiōrēs",
+              "trīstiōra"
+            ],
+            [
+              "Gen.",
+              "trīstiōris",
+              "trīstiōris",
+              "trīstiōrum",
+              "trīstiōrum"
+            ],
+            [
+              "Dat.",
+              "trīstiōrī",
+              "trīstiōrī",
+              "trīstiōribus",
+              "trīstiōribus"
+            ],
+            [
+              "Abl.",
+              "trīstiōre",
+              "trīstiōre",
+              "trīstiōribus",
+              "trīstiōribus"
+            ]
+          ]
         },
         {
-          "t": "pre",
-          "text": "Nom. trīstior trīstius trīstiōrēs trīstiōra Voc. trīstior trīstius trīstiōrēs trīstiōra Acc. trīstiōrem trīstius trīstiōrēs trīstiōra Gen. trīstiōris trīstiōris trīstiōrum trīstiōrum Dat. trīstiōrī trīstiōrī trīstiōribus trīstiōribus Abl. trīstiōre trīstiōre trīstiōribus trīstiōribus"
-        },
-        {
-          "t": "h",
+          "t": "p",
           "text": "Ancient Case Order"
         },
         {
-          "t": "pre",
-          "text": "Singular Plural Masculine and Masculine and feminine Neuter feminine Neuter"
+          "t": "table",
+          "header": [
+            "",
+            "Singular Masculine and feminine",
+            "Neuter",
+            "Plural Masculine and feminine",
+            "Neuter"
+          ],
+          "rows": [
+            [
+              "Nom./Voc.",
+              "trīstior",
+              "trīstius",
+              "trīstiōrēs",
+              "trīstiōra"
+            ],
+            [
+              "Gen.",
+              "trīstiōris",
+              "trīstiōris",
+              "trīstiōrum",
+              "trīstiōrum"
+            ],
+            [
+              "Dat.",
+              "trīstiōrī",
+              "trīstiōrī",
+              "trīstiōribus",
+              "trīstiōribus"
+            ],
+            [
+              "Acc.",
+              "trīstiōrem",
+              "trīstius",
+              "trīstiōrēs",
+              "trīstiōra"
+            ],
+            [
+              "Abl.",
+              "trīstiōre",
+              "trīstiōre",
+              "trīstiōribus",
+              "trīstiōribus"
+            ]
+          ]
         },
         {
-          "t": "pre",
-          "text": "Nom./Voc. trīstior trīstius trīstiōrēs trīstiōra Gen. trīstiōris trīstiōris trīstiōrum trīstiōrum Dat. trīstiōrī trīstiōrī trīstiōribus trīstiōribus Acc. trīstiōrem trīstius trīstiōrēs trīstiōra Abl. trīstiōre trīstiōre trīstiōribus trīstiōribus"
+          "t": "practice"
+        },
+        {
+          "t": "ex",
+          "letter": "E",
+          "text": "Decline in the forms indicated:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "celerior, masculine singular",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "longior, neuter singular"
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "brevior, feminine plural"
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "tenerior, neuter plural"
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "ācrior, feminine singular"
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "gravior, masculine plural"
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "celerior, neuter singular"
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "longior, feminine plural"
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "brevior, masculine singular"
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "tenerior, feminine singular"
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "ācrior, masculine plural"
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "gravior, neuter plural"
+        }
+      ]
+    },
+    {
+      "id": "section-4",
+      "latin": "38.4 Use of Comparatives and Superlatives",
+      "num": "38.4",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Comparatives and superlatives are involved in a variety of constructions, of which the most common are the following:"
+        },
+        {
+          "t": "p",
+          "text": "1) The comparative with quam ‘than’. The word after quam needs to be in the same case as the noun to which it is being compared: hic liber longior est quam ille ‘this book is longer than that one’ (ille is nominative because hic liber is), vīdī virum fortiōrem quam tē ‘I saw a man stronger than you’ (tē is accusative because virum is)."
+        },
+        {
+          "t": "p",
+          "text": "2) The ablative of comparison. With this construction there is no separate word for ‘than’; the noun compared is put into the ablative. Thus hic liber longior est illō ‘this book is longer than that one’ (the ‘than’ is expressed by the ablative case of illō)."
+        },
+        {
+          "t": "p",
+          "text": "3) The partitive genitive with the superlative. This genitive, as usual for partitives, is normally translated with ‘of’, but ‘among’ is another possibility: hic liber longissimus est omnium ‘this book is the longest of all’, vīdī (virum) fortissimum Graecōrum ‘I saw the strongest of the Greeks’, ‘I saw the strongest man among the Greeks’."
+        },
+        {
+          "t": "p",
+          "text": "4) The superlative with quam. This construction means ‘as . . . as possible’, and the Latin superlative is translated with the English positive, not the English superlative: liber quam longissimus ‘a book as long as possible’, vir quam fortissimus ‘a man as strong as possible’."
+        },
+        {
+          "t": "practice"
+        },
+        {
+          "t": "ex",
+          "letter": "F",
+          "text": "Translate:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "haec puella pulchrior est quam ea.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "illa puella pulcherrima omnium est."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "gladium acriorem emere volo."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "gladium acerrimum emere malo."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "dei immortales feliciores sunt hominibus."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "dei semper quam felicissimi sunt."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "pueri qui non docentur tristiores sunt quam ei qui a magistro bono docentur, sed feliciores quam ei qui a magisro malo docentur."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "epistula mea longior est quam tua."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "epistula eius quam brevissima est."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "pater noster fortissimus est omnium militum."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "potestne homo fortior esse equo?"
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "hic equus nigrior est quam ille."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "hic equus nigerrimus est omnium."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "equi eorum quam celerrimi sunt."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "equi eius celeriores sunt quam vestri."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "haec saxa gravissima sunt."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "haec saxa graviora sunt."
+        },
+        {
+          "t": "ex",
+          "letter": "G",
+          "text": "Translate into Latin:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "That man is happier than I.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "That woman is rather happy."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "Those men are very happy."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "Those women are as happy as possible."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "These girls are happiest of all."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "This is the happiest of the girls."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "I do not want to read a very long book."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "He wants to read the longest of all books."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "They wanted to read a book as long as possible."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "She didn’t want to read a longer book."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "Did you want to read a book longer than this one?"
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "He preferred to buy a more beautiful horse."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "Do you prefer to buy a very beautiful horse?"
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "We prefer to buy the most beautiful horse of all."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "They preferred to sell the rather beautiful horse."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "I prefer my horse to be as beautiful as possible."
         }
       ]
     },
     {
       "id": "section-5",
-      "latin": "38.4 Use of Comparatives and Superlatives",
-      "english": "Grammar",
-      "kind": "commentary",
+      "latin": "38.5 Reading Practice",
+      "num": "38.5",
       "blocks": [
         {
           "t": "p",
-          "text": "Comparatives and superlatives are involved in a variety of constructions, of which the most common are the following: 1) The comparative with quam ‘than’."
+          "text": "1 Tabulae Vindolandenses ii.291 (adapted): from the letters of soldiers stationed in northern Britain and their families, an invitation to a birthday party (c. ad 100)."
         },
         {
           "t": "p",
-          "text": "The word after quam needs to be in the same case as the noun to which it is being compared: hic liber longior est quam ille ‘this book is longer than that one’ (ille is nominative because hic liber is), vīdī virum fortiōrem quam tē ‘I saw a man stronger than you’ (tē is accusative because virum is). 2) The ablative of comparison."
+          "text": "Claudia Severa Lepidinae suae salutem dicit. III Idus Septembres, soror, die sollemne natale meo, rogo ut venias ad nos, iucundiorem mihi diem interventu tuo factura. Cerialem tuum saluta. Aelius meus et filiolus te salutant. sperabo te, soror."
         },
         {
           "t": "p",
-          "text": "With this construction there is no separate word for ‘than’; the noun compared is put into the ablative. Thus hic liber longior est illō ‘this book is longer than that one’ (the ‘than’ is expressed by the ablative case of illō). 3) The partitive genitive with the superlative."
+          "text": "vale, soror, anima mea carissima."
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "Claudia Sevēra, Claudiae Sevērae (f.)",
+              "III Īdūs Septembrēs ‘On 11 September’ (literally ‘on the third day before the Ides (13th) of September’ – Romans counted inclusively)"
+            ],
+            [
+              "name of the writer of the letter",
+              ""
+            ],
+            [
+              "Lepidīna, Lepidīnae (f.) name of the recipient of the letter, a friend of the writer but probably not actually her sister",
+              ""
+            ],
+            [
+              "",
+              "sollemnis, sollemne ‘of celebration’"
+            ],
+            [
+              "",
+              "nātālis, nātāle ‘of birthday’"
+            ],
+            [
+              "salūs, salūtis (f.) ‘greetings’",
+              "iūcundus, -a, -um ‘pleasant’"
+            ],
+            [
+              "interventus, interventūs (m.) ‘arrival’",
+              "fīliolus, fīliolī (m.) ‘little son’"
+            ],
+            [
+              "Ceriālis, Ceriālis (m.) name of",
+              "spērō, spērāre, spērāvī, spērātum ‘expect’"
+            ],
+            [
+              "Lepidina’s husband",
+              ""
+            ],
+            [
+              "salūtō, -āre, -āvī, -ātum ‘greet’",
+              "anima, animae (f.) ‘soul’ (a term of endearment)"
+            ],
+            [
+              "Aelius, Aeliī (m.) name of Claudia",
+              ""
+            ],
+            [
+              "Severa’s husband",
+              "cārus, cāra, cārum ‘dear’"
+            ]
+          ]
         },
         {
           "t": "p",
-          "text": "This genitive, as usual for parti- tives, is normally translated with ‘of’, but ‘among’ is another possibility: hic liber longissimus est omnium ‘this book is the longest of all’, vīdī (virum) fortissimum Graecōrum ‘I saw the strongest of the Greeks’, ‘I saw the strongest man among the Greeks’. 4) The superlative with quam. This construction means ‘as . . ."
+          "text": "2 Tabulae Vindolandenses iii .628: an officer stationed in northern Britain sends requests to a superior (c. ad 100)."
         },
         {
           "t": "p",
-          "text": "as possible’, and the Latin superlative is translated with the English positive, not the English superlative: liber quam longissimus ‘a book as long as possible’, vir quam fortissimus ‘a man as strong as possible’."
+          "text": "Masclus Ceriali regi suo salutem dicit. rogo te, domine, ut praecipias quid velis ut cras faciamus. . . . cervesiam milites non habent, quam rogo ut iubeas mitti. felicissimus sis et mihi propitius. vale."
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "Masclus, Masclī (m.) name of the writer",
+              "iubeō, iubēre, iussī, iussum ‘order’"
+            ],
+            [
+              "Ceriālis, Ceriālis (m.) name of the recipient of the letter",
+              "(takes accusative and infinitive rather than the usual indirect command construction)"
+            ],
+            [
+              "rēx can also mean ‘patron’",
+              ""
+            ],
+            [
+              "praecipiō, -cipere, -cēpī, -ceptum ‘send instructions’",
+              "propitius, -a, -um (+ dative) ‘well disposed towards’"
+            ],
+            [
+              "cervēsia, cervēsiae (f.) ‘beer’",
+              ""
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "3 Vulgate version of the Bible, Genesis 3:1–3 (adapted): Adam and Eve meet the serpent (translated in the fourth century ad from an earlier Greek version)."
+        },
+        {
+          "t": "p",
+          "text": "Sed serpens, qui erat callidior omnibus animalibus terrae quae fecerat dominus deus, dixit mulieri, ‘cur imperavit vobis deus ne comederetis de arboribus in paradiso?’ cui respondit mulier, ‘de fructu arborum quae sunt in paradiso licet nobis comedere, sed de fructu huius arboris imperavit nobis deus ne comederemus et ne tangeremus, ne moreremur.’"
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "erat ‘was’",
+              "arbor, arboris (f.) ‘tree’"
+            ],
+            [
+              "callidus, -a, -um ‘clever’",
+              "paradīsus, paradīsī (m.) ‘paradise’"
+            ],
+            [
+              "terra, terrae (f.) ‘earth’",
+              "respondeō, respondēre, respondī,"
+            ],
+            [
+              "fēcerat ‘had made’ (pluperfect)",
+              "respōnsum ‘reply’"
+            ],
+            [
+              "mulier, mulieris (f.) ‘woman’",
+              "frūctus, frūctūs (m.), ‘fruit’"
+            ],
+            [
+              "comedō, comedere, comēdī, comēsum ‘eat’",
+              "licet ‘it is allowed’"
+            ],
+            [
+              "",
+              "tangō, tangere, tetigī, tāctum ‘touch’"
+            ],
+            [
+              "4 Corpus Inscriptionum Latinarum vi.1136: inscription from Rome recording the restoration of baths (fourth century ad).",
+              ""
+            ],
+            [
+              "Domina nostra Helena venerabilis domini nostri Constantini Augusti mater et avia beatissimorum et florentissimorum Caesarum nostrorum thermas incendio destructas restituit.",
+              ""
+            ]
+          ]
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "Helena, Helenae (f.) name of the emperor’s mother",
+              "flōrēns, gen. flōrentis ‘flourishing’"
+            ],
+            [
+              "venerābilis, venerābile ‘venerable’ (here nominative)",
+              "Caesar, Caesaris (m.) was at this period the title of the emperor’s son(s)"
+            ],
+            [
+              "Cōnstantīnus, -ī (m.) ‘Constantine’",
+              "thermae, thermārum (f. plural) ‘public baths’"
+            ],
+            [
+              "Augustus, -ī (m.) was at this period the title of the senior emperor",
+              "incendium, incendiī (n.) ‘fire’"
+            ],
+            [
+              "",
+              "dēstruō, dēstruere, dēstrūxī,"
+            ],
+            [
+              "avia, aviae (f.) ‘grandmother’",
+              "destrūctum ‘destroy’"
+            ],
+            [
+              "beātus, beāta, beātum ‘blessed’",
+              "restituō, restituere, restituī, restitūtum ‘restore’"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "5 Martial 13.76: the taste of meat depends on its price (first century ad)."
+        },
+        {
+          "t": "p",
+          "text": "Rustica sim an perdix quid refert, si sapor idem est?"
+        },
+        {
+          "t": "passage",
+          "text": "sic sapit illa magis.",
+          "speaker": "carior est perdix"
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "rūstica, rūsticae (f.) ‘woodcock’ (an edible bird)",
+              "īdem, eadem, idem (declined like is) ‘same’"
+            ],
+            [
+              "an ‘or’",
+              "cārus, cāra, cārum ‘expensive’"
+            ],
+            [
+              "perdīx, perdīcis (f.) ‘partridge’",
+              "sīc ‘that is how’"
+            ],
+            [
+              "quid rēfert (+ subjunctive) ‘what difference does it make whether’",
+              "sapiō, sapere, sapīvī, – ‘taste good’"
+            ],
+            [
+              "",
+              "magis ‘more’ (adverb)"
+            ],
+            [
+              "sapor, sapōris (m.) ‘taste’",
+              ""
+            ]
+          ]
         }
       ]
     },
     {
       "id": "section-6",
       "latin": "38.6 Vocabulary to Learn",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "38.6",
       "blocks": [
         {
-          "t": "example",
-          "text": "Adjectives cārus, cāra, cārum ‘dear’, ‘expensive’ certus, certa, certum ‘certain’, ‘reliable’ clārus, clāra, clārum ‘bright’, ‘famous’ dulcis, dulce ‘sweet’ dūrus, dūra, dūrum ‘hard’, ‘harsh’"
-        }
-      ]
-    }
-  ],
-  "readings": [
-    {
-      "id": "lectio-38",
-      "latinTitle": "SENTENTIAE LATĪNAE",
-      "title": "Latin sentences from this chapter",
-      "paragraphs": [
-        "haec puella pulchrior est quam ea.",
-        "epistula mea longior est quam tua.",
-        "epistula eius quam brevissima est. hominibus.",
-        "dei semper quam felicissimi sunt. omnium militum.",
-        "hic equus nigrior est quam ille. vestri.",
-        "haec saxa gravissima sunt. omnium.",
-        "haec saxa graviora sunt.",
-        "equi eorum quam celerrimi sunt."
-      ],
-      "notes": []
-    }
-  ],
-  "grammar": [],
-  "vocabulary": [
-    {
-      "latin": "III Īdūs Septembrēs",
-      "english": "On 11 September",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "writer but probably not actually her sollemnis, sollemne",
-      "english": "of celebration",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "sister nātālis, nātāle",
-      "english": "of birthday",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "iūcundus, -a, -um",
-      "english": "pleasant",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "Lepidina",
-      "english": "s husband",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "salūtō, -āre, -āvī, -ātum",
-      "english": "greet",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "Severa",
-      "english": "s husband cārus, cāra, cārum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "rēx can also mean",
-      "english": "patron",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "praecipiō, -cipere, -cēpī, -ceptum",
-      "english": "send propitius, -a, -um (+ dative)",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "instructions",
-      "english": "disposed towards",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "erat",
-      "english": "was",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "callidus, -a, -um",
-      "english": "clever",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "respondeō, respondēre, respondī, fēcerat",
-      "english": "had made",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "respōnsum",
-      "english": "reply",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "comedō, comedere, comēdī, comēsum licet",
-      "english": "it is allowed",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "tangō, tangere, tetigī, tāctum",
-      "english": "touch",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "emperor",
-      "english": "s mother",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "venerābilis, venerābile",
-      "english": "venerable",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "destrūctum",
-      "english": "destroy",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "an",
-      "english": "or",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "cārus, cāra, cārum",
-      "english": "expensive",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "sīc",
-      "english": "that is how",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "difference does it make whether",
-      "english": "magis",
-      "group": "Vocābula"
-    }
-  ],
-  "pensa": [
-    {
-      "latinLabel": "PRACTICE A",
-      "title": "Practice A",
-      "instruction": "Practice A Give both possible translations of each of these forms:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 novissimus",
-          "a": ""
+          "t": "vhead",
+          "text": "Adjectives"
         },
         {
-          "q": "7 gravissimus",
-          "a": ""
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "cārus, cāra, cārum",
+              "‘dear’, ‘expensive’"
+            ],
+            [
+              "certus, certa, certum",
+              "‘certain’, ‘reliable’"
+            ],
+            [
+              "clārus, clāra, clārum",
+              "‘bright’, ‘famous’"
+            ],
+            [
+              "dulcis, dulce",
+              "‘sweet’"
+            ],
+            [
+              "dūrus, dūra, dūrum",
+              "‘hard’, ‘harsh’"
+            ]
+          ]
         },
         {
-          "q": "2 miserior",
-          "a": ""
+          "t": "p",
+          "text": "Vocabulary continues."
         },
         {
-          "q": "8 facilior",
-          "a": ""
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "grātus, grāta, grātum",
+              "‘pleasing’, ‘grateful’"
+            ],
+            [
+              "potēns, gen. potentis",
+              "‘powerful’"
+            ],
+            [
+              "sapiēns, gen. sapientis",
+              "‘wise’"
+            ],
+            [
+              "similis, simile (+ dative)",
+              "‘like’, ‘similar’"
+            ],
+            [
+              "stultus, stulta, stultum",
+              "‘foolish’"
+            ],
+            [
+              "turpis, turpe",
+              "‘shameful’"
+            ]
+          ]
         },
         {
-          "q": "3 acerrimus",
-          "a": ""
+          "t": "vhead",
+          "text": "Adverb"
         },
         {
-          "q": "9 miserrimus",
-          "a": ""
-        },
-        {
-          "q": "4 tenerior",
-          "a": ""
-        },
-        {
-          "q": "10 celerior",
-          "a": ""
-        },
-        {
-          "q": "5 acrior",
-          "a": ""
-        },
-        {
-          "q": "11 tenerrimus",
-          "a": ""
-        },
-        {
-          "q": "6 celerrimus",
-          "a": ""
-        },
-        {
-          "q": "12 gravior",
-          "a": ""
-        }
-      ],
-      "id": "practice-38-a"
-    },
-    {
-      "latinLabel": "PRACTICE B",
-      "title": "Practice B",
-      "instruction": "Practice B Find the stems of these adjectives:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 asper, aspera, asperum",
-          "a": ""
-        },
-        {
-          "q": "10 stultus, stulta, stultum ‘foolish’",
-          "a": ""
-        },
-        {
-          "q": "2 fortis, forte",
-          "a": ""
-        },
-        {
-          "q": "11 dulcis, dulce ‘sweet’",
-          "a": ""
-        },
-        {
-          "q": "3 turpis, turpe ‘shameful’",
-          "a": ""
-        },
-        {
-          "q": "12 grātus, grāta, grātum ‘pleasing’,",
-          "a": ""
-        },
-        {
-          "q": "4 trīstis, trīste ‘grateful’",
-          "a": ""
-        },
-        {
-          "q": "5 pulcher, pulchra, pulchrum",
-          "a": ""
-        },
-        {
-          "q": "13 sapiēns, gen. sapientis ‘wise’",
-          "a": ""
-        },
-        {
-          "q": "6 līber, lībera, līberum",
-          "a": ""
-        },
-        {
-          "q": "14 dūrus, dūra, dūrum ‘hard’,",
-          "a": ""
-        },
-        {
-          "q": "7 niger, nigra, nigrum ‘harsh’",
-          "a": ""
-        },
-        {
-          "q": "8 fēlīx, gen. fēlīcis",
-          "a": ""
-        },
-        {
-          "q": "15 potēns, gen. potentis ‘powerful’",
-          "a": ""
-        },
-        {
-          "q": "9 certus, certa, certum ‘certain’,",
-          "a": ""
-        },
-        {
-          "q": "16 clārus, clāra, clārum ‘bright’, ‘reliable’ ‘famous’",
-          "a": ""
-        }
-      ],
-      "id": "practice-38-b"
-    },
-    {
-      "latinLabel": "PRACTICE C",
-      "title": "Practice C",
-      "instruction": "",
-      "type": "questions",
-      "items": [
-        {
-          "q": "C Give the comparatives of the adjectives in exercise B, and all translations of the resulting forms.",
-          "a": ""
-        }
-      ],
-      "id": "practice-38-c"
-    },
-    {
-      "latinLabel": "PRACTICE D",
-      "title": "Practice D",
-      "instruction": "",
-      "type": "questions",
-      "items": [
-        {
-          "q": "D Give the superlatives of the adjectives in exercise B, and all translations of the resulting forms.",
-          "a": ""
-        }
-      ],
-      "id": "practice-38-d"
-    },
-    {
-      "latinLabel": "PRACTICE E",
-      "title": "Practice E",
-      "instruction": "Practice E Decline in the forms indicated:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 celerior, masculine singular",
-          "a": ""
-        },
-        {
-          "q": "4 tenerior, neuter plural",
-          "a": ""
-        },
-        {
-          "q": "2 longior, neuter singular",
-          "a": ""
-        },
-        {
-          "q": "5 ācrior, feminine singular",
-          "a": ""
-        },
-        {
-          "q": "3 brevior, feminine plural",
-          "a": ""
-        },
-        {
-          "q": "6 gravior, masculine plural",
-          "a": ""
-        }
-      ],
-      "id": "practice-38-e"
-    },
-    {
-      "latinLabel": "PRACTICE F",
-      "title": "Practice F",
-      "instruction": "Practice F Translate:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 haec puella pulchrior est quam ea.",
-          "a": ""
-        },
-        {
-          "q": "7 pueri qui non docentur tristiores",
-          "a": ""
-        },
-        {
-          "q": "2 illa puella pulcherrima omnium sunt quam ei qui a magistro bono est. docentur, sed feliciores quam ei",
-          "a": ""
-        },
-        {
-          "q": "3 gladium acriorem emere volo. qui a magisro malo docentur.",
-          "a": ""
-        },
-        {
-          "q": "4 gladium acerrimum emere malo.",
-          "a": ""
-        },
-        {
-          "q": "8 epistula mea longior est quam tua.",
-          "a": ""
-        },
-        {
-          "q": "5 dei immortales feliciores sunt",
-          "a": ""
-        },
-        {
-          "q": "9 epistula eius quam brevissima est. hominibus.",
-          "a": ""
-        },
-        {
-          "q": "10 pater noster fortissimus est",
-          "a": ""
-        },
-        {
-          "q": "6 dei semper quam felicissimi sunt. omnium militum.",
-          "a": ""
-        },
-        {
-          "q": "11 potestne homo fortior esse equo?",
-          "a": ""
-        },
-        {
-          "q": "15 equi eius celeriores sunt quam",
-          "a": ""
-        },
-        {
-          "q": "12 hic equus nigrior est quam ille. vestri.",
-          "a": ""
-        },
-        {
-          "q": "13 hic equus nigerrimus est",
-          "a": ""
-        },
-        {
-          "q": "16 haec saxa gravissima sunt. omnium.",
-          "a": ""
-        },
-        {
-          "q": "17 haec saxa graviora sunt.",
-          "a": ""
-        },
-        {
-          "q": "14 equi eorum quam celerrimi sunt.",
-          "a": ""
-        }
-      ],
-      "id": "practice-38-f"
-    },
-    {
-      "latinLabel": "PRACTICE G",
-      "title": "Practice G",
-      "instruction": "G Translate into Latin:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 That man is happier than I.",
-          "a": ""
-        },
-        {
-          "q": "10 She didn’t want to read a longer",
-          "a": ""
-        },
-        {
-          "q": "2 That woman is rather happy. book.",
-          "a": ""
-        },
-        {
-          "q": "3 Those men are very happy.",
-          "a": ""
-        },
-        {
-          "q": "11 Did you want to read a book",
-          "a": ""
-        },
-        {
-          "q": "4 Those women are as happy as longer than this one? possible.",
-          "a": ""
-        },
-        {
-          "q": "12 He preferred to buy a more",
-          "a": ""
-        },
-        {
-          "q": "5 These girls are happiest of all. beautiful horse.",
-          "a": ""
-        },
-        {
-          "q": "6 This is the happiest of the girls.",
-          "a": ""
-        },
-        {
-          "q": "13 Do you prefer to buy a very",
-          "a": ""
-        },
-        {
-          "q": "7 I do not want to read a very long beautiful horse? book.",
-          "a": ""
-        },
-        {
-          "q": "14 We prefer to buy the most",
-          "a": ""
-        },
-        {
-          "q": "8 He wants to read the longest of all beautiful horse of all. books.",
-          "a": ""
-        },
-        {
-          "q": "15 They preferred to sell the rather",
-          "a": ""
-        },
-        {
-          "q": "9 They wanted to read a book as beautiful horse. long as possible.",
-          "a": ""
-        },
-        {
-          "q": "16 I prefer my horse to be as beau- tiful as possible.",
-          "a": ""
-        },
-        {
-          "q": "1 Tabulae Vindolandenses ii.291 (adapted): from the letters of soldiers stationed in northern Britain and their families, an invitation to a birthday party (c. ad 100). Claudia Severa Lepidinae suae salutem dicit. III Idus Septembres, soror, die sollemne natale meo, rogo ut venias ad nos, iucundiorem mihi diem interventu tuo factura. Cerialem tuum saluta. Aelius meus et filiolus te salutant. sperabo te, soror. vale, soror, anima mea carissima.",
-          "a": ""
-        }
-      ],
-      "id": "practice-38-g"
-    },
-    {
-      "id": "translate-38",
-      "latinLabel": "TRANSLATE INTO LATIN",
-      "title": "Translate into Latin",
-      "instruction": "",
-      "type": "questions",
-      "items": [
-        {
-          "q": "northern Britain and their families, an invitation to a birthday party (c.",
-          "a": ""
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "quam",
+              "‘as . . . as possible’"
+            ]
+          ]
         }
       ]
     }
   ]
-}
+};
 
 export default chapter

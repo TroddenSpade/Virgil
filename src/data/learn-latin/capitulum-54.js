@@ -2,623 +2,1210 @@ const chapter = {
   "number": 54,
   "roman": "LIV",
   "slug": "capitulum-54",
-  "latinTitle": "CAPVT LIV",
   "title": "Indirect Questions",
-  "tagline": "Grammar, vocabulary and practice",
   "status": "complete",
   "complete": true,
   "sections": [
     {
-      "id": "section-0",
-      "latin": "Introduction",
-      "english": "Introduction",
-      "kind": "commentary",
-      "blocks": [
-        {
-          "t": "p",
-          "text": "We have so far seen two kinds of indirect speech: indirect statement (accusative + infinitive) and indirect commands (ut + subjunctive). There is also a third type of indirect speech, indirect questions. Indirect questions take the subjunctive like indirect commands, but they are introduced by an interrogative word rather than by ut or nē; if they are negative nōn is used. The Latin subjunctive is translated with an English indicative (usually in the same tense; see 54.3 below). Direct Indirect quis adest? ‘Who is present?’ rogāvī quis adesset. ‘I asked who was"
-        },
-        {
-          "t": "h",
-          "text": "present.’"
-        },
-        {
-          "t": "p",
-          "text": "cūr Rōmam īvit? ‘Why did he go to rogāvī cūr Rōmam īvisset. ‘I asked why he"
-        },
-        {
-          "t": "h",
-          "text": "Rome?’ had gone to Rome.’"
-        }
-      ]
-    },
-    {
       "id": "section-1",
-      "latin": "54.3 English Tenses",
-      "english": "Grammar",
-      "kind": "commentary",
+      "latin": "54.1 Indirect Questions",
+      "num": "54.1",
       "blocks": [
         {
           "t": "p",
-          "text": "The tense of the verb of an indirect question in English is usually the same as the Latin tense, because English shifts the tense of the subordinate verb back when the introductory verb is in the past. This is the same shift that we saw with indirect statement in chapter 19.4, and the diagram of English usage seen there (and reproduced with modifications below) can also be applied to questions."
+          "text": "We have so far seen two kinds of indirect speech: indirect statement (accusative + infinitive) and indirect commands (ut + subjunctive). There is also a third type of indirect speech, indirect questions. Indirect questions take the subjunctive like indirect commands, but they are introduced by an interrogative word rather than by ut or nē; if they are negative nōn is used. The Latin subjunctive is translated with an English indicative (usually in the same tense; see 54.3 below)."
         },
         {
-          "t": "p",
-          "text": "But whereas this feature of English can cause difficulty in translating indirect statements, it is an advantage for indirect questions, where the sequence rules of the two languages largely match."
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "Direct",
+              "Indirect"
+            ],
+            [
+              "quis adest? ‘Who is present?’",
+              "rogāvī quis adesset. ‘I asked who was"
+            ],
+            [
+              "",
+              "present.’"
+            ],
+            [
+              "cūr Rōmam īvit? ‘Why did he go to",
+              "rogāvī cūr Rōmam īvisset. ‘I asked why he"
+            ],
+            [
+              "Rome?’",
+              "had gone to Rome.’"
+            ]
+          ]
         },
         {
-          "t": "h",
-          "text": "Indirect question after Indirect question after"
+          "t": "practice"
         },
         {
-          "t": "p",
-          "text": "Original sentence present tense past tense Who ate the fish? He asks who ate the fish. He asked who had eaten the fish. Who eats fish? He asks who eats fish. He asked who ate fish. Who is eating the fish? He asks who is eating the He asked who was eating fish. the fish. Who will eat the fish? He asks who will eat the He asked who would eat fish. the fish."
+          "t": "ex",
+          "letter": "A",
+          "text": "Translate:"
         },
         {
-          "t": "p",
-          "text": "Who is going to eat the He asks who is going to eat He asked who was going to fish? the fish. eat the fish."
+          "t": "li",
+          "n": 1,
+          "text": "isti rogaverunt quis venisset.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "isti rogabunt quis venerit."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "ipsi rogant quis veniat."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "ipsi rogabant quis veniret."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "iste rogat cur discesserimus."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "iste rogavit cur discessissemus."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "ipse rogabit cur discedamus."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "ipse rogabat cur discederemus."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "ipse rogavisti ubi essemus."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "ipsi rogavistis ubi fuissemus."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "iste rogabit ubi fuerimus."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "iste rogabit ubi simus."
         }
       ]
     },
     {
       "id": "section-2",
-      "latin": "54.4 Num",
-      "english": "Grammar",
-      "kind": "commentary",
+      "latin": "54.2 Sequence of Tenses",
+      "num": "54.2",
       "blocks": [
         {
           "t": "p",
-          "text": "When the direct version of the question begins with an interrogative word, as in the examples seen so far, the same interrogative word also begins the indirect question. But some direct questions begin with -ne rather than an interrogative word, and -ne is not used in indirect questions; it has to be replaced by num, which is translated with ‘whether’ or ‘if’ in English."
+          "text": "The tense of a subordinate verb in Latin is determined by sequence of tenses, but the sequence rules we have seen need one modification in the case of indirect questions."
         },
         {
           "t": "p",
-          "text": "(Care is needed with the ‘if’ translation, as this ‘if’ is completely different from the ‘if’ that introduces conditional clauses: compare ‘I asked him if it had rained’ (indirect question) with ‘We would have stayed home if it had rained’ (conditional).) Direct Indirect cucurritne? ‘Did he run?’ rogāvī num cucurrisset. ‘I asked whether he had run.’ / ‘I asked if he had run.’ curritne? ‘Is he running?’ rogāvī num curreret."
+          "text": "In chapter 46 we saw the following diagram, which applies to all types of sequence Relative time of subordinate clause"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "",
+              "",
+              "Before the action of",
+              "After or at the same time as"
+            ],
+            [
+              "",
+              "",
+              "the main clause",
+              "the action of the main clause"
+            ],
+            [
+              "Tense of",
+              "Primary",
+              "Subordinate verb is",
+              "Subordinate verb is"
+            ],
+            [
+              "main verb",
+              "",
+              "perfect subjunctive",
+              "present subjunctive"
+            ],
+            [
+              "",
+              "Historic",
+              "Subordinate verb is",
+              "Subordinate verb is"
+            ],
+            [
+              "",
+              "",
+              "pluperfect",
+              "imperfect subjunctive"
+            ],
+            [
+              "",
+              "",
+              "subjunctive",
+              ""
+            ]
+          ]
         },
         {
           "t": "p",
-          "text": "‘I asked whether he was running.’ / ‘I asked if he was running.’ curretne? ‘Will he run?’ rogāvī num cursūrus esset. ‘I asked whether he would run.’ / ‘I asked if he would run.’ / ‘I asked whether he was going to run.’ / ‘I asked if he was going to run.’"
+          "text": "But for indirect questions it is crucial to be able to distinguish between present and future, that is between actions at the same time as the main clause and actions later than the main clause: the difference between an original ‘Is he here?’ and ‘Will he be here?’ needs to be preserved even when the questions become indirect (‘We asked whether he was there’ versus ‘We asked whether he would be there’). So for indirect questions an original future is indicated with the future participle and a subjunctive of sum, necessitating a third column in the diagram:"
+        },
+        {
+          "t": "p",
+          "text": "Relative time of subordinate clause"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "",
+              "Before the",
+              "At the same time as",
+              "After the action of"
+            ],
+            [
+              "",
+              "action of the",
+              "the action of the",
+              "the main clause"
+            ],
+            [
+              "",
+              "main clause",
+              "main clause",
+              "(original future)"
+            ],
+            [
+              "",
+              "(original past)",
+              "(original present)",
+              ""
+            ],
+            [
+              "Tense of Primary Subordinate",
+              "",
+              "Subordinate",
+              "Subordinate"
+            ],
+            [
+              "main verb",
+              "verb is perfect subjunctive Historic Subordinate",
+              "verb is",
+              "verb is future"
+            ],
+            [
+              "",
+              "",
+              "present",
+              "participle + sim,"
+            ],
+            [
+              "",
+              "",
+              "subjunctive",
+              "sīs, sit . . ."
+            ],
+            [
+              "",
+              "",
+              "Subordinate",
+              "Subordinate"
+            ],
+            [
+              "",
+              "verb is",
+              "verb is",
+              "verb is future"
+            ],
+            [
+              "",
+              "pluperfect",
+              "imperfect",
+              "participle +"
+            ],
+            [
+              "",
+              "subjunctive",
+              "subjunctive",
+              "essem, essēs,"
+            ],
+            [
+              "",
+              "",
+              "",
+              "esset . . ."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Therefore:"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "Direct",
+              "Indirect"
+            ],
+            [
+              "quis aderit? ‘Who will be",
+              "rogō quis adfutūrus sit. ‘I am asking who will be"
+            ],
+            [
+              "present?’",
+              "present.’ / ‘I am asking who is going to be"
+            ],
+            [
+              "",
+              "present.’"
+            ],
+            [
+              "",
+              "rogāvī quis adfutūrus esset. ‘I asked who would"
+            ],
+            [
+              "",
+              "be present.’ / ‘I asked who was going to be"
+            ],
+            [
+              "",
+              "present.’"
+            ],
+            [
+              "cūr Rōmam veniet? ‘Why",
+              "rogō cūr Rōmam ventūrus sit. ‘I am asking why he will"
+            ],
+            [
+              "will he come to Rome?’",
+              "come to Rome.’ / ‘I am asking why he is going to"
+            ],
+            [
+              "",
+              "come to Rome.’"
+            ],
+            [
+              "",
+              "rogāvī cūr Rōmam ventūrus esset. ‘I asked why he"
+            ],
+            [
+              "",
+              "would come to Rome.’ / ‘I asked why he was going"
+            ],
+            [
+              "",
+              "to come to Rome.’"
+            ]
+          ]
         }
       ]
     },
     {
       "id": "section-3",
-      "latin": "54.5 Other Interrogative Words",
-      "english": "Grammar",
-      "kind": "commentary",
+      "latin": "54.3 English Tenses",
+      "num": "54.3",
       "blocks": [
         {
           "t": "p",
-          "text": "We have already seen a range of interrogative words, all of which can be used in -ne (indirect version num): used for questions answerable with ‘yes’ or ‘no’ quis ‘who?’ quid (neuter of quis) ‘what?’ quī, quae, quod (adjective) ‘which?’ cūr ‘why?’ ubi ‘where?’ (when motion is not involved: ubi est ‘Where is he?’) There are also a number of other interrogative words not seen so far, including the following: quō ‘to where?’, ‘where?’ (when motion towards a place is involved: quō currit?"
+          "text": "The tense of the verb of an indirect question in English is usually the same as the Latin tense, because English shifts the tense of the subordinate verb back when the introductory verb is in the past. This is the same shift that we saw with indirect statement in chapter 19.4, and the diagram of English usage seen there (and reproduced with modifications below) can also be applied to questions. But whereas this feature of English can cause difficulty in translating indirect statements, it is an advantage for indirect questions, where the sequence rules of the two languages largely match."
         },
         {
-          "t": "p",
-          "text": "‘Where is he running to?’, quō īvit? ‘Where did he go?’) unde ‘from where?’ (unde vēnit? ‘Where did he come from?’) quot ‘how many?’ quandō ‘when?’ (only usable in questions and to be clearly distinguished from cum ‘when’, which is only used in temporal clauses) quōmodo ‘how?’ quantus, -a, -um ‘how big?’ utrum . . ."
+          "t": "table",
+          "header": [
+            "",
+            "Indirect question after",
+            "Indirect question after"
+          ],
+          "rows": [
+            [
+              "Original sentence",
+              "present tense",
+              "past tense"
+            ],
+            [
+              "Who ate the fish?",
+              "He asks who ate the fish.",
+              "He asked who had eaten"
+            ],
+            [
+              "",
+              "",
+              "the fish."
+            ],
+            [
+              "Who eats fish?",
+              "He asks who eats fish.",
+              "He asked who ate fish."
+            ],
+            [
+              "Who is eating the fish?",
+              "He asks who is eating the",
+              "He asked who was eating the fish."
+            ],
+            [
+              "",
+              "fish.",
+              ""
+            ],
+            [
+              "Who will eat the fish?",
+              "He asks who will eat the",
+              "He asked who would eat the fish."
+            ],
+            [
+              "",
+              "fish.",
+              ""
+            ],
+            [
+              "Who is going to eat the",
+              "He asks who is going to eat",
+              "He asked who was going to"
+            ],
+            [
+              "fish?",
+              "the fish.",
+              "eat the fish."
+            ]
+          ]
         },
         {
-          "t": "p",
-          "text": "an (used for double questions, where utrum has no translation and an is equivalent to ‘or’: utrum hoc an illud vīs? ‘Do you want this or that?’)"
+          "t": "practice"
+        },
+        {
+          "t": "ex",
+          "letter": "B",
+          "text": "Translate:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "rogaverunt quis venturus esset.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "rogabunt quis venturus sit."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "rogat cur discessuri simus."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "rogabat cur discessuri essemus."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "rogat ubi futura sis."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "rogavit ubi futura esses."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "rogabant quem visurus essem."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "rogant quem visurus sim."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "rogabit quid facturi simus."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "rogavit quid facturi essemus."
         }
       ]
     },
     {
       "id": "section-4",
-      "latin": "54.6 Introductory Verbs",
-      "english": "Grammar",
-      "kind": "commentary",
+      "latin": "54.4 Num",
+      "num": "54.4",
       "blocks": [
         {
           "t": "p",
-          "text": "quaerere, quaesīvī, quaesītum, which also means ‘ask’) but also after verbs expressing related concepts such as wondering or not knowing. Thus nesciō num currat ‘I don’t know whether he is running’ / ‘I don’t know if he is running’ is also an indirect question."
+          "text": "When the direct version of the question begins with an interrogative word, as in the examples seen so far, the same interrogative word also begins the indirect question. But some direct questions begin with -ne rather than an interrogative word, and -ne is not used in indirect questions; it has to be replaced by num, which is translated with ‘whether’ or ‘if’ in English. (Care is needed with the ‘if’ translation, as this ‘if’ is completely different from the ‘if’ that introduces conditional clauses: compare ‘I asked him if it had rained’ (indirect question) with ‘We would have stayed home if it had rained’ (conditional).)"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "Direct",
+              "Indirect"
+            ],
+            [
+              "cucurritne? ‘Did he run?’",
+              "rogāvī num cucurrisset. ‘I asked whether he had run.’ /"
+            ],
+            [
+              "",
+              "‘I asked if he had run.’"
+            ],
+            [
+              "curritne? ‘Is he running?’",
+              "rogāvī num curreret. ‘I asked whether he was running.’ /"
+            ],
+            [
+              "",
+              "‘I asked if he was running.’"
+            ],
+            [
+              "curretne? ‘Will he run?’",
+              "rogāvī num cursūrus esset. ‘I asked whether he would"
+            ],
+            [
+              "",
+              "run.’ / ‘I asked if he would run.’ / ‘I asked whether he"
+            ],
+            [
+              "",
+              "was going to run.’ / ‘I asked if he was going to run.’"
+            ]
+          ]
+        },
+        {
+          "t": "practice"
+        },
+        {
+          "t": "ex",
+          "letter": "C",
+          "text": "Translate:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "rogaverunt num venisses.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "rogant num veneris."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "rogabant num venturus esses."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "rogabunt num venias."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "rogat num discessuri simus."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "rogavit num discederemus."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "rogabit num discesserimus."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "rogabat num discessissemus."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "rogavi num Romae esset."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "rogo num Romae futurus sit."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "rogabam num Romae futurus esset."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "rogavi num Romae fuisset."
         }
       ]
     },
     {
       "id": "section-5",
-      "latin": "54.8 Vocabulary to Learn",
-      "english": "Grammar",
-      "kind": "commentary",
+      "latin": "54.5 Other Interrogative Words",
+      "num": "54.5",
       "blocks": [
         {
           "t": "p",
-          "text": "Verbs audeō, audēre, ausus sum ‘dare’ (semideponent, i.e."
+          "text": "We have already seen a range of interrogative words, all of which can be used in -ne (indirect version num): used for questions answerable with ‘yes’ or ‘no’ quis ‘who?’"
         },
         {
           "t": "p",
-          "text": "deponent in perfect tenses but not in present, future, or imperfect tenses) crēdō, crēdere, crēdidī, crēditum (+ dative) ‘believe’, ‘trust’ quaerō, quaerere, quaesīvī, quaesītum ‘ask’, ‘seek’ Nouns ars, artis, artium (f.) ‘art’, ‘skill’ iūs, iūris (n.) ‘right’, ‘law’ Adjectives quantus, quanta, quantum ‘how big?’ quot (indeclinable) ‘how many?’ Adverbs iterum ‘again’ quandō ‘when?’ quō ‘to where?’, ‘where?’ (with motion towards) quōmodo ‘how?’ unde ‘from where?’ Conjunctions num ‘whether’, ‘if’ (in indirect questions) utrum ."
+          "text": "quid (neuter of quis) ‘what?’"
         },
         {
-          "t": "h",
-          "text": ". . an ‘or’ (in double questions)"
+          "t": "p",
+          "text": "quī, quae, quod (adjective) ‘which?’"
+        },
+        {
+          "t": "p",
+          "text": "cūr ‘why?’"
+        },
+        {
+          "t": "p",
+          "text": "ubi ‘where?’ (when motion is not involved: ubi est ‘Where is he?’)"
+        },
+        {
+          "t": "p",
+          "text": "There are also a number of other interrogative words not seen so far, including the following: quō ‘to where?’, ‘where?’ (when motion towards a place is involved: quō currit? ‘Where is he running to?’, quō īvit? ‘Where did he go?’)"
+        },
+        {
+          "t": "p",
+          "text": "unde ‘from where?’ (unde vēnit? ‘Where did he come from?’)"
+        },
+        {
+          "t": "p",
+          "text": "quot ‘how many?’ quandō ‘when?’ (only usable in questions and to be clearly distinguished from cum ‘when’, which is only used in temporal clauses)"
+        },
+        {
+          "t": "p",
+          "text": "quōmodo ‘how?’"
+        },
+        {
+          "t": "p",
+          "text": "quantus, -a, -um ‘how big?’ utrum . . . an (used for double questions, where utrum has no translation and an is equivalent to ‘or’: utrum hoc an illud vīs? ‘Do you want this or that?’)"
+        }
+      ]
+    },
+    {
+      "id": "section-6",
+      "latin": "54.6 Introductory Verbs",
+      "num": "54.6",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Indirect questions occur not only after verbs of asking such as rogō (and quaerō, quaerere, quaesīvī, quaesītum, which also means ‘ask’) but also after verbs expressing related concepts such as wondering or not knowing. Thus nesciō num currat ‘I don’t know whether he is running’ / ‘I don’t know if he is running’ is also an indirect question."
+        },
+        {
+          "t": "practice"
+        },
+        {
+          "t": "ex",
+          "letter": "D",
+          "text": "Translate:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "rex quaesivit quot hostes essent.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "rex quaerit ubi hostes futuri sint."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "rex quaerebat quanta esset classis hostium."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "quaesivimus quo irent."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "quaerimus unde venerint."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "quaerebamus num valeretis."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "nesciunt quando venturi simus."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "nesciebant quid faciendum esset."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "nescient quomodo faciendum sit."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "nesciverunt ubi essent."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "quaerit num venire volueris."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "quaesivit num venire voluisses."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "quaerit num venire velis."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "quaesivit num venire velles."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "rogaverunt quot essemus."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "rogaverunt quot futuri essemus."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "rogabunt quot fuerimus."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "rogabunt quot simus."
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "quaerimus cui id des."
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "quaesivimus cui id daturus esses."
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "quaerimus cui id dederis."
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "quaesivimus cui id dares."
+        },
+        {
+          "t": "li",
+          "n": 23,
+          "text": "quaesivimus cui id dedisses."
+        },
+        {
+          "t": "li",
+          "n": 24,
+          "text": "quaerimus cui id daturus sis."
+        },
+        {
+          "t": "li",
+          "n": 25,
+          "text": "rogavit utrum manere an discedere vellemus."
+        },
+        {
+          "t": "li",
+          "n": 26,
+          "text": "rogabit utrum manere an discedere velimus."
+        },
+        {
+          "t": "ex",
+          "letter": "E",
+          "text": "Translate into Latin:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "He did not know where we were.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "He does not know where we were."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "He did not know where we had come from."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "He will not know where we have come from."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "They did not know where we were carrying it to."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "They will ask where we are carrying it to."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "They do not know how many sheep we will sell."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "They asked how many sheep we had sold."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "I do not know how big your house is."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "I asked how big his house was going to be."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "You do not know how the gods must be praised."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "We shall ask how the gods must be praised."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "We do not know when the queen will arrive."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "He asked when the queen would arrive."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "He does not know whether the slaves have been freed."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "He asked whether the slaves were being freed."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "They will ask whether we want to buy or to sell."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "They asked whether we wanted to buy or to sell."
+        }
+      ]
+    },
+    {
+      "id": "section-7",
+      "latin": "54.7 Reading Practice",
+      "num": "54.7",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "1 Colloquium Montepessulanum 7a–b (adapted): setting up a visit to a friend (probably third century ad)."
+        },
+        {
+          "t": "passage",
+          "text": "scis ubi habitet amicus meus Lucius, vir fortis: antecede me, disce num domi sit, rursus veni, dic mihi ubi sit.",
+          "speaker": "master (to slave)"
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "p",
+          "text": "habitō, -āre, -āvī, -ātum ‘live, dwell’"
+        },
+        {
+          "t": "p",
+          "text": "antecēdō, -cēdere, -cessī, -cessum ‘go ahead of’"
+        },
+        {
+          "t": "p",
+          "text": "rūrsus ‘back’"
+        },
+        {
+          "t": "p",
+          "text": "2 Cicero, Epistulae ad familiares 14.9 (adapted): Cicero writes to his wife about his worries in 48 bc . Dolabella (a first-declension masculine, like agricola) was the husband of their daughter Tullia. Note that faciam is an original deliberative question (quid faciam? ‘What should I do?’)."
+        },
+        {
+          "t": "p",
+          "text": "Tullius Terentiae suae salutem plurimam dicit. ad ceteras meas miserias accessit dolor et de Dolabellae valetudine et de Tulliae. omnino de omnibus rebus quid faciam nescio. tu velim ut tuam et Tulliae valetudinem cures. vale."
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "cēterus, -a, -um ‘other’",
+              "dolor, dolōris (m.) ‘sorrow’"
+            ],
+            [
+              "miseria, miseriae (f.) ‘misery’",
+              "valētūdō, valētūdinis (f.) ‘health’"
+            ],
+            [
+              "accēdō, accēdere, accessī, accessum ‘be added’",
+              "omnīnō ‘entirely’"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "3 Cicero, Epistulae ad familiares 14.23 (adapted): Cicero writes to his wife about Caesar in 47 bc . Note that prōgrediar and exspectem are original deliberative questions (‘whether I should advance’, etc.)"
+        },
+        {
+          "t": "p",
+          "text": "Tullius Terentiae suae salutem dicit. si vales bene est; ego valeo. reddita mihi tandem est a Caesare epistula satis liberalis, et ipse opinione celerius venturus esse dicitur; cum constituero utrum obviam ei progrediar an hic eum exspectem, faciam te certiorem. velim ut tabellarios mihi quam primum remittas. valetudinem tuam cura diligenter. vale."
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "tandem ‘finally’",
+              "exspectō, -āre, -āvī, -ātum ‘wait for’"
+            ],
+            [
+              "satis ‘reasonably’",
+              "certiōrem faciō ‘inform’"
+            ],
+            [
+              "līberālis, -e ‘generous’",
+              "tabellārius, tabellāriī (m.) ‘letter carrier’"
+            ],
+            [
+              "opīniōne celerius ‘sooner than (previously) thought’",
+              "(one of Cicero’s slaves)"
+            ],
+            [
+              "",
+              "quam prīmum ‘as soon as possible’"
+            ],
+            [
+              "cōnstituō, -stituere, -stituī, -stitūtum ‘decide’",
+              "remittō (like mittō) ‘send back’"
+            ],
+            [
+              "",
+              "valētūdō, valētūdinis (f.) ‘health’"
+            ],
+            [
+              "obviam (+ dative) ‘to meet’",
+              ""
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "4 Catullus 7 (extract): the poet expresses his love for Lesbia (first century bc )."
+        },
+        {
+          "t": "p",
+          "text": "Quaeris, quot mihi basiationes tuae, Lesbia, sint satis superque."
+        },
+        {
+          "t": "p",
+          "text": ". . . quam sidera multa, cum tacet nox, furtivos hominum vident amores, tam te basia multa basiare vesano satis et super Catullost."
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "bāsiātiō, bāsiātiōnis (f.) ‘kiss’",
+              "amor, amōris (m.) ‘love affair’"
+            ],
+            [
+              "satis superque ‘enough and more than enough’",
+              "tam multa ‘so many’"
+            ],
+            [
+              "",
+              "bāsium, bāsiī (n.) ‘kiss’"
+            ],
+            [
+              "quam multa ‘as many . . . as’",
+              "bāsiō, bāsiāre, bāsiāvī, bāsiātum ‘kiss’"
+            ],
+            [
+              "sīdus, sīderis (n.) ‘star’",
+              "vēsānus, -a, -um ‘mad (with love)’"
+            ],
+            [
+              "taceō, tacēre, tacuī, tacitum ‘be silent’ fūrtīvus, -a, -um ‘secret’",
+              "Catullōst = Catullō est"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "5 Catullus 85: the poet reflects on his emotions (first century bc )."
+        },
+        {
+          "t": "p",
+          "text": "Odi et amo. quare id faciam, fortasse requiris:"
+        },
+        {
+          "t": "p",
+          "text": "nescio, sed fieri sentio et excrucior."
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "ōdī, ōdisse, ōsum (perfect in form but present in meaning) ‘hate’",
+              "requīrō, requīrere, requīsīvī, requīsītum ‘ask’"
+            ],
+            [
+              "quārē = cūr fortasse ‘perhaps’",
+              "excruciō, -āre, -āvī, -ātum ‘torture’"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "6 Martial 9.77 (extract): the best kind of dinner party for a hater of music (first century ad )."
+        },
+        {
+          "t": "p",
+          "text": "Quod optimum sit disputat convivium facunda Prisci pagina . . ."
+        },
+        {
+          "t": "p",
+          "text": "quod optimum sit quaeritis convivium?"
+        },
+        {
+          "t": "p",
+          "text": "in quo choraules non erit."
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "disputō, -āre, -āvī, -ātum ‘discuss’",
+              "pāgina, pāginae (f.) ‘page’ (i.e. writings)"
+            ],
+            [
+              "convīvium, convīviī (n.) ‘dinner party’",
+              "choraulēs, choraulae (m.) ‘flute player’"
+            ],
+            [
+              "fācundus, -a, -um ‘eloquent’",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-8",
+      "latin": "54.8 Vocabulary to Learn",
+      "num": "54.8",
+      "blocks": [
+        {
+          "t": "vhead",
+          "text": "Verbs"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "audeō, audēre, ausus sum crēdō, crēdere, crēdidī, crēditum (+ dative) ‘believe’, ‘trust’",
+              "‘dare’ (semideponent, i.e. deponent in perfect tenses but not in present, ‘ask’, ‘seek’"
+            ],
+            [
+              "quaerō, quaerere, quaesīvī, quaesītum",
+              ""
+            ]
+          ]
+        },
+        {
+          "t": "vhead",
+          "text": "Nouns"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "ars, artis, artium (f.)",
+              "‘art’, ‘skill’"
+            ],
+            [
+              "iūs, iūris (n.)",
+              "‘right’, ‘law’"
+            ]
+          ]
+        },
+        {
+          "t": "vhead",
+          "text": "Adjectives"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "quantus, quanta, quantum",
+              "‘how big?’"
+            ],
+            [
+              "quot (indeclinable)",
+              "‘how many?’"
+            ]
+          ]
+        },
+        {
+          "t": "vhead",
+          "text": "Adverbs"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "iterum",
+              "‘again’"
+            ],
+            [
+              "quandō",
+              "‘when?’"
+            ],
+            [
+              "quō",
+              "‘to where?’, ‘where?’ (with motion towards)"
+            ],
+            [
+              "quōmodo",
+              "‘how?’"
+            ],
+            [
+              "unde",
+              "‘from where?’"
+            ]
+          ]
+        },
+        {
+          "t": "vhead",
+          "text": "Conjunctions"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "num",
+              "‘whether’, ‘if’ (in indirect questions)"
+            ],
+            [
+              "utrum . . . an",
+              "‘or’ (in double questions)"
+            ]
+          ]
         }
       ]
     }
-  ],
-  "readings": [],
-  "grammar": [],
-  "vocabulary": [
-    {
-      "latin": "habitō, -āre, -āvī, -ātum",
-      "english": "live, dwell",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "antecēdō, -cēdere, -cessī, -cessum",
-      "english": "go ahead of",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "rūrsus",
-      "english": "back",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "cēterus, -a, -um",
-      "english": "other",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "accēdō, accēdere, accessī, accessum",
-      "english": "be omnīnō",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "tandem",
-      "english": "finally",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "exspectō, -āre, -āvī, -ātum",
-      "english": "wait for",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "satis",
-      "english": "reasonably",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "certiōrem faciō",
-      "english": "inform",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "līberālis, -e",
-      "english": "generous",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "opīniōne celerius",
-      "english": "sooner than (one of Cicero",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "thought",
-      "english": "quam prīmum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "satis superque",
-      "english": "enough and more than tam multa",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "enough",
-      "english": "bāsium, bāsiī (n.)",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "quam multa",
-      "english": "as many . . . as",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "bāsiō, bāsiāre, bāsiāvī, bāsiātum",
-      "english": "kiss",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "vēsānus, -a, -um",
-      "english": "mad (with love)",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "taceō, tacēre, tacuī, tacitum",
-      "english": "be silent",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "Catullōst = Catullō est fūrtīvus, -a, -um",
-      "english": "secret",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "quārē = cūr excruciō, -āre, -āvī, -ātum",
-      "english": "torture",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "fortasse",
-      "english": "perhaps",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "disputō, -āre, -āvī, -ātum",
-      "english": "discuss",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "fācundus, -a, -um",
-      "english": "eloquent",
-      "group": "Vocābula"
-    }
-  ],
-  "pensa": [
-    {
-      "latinLabel": "PRACTICE A",
-      "title": "Practice A",
-      "instruction": "Practice A Translate:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 isti rogaverunt quis venisset.",
-          "a": ""
-        },
-        {
-          "q": "7 ipse rogabit cur discedamus.",
-          "a": ""
-        },
-        {
-          "q": "2 isti rogabunt quis venerit.",
-          "a": ""
-        },
-        {
-          "q": "8 ipse rogabat cur discederemus.",
-          "a": ""
-        },
-        {
-          "q": "3 ipsi rogant quis veniat.",
-          "a": ""
-        },
-        {
-          "q": "9 ipse rogavisti ubi essemus.",
-          "a": ""
-        },
-        {
-          "q": "4 ipsi rogabant quis veniret.",
-          "a": ""
-        },
-        {
-          "q": "10 ipsi rogavistis ubi fuissemus.",
-          "a": ""
-        },
-        {
-          "q": "5 iste rogat cur discesserimus.",
-          "a": ""
-        },
-        {
-          "q": "11 iste rogabit ubi fuerimus.",
-          "a": ""
-        },
-        {
-          "q": "6 iste rogavit cur discessissemus.",
-          "a": ""
-        },
-        {
-          "q": "12 iste rogabit ubi simus. The tense of a subordinate verb in Latin is determined by sequence of tenses, but the sequence rules we have seen need one modification in the case of indirect questions. In chapter",
-          "a": ""
-        },
-        {
-          "q": "46 we saw the following diagram, which applies to all types of sequence except that of indirect questions: Relative time of subordinate clause Before the action of After or at the same time as the main clause the action of the main clause Tense of Primary Subordinate verb is Subordinate verb is main verb perfect subjunctive present subjunctive Historic Subordinate verb is Subordinate verb is pluperfect imperfect subjunctive subjunctive But for indirect questions it is crucial to be able to distinguish between present and future, that is between actions at the same time as the main clause and actions later than the main clause: the difference between an original ‘Is he here?’ and ‘Will he be here?’ needs to be preserved even when the questions become indirect (‘We asked whether he was there’ versus ‘We asked whether he would be there’). So for indirect questions an original future is indicated with the future participle and a subjunctive of sum, necessitating a third column in the diagram: Relative time of subordinate clause Before the At the same time as After the action of action of the the action of the the main clause main clause main clause (original future) (original past) (original present) Tense of Primary Subordinate Subordinate Subordinate main verb verb is verb is verb is future perfect present participle + sim, subjunctive subjunctive sīs, sit . . . Historic Subordinate Subordinate Subordinate verb is verb is verb is future pluperfect imperfect participle + subjunctive subjunctive essem, essēs, esset . . . Therefore: Direct Indirect quis aderit? ‘Who will be rogō quis adfutūrus sit. ‘I am asking who will be present?’ present.’ / ‘I am asking who is going to be present.’ rogāvī quis adfutūrus esset. ‘I asked who would be present.’ / ‘I asked who was going to be present.’ cūr Rōmam veniet? ‘Why rogō cūr Rōmam ventūrus sit. ‘I am asking why he will will he come to Rome?’ come to Rome.’ / ‘I am asking why he is going to come to Rome.’ rogāvī cūr Rōmam ventūrus esset. ‘I asked why he would come to Rome.’ / ‘I asked why he was going to come to Rome.’",
-          "a": ""
-        }
-      ],
-      "id": "practice-54-a"
-    },
-    {
-      "latinLabel": "PRACTICE B",
-      "title": "Practice B",
-      "instruction": "Practice B Translate:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 rogaverunt quis venturus esset.",
-          "a": ""
-        },
-        {
-          "q": "6 rogavit ubi futura esses.",
-          "a": ""
-        },
-        {
-          "q": "2 rogabunt quis venturus sit.",
-          "a": ""
-        },
-        {
-          "q": "7 rogabant quem visurus essem.",
-          "a": ""
-        },
-        {
-          "q": "3 rogat cur discessuri simus.",
-          "a": ""
-        },
-        {
-          "q": "8 rogant quem visurus sim.",
-          "a": ""
-        },
-        {
-          "q": "4 rogabat cur discessuri essemus.",
-          "a": ""
-        },
-        {
-          "q": "9 rogabit quid facturi simus.",
-          "a": ""
-        },
-        {
-          "q": "5 rogat ubi futura sis.",
-          "a": ""
-        },
-        {
-          "q": "10 rogavit quid facturi essemus.",
-          "a": ""
-        }
-      ],
-      "id": "practice-54-b"
-    },
-    {
-      "latinLabel": "PRACTICE C",
-      "title": "Practice C",
-      "instruction": "Practice C Translate:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 rogaverunt num venisses.",
-          "a": ""
-        },
-        {
-          "q": "8 rogabat num discessissemus.",
-          "a": ""
-        },
-        {
-          "q": "2 rogant num veneris.",
-          "a": ""
-        },
-        {
-          "q": "9 rogavi num Romae esset.",
-          "a": ""
-        },
-        {
-          "q": "3 rogabant num venturus esses.",
-          "a": ""
-        },
-        {
-          "q": "10 rogo num Romae futurus sit.",
-          "a": ""
-        },
-        {
-          "q": "4 rogabunt num venias.",
-          "a": ""
-        },
-        {
-          "q": "11 rogabam num Romae futurus",
-          "a": ""
-        },
-        {
-          "q": "5 rogat num discessuri simus. esset.",
-          "a": ""
-        },
-        {
-          "q": "6 rogavit num discederemus.",
-          "a": ""
-        },
-        {
-          "q": "12 rogavi num Romae fuisset.",
-          "a": ""
-        },
-        {
-          "q": "7 rogabit num discesserimus.",
-          "a": ""
-        }
-      ],
-      "id": "practice-54-c"
-    },
-    {
-      "latinLabel": "PRACTICE D",
-      "title": "Practice D",
-      "instruction": "Practice D Translate:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 rex quaesivit quot hostes essent.",
-          "a": ""
-        },
-        {
-          "q": "4 quaesivimus quo irent.",
-          "a": ""
-        },
-        {
-          "q": "2 rex quaerit ubi hostes futuri sint.",
-          "a": ""
-        },
-        {
-          "q": "5 quaerimus unde venerint.",
-          "a": ""
-        },
-        {
-          "q": "3 rex quaerebat quanta esset classis",
-          "a": ""
-        },
-        {
-          "q": "6 quaerebamus num valeretis. hostium.",
-          "a": ""
-        },
-        {
-          "q": "7 nesciunt quando venturi simus.",
-          "a": ""
-        },
-        {
-          "q": "8 nesciebant quid faciendum esset.",
-          "a": ""
-        },
-        {
-          "q": "19 quaerimus cui id des.",
-          "a": ""
-        },
-        {
-          "q": "9 nescient quomodo faciendum sit.",
-          "a": ""
-        },
-        {
-          "q": "20 quaesivimus cui id daturus",
-          "a": ""
-        },
-        {
-          "q": "10 nesciverunt ubi essent. esses.",
-          "a": ""
-        },
-        {
-          "q": "11 quaerit num venire volueris.",
-          "a": ""
-        },
-        {
-          "q": "21 quaerimus cui id dederis.",
-          "a": ""
-        },
-        {
-          "q": "12 quaesivit num venire voluisses.",
-          "a": ""
-        },
-        {
-          "q": "22 quaesivimus cui id dares.",
-          "a": ""
-        },
-        {
-          "q": "13 quaerit num venire velis.",
-          "a": ""
-        },
-        {
-          "q": "23 quaesivimus cui id dedisses.",
-          "a": ""
-        },
-        {
-          "q": "14 quaesivit num venire velles.",
-          "a": ""
-        },
-        {
-          "q": "24 quaerimus cui id daturus sis.",
-          "a": ""
-        },
-        {
-          "q": "15 rogaverunt quot essemus.",
-          "a": ""
-        },
-        {
-          "q": "25 rogavit utrum manere an",
-          "a": ""
-        },
-        {
-          "q": "16 rogaverunt quot futuri essemus. discedere vellemus.",
-          "a": ""
-        },
-        {
-          "q": "17 rogabunt quot fuerimus.",
-          "a": ""
-        },
-        {
-          "q": "26 rogabit utrum manere an",
-          "a": ""
-        },
-        {
-          "q": "18 rogabunt quot simus. discedere velimus.",
-          "a": ""
-        }
-      ],
-      "id": "practice-54-d"
-    },
-    {
-      "latinLabel": "PRACTICE E",
-      "title": "Practice E",
-      "instruction": "E Translate into Latin:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 He did not know where we",
-          "a": ""
-        },
-        {
-          "q": "10 I asked how big his house was were. going to be.",
-          "a": ""
-        },
-        {
-          "q": "2 He does not know where we",
-          "a": ""
-        },
-        {
-          "q": "11 You do not know how the gods were. must be praised.",
-          "a": ""
-        },
-        {
-          "q": "3 He did not know where we had",
-          "a": ""
-        },
-        {
-          "q": "12 We shall ask how the gods must come from. be praised.",
-          "a": ""
-        },
-        {
-          "q": "4 He will not know where we have",
-          "a": ""
-        },
-        {
-          "q": "13 We do not know when the queen come from. will arrive.",
-          "a": ""
-        },
-        {
-          "q": "5 They did not know where we",
-          "a": ""
-        },
-        {
-          "q": "14 He asked when the queen would were carrying it to. arrive.",
-          "a": ""
-        },
-        {
-          "q": "6 They will ask where we are",
-          "a": ""
-        },
-        {
-          "q": "15 He does not know whether the carrying it to. slaves have been freed.",
-          "a": ""
-        },
-        {
-          "q": "7 They do not know how many",
-          "a": ""
-        },
-        {
-          "q": "16 He asked whether the slaves sheep we will sell. were being freed.",
-          "a": ""
-        },
-        {
-          "q": "8 They asked how many sheep we",
-          "a": ""
-        },
-        {
-          "q": "17 They will ask whether we want to had sold. buy or to sell.",
-          "a": ""
-        },
-        {
-          "q": "9 I do not know how big your",
-          "a": ""
-        },
-        {
-          "q": "18 They asked whether we wanted house is. to buy or to sell.",
-          "a": ""
-        },
-        {
-          "q": "1 Colloquium Montepessulanum 7a–b (adapted): setting up a visit to a friend (probably third century ad). master (to slave): scis ubi habitet amicus meus Lucius, vir fortis: antecede me, disce num domi sit, rursus veni, dic mihi ubi sit.",
-          "a": ""
-        }
-      ],
-      "id": "practice-54-e"
-    }
   ]
-}
+};
 
 export default chapter

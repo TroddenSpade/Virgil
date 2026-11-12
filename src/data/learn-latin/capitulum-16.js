@@ -2,53 +2,55 @@ const chapter = {
   "number": 16,
   "roman": "XVI",
   "slug": "capitulum-16",
-  "latinTitle": "CAPVT XVI",
   "title": "Sequence of Tenses",
-  "tagline": "Grammar, vocabulary and practice",
   "status": "complete",
   "complete": true,
   "sections": [
     {
-      "id": "section-0",
-      "latin": "Introduction",
-      "english": "Introduction",
-      "kind": "commentary",
+      "id": "section-1",
+      "latin": "16.1 Sequence of Tenses",
+      "num": "16.1",
       "blocks": [
         {
           "t": "p",
-          "text": "The imperfect subjunctive, like the present subjunctive, does not have a fixed translation; its meaning depends on its construction. One construction in which the imperfect subjunctive is often used is the purpose clauses discussed in chapter 15.2: these use either present or imperfect subjunctive for the subordinate clause depending on the tense of the main verb. This relationship between the tense of the main verb and the tense of the subjunctive is called ‘sequence of tenses’ and is one of the most important rules of Latin syntax. Indicative tenses fall into two groups, primary and historic (also called primary and secondary); primary tenses in the main verb result in present subjunctives in the subordinate clause, and historic tenses in the main verb result in imperfect subjunctives in the subordinate clause. Of the tenses we have so far seen, the present and future are primary; the imperative, deliberative subjunctive, and hortatory subjunctive (though not strictly speaking tenses at all) also function as primary tenses. The only historic tense we have so far seen is the perfect.1 Therefore:"
+          "text": "The imperfect subjunctive, like the present subjunctive, does not have a fixed translation; its meaning depends on its construction. One construction in which the imperfect subjunctive is often used is the purpose clauses discussed in chapter 15.2: these use either present or imperfect subjunctive for the subordinate clause depending on the tense of the main verb. This relationship between the tense of the main verb and the tense of the subjunctive is called ‘sequence of tenses’ and is one of the most important rules of Latin syntax. Indicative tenses fall into two groups, primary and historic (also called primary and secondary); primary tenses in the main verb result in present subjunctives in the subordinate clause, and historic tenses in the main verb result in imperfect subjunctives in the subordinate clause. Of the tenses we have so far seen, the present and future are primary; the imperative, deliberative subjunctive, and hortatory subjunctive (though not strictly speaking tenses at all) also function as primary tenses."
         },
         {
           "t": "p",
-          "text": "Main verb Subordinate verb Present indicative, future → Present subjunctive"
+          "text": "The only historic tense we have so far seen is the perfect.1 Therefore:"
         },
         {
-          "t": "h",
-          "text": "indicative, imperative, subjunctive"
-        },
-        {
-          "t": "h",
-          "text": "Perfect indicative → Imperfect subjunctive"
-        },
-        {
-          "t": "p",
-          "text": "The tense of the subordinate verb can sometimes help resolve an ambiguous main"
-        },
-        {
-          "t": "p",
-          "text": "verb. For example, in a text where long vowels are not marked librum emit might mean either ‘he is buying the book’ (emit with short e) or ‘he bought the book’ (ēmit), but librum emit ut nobis daret has to mean ‘he bought the book to give it to us’ (daret is an imperfect subjunctive, so the main verb must be a perfect indicative)."
-        },
-        {
-          "t": "p",
-          "text": "English also has a sequence of tenses, though it does not work quite like the Latin"
-        },
-        {
-          "t": "p",
-          "text": "sequence, and therefore when a purpose clause has a historic main verb and an imperfect subjunctive the translation pattern is different from that seen in the last chapter: such purpose clauses are translated with an infinitive or with a clause beginning ‘in order to’, ‘in order that . . . would’, or ‘so that . . . would’, rather than with ‘will’."
+          "t": "table",
+          "header": [
+            "Main verb",
+            "",
+            "Subordinate verb"
+          ],
+          "rows": [
+            [
+              "Present indicative, future indicative, imperative, subjunctive",
+              "→",
+              "Present subjunctive"
+            ],
+            [
+              "Perfect indicative",
+              "→",
+              "Imperfect subjunctive"
+            ]
+          ]
         },
         {
           "t": "p",
+          "text": "The tense of the subordinate verb can sometimes help resolve an ambiguous main verb. For example, in a text where long vowels are not marked librum emit might mean either ‘he is buying the book’ (emit with short e) or ‘he bought the book’ (ēmit), but librum emit ut nobis daret has to mean ‘he bought the book to give it to us’ (daret is an imperfect subjunctive, so the main verb must be a perfect indicative)."
+        },
+        {
+          "t": "note",
+          "n": 1,
           "text": "This is an oversimplification, for sometimes the perfect can function as a primary tense. This occurs only in contexts where it would be translated with ‘have’ in English (e.g. ‘I have ruled’); such situations will not arise in this book."
+        },
+        {
+          "t": "p",
+          "text": "English also has a sequence of tenses, though it does not work quite like the Latin sequence, and therefore when a purpose clause has a historic main verb and an imperfect subjunctive the translation pattern is different from that seen in the last chapter: such purpose clauses are translated with an infinitive or with a clause beginning ‘in order to’, ‘in order that . . . would’, or ‘so that . . . would’, rather than with ‘will’."
         },
         {
           "t": "p",
@@ -56,510 +58,648 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "ad urbem īvit ut rēgem videret. ‘He went to the city to see the king.’ / ‘He went to the"
-        },
-        {
-          "t": "h",
-          "text": "city in order to see the king.’"
+          "text": "ad urbem īvit ut rēgem videret. ‘He went to the city to see the king.’ / ‘He went to the city in order to see the king.’"
         },
         {
           "t": "p",
-          "text": "ad urbem īvit nē rēgem videret. ‘He went to the city in order not to see the king.’ haec scrīpsit ut legerēmus. ‘He wrote these things so that we would read them.’ puerō pecūniam dedērunt nē miser esset. ‘They gave money to the boy so that he would"
+          "text": "ad urbem īvit nē rēgem videret. ‘He went to the city in order not to see the king.’ haec scrīpsit ut legerēmus. ‘He wrote these things so that we would read them.’ puerō pecūniam dedērunt nē miser esset. ‘They gave money to the boy so that he would not be miserable.’"
         },
         {
-          "t": "h",
-          "text": "not be miserable.’"
+          "t": "practice"
         },
         {
-          "t": "h",
-          "text": "Practice"
+          "t": "ex",
+          "letter": "A",
+          "text": "Translate (all have historic main verbs):"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "ad urbem ivit ut patrem peteret.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "deos laudavit ut bona nobis darent."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "illi nos iuverunt ne hostes nos vincerent."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "illos iuvimus ut nos iuvarent."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "ad urbem ivi ne in silva essem."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "laudavistisne deos ut vos iuvarent?"
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "deos laudavimus ne hostes ad urbem nostram ducerent."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "ad urbem iverunt ut matrem iuvarent."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "illi nos iuverunt ut hostes vinceremus."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "illos iuvimus ut nos laudarent."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "ivistine ad urbem ne patrem meum videres?"
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "deos laudavi ut mihi bona darent."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "illi nos iuverunt ne ad regem iremus."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "ad urbem non iverunt ne fratrem viderent."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "laudavistine deos ut tibi bona darent?"
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "illi nos iuverunt ne miseri essemus."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "ad urbem ivimus ut magistrum nostrum videremus."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "illos iuvimus ne ad hostes irent."
+        },
+        {
+          "t": "ex",
+          "letter": "B",
+          "text": "Translate (mixture of primary and historic main verbs):"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "rex milites e castris duxit ut hostes vincerent.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "Next month I shall go to Rome to see the games."
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "rex milites e castris ducit ut hostes vincant."
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "We opened the box to see what was inside."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "rex milites e castris ducet ut hostes vincant."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "Are they coming to ask us questions?"
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "rex milites e castris ducat ut hostes vincant."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "Speak loudly so that we can all hear."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "ad flumen ibo ut classem hostium videam."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "He worked so that his children would have food."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "ad flumen imus ut classem hostium videamus."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "Marcus, do you want to have a chariot so that you can ride in style?"
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "ad flumen ivit ut classem hostium videret."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "Let’s hide so that the enemy scouts won’t see us."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "ad flumen eamus ut classem hostium videamus."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "Last winter I went to Rome to see the games."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "ad flumen non eo ne classem hostium videam."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "These men will fight so that we can be free."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "ad flumen non ibunt ne classem hostium videant."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "You spoke loudly so that we could all hear."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "ne eamus ad flumen ne classem hostium videamus."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "Let’s go to Rome to see the games."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "ad flumen non iverunt ne classem hostium viderent."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "He works so that his children will have food."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "ex oppido non imus ne hostes nos videant."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "They died in order to save us."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "ex oppido non ii ne hostes me viderent."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "Let’s open the box to see what’s inside."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "ex oppido ne eamus ne hostes nos videant. C Without translating, state which verb in each sentence would be subjunctive in a purpose clause, whether it would be present or imperfect, and what its subject would be."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "Will you speak loudly so that we can all hear?"
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "ex oppido non ibitis ne hostes vos videant."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "Soldiers, hide so that the enemy scouts will not see you."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "ex oppido ibunt ut hostes videant."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "They all came to help."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "ex oppido ivit ut hostes videret."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "He will work so that his children have food."
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "ex oppido eamus ut hostes videamus."
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "These men fought so that we could be free."
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "ex oppido eat ut hostes videat."
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "Let’s fight for ourselves so that these men do not have to do so yet again."
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "ite in silvam ne hostes vos videant."
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "Should we hide so that the enemy scouts won’t see us?"
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "Let’s speak loudly so that everyone can hear."
+        },
+        {
+          "t": "li",
+          "n": 23,
+          "text": "Brother, please go to Rome to see the games!"
+        },
+        {
+          "t": "li",
+          "n": 24,
+          "text": "Did they come to ask us questions?"
+        },
+        {
+          "t": "li",
+          "n": 25,
+          "text": "May these men fight so that we can be free!"
+        },
+        {
+          "t": "li",
+          "n": 26,
+          "text": "We left the party early in order to get home on time."
+        },
+        {
+          "t": "li",
+          "n": 27,
+          "text": "We’re opening the box to see what’s inside."
+        },
+        {
+          "t": "li",
+          "n": 28,
+          "text": "We hid so that the enemy scouts would not see us."
+        },
+        {
+          "t": "li",
+          "n": 29,
+          "text": "Marcus wants to have a chariot so that he can ride in style."
+        },
+        {
+          "t": "li",
+          "n": 30,
+          "text": "He got up early in order to study before class."
+        },
+        {
+          "t": "li",
+          "n": 31,
+          "text": "I am going to Rome to see the games."
+        },
+        {
+          "t": "li",
+          "n": 32,
+          "text": "He speaks loudly so that we can all hear."
+        },
+        {
+          "t": "li",
+          "n": 33,
+          "text": "Will they come to ask us questions?"
+        },
+        {
+          "t": "li",
+          "n": 34,
+          "text": "We shall hide so that the enemy scouts won’t see us."
+        },
+        {
+          "t": "li",
+          "n": 35,
+          "text": "The boys all left in order not to get in trouble."
+        },
+        {
+          "t": "li",
+          "n": 36,
+          "text": "Marcus wanted to have a chariot so that he could ride in style."
+        },
+        {
+          "t": "li",
+          "n": 37,
+          "text": "Shall we open the box to see what’s inside?"
+        },
+        {
+          "t": "li",
+          "n": 38,
+          "text": "We are hiding so that the enemy scouts will not see us."
+        },
+        {
+          "t": "ex",
+          "letter": "D",
+          "text": "Translate into Latin:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "The king went to the camp to see the soldiers.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "The king will go to the camp to see the soldiers."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "The king is going to the camp in order to see the soldiers."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "The king went to the camp so that he would see the soldiers."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "The king will go to the camp so that he will see the soldiers."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "The king is going to the camp so that he will see the soldiers."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "May the king go to the camp to see the soldiers!"
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "King, go to the camp in order to see the soldiers!"
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "We wrote a letter to the king so that he would give us money."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "We are writing a letter to the king so that he will give us money."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "We shall write a letter to the king so that he will give us money."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "Let’s write a letter to the king so that he will give us money."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "Write a letter to the king so that he will give you money!"
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "Our brother ran to the farmer to buy a black horse."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "Our brother will run to the farmer in order to buy a black horse."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "Our brother is running to the farmer to buy a black horse."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "Let our brother run to the farmer to buy a black horse."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "Brother, run to the farmer to buy a black horse."
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "The slave led the sheep away from the river so that they would not run into the water."
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "The slave will lead the sheep away from the river so that they will not run into the water."
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "Let the slave lead the sheep away from the river so that they will not run into the water."
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "The slave is leading the sheep away from the river so that they will not run into the water."
+        },
+        {
+          "t": "li",
+          "n": 23,
+          "text": "Slave, lead the sheep away from the river so that they will not run into the water!"
         }
       ]
     },
     {
-      "id": "section-1",
-      "latin": "16.3 Vocabulary to Learn",
-      "english": "Grammar",
-      "kind": "commentary",
+      "id": "section-2",
+      "latin": "16.2 Reading Practice",
+      "num": "16.2",
       "blocks": [
         {
           "t": "p",
-          "text": "22 The slave is leading the sheep 23 Slave, lead the sheep away from away from the river so that they the river so that they will not run will not run into the water. into the water! Colloquium Harleianum 6a–c (adapted): continuation of the school scene in the preceding chapter. teacher: nonne mercedem attulisti? pupil: petivi patrem, et dixit, ‘ego ipse ad scholam hodie veniam cum pecunia. volo enim et experimentum accipere.’"
+          "text": "Colloquium Harleianum 6a–c (adapted): continuation of the school scene in the preceding chapter."
         },
         {
-          "t": "example",
-          "text": "Verbs impediō, impedīre, impedīvī, impedītum ‘hinder’ interficiō, interficere, interfēcī, interfectum ‘kill’ inveniō, invenīre, invēnī, inventum ‘find’ reficiō, reficere, refēcī, refectum ‘repair’ sentiō, sentīre, sēnsī, sēnsum ‘perceive’, ‘feel’ sepeliō, sepelīre, sepelīvī, sepultum ‘bury’ vendō, vendere, vendidī, venditum ‘sell’ veniō, venīre, vēnī, ventum ‘come’ vīvō, vīvere, vīxī, vīctum ‘live’"
+          "t": "passage",
+          "text": "nonne mercedem attulisti?",
+          "speaker": "teacher"
+        },
+        {
+          "t": "passage",
+          "text": "petivi patrem, et dixit, ‘ego ipse ad scholam hodie veniam cum pecunia. volo enim et experimentum accipere.’",
+          "speaker": "pupil"
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "nōnne = nōn + ne",
+              "volō, velle, voluī, – ‘want’"
+            ],
+            [
+              "mercēs, mercēdis (f.) ‘tuition payment’",
+              "enim ‘for’ (in the sense of ‘because’; translate one word earlier than where it appears in Latin)"
+            ],
+            [
+              "afferō, afferre, attulī, allātum ‘bring’",
+              ""
+            ],
+            [
+              "petō can also mean ‘ask’",
+              ""
+            ],
+            [
+              "ipse ‘myself’ (nominative)",
+              "et ‘also’"
+            ],
+            [
+              "schola, scholae (f.) ‘school’",
+              "experīmentum, -ī (n.) ‘demonstration (of your progress)’"
+            ],
+            [
+              "veniam ‘I shall come’",
+              ""
+            ]
+          ]
         }
       ]
-    }
-  ],
-  "readings": [],
-  "grammar": [],
-  "vocabulary": [
-    {
-      "latin": "enim",
-      "english": "for",
-      "group": "Vocābula"
     },
     {
-      "latin": "afferō, afferre, attulī, allātum",
-      "english": "bring",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "ipse",
-      "english": "myself",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "et",
-      "english": "also",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "I shall come",
-      "english": "(of your progress)",
-      "group": "Vocābula"
-    }
-  ],
-  "pensa": [
-    {
-      "latinLabel": "PRACTICE A",
-      "title": "Practice A",
-      "instruction": "A Translate (all have historic main verbs):",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 ad urbem ivit ut patrem peteret.",
-          "a": ""
-        },
-        {
-          "q": "10 illos iuvimus ut nos laudarent.",
-          "a": ""
-        },
-        {
-          "q": "2 deos laudavit ut bona nobis",
-          "a": ""
-        },
-        {
-          "q": "11 ivistine ad urbem ne patrem darent. meum videres?",
-          "a": ""
-        },
-        {
-          "q": "3 illi nos iuverunt ne hostes nos",
-          "a": ""
-        },
-        {
-          "q": "12 deos laudavi ut mihi bona darent. vincerent.",
-          "a": ""
-        },
-        {
-          "q": "13 illi nos iuverunt ne ad regem",
-          "a": ""
-        },
-        {
-          "q": "4 illos iuvimus ut nos iuvarent. iremus.",
-          "a": ""
-        },
-        {
-          "q": "5 ad urbem ivi ne in silva essem.",
-          "a": ""
-        },
-        {
-          "q": "14 ad urbem non iverunt ne fratrem",
-          "a": ""
-        },
-        {
-          "q": "6 laudavistisne deos ut vos viderent. iuvarent?",
-          "a": ""
-        },
-        {
-          "q": "15 laudavistine deos ut tibi bona",
-          "a": ""
-        },
-        {
-          "q": "7 deos laudavimus ne hostes ad darent? urbem nostram ducerent.",
-          "a": ""
-        },
-        {
-          "q": "16 illi nos iuverunt ne miseri",
-          "a": ""
-        },
-        {
-          "q": "8 ad urbem iverunt ut matrem essemus. iuvarent.",
-          "a": ""
-        },
-        {
-          "q": "17 ad urbem ivimus ut magistrum",
-          "a": ""
-        },
-        {
-          "q": "9 illi nos iuverunt ut hostes nostrum videremus. vinceremus.",
-          "a": ""
-        },
-        {
-          "q": "18 illos iuvimus ne ad hostes irent.",
-          "a": ""
-        }
-      ],
-      "id": "practice-16-a"
-    },
-    {
-      "latinLabel": "PRACTICE B",
-      "title": "Practice B",
-      "instruction": "B Translate (mixture of primary and historic main verbs):",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 rex milites e castris duxit ut hostes",
-          "a": ""
-        },
-        {
-          "q": "6 ad flumen imus ut classem vincerent. hostium videamus.",
-          "a": ""
-        },
-        {
-          "q": "2 rex milites e castris ducit ut hostes",
-          "a": ""
-        },
-        {
-          "q": "7 ad flumen ivit ut classem vincant. hostium videret.",
-          "a": ""
-        },
-        {
-          "q": "3 rex milites e castris ducet ut hos8 ad flumen eamus ut classem tes vincant. hostium videamus.",
-          "a": ""
-        },
-        {
-          "q": "4 rex milites e castris ducat ut hos9 ad flumen non eo ne classem tes vincant. hostium videam.",
-          "a": ""
-        },
-        {
-          "q": "5 ad flumen ibo ut classem hostium",
-          "a": ""
-        },
-        {
-          "q": "10 ad flumen non ibunt ne classem videam. hostium videant.",
-          "a": ""
-        },
-        {
-          "q": "11 ne eamus ad flumen ne classem",
-          "a": ""
-        },
-        {
-          "q": "16 ex oppido non ibitis ne hostes hostium videamus. vos videant.",
-          "a": ""
-        },
-        {
-          "q": "12 ad flumen non iverunt ne clas17 ex oppido ibunt ut hostes sem hostium viderent. videant.",
-          "a": ""
-        },
-        {
-          "q": "13 ex oppido non imus ne hostes",
-          "a": ""
-        },
-        {
-          "q": "18 ex oppido ivit ut hostes videret. nos videant.",
-          "a": ""
-        },
-        {
-          "q": "19 ex oppido eamus ut hostes",
-          "a": ""
-        },
-        {
-          "q": "14 ex oppido non ii ne hostes me videamus. viderent.",
-          "a": ""
-        },
-        {
-          "q": "20 ex oppido eat ut hostes videat.",
-          "a": ""
-        },
-        {
-          "q": "15 ex oppido ne eamus ne hostes",
-          "a": ""
-        },
-        {
-          "q": "21 ite in silvam ne hostes vos nos videant. videant. C Without translating, state which verb in each sentence would be subjunctive in a purpose clause, whether it would be present or imperfect, and what its subject would be.",
-          "a": ""
-        },
-        {
-          "q": "1 Next month I shall go to Rome to",
-          "a": ""
-        },
-        {
-          "q": "13 They died in order to save us. see the games.",
-          "a": ""
-        },
-        {
-          "q": "14 Let’s open the box to see what’s",
-          "a": ""
-        },
-        {
-          "q": "2 We opened the box to see what inside. was inside.",
-          "a": ""
-        },
-        {
-          "q": "15 Will you speak loudly so that we",
-          "a": ""
-        },
-        {
-          "q": "3 Are they coming to ask us can all hear? questions?",
-          "a": ""
-        },
-        {
-          "q": "16 Soldiers, hide so that the enemy",
-          "a": ""
-        },
-        {
-          "q": "4 Speak loudly so that we can all scouts will not see you. hear.",
-          "a": ""
-        },
-        {
-          "q": "17 They all came to help.",
-          "a": ""
-        },
-        {
-          "q": "5 He worked so that his children",
-          "a": ""
-        },
-        {
-          "q": "18 He will work so that his children would have food. have food.",
-          "a": ""
-        },
-        {
-          "q": "6 Marcus, do you want to have",
-          "a": ""
-        },
-        {
-          "q": "19 These men fought so that we a chariot so that you can ride in could be free. style?",
-          "a": ""
-        },
-        {
-          "q": "20 Let’s fight for ourselves so that",
-          "a": ""
-        },
-        {
-          "q": "7 Let’s hide so that the enemy these men do not have to do so scouts won’t see us. yet again.",
-          "a": ""
-        },
-        {
-          "q": "8 Last winter I went to Rome to see",
-          "a": ""
-        },
-        {
-          "q": "21 Should we hide so that the the games. enemy scouts won’t see us?",
-          "a": ""
-        },
-        {
-          "q": "9 These men will fight so that we",
-          "a": ""
-        },
-        {
-          "q": "22 Let’s speak loudly so that every- can be free. one can hear.",
-          "a": ""
-        },
-        {
-          "q": "10 You spoke loudly so that we",
-          "a": ""
-        },
-        {
-          "q": "23 Brother, please go to Rome to see could all hear. the games!",
-          "a": ""
-        },
-        {
-          "q": "11 Let’s go to Rome to see the",
-          "a": ""
-        },
-        {
-          "q": "24 Did they come to ask us games. questions?",
-          "a": ""
-        },
-        {
-          "q": "12 He works so that his children",
-          "a": ""
-        },
-        {
-          "q": "25 May these men fight so that we will have food. can be free!",
-          "a": ""
-        },
-        {
-          "q": "26 We left the party early in order",
-          "a": ""
-        },
-        {
-          "q": "33 Will they come to ask us to get home on time. questions?",
-          "a": ""
-        },
-        {
-          "q": "27 We’re opening the box to see",
-          "a": ""
-        },
-        {
-          "q": "34 We shall hide so that the enemy what’s inside. scouts won’t see us.",
-          "a": ""
-        },
-        {
-          "q": "28 We hid so that the enemy scouts",
-          "a": ""
-        },
-        {
-          "q": "35 The boys all left in order not to would not see us. get in trouble.",
-          "a": ""
-        },
-        {
-          "q": "29 Marcus wants to have a chariot",
-          "a": ""
-        },
-        {
-          "q": "36 Marcus wanted to have a chariot so that he can ride in style. so that he could ride in style.",
-          "a": ""
-        },
-        {
-          "q": "30 He got up early in order to study",
-          "a": ""
-        },
-        {
-          "q": "37 Shall we open the box to see before class. what’s inside?",
-          "a": ""
-        },
-        {
-          "q": "31 I am going to Rome to see the",
-          "a": ""
-        },
-        {
-          "q": "38 We are hiding so that the enemy games. scouts will not see us.",
-          "a": ""
-        },
-        {
-          "q": "32 He speaks loudly so that we can all hear.",
-          "a": ""
-        }
-      ],
-      "id": "practice-16-b"
-    },
-    {
-      "latinLabel": "PRACTICE D",
-      "title": "Practice D",
-      "instruction": "D Translate into Latin:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 The king went to the camp to see",
-          "a": ""
-        },
-        {
-          "q": "12 Let’s write a letter to the king so the soldiers. that he will give us money.",
-          "a": ""
-        },
-        {
-          "q": "2 The king will go to the camp to",
-          "a": ""
-        },
-        {
-          "q": "13 Write a letter to the king so that see the soldiers. he will give you money!",
-          "a": ""
-        },
-        {
-          "q": "3 The king is going to the camp in",
-          "a": ""
-        },
-        {
-          "q": "14 Our brother ran to the farmer to order to see the soldiers. buy a black horse.",
-          "a": ""
-        },
-        {
-          "q": "4 The king went to the camp so",
-          "a": ""
-        },
-        {
-          "q": "15 Our brother will run to the farmer that he would see the soldiers. in order to buy a black horse.",
-          "a": ""
-        },
-        {
-          "q": "5 The king will go to the camp so",
-          "a": ""
-        },
-        {
-          "q": "16 Our brother is running to the that he will see the soldiers. farmer to buy a black horse.",
-          "a": ""
-        },
-        {
-          "q": "6 The king is going to the camp so",
-          "a": ""
-        },
-        {
-          "q": "17 Let our brother run to the farmer that he will see the soldiers. to buy a black horse.",
-          "a": ""
-        },
-        {
-          "q": "7 May the king go to the camp to",
-          "a": ""
-        },
-        {
-          "q": "18 Brother, run to the farmer to buy see the soldiers! a black horse.",
-          "a": ""
-        },
-        {
-          "q": "8 King, go to the camp in order to",
-          "a": ""
-        },
-        {
-          "q": "19 The slave led the sheep away see the soldiers! from the river so that they would",
-          "a": ""
-        },
-        {
-          "q": "9 We wrote a letter to the king so not run into the water. that he would give us money.",
-          "a": ""
-        },
-        {
-          "q": "20 The slave will lead the sheep",
-          "a": ""
-        },
-        {
-          "q": "10 We are writing a letter to the away from the river so that they king so that he will give us will not run into the water. money.",
-          "a": ""
-        },
-        {
-          "q": "21 Let the slave lead the sheep away",
-          "a": ""
-        },
-        {
-          "q": "11 We shall write a letter to the king from the river so that they will so that he will give us money. not run into the water.",
-          "a": ""
-        }
-      ],
-      "id": "practice-16-d"
-    },
-    {
-      "id": "translate-16",
-      "latinLabel": "TRANSLATE INTO LATIN",
-      "title": "Translate into Latin",
-      "instruction": "",
-      "type": "questions",
-      "items": [
-        {
-          "q": "that he would see the soldiers.",
-          "a": ""
-        },
-        {
-          "q": "in order to buy a black horse.",
-          "a": ""
-        },
-        {
-          "q": "that he would give us money.",
-          "a": ""
-        },
-        {
-          "q": "20 The slave will lead the sheep king so that he will give us will not run into the water.",
-          "a": ""
-        },
-        {
-          "q": "21 Let the slave lead the sheep away",
-          "a": ""
+      "id": "section-3",
+      "latin": "16.3 Vocabulary to Learn",
+      "num": "16.3",
+      "blocks": [
+        {
+          "t": "vhead",
+          "text": "Verbs"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "impediō, impedīre, impedīvī, impedītum",
+              "‘hinder’"
+            ],
+            [
+              "interficiō, interficere, interfēcī, interfectum",
+              "‘kill’"
+            ],
+            [
+              "inveniō, invenīre, invēnī, inventum",
+              "‘find’"
+            ],
+            [
+              "reficiō, reficere, refēcī, refectum",
+              "‘repair’"
+            ],
+            [
+              "sentiō, sentīre, sēnsī, sēnsum",
+              "‘perceive’, ‘feel’"
+            ],
+            [
+              "sepeliō, sepelīre, sepelīvī, sepultum",
+              "‘bury’"
+            ],
+            [
+              "vendō, vendere, vendidī, venditum",
+              "‘sell’"
+            ],
+            [
+              "veniō, venīre, vēnī, ventum",
+              "‘come’"
+            ],
+            [
+              "vīvō, vīvere, vīxī, vīctum",
+              "‘live’"
+            ]
+          ]
         }
       ]
     }
   ]
-}
+};
 
 export default chapter

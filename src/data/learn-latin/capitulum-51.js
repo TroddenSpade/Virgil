@@ -2,697 +2,903 @@ const chapter = {
   "number": 51,
   "roman": "LI",
   "slug": "capitulum-51",
-  "latinTitle": "CAPVT LI",
   "title": "Fīō, Conditionals Continued",
-  "tagline": "Grammar, vocabulary and practice",
   "status": "complete",
   "complete": true,
   "sections": [
     {
       "id": "section-1",
       "latin": "51.1 Conjugation of Fīō",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "51.1",
       "blocks": [
         {
           "t": "p",
-          "text": "The verb fīō is in effect the passive of faciō in the present, future, and imperfect tenses (i.e. those tenses formed from the first two principal parts); its principal parts are therefore fīō, fierī, factus sum. Strictly speaking fīō is not very irregular, for nearly all its forms can be formed regularly from the principal parts if one classes it as a mixed conjugation partially deponent verb."
+          "text": "The verb fīō is in effect the passive of faciō in the present, future, and imperfect tenses (i.e. those tenses formed from the first two principal parts); its principal parts are therefore fīō, fierī, factus sum. Strictly speaking fīō is not very irregular, for nearly all its forms can be formed regularly from the principal parts if one classes it as a mixed conjugation partially deponent verb. Nevertheless this formation process is tricky enough that fīō is normally classed with the irregular verbs."
         },
         {
-          "t": "p",
-          "text": "Nevertheless this formation process is tricky enough that fīō is normally classed with the irregular verbs."
-        },
-        {
-          "t": "h",
-          "text": "Indicative Subjunctive"
-        },
-        {
-          "t": "pre",
-          "text": "Present fīō fīam"
-        },
-        {
-          "t": "h",
-          "text": "fīs fīās fit fīat fīmus fīāmus fītis fīātis fīunt fīant"
-        },
-        {
-          "t": "pre",
-          "text": "Future fīam"
-        },
-        {
-          "t": "p",
-          "text": "fīēs fīet fīēmus fīētis fīent Perfect factus, -a, -um sum factus, -a, -um sim factus, -a, -um es factus, -a, -um sīs factus, -a, -um est factus, -a, -um sit factī, -ae, -a sumus factī, -ae, -a sīmus factī, -ae, -a estis factī, -ae, -a sītis factī, -ae, -a sunt factī, -ae, -a sint"
-        },
-        {
-          "t": "pre",
-          "text": "Imperfect fīēbam fierem"
-        },
-        {
-          "t": "p",
-          "text": "fīēbās fierēs fīēbat fieret fīēbāmus fierēmus fīēbātis fierētis fīēbant fierent"
-        },
-        {
-          "t": "h",
-          "text": "Indicative Subjunctive"
-        },
-        {
-          "t": "p",
-          "text": "Pluperfect factus, -a, -um eram factus, -a, -um essem factus, -a, -um erās factus, -a, -um essēs factus, -a, -um erat factus, -a, -um esset factī, -ae, -a erāmus factī, -ae, -a essēmus factī, -ae, -a erātis factī, -ae, -a essētis factī, -ae, -a erant factī, -ae, -a essent"
-        },
-        {
-          "t": "pre",
-          "text": "Future perfect factus, -a, -um erō"
-        },
-        {
-          "t": "p",
-          "text": "factus, -a, -um eris factus, -a, -um erit factī, -ae, -a erimus factī, -ae, -a eritis factī, -ae, -a erunt Imperative – Present infinitive fierī Future infinitive factum īrī Perfect infinitive factus, -a, -um esse Present participle – Future participle – Perfect participle factus, -a, -um Gerundive faciendus, -a, -um"
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "",
+              "Indicative",
+              "Subjunctive"
+            ],
+            [
+              "Present",
+              "fīō",
+              "fīam"
+            ],
+            [
+              "",
+              "fīs",
+              "fīās"
+            ],
+            [
+              "",
+              "fit",
+              "fīat"
+            ],
+            [
+              "",
+              "fīmus",
+              "fīāmus"
+            ],
+            [
+              "",
+              "fītis",
+              "fīātis"
+            ],
+            [
+              "",
+              "fīunt",
+              "fīant"
+            ],
+            [
+              "Future",
+              "fīam",
+              ""
+            ],
+            [
+              "",
+              "fīēs",
+              ""
+            ],
+            [
+              "",
+              "fīet",
+              ""
+            ],
+            [
+              "",
+              "fīēmus",
+              ""
+            ],
+            [
+              "",
+              "fīētis",
+              ""
+            ],
+            [
+              "",
+              "fīent",
+              ""
+            ],
+            [
+              "Perfect",
+              "factus, -a, -um sum",
+              "factus, -a, -um sim"
+            ],
+            [
+              "",
+              "factus, -a, -um es",
+              "factus, -a, -um sīs"
+            ],
+            [
+              "",
+              "factus, -a, -um est",
+              "factus, -a, -um sit"
+            ],
+            [
+              "",
+              "factī, -ae, -a sumus",
+              "factī, -ae, -a sīmus"
+            ],
+            [
+              "",
+              "factī, -ae, -a estis",
+              "factī, -ae, -a sītis"
+            ],
+            [
+              "",
+              "factī, -ae, -a sunt",
+              "factī, -ae, -a sint"
+            ],
+            [
+              "Imperfect Pluperfect Future perfect Imperative Present infinitive Future infinitive Perfect infinitive Present participle Future participle Perfect participle Gerundive",
+              "fīēbam",
+              "fierem"
+            ],
+            [
+              "",
+              "fīēbās",
+              "fierēs"
+            ],
+            [
+              "",
+              "fīēbat",
+              "fieret"
+            ],
+            [
+              "",
+              "fīēbāmus",
+              "fierēmus"
+            ],
+            [
+              "",
+              "fīēbātis",
+              "fierētis"
+            ],
+            [
+              "",
+              "fīēbant Indicative factus, -a, -um eram factus, -a, -um erās factus, -a, -um erat factī, -ae, -a erāmus factī, -ae, -a erātis factī, -ae, -a erant factus, -a, -um erō factus, -a, -um eris factus, -a, -um erit factī, -ae, -a erimus factī, -ae, -a eritis factī, -ae, -a erunt – fierī factum īrī factus, -a, -um esse – – factus, -a, -um faciendus, -a, -um",
+              "fierent Subjunctive factus, -a, -um essem factus, -a, -um essēs factus, -a, -um esset factī, -ae, -a essēmus factī, -ae, -a essētis factī, -ae, -a essent"
+            ]
+          ]
         }
       ]
     },
     {
       "id": "section-2",
       "latin": "51.2 Use of Fīō",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "51.2",
       "blocks": [
         {
           "t": "p",
-          "text": "In addition to the ‘be made’, ‘be done’ meanings that come with being the passive of faciō, fīō can mean ‘become’ or ‘come to be’; when it has these meanings it takes a complement in the nominative, like the verb ‘be’. rēgīna fīet ‘she will become queen’ cīvis factus est ‘he became a citizen’ fīat lūx ‘let there be light’ (lūx, lūcis (f.) ‘light’) (literally ‘may light come to be’)"
+          "text": "In addition to the ‘be made’, ‘be done’ meanings that come with being the passive of faciō, fīō can mean ‘become’ or ‘come to be’; when it has these meanings it takes a complement in the nominative, like the verb ‘be’."
+        },
+        {
+          "t": "p",
+          "text": "rēgīna fīet ‘she will become queen’"
+        },
+        {
+          "t": "p",
+          "text": "cīvis factus est ‘he became a citizen’"
+        },
+        {
+          "t": "p",
+          "text": "fīat lūx ‘let there be light’ (lūx, lūcis (f.) ‘light’) (literally ‘may light come to be’)"
+        },
+        {
+          "t": "practice"
+        },
+        {
+          "t": "ex",
+          "letter": "A",
+          "text": "Translate:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "hic puer magister aut poeta fiet.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "ergo volo rex fieri."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "heri autem factus sum pater."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "agricola fieri nolo."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "si ille rex fiat, bene regamur."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "cum victi essent, servi facti sunt."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "si ille rex esset, bene regeremur."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "si ille rex factus esset, bene recti essemus."
+        },
+        {
+          "t": "ex",
+          "letter": "B",
+          "text": "Translate into Latin:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "Humans, however, do not become gods.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "Therefore my brother has become a farmer."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "The captured men will become slaves or be killed."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "I want to become a poet."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "These boys, however, are becoming men."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "Therefore his writings will become immortal."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "May our town become a big city!"
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "I shall never become king."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "May the walls of the town become big."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "The king has become a god."
         }
       ]
     },
     {
       "id": "section-3",
-      "latin": "51.5 Vocabulary to Learn",
-      "english": "Grammar",
-      "kind": "commentary",
+      "latin": "51.3 Conditional Clauses Continued",
+      "num": "51.3",
       "blocks": [
         {
-          "t": "h",
-          "text": "Verb fīō, fierī, factus sum ‘become’, ‘be made’, ‘be done’"
+          "t": "p",
+          "text": "The straightforward conditional sentences seen in the last chapter are not very common in Latin, for there are a number of complications that frequently occur."
+        },
+        {
+          "t": "p",
+          "text": "The most common of these are the following:"
+        },
+        {
+          "t": "p",
+          "text": "Order of Clauses The if-clause does not necessarily come before the main clause of a conditional sentence; in both English and Latin the main clause often precedes."
+        },
+        {
+          "t": "p",
+          "text": "fēlīx esset sī Rōmae esset. ‘He would be happy if he were in Rome.’"
+        },
+        {
+          "t": "p",
+          "text": "Negatives A negative in the main clause of a conditional sentence is expressed with nōn in all types of condition. But a negative in the subordinate clause (the if-clause) combines with the sī to produce nisī ‘if not’, which is often best translated ‘unless’. fēlīx numquam est nisī Rōmae est. ‘He is never happy unless he is in Rome.’ / ‘He is never happy if he is not in Rome.’"
+        },
+        {
+          "t": "p",
+          "text": "Mixed Conditions Sometimes, both in English and Latin, a conditional sentence has one clause in present time and the other in past time; this can occur with either indicative or subjunctive conditions."
+        },
+        {
+          "t": "p",
+          "text": "sī Rōmam īvit, nōn est hīc. ‘If he has gone to Rome, he is not here.’ (indicative mixed: past + present simple)"
+        },
+        {
+          "t": "p",
+          "text": "sī hīc est, Rōmam nōn īvit. ‘If he is here, he has not gone to Rome.’ (indicative mixed: present + past simple)"
+        },
+        {
+          "t": "p",
+          "text": "sī Rōmam īvisset, nōn esset hīc. ‘If he had gone to Rome, he would not be here.’"
+        },
+        {
+          "t": "p",
+          "text": "(subjunctive mixed: past + present contrary to fact)"
+        },
+        {
+          "t": "p",
+          "text": "sī hīc esset, Rōmam nōn īvisset. ‘If he were here, he would not have gone to Rome.’"
+        },
+        {
+          "t": "p",
+          "text": "(subjunctive mixed: present + past contrary to fact)"
+        },
+        {
+          "t": "p",
+          "text": "If the action of the if-clause of a future indicative (= future more vivid) condition logically occurs before the action of the main clause, the future perfect is used in the if-clause. This is the same phenomenon we have seen in temporal clauses; see chapter 47. sī Rōmam īverit, diū manēbit. ‘If he goes to Rome, he will stay a long time.’"
+        },
+        {
+          "t": "p",
+          "text": "Imperatives Sometimes the main clause of a future indicative (= future more vivid) condition does not actually have a future indicative, but rather an imperative, since imperatives inherently refer to future time. cape illum sī vēnerit. ‘Capture that man if he comes.’ (future more vivid condition composed of imperative + future perfect indicative)"
+        },
+        {
+          "t": "practice"
+        },
+        {
+          "t": "ex",
+          "letter": "C",
+          "text": "Without translating, indicate the following for each sentence: whether the ifclause comes first or second, whether it would be introduced by sī or by nisī in Latin, and what mood and tense would be used for each verb in Latin.1 D Translate:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "He would have told the police if he had seen the robbery.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "ille non esset factus rex nisi vir fortis esset."
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "Unless he becomes a teacher he will not be happy."
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "Do be sensible if you look for the treasure."
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "si multi ad oppidum nostrum venerint, urbs fiet."
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "If he had not become a teacher he would not have been happy."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "If you were not involved in the robbery, why did you confess?"
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "oppidum nostrum non factus esset urbs nisi multi venissent."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "I would love my brother if he had not carried off my wealth."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "We would have arrested him today if he weren’t already in custody on other charges."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "nisi hostes vicisset, rex noster non factus esset magnus."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "I shall never love my brother unless he returns my wealth."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "If Martha were to say that, she would undoubtedly have a good reason."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "rex noster magnus non fiet nisi hostes vicerit."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "I would not love you if you were not my brother."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "If you see something, say something!"
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "iuva nos si rex factus eris."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "We would follow him if he were our king."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "No-one would have known that unless he had seen the murder happen."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "si reges facti erimus, cives bene regemus."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "We shall follow him if he becomes our king."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "The children do not play outside unless they have finished their homework."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "numquam te laudabo nisi me iuveris."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "We would follow him if he should become our king."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "If it were to rain tomorrow, we would have to change our plans."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "numquam te laudavissem nisi me iuvisses."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "We would have followed him if he had been our king."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "I shall only believe that if I see it."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "voca me si illum videris."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "I would not be helping you if you were not helping me."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "I can never sleep unless it is completely dark."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "nisi multos libros legisses, non factus esses magister."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "I would not have helped you if you had not helped me."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "They would have arrested him if he hadn’t handed himself in."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "magister non esses nisi multos libros legisses."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "I shall not help you if you do not help me."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "If Martha is saying that, she has a good reason."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "non fies magister nisi multos libros legeris."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "Unless that man leads the soldiers, they will be defeated."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "If I hadn’t seen the robbery, I wouldn’t be here to report it."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "nisi mihi pecuniam dederis, equus meus non fiet tuus."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "If that man had not led the soldiers, they would have been defeated."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "Do not try to move to a foreign country unless you are prepared to do a lot of paperwork."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "si equum meum inveneris, dic mihi. E Translate into Latin:"
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "Unless that man should lead the soldiers, they would be defeated."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "If we had not made a mess last night we would not be cleaning it up now."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "nisi ab hostibus victi essemus, servi non facti essemus."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "If that man weren’t leading the soldiers, they would be being defeated."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "If I were to succeed in getting a driving licence, I would throw a huge party."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "servus non fies nisi ab hostibus victus eris."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "The soldiers were always defeated, unless that man led them."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "If we weren’t so old and dignified we would be playing with those toys right now."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "nisi immortalis factus esset, mortuus esset."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "Unless the farmer has sold the sheep, they are in this field."
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "nisi immortales facti erimus, moriemur."
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "If the farmer hadn’t sold the sheep, they would have been in this field."
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "nisi morati essent Romae, domi essent."
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "If the farmer hadn’t sold the sheep, they would be in this field."
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "nisi morati essent Romae, domum ivissent."
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "nisi morati sunt Romae, domi sunt."
+        },
+        {
+          "t": "li",
+          "n": 23,
+          "text": "nisi morantur Romae, domi sunt."
+        },
+        {
+          "t": "li",
+          "n": 24,
+          "text": "eum non audires nisi loqueretur."
+        },
+        {
+          "t": "li",
+          "n": 25,
+          "text": "eum non audivisses nisi locutus esset."
+        },
+        {
+          "t": "li",
+          "n": 26,
+          "text": "moenia refecissemus si saxa ferre potuissemus."
+        },
+        {
+          "t": "li",
+          "n": 27,
+          "text": "moenia reficeremus si saxa ferre possemus."
+        },
+        {
+          "t": "li",
+          "n": 28,
+          "text": "nisi milites hortatus eris, hostes non vincent."
+        },
+        {
+          "t": "li",
+          "n": 29,
+          "text": "nisi milites hortatus esses, hostes non vicissent."
+        },
+        {
+          "t": "note",
+          "n": 1,
+          "text": "Another exercise of this type, with an answer key, can be found in chapter 63.11, exercise P."
         }
       ]
-    }
-  ],
-  "readings": [
-    {
-      "id": "lectio-51",
-      "latinTitle": "SENTENTIAE LATĪNAE",
-      "title": "Latin sentences from this chapter",
-      "paragraphs": [
-        "ergo volo rex fieri. sunt.",
-        "heri autem factus sum pater.",
-        "servus non fies nisi ab hostibus venerint, urbs fiet. victus eris.",
-        "numquam te laudabo nisi me sunt. iuveris.",
-        "numquam te laudavissem nisi sunt. me iuvisses."
-      ],
-      "notes": []
-    }
-  ],
-  "grammar": [],
-  "vocabulary": [
-    {
-      "latin": "dīligō, dīligere, dīlēxī, dīlēctum exspectō, -āre, -āvī, -ātum",
-      "english": "wait for",
-      "group": "Vocābula"
     },
     {
-      "latin": "name cōnfirmō, -āre, -āvī, -ātum",
-      "english": "recover",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "item",
-      "english": "also",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "nūntio, nūntiāre, nūntiāvī, nūntiātum posthāc",
-      "english": "afterwards",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "subitō",
-      "english": "suddenly",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "incidō, incidere, incidī, –",
-      "english": "fall into",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "accidō, accidere, accidī, –",
-      "english": "happen",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "certiōrem faciō",
-      "english": "inform",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "creō, creāre, creāvī, creātum",
-      "english": "create",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "quod esset",
-      "english": "that it was",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "inānis, ināne",
-      "english": "empty",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "dīvidō, dīvidere, dīvīsī, dīvīsum",
-      "english": "divide",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "vacuus, vacua, vacuum",
-      "english": "vacant",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "ac",
-      "english": "and",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "appellō, -āre, -āvī, -ātum",
-      "english": "call",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "ūnus, ūna, ūnum",
-      "english": "one",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "cobwebs",
-      "english": "implies",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "cēnō, cēnāre, cēnāvī, cēnātum",
-      "english": "dine",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "dī = dei inquam",
-      "english": "I tell you",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "venustus, -a, -um",
-      "english": "charming",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "plēnus, -a, -um",
-      "english": "full",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "candidus, -a, -um",
-      "english": "pretty",
-      "group": "Vocābula"
-    }
-  ],
-  "pensa": [
-    {
-      "latinLabel": "PRACTICE A",
-      "title": "Practice A",
-      "instruction": "Practice A Translate:",
-      "type": "questions",
-      "items": [
+      "id": "section-4",
+      "latin": "51.4 Reading Practice",
+      "num": "51.4",
+      "blocks": [
         {
-          "q": "1 hic puer magister aut poeta fiet.",
-          "a": ""
+          "t": "p",
+          "text": "1 Cicero, Epistulae ad familiares 16.13 (adapted): Cicero (M. Tullius Cicero) writes to his secretary Tiro, who is ill (53 bc )."
         },
         {
-          "q": "6 cum victi essent, servi facti",
-          "a": ""
+          "t": "p",
+          "text": "Tullius Tironi salutem dicit. omnia a te data esse mihi putabo, si te valentem videro. summa cura exspectabam adventum Andrici, quem ad te miseram. si me diligis, cura ut valeas et ad nos venias cum te bene confirmaris. vale."
         },
         {
-          "q": "2 ergo volo rex fieri. sunt.",
-          "a": ""
+          "t": "vlabel",
+          "text": "Vocabulary"
         },
         {
-          "q": "3 heri autem factus sum pater.",
-          "a": ""
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "cūra, cūrae (f.) ‘anxiety’",
+              "dīligō, dīligere, dīlēxī, dīlēctum"
+            ],
+            [
+              "exspectō, -āre, -āvī, -ātum ‘wait for’",
+              "‘be fond of’"
+            ],
+            [
+              "adventus, adventūs (m.) ‘arrival’",
+              "cōnfirmāris = cōnfirmāveris, from"
+            ],
+            [
+              "Andrīcus, Andrīcī (m.) name of the letter carrier",
+              "cōnfirmō, -āre, -āvī, -ātum ‘recover’"
+            ]
+          ]
         },
         {
-          "q": "7 si ille rex esset, bene regeremur.",
-          "a": ""
+          "t": "p",
+          "text": "2 Cicero, Epistulae ad familiares 14.8 (adapted): Cicero writes to his wife in 47 bc ."
         },
         {
-          "q": "4 agricola fieri nolo.",
-          "a": ""
+          "t": "p",
+          "text": "Tullius Terentiae suae salutem dicit. si vales, bene est; ego valeo. valetudinem tuam velim ut cures diligentissime. nam mihi et scriptum et nuntiatum est, te in febrem subito incidisse. quia celeriter me fecisti de Caesaris epistula certiorem, fecisti mihi gratum. item posthac, si quid opus erit, si quid acciderit novi, cura ut sciam. cura ut valeas. vale."
         },
         {
-          "q": "8 si ille rex factus esset, bene recti",
-          "a": ""
+          "t": "vlabel",
+          "text": "Vocabulary"
         },
         {
-          "q": "5 si ille rex fiat, bene regamur. essemus.",
-          "a": ""
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "valētūdō, valētūdinis (f.) ‘health’",
+              "item ‘also’"
+            ],
+            [
+              "nūntio, nūntiāre, nūntiāvī, nūntiātum ‘report orally’",
+              "posthāc ‘afterwards’"
+            ],
+            [
+              "",
+              "quid (neuter nominative singular)"
+            ],
+            [
+              "febris, febris, febrium (f.) ‘fever’",
+              "‘any’, ‘anything’"
+            ],
+            [
+              "subitō ‘suddenly’",
+              "opus, operis (n.) ‘need’"
+            ],
+            [
+              "incidō, incidere, incidī, – ‘fall into’",
+              "accidō, accidere, accidī, – ‘happen’"
+            ],
+            [
+              "certiōrem faciō ‘inform’ (literally ‘make more certain’)",
+              "novī translate as if it were novum"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "3 Vulgate version of the Bible, Genesis 1:1–5 (adapted): the creation of the world (translated in the fourth century ad from a much earlier Hebrew version)."
+        },
+        {
+          "t": "p",
+          "text": "In principio creavit deus caelum et terram; terra autem erat inanis et vacua, et tenebrae erant super faciem abyssi, et spiritus dei ferebatur super aquas, dixitque deus ‘fiat lux’ et facta est lux, et vidit deus lucem quod esset bona, et divisit lucem ac tenebras, appellavitque lucem diem et tenebras noctem, factusque est dies unus vespere et mane."
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "prīncipium, prīncipiī (n.) ‘beginning’",
+              "abyssus, abyssī (f.) ‘abyss’"
+            ],
+            [
+              "creō, creāre, creāvī, creātum ‘create’",
+              "spīritus, spīritūs (m.) ‘spirit’"
+            ],
+            [
+              "caelum, caelī (n.) ‘heaven’",
+              "lūx, lūcis (f.) ‘light’"
+            ],
+            [
+              "terra, terrae (f.) ‘earth’",
+              "quod esset ‘that it was’"
+            ],
+            [
+              "inānis, ināne ‘empty’",
+              "dīvidō, dīvidere, dīvīsī, dīvīsum ‘divide’"
+            ],
+            [
+              "vacuus, vacua, vacuum ‘vacant’",
+              "ac ‘and’"
+            ],
+            [
+              "tenebrae, tenebrārum (f. plural) ‘darkness’",
+              "appellō, -āre, -āvī, -ātum ‘call’"
+            ],
+            [
+              "",
+              "ūnus, ūna, ūnum ‘one’"
+            ],
+            [
+              "super (+ accusative) ‘upon’",
+              "vesper, vesperis (m.) ‘evening’"
+            ],
+            [
+              "faciēs, faciēī (f.) ‘face’, ‘surface’",
+              "māne (indeclinable) ‘morning’"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "4 Catullus 13.1–8: an invitation to a poor man’s dinner (first century bc ). ‘Full of cobwebs’ implies ‘empty of anything else’."
+        },
+        {
+          "t": "p",
+          "text": "Cenabis bene, mi Fabulle, apud me paucis, si tibi di favent, diebus, si tecum attuleris bonam atque magnam cenam, non sine candida puella et vino et sale et omnibus cachinnis. haec si, inquam, attuleris, venuste noster, cenabis bene; nam tui Catulli plenus sacculus est aranearum."
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "cēnō, cēnāre, cēnāvī, cēnātum ‘dine’",
+              "vīnum, vīnī (n.) ‘wine’"
+            ],
+            [
+              "mī is the vocative of meus",
+              "sāl, salis (m.) ‘salt’"
+            ],
+            [
+              "apud (+ accusative) ‘at the house of’",
+              "cachinnus, cachinnī (m.) ‘laugh’"
+            ],
+            [
+              "dī = dei",
+              "inquam ‘I tell you’"
+            ],
+            [
+              "faveō, favēre, fāvī, fautum (+ dative) ‘favour’",
+              "venustus, -a, -um ‘charming’"
+            ],
+            [
+              "",
+              "plēnus, -a, -um ‘full’"
+            ],
+            [
+              "cēna, cēnae (f.) ‘dinner’",
+              "sacculus, sacculī (m.) ‘purse’"
+            ],
+            [
+              "candidus, -a, -um ‘pretty’",
+              "arānea, arāneae (f.) ‘cobweb’"
+            ]
+          ]
         }
-      ],
-      "id": "practice-51-a"
+      ]
     },
     {
-      "latinLabel": "PRACTICE B",
-      "title": "Practice B",
-      "instruction": "B Translate into Latin:",
-      "type": "questions",
-      "items": [
+      "id": "section-5",
+      "latin": "51.5 Vocabulary to Learn",
+      "num": "51.5",
+      "blocks": [
         {
-          "q": "1 Humans, however, do not",
-          "a": ""
+          "t": "vhead",
+          "text": "Verb"
         },
         {
-          "q": "6 Therefore his writings will become gods. become immortal.",
-          "a": ""
-        },
-        {
-          "q": "2 Therefore my brother has",
-          "a": ""
-        },
-        {
-          "q": "7 May our town become a big city! become a farmer.",
-          "a": ""
-        },
-        {
-          "q": "8 I shall never become king.",
-          "a": ""
-        },
-        {
-          "q": "3 The captured men will become",
-          "a": ""
-        },
-        {
-          "q": "9 May the walls of the town slaves or be killed. become big.",
-          "a": ""
-        },
-        {
-          "q": "4 I want to become a poet.",
-          "a": ""
-        },
-        {
-          "q": "10 The king has become a god.",
-          "a": ""
-        },
-        {
-          "q": "5 These boys, however, are becoming men. The straightforward conditional sentences seen in the last chapter are not very common in Latin, for there are a number of complications that frequently occur. The most common of these are the following: Order of Clauses The if-clause does not necessarily come before the main clause of a conditional sentence; in both English and Latin the main clause often precedes. fēlīx esset sī Rōmae esset. ‘He would be happy if he were in Rome.’ Negatives A negative in the main clause of a conditional sentence is expressed with nōn in all types of condition. But a negative in the subordinate clause (the if-clause) combines with the sī to produce nisī ‘if not’, which is often best translated ‘unless’. fēlīx numquam est nisī Rōmae est. ‘He is never happy unless he is in Rome.’ / ‘He is never happy if he is not in Rome.’ Mixed Conditions Sometimes, both in English and Latin, a conditional sentence has one clause in present time and the other in past time; this can occur with either indicative or subjunctive conditions. sī Rōmam īvit, nōn est hīc. ‘If he has gone to Rome, he is not here.’ (indicative mixed: past + present simple) sī hīc est, Rōmam nōn īvit. ‘If he is here, he has not gone to Rome.’ (indicative mixed: present + past simple) sī Rōmam īvisset, nōn esset hīc. ‘If he had gone to Rome, he would not be here.’ (subjunctive mixed: past + present contrary to fact) sī hīc esset, Rōmam nōn īvisset. ‘If he were here, he would not have gone to Rome.’ (subjunctive mixed: present + past contrary to fact) Future Perfect If the action of the if-clause of a future indicative (= future more vivid) condition logically occurs before the action of the main clause, the future perfect is used in the if-clause. This is the same phenomenon we have seen in temporal clauses; see chapter 47. sī Rōmam īverit, diū manēbit. ‘If he goes to Rome, he will stay a long time.’ Imperatives Sometimes the main clause of a future indicative (= future more vivid) condition does not actually have a future indicative, but rather an imperative, since imperatives inherently refer to future time. cape illum sī vēnerit. ‘Capture that man if he comes.’ (future more vivid condition composed of imperative + future perfect indicative)",
-          "a": ""
-        }
-      ],
-      "id": "practice-51-b"
-    },
-    {
-      "latinLabel": "PRACTICE C",
-      "title": "Practice C",
-      "instruction": "Practice C Without translating, indicate the following for each sentence: whether the ifclause comes first or second, whether it would be introduced by sī or by nisī in Latin, and what mood and tense would be used for each verb in Latin.",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 He would have told the police if",
-          "a": ""
-        },
-        {
-          "q": "10 I shall only believe that if I see it. he had seen the robbery.",
-          "a": ""
-        },
-        {
-          "q": "11 I can never sleep unless it is",
-          "a": ""
-        },
-        {
-          "q": "2 Do be sensible if you look for the completely dark. treasure.",
-          "a": ""
-        },
-        {
-          "q": "12 They would have arrested him if",
-          "a": ""
-        },
-        {
-          "q": "3 If you were not involved in the he hadn’t handed himself in. robbery, why did you confess?",
-          "a": ""
-        },
-        {
-          "q": "13 If Martha is saying that, she has",
-          "a": ""
-        },
-        {
-          "q": "4 We would have arrested him a good reason. today if he weren’t already in",
-          "a": ""
-        },
-        {
-          "q": "14 If I hadn’t seen the robbery, custody on other charges. I wouldn’t be here to report it.",
-          "a": ""
-        },
-        {
-          "q": "5 If Martha were to say that, she",
-          "a": ""
-        },
-        {
-          "q": "15 Do not try to move to a foreign would undoubtedly have a good country unless you are prepared reason. to do a lot of paperwork.",
-          "a": ""
-        },
-        {
-          "q": "6 If you see something, say",
-          "a": ""
-        },
-        {
-          "q": "16 If we had not made a mess last something! night we would not be cleaning it",
-          "a": ""
-        },
-        {
-          "q": "7 No-one would have known that up now. unless he had seen the murder",
-          "a": ""
-        },
-        {
-          "q": "17 If I were to succeed in getting happen. a driving licence, I would throw",
-          "a": ""
-        },
-        {
-          "q": "8 The children do not play outside a huge party. unless they have finished their",
-          "a": ""
-        },
-        {
-          "q": "18 If we weren’t so old and dignified homework. we would be playing with those",
-          "a": ""
-        },
-        {
-          "q": "9 If it were to rain tomorrow, we toys right now. would have to change our plans. Another exercise of this type, with an answer key, can be found in chapter 63.11, exercise P.",
-          "a": ""
-        }
-      ],
-      "id": "practice-51-c"
-    },
-    {
-      "latinLabel": "PRACTICE D",
-      "title": "Practice D",
-      "instruction": "D Translate:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 ille non esset factus rex nisi vir",
-          "a": ""
-        },
-        {
-          "q": "16 nisi ab hostibus victi essemus, fortis esset. servi non facti essemus.",
-          "a": ""
-        },
-        {
-          "q": "2 si multi ad oppidum nostrum",
-          "a": ""
-        },
-        {
-          "q": "17 servus non fies nisi ab hostibus venerint, urbs fiet. victus eris.",
-          "a": ""
-        },
-        {
-          "q": "3 oppidum nostrum non factus",
-          "a": ""
-        },
-        {
-          "q": "18 nisi immortalis factus esset, esset urbs nisi multi venissent. mortuus esset.",
-          "a": ""
-        },
-        {
-          "q": "4 nisi hostes vicisset, rex noster",
-          "a": ""
-        },
-        {
-          "q": "19 nisi immortales facti erimus, non factus esset magnus. moriemur.",
-          "a": ""
-        },
-        {
-          "q": "5 rex noster magnus non fiet nisi",
-          "a": ""
-        },
-        {
-          "q": "20 nisi morati essent Romae, domi hostes vicerit. essent.",
-          "a": ""
-        },
-        {
-          "q": "6 iuva nos si rex factus eris.",
-          "a": ""
-        },
-        {
-          "q": "21 nisi morati essent Romae,",
-          "a": ""
-        },
-        {
-          "q": "7 si reges facti erimus, cives bene domum ivissent. regemus.",
-          "a": ""
-        },
-        {
-          "q": "22 nisi morati sunt Romae, domi",
-          "a": ""
-        },
-        {
-          "q": "8 numquam te laudabo nisi me sunt. iuveris.",
-          "a": ""
-        },
-        {
-          "q": "23 nisi morantur Romae, domi",
-          "a": ""
-        },
-        {
-          "q": "9 numquam te laudavissem nisi sunt. me iuvisses.",
-          "a": ""
-        },
-        {
-          "q": "24 eum non audires nisi loqueretur.",
-          "a": ""
-        },
-        {
-          "q": "10 voca me si illum videris.",
-          "a": ""
-        },
-        {
-          "q": "25 eum non audivisses nisi locutus",
-          "a": ""
-        },
-        {
-          "q": "11 nisi multos libros legisses, non esset. factus esses magister.",
-          "a": ""
-        },
-        {
-          "q": "26 moenia refecissemus si saxa",
-          "a": ""
-        },
-        {
-          "q": "12 magister non esses nisi multos ferre potuissemus. libros legisses.",
-          "a": ""
-        },
-        {
-          "q": "27 moenia reficeremus si saxa ferre",
-          "a": ""
-        },
-        {
-          "q": "13 non fies magister nisi multos possemus. libros legeris.",
-          "a": ""
-        },
-        {
-          "q": "28 nisi milites hortatus eris, hostes",
-          "a": ""
-        },
-        {
-          "q": "14 nisi mihi pecuniam dederis, non vincent. equus meus non fiet tuus.",
-          "a": ""
-        },
-        {
-          "q": "29 nisi milites hortatus esses, hostes",
-          "a": ""
-        },
-        {
-          "q": "15 si equum meum inveneris, dic non vicissent. mihi.",
-          "a": ""
-        }
-      ],
-      "id": "practice-51-d"
-    },
-    {
-      "latinLabel": "PRACTICE E",
-      "title": "Practice E",
-      "instruction": "E Translate into Latin:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 Unless he becomes a teacher he",
-          "a": ""
-        },
-        {
-          "q": "5 I would not love you if you were will not be happy. not my brother.",
-          "a": ""
-        },
-        {
-          "q": "2 If he had not become a teacher he",
-          "a": ""
-        },
-        {
-          "q": "6 We would follow him if he were would not have been happy. our king.",
-          "a": ""
-        },
-        {
-          "q": "3 I would love my brother if he had",
-          "a": ""
-        },
-        {
-          "q": "7 We shall follow him if he becomes not carried off my wealth. our king.",
-          "a": ""
-        },
-        {
-          "q": "4 I shall never love my brother",
-          "a": ""
-        },
-        {
-          "q": "8 We would follow him if he should unless he returns my wealth. become our king.",
-          "a": ""
-        },
-        {
-          "q": "9 We would have followed him if",
-          "a": ""
-        },
-        {
-          "q": "16 If that man weren’t leading the he had been our king. soldiers, they would be being",
-          "a": ""
-        },
-        {
-          "q": "10 I would not be helping you if you defeated. were not helping me.",
-          "a": ""
-        },
-        {
-          "q": "17 The soldiers were always",
-          "a": ""
-        },
-        {
-          "q": "11 I would not have helped you if defeated, unless that man led you had not helped me. them.",
-          "a": ""
-        },
-        {
-          "q": "12 I shall not help you if you do not",
-          "a": ""
-        },
-        {
-          "q": "18 Unless the farmer has sold the help me. sheep, they are in this field.",
-          "a": ""
-        },
-        {
-          "q": "13 Unless that man leads the",
-          "a": ""
-        },
-        {
-          "q": "19 If the farmer hadn’t sold the soldiers, they will be defeated. sheep, they would have been in",
-          "a": ""
-        },
-        {
-          "q": "14 If that man had not led the this field. soldiers, they would have been",
-          "a": ""
-        },
-        {
-          "q": "20 If the farmer hadn’t sold the defeated. sheep, they would be in this field.",
-          "a": ""
-        },
-        {
-          "q": "15 Unless that man should lead the soldiers, they would be defeated.",
-          "a": ""
-        },
-        {
-          "q": "1 Cicero, Epistulae ad familiares 16.",
-          "a": ""
-        },
-        {
-          "q": "13 (adapted): Cicero (M. Tullius Cicero) writes to his secretary Tiro, who is ill (",
-          "a": ""
-        },
-        {
-          "q": "53 bc). Tullius Tironi salutem dicit. omnia a te data esse mihi putabo, si te valentem videro. summa cura exspectabam adventum Andrici, quem ad te miseram. si me diligis, cura ut valeas et ad nos venias cum te bene confirmaris. vale.",
-          "a": ""
-        }
-      ],
-      "id": "practice-51-e"
-    },
-    {
-      "id": "translate-51",
-      "latinLabel": "TRANSLATE INTO LATIN",
-      "title": "Translate into Latin",
-      "instruction": "",
-      "type": "questions",
-      "items": [
-        {
-          "q": "The straightforward conditional sentences seen in the last chapter are not very common in Latin, for there are a number of complications that frequently occur.",
-          "a": ""
-        },
-        {
-          "q": "The most common of these are the following: Order of Clauses The if-clause does not necessarily come before the main clause of a conditional sentence; in both English and Latin the main clause often precedes.",
-          "a": ""
-        },
-        {
-          "q": "Negatives A negative in the main clause of a conditional sentence is expressed with nōn in all types of condition.",
-          "a": ""
-        },
-        {
-          "q": "But a negative in the subordinate clause (the if-clause) combines with the sī to produce nisī ‘if not’, which is often best translated ‘unless’.",
-          "a": ""
-        },
-        {
-          "q": "Mixed Conditions Sometimes, both in English and Latin, a conditional sentence has one clause in present time and the other in past time; this can occur with either indicative or subjunctive conditions.",
-          "a": ""
-        },
-        {
-          "q": "‘If he has gone to Rome, he is not here.’ (indicative mixed: Future Perfect If the action of the if-clause of a future indicative (= future more vivid) condition logically occurs before the action of the main clause, the future perfect is used in the if-clause.",
-          "a": ""
-        },
-        {
-          "q": "This is the same phenomenon we have seen in temporal clauses; see chapter 47.",
-          "a": ""
-        },
-        {
-          "q": "Imperatives Sometimes the main clause of a future indicative (= future more vivid) condition does not actually have a future indicative, but rather an imperative, since imperatives inherently refer to future time.",
-          "a": ""
-        },
-        {
-          "q": "Practice C Without translating, indicate the following for each sentence: whether the ifclause comes first or second, whether it would be introduced by sī or by nisī in Latin, and what mood and tense would be used for each verb in Latin.1 robbery, why did you confess?",
-          "a": ""
-        },
-        {
-          "q": "13 If Martha is saying that, she has today if he weren’t already in 14 If I hadn’t seen the robbery, custody on other charges.",
-          "a": ""
-        },
-        {
-          "q": "I wouldn’t be here to report it.",
-          "a": ""
-        },
-        {
-          "q": "would undoubtedly have a good country unless you are prepared reason.",
-          "a": ""
-        },
-        {
-          "q": "to do a lot of paperwork.",
-          "a": ""
-        },
-        {
-          "q": "unless he had seen the murder 17 If I were to succeed in getting happen.",
-          "a": ""
-        },
-        {
-          "q": "a driving licence, I would throw unless they have finished their 18 If we weren’t so old and dignified homework.",
-          "a": ""
-        },
-        {
-          "q": "we would be playing with those soldiers, they would have been 20 If the farmer hadn’t sold the defeated.",
-          "a": ""
+          "t": "p",
+          "text": "fīō, fierī, factus sum ‘become’, ‘be made’, ‘be done’"
         }
       ]
     }
   ]
-}
+};
 
 export default chapter

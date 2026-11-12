@@ -2,65 +2,367 @@ const chapter = {
   "number": 24,
   "roman": "XXIV",
   "slug": "capitulum-24",
-  "latinTitle": "CAPVT XXIV",
   "title": "Participles",
-  "tagline": "Grammar, vocabulary and practice",
   "status": "complete",
   "complete": true,
   "sections": [
     {
       "id": "section-1",
       "latin": "24.1 Perfect, Present, and Future Participles",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "24.1",
       "blocks": [
         {
           "t": "p",
-          "text": "So far we have seen two participles: the perfect participle, which is passive (e.g. amātus, -a, -um ‘loved’ or ‘having been loved’, but not the active ‘having loved’: see chapter 6.2), and the present participle, which is active (e.g. amāns, gen. amantis ‘loving’: see chapter 21.3). There is also a future participle, which is active; as English does not have a future participle its translation is rather cumbersome, e.g."
+          "text": "So far we have seen two participles: the perfect participle, which is passive (e.g. amātus, -a, -um ‘loved’ or ‘having been loved’, but not the active ‘having loved’: see chapter 6.2), and the present participle, which is active (e.g. amāns, gen. amantis ‘loving’: see chapter 21.3). There is also a future participle, which is active; as English does not have a future participle its translation is rather cumbersome, e.g. amātūrus, -a, -um ‘(being) about to love’. The future participle is formed by taking the fourth principal part, dropping the -um, and adding -ūrus, -ūra, -ūrum (in other words, the future participle is the future infinitive (for which see chapter 19.2) without the esse). When the fourth principal part already ends in -ūrus, as in the case of futūrus and fugitūrus, no change is necessary: for such verbs the fourth principal part is the future participle, and there is no perfect participle. The full set of participles is therefore as shown in the table below."
         },
         {
-          "t": "p",
-          "text": "amātūrus, -a, -um ‘(being) about to love’. The future participle is formed by taking the fourth principal part, dropping the -um, and adding -ūrus, -ūra, -ūrum (in other words, the future participle is the future infinitive (for which see chapter 19.2) without the esse)."
+          "t": "table",
+          "header": [
+            "",
+            "Perfect participle",
+            "Present participle",
+            "Future participle"
+          ],
+          "rows": [
+            [
+              "First conjugation",
+              "amātus, -a, -um ‘loved’,",
+              "amāns, gen. amantis",
+              "amātūrus, -a, -um ‘being"
+            ],
+            [
+              "",
+              "‘having been loved’",
+              "‘loving’",
+              "about to love’"
+            ],
+            [
+              "Second conjugation",
+              "monitus, -a, -um ‘advised’,",
+              "monēns, gen. monentis",
+              "monitūrus, -a, -um"
+            ],
+            [
+              "",
+              "‘having been advised’",
+              "‘advising’",
+              "‘being about to advise’"
+            ],
+            [
+              "Third",
+              "rēctus, -a, -um ‘ruled’,",
+              "regēns, gen. regentis",
+              "rēctūrus, -a, -um ‘being"
+            ],
+            [
+              "conjugation",
+              "‘having been ruled’",
+              "‘ruling’",
+              "about to rule’"
+            ],
+            [
+              "Fourth",
+              "audītus, -a, -um ‘heard’,",
+              "audiēns, gen. audientis",
+              "audītūrus, -a, -um ‘being"
+            ],
+            [
+              "conjugation",
+              "‘having been heard’",
+              "‘hearing’",
+              "about to hear’"
+            ],
+            [
+              "Mixed",
+              "captus, -a, -um ‘captured’,",
+              "capiēns, gen. capientis",
+              "captūrus, -a, -um ‘being"
+            ],
+            [
+              "conjugation",
+              "‘having been captured’",
+              "‘capturing’",
+              "about to capture’"
+            ],
+            [
+              "Sum",
+              "–",
+              "–",
+              "futūrus, -a, -um ‘being about to be’"
+            ],
+            [
+              "Eō",
+              "–",
+              "iēns, gen. euntis ‘going’",
+              "itūrus, -a, -um ‘being about to go’"
+            ]
+          ]
         },
         {
-          "t": "p",
-          "text": "When the fourth principal part already ends in -ūrus, as in the case of futūrus and fugitūrus, no change is necessary: for such verbs the fourth principal part is the future participle, and there is no perfect participle. The full set of participles is therefore as shown in the table below."
+          "t": "practice"
         },
         {
-          "t": "h",
-          "text": "Perfect participle Present participle Future participle"
+          "t": "ex",
+          "letter": "A",
+          "text": "Translate:"
         },
         {
-          "t": "p",
-          "text": "First amātus, -a, -um ‘loved’, amāns, gen. amantis amātūrus, -a, -um ‘being conjugation ‘having been loved’ ‘loving’ about to love’ Second monitus, -a, -um ‘advised’, monēns, gen. monentis monitūrus, -a, -um conjugation ‘having been advised’ ‘advising’ ‘being about to advise’ Third rēctus, -a, -um ‘ruled’, regēns, gen."
+          "t": "li",
+          "n": 1,
+          "text": "pugnātūrus, -a, -um",
+          "cols": 2
         },
         {
-          "t": "p",
-          "text": "regentis rēctūrus, -a, -um ‘being conjugation ‘having been ruled’ ‘ruling’ about to rule’ Fourth audītus, -a, -um ‘heard’, audiēns, gen. audientis audītūrus, -a, -um ‘being conjugation ‘having been heard’ ‘hearing’ about to hear’ Mixed captus, -a, -um ‘captured’, capiēns, gen."
+          "t": "li",
+          "n": 2,
+          "text": "fugiēns, gen. fugientis"
         },
         {
-          "t": "p",
-          "text": "capientis captūrus, -a, -um ‘being conjugation ‘having been captured’ ‘capturing’ about to capture’ Sum – – futūrus, -a, -um ‘being about to be’ Eō – iēns, gen. euntis ‘going’ itūrus, -a, -um ‘being about to go’"
+          "t": "li",
+          "n": 3,
+          "text": "āmissus, -a, -um"
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "vocātūrus, -a, -um"
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "capiēns, gen. capientis"
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "sepultus, -a, -um"
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "ventūrus, -a, -um"
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "vīvēns, gen. vīventis"
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "sēnsus, -a, -um"
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "refectūrus, -a, -um"
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "accipiēns, gen. accipientis"
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "inventus, -a, -um"
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "interfectūrus, -a, -um"
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "impediēns, gen. impedientis"
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "factus, -a, -um"
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "audītūrus, -a, -um"
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "agēns, gen. agentis"
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "vīsus, -a, -um"
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "exitūrus, -a, -um"
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "timēns, gen. timentis"
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "monitus, -a, -um"
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "adfutūrus, -a, -um"
+        },
+        {
+          "t": "li",
+          "n": 23,
+          "text": "abiēns, gen. abeuntis"
+        },
+        {
+          "t": "li",
+          "n": 24,
+          "text": "datus, -a, -um"
+        },
+        {
+          "t": "ex",
+          "letter": "B",
+          "text": "Give the participles indicated (with feminine and neuter for the perfect and future participles, and with genitive for present participles) and translate the resulting forms:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "pugnō, present",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "vocō, perfect"
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "āmittō, future"
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "veniō, present"
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "capiō, perfect"
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "sepeliō, future"
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "exeō, present"
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "reficiō, perfect"
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "sentiō, future"
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "emō, present"
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "interficiō, perfect"
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "inveniō, future"
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "legō, present"
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "accipiō, perfect"
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "faciō, future"
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "mittō, present"
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "agō, perfect"
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "videō, future"
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "iuvō, present"
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "audiō, perfect"
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "moneō, future"
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "habeō, present"
+        },
+        {
+          "t": "li",
+          "n": 23,
+          "text": "dūcō, perfect"
+        },
+        {
+          "t": "li",
+          "n": 24,
+          "text": "dō, future"
         }
       ]
     },
     {
       "id": "section-2",
       "latin": "24.2 Participle Usage",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "24.2",
       "blocks": [
         {
           "t": "p",
-          "text": "The literal translation of the future participle is very odd in English, so it is preferable to use a less literal translation when encountering such participles in sentences."
-        },
-        {
-          "t": "p",
-          "text": "For example, puerōs pugnātūrōs vīdī literally means ‘I saw the being-about-to-fight boys’, but since we would never say that in English, it is a good idea to use a subordinate clause with ‘who’ or ‘when’, such as ‘I saw the boys who were about to fight’ or ‘I saw the boys when they were about to fight’. Which type of subordinate clause is best will be determined by the context."
-        },
-        {
-          "t": "p",
-          "text": "Often subordinate clauses are the best translations of perfect and present participles too (cf. chapter 6.2), because the Latin participle is frequently used in situations where English would not employ a participle."
+          "text": "The literal translation of the future participle is very odd in English, so it is preferable to use a less literal translation when encountering such participles in sentences. For example, puerōs pugnātūrōs vīdī literally means ‘I saw the being-about-to-fight boys’, but since we would never say that in English, it is a good idea to use a subordinate clause with ‘who’ or ‘when’, such as ‘I saw the boys who were about to fight’ or ‘I saw the boys when they were about to fight’. Which type of subordinate clause is best will be determined by the context. Often subordinate clauses are the best translations of perfect and present participles too (cf. chapter 6.2), because the Latin participle is frequently used in situations where English would not employ a participle."
         },
         {
           "t": "p",
@@ -68,666 +370,524 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "A Latin participle normally agrees in gender, number, and case with another word in the sentence, and it is important to translate it so that that agreement is preserved. Since English often uses word order to indicate what a participle goes with, a literal translation of the Latin that does not change the word order may end up with a completely different meaning in English from that of the original Latin sentence."
+          "text": "A Latin participle normally agrees in gender, number, and case with another word in the sentence, and it is important to translate it so that that agreement is preserved."
         },
         {
           "t": "p",
-          "text": "For example, the sentence per silvam euntem tē vīdimus could be literally translated ‘going through the forest, we saw you’, but that translation would mean that ‘we’ were going through the forest, whereas in Latin euntem agrees with tē and therefore it is ‘you’, not ‘we’, who were going through the forest."
+          "text": "Since English often uses word order to indicate what a participle goes with, a literal translation of the Latin that does not change the word order may end up with a completely different meaning in English from that of the original Latin sentence."
         },
         {
           "t": "p",
-          "text": "Therefore it would be better to translate per silvam euntem tē vīdimus with ‘We saw you going through the forest’, or ‘We saw you when you were going through the forest’."
+          "text": "For example, the sentence per silvam euntem tē vīdimus could be literally translated ‘going through the forest, we saw you’, but that translation would mean that ‘we’ were going through the forest, whereas in Latin euntem agrees with tē and therefore it is ‘you’, not ‘we’, who were going through the forest. Therefore it would be better to translate per silvam euntem tē vīdimus with ‘We saw you going through the forest’, or ‘We saw you when you were going through the forest’. If in fact it was ‘we’ rather than ‘you’ going through the forest, the Latin sentence would be per silvam euntēs tē vīdimus, with the participle nominative plural to agree with the understood subject of vīdimus, and the best English translation would be ‘We saw you when we were going through the forest’."
         },
         {
           "t": "p",
-          "text": "If in fact it was ‘we’ rather than ‘you’ going through the forest, the Latin sentence would be per silvam euntēs tē vīdimus, with the participle nominative plural to agree with the understood subject of vīdimus, and the best English translation would be ‘We saw you when we were going through the forest’."
+          "text": "Sometimes, however, a participle has nothing in the sentence to agree with at all; under those circumstances it must be substantivized, like any other adjective in the same situation, and in English one will normally need to add ‘man’, ‘men’, ‘woman’, ‘women’, ‘thing’, or ‘things’, depending on the participle’s gender and number (cf. chapter 8.3). Thus just as bonōs vīdī means ‘I saw the good men’ and bona vīdī means ‘I saw good things’, so currentēs vīdī means ‘I saw the running men’ or ‘I saw the men who were running’ and data vīdī means ‘I saw the given things’, or better ‘I saw the things that had been given’. The substantivized participles dicta and facta (literally ‘said things’ and ‘done things’) are usually translated ‘words’ and ‘deeds’ in English."
         },
         {
           "t": "p",
-          "text": "Sometimes, however, a participle has nothing in the sentence to agree with at all; under those circumstances it must be substantivized, like any other adjective in the same situation, and in English one will normally need to add ‘man’, ‘men’, ‘woman’, ‘women’, ‘thing’, or ‘things’, depending on the participle’s gender and number (cf. chapter 8.3)."
+          "text": "In Latin the tense of the participle expresses time relative to the main verb (present participle = action at same time as main verb, perfect participle = action before main verb, future participle = action after main verb). But in English, a past-tense main verb normally forces subordinate verbs in the same sentence into the past tense as well; as a result, when replacing participles with subordinate clauses in English, one must apply caution in the same way as with the tenses in indirect statement (see chapter 19.4). Thus ovēs in agrō stantēs vīdī ‘I saw the sheep that were standing in the field’ or ‘I saw the sheep when they were standing in the field’ (present participle in Latin, but past tense in English, because the standing happened at the same time as the seeing, both of which are now in the past) and hostēs rēgem interfectūrōs vīdī ‘I saw the enemies when they were about to kill the king’ or ‘I saw the enemies who were about to kill the king’."
         },
         {
-          "t": "p",
-          "text": "Thus just as bonōs vīdī means ‘I saw the good men’ and bona vīdī means ‘I saw good things’, so currentēs vīdī means ‘I saw the running men’ or ‘I saw the men who were running’ and data vīdī means ‘I saw the given things’, or better ‘I saw the things that had been given’. The substantivized participles dicta and facta (literally ‘said things’ and ‘done things’) are usually translated ‘words’ and ‘deeds’ in English."
+          "t": "practice"
         },
         {
-          "t": "p",
-          "text": "In Latin the tense of the participle expresses time relative to the main verb (present participle = action at same time as main verb, perfect participle = action before main verb, future participle = action after main verb)."
+          "t": "ex",
+          "letter": "C",
+          "text": "Translate:"
         },
         {
-          "t": "p",
-          "text": "But in English, a past-tense main verb normally forces subordinate verbs in the same sentence into the past tense as well; as a result, when replacing participles with subordinate clauses in English, one must apply caution in the same way as with the tenses in indirect statement (see chapter 19.4)."
+          "t": "li",
+          "n": 1,
+          "text": "miles captus eos timuit.",
+          "cols": 2
         },
         {
-          "t": "p",
-          "text": "Thus ovēs in agrō stantēs vīdī ‘I saw the sheep that were standing in the field’ or ‘I saw the sheep when they were standing in the field’ (present participle in Latin, but past tense in English, because the standing happened at the same time as the seeing, both of which are now in the past) and hostēs rēgem interfectūrōs vīdī ‘I saw the enemies when they were about to kill the king’ or ‘I saw the enemies who were about to kill the king’."
+          "t": "li",
+          "n": 2,
+          "text": "vidistine captos?"
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "iuti ab amicis, librum longum scripsimus."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "vidi eum in agro stantem."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "vidimus magistrum eos docturum."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "verba regis audientes, cives omnia scripserunt."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "vocantes non audivimus."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "rex dicturus mecum stabit."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "dominum timens, servus ex urbe fugit."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "dominos timentes, servi ad silvam fugerunt."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "regem visurus ille gladium mihi dedit."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "docti libros bonos scribunt."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "legistine scripta eorum?"
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "ovem petiturus, agricola ex oppido exivit."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "hostes timens, ad castra cum eis non veni."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "oves vendens, agricola pecuniam accepit."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "puella, habesne amantem?"
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "eum vidimus ovem interfecturum."
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "victi servi erunt."
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "oves venditurus, agricola eas ad oppidum egit."
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "facta eorum bona sunt."
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "omnes in agro stant deos laudantes."
+        },
+        {
+          "t": "li",
+          "n": 23,
+          "text": "agricola oves venditurus ad urbem venit."
+        },
+        {
+          "t": "li",
+          "n": 24,
+          "text": "victi, hostes nostri erunt servi."
+        },
+        {
+          "t": "li",
+          "n": 25,
+          "text": "omnia facta eius mala sunt."
+        },
+        {
+          "t": "li",
+          "n": 26,
+          "text": "milites victuros e castris duxit rex."
+        },
+        {
+          "t": "li",
+          "n": 27,
+          "text": "vidimus eum cum patre ad oppidum euntem."
+        },
+        {
+          "t": "li",
+          "n": 28,
+          "text": "videsne puellam a me amatam?"
+        },
+        {
+          "t": "li",
+          "n": 29,
+          "text": "puerum vos vocantem vidimus."
+        },
+        {
+          "t": "li",
+          "n": 30,
+          "text": "patrem sepulturi, fratres ad oppidum venerunt."
+        },
+        {
+          "t": "li",
+          "n": 31,
+          "text": "rex captum iuvit."
+        },
+        {
+          "t": "li",
+          "n": 32,
+          "text": "regem captum iuvit."
+        },
+        {
+          "t": "li",
+          "n": 33,
+          "text": "a magistro ex oppido ducti, pueri ad silvam venerunt."
+        },
+        {
+          "t": "li",
+          "n": 34,
+          "text": "illi vicerunt hostes nos interfecturos."
+        },
+        {
+          "t": "li",
+          "n": 35,
+          "text": "dabo ei librum a me scriptum."
+        },
+        {
+          "t": "li",
+          "n": 36,
+          "text": "scripta eius bona sunt."
+        },
+        {
+          "t": "li",
+          "n": 37,
+          "text": "me petentes ad urbem venerunt."
+        },
+        {
+          "t": "li",
+          "n": 38,
+          "text": "puero timenti pecuniam dedimus."
+        },
+        {
+          "t": "li",
+          "n": 39,
+          "text": "multi amantes mali sunt."
+        },
+        {
+          "t": "li",
+          "n": 40,
+          "text": "vidistine moenia refecta?"
+        },
+        {
+          "t": "li",
+          "n": 41,
+          "text": "scripsit de factis et dictis regis nostri."
+        },
+        {
+          "t": "li",
+          "n": 42,
+          "text": "ad silvam venientes militem viderunt."
+        },
+        {
+          "t": "li",
+          "n": 43,
+          "text": "moenia urbis reficientes cives pecuniam amissam invenerunt."
+        },
+        {
+          "t": "ex",
+          "letter": "D",
+          "text": "Translate into Latin using participles and omitting words in parentheses:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "Seeing them, the boy was afraid.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "Our king will not kill the captured (men)."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "Being about to sell his horse, my brother led it (‘him’ in Latin) to a good field."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "(When he was) repairing the walls of the city, he found a lost sheep."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "We will help the captured (women)."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "(When they were) about to repair the walls of the town, the citizens sought stones."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "Did you see the captured soldiers?"
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "Will he praise their deeds (i.e. things done)?"
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "Being about to fight, those soldiers are miserable."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "The immortals help lovers (i.e. men who love)."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "(When he) saw them, the boy was afraid."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "Being about to see their (own) king, the citizens were afraid."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "Having been helped by us, this poet praised us."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "(When he is) about to teach girls, this teacher is afraid."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "I have (i.e. possess) captured soldiers; will you buy them?"
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "We saw a slave running out of the town into that forest."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "(When they are) about to write books, learned men read many things."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "I shall give money to the boy standing with him."
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "The masters found their slaves fleeing into the forest."
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "We found it (when we were) repairing their walls."
         }
       ]
     },
     {
       "id": "section-3",
-      "latin": "24.4 Vocabulary to Learn",
-      "english": "Grammar",
-      "kind": "commentary",
+      "latin": "24.3 Reading Practice",
+      "num": "24.3",
       "blocks": [
         {
-          "t": "example",
-          "text": "Verbs dēfendō, dēfendere, dēfendī, dēfēnsum ‘defend’ discēdō, discēdere, discessī, discessum ‘leave’ (in the intransive sense, i.e. ‘depart’) intellegō, intellegere, intellēxī, intellēctum ‘understand’ oppugnō, oppugnāre, oppugnāvī, oppugnātum ‘attack’ relinquō, relinquere, relīquī, relictum ‘leave behind’, ‘abandon’ sedeō, sedēre, sēdī, sessum ‘sit’ volō, velle, voluī, – ‘want’, ‘wish’"
+          "t": "p",
+          "text": "1 Colloquium Harleianum 22a–c and 21g–h (adapted): plans for an outing (second or third century ad)."
+        },
+        {
+          "t": "passage",
+          "text": "tertio die cursus equorum erit, et postea ludi gladiatorum. communiter ergo spectemus et sic lavemur, cum dimittunt spectacula.",
+          "speaker": "gaius"
+        },
+        {
+          "t": "passage",
+          "text": "quomodo vis.",
+          "speaker": "lucius"
+        },
+        {
+          "t": "passage",
+          "text": "frater autem meus excusavit; heri enim in balneo rixam fecit, coactus ab amicis ebriis, et procedere non potest, quia confunditur.",
+          "speaker": "gaius"
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "tertiō diē ‘on the day after tomorrow’",
+              "quōmodo ‘as’"
+            ],
+            [
+              "cursus, cursūs (m.) ‘race’",
+              "vīs ‘you wish’"
+            ],
+            [
+              "posteā ‘afterwards’",
+              "autem ‘however’"
+            ],
+            [
+              "lūdus, lūdī (m.) ‘game’",
+              "excūsō, -āre, -āvī, -ātum ‘send excuses’"
+            ],
+            [
+              "gladiātor, gladiātōris (m.) ‘gladiator’",
+              ""
+            ],
+            [
+              "commūniter ‘together’",
+              "enim ‘for’ (in the sense of ‘because’; translate one word earlier than where it appears in Latin)"
+            ],
+            [
+              "ergō ‘so’ (translate one word earlier than where it appears in Latin)",
+              ""
+            ],
+            [
+              "spectō, spectāre, spectāvī, spectātum ‘watch’",
+              "balneum, balneī (n.) ‘bath-house’"
+            ],
+            [
+              "",
+              "rixa, rixae (f.) ‘brawl’"
+            ],
+            [
+              "sīc ‘in the same way’ (i.e. commūniter)",
+              "cōgō, cōgere, coēgī, coāctum ‘force’"
+            ],
+            [
+              "lavēmur ‘let’s go to the baths’",
+              "ēbrius, ēbria, ēbrium ‘drunken’"
+            ],
+            [
+              "cum ‘when’",
+              "prōcēdō, prōcēdere, prōcessī,"
+            ],
+            [
+              "dīmittō (like mittō) ‘let out’",
+              "prōcessum ‘go out’"
+            ],
+            [
+              "spectāculum, -ī (n.) ‘show’",
+              "cōnfunditur ‘he is embarrassed’"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "2 Adeste fideles: eighteenth-century Christmas carol."
+        },
+        {
+          "t": "p",
+          "text": "Adeste, fideles, laeti triumphantes, venite, venite in Bethlehem:"
+        },
+        {
+          "t": "p",
+          "text": "natum videte, regem angelorum. venite adoremus, venite adoremus, venite adoremus dominum."
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "fidēlis, fidēle ‘faithful’",
+              "nātus, nātī (m.) ‘baby’"
+            ],
+            [
+              "laetus, laeta, laetum ‘joyful’",
+              "angelus, angelī (m.) ‘angel’"
+            ],
+            [
+              "triumphō, -āre, -āvī, -ātum ‘triumph’",
+              "adōrō, adōrāre, adōrāvī, adōrātum ‘adore’"
+            ]
+          ]
         }
       ]
-    }
-  ],
-  "readings": [
-    {
-      "id": "lectio-24",
-      "latinTitle": "SENTENTIAE LATĪNAE",
-      "title": "Latin sentences from this chapter",
-      "paragraphs": [
-        "facta eorum bona sunt.",
-        "omnia facta eius mala sunt.",
-        "dominum timens, servus ex urbe rex. fugit.",
-        "puella, habesne amantem?",
-        "scripta eius bona sunt. interfecturum.",
-        "multi amantes mali sunt."
-      ],
-      "notes": []
-    }
-  ],
-  "grammar": [],
-  "vocabulary": [
-    {
-      "latin": "tertiō diē",
-      "english": "on the day after tomorrow",
-      "group": "Vocābula"
     },
     {
-      "latin": "quōmodo",
-      "english": "as",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "vīs",
-      "english": "you wish",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "posteā",
-      "english": "afterwards",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "autem",
-      "english": "however",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "excūsō, -āre, -āvī, -ātum",
-      "english": "send gladiātor, gladiātōris (m.)",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "gladiator",
-      "english": "excuses",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "commūniter",
-      "english": "together",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "enim",
-      "english": "for",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "ergō",
-      "english": "so",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "sīc",
-      "english": "in the same way",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "cōgō, cōgere, coēgī, coāctum",
-      "english": "force",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "lavēmur",
-      "english": "let",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "drunken",
-      "english": "cum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "when",
-      "english": "prōcēdō, prōcēdere, prōcessī, dīmittō (like mittō)",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "let out",
-      "english": "prōcessum",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "go out",
-      "english": "spectāculum, -ī (n.)",
-      "group": "Vocābula"
-    }
-  ],
-  "pensa": [
-    {
-      "latinLabel": "PRACTICE A",
-      "title": "Practice A",
-      "instruction": "Practice A Translate:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 pugnātūrus, -a, -um",
-          "a": ""
-        },
-        {
-          "q": "13 interfectūrus, -a, -um",
-          "a": ""
-        },
-        {
-          "q": "2 fugiēns, gen. fugientis",
-          "a": ""
-        },
-        {
-          "q": "14 impediēns, gen. impedientis",
-          "a": ""
-        },
-        {
-          "q": "3 āmissus, -a, -um",
-          "a": ""
-        },
-        {
-          "q": "15 factus, -a, -um",
-          "a": ""
-        },
-        {
-          "q": "4 vocātūrus, -a, -um",
-          "a": ""
-        },
-        {
-          "q": "16 audītūrus, -a, -um",
-          "a": ""
-        },
-        {
-          "q": "5 capiēns, gen. capientis",
-          "a": ""
-        },
-        {
-          "q": "17 agēns, gen. agentis",
-          "a": ""
-        },
-        {
-          "q": "6 sepultus, -a, -um",
-          "a": ""
-        },
-        {
-          "q": "18 vīsus, -a, -um",
-          "a": ""
-        },
-        {
-          "q": "7 ventūrus, -a, -um",
-          "a": ""
-        },
-        {
-          "q": "19 exitūrus, -a, -um",
-          "a": ""
-        },
-        {
-          "q": "8 vīvēns, gen. vīventis",
-          "a": ""
-        },
-        {
-          "q": "20 timēns, gen. timentis",
-          "a": ""
-        },
-        {
-          "q": "9 sēnsus, -a, -um",
-          "a": ""
-        },
-        {
-          "q": "21 monitus, -a, -um",
-          "a": ""
-        },
-        {
-          "q": "10 refectūrus, -a, -um",
-          "a": ""
-        },
-        {
-          "q": "22 adfutūrus, -a, -um",
-          "a": ""
-        },
-        {
-          "q": "11 accipiēns, gen. accipientis",
-          "a": ""
-        },
-        {
-          "q": "23 abiēns, gen. abeuntis",
-          "a": ""
-        },
-        {
-          "q": "12 inventus, -a, -um",
-          "a": ""
-        },
-        {
-          "q": "24 datus, -a, -um",
-          "a": ""
-        }
-      ],
-      "id": "practice-24-a"
-    },
-    {
-      "latinLabel": "PRACTICE B",
-      "title": "Practice B",
-      "instruction": "B Give the participles indicated (with feminine and neuter for the perfect and future participles, and with genitive for present participles) and translate the resulting forms:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 pugnō, present",
-          "a": ""
-        },
-        {
-          "q": "13 legō, present",
-          "a": ""
-        },
-        {
-          "q": "2 vocō, perfect",
-          "a": ""
-        },
-        {
-          "q": "14 accipiō, perfect",
-          "a": ""
-        },
-        {
-          "q": "3 āmittō, future",
-          "a": ""
-        },
-        {
-          "q": "15 faciō, future",
-          "a": ""
-        },
-        {
-          "q": "4 veniō, present",
-          "a": ""
-        },
-        {
-          "q": "16 mittō, present",
-          "a": ""
-        },
-        {
-          "q": "5 capiō, perfect",
-          "a": ""
-        },
-        {
-          "q": "17 agō, perfect",
-          "a": ""
-        },
-        {
-          "q": "6 sepeliō, future",
-          "a": ""
-        },
-        {
-          "q": "18 videō, future",
-          "a": ""
-        },
-        {
-          "q": "7 exeō, present",
-          "a": ""
-        },
-        {
-          "q": "19 iuvō, present",
-          "a": ""
-        },
-        {
-          "q": "8 reficiō, perfect",
-          "a": ""
-        },
-        {
-          "q": "20 audiō, perfect",
-          "a": ""
-        },
-        {
-          "q": "9 sentiō, future",
-          "a": ""
-        },
-        {
-          "q": "21 moneō, future",
-          "a": ""
-        },
-        {
-          "q": "10 emō, present",
-          "a": ""
-        },
-        {
-          "q": "22 habeō, present",
-          "a": ""
-        },
-        {
-          "q": "11 interficiō, perfect",
-          "a": ""
-        },
-        {
-          "q": "23 dūcō, perfect",
-          "a": ""
-        },
-        {
-          "q": "12 inveniō, future",
-          "a": ""
-        },
-        {
-          "q": "24 dō, future",
-          "a": ""
-        }
-      ],
-      "id": "practice-24-b"
-    },
-    {
-      "latinLabel": "PRACTICE C",
-      "title": "Practice C",
-      "instruction": "Practice C Translate:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 miles captus eos timuit.",
-          "a": ""
-        },
-        {
-          "q": "19 victi servi erunt.",
-          "a": ""
-        },
-        {
-          "q": "2 vidistine captos?",
-          "a": ""
-        },
-        {
-          "q": "20 oves venditurus, agricola eas ad",
-          "a": ""
-        },
-        {
-          "q": "3 iuti ab amicis, librum longum oppidum egit. scripsimus.",
-          "a": ""
-        },
-        {
-          "q": "21 facta eorum bona sunt.",
-          "a": ""
-        },
-        {
-          "q": "4 vidi eum in agro stantem.",
-          "a": ""
-        },
-        {
-          "q": "22 omnes in agro stant deos",
-          "a": ""
-        },
-        {
-          "q": "5 vidimus magistrum eos laudantes. docturum.",
-          "a": ""
-        },
-        {
-          "q": "23 agricola oves venditurus ad",
-          "a": ""
-        },
-        {
-          "q": "6 verba regis audientes, cives urbem venit. omnia scripserunt.",
-          "a": ""
-        },
-        {
-          "q": "24 victi, hostes nostri erunt servi.",
-          "a": ""
-        },
-        {
-          "q": "7 vocantes non audivimus.",
-          "a": ""
-        },
-        {
-          "q": "25 omnia facta eius mala sunt.",
-          "a": ""
-        },
-        {
-          "q": "8 rex dicturus mecum stabit.",
-          "a": ""
-        },
-        {
-          "q": "26 milites victuros e castris duxit",
-          "a": ""
-        },
-        {
-          "q": "9 dominum timens, servus ex urbe rex. fugit.",
-          "a": ""
-        },
-        {
-          "q": "27 vidimus eum cum patre ad",
-          "a": ""
-        },
-        {
-          "q": "10 dominos timentes, servi ad siloppidum euntem. vam fugerunt.",
-          "a": ""
-        },
-        {
-          "q": "28 videsne puellam a me amatam?",
-          "a": ""
-        },
-        {
-          "q": "11 regem visurus ille gladium mihi",
-          "a": ""
-        },
-        {
-          "q": "29 puerum vos vocantem dedit. vidimus.",
-          "a": ""
-        },
-        {
-          "q": "12 docti libros bonos scribunt.",
-          "a": ""
-        },
-        {
-          "q": "30 patrem sepulturi, fratres ad",
-          "a": ""
-        },
-        {
-          "q": "13 legistine scripta eorum? oppidum venerunt.",
-          "a": ""
-        },
-        {
-          "q": "14 ovem petiturus, agricola ex",
-          "a": ""
-        },
-        {
-          "q": "31 rex captum iuvit. oppido exivit.",
-          "a": ""
-        },
-        {
-          "q": "32 regem captum iuvit.",
-          "a": ""
-        },
-        {
-          "q": "15 hostes timens, ad castra cum eis",
-          "a": ""
-        },
-        {
-          "q": "33 a magistro ex oppido ducti, non veni. pueri ad silvam venerunt.",
-          "a": ""
-        },
-        {
-          "q": "16 oves vendens, agricola pecuniam",
-          "a": ""
-        },
-        {
-          "q": "34 illi vicerunt hostes nos accepit. interfecturos.",
-          "a": ""
-        },
-        {
-          "q": "17 puella, habesne amantem?",
-          "a": ""
-        },
-        {
-          "q": "35 dabo ei librum a me scriptum.",
-          "a": ""
-        },
-        {
-          "q": "18 eum vidimus ovem",
-          "a": ""
-        },
-        {
-          "q": "36 scripta eius bona sunt. interfecturum.",
-          "a": ""
-        },
-        {
-          "q": "37 me petentes ad urbem venerunt. 154 Participles",
-          "a": ""
-        },
-        {
-          "q": "38 puero timenti pecuniam",
-          "a": ""
-        },
-        {
-          "q": "42 ad silvam venientes militem dedimus. viderunt.",
-          "a": ""
-        },
-        {
-          "q": "39 multi amantes mali sunt.",
-          "a": ""
-        },
-        {
-          "q": "43 moenia urbis reficientes",
-          "a": ""
-        },
-        {
-          "q": "40 vidistine moenia refecta? cives pecuniam amissam",
-          "a": ""
-        },
-        {
-          "q": "41 scripsit de factis et dictis regis invenerunt. nostri.",
-          "a": ""
-        }
-      ],
-      "id": "practice-24-c"
-    },
-    {
-      "latinLabel": "PRACTICE D",
-      "title": "Practice D",
-      "instruction": "D Translate into Latin using participles and omitting words in parentheses:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 Seeing them, the boy was afraid.",
-          "a": ""
-        },
-        {
-          "q": "11 (When he) saw them, the boy",
-          "a": ""
-        },
-        {
-          "q": "2 Our king will not kill the captured was afraid. (men).",
-          "a": ""
-        },
-        {
-          "q": "12 Being about to see their (own)",
-          "a": ""
-        },
-        {
-          "q": "3 Being about to sell his horse, my king, the citizens were afraid. brother led it (‘him’ in Latin) to",
-          "a": ""
-        },
-        {
-          "q": "13 Having been helped by us, this a good field. poet praised us.",
-          "a": ""
-        },
-        {
-          "q": "4 (When he was) repairing the",
-          "a": ""
-        },
-        {
-          "q": "14 (When he is) about to teach girls, walls of the city, he found a lost this teacher is afraid. sheep.",
-          "a": ""
-        },
-        {
-          "q": "15 I have (i.e. possess) captured",
-          "a": ""
-        },
-        {
-          "q": "5 We will help the captured soldiers; will you buy them? (women).",
-          "a": ""
-        },
-        {
-          "q": "16 We saw a slave running out of",
-          "a": ""
-        },
-        {
-          "q": "6 (When they were) about to repair the town into that forest. the walls of the town, the citizens",
-          "a": ""
-        },
-        {
-          "q": "17 (When they are) about to write sought stones. books, learned men read many",
-          "a": ""
-        },
-        {
-          "q": "7 Did you see the captured soldiers? things.",
-          "a": ""
-        },
-        {
-          "q": "8 Will he praise their deeds (i.e.",
-          "a": ""
-        },
-        {
-          "q": "18 I shall give money to the boy things done)? standing with him.",
-          "a": ""
-        },
-        {
-          "q": "9 Being about to fight, those sol-",
-          "a": ""
-        },
-        {
-          "q": "19 The masters found their slaves diers are miserable. fleeing into the forest.",
-          "a": ""
-        },
-        {
-          "q": "10 The immortals help lovers (i.e.",
-          "a": ""
-        },
-        {
-          "q": "20 We found it (when we were) men who love). repairing their walls.",
-          "a": ""
-        },
-        {
-          "q": "1 Colloquium Harleianum 22a–c and 21g–h (adapted): plans for an outing (second or third century ad). gaius: tertio die cursus equorum erit, et postea ludi gladiatorum. communiter ergo spectemus et sic lavemur, cum dimittunt spectacula. lucius: quomodo vis. gaius: frater autem meus excusavit; heri enim in balneo rixam fecit, coactus ab amicis ebriis, et procedere non potest, quia confunditur.",
-          "a": ""
-        }
-      ],
-      "id": "practice-24-d"
-    },
-    {
-      "id": "translate-24",
-      "latinLabel": "TRANSLATE INTO LATIN",
-      "title": "Translate into Latin",
-      "instruction": "",
-      "type": "questions",
-      "items": [
-        {
-          "q": "4 (When he was) repairing the 14 (When he is) about to teach girls, walls of the city, he found a lost this teacher is afraid.",
-          "a": ""
-        },
-        {
-          "q": "possess) captured 6 (When they were) about to repair the town into that forest.",
-          "a": ""
-        },
-        {
-          "q": "the walls of the town, the citizens 17 (When they are) about to write sought stones.",
-          "a": ""
+      "id": "section-4",
+      "latin": "24.4 Vocabulary to Learn",
+      "num": "24.4",
+      "blocks": [
+        {
+          "t": "vhead",
+          "text": "Verbs"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "dēfendō, dēfendere, dēfendī, dēfēnsum",
+              "‘defend’"
+            ],
+            [
+              "discēdō, discēdere, discessī, discessum intellegō, intellegere, intellēxī, intellēctum ‘understand’",
+              "‘leave’ (in the intransive sense, i.e. ‘depart’)"
+            ],
+            [
+              "oppugnō, oppugnāre, oppugnāvī, oppugnātum",
+              "‘attack’"
+            ],
+            [
+              "relinquō, relinquere, relīquī, relictum",
+              "‘leave behind’, ‘abandon’"
+            ],
+            [
+              "sedeō, sedēre, sēdī, sessum",
+              "‘sit’"
+            ],
+            [
+              "volō, velle, voluī, –",
+              "‘want’, ‘wish’"
+            ]
+          ]
         }
       ]
     }
   ]
-}
+};
 
 export default chapter

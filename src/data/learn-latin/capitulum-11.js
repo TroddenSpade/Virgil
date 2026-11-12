@@ -2,17 +2,14 @@ const chapter = {
   "number": 11,
   "roman": "XI",
   "slug": "capitulum-11",
-  "latinTitle": "CAPVT XI",
   "title": "Reading Texts",
-  "tagline": "Grammar, vocabulary and practice",
   "status": "complete",
   "complete": true,
   "sections": [
     {
-      "id": "section-0",
+      "id": "section-1",
       "latin": "Introduction",
-      "english": "Introduction",
-      "kind": "commentary",
+      "num": null,
       "blocks": [
         {
           "t": "p",
@@ -20,393 +17,474 @@ const chapter = {
         },
         {
           "t": "p",
-          "text": "Almost always, a passage of Latin makes sense: that is, the author intended the"
+          "text": "Almost always, a passage of Latin makes sense: that is, the author intended the different sentences to relate to one another in a coherent fashion. But that fact is of less use to beginners than it might be, because often something that made perfect sense in an ancient Roman context does not appear to make any sense today. So when reading passages it is often useful to apply one’s knowledge of Roman history and mythology, and to be alert to cultural differences. The more one understands how the Romans thought, the easier it is to understand what they said."
         },
         {
           "t": "p",
-          "text": "different sentences to relate to one another in a coherent fashion. But that fact is of less use to beginners than it might be, because often something that made perfect sense in an ancient Roman context does not appear to make any sense today. So when reading passages it is often useful to apply one’s knowledge of Roman history and mythology, and to be alert to cultural differences. The more one understands how the Romans thought, the easier it is to understand what they said."
+          "text": "Another type of understanding crucial for reading passages of ancient literature is that of the ways in which the rules and translations already learned can and cannot be bent in order to produce a coherent translation. Roughly speaking, it is permissible to substitute another English word or phrase for the translation you have learned if and only if the other word or phrase is roughly equivalent to the one you learned originally, not only in meaning but also grammatically. So for example you have learned the translation ‘your’ for tuus, -a, -um, but if you found tuus agreeing with a word meaning ‘nothing’, that translation would not work in English: ‘your nothing’ makes no sense."
         },
         {
           "t": "p",
-          "text": "Another type of understanding crucial for reading passages of ancient literature is"
+          "text": "There might be a temptation to try substituting ‘you’ for ‘your’, but that would make matters worse: ‘your’ is an adjective and ‘you’ is a pronoun, so the two forms are never grammatically equivalent. (Like all adjectives, tuus can be substantivized and thus come to function a bit more like a pronoun, but the substantivized form of tuus would mean ‘your man’, not ‘you’.) If you think carefully about what ‘your’ plus ‘nothing’ ought to mean, however, you might be able to come up with another way of expressing the idea ‘your’ that preserves the essentially adjectival function of tuus, for example ‘of yours’. (Compare English ‘your book’ with ‘a book of yours’, or ‘He’s not my son’ with ‘He’s no son of mine’: ‘my’ and ‘your’ are equivalent to ‘of mine’ and ‘of yours’ in a range of contexts in English.) Indeed ‘nothing of yours’ would work as a translation of nihil tuum, but alternatives like ‘nothing is yours’ or ‘you are nothing’ would not work, because they are not equivalent to the basic translation you know for tuus."
         },
         {
           "t": "p",
-          "text": "that of the ways in which the rules and translations already learned can and cannot be bent in order to produce a coherent translation. Roughly speaking, it is permissible to substitute another English word or phrase for the translation you have learned if and only if the other word or phrase is roughly equivalent to the one you learned originally, not only in meaning but also grammatically. So for example you have learned the translation ‘your’ for tuus, -a, -um, but if you found tuus agreeing with a word meaning ‘nothing’, that translation would not work in English: ‘your nothing’ makes no sense. There might be a temptation to try substituting ‘you’ for ‘your’, but that would make matters worse: ‘your’ is an adjective and ‘you’ is a pronoun, so the two forms are never grammatically equivalent. (Like all adjectives, tuus can be substantivized and thus come to function a bit more like a pronoun, but the substantivized form of tuus would mean ‘your man’, not ‘you’.) If you think carefully about what ‘your’ plus ‘nothing’ ought to mean, however, you might be able to come up with another way of expressing the idea ‘your’ that preserves the essentially adjectival function of tuus, for example ‘of yours’. (Compare English ‘your book’ with ‘a book of yours’, or ‘He’s not my son’ with ‘He’s no son of mine’: ‘my’ and ‘your’ are equivalent to ‘of mine’ and ‘of yours’ in"
+          "text": "Both these types of understanding usually take time to develop: some people come to the study of Latin equipped with an extensive background knowledge of the ancient Romans and/or with a fully developed instinct for finding equivalent phrases, but for most people some experience of reading is necessary to produce these skills. They come with practice."
         },
         {
           "t": "p",
-          "text": "a range of contexts in English.) Indeed ‘nothing of yours’ would work as a translation of nihil tuum, but alternatives like ‘nothing is yours’ or ‘you are nothing’ would not work, because they are not equivalent to the basic translation you know for tuus."
-        },
-        {
-          "t": "p",
-          "text": "Both these types of understanding usually take time to develop: some people come"
-        },
-        {
-          "t": "p",
-          "text": "to the study of Latin equipped with an extensive background knowledge of the ancient Romans and/or with a fully developed instinct for finding equivalent phrases, but for most people some experience of reading is necessary to produce these skills. They come with practice."
-        },
-        {
-          "t": "p",
-          "text": "One important skill that can be mastered at once, however, is that of making the best"
-        },
-        {
-          "t": "p",
-          "text": "use of any help given. For example, when unfamiliar vocabulary is glossed, it is necessary to pay attention to all the information in the gloss, grammatical as well as lexical. Suppose you are faced with the words voluit iūdex and the following vocabulary help: volō, velle, voluī, – ‘want’; iūdex, iūdicis (m.) ‘judge’. If you simply extracted the English translations from these glosses you might be tempted to produce a translation such as ‘he wanted to judge’; this would be especially likely since iūdex clearly belongs to a category that you have not yet encountered, and therefore the information on how to inflect it does not appear to be very helpful. But if you look more closely at the vocabulary, you will see that iūdex has to be a noun, not a verb, and moreover that it is nominative: even if it belongs to a declension you are not familiar with, you know the nominative and genitive forms from the gloss. Likewise, although the verb is an irregular one that you have not yet encountered, you can tell that the form in this sentence is the perfect active indicative. You thus have all the information you need to work out the correct translation, namely ‘the judge wanted’."
+          "text": "One important skill that can be mastered at once, however, is that of making the best use of any help given. For example, when unfamiliar vocabulary is glossed, it is necessary to pay attention to all the information in the gloss, grammatical as well as lexical. Suppose you are faced with the words voluit iūdex and the following vocabulary help: volō, velle, voluī, – ‘want’; iūdex, iūdicis (m.) ‘judge’. If you simply extracted the English translations from these glosses you might be tempted to produce a translation such as ‘he wanted to judge’; this would be especially likely since iūdex clearly belongs to a category that you have not yet encountered, and therefore the information on how to inflect it does not appear to be very helpful. But if you look more closely at the vocabulary, you will see that iūdex has to be a noun, not a verb, and moreover that it is nominative: even if it belongs to a declension you are not familiar with, you know the nominative and genitive forms from the gloss. Likewise, although the verb is an irregular one that you have not yet encountered, you can tell that the form in this sentence is the perfect active indicative. You thus have all the information you need to work out the correct translation, namely ‘the judge wanted’."
         }
       ]
     },
     {
-      "id": "section-1",
+      "id": "section-2",
       "latin": "11.1 Colloquium Harleianum 27a–e (adapted)",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "11.1",
       "blocks": [
         {
           "t": "p",
-          "text": "How a Roman might appeal to a neglectful friend (second or third century ad): I ad fratrem et dic ei: ‘Quid tibi fecimus, ut neglegas nos? te diligimus, te amamus, per deum, per caelum, per terram. et ipse hoc scis, quoniam amicus noster es.’"
+          "text": "How a Roman might appeal to a neglectful friend (second or third century ad ):"
+        },
+        {
+          "t": "passage",
+          "text": "I ad fratrem et dic ei: ‘Quid tibi fecimus, ut neglegas nos? te diligimus, te amamus, per deum, per caelum, per terram. et ipse hoc scis, quoniam amicus noster es.’"
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary (in order of first appearance; words that appear more than once are in bold)"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "frātrem ‘brother’ (accusative) (here probably used metaphorically of a friend)",
+              "nōs ‘us’ (accusative)"
+            ],
+            [
+              "",
+              "tē ‘you’ (accusative)"
+            ],
+            [
+              "",
+              "dīligō, dīligere, dīlēxī, dīlēctum ‘like’"
+            ],
+            [
+              "eī ‘to him’",
+              "per (+ accusative) ‘by’"
+            ],
+            [
+              "quid ‘what?’ (accusative)",
+              "caelum, caelī (n.) ‘heaven’"
+            ],
+            [
+              "tibi ‘to you’",
+              "terra, terrae (f.) ‘earth’"
+            ],
+            [
+              "faciō, facere, fēcī, factum ‘do’",
+              "ipse ‘yourself’ (nominative)"
+            ],
+            [
+              "ut ‘so that’",
+              "scīs ‘you know’"
+            ],
+            [
+              "neglegās ‘you neglect’ (subjunctive)",
+              "quoniam ‘since’"
+            ]
+          ]
         }
       ]
     },
     {
       "id": "section-3",
       "latin": "11.2 Colloquium Leidense–Stephani 10a–e (adapted)",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "11.2",
       "blocks": [
         {
           "t": "p",
-          "text": "Winning belief by taking an oath (probably third or fourth century ad): Dixit mihi, ‘Si periurus non es, iura mihi.’ et iuravi simpliciter, et non periuravi: ‘per deum optimum, per deum maximum, sic mihi sit deus propitius: periurus in hoc sacramento non inveniar.’ tunc mihi credidit."
+          "text": "Winning belief by taking an oath (probably third or fourth century ad ):"
+        },
+        {
+          "t": "passage",
+          "text": "Dixit mihi, ‘Si periurus non es, iura mihi.’ et iuravi simpliciter, et non periuravi: ‘per deum optimum, per deum maximum, sic mihi sit deus propitius: periurus in hoc sacramento non inveniar.’ tunc mihi credidit."
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary (in order of first appearance; words that appear more than once are in bold, and those in bold in the preceding vocabulary list are omitted)"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "mihi ‘to me’, ‘for me’ (dative)",
+              "sit ‘may (he) be’ (third person singular verb in the subjunctive)"
+            ],
+            [
+              "sī ‘if’",
+              ""
+            ],
+            [
+              "periūrus, -a, -um ‘perjured’ (swearing falsely)",
+              "propitius, propitia, propitium ‘favourable’"
+            ],
+            [
+              "iūrō, iūrāre, iūrāvī, iūrātum ‘swear’",
+              "sacrāmentum, sacrāmentī (n.) ‘oath’"
+            ],
+            [
+              "simpliciter ‘frankly’",
+              "inveniar ‘I shall be found’ (future passive)"
+            ],
+            [
+              "periūrō, periūrāre, periūrāvī,",
+              ""
+            ],
+            [
+              "periūrātum ‘swear falsely’",
+              "tunc ‘then’"
+            ],
+            [
+              "optimus, optima, optimum ‘best’",
+              "crēdō, crēdere, crēdidī, crēditum"
+            ],
+            [
+              "maximus, maxima, maximum ‘greatest’",
+              "‘believe’ (takes object in the dative)"
+            ],
+            [
+              "sīc ‘thus’ (i.e. only if I am telling the truth)",
+              ""
+            ]
+          ]
         }
       ]
     },
     {
       "id": "section-4",
       "latin": "11.3 Colloquium Harleianum 23a–i (adapted)",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "11.3",
       "blocks": [
         {
           "t": "p",
-          "text": "An unsuccessful attempt to obtain repayment of a debt (second or third century ad): marcus: nonne est ille Lucius, qui meam pecuniam habet? est. accedens ergo salutabo illum. marcus: ave, paterfamilias! possumne accipere meam pecuniam, quam mihi tam diu debes? lucius: quid dicis? insanis! marcus: faeneravi tibi pecuniam, et dicis ‘insanis?’ fraudator, nonne cognoscis me?"
+          "text": "An unsuccessful attempt to obtain repayment of a debt (second or third century ad):"
         },
         {
-          "t": "p",
-          "text": "lucius: duc te, quaere cui faeneravisti: ego enim nihil tuum habeo. marcus: iura mihi. lucius: iurabo ubi velis. marcus: eamus. iura in templo. lucius: per deum hunc, nihil mihi dedisti. marcus: modo bene."
+          "t": "passage",
+          "text": "nonne est ille Lucius, qui meam pecuniam habet? est. accedens ergo salutabo illum.",
+          "speaker": "marcus"
+        },
+        {
+          "t": "passage",
+          "text": "ave, paterfamilias! possumne accipere meam pecuniam, quam mihi tam diu debes?",
+          "speaker": "marcus"
+        },
+        {
+          "t": "passage",
+          "text": "quid dicis? insanis!",
+          "speaker": "lucius"
+        },
+        {
+          "t": "passage",
+          "text": "faeneravi tibi pecuniam, et dicis ‘insanis?’ fraudator, nonne cognoscis me?",
+          "speaker": "marcus"
+        },
+        {
+          "t": "passage",
+          "text": "duc te, quaere cui faeneravisti: ego enim nihil tuum habeo.",
+          "speaker": "lucius"
+        },
+        {
+          "t": "passage",
+          "text": "iura mihi.",
+          "speaker": "marcus"
+        },
+        {
+          "t": "passage",
+          "text": "iurabo ubi velis.",
+          "speaker": "lucius"
+        },
+        {
+          "t": "passage",
+          "text": "eamus. iura in templo.",
+          "speaker": "marcus"
+        },
+        {
+          "t": "passage",
+          "text": "per deum hunc, nihil mihi dedisti.",
+          "speaker": "lucius"
+        },
+        {
+          "t": "passage",
+          "text": "modo bene.",
+          "speaker": "marcus"
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary (in order of first appearance; words that appear more than once are in bold, and those in bold in the preceding vocabulary lists are omitted)"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "nōnne = nōn + -ne",
+              "tibi ‘you’ (dative)"
+            ],
+            [
+              "quī ‘who’ (nominative)",
+              "fraudātor, fraudātōris (m.) ‘cheater’"
+            ],
+            [
+              "accēdēns ‘approaching’ (nominative)",
+              "cognōscō, cognōscere, cognōvī,"
+            ],
+            [
+              "ergō ‘therefore’ (translate one word earlier than where it appears in Latin)",
+              "cognitum ‘recognize’"
+            ],
+            [
+              "",
+              "mē ‘me’ (accusative)"
+            ],
+            [
+              "",
+              "dūc tē ‘get out of here!’ (literally ‘lead yourself [away]’)"
+            ],
+            [
+              "salūtō, salūtāre, salūtāvī, salūtātum ‘greet’",
+              ""
+            ],
+            [
+              "",
+              "quaerō, quaerere, quaesīvī, quaesītum"
+            ],
+            [
+              "avē ‘hello’",
+              "‘find out’"
+            ],
+            [
+              "paterfamiliās ‘sir’ (literally ‘master of a household’)",
+              "cui ‘to whom’ (dative)"
+            ],
+            [
+              "",
+              "ego ‘I’ (nominative)"
+            ],
+            [
+              "accipiō, accipere, accēpī, acceptum ‘receive’",
+              "enim ‘for’ (in the sense of ‘because’; translate one word earlier than where it appears in Latin)"
+            ],
+            [
+              "quam ‘which’ (accusative)",
+              ""
+            ],
+            [
+              "tam diū ‘for so long’",
+              "nihil (n.) ‘nothing’"
+            ],
+            [
+              "dēbeō, dēbēre, dēbuī, dēbitum ‘owe’",
+              "tuus can also mean ‘of yours’"
+            ],
+            [
+              "quid ‘what?’ (accusative)",
+              "velīs ‘you may wish’ (subjunctive)"
+            ],
+            [
+              "īnsānīs ‘you are insane’",
+              "eāmus ‘let’s go!’ (subjunctive)"
+            ],
+            [
+              "faenerō, faenerāre, faenerāvī,",
+              "templum, templī (n.) ‘temple’"
+            ],
+            [
+              "faenerātum ‘lend’",
+              "modo bene ‘very well’"
+            ]
+          ]
         }
       ]
     },
     {
       "id": "section-5",
       "latin": "11.4 Colloquium Montepessulanum 20a–f (adapted)",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "11.4",
       "blocks": [
         {
           "t": "p",
-          "text": "The end of a Roman’s day (probably third century ad): marcus: nunc sero est; eamus domum. marcus: domina ubi est? iulia: hic sum. marcus: habemus quid cenare? iulia: habemus omnia. marcus: impone mensam, da panem, praecide caseum, da poma . . . quot horae sunt noctis? iulia: nunc tres. marcus: pone matellam et tolle lucernam. dormire volo, ut mane vigilem."
-        }
-      ]
-    }
-  ],
-  "readings": [],
-  "grammar": [],
-  "vocabulary": [
-    {
-      "latin": "frātrem",
-      "english": "brother",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "dīligō, dīligere, dīlēxī, dīlēctum",
-      "english": "like",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "eī",
-      "english": "to him",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "quid",
-      "english": "what?",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "tibi",
-      "english": "to you",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "faciō, facere, fēcī, factum",
-      "english": "do",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "ipse",
-      "english": "yourself",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "ut",
-      "english": "so that",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "scīs",
-      "english": "you know",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "neglegās",
-      "english": "you neglect",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "quoniam",
-      "english": "since",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "mihi",
-      "english": "to me",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "sit",
-      "english": "may (he) be",
-      "group": "Vocābula"
-    },
-    {
-      "latin": "periūrus, -a, -um",
-      "english": "perjured",
-      "group": "Verba"
-    },
-    {
-      "latin": "iūrō, iūrāre, iūrāvī, iūrātum",
-      "english": "swear",
-      "group": "Verba"
-    },
-    {
-      "latin": "simpliciter",
-      "english": "frankly",
-      "group": "Verba"
-    },
-    {
-      "latin": "inveniar",
-      "english": "I shall be found",
-      "group": "Verba"
-    },
-    {
-      "latin": "periūrātum",
-      "english": "swear falsely",
-      "group": "Verba"
-    },
-    {
-      "latin": "tunc",
-      "english": "then",
-      "group": "Verba"
-    },
-    {
-      "latin": "optimus, optima, optimum",
-      "english": "best",
-      "group": "Verba"
-    },
-    {
-      "latin": "crēdō, crēdere, crēdidī, crēditum maximus, maxima, maximum",
-      "english": "greatest",
-      "group": "Verba"
-    },
-    {
-      "latin": "sīc",
-      "english": "thus",
-      "group": "Verba"
-    },
-    {
-      "latin": "nōnne = nōn + -ne tibi",
-      "english": "you",
-      "group": "Verba"
-    },
-    {
-      "latin": "quī",
-      "english": "who",
-      "group": "Verba"
-    },
-    {
-      "latin": "accēdēns",
-      "english": "approaching",
-      "group": "Verba"
-    },
-    {
-      "latin": "cognōscō, cognōscere, cognōvī, ergō",
-      "english": "therefore",
-      "group": "Verba"
-    },
-    {
-      "latin": "earlier than where it appears in mē",
-      "english": "me",
-      "group": "Verba"
-    },
-    {
-      "latin": "dūc tē",
-      "english": "get out of here!",
-      "group": "Verba"
-    },
-    {
-      "latin": "avē",
-      "english": "hello",
-      "group": "Verba"
-    },
-    {
-      "latin": "paterfamiliās",
-      "english": "sir",
-      "group": "Verba"
-    },
-    {
-      "latin": "a household",
-      "english": ") ego",
-      "group": "Verba"
-    },
-    {
-      "latin": "accipiō, accipere, accēpī, acceptum enim",
-      "english": "for",
-      "group": "Verba"
-    },
-    {
-      "latin": "quam",
-      "english": "which",
-      "group": "Verba"
-    },
-    {
-      "latin": "tam diū",
-      "english": "for so long",
-      "group": "Verba"
-    },
-    {
-      "latin": "dēbeō, dēbēre, dēbuī, dēbitum",
-      "english": "owe",
-      "group": "Verba"
-    },
-    {
-      "latin": "tuus can also mean",
-      "english": "of yours",
-      "group": "Verba"
-    },
-    {
-      "latin": "velīs",
-      "english": "you may wish",
-      "group": "Verba"
-    },
-    {
-      "latin": "īnsānīs",
-      "english": "you are insane",
-      "group": "Verba"
-    },
-    {
-      "latin": "eāmus",
-      "english": "let",
-      "group": "Verba"
-    },
-    {
-      "latin": "s go!",
-      "english": "(subjunctive) faenerō, faenerāre, faenerāvī, templum, templī (n.)",
-      "group": "Verba"
-    },
-    {
-      "latin": "faenerātum",
-      "english": "lend",
-      "group": "Verba"
-    },
-    {
-      "latin": "modo bene",
-      "english": "very well",
-      "group": "Verba"
-    },
-    {
-      "latin": "sērō",
-      "english": "late",
-      "group": "Verba"
-    },
-    {
-      "latin": "s go",
-      "english": "(subjunctive) pōmum, pōmī (n.)",
-      "group": "Verba"
-    },
-    {
-      "latin": "fruit",
-      "english": "domum",
-      "group": "Verba"
-    },
-    {
-      "latin": "home",
-      "english": "quot",
-      "group": "Verba"
-    },
-    {
-      "latin": "how many?",
-      "english": "domina, dominae (f.)",
-      "group": "Verba"
-    },
-    {
-      "latin": "house",
-      "english": "nox, noctis, gen. pl. noctium (f.)",
-      "group": "Verba"
-    },
-    {
-      "latin": "trēs",
-      "english": "three",
-      "group": "Verba"
-    },
-    {
-      "latin": "cēnō, cēnāre, cēnāvī, cēnātum",
-      "english": "eat for pōnō can also mean",
-      "group": "Verba"
-    },
-    {
-      "latin": "dinner",
-      "english": "matella, matellae (f.)",
-      "group": "Verba"
-    },
-    {
-      "latin": "omnia",
-      "english": "everything",
-      "group": "Verba"
-    },
-    {
-      "latin": "pānem",
-      "english": "bread",
-      "group": "Verba"
-    },
-    {
-      "latin": "volō, velle, voluī, –",
-      "english": "want",
-      "group": "Verba"
-    },
-    {
-      "latin": "praecīsum",
-      "english": "cut up",
-      "group": "Verba"
-    }
-  ],
-  "pensa": [
-    {
-      "id": "translate-11",
-      "latinLabel": "11.5 TRANSLATE INTO LATIN",
-      "title": "11.5 Translate into Latin",
-      "instruction": "",
-      "type": "questions",
-      "items": [
-        {
-          "q": "Use vocabulary and forms from the passages above as well as the words you already know.",
-          "a": ""
+          "text": "The end of a Roman’s day (probably third century ad):"
         },
         {
-          "q": "Unlike many ancient peoples, the Romans had good plumbing, but nevertheless they did not expect to walk to the toilet at night and so preferred to use a chamber pot.",
-          "a": ""
+          "t": "passage",
+          "text": "nunc sero est; eamus domum.",
+          "speaker": "marcus"
+        },
+        {
+          "t": "passage",
+          "text": "domina ubi est?",
+          "speaker": "marcus"
+        },
+        {
+          "t": "passage",
+          "text": "hic sum.",
+          "speaker": "iulia"
+        },
+        {
+          "t": "passage",
+          "text": "habemus quid cenare?",
+          "speaker": "marcus"
+        },
+        {
+          "t": "passage",
+          "text": "habemus omnia.",
+          "speaker": "iulia"
+        },
+        {
+          "t": "passage",
+          "text": "impone mensam, da panem, praecide caseum, da poma . . . quot horae sunt noctis?",
+          "speaker": "marcus"
+        },
+        {
+          "t": "passage",
+          "text": "nunc tres.",
+          "speaker": "iulia"
+        },
+        {
+          "t": "passage",
+          "text": "pone matellam et tolle lucernam. dormire volo, ut mane vigilem.",
+          "speaker": "marcus"
+        },
+        {
+          "t": "vlabel",
+          "text": "Vocabulary"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "sērō ‘late’",
+              "cāseus, cāseī (m.) ‘cheese’"
+            ],
+            [
+              "eāmus ‘let’s go’ (subjunctive)",
+              "pōmum, pōmī (n.) ‘fruit’"
+            ],
+            [
+              "domum ‘(to) home’",
+              "quot ‘how many?’"
+            ],
+            [
+              "domina, dominae (f.) ‘mistress of the house’",
+              "hōra, hōrae (f.) ‘hour’1"
+            ],
+            [
+              "",
+              "nox, noctis, gen. pl. noctium (f.) ‘night’"
+            ],
+            [
+              "quid ‘something’ (accusative)",
+              "trēs ‘three’"
+            ],
+            [
+              "cēnō, cēnāre, cēnāvī, cēnātum ‘eat for dinner’",
+              "pōnō can also mean ‘set out’"
+            ],
+            [
+              "",
+              "matella, matellae (f.) ‘chamber pot’2"
+            ],
+            [
+              "omnia ‘everything’ (n. plural accusative)",
+              "tollō, tollere, sustulī, sublātum ‘remove’"
+            ],
+            [
+              "",
+              "lucerna, lucernae (f.) ‘lantern’"
+            ],
+            [
+              "impōnō (like pōnō) ‘set up’",
+              "dormiō, dormīre, dormīvī, dormītum"
+            ],
+            [
+              "mēnsa, mēnsae (f.) ‘table’",
+              "‘sleep’"
+            ],
+            [
+              "pānem ‘bread’ (accusative)",
+              "volō, velle, voluī, – ‘want’"
+            ],
+            [
+              "praecīdō, praecīdere, praecīdī,",
+              "ut māne vigilem ‘so that I can wake up in the morning’"
+            ],
+            [
+              "praecīsum ‘cut up’",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-6",
+      "latin": "11.5 Translate into Latin",
+      "num": "11.5",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Use vocabulary and forms from the passages above as well as the words you already know."
+        },
+        {
+          "t": "p",
+          "text": "‘What have you done to that man, so that he neglects you?’"
+        },
+        {
+          "t": "p",
+          "text": "‘I have done nothing to him.’"
+        },
+        {
+          "t": "p",
+          "text": "‘Swear to me, in the temple.’"
+        },
+        {
+          "t": "p",
+          "text": "‘I shall swear: by this god, by the greatest god, by heaven, by earth, I have done nothing to him.’"
+        },
+        {
+          "t": "p",
+          "text": "‘Are you perjured?’"
+        },
+        {
+          "t": "p",
+          "text": "‘I have not sworn falsely: see, the god knows, since he has received my oath.’"
+        },
+        {
+          "t": "p",
+          "text": "‘Now I shall believe you.’"
+        },
+        {
+          "t": "note",
+          "n": 1,
+          "text": "The Romans calculated time on a system whereby the hours of daylight and the hours of darkness were each divided into twelve equal hours; the first hour of the night would be at sunset and the sixth at our midnight, so the third might have been around our 9 pm, depending on the season."
+        },
+        {
+          "t": "note",
+          "n": 2,
+          "text": "Unlike many ancient peoples, the Romans had good plumbing, but nevertheless they did not expect to walk to the toilet at night and so preferred to use a chamber pot."
+        },
+        {
+          "t": "p",
+          "text": "PART II"
         }
       ]
     }
   ]
-}
+};
 
 export default chapter

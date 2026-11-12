@@ -2,826 +2,1326 @@ const chapter = {
   "number": 7,
   "roman": "VII",
   "slug": "capitulum-07",
-  "latinTitle": "CAPVT VII",
   "title": "Dative Case, Possum",
-  "tagline": "Grammar, vocabulary and practice",
   "status": "complete",
   "complete": true,
   "sections": [
     {
       "id": "section-1",
       "latin": "7.1 Dative",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "7.1",
       "blocks": [
         {
           "t": "p",
           "text": "The fifth case is the dative. With it added, the noun and adjective paradigms look like this:"
         },
         {
-          "t": "h",
+          "t": "p",
           "text": "British Case Order"
         },
         {
-          "t": "h",
+          "t": "p",
           "text": "Nouns"
         },
         {
-          "t": "example",
-          "text": "First declension Second declension Second declension"
-        },
-        {
-          "t": "h",
-          "text": "masculine neuter"
-        },
-        {
-          "t": "pre",
-          "text": "Singular Plural Singular Plural Singular Plural"
+          "t": "table",
+          "header": [
+            "",
+            "First declension Singular Plural",
+            "",
+            "Second declension masculine Singular Plural",
+            "",
+            "Second declension neuter Singular Plural",
+            ""
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "puella",
+              "puellae",
+              "servus",
+              "servī",
+              "bellum",
+              "bella"
+            ],
+            [
+              "Vocative",
+              "puella",
+              "puellae",
+              "serve",
+              "servī",
+              "bellum",
+              "bella"
+            ],
+            [
+              "Accusative",
+              "puellam",
+              "puellās",
+              "servum",
+              "servōs",
+              "bellum",
+              "bella"
+            ],
+            [
+              "Genitive",
+              "puellae",
+              "puellārum",
+              "servī",
+              "servōrum",
+              "bellī",
+              "bellōrum"
+            ],
+            [
+              "Dative",
+              "puellae",
+              "puellīs",
+              "servō",
+              "servīs",
+              "bellō",
+              "bellīs"
+            ]
+          ]
         },
         {
           "t": "p",
-          "text": "Nominative puella puellae servus servī bellum bella Vocative puella puellae serve servī bellum bella Accusative puellam puellās servum servōs bellum bella Genitive puellae puellārum servī servōrum bellī bellōrum Dative puellae puellīs servō servīs bellō bellīs"
-        },
-        {
-          "t": "h",
           "text": "Adjectives"
         },
         {
-          "t": "pre",
-          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+          "t": "table",
+          "header": [
+            "",
+            "Singular Masculine Feminine Neuter",
+            "",
+            "",
+            "Plural Masculine Feminine Neuter",
+            "",
+            ""
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "bonus",
+              "bona",
+              "bonum",
+              "bonī",
+              "bonae",
+              "bona"
+            ],
+            [
+              "Vocative",
+              "bone",
+              "bona",
+              "bonum",
+              "bonī",
+              "bonae",
+              "bona"
+            ],
+            [
+              "Accusative",
+              "bonum",
+              "bonam",
+              "bonum",
+              "bonōs",
+              "bonās",
+              "bona"
+            ],
+            [
+              "Genitive",
+              "bonī",
+              "bonae",
+              "bonī",
+              "bonōrum",
+              "bonārum",
+              "bonōrum"
+            ],
+            [
+              "Dative",
+              "bonō",
+              "bonae",
+              "bonō",
+              "bonīs",
+              "bonīs",
+              "bonīs"
+            ]
+          ]
         },
         {
           "t": "p",
-          "text": "Nominative bonus bona bonum bonī bonae bona Vocative bone bona bonum bonī bonae bona Accusative bonum bonam bonum bonōs bonās bona Genitive bonī bonae bonī bonōrum bonārum bonōrum Dative bonō bonae bonō bonīs bonīs bonīs"
+          "text": "Ancient Case Order"
+        },
+        {
+          "t": "p",
+          "text": "Nouns"
+        },
+        {
+          "t": "table",
+          "header": [
+            "",
+            "First declension Singular",
+            "Plural",
+            "Second declension masculine Singular Plural",
+            "",
+            "Second declension neuter Singular Plural",
+            ""
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "puella",
+              "puellae",
+              "servus",
+              "servī",
+              "bellum",
+              "bella"
+            ],
+            [
+              "Genitive",
+              "puellae",
+              "puellārum",
+              "servī",
+              "servōrum",
+              "bellī",
+              "bellōrum"
+            ],
+            [
+              "Dative",
+              "puellae",
+              "puellīs",
+              "servō",
+              "servīs",
+              "bellō",
+              "bellīs"
+            ],
+            [
+              "Accusative",
+              "puellam",
+              "puellās",
+              "servum",
+              "servōs",
+              "bellum",
+              "bella"
+            ],
+            [
+              "Vocative",
+              "puella",
+              "puellae",
+              "serve",
+              "servī",
+              "bellum",
+              "bella"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Adjectives"
+        },
+        {
+          "t": "table",
+          "header": [
+            "",
+            "Singular Masculine Feminine",
+            "",
+            "Neuter",
+            "Plural Masculine Feminine",
+            "",
+            "Neuter"
+          ],
+          "rows": [
+            [
+              "Nominative",
+              "bonus",
+              "bona",
+              "bonum",
+              "bonī",
+              "bonae",
+              "bona"
+            ],
+            [
+              "Genitive",
+              "bonī",
+              "bonae",
+              "bonī",
+              "bonōrum",
+              "bonārum",
+              "bonōrum"
+            ],
+            [
+              "Dative",
+              "bonō",
+              "bonae",
+              "bonō",
+              "bonīs",
+              "bonīs",
+              "bonīs"
+            ],
+            [
+              "Accusative",
+              "bonum",
+              "bonam",
+              "bonum",
+              "bonōs",
+              "bonās",
+              "bona"
+            ],
+            [
+              "Vocative",
+              "bone",
+              "bona",
+              "bonum",
+              "bonī",
+              "bonae",
+              "bona"
+            ]
+          ]
+        },
+        {
+          "t": "practice"
+        },
+        {
+          "t": "ex",
+          "letter": "A",
+          "text": "Decline the following, in these five cases of the forms indicated:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "agricola, singular",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "amīcus, plural"
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "novus, neuter singular"
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "meus, feminine plural"
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "verbum, singular"
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "equus, plural"
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "tuus, masculine singular"
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "magnus, neuter plural"
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "dea, singular"
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "oppidum, plural"
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "poēta, singular"
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "novus, feminine plural"
         }
       ]
     },
     {
       "id": "section-2",
       "latin": "7.2 Use of the Dative",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "7.2",
       "blocks": [
         {
-          "t": "h",
-          "text": "Ancient Case Order"
-        },
-        {
-          "t": "h",
-          "text": "Nouns"
-        },
-        {
-          "t": "example",
-          "text": "First declension Second declension Second declension"
-        },
-        {
-          "t": "h",
-          "text": "masculine neuter"
-        },
-        {
-          "t": "pre",
-          "text": "Singular Plural Singular Plural Singular Plural"
-        },
-        {
           "t": "p",
-          "text": "Nominative puella puellae servus servī bellum bella Genitive puellae puellārum servī servōrum bellī bellōrum Dative puellae puellīs servō servīs bellō bellīs Accusative puellam puellās servum servōs bellum bella Vocative puella puellae serve servī bellum bella"
+          "text": "The dative has a variety of uses, including the indirect object; that is, the additional object found with a verb meaning ‘give’. With such a verb, the gift itself is the direct object and is in the accusative case; the person to whom it is given is the indirect object and is in the dative case. In English there are two constructions used for indirect objects: the indirect object can come before the direct object, or it can come after the direct object with the preposition ‘to’. The indirect objects in these sentences are underlined: ‘I gave Mary the book’, ‘I gave the book to Mary’, ‘We gave them candy’, ‘He gave candy to the children’. Adjectives that agree with dative nouns are also in the dative case."
         },
         {
-          "t": "h",
-          "text": "Adjectives"
+          "t": "practice"
         },
         {
-          "t": "pre",
-          "text": "Singular Plural Masculine Feminine Neuter Masculine Feminine Neuter"
+          "t": "ex",
+          "letter": "B",
+          "text": "Identify the words in the following sentences that would be datives in Latin:"
         },
         {
-          "t": "p",
-          "text": "Nominative bonus bona bonum bonī bonae bona Genitive bonī bonae bonī bonōrum bonārum bonōrum Dative bonō bonae bonō bonīs bonīs bonīs Accusative bonum bonam bonum bonōs bonās bona Vocative bone bona bonum bonī bonae bona"
+          "t": "li",
+          "n": 1,
+          "text": "He gave it to me.",
+          "cols": 2
         },
         {
-          "t": "p",
-          "text": "The dative has a variety of uses, including the indirect object; that is, the additional object found with a verb meaning ‘give’. With such a verb, the gift itself is the direct object and is in the accusative case; the person to whom it is given is the indirect object and is in the dative case."
+          "t": "li",
+          "n": 2,
+          "text": "She will give us the new books."
         },
         {
-          "t": "p",
-          "text": "In English there are two constructions used for indirect objects: the indirect object can come before the direct object, or it can come after the direct object with the preposition ‘to’. The indirect objects in these sentences are underlined: ‘I gave Mary the book’, ‘I gave the book to Mary’, ‘We gave them candy’, ‘He gave candy to the children’. Adjectives that agree with dative nouns are also in the dative case."
+          "t": "li",
+          "n": 3,
+          "text": "I gave it to the boss’s wife."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "Give the poor dog that piece of meat."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "The boss gave most of the employees a holiday."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "We want to give this to him."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "Did they give that poor man anything?"
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "He gave it to the father of the bride."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "Give that to John’s older brother."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "I’ll give it to the unemployed workers."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "Will she give it to us?"
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "They gave Mary’s father a watch."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "He didn’t even give her a greeting!"
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "We’ll give it to the victim’s family."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "He wanted to give us this."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "Mark gave that boy’s dog a bone."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "Jane gave him a new car."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "Give this to Mike’s younger sister."
+        },
+        {
+          "t": "ex",
+          "letter": "C",
+          "text": "Translate:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "equum meum agricolae non dabo.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "poetae consilium bonum dedit."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "poetae consilium bonum servo dederunt."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "pecuniam servo tuo dedimus."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "puellis doctis pecuniam do."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "Marci servum Quinto dedi."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "dedistine consilium poetis doctis?"
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "pecuniam servorum dedit puellis."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "agricolae pecuniam dant. (2 ways)"
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "dabitisne pecuniam Iuliae?"
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "bono agricolae pecuniam dant."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "consilium puellae dabo."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "epistulam puellae dedit poeta."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "dedistisne epistulam Marco?"
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "servo tuo epistulam scriptam dederunt."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "amico bono epistulam scriptam dabimus."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "pecuniam puellae dant. (2 ways)"
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "dabisne equum tuum Mariae?"
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "pecuniam servi agricolis dedit."
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "puellae doctae epistulam servo dedit."
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "bono agricolae pecuniam dat dea."
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "boni agricolae pecuniam dant deis."
+        },
+        {
+          "t": "li",
+          "n": 23,
+          "text": "poetae epistulam scriptam dabit."
+        },
+        {
+          "t": "li",
+          "n": 24,
+          "text": "equos agricolarum poetis doctis dabit."
+        },
+        {
+          "t": "ex",
+          "letter": "D",
+          "text": "Translate into Latin:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "I am giving the poet money.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "The girl will give money to the goddess."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "Julia is giving Marcus a letter."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "The farmer will give the girls’ money to a learned poet."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "Gods give words to poets."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "A god gave slaves to the girl."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "Quintus will give Maria money."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "I gave the poet’s money to a learned girl."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "We gave your horse to the farmer."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "The farmers gave the poets’ horses to the girls."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "Marcus gave the farmer a horse that was bought."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "Farmers do not give advice to poets who are learned."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "Did you give my slave a horse that was bought?"
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "I gave Maria’s money to the slaves who were sent."
         }
       ]
     },
     {
       "id": "section-3",
       "latin": "7.3 Possum",
-      "english": "Grammar",
-      "kind": "commentary",
+      "num": "7.3",
       "blocks": [
         {
           "t": "p",
           "text": "The verb possum (principal parts possum, posse, potuī, –) means ‘be able to’ or ‘can’; it is a compound of potis and sum and therefore is conjugated like sum with potor posin front of each form."
         },
         {
-          "t": "pre",
-          "text": "Present active indicative Future active indicative Perfect active indicative"
+          "t": "table",
+          "header": [
+            "Present active indicative",
+            "",
+            "Future active indicative",
+            "",
+            "Perfect active indicative",
+            ""
+          ],
+          "rows": [
+            [
+              "possum",
+              "‘I am able to’,",
+              "poterō",
+              "‘I will be able to’,",
+              "potuī",
+              "‘I have been able"
+            ],
+            [
+              "",
+              "‘I can’",
+              "",
+              "‘I shall be able to’",
+              "",
+              "to’, ‘I could’"
+            ],
+            [
+              "potes",
+              "‘you (singular) are",
+              "poteris",
+              "‘you (singular) will",
+              "potuistī ‘you (singular)",
+              ""
+            ],
+            [
+              "",
+              "able to’, ‘you can’",
+              "",
+              "be able to’, ‘you",
+              "",
+              "have been able to’,"
+            ],
+            [
+              "",
+              "",
+              "",
+              "(singular) shall be",
+              "",
+              "‘you (singular)"
+            ],
+            [
+              "",
+              "",
+              "",
+              "able to’",
+              "",
+              "could’"
+            ],
+            [
+              "potest",
+              "‘he/she/it is able to’,",
+              "poterit",
+              "‘he/she/it will be able",
+              "potuit",
+              "‘he/she/it has been"
+            ],
+            [
+              "",
+              "‘he/she/it can’, ‘is",
+              "",
+              "to’, ‘he/she/it shall be",
+              "",
+              "able to’, ‘he/she/it"
+            ],
+            [
+              "",
+              "able to’, ‘can’ can’ to’, ‘you can’",
+              "",
+              "able to’, ‘will be able",
+              "",
+              "could’, ‘has been"
+            ],
+            [
+              "",
+              "",
+              "",
+              "to’, ‘shall be able to’",
+              "",
+              "able to’, ‘could’"
+            ],
+            [
+              "possumus ‘we are able to’, ‘we",
+              "",
+              "poterimus",
+              "‘we will be able to’,",
+              "potuimus ‘we have been able",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "‘we shall be able to’",
+              "",
+              "to’, ‘we could’"
+            ],
+            [
+              "potestis ‘you (plural) are able",
+              "",
+              "poteritis",
+              "‘you (plural) will be",
+              "potuistis ‘you (plural) have",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "able to’, ‘you (plural)",
+              "",
+              "been able to’, ‘you"
+            ],
+            [
+              "",
+              "",
+              "",
+              "shall be able to’",
+              "",
+              "(plural) could’"
+            ],
+            [
+              "possunt",
+              "‘they are able to’,",
+              "poterunt",
+              "‘they will be able to’,",
+              "potuērunt ‘they have been",
+              ""
+            ],
+            [
+              "",
+              "‘they can’, ‘are able",
+              "",
+              "‘they shall be able to’,",
+              "",
+              "able to’, ‘they"
+            ],
+            [
+              "",
+              "to’, ‘can’",
+              "",
+              "‘will be able to’, ‘shall",
+              "",
+              "could’, ‘have been"
+            ],
+            [
+              "",
+              "",
+              "",
+              "be able to’",
+              "",
+              "able to’, ‘could’"
+            ]
+          ]
         },
         {
           "t": "p",
-          "text": "possum ‘I am able to’, poterō ‘I will be able to’, potuī ‘I have been able ‘I can’ ‘I shall be able to’ to’, ‘I could’ potes ‘you (singular) are poteris ‘you (singular) will potuistī ‘you (singular) able to’, ‘you can’ be able to’, ‘you have been able to’, (singular) shall be ‘you (singular) able to’ could’ potest ‘he/she/it is able to’, poterit ‘he/she/it will be able potuit ‘he/she/it has been ‘he/she/it can’, ‘is to’, ‘he/she/it shall be able to’, ‘he/she/it able to’, ‘can’ able to’, ‘will be able could’, ‘has been to’, ‘shall be able to’ able to’, ‘could’ possumus ‘we are able to’, ‘we poterimus ‘we will be able to’, potuimus ‘we have been able can’ ‘we shall be able to’ to’, ‘we could’ potestis ‘you (plural) are able poteritis ‘you (plural) will be potuistis ‘you (plural) have to’, ‘you can’ able to’, ‘you (plural) been able to’, ‘you shall be able to’ (plural) could’ possunt ‘they are able to’, poterunt ‘they will be able to’, potuērunt ‘they have been ‘they can’, ‘are able ‘they shall be able to’, able to’, ‘they to’, ‘can’ ‘will be able to’, ‘shall could’, ‘have been be able to’ able to’, ‘could’ Because of its meaning possum is usually accompanied by another verb, like English ‘can’ as in ‘I can run’ (= ‘I am able to run’)."
+          "text": "Because of its meaning possum is usually accompanied by another verb, like English ‘can’ as in ‘I can run’ (= ‘I am able to run’). In Latin this additional verb is in the infinitive, that is, the second principal part. So possum currere (or currere possum) is ‘I can run’, ‘I am able to run’, and scrībere potest (or potest scrībere) is ‘he can write’, ‘he is able to write’."
         },
         {
-          "t": "p",
-          "text": "In Latin this additional verb is in the infinitive, that is, the second principal part. So possum currere (or currere possum) is ‘I can run’, ‘I am able to run’, and scrībere potest (or potest scrībere) is ‘he can write’, ‘he is able to write’."
+          "t": "practice"
+        },
+        {
+          "t": "ex",
+          "letter": "E",
+          "text": "Translate:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "currere possumus.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "potest vincere."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "puellas doctas agricolae amare possunt."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "puellae laudatae agricolas amare possunt."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "servus meus stare non potest."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "pecuniam puellae dare potero."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "potesne agricolam laudatum amare?"
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "poeta doctus deam amare non potest."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "oppidum tuum regere poteris."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "servum emptum mittere potuit."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "servum tuum docere non potui."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "amico epistulam scriptam dare potuimus."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "equus tuus currere non potuit."
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "amice, potesne videre servum meum?"
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "amici tui vincere possunt."
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "agricola poetae consilium dare non poterit."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "poetae verba bona dicere poterunt."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "deos tuos laudare non possumus."
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "potestisne equum meum videre?"
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "equum meum amico dare non possum."
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "amicos monere poteritis."
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "poterimus iuvare amicos tuos."
+        },
+        {
+          "t": "li",
+          "n": 23,
+          "text": "amicis consilium dare potuit."
+        },
+        {
+          "t": "li",
+          "n": 24,
+          "text": "poterisne equum emere?"
+        },
+        {
+          "t": "li",
+          "n": 25,
+          "text": "puellam amatam videre possum."
+        },
+        {
+          "t": "li",
+          "n": 26,
+          "text": "verba scripta legere non possumus."
+        },
+        {
+          "t": "ex",
+          "letter": "F",
+          "text": "Translate into Latin:"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "She will be able to advise the farmer.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "He cannot write."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "I could not give the learned girl advice."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "The girl will not be able to teach the poet who was praised."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "They cannot see the poet’s horse."
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "Friend, I shall be able to write your letter."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "Friends, will you be able to conquer the town?"
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "The poet’s slave could write."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "I cannot love a farmer."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "We shall not be able to give the learned girl money."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "The girls could not see the farmers’ horses."
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "Could they lead the poet’s horse?"
         }
       ]
     },
     {
       "id": "section-4",
-      "latin": "7.5 Vocabulary to Learn",
-      "english": "Grammar",
-      "kind": "commentary",
+      "latin": "7.4 Additional Exercises",
+      "num": "7.4",
       "blocks": [
         {
-          "t": "example",
-          "text": "Verbs possum, posse, potuī, – ‘can’, ‘be able to’ Nouns aqua, aquae (f.) ‘water’ castra, castrōrum (n. plural) ‘camp’ (in the military sense) gladius, gladiī (m.) ‘sword’ saxum, saxī (n.) ‘rock’, ‘stone’ silva, silvae (f.) ‘forest’"
+          "t": "p",
+          "text": "The sentences below provide extra practice distinguishing different cases."
+        },
+        {
+          "t": "practice"
+        },
+        {
+          "t": "ex",
+          "letter": "G",
+          "text": "Identify all words in these sentences that would be nominatives, accusatives, genitives, and datives in Latin:1"
+        },
+        {
+          "t": "li",
+          "n": 1,
+          "text": "She will give us a rebate.",
+          "cols": 2
+        },
+        {
+          "t": "li",
+          "n": 2,
+          "text": "We saw Jane’s mother."
+        },
+        {
+          "t": "li",
+          "n": 3,
+          "text": "He gave it to her."
+        },
+        {
+          "t": "li",
+          "n": 4,
+          "text": "The members of that choir are very young."
+        },
+        {
+          "t": "li",
+          "n": 5,
+          "text": "He didn’t even give me a kiss!"
+        },
+        {
+          "t": "li",
+          "n": 6,
+          "text": "The father of the bride was absent."
+        },
+        {
+          "t": "li",
+          "n": 7,
+          "text": "The boy gave the dog a bone."
+        },
+        {
+          "t": "li",
+          "n": 8,
+          "text": "We’ll give most of the workers a rest."
+        },
+        {
+          "t": "li",
+          "n": 9,
+          "text": "The boys’ clothes are shabby."
+        },
+        {
+          "t": "li",
+          "n": 10,
+          "text": "I want to give this to you."
+        },
+        {
+          "t": "li",
+          "n": 11,
+          "text": "Did you give her anything?"
+        },
+        {
+          "t": "li",
+          "n": 12,
+          "text": "Give that to the mother of the bride."
+        },
+        {
+          "t": "li",
+          "n": 13,
+          "text": "Where is the owner of that dog?"
+        },
+        {
+          "t": "li",
+          "n": 14,
+          "text": "I’ll give it to John’s brother."
+        },
+        {
+          "t": "li",
+          "n": 15,
+          "text": "Which of the boys did that?"
+        },
+        {
+          "t": "li",
+          "n": 16,
+          "text": "The king gives money to the soldiers."
+        },
+        {
+          "t": "li",
+          "n": 17,
+          "text": "She will give it to us."
+        },
+        {
+          "t": "li",
+          "n": 18,
+          "text": "He gave Jane’s father a book."
+        },
+        {
+          "t": "li",
+          "n": 19,
+          "text": "We want to give you this."
+        },
+        {
+          "t": "li",
+          "n": 20,
+          "text": "Have you seen John’s coat?"
+        },
+        {
+          "t": "li",
+          "n": 21,
+          "text": "Where is the dog’s collar?"
+        },
+        {
+          "t": "li",
+          "n": 22,
+          "text": "They gave her flowers."
+        },
+        {
+          "t": "li",
+          "n": 23,
+          "text": "John’s father is a fireman."
+        },
+        {
+          "t": "li",
+          "n": 24,
+          "text": "How many of them are here?"
+        },
+        {
+          "t": "li",
+          "n": 25,
+          "text": "Did he take Martha’s hat?"
+        },
+        {
+          "t": "li",
+          "n": 26,
+          "text": "Give that to Jane’s sister."
         }
       ]
     },
     {
       "id": "section-5",
-      "latin": "7.4 Additional Exercises",
-      "english": "Grammar",
-      "kind": "commentary",
+      "latin": "7.5 Vocabulary to Learn",
+      "num": "7.5",
       "blocks": [
         {
+          "t": "vhead",
+          "text": "Verbs"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "possum, posse, potuī, –",
+              "‘can’, ‘be able to’"
+            ]
+          ]
+        },
+        {
+          "t": "vhead",
+          "text": "Nouns"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "aqua, aquae (f.)",
+              "‘water’"
+            ],
+            [
+              "castra, castrōrum (n. plural)",
+              "‘camp’ (in the military sense)"
+            ],
+            [
+              "gladius, gladiī (m.)",
+              "‘sword’"
+            ],
+            [
+              "saxum, saxī (n.)",
+              "‘rock’, ‘stone’"
+            ],
+            [
+              "silva, silvae (f.)",
+              "‘forest’"
+            ]
+          ]
+        },
+        {
           "t": "p",
-          "text": "The sentences below provide extra practice distinguishing different cases."
+          "text": "Vocabulary continues overleaf."
+        },
+        {
+          "t": "note",
+          "n": 1,
+          "text": "Another exercise of this type, with an answer key, can be found in chapter 63.6."
+        },
+        {
+          "t": "vhead",
+          "text": "Adverbs"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "bene",
+              "‘well’"
+            ],
+            [
+              "crās",
+              "‘tomorrow’"
+            ],
+            [
+              "cūr",
+              "‘why?’"
+            ],
+            [
+              "herī",
+              "‘yesterday’"
+            ],
+            [
+              "hīc",
+              "‘here’"
+            ],
+            [
+              "hodiē",
+              "‘today’"
+            ],
+            [
+              "male",
+              "‘badly’"
+            ],
+            [
+              "nunc",
+              "‘now’"
+            ],
+            [
+              "paene",
+              "‘almost’"
+            ],
+            [
+              "ubi",
+              "‘where’"
+            ]
+          ]
+        },
+        {
+          "t": "vhead",
+          "text": "Conjunctions"
+        },
+        {
+          "t": "table",
+          "header": null,
+          "rows": [
+            [
+              "quia",
+              "‘because’"
+            ],
+            [
+              "sed",
+              "‘but’"
+            ]
+          ]
         }
       ]
     }
-  ],
-  "readings": [],
-  "grammar": [],
-  "vocabulary": [
-    {
-      "latin": "bene",
-      "english": "well",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "crās",
-      "english": "tomorrow",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "cūr",
-      "english": "why?",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "herī",
-      "english": "yesterday",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "hīc",
-      "english": "here",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "hodiē",
-      "english": "today",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "male",
-      "english": "badly",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "nunc",
-      "english": "now",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "paene",
-      "english": "almost",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "ubi",
-      "english": "where",
-      "group": "Adverbia"
-    },
-    {
-      "latin": "quia",
-      "english": "because",
-      "group": "Coniūnctiōnēs"
-    },
-    {
-      "latin": "sed",
-      "english": "but",
-      "group": "Coniūnctiōnēs"
-    }
-  ],
-  "pensa": [
-    {
-      "latinLabel": "PRACTICE A",
-      "title": "Practice A",
-      "instruction": "Practice A Decline the following, in these five cases of the forms indicated:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 agricola, singular",
-          "a": ""
-        },
-        {
-          "q": "7 tuus, masculine singular",
-          "a": ""
-        },
-        {
-          "q": "2 amīcus, plural",
-          "a": ""
-        },
-        {
-          "q": "8 magnus, neuter plural",
-          "a": ""
-        },
-        {
-          "q": "3 novus, neuter singular",
-          "a": ""
-        },
-        {
-          "q": "9 dea, singular",
-          "a": ""
-        },
-        {
-          "q": "4 meus, feminine plural",
-          "a": ""
-        },
-        {
-          "q": "10 oppidum, plural",
-          "a": ""
-        },
-        {
-          "q": "5 verbum, singular",
-          "a": ""
-        },
-        {
-          "q": "11 poēta, singular",
-          "a": ""
-        },
-        {
-          "q": "6 equus, plural",
-          "a": ""
-        },
-        {
-          "q": "12 novus, feminine plural",
-          "a": ""
-        }
-      ],
-      "id": "practice-7-a"
-    },
-    {
-      "latinLabel": "PRACTICE B",
-      "title": "Practice B",
-      "instruction": "Practice B Identify the words in the following sentences that would be datives in Latin:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 He gave it to me.",
-          "a": ""
-        },
-        {
-          "q": "10 I’ll give it to the unemployed",
-          "a": ""
-        },
-        {
-          "q": "2 She will give us the new books. workers.",
-          "a": ""
-        },
-        {
-          "q": "3 I gave it to the boss’s wife.",
-          "a": ""
-        },
-        {
-          "q": "11 Will she give it to us?",
-          "a": ""
-        },
-        {
-          "q": "4 Give the poor dog that piece of",
-          "a": ""
-        },
-        {
-          "q": "12 They gave Mary’s father a watch. meat.",
-          "a": ""
-        },
-        {
-          "q": "13 He didn’t even give her a",
-          "a": ""
-        },
-        {
-          "q": "5 The boss gave most of the greeting! employees a holiday.",
-          "a": ""
-        },
-        {
-          "q": "14 We’ll give it to the victim’s",
-          "a": ""
-        },
-        {
-          "q": "6 We want to give this to him. family.",
-          "a": ""
-        },
-        {
-          "q": "7 Did they give that poor man",
-          "a": ""
-        },
-        {
-          "q": "15 He wanted to give us this. anything?",
-          "a": ""
-        },
-        {
-          "q": "16 Mark gave that boy’s dog a bone.",
-          "a": ""
-        },
-        {
-          "q": "8 He gave it to the father of the",
-          "a": ""
-        },
-        {
-          "q": "17 Jane gave him a new car. bride.",
-          "a": ""
-        },
-        {
-          "q": "18 Give this to Mike’s younger",
-          "a": ""
-        },
-        {
-          "q": "9 Give that to John’s older brother. sister.",
-          "a": ""
-        }
-      ],
-      "id": "practice-7-b"
-    },
-    {
-      "latinLabel": "PRACTICE C",
-      "title": "Practice C",
-      "instruction": "C Translate:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 equum meum agricolae non",
-          "a": ""
-        },
-        {
-          "q": "13 epistulam puellae dedit poeta. dabo.",
-          "a": ""
-        },
-        {
-          "q": "14 dedistisne epistulam Marco?",
-          "a": ""
-        },
-        {
-          "q": "2 poetae consilium bonum dedit.",
-          "a": ""
-        },
-        {
-          "q": "15 servo tuo epistulam scriptam",
-          "a": ""
-        },
-        {
-          "q": "3 poetae consilium bonum servo dederunt. dederunt.",
-          "a": ""
-        },
-        {
-          "q": "16 amico bono epistulam scriptam",
-          "a": ""
-        },
-        {
-          "q": "4 pecuniam servo tuo dedimus. dabimus.",
-          "a": ""
-        },
-        {
-          "q": "5 puellis doctis pecuniam do.",
-          "a": ""
-        },
-        {
-          "q": "17 pecuniam puellae dant. (",
-          "a": ""
-        },
-        {
-          "q": "2 ways)",
-          "a": ""
-        },
-        {
-          "q": "6 Marci servum Quinto dedi.",
-          "a": ""
-        },
-        {
-          "q": "18 dabisne equum tuum Mariae?",
-          "a": ""
-        },
-        {
-          "q": "7 dedistine consilium poetis",
-          "a": ""
-        },
-        {
-          "q": "19 pecuniam servi agricolis dedit. doctis?",
-          "a": ""
-        },
-        {
-          "q": "20 puellae doctae epistulam servo",
-          "a": ""
-        },
-        {
-          "q": "8 pecuniam servorum dedit dedit. puellis.",
-          "a": ""
-        },
-        {
-          "q": "21 bono agricolae pecuniam dat dea.",
-          "a": ""
-        },
-        {
-          "q": "9 agricolae pecuniam dant.",
-          "a": ""
-        },
-        {
-          "q": "22 boni agricolae pecuniam dant (",
-          "a": ""
-        },
-        {
-          "q": "2 ways) deis.",
-          "a": ""
-        },
-        {
-          "q": "10 dabitisne pecuniam Iuliae?",
-          "a": ""
-        },
-        {
-          "q": "23 poetae epistulam scriptam dabit.",
-          "a": ""
-        },
-        {
-          "q": "11 bono agricolae pecuniam dant.",
-          "a": ""
-        },
-        {
-          "q": "24 equos agricolarum poetis doctis",
-          "a": ""
-        },
-        {
-          "q": "12 consilium puellae dabo. dabit.",
-          "a": ""
-        }
-      ],
-      "id": "practice-7-c"
-    },
-    {
-      "latinLabel": "PRACTICE D",
-      "title": "Practice D",
-      "instruction": "D Translate into Latin:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 I am giving the poet money.",
-          "a": ""
-        },
-        {
-          "q": "9 We gave your horse to the",
-          "a": ""
-        },
-        {
-          "q": "2 The girl will give money to the farmer. goddess.",
-          "a": ""
-        },
-        {
-          "q": "10 The farmers gave the poets’",
-          "a": ""
-        },
-        {
-          "q": "3 Julia is giving Marcus a letter. horses to the girls.",
-          "a": ""
-        },
-        {
-          "q": "4 The farmer will give the girls’",
-          "a": ""
-        },
-        {
-          "q": "11 Marcus gave the farmer a horse money to a learned poet. that was bought.",
-          "a": ""
-        },
-        {
-          "q": "5 Gods give words to poets.",
-          "a": ""
-        },
-        {
-          "q": "12 Farmers do not give advice to",
-          "a": ""
-        },
-        {
-          "q": "6 A god gave slaves to the girl. poets who are learned.",
-          "a": ""
-        },
-        {
-          "q": "7 Quintus will give Maria money.",
-          "a": ""
-        },
-        {
-          "q": "13 Did you give my slave a horse",
-          "a": ""
-        },
-        {
-          "q": "8 I gave the poet’s money to a that was bought? learned girl.",
-          "a": ""
-        },
-        {
-          "q": "14 I gave Maria’s money to the slaves who were sent.",
-          "a": ""
-        }
-      ],
-      "id": "practice-7-d"
-    },
-    {
-      "latinLabel": "PRACTICE E",
-      "title": "Practice E",
-      "instruction": "Practice E Translate:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 currere possumus.",
-          "a": ""
-        },
-        {
-          "q": "14 amice, potesne videre servum",
-          "a": ""
-        },
-        {
-          "q": "2 potest vincere. meum?",
-          "a": ""
-        },
-        {
-          "q": "3 puellas doctas agricolae amare",
-          "a": ""
-        },
-        {
-          "q": "15 amici tui vincere possunt. possunt.",
-          "a": ""
-        },
-        {
-          "q": "16 agricola poetae consilium dare",
-          "a": ""
-        },
-        {
-          "q": "4 puellae laudatae agricolas amare non poterit. possunt.",
-          "a": ""
-        },
-        {
-          "q": "17 poetae verba bona dicere",
-          "a": ""
-        },
-        {
-          "q": "5 servus meus stare non potest. poterunt.",
-          "a": ""
-        },
-        {
-          "q": "6 pecuniam puellae dare potero.",
-          "a": ""
-        },
-        {
-          "q": "18 deos tuos laudare non possumus.",
-          "a": ""
-        },
-        {
-          "q": "7 potesne agricolam laudatum",
-          "a": ""
-        },
-        {
-          "q": "19 potestisne equum meum videre? amare?",
-          "a": ""
-        },
-        {
-          "q": "20 equum meum amico dare non",
-          "a": ""
-        },
-        {
-          "q": "8 poeta doctus deam amare non possum. potest.",
-          "a": ""
-        },
-        {
-          "q": "21 amicos monere poteritis.",
-          "a": ""
-        },
-        {
-          "q": "9 oppidum tuum regere poteris.",
-          "a": ""
-        },
-        {
-          "q": "22 poterimus iuvare amicos tuos.",
-          "a": ""
-        },
-        {
-          "q": "10 servum emptum mittere potuit.",
-          "a": ""
-        },
-        {
-          "q": "23 amicis consilium dare potuit.",
-          "a": ""
-        },
-        {
-          "q": "11 servum tuum docere non potui.",
-          "a": ""
-        },
-        {
-          "q": "24 poterisne equum emere?",
-          "a": ""
-        },
-        {
-          "q": "12 amico epistulam scriptam dare",
-          "a": ""
-        },
-        {
-          "q": "25 puellam amatam videre possum. potuimus.",
-          "a": ""
-        },
-        {
-          "q": "26 verba scripta legere non",
-          "a": ""
-        },
-        {
-          "q": "13 equus tuus currere non potuit. possumus.",
-          "a": ""
-        }
-      ],
-      "id": "practice-7-e"
-    },
-    {
-      "latinLabel": "PRACTICE F",
-      "title": "Practice F",
-      "instruction": "F Translate into Latin:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 She will be able to advise the",
-          "a": ""
-        },
-        {
-          "q": "7 Friends, will you be able to con- farmer. quer the town?",
-          "a": ""
-        },
-        {
-          "q": "2 He cannot write.",
-          "a": ""
-        },
-        {
-          "q": "8 The poet’s slave could write.",
-          "a": ""
-        },
-        {
-          "q": "3 I could not give the learned girl",
-          "a": ""
-        },
-        {
-          "q": "9 I cannot love a farmer. advice.",
-          "a": ""
-        },
-        {
-          "q": "10 We shall not be able to give the",
-          "a": ""
-        },
-        {
-          "q": "4 The girl will not be able to teach learned girl money. the poet who was praised.",
-          "a": ""
-        },
-        {
-          "q": "11 The girls could not see the",
-          "a": ""
-        },
-        {
-          "q": "5 They cannot see the poet’s horse. farmers’ horses.",
-          "a": ""
-        },
-        {
-          "q": "6 Friend, I shall be able to write",
-          "a": ""
-        },
-        {
-          "q": "12 Could they lead the poet’s horse? your letter.",
-          "a": ""
-        }
-      ],
-      "id": "practice-7-f"
-    },
-    {
-      "latinLabel": "PRACTICE G",
-      "title": "Practice G",
-      "instruction": "Practice G Identify all words in these sentences that would be nominatives, accusatives, genitives, and datives in Latin:",
-      "type": "questions",
-      "items": [
-        {
-          "q": "1 She will give us a rebate.",
-          "a": ""
-        },
-        {
-          "q": "13 Where is the owner of that dog?",
-          "a": ""
-        },
-        {
-          "q": "2 We saw Jane’s mother.",
-          "a": ""
-        },
-        {
-          "q": "14 I’ll give it to John’s brother.",
-          "a": ""
-        },
-        {
-          "q": "3 He gave it to her.",
-          "a": ""
-        },
-        {
-          "q": "15 Which of the boys did that?",
-          "a": ""
-        },
-        {
-          "q": "4 The members of that choir are",
-          "a": ""
-        },
-        {
-          "q": "16 The king gives money to the very young. soldiers.",
-          "a": ""
-        },
-        {
-          "q": "5 He didn’t even give me a kiss!",
-          "a": ""
-        },
-        {
-          "q": "17 She will give it to us.",
-          "a": ""
-        },
-        {
-          "q": "6 The father of the bride was",
-          "a": ""
-        },
-        {
-          "q": "18 He gave Jane’s father a book. absent.",
-          "a": ""
-        },
-        {
-          "q": "19 We want to give you this.",
-          "a": ""
-        },
-        {
-          "q": "7 The boy gave the dog a bone.",
-          "a": ""
-        },
-        {
-          "q": "20 Have you seen John’s coat?",
-          "a": ""
-        },
-        {
-          "q": "8 We’ll give most of the workers",
-          "a": ""
-        },
-        {
-          "q": "21 Where is the dog’s collar? a rest.",
-          "a": ""
-        },
-        {
-          "q": "22 They gave her flowers.",
-          "a": ""
-        },
-        {
-          "q": "9 The boys’ clothes are shabby.",
-          "a": ""
-        },
-        {
-          "q": "23 John’s father is a fireman.",
-          "a": ""
-        },
-        {
-          "q": "10 I want to give this to you.",
-          "a": ""
-        },
-        {
-          "q": "24 How many of them are here?",
-          "a": ""
-        },
-        {
-          "q": "11 Did you give her anything?",
-          "a": ""
-        },
-        {
-          "q": "25 Did he take Martha’s hat?",
-          "a": ""
-        },
-        {
-          "q": "12 Give that to the mother of the",
-          "a": ""
-        },
-        {
-          "q": "26 Give that to Jane’s sister. bride.",
-          "a": ""
-        }
-      ],
-      "id": "practice-7-g"
-    }
   ]
-}
+};
 
 export default chapter
