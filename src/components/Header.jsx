@@ -91,8 +91,8 @@ export default function Header() {
           <NavLink to="/" end>
             Home
           </NavLink>
-          <NavLink to="/library">Library</NavLink>
           <NavLink to="/iter">Iter</NavLink>
+          <NavLink to="/library">Library</NavLink>
           <NavLink to="/dictionary">Dictionary</NavLink>
           <NavLink to="/approach">Approach</NavLink>
           <NavLink to="/profile">Profile</NavLink>
