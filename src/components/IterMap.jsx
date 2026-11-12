@@ -5,7 +5,6 @@ const ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI'
 
 /* Vertical rhythm of the road, in pixels. */
 const NODE_GAP = 32
-const GATE_GAP = 62
 const WAY_GAP = 34
 const TOP_PAD = 36
 const BOTTOM_PAD = 76
@@ -39,10 +38,13 @@ function useWidth(ref) {
    depth slowly breathes with another, so the line never quite repeats. */
 function buildLayout(stages, width) {
   const cx = width / 2
-  const amp = Math.max(38, Math.min(0.16 * width, 132))
+  const narrow = width < 640
+  const amp = narrow
+    ? Math.max(34, Math.min(0.14 * width, 100))
+    : Math.max(46, Math.min(0.2 * width, 176))
   const sideSpace = width / 2 - amp - TICK - 8
   const titleChars = Math.max(9, Math.min(38, Math.floor(sideSpace / 7)))
-  const roadX = (y) => cx + amp * Math.sin(y / 88) * Math.sin(y / 610 + 0.9)
+  const roadX = (y) => cx + amp * Math.sin(y / 64) * Math.sin(y / 480 + 0.9)
 
   const items = []
   let y = TOP_PAD
@@ -50,9 +52,19 @@ function buildLayout(stages, width) {
   const nextSide = () => (side = -side)
 
   stages.forEach((stage, si) => {
-    const gateY = y + 30
-    y += GATE_GAP
-    items.push({ type: 'gate', stage, si, y: gateY, x: roadX(gateY), side: si % 2 ? -1 : 1 })
+    const gateGap = narrow ? 80 : 62
+    const gateY = y + (narrow ? 44 : 31)
+    y += gateGap
+    items.push({
+      type: 'gate',
+      stage,
+      si,
+      y: gateY,
+      x: roadX(gateY),
+      side: si % 2 ? -1 : 1,
+      centered: narrow,
+      half: narrow ? 18 : 22,
+    })
 
     const lessons = stage.lessons
     let i = 0
@@ -159,26 +171,46 @@ export default function IterMap({ stages, isDone, nextLesson, onToggle }) {
                       }
                     }}
                   >
-                    <circle className="iter-map__gate-disc" cx={item.x} cy={item.y} r={14} />
-                    <text className="iter-map__gate-num" x={item.x} y={item.y + 4} textAnchor="middle">
+                    <rect
+                      className="iter-map__gate-plaque"
+                      x={item.x - item.half}
+                      y={item.y - item.half}
+                      width={item.half * 2}
+                      height={item.half * 2}
+                      rx={5}
+                    />
+                    <text className="iter-map__gate-num" x={item.x} y={item.y + 5} textAnchor="middle">
                       {ROMAN[si] || si + 1}
                     </text>
-                    <text
-                      className="iter-map__gate-latin"
-                      x={item.x + item.side * 34}
-                      y={item.y - 5}
-                      textAnchor={anchor}
-                    >
-                      {stage.latin}
-                    </text>
-                    <text
-                      className="iter-map__gate-sub"
-                      x={item.x + item.side * 34}
-                      y={item.y + 11}
-                      textAnchor={anchor}
-                    >
-                      {trunc(`${stage.range} · ${learned}/${stage.lessonCount}`, 34)}
-                    </text>
+                    {item.centered ? (
+                      <>
+                        <text className="iter-map__gate-latin" x={item.x} y={item.y - 36} textAnchor="middle">
+                          {stage.latin}
+                        </text>
+                        <text className="iter-map__gate-sub" x={item.x} y={item.y - 22} textAnchor="middle">
+                          {trunc(`${stage.range} · ${learned}/${stage.lessonCount}`, 34)}
+                        </text>
+                      </>
+                    ) : (
+                      <>
+                        <text
+                          className="iter-map__gate-latin"
+                          x={item.x + item.side * 46}
+                          y={item.y - 5}
+                          textAnchor={anchor}
+                        >
+                          {stage.latin}
+                        </text>
+                        <text
+                          className="iter-map__gate-sub"
+                          x={item.x + item.side * 46}
+                          y={item.y + 12}
+                          textAnchor={anchor}
+                        >
+                          {trunc(`${stage.range} · ${learned}/${stage.lessonCount}`, 34)}
+                        </text>
+                      </>
+                    )}
                   </g>
                 )
               }
@@ -192,11 +224,11 @@ export default function IterMap({ stages, isDone, nextLesson, onToggle }) {
                   >
                     <path
                       className="iter-map__way-diamond"
-                      d={`M ${item.x - 5} ${item.y} L ${item.x} ${item.y - 5} L ${item.x + 5} ${item.y} L ${item.x} ${item.y + 5} Z`}
+                      d={`M ${item.x - 6} ${item.y} L ${item.x} ${item.y - 6} L ${item.x + 6} ${item.y} L ${item.x} ${item.y + 6} Z`}
                     />
                     <text
                       className="iter-map__way-label"
-                      x={item.x + item.side * 16}
+                      x={item.x + item.side * 17}
                       y={item.y + 3.5}
                       textAnchor={item.side < 0 ? 'end' : 'start'}
                     >
@@ -233,20 +265,29 @@ export default function IterMap({ stages, isDone, nextLesson, onToggle }) {
                       onToggle(lesson)
                     }}
                   >
-                    <circle className="iter-map__hit" cx={item.x} cy={item.y} r={11} />
-                    <circle className="iter-map__dot" cx={item.x} cy={item.y} r={6.5} />
-                    {isNext && <circle className="iter-map__pulse" cx={item.x} cy={item.y} r={6.5} />}
+                    <rect className="iter-map__hit" x={item.x - 14} y={item.y - 14} width={28} height={28} rx={7} />
+                    <rect className="iter-map__dot" x={item.x - 7.5} y={item.y - 7.5} width={15} height={15} rx={4.5} />
+                    {isNext && (
+                      <rect
+                        className="iter-map__pulse"
+                        x={item.x - 7.5}
+                        y={item.y - 7.5}
+                        width={15}
+                        height={15}
+                        rx={4.5}
+                      />
+                    )}
                     {done && (
                       <path
                         className="iter-map__check"
                         transform={`translate(${item.x} ${item.y})`}
-                        d="M -2.8 0.2 L -0.7 2.1 L 3 -2.1"
+                        d="M -3.4 0.2 L -1 2.6 L 3.9 -2.6"
                       />
                     )}
                   </g>
                   <line
                     className="iter-map__tick"
-                    x1={item.x + item.side * 9}
+                    x1={item.x + item.side * 10}
                     y1={item.y}
                     x2={item.x + item.side * (TICK - 4)}
                     y2={item.y}

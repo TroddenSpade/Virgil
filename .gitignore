@@ -42,3 +42,6 @@ __pycache__/
 
 # DJVU source editions
 *.djvu
+
+# playwright MCP artifacts
+.playwright-mcp/
