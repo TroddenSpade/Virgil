@@ -3382,6 +3382,7 @@ button.lesson__keywords-label:focus-visible {
 /* ---------- Iter: the road map ---------- */
 
 .iter-map {
+  position: relative;
   margin-top: 2.5rem;
 }
 
@@ -3626,6 +3627,152 @@ button.lesson__keywords-label:focus-visible {
 
 .iter-map g[role='link']:hover .iter-map__title {
   fill: var(--oxblood);
+}
+
+/* ---------- Iter map: the hover card for a lesson stop ---------- */
+
+.iter-map__tip {
+  position: absolute;
+  z-index: 30;
+  padding: 0.55rem 0.7rem 0.6rem;
+  background: var(--surface);
+  border: 1px solid var(--line-strong);
+  border-radius: 5px;
+  box-shadow: var(--shadow);
+  pointer-events: none;
+  animation: iter-tip-in 0.16s ease-out;
+}
+
+.iter-map__tip.is-above {
+  transform: translate(-50%, calc(-100% - 18px));
+}
+
+.iter-map__tip.is-below {
+  transform: translate(-50%, 18px);
+}
+
+/* A thin stem joins the card to its stop. */
+.iter-map__tip::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: 1px;
+  height: 12px;
+  background: var(--line-strong);
+}
+
+.iter-map__tip.is-above::after {
+  top: 100%;
+}
+
+.iter-map__tip.is-below::after {
+  bottom: 100%;
+}
+
+@keyframes iter-tip-in {
+  from {
+    opacity: 0;
+  }
+}
+
+.iter-map__tip.is-done {
+  border-color: color-mix(in srgb, var(--gold) 55%, var(--line-strong));
+}
+
+.iter-map__tip p {
+  margin: 0;
+}
+
+.iter-map__tip-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  margin-bottom: 0.3rem;
+}
+
+.iter-map__tip-book {
+  font-family: var(--font-ui);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--bronze);
+}
+
+.iter-map__tip-level {
+  font-family: var(--font-ui);
+  font-size: 0.56rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.12rem 0.38rem;
+  border: 1px solid var(--line-strong);
+  color: var(--ink-soft);
+  white-space: nowrap;
+}
+
+.iter-map__tip-level[data-level='beginner'] {
+  color: var(--patina);
+  border-color: color-mix(in srgb, var(--patina) 40%, transparent);
+}
+
+.iter-map__tip-level[data-level='advanced'] {
+  color: var(--oxblood);
+  border-color: color-mix(in srgb, var(--oxblood) 38%, transparent);
+}
+
+.iter-map__tip-latin {
+  font-family: var(--font-latin);
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--ink);
+}
+
+.iter-map__tip-title {
+  font-size: 0.78rem;
+  font-style: italic;
+  color: var(--ink-soft);
+  margin-top: 0.05rem;
+}
+
+.iter-map__tip-focus {
+  font-family: var(--font-ui);
+  font-size: 0.68rem;
+  letter-spacing: 0.02em;
+  color: var(--ink-faint);
+  margin-top: 0.35rem;
+  padding-top: 0.35rem;
+  border-top: 1px dashed var(--line);
+}
+
+.iter-map__tip-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.4rem;
+}
+
+.iter-map__tip-tag {
+  font-family: var(--font-ui);
+  font-size: 0.56rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  border: 1px dashed var(--line-strong);
+  padding: 0.12rem 0.38rem;
+}
+
+.iter-map__tip-tag.is-learned {
+  color: var(--paper);
+  background: var(--gold);
+  border: 0;
+}
+
+.iter-map__tip-tag.is-alt {
+  color: var(--bronze);
+  border: 1px solid color-mix(in srgb, var(--bronze) 45%, transparent);
 }
 
 /* On phones the labels have less room outside the road */

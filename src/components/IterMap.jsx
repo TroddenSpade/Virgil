@@ -3,6 +3,13 @@ import { useLocation, useNavigate } from 'react-router-dom'
 
 const ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII']
 
+const LEVEL_LABEL = {
+  beginner: 'Beginner',
+  elementary: 'Elementary',
+  intermediate: 'Intermediate',
+  advanced: 'Advanced',
+}
+
 /* Vertical rhythm of the road, in pixels. */
 const NODE_GAP = 32
 const WAY_GAP = 34
@@ -108,9 +115,12 @@ function buildLayout(stages, width) {
    clicking its dot marks it learned. */
 export default function IterMap({ stages, isDone, nextLesson, onToggle }) {
   const wrapRef = useRef(null)
+  const svgRef = useRef(null)
   const width = useWidth(wrapRef)
   const navigate = useNavigate()
   const location = useLocation()
+  // The hover card: which stop, and which side of it to open on.
+  const [tip, setTip] = useState(null)
   const layout = useMemo(
     () => (width > 260 ? buildLayout(stages, width) : null),
     [stages, width],
@@ -129,6 +139,32 @@ export default function IterMap({ stages, isDone, nextLesson, onToggle }) {
 
   const nextKey = nextLesson ? lessonKey(nextLesson) : null
 
+  /* Show the hover card for a stop, opening above it when there is room
+     between the sticky header and the stop, otherwise below — whichever
+     side of the road actually has space in the viewport right now. */
+  const showTip = (item, lesson) => () => {
+    const svg = svgRef.current
+    const wrap = wrapRef.current
+    if (!svg || !wrap) return
+    // The card lives in the map wrapper, so it needs the road's own offset.
+    const svgTop = svg.getBoundingClientRect().top - wrap.getBoundingClientRect().top
+    const anchorTop = svg.getBoundingClientRect().top + item.y - 8
+    const anchorBottom = svg.getBoundingClientRect().top + item.y + 8
+    const roomAbove = anchorTop - 76 // sticky header + air
+    const roomBelow = window.innerHeight - anchorBottom
+    const est = lesson.focus ? 205 : 185 // card + stem, estimated
+    const place =
+      roomAbove >= est
+        ? 'above'
+        : roomBelow >= est
+          ? 'below'
+          : roomAbove >= roomBelow
+            ? 'above'
+            : 'below'
+    setTip({ item, lesson, place, svgTop })
+  }
+  const hideTip = () => setTip(null)
+
   return (
     <div className="iter-map" ref={wrapRef}>
       {layout && (
@@ -141,6 +177,7 @@ export default function IterMap({ stages, isDone, nextLesson, onToggle }) {
           </div>
 
           <svg
+            ref={svgRef}
             className="iter-map__svg"
             width={width}
             height={layout.height}
@@ -255,7 +292,14 @@ export default function IterMap({ stages, isDone, nextLesson, onToggle }) {
               }${lesson.reading ? ' is-reading' : ''}`
 
               return (
-                <g className={stopClass} key={key}>
+                <g
+                  className={stopClass}
+                  key={key}
+                  onMouseEnter={showTip(item, lesson)}
+                  onMouseLeave={hideTip}
+                  onFocus={showTip(item, lesson)}
+                  onBlur={hideTip}
+                >
                   <g
                     role="button"
                     tabIndex={-1}
@@ -304,7 +348,6 @@ export default function IterMap({ stages, isDone, nextLesson, onToggle }) {
                       }
                     }}
                   >
-                    <title>{full}</title>
                     <text className="iter-map__mark" x={labelX} y={item.y - 4} textAnchor={anchor}>
                       {`${lesson.bookMark || lesson.bookShort} · ${lesson.roman}`}
                     </text>
@@ -316,7 +359,59 @@ export default function IterMap({ stages, isDone, nextLesson, onToggle }) {
               )
             })}
           </svg>
+
+          {/* Hover card for the stop under the pointer, with what the
+              chapter's own page shows: work and numeral, Latin title,
+              English title, level, focus, and its tags. */}
+          {tip && (
+            <HoverCard tip={tip} width={width} isDone={isDone} />
+          )}
         </>
+      )}
+    </div>
+  )
+}
+
+/* The card itself: parchment, a stem toward the stop, opening above or
+   below depending on the space measured when the hover began. */
+function HoverCard({ tip, width, isDone }) {
+  const { item, lesson, place, svgTop } = tip
+  const tipW = Math.min(280, Math.max(170, width - 24))
+  const left = Math.min(
+    Math.max(item.x, tipW / 2 + 8),
+    Math.max(tipW / 2 + 8, width - tipW / 2 - 8),
+  )
+  const done = isDone(lesson)
+  const sameTitle =
+    lesson.latinTitle &&
+    lesson.title &&
+    lesson.latinTitle.trim().toLowerCase() === lesson.title.trim().toLowerCase()
+
+  return (
+    <div
+      className={`iter-map__tip is-${place}${done ? ' is-done' : ''}`}
+      style={{ left, top: svgTop + item.y, width: tipW }}
+      aria-hidden="true"
+    >
+      <p className="iter-map__tip-meta">
+        <span className="iter-map__tip-book">
+          {lesson.bookMark || lesson.bookShort} · {lesson.roman}
+        </span>
+        <span className="iter-map__tip-level" data-level={lesson.level}>
+          {LEVEL_LABEL[lesson.level] || lesson.level}
+        </span>
+      </p>
+      <p className="iter-map__tip-latin latin">{lesson.latinTitle || lesson.title}</p>
+      {!sameTitle && lesson.latinTitle && lesson.title && (
+        <p className="iter-map__tip-title">{lesson.title}</p>
+      )}
+      {lesson.focus && <p className="iter-map__tip-focus">{lesson.focus}</p>}
+      {(done || lesson.reading || lesson.alternative) && (
+        <p className="iter-map__tip-tags">
+          {done && <span className="iter-map__tip-tag is-learned">Learned</span>}
+          {lesson.reading && <span className="iter-map__tip-tag">Reading</span>}
+          {lesson.alternative && <span className="iter-map__tip-tag is-alt">Alternative</span>}
+        </p>
       )}
     </div>
   )
