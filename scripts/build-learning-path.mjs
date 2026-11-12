@@ -1,20 +1,24 @@
 #!/usr/bin/env node
 /**
- * Build the Iter — a single, gradually advancing Latin path assembled from
- * every book in the library.
+ * Build the Iter — one road through the whole library, anchored to the route
+ * that Lingua Latina takes chapter by chapter.
  *
- * The path is grouped into grammatical stages, ordered from the first
- * rudiments to the reading of the authors. Every complete, routable chapter
- * of every book is placed in exactly one stage: a chapter joins the stage
- * that most of its grammar keywords belong to (ties go to the later stage,
- * so nothing is met before its foundations). Chapters that teach no grammar
- * — the readers and the original texts — fall into Lectiones, the final
- * reading stage, ordered by level.
+ * The first year of Lingua Latina (Familia Romana, caps. I–XXXV) is divided
+ * into six grammar bands; the second year (Roma Aeterna, caps. XXXVI–LVI) is
+ * its own stage. Every companion, exercise book and workbook chapter follows
+ * the chapter it accompanies, so the road reads I, II, III … exactly as a
+ * student works through the course. The graded readers and the original
+ * authors close the road.
+ *
+ * The alternative courses (Learn Latin from the Romans, Latin via Ovid) are
+ * placed in the band their grammar belongs to, after the Lingua Latina family,
+ * so they never break the main sequence. Reference matter (answer keys,
+ * glossaries, appendices) is left off the road.
  *
  * Output: src/data/learning-path.generated.js
  *
  * Run with: node scripts/build-learning-path.mjs
- * (after `npm run keywords`, which the chapter keywords depend on)
+ * (after `npm run keywords`, which the focus labels depend on)
  */
 import { writeFile } from 'node:fs/promises'
 import { fileURLToPath } from 'node:url'
@@ -25,7 +29,7 @@ import { describeKeyword } from '../src/data/keywords.js'
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 
 /* ------------------------------------------------------------------ */
-/* Stages: an ordered grammar curriculum                              */
+/* Stages: the Lingua Latina route                                     */
 /* ------------------------------------------------------------------ */
 
 const STAGES = [
@@ -34,7 +38,8 @@ const STAGES = [
     latin: 'Initium',
     title: 'First steps',
     blurb:
-      'The alphabet and the parts of speech; what a sentence is and how Latin marks its work with endings rather than word order.',
+      'Familia Romana I–VII. How a Latin sentence works before the grammar is named: the noun and its endings, the verb, plain statement and command.',
+    range: 'FR I–VII',
     topics: [
       'alphabet', 'parts-of-speech', 'inflection', 'noun', 'verb', 'adjective',
       'adverb', 'preposition', 'conjunction', 'interjection', 'gender', 'number',
@@ -47,20 +52,24 @@ const STAGES = [
     latin: 'Casus',
     title: 'The cases and the declensions',
     blurb:
-      'The six cases and the five declensions — how nouns, adjectives and pronouns change shape to show who does what to whom.',
+      'Familia Romana VIII–XIV. The six cases and the five declensions, the pronouns, the comparison of adjectives, and the first participles.',
+    range: 'FR VIII–XIV',
     topics: [
       'case', 'nominative', 'accusative', 'genitive', 'dative', 'ablative',
       'vocative', 'locative', 'declension', 'first-declension',
       'second-declension', 'third-declension', 'fourth-declension',
       'fifth-declension', 'i-stems', 'numerals', 'time', 'place',
+      'pronoun', 'personal-pronouns', 'reflexive-pronouns', 'demonstratives',
+      'possession', 'comparison', 'word-formation',
     ],
   },
   {
     id: 'tempora',
     latin: 'Tempora',
-    title: 'Verbs and the tenses',
+    title: 'The verb, voice and tenses',
     blurb:
-      'The four conjugations and the whole tense system, active and passive, with the principal parts that unlock every form.',
+      'Familia Romana XV–XXI. The persons of the verb and the four conjugations, the passive and the deponents, the imperfect, future and perfect.',
+    range: 'FR XV–XXI',
     topics: [
       'conjugation', 'first-conjugation', 'second-conjugation',
       'third-conjugation', 'fourth-conjugation', 'principal-parts',
@@ -70,51 +79,54 @@ const STAGES = [
     ],
   },
   {
-    id: 'pronomina',
-    latin: 'Pronomina',
-    title: 'Pronouns, comparison and word-building',
+    id: 'verba-nominalia',
+    latin: 'Verba nōminālia',
+    title: 'Participles and verbal nouns',
     blurb:
-      'Personal, reflexive and demonstrative pronouns; possession; the comparison of adjectives and adverbs; and how Latin builds new words.',
-    topics: [
-      'pronoun', 'personal-pronouns', 'reflexive-pronouns',
-      'demonstratives', 'possession', 'comparison', 'word-formation',
-    ],
+      'Familia Romana XXII–XXVI. The supine, the future participle and infinitive, the pluperfect, the imperative of deponents, and the gerund.',
+    range: 'FR XXII–XXVI',
+    topics: ['participles', 'gerund', 'gerundive', 'supine', 'periphrastic'],
   },
   {
     id: 'subiunctivus',
     latin: 'Subiunctivus',
-    title: 'The subjunctive and subordinate clauses',
+    title: 'The subjunctive and its clauses',
     blurb:
-      'The subjunctive mood with its sequence of tenses, and the clauses it governs: purpose, result, cum, indirect speech and conditions.',
+      'Familia Romana XXVII–XXXIII. The whole subjunctive, purpose and result clauses, indirect commands, and the gerundive — the mood that carries Latin prose.',
+    range: 'FR XXVII–XXXIII',
     topics: [
       'subjunctive', 'sequence-of-tenses', 'purpose-clauses',
       'result-clauses', 'indirect-command', 'indirect-statement',
-      'indirect-question', 'cum-clauses', 'conditionals',
+      'indirect-question', 'relative-clauses', 'cum-clauses', 'conditionals',
       'ablative-absolute',
     ],
   },
   {
-    id: 'verba-nominalia',
-    latin: 'Verba nōminālia',
-    title: 'Participles, gerund and gerundive',
-    blurb:
-      'The verbal adjectives and nouns — participles, the gerund and gerundive, the supine, and the periphrastic conjugations.',
-    topics: ['participles', 'gerund', 'gerundive', 'supine', 'periphrastic'],
-  },
-  {
     id: 'ars-metrica',
     latin: 'Ars mētrica',
-    title: 'The measure of verse',
+    title: 'Verse and the art of grammar',
     blurb:
-      'Syllables and quantity, elision, and the scanning of hexameter and lyric metres — preparing the ear for Latin poetry.',
+      'Familia Romana XXXIV–XXXV. Quantity, elision and the hexameter; then the eight parts of speech that crown the first year.',
+    range: 'FR XXXIV–XXXV',
     topics: ['prosody', 'meter', 'reading-poetry'],
+  },
+  {
+    id: 'roma-aeterna',
+    latin: 'Rōma Aeterna',
+    title: 'The second-year course',
+    blurb:
+      'Roma Aeterna XXXVI–LVI, chapter by chapter: the cases met again in reading, the moods and indirect speech, word-building, and the Dream of Scipio.',
+    range: 'RA XXXVI–LVI',
+    topics: [],
   },
   {
     id: 'lectiones',
     latin: 'Lēctiōnēs',
     title: 'The graded readers',
     blurb:
-      'Longer reading in adapted and paraphrase Latin — the Sermones and the sacred history — where the grammar met so far is put to work on continuous narrative.',
+      'Longer reading in adapted and paraphrase Latin — the Sermones and the sacred history, and the reading practice of the alternative course — where the grammar met so far is put to work.',
+    range: 'Readers',
+    groupByBook: true,
     topics: [],
   },
   {
@@ -122,85 +134,38 @@ const STAGES = [
     latin: 'Auctōrēs',
     title: 'The authors themselves',
     blurb:
-      'Original Latin at last, unadapted — Caesar and Sallust in history, Plautus on the stage, and the verse of Vergil, Ovid and Petronius.',
+      'Original Latin at last, unadapted — Caesar and Sallust in history, Plautus and Petronius on the stage, and the verse of Vergil and Ovid.',
+    range: 'Authors',
+    groupByBook: true,
     topics: [],
   },
 ]
 
-const STAGE_OF = new Map()
-for (const stage of STAGES) {
-  for (const topic of stage.topics) STAGE_OF.set(`grammar:${topic}`, stage.id)
-}
+const STAGE_ORDER = STAGES.map((stage) => stage.id)
+const STAGE_RANK = new Map(STAGE_ORDER.map((id, index) => [id, index]))
 
-const LEVEL_RANK = { beginner: 0, elementary: 1, intermediate: 2, advanced: 3 }
+/* ------------------------------------------------------------------ */
+/* The Lingua Latina route                                             */
+/* ------------------------------------------------------------------ */
 
-const BOOK_RANK = [
-  'familia-romana',
-  'colloquia-personarum',
-  'exercitia-latina',
-  'fabulae-syrae',
-  'roma-aeterna',
-  'exercitia-latina-ii',
-  'companion-to-familia-romana',
-  'companion-to-roma-aeterna',
-  'learn-latin-from-the-romans',
-  'latin-via-ovid',
-  'sermones-romani',
-  'epitome-historiae-sacrae',
-  'caesar-de-bello-gallico-vii',
-  'sallustius-cicero-catilina',
-  'plautus-amphitryo',
-  'vergil-aeneis-i-et-iv',
-  'ovidii-ars-amatoria',
-  'petronius-cena-trimalchionis',
+// The first year is banded by chapter, not by a keyword vote, so that
+// Familia Romana always reads I, II, III … and its companions sit beside it.
+const FIRST_YEAR_BANDS = [
+  { from: 1, to: 7, stage: 'initium' },
+  { from: 8, to: 14, stage: 'casus' },
+  { from: 15, to: 21, stage: 'tempora' },
+  { from: 22, to: 26, stage: 'verba-nominalia' },
+  { from: 27, to: 33, stage: 'subiunctivus' },
+  { from: 34, to: 35, stage: 'ars-metrica' },
+  { from: 36, to: 56, stage: 'roma-aeterna' },
 ]
-const rankOfBook = (slug) => {
-  const index = BOOK_RANK.indexOf(slug)
-  return index === -1 ? BOOK_RANK.length : index
+
+function bandForCore(number) {
+  const band = FIRST_YEAR_BANDS.find((entry) => number >= entry.from && number <= entry.to)
+  return band ? band.stage : null
 }
 
-/* ------------------------------------------------------------------ */
-/* Assembly                                                            */
-/* ------------------------------------------------------------------ */
-
-function grammarIds(chapter) {
-  return (chapter.keywords || []).filter((id) => id.startsWith('grammar:'))
-}
-
-// A chapter *teaches* grammar when its own data carries structured grammar
-// entries or section headings. The pure readers and the original texts carry
-// none: their grammar tags come from reading-text detection, which is a useful
-// label but far too coarse to place a chapter on the road.
-function teachesGrammar(chapter) {
-  return Boolean(
-    (chapter.grammar && chapter.grammar.length) || (chapter.sections && chapter.sections.length),
-  )
-}
-
-// Tags so general that every chapter's early lessons mention them. A chapter
-// is placed by its *topical* grammar — the cases, the tenses, the moods — and
-// only falls back to these common tags when it teaches nothing more specific.
-const FOUNDATIONAL = new Set([
-  'alphabet', 'parts-of-speech', 'inflection', 'noun', 'verb', 'adjective',
-  'adverb', 'pronoun', 'preposition', 'conjunction', 'interjection', 'gender',
-  'number', 'case', 'agreement', 'word-order', 'questions', 'negation',
-  'commands', 'present-tense', 'indicative', 'active-voice',
-])
-
-// Chapters that teach no grammar — the readers and the original texts — follow
-// the level they are written for: the earliest join the first stages, the
-// intermediate ones form the graded-reading stage, the advanced ones are the
-// authors.
-function readingStage(level) {
-  if (level === 'beginner') return 'initium'
-  if (level === 'elementary') return 'tempora'
-  if (level === 'intermediate') return 'lectiones'
-  return 'auctores'
-}
-
-// The workbook, reader and companion editions follow a core course chapter by
-// number — the same link the keyword builder uses — so the path reuses it and
-// e.g. Colloquium III sits beside Familia Romana chapter III.
+// The books that follow a core Lingua Latina chapter by number.
 const CORE_BOOK = {
   'familia-romana': 'familia-romana',
   'exercitia-latina': 'familia-romana',
@@ -212,34 +177,80 @@ const CORE_BOOK = {
   'companion-roma-aeterna': 'roma-aeterna',
 }
 
-function grammarStage(chapter) {
-  const ids = grammarIds(chapter)
-  const placed = ids.filter((id) => STAGE_OF.has(id))
-  if (!placed.length) return { id: null, focus: null }
+// Reading-only editions: their own home at the end of the road.
+const READER_BOOKS = new Set(['sermones-romani', 'epitome-historiae-sacrae'])
+const READING_ONLY_BOOKS = new Set([
+  'colloquia-personarum',
+  'fabulae-syrae',
+  'sermones-romani',
+  'epitome-historiae-sacrae',
+])
+const AUTHOR_BOOKS = new Set([
+  'caesar-de-bello-gallico-vii',
+  'sallustius-cicero-catilina',
+  'plautus-amphitryo',
+  'vergil-aeneis-i-et-iv',
+  'ovidii-ars-amatoria',
+  'petronius-cena-trimalchionis',
+])
+const ALTERNATIVE_BOOKS = new Set(['learn-latin', 'latin-via-ovid'])
 
-  const topical = placed.filter((id) => !FOUNDATIONAL.has(id.slice('grammar:'.length)))
-  const pool = topical.length ? topical : placed
+// Look-up matter, not lessons: answer keys, glossaries and appendices.
+const EXCLUDED = new Set([
+  'learn-latin:capitulum-62', // How to Use the Appendices
+  'learn-latin:capitulum-64', // Key to Further Exercises
+  'learn-latin:capitulum-65', // Alphabetical Glossary
+])
 
-  const counts = new Map()
-  for (const id of pool) {
-    const stageId = STAGE_OF.get(id)
-    counts.set(stageId, (counts.get(stageId) || 0) + 1)
-  }
+const READING_PRACTICE = /\breading (practice|texts?)\b/i
 
-  let best = null
-  let bestCount = -1
-  for (const stage of STAGES) {
-    const count = counts.get(stage.id) || 0
-    if (count >= bestCount && count > 0) {
-      // ties go to the later stage in the path, so nothing is met early
-      best = stage.id
-      bestCount = count
-    }
-  }
-  // the focus shown on the card is the most relevant topical tag that belongs
-  // to the stage the chapter was placed in, so the label always matches
-  const focus = pool.find((id) => STAGE_OF.get(id) === best) || ids[0]
-  return { id: best, focus }
+// A handful of alternative-course chapters whose grammar alone puts them in the
+// wrong band.
+const TOPIC_OVERRIDES = new Map([
+  ['learn-latin:capitulum-30', 'subiunctivus'], // Fear Clauses
+  ['learn-latin:capitulum-45', 'tempora'], // Impersonal Verbs
+  ['learn-latin:capitulum-47', 'subiunctivus'], // More Subordinate Clauses
+  ['learn-latin:capitulum-57', 'subiunctivus'], // Ablative Absolute
+  ['learn-latin:capitulum-60', 'verba-nominalia'], // Gerunds I
+  ['learn-latin:capitulum-61', 'verba-nominalia'], // Gerunds II
+  ['latin-via-ovid:circe', 'verba-nominalia'], // Gerund and Gerundive
+])
+
+const LEVEL_RANK = { beginner: 0, elementary: 1, intermediate: 2, advanced: 3 }
+
+// How books are ordered inside a band: the Lingua Latina family first, then the
+// alternative courses, then the readers and the authors in a sensible order.
+const BOOK_RANK = [
+  'familia-romana',
+  'exercitia-latina',
+  'colloquia-personarum',
+  'companion-to-familia-romana',
+  'fabulae-syrae',
+  'roma-aeterna',
+  'exercitia-latina-ii',
+  'companion-to-roma-aeterna',
+  'learn-latin-from-the-romans',
+  'latin-via-ovid',
+  'sermones-romani',
+  'epitome-historiae-sacrae',
+  'caesar-de-bello-gallico-vii',
+  'sallustius-cicero-catilina',
+  'plautus-amphitryo',
+  'petronius-cena-trimalchionis',
+  'vergil-aeneis-i-et-iv',
+  'ovidii-ars-amatoria',
+]
+const rankOfBook = (slug) => {
+  const index = BOOK_RANK.indexOf(slug)
+  return index === -1 ? BOOK_RANK.length : index
+}
+
+/* ------------------------------------------------------------------ */
+/* Helpers                                                             */
+/* ------------------------------------------------------------------ */
+
+function grammarIds(chapter) {
+  return (chapter.keywords || []).filter((id) => id.startsWith('grammar:'))
 }
 
 function levelOf(chapter) {
@@ -247,44 +258,144 @@ function levelOf(chapter) {
   return id ? id.split(':')[1] : 'intermediate'
 }
 
-// First pass: place every chapter that teaches grammar, and remember where each
-// core-course chapter landed so its companions can follow it.
-const stageByCore = new Map()
-const placements = new Map()
+// Tags so general that they say nothing about *where* in the course a chapter
+// belongs. They only decide a band when nothing more specific is available.
+const FOUNDATIONAL = new Set([
+  'alphabet', 'parts-of-speech', 'inflection', 'noun', 'verb', 'adjective',
+  'adverb', 'pronoun', 'preposition', 'conjunction', 'interjection', 'gender',
+  'number', 'case', 'agreement', 'word-order', 'questions', 'negation',
+  'commands', 'present-tense', 'indicative', 'active-voice',
+])
+
+const TOPIC_BAND = new Map()
+for (const stage of STAGES) {
+  for (const topic of stage.topics) TOPIC_BAND.set(topic, stage.id)
+}
+// Pronouns and comparison belong with the nouns, in the Casus band.
+for (const topic of ['pronoun', 'personal-pronouns', 'reflexive-pronouns', 'demonstratives', 'possession', 'comparison', 'word-formation']) {
+  TOPIC_BAND.set(topic, 'casus')
+}
+
+// The focus label shown on a card: the most distinctive grammar tag the
+// chapter carries.
+function focusOf(chapter) {
+  const ids = grammarIds(chapter)
+  if (!ids.length) return null
+  const topical = ids.find((id) => !FOUNDATIONAL.has(id.slice('grammar:'.length)) && TOPIC_BAND.has(id.slice('grammar:'.length)))
+  return describeKeyword(topical || ids[0]).label
+}
+
+// A chapter's own grammar heading, trimmed to fit the card: this is more
+// faithful than the keyword votes, which can be broader than the lesson.
+function shortenTitle(title) {
+  let text = String(title || '').trim()
+  if (!text) return null
+  text = text.replace(/^The\s+/i, '')
+  text = text.split(':')[0].trim()
+  text = text.replace(/\s*\([^)]*\)\s*$/, '').trim()
+  if (text.length > 42) {
+    const cut = text.lastIndexOf(' ', 42)
+    text = (cut > 20 ? text.slice(0, cut) : text.slice(0, 42)).trim() + '…'
+  }
+  return text || null
+}
+
+function coreFocusOf(chapter) {
+  const first = (chapter.grammar || [])[0]
+  return (first && shortenTitle(first.title)) || focusOf(chapter)
+}
+
+// Where an alternative-course chapter belongs, by its grammar.
+function topicBand(chapter) {
+  const ids = grammarIds(chapter).map((id) => id.slice('grammar:'.length))
+  const placed = ids.filter((id) => TOPIC_BAND.has(id))
+  if (!placed.length) return 'lectiones'
+  const topical = placed.filter((id) => !FOUNDATIONAL.has(id))
+  const pool = topical.length ? topical : placed
+
+  const counts = new Map()
+  for (const id of pool) {
+    const stage = TOPIC_BAND.get(id)
+    counts.set(stage, (counts.get(stage) || 0) + 1)
+  }
+  let best = null
+  let bestCount = -1
+  for (const stage of STAGE_ORDER) {
+    const count = counts.get(stage) || 0
+    if (count >= bestCount && count > 0) {
+      best = stage
+      bestCount = count
+    }
+  }
+  return best || 'lectiones'
+}
+
+/* ------------------------------------------------------------------ */
+/* Assembly                                                            */
+/* ------------------------------------------------------------------ */
+
+const lessonsByStage = new Map(STAGES.map((stage) => [stage.id, []]))
+const seen = new Set()
+let total = 0
+let excluded = 0
+
+// The grammar focus of each first- and second-year chapter, so the companions
+// can borrow it instead of their own noisier tags.
+const coreFocus = new Map()
+for (const book of books) {
+  if (book.id !== 'familia-romana' && book.id !== 'roma-aeterna') continue
+  for (const chapter of book.chapters || []) {
+    coreFocus.set(`${book.id}:${chapter.number}`, coreFocusOf(chapter))
+  }
+}
+
 for (const book of books) {
   for (const chapter of book.chapters || []) {
     if (!chapter.complete) continue
     const key = `${book.slug}/${chapter.slug}`
-    const grammar = teachesGrammar(chapter) ? grammarStage(chapter) : { id: null, focus: null }
-    if (grammar.id) {
-      placements.set(key, { id: grammar.id, focus: grammar.focus, reading: false })
-      if (book.id === 'familia-romana' || book.id === 'roma-aeterna') {
-        stageByCore.set(`${book.id}:${chapter.number}`, grammar.id)
-      }
-    } else {
-      placements.set(key, { id: null, focus: null, reading: true })
+    if (EXCLUDED.has(`${book.id}:${chapter.slug}`)) {
+      excluded += 1
+      continue
     }
-  }
-}
 
-// Second pass: resolve the readers and workbooks — first by inheriting their
-// core chapter's stage, then by level.
-const lessonsByStage = new Map(STAGES.map((stage) => [stage.id, []]))
-let total = 0
-for (const book of books) {
-  for (const chapter of book.chapters || []) {
-    if (!chapter.complete) continue
     const level = levelOf(chapter)
-    const placement = placements.get(`${book.slug}/${chapter.slug}`)
-    let stageId = placement.id
-    let reading = placement.reading
-    let focus = placement.focus
-    if (!stageId) {
-      const coreId = CORE_BOOK[book.id]
-      stageId = (coreId && stageByCore.get(`${coreId}:${chapter.number}`)) || readingStage(level)
-      reading = true
-      focus = null
+    const coreBookId = CORE_BOOK[book.id]
+    const alternative = ALTERNATIVE_BOOKS.has(book.id)
+    const satellite = Boolean(coreBookId) && coreBookId !== book.id
+    const title = `${chapter.title || ''} ${chapter.latinTitle || ''}`
+    const override = TOPIC_OVERRIDES.get(`${book.id}:${chapter.slug}`)
+
+    let stageId
+    let coreNumber = null
+    if (coreBookId) {
+      // Follow the core course chapter by chapter.
+      coreNumber = chapter.number
+      stageId = bandForCore(chapter.number)
+    } else if (READER_BOOKS.has(book.id)) {
+      stageId = 'lectiones'
+    } else if (AUTHOR_BOOKS.has(book.id)) {
+      stageId = 'auctores'
+    } else {
+      // Alternative course: reading practice joins the readers, the rest goes
+      // to the band of its grammar.
+      stageId = READING_PRACTICE.test(title) ? 'lectiones' : override || topicBand(chapter)
     }
+
+    if (!stageId) stageId = 'lectiones'
+
+    const reading =
+      READING_ONLY_BOOKS.has(book.id) ||
+      AUTHOR_BOOKS.has(book.id) ||
+      (alternative && READING_PRACTICE.test(title))
+
+    // A companion takes its core chapter's focus; a reader gets none; an
+    // alternative course keeps its own.
+    let focus
+    if (satellite) focus = coreFocus.get(`${coreBookId}:${chapter.number}`) ?? null
+    else if (alternative) focus = reading ? null : focusOf(chapter)
+    else if (READER_BOOKS.has(book.id) || AUTHOR_BOOKS.has(book.id)) focus = null
+    else focus = coreFocusOf(chapter)
+
     const lesson = {
       bookSlug: book.slug,
       bookId: book.id,
@@ -296,25 +407,46 @@ for (const book of books) {
       latinTitle: chapter.latinTitle || null,
       title: chapter.title || null,
       level,
-      focus: focus ? describeKeyword(focus).label : null,
+      focus,
       reading,
+      alternative,
+      core: coreNumber,
       href: `/library/${book.slug}/${chapter.slug}`,
     }
+
     lessonsByStage.get(stageId).push(lesson)
+    seen.add(key)
     total += 1
   }
 }
 
-// Order within a stage: level first, then the library's own course order,
-// then the chapter number — so the path always advances.
+// Order the road.
 for (const stage of STAGES) {
   const list = lessonsByStage.get(stage.id)
-  list.sort(
-    (a, b) =>
-      LEVEL_RANK[a.level] - LEVEL_RANK[b.level] ||
-      rankOfBook(a.bookSlug) - rankOfBook(b.bookSlug) ||
-      a.number - b.number,
-  )
+  if (stage.groupByBook) {
+    // The readers and the authors read best grouped by work.
+    list.sort(
+      (a, b) =>
+        LEVEL_RANK[a.level] - LEVEL_RANK[b.level] ||
+        rankOfBook(a.bookSlug) - rankOfBook(b.bookSlug) ||
+        a.number - b.number,
+    )
+  } else {
+    // Within a band: the Lingua Latina family chapter by chapter, its
+    // companions beside each chapter, then the alternative courses.
+    list.sort((a, b) => {
+      const groupA = a.alternative ? 1 : 0
+      const groupB = b.alternative ? 1 : 0
+      if (groupA !== groupB) return groupA - groupB
+      const coreA = a.core ?? 9999
+      const coreB = b.core ?? 9999
+      if (coreA !== coreB) return coreA - coreB
+      const rankA = rankOfBook(a.bookSlug)
+      const rankB = rankOfBook(b.bookSlug)
+      if (rankA !== rankB) return rankA - rankB
+      return a.number - b.number
+    })
+  }
   stage.lessons = list.map((lesson) => ({
     ...lesson,
     levelRank: LEVEL_RANK[lesson.level] ?? 2,
@@ -323,7 +455,7 @@ for (const stage of STAGES) {
   stage.topics = stage.topics.map((topic) => `grammar:${topic}`)
 }
 
-// Integrity: every complete chapter of every book appears exactly once.
+// Integrity: every non-excluded complete chapter appears exactly once.
 {
   const placed = new Set()
   for (const stage of STAGES) {
@@ -337,6 +469,7 @@ for (const stage of STAGES) {
   for (const book of books) {
     for (const chapter of book.chapters || []) {
       if (!chapter.complete) continue
+      if (EXCLUDED.has(`${book.id}:${chapter.slug}`)) continue
       expected += 1
       const key = `${book.slug}/${chapter.slug}`
       if (!placed.has(key)) throw new Error(`Iter: missing lesson ${key}`)
@@ -348,14 +481,16 @@ for (const stage of STAGES) {
 }
 
 const out = `// Generated by scripts/build-learning-path.mjs — do not edit by hand.
-// The Iter: every complete chapter of every book, placed on one path and
-// grouped into grammatical stages that run from the first rudiments to the
-// reading of the authors. Learned state is added at runtime from the
-// per-book progress document.
+// The Iter: the Lingua Latina route through every book in the library. The
+// first year is banded by chapter; the second year is its own stage; the
+// readers and the authors close the road. Learned state is added at runtime
+// from the per-book progress document.
 
 export const iterStages = ${JSON.stringify(STAGES, null, 2)}
 
 export const iterLessonCount = ${total}
+
+export const iterExcludedCount = ${excluded}
 
 export default iterStages
 `
@@ -363,7 +498,7 @@ export default iterStages
 await writeFile(join(ROOT, 'src/data/learning-path.generated.js'), out, 'utf8')
 
 console.log('Wrote src/data/learning-path.generated.js')
-console.log('lessons:', total)
+console.log('lessons:', total, '· reference chapters left off:', excluded)
 for (const stage of STAGES) {
   console.log(`  ${stage.id.padEnd(18)} ${String(stage.lessonCount).padStart(4)}  ${stage.latin}`)
 }

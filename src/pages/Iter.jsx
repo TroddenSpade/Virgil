@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { Fragment, useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { iterStages, iterLessonCount } from '../data/learning-path.generated.js'
 import { readBookProgress, setChapterDone } from '../lib/progress.js'
@@ -98,9 +98,10 @@ export default function Iter() {
           <p className="eyebrow">Iter Latinum</p>
           <h1 className="iter__title">The Itinerary</h1>
           <p className="lead iter__lead">
-            One road through the whole library, from the first rudiments of the language to the reading of
-            the authors. Every lesson sits in the grammatical stage it belongs to — the cases, the tenses,
-            the subjunctive, the metres — and your mark follows you from the first page to the last.
+            One road through the whole library, following the route of <em>Lingua Latina</em> chapter by
+            chapter: <em>Familia Romana</em> I–XXXV, then <em>Roma Aeterna</em> XXXVI–LVI, with the exercise
+            books, companions and readers beside the chapter they belong to — and the authors at the end.
+            Your mark follows you from the first page to the last.
           </p>
 
           <div className="iter__summary">
@@ -204,54 +205,71 @@ export default function Iter() {
 
                   {isOpen && (
                     <ul className="iter-lessons">
-                      {stage.lessons.map((lesson) => {
+                      {stage.lessons.map((lesson, index) => {
                         const isDone = done(lesson)
                         const isNext =
                           nextLesson?.lesson.bookSlug === lesson.bookSlug &&
                           nextLesson?.lesson.number === lesson.number
+                        const showHeader =
+                          stage.groupByBook &&
+                          (index === 0 || stage.lessons[index - 1].bookSlug !== lesson.bookSlug)
+                        const sameTitle =
+                          lesson.latinTitle &&
+                          lesson.title &&
+                          lesson.latinTitle.trim().toLowerCase() === lesson.title.trim().toLowerCase()
+                        const titleSuffix = lesson.title && !sameTitle ? ` — ${lesson.title}` : ''
                         return (
-                          <li
-                            className={`iter-lesson${isDone ? ' is-done' : ''}${isNext ? ' is-next' : ''}`}
-                            key={lessonKey(lesson)}
-                          >
-                            <button
-                              type="button"
-                              className="iter-lesson__tick"
-                              aria-pressed={isDone}
-                              aria-label={isDone ? 'Mark as not learned' : 'Mark as learned'}
-                              onClick={() => toggle(lesson)}
-                            >
-                              {isDone ? '✓' : ''}
-                            </button>
-                            <Link className="iter-lesson__body" to={lesson.href}>
-                              <span className="iter-lesson__book">
+                          <Fragment key={lessonKey(lesson)}>
+                            {showHeader && (
+                              <li className="iter-lessons__group" aria-hidden="true">
                                 {lesson.bookMark || lesson.bookShort}
-                              </span>
-                              <span className="iter-lesson__numeral">{lesson.roman}</span>
-                              <span className="iter-lesson__text">
-                                {lesson.latinTitle && (
-                                  <span className="iter-lesson__latin latin">
-                                    {lesson.latinTitle}
-                                    {lesson.title ? ` — ${lesson.title}` : ''}
-                                  </span>
-                                )}
-                                {!lesson.latinTitle && lesson.title && (
-                                  <span className="iter-lesson__latin">{lesson.title}</span>
-                                )}
-                              </span>
-                              <span className="iter-lesson__meta">
-                                {lesson.reading && (
-                                  <span className="iter-lesson__reading">Reading</span>
-                                )}
-                                <span className="iter-lesson__level" data-level={lesson.level}>
-                                  {LEVEL_LABEL[lesson.level] || lesson.level}
+                              </li>
+                            )}
+                            <li
+                              className={`iter-lesson${isDone ? ' is-done' : ''}${isNext ? ' is-next' : ''}`}
+                            >
+                              <button
+                                type="button"
+                                className="iter-lesson__tick"
+                                aria-pressed={isDone}
+                                aria-label={isDone ? 'Mark as not learned' : 'Mark as learned'}
+                                onClick={() => toggle(lesson)}
+                              >
+                                {isDone ? '✓' : ''}
+                              </button>
+                              <Link className="iter-lesson__body" to={lesson.href}>
+                                <span className="iter-lesson__book">
+                                  {lesson.bookMark || lesson.bookShort}
                                 </span>
-                                {lesson.focus && (
-                                  <span className="iter-lesson__focus">{lesson.focus}</span>
-                                )}
-                              </span>
-                            </Link>
-                          </li>
+                                <span className="iter-lesson__numeral">{lesson.roman}</span>
+                                <span className="iter-lesson__text">
+                                  {lesson.latinTitle && (
+                                    <span className="iter-lesson__latin latin">
+                                      {lesson.latinTitle}
+                                      {titleSuffix}
+                                    </span>
+                                  )}
+                                  {!lesson.latinTitle && lesson.title && (
+                                    <span className="iter-lesson__latin">{lesson.title}</span>
+                                  )}
+                                </span>
+                                <span className="iter-lesson__meta">
+                                  {lesson.alternative && (
+                                    <span className="iter-lesson__alt">Alternative</span>
+                                  )}
+                                  {lesson.reading && (
+                                    <span className="iter-lesson__reading">Reading</span>
+                                  )}
+                                  <span className="iter-lesson__level" data-level={lesson.level}>
+                                    {LEVEL_LABEL[lesson.level] || lesson.level}
+                                  </span>
+                                  {lesson.focus && (
+                                    <span className="iter-lesson__focus">{lesson.focus}</span>
+                                  )}
+                                </span>
+                              </Link>
+                            </li>
+                          </Fragment>
                         )
                       })}
                     </ul>
