@@ -59,10 +59,11 @@ export default function Home() {
   return (
     <>
       <section className="hero">
-        {/* The poet and the opening of the Aeneid, printed faintly as the
-            hero's ground. Decorative: the reading text is in the copy. */}
-        <div className="hero__art" aria-hidden="true">
-          <div className="hero__art-poem">
+        {/* The plate reads left to right: the poet's opening, the poet's
+            likeness, the copy. All of it decorative — the reading text is
+            in the copy. */}
+        <div className="hero__inner">
+          <div className="hero__art-poem" aria-hidden="true">
             <p className="hero__art-label">Aeneis · Liber I</p>
             <p className="hero__art-verses" lang="la">
               Arma virumque canō, Troiae quī prīmus ab ōrīs
@@ -82,16 +83,14 @@ export default function Home() {
             <p className="hero__art-ref">I.1–7</p>
           </div>
 
-          <figure className="hero__art-figure">
+          <figure className="hero__art-figure" aria-hidden="true">
             <span className="hero__art-sketch" />
             <figcaption className="hero__art-caption">
               <span className="hero__art-name">PVBLIVS VERGILIVS MARO</span>
               <span className="hero__art-dates">70–19 BC · Mantua</span>
             </figcaption>
           </figure>
-        </div>
 
-        <div className="container hero__inner">
           <div className="hero__copy">
             <p className="hero__inscription rise">
               <span>Lingua Latina</span>
