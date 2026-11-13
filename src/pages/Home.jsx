@@ -59,78 +59,63 @@ export default function Home() {
   return (
     <>
       <section className="hero">
-        <div className="container">
-          <div className="hero__plate rise">
-            <span className="hero__watermark" aria-hidden="true">
-              VIRGIL
-            </span>
-
-            <div className="hero__inner">
-              <div className="hero__copy">
-                <Incipit label="Lingua Latina" note="Per Sē Illūstrāta" />
-                <h1 className="hero__title">
-                  Learn Latin,
-                  <br />
-                  and arrive at <em>Virgil</em>.
-                </h1>
-                <p className="hero__lead lead">
-                  Virgil is a Latin reading project. You begin with the first sentence of Ørberg’s{' '}
-                  <em>Familia Romana</em> — <span className="latin">Roma in Italiā est</span> — and, chapter by
-                  chapter, read your way toward the poetry of the <em>Aeneid</em>. No translation. No memorising
-                  word lists before you read. Just Latin, understood from the very first page.
-                </p>
-                <div className="hero__actions">
-                  <Link
-                    className="btn btn--primary"
-                    to={`/library/${familiaRomanaBook.slug}/${firstChapter.slug}`}
-                  >
-                    Begin Capitulum I →
-                  </Link>
-                  <Link className="btn btn--ghost" to="/iter">
-                    Open the itinerary
-                  </Link>
-                </div>
-              </div>
-
-              <figure className="hero__portrait">
-                <div className="hero__portrait-frame">
-                  <img
-                    src={`${import.meta.env.BASE_URL}icons/icon-512.png`}
-                    alt="Engraved medallion portrait of the poet Virgil"
-                    width="512"
-                    height="512"
-                  />
-                </div>
-                <figcaption>
-                  <span className="hero__portrait-name">PVBLIVS·VERGILIVS·MARO</span>
-                  <span className="hero__portrait-dates">70–19 BC · Mantua</span>
-                </figcaption>
-              </figure>
-            </div>
-
-            <dl className="hero__stats">
-              <div className="hero__stat">
-                <dt>Books</dt>
-                <dd>{bookCount}</dd>
-              </div>
-              <div className="hero__stat">
-                <dt>Texts &amp; chapters</dt>
-                <dd>{textCount}</dd>
-              </div>
-              <div className="hero__stat">
-                <dt>Itinerary lessons</dt>
-                <dd>{iterLessonCount}</dd>
-              </div>
-              <div className="hero__stat">
-                <dt>Stages</dt>
-                <dd>{stageCount}</dd>
-              </div>
-            </dl>
-            <p className="hero__note">
-              An installable, offline reading app — {textCount} texts across {bookCount} books, and one road
-              of {iterLessonCount} lessons to the <em>Aeneid</em>.
+        <div className="container hero__inner">
+          <div className="hero__copy">
+            <p className="hero__inscription rise">
+              <span>Lingua Latina</span>
             </p>
+            <h1 className="hero__title rise">
+              Learn Latin,
+              <br />
+              and arrive at <em>Virgil</em>.
+            </h1>
+            <p className="hero__lead lead rise">
+              Virgil is a Latin reading project. You begin with the first sentence of Ørberg’s{' '}
+              <em>Familia Romana</em> — <span className="latin">Roma in Italiā est</span> — and, chapter by
+              chapter, read your way toward the poetry of the <em>Aeneid</em>. No translation. No memorising
+              word lists before you read. Just Latin, understood from the very first page.
+            </p>
+            <div className="hero__actions rise">
+              <Link
+                className="btn btn--primary"
+                to={`/library/${familiaRomanaBook.slug}/${firstChapter.slug}`}
+              >
+                Begin Capitulum I →
+              </Link>
+              <Link className="btn btn--ghost" to="/iter">
+                Open the itinerary
+              </Link>
+            </div>
+            <ul className="hero__meta rise">
+              <li>
+                <strong>{bookCount}</strong> books
+              </li>
+              <li>
+                <strong>{textCount}</strong> texts &amp; chapters
+              </li>
+              <li>
+                <strong>{iterLessonCount}</strong> itinerary lessons
+              </li>
+              <li>
+                <strong>{stageCount}</strong> stages
+              </li>
+            </ul>
           </div>
+
+          <figure className="hero__portrait rise">
+            <div className="hero__portrait-frame">
+              <img
+                src={`${import.meta.env.BASE_URL}icons/icon-512.png`}
+                alt="Engraved medallion portrait of the poet Virgil"
+                width="512"
+                height="512"
+              />
+            </div>
+            <figcaption>
+              <span className="hero__portrait-name">PVBLIVS·VERGILIVS·MARO</span>
+              <span className="hero__portrait-dates">70–19 BC · Mantua</span>
+            </figcaption>
+          </figure>
         </div>
       </section>
 
@@ -163,6 +148,15 @@ export default function Home() {
                 and a vocabulary trainer with flashcards for every chapter.
               </p>
             </article>
+            <article className="feature card">
+              <span className="feature__num" aria-hidden="true">IV</span>
+              <h3>Read the authors themselves</h3>
+              <p>
+                The road ends in real Latin: unadapted texts from the great writers — Ovid, Virgil, Caesar and
+                Cicero — with vocabulary, scansion and commentary beside them, until you are reading the{' '}
+                <em>Aeneid</em> in its own words.
+              </p>
+            </article>
           </div>
         </div>
       </section>
@@ -181,7 +175,6 @@ export default function Home() {
               <div className="book-feature__body">
                 <p className="eyebrow">Now available</p>
                 <h2>{familiaRomanaBook.title}</h2>
-                <p className="lead latin">{familiaRomanaBook.latinTitle}</p>
                 <p>{familiaRomanaBook.summary}</p>
                 <div className="book-feature__progress">
                   <div className="progress" role="progressbar" aria-valuenow={percent} aria-valuemin={0} aria-valuemax={100}>
@@ -209,7 +202,6 @@ export default function Home() {
               <div className="book-feature__body">
                 <p className="eyebrow">Now available · Companion</p>
                 <h2>{companionBook.title}</h2>
-                <p className="lead latin">{companionBook.latinTitle}</p>
                 <p>{companionBook.summary}</p>
                 <div className="book-feature__progress">
                   <div className="progress" role="progressbar" aria-valuenow={companionProgress.percent} aria-valuemin={0} aria-valuemax={100}>
@@ -237,7 +229,6 @@ export default function Home() {
               <div className="book-feature__body">
                 <p className="eyebrow">Now available · Reader</p>
                 <h2>{colloquiaBook.title}</h2>
-                <p className="lead latin">{colloquiaBook.latinTitle}</p>
                 <p>{colloquiaBook.summary}</p>
                 <div className="book-feature__progress">
                   <div className="progress" role="progressbar" aria-valuenow={colloquiaProgress.percent} aria-valuemin={0} aria-valuemax={100}>
@@ -265,7 +256,6 @@ export default function Home() {
               <div className="book-feature__body">
                 <p className="eyebrow">Now available · Fables</p>
                 <h2>{fabulaeBook.title}</h2>
-                <p className="lead latin">{fabulaeBook.latinTitle}</p>
                 <p>{fabulaeBook.summary}</p>
                 <div className="book-feature__progress">
                   <div className="progress" role="progressbar" aria-valuenow={fabulaeProgress.percent} aria-valuemin={0} aria-valuemax={100}>
@@ -293,7 +283,6 @@ export default function Home() {
               <div className="book-feature__body">
                 <p className="eyebrow">Now available · Pars II</p>
                 <h2>{romaAeternaBook.title}</h2>
-                <p className="lead latin">{romaAeternaBook.latinTitle}</p>
                 <p>{romaAeternaBook.summary}</p>
                 <div className="book-feature__progress">
                   <div className="progress" role="progressbar" aria-valuenow={romaProgress.percent} aria-valuemin={0} aria-valuemax={100}>
@@ -326,7 +315,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section home-road-section">
         <div className="container">
           <Incipit label="Iter" note="The road to the Aeneid" />
           <h2>Where this is going</h2>

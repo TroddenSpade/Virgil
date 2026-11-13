@@ -9,7 +9,6 @@ export default function Footer() {
           <Logo size={46} />
           <div>
             <p className="site-footer__name">VIRGIL</p>
-            <p className="site-footer__tag">Lingua Latina per se illustrata</p>
           </div>
         </div>
 

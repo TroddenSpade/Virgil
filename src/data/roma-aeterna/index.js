@@ -70,7 +70,7 @@ export const book = {
   chapterCount: outline.length,
   readyCount: chapters.filter((c) => c.complete).length,
   summary:
-    'The second part of Lingua Latina per se Illustrata. The story leaves the household of Iūlius and ' +
+    'The second part of the course. The story leaves the household of Iūlius and ' +
     'follows Aeneas from burning Troy to Italy, then Rome herself from her first kings to the fall of ' +
     'the Republic — all in Latin, with the words of Vergil, Livy, Cicero and Sallust adapted for learners.',
   description:
