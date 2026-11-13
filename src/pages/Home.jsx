@@ -59,37 +59,38 @@ export default function Home() {
   return (
     <>
       <section className="hero">
-        {/* The plate reads left to right: the poet's opening, the poet's
-            likeness, the copy. All of it decorative — the reading text is
-            in the copy. */}
+        {/* The plate fills the left half: the poet's opening beside his
+            likeness. Decorative — the reading text is in the copy. */}
         <div className="hero__inner">
-          <div className="hero__art-poem" aria-hidden="true">
-            <p className="hero__art-label">Aeneis · Liber I</p>
-            <p className="hero__art-verses" lang="la">
-              Arma virumque canō, Troiae quī prīmus ab ōrīs
-              <br />
-              Ītaliam fātō profugus Lāvīniaque vēnit
-              <br />
-              lītora, multum ille et terrīs iactātus et altō
-              <br />
-              vī superum saevae memorem Iūnōnis ob īram;
-              <br />
-              multa quoque et bellō passus, dum conderet urbem
-              <br />
-              īnferretque deōs Latiō, genus unde Latīnum
-              <br />
-              Albānīque patrēs atque altae moenia Rōmae.
-            </p>
-            <p className="hero__art-ref">I.1–7</p>
-          </div>
+          <div className="hero__art" aria-hidden="true">
+            <div className="hero__art-poem">
+              <p className="hero__art-label">Aeneis · Liber I</p>
+              <p className="hero__art-verses" lang="la">
+                Arma virumque canō, Troiae quī prīmus ab ōrīs
+                <br />
+                Ītaliam fātō profugus Lāvīniaque vēnit
+                <br />
+                lītora, multum ille et terrīs iactātus et altō
+                <br />
+                vī superum saevae memorem Iūnōnis ob īram;
+                <br />
+                multa quoque et bellō passus, dum conderet urbem
+                <br />
+                īnferretque deōs Latiō, genus unde Latīnum
+                <br />
+                Albānīque patrēs atque altae moenia Rōmae.
+              </p>
+              <p className="hero__art-ref">I.1–7</p>
+            </div>
 
-          <figure className="hero__art-figure" aria-hidden="true">
-            <span className="hero__art-sketch" />
-            <figcaption className="hero__art-caption">
-              <span className="hero__art-name">PVBLIVS VERGILIVS MARO</span>
-              <span className="hero__art-dates">70–19 BC · Mantua</span>
-            </figcaption>
-          </figure>
+            <figure className="hero__art-figure">
+              <span className="hero__art-sketch" />
+              <figcaption className="hero__art-caption">
+                <span className="hero__art-name">PVBLIVS VERGILIVS MARO</span>
+                <span className="hero__art-dates">70–19 BC · Mantua</span>
+              </figcaption>
+            </figure>
+          </div>
 
           <div className="hero__copy">
             <p className="hero__inscription rise">
