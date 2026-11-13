@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { getBook } from '../data/library.js'
+import { useLocalStorage } from '../hooks/useLocalStorage.js'
 import { primaryKeywordLabels } from './KeywordChips.jsx'
 
 const ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII']
@@ -21,6 +22,24 @@ const TICK = 30 // lead from the road to a label
 const RAIL_ROWS = 11 // default lessons shown in the right-hand index
 const RAIL_ROWS_MIN = 7
 const RAIL_ROWS_MAX = 29
+
+const GROUNDS = [
+  ['tabula', 'Tabula'],
+  ['via', 'Via'],
+  ['plain', 'Plain'],
+]
+
+/* Ghosted places from the Aeneid's world, scattered down the strip map. */
+const PLACES = [
+  { at: 0.055, side: 'right', name: 'TROIA' },
+  { at: 0.17, side: 'left', name: 'CARTHAGO' },
+  { at: 0.29, side: 'right', name: 'CVMAE' },
+  { at: 0.41, side: 'left', name: 'LATIVM' },
+  { at: 0.53, side: 'right', name: 'ROMA' },
+  { at: 0.66, side: 'left', name: 'OSTIA' },
+  { at: 0.79, side: 'right', name: 'LAVRENTVM' },
+  { at: 0.91, side: 'left', name: 'ALBA LONGA' },
+]
 
 const lessonKey = (lesson) => `${lesson.bookSlug}/${lesson.slug}`
 
@@ -110,9 +129,21 @@ function buildLayout(stages, width) {
 
   const points = []
   for (let yy = 16; yy <= height - 16; yy += 7) points.push([roadX(yy), yy])
-  const d = points.map(([px, py], idx) => `${idx === 0 ? 'M' : 'L'}${px.toFixed(1)} ${py}`).join('')
+  const pathAt = (offset = 0) =>
+    points
+      .map(([px, py], idx) => `${idx === 0 ? 'M' : 'L'}${(px + offset).toFixed(1)} ${py}`)
+      .join('')
+  const d = pathAt()
 
-  return { items, height, d, titleChars }
+  return {
+    items,
+    height,
+    d,
+    kerbLeft: pathAt(-8),
+    kerbRight: pathAt(8),
+    roadX,
+    titleChars,
+  }
 }
 
 /* The whole itinerary as one winding road: stage milestones, waystations for
@@ -128,6 +159,9 @@ export default function IterMap({ stages, isDone, nextLesson, onToggle }) {
   const location = useLocation()
   // The hover card: which stop, and which side of it to open on.
   const [tip, setTip] = useState(null)
+  // The ground behind the road: an antique strip map, a built via, or plain paper.
+  const [ground, setGround] = useLocalStorage('virgil:iter-map-ground', 'tabula')
+  const groundMode = ground === 'via' || ground === 'plain' ? ground : 'tabula'
   // Which milestone and which lesson sit under the reading line.
   const [active, setActive] = useState({ gate: null, lesson: null })
   const layout = useMemo(
@@ -264,12 +298,31 @@ export default function IterMap({ stages, isDone, nextLesson, onToggle }) {
   const hideTip = () => setTip(null)
 
   return (
-    <div className="iter-map">
-      <div className="iter-map__legend" aria-hidden="true">
-        <span><i className="dot dot--done" /> learned</span>
-        <span><i className="dot" /> to read</span>
-        <span><i className="dot dot--next" /> you are here</span>
-        <span><i className="dot dot--reading" /> reading</span>
+    <div className="iter-map" data-ground={groundMode}>
+      <div className="iter-map__topbar">
+        <div className="iter-map__legend" aria-hidden="true">
+          <span><i className="dot dot--done" /> learned</span>
+          <span><i className="dot" /> to read</span>
+          <span><i className="dot dot--next" /> you are here</span>
+          <span><i className="dot dot--reading" /> reading</span>
+        </div>
+
+        <div className="iter-map__grounds" role="group" aria-label="Map background">
+          <span className="iter-map__grounds-label">Ground</span>
+          <span className="iter-map__grounds-set">
+            {GROUNDS.map(([value, label]) => (
+              <button
+                key={value}
+                type="button"
+                className={groundMode === value ? 'is-active' : ''}
+                aria-pressed={groundMode === value}
+                onClick={() => setGround(value)}
+              >
+                {label}
+              </button>
+            ))}
+          </span>
+        </div>
       </div>
 
       <div className="iter-map__frame">
@@ -291,6 +344,7 @@ export default function IterMap({ stages, isDone, nextLesson, onToggle }) {
               role="group"
               aria-label="The whole itinerary as a winding road, from the first lesson to the last"
             >
+              <MapGround mode={groundMode} width={width} layout={layout} />
               <path className="iter-map__road" d={layout.d} />
               <path className="iter-map__road-dash" d={layout.d} />
 
@@ -664,5 +718,231 @@ function HoverCard({ tip, width, isDone, total }) {
         <span className="iter-map__tip-cta">Open chapter →</span>
       </p>
     </div>
+  )
+}
+
+/* ---------- The ground behind the road ---------- */
+
+function MapGround({ mode, width, layout }) {
+  if (mode === 'plain' || !layout) return null
+  return (
+    <g className={`iter-map__ground is-${mode}`} aria-hidden="true" pointerEvents="none">
+      {mode === 'tabula' ? (
+        <TabulaGround width={width} layout={layout} />
+      ) : (
+        <ViaGround width={width} layout={layout} />
+      )}
+    </g>
+  )
+}
+
+/* An antique strip map: a sea margin, a survey grid, contours, place names,
+   a compass rose and a scale bar, all printed faintly under the road. */
+function TabulaGround({ width, layout }) {
+  const { height } = layout
+  const seaW = Math.max(64, width * 0.14)
+  const coast = coastPath(height, seaW)
+  const inset = 6
+
+  return (
+    <>
+      <defs>
+        <pattern id="iter-grid-fine" width="64" height="64" patternUnits="userSpaceOnUse">
+          <path className="iter-map__ground-line" d="M64 0H0V64" />
+        </pattern>
+        <pattern id="iter-grid-major" width="320" height="320" patternUnits="userSpaceOnUse">
+          <path className="iter-map__ground-line is-major" d="M320 0H0V320" />
+        </pattern>
+        <pattern id="iter-contour" width="260" height="180" patternUnits="userSpaceOnUse">
+          <path className="iter-map__ground-contour" d="M0 46 C64 20 196 72 260 46" />
+          <path className="iter-map__ground-contour" d="M0 124 C64 98 196 150 260 124" />
+        </pattern>
+      </defs>
+
+      <path className="iter-map__ground-coast-fill" d={`${coast} L0 ${height} L0 0 Z`} />
+      <path className="iter-map__ground-coast" d={coast} />
+      <ellipse className="iter-map__ground-island" cx={seaW * 0.46} cy={height * 0.23} rx="13" ry="5" />
+      <ellipse className="iter-map__ground-island" cx={seaW * 0.3} cy={height * 0.49} rx="8" ry="3.5" />
+      <ellipse className="iter-map__ground-island" cx={seaW * 0.55} cy={height * 0.76} rx="15" ry="6" />
+
+      <rect
+        className="iter-map__ground-grid"
+        x="0"
+        y="0"
+        width={width}
+        height={height}
+        fill="url(#iter-grid-fine)"
+      />
+      <rect
+        className="iter-map__ground-grid is-major"
+        x="0"
+        y="0"
+        width={width}
+        height={height}
+        fill="url(#iter-grid-major)"
+      />
+      <rect
+        className="iter-map__ground-contours"
+        x="0"
+        y="0"
+        width={width}
+        height={height}
+        fill="url(#iter-contour)"
+      />
+
+      {PLACES.map((place) => (
+        <text
+          key={place.name}
+          className="iter-map__ground-place"
+          x={place.side === 'left' ? seaW + 20 : width - 20}
+          y={height * place.at}
+          textAnchor={place.side === 'left' ? 'start' : 'end'}
+        >
+          {place.name}
+        </text>
+      ))}
+
+      <CompassRose x={width - 44} y={54} />
+      <ScaleBar x={24} y={height - 26} />
+
+      <rect
+        className="iter-map__ground-frame"
+        x={inset}
+        y={inset}
+        width={width - inset * 2}
+        height={height - inset * 2}
+        rx="2"
+      />
+    </>
+  )
+}
+
+/* The via itself: a paved roadbed with kerbs, milestones at the stage gates,
+   two rivers with bridges, and an aqueduct in the margin. */
+function ViaGround({ width, layout }) {
+  const { height, d, kerbLeft, kerbRight, roadX, items } = layout
+  const gates = items.filter((item) => item.type === 'gate')
+  const rivers = [height * 0.32, height * 0.69]
+
+  return (
+    <>
+      <defs>
+        <pattern id="iter-paving" width="22" height="16" patternUnits="userSpaceOnUse">
+          <path className="iter-map__ground-paving-line" d="M0 3 L6 1 L11 4 L5 7 Z" />
+          <path className="iter-map__ground-paving-line" d="M11 4 L17 2 L22 5 L16 8 Z" />
+          <path className="iter-map__ground-paving-line" d="M1 11 L7 9 L13 12 L7 15 Z" />
+          <path className="iter-map__ground-paving-line" d="M13 12 L19 10 L22 13 L16 15 Z" />
+        </pattern>
+      </defs>
+
+      <path className="iter-map__ground-shoulder" d={d} />
+      <path className="iter-map__ground-bed-base" d={d} />
+      <path className="iter-map__ground-bed" d={d} stroke="url(#iter-paving)" />
+      <path className="iter-map__ground-kerb" d={kerbLeft} />
+      <path className="iter-map__ground-kerb" d={kerbRight} />
+
+      {rivers.map((baseY, index) => {
+        const x = roadX(baseY)
+        const y = riverYAt(x, baseY)
+        return (
+          <g key={`river-${index}`}>
+            <path className="iter-map__ground-river is-water" d={riverPath(width, baseY)} />
+            <path className="iter-map__ground-river" d={riverPath(width, baseY)} />
+            <path className="iter-map__ground-river is-bank" d={riverPath(width, baseY + 6)} />
+            <Bridge x={x} y={y} />
+          </g>
+        )
+      })}
+
+      {gates.map((gate, index) => (
+        <Milestone
+          key={`milestone-${gate.stage.id}`}
+          x={gate.x - gate.side * 34}
+          y={gate.y + 18}
+          numeral={ROMAN[index] || index + 1}
+        />
+      ))}
+
+      <Aqueduct x={Math.max(12, width - 132)} y={height * 0.56} />
+    </>
+  )
+}
+
+function coastPath(height, seaW) {
+  const points = []
+  for (let y = 0; y < height; y += 26) {
+    const x = seaW + 9 * Math.sin(y / 96) + 3.5 * Math.sin(y / 29 + 0.8)
+    points.push([x, y])
+  }
+  points.push([
+    seaW + 9 * Math.sin(height / 96) + 3.5 * Math.sin(height / 29 + 0.8),
+    height,
+  ])
+  return points
+    .map(([x, y], index) => `${index ? 'L' : 'M'}${x.toFixed(1)} ${y.toFixed(1)}`)
+    .join('')
+}
+
+function riverYAt(x, baseY) {
+  return baseY + 8 * Math.sin(x / 62) + 3.5 * Math.sin(x / 23 + 1.1)
+}
+
+function riverPath(width, baseY) {
+  const points = []
+  for (let x = -24; x <= width + 24; x += 18) points.push([x, riverYAt(x, baseY)])
+  return points
+    .map(([x, y], index) => `${index ? 'L' : 'M'}${x.toFixed(1)} ${y.toFixed(1)}`)
+    .join('')
+}
+
+function CompassRose({ x, y }) {
+  return (
+    <g className="iter-map__ground-compass" transform={`translate(${x} ${y})`}>
+      <circle r="17" />
+      <circle r="11" />
+      <path d="M0 -22 L3.5 0 L0 22 L-3.5 0 Z" />
+      <path d="M-22 0 L0 3.5 L22 0 L0 -3.5 Z" />
+      <text x="0" y="-26" textAnchor="middle">N</text>
+    </g>
+  )
+}
+
+function ScaleBar({ x, y }) {
+  return (
+    <g className="iter-map__ground-scale" transform={`translate(${x} ${y})`}>
+      <path d="M0 0 H96 M0 -4 V4 M48 -3 V3 M96 -4 V4" />
+      <text x="0" y="-8">MILIA PASSVVM</text>
+    </g>
+  )
+}
+
+function Bridge({ x, y }) {
+  return (
+    <g className="iter-map__ground-bridge" transform={`translate(${x} ${y})`}>
+      <path d="M-14 4 H14" />
+      <path d="M-14 4 Q0 -8 14 4" />
+      <path d="M-10 4 V9 M10 4 V9" />
+    </g>
+  )
+}
+
+function Milestone({ x, y, numeral }) {
+  return (
+    <g className="iter-map__ground-milestone" transform={`translate(${x} ${y})`}>
+      <rect x="-4.5" y="-8" width="9" height="16" rx="2" />
+      <text x="0" y="2.4" textAnchor="middle">{numeral}</text>
+    </g>
+  )
+}
+
+function Aqueduct({ x, y }) {
+  return (
+    <g className="iter-map__ground-aqueduct" transform={`translate(${x} ${y})`}>
+      <path d="M0 0 H84 M0 3 H84" />
+      <path d="M0 0 V20 M28 0 V20 M56 0 V20 M84 0 V20" />
+      <path d="M0 20 A14 14 0 0 1 28 20" />
+      <path d="M28 20 A14 14 0 0 1 56 20" />
+      <path d="M56 20 A14 14 0 0 1 84 20" />
+    </g>
   )
 }
