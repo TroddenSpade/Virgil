@@ -59,6 +59,38 @@ export default function Home() {
   return (
     <>
       <section className="hero">
+        {/* The poet and the opening of the Aeneid, printed faintly as the
+            hero's ground. Decorative: the reading text is in the copy. */}
+        <div className="hero__art" aria-hidden="true">
+          <div className="hero__art-poem">
+            <p className="hero__art-label">Aeneis · Liber I</p>
+            <p className="hero__art-verses" lang="la">
+              Arma virumque canō, Troiae quī prīmus ab ōrīs
+              <br />
+              Ītaliam fātō profugus Lāvīniaque vēnit
+              <br />
+              lītora, multum ille et terrīs iactātus et altō
+              <br />
+              vī superum saevae memorem Iūnōnis ob īram;
+              <br />
+              multa quoque et bellō passus, dum conderet urbem
+              <br />
+              īnferretque deōs Latiō, genus unde Latīnum
+              <br />
+              Albānīque patrēs atque altae moenia Rōmae.
+            </p>
+            <p className="hero__art-ref">I.1–7</p>
+          </div>
+
+          <figure className="hero__art-figure">
+            <span className="hero__art-sketch" />
+            <figcaption className="hero__art-caption">
+              <span className="hero__art-name">PVBLIVS VERGILIVS MARO</span>
+              <span className="hero__art-dates">70–19 BC · Mantua</span>
+            </figcaption>
+          </figure>
+        </div>
+
         <div className="container hero__inner">
           <div className="hero__copy">
             <p className="hero__inscription rise">
@@ -67,7 +99,9 @@ export default function Home() {
             <h1 className="hero__title rise">
               Learn Latin,
               <br />
-              and arrive at <em>Virgil</em>.
+              and arrive at
+              <br />
+              <em>Virgil</em>.
             </h1>
             <p className="hero__lead lead rise">
               Virgil is a Latin reading project. You begin with the first sentence of Ørberg’s{' '}
@@ -101,21 +135,6 @@ export default function Home() {
               </li>
             </ul>
           </div>
-
-          <figure className="hero__portrait rise">
-            <div className="hero__portrait-frame">
-              <img
-                src={`${import.meta.env.BASE_URL}icons/icon-512.png`}
-                alt="Engraved medallion portrait of the poet Virgil"
-                width="512"
-                height="512"
-              />
-            </div>
-            <figcaption>
-              <span className="hero__portrait-name">PVBLIVS·VERGILIVS·MARO</span>
-              <span className="hero__portrait-dates">70–19 BC · Mantua</span>
-            </figcaption>
-          </figure>
         </div>
       </section>
 

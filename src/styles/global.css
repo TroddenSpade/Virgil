@@ -640,7 +640,7 @@ main {
 
 /* ---------- Responsive furniture ---------- */
 
-@media (max-width: 760px) {
+@media (max-width: 880px) {
   .site-footer__inner {
     grid-template-columns: 1fr 1fr;
     gap: 1.75rem;

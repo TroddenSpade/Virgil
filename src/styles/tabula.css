@@ -13,20 +13,17 @@
   overflow: hidden;
 }
 
-/* Concentric guide-lines, like the compass marks on a coin die. */
+/* A warm plate-tone under the engraving. */
 .hero::before {
   content: '';
   position: absolute;
   inset: 0;
-  background: repeating-radial-gradient(
-    circle at 82% 44%,
-    transparent 0 26px,
-    color-mix(in srgb, var(--bronze) 10%, transparent) 26px 27px
+  background: radial-gradient(
+    780px 560px at 80% 42%,
+    color-mix(in srgb, var(--bronze) 7%, transparent),
+    transparent 72%
   );
-  -webkit-mask-image: radial-gradient(circle at 82% 44%, #000 0 290px, transparent 330px);
-  mask-image: radial-gradient(circle at 82% 44%, #000 0 290px, transparent 330px);
   pointer-events: none;
-  opacity: 0.7;
 }
 
 .hero::after {
@@ -34,8 +31,8 @@
   position: absolute;
   inset: 0;
   background: radial-gradient(
-    620px 340px at 84% 28%,
-    color-mix(in srgb, var(--patina) 10%, transparent),
+    620px 340px at 84% 24%,
+    color-mix(in srgb, var(--patina) 8%, transparent),
     transparent 70%
   );
   pointer-events: none;
@@ -44,10 +41,6 @@
 .hero__inner {
   position: relative;
   z-index: 1;
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 300px;
-  gap: clamp(2.5rem, 6vw, 5rem);
-  align-items: center;
   max-width: none;
 }
 
@@ -150,67 +143,114 @@
   color: var(--ink);
 }
 
-/* The portrait seal */
-.hero__portrait {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.1rem;
-}
+/* ---------- The hero plate: the poet and the opening of the Aeneid ---------- */
 
-.hero__portrait-frame {
-  position: relative;
-  width: min(300px, 100%);
-  aspect-ratio: 1;
-  padding: 9px;
-  border-radius: 50%;
-  border: 1px solid var(--line-strong);
-  background: var(--surface);
-  box-shadow:
-    0 0 0 6px var(--paper),
-    0 0 0 7px var(--line),
-    0 24px 44px -28px rgba(25, 22, 15, 0.75);
-}
-
-/* Four bronze registration marks, as on a printer's plate. */
-.hero__portrait-frame::after {
-  content: '';
+.hero__art {
   position: absolute;
-  inset: -7px;
-  border-radius: 50%;
-  background:
-    linear-gradient(var(--bronze), var(--bronze)) center top / 1px 9px no-repeat,
-    linear-gradient(var(--bronze), var(--bronze)) center bottom / 1px 9px no-repeat,
-    linear-gradient(var(--bronze), var(--bronze)) left center / 9px 1px no-repeat,
-    linear-gradient(var(--bronze), var(--bronze)) right center / 9px 1px no-repeat;
+  inset: 0 0 0 auto;
+  width: min(52%, 760px);
   pointer-events: none;
 }
 
-.hero__portrait-frame img {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
+/* The poem sits between the copy and the bust, fading under the engraving. */
+.hero__art-poem {
+  position: absolute;
+  left: clamp(2.5rem, 4vw, 3.5rem);
+  top: 47%;
+  width: clamp(230px, 21vw, 310px);
+  transform: translateY(-50%);
+  -webkit-mask-image: linear-gradient(90deg, #000 0, #000 86%, transparent);
+  mask-image: linear-gradient(90deg, #000 0, #000 86%, transparent);
 }
 
-.hero__portrait figcaption {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.25rem;
-  text-align: center;
-}
-.hero__portrait-name {
+.hero__art-label {
+  margin: 0 0 0.7rem;
   font-family: var(--font-ui);
-  font-size: 0.6rem;
+  font-size: 0.56rem;
   font-weight: 700;
-  letter-spacing: 0.24em;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--bronze) 78%, transparent);
+}
+
+.hero__art-verses {
+  margin: 0;
+  font-family: var(--font-latin);
+  font-style: italic;
+  font-size: clamp(0.78rem, 0.72rem + 0.18vw, 0.9rem);
+  line-height: 1.78;
+  text-align: left;
+  color: color-mix(in srgb, var(--ink-soft) 45%, transparent);
+}
+
+/* The incipit: a bronze capital, as in a printed edition. */
+.hero__art-verses::first-letter {
+  float: left;
+  margin: 0.04em 0.12em 0 0;
+  font-family: var(--font-display);
+  font-style: normal;
+  font-size: 3.1em;
+  line-height: 0.78;
   color: var(--bronze);
 }
-.hero__portrait-dates {
+
+.hero__art-ref {
+  margin: 0.7rem 0 0;
+  font-family: var(--font-ui);
+  font-size: 0.52rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: color-mix(in srgb, var(--bronze) 70%, transparent);
+}
+
+/* The engraving: the traced plate, coloured with the palette's bronze. */
+.hero__art-figure {
+  position: absolute;
+  right: clamp(0.5rem, 2vw, 2rem);
+  bottom: clamp(2rem, 5vw, 3.5rem);
+  width: clamp(300px, 29vw, 420px);
+  margin: 0;
+}
+
+.hero__art-sketch {
+  display: block;
+  width: 100%;
+  aspect-ratio: 573 / 750;
+  background: var(--bronze);
+  opacity: 0.56;
+  -webkit-mask-image: url('../assets/virgil-sketch.svg');
+  mask-image: url('../assets/virgil-sketch.svg');
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+.hero__art-caption {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.18rem;
+  margin-top: 0.9rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--line);
+  text-align: right;
+}
+
+.hero__art-name {
+  font-family: var(--font-ui);
+  font-size: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  color: var(--bronze);
+}
+
+.hero__art-dates {
   font-family: var(--font-serif);
   font-style: italic;
-  font-size: 0.9rem;
+  font-size: 0.82rem;
   color: var(--ink-faint);
 }
 
@@ -999,22 +1039,70 @@
 
 /* ---------- Small screens ---------- */
 
-@media (max-width: 900px) {
-  .hero__inner {
-    grid-template-columns: 1fr;
-    gap: 2.5rem;
+/* Below the wide page the plate leaves the margin and becomes a frontispiece
+   above the copy: poem on the left, engraving on the right. */
+@media (max-width: 1200px) {
+  .hero__art {
+    position: relative;
+    inset: auto;
+    width: min(760px, 100% - 2.6rem);
+    height: 560px;
+    margin: 2.4rem auto 0;
   }
-  .hero__portrait {
-    justify-self: center;
+
+  .hero__art-poem {
+    left: 0;
+    top: 50%;
+    width: min(320px, 44%);
   }
-  .hero__portrait-frame {
-    width: min(240px, 64vw);
+
+  .hero__art-figure {
+    right: 0;
+    bottom: 0;
+    width: min(380px, 52%);
   }
 }
 
 @media (max-width: 640px) {
   .hero {
     padding-top: 2.8rem;
+  }
+  .hero__art {
+    height: 400px;
+    margin-top: 2rem;
+  }
+  /* The poem becomes the ground of the whole plate, behind the bust. */
+  .hero__art-poem {
+    left: 0;
+    top: 8%;
+    width: 100%;
+    max-height: 80%;
+    overflow: hidden;
+    transform: none;
+    columns: 2;
+    column-gap: 1.4rem;
+    -webkit-mask-image: linear-gradient(180deg, #000 55%, transparent);
+    mask-image: linear-gradient(180deg, #000 55%, transparent);
+  }
+  .hero__art-label,
+  .hero__art-ref {
+    column-span: all;
+  }
+  .hero__art-verses {
+    font-size: 0.72rem;
+    line-height: 1.65;
+    color: color-mix(in srgb, var(--ink-soft) 30%, transparent);
+  }
+  .hero__art-figure {
+    left: 50%;
+    right: auto;
+    bottom: 0;
+    width: min(260px, 64%);
+    transform: translateX(-50%);
+  }
+  .hero__art-caption {
+    align-items: center;
+    text-align: center;
   }
   .hero__title {
     font-size: clamp(2.35rem, 11vw, 3.4rem);
