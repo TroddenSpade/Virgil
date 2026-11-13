@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
+import { norm, hasDefinition, wordHref } from '../lib/dictionary.js'
 
 const POS_ORDER = [
   'noun',
@@ -16,13 +17,7 @@ const POS_ORDER = [
   'other',
 ]
 
-const norm = (s) =>
-  (s || '')
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase()
-
-const PAGE_SIZE = 60
+const PAGE_SIZE = 120
 
 export default function Dictionary() {
   const [data, setData] = useState(null)
@@ -76,12 +71,30 @@ export default function Dictionary() {
   return (
     <section className="section dictionary-page">
       <div className="container">
-        <p className="eyebrow">Lexicon</p>
-        <h1>The Dictionary</h1>
-        <p className="lead dictionary-page__lead">
-          Every word from all course books, with its meaning, part of speech, and examples from the readings.
-          Latin headwords carry their macra for checking and proofreading.
-        </p>
+        <header className="dictionary-hero">
+          <p className="eyebrow">Lexicon</p>
+          <h1>The Dictionary</h1>
+          <p className="lead dictionary-page__lead">
+            Every word gathered from the readings of the course, with its part of speech and the
+            passages where it occurs. Headwords carry their macra, so the lexicon can be used when
+            checking or proofreading a line of Latin.
+          </p>
+
+          <dl className="dictionary-stats">
+            <div>
+              <dt>Entries</dt>
+              <dd>{stats.entries.toLocaleString()}</dd>
+            </div>
+            <div>
+              <dt>With passages</dt>
+              <dd>{stats.withExamples.toLocaleString()}</dd>
+            </div>
+            <div>
+              <dt>Letters</dt>
+              <dd>{letters.length}</dd>
+            </div>
+          </dl>
+        </header>
 
         {error && <p className="notice">Could not load the dictionary. {error.message}</p>}
 
@@ -89,21 +102,9 @@ export default function Dictionary() {
 
         {data && (
           <>
-            <div className="dictionary-stats">
-              <span>
-                <strong>{stats.entries.toLocaleString()}</strong> entries
-              </span>
-              <span>
-                <strong>{stats.withExamples.toLocaleString()}</strong> with examples
-              </span>
-              <span>
-                <strong>{letters.length}</strong> letters
-              </span>
-            </div>
-
-            <div className="dictionary-controls card">
-              <label className="dictionary-search">
-                <span className="dictionary-search__label">Search Latin or English</span>
+            <div className="dictionary-tools">
+              <label className="dictionary-field">
+                <span className="dictionary-field__label">Search Latin or English</span>
                 <input
                   type="search"
                   value={query}
@@ -113,8 +114,8 @@ export default function Dictionary() {
                 />
               </label>
 
-              <label className="dictionary-select">
-                <span>Part of speech</span>
+              <label className="dictionary-field">
+                <span className="dictionary-field__label">Part of speech</span>
                 <select value={pos} onChange={(event) => setPos(event.target.value)}>
                   <option value="all">All</option>
                   {posOptions.map((group) => (
@@ -126,7 +127,7 @@ export default function Dictionary() {
               </label>
             </div>
 
-            <div className="dictionary-letters" aria-label="Filter by first letter">
+            <nav className="dictionary-letters" aria-label="Filter by first letter">
               <button
                 type="button"
                 className={letter === 'all' ? 'is-active' : ''}
@@ -144,60 +145,61 @@ export default function Dictionary() {
                   {item.toUpperCase()}
                 </button>
               ))}
-            </div>
+            </nav>
 
-            <p className="dictionary-count muted">
-              {filtered.length.toLocaleString()} {filtered.length === 1 ? 'entry' : 'entries'}
-              {query && ` matching “${query}”`}
+            <p className="dictionary-count">
+              <strong>{filtered.length.toLocaleString()}</strong>{' '}
+              {filtered.length === 1 ? 'entry' : 'entries'}
+              {letter !== 'all' && <> in <strong>{letter.toUpperCase()}</strong></>}
+              {query && <> matching “{query}”</>}
             </p>
 
             <div className="dictionary-grid">
               {filtered.slice(0, visible).map((entry) => (
-                <Link
-                  to={`/dictionary/${encodeURIComponent(entry.headword)}`}
-                  className="dict-entry card"
-                  key={entry.id}
-                >
-                  <h2 className="dict-entry__latin latin">{entry.latin}</h2>
-                  {entry.pos && <span className="dict-entry__pos">{entry.pos}</span>}
-                  <p className="dict-entry__meaning">{entry.english}</p>
-                  {entry.sources?.length > 0 && (
-                    <p className="dict-entry__sources">
-                      {entry.sources.slice(0, 3).map((source, index) => (
-                        <span key={source.book + source.number}>
-                          {index > 0 && <span aria-hidden="true"> · </span>}
-                          <span className="dict-source">{source.book} {source.roman}</span>
-                        </span>
-                      ))}
-                      {entry.sources.length > 3 && (
-                        <span className="muted"> +{entry.sources.length - 3} more</span>
-                      )}
+                <Link to={wordHref(entry.headword)} className="dict-entry" key={entry.id}>
+                  <div className="dict-entry__head">
+                    <h2 className="dict-entry__latin latin">{entry.latin}</h2>
+                    {entry.pos && entry.pos !== 'other' && (
+                      <span className="dict-entry__pos">{entry.pos}</span>
+                    )}
+                  </div>
+
+                  {hasDefinition(entry.english) ? (
+                    <p className="dict-entry__meaning">{entry.english}</p>
+                  ) : (
+                    <p className="dict-entry__meaning dict-entry__meaning--none">
+                      Definition not yet recorded.
                     </p>
                   )}
-                  {entry.examples?.length > 0 && (
-                    <div className="dict-entry__examples-preview">
-                      {entry.examples.slice(0, 1).map((example, index) => (
-                        <blockquote className="dict-example" key={index}>
-                          <p className="dict-example__latin latin">{example.latin}</p>
-                        </blockquote>
-                      ))}
-                    </div>
-                  )}
+
+                  <div className="dict-entry__foot">
+                    <span className="dict-entry__book">
+                      {entry.sources?.[0]?.book || 'Lexicon'}
+                    </span>
+                    {entry.examples?.length > 0 && (
+                      <span className="dict-entry__passages">
+                        {entry.examples.length}
+                        {entry.examples.length === 1 ? ' passage' : ' passages'}
+                      </span>
+                    )}
+                  </div>
                 </Link>
               ))}
             </div>
 
             {filtered.length > visible && (
               <div className="dictionary-more">
-                <button type="button" className="btn btn--ghost" onClick={() => setVisible((v) => v + PAGE_SIZE)}>
+                <button
+                  type="button"
+                  className="btn btn--ghost"
+                  onClick={() => setVisible((value) => value + PAGE_SIZE)}
+                >
                   Show more ({filtered.length - visible} remaining)
                 </button>
               </div>
             )}
 
-            {filtered.length === 0 && (
-              <p className="dictionary-empty muted">No words match that search.</p>
-            )}
+            {filtered.length === 0 && <p className="dictionary-empty muted">No words match that search.</p>}
           </>
         )}
       </div>

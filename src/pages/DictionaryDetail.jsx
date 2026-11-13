@@ -1,16 +1,14 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
+import { norm, hasDefinition, bookHref, wordHref, exampleSegments } from '../lib/dictionary.js'
 
-const norm = (s) =>
-  (s || '')
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase()
+const EXAMPLE_LIMIT = 12
 
 export default function DictionaryDetail() {
   const { word } = useParams()
   const [data, setData] = useState(null)
   const [error, setError] = useState(null)
+  const [showAll, setShowAll] = useState(false)
 
   useEffect(() => {
     let cancelled = false
@@ -26,19 +24,39 @@ export default function DictionaryDetail() {
     }
   }, [])
 
-  const headword = word
-  const normHeadword = norm(headword)
+  // Reset the passage list whenever the reader moves to another word.
+  useEffect(() => {
+    setShowAll(false)
+  }, [word])
 
-  const entry = useMemo(() => {
-    if (!data) return null
-    return data.entries.find((e) => norm(e.headword) === normHeadword)
-  }, [data, normHeadword])
+  const entries = data?.entries || []
+  const normWord = norm(word)
+
+  const index = useMemo(
+    () => entries.findIndex((entry) => norm(entry.headword) === normWord),
+    [entries, normWord],
+  )
+  const entry = index >= 0 ? entries[index] : null
+  const prev = index > 0 ? entries[index - 1] : null
+  const next = index >= 0 && index < entries.length - 1 ? entries[index + 1] : null
+
+  const crumb = (
+    <nav className="dict-crumb">
+      <Link to="/dictionary">← Lexicon</Link>
+      {entry?.letter && (
+        <>
+          <span aria-hidden="true">·</span>
+          <span>Letter {entry.letter.toUpperCase()}</span>
+        </>
+      )}
+    </nav>
+  )
 
   if (error) {
     return (
-      <section className="section dictionary-detail-page">
-        <div className="container">
-          <p className="eyebrow">Lexicon</p>
+      <section className="section dictionary-leaf-page">
+        <div className="container-narrow">
+          {crumb}
           <h1>Dictionary</h1>
           <p className="notice">Could not load the dictionary. {error.message}</p>
         </div>
@@ -48,9 +66,9 @@ export default function DictionaryDetail() {
 
   if (!data) {
     return (
-      <section className="section dictionary-detail-page">
-        <div className="container">
-          <p className="eyebrow">Lexicon</p>
+      <section className="section dictionary-leaf-page">
+        <div className="container-narrow">
+          {crumb}
           <h1>Dictionary</h1>
           <p className="muted">Loading the dictionary…</p>
         </div>
@@ -60,77 +78,123 @@ export default function DictionaryDetail() {
 
   if (!entry) {
     return (
-      <section className="section dictionary-detail-page">
-        <div className="container">
-          <p className="eyebrow">Lexicon</p>
-          <h1>Dictionary</h1>
-          <p className="notice">Word not found: “{headword}”</p>
-          <p className="muted">
-            <Link to="/dictionary">← Back to Dictionary</Link>
-          </p>
+      <section className="section dictionary-leaf-page">
+        <div className="container-narrow">
+          <nav className="dict-crumb">
+            <Link to="/dictionary">← Lexicon</Link>
+          </nav>
+          <div className="lexicon lexicon--empty">
+            <p className="eyebrow">Lexicon</p>
+            <h1 className="lexicon__latin latin">{word}</h1>
+            <p className="lexicon__meaning lexicon__meaning--none">
+              This word is not in the lexicon.
+            </p>
+            <p>
+              <Link className="btn btn--ghost btn--sm" to="/dictionary">
+                Back to the dictionary
+              </Link>
+            </p>
+          </div>
         </div>
       </section>
     )
   }
 
+  const examples = entry.examples || []
+  const shown = showAll ? examples : examples.slice(0, EXAMPLE_LIMIT)
+
   return (
-    <section className="section dictionary-detail-page">
-      <div className="container">
-        <p className="eyebrow">Lexicon</p>
+    <section className="section dictionary-leaf-page">
+      <div className="container-narrow">
+        {crumb}
 
-        <header className="dictionary-detail__header">
-          <Link to="/dictionary" className="dictionary-back">
-            ← Back to Dictionary
-          </Link>
-          <h1 className="dictionary-detail__latin latin">{entry.latin}</h1>
-          <div className="dictionary-detail__meta">
-            {entry.pos && <span className="dictionary-detail__pos">{entry.pos}</span>}
-            {entry.posGroup && <span className="muted">{entry.posGroup}</span>}
-            {entry.letter && <span className="muted">Letter: {entry.letter.toUpperCase()}</span>}
-          </div>
-        </header>
-
-        <p className="dictionary-detail__meaning">{entry.english}</p>
-
-        {entry.sources?.length > 0 && (
-          <section className="dictionary-detail__sources">
-            <p className="dictionary-detail__sources-title">Sources</p>
-            <div className="dictionary-detail__sources-list">
-              {entry.sources.map((source, index) => (
-                <span key={source.book + source.number} className="dictionary-detail__source">
-                  {index > 0 && <span aria-hidden="true"> · </span>}
-                  <Link to={`/library/${source.bookSlug}/${source.slug}`} className="dictionary-detail__source">
-                    {source.book} {source.roman}: {source.title}
-                  </Link>
+        <article className="lexicon">
+          <header className="lexicon__head">
+            <p className="eyebrow">Lexicon</p>
+            <h1 className="lexicon__latin latin">{entry.latin}</h1>
+            <div className="lexicon__meta">
+              {entry.pos && entry.pos !== 'other' && <span className="lexicon__pos">{entry.pos}</span>}
+              {entry.sources?.[0] && (
+                <Link className="lexicon__source" to={bookHref(entry.sources[0])}>
+                  {entry.sources[0].book}
+                </Link>
+              )}
+              {examples.length > 0 && (
+                <span className="muted">
+                  {examples.length} {examples.length === 1 ? 'passage' : 'passages'}
                 </span>
-              ))}
+              )}
             </div>
-          </section>
-        )}
+          </header>
 
-        {entry.examples?.length > 0 && (
-          <section className="dictionary-detail__examples">
-            <p className="dictionary-detail__examples-title">Example Sentences</p>
-            <div className="dictionary-detail__examples-list">
-              {entry.examples.map((example, index) => (
-                <blockquote className="dict-example" key={index}>
-                  <p className="dict-example__latin latin">{example.latin}</p>
-                  <footer className="dict-example__source">
-                    {example.reading}
-                    {' · '}
-                    <Link to={`/library/${example.bookSlug}/${example.slug}`} className="dict-example__source">
-                      {example.book} {example.roman}
-                    </Link>
-                  </footer>
-                </blockquote>
-              ))}
-            </div>
+          <section className="lexicon__sense">
+            <p className="lexicon__section-title">Sense</p>
+            {hasDefinition(entry.english) ? (
+              <p className="lexicon__meaning">{entry.english}</p>
+            ) : (
+              <p className="lexicon__meaning lexicon__meaning--none">
+                No definition is recorded for this word in the course vocabulary. Its use can be read
+                in the passages below.
+              </p>
+            )}
           </section>
-        )}
 
-        <Link to="/dictionary" className="dictionary-back">
-          ← Back to Dictionary
-        </Link>
+          {examples.length > 0 && (
+            <section className="lexicon__passages">
+              <p className="lexicon__section-title">
+                In the readings
+                <span className="lexicon__section-count">{examples.length}</span>
+              </p>
+              <ol className="lexicon__examples">
+                {shown.map((example, i) => (
+                  <li className="dict-example" key={`${example.book}-${i}`}>
+                    <p className="dict-example__latin latin">
+                      {exampleSegments(example.latin).map((segment, j) =>
+                        segment.mark ? (
+                          <mark className="dict-mark" key={j}>
+                            {segment.t}
+                          </mark>
+                        ) : (
+                          <span key={j}>{segment.t}</span>
+                        ),
+                      )}
+                    </p>
+                    <p className="dict-example__source">{example.book}</p>
+                  </li>
+                ))}
+              </ol>
+
+              {examples.length > shown.length && (
+                <div className="lexicon__more">
+                  <button type="button" className="btn btn--ghost btn--sm" onClick={() => setShowAll(true)}>
+                    Show all {examples.length} passages
+                  </button>
+                </div>
+              )}
+            </section>
+          )}
+        </article>
+
+        {(prev || next) && (
+          <nav className="dict-neighbours" aria-label="Nearby words">
+            {prev ? (
+              <Link className="dict-neighbours__link" to={wordHref(prev.headword)}>
+                <span aria-hidden="true">←</span>
+                <span className="latin">{prev.latin}</span>
+              </Link>
+            ) : (
+              <span />
+            )}
+            {next ? (
+              <Link className="dict-neighbours__link" to={wordHref(next.headword)}>
+                <span className="latin">{next.latin}</span>
+                <span aria-hidden="true">→</span>
+              </Link>
+            ) : (
+              <span />
+            )}
+          </nav>
+        )}
       </div>
     </section>
   )

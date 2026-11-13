@@ -909,61 +909,6 @@
   color: var(--bronze);
 }
 
-/* ---------- Dictionary ---------- */
-
-.dictionary-controls {
-  border-radius: 2px;
-  box-shadow: var(--frame);
-}
-.dictionary-search input,
-.dictionary-select select {
-  border-radius: 2px;
-  border: 1px solid var(--line);
-  background: var(--surface-2);
-}
-.dictionary-search input:focus,
-.dictionary-select select:focus {
-  outline: 2px solid var(--patina);
-  outline-offset: 1px;
-}
-.dictionary-letters button {
-  border-radius: 2px;
-  font-family: var(--font-ui);
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  background: var(--surface);
-}
-.dictionary-letters button:hover {
-  color: var(--patina);
-  border-color: var(--bronze);
-}
-.dictionary-letters button.is-active {
-  background: var(--patina);
-  border-color: var(--patina);
-  color: var(--on-accent);
-}
-.dict-entry {
-  border-radius: 2px;
-  box-shadow: var(--frame);
-}
-.dict-entry__latin {
-  font-family: var(--font-latin);
-  font-size: 1.3rem;
-}
-.dict-entry__pos {
-  border-radius: 2px;
-  color: var(--bronze);
-  border-color: color-mix(in srgb, var(--bronze) 32%, var(--line));
-  letter-spacing: 0.08em;
-}
-.dict-example {
-  border-left: 2px solid color-mix(in srgb, var(--bronze) 48%, transparent);
-}
-.dict-example__latin {
-  font-family: var(--font-latin);
-}
-
 /* ---------- PWA notices ---------- */
 
 .pwa-update {
