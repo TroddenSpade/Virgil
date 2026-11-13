@@ -22,7 +22,7 @@ const norm = (s) =>
     .replace(/[\u0300-\u036f]/g, '')
     .toLowerCase()
 
-const PAGE_SIZE = 80
+const PAGE_SIZE = 60
 
 export default function Dictionary() {
   const [data, setData] = useState(null)
@@ -79,13 +79,8 @@ export default function Dictionary() {
         <p className="eyebrow">Lexicon</p>
         <h1>The Dictionary</h1>
         <p className="lead dictionary-page__lead">
-          Every word taught in <em>Familia Romana</em> and <em>Roma Aeterna</em>, with its meaning, part of
-          speech and examples drawn from the readings. Latin headwords carry their macra, so the dictionary can
-          be used when checking or proofreading a passage.
-        </p>
-        <p className="muted dictionary-page__note">
-          Examples are quoted from the course readings. The English meanings at the head of each entry are the
-          senses taught in the course.
+          Every word from all course books, with its meaning, part of speech, and examples from the readings.
+          Latin headwords carry their macra for checking and proofreading.
         </p>
 
         {error && <p className="notice">Could not load the dictionary. {error.message}</p>}
@@ -156,49 +151,39 @@ export default function Dictionary() {
               {query && ` matching “${query}”`}
             </p>
 
-            <div className="dictionary-list">
+            <div className="dictionary-grid">
               {filtered.slice(0, visible).map((entry) => (
-                <article className="dict-entry card" key={entry.id}>
-                  <div className="dict-entry__top">
-                    <h2 className="dict-entry__latin latin">{entry.latin}</h2>
-                    {entry.pos && <span className="dict-entry__pos">{entry.pos}</span>}
-                  </div>
-
+                <Link
+                  to={`/dictionary/${encodeURIComponent(entry.headword)}`}
+                  className="dict-entry card"
+                  key={entry.id}
+                >
+                  <h2 className="dict-entry__latin latin">{entry.latin}</h2>
+                  {entry.pos && <span className="dict-entry__pos">{entry.pos}</span>}
                   <p className="dict-entry__meaning">{entry.english}</p>
-
                   {entry.sources?.length > 0 && (
                     <p className="dict-entry__sources">
-                      {entry.sources.slice(0, 4).map((source, index) => (
+                      {entry.sources.slice(0, 3).map((source, index) => (
                         <span key={source.book + source.number}>
                           {index > 0 && <span aria-hidden="true"> · </span>}
-                          <Link to={`/library/${source.bookSlug}/${source.slug}`}>
-                            {source.book} {source.roman}
-                          </Link>
+                          <span className="dict-source">{source.book} {source.roman}</span>
                         </span>
                       ))}
-                      {entry.sources.length > 4 && (
-                        <span className="muted"> +{entry.sources.length - 4} more</span>
+                      {entry.sources.length > 3 && (
+                        <span className="muted"> +{entry.sources.length - 3} more</span>
                       )}
                     </p>
                   )}
-
                   {entry.examples?.length > 0 && (
-                    <div className="dict-entry__examples">
-                      {entry.examples.map((example, index) => (
+                    <div className="dict-entry__examples-preview">
+                      {entry.examples.slice(0, 1).map((example, index) => (
                         <blockquote className="dict-example" key={index}>
                           <p className="dict-example__latin latin">{example.latin}</p>
-                          <footer className="dict-example__source">
-                            {example.reading}
-                            {' · '}
-                            <Link to={`/library/${example.bookSlug}/${example.slug}`}>
-                              {example.book} {example.roman}
-                            </Link>
-                          </footer>
                         </blockquote>
                       ))}
                     </div>
                   )}
-                </article>
+                </Link>
               ))}
             </div>
 
