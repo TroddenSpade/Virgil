@@ -4284,13 +4284,6 @@ button.lesson__keywords-label:focus-visible {
   fill: var(--bronze);
 }
 
-.iter-map__ground-aqueduct {
-  fill: none;
-  stroke: var(--bronze);
-  stroke-width: 1.1;
-  opacity: 0.24;
-}
-
 /* Stage dividers: a different kind of country under each stage heading. */
 .iter-map__divider {
   pointer-events: none;

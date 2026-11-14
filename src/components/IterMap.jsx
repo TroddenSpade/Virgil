@@ -862,8 +862,6 @@ function ViaGround({ width, layout }) {
           numeral={ROMAN[index] || index + 1}
         />
       ))}
-
-      <Aqueduct x={Math.max(12, width - 132)} y={height * 0.56} />
     </>
   )
 }
@@ -1077,18 +1075,6 @@ function Milestone({ x, y, numeral }) {
     <g className="iter-map__ground-milestone" transform={`translate(${x} ${y})`}>
       <rect x="-4.5" y="-8" width="9" height="16" rx="2" />
       <text x="0" y="2.4" textAnchor="middle">{numeral}</text>
-    </g>
-  )
-}
-
-function Aqueduct({ x, y }) {
-  return (
-    <g className="iter-map__ground-aqueduct" transform={`translate(${x} ${y})`}>
-      <path d="M0 0 H84 M0 3 H84" />
-      <path d="M0 0 V20 M28 0 V20 M56 0 V20 M84 0 V20" />
-      <path d="M0 20 A14 14 0 0 1 28 20" />
-      <path d="M28 20 A14 14 0 0 1 56 20" />
-      <path d="M56 20 A14 14 0 0 1 84 20" />
     </g>
   )
 }
