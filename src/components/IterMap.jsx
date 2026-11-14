@@ -25,8 +25,8 @@ const RAIL_ROWS_MIN = 7
 const RAIL_ROWS_MAX = 29
 
 const GROUNDS = [
-  ['tabula', 'Tabula'],
   ['via', 'Via'],
+  ['tabula', 'Tabula'],
   ['plain', 'Plain'],
 ]
 
@@ -164,8 +164,8 @@ export default function IterMap({ stages, isDone, nextLesson, onToggle }) {
   // The hover card: which stop, and which side of it to open on.
   const [tip, setTip] = useState(null)
   // The ground behind the road: an antique strip map, a built via, or plain paper.
-  const [ground, setGround] = useLocalStorage('virgil:iter-map-ground', 'tabula')
-  const groundMode = ground === 'via' || ground === 'plain' ? ground : 'tabula'
+  const [ground, setGround] = useLocalStorage('virgil:iter-map-ground', 'via')
+  const groundMode = ground === 'tabula' || ground === 'plain' ? ground : 'via'
   // Which milestone and which lesson sit under the reading line.
   const [active, setActive] = useState({ gate: null, lesson: null })
   const layout = useMemo(
