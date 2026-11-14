@@ -3,6 +3,7 @@ import { useLocation, useNavigate } from 'react-router-dom'
 import { getBook } from '../data/library.js'
 import { useLocalStorage } from '../hooks/useLocalStorage.js'
 import { primaryKeywordLabels } from './KeywordChips.jsx'
+import { Scenery } from './IterScenes.jsx'
 
 const ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII']
 
@@ -864,6 +865,8 @@ function ViaGround({ width, layout }) {
           numeral={ROMAN[index] || index + 1}
         />
       ))}
+
+      <Scenery items={items} width={width} />
     </>
   )
 }
