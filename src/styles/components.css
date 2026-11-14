@@ -4359,6 +4359,21 @@ button.lesson__keywords-label:focus-visible {
   opacity: 0.5;
 }
 
+/* Roman country vignettes in the margins beside the stage headings. */
+.iter-map__vignette {
+  pointer-events: none;
+  fill: none;
+  stroke: var(--bronze);
+  stroke-width: 1;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  opacity: 0.24;
+}
+.iter-map__vignette.is-nature {
+  stroke: var(--patina);
+  opacity: 0.22;
+}
+
 /* Phones keep the road clear: the cartographic furniture steps aside. */
 @media (max-width: 640px) {
   .iter-map__ground-place,

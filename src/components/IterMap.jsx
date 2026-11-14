@@ -32,6 +32,22 @@ const GROUNDS = [
 /* The stage boundaries: a different kind of country under each heading. */
 const DIVIDERS = ['rail', 'ridge', 'river', 'road', 'aqueduct', 'forest', 'wall', 'hedge']
 
+/* Country life for the empty pockets beside each stage: a shepherd, a villa,
+   a temple, an olive grove, a goat, a mountain, the she-wolf, an ox-cart,
+   and a field of ruins. */
+const VIGNETTES = [
+  'pastor',
+  'villa',
+  'temple',
+  'olive',
+  'goat',
+  'mountain',
+  'wolf',
+  'cart',
+  'ruins',
+]
+const NATURE = new Set(['pastor', 'olive', 'goat', 'mountain', 'wolf'])
+
 /* Ghosted places from the Aeneid's world, scattered down the strip map. */
 const PLACES = [
   { at: 0.055, side: 'right', name: 'TROIA' },
@@ -864,6 +880,22 @@ function ViaGround({ width, layout }) {
       ))}
 
       <Aqueduct x={Math.max(12, width - 132)} y={height * 0.56} />
+
+      {gates.map((gate, index) => {
+        const scale = width < 420 ? 0.68 : width < 700 ? 0.84 : 1
+        const offset = 96 + (index % 3) * 16
+        const x = Math.min(Math.max(gate.x - gate.side * offset, 56), width - 56)
+        return (
+          <Vignette
+            key={`vignette-${gate.stage.id}`}
+            kind={VIGNETTES[index % VIGNETTES.length]}
+            x={x}
+            y={gate.y + 12}
+            scale={scale}
+            flip={index % 2 ? 1 : -1}
+          />
+        )
+      })}
     </>
   )
 }
@@ -1034,6 +1066,129 @@ function StageDivider({ kind, width, y, seed }) {
   }
 
   return null
+}
+
+/* A small line drawing from the Roman countryside, sized to sit in the
+   margin of the map without competing with the road. */
+function Vignette({ kind, x, y, scale = 1, flip = 1 }) {
+  let body = null
+
+  if (kind === 'pastor') {
+    body = (
+      <>
+        <path d="M-30 0 H30" opacity="0.45" />
+        <circle cx="-18" cy="-24" r="2" />
+        <path d="M-18 -22 V-12 M-18 -17 L-22 -13 M-18 -17 L-14 -13 M-18 -12 L-21 -6 M-18 -12 L-15 -6" />
+        <path d="M-12 -30 V0 M-12 -30 Q-9 -32 -8 -29" />
+        <path d="M0 -8 Q-2 -12 3 -12 Q8 -13 9 -8 Q10 -5 6 -5 Q2 -4 0 -8 Z" />
+        <circle cx="9" cy="-7" r="1.8" />
+        <path d="M3 -5 V0 M7 -5 V0" />
+        <path d="M14 -4 Q12 -8 17 -8 Q22 -9 23 -4 Q24 -1 20 -1 Q16 0 14 -4 Z" />
+        <circle cx="23" cy="-3" r="1.5" />
+        <path d="M17 -1 V0 M21 -1 V0" />
+      </>
+    )
+  } else if (kind === 'villa') {
+    body = (
+      <>
+        <path d="M-30 0 H30" opacity="0.45" />
+        <path d="M-18 -2 H8 V-14 H-18 Z" />
+        <path d="M-22 -14 L-5 -23 L12 -14 Z" />
+        <path d="M-9 -2 V-9 H-3 V-2" />
+        <path d="M-16 -12 H-12 V-8 H-16 Z" opacity="0.7" />
+        <path d="M-18 -6 H-22 V-2 H-18" />
+        <path d="M18 -2 C14 -8 17 -16 18 -22 C19 -16 22 -8 18 -2 Z" />
+        <path d="M22 -6 V0 M26 -6 V0 M22 -4 H26" opacity="0.7" />
+      </>
+    )
+  } else if (kind === 'temple') {
+    body = (
+      <>
+        <path d="M-30 0 H30" opacity="0.45" />
+        <path d="M-22 -2 H22 V-6 H-22 Z" />
+        <path d="M-18 -6 V-20 M-9 -6 V-20 M0 -6 V-20 M9 -6 V-20 M18 -6 V-20" />
+        <path d="M-22 -20 H22 L0 -31 Z" />
+      </>
+    )
+  } else if (kind === 'olive') {
+    body = (
+      <>
+        <path d="M-30 0 H30" opacity="0.45" />
+        <path d="M-14 0 V-9" />
+        <circle cx="-14" cy="-15" r="7" />
+        <path d="M-14 -15 L-20 -20 M-14 -15 L-8 -21" opacity="0.55" />
+        <path d="M14 0 V-8" />
+        <circle cx="14" cy="-13" r="6" />
+        <path d="M14 -13 L9 -18 M14 -13 L19 -18" opacity="0.55" />
+      </>
+    )
+  } else if (kind === 'goat') {
+    body = (
+      <>
+        <path d="M-30 0 H30" opacity="0.45" />
+        <ellipse cx="0" cy="-9" rx="10" ry="5.5" />
+        <path d="M8 -11 L14 -16 L15 -22" />
+        <path d="M15 -22 Q12 -26 11 -22 M15 -22 Q18 -26 19 -22" />
+        <path d="M-7 -4 V0 M-3 -4 V0 M4 -4 V0 M8 -4 V0" />
+        <path d="M-10 -9 L-15 -12" />
+      </>
+    )
+  } else if (kind === 'mountain') {
+    body = (
+      <>
+        <path d="M-30 0 H30" opacity="0.45" />
+        <path d="M-30 0 L-14 -20 L-2 -8 L12 -26 L30 0 Z" />
+        <path d="M-14 -20 L-10 -14 L-17 -14 Z" opacity="0.55" />
+        <path d="M12 -26 L16 -19 L8 -19 Z" opacity="0.55" />
+      </>
+    )
+  } else if (kind === 'wolf') {
+    body = (
+      <>
+        <path d="M-30 0 H30" opacity="0.45" />
+        <path d="M-16 -4 L-14 -13 L2 -15 L12 -10 L16 -15 L18 -8 L13 -4 Z" />
+        <path d="M-12 -15 L-15 -19 L-9 -17" />
+        <path d="M-14 -4 V0 M-8 -4 V0 M6 -4 V0 M12 -4 V0" />
+        <path d="M-16 -9 L-22 -12" />
+        <circle cx="12" cy="-10" r="0.9" />
+      </>
+    )
+  } else if (kind === 'cart') {
+    body = (
+      <>
+        <path d="M-30 0 H30" opacity="0.45" />
+        <circle cx="-12" cy="-5" r="5" />
+        <circle cx="12" cy="-5" r="5" />
+        <path d="M-20 -9 H18 V-16 H-20 Z" />
+        <path d="M-20 -9 L-25 -13 M18 -9 L23 -13" />
+        <path d="M20 -16 Q28 -20 30 -12 L34 -12" />
+        <path d="M24 -12 V0 M29 -12 V0" />
+        <path d="M30 -14 L33 -18 M30 -14 L34 -10" />
+      </>
+    )
+  } else if (kind === 'ruins') {
+    body = (
+      <>
+        <path d="M-30 0 H30" opacity="0.45" />
+        <path d="M-16 0 V-18 M-10 0 V-12" />
+        <path d="M-20 -18 H-12 M-14 -12 H-6" />
+        <rect x="4" y="-6" width="12" height="4" />
+        <path d="M8 -6 V-2 M12 -6 V-2" />
+        <path d="M18 0 V-10 M22 0 V-10" opacity="0.55" />
+      </>
+    )
+  }
+
+  if (!body) return null
+
+  return (
+    <g
+      className={`iter-map__vignette${NATURE.has(kind) ? ' is-nature' : ''}`}
+      transform={`translate(${x.toFixed(1)} ${y.toFixed(1)}) scale(${flip * scale} ${scale})`}
+    >
+      {body}
+    </g>
+  )
 }
 
 function coastPath(height, seaW) {
