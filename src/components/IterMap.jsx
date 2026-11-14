@@ -817,12 +817,11 @@ function TabulaGround({ width, layout }) {
   )
 }
 
-/* The via itself: a paved roadbed with kerbs, milestones at the stage gates,
-   two rivers with bridges, and an aqueduct in the margin. */
+/* The via itself: a paved roadbed with kerbs, milestones at the stage
+   gates, and an aqueduct in the margin. */
 function ViaGround({ width, layout }) {
-  const { height, d, kerbLeft, kerbRight, roadX, items } = layout
+  const { height, d, kerbLeft, kerbRight, items } = layout
   const gates = items.filter((item) => item.type === 'gate')
-  const rivers = [height * 0.32, height * 0.69]
 
   return (
     <>
@@ -841,18 +840,6 @@ function ViaGround({ width, layout }) {
       <path className="iter-map__ground-kerb" d={kerbLeft} />
       <path className="iter-map__ground-kerb" d={kerbRight} />
 
-      {rivers.map((baseY, index) => {
-        const x = roadX(baseY)
-        const y = riverYAt(x, baseY)
-        return (
-          <g key={`river-${index}`}>
-            <path className="iter-map__ground-river is-water" d={riverPath(width, baseY)} />
-            <path className="iter-map__ground-river" d={riverPath(width, baseY)} />
-            <path className="iter-map__ground-river is-bank" d={riverPath(width, baseY + 6)} />
-            <Bridge x={x} y={y} />
-          </g>
-        )
-      })}
 
       {gates.map((gate, index) => (
         <Milestone
@@ -883,18 +870,6 @@ function coastPath(height, seaW) {
     .join('')
 }
 
-function riverYAt(x, baseY) {
-  return baseY + 8 * Math.sin(x / 62) + 3.5 * Math.sin(x / 23 + 1.1)
-}
-
-function riverPath(width, baseY) {
-  const points = []
-  for (let x = -24; x <= width + 24; x += 18) points.push([x, riverYAt(x, baseY)])
-  return points
-    .map(([x, y], index) => `${index ? 'L' : 'M'}${x.toFixed(1)} ${y.toFixed(1)}`)
-    .join('')
-}
-
 function CompassRose({ x, y }) {
   return (
     <g className="iter-map__ground-compass" transform={`translate(${x} ${y})`}>
@@ -912,16 +887,6 @@ function ScaleBar({ x, y }) {
     <g className="iter-map__ground-scale" transform={`translate(${x} ${y})`}>
       <path d="M0 0 H96 M0 -4 V4 M48 -3 V3 M96 -4 V4" />
       <text x="0" y="-8">MILIA PASSVVM</text>
-    </g>
-  )
-}
-
-function Bridge({ x, y }) {
-  return (
-    <g className="iter-map__ground-bridge" transform={`translate(${x} ${y})`}>
-      <path d="M-14 4 H14" />
-      <path d="M-14 4 Q0 -8 14 4" />
-      <path d="M-10 4 V9 M10 4 V9" />
     </g>
   )
 }
