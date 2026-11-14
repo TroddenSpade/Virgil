@@ -416,12 +416,14 @@ export default function IterMap({ stages, isDone, nextLesson, onToggle }) {
                 }
 
                 if (item.type === 'way') {
+                  if (item.terminal) {
+                    return (
+                      <Finish key={`finish-${index}`} x={item.x} y={item.y} side={item.side} />
+                    )
+                  }
+
                   return (
-                    <g
-                      className={`iter-map__way${item.terminal ? ' is-terminal' : ''}`}
-                      key={`way-${index}`}
-                      aria-hidden="true"
-                    >
+                    <g className="iter-map__way" key={`way-${index}`} aria-hidden="true">
                       <path
                         className="iter-map__way-diamond"
                         d={`M ${item.x - 6} ${item.y} L ${item.x} ${item.y - 6} L ${item.x + 6} ${item.y} L ${item.x} ${item.y + 6} Z`}
@@ -1066,6 +1068,59 @@ function ScaleBar({ x, y }) {
     <g className="iter-map__ground-scale" transform={`translate(${x} ${y})`}>
       <path d="M0 0 H96 M0 -4 V4 M48 -3 V3 M96 -4 V4" />
       <text x="0" y="-8">MILIA PASSVVM</text>
+    </g>
+  )
+}
+
+/* The end of the road: a triumphal gate, a laurel wreath, a sunburst and
+   the word FINIS set larger than the waystation labels. */
+function Finish({ x, y, side }) {
+  const rays = []
+  for (let i = 0; i < 16; i += 1) {
+    const angle = (i / 16) * Math.PI * 2
+    const inner = 17
+    const outer = 28
+    rays.push(
+      `M${(x + Math.cos(angle) * inner).toFixed(1)} ${(y + Math.sin(angle) * inner).toFixed(
+        1,
+      )} L${(x + Math.cos(angle) * outer).toFixed(1)} ${(y + Math.sin(angle) * outer).toFixed(1)}`,
+    )
+  }
+
+  return (
+    <g className="iter-map__finish" aria-hidden="true">
+      <g className="iter-map__finish-rays">
+        {rays.map((d, index) => (
+          <path key={index} d={d} />
+        ))}
+      </g>
+
+      <path
+        className="iter-map__finish-arch"
+        d={`M${x - 20} ${y + 22} V${y - 2} A20 20 0 0 0 ${x + 20} ${y - 2} V${y + 22}`}
+      />
+      <path className="iter-map__finish-base" d={`M${x - 30} ${y + 22} H${x + 30}`} />
+
+      <g className="iter-map__finish-laurel">
+        <path d={`M${x - 7} ${y - 9} Q${x - 16} ${y} ${x - 7} ${y + 9}`} />
+        <path d={`M${x + 7} ${y - 9} Q${x + 16} ${y} ${x + 7} ${y + 9}`} />
+        <path d={`M${x - 11} ${y - 5} l-4 -2 M${x - 14} ${y - 1} l-4 0 M${x - 14} ${y + 3} l-4 0 M${x - 11} ${y + 7} l-4 2`} />
+        <path d={`M${x + 11} ${y - 5} l4 -2 M${x + 14} ${y - 1} l4 0 M${x + 14} ${y + 3} l4 0 M${x + 11} ${y + 7} l4 2`} />
+      </g>
+
+      <path
+        className="iter-map__finish-star"
+        d={`M${x} ${y - 6} L${x + 6} ${y} L${x} ${y + 6} L${x - 6} ${y} Z`}
+      />
+
+      <text
+        className="iter-map__finish-label"
+        x={x + side * 34}
+        y={y + 6}
+        textAnchor={side < 0 ? 'end' : 'start'}
+      >
+        FINIS
+      </text>
     </g>
   )
 }
