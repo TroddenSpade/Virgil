@@ -59,81 +59,62 @@ export default function Home() {
   return (
     <>
       <section className="hero">
-        {/* The plate fills the left half: the poet's opening beside his
-            likeness. Decorative — the reading text is in the copy. */}
-        <div className="hero__inner">
-          <div className="hero__art" aria-hidden="true">
-            <div className="hero__art-poem">
-              <p className="hero__art-label">Aeneis · Liber I</p>
-              <p className="hero__art-verses" lang="la">
-                Arma virumque canō, Troiae quī prīmus ab ōrīs
-                <br />
-                Ītaliam fātō profugus Lāvīniaque vēnit
-                <br />
-                lītora, multum ille et terrīs iactātus et altō
-                <br />
-                vī superum saevae memorem Iūnōnis ob īram;
-                <br />
-                multa quoque et bellō passus, dum conderet urbem
-                <br />
-                īnferretque deōs Latiō, genus unde Latīnum
-                <br />
-                Albānīque patrēs atque altae moenia Rōmae.
-              </p>
-              <p className="hero__art-ref">I.1–7</p>
+        <div className="container">
+          {/* The framed leaf: the dedicatory box, with the poet's sketch
+              faintly engraved behind the copy. */}
+          <div className="hero__plate rise">
+            <span className="hero__sketch" aria-hidden="true" />
+
+            <div className="hero__inner">
+              <div className="hero__copy">
+                <Incipit label="Lingua Latina" note="Per Sē Illūstrāta" />
+                <h1 className="hero__title">
+                  Learn Latin,
+                  <br />
+                  and arrive at <em>Virgil</em>.
+                </h1>
+                <p className="hero__lead lead">
+                  Virgil is a Latin reading project. You begin with the first sentence of Ørberg’s{' '}
+                  <em>Familia Romana</em> — <span className="latin">Roma in Italiā est</span> — and, chapter by
+                  chapter, read your way toward the poetry of the <em>Aeneid</em>. No translation. No memorising
+                  word lists before you read. Just Latin, understood from the very first page.
+                </p>
+                <div className="hero__actions">
+                  <Link
+                    className="btn btn--primary"
+                    to={`/library/${familiaRomanaBook.slug}/${firstChapter.slug}`}
+                  >
+                    Begin Capitulum I →
+                  </Link>
+                  <Link className="btn btn--ghost" to="/iter">
+                    Open the itinerary
+                  </Link>
+                </div>
+              </div>
             </div>
 
-            <figure className="hero__art-figure">
-              <span className="hero__art-sketch" />
-              <figcaption className="hero__art-caption">
-                <span className="hero__art-name">PVBLIVS VERGILIVS MARO</span>
-                <span className="hero__art-dates">70–19 BC · Mantua</span>
-              </figcaption>
-            </figure>
-          </div>
-
-          <div className="hero__copy">
-            <p className="hero__inscription rise">
-              <span>Lingua Latina</span>
+            <dl className="hero__stats">
+              <div className="hero__stat">
+                <dt>Books</dt>
+                <dd>{bookCount}</dd>
+              </div>
+              <div className="hero__stat">
+                <dt>Texts &amp; chapters</dt>
+                <dd>{textCount}</dd>
+              </div>
+              <div className="hero__stat">
+                <dt>Itinerary lessons</dt>
+                <dd>{iterLessonCount}</dd>
+              </div>
+              <div className="hero__stat">
+                <dt>Stages</dt>
+                <dd>{stageCount}</dd>
+              </div>
+            </dl>
+            <p className="hero__note">
+              An installable, offline reading app — {textCount} texts across {bookCount} books, and one road
+              of {iterLessonCount} lessons to the <em>Aeneid</em>.
             </p>
-            <h1 className="hero__title rise">
-              Learn Latin,
-              <br />
-              and arrive at
-              <br />
-              <em>Virgil</em>.
-            </h1>
-            <p className="hero__lead lead rise">
-              Virgil is a Latin reading project. You begin with the first sentence of Ørberg’s{' '}
-              <em>Familia Romana</em> — <span className="latin">Roma in Italiā est</span> — and, chapter by
-              chapter, read your way toward the poetry of the <em>Aeneid</em>. No translation. No memorising
-              word lists before you read. Just Latin, understood from the very first page.
-            </p>
-            <div className="hero__actions rise">
-              <Link
-                className="btn btn--primary"
-                to={`/library/${familiaRomanaBook.slug}/${firstChapter.slug}`}
-              >
-                Begin Capitulum I →
-              </Link>
-              <Link className="btn btn--ghost" to="/iter">
-                Open the itinerary
-              </Link>
-            </div>
-            <ul className="hero__meta rise">
-              <li>
-                <strong>{bookCount}</strong> books
-              </li>
-              <li>
-                <strong>{textCount}</strong> texts &amp; chapters
-              </li>
-              <li>
-                <strong>{iterLessonCount}</strong> itinerary lessons
-              </li>
-              <li>
-                <strong>{stageCount}</strong> stages
-              </li>
-            </ul>
           </div>
         </div>
       </section>
