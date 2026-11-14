@@ -25,13 +25,61 @@
   overflow: hidden;
 }
 
-/* The poet, faintly engraved behind the leaf — the sketch stands in for
-   the old medallion portrait. */
+/* The engraving behind the leaf: the opening of the Aeneid at its left,
+   the poet's sketch at its right. */
+.hero__engraving {
+  --sketch-w: clamp(13rem, 26vw, 22rem);
+  --sketch-overhang: 1.5rem;
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Aeneis I.1-7, set as a faint marginal column left of the sketch. */
+.hero__verses {
+  position: absolute;
+  top: 50%;
+  right: calc(
+    var(--sketch-w) - var(--sketch-overhang) + clamp(1.2rem, 2.5vw, 2.2rem)
+  );
+  width: clamp(11rem, 17vw, 16rem);
+  transform: translateY(-50%);
+  text-align: right;
+  opacity: 0.1;
+}
+.hero__verses-label {
+  margin: 0 0 0.7rem;
+  font-family: var(--font-ui);
+  font-size: 0.5rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--bronze);
+}
+.hero__verses-text {
+  margin: 0;
+  font-family: var(--font-latin);
+  font-style: italic;
+  font-size: clamp(0.6rem, 0.55rem + 0.12vw, 0.7rem);
+  line-height: 1.85;
+  color: var(--ink);
+}
+.hero__verses-ref {
+  margin: 0.7rem 0 0;
+  font-family: var(--font-ui);
+  font-size: 0.48rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: var(--bronze);
+}
+
+/* The poet, faintly engraved: the sketch stands in for the old medallion. */
 .hero__sketch {
   position: absolute;
   top: 50%;
-  right: clamp(-1.5rem, -0.5vw, 0rem);
-  width: clamp(13rem, 26vw, 22rem);
+  right: calc(var(--sketch-overhang) * -1);
+  width: var(--sketch-w);
   aspect-ratio: 764 / 1000;
   transform: translateY(-50%);
   background: var(--bronze);
@@ -44,8 +92,6 @@
   mask-position: center;
   -webkit-mask-size: contain;
   mask-size: contain;
-  pointer-events: none;
-  z-index: 0;
 }
 
 /* A soft patina glow washes the leaf from one corner. */
@@ -74,7 +120,7 @@
   pointer-events: none;
 }
 
-.hero__plate > :not(.hero__sketch) {
+.hero__plate > :not(.hero__engraving) {
   position: relative;
   z-index: 1;
 }
@@ -916,11 +962,28 @@
 
 /* ---------- Small screens ---------- */
 
-/* The sketch steps closer to the copy as the leaf narrows. */
+/* The engraving draws in as the leaf narrows. */
+@media (max-width: 1080px) {
+  .hero__engraving {
+    --sketch-w: clamp(12rem, 26vw, 18rem);
+  }
+  .hero__verses {
+    width: clamp(9.5rem, 16vw, 13rem);
+    opacity: 0.075;
+  }
+}
+
 @media (max-width: 900px) {
-  .hero__sketch {
-    width: clamp(11rem, 28vw, 16rem);
-    opacity: 0.07;
+  .hero__engraving {
+    --sketch-w: clamp(11rem, 28vw, 16rem);
+  }
+  .hero__verses {
+    width: clamp(9rem, 16vw, 11.5rem);
+    opacity: 0.055;
+  }
+  .hero__verses-text {
+    font-size: 0.52rem;
+    line-height: 1.6;
   }
 }
 
@@ -931,13 +994,29 @@
   .hero__plate {
     padding: 1.35rem 1.2rem 1.45rem;
   }
+  .hero__engraving {
+    --sketch-w: 8.5rem;
+    --sketch-overhang: 2.1rem;
+  }
   /* On a phone the sketch sits in the top corner, barely there. */
   .hero__sketch {
     top: 0.7rem;
-    right: -2.1rem;
-    width: 8.5rem;
     transform: none;
     opacity: 0.06;
+  }
+  /* The verses step to the top-left, away from the sketch. */
+  .hero__verses {
+    top: 0.9rem;
+    right: auto;
+    left: 1rem;
+    width: 8.75rem;
+    transform: none;
+    text-align: left;
+    opacity: 0.055;
+  }
+  .hero__verses-text {
+    font-size: 0.48rem;
+    line-height: 1.55;
   }
   .hero__title {
     font-size: clamp(2.35rem, 11vw, 3.4rem);

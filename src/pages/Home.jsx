@@ -63,7 +63,28 @@ export default function Home() {
           {/* The framed leaf: the dedicatory box, with the poet's sketch
               faintly engraved behind the copy. */}
           <div className="hero__plate rise">
-            <span className="hero__sketch" aria-hidden="true" />
+            <div className="hero__engraving" aria-hidden="true">
+              <div className="hero__verses">
+                <p className="hero__verses-label">Aeneis · Liber I</p>
+                <p className="hero__verses-text" lang="la">
+                  Arma virumque canō, Troiae quī prīmus ab ōrīs
+                  <br />
+                  Ītaliam fātō profugus Lāvīniaque vēnit
+                  <br />
+                  lītora, multum ille et terrīs iactātus et altō
+                  <br />
+                  vī superum saevae memorem Iūnōnis ob īram;
+                  <br />
+                  multa quoque et bellō passus, dum conderet urbem
+                  <br />
+                  īnferretque deōs Latiō, genus unde Latīnum
+                  <br />
+                  Albānīque patrēs atque altae moenia Rōmae.
+                </p>
+                <p className="hero__verses-ref">I.1–7</p>
+              </div>
+              <span className="hero__sketch" />
+            </div>
 
             <div className="hero__inner">
               <div className="hero__copy">
