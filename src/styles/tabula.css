@@ -29,7 +29,7 @@
    the poet's sketch at its right. */
 .hero__engraving {
   --sketch-w: clamp(13rem, 26vw, 22rem);
-  --sketch-overhang: 1.5rem;
+  --sketch-right: clamp(0.5rem, 1.1vw, 1.1rem);
   position: absolute;
   inset: 0;
   pointer-events: none;
@@ -41,7 +41,7 @@
   position: absolute;
   top: 50%;
   right: calc(
-    var(--sketch-w) - var(--sketch-overhang) + clamp(1.2rem, 2.5vw, 2.2rem)
+    var(--sketch-right) + var(--sketch-w) + clamp(1.2rem, 2.5vw, 2.2rem)
   );
   width: clamp(11rem, 17vw, 16rem);
   transform: translateY(-50%);
@@ -78,7 +78,7 @@
 .hero__sketch {
   position: absolute;
   top: 50%;
-  right: calc(var(--sketch-overhang) * -1);
+  right: var(--sketch-right);
   width: var(--sketch-w);
   aspect-ratio: 764 / 1000;
   transform: translateY(-50%);
@@ -995,8 +995,8 @@
     padding: 1.35rem 1.2rem 1.45rem;
   }
   .hero__engraving {
-    --sketch-w: 8.5rem;
-    --sketch-overhang: 2.1rem;
+    --sketch-w: 7.5rem;
+    --sketch-right: 0.4rem;
   }
   /* On a phone the sketch sits in the top corner, barely there. */
   .hero__sketch {
@@ -1009,7 +1009,7 @@
     top: 0.9rem;
     right: auto;
     left: 1rem;
-    width: 8.75rem;
+    width: 7rem;
     transform: none;
     text-align: left;
     opacity: 0.055;
