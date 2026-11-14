@@ -4291,6 +4291,74 @@ button.lesson__keywords-label:focus-visible {
   opacity: 0.24;
 }
 
+/* Stage dividers: a different kind of country under each stage heading. */
+.iter-map__divider {
+  pointer-events: none;
+  fill: none;
+  stroke: var(--bronze);
+  stroke-width: 1;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.iter-map__divider path {
+  fill: none;
+  stroke: inherit;
+}
+.iter-map__divider.is-rail {
+  opacity: 0.22;
+}
+.iter-map__divider.is-rail path:nth-child(n + 3) {
+  stroke-width: 0.7;
+  opacity: 0.7;
+}
+.iter-map__divider.is-ridge {
+  stroke: var(--patina);
+}
+.iter-map__divider.is-ridge .is-back {
+  opacity: 0.1;
+}
+.iter-map__divider.is-ridge .is-front {
+  opacity: 0.22;
+  fill: var(--patina);
+  fill-opacity: 0.05;
+}
+.iter-map__divider.is-river {
+  stroke: var(--patina);
+  opacity: 0.2;
+}
+.iter-map__divider.is-river .is-bank {
+  opacity: 0.55;
+  stroke-dasharray: 1 5;
+}
+.iter-map__divider.is-road {
+  opacity: 0.2;
+}
+.iter-map__divider.is-road .is-dash {
+  opacity: 0.65;
+  stroke-dasharray: 2 7;
+}
+.iter-map__divider.is-aqueduct {
+  opacity: 0.18;
+}
+.iter-map__divider.is-forest {
+  stroke: var(--patina);
+  opacity: 0.16;
+}
+.iter-map__divider.is-forest path {
+  fill: var(--patina);
+  fill-opacity: 0.55;
+}
+.iter-map__divider.is-wall {
+  opacity: 0.16;
+}
+.iter-map__divider.is-hedge {
+  stroke: var(--patina);
+  opacity: 0.16;
+}
+.iter-map__divider.is-hedge path:last-child {
+  opacity: 0.5;
+}
+
 /* Phones keep the road clear: the cartographic furniture steps aside. */
 @media (max-width: 640px) {
   .iter-map__ground-place,

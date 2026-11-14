@@ -29,6 +29,9 @@ const GROUNDS = [
   ['plain', 'Plain'],
 ]
 
+/* The stage boundaries: a different kind of country under each heading. */
+const DIVIDERS = ['rail', 'ridge', 'river', 'road', 'aqueduct', 'forest', 'wall', 'hedge']
+
 /* Ghosted places from the Aeneid's world, scattered down the strip map. */
 const PLACES = [
   { at: 0.055, side: 'right', name: 'TROIA' },
@@ -834,6 +837,16 @@ function ViaGround({ width, layout }) {
         </pattern>
       </defs>
 
+      {gates.map((gate, index) => (
+        <StageDivider
+          key={`divider-${gate.stage.id}`}
+          kind={DIVIDERS[index % DIVIDERS.length]}
+          width={width}
+          y={gate.y + 34}
+          seed={index}
+        />
+      ))}
+
       <path className="iter-map__ground-shoulder" d={d} />
       <path className="iter-map__ground-bed-base" d={d} />
       <path className="iter-map__ground-bed" d={d} stroke="url(#iter-paving)" />
@@ -853,6 +866,133 @@ function ViaGround({ width, layout }) {
       <Aqueduct x={Math.max(12, width - 132)} y={height * 0.56} />
     </>
   )
+}
+
+/* One stage boundary: a rail line, a ridge, a river, a via, an aqueduct,
+   a wood, a wall or a hedge, drawn faintly across the strip map. */
+function StageDivider({ kind, width, y, seed }) {
+  if (kind === 'rail') {
+    const sleepers = []
+    for (let x = 6; x < width; x += 24) sleepers.push(x)
+    return (
+      <g className="iter-map__divider is-rail">
+        <path d={`M0 ${y - 2.5} H${width} M0 ${y + 2.5} H${width}`} />
+        {sleepers.map((x) => (
+          <path key={x} d={`M${x} ${y - 6} V${y + 6}`} />
+        ))}
+      </g>
+    )
+  }
+
+  if (kind === 'ridge') {
+    const ridge = (base, amp, gap, phase) => {
+      const points = []
+      let i = 0
+      for (let x = -gap; x <= width + gap; x += gap) {
+        const h = amp * (0.45 + 0.55 * Math.abs(Math.sin(seed * 1.9 + phase + i * 1.21)))
+        points.push([x, base])
+        points.push([x + gap / 2, base - h])
+        i += 1
+      }
+      points.push([width + gap, base])
+      return points
+        .map(([px, py], idx) => `${idx ? 'L' : 'M'}${px.toFixed(1)} ${py.toFixed(1)}`)
+        .join('')
+    }
+    return (
+      <g className="iter-map__divider is-ridge">
+        <path className="is-back" d={ridge(y + 2, 9, 78, 0.7)} />
+        <path className="is-front" d={ridge(y + 4, 15, 54, 0.2)} />
+      </g>
+    )
+  }
+
+  if (kind === 'river') {
+    const wave = (base, amp, phase) => {
+      let d = `M0 ${base}`
+      for (let x = 14; x <= width; x += 14) {
+        d += ` L${x} ${(base + Math.sin(x / 52 + phase) * amp).toFixed(1)}`
+      }
+      return d
+    }
+    return (
+      <g className="iter-map__divider is-river">
+        <path d={wave(y, 4, 0.4)} />
+        <path d={wave(y + 5, 3.2, 1.25)} />
+        <path className="is-bank" d={wave(y - 4.5, 2.4, 2.1)} />
+      </g>
+    )
+  }
+
+  if (kind === 'road') {
+    return (
+      <g className="iter-map__divider is-road">
+        <path d={`M0 ${y - 3} H${width} M0 ${y + 3} H${width}`} />
+        <path className="is-dash" d={`M0 ${y} H${width}`} />
+      </g>
+    )
+  }
+
+  if (kind === 'aqueduct') {
+    const bays = []
+    for (let x = 0; x < width; x += 30) bays.push(x)
+    return (
+      <g className="iter-map__divider is-aqueduct">
+        <path d={`M0 ${y} H${width}`} />
+        {bays.map((x) => (
+          <path key={x} d={`M${x} ${y} V${y + 15} A15 15 0 0 0 ${x + 30} ${y + 15} V${y}`} />
+        ))}
+      </g>
+    )
+  }
+
+  if (kind === 'forest') {
+    const trees = []
+    for (let x = 14; x < width - 8; x += 40) {
+      const h = 9 + ((x * 7 + seed * 23) % 6)
+      trees.push(
+        <path
+          key={x}
+          d={`M${x} ${y + 8} L${x - 5} ${y + 3} L${x - 2} ${y + 3} L${x - 6} ${y - 4} L${x} ${
+            y - h
+          } L${x + 6} ${y - 4} L${x + 2} ${y + 3} L${x + 5} ${y + 3} Z`}
+        />,
+      )
+    }
+    return (
+      <g className="iter-map__divider is-forest">
+        <path d={`M0 ${y + 8} H${width}`} />
+        {trees}
+      </g>
+    )
+  }
+
+  if (kind === 'wall') {
+    const merlons = []
+    for (let x = 0; x < width; x += 20) merlons.push(x)
+    return (
+      <g className="iter-map__divider is-wall">
+        <path d={`M0 ${y + 6} H${width}`} />
+        <path d={`M0 ${y + 1} H${width}`} />
+        {merlons.map((x) => (
+          <path key={x} d={`M${x + 4} ${y + 1} V${y - 4} H${x + 12} V${y + 1}`} />
+        ))}
+      </g>
+    )
+  }
+
+  if (kind === 'hedge') {
+    let d = `M0 ${y + 5}`
+    for (let x = 0; x < width; x += 26) d += ' q13 -13 26 0'
+    return (
+      <g className="iter-map__divider is-hedge">
+        <path d={d} />
+        <path d={`M0 ${y + 9} H${width}`} />
+      </g>
+    )
+  }
+
+  return null
 }
 
 function coastPath(height, seaW) {
